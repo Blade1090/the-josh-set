@@ -1,1 +1,1 @@
-{"name":"The Josh Set","short_name":"Josh Set","start_url":"./","scope":"./","display":"standalone","background_color":"#0d1016","theme_color":"#0d1016","orientation":"portrait-primary","icons":[]}
+{"name":"The Josh Set","short_name":"Josh Set","id":"./","start_url":"./","scope":"./","display":"standalone","background_color":"#0d1016","theme_color":"#0d1016","orientation":"portrait-primary","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
