@@ -21,9 +21,16 @@ function preferredCollectionFor(x){
   for(const p of idx.values()){if(seen.has(p.key))continue;seen.add(p.key);const ids=[...new Set(p.ids)].filter(id=>byId.get(id)?.set==='INCLUDED');if(ids.length>1&&ids.includes(x.id))choices.push({p,count:ids.length,owned:productSet.has(p.key)})}
   choices.sort((a,b)=>(a.owned-b.owned)||(b.count-a.count)||a.p.title.localeCompare(b.p.title));return choices[0]||null;
 }
-// Override the base renderer: when searching, show the most useful box first rather than raw alphabetic census order.
+// Default ALL is the actionable shelf: included identities + useful collection products.
+// Excluded records stay searchable only when the EXCLUDED filter is explicitly selected.
 function render(){
-  const q=norm($('#q').value);let rows=items.filter(x=>(!q||x.search.includes(q))&&(filter==='ALL'||effectiveStatus(x)===filter));
+  const q=norm($('#q').value);let rows=items.filter(x=>{
+    if(q&&!x.search.includes(q))return false;
+    const st=effectiveStatus(x);
+    if(filter==='EXCLUDED')return x.set==='EXCLUDED';
+    if(filter==='ALL')return x.set!=='EXCLUDED';
+    return x.set!=='EXCLUDED'&&st===filter;
+  });
   if(q)rows.sort((a,b)=>acquisitionRank(a,q)-acquisitionRank(b,q)||a.title.localeCompare(b.title));rows=rows.slice(0,70);
   $('#results').innerHTML=rows.map(x=>{const c=collectionInfo(x),st=effectiveStatus(x),pref=!c&&st==='NEEDED'?preferredCollectionFor(x):null;let label,sub;
     if(c){label=c.owned?'OWNED · COLLECTION':'BEST WAY TO BUY';sub=`${c.owned?'On your shelf · ':''}Covers ${c.covered.length} game identities`;}
