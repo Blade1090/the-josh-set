@@ -22,25 +22,29 @@ function preferredCollectionFor(x){
   choices.sort((a,b)=>(a.owned-b.owned)||(b.count-a.count)||a.p.title.localeCompare(b.p.title));return choices[0]||null;
 }
 function matchingCollectionProducts(q){
-  if(!q||filter==='EXCLUDED')return[];const idx=ensureMergedProducts(),seen=new Set(),out=[];
+  if(!q||filter==='EXCLUDED'||filter==='HUNT')return[];const idx=ensureMergedProducts(),seen=new Set(),out=[];
   for(const p of idx.values()){if(seen.has(p.key))continue;seen.add(p.key);const covered=[...new Set(p.ids)].map(id=>byId.get(id)).filter(x=>x?.set==='INCLUDED');if(covered.length<2)continue;const owned=productSet.has(p.key);if(filter==='OWNED'&&!owned)continue;if(filter==='NEEDED'&&owned)continue;if(!covered.some(x=>x.search.includes(q))&&!norm(p.title).includes(q))continue;out.push({p,covered,owned});}
   return out.sort((a,b)=>(a.owned-b.owned)||(b.covered.length-a.covered.length)||a.p.title.localeCompare(b.p.title));
 }
+function huntSub(x){const p=priceFor(x),h=typeof hltbFor==='function'?hltbFor(x):null,parts=[];if(p){parts.push(`STRONG ${money(p.s)}`);parts.push(`TARGET ${money(p.g)}`);parts.push(`CIB ${money(p.m)}`)}const hrs=h&&(h.a??h.e??h.c);if(hrs!=null)parts.push(`~${Number(hrs).toFixed(1)}h`);const pref=preferredCollectionFor(x);if(pref&&!pref.owned)parts.push(`collection covers ${pref.count}`);return parts.join(' · ')}
 // Default ALL is the actionable shelf. Excluded records only appear when explicitly requested.
-// Collection products are surfaced as first-class acquisition results when they satisfy the search.
+// HUNT is the priced acquisition queue: needed games ordered by the cheapest target price.
 function render(){
   const q=norm($('#q').value);let all=items.filter(x=>{
     if(q&&!x.search.includes(q))return false;const st=effectiveStatus(x);
+    if(filter==='HUNT')return x.set==='INCLUDED'&&st==='NEEDED'&&!!priceFor(x);
     if(filter==='EXCLUDED')return x.set==='EXCLUDED';if(filter==='ALL')return x.set!=='EXCLUDED';return x.set!=='EXCLUDED'&&st===filter;
   });
-  if(q)all.sort((a,b)=>acquisitionRank(a,q)-acquisitionRank(b,q)||a.title.localeCompare(b.title));const rows=all.slice(0,visibleLimit);
-  const products=matchingCollectionProducts(q),shownProducts=new Set(products.map(c=>c.p.key));
+  if(filter==='HUNT')all.sort((a,b)=>{const pa=priceFor(a),pb=priceFor(b),ta=pa?.g??pa?.m??Infinity,tb=pb?.g??pb?.m??Infinity;return ta-tb||a.title.localeCompare(b.title)});
+  else if(q)all.sort((a,b)=>acquisitionRank(a,q)-acquisitionRank(b,q)||a.title.localeCompare(b.title));
+  const rows=all.slice(0,visibleLimit),products=matchingCollectionProducts(q),shownProducts=new Set(products.map(c=>c.p.key));
   const productHtml=products.map(c=>`<article class="card"><div class="top"><b>${esc(c.p.title)}</b><span class="badge ${c.owned?'OWNED':'NEEDED'}">${c.owned?'OWNED · COLLECTION':'BEST WAY TO BUY'}</span></div><div class="sub">${c.owned?'On your shelf · ':''}Covers ${c.covered.length} game identities</div></article>`).join('');
   const rowHtml=rows.filter(x=>{const c=collectionInfo(x);return !c||!shownProducts.has(c.product.key)}).map(x=>{const c=collectionInfo(x),st=effectiveStatus(x),pref=!c&&st==='NEEDED'?preferredCollectionFor(x):null;let label,sub;
     if(c){label=c.owned?'OWNED · COLLECTION':'BEST WAY TO BUY';sub=`${c.owned?'On your shelf · ':''}Covers ${c.covered.length} game identities`;}
+    else if(filter==='HUNT'){label='TARGET';sub=huntSub(x)}
     else{label=st;sub=st==='OWNED'?'On your shelf':x.set==='EXCLUDED'?'Outside Josh Set':pref?`Look for ${pref.p.title} first · covers ${pref.count}`:'Tap for details';}
     return `<article class="card" onclick="detail(${x.id})"><div class="top"><b>${esc(x.title)}</b><span class="badge ${st}">${label}</span></div><div class="sub">${esc(sub)}</div></article>`}).join('');
-  const more=all.length>rows.length?`<button id="loadMore" style="width:100%;margin:14px 0;padding:14px">LOAD MORE · ${rows.length} / ${all.length}</button>`:all.length?`<p class="muted" style="text-align:center">Showing all ${all.length} results.</p>`:'';
+  const more=all.length>rows.length?`<button id="loadMore" style="width:100%;margin:14px 0;padding:14px">LOAD MORE · ${rows.length} / ${all.length}</button>`:all.length?`<p class="muted" style="text-align:center">${filter==='HUNT'?'Showing all priced hunt targets.':`Showing all ${all.length} results.`}</p>`:'';
   $('#results').innerHTML=productHtml+rowHtml+more||'<p class="muted">Nothing matched.</p>';const b=$('#loadMore');if(b)b.onclick=()=>{visibleLimit+=100;render()};
 }
 async function importCSV(f){
