@@ -26,16 +26,18 @@ function matchingCollectionProducts(q){
   for(const p of idx.values()){if(seen.has(p.key))continue;seen.add(p.key);const covered=[...new Set(p.ids)].map(id=>byId.get(id)).filter(x=>x?.set==='INCLUDED');if(covered.length<2)continue;const owned=productSet.has(p.key);if(filter==='OWNED'&&!owned)continue;if(filter==='NEEDED'&&owned)continue;if(!covered.some(x=>x.search.includes(q))&&!norm(p.title).includes(q))continue;out.push({p,covered,owned});}
   return out.sort((a,b)=>(a.owned-b.owned)||(b.covered.length-a.covered.length)||a.p.title.localeCompare(b.p.title));
 }
-function huntSub(x){const p=priceFor(x),h=typeof hltbFor==='function'?hltbFor(x):null,parts=[];if(p){parts.push(`STRONG ${money(p.s)}`);parts.push(`TARGET ${money(p.g)}`);parts.push(`CIB ${money(p.m)}`)}const hrs=h&&(h.a??h.e??h.c);if(hrs!=null)parts.push(`~${Number(hrs).toFixed(1)}h`);const pref=preferredCollectionFor(x);if(pref&&!pref.owned)parts.push(`collection covers ${pref.count}`);return parts.join(' · ')}
+function validPrice(v){const n=Number(v);return Number.isFinite(n)&&n>0?n:null}
+function huntPrice(x){const p=priceFor(x);if(!p)return null;const target=validPrice(p.g),market=validPrice(p.m),strong=validPrice(p.s);if(!target&&!market&&!strong)return null;return{p,target,market,strong,rank:target||market||strong}}
+function huntSub(x){const hp=huntPrice(x),h=typeof hltbFor==='function'?hltbFor(x):null,parts=[];if(hp){if(hp.strong)parts.push(`STRONG ${money(hp.strong)}`);if(hp.target)parts.push(`TARGET ${money(hp.target)}`);if(hp.market)parts.push(`CIB ${money(hp.market)}`)}const hrs=h&&(h.a??h.e??h.c);if(hrs!=null)parts.push(`~${Number(hrs).toFixed(1)}h`);const pref=preferredCollectionFor(x);if(pref&&!pref.owned)parts.push(`collection covers ${pref.count}`);return parts.join(' · ')}
 // Default ALL is the actionable shelf. Excluded records only appear when explicitly requested.
-// HUNT is the priced acquisition queue: needed games ordered by the cheapest target price.
+// HUNT is the priced acquisition queue: needed games ordered by the cheapest valid target/market price.
 function render(){
   const q=norm($('#q').value);let all=items.filter(x=>{
     if(q&&!x.search.includes(q))return false;const st=effectiveStatus(x);
-    if(filter==='HUNT')return x.set==='INCLUDED'&&st==='NEEDED'&&!!priceFor(x);
+    if(filter==='HUNT')return x.set==='INCLUDED'&&st==='NEEDED'&&!!huntPrice(x);
     if(filter==='EXCLUDED')return x.set==='EXCLUDED';if(filter==='ALL')return x.set!=='EXCLUDED';return x.set!=='EXCLUDED'&&st===filter;
   });
-  if(filter==='HUNT')all.sort((a,b)=>{const pa=priceFor(a),pb=priceFor(b),ta=pa?.g??pa?.m??Infinity,tb=pb?.g??pb?.m??Infinity;return ta-tb||a.title.localeCompare(b.title)});
+  if(filter==='HUNT')all.sort((a,b)=>huntPrice(a).rank-huntPrice(b).rank||a.title.localeCompare(b.title));
   else if(q)all.sort((a,b)=>acquisitionRank(a,q)-acquisitionRank(b,q)||a.title.localeCompare(b.title));
   const rows=all.slice(0,visibleLimit),products=matchingCollectionProducts(q),shownProducts=new Set(products.map(c=>c.p.key));
   const productHtml=products.map(c=>`<article class="card"><div class="top"><b>${esc(c.p.title)}</b><span class="badge ${c.owned?'OWNED':'NEEDED'}">${c.owned?'OWNED · COLLECTION':'BEST WAY TO BUY'}</span></div><div class="sub">${c.owned?'On your shelf · ':''}Covers ${c.covered.length} game identities</div></article>`).join('');
