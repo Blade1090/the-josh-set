@@ -1,0 +1,1 @@
+(()=>{let tries=0;const apply=()=>{tries++;if(typeof DOSSIERS==='undefined'||typeof DOSSIER_OVERRIDES==='undefined'||!dossiersReady){if(tries<80)setTimeout(apply,100);return}for(const d of DOSSIER_OVERRIDES)DOSSIERS.set(norm(d.t),d);auditDossiers();console.log(`ShelfCheck: applied ${DOSSIER_OVERRIDES.length} researched dossier overrides`,DOSSIER_AUDIT)};apply()})();
