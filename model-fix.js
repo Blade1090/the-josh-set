@@ -21,21 +21,26 @@ function preferredCollectionFor(x){
   for(const p of idx.values()){if(seen.has(p.key))continue;seen.add(p.key);const ids=[...new Set(p.ids)].filter(id=>byId.get(id)?.set==='INCLUDED');if(ids.length>1&&ids.includes(x.id))choices.push({p,count:ids.length,owned:productSet.has(p.key)})}
   choices.sort((a,b)=>(a.owned-b.owned)||(b.count-a.count)||a.p.title.localeCompare(b.p.title));return choices[0]||null;
 }
-// Default ALL is the actionable shelf: included identities + useful collection products.
-// Excluded records stay searchable only when the EXCLUDED filter is explicitly selected.
+function matchingCollectionProducts(q){
+  if(!q||filter==='EXCLUDED')return[];const idx=ensureMergedProducts(),seen=new Set(),out=[];
+  for(const p of idx.values()){if(seen.has(p.key))continue;seen.add(p.key);const covered=[...new Set(p.ids)].map(id=>byId.get(id)).filter(x=>x?.set==='INCLUDED');if(covered.length<2)continue;const owned=productSet.has(p.key);if(filter==='OWNED'&&!owned)continue;if(filter==='NEEDED'&&owned)continue;if(!covered.some(x=>x.search.includes(q))&&!norm(p.title).includes(q))continue;out.push({p,covered,owned});}
+  return out.sort((a,b)=>(a.owned-b.owned)||(b.covered.length-a.covered.length)||a.p.title.localeCompare(b.p.title));
+}
+// Default ALL is the actionable shelf. Excluded records only appear when explicitly requested.
+// Collection products are surfaced as first-class acquisition results when they satisfy the search.
 function render(){
   const q=norm($('#q').value);let rows=items.filter(x=>{
-    if(q&&!x.search.includes(q))return false;
-    const st=effectiveStatus(x);
-    if(filter==='EXCLUDED')return x.set==='EXCLUDED';
-    if(filter==='ALL')return x.set!=='EXCLUDED';
-    return x.set!=='EXCLUDED'&&st===filter;
+    if(q&&!x.search.includes(q))return false;const st=effectiveStatus(x);
+    if(filter==='EXCLUDED')return x.set==='EXCLUDED';if(filter==='ALL')return x.set!=='EXCLUDED';return x.set!=='EXCLUDED'&&st===filter;
   });
   if(q)rows.sort((a,b)=>acquisitionRank(a,q)-acquisitionRank(b,q)||a.title.localeCompare(b.title));rows=rows.slice(0,70);
-  $('#results').innerHTML=rows.map(x=>{const c=collectionInfo(x),st=effectiveStatus(x),pref=!c&&st==='NEEDED'?preferredCollectionFor(x):null;let label,sub;
+  const products=matchingCollectionProducts(q),shownProducts=new Set(products.map(c=>c.p.key));
+  const productHtml=products.map(c=>`<article class="card"><div class="top"><b>${esc(c.p.title)}</b><span class="badge ${c.owned?'OWNED':'NEEDED'}">${c.owned?'OWNED · COLLECTION':'BEST WAY TO BUY'}</span></div><div class="sub">${c.owned?'On your shelf · ':''}Covers ${c.covered.length} game identities</div></article>`).join('');
+  const rowHtml=rows.filter(x=>{const c=collectionInfo(x);return !c||!shownProducts.has(c.product.key)}).map(x=>{const c=collectionInfo(x),st=effectiveStatus(x),pref=!c&&st==='NEEDED'?preferredCollectionFor(x):null;let label,sub;
     if(c){label=c.owned?'OWNED · COLLECTION':'BEST WAY TO BUY';sub=`${c.owned?'On your shelf · ':''}Covers ${c.covered.length} game identities`;}
     else{label=st;sub=st==='OWNED'?'On your shelf':x.set==='EXCLUDED'?'Outside Josh Set':pref?`Look for ${pref.p.title} first · covers ${pref.count}`:'Tap for details';}
-    return `<article class="card" onclick="detail(${x.id})"><div class="top"><b>${esc(x.title)}</b><span class="badge ${st}">${label}</span></div><div class="sub">${esc(sub)}</div></article>`}).join('')||'<p class="muted">Nothing matched.</p>';
+    return `<article class="card" onclick="detail(${x.id})"><div class="top"><b>${esc(x.title)}</b><span class="badge ${st}">${label}</span></div><div class="sub">${esc(sub)}</div></article>`}).join('');
+  $('#results').innerHTML=productHtml+rowHtml||'<p class="muted">Nothing matched.</p>';
 }
 async function importCSV(f){
   const rows=parseCSV(await f.text()),h=rows.shift()||[],ix=Object.fromEntries(h.map((x,i)=>[x,i]));const owned=new Set(),ownedProducts=new Set(),unmatched=[];let titles=0,excluded=0;const idx=ensureMergedProducts();
