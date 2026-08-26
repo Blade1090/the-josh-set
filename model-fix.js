@@ -29,18 +29,19 @@ function matchingCollectionProducts(q){
 // Default ALL is the actionable shelf. Excluded records only appear when explicitly requested.
 // Collection products are surfaced as first-class acquisition results when they satisfy the search.
 function render(){
-  const q=norm($('#q').value);let rows=items.filter(x=>{
+  const q=norm($('#q').value);let all=items.filter(x=>{
     if(q&&!x.search.includes(q))return false;const st=effectiveStatus(x);
     if(filter==='EXCLUDED')return x.set==='EXCLUDED';if(filter==='ALL')return x.set!=='EXCLUDED';return x.set!=='EXCLUDED'&&st===filter;
   });
-  if(q)rows.sort((a,b)=>acquisitionRank(a,q)-acquisitionRank(b,q)||a.title.localeCompare(b.title));rows=rows.slice(0,70);
+  if(q)all.sort((a,b)=>acquisitionRank(a,q)-acquisitionRank(b,q)||a.title.localeCompare(b.title));const rows=all.slice(0,visibleLimit);
   const products=matchingCollectionProducts(q),shownProducts=new Set(products.map(c=>c.p.key));
   const productHtml=products.map(c=>`<article class="card"><div class="top"><b>${esc(c.p.title)}</b><span class="badge ${c.owned?'OWNED':'NEEDED'}">${c.owned?'OWNED · COLLECTION':'BEST WAY TO BUY'}</span></div><div class="sub">${c.owned?'On your shelf · ':''}Covers ${c.covered.length} game identities</div></article>`).join('');
   const rowHtml=rows.filter(x=>{const c=collectionInfo(x);return !c||!shownProducts.has(c.product.key)}).map(x=>{const c=collectionInfo(x),st=effectiveStatus(x),pref=!c&&st==='NEEDED'?preferredCollectionFor(x):null;let label,sub;
     if(c){label=c.owned?'OWNED · COLLECTION':'BEST WAY TO BUY';sub=`${c.owned?'On your shelf · ':''}Covers ${c.covered.length} game identities`;}
     else{label=st;sub=st==='OWNED'?'On your shelf':x.set==='EXCLUDED'?'Outside Josh Set':pref?`Look for ${pref.p.title} first · covers ${pref.count}`:'Tap for details';}
     return `<article class="card" onclick="detail(${x.id})"><div class="top"><b>${esc(x.title)}</b><span class="badge ${st}">${label}</span></div><div class="sub">${esc(sub)}</div></article>`}).join('');
-  $('#results').innerHTML=productHtml+rowHtml||'<p class="muted">Nothing matched.</p>';
+  const more=all.length>rows.length?`<button id="loadMore" style="width:100%;margin:14px 0;padding:14px">LOAD MORE · ${rows.length} / ${all.length}</button>`:all.length?`<p class="muted" style="text-align:center">Showing all ${all.length} results.</p>`:'';
+  $('#results').innerHTML=productHtml+rowHtml+more||'<p class="muted">Nothing matched.</p>';const b=$('#loadMore');if(b)b.onclick=()=>{visibleLimit+=100;render()};
 }
 async function importCSV(f){
   const rows=parseCSV(await f.text()),h=rows.shift()||[],ix=Object.fromEntries(h.map((x,i)=>[x,i]));const owned=new Set(),ownedProducts=new Set(),unmatched=[];let titles=0,excluded=0;const idx=ensureMergedProducts();
@@ -48,5 +49,5 @@ async function importCSV(f){
     for(const c of cs){const keys=productKeys(c,c);let p=null;for(const k of keys){p=idx?.get(k);if(p)break}if(!p)continue;const includedIds=[...new Set(p.ids)].filter(id=>byId.get(id)?.set==='INCLUDED');if(includedIds.length){includedIds.forEach(id=>owned.add(id));ownedProducts.add(p.key);hit=true;break}}
     if(!hit)for(const c of cs){const ids=items.filter(x=>x.set==='INCLUDED'&&(norm(x.title)===c||(aliasesById.get(x.id)||[]).includes(c))).map(x=>x.id);if(ids.length){owned.add(ids[0]);hit=true;break}}
     if(!hit){const isExcluded=cs.some(c=>items.some(x=>x.set==='EXCLUDED'&&(norm(x.title)===c||(aliasesById.get(x.id)||[]).includes(c))));if(isExcluded){excluded++;hit=true}}if(!hit)unmatched.push(title)}
-  saveState({version:10,owned:[...owned],products:[...ownedProducts],source:f.name});progress();render();$('#syncmsg').textContent=`GameEye: ${titles} PS4 rows → ${[...owned].filter(id=>byId.get(id)?.set==='INCLUDED').length} satisfied · ${ownedProducts.size} collection products · ${excluded} excluded · ${unmatched.length} unresolved.`;if(unmatched.length)console.warn('Unmatched',unmatched);
+  saveState({version:10,owned:[...owned],products:[...ownedProducts],source:f.name});progress();resetBrowse();$('#syncmsg').textContent=`GameEye: ${titles} PS4 rows → ${[...owned].filter(id=>byId.get(id)?.set==='INCLUDED').length} satisfied · ${ownedProducts.size} collection products · ${excluded} excluded · ${unmatched.length} unresolved.`;if(unmatched.length)console.warn('Unmatched',unmatched);
 }
