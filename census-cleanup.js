@@ -32,11 +32,26 @@
     ['dead by daylight','Online/service dependence is tracked as preservation metadata rather than silently deleting an otherwise qualifying physical identity.'],
     ['dead alliance','Multiplayer population/service condition affects usefulness, not physical identity qualification by itself.'],
     ['dissidia final fantasy nt','Online ecosystem limitations do not erase its qualifying physical PS4 identity.'],
-    ['metal gear solid v the definitive experience','Verified physical PS4 package. Ground Zeroes and The Phantom Pain are both on disc; DoesItPlay reports no download required and DLC on disc. Treat as an efficient compilation/product covering both MGSV identities.'],
+    ['metal gear solid v the definitive experience','Verified physical PS4 package. Ground Zeroes and The Phantom Pain are both on disc; no download required. Treat as an efficient compilation/product covering both MGSV identities.'],
     ['metal slug anthology','Verified Limited Run physical PS4 disc. Qualifying compilation product; use its included Metal Slug games for coverage rather than treating the package as suspicious.'],
-    ['monster hunter world iceborne','Keep the game identity, but prefer/track the Master Edition physical product: Capcom defines Master Edition as Monster Hunter World plus Iceborne. Do not treat expansion-only DLC as a separate physical SKU.'],
+    ['monster hunter world iceborne','Keep the game identity, but prefer/track the Master Edition physical product: Monster Hunter World plus Iceborne. Do not treat expansion-only DLC as a separate physical SKU.'],
     ['monster hunter world iceborne master edition','Verified package containing Monster Hunter World plus Iceborne; valid physical product/coverage target.'],
-    ['mortal kombat 11 aftermath kollection','Verified Americas physical PS4 release with data disc + play disc; voucher is only for three future skin packs. Valid MK11 physical product/edition, not a separate game identity from Mortal Kombat 11.']
+    ['mortal kombat 11 aftermath kollection','Verified Americas physical PS4 release with data disc + play disc; voucher is only for three later skin packs. Valid MK11 physical product/edition, not a separate game identity from Mortal Kombat 11.'],
+    ['sudden strike 4 complete collection','Verified complete physical build: base game and all DLC are on disc; no download required.'],
+    ['the banner saga trilogy','Verified compilation: Banner Saga 1, 2 and 3 are all on one PS4 disc and playable offline; valid coverage for all three identities.'],
+    ['bioshock the collection','Verified two-disc compilation containing BioShock, BioShock 2 and BioShock Infinite campaigns plus substantial DLC on disc; no download required. Valid coverage for all three identities.'],
+    ['uncharted the nathan drake collection','Verified PS4 disc compilation: Uncharted 1, 2 and 3 campaigns are all on one disc and playable offline. Valid coverage for all three identities.'],
+    ['marvel vs capcom fighting collection arcade classics','Verified physical compilation; all advertised games are complete on disc with no download required. Valid component-game coverage.'],
+    ['capcom fighting collection 2','Verified physical compilation; all advertised games are on disc. The included download code is only an extra museum song and does not affect game coverage.'],
+    ['aleste collection','Verified physical PS4 compilation; all five advertised Aleste/Power Strike game entries are playable from disc with no download required.'],
+    ['pinball arcade','Verified physical disc includes the base table plus Season 1 paid table content on disc; later/pro upgrades are not fully represented, so coverage is limited to disc-contained tables/content.'],
+    ['talisman digital edition 40th anniversary collection','Verified playable physical PS4 release with major expansions on disc, but not every DLC pack is included. Keep identity; do not infer coverage for omitted DLC.'],
+    ['remothered tormented fathers broken porcelain double pack','Verified two-disc physical double pack containing both games. Both identities receive physical coverage, but Broken Porcelain has serious unpatched disc-build issues and a patch is recommended.'],
+    ['crysis remastered trilogy','Physical PS4 trilogy verified as containing all three remastered games on disc; valid coverage for Crysis Remastered, Crysis 2 Remastered and Crysis 3 Remastered.'],
+    ['trine ultimate collection','Physical PS4 collection is reported with Trine 1-4 on disc; soundtrack/artbook codes are extras, not games. Valid four-game coverage, with evidence quality below publisher/verified-disc tier.'],
+    ['crash bandicoot n sane trilogy','Physical PS4 release contains the three remade Crash campaigns on disc. Valid coverage for Crash Bandicoot, Cortex Strikes Back and Warped remake identities as modeled by the census.'],
+    ['tales from the borderlands','Physical PS4 release contains the full five-episode game; keep as one episodic game identity rather than splitting episodes.'],
+    ['doom slayers collection','Physical package is NOT multi-game physical coverage under Josh Set rules when Doom 1/2/3 are supplied via digital redemption rather than as qualifying physical games. Keep only the qualifying disc game/product relationship; do not mark the download-code titles owned from this box.']
   ]);
   let tries=0;
   const apply=()=>{
