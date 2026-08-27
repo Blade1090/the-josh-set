@@ -11,10 +11,9 @@
     ['smash hit plunder','PSVR required.'],
     ['moss','PSVR required on PS4.'],
     ['doctor who the edge of time','PSVR required on PS4.'],
-    ['rocket arena','Required online service was permanently shut down; physical disc can no longer function as its game identity.']
+    ['rocket arena','Required online service was permanently shut down; physical disc can no longer function as its game identity.'],
+    ['mortal kombat 11 aftermath','Aftermath by itself is DLC, not a standalone game identity. Track the physical Aftermath Kollection as a product/edition of Mortal Kombat 11 instead.']
   ]);
-  // Reviewed flags that remain INCLUDED. These are explicit so future passes do not
-  // repeatedly treat them as unresolved just because their dossiers contain warnings.
   const KEEP=new Map([
     ['rocksmith 2014 edition','Physical PS4 game exists; requires compatible guitar/bass input hardware/cable, but peripheral dependency alone is not a Josh Set exclusion.'],
     ['rocksmith 2014 edition remastered','Physical PS4 game exists; hardware/cable dependency is tracked as a playability note, not an exclusion.'],
@@ -32,7 +31,12 @@
     ['dayz','Online/service dependence is tracked as preservation metadata rather than silently deleting an otherwise qualifying physical identity.'],
     ['dead by daylight','Online/service dependence is tracked as preservation metadata rather than silently deleting an otherwise qualifying physical identity.'],
     ['dead alliance','Multiplayer population/service condition affects usefulness, not physical identity qualification by itself.'],
-    ['dissidia final fantasy nt','Online ecosystem limitations do not erase its qualifying physical PS4 identity.']
+    ['dissidia final fantasy nt','Online ecosystem limitations do not erase its qualifying physical PS4 identity.'],
+    ['metal gear solid v the definitive experience','Verified physical PS4 package. Ground Zeroes and The Phantom Pain are both on disc; DoesItPlay reports no download required and DLC on disc. Treat as an efficient compilation/product covering both MGSV identities.'],
+    ['metal slug anthology','Verified Limited Run physical PS4 disc. Qualifying compilation product; use its included Metal Slug games for coverage rather than treating the package as suspicious.'],
+    ['monster hunter world iceborne','Keep the game identity, but prefer/track the Master Edition physical product: Capcom defines Master Edition as Monster Hunter World plus Iceborne. Do not treat expansion-only DLC as a separate physical SKU.'],
+    ['monster hunter world iceborne master edition','Verified package containing Monster Hunter World plus Iceborne; valid physical product/coverage target.'],
+    ['mortal kombat 11 aftermath kollection','Verified Americas physical PS4 release with data disc + play disc; voucher is only for three future skin packs. Valid MK11 physical product/edition, not a separate game identity from Mortal Kombat 11.']
   ]);
   let tries=0;
   const apply=()=>{
