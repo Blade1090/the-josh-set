@@ -9,6 +9,8 @@
     ['robinson the journey','PSVR required.'],
     ['starblood arena','PSVR required (and online-dependent).'],
     ['smash hit plunder','PSVR required.'],
+    ['moss','PSVR required on PS4.'],
+    ['doctor who the edge of time','PSVR required on PS4.'],
     ['rocket arena','Required online service was permanently shut down; physical disc can no longer function as its game identity.']
   ]);
   // Reviewed flags that remain INCLUDED. These are explicit so future passes do not
@@ -17,10 +19,20 @@
     ['rocksmith 2014 edition','Physical PS4 game exists; requires compatible guitar/bass input hardware/cable, but peripheral dependency alone is not a Josh Set exclusion.'],
     ['rocksmith 2014 edition remastered','Physical PS4 game exists; hardware/cable dependency is tracked as a playability note, not an exclusion.'],
     ['surf world series','Standalone non-annual arcade surfing game with a qualifying physical PS4 release; keep as a sports-rule exception.'],
-    ['super blood hockey','Standalone non-annual arcade hockey identity; keep as a sports-rule exception if/when a qualifying PS4 physical SKU is product-verified.'],
+    ['super blood hockey','Standalone non-annual arcade hockey identity; sports rule itself does not exclude it, but product-level physical proof remains required.'],
     ['surgeon simulator anniversary edition','Standard PS4 play is not VR-required; VR support/content does not trigger the PSVR exclusion.'],
     ['rez infinite','Standard PS4 play is not VR-required; PSVR is optional.'],
-    ['resident evil 7 biohazard','Standard PS4 play is not VR-required; PSVR is optional.']
+    ['resident evil 7 biohazard','Standard PS4 play is not VR-required; PSVR is optional.'],
+    ['megadimension neptunia viir','Main game is playable without PSVR; VR interactions are optional.'],
+    ['heavy fire red shadow','Standard-screen play is supported; VR is optional.'],
+    ['dont knock twice','Standard-screen play is supported; VR is optional.'],
+    ['hidden agenda','Companion-phone dependence is a preservation warning, not a game-identity exclusion.'],
+    ['hitman 2','Online/progression dependence is tracked as preservation metadata; qualifying physical game identity remains included.'],
+    ['hunt showdown','Online/service dependence is tracked as preservation metadata rather than silently deleting an otherwise qualifying physical identity.'],
+    ['dayz','Online/service dependence is tracked as preservation metadata rather than silently deleting an otherwise qualifying physical identity.'],
+    ['dead by daylight','Online/service dependence is tracked as preservation metadata rather than silently deleting an otherwise qualifying physical identity.'],
+    ['dead alliance','Multiplayer population/service condition affects usefulness, not physical identity qualification by itself.'],
+    ['dissidia final fantasy nt','Online ecosystem limitations do not erase its qualifying physical PS4 identity.']
   ]);
   let tries=0;
   const apply=()=>{
@@ -35,7 +47,6 @@
         x.cleanupReviewed=true;x.cleanupReason=keep;kept.push(x.title);
       }
     }
-    // The denominator is identities actually admitted by current Josh Set rules.
     DATA.n=items.filter(x=>x.set==='INCLUDED').length;
     if(typeof progress==='function')progress();
     if(typeof resetBrowse==='function')resetBrowse();
