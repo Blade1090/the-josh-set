@@ -14,23 +14,23 @@ function ensureMergedProducts(){
   mergedProductIndex=new Map();for(const[key,g]of groups){g.ids=[...new Set(g.ids)];mergedProductIndex.set(key,g)}for(const[alias,key]of aliases)if(groups.has(key))mergedProductIndex.set(alias,groups.get(key));return mergedProductIndex;
 }
 function findProduct(title){const idx=ensureMergedProducts();if(!idx)return null;for(const k of productKeys('',title)){const p=idx.get(k);if(p)return p}return null}
-function collectionInfo(x){const p=findProduct(x.title);if(!p)return null;const covered=[...new Set(p.ids)].map(id=>byId.get(id)).filter(g=>g?.set==='INCLUDED');if(covered.length<2)return null;return{product:p,covered,owned:productSet.has(p.key)}}
-function acquisitionRank(x,q){const c=collectionInfo(x),st=effectiveStatus(x);if(c&&!c.owned)return 0;if(st==='NEEDED'&&x.set==='INCLUDED')return 1;if(c&&c.owned)return 2;if(st==='OWNED')return 3;return 4}
+function productCoverage(p){const covered=[...new Set(p.ids)].map(id=>byId.get(id)).filter(g=>g?.set==='INCLUDED'),missing=covered.filter(g=>status(g)==='NEEDED');return{covered,missing,owned:productSet.has(p.key)}}
+function collectionInfo(x){const p=findProduct(x.title);if(!p)return null;const c=productCoverage(p);if(c.covered.length<2)return null;return{product:p,...c}}
+function effectiveStatus(x){let c=collectionInfo(x);return c?(c.owned?'OWNED':status(x)):status(x)}
+function acquisitionRank(x,q){const c=collectionInfo(x),st=effectiveStatus(x);if(c&&!c.owned&&c.missing.length)return 0;if(st==='NEEDED'&&x.set==='INCLUDED')return 1;if(c&&c.owned)return 2;if(st==='OWNED')return 3;return 4}
 function preferredCollectionFor(x){
   const idx=ensureMergedProducts(),seen=new Set(),choices=[];
-  for(const p of idx.values()){if(seen.has(p.key))continue;seen.add(p.key);const ids=[...new Set(p.ids)].filter(id=>byId.get(id)?.set==='INCLUDED');if(ids.length>1&&ids.includes(x.id))choices.push({p,count:ids.length,owned:productSet.has(p.key)})}
-  choices.sort((a,b)=>(a.owned-b.owned)||(b.count-a.count)||a.p.title.localeCompare(b.p.title));return choices[0]||null;
+  for(const p of idx.values()){if(seen.has(p.key))continue;seen.add(p.key);const c=productCoverage(p);if(c.covered.length>1&&c.missing.length&&c.missing.some(g=>g.id===x.id))choices.push({p,count:c.covered.length,missing:c.missing.length,owned:c.owned})}
+  choices.sort((a,b)=>(a.owned-b.owned)||(b.missing-a.missing)||(b.count-a.count)||a.p.title.localeCompare(b.p.title));return choices[0]||null;
 }
 function matchingCollectionProducts(q){
   if(!q||filter==='EXCLUDED'||filter==='HUNT')return[];const idx=ensureMergedProducts(),seen=new Set(),out=[];
-  for(const p of idx.values()){if(seen.has(p.key))continue;seen.add(p.key);const covered=[...new Set(p.ids)].map(id=>byId.get(id)).filter(x=>x?.set==='INCLUDED');if(covered.length<2)continue;const owned=productSet.has(p.key);if(filter==='OWNED'&&!owned)continue;if(filter==='NEEDED'&&owned)continue;if(!covered.some(x=>x.search.includes(q))&&!norm(p.title).includes(q))continue;out.push({p,covered,owned});}
-  return out.sort((a,b)=>(a.owned-b.owned)||(b.covered.length-a.covered.length)||a.p.title.localeCompare(b.p.title));
+  for(const p of idx.values()){if(seen.has(p.key))continue;seen.add(p.key);const c=productCoverage(p);if(c.covered.length<2)continue;if(!c.owned&&!c.missing.length)continue;if(filter==='OWNED'&&!c.owned)continue;if(filter==='NEEDED'&&(c.owned||!c.missing.length))continue;if(!c.covered.some(x=>x.search.includes(q))&&!norm(p.title).includes(q))continue;out.push({p,...c});}
+  return out.sort((a,b)=>(a.owned-b.owned)||(b.missing.length-a.missing.length)||(b.covered.length-a.covered.length)||a.p.title.localeCompare(b.p.title));
 }
 function validPrice(v){const n=Number(v);return Number.isFinite(n)&&n>0?n:null}
 function huntPrice(x){const p=priceFor(x);if(!p)return null;const target=validPrice(p.g),market=validPrice(p.m),strong=validPrice(p.s);if(!target&&!market&&!strong)return null;return{p,target,market,strong,rank:target||market||strong}}
-function huntSub(x){const hp=huntPrice(x),h=typeof hltbFor==='function'?hltbFor(x):null,parts=[];if(hp){if(hp.strong)parts.push(`STRONG ${money(hp.strong)}`);if(hp.target)parts.push(`TARGET ${money(hp.target)}`);if(hp.market)parts.push(`CIB ${money(hp.market)}`)}const hrs=h&&(h.a??h.e??h.c);if(hrs!=null)parts.push(`~${Number(hrs).toFixed(1)}h`);const pref=preferredCollectionFor(x);if(pref&&!pref.owned)parts.push(`collection covers ${pref.count}`);return parts.join(' · ')}
-// Default ALL is the actionable shelf. Excluded records only appear when explicitly requested.
-// HUNT is the priced acquisition queue: needed games ordered by the cheapest valid target/market price.
+function huntSub(x){const hp=huntPrice(x),h=typeof hltbFor==='function'?hltbFor(x):null,parts=[];if(hp){if(hp.strong)parts.push(`STRONG ${money(hp.strong)}`);if(hp.target)parts.push(`TARGET ${money(hp.target)}`);if(hp.market)parts.push(`CIB ${money(hp.market)}`)}const hrs=h&&(h.a??h.e??h.c);if(hrs!=null)parts.push(`~${Number(hrs).toFixed(1)}h`);const pref=preferredCollectionFor(x);if(pref&&!pref.owned)parts.push(`collection adds ${pref.missing}/${pref.count}`);return parts.join(' · ')}
 function render(){
   const q=norm($('#q').value);let all=items.filter(x=>{
     if(q&&!x.search.includes(q))return false;const st=effectiveStatus(x);
@@ -40,11 +40,11 @@ function render(){
   if(filter==='HUNT')all.sort((a,b)=>huntPrice(a).rank-huntPrice(b).rank||a.title.localeCompare(b.title));
   else if(q)all.sort((a,b)=>acquisitionRank(a,q)-acquisitionRank(b,q)||a.title.localeCompare(b.title));
   const rows=all.slice(0,visibleLimit),products=matchingCollectionProducts(q),shownProducts=new Set(products.map(c=>c.p.key));
-  const productHtml=products.map(c=>`<article class="card"><div class="top"><b>${esc(c.p.title)}</b><span class="badge ${c.owned?'OWNED':'NEEDED'}">${c.owned?'OWNED · COLLECTION':'BEST WAY TO BUY'}</span></div><div class="sub">${c.owned?'On your shelf · ':''}Covers ${c.covered.length} game identities</div></article>`).join('');
+  const productHtml=products.map(c=>{const gain=c.missing.length,total=c.covered.length,label=c.owned?'OWNED · COLLECTION':gain===total?'BEST WAY TO BUY':'COLLECTION OPTION',sub=c.owned?`On your shelf · Covers ${total} game identities`:`Adds ${gain} missing ${gain===1?'game':'games'} · ${total} total in box`;return `<article class="card"><div class="top"><b>${esc(c.p.title)}</b><span class="badge ${c.owned?'OWNED':'NEEDED'}">${label}</span></div><div class="sub">${sub}</div></article>`}).join('');
   const rowHtml=rows.filter(x=>{const c=collectionInfo(x);return !c||!shownProducts.has(c.product.key)}).map(x=>{const c=collectionInfo(x),st=effectiveStatus(x),pref=!c&&st==='NEEDED'?preferredCollectionFor(x):null;let label,sub;
-    if(c){label=c.owned?'OWNED · COLLECTION':'BEST WAY TO BUY';sub=`${c.owned?'On your shelf · ':''}Covers ${c.covered.length} game identities`;}
+    if(c){label=c.owned?'OWNED · COLLECTION':c.missing.length===c.covered.length?'BEST WAY TO BUY':'COLLECTION OPTION';sub=c.owned?`On your shelf · Covers ${c.covered.length} game identities`:`Adds ${c.missing.length} missing ${c.missing.length===1?'game':'games'} · ${c.covered.length} total in box`;}
     else if(filter==='HUNT'){label='TARGET';sub=huntSub(x)}
-    else{label=st;sub=st==='OWNED'?'On your shelf':x.set==='EXCLUDED'?'Outside Josh Set':pref?`Look for ${pref.p.title} first · covers ${pref.count}`:'Tap for details';}
+    else{label=st;sub=st==='OWNED'?'On your shelf':x.set==='EXCLUDED'?'Outside Josh Set':pref?`Collection option: ${pref.p.title} · adds ${pref.missing}/${pref.count}`:'Tap for details';}
     return `<article class="card" onclick="detail(${x.id})"><div class="top"><b>${esc(x.title)}</b><span class="badge ${st}">${label}</span></div><div class="sub">${esc(sub)}</div></article>`}).join('');
   const more=all.length>rows.length?`<button id="loadMore" style="width:100%;margin:14px 0;padding:14px">LOAD MORE · ${rows.length} / ${all.length}</button>`:all.length?`<p class="muted" style="text-align:center">${filter==='HUNT'?'Showing all priced hunt targets.':`Showing all ${all.length} results.`}</p>`:'';
   $('#results').innerHTML=productHtml+rowHtml+more||'<p class="muted">Nothing matched.</p>';const b=$('#loadMore');if(b)b.onclick=()=>{visibleLimit+=100;render()};
