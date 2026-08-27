@@ -1,18 +1,30 @@
-// ShelfCheck census cleanup — confirmed flags found during dossier research.
+// ShelfCheck census cleanup — confirmed flags found during dossier research and final integrity audit.
 // Keep this explicit/auditable instead of silently mutating the compressed source census.
 (()=>{
   const EXCLUDE=new Map([
     ['end of zoe','DLC / add-on for Resident Evil 7; not a standalone game identity.'],
     ['resident evil 7 biohazard end of zoe','DLC / add-on for Resident Evil 7; not a standalone game identity.'],
     ['the forge','DLC / add-on for Shadow of the Tomb Raider; not a standalone game identity.'],
+    ['cities skylines parklife','Expansion/add-on for Cities: Skylines; full base game required, so it is not a standalone game identity.'],
+    ['one punch man a hero nobody knows suiryu','Suiryu is DLC/add-on character content for One Punch Man: A Hero Nobody Knows, not a standalone game identity.'],
     ['rigs mechanized combat league','PSVR required.'],
     ['robinson the journey','PSVR required.'],
     ['starblood arena','PSVR required (and online-dependent).'],
     ['smash hit plunder','PSVR required.'],
     ['moss','PSVR required on PS4.'],
     ['doctor who the edge of time','PSVR required on PS4.'],
+    ['astro bot rescue mission','PSVR and PS Camera required on PS4.'],
+    ['loading human chapter 1','PSVR and PS Camera required on PS4.'],
+    ['ghost giant','PSVR and PS Camera required on PS4.'],
+    ['pixel ripped 1989','PSVR and PS Camera required on PS4.'],
     ['rocket arena','Required online service was permanently shut down; physical disc can no longer function as its game identity.'],
-    ['mortal kombat 11 aftermath','Aftermath by itself is DLC, not a standalone game identity. Track the physical Aftermath Kollection as a product/edition of Mortal Kombat 11 instead.']
+    ['mortal kombat 11 aftermath','Aftermath by itself is DLC, not a standalone game identity. Track the physical Aftermath Kollection as a product/edition of Mortal Kombat 11 instead.'],
+    ['f1 2015','Serialized annual sports release excluded by Josh Set curation rule.'],
+    ['f1 2016','Serialized annual sports release excluded by Josh Set curation rule.'],
+    ['f1 2017','Serialized annual sports release excluded by Josh Set curation rule.'],
+    ['f1 2018','Serialized annual sports release excluded by Josh Set curation rule.'],
+    ['f1 2019','Serialized annual sports release excluded by Josh Set curation rule.'],
+    ['f1 2020','Serialized annual sports release excluded by Josh Set curation rule.']
   ]);
   const KEEP=new Map([
     ['rocksmith 2014 edition','Physical PS4 game exists; requires compatible guitar/bass input hardware/cable, but peripheral dependency alone is not a Josh Set exclusion.'],
