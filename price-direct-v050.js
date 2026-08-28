@@ -25,7 +25,27 @@
     ['The Dark Pictures - Little Hope',14.25,'Dark Pictures Anthology: Little Hope','Playstation 4'],
     ['The Dark Pictures - Man of Medan',15.56,'Dark Pictures Anthology: Man of Medan','Playstation 4'],
     ['SturmFront - The Mutant War: Übel Edition',33.02,'Sturmfront: The Mutant War [Ubel Edition]','PAL Playstation 4'],
-    ['Tharsis',12.99,'Tharsis [Limited Edition]','Playstation 4']
+    ['Tharsis',12.99,'Tharsis [Limited Edition]','Playstation 4'],
+    ['Blue Rider',24.09,'Blue Rider [Limited Edition]','Playstation 4'],
+    ['Big Pharma',8.68,'Big Pharma [Special Edition]','PAL Playstation 4'],
+    ['Asterix & Obelix XXL 3: The Crystal Menhir',22.31,'Asterix & Obelix XXL 3: The Crystal Menhir [Limited Edition]','PAL Playstation 4'],
+    ['DJMax Respect',7.26,'DJMax Respect','Asian English Playstation 4'],
+    ["Dragon Quest Heroes: The World Tree's Woe and the Blight Below",17.16,'Dragon Quest Heroes','Playstation 4'],
+    ['Dimension Drive',34.95,'Dimension Drive: Limited Edition','Playstation 4'],
+    ['Dusk Diver 2',22.45,'Dusk Diver 2 [Launch Edition]','Playstation 4'],
+    ['Game Tengoku: Cruisin Mix Special',39.92,'Game Tengoku CruisinMix Special','Playstation 4'],
+    ['River City Melee: Battle Royal Special',25.18,'River City Melee','Playstation 4'],
+    ['Kingdom Hearts HD I.5 + II.5 Remix',12.49,'Kingdom Hearts HD 1.5 + 2.5 Remix','Playstation 4'],
+    ['Minecraft Dungeons',36.00,'Minecraft Dungeons [Ultimate Edition]','Playstation 4'],
+    ['Monster Hunter: World - Iceborne',18.85,'Monster Hunter: World Iceborne Master Edition','Playstation 4'],
+    ['Risen 3: Titan Lords - Enhanced Edition',23.76,'Risen 3 Titan Lords: Enhanced Edition','PAL Playstation 4'],
+    ['Pharaonic',8.15,'Pharaonic Deluxe Edition','Playstation 4'],
+    ['theHunter: Call of the Wild',39.99,'The Hunter: Call of the Wild','Playstation 4'],
+    ['Umbrella Corps',175.00,'Resident Evil Umbrella Corps','Playstation 4'],
+    ['The Mummy Demastered',46.16,'The Mummy Demastered [Limited Run]','Playstation 4'],
+    ['XIII (Remake)',16.30,'XIII','Playstation 4'],
+    ['Utawarerumono: Prelude to the Fallen',54.50,'Utawarerumono: Prelude to the Fallen [Origins Edition]','Playstation 4'],
+    ['Vambrace: Cold Soul',25.91,'Vambrace: Cold Soul','JP Playstation 4']
   ];
   let tries=0;
   const apply=()=>{
