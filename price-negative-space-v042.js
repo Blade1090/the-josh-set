@@ -87,7 +87,10 @@
     ['Robotics;Notes DaSH','Robotics Notes Elite and Dash Double Pack',19.99,'Playstation 4'],
     ['Robotics;Notes Elite','Robotics Notes Elite and Dash Double Pack',19.99,'Playstation 4'],
     ['Pac-Man Championship Edition 2','Pac-Man Championship Edition 2 + Arcade Game Series',11.39,'Playstation 4'],
-    ['Planescape: Torment: Enhanced Edition','Planescape: Torment & Icewind Dale Enhanced Editions',18.85,'Playstation 4']
+    ['Planescape: Torment: Enhanced Edition','Planescape: Torment & Icewind Dale Enhanced Editions',18.85,'Playstation 4'],
+    ['The Journey Down: Chapter One','The Journey Down Trilogy',51.15,'PAL Playstation 4'],
+    ['The Journey Down: Chapter Two','The Journey Down Trilogy',51.15,'PAL Playstation 4'],
+    ['The Journey Down: Chapter Three','The Journey Down Trilogy',51.15,'PAL Playstation 4']
   ];
   let tries=0;
   const apply=()=>{
@@ -99,7 +102,7 @@
     const titleMap=new Map();for(const x of byId.values())if(x&&x.title)titleMap.set(pcNormTitle(x.title),x);
     for(const [t,m,pc,c] of DIRECT)put(titleMap.get(pcNormTitle(t)),m,pc,c);
     if(added){stateCache={...stateCache,version:14,prices:[...map.values()].sort((a,b)=>a.t.localeCompare(b.t)),priceSupplement:'2026-08-28-v049'};saveState(stateCache);if(typeof resetBrowse==='function')resetBrowse();}
-    window.SHELFCHECK_PC_V049={verifiedIdentityPrices:EXTRA.length+DIRECT.length,added,total:(stateCache.prices||[]).length,productOnly:PRODUCT_ONLY.map(([identity,product,m,c])=>({identity,product,m,c})),noReliablePriceYet:['Steel Empire Chronicles']};
+    window.SHELFCHECK_PC_V049={verifiedIdentityPrices:EXTRA.length+DIRECT.length,added,total:(stateCache.prices||[]).length,productOnly:PRODUCT_ONLY.map(([identity,product,m,c])=>({identity,product,m,c})),noReliablePriceYet:[]};
   };
   apply();
 })();
