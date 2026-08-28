@@ -1,4 +1,4 @@
-// ShelfCheck v0.48 — verified negative-space + direct PriceCharting recovery.
+// ShelfCheck v0.49 — verified negative-space + direct PriceCharting recovery.
 // Identity-safe prices only. Compilation/product prices are retained as product mappings
 // and are never copied onto component identities.
 (()=>{
@@ -30,6 +30,19 @@
     {id:2263,m:27.12,pc:'Turrican Anthology Vol. 2',c:'PAL Playstation 4'}
   ];
   const DIRECT=[
+    ['2Dark',30.94,'2Dark [Limited Edition]','PAL Playstation 4'],
+    ['3D MiniGolf',29.99,'3D Mini Golf','Playstation 4'],
+    ['9th Dawn III',27.70,'9th Dawn III: Shadow of Erthil','Playstation 4'],
+    ['Another World: 20th Anniversary Edition',26.27,'Another World','Playstation 4'],
+    ['Aokana - Four Rhythms Across the Blue',44.00,'Aokana Ao no Kanata no Four Rhythm Across the Blue','JP Playstation 4'],
+    ['Aqua Kitty: Milk Mine Defender DX',20.60,'Aqua Kitty DX','Playstation 4'],
+    ['Armello',11.63,'Armello [Special Edition]','Playstation 4'],
+    ['Bit.Trip Presents...Runner2: Future Legend of Rhythm Alien',17.63,'Runner2','Playstation 4'],
+    ['BLACKHOLE: Complete Edition',19.99,'Black Hole','Playstation 4'],
+    ['Below',22.24,'Below [SteelBook Edition]','Playstation 4'],
+    ['Chaos;Child',20.00,'Chaos Child','Playstation 4'],
+    ["Chocobo's Mystery Dungeon: Every Buddy!",28.57,"Chocobo's Mystery Dungeon: Every Buddy",'JP Playstation 4'],
+    ['Clannad',47.61,'Clannad','JP Playstation 4'],
     ['Marvel’s Avengers',11.12,'Marvel Avengers','Playstation 4'],
     ["Marvel's Avengers",11.12,'Marvel Avengers','Playstation 4'],
     ['Marvel’s Spider-Man',13.20,'Marvel Spiderman','Playstation 4'],
@@ -85,8 +98,8 @@
     for(const e of EXTRA)put(byId.get(e.id),e.m,e.pc,e.c);
     const titleMap=new Map();for(const x of byId.values())if(x&&x.title)titleMap.set(pcNormTitle(x.title),x);
     for(const [t,m,pc,c] of DIRECT)put(titleMap.get(pcNormTitle(t)),m,pc,c);
-    if(added){stateCache={...stateCache,version:13,prices:[...map.values()].sort((a,b)=>a.t.localeCompare(b.t)),priceSupplement:'2026-08-28-v048'};saveState(stateCache);if(typeof resetBrowse==='function')resetBrowse();}
-    window.SHELFCHECK_PC_V048={verifiedIdentityPrices:EXTRA.length+DIRECT.length,added,total:(stateCache.prices||[]).length,productOnly:PRODUCT_ONLY.map(([identity,product,m,c])=>({identity,product,m,c})),noReliablePriceYet:['Steel Empire Chronicles']};
+    if(added){stateCache={...stateCache,version:14,prices:[...map.values()].sort((a,b)=>a.t.localeCompare(b.t)),priceSupplement:'2026-08-28-v049'};saveState(stateCache);if(typeof resetBrowse==='function')resetBrowse();}
+    window.SHELFCHECK_PC_V049={verifiedIdentityPrices:EXTRA.length+DIRECT.length,added,total:(stateCache.prices||[]).length,productOnly:PRODUCT_ONLY.map(([identity,product,m,c])=>({identity,product,m,c})),noReliablePriceYet:['Steel Empire Chronicles']};
   };
   apply();
 })();
