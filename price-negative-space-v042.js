@@ -1,11 +1,11 @@
-// ShelfCheck v0.47 — verified negative-space pricing supplement.
-// PriceCharting CIB profiles absent from Collector export. Identity-safe only;
-// compilation/product prices are never copied onto component identities.
+// ShelfCheck v0.48 — verified negative-space + direct PriceCharting recovery.
+// Identity-safe prices only. Compilation/product prices are retained as product mappings
+// and are never copied onto component identities.
 (()=>{
   const EXTRA=[
     {id:758,m:28.99,pc:'Mega Man Zero/ZX Legacy Collection',c:'Playstation 4'},
     {id:2051,m:40.00,pc:'Metaphor Refantazio',c:'Asian English Playstation 4'},
-    {id:525,m:7.19,pc:'Geometry Wars 3: Dimensions Evolved',c:'Playstation 4'},
+    {id:525,m:9.90,pc:'Geometry Wars 3: Dimensions Evolved',c:'Playstation 4'},
     {id:1660,m:38.63,pc:'LocoRoco 2',c:'Asian English Playstation 4'},
     {id:2239,m:35.74,pc:'Breakers Collection',c:'PAL Playstation 4'},
     {id:2240,m:25.00,pc:'Zero Tolerance Collection',c:'Playstation 4'},
@@ -29,14 +29,64 @@
     {id:2262,m:23.94,pc:'Turrican Anthology Vol. 1',c:'PAL Playstation 4'},
     {id:2263,m:27.12,pc:'Turrican Anthology Vol. 2',c:'PAL Playstation 4'}
   ];
+  const DIRECT=[
+    ['Marvel’s Avengers',11.12,'Marvel Avengers','Playstation 4'],
+    ["Marvel's Avengers",11.12,'Marvel Avengers','Playstation 4'],
+    ['Marvel’s Spider-Man',13.20,'Marvel Spiderman','Playstation 4'],
+    ["Marvel's Spider-Man",13.20,'Marvel Spiderman','Playstation 4'],
+    ['Mighty Gunvolt Burst',24.84,'Gal Gunvolt Burst','Playstation 4'],
+    ['Minecraft: Story Mode - Season Two: The Telltale Series',46.00,'Minecraft: Story Mode Season Two','Playstation 4'],
+    ['MISTOVER',26.84,'Mistover','Asian English Playstation 4'],
+    ['Momodora: Reverie Under the Moonlight',35.00,'Momodora','Playstation 4'],
+    ['N++',15.28,'N++','Playstation 4'],
+    ['NeuroVoider',17.92,'Neuro Voider','Playstation 4'],
+    ['Alienation',20.68,'Alienation','JP Playstation 4'],
+    ['AereA',10.77,"Aerea [Collector's Edition]",'Playstation 4'],
+    ['Among Us',26.34,'Among Us [Imposter Edition]','Playstation 4'],
+    ['Mutant Football League',13.76,'Mutant Football League Dynasty Edition','Playstation 4'],
+    ['Furwind',29.27,'Furwind [Limited Edition]','Playstation 4'],
+    ['Gearshifters',14.97,'Gear Shifters','Playstation 4'],
+    ['Ground Zero: Texas',40.00,'Ground Zero Texas: Nuclear Edition','Playstation 4'],
+    ['Habroxia 2',46.03,'Habroxia 2 [Limited Edition]','Playstation 4'],
+    ['Steins;Gate 0',19.93,'Steins Gate 0','Playstation 4'],
+    ['Steins;Gate Elite',23.00,'Steins Gate Elite','Playstation 4'],
+    ['8-Bit Adventure Anthology: Volume One',32.47,'8-Bit Adventure Anthology','Playstation 4'],
+    ["Agatha Christie's The ABC Murders",12.26,'Agatha Christie: The ABC Murders','Playstation 4'],
+    ['Aces of the Luftwaffe',19.99,'Aces of The Luftwaffe Squadron','Playstation 4'],
+    ['Romancing SaGa 2',36.21,'Romancing SaGa 2','Asian English Playstation 4'],
+    ['Romancing SaGa 3',37.50,'Romancing SaGa 3','Asian English Playstation 4'],
+    ['RollerCoaster Tycoon Joyride',15.63,'Roller Coaster Tycoon Joyride','Playstation 4'],
+    ['Runbow',10.27,'Runbow Deluxe Edition','Playstation 4'],
+    ['Samurai Maiden',37.29,'Samurai Maiden','JP Playstation 4'],
+    ['Warhammer 40,000: Mechanicus',29.99,'Warhammer 40000 Mechanicus','Playstation 4'],
+    ['Weird West',34.95,'Weird West [Reserve Edition]','Playstation 4'],
+    ['Back to the Future: The Game',89.35,'Back to the Future: The Game 30th Anniversary','Playstation 4'],
+    ['Asterix & Obelix XXL 2',11.59,'Asterix & Obelix XXL2','PAL Playstation 4'],
+    ['Batman: The Enemy Within - The Telltale Series',27.06,'Batman: The Enemy Within','PAL Playstation 4'],
+    ['Verdun',19.74,'WWI Verdun Western Front','PAL Playstation 4'],
+    ['Wattam',44.63,'Wattam [Sushi Variant]','Playstation 4']
+  ];
+  const PRODUCT_ONLY=[
+    ['Galak-Z: The Void','Galak-Z: The Void & Skulls of the Shogun: Bone-A-Fide',10.15,'Playstation 4'],
+    ['Ara Fell: Enhanced Edition','Ara Fell & Rise of the Third Power',39.78,'Playstation 4'],
+    ["OK K.O.! Let's Play Heroes",'Steven Universe: Save The Light & OK KO Lets Play Heroes',26.36,'Playstation 4'],
+    ['Monopoly Plus','Monopoly Plus & Monopoly Madness',11.01,'Playstation 4'],
+    ['Robotics;Notes DaSH','Robotics Notes Elite and Dash Double Pack',19.99,'Playstation 4'],
+    ['Robotics;Notes Elite','Robotics Notes Elite and Dash Double Pack',19.99,'Playstation 4'],
+    ['Pac-Man Championship Edition 2','Pac-Man Championship Edition 2 + Arcade Game Series',11.39,'Playstation 4'],
+    ['Planescape: Torment: Enhanced Edition','Planescape: Torment & Icewind Dale Enhanced Editions',18.85,'Playstation 4']
+  ];
   let tries=0;
   const apply=()=>{
     tries++;
     if(typeof byId==='undefined'||typeof stateCache==='undefined'||!stateCache||typeof saveState!=='function'||typeof pcNormTitle!=='function'){if(tries<120)setTimeout(apply,100);return;}
     const map=new Map((stateCache.prices||[]).map(p=>[pcNormTitle(p.t),p]));let added=0;
-    for(const e of EXTRA){const x=byId.get(e.id);if(!x||x.set!=='INCLUDED')continue;const k=pcNormTitle(x.title);if(map.has(k))continue;const m=e.m;map.set(k,{t:x.title,m,s:+(m*.70).toFixed(2),g:+(m*.85).toFixed(2),x:+(m*1.10).toFixed(2),pc:e.pc,c:e.c,source:'PriceCharting negative-space audit'});added++;}
-    if(added){stateCache={...stateCache,version:12,prices:[...map.values()].sort((a,b)=>a.t.localeCompare(b.t)),priceSupplement:'2026-08-28-v047'};saveState(stateCache);if(typeof resetBrowse==='function')resetBrowse();}
-    window.SHELFCHECK_PC_V047={verifiedExtras:EXTRA.length,added,total:(stateCache.prices||[]).length,productOnly:['Ninja Gaiden Master Collection'],noReliablePriceYet:['Steel Empire Chronicles']};
+    const put=(x,m,pc,c)=>{if(!x||x.set!=='INCLUDED')return;const k=pcNormTitle(x.title);if(map.has(k))return;map.set(k,{t:x.title,m,s:+(m*.70).toFixed(2),g:+(m*.85).toFixed(2),x:+(m*1.10).toFixed(2),pc,c,source:'PriceCharting verified direct audit'});added++;};
+    for(const e of EXTRA)put(byId.get(e.id),e.m,e.pc,e.c);
+    const titleMap=new Map();for(const x of byId.values())if(x&&x.title)titleMap.set(pcNormTitle(x.title),x);
+    for(const [t,m,pc,c] of DIRECT)put(titleMap.get(pcNormTitle(t)),m,pc,c);
+    if(added){stateCache={...stateCache,version:13,prices:[...map.values()].sort((a,b)=>a.t.localeCompare(b.t)),priceSupplement:'2026-08-28-v048'};saveState(stateCache);if(typeof resetBrowse==='function')resetBrowse();}
+    window.SHELFCHECK_PC_V048={verifiedIdentityPrices:EXTRA.length+DIRECT.length,added,total:(stateCache.prices||[]).length,productOnly:PRODUCT_ONLY.map(([identity,product,m,c])=>({identity,product,m,c})),noReliablePriceYet:['Steel Empire Chronicles']};
   };
   apply();
 })();
