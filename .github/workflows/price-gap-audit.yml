@@ -7,6 +7,7 @@ on:
       - 'price-online-v041.js'
       - 'price-negative-space-v042.js'
       - 'price-direct-v050.js'
+      - 'price-direct-v051.js'
       - 'data*.txt'
       - 'census-*.js'
       - '.github/workflows/price-gap-audit.yml'
