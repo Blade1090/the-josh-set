@@ -4,6 +4,7 @@ on:
     paths:
       - 'tools/price-gap-audit.mjs'
       - 'tools/price-gap-post-v050.mjs'
+      - 'tools/build-public-price-profile.mjs'
       - 'price-online-v041.js'
       - 'price-negative-space-v042.js'
       - 'price-direct-v050.js'
@@ -19,6 +20,7 @@ jobs:
       - uses: actions/checkout@v4
       - run: node tools/price-gap-audit.mjs
       - run: node tools/price-gap-post-v050.mjs
+      - run: node tools/build-public-price-profile.mjs
       - uses: actions/upload-artifact@v4
         with:
           name: shelfcheck-price-gap
