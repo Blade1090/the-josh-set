@@ -35,7 +35,12 @@
     ['The Walking Dead: A Telltale Games Series - The Complete First Season',13.41,'The Walking Dead: Complete First Season','PAL Playstation 4'],
     ['The Walking Dead: The Telltale Series - A New Frontier',9.05,'The Walking Dead: A New Frontier','Playstation 4'],
     ['The Walking Dead: The Telltale Series - The Final Season',13.51,'The Walking Dead: Final Season','Playstation 4'],
-    ['Ys: Memories of Celceta - Kai',27.45,'Ys: Memories of Celceta','Playstation 4']
+    ['Ys: Memories of Celceta - Kai',27.45,'Ys: Memories of Celceta','Playstation 4'],
+    ['Diablo III: Ultimate Evil Edition',11.99,'Diablo III Reaper of Souls [Ultimate Evil Edition]','Playstation 4'],
+    ['Forgotten City',13.96,'The Forgotten City','JP Playstation 4'],
+    ['Skylanders Swap Force',113.46,'Skylanders Swap Force [Game Only]','Playstation 4'],
+    ['Unravel',50.00,"Unravel [Collector's Edition]",'Playstation 4'],
+    ['Ys X: Nordics',45.08,'Ys X: Nordics [Limited Edition]','Playstation 4']
   ];
   let tries=0;
   const apply=()=>{
