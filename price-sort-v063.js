@@ -1,7 +1,10 @@
-// ShelfCheck v0.65 — alphabetical + price sorting for store/collection browsing.
+// ShelfCheck v0.66 — alphabetical + price sorting.
+// Sort the source item array before the renderer slices visible results, so Z-A works across the full census.
 (()=>{
   let sortMode='AZ';
-  const titleOf=card=>(card.querySelector('.top b')?.textContent||'').trim();
+  const baseOrder=new Map();
+  const remember=()=>items.forEach((x,i)=>{if(!baseOrder.has(x.id))baseOrder.set(x.id,i)});
+  const titleCmp=(a,b)=>a.title.localeCompare(b.title,undefined,{sensitivity:'base',numeric:true});
   const priceValue=x=>{
     const p=typeof priceFor==='function'?priceFor(x):null;
     const vals=[p?.m,p?.g,p?.s].map(Number).filter(v=>Number.isFinite(v)&&v>0);
@@ -9,27 +12,16 @@
   };
   const oldRender=render;
   render=function(){
+    remember();
+    if(sortMode==='ZA')items.sort((a,b)=>titleCmp(b,a));
+    else if(sortMode==='AZ')items.sort((a,b)=>(baseOrder.get(a.id)??0)-(baseOrder.get(b.id)??0));
+    else items.sort((a,b)=>{
+      const av=priceValue(a),bv=priceValue(b);
+      if(av==null&&bv==null)return titleCmp(a,b);
+      if(av==null)return 1;if(bv==null)return-1;
+      return sortMode==='HIGH'?(bv-av||titleCmp(a,b)):(av-bv||titleCmp(a,b));
+    });
     oldRender();
-    const root=document.querySelector('#results');
-    if(!root)return;
-    const cards=[...root.querySelectorAll(':scope > article.card')];
-    if(sortMode==='AZ')return;
-    const anchor=root.querySelector('#loadMore, p.muted');
-    if(sortMode==='ZA'){
-      cards.sort((a,b)=>titleOf(b).localeCompare(titleOf(a),undefined,{sensitivity:'base',numeric:true}));
-      for(const card of cards)root.insertBefore(card,anchor||null);
-      return;
-    }
-    const priced=[],pending=[];
-    for(const card of cards){
-      const title=titleOf(card);
-      const x=items.find(g=>g.title===title);
-      const v=x?priceValue(x):null;
-      (v==null?pending:priced).push({card,v,title});
-    }
-    priced.sort((a,b)=>sortMode==='HIGH'?(b.v-a.v||a.title.localeCompare(b.title)):(a.v-b.v||a.title.localeCompare(b.title)));
-    pending.sort((a,b)=>a.title.localeCompare(b.title));
-    for(const o of [...priced,...pending])root.insertBefore(o.card,anchor||null);
   };
   function install(){
     const nav=document.querySelector('nav');if(!nav||document.querySelector('#priceSort'))return;
