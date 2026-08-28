@@ -28,7 +28,14 @@
     ['The Girl and the Robot',13.97,'The Girl and the Robot Deluxe Edition','Playstation 4'],
     ['Trouble Witches Final: Episode 1 - Daughters of Amalgam',33.68,'Trouble Witches Final! Episode 01: Daughters Of Amalgam','PAL Playstation 4'],
     ['Undead Darlings ~no cure for love~',23.50,'Undead Darlings: No Cure For Love','Playstation 4'],
-    ['Velocity 2X',14.74,'Velocity 2X: Critical Mass Edition','Playstation 4']
+    ['Velocity 2X',14.74,'Velocity 2X: Critical Mass Edition','Playstation 4'],
+    ["Baldur's Gate and Baldur's Gate II: Enhanced Editions",59.99,"Baldur's Gate 1 & 2 Enhanced Edition",'Playstation 4'],
+    ['Dying Light: The Following',11.28,'Dying Light The Following Enhanced Edition','Playstation 4'],
+    ['Space Hulk: Deathwing',12.22,'Space Hulk Deathwing Enhanced Edition','Playstation 4'],
+    ['The Walking Dead: A Telltale Games Series - The Complete First Season',13.41,'The Walking Dead: Complete First Season','PAL Playstation 4'],
+    ['The Walking Dead: The Telltale Series - A New Frontier',9.05,'The Walking Dead: A New Frontier','Playstation 4'],
+    ['The Walking Dead: The Telltale Series - The Final Season',13.51,'The Walking Dead: Final Season','Playstation 4'],
+    ['Ys: Memories of Celceta - Kai',27.45,'Ys: Memories of Celceta','Playstation 4']
   ];
   let tries=0;
   const apply=()=>{
