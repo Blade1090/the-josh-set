@@ -13,6 +13,8 @@ on:
       - 'census-*.js'
       - '.github/workflows/price-gap-audit.yml'
   workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   audit:
     runs-on: ubuntu-latest
@@ -21,6 +23,13 @@ jobs:
       - run: node tools/price-gap-audit.mjs
       - run: node tools/price-gap-post-v050.mjs
       - run: node tools/build-public-price-profile.mjs
+      - name: Publish public price profile
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add public-prices-full-v066.js
+          git diff --cached --quiet || git commit -m "Update full public price profile"
+          git push
       - uses: actions/upload-artifact@v4
         with:
           name: shelfcheck-price-gap
