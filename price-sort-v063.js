@@ -1,6 +1,7 @@
-// ShelfCheck v0.64 — alphabetical + price sorting for store/collection browsing.
+// ShelfCheck v0.65 — alphabetical + price sorting for store/collection browsing.
 (()=>{
   let sortMode='AZ';
+  const titleOf=card=>(card.querySelector('.top b')?.textContent||'').trim();
   const priceValue=x=>{
     const p=typeof priceFor==='function'?priceFor(x):null;
     const vals=[p?.m,p?.g,p?.s].map(Number).filter(v=>Number.isFinite(v)&&v>0);
@@ -15,13 +16,13 @@
     if(sortMode==='AZ')return;
     const anchor=root.querySelector('#loadMore, p.muted');
     if(sortMode==='ZA'){
-      cards.sort((a,b)=>(b.querySelector('.top b')?.textContent||'').localeCompare(a.querySelector('.top b')?.textContent||''));
+      cards.sort((a,b)=>titleOf(b).localeCompare(titleOf(a),undefined,{sensitivity:'base',numeric:true}));
       for(const card of cards)root.insertBefore(card,anchor||null);
       return;
     }
     const priced=[],pending=[];
     for(const card of cards){
-      const title=card.querySelector('.top b')?.textContent||'';
+      const title=titleOf(card);
       const x=items.find(g=>g.title===title);
       const v=x?priceValue(x):null;
       (v==null?pending:priced).push({card,v,title});
