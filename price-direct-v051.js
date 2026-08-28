@@ -40,7 +40,28 @@
     ['Forgotten City',13.96,'The Forgotten City','JP Playstation 4'],
     ['Skylanders Swap Force',113.46,'Skylanders Swap Force [Game Only]','Playstation 4'],
     ['Unravel',50.00,"Unravel [Collector's Edition]",'Playstation 4'],
-    ['Ys X: Nordics',45.08,'Ys X: Nordics [Limited Edition]','Playstation 4']
+    ['Ys X: Nordics',45.08,'Ys X: Nordics [Limited Edition]','Playstation 4'],
+    ['Alternate Jake Hunter: Daedalus - The Awakening of Golden Jazz',20.00,'Deadalus: The Awakening of Golden Jazz','Asian English Playstation 4'],
+    ['Dariusburst: Chronicle Saviours',54.87,'Dariusburst Chronicle Saviours','JP Playstation 4'],
+    ['Demon Gaze Extra',27.20,'Demon Gaze Extra [Day One Edition]','Playstation 4'],
+    ['Fatal Twelve',46.39,'Fatal Twelve','JP Playstation 4'],
+    ['Ghostrunner',22.09,'Ghostrunner','Asian English Playstation 4'],
+    ['Jinki Resurrection',137.43,'Jinki Resurrection','JP Playstation 4'],
+    ['Journey',37.72,"Journey [Collector's Edition]",'PAL Playstation 4'],
+    ['Kung Fury: Street Rage',31.08,'Kung Fury: Street Rage Ultimate Edition','Playstation 4'],
+    ['Labyrinth Life',24.54,'Labyrinth Life','JP Playstation 4'],
+    ['Lethal League Blaze',33.40,'Lethal League Blaze','JP Playstation 4'],
+    ['Lichtspeer',15.02,'Lichtspeer [Double Speer Edition]','Playstation 4'],
+    ['Patapon',49.45,'Patapon','Asian English Playstation 4'],
+    ['Project Starship X',44.99,'Project Starship X Limited Edition','Playstation 4'],
+    ['Rym 9000',58.32,'Rym 9000 Limited Edition','Playstation 4'],
+    ['SD Gundam G Generation Cross Rays',31.48,'SD Gundam G Generation Cross Rays','Asian English Playstation 4'],
+    ['Shin Megami Tensei V: Vengeance',70.00,'Shin Megami Tensei V: Vengeance','Asian English Playstation 4'],
+    ['Söldner-X 2: Final Prototype Definitive Edition',68.70,'Soldner X2 Final Prototype Definitive Edition','Playstation 4'],
+    ['Steel Empire Chronicles',47.65,'Steel Empire Chronicles [Limited Edition]','PAL Playstation 4'],
+    ['Taimumari',26.39,'Taimumari: Complete Edition','PAL Playstation 4'],
+    ['World of Warships: Legends',13.98,'World of Warships Legends [Firepower Deluxe Edition]','Playstation 4'],
+    ['Yuuna and the Haunted Hot Springs: Steam Dungeon',60.63,'Yuuna And The Haunted Hot Springs','JP Playstation 4']
   ];
   let tries=0;
   const apply=()=>{
