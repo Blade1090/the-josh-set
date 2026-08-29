@@ -1,0 +1,35 @@
+{
+  "at": "2026-08-29T22:32:55.546Z",
+  "scripts": [
+    "https://www.gameye.app/assets/index-G68RURX0.js"
+  ],
+  "css": [
+    "https://www.gameye.app/assets/vendor-Sp7cmjVe.css",
+    "https://www.gameye.app/assets/index-Dzss4Oo0.css"
+  ],
+  "candidates": [
+    "/SearchBar-C7nJMUeH.js",
+    "/SearchBar-CkXdYIpe.css",
+    "/Encyclopedia-lAcim8r7.js",
+    "/itemCategoryPresentation-W9lZpSs5.js",
+    "/Encyclopedia-buPFsY_H.css",
+    "/SearchFilters-u96RbjDe.js",
+    "/SearchFilters-BS1ifSgQ.css",
+    "/EncyclopediaListItem-DHNx8Lsk.js",
+    "/EncyclopediaListItem-DFpHI6Eh.css",
+    "/RegionEncyclopediaItem-CpNpC2aD.js",
+    "/RegionEncyclopediaItem-CvuDQ-Nh.css",
+    "/api",
+    "/deep_search",
+    "/user_collection_search/",
+    "/user_backlog_search/",
+    "/popular_user_entries",
+    "/api/articles",
+    "/api/articles/",
+    "/user_search",
+    "/category",
+    "/category/all",
+    "/category/",
+    "/encyclopedia/"
+  ]
+}
