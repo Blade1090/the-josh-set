@@ -1,0 +1,62 @@
+[
+  {
+    "id": 11,
+    "title": "428: Shibuya Scramble",
+    "a": 27,
+    "c": 40,
+    "gameyeId": 183474,
+    "gameyeTitle": "428 Shibuya Scramble",
+    "region": "ITA",
+    "confidence": "EXACT_NORMALIZED_PS4"
+  },
+  {
+    "id": 168,
+    "title": "Black Desert",
+    "a": 96,
+    "c": 2060,
+    "gameyeId": 178468,
+    "gameyeTitle": "Black Desert [Prestige Edition]",
+    "region": "UK",
+    "confidence": "EXACT_NORMALIZED_PS4"
+  },
+  {
+    "id": 187,
+    "title": "Bloodborne",
+    "a": 33,
+    "c": 76,
+    "gameyeId": 164308,
+    "gameyeTitle": "Bloodborne [PlayStation Hits]",
+    "region": "BRZL",
+    "confidence": "EXACT_NORMALIZED_PS4"
+  },
+  {
+    "id": 580,
+    "title": "Hellblade: Senua's Sacrifice",
+    "a": 8,
+    "c": 9,
+    "gameyeId": 123537,
+    "gameyeTitle": "Hellblade: Senua's Sacrifice",
+    "region": "UK",
+    "confidence": "EXACT_NORMALIZED_PS4"
+  },
+  {
+    "id": 1803,
+    "title": "Elden Ring",
+    "a": 60,
+    "c": 135,
+    "gameyeId": 147995,
+    "gameyeTitle": "Elden Ring [Premium Collector's Edition]",
+    "region": "UK",
+    "confidence": "EXACT_NORMALIZED_PS4"
+  },
+  {
+    "id": 1838,
+    "title": "Rugrats: Adventures in Gameland",
+    "a": 2,
+    "c": 2,
+    "gameyeId": 163378,
+    "gameyeTitle": "Rugrats: Adventures in Gameland [Collector's Edition]",
+    "region": "USA",
+    "confidence": "EXACT_NORMALIZED_PS4"
+  }
+]
