@@ -1,0 +1,33 @@
+name: GAMEYE HLTB Bridge
+on:
+  push:
+    paths:
+      - 'gameye-hltb.json'
+      - 'tools/gameye-hltb-import.mjs'
+      - 'audit-out/canonical-live.json'
+      - '.github/workflows/gameye-hltb.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build canonical snapshot
+        run: node tools/price-gap-audit.mjs
+      - name: Reconcile GAMEYE HLTB
+        run: node tools/gameye-hltb-import.mjs gameye-hltb.json audit-out/canonical-live.json hltb-gameye-v067.js audit-out/gameye-hltb-review.json
+      - name: Publish HLTB bridge
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add hltb-gameye-v067.js audit-out/gameye-hltb-accepted.json audit-out/gameye-hltb-review.json
+          git diff --cached --quiet || git commit -m "Update GAMEYE HLTB bridge"
+          git push
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gameye-hltb-review
+          path: |
+            audit-out/gameye-hltb-accepted.json
+            audit-out/gameye-hltb-review.json
