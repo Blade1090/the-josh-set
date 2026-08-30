@@ -1,80 +1,35 @@
 import fs from 'node:fs';
-const BASE='https://www.gameye.app';
+const BASE='https://www.gameye.app/api';
 const H={'user-agent':'Mozilla/5.0','accept':'application/json,text/plain,*/*'};
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+async function fetchRetry(u,tries=7){for(let i=0;i<tries;i++){const r=await fetch(u,{headers:H});if(r.ok)return r;if(r.status!==429&&r.status<500)throw new Error(`${r.status} ${u}`);const s=Number(r.headers.get('retry-after'));await sleep(Number.isFinite(s)&&s>0?s*1000:Math.min(60000,1000*2**i));}throw new Error(`retries exhausted ${u}`)}
+const json=async u=>(await fetchRetry(u)).json();
+const known=[164308,123537,183474,163491,147995,163378,178468];
 
-async function fetchRetry(u,opt={},tries=8){
-  for(let attempt=0;attempt<tries;attempt++){
-    const r=await fetch(u,opt);
-    if(r.ok) return r;
-    if(r.status!==429 && r.status<500) throw new Error(`${r.status} ${u}`);
-    const retry=Number(r.headers.get('retry-after'));
-    const wait=Number.isFinite(retry)&&retry>0 ? retry*1000 : Math.min(60000,1500*(2**attempt));
-    console.log(`GAMEYE ${r.status}; waiting ${Math.round(wait/1000)}s then retry ${attempt+1}/${tries}: ${u}`);
-    await sleep(wait);
-  }
-  throw new Error(`GAMEYE retries exhausted: ${u}`);
-}
-const getJSON=async u=>(await fetchRetry(u,{headers:H})).json();
-const getText=async(u,accept='text/html')=>(await fetchRetry(u,{headers:{...H,accept}})).text();
-const parseTime=v=>{if(v==null)return null;if(typeof v==='number')return v;const m=String(v).match(/([0-9]+(?:\.[0-9]+)?)/);return m?Number(m[1]):null};
+// GAMEYE frontend source proves the real API contracts are:
+//   GET /deep_search with axios config {params:{title,limit,offset,...}}
+//   GET /items/:id for detail data.
+// Never infer platform from SPA HTML again.
+const details=[];
+for(const id of known){const x=await json(`${BASE}/items/${id}`);const d=x.item_detail||x.item||x;details.push({id,d});await sleep(150)}
+const platformIds=[...new Set(details.map(x=>Number(x.d.platform_id)).filter(Number.isFinite))];
+if(platformIds.length!==1) throw new Error(`Known PS4 anchors disagree on platform_id: ${platformIds.join(',')}`);
+const PS4=platformIds[0];
+console.log('Verified PS4 platform_id from known anchors:',PS4);
 
-let ps4FilterId=null;
-for(let fid=1;fid<=160;fid++){
-  try{
-    const html=await getText(`${BASE}/category/all?f=1-${fid}`);
-    if(/Sony\s+PlayStation\s+4/i.test(html)){ps4FilterId=fid;console.log('Discovered PS4 browse filter',fid);break;}
-  }catch{}
-  await sleep(150);
-}
-if(ps4FilterId==null) throw new Error('Could not discover GAMEYE PS4 browse filter');
+// Probe likely deep_search platform parameter names, accepting only a genuinely filtered response.
+const candidates=['platform_id','platform','platforms']; let filterParam=null, first=null;
+for(const p of candidates){const u=new URL(`${BASE}/deep_search`);u.searchParams.set(p,String(PS4));u.searchParams.set('limit','100');u.searchParams.set('offset','0');const j=await json(u);const rec=j.records||[];const ok=rec.length>=10&&rec.every(r=>Number(r.platform_id)===PS4)&&Number(j.full_count)>1000&&Number(j.full_count)<20000;if(ok){filterParam=p;first=j;break}console.log('Rejected filter param',p,'full_count=',j.full_count,'rows=',rec.length,'platforms=',[...new Set(rec.map(r=>r.platform_id))].slice(0,8));await sleep(200)}
+if(!filterParam) throw new Error('GAMEYE deep_search PS4 filter syntax not yet verified; refusing to overwrite bridge');
+console.log('Verified deep_search filter:',filterParam,'PS4=',PS4,'count=',first.full_count);
 
-// GAMEYE's full_count is global even when f= is supplied. Therefore never use it as
-// the filtered pagination bound. Stop on an empty page, a repeated page, or a short page.
-let page=1, ps4Records=[], previousIds=null, pageSize=null;
-while(true){
-  const j=await getJSON(`${BASE}/api/deep_search?f=${encodeURIComponent(`1-${ps4FilterId}`)}&page=${page}`);
-  const recs=(j.records||[]).filter(r=>r.category_id===0);
-  if(!recs.length){console.log(`PS4 pagination ended at empty page ${page}`);break;}
-  const ids=recs.map(r=>r.id).join(',');
-  if(ids===previousIds){console.log(`PS4 pagination repeated at page ${page}; stopping safely`);break;}
-  previousIds=ids;
-  if(pageSize==null) pageSize=recs.length;
-  ps4Records.push(...recs);
-  console.log(`PS4 filtered page ${page}; products=${ps4Records.length}`);
-  if(recs.length<pageSize){console.log(`PS4 pagination ended on short page ${page} (${recs.length}/${pageSize})`);break;}
-  page++;
-  if(page>10000) throw new Error('Safety stop: PS4 pagination exceeded 10,000 pages');
-  await sleep(500);
-}
-ps4Records=[...new Map(ps4Records.map(r=>[r.id,r])).values()];
-if(!ps4Records.length) throw new Error('GAMEYE PS4 filtered scan returned zero records');
+const total=Number(first.full_count);if(!(total>1000&&total<20000))throw new Error(`Implausible PS4 count ${total}`);
+let records=[],offset=0,limit=100;
+while(offset<total){const u=new URL(`${BASE}/deep_search`);u.searchParams.set(filterParam,String(PS4));u.searchParams.set('limit',String(limit));u.searchParams.set('offset',String(offset));const j=offset===0?first:await json(u);const rec=j.records||[];if(!rec.length)break;if(!rec.every(r=>Number(r.platform_id)===PS4))throw new Error(`Platform contamination at offset ${offset}`);records.push(...rec);offset+=rec.length;console.log(`catalog ${Math.min(offset,total)}/${total}`);await sleep(250)}
+records=[...new Map(records.map(r=>[r.id,r])).values()];
+if(records.length<1000)throw new Error(`Only ${records.length} verified PS4 products; refusing publish`);
 
-let verified=0;
-for(const r of ps4Records.slice(0,Math.min(10,ps4Records.length))){
-  try{if(/Sony\s+PlayStation\s+4/i.test(await getText(`${BASE}/encyclopedia/${r.id}`))) verified++;}catch{}
-  await sleep(250);
-}
-if(!verified) throw new Error(`Filter 1-${ps4FilterId} returned ${ps4Records.length} records but PS4 verification failed`);
-console.log(`Verified PS4 filter 1-${ps4FilterId}; products=${ps4Records.length}; samples=${verified}`);
-
-const out=[]; let n=0;
-for(const r of ps4Records){
-  let avg=null,comp=null,region=null;
-  try{
-    const resp=await fetchRetry(`${BASE}/api/encyclopedia/${r.id}`,{headers:H});
-    const type=resp.headers.get('content-type')||''; const text=await resp.text();
-    if(type.includes('json')){const j=JSON.parse(text);const x=j.record||j.item||j;avg=parseTime(x.averagePlaytime??x.average_playtime??x.hltb?.average??x.hltb?.main);comp=parseTime(x.completionist??x.completionist_playtime??x.hltb?.completionist);region=x.region??x.country??region;}
-  }catch{}
-  if(avg==null&&comp==null){
-    try{const text=await getText(`${BASE}/encyclopedia/${r.id}`);const ma=text.match(/Average(?: Playtime)?[^0-9]{0,160}([0-9]+(?:\.[0-9]+)?)/i);const mc=text.match(/Completionist[^0-9]{0,160}([0-9]+(?:\.[0-9]+)?)/i);if(ma)avg=Number(ma[1]);if(mc)comp=Number(mc[1]);}catch{}
-  }
-  if(avg!=null||comp!=null) out.push({id:r.id,gameyeId:r.id,title:r.title,platform:'Sony PlayStation 4',region,averagePlaytime:avg,completionist:comp});
-  if(++n%100===0) console.log(`details ${n}/${ps4Records.length}; HLTB=${out.length}`);
-  await sleep(500);
-}
-if(!out.length) throw new Error(`Found ${ps4Records.length} verified PS4 products but extracted zero HLTB records`);
-fs.writeFileSync('gameye-hltb.json',JSON.stringify(out,null,2)+'\n');
-fs.mkdirSync('audit-out',{recursive:true});
-fs.writeFileSync('audit-out/gameye-full-fetch-report.json',JSON.stringify({at:new Date().toISOString(),ps4Filter:`1-${ps4FilterId}`,ps4Products:ps4Records.length,hltbProducts:out.length,pages:page},null,2));
-console.log(JSON.stringify({ps4Filter:`1-${ps4FilterId}`,ps4Products:ps4Records.length,hltbProducts:out.length,pages:page},null,2));
+const out=[];let n=0;
+for(const r of records){try{const x=await json(`${BASE}/items/${r.id}`);const d=x.item_detail||x.item||x;const h=d.hltb||d.howlongtobeat||d.game_specific?.hltb||{};const avg=Number(d.averagePlaytime??d.average_playtime??h.average??h.main);const comp=Number(d.completionist??d.completionist_playtime??h.completionist);if(Number.isFinite(avg)||Number.isFinite(comp))out.push({id:r.id,gameyeId:r.id,title:r.title,platform:'Sony PlayStation 4',region:d.region??d.country??null,averagePlaytime:Number.isFinite(avg)?avg:null,completionist:Number.isFinite(comp)?comp:null});}catch(e){console.log('detail fail',r.id,String(e))}if(++n%100===0)console.log(`details ${n}/${records.length}; HLTB=${out.length}`);await sleep(150)}
+if(out.length<500)throw new Error(`Only ${out.length} PS4 HLTB products; sanity gate requires >=500; refusing publish`);
+fs.writeFileSync('gameye-hltb.json',JSON.stringify(out,null,2)+'\n');fs.mkdirSync('audit-out',{recursive:true});fs.writeFileSync('audit-out/gameye-full-fetch-report.json',JSON.stringify({at:new Date().toISOString(),platformId:PS4,filterParam,ps4Products:records.length,hltbProducts:out.length},null,2));console.log({platformId:PS4,filterParam,ps4Products:records.length,hltbProducts:out.length});
