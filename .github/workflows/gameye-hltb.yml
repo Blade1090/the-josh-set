@@ -5,6 +5,7 @@ on:
       - 'tools/gameye-full-fetch.mjs'
       - 'tools/gameye-known-ps4-probe.mjs'
       - 'tools/gameye-hltb-import.mjs'
+      - 'tools/price-gap-audit.mjs'
       - '.github/workflows/gameye-hltb.yml'
   workflow_dispatch:
 permissions:
@@ -15,12 +16,12 @@ jobs:
     timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
-      - name: Probe known PS4 records
-        run: node tools/gameye-known-ps4-probe.mjs
-      - name: Harvest verified GAMEYE PS4 HLTB
-        run: node tools/gameye-full-fetch.mjs
       - name: Build canonical snapshot
         run: node tools/price-gap-audit.mjs
+      - name: Probe known PS4 records
+        run: node tools/gameye-known-ps4-probe.mjs
+      - name: Harvest canonical GAMEYE PS4 HLTB
+        run: node tools/gameye-full-fetch.mjs audit-out/canonical-live.json
       - name: Reconcile GAMEYE HLTB
         run: node tools/gameye-hltb-import.mjs gameye-hltb.json audit-out/canonical-live.json hltb-gameye-v067.js audit-out/gameye-hltb-review.json
       - name: Sanity gate accepted bridge
@@ -36,7 +37,7 @@ jobs:
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add gameye-hltb.json hltb-gameye-v067.js audit-out/gameye-hltb-accepted.json audit-out/gameye-hltb-review.json audit-out/gameye-full-fetch-report.json audit-out/gameye-known-ps4-probe.json
+          git add gameye-hltb.json hltb-gameye-v067.js audit-out/gameye-hltb-accepted.json audit-out/gameye-hltb-review.json audit-out/gameye-full-fetch-report.json audit-out/gameye-known-ps4-probe.json audit-out/gameye-detail-cache.json
           git diff --cached --quiet || git commit -m "Update full GAMEYE HLTB bridge"
           git pull --rebase origin main
           git push
