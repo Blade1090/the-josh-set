@@ -17,12 +17,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: Probe known PS4 records
         run: node tools/gameye-known-ps4-probe.mjs
-      - name: Harvest GAMEYE PS4 HLTB
+      - name: Harvest verified GAMEYE PS4 HLTB
         run: node tools/gameye-full-fetch.mjs
       - name: Build canonical snapshot
         run: node tools/price-gap-audit.mjs
       - name: Reconcile GAMEYE HLTB
         run: node tools/gameye-hltb-import.mjs gameye-hltb.json audit-out/canonical-live.json hltb-gameye-v067.js audit-out/gameye-hltb-review.json
+      - name: Sanity gate accepted bridge
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          const a=JSON.parse(fs.readFileSync('audit-out/gameye-hltb-accepted.json','utf8'));
+          const n=Array.isArray(a)?a.length:(a.accepted||[]).length;
+          console.log('accepted canonical HLTB matches:',n);
+          if(n<100) throw new Error('Refusing publish: accepted canonical HLTB matches < 100');
+          NODE
       - name: Publish full HLTB bridge
         run: |
           git config user.name github-actions[bot]
@@ -32,6 +41,7 @@ jobs:
           git pull --rebase origin main
           git push
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: gameye-hltb-full
           path: |
