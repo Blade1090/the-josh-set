@@ -1,10 +1,12 @@
-// ShelfCheck full-census integrity audit harness.
-// Runs after census-cleanup.js and validates the live identity/product model without mutating source data.
+// ShelfCheck census integrity + provenance audit.
+// Non-mutating: explains exactly what is contributing to the live denominator.
 (()=>{
   let tries=0;
   const run=()=>{
     tries++;
-    if(typeof norm!=='function'||!Array.isArray(items)||!items.length||!DATA){if(tries<100)setTimeout(run,100);return;}
+    if(typeof norm!=='function'||!Array.isArray(items)||!items.length||!DATA||typeof byId==='undefined'){
+      if(tries<120)setTimeout(run,100);return;
+    }
 
     const included=items.filter(x=>x.set==='INCLUDED');
     const excluded=items.filter(x=>x.set==='EXCLUDED');
@@ -12,49 +14,54 @@
     for(const x of included){const k=norm(x.title);if(!byNorm.has(k))byNorm.set(k,[]);byNorm.get(k).push(x);}
     const duplicateGroups=[...byNorm.values()].filter(g=>g.length>1);
 
-    const reviewedKeeps=included.filter(x=>x.cleanupReviewed);
-    const cleanupExcluded=excluded.filter(x=>x.cleanupReason);
+    // v0.52-v0.59 are the intentionally hand-curated PriceCharting negative-space passes.
+    // Their assigned IDs span 2272-2780, with two deliberately unused IDs (2432, 2445).
+    const pcSweepIds=new Set();
+    for(let id=2272;id<=2780;id++)if(id!==2432&&id!==2445)pcSweepIds.add(id);
+    const pcIncluded=included.filter(x=>pcSweepIds.has(+x.id));
+    const pcExcluded=excluded.filter(x=>pcSweepIds.has(+x.id));
+    const nonPcIncluded=included.filter(x=>!pcSweepIds.has(+x.id));
 
-    // Candidate-only heuristics. These NEVER change inclusion; they surface records for evidence review.
-    const dlcWords=/\b(dlc|season pass|expansion|add on|add-on|episode pack|skin pack|character pack|map pack|costume pack|soundtrack)\b/i;
-    const editionWords=/\b(playstation hits|greatest hits|limited edition|collector'?s edition|collectors edition|deluxe edition|steelbook|not for resale)\b/i;
-    const vrWords=/\b(psvr|playstation vr|vr worlds|vr edition)\b/i;
-    const sportsAnnual=/\b(fifa|madden nfl|nba 2k|nhl|mlb the show|wwe 2k|f1)\s*([12][0-9]{3}|[0-9]{2})\b/i;
-
-    const dlcCandidates=included.filter(x=>dlcWords.test(x.title));
-    const editionCandidates=included.filter(x=>editionWords.test(x.title));
-    const vrCandidates=included.filter(x=>vrWords.test(x.title));
-    const annualSportsCandidates=included.filter(x=>sportsAnnual.test(x.title));
+    const phaseCounts={
+      v052:included.filter(x=>+x.id>=2272&&+x.id<=2368).length,
+      v053:included.filter(x=>+x.id>=2369&&+x.id<=2455).length,
+      v054:included.filter(x=>+x.id>=2456&&+x.id<=2475).length,
+      v055:included.filter(x=>+x.id>=2476&&+x.id<=2543).length,
+      v056:included.filter(x=>+x.id>=2544&&+x.id<=2580).length,
+      v057:included.filter(x=>+x.id>=2581&&+x.id<=2650).length,
+      v058:included.filter(x=>+x.id>=2651&&+x.id<=2709).length,
+      v059:included.filter(x=>+x.id>=2710&&+x.id<=2780).length
+    };
 
     const idx=typeof ensureMergedProducts==='function'?ensureMergedProducts():null;
     const seenProducts=new Set(),multiProducts=[];
     if(idx){for(const p of idx.values()){if(seenProducts.has(p.key))continue;seenProducts.add(p.key);const ids=[...new Set(p.ids||[])].filter(id=>byId.get(id)?.set==='INCLUDED');if(ids.length>1)multiProducts.push({title:p.title,count:ids.length,ids});}}
 
     const result={
-      sourceReported:2068,
       liveIncluded:included.length,
       liveExcluded:excluded.length,
       dataDenominator:DATA.n,
       denominatorMatches:DATA.n===included.length,
+      lineage:{
+        postCurrentScrubsNonPriceCharting:nonPcIncluded.length,
+        priceChartingSweepIncluded:pcIncluded.length,
+        priceChartingSweepExcluded:pcExcluded.length,
+        priceChartingPhaseCounts:phaseCounts,
+        recomposed:nonPcIncluded.length+pcIncluded.length
+      },
       exactNormalizedDuplicateGroups:duplicateGroups.map(g=>g.map(x=>x.title)),
-      cleanupExcluded:cleanupExcluded.map(x=>({title:x.title,reason:x.cleanupReason})),
-      reviewedKeeps:reviewedKeeps.map(x=>({title:x.title,reason:x.cleanupReason})),
-      multiIdentityProducts:multiProducts.map(p=>({title:p.title,count:p.count})),
-      reviewQueues:{
-        dlcNamed:dlcCandidates.map(x=>x.title),
-        editionNamed:editionCandidates.map(x=>x.title),
-        vrNamed:vrCandidates.map(x=>x.title),
-        annualSportsNamed:annualSportsCandidates.map(x=>x.title)
-      }
+      multiIdentityProducts:multiProducts.map(p=>({title:p.title,count:p.count}))
     };
+
     window.SHELFCHECK_CENSUS_AUDIT=result;
-    console.group('ShelfCheck full census audit');
+    window.SHELFCHECK_CENSUS_LINEAGE=result.lineage;
+    console.group('ShelfCheck census integrity / lineage');
     console.log('Integrity result',result);
     if(!result.denominatorMatches)console.error('DENOMINATOR MISMATCH',DATA.n,included.length);
     if(duplicateGroups.length)console.warn('Exact-normalized duplicate identity groups',result.exactNormalizedDuplicateGroups);
-    console.log(`Live denominator: ${included.length} (source freeze reported 2068; post-freeze cleanup delta ${included.length-2068})`);
-    console.log(`Multi-identity products modeled: ${multiProducts.length}`);
-    console.log('Evidence-review candidates (not automatic verdicts)',result.reviewQueues);
+    const p=result.lineage;
+    console.log(`Live denominator ${included.length} = ${p.postCurrentScrubsNonPriceCharting} non-PriceCharting + ${p.priceChartingSweepIncluded} PriceCharting sweep identities.`);
+    console.log('PriceCharting phase counts',p.priceChartingPhaseCounts);
     console.groupEnd();
   };
   run();
