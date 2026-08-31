@@ -1,7 +1,7 @@
 name: New Census Price Audit
 on:
   push:
-    paths: ['tools/price-new-games-audit.mjs','.github/workflows/price-new-games-audit.yml']
+    paths: ['tools/price-new-games-audit.mjs','tools/fetch-new-game-prices.mjs','.github/workflows/price-new-games-audit.yml']
   workflow_dispatch:
 jobs:
   audit:
@@ -9,8 +9,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: node tools/price-new-games-audit.mjs > new-price-audit.json
-      - run: cat new-price-audit.json
+      - name: Fetch verified live CIB prices
+        run: node tools/fetch-new-game-prices.mjs
+      - run: cat new-game-prices-live.json
       - uses: actions/upload-artifact@v4
         with:
           name: new-price-audit
-          path: new-price-audit.json
+          path: |
+            new-price-audit.json
+            new-game-prices-live.json
+            price-new-games-v073.js
