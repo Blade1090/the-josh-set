@@ -1,0 +1,5 @@
+import fs from 'node:fs';
+const files=['census-v052-pricecharting-negative-space.js','census-v053-pricecharting-regional-sweep.js','census-v054-pricecharting-collection-gap.js','census-v055-pricecharting-ab-sweep.js','census-v056-pricecharting-cf-sweep.js','census-v057-pricecharting-gl-sweep.js','census-v058-pricecharting-mr-sweep.js','census-v059-pricecharting-sz-sweep.js'];
+const adds=[];for(const f of files){const s=fs.readFileSync(f,'utf8');for(const m of s.matchAll(/\[(\d+),"([^"]+)",(\d+),"([^"]+)","([^"]+)"\]/g))adds.push({id:+m[1],title:m[2],pcid:+m[3],region:m[4],product:m[5]})}
+const priceSrc=fs.readFileSync('public-prices-full-v066.js','utf8');const priced=new Set([...priceSrc.matchAll(/\[(\d+),(\d+)\]/g)].map(m=>+m[1]));const missing=adds.filter(x=>!priced.has(x.id));
+console.log(JSON.stringify({newIdentities:adds.length,alreadyPriced:adds.length-missing.length,missingPrices:missing.length,missing},null,2));
