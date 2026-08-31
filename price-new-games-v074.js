@@ -1,0 +1,2 @@
+// Second-pass verified PriceCharting CIB prices.
+(()=>{const P=[[2298,2999],[2302,1849],[2328,1499],[2332,2499],[2362,1999],[2380,3499],[2387,2999],[2390,2399],[2400,3999],[2407,2999],[2415,2999],[2435,2999],[2473,1999],[2500,2499],[2507,3499],[2524,2999],[2567,2499],[2626,2999],[2696,2999]];for(const [id,cents] of P){const x=byId.get(id);if(x&&x.set==='INCLUDED'){x.max=cents/100;x.priceSource='PriceCharting live CIB pass 2';}}window.SHELFCHECK_NEW_GAME_PRICES_PASS2={priced:P.length,pending:285};if(typeof render==='function')render();})();
