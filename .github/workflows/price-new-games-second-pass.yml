@@ -1,0 +1,26 @@
+name: New Game Price Second Pass
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'tools/price-new-games-second-pass.mjs'
+      - '.github/workflows/price-new-games-second-pass.yml'
+jobs:
+  price:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rebuild first-pass inputs
+        run: |
+          node tools/price-new-games-audit.mjs > new-price-audit.json
+          node tools/fetch-new-game-prices.mjs > first-pass-summary.json
+      - name: Recover remaining verified CIB prices
+        run: node tools/price-new-games-second-pass.mjs > second-pass-summary.json
+      - run: cat second-pass-summary.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: new-game-price-second-pass
+          path: |
+            new-game-prices-second-pass.json
+            price-new-games-v074.js
+            second-pass-summary.json
