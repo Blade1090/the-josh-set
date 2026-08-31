@@ -25,3 +25,4 @@ jobs:
         with:
           name: shelfcheck-cover-audit
           path: cover-audit.json
+# trigger-current-main: 2026-08-31
