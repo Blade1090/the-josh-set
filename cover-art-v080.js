@@ -19,8 +19,8 @@
       card.prepend(shell);if((x&&effectiveStatus(x)==='OWNED')||(p&&productSet.has(p.key)))card.classList.add('cover-owned');
     });
   };
-  const oldRender=render;render=function(){const r=oldRender.apply(this,arguments);paint();return r};
+  const oldRender=render;render=function(){const r=oldRender.apply(this,arguments);paint();if(typeof decoratePriceCards==='function')decoratePriceCards();return r};
   const oldDetail=detail;detail=function(id){const r=oldDetail.apply(this,arguments);const x=byId.get(id),url=x&&coverFor(x),box=document.querySelector('#detail');if(!url||!box||box.querySelector('.detail-cover'))return r;const h=box.querySelector('h2');if(!h)return r;const img=document.createElement('img');img.className='detail-cover';img.src=url;img.alt=x.title+' cover';img.decoding='async';img.onerror=()=>img.remove();h.insertAdjacentElement('afterend',img);return r};
-  window.SHELFCHECK_COVER_ART={version:84,paint,coverFor,productCover};
+  window.SHELFCHECK_COVER_ART={version:85,paint,coverFor,productCover};
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',paint);else paint();
 })();
