@@ -1,0 +1,16 @@
+name: New Census Price Audit
+on:
+  push:
+    paths: ['tools/price-new-games-audit.mjs','.github/workflows/price-new-games-audit.yml']
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: node tools/price-new-games-audit.mjs > new-price-audit.json
+      - run: cat new-price-audit.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: new-price-audit
+          path: new-price-audit.json
