@@ -1,16 +1,26 @@
-// ShelfCheck v0.68 — alphabetical + price sorting.
+// ShelfCheck v0.72 — sort the DATA before pagination, not the rendered 70 cards.
 (()=>{
   let sortMode='AZ';
-  const titleOf=card=>(card.querySelector('.top b')?.textContent||'').trim();
-  const priceFromCard=card=>{const m=(card.textContent||'').match(/CIB\s*\$([\d,.]+)/i);return m?Number(m[1].replace(/,/g,'')):null};
   const oldRender=render;
+  const market=x=>{const p=priceFor(x);const v=p?.m??p?.x??x.max;return v==null||!Number.isFinite(Number(v))?null:Number(v)};
+  const compare=(a,b)=>{
+    if(sortMode==='AZ')return a.title.localeCompare(b.title);
+    if(sortMode==='ZA')return b.title.localeCompare(a.title);
+    const av=market(a),bv=market(b);
+    if(av==null&&bv==null)return a.title.localeCompare(b.title);
+    if(av==null)return 1;if(bv==null)return-1;
+    const d=sortMode==='HIGH'?bv-av:av-bv;
+    return d||a.title.localeCompare(b.title);
+  };
   render=function(){
     window.SHELFCHECK_SORT=sortMode;
-    oldRender();
-    const root=document.querySelector('#results');if(!root||sortMode==='AZ'||sortMode==='ZA')return;
-    const cards=[...root.querySelectorAll(':scope > article.card')],anchor=root.querySelector('#loadMore, p.muted');
-    cards.sort((a,b)=>{const av=priceFromCard(a),bv=priceFromCard(b);if(av==null&&bv==null)return titleOf(a).localeCompare(titleOf(b));if(av==null)return 1;if(bv==null)return-1;return sortMode==='HIGH'?(bv-av):(av-bv)});
-    for(const card of cards)root.insertBefore(card,anchor||null);
+    if(sortMode==='AZ'){oldRender();return;}
+    // app.js builds its result set from `items` and then slices to visibleLimit.
+    // Temporarily present that function a sorted copy so LOW/HIGH/ZA work across
+    // the entire matching census, including results beyond the first 70 cards.
+    const original=items;
+    try{items=[...items].sort(compare);oldRender();}
+    finally{items=original;}
   };
   function install(){
     const nav=document.querySelector('nav');if(!nav||document.querySelector('#priceSort'))return;
