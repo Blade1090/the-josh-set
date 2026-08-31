@@ -26,6 +26,7 @@
     sel.style.cssText='margin-left:auto;padding:10px 8px;border-radius:8px;background:#151a22;color:inherit;border:1px solid #303744;font-weight:700;max-width:190px';
     sel.onchange=()=>{sortMode=sel.value;window.SHELFCHECK_SORT=sortMode;visibleLimit=70;render()};nav.appendChild(sel);
   }
-  function loadFinalPrices(){for(const src of ['price-new-games-v074.js','price-new-games-v075.js','price-whole-census-v077.js']){if(document.querySelector(`script[src^="${src}"]`))continue;const s=document.createElement('script');s.src=src+'?v=92';document.body.appendChild(s);}}
-  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>{install();loadFinalPrices()});else{install();loadFinalPrices()}
+  function addScript(src,onload){if(document.querySelector(`script[src^="${src}"]`)){onload?.();return}const s=document.createElement('script');s.src=src+'?v=93';if(onload)s.onload=onload;document.body.appendChild(s)}
+  function loadExtras(){for(const src of ['price-new-games-v074.js','price-new-games-v075.js','price-whole-census-v077.js'])addScript(src);addScript('covers-manifest.js',()=>addScript('cover-art-v080.js'));}
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>{install();loadExtras()});else{install();loadExtras()}
 })();
