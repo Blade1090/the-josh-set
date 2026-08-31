@@ -1,0 +1,26 @@
+name: New Game Price Final Fallback
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'tools/price-new-games-final-fallback.mjs'
+      - '.github/workflows/price-new-games-final-fallback.yml'
+jobs:
+  price:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: node tools/price-new-games-audit.mjs > new-price-audit.json
+      - run: node tools/fetch-new-game-prices.mjs > first-pass-summary.json
+      - run: node tools/price-new-games-second-pass.mjs > second-pass-summary.json
+      - name: Use loose prices for the remaining exact products
+        run: node tools/price-new-games-final-fallback.mjs > final-summary.json
+      - run: cat final-summary.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: new-game-price-final-fallback
+          path: |
+            new-game-prices-loose-fallback.json
+            price-new-games-v074.js
+            price-new-games-v075.js
+            final-summary.json
