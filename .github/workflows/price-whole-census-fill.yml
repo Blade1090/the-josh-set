@@ -1,0 +1,22 @@
+name: Whole Census Price Fill
+on:
+  push:
+    paths:
+      - '.github/workflows/price-whole-census-fill.yml'
+  workflow_dispatch:
+jobs:
+  fill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build current missing-price audit
+        run: node tools/price-whole-census-audit.mjs >/dev/null
+      - name: Fetch PriceCharting prices for every blank identity
+        run: node tools/price-whole-census-fill.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: whole-census-price-fill
+          path: |
+            whole-census-price-fill.json
+            price-whole-census-v076.js
