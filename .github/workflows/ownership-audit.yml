@@ -1,0 +1,20 @@
+name: Ownership Audit
+on:
+  push:
+    paths:
+      - 'tools/ownership-audit-current.mjs'
+      - 'tools/gameeye-2026-08-30-ps4.json'
+      - '.github/workflows/ownership-audit.yml'
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run ownership reconciliation
+        run: node tools/ownership-audit-current.mjs
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        with:
+          name: ownership-audit-report
+          path: ownership-audit-report.json
