@@ -15,9 +15,6 @@
   render=function(){
     window.SHELFCHECK_SORT=sortMode;
     if(sortMode==='AZ'){oldRender();return;}
-    // app.js builds its result set from `items` and then slices to visibleLimit.
-    // Temporarily present that function a sorted copy so LOW/HIGH/ZA work across
-    // the entire matching census, including results beyond the first 70 cards.
     const original=items;
     try{items=[...items].sort(compare);oldRender();}
     finally{items=original;}
@@ -29,5 +26,6 @@
     sel.style.cssText='margin-left:auto;padding:10px 8px;border-radius:8px;background:#151a22;color:inherit;border:1px solid #303744;font-weight:700;max-width:190px';
     sel.onchange=()=>{sortMode=sel.value;window.SHELFCHECK_SORT=sortMode;visibleLimit=70;render()};nav.appendChild(sel);
   }
-  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',install);else install();
+  function loadFinalPrices(){for(const src of ['price-new-games-v074.js','price-new-games-v075.js']){if(document.querySelector(`script[src^="${src}"]`))continue;const s=document.createElement('script');s.src=src+'?v=91';document.body.appendChild(s);}}
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>{install();loadFinalPrices()});else{install();loadFinalPrices()}
 })();
