@@ -1,0 +1,22 @@
+name: Strict Final Whole Census Price Pass
+on:
+  push:
+    paths:
+      - '.github/workflows/price-whole-census-final.yml'
+  workflow_dispatch:
+jobs:
+  final-price-pass:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rebuild current blank-price audit
+        run: node tools/price-whole-census-audit.mjs >/dev/null
+      - name: Run strict identity and physical-product recovery
+        run: node tools/price-whole-census-final.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: strict-final-whole-census-prices
+          path: |
+            whole-census-price-final.json
+            price-whole-census-v077.js
