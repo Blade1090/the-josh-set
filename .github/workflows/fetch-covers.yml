@@ -1,0 +1,27 @@
+name: Build ShelfCheck Cover Manifest
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/fetch-covers.yml'
+permissions:
+  contents: write
+jobs:
+  covers:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch strict PS4 covers
+        run: node tools/fetch-covers.mjs
+      - name: Commit generated cover manifest
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add covers-manifest.js
+          git diff --cached --quiet || git commit -m "Update ShelfCheck cover manifest"
+          git push
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shelfcheck-cover-audit
+          path: cover-audit.json
