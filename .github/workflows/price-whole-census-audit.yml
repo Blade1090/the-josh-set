@@ -1,0 +1,19 @@
+name: Whole Census Price Audit
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'tools/price-whole-census-audit.mjs'
+      - '.github/workflows/price-whole-census-audit.yml'
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: node tools/price-whole-census-audit.mjs | tee whole-census-price-summary.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: whole-census-price-audit
+          path: |
+            whole-census-price-audit.json
+            whole-census-price-summary.json
