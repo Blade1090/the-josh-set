@@ -1,0 +1,13 @@
+// ShelfCheck v0.71 — close the six-row GameEye reconciliation queue.
+// Products remain products; Josh-rule exclusions remain outside the denominator.
+(()=>{let tries=0;const apply=()=>{tries++;if(typeof norm!=='function'||!Array.isArray(items)||!items.length||!DATA||typeof byId==='undefined'){if(tries<120)setTimeout(apply,100);return;}
+const find=t=>items.find(x=>norm(x.title)===norm(t));
+const addAlias=(target,alias)=>{const x=find(target);if(!x)return false;const a=norm(alias);if(!aliasesById.has(x.id))aliasesById.set(x.id,[]);if(!aliasesById.get(x.id).includes(a))aliasesById.get(x.id).push(a);x.search=(x.search||norm(x.title))+' '+a;return true;};
+const ensureExcluded=(title,reason,id)=>{let x=find(title);if(!x){x={id,title,set:'EXCLUDED',baseline:'EXCLUDED',strong:null,target:null,max:null,search:norm(title)};items.push(x);byId.set(id,x)}else x.set='EXCLUDED';x.cleanupReason=reason;return x;};
+const ensureProduct=(title,coveredTitles)=>{const ids=coveredTitles.map(t=>find(t)).filter(x=>x?.set==='INCLUDED').map(x=>x.id);if(!ids.length)return false;const key=norm(title);let row=DATA.p.find(p=>norm(p[1])===key||norm(p[0])===key);if(row)row[2]=[...new Set([...(row[2]||[]),...ids])];else DATA.p.push([title,title,ids]);const p={key,title,ids:[...new Set(ids)]};productMap.set(key,p);if(key.startsWith('the '))productMap.set(key.slice(4),p);return true;};
+addAlias('Ghost Recon: Breakpoint',"Tom Clancy's Ghost Recon: Breakpoint");
+ensureExcluded('Firewall Zero Hour','PSVR REQUIRED — excluded by Josh Set constitution.',-71001);
+ensureExcluded('WWE 2K24','ANNUAL SPORTS — excluded by Josh Set constitution.',-71002);
+ensureProduct('Kingdom Hearts: The Story So Far',['Kingdom Hearts HD I.5 + II.5 Remix','Kingdom Hearts HD 1.5 + 2.5 Remix','Kingdom Hearts HD 2.8 Final Chapter Prologue']);
+ensureProduct('The Walking Dead: The Telltale Definitive Series',['The Walking Dead: A Telltale Games Series - The Complete First Season','The Walking Dead: Season Two - A Telltale Games Series','The Walking Dead: The Telltale Series - A New Frontier','The Walking Dead: The Telltale Series - The Final Season']);
+if(typeof mergedProductIndex!=='undefined')mergedProductIndex=null;DATA.n=items.filter(x=>x.set==='INCLUDED').length;if(typeof progress==='function')progress();window.SHELFCHECK_OWNERSHIP_RECONCILE_V071=true;console.info('ShelfCheck v0.71 ownership reconciliation applied');};apply();})();
