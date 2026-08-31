@@ -13,19 +13,26 @@ jobs:
     timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch strict PS4 covers
+      - name: Fetch strict PS4 covers from IGDB
+        env:
+          IGDB_CLIENT_ID: ${{ secrets.IGDB_CLIENT_ID }}
+          IGDB_CLIENT_SECRET: ${{ secrets.IGDB_CLIENT_SECRET }}
         run: node tools/fetch-covers.mjs
       - name: Commit generated cover manifest
         run: |
+          cp covers-manifest.js /tmp/covers-manifest.js
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git fetch origin main
+          git reset --hard origin/main
+          cp /tmp/covers-manifest.js covers-manifest.js
           git add covers-manifest.js
           if ! git diff --cached --quiet; then
-            git commit -m "Update ShelfCheck cover manifest"
-            git pull --rebase origin main
+            git commit -m "Update ShelfCheck IGDB cover manifest"
             git push origin main
           fi
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: shelfcheck-cover-audit
           path: cover-audit.json
