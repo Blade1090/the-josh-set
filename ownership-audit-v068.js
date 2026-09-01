@@ -31,7 +31,7 @@
         const ids=items.filter(x=>x.set==='INCLUDED'&&(norm(x.title)===c||(aliasesById.get(x.id)||[]).includes(c))).map(x=>x.id);
         if(ids.length){const before=owned.size;owned.add(ids[0]);const addedUnique=owned.size-before;hit=true;ledger.push({gameEye:title,matchType:'IDENTITY',matched:byId.get(ids[0])?.title,ids:[ids[0]],identities:[byId.get(ids[0])?.title],coverageCount:1,grossBonus:0,addedUnique,overlap:1-addedUnique});break;}
       }
-      if(!hit){const ex=cs.map(c=>items.find(x=>x.set==='EXCLUDED'&&(norm(x.title)===c||(aliasesById.get(x.id)||[]).includes(c))).filter(Boolean)[0];if(ex){excluded++;hit=true;ledger.push({gameEye:title,matchType:'EXCLUDED',matched:ex.title,ids:[],identities:[],coverageCount:0,grossBonus:0,addedUnique:0,overlap:0});}}
+      if(!hit){const ex=cs.map(c=>items.find(x=>x.set==='EXCLUDED'&&(norm(x.title)===c||(aliasesById.get(x.id)||[]).includes(c)))).filter(Boolean)[0];if(ex){excluded++;hit=true;ledger.push({gameEye:title,matchType:'EXCLUDED',matched:ex.title,ids:[],identities:[],coverageCount:0,grossBonus:0,addedUnique:0,overlap:0});}}
       if(!hit){unmatched.push(title);ledger.push({gameEye:title,matchType:'UNRESOLVED',matched:null,ids:[],identities:[],coverageCount:0,grossBonus:0,addedUnique:0,overlap:0});}
     }
 
