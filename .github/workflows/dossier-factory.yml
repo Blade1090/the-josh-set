@@ -1,0 +1,46 @@
+name: ShelfCheck Dossier Factory
+
+on:
+  workflow_dispatch:
+    inputs:
+      passes:
+        description: "Number of 100-game dossier passes"
+        required: false
+        default: "10"
+      batch_size:
+        description: "Games per pass"
+        required: false
+        default: "100"
+      model:
+        description: "OpenAI model"
+        required: false
+        default: "gpt-5-mini"
+
+permissions:
+  contents: read
+
+jobs:
+  dossier-factory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build missing-dossier queue
+        env:
+          PASSES: ${{ inputs.passes }}
+          BATCH_SIZE: ${{ inputs.batch_size }}
+        run: node tools/dossier-factory.mjs
+      - name: Research, generate and quality-gate dossiers
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ inputs.model }}
+        run: node tools/dossier-generate.mjs
+      - name: Upload factory results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shelfcheck-dossier-factory-results
+          path: audit-out/
