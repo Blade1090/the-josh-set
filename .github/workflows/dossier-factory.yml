@@ -1,0 +1,35 @@
+name: ShelfCheck Dossier Factory
+
+on:
+  workflow_dispatch:
+    inputs:
+      passes:
+        description: "Number of 100-game dossier passes to prepare"
+        required: false
+        default: "10"
+      batch_size:
+        description: "Games per pass"
+        required: false
+        default: "100"
+
+permissions:
+  contents: read
+
+jobs:
+  audit-and-plan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Audit dossier coverage and build factory queue
+        env:
+          PASSES: ${{ inputs.passes }}
+          BATCH_SIZE: ${{ inputs.batch_size }}
+        run: node tools/dossier-factory.mjs
+      - name: Upload dossier factory queue
+        uses: actions/upload-artifact@v4
+        with:
+          name: shelfcheck-dossier-factory-queue
+          path: audit-out/dossier-factory-queue.json
