@@ -18,7 +18,10 @@ const DATA=JSON.parse(zlib.gunzipSync(Buffer.from(censusB64,'base64')).toString(
 // Treat every title already present in those batches as covered so the factory does not regenerate them.
 for(const file of fs.readdirSync('.').filter(f=>/^dossier-overrides(?:-\d+)?\.js$/.test(f))){
   const src=fs.readFileSync(file,'utf8');
+  // Array-literal format (e.g. batch 23's DATA rows: ["Title", ...]).
   for(const match of src.matchAll(/^\s*\[\s*(["'])(.*?)\1\s*,/gm)) existing.add(norm(unescapeJsString(match[2])));
+  // Object-literal format (batches 1-22 and most others: {t:"Title",...}).
+  for(const match of src.matchAll(/\{\s*t\s*:\s*(["'])(.*?)\1/gm)) existing.add(norm(unescapeJsString(match[2])));
 }
 
 const included=(DATA.i||[])
