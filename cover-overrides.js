@@ -9,7 +9,11 @@
 //
 // Empty maps are expected and fine — no manual corrections have been made yet.
 (()=>{
-  const COVER_OVERRIDES = {};
+  const COVER_OVERRIDES = {
+    // "3D Mini Golf" (id 9) has no IGDB match of its own; "3D MiniGolf" (id 10) is the
+    // same game with spacing-only title formatting and already has a confirmed cover.
+    "9": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2xon.jpg",
+  };
   const PRODUCT_COVER_OVERRIDES = {};
   window.SHELFCHECK_COVER_OVERRIDES = COVER_OVERRIDES;
   window.SHELFCHECK_PRODUCT_COVER_OVERRIDES = PRODUCT_COVER_OVERRIDES;
