@@ -1,0 +1,124 @@
+{
+  "generatedAt": "2026-09-03T19:12:57.953Z",
+  "note": "ShelfCheck price curator queue. All entries here are PRICE PENDING after this pass's local-data-only safe matching found no new confidently-assignable prices (see audit-out/price-system-audit.json's externalAccessBlocker for why external PriceCharting lookup couldn't add any). Ranked per instructions: OWNED unresolved first, then inexpensive-looking HUNT targets (not rankable this pass -- no price signal exists yet for any NEEDED/HUNT-pending title to judge cheapness by), then remaining NEEDED.",
+  "ownedPending": [
+    {
+      "id": 162,
+      "title": "BioShock 2 Remastered",
+      "category": "COMPILATION_REVIEW",
+      "note": "Component of \"BioShock: The Collection\" (3-game box). No product-level price field exists to price the box; an individually-scraped standalone remaster price would not necessarily reflect the collection disc Josh owns. Left pending rather than guessed."
+    },
+    {
+      "id": 163,
+      "title": "BioShock Infinite: Complete Edition",
+      "category": "COMPILATION_REVIEW",
+      "note": "Same \"BioShock: The Collection\" component reasoning as #162."
+    },
+    {
+      "id": 164,
+      "title": "BioShock Remastered",
+      "category": "COMPILATION_REVIEW",
+      "note": "Same \"BioShock: The Collection\" component reasoning as #162."
+    },
+    {
+      "id": 746,
+      "title": "Marvel's Spider-Man",
+      "category": "MISSING_PRICE_DATA",
+      "note": "Standalone game, not a compilation component. PriceCharting lookup attempted this pass (WebSearch found the base playstation-4/marvel-spiderman page, distinct from GOTY/Collector's/Not-For-Resale editions found alongside it) but exact numeric price could not be retrieved -- PriceCharting blocks direct page fetches. Queued for a future pass once external access or a real bulk CSV is available."
+    },
+    {
+      "id": 890,
+      "title": "Pac-Man Championship Edition 2",
+      "category": "MISSING_PRICE_DATA",
+      "note": "Standalone game. External lookup blocked (see externalAccessBlocker). Queued."
+    },
+    {
+      "id": 1627,
+      "title": "God Eater Resurrection",
+      "category": "MISSING_PRICE_DATA",
+      "note": "Standalone game. External lookup blocked (see externalAccessBlocker). Queued."
+    },
+    {
+      "id": 1635,
+      "title": "Heavy Rain",
+      "category": "COMPILATION_REVIEW",
+      "note": "Component of \"Heavy Rain & Beyond: Two Souls Collection\" and \"Quantic Dream Collection\". Same box-level-pricing-gap reasoning as the BioShock trio."
+    },
+    {
+      "id": 1799,
+      "title": "Don't Starve: Console Edition",
+      "category": "COMPILATION_REVIEW",
+      "note": "Component of \"Don't Starve: Mega Pack\". Same reasoning."
+    },
+    {
+      "id": 2111,
+      "title": "Beyond: Two Souls",
+      "category": "COMPILATION_REVIEW",
+      "note": "Component of \"Heavy Rain & Beyond: Two Souls Collection\" and \"Quantic Dream Collection\". Same reasoning."
+    },
+    {
+      "id": 2115,
+      "title": "Scribblenauts Unlimited",
+      "category": "COMPILATION_REVIEW",
+      "note": "Component of \"Scribblenauts Mega Pack\". Same reasoning."
+    },
+    {
+      "id": 2116,
+      "title": "Scribblenauts Unmasked: A DC Comics Adventure",
+      "category": "COMPILATION_REVIEW",
+      "note": "Component of \"Scribblenauts Mega Pack\". Same reasoning."
+    },
+    {
+      "id": 2121,
+      "title": "Resident Evil HD Remaster",
+      "category": "COMPILATION_REVIEW",
+      "note": "Component of \"Resident Evil: Origins Collection\". Same reasoning."
+    },
+    {
+      "id": 2122,
+      "title": "Resident Evil 0 HD Remaster",
+      "category": "COMPILATION_REVIEW",
+      "note": "Component of \"Resident Evil: Origins Collection\". Same reasoning."
+    },
+    {
+      "id": 2194,
+      "title": "Tomb Raider",
+      "category": "COMPILATION_REVIEW",
+      "note": "Component of \"Tomb Raider I-III Remastered\". Same reasoning."
+    },
+    {
+      "id": 2195,
+      "title": "Tomb Raider II",
+      "category": "COMPILATION_REVIEW",
+      "note": "Component of \"Tomb Raider I-III Remastered\". Same reasoning."
+    },
+    {
+      "id": 2196,
+      "title": "Tomb Raider III: Adventures of Lara Croft",
+      "category": "COMPILATION_REVIEW",
+      "note": "Component of \"Tomb Raider I-III Remastered\". Same reasoning."
+    },
+    {
+      "id": 2197,
+      "title": "Tomb Raider: The Last Revelation",
+      "category": "COMPILATION_REVIEW",
+      "note": "Component of \"Tomb Raider IV-VI Remastered\". Same reasoning."
+    },
+    {
+      "id": 2198,
+      "title": "Tomb Raider: Chronicles",
+      "category": "COMPILATION_REVIEW",
+      "note": "Component of \"Tomb Raider IV-VI Remastered\". Same reasoning."
+    },
+    {
+      "id": 2199,
+      "title": "Tomb Raider: The Angel of Darkness",
+      "category": "COMPILATION_REVIEW",
+      "note": "Component of \"Tomb Raider IV-VI Remastered\". Same reasoning."
+    }
+  ],
+  "neededPendingSummary": {
+    "count": 466,
+    "note": "Not individually enumerated -- per instructions not to research hundreds of titles individually, and because with external PriceCharting access blocked this session there is no additional local signal available to rank or resolve any of them beyond what's already applied. All 466 remain PRICE PENDING, classified in bulk as MISSING_PRICE_DATA, queued for a future pass once external access or a real local bulk CSV is available."
+  }
+}
