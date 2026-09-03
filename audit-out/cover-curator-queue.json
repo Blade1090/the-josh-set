@@ -1,941 +1,1757 @@
 {
-  "generatedAt": "2026-09-03T16:52:09.703Z",
-  "note": "ShelfCheck cover gap cleanup pass (targeted). Phase 2 (local/deterministic title-reuse recovery) ran to completion. Phase 3/4 (live IGDB lookups) were NOT run in this pass — no IGDB credentials were available in this local session, and per instructions no AI API or invented URLs were used. Josh is dispatching the existing fetch-covers.yml GitHub Action separately (it already holds the real IGDB secrets and uses this exact conservative exact/unique-alias matching) to attempt these. This queue lists every identity still missing a cover after local recovery, so results can be reconciled against it.",
+  "generatedAt": "2026-09-03T17:09:45.335Z",
+  "note": "ShelfCheck cover gap cleanup pass. Reflects the actual post-IGDB state as of covers-manifest.js commit 6fdff00b (fetch-covers.yml run 33781521251, dispatched by Josh). That run attempted every one of the 134 identities that were missing a cover at the time (including id 9, \"3D Mini Golf\") against IGDB under the existing conservative exact/unique-alias matching rules and recovered zero new identity covers and zero new product covers. Per-title diagnostic status/candidates below are taken directly from that run’s own audit artifact (cover-audit.json), not re-derived or re-queried. id 9 is excluded here because it is resolved locally via cover-overrides.js (see PR notes) — its real IGDB status was TIED_MATCH (two distinct IGDB entries both named \"3D MiniGolf\" scored exact-match, so IGDB correctly declined to auto-pick one), which also validates the manual override as the right call rather than a workaround.",
   "identityCount": 133,
   "ownedCount": 6,
   "neededHuntCount": 127,
+  "statusBreakdown": {
+    "AMBIGUOUS_MATCH": 57,
+    "NO_MATCH": 75,
+    "TIED_MATCH": 1
+  },
   "identities": [
     {
       "id": 1003,
       "title": "River City Melee",
       "priority": "OWNED",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 115481,
+          "igdbName": "River City Melee Mach!!"
+        },
+        {
+          "igdbId": 63712,
+          "igdbName": "River City Melee: Battle Royal Special"
+        },
+        {
+          "igdbId": 115481,
+          "igdbName": "River City Melee Mach!!"
+        },
+        {
+          "igdbId": 63712,
+          "igdbName": "River City Melee: Battle Royal Special"
+        }
+      ]
     },
     {
       "id": 2115,
       "title": "Scribblenauts Unlimited",
       "priority": "OWNED",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2121,
       "title": "Resident Evil HD Remaster",
       "priority": "OWNED",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 41858,
+          "igdbName": "Resident Evil 6 Remastered"
+        },
+        {
+          "igdbId": 41858,
+          "igdbName": "Resident Evil 6 Remastered"
+        }
+      ]
     },
     {
       "id": 2122,
       "title": "Resident Evil 0 HD Remaster",
       "priority": "OWNED",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2196,
       "title": "Tomb Raider III: Adventures of Lara Croft",
       "priority": "OWNED",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2200,
       "title": "Danganronpa: Trigger Happy Havoc",
       "priority": "OWNED",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 13,
       "title": "8 to Glory: The Official Game of the PBR",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 14,
       "title": "8-Bit Adventure Anthology: Volume One",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 36,
       "title": "ADK Tamashii",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 46,
       "title": "Agatha Christie's The ABC Murders",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 17470,
+          "igdbName": "Agatha Christie: The ABC Murders"
+        },
+        {
+          "igdbId": 17470,
+          "igdbName": "Agatha Christie: The ABC Murders"
+        },
+        {
+          "igdbId": 17470,
+          "igdbName": "Agatha Christie: The ABC Murders"
+        }
+      ]
     },
     {
       "id": 90,
       "title": "ARK Park",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 97,
       "title": "Assassin's Creed Chronicles",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 52416,
+          "igdbName": "Assassin's Creed Chronicles: Trilogy Pack"
+        },
+        {
+          "igdbId": 8223,
+          "igdbName": "Assassin's Creed Chronicles: China"
+        },
+        {
+          "igdbId": 14903,
+          "igdbName": "Assassin's Creed Chronicles: Russia"
+        },
+        {
+          "igdbId": 14902,
+          "igdbName": "Assassin's Creed Chronicles: India"
+        },
+        {
+          "igdbId": 52416,
+          "igdbName": "Assassin's Creed Chronicles: Trilogy Pack"
+        }
+      ]
     },
     {
       "id": 111,
       "title": "Atari Flashback Classics: Volume 1",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 138,
       "title": "Battle Chef Brigade",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 111825,
+          "igdbName": "Battle Chef Brigade Deluxe"
+        },
+        {
+          "igdbId": 111825,
+          "igdbName": "Battle Chef Brigade Deluxe"
+        }
+      ]
     },
     {
       "id": 155,
       "title": "Below",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 210,
       "title": "Budget Cuts",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 401387,
+          "igdbName": "Cut Corner Renovations USSR"
+        },
+        {
+          "igdbId": 401387,
+          "igdbName": "Cut Corner Renovations USSR"
+        }
+      ]
     },
     {
       "id": 225,
       "title": "Candleman: The Complete Journey",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 291,
       "title": "Damascus Gear: Operation Osaka",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 90093,
+          "igdbName": "Damascus Gear: Operation Osaka - HD Edition"
+        },
+        {
+          "igdbId": 90093,
+          "igdbName": "Damascus Gear: Operation Osaka - HD Edition"
+        }
+      ]
     },
     {
       "id": 349,
       "title": "Deracine",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 356,
       "title": "Destroy All Humans! (2005)",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 484,
       "title": "Final Fantasy XIV Online: A Realm Reborn",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 386,
+          "igdbName": "Final Fantasy XIV Online"
+        },
+        {
+          "igdbId": 386,
+          "igdbName": "Final Fantasy XIV Online"
+        },
+        {
+          "igdbId": 386,
+          "igdbName": "Final Fantasy XIV Online"
+        }
+      ]
     },
     {
       "id": 554,
       "title": "GRIP: Combat Racing",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 667,
       "title": "Kingdom Hearts HD I.5 + II.5 Remix",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 722,
       "title": "Little Dragons Cafe",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 923,
       "title": "Pool Nation FX",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 935,
       "title": "Project Nimbus: Complete Edition",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 68315,
+          "igdbName": "Project Nimbus: Code Mirai"
+        }
+      ]
     },
     {
       "id": 944,
       "title": "Quar: Infernal Machines",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 946,
       "title": "Rabbids Invasion",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 20308,
+          "igdbName": "Rabbids Invasion: The Interactive TV Show"
+        },
+        {
+          "igdbId": 20308,
+          "igdbName": "Rabbids Invasion: The Interactive TV Show"
+        }
+      ]
     },
     {
       "id": 969,
       "title": "Redout",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 186059,
+          "igdbName": "Redout 2"
+        },
+        {
+          "igdbId": 205571,
+          "igdbName": "Redout 2: Deluxe Edition"
+        },
+        {
+          "igdbId": 104238,
+          "igdbName": "Redout: Space Assault"
+        },
+        {
+          "igdbId": 52715,
+          "igdbName": "Redout: Lightspeed Edition"
+        },
+        {
+          "igdbId": 186059,
+          "igdbName": "Redout 2"
+        }
+      ]
     },
     {
       "id": 985,
       "title": "Resonance of Fate 4K / HD Edition",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1053,
       "title": "SG/ZH: School Girl Zombie Hunter",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1103,
       "title": "Soccer: Tactics & Glory",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1119,
       "title": "Spintires: Mudrunner - American Wilds Edition",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1155,
       "title": "Stranded Sails: Explorers of the Cursed Islands",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1173,
       "title": "Super Blackjack Battle II Turbo Edition: The Card Warriors",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 30928,
+          "igdbName": "Super Blackjack Battle 2 Turbo Edition - The Card Warriors"
+        },
+        {
+          "igdbId": 30928,
+          "igdbName": "Super Blackjack Battle 2 Turbo Edition - The Card Warriors"
+        },
+        {
+          "igdbId": 30928,
+          "igdbName": "Super Blackjack Battle 2 Turbo Edition - The Card Warriors"
+        }
+      ]
     },
     {
       "id": 1198,
       "title": "Tales from the Borderlands: A Telltale Game Series",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1217,
       "title": "The American Dream",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 74522,
+          "igdbName": "Professional Farmer: American Dream"
+        },
+        {
+          "igdbId": 74522,
+          "igdbName": "Professional Farmer: American Dream"
+        },
+        {
+          "igdbId": 74522,
+          "igdbName": "Professional Farmer: American Dream"
+        }
+      ]
     },
     {
       "id": 1235,
       "title": "The Dark Pictures - Little Hope",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 122120,
+          "igdbName": "The Dark Pictures Anthology: Little Hope"
+        },
+        {
+          "igdbId": 122120,
+          "igdbName": "The Dark Pictures Anthology: Little Hope"
+        },
+        {
+          "igdbId": 122120,
+          "igdbName": "The Dark Pictures Anthology: Little Hope"
+        }
+      ]
     },
     {
       "id": 1240,
       "title": "The Elder Scrolls Online: Tamriel Unlimited",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1250,
       "title": "The House in Fata Morgana",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 329687,
+          "igdbName": "The House in Fata Morgana: Reincarnation"
+        },
+        {
+          "igdbId": 119577,
+          "igdbName": "The House in Fata Morgana: Dreams of the Revenants Edition"
+        },
+        {
+          "igdbId": 329687,
+          "igdbName": "The House in Fata Morgana: Reincarnation"
+        },
+        {
+          "igdbId": 119577,
+          "igdbName": "The House in Fata Morgana: Dreams of the Revenants Edition"
+        },
+        {
+          "igdbId": 329687,
+          "igdbName": "The House in Fata Morgana: Reincarnation"
+        }
+      ]
     },
     {
       "id": 1277,
       "title": "The Missing: JJ Macfield and the Island of Memories",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 87499,
+          "igdbName": "The Missing: J.J. Macfield and the Island of Memories"
+        },
+        {
+          "igdbId": 87499,
+          "igdbName": "The Missing: J.J. Macfield and the Island of Memories"
+        },
+        {
+          "igdbId": 87499,
+          "igdbName": "The Missing: J.J. Macfield and the Island of Memories"
+        }
+      ]
     },
     {
       "id": 1303,
       "title": "The Walking Dead: A Telltale Games Series - The Complete First Season",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 41623,
+          "igdbName": "The Walking Dead: The Complete First Season"
+        }
+      ]
     },
     {
       "id": 1304,
       "title": "The Walking Dead: Saints & Sinners",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 229123,
+          "igdbName": "The Walking Dead: Saints & Sinners - Ch 2: Retribution - Payback Edition"
+        },
+        {
+          "igdbId": 229123,
+          "igdbName": "The Walking Dead: Saints & Sinners - Ch 2: Retribution - Payback Edition"
+        },
+        {
+          "igdbId": 229123,
+          "igdbName": "The Walking Dead: Saints & Sinners - Ch 2: Retribution - Payback Edition"
+        }
+      ]
     },
     {
       "id": 1333,
       "title": "Tokyo Chronos",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1412,
       "title": "Warhammer 40,000: Deathwatch",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 30804,
+          "igdbName": "Warhammer 40,000: Deathwatch Tyranids Invasion"
+        }
+      ]
     },
     {
       "id": 1431,
       "title": "Werewolves Within",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1441,
       "title": "Wolfenstein: Cyberpilot",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1451,
       "title": "World Poker Championship",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1454,
       "title": "Worms Anniversary Edition",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 314938,
+          "igdbName": "Worms Armageddon: Anniversary Edition"
+        },
+        {
+          "igdbId": 314938,
+          "igdbName": "Worms Armageddon: Anniversary Edition"
+        },
+        {
+          "igdbId": 314938,
+          "igdbName": "Worms Armageddon: Anniversary Edition"
+        }
+      ]
     },
     {
       "id": 1465,
       "title": "XIII (Remake)",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1483,
       "title": "Ys: Memories of Celceta - Kai",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 117495,
+          "igdbName": "Ys: Memories of Celceta"
+        },
+        {
+          "igdbId": 117495,
+          "igdbName": "Ys: Memories of Celceta"
+        }
+      ]
     },
     {
       "id": 1525,
       "title": "Ryuu ga Gotoku 7 Gaiden: Na o Keshita Otoko",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1533,
       "title": "Sword And Fairy: Together Forever",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 210915,
+          "igdbName": "Sword and Fairy: Together Forever - Premium Collector’s Edition"
+        },
+        {
+          "igdbId": 210915,
+          "igdbName": "Sword and Fairy: Together Forever - Premium Collector’s Edition"
+        }
+      ]
     },
     {
       "id": 1565,
       "title": "Alternate Jake Hunter: Daedalus - The Awakening of Golden Jazz",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1580,
       "title": "Bit.Trip Presents...Runner2: Future Legend of Rhythm Alien",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1612,
       "title": "Euro Fishing: Urban Edition",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1639,
       "title": "Home: A Unique Horror Adventure",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1651,
       "title": "Last Labyrinth",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1665,
       "title": "Maldita Castilla EX: Cursed Castilla",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 25253,
+          "igdbName": "Cursed Castilla EX"
+        },
+        {
+          "igdbId": 25253,
+          "igdbName": "Cursed Castilla EX"
+        }
+      ]
     },
     {
       "id": 1670,
       "title": "Mighty Gunvolt Burst",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1682,
       "title": "Now That's What I Call Sing",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 24961,
+          "igdbName": "Now That's What I Call Sing 2"
+        }
+      ]
     },
     {
       "id": 1685,
       "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1725,
       "title": "Shenmue I",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 96391,
+          "igdbName": "Shenmue I & II"
+        },
+        {
+          "igdbId": 96391,
+          "igdbName": "Shenmue I & II"
+        }
+      ]
     },
     {
       "id": 1753,
       "title": "The First Tree: Console Edition",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1762,
       "title": "The Walking Dead: Michonne - A Telltale Miniseries",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1764,
       "title": "Tokyo Twilight Ghost Hunters",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 12209,
+          "igdbName": "Tokyo Twilight Ghost Hunters: Daybreak Special Gigs"
+        },
+        {
+          "igdbId": 12209,
+          "igdbName": "Tokyo Twilight Ghost Hunters: Daybreak Special Gigs"
+        }
+      ]
     },
     {
       "id": 1809,
       "title": "Ground Zero: Texas",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 187759,
+          "igdbName": "Ground Zero: Texas - Nuclear Edition"
+        },
+        {
+          "igdbId": 187759,
+          "igdbName": "Ground Zero: Texas - Nuclear Edition"
+        }
+      ]
     },
     {
       "id": 1954,
       "title": "Söldner-X 2: Final Prototype Definitive Edition",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1969,
       "title": "Cannon Dancer",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 231222,
+          "igdbName": "Cannon Dancer: Osman"
+        },
+        {
+          "igdbId": 231222,
+          "igdbName": "Cannon Dancer: Osman"
+        }
+      ]
     },
     {
       "id": 1971,
       "title": "Jim Power: The Lost Dimension",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 203269,
+          "igdbName": "QUByte Classics: Jim Power - The Lost Dimension by Piko"
+        },
+        {
+          "igdbId": 203269,
+          "igdbName": "QUByte Classics: Jim Power - The Lost Dimension by Piko"
+        },
+        {
+          "igdbId": 203269,
+          "igdbName": "QUByte Classics: Jim Power - The Lost Dimension by Piko"
+        }
+      ]
     },
     {
       "id": 1976,
       "title": "Sisters Royale",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 103365,
+          "igdbName": "Sisters Royale: Five Sisters Under Fire"
+        },
+        {
+          "igdbId": 103365,
+          "igdbName": "Sisters Royale: Five Sisters Under Fire"
+        }
+      ]
     },
     {
       "id": 1979,
       "title": "Trouble Witches Final: Episode 1 - Daughters of Amalgam",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1981,
       "title": "SturmFront - The Mutant War: Übel Edition",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1992,
       "title": "Another World",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 269356,
+          "igdbName": "Another World Mahjong Girl"
+        },
+        {
+          "igdbId": 16493,
+          "igdbName": "Another World: 20th Anniversary Edition"
+        },
+        {
+          "igdbId": 26668,
+          "igdbName": "Re:Zero - Starting Life in Another World: Death or Kiss"
+        },
+        {
+          "igdbId": 300374,
+          "igdbName": "Cyber Citizen Shockman 3: The Princess From Another World"
+        },
+        {
+          "igdbId": 134556,
+          "igdbName": "Re:Zero - Starting Life in Another World: The Prophecy of the Throne"
+        }
+      ]
     },
     {
       "id": 1995,
       "title": "Cyanide & Happiness - Freakpocalypse (Episode 1)",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 1999,
       "title": "Streets of Red",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 86452,
+          "igdbName": "Streets of Red: Devil's Dare Deluxe"
+        },
+        {
+          "igdbId": 86452,
+          "igdbName": "Streets of Red: Devil's Dare Deluxe"
+        }
+      ]
     },
     {
       "id": 2062,
       "title": "Ganryu 2: Hakuma Kojiro",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2064,
       "title": "Andro Dunos 2",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 145610,
+          "igdbName": "Andro Dunos II"
+        },
+        {
+          "igdbId": 145610,
+          "igdbName": "Andro Dunos II"
+        }
+      ]
     },
     {
       "id": 2069,
       "title": "3D Billiards & Snooker",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 113076,
+          "igdbName": "3D Billiards: Pool & Snooker"
+        },
+        {
+          "igdbId": 113076,
+          "igdbName": "3D Billiards: Pool & Snooker"
+        }
+      ]
     },
     {
       "id": 2090,
       "title": "S.T.A.L.K.E.R.: Call of Prypiat",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 7605,
+          "igdbName": "S.T.A.L.K.E.R.: Call of Pripyat"
+        }
+      ]
     },
     {
       "id": 2119,
       "title": "Hitman: Blood Money",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 99816,
+          "igdbName": "Hitman: Blood Money HD"
+        },
+        {
+          "igdbId": 99816,
+          "igdbName": "Hitman: Blood Money HD"
+        }
+      ]
     },
     {
       "id": 2120,
       "title": "Hitman: Absolution",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 218974,
+          "igdbName": "Hitman: Absolution HD"
+        },
+        {
+          "igdbId": 218974,
+          "igdbName": "Hitman: Absolution HD"
+        }
+      ]
     },
     {
       "id": 2222,
       "title": "Batman: Arkham Asylum Remastered",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 203433,
+          "igdbName": "Batman: Return to Arkham - Arkham Asylum"
+        }
+      ]
     },
     {
       "id": 2223,
       "title": "Batman: Arkham City Remastered",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 203435,
+          "igdbName": "Batman: Return to Arkham - Arkham City"
+        }
+      ]
     },
     {
       "id": 2241,
       "title": "Steel Empire Chronicles",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2308,
       "title": "Fahrenheit",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "TIED_MATCH",
+      "candidates": [
+        {
+          "igdbId": 410247,
+          "igdbName": "Indigo Prophecy",
+          "score": 100
+        },
+        {
+          "igdbId": 1928,
+          "igdbName": "Indigo Prophecy",
+          "score": 100
+        },
+        {
+          "igdbId": 410247,
+          "igdbName": "Indigo Prophecy",
+          "score": 100
+        },
+        {
+          "igdbId": 1928,
+          "igdbName": "Indigo Prophecy",
+          "score": 100
+        }
+      ]
     },
     {
       "id": 2342,
       "title": "Scourge Bringer",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2361,
       "title": "UFO Robot Grendizer",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 239407,
+          "igdbName": "UFO Robot Grendizer: The Feast of the Wolves"
+        },
+        {
+          "igdbId": 241082,
+          "igdbName": "UFO Robot Grendizer: The Feast of the Wolves - Deluxe Edition"
+        },
+        {
+          "igdbId": 239407,
+          "igdbName": "UFO Robot Grendizer: The Feast of the Wolves"
+        },
+        {
+          "igdbId": 241082,
+          "igdbName": "UFO Robot Grendizer: The Feast of the Wolves - Deluxe Edition"
+        }
+      ]
     },
     {
       "id": 2366,
       "title": "Wobbledogs",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 250554,
+          "igdbName": "Wobbledogs: Console Edition"
+        },
+        {
+          "igdbId": 250554,
+          "igdbName": "Wobbledogs: Console Edition"
+        }
+      ]
     },
     {
       "id": 2368,
       "title": "Zero Time Dilemma",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 11549,
+          "igdbName": "Zero Escape: Zero Time Dilemma"
+        },
+        {
+          "igdbId": 11549,
+          "igdbName": "Zero Escape: Zero Time Dilemma"
+        }
+      ]
     },
     {
       "id": 2370,
       "title": "Dogfighter WW2",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2376,
       "title": "Dokyusei: Bangin' Summer CSver",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 304282,
+          "igdbName": "Dokyusei: Bangin' Summer - Home Edition"
+        },
+        {
+          "igdbId": 304282,
+          "igdbName": "Dokyusei: Bangin' Summer - Home Edition"
+        }
+      ]
     },
     {
       "id": 2378,
       "title": "Everyone Spelunker",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2382,
       "title": "GoHELLgo",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 268002,
+          "igdbName": "Go Hell Go: Tsukiotoshiteko"
+        },
+        {
+          "igdbId": 378910,
+          "igdbName": "Go Hell Go Gou: Tsukiotoshitego"
+        },
+        {
+          "igdbId": 330079,
+          "igdbName": "Go Hell Go: Tsukiotoshiteko - Limited Edition"
+        },
+        {
+          "igdbId": 268002,
+          "igdbName": "Go Hell Go: Tsukiotoshiteko"
+        },
+        {
+          "igdbId": 378910,
+          "igdbName": "Go Hell Go Gou: Tsukiotoshitego"
+        }
+      ]
     },
     {
       "id": 2384,
       "title": "Hakuouki: Shinkai Fukaden",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2396,
       "title": "Natsuiro High School: Seisyun Hakusyo",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2399,
       "title": "Puyo Puyo eSports",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2404,
       "title": "Shinigami: Shibito Magire",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2408,
       "title": "Tetsudou Nippon! Rosen Tabi: Eizan Densha-Hen",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2410,
       "title": "Wonderland TOD-Reloaded",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2429,
       "title": "Noob: Les Sans-Factions",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2462,
       "title": "Malnazidos",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 193287,
+          "igdbName": "Valley of the Dead: MalnaZidos"
+        },
+        {
+          "igdbId": 193287,
+          "igdbName": "Valley of the Dead: MalnaZidos"
+        }
+      ]
     },
     {
       "id": 2465,
       "title": "Rolling Gunner",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 165092,
+          "igdbName": "Rolling Gunner + Over Power"
+        },
+        {
+          "igdbId": 165092,
+          "igdbName": "Rolling Gunner + Over Power"
+        }
+      ]
     },
     {
       "id": 2469,
       "title": "Kyukyoku Tiger / Twin Cobra",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2470,
       "title": "Tiger-Heli",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 158967,
+          "igdbName": "Kyuukyoku Tiger Heli: Toaplan Arcade Garage"
+        }
+      ]
     },
     {
       "id": 2471,
       "title": "Get Star / Guardian",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2554,
       "title": "Chivalry II",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 119342,
+          "igdbName": "Chivalry 2"
+        },
+        {
+          "igdbId": 220760,
+          "igdbName": "Chivalry 2: King's Edition"
+        },
+        {
+          "igdbId": 312382,
+          "igdbName": "Chivalry 2: Regicide Update"
+        },
+        {
+          "igdbId": 164620,
+          "igdbName": "Chivalry 2: Special Edition"
+        },
+        {
+          "igdbId": 146126,
+          "igdbName": "Chivalry 2: Day One Edition"
+        }
+      ]
     },
     {
       "id": 2563,
       "title": "Dark Pictures: The Devil in Me",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 178361,
+          "igdbName": "The Dark Pictures Anthology: The Devil in Me"
+        },
+        {
+          "igdbId": 178361,
+          "igdbName": "The Dark Pictures Anthology: The Devil in Me"
+        },
+        {
+          "igdbId": 178361,
+          "igdbName": "The Dark Pictures Anthology: The Devil in Me"
+        }
+      ]
     },
     {
       "id": 2566,
       "title": "Dead Craft",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2572,
       "title": "Electronic Super Joy II",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 120745,
+          "igdbName": "Electronic Super Joy 2"
+        },
+        {
+          "igdbId": 120745,
+          "igdbName": "Electronic Super Joy 2"
+        }
+      ]
     },
     {
       "id": 2573,
       "title": "Embr: Uber Firefighters",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2589,
       "title": "Gear Club Unlimited 2",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2619,
       "title": "Jinrui No Minasama E",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2623,
       "title": "JoJo: Eyes of Heaven",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 11565,
+          "igdbName": "JoJo's Bizarre Adventure: Eyes of Heaven"
+        },
+        {
+          "igdbId": 11565,
+          "igdbName": "JoJo's Bizarre Adventure: Eyes of Heaven"
+        }
+      ]
     },
     {
       "id": 2629,
       "title": "Kaleidoscope Of Phantom Prison",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2630,
       "title": "Kamen Rider: Battride War Creation",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2631,
       "title": "Kangokutou Mary Skelter 2",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2645,
       "title": "Lapis Re Abyss",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2660,
       "title": "Neptunia Game Maker R:Evolution",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2661,
       "title": "Neptunia VS Titan Dogoo",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2669,
       "title": "Offroad Racing - Buggy x ATV x Moto",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2673,
       "title": "One Piece Unlimited World Red",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 28831,
+          "igdbName": "One Piece: Unlimited World Red - Deluxe Edition"
+        },
+        {
+          "igdbId": 28831,
+          "igdbName": "One Piece: Unlimited World Red - Deluxe Edition"
+        }
+      ]
     },
     {
       "id": 2675,
       "title": "Onechanbara Origin",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2684,
       "title": "Paleo Pines: The Dino Valley",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2686,
       "title": "Paper Dolls",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 156935,
+          "igdbName": "Paper Dolls 2"
+        },
+        {
+          "igdbId": 116732,
+          "igdbName": "Paper Dolls Original"
+        },
+        {
+          "igdbId": 156935,
+          "igdbName": "Paper Dolls 2"
+        },
+        {
+          "igdbId": 116732,
+          "igdbName": "Paper Dolls Original"
+        }
+      ]
     },
     {
       "id": 2695,
       "title": "Q.U.B.E.",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 36766,
+          "igdbName": "Q.U.B.E. 2"
+        },
+        {
+          "igdbId": 215363,
+          "igdbName": "I.Q Intelligent Qube"
+        },
+        {
+          "igdbId": 19961,
+          "igdbName": "Q.U.B.E: Director's Cut"
+        },
+        {
+          "igdbId": 206756,
+          "igdbName": "Q.U.B.E. 10th Anniversary"
+        }
+      ]
     },
     {
       "id": 2696,
       "title": "Quintessential Quintuplets Fives Memories With You",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 201044,
+          "igdbName": "The Quintessential Quintuplets: Five Memories Spent With You"
+        },
+        {
+          "igdbId": 167012,
+          "igdbName": "The Quintessential Quintuplets: Summer Memories Also Come in Five - Limited Edition"
+        },
+        {
+          "igdbId": 201044,
+          "igdbName": "The Quintessential Quintuplets: Five Memories Spent With You"
+        },
+        {
+          "igdbId": 167012,
+          "igdbName": "The Quintessential Quintuplets: Summer Memories Also Come in Five - Limited Edition"
+        }
+      ]
     },
     {
       "id": 2709,
       "title": "Rainbow Six: Extraction",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 119262,
+          "igdbName": "Tom Clancy's Rainbow Six Extraction"
+        },
+        {
+          "igdbId": 152335,
+          "igdbName": "Tom Clancy's Rainbow Six Extraction: Deluxe Edition"
+        },
+        {
+          "igdbId": 152336,
+          "igdbName": "Tom Clancy's Rainbow Six Extraction: Limited Edition"
+        },
+        {
+          "igdbId": 186924,
+          "igdbName": "Tom Clancy's Rainbow Six Extraction: Guardian Edition"
+        },
+        {
+          "igdbId": 188168,
+          "igdbName": "Tom Clancy's Rainbow Six Extraction United Bundle"
+        }
+      ]
     },
     {
       "id": 2729,
       "title": "Tadeo Jones: La Tabla Esmeralda",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2744,
       "title": "Umineko no Naku Koro ni: Nekobako to Musou no Koukyoukyoku",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 139987,
+          "igdbName": "Umineko no Naku Koro ni Saku: Nekobako to Musou no Koukyoukyoku"
+        },
+        {
+          "igdbId": 140001,
+          "igdbName": "Umineko no Naku Koro ni Saku: Nekobako to Musou no Koukyoukyoku - Limited Edition"
+        },
+        {
+          "igdbId": 139987,
+          "igdbName": "Umineko no Naku Koro ni Saku: Nekobako to Musou no Koukyoukyoku"
+        },
+        {
+          "igdbId": 140001,
+          "igdbName": "Umineko no Naku Koro ni Saku: Nekobako to Musou no Koukyoukyoku - Limited Edition"
+        }
+      ]
     },
     {
       "id": 2763,
       "title": "Warui Ousama To Rippana Yuusha",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2768,
       "title": "Yo-Kai Watch Jam: Yo-Kai Academy Y",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     },
     {
       "id": 2779,
       "title": "Zero: Tsukihami No Kamen",
       "priority": "NEEDED_HUNT",
-      "status": "OTHER_REVIEW",
-      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+      "status": "NO_MATCH",
+      "candidates": []
     }
   ],
-  "products": []
+  "productCount": 12,
+  "products": [
+    {
+      "key": "dont starve mega pack",
+      "title": "Don't Starve: Mega Pack",
+      "status": "NO_MATCH",
+      "candidates": []
+    },
+    {
+      "key": "oniken odallus collection",
+      "title": "Oniken + Odallus Collection",
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 124283,
+          "igdbName": "Oniken: Unstoppable Edition & Odallus: The Dark Call Collection"
+        },
+        {
+          "igdbId": 124283,
+          "igdbName": "Oniken: Unstoppable Edition & Odallus: The Dark Call Collection"
+        },
+        {
+          "igdbId": 124283,
+          "igdbName": "Oniken: Unstoppable Edition & Odallus: The Dark Call Collection"
+        }
+      ]
+    },
+    {
+      "key": "spyro reignited trilogy crash bandicoot n sane trilogy",
+      "title": "Spyro Reignited Trilogy / Crash Bandicoot N. Sane Trilogy",
+      "status": "NO_MATCH",
+      "candidates": []
+    },
+    {
+      "key": "tomb raider i iii remastered",
+      "title": "Tomb Raider I-III Remastered",
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 266683,
+          "igdbName": "Tomb Raider I•II•III Remastered"
+        }
+      ]
+    },
+    {
+      "key": "tomb raider iv vi remastered",
+      "title": "Tomb Raider IV-VI Remastered",
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 319480,
+          "igdbName": "Tomb Raider IV•V•VI Remastered"
+        },
+        {
+          "igdbId": 319480,
+          "igdbName": "Tomb Raider IV•V•VI Remastered"
+        }
+      ]
+    },
+    {
+      "key": "commandos 2 praetorians hd remaster double pack",
+      "title": "Commandos 2 / Praetorians HD Remaster Double Pack",
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 139932,
+          "igdbName": "Commandos 2 & Praetorians HD Remaster Double Pack"
+        },
+        {
+          "igdbId": 139932,
+          "igdbName": "Commandos 2 & Praetorians HD Remaster Double Pack"
+        }
+      ]
+    },
+    {
+      "key": "inside limbo double pack",
+      "title": "INSIDE / LIMBO Double Pack",
+      "status": "NO_MATCH",
+      "candidates": []
+    },
+    {
+      "key": "bayonetta and vanquish",
+      "title": "Bayonetta & Vanquish",
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 127258,
+          "igdbName": "Bayonetta & Vanquish 10th Anniversary Bundle"
+        },
+        {
+          "igdbId": 127258,
+          "igdbName": "Bayonetta & Vanquish 10th Anniversary Bundle"
+        }
+      ]
+    },
+    {
+      "key": "planescape torment enhanced edition icewind dale enhanced edition",
+      "title": "Planescape: Torment: Enhanced Edition / Icewind Dale: Enhanced Edition",
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 125019,
+          "igdbName": "Planescape: Torment & Icewind Dale: Enhanced Editions"
+        },
+        {
+          "igdbId": 125019,
+          "igdbName": "Planescape: Torment & Icewind Dale: Enhanced Editions"
+        },
+        {
+          "igdbId": 125019,
+          "igdbName": "Planescape: Torment & Icewind Dale: Enhanced Editions"
+        }
+      ]
+    },
+    {
+      "key": "steven universe save the light ok k o lets play heroes 2 games in 1",
+      "title": "Steven Universe: Save the Light / OK K.O.! Let's Play Heroes 2 Games in 1",
+      "status": "NO_MATCH",
+      "candidates": []
+    },
+    {
+      "key": "wolfenstein the two pack",
+      "title": "Wolfenstein: The Two Pack",
+      "status": "NO_MATCH",
+      "candidates": []
+    },
+    {
+      "key": "worms battleground worms w m d",
+      "title": "Worms Battleground / Worms W.M.D",
+      "status": "AMBIGUOUS_MATCH",
+      "candidates": [
+        {
+          "igdbId": 136080,
+          "igdbName": "Worms Battlegrounds + Worms W.M.D"
+        }
+      ]
+    }
+  ]
 }

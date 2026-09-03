@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-03T16:51:48.414Z",
+  "generatedAt": "2026-09-03T17:09:28.257Z",
   "includedCount": 2553,
-  "withCover": 2419,
-  "missing": 134,
-  "coveragePct": 94.75,
+  "withCover": 2420,
+  "missing": 133,
+  "coveragePct": 94.79,
   "ownedMissingCount": 6,
-  "neededMissingCount": 128,
+  "neededMissingCount": 127,
   "ownedMissing": [
     {
       "id": 1003,
@@ -33,10 +33,6 @@
     }
   ],
   "neededMissing": [
-    {
-      "id": 9,
-      "title": "3D Mini Golf"
-    },
     {
       "id": 13,
       "title": "8 to Glory: The Official Game of the PBR"
