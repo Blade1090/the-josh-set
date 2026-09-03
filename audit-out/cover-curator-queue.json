@@ -1,92 +1,25 @@
 {
-  "generatedAt": "2026-09-03T17:37:17.612Z",
-  "note": "ShelfCheck cover gap cleanup. As of this pass, cover-overrides.js resolves 20 identities total: the original \"3D Mini Golf\" local-reuse match plus 19 curator-verified same-game matches drawn from fetch-covers.yml run 33784714653's AMBIGUOUS_MATCH/TIED_MATCH candidate diagnostics (that run added igdbImageId/igdbCoverUrl to every candidate, unblocking cases previously marked BLOCKED_NO_LOCAL_URL). This queue lists the remaining 114 identities still missing a cover -- each AMBIGUOUS_MATCH/TIED_MATCH entry keeps its prior curatorReview {verdict, reason} from the previous pass (re-verified: run 33784714653's candidate data is otherwise identical to the prior run's, so no rejection reasoning changed). NO_MATCH entries (75, unchanged) still need a manual-source pass.",
-  "identityCount": 114,
-  "ownedCount": 6,
-  "neededHuntCount": 108,
+  "generatedAt": "2026-09-03T18:01:26.644Z",
+  "note": "ShelfCheck cover gap: targeted straggler pass. cover-overrides.js now resolves 33 identities total (20 from the prior IGDB-diagnostics pass + 13 from this pass's targeted research: 7 via local same-product-compilation reuse, 6 via verified PlayStation Store product pages, since direct IGDB page access is blocked/403 for this session). This queue lists the remaining 101 identities still missing a cover. Entries actively investigated this pass but left unresolved carry a `stragglerPassReview {reasonCode, note}`. Entries discovered to require PSVR to play (a likely census eligibility issue, not a cover problem) carry a `censusFlag` -- census was NOT modified. AMBIGUOUS_MATCH/TIED_MATCH entries not investigated this pass keep their prior curatorReview from the previous pass (unchanged). NO_MATCH entries not investigated this pass are unchanged.",
+  "identityCount": 101,
+  "ownedCount": 1,
+  "neededHuntCount": 100,
   "statusBreakdown": {
-    "AMBIGUOUS_MATCH": 38,
-    "NO_MATCH": 75,
+    "NO_MATCH": 66,
+    "AMBIGUOUS_MATCH": 34,
     "TIED_MATCH": 1
   },
   "identities": [
-    {
-      "id": 1003,
-      "title": "River City Melee",
-      "priority": "OWNED",
-      "status": "AMBIGUOUS_MATCH",
-      "candidates": [
-        {
-          "igdbId": 115481,
-          "igdbName": "River City Melee Mach!!"
-        },
-        {
-          "igdbId": 63712,
-          "igdbName": "River City Melee: Battle Royal Special"
-        },
-        {
-          "igdbId": 115481,
-          "igdbName": "River City Melee Mach!!"
-        },
-        {
-          "igdbId": 63712,
-          "igdbName": "River City Melee: Battle Royal Special"
-        }
-      ],
-      "curatorReview": {
-        "verdict": "REJECTED",
-        "reason": "Best candidate \"River City Melee: Battle Royal Special\" is already a separate, already-covered census identity (#1710) -- census treats it as a distinct SKU. \"River City Melee Mach!!\" is a differently-named release with no local cover source. Leave for manual-source pass (OWNED).",
-        "reviewedAt": "2026-09-03T17:21:05.447Z"
-      }
-    },
-    {
-      "id": 2115,
-      "title": "Scribblenauts Unlimited",
-      "priority": "OWNED",
-      "status": "NO_MATCH",
-      "candidates": []
-    },
-    {
-      "id": 2121,
-      "title": "Resident Evil HD Remaster",
-      "priority": "OWNED",
-      "status": "AMBIGUOUS_MATCH",
-      "candidates": [
-        {
-          "igdbId": 41858,
-          "igdbName": "Resident Evil 6 Remastered"
-        },
-        {
-          "igdbId": 41858,
-          "igdbName": "Resident Evil 6 Remastered"
-        }
-      ],
-      "curatorReview": {
-        "verdict": "REJECTED",
-        "reason": "Candidate \"Resident Evil 6 Remastered\" is a different numbered game entirely -- explicitly flagged as a wrong match in the task brief (OWNED).",
-        "reviewedAt": "2026-09-03T17:21:05.447Z"
-      }
-    },
-    {
-      "id": 2122,
-      "title": "Resident Evil 0 HD Remaster",
-      "priority": "OWNED",
-      "status": "NO_MATCH",
-      "candidates": []
-    },
     {
       "id": 2196,
       "title": "Tomb Raider III: Adventures of Lara Croft",
       "priority": "OWNED",
       "status": "NO_MATCH",
-      "candidates": []
-    },
-    {
-      "id": 2200,
-      "title": "Danganronpa: Trigger Happy Havoc",
-      "priority": "OWNED",
-      "status": "NO_MATCH",
-      "candidates": []
+      "candidates": [],
+      "stragglerPassReview": {
+        "reasonCode": "NO_RELIABLE_SOURCE",
+        "note": "Correct game confirmed (IGDB entry exists: igdb.com/games/tomb-raider-iii-adventures-of-lara-croft), but IGDB blocks direct page fetches (403) and no image_id could be verified. The only PS4 availability is via \"Tomb Raider I-III Remastered\", which does not yet have a locally-verified product cover (unlike its siblings TR1/#2194 and TR2/#2195, which already show their own individual classic covers)."
+      }
     },
     {
       "id": 13,
@@ -114,7 +47,11 @@
       "title": "ARK Park",
       "priority": "NEEDED_HUNT",
       "status": "NO_MATCH",
-      "candidates": []
+      "candidates": [],
+      "censusFlag": {
+        "type": "POSSIBLE_PSVR_REQUIRED",
+        "note": "Official PS Store description: \"PlayStation VR and PlayStation Camera are required to play the PS4 version of this game.\" Not resolved and census NOT modified -- flagged for curator review of INCLUDED/EXCLUDED status."
+      }
     },
     {
       "id": 111,
@@ -145,13 +82,6 @@
       }
     },
     {
-      "id": 155,
-      "title": "Below",
-      "priority": "NEEDED_HUNT",
-      "status": "NO_MATCH",
-      "candidates": []
-    },
-    {
       "id": 210,
       "title": "Budget Cuts",
       "priority": "NEEDED_HUNT",
@@ -177,18 +107,15 @@
       "title": "Candleman: The Complete Journey",
       "priority": "NEEDED_HUNT",
       "status": "NO_MATCH",
-      "candidates": []
+      "candidates": [],
+      "stragglerPassReview": {
+        "reasonCode": "NO_RELIABLE_SOURCE",
+        "note": "PlayStation Store listings located (Swedish/Russian regional pages) but page fetches did not return product/cover data this pass."
+      }
     },
     {
       "id": 349,
       "title": "Deracine",
-      "priority": "NEEDED_HUNT",
-      "status": "NO_MATCH",
-      "candidates": []
-    },
-    {
-      "id": 356,
-      "title": "Destroy All Humans! (2005)",
       "priority": "NEEDED_HUNT",
       "status": "NO_MATCH",
       "candidates": []
@@ -217,20 +144,6 @@
         "reason": "Candidate \"Final Fantasy XIV Online\" (no \"A Realm Reborn\" suffix) most likely refers to the original 1.0 release, a materially different game/box than the 2.0 relaunch the census title specifies -- wrong-version risk.",
         "reviewedAt": "2026-09-03T17:21:05.447Z"
       }
-    },
-    {
-      "id": 554,
-      "title": "GRIP: Combat Racing",
-      "priority": "NEEDED_HUNT",
-      "status": "NO_MATCH",
-      "candidates": []
-    },
-    {
-      "id": 667,
-      "title": "Kingdom Hearts HD I.5 + II.5 Remix",
-      "priority": "NEEDED_HUNT",
-      "status": "NO_MATCH",
-      "candidates": []
     },
     {
       "id": 722,
@@ -329,7 +242,11 @@
       "title": "Spintires: Mudrunner - American Wilds Edition",
       "priority": "NEEDED_HUNT",
       "status": "NO_MATCH",
-      "candidates": []
+      "candidates": [],
+      "stragglerPassReview": {
+        "reasonCode": "NO_RELIABLE_SOURCE",
+        "note": "Correct PS Store product URL located (\"MudRunner - American Wilds Edition\", not the DLC expansion) but page fetches did not return product/cover data this pass."
+      }
     },
     {
       "id": 1155,
@@ -343,7 +260,11 @@
       "title": "Tales from the Borderlands: A Telltale Game Series",
       "priority": "NEEDED_HUNT",
       "status": "NO_MATCH",
-      "candidates": []
+      "candidates": [],
+      "stragglerPassReview": {
+        "reasonCode": "NO_RELIABLE_SOURCE",
+        "note": "Physical PS4 disc release confirmed to exist (2016, all 5 episodes), but no PlayStation Store product page for the complete-season release could be located this pass (only individual episode DLC pages were found)."
+      }
     },
     {
       "id": 1217,
@@ -375,7 +296,11 @@
       "title": "The Elder Scrolls Online: Tamriel Unlimited",
       "priority": "NEEDED_HUNT",
       "status": "NO_MATCH",
-      "candidates": []
+      "candidates": [],
+      "stragglerPassReview": {
+        "reasonCode": "EDITION_UNCERTAIN",
+        "note": "The live PlayStation Store listing now shows \"The Elder Scrolls Online\" without the \"Tamriel Unlimited\" subtitle and likely displays current promotional art, not necessarily the original 2015 \"Tamriel Unlimited\" retail box the census identity specifically names. Left unresolved rather than risk wrong-edition art."
+      }
     },
     {
       "id": 1250,
@@ -447,14 +372,22 @@
       "title": "Werewolves Within",
       "priority": "NEEDED_HUNT",
       "status": "NO_MATCH",
-      "candidates": []
+      "candidates": [],
+      "censusFlag": {
+        "type": "POSSIBLE_PSVR_REQUIRED",
+        "note": "Official PS Store description: \"PlayStation VR and PlayStation Camera are required to play the PS4 version of this game.\" Not resolved and census NOT modified -- flagged for curator review of INCLUDED/EXCLUDED status."
+      }
     },
     {
       "id": 1441,
       "title": "Wolfenstein: Cyberpilot",
       "priority": "NEEDED_HUNT",
       "status": "NO_MATCH",
-      "candidates": []
+      "candidates": [],
+      "censusFlag": {
+        "type": "POSSIBLE_PSVR_REQUIRED",
+        "note": "Official PS Store description: \"PlayStation VR and PlayStation Camera are required to play the PS4 version of this game.\" Not resolved and census NOT modified -- flagged for curator review of INCLUDED/EXCLUDED status."
+      }
     },
     {
       "id": 1451,
@@ -487,13 +420,6 @@
         "reason": "Cannot confirm locally which Worms title (\"Armageddon\") the plain \"Worms Anniversary Edition\" census identity refers to -- real risk of a wrong base game/box.",
         "reviewedAt": "2026-09-03T17:21:05.447Z"
       }
-    },
-    {
-      "id": 1465,
-      "title": "XIII (Remake)",
-      "priority": "NEEDED_HUNT",
-      "status": "NO_MATCH",
-      "candidates": []
     },
     {
       "id": 1483,
@@ -655,13 +581,6 @@
     {
       "id": 1753,
       "title": "The First Tree: Console Edition",
-      "priority": "NEEDED_HUNT",
-      "status": "NO_MATCH",
-      "candidates": []
-    },
-    {
-      "id": 1762,
-      "title": "The Walking Dead: Michonne - A Telltale Miniseries",
       "priority": "NEEDED_HUNT",
       "status": "NO_MATCH",
       "candidates": []
@@ -865,48 +784,6 @@
       "candidates": []
     },
     {
-      "id": 2119,
-      "title": "Hitman: Blood Money",
-      "priority": "NEEDED_HUNT",
-      "status": "AMBIGUOUS_MATCH",
-      "candidates": [
-        {
-          "igdbId": 99816,
-          "igdbName": "Hitman: Blood Money HD"
-        },
-        {
-          "igdbId": 99816,
-          "igdbName": "Hitman: Blood Money HD"
-        }
-      ],
-      "curatorReview": {
-        "verdict": "REJECTED",
-        "reason": "\"HD\" suffix typically denotes a remaster-collection release with different box art.",
-        "reviewedAt": "2026-09-03T17:21:05.447Z"
-      }
-    },
-    {
-      "id": 2120,
-      "title": "Hitman: Absolution",
-      "priority": "NEEDED_HUNT",
-      "status": "AMBIGUOUS_MATCH",
-      "candidates": [
-        {
-          "igdbId": 218974,
-          "igdbName": "Hitman: Absolution HD"
-        },
-        {
-          "igdbId": 218974,
-          "igdbName": "Hitman: Absolution HD"
-        }
-      ],
-      "curatorReview": {
-        "verdict": "REJECTED",
-        "reason": "Same reasoning as \"Hitman: Blood Money\" -- \"HD\" suffix likely denotes a different-box remaster collection.",
-        "reviewedAt": "2026-09-03T17:21:05.447Z"
-      }
-    },
-    {
       "id": 2241,
       "title": "Steel Empire Chronicles",
       "priority": "NEEDED_HUNT",
@@ -1090,7 +967,11 @@
       "title": "Puyo Puyo eSports",
       "priority": "NEEDED_HUNT",
       "status": "NO_MATCH",
-      "candidates": []
+      "candidates": [],
+      "stragglerPassReview": {
+        "reasonCode": "REGION_UNCERTAIN",
+        "note": "Only a \"Korean, Traditional Chinese\" regional PS Store listing was found. The census identity may specifically represent the Japan-domestic release, which could carry different box art. Left unresolved rather than risk wrong-region art."
+      }
     },
     {
       "id": 2404,
@@ -1212,7 +1093,11 @@
       "title": "Gear Club Unlimited 2",
       "priority": "NEEDED_HUNT",
       "status": "NO_MATCH",
-      "candidates": []
+      "candidates": [],
+      "stragglerPassReview": {
+        "reasonCode": "EDITION_UNCERTAIN",
+        "note": "Only \"Gear.Club Unlimited 2 - Ultimate Edition\" was found on the PS Store; unclear whether a separate base-edition PS4 release exists with different (or the same) box art."
+      }
     },
     {
       "id": 2619,
@@ -1317,7 +1202,11 @@
       "title": "Onechanbara Origin",
       "priority": "NEEDED_HUNT",
       "status": "NO_MATCH",
-      "candidates": []
+      "candidates": [],
+      "stragglerPassReview": {
+        "reasonCode": "EDITION_UNCERTAIN",
+        "note": "Only \"Onee Chanbara Origin Deluxe Edition\" was found on the PS Store; base-edition box art not verified."
+      }
     },
     {
       "id": 2684,
@@ -1610,29 +1499,39 @@
     }
   ],
   "resolvedThisPass": {
-    "runId": 33784714653,
-    "artifactName": "shelfcheck-cover-audit",
-    "count": 19,
+    "pass": "cover-straggler-pass",
+    "count": 13,
     "ids": [
-      46,
-      97,
-      291,
-      946,
-      1173,
-      1235,
-      1277,
-      1303,
-      1412,
-      2064,
-      2069,
-      2090,
-      2222,
-      2223,
-      2368,
-      2554,
-      2563,
-      2572,
-      2709
+      155,
+      356,
+      554,
+      667,
+      1003,
+      1465,
+      1762,
+      2115,
+      2119,
+      2120,
+      2121,
+      2122,
+      2200
     ]
-  }
+  },
+  "censusEligibilityFlags": [
+    {
+      "id": 90,
+      "title": "ARK Park",
+      "note": "Official PS Store description: \"PlayStation VR and PlayStation Camera are required to play the PS4 version of this game.\""
+    },
+    {
+      "id": 1431,
+      "title": "Werewolves Within",
+      "note": "Official PS Store description: \"PlayStation VR and PlayStation Camera are required to play the PS4 version of this game.\""
+    },
+    {
+      "id": 1441,
+      "title": "Wolfenstein: Cyberpilot",
+      "note": "Official PS Store description: \"PlayStation VR and PlayStation Camera are required to play the PS4 version of this game.\""
+    }
+  ]
 }
