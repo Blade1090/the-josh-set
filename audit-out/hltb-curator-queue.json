@@ -4,8 +4,13 @@
   "resolvedThisPass": [
     "Uncharted 3: Drake's Deception Remastered",
     "Dragon Ball: Xenoverse 2",
-    "Cuphead [Limited Edition]",
-    "Just Cause 3: XL Edition"
+    "Cuphead [Limited Edition]"
+  ],
+  "alreadyResolvedByPriorPatch": [
+    {
+      "title": "Just Cause 3: XL Edition",
+      "reason": "Was flagged HLTB_NO_VERIFIED_MATCH in the base hltb-data.txt, but is already corrected via the pre-existing hltb-v034-fixes.js runtime patch layer (not part of this pass's hltb-v104-fixes.js). Listed separately so it is not double-counted as new work."
+    }
   ],
   "noActionTakenReason": [
     {
@@ -16,22 +21,28 @@
   "suspiciousMappingsFlagged": [
     {
       "title": "Digimon Story Cyber Sleuth: Hacker's Memory",
-      "reason": "Distinct standalone sequel, not an edition of 'Digimon Story Cyber Sleuth'. Do NOT inherit the base game's HLTB time. Needs its own HLTB lookup."
+      "reason": "Distinct standalone sequel, not an edition of 'Digimon Story Cyber Sleuth'. Do NOT inherit the base game's HLTB time. Needs its own HLTB lookup.",
+      "alsoInStillUnresolved": true
     },
     {
       "title": "Hello Neighbor: Hide & Seek",
-      "reason": "Distinct standalone prequel spin-off, not an edition of 'Hello Neighbor'. Do NOT inherit the base game's HLTB time. Needs its own HLTB lookup."
+      "reason": "Distinct standalone prequel spin-off, not an edition of 'Hello Neighbor'. Do NOT inherit the base game's HLTB time. Needs its own HLTB lookup.",
+      "alsoInStillUnresolved": true
     },
     {
       "title": "Tokyo Twilight Ghost Hunters: Daybreak Special Gigs",
-      "reason": "Unclear whether this is simply an edition of base 'Tokyo Twilight Ghost Hunters' or meaningfully different content; found no confident external confirmation. Flagged rather than assumed."
+      "reason": "Unclear whether this is simply an edition of base 'Tokyo Twilight Ghost Hunters' or meaningfully different content; found no confident external confirmation. Flagged rather than assumed.",
+      "alsoInStillUnresolved": true
     },
     {
       "title": "Gal Gunvolt Burst",
-      "reason": "hltb-data.txt maps this to the same HLTB entry as 'Mighty Gunvolt Burst' with q=LIKELY (lower confidence). Title may be a Gal*Gun-crossover DLC pack rather than the same playable identity as the base game. Needs curator verification, not further automated action."
+      "reason": "hltb-data.txt maps this to the same HLTB entry as 'Mighty Gunvolt Burst' with q=LIKELY (lower confidence). Title may be a Gal*Gun-crossover DLC pack rather than the same playable identity as the base game. Needs curator verification, not further automated action.",
+      "alsoInStillUnresolved": false
     }
   ],
   "stillUnresolvedCount": 137,
+  "totalDistinctCuratorAttentionItems": 138,
+  "totalDistinctCuratorAttentionItemsNote": "stillUnresolvedCount (137, titles with no usable time data) plus the 1 suspiciousMappingsFlagged entry not already counted there (Gal Gunvolt Burst, which has existing but low-confidence time data rather than missing data) = 138.",
   "stillUnresolved": [
     "Accel World vs. Sword Art Online: Millennium Twilight",
     "ADK Tamashii",
