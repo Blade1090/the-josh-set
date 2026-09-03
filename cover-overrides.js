@@ -10,9 +10,10 @@
 // Empty maps are expected and fine — no manual corrections have been made yet.
 (()=>{
   const COVER_OVERRIDES = {
-    // "3D Mini Golf" (id 9) has no IGDB match of its own; "3D MiniGolf" (id 10) is the
-    // same game with spacing-only title formatting and already has a confirmed cover.
-    "9": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2xon.jpg",
+    // Formerly held a "3D Mini Golf" (id 9) -> "3D MiniGolf" (id 10) reuse entry. The census
+    // integrity pass (v0.02) confirmed these are the same underlying game republished under two
+    // publisher labels and excluded id 9 as a duplicate identity, so it's no longer a rendered
+    // completion identity and this override is removed rather than left dead.
 
     // Curator-verified same-game IGDB matches from fetch-covers.yml run 33784714653's
     // AMBIGUOUS_MATCH/TIED_MATCH candidate diagnostics -- each is a punctuation/numeral/

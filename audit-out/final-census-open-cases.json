@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-09-03T18:51:41.217Z",
+  "note": "ShelfCheck census integrity: closing pass for the two curator-review cases left open by census-integrity-pass-v001.js / audit-out/census-integrity-audit.json (PR #26). This is a small, deliberately bounded pass -- research limited to exactly these two cases, no broader census scan performed. Closing this file marks the planned structural census audit phase as complete; further census work should only happen when new concrete evidence or a specific bug appears.",
+  "baselineIncluded": 2544,
+  "finalIncluded": 2542,
+  "baselineSatisfied": 256,
+  "finalSatisfied": 256,
+  "baselineCompletionPercent": 10.063,
+  "finalCompletionPercent": 10.071,
+  "externalLookupsUsed": 7,
+  "externalLookupsBudget": 20,
+  "cases": [
+    {
+      "title": "Pool Nation FX",
+      "id": 923,
+      "verdict": "CONFIRMED_EXCLUDE",
+      "reason": "DIGITAL-ONLY PS4 release.",
+      "evidenceSummary": "Directly fetched the game's own official PlayStation Store product page (product code contains \"POOLNATIONFX\"); publisher/developer credited as \"Cherry Pop Games Limited\" (self-published), no physical-edition branding or messaging anywhere on the listing. Cross-checked retail/marketplace (eBay) and PriceCharting for a boxed PS4 release specifically for \"Pool Nation FX\" -- found none; every physical/boxed listing that surfaced belongs to the differently-titled, differently-published \"Pool Nation\" (#922, Wired Productions), confirming the two are not the same product. This is a positive finding (a fetched, self-published digital storefront listing plus a consistent, multi-angle absence of physical evidence), not mere search silence, so it clears the \"search silence is not proof\" bar.",
+      "notConfusedWith": "Pool Nation (#922) -- separately published by Wired Productions with its own confirmed physical PS4 release. Untouched by this change; remains its own INCLUDED identity.",
+      "ownershipImpact": "None -- not present in Josh's GameEye collection.",
+      "censusChange": "Flipped INCLUDED -> EXCLUDED via census-integrity-pass-v002.js, using the existing find/ensureExcluded convention (same as v001 and ownership-reconcile-v071.js). No alias needed (never owned, no ownership to preserve)."
+    },
+    {
+      "title": "3D Mini Golf / 3D MiniGolf",
+      "ids": {
+        "duplicate": 9,
+        "canonical": 10
+      },
+      "verdict": "CONFIRMED_DUPLICATE",
+      "reason": "Same underlying game, republished under two publisher deals.",
+      "evidenceSummary": "Compared both listings directly against the task's checklist: developer -- identical (Z-Software GmbH) for both. Publisher -- different (\"3D Mini Golf\" via familyplay, \"3D MiniGolf\" via Merge Games), which is what made this genuinely ambiguous in the prior pass. Content -- identical: both official PS Store descriptions independently state \"over 54 challenging holes, 18 of which are faithfully modeled after official courses in the real world\", identical three scenarios (a park, a mountain camping site, a sandy beach), identical Challenge + Tournament modes, identical 1-4 player multiplayer. This is word-for-word matching marketing copy across two nominally-separate storefront listings from different publishers -- the classic pattern of a small developer licensing the same finished game to multiple regional/budget publishing labels (each of whom then submits their own separate PSN product listing and IGDB entry under a near-identical title), not evidence of two different games. This directly explains why IGDB independently has two separate entries both named \"3D MiniGolf\" (already observed in the earlier cover-curation pass as a TIED_MATCH).",
+      "whatChangedSincePriorPass": "The prior compilation/census audit (PR #26) flagged this as CURATOR_REVIEW specifically because finding two different publishers looked like it could mean two different products. This pass's direct content comparison (course count, scenarios, modes) resolves that ambiguity -- the content match is exact, not approximate.",
+      "canonicalChoice": "\"3D MiniGolf\" (#10) kept as canonical -- it already carries its own automated IGDB cover match from the fetch-covers.mjs pipeline (unlike #9, whose only cover was a manual override reusing #10's art in the first place).",
+      "ownershipImpact": "None -- neither identity is present in Josh's GameEye collection.",
+      "censusChange": "\"3D Mini Golf\" (#9) flipped INCLUDED -> EXCLUDED via census-integrity-pass-v002.js; alias \"3d mini golf\" added to #10 so any future GameEye import or search under either title resolves to the canonical identity.",
+      "coverChange": "The prior manual cover-overrides.js entry for #9 (added when this was still an open question, reusing #10's cover) is removed -- #9 is no longer a rendered completion identity, so the override was dead weight. #10's own cover is untouched."
+    }
+  ],
+  "validationPerformed": [
+    "Full script-chain VM replay (all census-mutating scripts through census-integrity-pass-v002.js through the existing unmodified census-integrity.js) -- no thrown errors",
+    "INCLUDED recomputed = 2542 (2544 - 2); DATA.n matches",
+    "No duplicate census IDs",
+    "No exact-normalized duplicate INCLUDED identity groups (regression check)",
+    "Both target identities (#923, #9) confirmed EXCLUDED with a reason; both canonical/untouched identities (#922, #10) confirmed still INCLUDED",
+    "Alias \"3d mini golf\" -> #10 verified present",
+    "Full GameEye ownership re-simulation (identity + product matching, same logic as the live app), run before/after: satisfied count delta = 0 -- neither excluded identity was owned, so no owned game became NEEDED",
+    "census-integrity.js (project's own existing, unmodified integrity/lineage audit), re-run after the fix: denominatorMatches=true, exactNormalizedDuplicateGroups=[]",
+    "node --check on census-integrity-pass-v002.js and the edited cover-overrides.js: syntax OK"
+  ],
+  "unresolvedRemaining": [],
+  "phaseStatus": "CLOSED -- the planned structural census audits (compilation double-count, census integrity attack pass, and this final open-cases pass) are complete. Known high-confidence errors found across all three passes have been corrected. This does not mean the census is mathematically perfect or that no future correction will ever be needed -- it means further census work should happen only when new concrete evidence or a specific bug surfaces, not as an open-ended scan."
+}
