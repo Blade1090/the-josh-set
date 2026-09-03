@@ -13,6 +13,29 @@
     // "3D Mini Golf" (id 9) has no IGDB match of its own; "3D MiniGolf" (id 10) is the
     // same game with spacing-only title formatting and already has a confirmed cover.
     "9": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2xon.jpg",
+
+    // Curator-verified same-game IGDB matches from fetch-covers.yml run 33784714653's
+    // AMBIGUOUS_MATCH/TIED_MATCH candidate diagnostics -- each is a punctuation/numeral/
+    // franchise-branding difference only, verified against local census/product/alias data.
+    "46": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9cyp.jpg", // Agatha Christie's The ABC Murders -> Agatha Christie: The ABC Murders
+    "97": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2xnk.jpg", // Assassin's Creed Chronicles -> Assassin's Creed Chronicles: Trilogy Pack
+    "291": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1udg.jpg", // Damascus Gear: Operation Osaka -> ...HD Edition
+    "946": "https://images.igdb.com/igdb/image/upload/t_cover_big/coavxt.jpg", // Rabbids Invasion -> Rabbids Invasion: The Interactive TV Show
+    "1173": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27en.jpg", // Super Blackjack Battle II Turbo Edition: The Card Warriors -> Super Blackjack Battle 2 Turbo Edition - The Card Warriors
+    "1235": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20xn.jpg", // The Dark Pictures - Little Hope -> The Dark Pictures Anthology: Little Hope
+    "1277": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2jth.jpg", // The Missing: JJ Macfield and the Island of Memories -> The Missing: J.J. Macfield and the Island of Memories
+    "1303": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4wxx.jpg", // The Walking Dead: A Telltale Games Series - The Complete First Season -> The Walking Dead: The Complete First Season
+    "1412": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24my.jpg", // Warhammer 40,000: Deathwatch -> Warhammer 40,000: Deathwatch Tyranids Invasion
+    "2064": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4oit.jpg", // Andro Dunos 2 -> Andro Dunos II
+    "2069": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2zkf.jpg", // 3D Billiards & Snooker -> 3D Billiards: Pool & Snooker
+    "2090": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa4r9.jpg", // S.T.A.L.K.E.R.: Call of Prypiat -> S.T.A.L.K.E.R.: Call of Pripyat
+    "2222": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4tl2.jpg", // Batman: Arkham Asylum Remastered -> Batman: Return to Arkham - Arkham Asylum
+    "2223": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4tld.jpg", // Batman: Arkham City Remastered -> Batman: Return to Arkham - Arkham City
+    "2368": "https://images.igdb.com/igdb/image/upload/t_cover_big/co86n5.jpg", // Zero Time Dilemma -> Zero Escape: Zero Time Dilemma
+    "2554": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2yqh.jpg", // Chivalry II -> Chivalry 2
+    "2563": "https://images.igdb.com/igdb/image/upload/t_cover_big/coamte.jpg", // Dark Pictures: The Devil in Me -> The Dark Pictures Anthology: The Devil in Me
+    "2572": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2sm6.jpg", // Electronic Super Joy II -> Electronic Super Joy 2
+    "2709": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6pxw.jpg", // Rainbow Six: Extraction -> Tom Clancy's Rainbow Six Extraction
   };
   const PRODUCT_COVER_OVERRIDES = {};
   window.SHELFCHECK_COVER_OVERRIDES = COVER_OVERRIDES;
