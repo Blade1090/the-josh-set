@@ -1,0 +1,335 @@
+{
+  "generatedAt": "2026-09-03T18:37:02.228Z",
+  "note": "ShelfCheck census integrity attack pass. Local structural analysis first (categories A-G), external research only for locally-flagged suspicious candidates (12 investigated this pass, well under the 100-lookup circuit breaker -- stopped on diminishing returns, not exhaustion). This is NOT a claim that the census is now clean, final, or complete -- see testsRun for exactly what was checked and curatorReview / the unresolved queue below for what remains open.",
+  "baselineIncluded": 2553,
+  "finalIncluded": 2544,
+  "baselineSatisfied": 256,
+  "finalSatisfied": 256,
+  "baselineCompletionPercent": 10.027,
+  "finalCompletionPercent": 10.063,
+  "testsRun": [
+    "Full script-chain VM replay (census-cleanup.js through census-integrity-pass-v001.js through census-integrity.js) with no thrown errors",
+    "INCLUDED count recomputed = 2544 (2553 - 9)",
+    "DATA.n matches live INCLUDED count",
+    "No duplicate census IDs",
+    "No exact-normalized duplicate INCLUDED identity groups (regression re-check of census-integrity.js's own technique) -- 0 found (down from 0 baseline; the confirmed duplicates in this pass were NOT exact-normalized matches, which is why the pre-existing detector never caught them)",
+    "All 9 target identities confirmed EXCLUDED with a recorded cleanupReason",
+    "All 4 canonical survivor identities confirmed still INCLUDED",
+    "Alias transfers verified present in aliasesById for all 3 identities where GameEye ownership needed to move (River City Melee, TMNT; Man of Medan needed no alias since the canonical identity already matched directly)",
+    "Full GameEye ownership re-simulation (identity + product matching, same logic as tools/ownership-audit-current.mjs) run twice (before/after): satisfied count delta = 0, confirming no owned game was accidentally orphaned or double-counted",
+    "census-integrity.js (the project's own existing, unmodified integrity/lineage audit) re-run after the fix: denominatorMatches=true, exactNormalizedDuplicateGroups=[], multiIdentityProducts=[]",
+    "node --check on census-integrity-pass-v001.js: syntax OK",
+    "Cross-reference check: cover-overrides.js, dossier-overrides-*.js, and DATA.p were checked for references to the 9 newly-excluded ids -- only cover-overrides.js has a (now-inert, harmless) entry for #1003 from a prior pass; no other file references break"
+  ],
+  "confirmedDuplicates": [
+    {
+      "identityA": 1003,
+      "identityATitle": "River City Melee",
+      "identityB": 1710,
+      "reason": "DUPLICATE -- same physical PS4 product as #1710",
+      "evidenceSummary": "Limited Run Games' own store product page is titled \"Limited Run #103: River City Melee (PS4)\"; eStarland and VideoGamesNewYork independently catalog the identical LRG #103 release as \"River City Melee: Battle Royal Special\". Confirmed via a fresh search this pass: \"the search results confirm that this is indeed Limited Run Games catalog number #103 for River City Melee: Battle Royal Special on PlayStation 4.\"",
+      "ownershipImpact": "PRESERVED -- Josh's GameEye title \"River City Melee\" previously matched only #1003 directly; an alias now routes it to the surviving canonical identity #1710, confirmed via a full ownership-matching re-simulation (0 net change in satisfied count)."
+    },
+    {
+      "identityA": 1236,
+      "identityATitle": "The Dark Pictures - Man of Medan",
+      "identityB": 1556,
+      "reason": "DUPLICATE -- same physical PS4 product as #1556",
+      "evidenceSummary": "Single official 2019 game, one IGDB entry (\"The Dark Pictures Anthology: Man of Medan\"), one Amazon/PS Store listing. Both census identities were independently assigned the exact same automated IGDB cover image (co1omz.jpg) by the unrelated fetch-covers.mjs matcher -- strong corroborating signal they resolve to the same underlying game.",
+      "ownershipImpact": "None -- Josh's GameEye title \"The Dark Pictures Anthology: Man of Medan\" already exact-matched the canonical #1556 directly; #1236 was never satisfied by it."
+    },
+    {
+      "identityA": 1330,
+      "identityATitle": "TMNT: Mutants Unleashed",
+      "identityB": 2740,
+      "reason": "DUPLICATE -- same physical PS4 product as #2740",
+      "evidenceSummary": "\"TMNT\" is the standard abbreviation of \"Teenage Mutant Ninja Turtles\"; single official 2024 game confirmed via matching IGDB/Wikipedia title. Both census identities were independently assigned the exact same automated IGDB cover image (co8yl5.jpg).",
+      "ownershipImpact": "PRESERVED -- Josh's GameEye title \"TMNT: Mutants Unleashed\" previously matched only #1330 directly; an alias now routes it to the surviving canonical identity #2740, confirmed via a full ownership-matching re-simulation (0 net change in satisfied count)."
+    },
+    {
+      "identityA": 2623,
+      "identityATitle": "JoJo: Eyes of Heaven",
+      "identityB": 643,
+      "reason": "DUPLICATE -- same physical PS4 product as #643",
+      "evidenceSummary": "Both #2623 and #643's own independently-written dossiers (dossier-overrides-38.js, dossier-overrides-15.js) describe identical content (3D tag-team JoJo arena fighter, original crossover story) and identical physical-import evidence (Asia-region Bandai Namco PS4 disc); no distinguishing information exists between the two entries. Canonical identity uses the full official IGDB title.",
+      "ownershipImpact": "None -- neither identity is present in Josh's GameEye collection."
+    }
+  ],
+  "confirmedExclusions": [
+    {
+      "id": 90,
+      "title": "ARK Park",
+      "reason": "PSVR REQUIRED",
+      "evidenceSummary": "Official PlayStation Store listing: \"PlayStation VR and PlayStation Camera are required to play the PS4 version of this game.\" Corroborated by multiple retailer listings explicitly titled \"(PSVR)\" / \"VR Required\".",
+      "ownershipImpact": "None -- not present in Josh's GameEye collection."
+    },
+    {
+      "id": 1431,
+      "title": "Werewolves Within",
+      "reason": "PSVR REQUIRED",
+      "evidenceSummary": "Official PlayStation Store listing (direct fetch): \"PlayStation VR and PlayStation Camera are required to play the PS4 version of this game.\" / \"PS VR headset required\".",
+      "ownershipImpact": "None -- not present in Josh's GameEye collection."
+    },
+    {
+      "id": 1441,
+      "title": "Wolfenstein: Cyberpilot",
+      "reason": "PSVR REQUIRED",
+      "evidenceSummary": "Official PlayStation Store listing (direct fetch, confirmed in a prior session and re-confirmed this pass): \"PlayStation VR and PlayStation Camera are required to play the PS4 version of this game.\"",
+      "ownershipImpact": "None -- not present in Josh's GameEye collection."
+    },
+    {
+      "id": 349,
+      "title": "Deracine",
+      "reason": "PSVR REQUIRED",
+      "evidenceSummary": "FromSoftware/Sony Interactive Entertainment PSVR-exclusive title; confirmed via official PlayStation Blog (\"Deracine: Japan Studio x FromSoftware's PS VR Debut\") and PS Store listing. The identity's own dossier (dossier-overrides-13.js) had already independently flagged this exact issue and recommended \"HOLD -- likely exclude under PSVR rule\", but it was never applied to the census.",
+      "ownershipImpact": "None -- not present in Josh's GameEye collection."
+    },
+    {
+      "id": 1217,
+      "title": "The American Dream",
+      "reason": "PSVR REQUIRED",
+      "evidenceSummary": "Official PlayStation Store listing and Limited Run Games #430 branding explicitly \"PSVR Required\". The identity's own dossier (dossier-overrides-19.js) had already flagged this for exclusion review but it was never applied.",
+      "ownershipImpact": "None -- not present in Josh's GameEye collection."
+    }
+  ],
+  "validDistinct": [
+    {
+      "a": {
+        "id": 221,
+        "title": "Call of Duty: Modern Warfare"
+      },
+      "b": {
+        "id": 222,
+        "title": "Call of Duty: Modern Warfare Remastered"
+      },
+      "reason": "Two entirely different games (2019 Infinity Ward reboot vs. 2016 remaster of the ORIGINAL 2007 Call of Duty 4: Modern Warfare) sharing only a franchise-branding title fragment.",
+      "source": "carried forward from the prior compilation-double-count audit (PR #25)"
+    },
+    {
+      "a": {
+        "id": 479,
+        "title": "Final Fantasy VII"
+      },
+      "b": {
+        "id": 480,
+        "title": "Final Fantasy VII Remake"
+      },
+      "reason": "Base identity is EXCLUDED; Remake is a ground-up multi-part reimagining, not a remaster of the same content. No denominator risk.",
+      "source": "carried forward from the prior compilation-double-count audit (PR #25)"
+    },
+    {
+      "a": {
+        "id": 2194,
+        "title": "Tomb Raider"
+      },
+      "b": {
+        "id": 1339,
+        "title": "Tomb Raider: Definitive Edition"
+      },
+      "reason": "Two entirely different games from different eras of the franchise (1996 classic vs. PS4 port of the 2013 Crystal Dynamics reboot) sharing only the base franchise word.",
+      "source": "carried forward from the prior compilation-double-count audit (PR #25)"
+    },
+    {
+      "a": {
+        "id": 944,
+        "title": "Quar: Infernal Machines"
+      },
+      "reason": "PSVR is OPTIONAL, not required -- confirmed via official PS Store text: \"PlayStation VR and PlayStation Camera required for VR functionality\" (i.e. only for the VR mode, not the base game; DS4 controller support confirmed). Its own dossier had flagged this as an open hardware-review question; this pass resolves it in favor of keeping it INCLUDED.",
+      "source": "this pass, Category E"
+    }
+  ],
+  "validIncluded": [
+    {
+      "id": 1971,
+      "title": "Jim Power: The Lost Dimension",
+      "reason": "Confirmed qualifying physical PS4 editions exist (Strictly Limited Games, Limited + Special Limited runs); no eligibility concern."
+    },
+    {
+      "id": 2386,
+      "title": "Idol Manager",
+      "reason": "Western release is digital-only, but a confirmed region-free Japanese physical PS4 disc with English-language support exists (dossier evidence); consistent with the project's established import-eligibility precedent (e.g. Jinki Resurrection)."
+    },
+    {
+      "id": 2755,
+      "title": "Virtua Fighter 5: Ultimate Showdown",
+      "reason": "Launched digital-only in 2021, but a later physical PS4 disc (Limited Run Games #577) was confirmed released; qualifies."
+    },
+    {
+      "id": 2696,
+      "title": "Quintessential Quintuplets Fives Memories With You",
+      "reason": "Western release is digital-only, but a confirmed region-free Japanese physical PS4 disc exists (MAGES, catalog PLJM-17023); qualifies via import precedent."
+    }
+  ],
+  "curatorReview": [
+    {
+      "id": 923,
+      "title": "Pool Nation FX",
+      "reason": "Physical PS4 release status is genuinely uncertain. Search results only confirmed a physical release for the separate, earlier \"Pool Nation\" (#922) identity; no confirmation (positive or negative) was found specifically for \"Pool Nation FX\". Per instructions, search silence is not proof of absence -- left INCLUDED, flagged for a future targeted pass rather than excluded on absence of evidence."
+    },
+    {
+      "ids": [
+        9,
+        10
+      ],
+      "titles": [
+        "3D Mini Golf",
+        "3D MiniGolf"
+      ],
+      "reason": "Previously assumed (in an earlier cover-art pass, PR #22) to be the same game based on near-identical titles and treated as such for COVER REUSE ONLY -- this pass's deeper research complicates that assumption: both are developed by the same studio (Z-Software GmbH) but published under what appear to be two DIFFERENT publisher deals (\"3D MiniGolf\" by Merge Games vs. \"3D Mini Golf\" by familyplay), a known pattern for this developer's many similarly-titled budget minigolf releases across different publishers/regions. This could mean either genuinely the same product under two storefront listings, or two distinct budget SKUs. NOT confidently classified as a duplicate this pass -- both identities remain INCLUDED and unmerged. The prior cover-reuse decision is flagged here for Josh's awareness since its premise (\"clearly the same game\") is now less certain than when it was made; not reversed in this pass since that is a cover-scope change, not a census change."
+    }
+  ],
+  "changedIdentities": [
+    {
+      "id": 90,
+      "title": "ARK Park",
+      "previousStatus": "INCLUDED",
+      "newStatus": "EXCLUDED",
+      "canonicalIdentity": null,
+      "reason": "PSVR REQUIRED",
+      "evidenceSummary": "Official PlayStation Store listing: \"PlayStation VR and PlayStation Camera are required to play the PS4 version of this game.\" Corroborated by multiple retailer listings explicitly titled \"(PSVR)\" / \"VR Required\".",
+      "ownershipImpact": "None -- not present in Josh's GameEye collection."
+    },
+    {
+      "id": 1431,
+      "title": "Werewolves Within",
+      "previousStatus": "INCLUDED",
+      "newStatus": "EXCLUDED",
+      "canonicalIdentity": null,
+      "reason": "PSVR REQUIRED",
+      "evidenceSummary": "Official PlayStation Store listing (direct fetch): \"PlayStation VR and PlayStation Camera are required to play the PS4 version of this game.\" / \"PS VR headset required\".",
+      "ownershipImpact": "None -- not present in Josh's GameEye collection."
+    },
+    {
+      "id": 1441,
+      "title": "Wolfenstein: Cyberpilot",
+      "previousStatus": "INCLUDED",
+      "newStatus": "EXCLUDED",
+      "canonicalIdentity": null,
+      "reason": "PSVR REQUIRED",
+      "evidenceSummary": "Official PlayStation Store listing (direct fetch, confirmed in a prior session and re-confirmed this pass): \"PlayStation VR and PlayStation Camera are required to play the PS4 version of this game.\"",
+      "ownershipImpact": "None -- not present in Josh's GameEye collection."
+    },
+    {
+      "id": 349,
+      "title": "Deracine",
+      "previousStatus": "INCLUDED",
+      "newStatus": "EXCLUDED",
+      "canonicalIdentity": null,
+      "reason": "PSVR REQUIRED",
+      "evidenceSummary": "FromSoftware/Sony Interactive Entertainment PSVR-exclusive title; confirmed via official PlayStation Blog (\"Deracine: Japan Studio x FromSoftware's PS VR Debut\") and PS Store listing. The identity's own dossier (dossier-overrides-13.js) had already independently flagged this exact issue and recommended \"HOLD -- likely exclude under PSVR rule\", but it was never applied to the census.",
+      "ownershipImpact": "None -- not present in Josh's GameEye collection."
+    },
+    {
+      "id": 1217,
+      "title": "The American Dream",
+      "previousStatus": "INCLUDED",
+      "newStatus": "EXCLUDED",
+      "canonicalIdentity": null,
+      "reason": "PSVR REQUIRED",
+      "evidenceSummary": "Official PlayStation Store listing and Limited Run Games #430 branding explicitly \"PSVR Required\". The identity's own dossier (dossier-overrides-19.js) had already flagged this for exclusion review but it was never applied.",
+      "ownershipImpact": "None -- not present in Josh's GameEye collection."
+    },
+    {
+      "id": 1003,
+      "title": "River City Melee",
+      "previousStatus": "INCLUDED",
+      "newStatus": "EXCLUDED",
+      "canonicalIdentity": 1710,
+      "reason": "DUPLICATE -- same physical PS4 product as #1710",
+      "evidenceSummary": "Limited Run Games' own store product page is titled \"Limited Run #103: River City Melee (PS4)\"; eStarland and VideoGamesNewYork independently catalog the identical LRG #103 release as \"River City Melee: Battle Royal Special\". Confirmed via a fresh search this pass: \"the search results confirm that this is indeed Limited Run Games catalog number #103 for River City Melee: Battle Royal Special on PlayStation 4.\"",
+      "ownershipImpact": "PRESERVED -- Josh's GameEye title \"River City Melee\" previously matched only #1003 directly; an alias now routes it to the surviving canonical identity #1710, confirmed via a full ownership-matching re-simulation (0 net change in satisfied count)."
+    },
+    {
+      "id": 1236,
+      "title": "The Dark Pictures - Man of Medan",
+      "previousStatus": "INCLUDED",
+      "newStatus": "EXCLUDED",
+      "canonicalIdentity": 1556,
+      "reason": "DUPLICATE -- same physical PS4 product as #1556",
+      "evidenceSummary": "Single official 2019 game, one IGDB entry (\"The Dark Pictures Anthology: Man of Medan\"), one Amazon/PS Store listing. Both census identities were independently assigned the exact same automated IGDB cover image (co1omz.jpg) by the unrelated fetch-covers.mjs matcher -- strong corroborating signal they resolve to the same underlying game.",
+      "ownershipImpact": "None -- Josh's GameEye title \"The Dark Pictures Anthology: Man of Medan\" already exact-matched the canonical #1556 directly; #1236 was never satisfied by it."
+    },
+    {
+      "id": 1330,
+      "title": "TMNT: Mutants Unleashed",
+      "previousStatus": "INCLUDED",
+      "newStatus": "EXCLUDED",
+      "canonicalIdentity": 2740,
+      "reason": "DUPLICATE -- same physical PS4 product as #2740",
+      "evidenceSummary": "\"TMNT\" is the standard abbreviation of \"Teenage Mutant Ninja Turtles\"; single official 2024 game confirmed via matching IGDB/Wikipedia title. Both census identities were independently assigned the exact same automated IGDB cover image (co8yl5.jpg).",
+      "ownershipImpact": "PRESERVED -- Josh's GameEye title \"TMNT: Mutants Unleashed\" previously matched only #1330 directly; an alias now routes it to the surviving canonical identity #2740, confirmed via a full ownership-matching re-simulation (0 net change in satisfied count)."
+    },
+    {
+      "id": 2623,
+      "title": "JoJo: Eyes of Heaven",
+      "previousStatus": "INCLUDED",
+      "newStatus": "EXCLUDED",
+      "canonicalIdentity": 643,
+      "reason": "DUPLICATE -- same physical PS4 product as #643",
+      "evidenceSummary": "Both #2623 and #643's own independently-written dossiers (dossier-overrides-38.js, dossier-overrides-15.js) describe identical content (3D tag-team JoJo arena fighter, original crossover story) and identical physical-import evidence (Asia-region Bandai Namco PS4 disc); no distinguishing information exists between the two entries. Canonical identity uses the full official IGDB title.",
+      "ownershipImpact": "None -- neither identity is present in Josh's GameEye collection."
+    }
+  ],
+  "externalInvestigationsPerformed": {
+    "count": 12,
+    "circuitBreaker": "100 max",
+    "circuitBreakerReached": false,
+    "stoppedReason": "Diminishing returns after the locally-flagged candidate queue (dossier red-flag scan, cover-image-collision scan, fuzzy title-similarity scan, edition-suffix scan) was exhausted -- not because the 100-lookup budget ran out.",
+    "investigated": [
+      "River City Melee / Battle Royal Special (LRG catalog cross-reference, 2 lookups)",
+      "ARK Park (PS Store official text, 1 lookup)",
+      "Werewolves Within (PS Store official text, 1 lookup)",
+      "Deracine (PS Blog + PS Store, 1 lookup)",
+      "The American Dream (PS Store + retailer branding, 1 lookup)",
+      "Pool Nation FX (retailer search, 1 lookup, inconclusive)",
+      "Quar: Infernal Machines (PS Store official text via direct fetch, 2 lookups)",
+      "3D Mini Golf / 3D MiniGolf (publisher/developer research, 1 lookup)",
+      "The Dark Pictures - Man of Medan / Dark Pictures Anthology: Man of Medan (official title cross-check, 1 lookup)",
+      "TMNT: Mutants Unleashed / Teenage Mutant Ninja Turtles: Mutants Unleashed (official title cross-check, 1 lookup)"
+    ],
+    "reusedFromPriorSessions": [
+      "Wolfenstein: Cyberpilot (PSVR requirement already directly confirmed via official PS Store fetch in a prior session's cover-research pass)",
+      "JoJo: Eyes of Heaven vs JoJo's Bizarre Adventure: Eyes of Heaven (relationship already flagged as a possible duplicate in a prior session's cover-curator pass; resolved this pass using both identities' own dossier text as authoritative evidence, no new external lookup needed)"
+    ]
+  },
+  "localDetectionMethodsUsed": {
+    "categoryA_exactNormalizedDuplicates": {
+      "candidatesFound": 0
+    },
+    "categoryA_tightNormSpacingCollapsedDuplicates": {
+      "candidatesFound": 1,
+      "note": "3D Mini Golf / 3D MiniGolf -- see curatorReview"
+    },
+    "categoryA_romanArabicNumeralDuplicates": {
+      "candidatesFound": 0
+    },
+    "categoryA_fuzzyLevenshteinSimilarity": {
+      "candidatesFound": 106,
+      "note": "Overwhelming majority are legitimate numbered sequels (Resident Evil 2/3/4/5/6, Battlefield 1/4/V, etc.) correctly flagged by string similarity but obviously VALID_DISTINCT from the numbering alone; no new duplicate candidates beyond 3D Mini Golf found in this list."
+    },
+    "categoryB_editionSuffixPairs": {
+      "candidatesFound": 3,
+      "note": "Same 3 as the prior compilation audit (PR #25); no new candidates with the expanded suffix list."
+    },
+    "categoryC_compilationLeakageRegression": {
+      "multiIdentityProducts": 48,
+      "selfIdentityDuplicatesFound": 0,
+      "note": "Re-ran the PR #25 detector as a regression check; result unchanged (all 43 self-titled products correctly EXCLUDED, remaining 5 have no self-identity at all)."
+    },
+    "categoryD_regionalImportDuplicates": {
+      "note": "No local product/alias signal surfaced a NEW regional-duplicate candidate beyond the already-investigated JoJo/Dark Pictures/TMNT/River City cases. Deeper cross-title regional research was not performed for the whole census (explicitly out of scope: \"no giant whole-census web-research pass\")."
+    },
+    "categoryE_psvrLocalScan": {
+      "titleContainsVR": 0,
+      "dossierRedFlagScan": "grepped all dossier-overrides-*.js for PSVR/exclusion-recommendation language; found 14 matches, 12 already correctly EXCLUDED, 2 (Deracine, The American Dream) still INCLUDED and now fixed this pass."
+    },
+    "categoryF_physicalEligibilityAnomalies": {
+      "dossierRedFlagScan": "grepped for digital-only/DLC/cancelled/demo language; found 5 additional candidates (Jim Power, Idol Manager, JoJo Eyes of Heaven, Virtua Fighter 5, Quintessential Quintuplets) -- 4 resolved VALID_INCLUDED via each one's own dossier evidence of a qualifying import disc, 1 (JoJo) folded into the duplicate finding above."
+    },
+    "categoryG_sameProductAliasCollision": {
+      "technique": "Identities sharing the exact same AUTOMATED (non-override) IGDB cover image_id in covers-manifest.js -- independent corroborating evidence from the unrelated cover-fetch matcher.",
+      "collisionsFound": 2,
+      "note": "Both (Dark Pictures Man of Medan, TMNT Mutants Unleashed) confirmed as genuine duplicates."
+    }
+  }
+}
