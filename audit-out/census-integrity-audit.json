@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-03T18:37:02.228Z",
-  "note": "ShelfCheck census integrity attack pass. Local structural analysis first (categories A-G), external research only for locally-flagged suspicious candidates (12 investigated this pass, well under the 100-lookup circuit breaker -- stopped on diminishing returns, not exhaustion). This is NOT a claim that the census is now clean, final, or complete -- see testsRun for exactly what was checked and curatorReview / the unresolved queue below for what remains open.",
+  "note": "ShelfCheck census integrity attack pass. Local structural analysis first (categories A-G), external research only for locally-flagged suspicious candidates (12 investigated this pass, well under the 100-lookup circuit breaker -- stopped on diminishing returns, not exhaustion). This is NOT a claim that the census is now clean, final, or complete -- see testsRun for exactly what was checked and curatorReview / the unresolved queue below for what remains open. UPDATE: both curatorReview cases below (Pool Nation FX, 3D Mini Golf/MiniGolf) were subsequently resolved -- see resolvedIn/resolutionNote on each, and audit-out/final-census-open-cases.json for full detail. The baseline/final counts in THIS file remain as originally recorded for this pass (2553->2544); they do not reflect the later closing pass's further -2 change.",
   "baselineIncluded": 2553,
   "finalIncluded": 2544,
   "baselineSatisfied": 256,
@@ -164,7 +164,9 @@
     {
       "id": 923,
       "title": "Pool Nation FX",
-      "reason": "Physical PS4 release status is genuinely uncertain. Search results only confirmed a physical release for the separate, earlier \"Pool Nation\" (#922) identity; no confirmation (positive or negative) was found specifically for \"Pool Nation FX\". Per instructions, search silence is not proof of absence -- left INCLUDED, flagged for a future targeted pass rather than excluded on absence of evidence."
+      "reason": "Physical PS4 release status is genuinely uncertain. Search results only confirmed a physical release for the separate, earlier \"Pool Nation\" (#922) identity; no confirmation (positive or negative) was found specifically for \"Pool Nation FX\". Per instructions, search silence is not proof of absence -- left INCLUDED, flagged for a future targeted pass rather than excluded on absence of evidence.",
+      "resolvedIn": "audit-out/final-census-open-cases.json (feature/final-census-open-cases pass)",
+      "resolutionNote": "RESOLVED: CONFIRMED_EXCLUDE (digital-only, confirmed via official PS Store listing)."
     },
     {
       "ids": [
@@ -175,7 +177,9 @@
         "3D Mini Golf",
         "3D MiniGolf"
       ],
-      "reason": "Previously assumed (in an earlier cover-art pass, PR #22) to be the same game based on near-identical titles and treated as such for COVER REUSE ONLY -- this pass's deeper research complicates that assumption: both are developed by the same studio (Z-Software GmbH) but published under what appear to be two DIFFERENT publisher deals (\"3D MiniGolf\" by Merge Games vs. \"3D Mini Golf\" by familyplay), a known pattern for this developer's many similarly-titled budget minigolf releases across different publishers/regions. This could mean either genuinely the same product under two storefront listings, or two distinct budget SKUs. NOT confidently classified as a duplicate this pass -- both identities remain INCLUDED and unmerged. The prior cover-reuse decision is flagged here for Josh's awareness since its premise (\"clearly the same game\") is now less certain than when it was made; not reversed in this pass since that is a cover-scope change, not a census change."
+      "reason": "Previously assumed (in an earlier cover-art pass, PR #22) to be the same game based on near-identical titles and treated as such for COVER REUSE ONLY -- this pass's deeper research complicates that assumption: both are developed by the same studio (Z-Software GmbH) but published under what appear to be two DIFFERENT publisher deals (\"3D MiniGolf\" by Merge Games vs. \"3D Mini Golf\" by familyplay), a known pattern for this developer's many similarly-titled budget minigolf releases across different publishers/regions. This could mean either genuinely the same product under two storefront listings, or two distinct budget SKUs. NOT confidently classified as a duplicate this pass -- both identities remain INCLUDED and unmerged. The prior cover-reuse decision is flagged here for Josh's awareness since its premise (\"clearly the same game\") is now less certain than when it was made; not reversed in this pass since that is a cover-scope change, not a census change.",
+      "resolvedIn": "audit-out/final-census-open-cases.json (feature/final-census-open-cases pass)",
+      "resolutionNote": "RESOLVED: CONFIRMED_DUPLICATE (#9 excluded, canonical #10) -- same underlying game confirmed via matching official PS Store content descriptions across both publisher listings."
     }
   ],
   "changedIdentities": [
