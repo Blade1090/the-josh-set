@@ -59,8 +59,25 @@
     "1762": "https://image.api.playstation.com/cdn/EP2026/CUSA04106_00/bbfE4pAmP07Kt9ySjNzQTPrbxFdhaLRJ.png", // The Walking Dead: Michonne - A Telltale Miniseries -> exact PS Store title match (EP2026-CUSA04106_00)
     "554": "https://image.api.playstation.com/vulcan/img/cfn/113079VsQJzcyyV2qhqiFjSLzQErD4T1dbP_bjOD8ZiHuZ-8HIKoobUm2gaKsozFw10sRewzjzfio1hkhHoHmiA5tCw7kpqk.png", // GRIP: Combat Racing -> standard base edition confirmed, not Digital Deluxe (PS Store EP4382-CUSA11004_00)
     "155": "https://image.api.playstation.com/vulcan/img/cfn/11307WFwmJQVHYi0zgDVcx0hu2iGrwOpF8Pe2RaNMTNbPAPco21OWdMnUY-2bY7E8XfoKKp5A5FaNXkAsSRZG7aZet4f9W_Y.png", // Below -> BELOW by Capybara Games (PS Store UP2003-CUSA18473_00)
+
+    // Compilation double-count audit: Tomb Raider I-III/IV-VI Remastered cover consistency fix.
+    // #2194/#2195/#2196 and #2197/#2198/#2199 are each only available on PS4 as components of a
+    // remastered trilogy disc (the "Tomb Raider I-III Remastered"/"...IV-VI Remastered" products,
+    // themselves EXCLUDED identities #1805/#1806 -- correctly not counted twice). Previously 5 of
+    // the 6 showed per-game IGDB covers and #2196 had none at all; all 6 now consistently show
+    // their actual owned physical PS4 product's official cover instead.
+    "2194": "https://image.api.playstation.com/vulcan/ap/rnd/202402/0221/b10e4dff0c3c4ba38ef9a331671b156c70bdfadc32a8f5cf.png", // Tomb Raider -> Tomb Raider I-III Remastered (PS Store UP1032-PPSA16901_00-TOMBRAIDER123224)
+    "2195": "https://image.api.playstation.com/vulcan/ap/rnd/202402/0221/b10e4dff0c3c4ba38ef9a331671b156c70bdfadc32a8f5cf.png", // Tomb Raider II -> Tomb Raider I-III Remastered (same product)
+    "2196": "https://image.api.playstation.com/vulcan/ap/rnd/202402/0221/b10e4dff0c3c4ba38ef9a331671b156c70bdfadc32a8f5cf.png", // Tomb Raider III: Adventures of Lara Croft -> Tomb Raider I-III Remastered (same product; previously had no cover at all)
+    "2197": "https://image.api.playstation.com/vulcan/ap/rnd/202409/1221/85006e3582d8b415bf4b7b2aa884c8ddf2f1a7d5d7d2083e.jpg", // Tomb Raider: The Last Revelation -> Tomb Raider IV-VI Remastered (PS Store concept/10009064)
+    "2198": "https://image.api.playstation.com/vulcan/ap/rnd/202409/1221/85006e3582d8b415bf4b7b2aa884c8ddf2f1a7d5d7d2083e.jpg", // Tomb Raider: Chronicles -> Tomb Raider IV-VI Remastered (same product)
+    "2199": "https://image.api.playstation.com/vulcan/ap/rnd/202409/1221/85006e3582d8b415bf4b7b2aa884c8ddf2f1a7d5d7d2083e.jpg", // Tomb Raider: The Angel of Darkness -> Tomb Raider IV-VI Remastered (same product)
   };
-  const PRODUCT_COVER_OVERRIDES = {};
+  const PRODUCT_COVER_OVERRIDES = {
+    // Same fix, at the product level (used when browsing "COLLECTION"/"BEST WAY TO BUY" cards).
+    "tomb raider i iii remastered": "https://image.api.playstation.com/vulcan/ap/rnd/202402/0221/b10e4dff0c3c4ba38ef9a331671b156c70bdfadc32a8f5cf.png",
+    "tomb raider iv vi remastered": "https://image.api.playstation.com/vulcan/ap/rnd/202409/1221/85006e3582d8b415bf4b7b2aa884c8ddf2f1a7d5d7d2083e.jpg",
+  };
   window.SHELFCHECK_COVER_OVERRIDES = COVER_OVERRIDES;
   window.SHELFCHECK_PRODUCT_COVER_OVERRIDES = PRODUCT_COVER_OVERRIDES;
   // Merge overrides on top of the generated manifest here (rather than in cover-art-v080.js)

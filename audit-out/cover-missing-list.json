@@ -1,17 +1,12 @@
 {
-  "generatedAt": "2026-09-03T18:00:53.628Z",
+  "generatedAt": "2026-09-03T18:15:53.916Z",
   "includedCount": 2553,
-  "withCover": 2452,
-  "missing": 101,
-  "coveragePct": 96.04,
-  "ownedMissingCount": 1,
+  "withCover": 2453,
+  "missing": 100,
+  "coveragePct": 96.08,
+  "ownedMissingCount": 0,
   "neededMissingCount": 100,
-  "ownedMissing": [
-    {
-      "id": 2196,
-      "title": "Tomb Raider III: Adventures of Lara Croft"
-    }
-  ],
+  "ownedMissing": [],
   "neededMissing": [
     {
       "id": 13,
