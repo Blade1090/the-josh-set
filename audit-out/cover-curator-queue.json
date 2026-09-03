@@ -1,0 +1,941 @@
+{
+  "generatedAt": "2026-09-03T16:52:09.703Z",
+  "note": "ShelfCheck cover gap cleanup pass (targeted). Phase 2 (local/deterministic title-reuse recovery) ran to completion. Phase 3/4 (live IGDB lookups) were NOT run in this pass — no IGDB credentials were available in this local session, and per instructions no AI API or invented URLs were used. Josh is dispatching the existing fetch-covers.yml GitHub Action separately (it already holds the real IGDB secrets and uses this exact conservative exact/unique-alias matching) to attempt these. This queue lists every identity still missing a cover after local recovery, so results can be reconciled against it.",
+  "identityCount": 133,
+  "ownedCount": 6,
+  "neededHuntCount": 127,
+  "identities": [
+    {
+      "id": 1003,
+      "title": "River City Melee",
+      "priority": "OWNED",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2115,
+      "title": "Scribblenauts Unlimited",
+      "priority": "OWNED",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2121,
+      "title": "Resident Evil HD Remaster",
+      "priority": "OWNED",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2122,
+      "title": "Resident Evil 0 HD Remaster",
+      "priority": "OWNED",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2196,
+      "title": "Tomb Raider III: Adventures of Lara Croft",
+      "priority": "OWNED",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2200,
+      "title": "Danganronpa: Trigger Happy Havoc",
+      "priority": "OWNED",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 13,
+      "title": "8 to Glory: The Official Game of the PBR",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 14,
+      "title": "8-Bit Adventure Anthology: Volume One",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 36,
+      "title": "ADK Tamashii",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 46,
+      "title": "Agatha Christie's The ABC Murders",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 90,
+      "title": "ARK Park",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 97,
+      "title": "Assassin's Creed Chronicles",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 111,
+      "title": "Atari Flashback Classics: Volume 1",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 138,
+      "title": "Battle Chef Brigade",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 155,
+      "title": "Below",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 210,
+      "title": "Budget Cuts",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 225,
+      "title": "Candleman: The Complete Journey",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 291,
+      "title": "Damascus Gear: Operation Osaka",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 349,
+      "title": "Deracine",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 356,
+      "title": "Destroy All Humans! (2005)",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 484,
+      "title": "Final Fantasy XIV Online: A Realm Reborn",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 554,
+      "title": "GRIP: Combat Racing",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 667,
+      "title": "Kingdom Hearts HD I.5 + II.5 Remix",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 722,
+      "title": "Little Dragons Cafe",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 923,
+      "title": "Pool Nation FX",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 935,
+      "title": "Project Nimbus: Complete Edition",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 944,
+      "title": "Quar: Infernal Machines",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 946,
+      "title": "Rabbids Invasion",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 969,
+      "title": "Redout",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 985,
+      "title": "Resonance of Fate 4K / HD Edition",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1053,
+      "title": "SG/ZH: School Girl Zombie Hunter",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1103,
+      "title": "Soccer: Tactics & Glory",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1119,
+      "title": "Spintires: Mudrunner - American Wilds Edition",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1155,
+      "title": "Stranded Sails: Explorers of the Cursed Islands",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1173,
+      "title": "Super Blackjack Battle II Turbo Edition: The Card Warriors",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1198,
+      "title": "Tales from the Borderlands: A Telltale Game Series",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1217,
+      "title": "The American Dream",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1235,
+      "title": "The Dark Pictures - Little Hope",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1240,
+      "title": "The Elder Scrolls Online: Tamriel Unlimited",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1250,
+      "title": "The House in Fata Morgana",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1277,
+      "title": "The Missing: JJ Macfield and the Island of Memories",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1303,
+      "title": "The Walking Dead: A Telltale Games Series - The Complete First Season",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1304,
+      "title": "The Walking Dead: Saints & Sinners",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1333,
+      "title": "Tokyo Chronos",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1412,
+      "title": "Warhammer 40,000: Deathwatch",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1431,
+      "title": "Werewolves Within",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1441,
+      "title": "Wolfenstein: Cyberpilot",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1451,
+      "title": "World Poker Championship",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1454,
+      "title": "Worms Anniversary Edition",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1465,
+      "title": "XIII (Remake)",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1483,
+      "title": "Ys: Memories of Celceta - Kai",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1525,
+      "title": "Ryuu ga Gotoku 7 Gaiden: Na o Keshita Otoko",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1533,
+      "title": "Sword And Fairy: Together Forever",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1565,
+      "title": "Alternate Jake Hunter: Daedalus - The Awakening of Golden Jazz",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1580,
+      "title": "Bit.Trip Presents...Runner2: Future Legend of Rhythm Alien",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1612,
+      "title": "Euro Fishing: Urban Edition",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1639,
+      "title": "Home: A Unique Horror Adventure",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1651,
+      "title": "Last Labyrinth",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1665,
+      "title": "Maldita Castilla EX: Cursed Castilla",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1670,
+      "title": "Mighty Gunvolt Burst",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1682,
+      "title": "Now That's What I Call Sing",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1685,
+      "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1725,
+      "title": "Shenmue I",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1753,
+      "title": "The First Tree: Console Edition",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1762,
+      "title": "The Walking Dead: Michonne - A Telltale Miniseries",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1764,
+      "title": "Tokyo Twilight Ghost Hunters",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1809,
+      "title": "Ground Zero: Texas",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1954,
+      "title": "Söldner-X 2: Final Prototype Definitive Edition",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1969,
+      "title": "Cannon Dancer",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1971,
+      "title": "Jim Power: The Lost Dimension",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1976,
+      "title": "Sisters Royale",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1979,
+      "title": "Trouble Witches Final: Episode 1 - Daughters of Amalgam",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1981,
+      "title": "SturmFront - The Mutant War: Übel Edition",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1992,
+      "title": "Another World",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1995,
+      "title": "Cyanide & Happiness - Freakpocalypse (Episode 1)",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 1999,
+      "title": "Streets of Red",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2062,
+      "title": "Ganryu 2: Hakuma Kojiro",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2064,
+      "title": "Andro Dunos 2",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2069,
+      "title": "3D Billiards & Snooker",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2090,
+      "title": "S.T.A.L.K.E.R.: Call of Prypiat",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2119,
+      "title": "Hitman: Blood Money",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2120,
+      "title": "Hitman: Absolution",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2222,
+      "title": "Batman: Arkham Asylum Remastered",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2223,
+      "title": "Batman: Arkham City Remastered",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2241,
+      "title": "Steel Empire Chronicles",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2308,
+      "title": "Fahrenheit",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2342,
+      "title": "Scourge Bringer",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2361,
+      "title": "UFO Robot Grendizer",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2366,
+      "title": "Wobbledogs",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2368,
+      "title": "Zero Time Dilemma",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2370,
+      "title": "Dogfighter WW2",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2376,
+      "title": "Dokyusei: Bangin' Summer CSver",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2378,
+      "title": "Everyone Spelunker",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2382,
+      "title": "GoHELLgo",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2384,
+      "title": "Hakuouki: Shinkai Fukaden",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2396,
+      "title": "Natsuiro High School: Seisyun Hakusyo",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2399,
+      "title": "Puyo Puyo eSports",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2404,
+      "title": "Shinigami: Shibito Magire",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2408,
+      "title": "Tetsudou Nippon! Rosen Tabi: Eizan Densha-Hen",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2410,
+      "title": "Wonderland TOD-Reloaded",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2429,
+      "title": "Noob: Les Sans-Factions",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2462,
+      "title": "Malnazidos",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2465,
+      "title": "Rolling Gunner",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2469,
+      "title": "Kyukyoku Tiger / Twin Cobra",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2470,
+      "title": "Tiger-Heli",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2471,
+      "title": "Get Star / Guardian",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2554,
+      "title": "Chivalry II",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2563,
+      "title": "Dark Pictures: The Devil in Me",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2566,
+      "title": "Dead Craft",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2572,
+      "title": "Electronic Super Joy II",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2573,
+      "title": "Embr: Uber Firefighters",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2589,
+      "title": "Gear Club Unlimited 2",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2619,
+      "title": "Jinrui No Minasama E",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2623,
+      "title": "JoJo: Eyes of Heaven",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2629,
+      "title": "Kaleidoscope Of Phantom Prison",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2630,
+      "title": "Kamen Rider: Battride War Creation",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2631,
+      "title": "Kangokutou Mary Skelter 2",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2645,
+      "title": "Lapis Re Abyss",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2660,
+      "title": "Neptunia Game Maker R:Evolution",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2661,
+      "title": "Neptunia VS Titan Dogoo",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2669,
+      "title": "Offroad Racing - Buggy x ATV x Moto",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2673,
+      "title": "One Piece Unlimited World Red",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2675,
+      "title": "Onechanbara Origin",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2684,
+      "title": "Paleo Pines: The Dino Valley",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2686,
+      "title": "Paper Dolls",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2695,
+      "title": "Q.U.B.E.",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2696,
+      "title": "Quintessential Quintuplets Fives Memories With You",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2709,
+      "title": "Rainbow Six: Extraction",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2729,
+      "title": "Tadeo Jones: La Tabla Esmeralda",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2744,
+      "title": "Umineko no Naku Koro ni: Nekobako to Musou no Koukyoukyoku",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2763,
+      "title": "Warui Ousama To Rippana Yuusha",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2768,
+      "title": "Yo-Kai Watch Jam: Yo-Kai Academy Y",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    },
+    {
+      "id": 2779,
+      "title": "Zero: Tsukihami No Kamen",
+      "priority": "NEEDED_HUNT",
+      "status": "OTHER_REVIEW",
+      "note": "Local (spacing/punctuation) title-reuse match not available; not yet attempted against IGDB this pass. Pending a fetch-covers.yml dispatch."
+    }
+  ],
+  "products": []
+}

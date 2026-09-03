@@ -1,0 +1,549 @@
+{
+  "generatedAt": "2026-09-03T16:51:48.414Z",
+  "includedCount": 2553,
+  "withCover": 2419,
+  "missing": 134,
+  "coveragePct": 94.75,
+  "ownedMissingCount": 6,
+  "neededMissingCount": 128,
+  "ownedMissing": [
+    {
+      "id": 1003,
+      "title": "River City Melee"
+    },
+    {
+      "id": 2115,
+      "title": "Scribblenauts Unlimited"
+    },
+    {
+      "id": 2121,
+      "title": "Resident Evil HD Remaster"
+    },
+    {
+      "id": 2122,
+      "title": "Resident Evil 0 HD Remaster"
+    },
+    {
+      "id": 2196,
+      "title": "Tomb Raider III: Adventures of Lara Croft"
+    },
+    {
+      "id": 2200,
+      "title": "Danganronpa: Trigger Happy Havoc"
+    }
+  ],
+  "neededMissing": [
+    {
+      "id": 9,
+      "title": "3D Mini Golf"
+    },
+    {
+      "id": 13,
+      "title": "8 to Glory: The Official Game of the PBR"
+    },
+    {
+      "id": 14,
+      "title": "8-Bit Adventure Anthology: Volume One"
+    },
+    {
+      "id": 36,
+      "title": "ADK Tamashii"
+    },
+    {
+      "id": 46,
+      "title": "Agatha Christie's The ABC Murders"
+    },
+    {
+      "id": 90,
+      "title": "ARK Park"
+    },
+    {
+      "id": 97,
+      "title": "Assassin's Creed Chronicles"
+    },
+    {
+      "id": 111,
+      "title": "Atari Flashback Classics: Volume 1"
+    },
+    {
+      "id": 138,
+      "title": "Battle Chef Brigade"
+    },
+    {
+      "id": 155,
+      "title": "Below"
+    },
+    {
+      "id": 210,
+      "title": "Budget Cuts"
+    },
+    {
+      "id": 225,
+      "title": "Candleman: The Complete Journey"
+    },
+    {
+      "id": 291,
+      "title": "Damascus Gear: Operation Osaka"
+    },
+    {
+      "id": 349,
+      "title": "Deracine"
+    },
+    {
+      "id": 356,
+      "title": "Destroy All Humans! (2005)"
+    },
+    {
+      "id": 484,
+      "title": "Final Fantasy XIV Online: A Realm Reborn"
+    },
+    {
+      "id": 554,
+      "title": "GRIP: Combat Racing"
+    },
+    {
+      "id": 667,
+      "title": "Kingdom Hearts HD I.5 + II.5 Remix"
+    },
+    {
+      "id": 722,
+      "title": "Little Dragons Cafe"
+    },
+    {
+      "id": 923,
+      "title": "Pool Nation FX"
+    },
+    {
+      "id": 935,
+      "title": "Project Nimbus: Complete Edition"
+    },
+    {
+      "id": 944,
+      "title": "Quar: Infernal Machines"
+    },
+    {
+      "id": 946,
+      "title": "Rabbids Invasion"
+    },
+    {
+      "id": 969,
+      "title": "Redout"
+    },
+    {
+      "id": 985,
+      "title": "Resonance of Fate 4K / HD Edition"
+    },
+    {
+      "id": 1053,
+      "title": "SG/ZH: School Girl Zombie Hunter"
+    },
+    {
+      "id": 1103,
+      "title": "Soccer: Tactics & Glory"
+    },
+    {
+      "id": 1119,
+      "title": "Spintires: Mudrunner - American Wilds Edition"
+    },
+    {
+      "id": 1155,
+      "title": "Stranded Sails: Explorers of the Cursed Islands"
+    },
+    {
+      "id": 1173,
+      "title": "Super Blackjack Battle II Turbo Edition: The Card Warriors"
+    },
+    {
+      "id": 1198,
+      "title": "Tales from the Borderlands: A Telltale Game Series"
+    },
+    {
+      "id": 1217,
+      "title": "The American Dream"
+    },
+    {
+      "id": 1235,
+      "title": "The Dark Pictures - Little Hope"
+    },
+    {
+      "id": 1240,
+      "title": "The Elder Scrolls Online: Tamriel Unlimited"
+    },
+    {
+      "id": 1250,
+      "title": "The House in Fata Morgana"
+    },
+    {
+      "id": 1277,
+      "title": "The Missing: JJ Macfield and the Island of Memories"
+    },
+    {
+      "id": 1303,
+      "title": "The Walking Dead: A Telltale Games Series - The Complete First Season"
+    },
+    {
+      "id": 1304,
+      "title": "The Walking Dead: Saints & Sinners"
+    },
+    {
+      "id": 1333,
+      "title": "Tokyo Chronos"
+    },
+    {
+      "id": 1412,
+      "title": "Warhammer 40,000: Deathwatch"
+    },
+    {
+      "id": 1431,
+      "title": "Werewolves Within"
+    },
+    {
+      "id": 1441,
+      "title": "Wolfenstein: Cyberpilot"
+    },
+    {
+      "id": 1451,
+      "title": "World Poker Championship"
+    },
+    {
+      "id": 1454,
+      "title": "Worms Anniversary Edition"
+    },
+    {
+      "id": 1465,
+      "title": "XIII (Remake)"
+    },
+    {
+      "id": 1483,
+      "title": "Ys: Memories of Celceta - Kai"
+    },
+    {
+      "id": 1525,
+      "title": "Ryuu ga Gotoku 7 Gaiden: Na o Keshita Otoko"
+    },
+    {
+      "id": 1533,
+      "title": "Sword And Fairy: Together Forever"
+    },
+    {
+      "id": 1565,
+      "title": "Alternate Jake Hunter: Daedalus - The Awakening of Golden Jazz"
+    },
+    {
+      "id": 1580,
+      "title": "Bit.Trip Presents...Runner2: Future Legend of Rhythm Alien"
+    },
+    {
+      "id": 1612,
+      "title": "Euro Fishing: Urban Edition"
+    },
+    {
+      "id": 1639,
+      "title": "Home: A Unique Horror Adventure"
+    },
+    {
+      "id": 1651,
+      "title": "Last Labyrinth"
+    },
+    {
+      "id": 1665,
+      "title": "Maldita Castilla EX: Cursed Castilla"
+    },
+    {
+      "id": 1670,
+      "title": "Mighty Gunvolt Burst"
+    },
+    {
+      "id": 1682,
+      "title": "Now That's What I Call Sing"
+    },
+    {
+      "id": 1685,
+      "title": "Oddworld: Abe's Oddysee - New 'n' Tasty"
+    },
+    {
+      "id": 1725,
+      "title": "Shenmue I"
+    },
+    {
+      "id": 1753,
+      "title": "The First Tree: Console Edition"
+    },
+    {
+      "id": 1762,
+      "title": "The Walking Dead: Michonne - A Telltale Miniseries"
+    },
+    {
+      "id": 1764,
+      "title": "Tokyo Twilight Ghost Hunters"
+    },
+    {
+      "id": 1809,
+      "title": "Ground Zero: Texas"
+    },
+    {
+      "id": 1954,
+      "title": "Söldner-X 2: Final Prototype Definitive Edition"
+    },
+    {
+      "id": 1969,
+      "title": "Cannon Dancer"
+    },
+    {
+      "id": 1971,
+      "title": "Jim Power: The Lost Dimension"
+    },
+    {
+      "id": 1976,
+      "title": "Sisters Royale"
+    },
+    {
+      "id": 1979,
+      "title": "Trouble Witches Final: Episode 1 - Daughters of Amalgam"
+    },
+    {
+      "id": 1981,
+      "title": "SturmFront - The Mutant War: Übel Edition"
+    },
+    {
+      "id": 1992,
+      "title": "Another World"
+    },
+    {
+      "id": 1995,
+      "title": "Cyanide & Happiness - Freakpocalypse (Episode 1)"
+    },
+    {
+      "id": 1999,
+      "title": "Streets of Red"
+    },
+    {
+      "id": 2062,
+      "title": "Ganryu 2: Hakuma Kojiro"
+    },
+    {
+      "id": 2064,
+      "title": "Andro Dunos 2"
+    },
+    {
+      "id": 2069,
+      "title": "3D Billiards & Snooker"
+    },
+    {
+      "id": 2090,
+      "title": "S.T.A.L.K.E.R.: Call of Prypiat"
+    },
+    {
+      "id": 2119,
+      "title": "Hitman: Blood Money"
+    },
+    {
+      "id": 2120,
+      "title": "Hitman: Absolution"
+    },
+    {
+      "id": 2222,
+      "title": "Batman: Arkham Asylum Remastered"
+    },
+    {
+      "id": 2223,
+      "title": "Batman: Arkham City Remastered"
+    },
+    {
+      "id": 2241,
+      "title": "Steel Empire Chronicles"
+    },
+    {
+      "id": 2308,
+      "title": "Fahrenheit"
+    },
+    {
+      "id": 2342,
+      "title": "Scourge Bringer"
+    },
+    {
+      "id": 2361,
+      "title": "UFO Robot Grendizer"
+    },
+    {
+      "id": 2366,
+      "title": "Wobbledogs"
+    },
+    {
+      "id": 2368,
+      "title": "Zero Time Dilemma"
+    },
+    {
+      "id": 2370,
+      "title": "Dogfighter WW2"
+    },
+    {
+      "id": 2376,
+      "title": "Dokyusei: Bangin' Summer CSver"
+    },
+    {
+      "id": 2378,
+      "title": "Everyone Spelunker"
+    },
+    {
+      "id": 2382,
+      "title": "GoHELLgo"
+    },
+    {
+      "id": 2384,
+      "title": "Hakuouki: Shinkai Fukaden"
+    },
+    {
+      "id": 2396,
+      "title": "Natsuiro High School: Seisyun Hakusyo"
+    },
+    {
+      "id": 2399,
+      "title": "Puyo Puyo eSports"
+    },
+    {
+      "id": 2404,
+      "title": "Shinigami: Shibito Magire"
+    },
+    {
+      "id": 2408,
+      "title": "Tetsudou Nippon! Rosen Tabi: Eizan Densha-Hen"
+    },
+    {
+      "id": 2410,
+      "title": "Wonderland TOD-Reloaded"
+    },
+    {
+      "id": 2429,
+      "title": "Noob: Les Sans-Factions"
+    },
+    {
+      "id": 2462,
+      "title": "Malnazidos"
+    },
+    {
+      "id": 2465,
+      "title": "Rolling Gunner"
+    },
+    {
+      "id": 2469,
+      "title": "Kyukyoku Tiger / Twin Cobra"
+    },
+    {
+      "id": 2470,
+      "title": "Tiger-Heli"
+    },
+    {
+      "id": 2471,
+      "title": "Get Star / Guardian"
+    },
+    {
+      "id": 2554,
+      "title": "Chivalry II"
+    },
+    {
+      "id": 2563,
+      "title": "Dark Pictures: The Devil in Me"
+    },
+    {
+      "id": 2566,
+      "title": "Dead Craft"
+    },
+    {
+      "id": 2572,
+      "title": "Electronic Super Joy II"
+    },
+    {
+      "id": 2573,
+      "title": "Embr: Uber Firefighters"
+    },
+    {
+      "id": 2589,
+      "title": "Gear Club Unlimited 2"
+    },
+    {
+      "id": 2619,
+      "title": "Jinrui No Minasama E"
+    },
+    {
+      "id": 2623,
+      "title": "JoJo: Eyes of Heaven"
+    },
+    {
+      "id": 2629,
+      "title": "Kaleidoscope Of Phantom Prison"
+    },
+    {
+      "id": 2630,
+      "title": "Kamen Rider: Battride War Creation"
+    },
+    {
+      "id": 2631,
+      "title": "Kangokutou Mary Skelter 2"
+    },
+    {
+      "id": 2645,
+      "title": "Lapis Re Abyss"
+    },
+    {
+      "id": 2660,
+      "title": "Neptunia Game Maker R:Evolution"
+    },
+    {
+      "id": 2661,
+      "title": "Neptunia VS Titan Dogoo"
+    },
+    {
+      "id": 2669,
+      "title": "Offroad Racing - Buggy x ATV x Moto"
+    },
+    {
+      "id": 2673,
+      "title": "One Piece Unlimited World Red"
+    },
+    {
+      "id": 2675,
+      "title": "Onechanbara Origin"
+    },
+    {
+      "id": 2684,
+      "title": "Paleo Pines: The Dino Valley"
+    },
+    {
+      "id": 2686,
+      "title": "Paper Dolls"
+    },
+    {
+      "id": 2695,
+      "title": "Q.U.B.E."
+    },
+    {
+      "id": 2696,
+      "title": "Quintessential Quintuplets Fives Memories With You"
+    },
+    {
+      "id": 2709,
+      "title": "Rainbow Six: Extraction"
+    },
+    {
+      "id": 2729,
+      "title": "Tadeo Jones: La Tabla Esmeralda"
+    },
+    {
+      "id": 2744,
+      "title": "Umineko no Naku Koro ni: Nekobako to Musou no Koukyoukyoku"
+    },
+    {
+      "id": 2763,
+      "title": "Warui Ousama To Rippana Yuusha"
+    },
+    {
+      "id": 2768,
+      "title": "Yo-Kai Watch Jam: Yo-Kai Academy Y"
+    },
+    {
+      "id": 2779,
+      "title": "Zero: Tsukihami No Kamen"
+    }
+  ]
+}
