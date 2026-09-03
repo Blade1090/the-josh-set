@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T17:09:45.335Z",
-  "note": "ShelfCheck cover gap cleanup pass. Reflects the actual post-IGDB state as of covers-manifest.js commit 6fdff00b (fetch-covers.yml run 33781521251, dispatched by Josh). That run attempted every one of the 134 identities that were missing a cover at the time (including id 9, \"3D Mini Golf\") against IGDB under the existing conservative exact/unique-alias matching rules and recovered zero new identity covers and zero new product covers. Per-title diagnostic status/candidates below are taken directly from that run’s own audit artifact (cover-audit.json), not re-derived or re-queried. id 9 is excluded here because it is resolved locally via cover-overrides.js (see PR notes) — its real IGDB status was TIED_MATCH (two distinct IGDB entries both named \"3D MiniGolf\" scored exact-match, so IGDB correctly declined to auto-pick one), which also validates the manual override as the right call rather than a workaround.",
+  "generatedAt": "2026-09-03T17:21:05.447Z",
+  "note": "ShelfCheck cover gap cleanup pass. Reflects the actual post-IGDB state as of covers-manifest.js commit 6fdff00b (fetch-covers.yml run 33781521251). A curator pass then reviewed every AMBIGUOUS_MATCH/TIED_MATCH entry's existing candidate data (title-only, no new IGDB calls) to look for safe, defensible local resolutions. Result: zero new overrides were added this pass. Every candidate that reads as a confident title-equivalence (punctuation/numeral/franchise-branding differences only) has NO locally-available cover URL to reuse -- resolving it would require a new IGDB lookup to fetch the candidate game's cover image, which is out of scope for this pass (see curatorReview.verdict \"BLOCKED_NO_LOCAL_URL\" on the relevant entries). Every candidate that DOES have a locally-available cover URL (because some other census identity already carries that exact IGDB game's cover) corresponds to a title the census already treats as a separate, deliberately distinct identity -- accepting those would risk assigning a different edition's/region's box art (see curatorReview.verdict \"REJECTED\" and its reason). NO_MATCH entries (no IGDB candidates at all) are unchanged and still need a manual-source pass.",
   "identityCount": 133,
   "ownedCount": 6,
   "neededHuntCount": 127,
@@ -32,7 +32,12 @@
           "igdbId": 63712,
           "igdbName": "River City Melee: Battle Royal Special"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Best candidate \"River City Melee: Battle Royal Special\" is already a separate, already-covered census identity (#1710) -- census treats it as a distinct SKU. \"River City Melee Mach!!\" is a differently-named release with no local cover source. Leave for manual-source pass (OWNED).",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2115,
@@ -55,7 +60,12 @@
           "igdbId": 41858,
           "igdbName": "Resident Evil 6 Remastered"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Candidate \"Resident Evil 6 Remastered\" is a different numbered game entirely -- explicitly flagged as a wrong match in the task brief (OWNED).",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2122,
@@ -117,7 +127,12 @@
           "igdbId": 17470,
           "igdbName": "Agatha Christie: The ABC Murders"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "BLOCKED_NO_LOCAL_URL",
+        "reason": "\"Agatha Christie: The ABC Murders\" is confidently the same game as the census title (punctuation-only difference; the identity’s own registered alias already matches it), but no census identity currently carries a cover for this exact IGDB entry, and fetching one would require a new IGDB call.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 90,
@@ -152,7 +167,12 @@
           "igdbId": 52416,
           "igdbName": "Assassin's Creed Chronicles: Trilogy Pack"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "BLOCKED_NO_LOCAL_URL",
+        "reason": "\"Assassin’s Creed Chronicles: Trilogy Pack\" is confidently the correct retail bundle (matches the task’s own example; no conflicting separate census identity for China/Russia/India episodes), but no local cover source exists for it.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 111,
@@ -175,7 +195,12 @@
           "igdbId": 111825,
           "igdbName": "Battle Chef Brigade Deluxe"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "\"Battle Chef Brigade Deluxe\" added real gameplay content (a new playable character) on top of the base game -- edition-sensitive; also has no local cover source.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 155,
@@ -198,7 +223,12 @@
           "igdbId": 401387,
           "igdbName": "Cut Corner Renovations USSR"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Candidate \"Cut Corner Renovations USSR\" does not read as the same game or franchise as \"Budget Cuts\" -- looks like a poor keyword match, not genuine title-equivalence.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 225,
@@ -221,7 +251,12 @@
           "igdbId": 90093,
           "igdbName": "Damascus Gear: Operation Osaka - HD Edition"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "BLOCKED_NO_LOCAL_URL",
+        "reason": "\"Damascus Gear: Operation Osaka - HD Edition\" matches the task’s own example and has no local conflict, but no local cover source exists for it.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 349,
@@ -255,7 +290,12 @@
           "igdbId": 386,
           "igdbName": "Final Fantasy XIV Online"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Candidate \"Final Fantasy XIV Online\" (no \"A Realm Reborn\" suffix) most likely refers to the original 1.0 release, a materially different game/box than the 2.0 relaunch the census title specifies -- wrong-version risk.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 554,
@@ -295,7 +335,12 @@
           "igdbId": 68315,
           "igdbName": "Project Nimbus: Code Mirai"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "\"Project Nimbus: Code Mirai\" is a different subtitle, most likely a different game in the same series rather than an edition of this one.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 944,
@@ -318,7 +363,12 @@
           "igdbId": 20308,
           "igdbName": "Rabbids Invasion: The Interactive TV Show"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "BLOCKED_NO_LOCAL_URL",
+        "reason": "\"Rabbids Invasion: The Interactive TV Show\" matches the task’s own example and has no local conflict, but no local cover source exists for it.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 969,
@@ -346,7 +396,12 @@
           "igdbId": 186059,
           "igdbName": "Redout 2"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "All 4 candidates are either numbered sequels (\"Redout 2\"/\"Redout 2: Deluxe Edition\") or already-separate, already-covered census identities (\"Space Assault\" #2035, \"Lightspeed Edition\" #1703) -- genuinely different products.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 985,
@@ -401,7 +456,12 @@
           "igdbId": 30928,
           "igdbName": "Super Blackjack Battle 2 Turbo Edition - The Card Warriors"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "BLOCKED_NO_LOCAL_URL",
+        "reason": "\"Super Blackjack Battle 2 Turbo Edition - The Card Warriors\" is a pure numeral/punctuation match to the census title (matches the task’s own example), but no local cover source exists for it.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 1198,
@@ -428,7 +488,12 @@
           "igdbId": 74522,
           "igdbName": "Professional Farmer: American Dream"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "\"Professional Farmer: American Dream\" reads as an unrelated game (farming sim) -- looks like a false-positive keyword match, not the same product.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 1235,
@@ -448,7 +513,12 @@
           "igdbId": 122120,
           "igdbName": "The Dark Pictures Anthology: Little Hope"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "BLOCKED_NO_LOCAL_URL",
+        "reason": "\"The Dark Pictures Anthology: Little Hope\" is confidently the same well-known product (franchise-branding difference only), but no local cover source exists for it.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 1240,
@@ -483,7 +553,12 @@
           "igdbId": 329687,
           "igdbName": "The House in Fata Morgana: Reincarnation"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Both candidates (\"Reincarnation\", \"Dreams of the Revenants Edition\") are named special-edition rereleases with likely different bonus content/box art; cannot confirm which, if either, matches the plain census identity without external research.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 1277,
@@ -503,7 +578,12 @@
           "igdbId": 87499,
           "igdbName": "The Missing: J.J. Macfield and the Island of Memories"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "BLOCKED_NO_LOCAL_URL",
+        "reason": "\"The Missing: J.J. Macfield and the Island of Memories\" is a pure punctuation-only match, but no local cover source exists for it.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 1303,
@@ -515,7 +595,12 @@
           "igdbId": 41623,
           "igdbName": "The Walking Dead: The Complete First Season"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "BLOCKED_NO_LOCAL_URL",
+        "reason": "\"The Walking Dead: The Complete First Season\" is confidently the same iconic single product (branding drop only, no local conflict), but no local cover source exists for it.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 1304,
@@ -535,7 +620,12 @@
           "igdbId": 229123,
           "igdbName": "The Walking Dead: Saints & Sinners - Ch 2: Retribution - Payback Edition"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Candidate is a specific \"Ch 2: Retribution - Payback Edition\" bundle release, materially different from the base game the plain census title most likely represents.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 1333,
@@ -554,7 +644,12 @@
           "igdbId": 30804,
           "igdbName": "Warhammer 40,000: Deathwatch Tyranids Invasion"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "BLOCKED_NO_LOCAL_URL",
+        "reason": "\"Warhammer 40,000: Deathwatch Tyranids Invasion\" is very likely this single mobile-port game’s full title, but confidence is lower and there is no local cover source regardless.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 1431,
@@ -595,7 +690,12 @@
           "igdbId": 314938,
           "igdbName": "Worms Armageddon: Anniversary Edition"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Cannot confirm locally which Worms title (\"Armageddon\") the plain \"Worms Anniversary Edition\" census identity refers to -- real risk of a wrong base game/box.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 1465,
@@ -618,7 +718,12 @@
           "igdbId": 117495,
           "igdbName": "Ys: Memories of Celceta"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "\"Kai\" denotes a Japan-only enhanced rerelease; census already treats plain \"Ys: Memories of Celceta\" (#1482) as a separate, already-covered identity -- reusing its cover risks an edition/box mismatch.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 1525,
@@ -641,7 +746,12 @@
           "igdbId": 210915,
           "igdbName": "Sword and Fairy: Together Forever - Premium Collector’s Edition"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Candidate is explicitly a \"Premium Collector’s Edition\" -- different packaging, likely different box art.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 1565,
@@ -692,7 +802,12 @@
           "igdbId": 25253,
           "igdbName": "Cursed Castilla EX"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Candidate \"Cursed Castilla EX\" is already a separate, already-covered census identity (#1956) -- likely a distinct regional-title SKU with its own box art.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 1670,
@@ -711,7 +826,12 @@
           "igdbId": 24961,
           "igdbName": "Now That's What I Call Sing 2"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Candidate \"...Sing 2\" is a numbered sequel with a different setlist/box, not the same game.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 1685,
@@ -734,7 +854,12 @@
           "igdbId": 96391,
           "igdbName": "Shenmue I & II"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Candidate \"Shenmue I & II\" is a two-game bundle -- a materially different physical product/box than the standalone game.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 1753,
@@ -764,7 +889,12 @@
           "igdbId": 12209,
           "igdbName": "Tokyo Twilight Ghost Hunters: Daybreak Special Gigs"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Candidate \"...Daybreak Special Gigs\" is already a separate, already-covered census identity (#1765) -- an expanded rerelease with new content.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 1809,
@@ -780,7 +910,12 @@
           "igdbId": 187759,
           "igdbName": "Ground Zero: Texas - Nuclear Edition"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "\"Nuclear Edition\" suffix is edition-sensitive; cannot confirm it is the only/same release as the plain census title.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 1954,
@@ -803,7 +938,12 @@
           "igdbId": 231222,
           "igdbName": "Cannon Dancer: Osman"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Cannot confirm locally whether \"Osman\" is the same game’s alternate/Japanese title or a different release; no local cover source regardless.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 1971,
@@ -823,7 +963,12 @@
           "igdbId": 203269,
           "igdbName": "QUByte Classics: Jim Power - The Lost Dimension by Piko"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Candidate is a different-publisher \"QUByte Classics\" rerelease line, very likely a different box treatment.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 1976,
@@ -839,7 +984,12 @@
           "igdbId": 103365,
           "igdbName": "Sisters Royale: Five Sisters Under Fire"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Cannot confirm locally whether \"Five Sisters Under Fire\" is the same game’s full subtitle or a different edition; no local cover source regardless.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 1979,
@@ -881,7 +1031,12 @@
           "igdbId": 134556,
           "igdbName": "Re:Zero - Starting Life in Another World: The Prophecy of the Throne"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Best candidate \"20th Anniversary Edition\" is already a separate, already-covered census identity (#78); the other candidates are clearly unrelated games (Re:Zero, Cyber Citizen Shockman, a Mahjong spinoff).",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 1995,
@@ -904,7 +1059,12 @@
           "igdbId": 86452,
           "igdbName": "Streets of Red: Devil's Dare Deluxe"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Candidate is an explicit \"Devil’s Dare Deluxe\" edition -- different packaging/likely added content.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2062,
@@ -927,7 +1087,12 @@
           "igdbId": 145610,
           "igdbName": "Andro Dunos II"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "BLOCKED_NO_LOCAL_URL",
+        "reason": "\"Andro Dunos II\" is a pure numeral-format match, but no local cover source exists for it.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2069,
@@ -943,7 +1108,12 @@
           "igdbId": 113076,
           "igdbName": "3D Billiards: Pool & Snooker"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "BLOCKED_NO_LOCAL_URL",
+        "reason": "\"3D Billiards: Pool & Snooker\" reads as the same simple title, but no local cover source exists for it.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2090,
@@ -955,7 +1125,12 @@
           "igdbId": 7605,
           "igdbName": "S.T.A.L.K.E.R.: Call of Pripyat"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "BLOCKED_NO_LOCAL_URL",
+        "reason": "\"S.T.A.L.K.E.R.: Call of Pripyat\" is a pure spelling/transliteration variant, but no local cover source exists for it.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2119,
@@ -971,7 +1146,12 @@
           "igdbId": 99816,
           "igdbName": "Hitman: Blood Money HD"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "\"HD\" suffix typically denotes a remaster-collection release with different box art.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2120,
@@ -987,7 +1167,12 @@
           "igdbId": 218974,
           "igdbName": "Hitman: Absolution HD"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Same reasoning as \"Hitman: Blood Money\" -- \"HD\" suffix likely denotes a different-box remaster collection.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2222,
@@ -999,7 +1184,12 @@
           "igdbId": 203433,
           "igdbName": "Batman: Return to Arkham - Arkham Asylum"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "BLOCKED_NO_LOCAL_URL",
+        "reason": "\"Batman: Return to Arkham - Arkham Asylum\" is very likely the correct match (well-documented remaster bundle matching the census title’s own \"Remastered\" framing), but no local cover source exists for it.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2223,
@@ -1011,7 +1201,12 @@
           "igdbId": 203435,
           "igdbName": "Batman: Return to Arkham - Arkham City"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "BLOCKED_NO_LOCAL_URL",
+        "reason": "Same reasoning as \"Arkham Asylum Remastered\" -- likely correct, but no local cover source exists for it.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2241,
@@ -1046,7 +1241,12 @@
           "igdbName": "Indigo Prophecy",
           "score": 100
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Candidate \"Indigo Prophecy\" is already a separate, already-covered census identity (#618). \"Fahrenheit\" (EU) and \"Indigo Prophecy\" (US) are known to carry different regional box art historically; flagging as a possible census duplicate needing Josh’s judgment rather than auto-resolving.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2342,
@@ -1077,7 +1277,12 @@
           "igdbId": 241082,
           "igdbName": "UFO Robot Grendizer: The Feast of the Wolves - Deluxe Edition"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Cannot confirm PS4 release/availability or edition scope locally; no local cover source regardless.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2366,
@@ -1093,7 +1298,12 @@
           "igdbId": 250554,
           "igdbName": "Wobbledogs: Console Edition"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "\"Console Edition\" suffix is edition-sensitive -- could denote UI/content differences from the PC base.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2368,
@@ -1109,7 +1319,12 @@
           "igdbId": 11549,
           "igdbName": "Zero Escape: Zero Time Dilemma"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "BLOCKED_NO_LOCAL_URL",
+        "reason": "\"Zero Escape: Zero Time Dilemma\" is the well-known single official title (franchise-prefix only), but no local cover source exists for it.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2370,
@@ -1132,7 +1347,12 @@
           "igdbId": 304282,
           "igdbName": "Dokyusei: Bangin' Summer - Home Edition"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Cannot confirm locally whether \"Home Edition\" is an equivalent English label for the same console release or a genuinely different edition.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2378,
@@ -1167,7 +1387,12 @@
           "igdbId": 378910,
           "igdbName": "Go Hell Go Gou: Tsukiotoshitego"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Candidates include a distinct \"Gou\" variant title, suggesting a possibly different release; too uncertain locally.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2384,
@@ -1232,7 +1457,12 @@
           "igdbId": 193287,
           "igdbName": "Valley of the Dead: MalnaZidos"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Cannot confirm locally whether \"Valley of the Dead: MalnaZidos\" is a translated title of the same game or a different regional product.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2465,
@@ -1248,7 +1478,12 @@
           "igdbId": 165092,
           "igdbName": "Rolling Gunner + Over Power"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Candidate \"+ Over Power\" denotes a bundled expansion -- different content/packaging.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2469,
@@ -1267,7 +1502,12 @@
           "igdbId": 158967,
           "igdbName": "Kyuukyoku Tiger Heli: Toaplan Arcade Garage"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Candidate is part of a \"Toaplan Arcade Garage\" compilation release -- a different packaged product entirely.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2471,
@@ -1302,7 +1542,12 @@
           "igdbId": 146126,
           "igdbName": "Chivalry 2: Day One Edition"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "BLOCKED_NO_LOCAL_URL",
+        "reason": "Base \"Chivalry 2\" candidate is a pure numeral-format match (ignoring the 4 edition-suffixed candidates), but no local cover source exists for it.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2563,
@@ -1322,7 +1567,12 @@
           "igdbId": 178361,
           "igdbName": "The Dark Pictures Anthology: The Devil in Me"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "BLOCKED_NO_LOCAL_URL",
+        "reason": "\"The Dark Pictures Anthology: The Devil in Me\" is confidently correct (franchise-branding difference only), but no local cover source exists for it.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2566,
@@ -1345,7 +1595,12 @@
           "igdbId": 120745,
           "igdbName": "Electronic Super Joy 2"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "BLOCKED_NO_LOCAL_URL",
+        "reason": "\"Electronic Super Joy 2\" is a pure numeral-format match, but no local cover source exists for it.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2573,
@@ -1382,7 +1637,12 @@
           "igdbId": 11565,
           "igdbName": "JoJo's Bizarre Adventure: Eyes of Heaven"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Candidate \"JoJo’s Bizarre Adventure: Eyes of Heaven\" is already a separate, already-covered census identity (#643); flagging as a possible census duplicate needing Josh’s judgment rather than auto-resolving.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2629,
@@ -1447,7 +1707,12 @@
           "igdbId": 28831,
           "igdbName": "One Piece: Unlimited World Red - Deluxe Edition"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "\"Deluxe Edition\" suffix is edition-sensitive -- One Piece Deluxe editions commonly add extra playable content.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2675,
@@ -1485,7 +1750,12 @@
           "igdbId": 116732,
           "igdbName": "Paper Dolls Original"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Candidates are a sequel (\"Paper Dolls 2\") or an ambiguously-labeled \"Original\"; cannot confirm locally which, if either, applies.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2695,
@@ -1509,7 +1779,12 @@
           "igdbId": 206756,
           "igdbName": "Q.U.B.E. 10th Anniversary"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "All 4 candidates are a sequel, an unrelated retro game (I.Q Intelligent Qube), or edition-labeled rereleases (Director’s Cut/10th Anniversary).",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2696,
@@ -1533,7 +1808,12 @@
           "igdbId": 167012,
           "igdbName": "The Quintessential Quintuplets: Summer Memories Also Come in Five - Limited Edition"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Candidate translations differ materially in wording -- genuine translation ambiguity; cannot confirm which, if either, is correct.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2709,
@@ -1561,7 +1841,12 @@
           "igdbId": 188168,
           "igdbName": "Tom Clancy's Rainbow Six Extraction United Bundle"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "BLOCKED_NO_LOCAL_URL",
+        "reason": "Base \"Tom Clancy’s Rainbow Six Extraction\" candidate is confidently correct (franchise-branding difference only, ignoring the 4 edition-suffixed candidates), but no local cover source exists for it.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2729,
@@ -1592,7 +1877,12 @@
           "igdbId": 140001,
           "igdbName": "Umineko no Naku Koro ni Saku: Nekobako to Musou no Koukyoukyoku - Limited Edition"
         }
-      ]
+      ],
+      "curatorReview": {
+        "verdict": "REJECTED",
+        "reason": "Candidates use a different Japanese title (\"...Saku...\"), which may denote a different entry in the same visual-novel franchise; too uncertain.",
+        "reviewedAt": "2026-09-03T17:21:05.447Z"
+      }
     },
     {
       "id": 2763,
@@ -1753,5 +2043,11 @@
         }
       ]
     }
-  ]
+  ],
+  "curatorPassSummary": {
+    "reviewed": 58,
+    "blockedNoLocalUrl": 19,
+    "rejected": 39,
+    "newOverridesAdded": 0
+  }
 }
