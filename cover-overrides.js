@@ -36,6 +36,29 @@
     "2563": "https://images.igdb.com/igdb/image/upload/t_cover_big/coamte.jpg", // Dark Pictures: The Devil in Me -> The Dark Pictures Anthology: The Devil in Me
     "2572": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2sm6.jpg", // Electronic Super Joy II -> Electronic Super Joy 2
     "2709": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6pxw.jpg", // Rainbow Six: Extraction -> Tom Clancy's Rainbow Six Extraction
+
+    // Targeted cover-straggler pass: local product-compilation reuse. Each of these census
+    // identities is only available on PS4 via a physical compilation disc that already has a
+    // curator-verified cover locally (SHELFCHECK_PRODUCT_COVERS) -- same pattern as the
+    // pre-existing "3D Mini Golf" override above, just sourced from a product rather than a
+    // sibling identity.
+    "1003": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24on.jpg", // River City Melee -> same LRG #103 physical disc as "River City Melee: Battle Royal Special" (#1710), verified via Limited Run Games / eStarland listings
+    "2115": "https://images.igdb.com/igdb/image/upload/t_cover_big/du7bf613i5hyjwbto3rj.jpg", // Scribblenauts Unlimited -> Scribblenauts Mega Pack product cover
+    "2119": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ign.jpg", // Hitman: Blood Money -> Hitman HD Enhanced Collection product cover
+    "2120": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ign.jpg", // Hitman: Absolution -> Hitman HD Enhanced Collection product cover
+    "2121": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3dnx.jpg", // Resident Evil HD Remaster -> Resident Evil: Origins Collection product cover
+    "2122": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3dnx.jpg", // Resident Evil 0 HD Remaster -> Resident Evil: Origins Collection product cover
+    "2200": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23px.jpg", // Danganronpa: Trigger Happy Havoc -> Danganronpa 1-2 Reload product cover
+
+    // Targeted cover-straggler pass: verified via official PlayStation Store product pages
+    // (image.api.playstation.com), IGDB was unreachable for direct verification this pass.
+    // Each URL was confirmed against the exact matching PS4 product listing/title.
+    "667": "https://image.api.playstation.com/vulcan/img/rnd/202011/0204/wq6gIjQoXIlBZeRtb8zXhmTX.png", // Kingdom Hearts HD I.5 + II.5 Remix -> KINGDOM HEARTS HD 1.5 + 2.5 ReMIX (PS Store UP0082-CUSA05933_00)
+    "1465": "https://image.api.playstation.com/vulcan/ap/rnd/202208/0512/iadts6x0cDLBGE6RQoNlhX2C.png", // XIII (Remake) -> XIII 2020 remake by Microids/PlayMagic (PS Store UP1475-CUSA19096_00)
+    "356": "https://image.api.playstation.com/cdn/UP4389/CUSA05232_00/8iv6yRf3XBljArTKnPDssQW5XNK296f2.jpg", // Destroy All Humans! (2005) -> exact PS Store title match (UP4389-CUSA05232_00)
+    "1762": "https://image.api.playstation.com/cdn/EP2026/CUSA04106_00/bbfE4pAmP07Kt9ySjNzQTPrbxFdhaLRJ.png", // The Walking Dead: Michonne - A Telltale Miniseries -> exact PS Store title match (EP2026-CUSA04106_00)
+    "554": "https://image.api.playstation.com/vulcan/img/cfn/113079VsQJzcyyV2qhqiFjSLzQErD4T1dbP_bjOD8ZiHuZ-8HIKoobUm2gaKsozFw10sRewzjzfio1hkhHoHmiA5tCw7kpqk.png", // GRIP: Combat Racing -> standard base edition confirmed, not Digital Deluxe (PS Store EP4382-CUSA11004_00)
+    "155": "https://image.api.playstation.com/vulcan/img/cfn/11307WFwmJQVHYi0zgDVcx0hu2iGrwOpF8Pe2RaNMTNbPAPco21OWdMnUY-2bY7E8XfoKKp5A5FaNXkAsSRZG7aZet4f9W_Y.png", // Below -> BELOW by Capybara Games (PS Store UP2003-CUSA18473_00)
   };
   const PRODUCT_COVER_OVERRIDES = {};
   window.SHELFCHECK_COVER_OVERRIDES = COVER_OVERRIDES;

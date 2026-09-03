@@ -1,35 +1,15 @@
 {
-  "generatedAt": "2026-09-03T17:37:01.039Z",
+  "generatedAt": "2026-09-03T18:00:53.628Z",
   "includedCount": 2553,
-  "withCover": 2439,
-  "missing": 114,
-  "coveragePct": 95.53,
-  "ownedMissingCount": 6,
-  "neededMissingCount": 108,
+  "withCover": 2452,
+  "missing": 101,
+  "coveragePct": 96.04,
+  "ownedMissingCount": 1,
+  "neededMissingCount": 100,
   "ownedMissing": [
-    {
-      "id": 1003,
-      "title": "River City Melee"
-    },
-    {
-      "id": 2115,
-      "title": "Scribblenauts Unlimited"
-    },
-    {
-      "id": 2121,
-      "title": "Resident Evil HD Remaster"
-    },
-    {
-      "id": 2122,
-      "title": "Resident Evil 0 HD Remaster"
-    },
     {
       "id": 2196,
       "title": "Tomb Raider III: Adventures of Lara Croft"
-    },
-    {
-      "id": 2200,
-      "title": "Danganronpa: Trigger Happy Havoc"
     }
   ],
   "neededMissing": [
@@ -58,10 +38,6 @@
       "title": "Battle Chef Brigade"
     },
     {
-      "id": 155,
-      "title": "Below"
-    },
-    {
       "id": 210,
       "title": "Budget Cuts"
     },
@@ -74,20 +50,8 @@
       "title": "Deracine"
     },
     {
-      "id": 356,
-      "title": "Destroy All Humans! (2005)"
-    },
-    {
       "id": 484,
       "title": "Final Fantasy XIV Online: A Realm Reborn"
-    },
-    {
-      "id": 554,
-      "title": "GRIP: Combat Racing"
-    },
-    {
-      "id": 667,
-      "title": "Kingdom Hearts HD I.5 + II.5 Remix"
     },
     {
       "id": 722,
@@ -170,10 +134,6 @@
       "title": "Worms Anniversary Edition"
     },
     {
-      "id": 1465,
-      "title": "XIII (Remake)"
-    },
-    {
       "id": 1483,
       "title": "Ys: Memories of Celceta - Kai"
     },
@@ -230,10 +190,6 @@
       "title": "The First Tree: Console Edition"
     },
     {
-      "id": 1762,
-      "title": "The Walking Dead: Michonne - A Telltale Miniseries"
-    },
-    {
       "id": 1764,
       "title": "Tokyo Twilight Ghost Hunters"
     },
@@ -280,14 +236,6 @@
     {
       "id": 2062,
       "title": "Ganryu 2: Hakuma Kojiro"
-    },
-    {
-      "id": 2119,
-      "title": "Hitman: Blood Money"
-    },
-    {
-      "id": 2120,
-      "title": "Hitman: Absolution"
     },
     {
       "id": 2241,
