@@ -1,0 +1,1271 @@
+{
+  "generatedAt": "2026-09-03T18:14:45.847Z",
+  "note": "ShelfCheck compilation double-count structural audit. Local-data-only audit (plus a small number of targeted PS Store lookups for the Tomb Raider cover fix specifically, not for census structure). Checked two detection patterns: (1) every multi-identity product whose own title ALSO exists as a separate census identity -- 48 multi-identity products total, 43 with a same-titled identity, all 43 correctly EXCLUDED (not double-counted); (2) every INCLUDED identity whose title is another INCLUDED identity's title plus a remaster/edition-style suffix -- 2 candidate pairs found, both verified (via genuine franchise knowledge, not guesswork) to be different games that happen to share a title fragment, not duplicates. A third case (River City Melee / Battle Royal Special) was found via the Phase 3 explicit-checklist, not either automated pattern -- it has no DATA.p product link at all, so neither detector could see it; it was identified via the cover-sourcing research from the prior pass. NO census changes were made in this audit. NO merges/exclusions were applied.",
+  "summary": {
+    "currentIncludedDenominator": 2553,
+    "confirmedSafeDuplicateIdentityPairs": 1,
+    "confirmedSafeDuplicateNetIdentityReduction": 1,
+    "proposedCorrectedDenominator": 2552,
+    "currentOwnedSatisfiedCount": 256,
+    "proposedOwnedSatisfiedCount": 256,
+    "currentCompletionPct": 10.03,
+    "proposedCompletionPct": 10.03,
+    "totalMultiIdentityProducts": 48,
+    "safeDuplicateCases": 1,
+    "validDistinctCases": 3,
+    "productOnlyCorrectCases": 48,
+    "curatorReviewCases": 0
+  },
+  "tombRaiderPhase1": {
+    "identities": [
+      {
+        "id": 997,
+        "title": "Rise of the Tomb Raider: 20 Year Celebration",
+        "set": "INCLUDED",
+        "role": "reboot trilogy, sequel to Definitive Edition"
+      },
+      {
+        "id": 1056,
+        "title": "Shadow of the Tomb Raider",
+        "set": "INCLUDED",
+        "role": "reboot trilogy, sequel to Rise"
+      },
+      {
+        "id": 1057,
+        "title": "Shadow of the Tomb Raider: The Forge",
+        "set": "EXCLUDED",
+        "role": "DLC, correctly excluded"
+      },
+      {
+        "id": 1339,
+        "title": "Tomb Raider: Definitive Edition",
+        "set": "INCLUDED",
+        "role": "2013 Crystal Dynamics reboot, PS4 port -- first entry of the reboot trilogy"
+      },
+      {
+        "id": 1805,
+        "title": "Tomb Raider I-III Remastered",
+        "set": "EXCLUDED",
+        "role": "PRODUCT-only identity, correctly excluded; also a DATA.p product satisfying 2194/2195/2196"
+      },
+      {
+        "id": 1806,
+        "title": "Tomb Raider IV-VI Remastered",
+        "set": "EXCLUDED",
+        "role": "PRODUCT-only identity, correctly excluded; also a DATA.p product satisfying 2197/2198/2199"
+      },
+      {
+        "id": 2194,
+        "title": "Tomb Raider",
+        "set": "INCLUDED",
+        "role": "classic 1996 original, component of I-III Remastered"
+      },
+      {
+        "id": 2195,
+        "title": "Tomb Raider II",
+        "set": "INCLUDED",
+        "role": "classic 1997, component of I-III Remastered"
+      },
+      {
+        "id": 2196,
+        "title": "Tomb Raider III: Adventures of Lara Croft",
+        "set": "INCLUDED",
+        "role": "classic 1998, component of I-III Remastered"
+      },
+      {
+        "id": 2197,
+        "title": "Tomb Raider: The Last Revelation",
+        "set": "INCLUDED",
+        "role": "classic 1999, component of IV-VI Remastered"
+      },
+      {
+        "id": 2198,
+        "title": "Tomb Raider: Chronicles",
+        "set": "INCLUDED",
+        "role": "classic 2000, component of IV-VI Remastered"
+      },
+      {
+        "id": 2199,
+        "title": "Tomb Raider: The Angel of Darkness",
+        "set": "INCLUDED",
+        "role": "classic 2003, component of IV-VI Remastered"
+      }
+    ],
+    "products": [
+      {
+        "title": "Tomb Raider I-III Remastered",
+        "componentIds": [
+          2194,
+          2195,
+          2196
+        ]
+      },
+      {
+        "title": "Tomb Raider IV-VI Remastered",
+        "componentIds": [
+          2197,
+          2198,
+          2199
+        ]
+      }
+    ],
+    "finding": "NO double-count found. Tomb Raider I-III/IV-VI Remastered already exist as census identities (#1805, #1806) but are correctly EXCLUDED -- they do not count toward the denominator. They ALSO exist as DATA.p products that correctly satisfy the 6 individual classic-game component identities. This is the intended model working correctly; the 2013+ reboot trilogy (Definitive Edition / Rise / Shadow) is a separate, genuinely distinct set of games, not a duplicate of the classic trilogy.",
+    "coverIssueFound": "Identity #2196 (Tomb Raider III) had no cover at all. Identities #2194, #2195, #2197, #2198, #2199 had covers from automated IGDB exact-title matching, but per-game (not necessarily reflecting the actual owned physical PS4 product, the remastered collection). Fixed in this pass: all 6 component identities now use their respective remastered-collection's official PS Store cover, consistently, per explicit instruction to have them \"inherit/reuse that product cover consistently.\""
+  },
+  "multiIdentityProductAudit": [
+    {
+      "productTitle": "Don't Starve: Mega Pack",
+      "productKey": "dont starve mega pack",
+      "componentIdentities": [
+        {
+          "id": 386,
+          "title": "Don't Starve Together: Console Edition"
+        },
+        {
+          "id": 1799,
+          "title": "Don't Starve: Console Edition"
+        }
+      ],
+      "selfIdentity": null,
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title does not exist as any separate census identity at all -- no duplication risk."
+    },
+    {
+      "productTitle": "Yakuza Remastered Collection",
+      "productKey": "yakuza remastered collection",
+      "componentIdentities": [
+        {
+          "id": 1468,
+          "title": "Yakuza 3 Remastered"
+        },
+        {
+          "id": 1469,
+          "title": "Yakuza 4 Remastered"
+        },
+        {
+          "id": 1470,
+          "title": "Yakuza 5 Remastered"
+        }
+      ],
+      "selfIdentity": null,
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title does not exist as any separate census identity at all -- no duplication risk."
+    },
+    {
+      "productTitle": "S.T.A.L.K.E.R.: Legends of the Zone Trilogy",
+      "productKey": "s t a l k e r legends of the zone trilogy",
+      "componentIdentities": [
+        {
+          "id": 2088,
+          "title": "S.T.A.L.K.E.R.: Shadow of Chornobyl"
+        },
+        {
+          "id": 2089,
+          "title": "S.T.A.L.K.E.R.: Clear Sky"
+        },
+        {
+          "id": 2090,
+          "title": "S.T.A.L.K.E.R.: Call of Prypiat"
+        }
+      ],
+      "selfIdentity": null,
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title does not exist as any separate census identity at all -- no duplication risk."
+    },
+    {
+      "productTitle": "NINJA GAIDEN: Master Collection",
+      "productKey": "ninja gaiden master collection",
+      "componentIdentities": [
+        {
+          "id": 2091,
+          "title": "NINJA GAIDEN Sigma"
+        },
+        {
+          "id": 2092,
+          "title": "NINJA GAIDEN Sigma 2"
+        },
+        {
+          "id": 2093,
+          "title": "NINJA GAIDEN 3: Razor's Edge"
+        }
+      ],
+      "selfIdentity": null,
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title does not exist as any separate census identity at all -- no duplication risk."
+    },
+    {
+      "productTitle": "Assassin's Creed: The Ezio Collection",
+      "productKey": "assassins creed the ezio collection",
+      "componentIdentities": [
+        {
+          "id": 2099,
+          "title": "Assassin's Creed II"
+        },
+        {
+          "id": 2100,
+          "title": "Assassin's Creed Brotherhood"
+        },
+        {
+          "id": 2101,
+          "title": "Assassin's Creed Revelations"
+        }
+      ],
+      "selfIdentity": {
+        "id": 105,
+        "title": "Assassin's Creed: The Ezio Collection",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #105, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "BioShock: The Collection",
+      "productKey": "bioshock the collection",
+      "componentIdentities": [
+        {
+          "id": 162,
+          "title": "BioShock 2 Remastered"
+        },
+        {
+          "id": 163,
+          "title": "BioShock Infinite: Complete Edition"
+        },
+        {
+          "id": 164,
+          "title": "BioShock Remastered"
+        }
+      ],
+      "selfIdentity": {
+        "id": 165,
+        "title": "BioShock: The Collection",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #165, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Mafia: Trilogy",
+      "productKey": "mafia trilogy",
+      "componentIdentities": [
+        {
+          "id": 737,
+          "title": "Mafia II: Definitive Edition"
+        },
+        {
+          "id": 738,
+          "title": "Mafia III"
+        },
+        {
+          "id": 739,
+          "title": "Mafia: Definitive Edition"
+        }
+      ],
+      "selfIdentity": {
+        "id": 740,
+        "title": "Mafia: Trilogy",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #740, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Hotline Miami Collection",
+      "productKey": "hotline miami collection",
+      "componentIdentities": [
+        {
+          "id": 601,
+          "title": "Hotline Miami"
+        },
+        {
+          "id": 602,
+          "title": "Hotline Miami 2: Wrong Number"
+        }
+      ],
+      "selfIdentity": {
+        "id": 603,
+        "title": "Hotline Miami Collection",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #603, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Crash Bandicoot N. Sane Trilogy",
+      "productKey": "crash bandicoot n sane trilogy",
+      "componentIdentities": [
+        {
+          "id": 2102,
+          "title": "Crash Bandicoot"
+        },
+        {
+          "id": 2103,
+          "title": "Crash Bandicoot 2: Cortex Strikes Back"
+        },
+        {
+          "id": 2104,
+          "title": "Crash Bandicoot: Warped"
+        }
+      ],
+      "selfIdentity": {
+        "id": 273,
+        "title": "Crash Bandicoot N. Sane Trilogy",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #273, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Spyro Reignited Trilogy",
+      "productKey": "spyro reignited trilogy",
+      "componentIdentities": [
+        {
+          "id": 2105,
+          "title": "Spyro the Dragon"
+        },
+        {
+          "id": 2106,
+          "title": "Spyro 2: Ripto's Rage!"
+        },
+        {
+          "id": 2107,
+          "title": "Spyro: Year of the Dragon"
+        }
+      ],
+      "selfIdentity": {
+        "id": 1124,
+        "title": "Spyro Reignited Trilogy",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #1124, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Uncharted: The Nathan Drake Collection",
+      "productKey": "uncharted the nathan drake collection",
+      "componentIdentities": [
+        {
+          "id": 2108,
+          "title": "Uncharted: Drake's Fortune Remastered"
+        },
+        {
+          "id": 2109,
+          "title": "Uncharted 2: Among Thieves Remastered"
+        },
+        {
+          "id": 2110,
+          "title": "Uncharted 3: Drake's Deception Remastered"
+        }
+      ],
+      "selfIdentity": {
+        "id": 1381,
+        "title": "Uncharted: The Nathan Drake Collection",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #1381, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Heavy Rain & Beyond: Two Souls Collection",
+      "productKey": "heavy rain and beyond two souls collection",
+      "componentIdentities": [
+        {
+          "id": 1635,
+          "title": "Heavy Rain"
+        },
+        {
+          "id": 2111,
+          "title": "Beyond: Two Souls"
+        }
+      ],
+      "selfIdentity": {
+        "id": 578,
+        "title": "Heavy Rain & Beyond: Two Souls Collection",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #578, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "La-Mulana 1 & 2: Hidden Treasures Edition",
+      "productKey": "la mulana 1 and 2 hidden treasures edition",
+      "componentIdentities": [
+        {
+          "id": 686,
+          "title": "La-Mulana 2"
+        },
+        {
+          "id": 1649,
+          "title": "La-Mulana"
+        }
+      ],
+      "selfIdentity": {
+        "id": 685,
+        "title": "La-Mulana 1 & 2: Hidden Treasures Edition",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #685, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Oniken + Odallus Collection",
+      "productKey": "oniken odallus collection",
+      "componentIdentities": [
+        {
+          "id": 874,
+          "title": "Oniken: Unstoppable Edition"
+        },
+        {
+          "id": 2112,
+          "title": "Odallus: The Dark Call"
+        }
+      ],
+      "selfIdentity": {
+        "id": 873,
+        "title": "Oniken + Odallus Collection",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #873, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Robotics;Notes Double Pack",
+      "productKey": "robotics notes double pack",
+      "componentIdentities": [
+        {
+          "id": 2113,
+          "title": "Robotics;Notes Elite"
+        },
+        {
+          "id": 2114,
+          "title": "Robotics;Notes DaSH"
+        }
+      ],
+      "selfIdentity": {
+        "id": 1009,
+        "title": "Robotics;Notes Double Pack",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #1009, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Scribblenauts Mega Pack",
+      "productKey": "scribblenauts mega pack",
+      "componentIdentities": [
+        {
+          "id": 2115,
+          "title": "Scribblenauts Unlimited"
+        },
+        {
+          "id": 2116,
+          "title": "Scribblenauts Unmasked: A DC Comics Adventure"
+        }
+      ],
+      "selfIdentity": {
+        "id": 1041,
+        "title": "Scribblenauts Mega Pack",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #1041, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "SteamWorld Collection",
+      "productKey": "steamworld collection",
+      "componentIdentities": [
+        {
+          "id": 2117,
+          "title": "SteamWorld Dig"
+        },
+        {
+          "id": 2118,
+          "title": "SteamWorld Heist"
+        }
+      ],
+      "selfIdentity": {
+        "id": 1143,
+        "title": "SteamWorld Collection",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #1143, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Quantic Dream Collection",
+      "productKey": "quantic dream collection",
+      "componentIdentities": [
+        {
+          "id": 358,
+          "title": "Detroit: Become Human"
+        },
+        {
+          "id": 1635,
+          "title": "Heavy Rain"
+        },
+        {
+          "id": 2111,
+          "title": "Beyond: Two Souls"
+        }
+      ],
+      "selfIdentity": {
+        "id": 943,
+        "title": "Quantic Dream Collection",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #943, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Hitman HD Enhanced Collection",
+      "productKey": "hitman hd enhanced collection",
+      "componentIdentities": [
+        {
+          "id": 2119,
+          "title": "Hitman: Blood Money"
+        },
+        {
+          "id": 2120,
+          "title": "Hitman: Absolution"
+        }
+      ],
+      "selfIdentity": {
+        "id": 591,
+        "title": "Hitman HD Enhanced Collection",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #591, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Resident Evil: Origins Collection",
+      "productKey": "resident evil origins collection",
+      "componentIdentities": [
+        {
+          "id": 2121,
+          "title": "Resident Evil HD Remaster"
+        },
+        {
+          "id": 2122,
+          "title": "Resident Evil 0 HD Remaster"
+        }
+      ],
+      "selfIdentity": {
+        "id": 983,
+        "title": "Resident Evil: Origins Collection",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #983, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Trine: Ultimate Collection",
+      "productKey": "trine ultimate collection",
+      "componentIdentities": [
+        {
+          "id": 1364,
+          "title": "Trine 4: The Nightmare Prince"
+        },
+        {
+          "id": 2123,
+          "title": "Trine Enchanted Edition"
+        },
+        {
+          "id": 2124,
+          "title": "Trine 2: Complete Story"
+        },
+        {
+          "id": 2125,
+          "title": "Trine 3: The Artifacts of Power"
+        }
+      ],
+      "selfIdentity": {
+        "id": 1365,
+        "title": "Trine: Ultimate Collection",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #1365, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Spyro Reignited Trilogy / Crash Bandicoot N. Sane Trilogy",
+      "productKey": "spyro reignited trilogy crash bandicoot n sane trilogy",
+      "componentIdentities": [
+        {
+          "id": 2102,
+          "title": "Crash Bandicoot"
+        },
+        {
+          "id": 2103,
+          "title": "Crash Bandicoot 2: Cortex Strikes Back"
+        },
+        {
+          "id": 2104,
+          "title": "Crash Bandicoot: Warped"
+        },
+        {
+          "id": 2105,
+          "title": "Spyro the Dragon"
+        },
+        {
+          "id": 2106,
+          "title": "Spyro 2: Ripto's Rage!"
+        },
+        {
+          "id": 2107,
+          "title": "Spyro: Year of the Dragon"
+        }
+      ],
+      "selfIdentity": {
+        "id": 1125,
+        "title": "Spyro Reignited Trilogy / Crash Bandicoot N. Sane Trilogy",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #1125, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Dark Souls Trilogy",
+      "productKey": "dark souls trilogy",
+      "componentIdentities": [
+        {
+          "id": 302,
+          "title": "Dark Souls II: Scholar of the First Sin"
+        },
+        {
+          "id": 303,
+          "title": "Dark Souls III"
+        },
+        {
+          "id": 304,
+          "title": "Dark Souls Remastered"
+        }
+      ],
+      "selfIdentity": {
+        "id": 305,
+        "title": "Dark Souls Trilogy",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #305, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Tomb Raider I-III Remastered",
+      "productKey": "tomb raider i iii remastered",
+      "componentIdentities": [
+        {
+          "id": 2194,
+          "title": "Tomb Raider"
+        },
+        {
+          "id": 2195,
+          "title": "Tomb Raider II"
+        },
+        {
+          "id": 2196,
+          "title": "Tomb Raider III: Adventures of Lara Croft"
+        }
+      ],
+      "selfIdentity": {
+        "id": 1805,
+        "title": "Tomb Raider I-III Remastered",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #1805, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Tomb Raider IV-VI Remastered",
+      "productKey": "tomb raider iv vi remastered",
+      "componentIdentities": [
+        {
+          "id": 2197,
+          "title": "Tomb Raider: The Last Revelation"
+        },
+        {
+          "id": 2198,
+          "title": "Tomb Raider: Chronicles"
+        },
+        {
+          "id": 2199,
+          "title": "Tomb Raider: The Angel of Darkness"
+        }
+      ],
+      "selfIdentity": {
+        "id": 1806,
+        "title": "Tomb Raider IV-VI Remastered",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #1806, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Danganronpa 1-2 Reload",
+      "productKey": "danganronpa 1 2 reload",
+      "componentIdentities": [
+        {
+          "id": 2200,
+          "title": "Danganronpa: Trigger Happy Havoc"
+        },
+        {
+          "id": 2201,
+          "title": "Danganronpa 2: Goodbye Despair"
+        }
+      ],
+      "selfIdentity": {
+        "id": 292,
+        "title": "Danganronpa 1-2 Reload",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #292, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Danganronpa Trilogy",
+      "productKey": "danganronpa trilogy",
+      "componentIdentities": [
+        {
+          "id": 295,
+          "title": "Danganronpa V3: Killing Harmony"
+        },
+        {
+          "id": 2200,
+          "title": "Danganronpa: Trigger Happy Havoc"
+        },
+        {
+          "id": 2201,
+          "title": "Danganronpa 2: Goodbye Despair"
+        }
+      ],
+      "selfIdentity": {
+        "id": 294,
+        "title": "Danganronpa Trilogy",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #294, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Phoenix Wright: Ace Attorney Trilogy",
+      "productKey": "phoenix wright ace attorney trilogy",
+      "componentIdentities": [
+        {
+          "id": 2202,
+          "title": "Phoenix Wright: Ace Attorney"
+        },
+        {
+          "id": 2203,
+          "title": "Phoenix Wright: Ace Attorney - Justice for All"
+        },
+        {
+          "id": 2204,
+          "title": "Phoenix Wright: Ace Attorney - Trials and Tribulations"
+        }
+      ],
+      "selfIdentity": {
+        "id": 906,
+        "title": "Phoenix Wright: Ace Attorney Trilogy",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #906, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Apollo Justice: Ace Attorney Trilogy",
+      "productKey": "apollo justice ace attorney trilogy",
+      "componentIdentities": [
+        {
+          "id": 2205,
+          "title": "Apollo Justice: Ace Attorney"
+        },
+        {
+          "id": 2206,
+          "title": "Phoenix Wright: Ace Attorney - Dual Destinies"
+        },
+        {
+          "id": 2207,
+          "title": "Phoenix Wright: Ace Attorney - Spirit of Justice"
+        }
+      ],
+      "selfIdentity": null,
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title does not exist as any separate census identity at all -- no duplication risk."
+    },
+    {
+      "productTitle": "LEGO Marvel Collection",
+      "productKey": "lego marvel collection",
+      "componentIdentities": [
+        {
+          "id": 706,
+          "title": "LEGO Marvel Super Heroes"
+        },
+        {
+          "id": 707,
+          "title": "LEGO Marvel Super Heroes 2"
+        },
+        {
+          "id": 708,
+          "title": "LEGO Marvel's Avengers"
+        }
+      ],
+      "selfIdentity": {
+        "id": 705,
+        "title": "LEGO Marvel Collection",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #705, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Air Conflicts Double Pack",
+      "productKey": "air conflicts double pack",
+      "componentIdentities": [
+        {
+          "id": 53,
+          "title": "Air Conflicts: Pacific Carriers"
+        },
+        {
+          "id": 55,
+          "title": "Air Conflicts: Vietnam Ultimate Edition"
+        }
+      ],
+      "selfIdentity": {
+        "id": 52,
+        "title": "Air Conflicts Double Pack",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #52, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Commandos 2 / Praetorians HD Remaster Double Pack",
+      "productKey": "commandos 2 praetorians hd remaster double pack",
+      "componentIdentities": [
+        {
+          "id": 2214,
+          "title": "Commandos 2 - HD Remaster"
+        },
+        {
+          "id": 2215,
+          "title": "Praetorians - HD Remaster"
+        }
+      ],
+      "selfIdentity": {
+        "id": 257,
+        "title": "Commandos 2 / Praetorians HD Remaster Double Pack",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #257, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Guacamelee! One-Two Punch Collection",
+      "productKey": "guacamelee one two punch collection",
+      "componentIdentities": [
+        {
+          "id": 559,
+          "title": "Guacamelee! Super Turbo Championship Edition"
+        },
+        {
+          "id": 2216,
+          "title": "Guacamelee! 2"
+        }
+      ],
+      "selfIdentity": {
+        "id": 558,
+        "title": "Guacamelee! One-Two Punch Collection",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #558, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "INSIDE / LIMBO Double Pack",
+      "productKey": "inside limbo double pack",
+      "componentIdentities": [
+        {
+          "id": 629,
+          "title": "INSIDE"
+        },
+        {
+          "id": 2217,
+          "title": "LIMBO"
+        }
+      ],
+      "selfIdentity": {
+        "id": 630,
+        "title": "INSIDE / LIMBO Double Pack",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #630, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Dead Island: Definitive Collection",
+      "productKey": "dead island definitive collection",
+      "componentIdentities": [
+        {
+          "id": 328,
+          "title": "Dead Island: Riptide - Definitive Edition"
+        },
+        {
+          "id": 2218,
+          "title": "Dead Island Definitive Edition"
+        }
+      ],
+      "selfIdentity": {
+        "id": 327,
+        "title": "Dead Island: Definitive Collection",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #327, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "The Banner Saga Trilogy: Bonus Edition",
+      "productKey": "the banner saga trilogy bonus edition",
+      "componentIdentities": [
+        {
+          "id": 1747,
+          "title": "The Banner Saga"
+        },
+        {
+          "id": 2220,
+          "title": "The Banner Saga 2"
+        },
+        {
+          "id": 2221,
+          "title": "The Banner Saga 3"
+        }
+      ],
+      "selfIdentity": {
+        "id": 1219,
+        "title": "The Banner Saga Trilogy: Bonus Edition",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #1219, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Batman: Return to Arkham",
+      "productKey": "batman return to arkham",
+      "componentIdentities": [
+        {
+          "id": 2222,
+          "title": "Batman: Arkham Asylum Remastered"
+        },
+        {
+          "id": 2223,
+          "title": "Batman: Arkham City Remastered"
+        }
+      ],
+      "selfIdentity": {
+        "id": 134,
+        "title": "Batman: Return to Arkham",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #134, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Batman: Arkham Collection",
+      "productKey": "batman arkham collection",
+      "componentIdentities": [
+        {
+          "id": 2222,
+          "title": "Batman: Arkham Asylum Remastered"
+        },
+        {
+          "id": 2223,
+          "title": "Batman: Arkham City Remastered"
+        }
+      ],
+      "selfIdentity": {
+        "id": 132,
+        "title": "Batman: Arkham Collection",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #132, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Atelier Dusk Trilogy Deluxe Pack",
+      "productKey": "atelier dusk trilogy deluxe pack",
+      "componentIdentities": [
+        {
+          "id": 2224,
+          "title": "Atelier Ayesha: The Alchemist of Dusk DX"
+        },
+        {
+          "id": 2225,
+          "title": "Atelier Escha & Logy: Alchemists of the Dusk Sky DX"
+        },
+        {
+          "id": 2226,
+          "title": "Atelier Shallie: Alchemists of the Dusk Sea DX"
+        }
+      ],
+      "selfIdentity": {
+        "id": 112,
+        "title": "Atelier Dusk Trilogy Deluxe Pack",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #112, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Bayonetta & Vanquish",
+      "productKey": "bayonetta and vanquish",
+      "componentIdentities": [
+        {
+          "id": 149,
+          "title": "Bayonetta"
+        },
+        {
+          "id": 1779,
+          "title": "Vanquish"
+        }
+      ],
+      "selfIdentity": {
+        "id": 150,
+        "title": "Bayonetta & Vanquish",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #150, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Cat Quest + Cat Quest II: Pawsome Pack",
+      "productKey": "cat quest cat quest ii pawsome pack",
+      "componentIdentities": [
+        {
+          "id": 234,
+          "title": "Cat Quest"
+        },
+        {
+          "id": 1588,
+          "title": "Cat Quest II"
+        }
+      ],
+      "selfIdentity": {
+        "id": 235,
+        "title": "Cat Quest + Cat Quest II: Pawsome Pack",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #235, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Overcooked! + Overcooked! 2",
+      "productKey": "overcooked overcooked 2",
+      "componentIdentities": [
+        {
+          "id": 885,
+          "title": "Overcooked! 2"
+        },
+        {
+          "id": 2227,
+          "title": "Overcooked!"
+        }
+      ],
+      "selfIdentity": {
+        "id": 1688,
+        "title": "Overcooked! + Overcooked! 2",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #1688, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Planescape: Torment: Enhanced Edition / Icewind Dale: Enhanced Edition",
+      "productKey": "planescape torment enhanced edition icewind dale enhanced edition",
+      "componentIdentities": [
+        {
+          "id": 2228,
+          "title": "Planescape: Torment: Enhanced Edition"
+        },
+        {
+          "id": 2229,
+          "title": "Icewind Dale: Enhanced Edition"
+        }
+      ],
+      "selfIdentity": {
+        "id": 915,
+        "title": "Planescape: Torment: Enhanced Edition / Icewind Dale: Enhanced Edition",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #915, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Saints Row IV: Re-Elected & Gat Out of Hell",
+      "productKey": "saints row iv re elected and gat out of hell",
+      "componentIdentities": [
+        {
+          "id": 1719,
+          "title": "Saints Row: Gat Out of Hell"
+        },
+        {
+          "id": 2230,
+          "title": "Saints Row IV: Re-Elected"
+        }
+      ],
+      "selfIdentity": {
+        "id": 1028,
+        "title": "Saints Row IV: Re-Elected & Gat Out of Hell",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #1028, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Star Wars Racer & Commando Combo",
+      "productKey": "star wars racer and commando combo",
+      "componentIdentities": [
+        {
+          "id": 1132,
+          "title": "Star Wars Episode I: Racer"
+        },
+        {
+          "id": 1998,
+          "title": "Star Wars: Republic Commando"
+        }
+      ],
+      "selfIdentity": {
+        "id": 1136,
+        "title": "Star Wars Racer & Commando Combo",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #1136, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Steven Universe: Save the Light / OK K.O.! Let's Play Heroes 2 Games in 1",
+      "productKey": "steven universe save the light ok k o lets play heroes 2 games in 1",
+      "componentIdentities": [
+        {
+          "id": 2231,
+          "title": "Steven Universe: Save the Light"
+        },
+        {
+          "id": 2232,
+          "title": "OK K.O.! Let's Play Heroes"
+        }
+      ],
+      "selfIdentity": {
+        "id": 1150,
+        "title": "Steven Universe: Save the Light / OK K.O.! Let's Play Heroes 2 Games in 1",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #1150, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Wolfenstein: The Two Pack",
+      "productKey": "wolfenstein the two pack",
+      "componentIdentities": [
+        {
+          "id": 1442,
+          "title": "Wolfenstein: The New Order"
+        },
+        {
+          "id": 1443,
+          "title": "Wolfenstein: The Old Blood"
+        }
+      ],
+      "selfIdentity": {
+        "id": 1786,
+        "title": "Wolfenstein: The Two Pack",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #1786, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    },
+    {
+      "productTitle": "Worms Battleground / Worms W.M.D",
+      "productKey": "worms battleground worms w m d",
+      "componentIdentities": [
+        {
+          "id": 1456,
+          "title": "Worms W.M.D"
+        },
+        {
+          "id": 1790,
+          "title": "Worms Battlegrounds"
+        }
+      ],
+      "selfIdentity": {
+        "id": 1455,
+        "title": "Worms Battleground / Worms W.M.D",
+        "set": "EXCLUDED"
+      },
+      "classification": "PRODUCT_ONLY_CORRECT",
+      "reasoning": "Product title also exists as census identity #1455, but it is EXCLUDED -- correctly modeled as a non-counting product wrapper, not a duplicate completion identity."
+    }
+  ],
+  "remasterSuffixAudit": [
+    {
+      "baseIdentity": {
+        "id": 221,
+        "title": "Call of Duty: Modern Warfare",
+        "set": "INCLUDED"
+      },
+      "relatedIdentity": {
+        "id": 222,
+        "title": "Call of Duty: Modern Warfare Remastered",
+        "set": "INCLUDED"
+      },
+      "classification": "VALID_DISTINCT_IDENTITY",
+      "reasoning": "\"Call of Duty: Modern Warfare\" (#221, 2019 Infinity Ward reboot) and \"Call of Duty: Modern Warfare Remastered\" (#222, 2016 remaster of the ORIGINAL 2007 \"Call of Duty 4: Modern Warfare\") are two entirely different games with different campaigns/multiplayer that happen to share a near-identical title due to franchise branding. Not a duplicate."
+    },
+    {
+      "baseIdentity": {
+        "id": 479,
+        "title": "Final Fantasy VII",
+        "set": "EXCLUDED"
+      },
+      "relatedIdentity": {
+        "id": 480,
+        "title": "Final Fantasy VII Remake",
+        "set": "INCLUDED"
+      },
+      "classification": "VALID_DISTINCT_IDENTITY",
+      "reasoning": "\"Final Fantasy VII\" (#479, the 1997 original) is EXCLUDED, and \"Final Fantasy VII Remake\" (#480) is a ground-up reimagining released as its own multi-part game, not a remaster of the same content. No denominator risk since the base identity is not INCLUDED at all."
+    },
+    {
+      "baseIdentity": {
+        "id": 2194,
+        "title": "Tomb Raider",
+        "set": "INCLUDED"
+      },
+      "relatedIdentity": {
+        "id": 1339,
+        "title": "Tomb Raider: Definitive Edition",
+        "set": "INCLUDED"
+      },
+      "classification": "VALID_DISTINCT_IDENTITY",
+      "reasoning": "\"Tomb Raider\" (#2194, the 1996 classic, part of the \"Tomb Raider I-III Remastered\" trilogy) and \"Tomb Raider: Definitive Edition\" (#1339, the PS4 port of the 2013 Crystal Dynamics reboot, first entry in the Rise/Shadow of the Tomb Raider trilogy) are two entirely different games from different eras of the franchise that happen to share the base word \"Tomb Raider\". Not a duplicate."
+    }
+  ],
+  "safeDuplicates": [
+    {
+      "identityA": {
+        "id": 1003,
+        "title": "River City Melee",
+        "set": "INCLUDED"
+      },
+      "identityB": {
+        "id": 1710,
+        "title": "River City Melee: Battle Royal Special",
+        "set": "INCLUDED"
+      },
+      "physicalProducts": [
+        "Limited Run Games #103 (physical PS4 disc)"
+      ],
+      "reasoning": "Verified via Limited Run Games' own store listing (\"Limited Run #103: River City Melee (PS4)\") and eStarland's listing of the same LRG #103 catalog number explicitly as \"River City Melee: Battle Royal Special\" -- these are two title renderings of the SAME single physical PS4 disc, not two different games or editions. No DATA.p product entry currently links them (unlike every other compilation in this census), so they are tracked as two fully independent completion identities today.",
+      "currentOwnershipEffect": "Josh's GameEye collection lists exactly one title, \"River City Melee\", which exact-matches only identity #1003. #1710 shows as unsatisfied/missing even though the one physical disc Josh owns is the same game.",
+      "denominatorEffectIfCorrected": "Merging to one identity: denominator 2553 -> 2552 (-1). Satisfied count unchanged (256) since the single remaining identity is still satisfied. Completion % changes negligibly: 10.03% either way (256/2553=10.027%, 256/2552=10.031%).",
+      "classification": "SAFE_DUPLICATE",
+      "actionTaken": "NONE -- flagged for Josh's review only, per instructions not to apply census merges in this pass."
+    }
+  ]
+}

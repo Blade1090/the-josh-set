@@ -1,26 +1,15 @@
 {
-  "generatedAt": "2026-09-03T18:01:26.644Z",
-  "note": "ShelfCheck cover gap: targeted straggler pass. cover-overrides.js now resolves 33 identities total (20 from the prior IGDB-diagnostics pass + 13 from this pass's targeted research: 7 via local same-product-compilation reuse, 6 via verified PlayStation Store product pages, since direct IGDB page access is blocked/403 for this session). This queue lists the remaining 101 identities still missing a cover. Entries actively investigated this pass but left unresolved carry a `stragglerPassReview {reasonCode, note}`. Entries discovered to require PSVR to play (a likely census eligibility issue, not a cover problem) carry a `censusFlag` -- census was NOT modified. AMBIGUOUS_MATCH/TIED_MATCH entries not investigated this pass keep their prior curatorReview from the previous pass (unchanged). NO_MATCH entries not investigated this pass are unchanged.",
-  "identityCount": 101,
-  "ownedCount": 1,
+  "generatedAt": "2026-09-03T18:16:07.313Z",
+  "note": "ShelfCheck cover gap: targeted straggler pass. cover-overrides.js now resolves 33 identities total (20 from the prior IGDB-diagnostics pass + 13 from this pass's targeted research: 7 via local same-product-compilation reuse, 6 via verified PlayStation Store product pages, since direct IGDB page access is blocked/403 for this session). This queue lists the remaining 101 identities still missing a cover. Entries actively investigated this pass but left unresolved carry a `stragglerPassReview {reasonCode, note}`. Entries discovered to require PSVR to play (a likely census eligibility issue, not a cover problem) carry a `censusFlag` -- census was NOT modified. AMBIGUOUS_MATCH/TIED_MATCH entries not investigated this pass keep their prior curatorReview from the previous pass (unchanged). NO_MATCH entries not investigated this pass are unchanged. Compilation double-count audit pass: Tomb Raider III (#2196) resolved via the verified \"Tomb Raider I-III Remastered\" PS Store product cover, applied consistently to all 6 classic Tomb Raider component identities (#2194-#2199) alongside the matching \"Tomb Raider IV-VI Remastered\" cover. OWNED missing is now 0.",
+  "identityCount": 100,
+  "ownedCount": 0,
   "neededHuntCount": 100,
   "statusBreakdown": {
-    "NO_MATCH": 66,
+    "NO_MATCH": 65,
     "AMBIGUOUS_MATCH": 34,
     "TIED_MATCH": 1
   },
   "identities": [
-    {
-      "id": 2196,
-      "title": "Tomb Raider III: Adventures of Lara Croft",
-      "priority": "OWNED",
-      "status": "NO_MATCH",
-      "candidates": [],
-      "stragglerPassReview": {
-        "reasonCode": "NO_RELIABLE_SOURCE",
-        "note": "Correct game confirmed (IGDB entry exists: igdb.com/games/tomb-raider-iii-adventures-of-lara-croft), but IGDB blocks direct page fetches (403) and no image_id could be verified. The only PS4 availability is via \"Tomb Raider I-III Remastered\", which does not yet have a locally-verified product cover (unlike its siblings TR1/#2194 and TR2/#2195, which already show their own individual classic covers)."
-      }
-    },
     {
       "id": 13,
       "title": "8 to Glory: The Official Game of the PBR",
@@ -1499,22 +1488,10 @@
     }
   ],
   "resolvedThisPass": {
-    "pass": "cover-straggler-pass",
-    "count": 13,
+    "pass": "tomb-raider-compilation-fix",
+    "count": 1,
     "ids": [
-      155,
-      356,
-      554,
-      667,
-      1003,
-      1465,
-      1762,
-      2115,
-      2119,
-      2120,
-      2121,
-      2122,
-      2200
+      2196
     ]
   },
   "censusEligibilityFlags": [
