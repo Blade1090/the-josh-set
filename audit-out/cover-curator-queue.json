@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-03T17:21:05.447Z",
-  "note": "ShelfCheck cover gap cleanup pass. Reflects the actual post-IGDB state as of covers-manifest.js commit 6fdff00b (fetch-covers.yml run 33781521251). A curator pass then reviewed every AMBIGUOUS_MATCH/TIED_MATCH entry's existing candidate data (title-only, no new IGDB calls) to look for safe, defensible local resolutions. Result: zero new overrides were added this pass. Every candidate that reads as a confident title-equivalence (punctuation/numeral/franchise-branding differences only) has NO locally-available cover URL to reuse -- resolving it would require a new IGDB lookup to fetch the candidate game's cover image, which is out of scope for this pass (see curatorReview.verdict \"BLOCKED_NO_LOCAL_URL\" on the relevant entries). Every candidate that DOES have a locally-available cover URL (because some other census identity already carries that exact IGDB game's cover) corresponds to a title the census already treats as a separate, deliberately distinct identity -- accepting those would risk assigning a different edition's/region's box art (see curatorReview.verdict \"REJECTED\" and its reason). NO_MATCH entries (no IGDB candidates at all) are unchanged and still need a manual-source pass.",
-  "identityCount": 133,
+  "generatedAt": "2026-09-03T17:37:17.612Z",
+  "note": "ShelfCheck cover gap cleanup. As of this pass, cover-overrides.js resolves 20 identities total: the original \"3D Mini Golf\" local-reuse match plus 19 curator-verified same-game matches drawn from fetch-covers.yml run 33784714653's AMBIGUOUS_MATCH/TIED_MATCH candidate diagnostics (that run added igdbImageId/igdbCoverUrl to every candidate, unblocking cases previously marked BLOCKED_NO_LOCAL_URL). This queue lists the remaining 114 identities still missing a cover -- each AMBIGUOUS_MATCH/TIED_MATCH entry keeps its prior curatorReview {verdict, reason} from the previous pass (re-verified: run 33784714653's candidate data is otherwise identical to the prior run's, so no rejection reasoning changed). NO_MATCH entries (75, unchanged) still need a manual-source pass.",
+  "identityCount": 114,
   "ownedCount": 6,
-  "neededHuntCount": 127,
+  "neededHuntCount": 108,
   "statusBreakdown": {
-    "AMBIGUOUS_MATCH": 57,
+    "AMBIGUOUS_MATCH": 38,
     "NO_MATCH": 75,
     "TIED_MATCH": 1
   },
@@ -110,69 +110,11 @@
       "candidates": []
     },
     {
-      "id": 46,
-      "title": "Agatha Christie's The ABC Murders",
-      "priority": "NEEDED_HUNT",
-      "status": "AMBIGUOUS_MATCH",
-      "candidates": [
-        {
-          "igdbId": 17470,
-          "igdbName": "Agatha Christie: The ABC Murders"
-        },
-        {
-          "igdbId": 17470,
-          "igdbName": "Agatha Christie: The ABC Murders"
-        },
-        {
-          "igdbId": 17470,
-          "igdbName": "Agatha Christie: The ABC Murders"
-        }
-      ],
-      "curatorReview": {
-        "verdict": "BLOCKED_NO_LOCAL_URL",
-        "reason": "\"Agatha Christie: The ABC Murders\" is confidently the same game as the census title (punctuation-only difference; the identity’s own registered alias already matches it), but no census identity currently carries a cover for this exact IGDB entry, and fetching one would require a new IGDB call.",
-        "reviewedAt": "2026-09-03T17:21:05.447Z"
-      }
-    },
-    {
       "id": 90,
       "title": "ARK Park",
       "priority": "NEEDED_HUNT",
       "status": "NO_MATCH",
       "candidates": []
-    },
-    {
-      "id": 97,
-      "title": "Assassin's Creed Chronicles",
-      "priority": "NEEDED_HUNT",
-      "status": "AMBIGUOUS_MATCH",
-      "candidates": [
-        {
-          "igdbId": 52416,
-          "igdbName": "Assassin's Creed Chronicles: Trilogy Pack"
-        },
-        {
-          "igdbId": 8223,
-          "igdbName": "Assassin's Creed Chronicles: China"
-        },
-        {
-          "igdbId": 14903,
-          "igdbName": "Assassin's Creed Chronicles: Russia"
-        },
-        {
-          "igdbId": 14902,
-          "igdbName": "Assassin's Creed Chronicles: India"
-        },
-        {
-          "igdbId": 52416,
-          "igdbName": "Assassin's Creed Chronicles: Trilogy Pack"
-        }
-      ],
-      "curatorReview": {
-        "verdict": "BLOCKED_NO_LOCAL_URL",
-        "reason": "\"Assassin’s Creed Chronicles: Trilogy Pack\" is confidently the correct retail bundle (matches the task’s own example; no conflicting separate census identity for China/Russia/India episodes), but no local cover source exists for it.",
-        "reviewedAt": "2026-09-03T17:21:05.447Z"
-      }
     },
     {
       "id": 111,
@@ -236,27 +178,6 @@
       "priority": "NEEDED_HUNT",
       "status": "NO_MATCH",
       "candidates": []
-    },
-    {
-      "id": 291,
-      "title": "Damascus Gear: Operation Osaka",
-      "priority": "NEEDED_HUNT",
-      "status": "AMBIGUOUS_MATCH",
-      "candidates": [
-        {
-          "igdbId": 90093,
-          "igdbName": "Damascus Gear: Operation Osaka - HD Edition"
-        },
-        {
-          "igdbId": 90093,
-          "igdbName": "Damascus Gear: Operation Osaka - HD Edition"
-        }
-      ],
-      "curatorReview": {
-        "verdict": "BLOCKED_NO_LOCAL_URL",
-        "reason": "\"Damascus Gear: Operation Osaka - HD Edition\" matches the task’s own example and has no local conflict, but no local cover source exists for it.",
-        "reviewedAt": "2026-09-03T17:21:05.447Z"
-      }
     },
     {
       "id": 349,
@@ -350,27 +271,6 @@
       "candidates": []
     },
     {
-      "id": 946,
-      "title": "Rabbids Invasion",
-      "priority": "NEEDED_HUNT",
-      "status": "AMBIGUOUS_MATCH",
-      "candidates": [
-        {
-          "igdbId": 20308,
-          "igdbName": "Rabbids Invasion: The Interactive TV Show"
-        },
-        {
-          "igdbId": 20308,
-          "igdbName": "Rabbids Invasion: The Interactive TV Show"
-        }
-      ],
-      "curatorReview": {
-        "verdict": "BLOCKED_NO_LOCAL_URL",
-        "reason": "\"Rabbids Invasion: The Interactive TV Show\" matches the task’s own example and has no local conflict, but no local cover source exists for it.",
-        "reviewedAt": "2026-09-03T17:21:05.447Z"
-      }
-    },
-    {
       "id": 969,
       "title": "Redout",
       "priority": "NEEDED_HUNT",
@@ -439,31 +339,6 @@
       "candidates": []
     },
     {
-      "id": 1173,
-      "title": "Super Blackjack Battle II Turbo Edition: The Card Warriors",
-      "priority": "NEEDED_HUNT",
-      "status": "AMBIGUOUS_MATCH",
-      "candidates": [
-        {
-          "igdbId": 30928,
-          "igdbName": "Super Blackjack Battle 2 Turbo Edition - The Card Warriors"
-        },
-        {
-          "igdbId": 30928,
-          "igdbName": "Super Blackjack Battle 2 Turbo Edition - The Card Warriors"
-        },
-        {
-          "igdbId": 30928,
-          "igdbName": "Super Blackjack Battle 2 Turbo Edition - The Card Warriors"
-        }
-      ],
-      "curatorReview": {
-        "verdict": "BLOCKED_NO_LOCAL_URL",
-        "reason": "\"Super Blackjack Battle 2 Turbo Edition - The Card Warriors\" is a pure numeral/punctuation match to the census title (matches the task’s own example), but no local cover source exists for it.",
-        "reviewedAt": "2026-09-03T17:21:05.447Z"
-      }
-    },
-    {
       "id": 1198,
       "title": "Tales from the Borderlands: A Telltale Game Series",
       "priority": "NEEDED_HUNT",
@@ -492,31 +367,6 @@
       "curatorReview": {
         "verdict": "REJECTED",
         "reason": "\"Professional Farmer: American Dream\" reads as an unrelated game (farming sim) -- looks like a false-positive keyword match, not the same product.",
-        "reviewedAt": "2026-09-03T17:21:05.447Z"
-      }
-    },
-    {
-      "id": 1235,
-      "title": "The Dark Pictures - Little Hope",
-      "priority": "NEEDED_HUNT",
-      "status": "AMBIGUOUS_MATCH",
-      "candidates": [
-        {
-          "igdbId": 122120,
-          "igdbName": "The Dark Pictures Anthology: Little Hope"
-        },
-        {
-          "igdbId": 122120,
-          "igdbName": "The Dark Pictures Anthology: Little Hope"
-        },
-        {
-          "igdbId": 122120,
-          "igdbName": "The Dark Pictures Anthology: Little Hope"
-        }
-      ],
-      "curatorReview": {
-        "verdict": "BLOCKED_NO_LOCAL_URL",
-        "reason": "\"The Dark Pictures Anthology: Little Hope\" is confidently the same well-known product (franchise-branding difference only), but no local cover source exists for it.",
         "reviewedAt": "2026-09-03T17:21:05.447Z"
       }
     },
@@ -561,48 +411,6 @@
       }
     },
     {
-      "id": 1277,
-      "title": "The Missing: JJ Macfield and the Island of Memories",
-      "priority": "NEEDED_HUNT",
-      "status": "AMBIGUOUS_MATCH",
-      "candidates": [
-        {
-          "igdbId": 87499,
-          "igdbName": "The Missing: J.J. Macfield and the Island of Memories"
-        },
-        {
-          "igdbId": 87499,
-          "igdbName": "The Missing: J.J. Macfield and the Island of Memories"
-        },
-        {
-          "igdbId": 87499,
-          "igdbName": "The Missing: J.J. Macfield and the Island of Memories"
-        }
-      ],
-      "curatorReview": {
-        "verdict": "BLOCKED_NO_LOCAL_URL",
-        "reason": "\"The Missing: J.J. Macfield and the Island of Memories\" is a pure punctuation-only match, but no local cover source exists for it.",
-        "reviewedAt": "2026-09-03T17:21:05.447Z"
-      }
-    },
-    {
-      "id": 1303,
-      "title": "The Walking Dead: A Telltale Games Series - The Complete First Season",
-      "priority": "NEEDED_HUNT",
-      "status": "AMBIGUOUS_MATCH",
-      "candidates": [
-        {
-          "igdbId": 41623,
-          "igdbName": "The Walking Dead: The Complete First Season"
-        }
-      ],
-      "curatorReview": {
-        "verdict": "BLOCKED_NO_LOCAL_URL",
-        "reason": "\"The Walking Dead: The Complete First Season\" is confidently the same iconic single product (branding drop only, no local conflict), but no local cover source exists for it.",
-        "reviewedAt": "2026-09-03T17:21:05.447Z"
-      }
-    },
-    {
       "id": 1304,
       "title": "The Walking Dead: Saints & Sinners",
       "priority": "NEEDED_HUNT",
@@ -633,23 +441,6 @@
       "priority": "NEEDED_HUNT",
       "status": "NO_MATCH",
       "candidates": []
-    },
-    {
-      "id": 1412,
-      "title": "Warhammer 40,000: Deathwatch",
-      "priority": "NEEDED_HUNT",
-      "status": "AMBIGUOUS_MATCH",
-      "candidates": [
-        {
-          "igdbId": 30804,
-          "igdbName": "Warhammer 40,000: Deathwatch Tyranids Invasion"
-        }
-      ],
-      "curatorReview": {
-        "verdict": "BLOCKED_NO_LOCAL_URL",
-        "reason": "\"Warhammer 40,000: Deathwatch Tyranids Invasion\" is very likely this single mobile-port game’s full title, but confidence is lower and there is no local cover source regardless.",
-        "reviewedAt": "2026-09-03T17:21:05.447Z"
-      }
     },
     {
       "id": 1431,
@@ -1074,65 +865,6 @@
       "candidates": []
     },
     {
-      "id": 2064,
-      "title": "Andro Dunos 2",
-      "priority": "NEEDED_HUNT",
-      "status": "AMBIGUOUS_MATCH",
-      "candidates": [
-        {
-          "igdbId": 145610,
-          "igdbName": "Andro Dunos II"
-        },
-        {
-          "igdbId": 145610,
-          "igdbName": "Andro Dunos II"
-        }
-      ],
-      "curatorReview": {
-        "verdict": "BLOCKED_NO_LOCAL_URL",
-        "reason": "\"Andro Dunos II\" is a pure numeral-format match, but no local cover source exists for it.",
-        "reviewedAt": "2026-09-03T17:21:05.447Z"
-      }
-    },
-    {
-      "id": 2069,
-      "title": "3D Billiards & Snooker",
-      "priority": "NEEDED_HUNT",
-      "status": "AMBIGUOUS_MATCH",
-      "candidates": [
-        {
-          "igdbId": 113076,
-          "igdbName": "3D Billiards: Pool & Snooker"
-        },
-        {
-          "igdbId": 113076,
-          "igdbName": "3D Billiards: Pool & Snooker"
-        }
-      ],
-      "curatorReview": {
-        "verdict": "BLOCKED_NO_LOCAL_URL",
-        "reason": "\"3D Billiards: Pool & Snooker\" reads as the same simple title, but no local cover source exists for it.",
-        "reviewedAt": "2026-09-03T17:21:05.447Z"
-      }
-    },
-    {
-      "id": 2090,
-      "title": "S.T.A.L.K.E.R.: Call of Prypiat",
-      "priority": "NEEDED_HUNT",
-      "status": "AMBIGUOUS_MATCH",
-      "candidates": [
-        {
-          "igdbId": 7605,
-          "igdbName": "S.T.A.L.K.E.R.: Call of Pripyat"
-        }
-      ],
-      "curatorReview": {
-        "verdict": "BLOCKED_NO_LOCAL_URL",
-        "reason": "\"S.T.A.L.K.E.R.: Call of Pripyat\" is a pure spelling/transliteration variant, but no local cover source exists for it.",
-        "reviewedAt": "2026-09-03T17:21:05.447Z"
-      }
-    },
-    {
       "id": 2119,
       "title": "Hitman: Blood Money",
       "priority": "NEEDED_HUNT",
@@ -1171,40 +903,6 @@
       "curatorReview": {
         "verdict": "REJECTED",
         "reason": "Same reasoning as \"Hitman: Blood Money\" -- \"HD\" suffix likely denotes a different-box remaster collection.",
-        "reviewedAt": "2026-09-03T17:21:05.447Z"
-      }
-    },
-    {
-      "id": 2222,
-      "title": "Batman: Arkham Asylum Remastered",
-      "priority": "NEEDED_HUNT",
-      "status": "AMBIGUOUS_MATCH",
-      "candidates": [
-        {
-          "igdbId": 203433,
-          "igdbName": "Batman: Return to Arkham - Arkham Asylum"
-        }
-      ],
-      "curatorReview": {
-        "verdict": "BLOCKED_NO_LOCAL_URL",
-        "reason": "\"Batman: Return to Arkham - Arkham Asylum\" is very likely the correct match (well-documented remaster bundle matching the census title’s own \"Remastered\" framing), but no local cover source exists for it.",
-        "reviewedAt": "2026-09-03T17:21:05.447Z"
-      }
-    },
-    {
-      "id": 2223,
-      "title": "Batman: Arkham City Remastered",
-      "priority": "NEEDED_HUNT",
-      "status": "AMBIGUOUS_MATCH",
-      "candidates": [
-        {
-          "igdbId": 203435,
-          "igdbName": "Batman: Return to Arkham - Arkham City"
-        }
-      ],
-      "curatorReview": {
-        "verdict": "BLOCKED_NO_LOCAL_URL",
-        "reason": "Same reasoning as \"Arkham Asylum Remastered\" -- likely correct, but no local cover source exists for it.",
         "reviewedAt": "2026-09-03T17:21:05.447Z"
       }
     },
@@ -1302,27 +1000,6 @@
       "curatorReview": {
         "verdict": "REJECTED",
         "reason": "\"Console Edition\" suffix is edition-sensitive -- could denote UI/content differences from the PC base.",
-        "reviewedAt": "2026-09-03T17:21:05.447Z"
-      }
-    },
-    {
-      "id": 2368,
-      "title": "Zero Time Dilemma",
-      "priority": "NEEDED_HUNT",
-      "status": "AMBIGUOUS_MATCH",
-      "candidates": [
-        {
-          "igdbId": 11549,
-          "igdbName": "Zero Escape: Zero Time Dilemma"
-        },
-        {
-          "igdbId": 11549,
-          "igdbName": "Zero Escape: Zero Time Dilemma"
-        }
-      ],
-      "curatorReview": {
-        "verdict": "BLOCKED_NO_LOCAL_URL",
-        "reason": "\"Zero Escape: Zero Time Dilemma\" is the well-known single official title (franchise-prefix only), but no local cover source exists for it.",
         "reviewedAt": "2026-09-03T17:21:05.447Z"
       }
     },
@@ -1517,90 +1194,11 @@
       "candidates": []
     },
     {
-      "id": 2554,
-      "title": "Chivalry II",
-      "priority": "NEEDED_HUNT",
-      "status": "AMBIGUOUS_MATCH",
-      "candidates": [
-        {
-          "igdbId": 119342,
-          "igdbName": "Chivalry 2"
-        },
-        {
-          "igdbId": 220760,
-          "igdbName": "Chivalry 2: King's Edition"
-        },
-        {
-          "igdbId": 312382,
-          "igdbName": "Chivalry 2: Regicide Update"
-        },
-        {
-          "igdbId": 164620,
-          "igdbName": "Chivalry 2: Special Edition"
-        },
-        {
-          "igdbId": 146126,
-          "igdbName": "Chivalry 2: Day One Edition"
-        }
-      ],
-      "curatorReview": {
-        "verdict": "BLOCKED_NO_LOCAL_URL",
-        "reason": "Base \"Chivalry 2\" candidate is a pure numeral-format match (ignoring the 4 edition-suffixed candidates), but no local cover source exists for it.",
-        "reviewedAt": "2026-09-03T17:21:05.447Z"
-      }
-    },
-    {
-      "id": 2563,
-      "title": "Dark Pictures: The Devil in Me",
-      "priority": "NEEDED_HUNT",
-      "status": "AMBIGUOUS_MATCH",
-      "candidates": [
-        {
-          "igdbId": 178361,
-          "igdbName": "The Dark Pictures Anthology: The Devil in Me"
-        },
-        {
-          "igdbId": 178361,
-          "igdbName": "The Dark Pictures Anthology: The Devil in Me"
-        },
-        {
-          "igdbId": 178361,
-          "igdbName": "The Dark Pictures Anthology: The Devil in Me"
-        }
-      ],
-      "curatorReview": {
-        "verdict": "BLOCKED_NO_LOCAL_URL",
-        "reason": "\"The Dark Pictures Anthology: The Devil in Me\" is confidently correct (franchise-branding difference only), but no local cover source exists for it.",
-        "reviewedAt": "2026-09-03T17:21:05.447Z"
-      }
-    },
-    {
       "id": 2566,
       "title": "Dead Craft",
       "priority": "NEEDED_HUNT",
       "status": "NO_MATCH",
       "candidates": []
-    },
-    {
-      "id": 2572,
-      "title": "Electronic Super Joy II",
-      "priority": "NEEDED_HUNT",
-      "status": "AMBIGUOUS_MATCH",
-      "candidates": [
-        {
-          "igdbId": 120745,
-          "igdbName": "Electronic Super Joy 2"
-        },
-        {
-          "igdbId": 120745,
-          "igdbName": "Electronic Super Joy 2"
-        }
-      ],
-      "curatorReview": {
-        "verdict": "BLOCKED_NO_LOCAL_URL",
-        "reason": "\"Electronic Super Joy 2\" is a pure numeral-format match, but no local cover source exists for it.",
-        "reviewedAt": "2026-09-03T17:21:05.447Z"
-      }
     },
     {
       "id": 2573,
@@ -1816,39 +1414,6 @@
       }
     },
     {
-      "id": 2709,
-      "title": "Rainbow Six: Extraction",
-      "priority": "NEEDED_HUNT",
-      "status": "AMBIGUOUS_MATCH",
-      "candidates": [
-        {
-          "igdbId": 119262,
-          "igdbName": "Tom Clancy's Rainbow Six Extraction"
-        },
-        {
-          "igdbId": 152335,
-          "igdbName": "Tom Clancy's Rainbow Six Extraction: Deluxe Edition"
-        },
-        {
-          "igdbId": 152336,
-          "igdbName": "Tom Clancy's Rainbow Six Extraction: Limited Edition"
-        },
-        {
-          "igdbId": 186924,
-          "igdbName": "Tom Clancy's Rainbow Six Extraction: Guardian Edition"
-        },
-        {
-          "igdbId": 188168,
-          "igdbName": "Tom Clancy's Rainbow Six Extraction United Bundle"
-        }
-      ],
-      "curatorReview": {
-        "verdict": "BLOCKED_NO_LOCAL_URL",
-        "reason": "Base \"Tom Clancy’s Rainbow Six Extraction\" candidate is confidently correct (franchise-branding difference only, ignoring the 4 edition-suffixed candidates), but no local cover source exists for it.",
-        "reviewedAt": "2026-09-03T17:21:05.447Z"
-      }
-    },
-    {
       "id": 2729,
       "title": "Tadeo Jones: La Tabla Esmeralda",
       "priority": "NEEDED_HUNT",
@@ -2044,10 +1609,30 @@
       ]
     }
   ],
-  "curatorPassSummary": {
-    "reviewed": 58,
-    "blockedNoLocalUrl": 19,
-    "rejected": 39,
-    "newOverridesAdded": 0
+  "resolvedThisPass": {
+    "runId": 33784714653,
+    "artifactName": "shelfcheck-cover-audit",
+    "count": 19,
+    "ids": [
+      46,
+      97,
+      291,
+      946,
+      1173,
+      1235,
+      1277,
+      1303,
+      1412,
+      2064,
+      2069,
+      2090,
+      2222,
+      2223,
+      2368,
+      2554,
+      2563,
+      2572,
+      2709
+    ]
   }
 }

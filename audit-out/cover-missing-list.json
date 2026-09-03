@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-03T17:09:28.257Z",
+  "generatedAt": "2026-09-03T17:37:01.039Z",
   "includedCount": 2553,
-  "withCover": 2420,
-  "missing": 133,
-  "coveragePct": 94.79,
+  "withCover": 2439,
+  "missing": 114,
+  "coveragePct": 95.53,
   "ownedMissingCount": 6,
-  "neededMissingCount": 127,
+  "neededMissingCount": 108,
   "ownedMissing": [
     {
       "id": 1003,
@@ -46,16 +46,8 @@
       "title": "ADK Tamashii"
     },
     {
-      "id": 46,
-      "title": "Agatha Christie's The ABC Murders"
-    },
-    {
       "id": 90,
       "title": "ARK Park"
-    },
-    {
-      "id": 97,
-      "title": "Assassin's Creed Chronicles"
     },
     {
       "id": 111,
@@ -76,10 +68,6 @@
     {
       "id": 225,
       "title": "Candleman: The Complete Journey"
-    },
-    {
-      "id": 291,
-      "title": "Damascus Gear: Operation Osaka"
     },
     {
       "id": 349,
@@ -118,10 +106,6 @@
       "title": "Quar: Infernal Machines"
     },
     {
-      "id": 946,
-      "title": "Rabbids Invasion"
-    },
-    {
       "id": 969,
       "title": "Redout"
     },
@@ -146,20 +130,12 @@
       "title": "Stranded Sails: Explorers of the Cursed Islands"
     },
     {
-      "id": 1173,
-      "title": "Super Blackjack Battle II Turbo Edition: The Card Warriors"
-    },
-    {
       "id": 1198,
       "title": "Tales from the Borderlands: A Telltale Game Series"
     },
     {
       "id": 1217,
       "title": "The American Dream"
-    },
-    {
-      "id": 1235,
-      "title": "The Dark Pictures - Little Hope"
     },
     {
       "id": 1240,
@@ -170,24 +146,12 @@
       "title": "The House in Fata Morgana"
     },
     {
-      "id": 1277,
-      "title": "The Missing: JJ Macfield and the Island of Memories"
-    },
-    {
-      "id": 1303,
-      "title": "The Walking Dead: A Telltale Games Series - The Complete First Season"
-    },
-    {
       "id": 1304,
       "title": "The Walking Dead: Saints & Sinners"
     },
     {
       "id": 1333,
       "title": "Tokyo Chronos"
-    },
-    {
-      "id": 1412,
-      "title": "Warhammer 40,000: Deathwatch"
     },
     {
       "id": 1431,
@@ -318,32 +282,12 @@
       "title": "Ganryu 2: Hakuma Kojiro"
     },
     {
-      "id": 2064,
-      "title": "Andro Dunos 2"
-    },
-    {
-      "id": 2069,
-      "title": "3D Billiards & Snooker"
-    },
-    {
-      "id": 2090,
-      "title": "S.T.A.L.K.E.R.: Call of Prypiat"
-    },
-    {
       "id": 2119,
       "title": "Hitman: Blood Money"
     },
     {
       "id": 2120,
       "title": "Hitman: Absolution"
-    },
-    {
-      "id": 2222,
-      "title": "Batman: Arkham Asylum Remastered"
-    },
-    {
-      "id": 2223,
-      "title": "Batman: Arkham City Remastered"
     },
     {
       "id": 2241,
@@ -364,10 +308,6 @@
     {
       "id": 2366,
       "title": "Wobbledogs"
-    },
-    {
-      "id": 2368,
-      "title": "Zero Time Dilemma"
     },
     {
       "id": 2370,
@@ -434,20 +374,8 @@
       "title": "Get Star / Guardian"
     },
     {
-      "id": 2554,
-      "title": "Chivalry II"
-    },
-    {
-      "id": 2563,
-      "title": "Dark Pictures: The Devil in Me"
-    },
-    {
       "id": 2566,
       "title": "Dead Craft"
-    },
-    {
-      "id": 2572,
-      "title": "Electronic Super Joy II"
     },
     {
       "id": 2573,
@@ -516,10 +444,6 @@
     {
       "id": 2696,
       "title": "Quintessential Quintuplets Fives Memories With You"
-    },
-    {
-      "id": 2709,
-      "title": "Rainbow Six: Extraction"
     },
     {
       "id": 2729,
