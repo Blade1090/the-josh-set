@@ -3,7 +3,7 @@
 // Same pattern as v001/ownership-reconcile-v071.js: nothing is deleted, duplicates are excluded
 // with an alias pointing at the surviving canonical identity, eligibility exclusions get an
 // explicit reason.
-(()=>{let tries=0;const apply=()=>{tries++;if(typeof norm!=='function'||!Array.isArray(items)||!items.length||!DATA||typeof byId==='undefined'){if(tries<120)setTimeout(apply,100);return;}
+(()=>{registerCensusMutation('exclude',()=>{
 const find=t=>items.find(x=>norm(x.title)===norm(t));
 const addAlias=(target,alias)=>{const x=find(target);if(!x)return false;const a=norm(alias);if(!aliasesById.has(x.id))aliasesById.set(x.id,[]);if(!aliasesById.get(x.id).includes(a))aliasesById.get(x.id).push(a);x.search=(x.search||norm(x.title))+' '+a;return true;};
 const excludeDuplicate=(title,reason)=>{const x=find(title);if(!x||x.set!=='INCLUDED')return false;x.set='EXCLUDED';x.cleanupReason=reason;return true;};
@@ -26,7 +26,6 @@ excludeDuplicate('Pool Nation FX','DIGITAL-ONLY — confirmed via the official P
 // part of this fix since #9 is no longer a rendered/completion identity.
 if(excludeDuplicate('3D Mini Golf','DUPLICATE — same underlying Z-Software GmbH minigolf game as "3D MiniGolf" (#10), republished under a different publisher label (familyplay vs Merge Games); confirmed via matching official PS Store descriptions (identical 54 holes/18 official courses, identical park/camping/beach scenarios, identical game modes) for both listings. Canonical identity is "3D MiniGolf".')){addAlias('3D MiniGolf','3D Mini Golf');}
 
-DATA.n=items.filter(x=>x.set==='INCLUDED').length;if(typeof mergedProductIndex!=='undefined')mergedProductIndex=null;if(typeof progress==='function')progress();if(typeof resetBrowse==='function')resetBrowse();
 window.SHELFCHECK_CENSUS_INTEGRITY_PASS_V002=true;
-console.info('ShelfCheck census integrity pass v0.02 applied; denominator',DATA.n);
-};apply();})();
+console.info('ShelfCheck census integrity pass v0.02 applied');
+});})();

@@ -129,10 +129,7 @@
     ['naruto shippuden ultimate ninja storm 4 road to boruto','Edition/product of Naruto Shippuden: Ultimate Ninja Storm 4.']
   ]);
 
-  let tries=0;
-  const apply=()=>{
-    tries++;
-    if(typeof norm!=='function'||!Array.isArray(items)||!items.length||!DATA){if(tries<120)setTimeout(apply,100);return;}
+  registerCensusMutation('exclude',()=>{
     const changed=[];
     for(const x of items){
       const reason=COLLAPSE.get(norm(x.title));
@@ -142,11 +139,7 @@
         changed.push(x.title);
       }
     }
-    DATA.n=items.filter(x=>x.set==='INCLUDED').length;
-    if(typeof progress==='function')progress();
-    if(typeof resetBrowse==='function')resetBrowse();
-    window.SHELFCHECK_V035_COLLAPSE={changed,denominator:DATA.n};
-    console.info(`ShelfCheck v0.35 collapse: ${changed.length} identity rows retired; live denominator ${DATA.n}`,changed);
-  };
-  apply();
+    window.SHELFCHECK_V035_COLLAPSE={changed};
+    console.info(`ShelfCheck v0.35 collapse: ${changed.length} identity rows retired`,changed);
+  });
 })();

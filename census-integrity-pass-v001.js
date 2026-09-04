@@ -3,7 +3,7 @@
 // Same pattern as ownership-reconcile-v071.js: identities keep their row (nothing is deleted),
 // duplicates are excluded with an alias pointing GameEye/search matching at the surviving
 // canonical identity, and eligibility exclusions are recorded with an explicit reason.
-(()=>{let tries=0;const apply=()=>{tries++;if(typeof norm!=='function'||!Array.isArray(items)||!items.length||!DATA||typeof byId==='undefined'){if(tries<120)setTimeout(apply,100);return;}
+(()=>{registerCensusMutation('exclude',()=>{
 const find=t=>items.find(x=>norm(x.title)===norm(t));
 const addAlias=(target,alias)=>{const x=find(target);if(!x)return false;const a=norm(alias);if(!aliasesById.has(x.id))aliasesById.set(x.id,[]);if(!aliasesById.get(x.id).includes(a))aliasesById.get(x.id).push(a);x.search=(x.search||norm(x.title))+' '+a;return true;};
 const excludeDuplicate=(title,reason)=>{const x=find(title);if(!x||x.set!=='INCLUDED')return false;x.set='EXCLUDED';x.cleanupReason=reason;return true;};
@@ -25,7 +25,6 @@ if(excludeDuplicate('The Dark Pictures - Man of Medan','DUPLICATE — same singl
 if(excludeDuplicate('TMNT: Mutants Unleashed','DUPLICATE — "TMNT" is the standard abbreviation of "Teenage Mutant Ninja Turtles"; same single 2024 game (confirmed via matching official IGDB/Wikipedia title and an identical automated cover match); canonical identity is the full "Teenage Mutant Ninja Turtles: Mutants Unleashed".')){addAlias('Teenage Mutant Ninja Turtles: Mutants Unleashed','TMNT: Mutants Unleashed');}
 if(excludeDuplicate('JoJo: Eyes of Heaven','DUPLICATE — same single arena-fighter game as "JoJo’s Bizarre Adventure: Eyes of Heaven" (both identities’ own dossiers independently describe identical content/physical evidence); canonical identity is the full "JoJo’s Bizarre Adventure: Eyes of Heaven", matching its official IGDB title.')){addAlias("JoJo's Bizarre Adventure: Eyes of Heaven",'JoJo: Eyes of Heaven');}
 
-DATA.n=items.filter(x=>x.set==='INCLUDED').length;if(typeof mergedProductIndex!=='undefined')mergedProductIndex=null;if(typeof progress==='function')progress();if(typeof resetBrowse==='function')resetBrowse();
 window.SHELFCHECK_CENSUS_INTEGRITY_PASS_V001=true;
-console.info('ShelfCheck census integrity pass v0.01 applied; denominator',DATA.n);
-};apply();})();
+console.info('ShelfCheck census integrity pass v0.01 applied');
+});})();

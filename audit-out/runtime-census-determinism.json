@@ -1,0 +1,139 @@
+{
+  "generatedAt": "2026-09-04T13:37:57.860Z",
+  "task": "SHELFCHECK — RUNTIME CENSUS STABILITY FIX (fix/runtime-census-determinism)",
+  "note": "Goal was determinism, not a re-audit of census content. Execution order was made fully deterministic; the resulting count differs from the previously-assumed 2,542/256 baseline because that baseline itself depended on a favorable race outcome. Per instructions this was NOT forced back to 2,542 -- see deterministicIncluded/identitiesDifferingFromExpected and STOPPED_FOR_REVIEW below.",
+
+  "baselineExpected": {
+    "included": 2542,
+    "satisfied": 256
+  },
+
+  "before": {
+    "method": "25 simulated page loads of the pre-fix (origin/main) script set, using a Node vm harness that executes the real, unmodified census-*.js files with REAL variable timers: a randomized census-data-ready delay plus a randomized per-tag execution offset for every one of the ~50 non-census <script> tags that sit between census-cleanup.js and the census-v052..059 sweep in the real index.html (modeling real fetch/parse wall-clock cost, not an immediate-execute stub). Full methodology in the PR.",
+    "observedCounts": {
+      "2532": 6,
+      "2536": 2,
+      "2538": 1,
+      "2542": 14,
+      "2543": 2
+    },
+    "totalRuns": 25,
+    "uniqueCountsObserved": [2532, 2536, 2538, 2542, 2543],
+    "unstableIdentityCount": 11,
+    "unstableIdentities": [
+      { "id": 2310, "title": "Funko Fusion", "presentInRuns": "18/25", "rule": "census-cleanup.js EXCLUDE map — 'PS4 release is digital-only; physical editions were produced only for PS5, Xbox Series, and Nintendo Switch.'" },
+      { "id": 2394, "title": "Mr. Driller DrillLand", "presentInRuns": "18/25", "rule": "census-cleanup.js EXCLUDE map — digital-only 2021 PS4/PS5 remaster." },
+      { "id": 2421, "title": "Hustle Kings", "presentInRuns": "18/25", "rule": "census-cleanup.js EXCLUDE map — free-to-play digital-only PS4 release." },
+      { "id": 2472, "title": "Teki-Paki", "presentInRuns": "18/25", "rule": "census-cleanup.js EXCLUDE map — bundled digital DLC, not on-disc content." },
+      { "id": 2571, "title": "Eldest Souls", "presentInRuns": "17/25", "rule": "census-cleanup.js EXCLUDE map — no physical PS4 edition found." },
+      { "id": 2623, "title": "JoJo: Eyes of Heaven", "presentInRuns": "2/25", "rule": "census-integrity-pass-v001.js dedup — duplicate of canonical 'JoJo's Bizarre Adventure: Eyes of Heaven'." },
+      { "id": 2713, "title": "SNK Vs. Capcom: SVC Chaos", "presentInRuns": "17/25", "rule": "census-cleanup.js EXCLUDE map — digital-only Hamster ACA NEOGEO release." },
+      { "id": 2714, "title": "Saga Frontier Remastered", "presentInRuns": "17/25", "rule": "census-cleanup.js EXCLUDE map — planned physical PS4 release cancelled prior to launch." },
+      { "id": 2734, "title": "Tales of the Tiny Planet", "presentInRuns": "17/25", "rule": "census-cleanup.js EXCLUDE map — digital-only, no physical evidence found." },
+      { "id": 2743, "title": "Ultra Street Fighter IV", "presentInRuns": "17/25", "rule": "census-cleanup.js EXCLUDE map — digital-only PS4 port (Other Ocean Interactive, 2015)." },
+      { "id": 2764, "title": "Way Of Redemption", "presentInRuns": "17/25", "rule": "census-cleanup.js EXCLUDE map — digital-only, no physical evidence found." }
+    ]
+  },
+
+  "cause": {
+    "mechanism": "Every census-mutating script (census-cleanup.js, census-v034.js, census-collapse-v035.js, census-v035-final.js, census-v040-pricing-audit.js, census-v052..059-*.js, census-v060-integrity-scrub.js, census-integrity-pass-v001.js, census-integrity-pass-v002.js, ownership-reconcile-v071.js) independently self-polled for census-data readiness (a recursive setTimeout(fn,100) retry loop) and applied its own change to `items`/`DATA.n` the instant its own poll succeeded, with no coordination between scripts. census-cleanup.js and census-collapse-v035.js hold general title-keyed EXCLUDE/COLLAPSE maps, but sit EARLIER in index.html's <script> tag order than the census-v052..059 PriceCharting sweep that ADDS new identities. Because the base census fetch (app.js's loadData(), a real async fetch+DecompressionStream) can resolve at any point relative to the ~50 intervening non-census <script> tags, whether census-cleanup.js's poll succeeds BEFORE or AFTER the sweep has added a conflicting title is timing-dependent: if cleanup runs first (its own tag's earlier position wins the race — the more frequent outcome, 14/25 runs here), it never rechecks once it has already completed, and identities the sweep adds afterward that match its own EXCLUDE map (e.g. Funko Fusion, digital-only per the map's own stated reason) are left incorrectly INCLUDED. If cleanup's retry happens to fire after the sweep (11/25 runs here, in 5 different exact counts depending on exactly which of the 11 conflict identities existed yet), it correctly excludes them. No script coordinated 'have all census-mutating scripts finished' before a general exclusion rule ran.",
+    "scriptsInvolved": [
+      "app.js (loadData() — the async data-fetch every other script raced against)",
+      "census-cleanup.js (general EXCLUDE/KEEP maps — race source)",
+      "census-collapse-v035.js (general COLLAPSE map — same race pattern, latent)",
+      "census-v034.js",
+      "census-v035-final.js",
+      "census-v040-pricing-audit.js",
+      "census-v052-pricecharting-negative-space.js .. census-v059-pricecharting-sz-sweep.js (identity-adding sweep)",
+      "census-v060-integrity-scrub.js (narrow DROP list)",
+      "census-integrity-pass-v001.js / census-integrity-pass-v002.js (narrow dedup/exclude lists)",
+      "ownership-reconcile-v071.js (narrow ensureExcluded calls, very late tag position)",
+      "census-integrity.js (non-mutating diagnostic; read the mid-load snapshot, not the final one)"
+    ]
+  },
+
+  "fix": {
+    "architecturalDescription": "Replaced 15 independent poll-and-self-apply loops with a single deterministic two-phase finalization pipeline. Every census-mutating script now calls registerCensusMutation(phase, fn) (phase is 'add' or 'exclude') instead of self-polling; registration is synchronous and needs no data readiness, so it always completes in the script's own guaranteed <script>-tag document order regardless of network/fetch timing. A new census-finalize.js tag, placed after every census-mutating tag, awaits a real dataReady Promise (resolved once by app.js's loadData() the instant items/DATA/byId are populated — no polling) and then runs every queued 'add' function, in registration order, followed by every queued 'exclude' function, in registration order, exactly once. This guarantees every exclusion/dedup rule always sees the complete, fully-populated candidate set the add phase built, so a later-added identity can never be silently left INCLUDED just because an exclusion pass already ran before it existed. A script whose own <script> tag runs after finalization has already completed (ownership-reconcile-v071.js, which loads much later, after price/hltb scripts) has registerCensusMutation invoke its function immediately instead of queuing it, since census data is guaranteed ready by then — no polling anywhere in the pipeline, and DATA.n/progress()/resetBrowse() are recomputed exactly once at the true end of each mutation rather than after every individual script.",
+    "filesChanged": [
+      "app.js",
+      "census-finalize.js (new)",
+      "census-cleanup.js",
+      "census-v034.js",
+      "census-collapse-v035.js",
+      "census-v035-final.js",
+      "census-v040-pricing-audit.js",
+      "census-v052-pricecharting-negative-space.js",
+      "census-v053-pricecharting-regional-sweep.js",
+      "census-v054-pricecharting-collection-gap.js",
+      "census-v055-pricecharting-ab-sweep.js",
+      "census-v056-pricecharting-cf-sweep.js",
+      "census-v057-pricecharting-gl-sweep.js",
+      "census-v058-pricecharting-mr-sweep.js",
+      "census-v059-pricecharting-sz-sweep.js",
+      "census-v060-integrity-scrub.js",
+      "census-integrity-pass-v001.js",
+      "census-integrity-pass-v002.js",
+      "ownership-reconcile-v071.js",
+      "index.html (added census-finalize.js script tag; bumped ?v= cache-busting for every file above whose content changed)",
+      "sw.js (PWA — see pwa section below)",
+      "tools/census-determinism-test.mjs (new — reusable regression harness)"
+    ],
+    "notChanged": "No EXCLUDE/COLLAPSE/DROP/dedup rule text or eligibility logic was added, removed, or edited. No identity was manually added or removed. The only behavioral change is WHEN each already-existing rule is applied relative to the already-existing additions."
+  },
+
+  "after": {
+    "method": "Two independent Node vm harnesses (a throwaway verification script plus the checked-in tools/census-determinism-test.mjs) execute the real FIXED census + finalize scripts under the same randomized realistic timing model used for the 'before' measurement, then compare INCLUDED count, exact included-id-set (membership hash), and a SATISFIED count against a fixed synthetic ownership snapshot (every item flagged OWNED in the base data — chosen because Josh's real GameEye-derived ownership state cannot be reproduced in a stateless test session) across every run. Cross-checked against 3 live browser page loads on the actual index.html.",
+    "numberOfRuns": 40,
+    "uniqueIncludedCounts": [2532],
+    "uniqueSatisfiedCounts": [230],
+    "membershipHashes": 1,
+    "allRunsIdentical": true,
+    "knownConflictIdentitiesRegressionCheck": "All 10 sweep-added identities that match an existing EXCLUDE rule (see before.unstableIdentities, excluding the dedup-only case 2623) were EXCLUDED on every single one of the 40 runs — zero exceptions.",
+    "liveBrowserCrossCheck": {
+      "runs": 3,
+      "included": 2532,
+      "progressLine": "230 / 2532 · 9.08%",
+      "consoleErrors": 0,
+      "verifiedManually": ["search (query 'fusion' correctly returns only 'Trials Fusion', not the excluded 'Funko Fusion')", "OWNED filter renders", "NEEDED filter renders", "HUNT filter renders", "progress header reflects the finalized denominator", "items.find('Funko Fusion').set === 'EXCLUDED'"]
+    }
+  },
+
+  "deterministicIncluded": 2532,
+  "deterministicSatisfied": 230,
+  "identitiesDifferingFromExpected": [
+    "id 2310 Funko Fusion", "id 2394 Mr. Driller DrillLand", "id 2421 Hustle Kings", "id 2472 Teki-Paki",
+    "id 2571 Eldest Souls", "id 2713 SNK Vs. Capcom: SVC Chaos", "id 2714 Saga Frontier Remastered",
+    "id 2734 Tales of the Tiny Planet", "id 2743 Ultra Street Fighter IV", "id 2764 Way Of Redemption"
+  ],
+  "identitiesDifferingNote": "All 10 are sweep-added identities (census-v052..059, baseline:'NEEDED' at creation, so none could have been part of any owned/satisfied count) that also exactly match an existing, already-authored census-cleanup.js EXCLUDE-map entry with a stated eligibility reason (digital-only or no confirmed physical PS4 release in every case). The fix does not introduce a new opinion about these titles — it makes the codebase's OWN existing rule for them apply consistently instead of only on some loads. deterministicSatisfied (230) is measured against a synthetic 'every baseline-OWNED item' snapshot, not Josh's real GameEye-imported ownership state (256), which this stateless harness cannot reproduce; since all 10 differing identities are baseline:'NEEDED', they could not have contributed to the real 256 figure either unless Josh's own import separately matched one of them by title, which is unverified here.",
+  "STOPPED_FOR_REVIEW": true,
+
+  "pwa": {
+    "staleCacheIssueFound": true,
+    "findings": [
+      "census-finalize.js (new, required for the app to finish loading at all) was absent from sw.js's offline precache list (array A) — on a fresh/offline install, the app could fail to ever finalize its census.",
+      "17 existing census-mutating files had their content changed by this fix but their index.html <script src> ?v= cache-busting query strings were left unbumped — the same class of bug found and fixed during the prior PriceCharting price-pass cleanup (PR #28): a browser that already cached the old byte content for one of these exact URL+querystring pairs would keep serving the pre-fix (racy) script indefinitely, silently defeating this fix for that user.",
+      "sw.js's own fetch handler is already network-first (cache:'no-store' live fetch, falling back to the Cache API only when the network request fails) for every GET, which independently limits staleness for an already-installed, already-online PWA — this is a secondary, not primary, freshness mechanism here."
+    ],
+    "fixApplied": [
+      "Added 'census-finalize.js' to sw.js's precache array A.",
+      "Bumped sw.js's own cache-name version (shelfcheck-v120 -> shelfcheck-v121) so the browser's normal service-worker update/activate cycle purges the old precache and installs a fresh one containing the corrected files.",
+      "Bumped the ?v= query string for every one of the 17 modified census-*.js files plus app.js in index.html (all to ?v=139, one past the highest existing value on this branch) and added a new ?v=1 tag for census-finalize.js, so both a plain browser HTTP cache and a controlling service worker are forced to fetch the corrected byte content instead of serving a stale cached copy."
+    ],
+    "validation": "Confirmed live: after loading index.html, navigator.serviceWorker.getRegistrations() shows sw.js active, caches.keys() shows exactly ['shelfcheck-v121'], and that cache contains entries for both 'census-finalize.js' (from the precache list) and 'census-finalize.js?v=1' (opportunistically cached by the network-first fetch handler on first load) — confirming the new required file is available offline.",
+    "outOfScope": "sw.js's precache list stores each URL WITHOUT its ?v= query string, while index.html requests the versioned URL — a pre-existing mismatch (present for all ~90 precached files before this fix, not introduced by it) that means the Cache-API offline FALLBACK path (used only when a live network fetch fails) would miss on an exact-URL match for any versioned script. This did not block the determinism fix (the network-first path already covers the common online case, and the version bump above ensures a fresh copy is fetched and re-cached under the new URL on next successful load) and was left unchanged as a separate, broader concern affecting far more than the census files touched here."
+  },
+
+  "regressionTest": {
+    "tool": "tools/census-determinism-test.mjs",
+    "usage": "node tools/census-determinism-test.mjs [runs]  (default 20; exits 1 on any instability)",
+    "checks": [
+      "INCLUDED count identical across all runs",
+      "SATISFIED count (against a fixed synthetic ownership snapshot) identical across all runs",
+      "exact included-identity-id-set identical across all runs (membership hash)",
+      "every known Funko-Fusion-class conflict identity (added by a later script, matched by an earlier-authored exclusion rule) ends EXCLUDED on every run",
+      "no script throws while running under randomized realistic timing"
+    ],
+    "lastResult": "PASS — 20/20 runs identical, INCLUDED=2532, SATISFIED=230, 1 unique membership hash, all 10 known-conflict identities correctly excluded on every run."
+  }
+}
