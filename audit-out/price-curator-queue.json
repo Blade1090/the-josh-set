@@ -1,0 +1,143 @@
+{
+  "generatedAt": "2026-09-04T14:51:19.267Z",
+  "note": "ShelfCheck price curator queue -- UPDATED after PR #29 (fix/runtime-census-determinism) merged to main. Uses the current authoritative 2,532-identity finalized-runtime denominator (see audit-out/price-system-audit.json's runtimeBaselineUpdate for why this replaces the old 2,542 figure) and the strict-final-whole-census-prices workflow's own diagnostics (run 33796142511, not re-dispatched this pass -- see workflowDispatch in the audit file) for per-title reasons. The 19 OWNED-pending identities below are UNCHANGED from the prior 2,542-based queue: none of the 10 identities PR #29 newly excludes was baseline:'OWNED', so this list is identical in membership, just re-validated against the new denominator. Ranked per instructions: OWNED unresolved first.",
+  "ownedPending": [
+    {
+      "id": 162,
+      "title": "BioShock 2 Remastered",
+      "category": "COMPILATION_REVIEW",
+      "workflowReason": "NO_STRICT_PRODUCT_MATCH",
+      "note": "Compilation component; no product-level price field exists in this codebase, so an individually-scraped standalone price would not necessarily reflect the box Josh owns -- left pending rather than guessed, consistent with the compilation-pricing rule."
+    },
+    {
+      "id": 163,
+      "title": "BioShock Infinite: Complete Edition",
+      "category": "COMPILATION_REVIEW",
+      "workflowReason": "NO_STRICT_PRODUCT_MATCH",
+      "note": "Compilation component; no product-level price field exists in this codebase, so an individually-scraped standalone price would not necessarily reflect the box Josh owns -- left pending rather than guessed, consistent with the compilation-pricing rule."
+    },
+    {
+      "id": 164,
+      "title": "BioShock Remastered",
+      "category": "COMPILATION_REVIEW",
+      "workflowReason": "NO_STRICT_PRODUCT_MATCH",
+      "note": "Compilation component; no product-level price field exists in this codebase, so an individually-scraped standalone price would not necessarily reflect the box Josh owns -- left pending rather than guessed, consistent with the compilation-pricing rule."
+    },
+    {
+      "id": 746,
+      "title": "Marvel's Spider-Man",
+      "category": "NO_MATCH",
+      "workflowReason": "NO_STRICT_PRODUCT_MATCH",
+      "note": "Standalone title. The strict-final-whole-census-prices workflow (run 33796142511) independently attempted this and returned NO_STRICT_PRODUCT_MATCH -- confirms this session's earlier manual research (multiple competing PriceCharting editions prevent a confident single match)."
+    },
+    {
+      "id": 890,
+      "title": "Pac-Man Championship Edition 2",
+      "category": "NO_MATCH",
+      "workflowReason": "NO_STRICT_PRODUCT_MATCH",
+      "note": "Standalone title. The strict-final-whole-census-prices workflow (run 33796142511) independently attempted this and returned NO_STRICT_PRODUCT_MATCH -- confirms this session's earlier manual research (multiple competing PriceCharting editions prevent a confident single match)."
+    },
+    {
+      "id": 1627,
+      "title": "God Eater Resurrection",
+      "category": "NO_MATCH",
+      "workflowReason": "NO_STRICT_PRODUCT_MATCH",
+      "note": "Standalone title. The strict-final-whole-census-prices workflow (run 33796142511) independently attempted this and returned NO_STRICT_PRODUCT_MATCH -- confirms this session's earlier manual research (multiple competing PriceCharting editions prevent a confident single match)."
+    },
+    {
+      "id": 1635,
+      "title": "Heavy Rain",
+      "category": "COMPILATION_REVIEW",
+      "workflowReason": "NO_STRICT_PRODUCT_MATCH",
+      "note": "Compilation component; no product-level price field exists in this codebase, so an individually-scraped standalone price would not necessarily reflect the box Josh owns -- left pending rather than guessed, consistent with the compilation-pricing rule."
+    },
+    {
+      "id": 1799,
+      "title": "Don't Starve: Console Edition",
+      "category": "COMPILATION_REVIEW",
+      "workflowReason": "NO_STRICT_PRODUCT_MATCH",
+      "note": "Compilation component; no product-level price field exists in this codebase, so an individually-scraped standalone price would not necessarily reflect the box Josh owns -- left pending rather than guessed, consistent with the compilation-pricing rule."
+    },
+    {
+      "id": 2111,
+      "title": "Beyond: Two Souls",
+      "category": "COMPILATION_REVIEW",
+      "workflowReason": "NO_STRICT_PRODUCT_MATCH",
+      "note": "Compilation component; no product-level price field exists in this codebase, so an individually-scraped standalone price would not necessarily reflect the box Josh owns -- left pending rather than guessed, consistent with the compilation-pricing rule."
+    },
+    {
+      "id": 2115,
+      "title": "Scribblenauts Unlimited",
+      "category": "COMPILATION_REVIEW",
+      "workflowReason": "NO_STRICT_PRODUCT_MATCH",
+      "note": "Compilation component; no product-level price field exists in this codebase, so an individually-scraped standalone price would not necessarily reflect the box Josh owns -- left pending rather than guessed, consistent with the compilation-pricing rule."
+    },
+    {
+      "id": 2116,
+      "title": "Scribblenauts Unmasked: A DC Comics Adventure",
+      "category": "COMPILATION_REVIEW",
+      "workflowReason": "NO_STRICT_PRODUCT_MATCH",
+      "note": "Compilation component; no product-level price field exists in this codebase, so an individually-scraped standalone price would not necessarily reflect the box Josh owns -- left pending rather than guessed, consistent with the compilation-pricing rule."
+    },
+    {
+      "id": 2121,
+      "title": "Resident Evil HD Remaster",
+      "category": "COMPILATION_REVIEW",
+      "workflowReason": "NO_STRICT_PRODUCT_MATCH",
+      "note": "Compilation component; no product-level price field exists in this codebase, so an individually-scraped standalone price would not necessarily reflect the box Josh owns -- left pending rather than guessed, consistent with the compilation-pricing rule."
+    },
+    {
+      "id": 2122,
+      "title": "Resident Evil 0 HD Remaster",
+      "category": "COMPILATION_REVIEW",
+      "workflowReason": "NO_STRICT_PRODUCT_MATCH",
+      "note": "Compilation component; no product-level price field exists in this codebase, so an individually-scraped standalone price would not necessarily reflect the box Josh owns -- left pending rather than guessed, consistent with the compilation-pricing rule."
+    },
+    {
+      "id": 2194,
+      "title": "Tomb Raider",
+      "category": "COMPILATION_REVIEW",
+      "workflowReason": "NO_STRICT_PRODUCT_MATCH",
+      "note": "Compilation component; no product-level price field exists in this codebase, so an individually-scraped standalone price would not necessarily reflect the box Josh owns -- left pending rather than guessed, consistent with the compilation-pricing rule."
+    },
+    {
+      "id": 2195,
+      "title": "Tomb Raider II",
+      "category": "COMPILATION_REVIEW",
+      "workflowReason": "NO_STRICT_PRODUCT_MATCH",
+      "note": "Compilation component; no product-level price field exists in this codebase, so an individually-scraped standalone price would not necessarily reflect the box Josh owns -- left pending rather than guessed, consistent with the compilation-pricing rule."
+    },
+    {
+      "id": 2196,
+      "title": "Tomb Raider III: Adventures of Lara Croft",
+      "category": "COMPILATION_REVIEW",
+      "workflowReason": "NO_STRICT_PRODUCT_MATCH",
+      "note": "Compilation component; no product-level price field exists in this codebase, so an individually-scraped standalone price would not necessarily reflect the box Josh owns -- left pending rather than guessed, consistent with the compilation-pricing rule."
+    },
+    {
+      "id": 2197,
+      "title": "Tomb Raider: The Last Revelation",
+      "category": "COMPILATION_REVIEW",
+      "workflowReason": "NO_STRICT_PRODUCT_MATCH",
+      "note": "Compilation component; no product-level price field exists in this codebase, so an individually-scraped standalone price would not necessarily reflect the box Josh owns -- left pending rather than guessed, consistent with the compilation-pricing rule."
+    },
+    {
+      "id": 2198,
+      "title": "Tomb Raider: Chronicles",
+      "category": "COMPILATION_REVIEW",
+      "workflowReason": "NO_STRICT_PRODUCT_MATCH",
+      "note": "Compilation component; no product-level price field exists in this codebase, so an individually-scraped standalone price would not necessarily reflect the box Josh owns -- left pending rather than guessed, consistent with the compilation-pricing rule."
+    },
+    {
+      "id": 2199,
+      "title": "Tomb Raider: The Angel of Darkness",
+      "category": "COMPILATION_REVIEW",
+      "workflowReason": "NO_STRICT_PRODUCT_MATCH",
+      "note": "Compilation component; no product-level price field exists in this codebase, so an individually-scraped standalone price would not necessarily reflect the box Josh owns -- left pending rather than guessed, consistent with the compilation-pricing rule."
+    }
+  ],
+  "neededPendingSummary": {
+    "count": 463,
+    "note": "Not individually enumerated, per instructions not to research hundreds of titles individually. Down from 470 under the old 2,542 baseline because 7 of the 10 identities PR #29 now correctly excludes were themselves unpriced NEEDED-pending rows (470 - 7 = 463); the other 3 excluded identities already had a price on file. The strict-final-whole-census-prices workflow attempted the surviving titles too (as part of its NO_STRICT_PRODUCT_MATCH/NO_PRICE pending list) and found no new confident matches. Queued for a future pass once new PriceCharting catalog data exists or the strict-matching criteria are deliberately revisited."
+  }
+}

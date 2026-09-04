@@ -12,6 +12,11 @@
     const d=sortMode==='HIGH'?bv-av:av-bv;
     return d||a.title.localeCompare(b.title);
   };
+  // Exposed so model-fix.js's render() can apply the same numeric-price comparator when a
+  // search query is active. Without this, model-fix's own render() re-sorts by search-
+  // relevance (acquisitionRank) whenever `q` is non-empty, silently discarding whatever price
+  // sort the user selected and leaving results looking alphabetized instead of price-ordered.
+  window.SHELFCHECK_PRICE_COMPARE=compare;
   // model-fix has its own HUNT comparator based on huntPrice().rank. Make that rank
   // respect the selected price direction instead of always forcing low-to-high.
   if(typeof huntPrice==='function'){
