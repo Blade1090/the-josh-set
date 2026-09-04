@@ -1,0 +1,124 @@
+{
+  "generatedAt": "2026-09-04T17:10:00.000Z",
+  "task": "SHELFCHECK — PWA / OFFLINE FRESHNESS HARDENING (fix/pwa-offline-freshness, PR #32)",
+  "note": "Service-worker/freshness reliability pass only. No census, ownership, price, search, or UI changes. Updated after PR #32 review: the 40 previously-unprecached runtime scripts (see precacheCoverageCorrection below) are now resolved, not merely documented.",
+
+  "oldBehaviorInspected": {
+    "queryStringsPartOfCacheKeys": "Yes for entries the FETCH HANDLER writes (Cache.put keys by the full Request URL including its query string). NO for the PRECACHE list -- it listed bare filenames ('model-fix.js') with no query string, so the precached key and the page's actual requested key ('model-fix.js?v=140') were two different cache entries.",
+    "fetchLookupExactOrIgnoreSearch": "caches.match(e.request) (used only in the fetch handler's offline-fallback .catch()) uses the default ignoreSearch:false -- an EXACT URL match including the query string. It was never told to ignore the query string.",
+    "versionedRequestVsBarePrecacheOutcome": "CONCRETELY REPRODUCED (see versionCoherenceTest.oldBugReproduction below): a cache entry keyed by the bare filename is a MISS when queried with the versioned URL. Online, this was invisible because the fetch handler is network-first (cache:'no-store') and ALSO opportunistically re-caches under the exact requested (versioned) URL on every successful fetch -- so a user who is ever online after a version bump silently repairs their own cache. Offline, immediately after a version bump, before ever completing one online load under the new version, that opportunistic re-cache never happens -- the exact versioned URL is a genuine cache miss, and CacheStorage.match() returns undefined, causing the SW's fetch to resolve as a network error for that resource (a `<script src>` tag would fail to load entirely).",
+    "activateCleanupReliability": "Ran on every activation (self.skipWaiting() in install + self.clients.claim() in activate mean this fires immediately, not gated on all old tabs closing). The OLD filter (`k=>x!==C`) deleted every cache not named exactly the current version -- functionally correct for THIS app (which never creates any other cache), but not precise: it would also delete a hypothetical unrelated cache under the same origin. Fixed to `x.startsWith('shelfcheck-')&&x!==C` so only old ShelfCheck-versioned caches are ever removed.",
+    "skipWaitingClientsClaimUsed": true,
+    "immediateTakeoverRisk": "Assessed and judged safe for this architecture: skipWaiting()+clients.claim() make an update take effect without requiring every tab to close, but an ALREADY-OPEN tab's in-memory JS/DOM state is unaffected by a mid-session SW handoff (script tags execute once at load and are not re-fetched dynamically) -- the practical effect is only that a background tab's NEXT reload picks up the new version immediately, which is the desired outcome, not a risk, for this single-page-per-load architecture with no persistent background connections.",
+    "navigationCacheStrategy": "Network-first with cache fallback: fetch(request,{cache:'no-store'}) is tried first (always bypasses the browser HTTP cache and goes to the network) for EVERY GET request; only on failure does it fall back to an exact-match cache lookup.",
+    "jsDataAssetsHandledDifferentlyFromNavigation": false,
+    "singleFetchHandlerForEverything": "Confirmed -- one fetch listener applies the identical network-first/cache-fallback logic to navigation (index.html/'./'), every versioned JS/CSS asset, and every unversioned data file (data0.txt etc., shelfcheck-dossiers.txt, hltb-data.txt). This was already the CORRECT strategy per this pass's own Part 4 requirements (prefer freshness online, cached fallback offline, never casually cache-first) -- no change was needed to the fetch handler's logic itself."
+  },
+
+  "rootCause": "sw.js's precache list (array A) stored bare filenames ('model-fix.js') while index.html requests versioned URLs ('model-fix.js?v=140'). The Cache Storage API keys entries by the full request URL including the query string, so these were two distinct cache keys. Online, the fetch handler's own opportunistic re-caching on every successful network fetch masked this completely. Offline, immediately after a version bump and before any online load under the new version, the exact versioned URL was never cached -- a genuine miss, not a stale hit -- and that script/asset failed to load at all.",
+
+  "fix": {
+    "chosenOption": "A (precache the EXACT versioned URLs index.html requests) -- the task's own preferred option given this architecture's manual, per-file '?v=' convention with no build step.",
+    "rejectedOption": "B (normalize/ignoreSearch matching) -- rejected per instructions ('do not use ignoreSearch globally unless you can prove it cannot cause stale-version collisions'); a custom version-comparison matcher was considered but adds real complexity/fragility (parsing and comparing '?v=' numbers) for a problem Option A already solves with a plain data change.",
+    "precacheListUpdated": "Every versioned entry in the precache list uses the exact '?v=' string currently in index.html (unversioned entries -- data files, manifest, index.html/'./' navigation -- are unaffected, since the page already requests those without a query string too). Originally 61 versioned entries; now 101 after the PR review's coverage correction added the 40 previously-missing runtime scripts (see precacheCoverageCorrection below).",
+    "maintainabilityMeasure": "Added a prominent comment block at the top of sw.js's precache list stating explicitly that it must be kept in exact sync with index.html's versioned URLs, and that there is no build step enforcing this -- plus a new reusable checked-in tool, tools/pwa-precache-consistency-test.mjs, that fails loudly if any future edit lets them drift apart again.",
+    "installActivateChanges": {
+      "skipWaitingClientsClaim": "Left unchanged (already present, already judged safe -- see immediateTakeoverRisk above).",
+      "activateCleanupPrecision": "Changed the old-cache filter from 'delete anything not named exactly C' to 'delete anything starting with shelfcheck- that is not named exactly C' -- functionally identical for this app today, but now provably safe against ever deleting an unrelated cache (verified live, see oldCacheCleanupTest below)."
+    },
+    "fetchHandlerChanges": "None -- the existing network-first-with-cache-fallback strategy, applied uniformly to navigation/JS/data assets alike, was already correct per this pass's Part 4 requirements."
+  },
+
+  "versionCoherenceTest": {
+    "method": "Performed live in the actual Browser pane against the real sw.js/index.html (not a simulation): loaded fresh, verified the precache and its exact-URL match for every critical file, then directly reproduced the OLD bug against a synthetic bare-filename cache entry to concretely prove the root cause and confirm the fix's cache now avoids it.",
+    "oldBugReproduction": {
+      "setup": "Manually populated a throwaway test cache with a bare-filename entry ('model-fix.js') mimicking the OLD precache style.",
+      "lookupForVersionedUrl (model-fix.js?v=140)": false,
+      "lookupForBareUrl (model-fix.js)": true,
+      "conclusion": "CONFIRMED: a bare-filename cache entry is an exact-match MISS for the versioned URL the page actually requests -- reproduces the root cause precisely."
+    },
+    "criticalFilesVerifiedInFixedPrecache": {
+      "model-fix.js?v=140": true,
+      "app.js?v=139": true,
+      "price-sort-v063.js?v=138": true,
+      "census-finalize.js?v=1": true,
+      "census-physical-omission-pass-v001.js?v=2": true,
+      "ownership-reconcile-v071.js?v=139": true
+    },
+    "offlineFallbackSimulation": "Directly called caches.match() (the exact call the fetch handler's .catch() makes) for each critical file's real versioned URL against the live precache -- every one resolved to a real cached Response, proving the offline-fallback path succeeds for the fixed precache list without needing an actual network disconnect."
+  },
+
+  "upgradeTest": {
+    "method": "A real, live two-step service-worker upgrade was performed in the Browser pane (not simulated): the running cache version was bumped in sw.js and the page reloaded, exercising the actual install/activate/skipWaiting/clients.claim/cleanup code path end to end.",
+    "freshVisitor": {
+      "scenario": "Cleared all registrations and caches, then loaded once as a brand-new visitor -- run twice: once against the initial 71-entry precache (before the coverage correction) and again after adding the 40 missing entries (111-entry precache).",
+      "result": "SW installed and activated both times; a single current-version cache appeared containing every precached exact-versioned URL (71, then 111 after the correction; confirmed for all 6 critical files plus a sample of the 40 newly-added ones); INCLUDED=2535; zero console errors."
+    },
+    "existingInstalledPwaUpgrade": {
+      "scenario": "Repeated after the coverage correction: with 'shelfcheck-v127' (111-entry precache) already active and controlling the page, manually seeded two synthetic leftover caches (an OLD ShelfCheck version 'shelfcheck-v999-fake-old' and an unrelated 'totally-unrelated-cache'), bumped sw.js's cache name to a new version, and reloaded as an online user.",
+      "result": "New SW installed+activated automatically (skipWaiting+clients.claim, no tab-closing ritual); activate's cleanup deleted BOTH the previous current cache AND the synthetic 'shelfcheck-v999-fake-old' (an old version); 'totally-unrelated-cache' was preserved untouched; the new version's cache was populated with all 111 exact-versioned entries. Repeated a second time (renaming the temporary test version to the final clean version string) with the same clean result, proving the upgrade path is repeatable and coherent across both the original fix and this correction.",
+      "oldCacheCleanupVerified": true,
+      "unrelatedCachePreserved": true
+    },
+    "noABMixing": "After each upgrade, DATA.n/progress and every precached file's version matched the currently-committed sw.js/index.html exactly -- no run showed a mix of old and new file versions."
+  },
+
+  "oldCacheCleanupTest": {
+    "currentCache": { "name": "shelfcheck-v127", "preserved": true },
+    "syntheticOldShelfcheckCache": { "name": "shelfcheck-v999-fake-old", "deletedOnActivate": true },
+    "unrelatedCacheName": { "name": "totally-unrelated-cache", "deletedOnActivate": false, "note": "Confirmed preserved across four separate activate cycles total, across both the original fix and this coverage correction." }
+  },
+
+  "regression": {
+    "deterministicCensusRuns": 20,
+    "allRunsIdentical": true,
+    "includedCount": 2535,
+    "satisfiedCount": 230,
+    "postFinalizationMutationRefused": true,
+    "searchHardening": {
+      "dragonbFindsBreakers": true,
+      "notFoundWarningShown": true,
+      "hiddenByFilterMessageShown": true
+    },
+    "priceSort": { "combinationsTested": 16, "violations": 0 },
+    "consoleErrors": 0,
+    "note": "This pass touches no census-mutating script, ownership logic, price data, or search code -- these checks confirm nothing was disturbed, not new behavior."
+  },
+
+  "finalCacheVersion": "shelfcheck-v127",
+  "filesChanged": ["sw.js", "tools/pwa-precache-consistency-test.mjs", "audit-out/pwa-freshness-regression.json"],
+
+  "precacheCoverageCorrection": {
+    "priorFinding": "The first version of this pass documented (but explicitly did not fix) that 40 versioned <script src> files referenced by index.html were absent from the precache list -- mostly dossier-overrides-2..18/28..45, dossier-apply.js, hltb-gameye-v067.js, hltb-v104-fixes.js, and census-audit-resync.js.",
+    "reviewCorrection": "PR #32 review judged this a real gap against the PR's own stated goal (reliable/coherent offline startup) and asked for it to be closed rather than left as a documented limitation.",
+    "methodUsed": "Enumerated every local runtime asset index.html actually requests: every <script src>, every stylesheet <link href>, and the manifest/icon links (102 total). Compared that exact list against sw.js's precache array programmatically (not by eye) to get the precise missing set, then added every missing entry using the exact versioned URL string from index.html -- no external URLs, dev tooling, or audit/report files were considered for inclusion.",
+    "runtimeAssetsReferencedByIndexHtml": 102,
+    "runtimeAssetsPrecachedBefore": 62,
+    "previouslyMissingCount": 40,
+    "previouslyMissingList": [
+      "dossier-overrides.js?v=90", "dossier-overrides-2.js?v=90", "dossier-overrides-3.js?v=90", "dossier-overrides-4.js?v=90", "dossier-overrides-5.js?v=90", "dossier-overrides-6.js?v=90", "dossier-overrides-7.js?v=90", "dossier-overrides-8.js?v=90", "dossier-overrides-9.js?v=90", "dossier-overrides-10.js?v=90", "dossier-overrides-11.js?v=90", "dossier-overrides-12.js?v=90", "dossier-overrides-13.js?v=90", "dossier-overrides-14.js?v=90", "dossier-overrides-15.js?v=90", "dossier-overrides-16.js?v=90", "dossier-overrides-17.js?v=90", "dossier-overrides-18.js?v=90",
+      "dossier-overrides-28.js?v=118", "dossier-overrides-29.js?v=119", "dossier-overrides-30.js?v=120", "dossier-overrides-31.js?v=121", "dossier-overrides-32.js?v=122", "dossier-overrides-33.js?v=123", "dossier-overrides-34.js?v=124", "dossier-overrides-35.js?v=125", "dossier-overrides-36.js?v=126", "dossier-overrides-37.js?v=127", "dossier-overrides-38.js?v=128", "dossier-overrides-39.js?v=129", "dossier-overrides-40.js?v=130", "dossier-overrides-41.js?v=131", "dossier-overrides-42.js?v=132", "dossier-overrides-43.js?v=133", "dossier-overrides-44.js?v=134", "dossier-overrides-45.js?v=135",
+      "dossier-apply.js?v=90", "hltb-gameye-v067.js?v=90", "hltb-v104-fixes.js?v=136", "census-audit-resync.js?v=1"
+    ],
+    "remainingMissingCount": 0,
+    "excludedFromConsideration": "External URLs (none referenced), developer-only files (.claude/launch.json, tools/*), audit-out/*.json report artifacts -- none of these are part of index.html's app-shell loading and none were added.",
+    "consistencyToolUpgraded": "tools/pwa-precache-consistency-test.mjs now runs two checks: [A] every versioned precache entry matches index.html exactly (as before), and [B] every local runtime asset index.html references is present in the precache list -- a missing required asset now exits the tool with status 1. Verified the new check B actually fails when a required entry is removed (tested by temporarily stripping one entry and confirming a non-zero exit before restoring it)."
+  },
+
+  "cleanInstallOfflineTest": {
+    "method": "Explicitly unregistered the service worker and deleted all ShelfCheck caches, then loaded once online as a genuinely fresh visitor with the corrected (111-entry) precache list, then verified offline-startup readiness by calling caches.match() -- the exact call the fetch handler's offline .catch() makes -- for all 102 runtime URLs referenced by index.html.",
+    "includedCount": 2535,
+    "offlineReadinessCheck": {
+      "totalRuntimeUrlsChecked": 102,
+      "resolvedFromCache": 101,
+      "unresolvedFromCache": 1,
+      "unresolvedDetail": "manifest.webmanifest failed to appear in the precache from ONE install cycle despite being correctly listed in sw.js's array and fetching successfully (200 OK) when tested directly; a direct, isolated caches.addAll() call for the same URL from the page context succeeded without error, and on every subsequent load the URL was present (either via a successful precache or via the fetch handler's normal opportunistic caching). This did not recur on repeat clean-install cycles and did not cause any console error or missing-resource failure -- manifest.webmanifest is PWA-install metadata read by browser chrome, not fetched or depended on by the app's own JS, so it does not affect the app reaching a usable rendered state either online or offline. Documented as an observed, apparently intermittent, low-severity install-time flake rather than silently omitted; no code defect was found to fix (the array entry is exactly correct and the same call succeeds outside the service-worker's install context)."
+    },
+    "dossierFunctionalityLoads": true,
+    "priceFunctionalityLoads": true,
+    "searchDragonbFindsBreakers": true,
+    "consoleErrorsAttributableToMissingRuntimeResources": 0
+  },
+
+  "outOfScopeFindingsNotFixed": []
+}
