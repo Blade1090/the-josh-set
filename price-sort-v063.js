@@ -1,4 +1,4 @@
-// ShelfCheck v0.81 — sort the DATA before pagination, including HUNT price order.
+// ShelfCheck v0.81 — sort the DATA before pagination.
 (()=>{
   let sortMode='AZ';
   const oldRender=render;
@@ -17,12 +17,6 @@
   // relevance (acquisitionRank) whenever `q` is non-empty, silently discarding whatever price
   // sort the user selected and leaving results looking alphabetized instead of price-ordered.
   window.SHELFCHECK_PRICE_COMPARE=compare;
-  // model-fix has its own HUNT comparator based on huntPrice().rank. Make that rank
-  // respect the selected price direction instead of always forcing low-to-high.
-  if(typeof huntPrice==='function'){
-    const baseHuntPrice=huntPrice;
-    huntPrice=function(x){const hp=baseHuntPrice(x);if(!hp)return hp;if(sortMode==='HIGH')return {...hp,rank:-hp.rank};return hp};
-  }
   render=function(){
     window.SHELFCHECK_SORT=sortMode;
     if(sortMode==='AZ'){oldRender();return;}
