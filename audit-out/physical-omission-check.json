@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-04T15:39:54.558Z",
-  "task": "SHELFCHECK — THE BREAKERS CORRECTION + BOUNDED PHYSICAL-OMISSION CHECK (fix/breakers-and-physical-omissions)",
+  "generatedAt": "2026-09-04T16:05:00.000Z",
+  "task": "SHELFCHECK — THE BREAKERS CORRECTION + BOUNDED PHYSICAL-OMISSION CHECK (fix/breakers-and-physical-omissions, PR #30)",
+  "note": "Updated after PR #30 review: promoted Russian Subway Dogs and Prince of Persia: The Lost Crown from the curator queue to additions on first-party physical-PS4-disc evidence that doesn't require a PriceCharting ID (see omissionCheck.additions and omissionCheck.reclassifications below); corrected the candidate-count wording (the 244-title GameEye check was a bulk reconciliation comparison, not 244 individually-investigated omission candidates); Blasphemous 2 kept unresolved per explicit reviewer instruction.",
 
   "breakers": {
     "identity": {
@@ -35,40 +36,57 @@
   },
 
   "omissionCheck": {
-    "scope": "Bounded per instructions -- did not re-review the 2,532 existing identities or re-litigate existing exclusions. Investigated candidates via two channels: (1) cross-checking Josh's real, current GameEye-derived owned-title list (tools/gameeye-2026-08-30-ps4.json, 244 titles) against the census using the REAL app.js candidates()/importCSV()-style resolution logic (not a naive exact-title check) -- this is the highest-confidence channel available, since every title in it is a game Josh has independently verified he owns; (2) a bounded set of additional candidate titles compiled from general knowledge of PS4-era publisher/release patterns matching the task's priority categories (digital-live-service-with-physical-special-edition, boutique/Limited-Run-style late PS4 releases), each checked for census absence and then, for the most plausible ones, cross-checked against available web sources.",
-    "candidatesInvestigated": 292,
-    "candidatesInvestigatedBreakdown": {
-      "gameEyeOwnedListCrossCheck": 244,
-      "additionalBrainstormedCandidates": 48
-    },
-    "toolingLimitation": "PriceCharting (pricecharting.com) refuses this session's WebFetch tool with HTTP 403, exactly as found in the prior price-audit pass -- so no candidate beyond Dragon Ball: The Breakers (whose UPC/PriceCharting-product-ID evidence was supplied directly in the task) could be independently verified to the same evidentiary tier. This is the primary reason no additional identity was auto-added: the task's own bar ('evidence at least as convincing as The Breakers') requires exact-catalog-identifier-level confirmation this session cannot independently obtain for a new candidate.",
+    "scope": "Bounded per instructions -- did not re-review the 2,532 existing identities or re-litigate existing exclusions. Used two distinct, differently-scoped channels: (1) a BULK RECONCILIATION COMPARISON of Josh's real, current GameEye-derived owned-title list (tools/gameeye-2026-08-30-ps4.json, 244 titles) against the census using the REAL app.js candidates()/importCSV()-style resolution logic -- this is a mechanical, automated comparison of an existing data file against the census (not 244 individually-researched omission candidates), included because it is the highest-confidence signal available (every title in it is a game Josh has independently verified he owns) and it surfaced zero genuine missing-identity cases (see relatedFindingsOutOfScope for the 4 non-omission alias gaps it did surface); (2) the actual BOUNDED MANUAL OMISSION INVESTIGATION -- 48 candidate titles individually considered against the task's priority categories (digital-live-service-with-physical-special-edition, boutique/Limited-Run-style late PS4 releases), each checked for census absence and then, for the most plausible ones, individually researched against available web sources. This manual investigation stayed within the <=50 cap the task specifies.",
+    "candidatesInvestigated": 48,
+    "candidatesInvestigatedNote": "This is the bounded MANUAL investigation count (<=50 cap), not the separate 244-title automated GameEye reconciliation comparison described above -- that comparison is a different kind of check (existing-data-file vs. census) and is not 244 individually-researched omission candidates.",
+    "toolingLimitation": "PriceCharting (pricecharting.com) refuses this session's WebFetch tool with HTTP 403, exactly as found in the prior price-audit pass -- so no candidate's exact UPC/PriceCharting product ID could be independently confirmed this session. Per PR #30 review, this alone does not block an addition when other sufficiently strong FIRST-PARTY evidence of a physical PS4 disc exists (see additions below) -- it only means those additions are PRICE PENDING rather than priced, and it's why the remaining candidates below were not added.",
     "additions": [
-      { "id": 2781, "title": "Dragon Ball: The Breakers", "note": "See breakers section above -- the only identity added in this pass." }
+      { "id": 2781, "title": "Dragon Ball: The Breakers", "note": "See breakers section above. Added in the original pass; priced ($8.99 CIB) from the supplied UPC/PriceCharting evidence." },
+      { "id": 2782, "title": "Russian Subway Dogs", "note": "See additionalAdditionsAfterReview below. Added after PR #30 review on first-party Limited Run Games evidence. PRICE PENDING -- no price invented." },
+      { "id": 2783, "title": "Prince of Persia: The Lost Crown", "note": "See additionalAdditionsAfterReview below. Added after PR #30 review on first-party Sony/PlayStation evidence. PRICE PENDING -- no price invented." }
     ],
     "rejected": [
       { "title": "Marvel MaXimum Collection", "reason": "Confirmed via Wikipedia: Nintendo Switch, PlayStation 5, Windows, Xbox Series X/S only -- no PS4 release. Not eligible." },
       { "title": "Hollow Knight: Silksong", "reason": "PS5/Xbox Series/Switch/PC only -- no PS4 release. Not eligible." },
       { "title": "Firewall Zero Hour", "reason": "Present in Josh's GameEye list but already deliberately EXCLUDED by ownership-reconcile-v071.js ('PSVR REQUIRED — excluded by Josh Set constitution'). Not an omission -- existing, correct exclusion." },
       { "title": "WWE 2K24", "reason": "Present in Josh's GameEye list but already deliberately EXCLUDED by ownership-reconcile-v071.js ('ANNUAL SPORTS — excluded by Josh Set constitution'). Not an omission -- existing, correct exclusion." },
-      { "title": "~40 other brainstormed candidates (Concord, Foamstars, Knockout City, Rumbleverse, Sifu, Animal Well, Balatro, Cocoon, Tchia, Neva, Trepang2, and similar)", "reason": "Absent from census, but this session could not obtain reliable platform/physical-release confirmation for these without a working PriceCharting or equivalent structured catalog lookup; general knowledge alone is not authoritative enough per instructions ('do not use marketplace listings alone as proof', 'do not add based only on fuzzy title matching'). Not added and not queued -- the risk of asserting an unverified physical-PS4-release claim outweighs the value of a low-confidence curator entry for each." }
+      { "title": "~40 other brainstormed candidates (Concord, Foamstars, Knockout City, Rumbleverse, Sifu, Animal Well, Balatro, Cocoon, Tchia, Neva, Trepang2, and similar)", "reason": "Absent from census, but this session could not obtain reliable platform/physical-release confirmation for these; general knowledge alone is not authoritative enough per instructions ('do not use marketplace listings alone as proof', 'do not add based only on fuzzy title matching'). Not added and not queued -- the risk of asserting an unverified physical-PS4-release claim outweighs the value of a low-confidence curator entry for each." }
     ],
     "curatorQueue": [
       {
-        "title": "Russian Subway Dogs",
-        "reasonQueuedNotAdded": "Well-corroborated physical PS4 release (Limited Run Games #555) via three independent, direct (non-summarized) listings: Limited Run Games' own store page ('Limited Run #555: Russian Subway Dogs (PS4)'), an Amazon product listing titled the same way, and a PlayStation Store URL containing the product code 'RUSSUBDOGSPS4000'. Confirmed absent from the census. Not auto-added because this session could not independently obtain a UPC or PriceCharting product ID to match the exact evidentiary tier The Breakers had.",
-        "evidenceNeeded": "UPC and/or PriceCharting product ID confirmation (or direct curator sign-off given the existing evidence), plus a CIB/complete price source before it could also get a price mapping."
-      },
-      {
-        "title": "Prince of Persia: The Lost Crown",
-        "reasonQueuedNotAdded": "Well-corroborated physical PS4 release: Best Buy listing with an explicit Ubisoft retail SKU (UBP30512587/UBP30512582), an Amazon listing titled 'Standard Edition, PlayStation 4', and an eStarland PS4 product page, all independently confirming a first-party Ubisoft physical PS4 release dated January 18, 2024. Confirmed absent from the census. Not auto-added for the same reason as above -- no independently-verified UPC/PriceCharting product ID obtainable this session.",
-        "evidenceNeeded": "UPC and/or PriceCharting product ID confirmation (or direct curator sign-off given the existing evidence), plus a CIB/complete price source."
-      },
-      {
         "title": "Blasphemous 2",
-        "reasonQueuedNotAdded": "A PS4 physical release plausibly exists (multiple sources describe a physical release), but sources found were inconsistent -- one describing a Team17-published standard retail release from September 2023, another describing an April 2024 Selecta Play Collector's Edition for 'Nintendo Switch and PS4' -- and this session could not resolve the discrepancy or confirm which (if any) is an accurate first-party PS4 SKU. Flagged specifically because the conflicting evidence itself is the reason NOT to add.",
-        "evidenceNeeded": "Direct confirmation of a specific physical PS4 SKU/UPC and its actual publisher, resolving the Team17-vs-Selecta-Play discrepancy, before this should be considered further."
+        "status": "unresolved -- no confirmed physical PS4 release",
+        "reasonUnresolved": "Team17 confirms a PS4 VERSION of the game exists, but a digital PS4 version alone does not prove a physical PS4 disc release. Sources found on the physical release itself were inconsistent -- one describing a Team17-published standard retail release from September 2023, another describing an April 2024 Selecta Play Collector's Edition for 'Nintendo Switch and PS4' -- and this session could not resolve the discrepancy or confirm either as an accurate first-party PS4 physical SKU. Per explicit PR #30 review instruction: kept unresolved, NOT added.",
+        "evidenceNeeded": "Direct first-party confirmation (publisher/retailer listing explicitly naming a PS4 disc SKU/UPC) resolving the Team17-vs-Selecta-Play discrepancy, before this should be considered further."
       }
     ]
+  },
+
+  "additionalAdditionsAfterReview": {
+    "note": "Added after independent PR #30 review found first-party physical-disc evidence sufficient without a PriceCharting ID. Both use the same registerCensusMutation('add', ...) pipeline as Breakers, both left PRICE PENDING (x.max stays null) since no safe exact price source exists for either yet -- no price was invented.",
+    "russianSubwayDogs": {
+      "id": 2782,
+      "title": "Russian Subway Dogs",
+      "set": "INCLUDED",
+      "verifiedAbsentBeforeAdding": true,
+      "evidence": "Limited Run Games' own official product page: 'Limited Run #555: Russian Subway Dogs (PS4)', which states directly: 'Russian Subway Dogs is on a region-free physical disc for the PlayStation 4.' First-party manufacturer/publisher confirmation of the physical disc, sufficient without a PriceCharting ID per review.",
+      "priceHandling": "max left null (PRICE PENDING) -- no exact safe price source was found; not invented.",
+      "searchResults": {
+        "Russian Subway Dogs": { "resultCount": 1, "includesTitle": true }
+      }
+    },
+    "princeOfPersiaTheLostCrown": {
+      "id": 2783,
+      "title": "Prince of Persia: The Lost Crown",
+      "set": "INCLUDED",
+      "verifiedAbsentBeforeAdding": true,
+      "evidence": "Sony's own official PlayStation listing states that owners of the PS4 disc copy must insert that physical disc into a PS5 to claim the PS5 digital upgrade -- a disc-insertion cross-gen-upgrade check has no meaning unless a real PS4 disc exists, which is direct first-party confirmation of a physical PS4 release (Ubisoft, January 18, 2024).",
+      "priceHandling": "max left null (PRICE PENDING) -- no exact safe price source was found; not invented.",
+      "searchResults": {
+        "Prince of Persia": { "resultCount": 1, "includesTitle": true },
+        "Lost Crown": { "resultCount": 1, "includesTitle": true }
+      }
+    }
   },
 
   "relatedFindingsOutOfScope": {
@@ -103,13 +121,13 @@
   },
 
   "finalCounts": {
-    "included": 2533,
+    "included": 2535,
     "priced": 2051,
-    "pending": 482,
-    "coveragePercent": 80.97,
+    "pending": 484,
+    "coveragePercent": 80.91,
     "owned": { "total": 230, "priced": 211, "pending": 19, "coveragePercent": 91.74 },
-    "needed": { "total": 2303, "priced": 1840, "pending": 463, "coveragePercent": 79.9 },
-    "changeFromPriorBaseline": "included 2532 -> 2533 (+1, Dragon Ball: The Breakers); priced 2050 -> 2051 (+1); pending unchanged at 482 (Breakers was priced at creation, not pending)."
+    "needed": { "total": 2305, "priced": 1840, "pending": 465, "coveragePercent": 79.83 },
+    "changeFromPriorBaseline": "included 2532 -> 2535 (+3: Dragon Ball: The Breakers, Russian Subway Dogs, Prince of Persia: The Lost Crown); priced 2050 -> 2051 (+1, Breakers only -- the other two are PRICE PENDING); pending 482 -> 484 (+2, Russian Subway Dogs and Prince of Persia: The Lost Crown, both PRICE PENDING as instructed rather than guessed)."
   },
 
   "regression": {
@@ -125,8 +143,9 @@
       "neededFilterRenders": true,
       "huntFilterRenders": true,
       "progressReflectsFinalizedState": true,
-      "pwaCacheVersion": "shelfcheck-v122",
-      "newFilePrecached": true
+      "pwaCacheVersion": "shelfcheck-v123",
+      "newFilePrecached": true,
+      "searchVerifiedForAllThreeAddedIdentities": true
     }
   }
 }

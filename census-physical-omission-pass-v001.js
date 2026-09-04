@@ -44,6 +44,52 @@
       added.push(x.title);
     }
 
+    // Russian Subway Dogs -- confirmed physical PS4 release (Limited Run Games #555).
+    // Limited Run Games' own official product page ("Limited Run #555: Russian Subway Dogs
+    // (PS4)") states directly: "Russian Subway Dogs is on a region-free physical disc for the
+    // PlayStation 4." First-party publisher/manufacturer confirmation of a physical PS4 disc is
+    // sufficient without a PriceCharting ID. No verified price source exists yet -- left
+    // PRICE PENDING (max stays null) rather than guessed.
+    if(!byId.has(2782)){
+      const x={
+        id:2782,
+        title:'Russian Subway Dogs',
+        set:'INCLUDED',
+        baseline:'NEEDED',
+        strong:null,
+        target:null,
+        max:null,
+        search:norm('Russian Subway Dogs'),
+        auditSource:'Confirmed physical PS4 release: Limited Run Games #555 ("Russian Subway Dogs is on a region-free physical disc for the PlayStation 4" -- Limited Run Games\' own official product page).'
+      };
+      items.push(x);
+      byId.set(x.id,x);
+      added.push(x.title);
+    }
+
+    // Prince of Persia: The Lost Crown -- confirmed physical PS4 release (Ubisoft, January 18,
+    // 2024). Sony's own official PlayStation listing states that owners of the PS4 disc copy
+    // must insert that disc into a PS5 to use the PS5 digital upgrade -- direct first-party
+    // confirmation that a physical PS4 disc exists (a disc-based cross-gen upgrade check has no
+    // meaning unless the PS4 disc is real). No verified price source exists yet -- left
+    // PRICE PENDING (max stays null) rather than guessed.
+    if(!byId.has(2783)){
+      const x={
+        id:2783,
+        title:'Prince of Persia: The Lost Crown',
+        set:'INCLUDED',
+        baseline:'NEEDED',
+        strong:null,
+        target:null,
+        max:null,
+        search:norm('Prince of Persia: The Lost Crown'),
+        auditSource:'Confirmed physical PS4 release (Ubisoft, January 18, 2024): Sony\'s own official PlayStation listing states PS4 disc owners must insert the physical disc into a PS5 to claim the PS5 digital upgrade -- first-party confirmation of a real PS4 disc.'
+      };
+      items.push(x);
+      byId.set(x.id,x);
+      added.push(x.title);
+    }
+
     window.SHELFCHECK_PHYSICAL_OMISSION_PASS_V001={added};
     console.info(`ShelfCheck physical omission pass v0.01 applied: ${added.length} identity added`,added);
   });
