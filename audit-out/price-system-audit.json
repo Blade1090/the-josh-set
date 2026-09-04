@@ -1,99 +1,70 @@
 {
-  "generatedAt": "2026-09-03T19:46:57.599Z",
-  "note": "ShelfCheck price system cleanup pass -- FOLLOW-UP: resolved the 2,537-vs-2,542 runtime-count discrepancy and dispatched the existing whole-census PriceCharting fill workflow. See runtimeCountDiscrepancy and workflowDispatch below for full detail. All numbers in this file now use the authoritative 2,542-identity baseline.",
-  "runtimeCountDiscrepancy": {
-    "cause": "A genuine (if narrow) script-ordering race, not merely a test-harness timing artifact -- but NOT a census-eligibility bug, and NOT fixed in production code per instructions. census-cleanup.js's EXCLUDE map only re-checks items that ALREADY exist as INCLUDED at the moment IT runs; it does not re-scan after LATER scripts (the census-v052/053/054 PriceCharting-sweep passes) add brand-new identities that happen to match an already-excluded title (concretely reproduced: 'Funko Fusion', added by census-v052 with set:'INCLUDED', is also listed in census-cleanup.js's own EXCLUDE map with reason 'PS4 release is digital-only...'). Whether that later-added identity gets correctly re-excluded depends on whether census-cleanup.js's own setTimeout-polling readiness loop happens to fire again (via a delayed retry) AFTER the sweep script has run, or succeeded on its very first synchronous attempt (in which case it never rechecks and the newly-added, actually-ineligible identity stays incorrectly INCLUDED). This is why a live browser can show anywhere from ~2,537 to 2,542 depending on real-world timing between script tags and the DecompressionStream-driven online price sync, while a fully synchronous replay (no real async gaps at all) deterministically lands on 2,542 every time -- because on that path census-cleanup.js's first (and only) attempt always runs to completion before any later script has had a chance to add a conflicting identity.",
-    "whyNotFixedInRuntime": "Fixing the underlying race (e.g. having the PriceCharting-sweep scripts consult census-cleanup.js's EXCLUDE map themselves before adding an identity) would make the count CONSISTENTLY resolve to the lower, arguably-more-correct value (~2,537-2,539) instead of sometimes 2,542 -- i.e. it would deterministically add/remove identities from what main currently ships, which the instructions for this pass explicitly forbid ('Do NOT re-audit census eligibility. Do NOT add/remove identities. Production census semantics must remain unchanged.'). Flagged here as a real, pre-existing (not introduced by the price-sort fix) finding for a future dedicated pass -- not resolved in this one.",
-    "resolution": "Fixed the AUDIT METHOD instead, per instructions ('If it is only a test-harness/timing problem, fix the harness/audit method instead'): switched from an inherently-racy live-async-browser reading to a deterministic Node vm-replay harness that runs every census- and price-mutating script in strict, guaranteed script-tag order with no real async gaps for the census chain (matching the same synchronous methodology that has consistently underpinned the 2,542 baseline throughout this project's prior census-integrity work), while still correctly awaiting the one genuinely-async, fully-local, deterministic-outcome step (price-online-v041.js's DecompressionStream-based price-snapshot decompression) before measuring. This harness reproduces exactly 2,542 INCLUDED every run, and its priced/pending/owned/needed breakdown was cross-validated against a live browser reading taken at a moment the browser also showed 2,542 (both methods agree exactly: 2,053 priced, 489 pending, owned 230/211/19, needed 2,312/1,842/470)."
+  "generatedAt": "2026-09-04T14:51:19.267Z",
+  "note": "ShelfCheck price system cleanup pass -- UPDATED after PR #29 (fix/runtime-census-determinism) merged to main. PR #29 replaced the racy census-mutation pipeline with a single deterministic finalization step; the correctly-finalized census is 2,532 INCLUDED, not the old 2,542 figure this file previously used (see PR #29's audit-out/runtime-census-determinism.json for the full root-cause/fix). This pass rebased feature/price-system-cleanup onto current main and regenerated every number below from the live, finalized 2,532-identity runtime -- none of it is hardcoded. Prior 2,542-based numbers (2,053 priced / 489 pending / 80.76%) are obsolete and superseded by the figures in this file.",
+  "runtimeBaselineUpdate": {
+    "previousBaseline": { "included": 2542, "priced": 2053, "pending": 489, "coveragePercent": 80.76 },
+    "currentBaseline": { "included": 2532, "priced": 2050, "pending": 482, "coveragePercent": 80.96 },
+    "reason": "PR #29 fixed a real script-ordering race in census-cleanup.js/census-collapse-v035.js (their general EXCLUDE/COLLAPSE maps sat earlier in index.html than the census-v052..059 PriceCharting sweep that adds new identities, so whether an added identity matching an existing exclusion rule got correctly re-excluded depended on timing). The new deterministic pipeline (registerCensusMutation -> census-finalize.js, add phase always before exclude phase) makes every existing exclusion rule apply consistently. Result: 10 identities that could sometimes slip through as INCLUDED under the old race are now always EXCLUDED -- all 10 already matched an existing, already-authored exclusion/dedup rule (digital-only or no confirmed physical release); none is a new eligibility opinion, and none was added/removed by this price pass.",
+    "removedIdentities": [
+      "id 2310 Funko Fusion", "id 2394 Mr. Driller DrillLand", "id 2421 Hustle Kings", "id 2472 Teki-Paki",
+      "id 2571 Eldest Souls", "id 2713 SNK Vs. Capcom: SVC Chaos", "id 2714 Saga Frontier Remastered",
+      "id 2734 Tales of the Tiny Planet", "id 2743 Ultra Street Fighter IV", "id 2764 Way Of Redemption"
+    ],
+    "priceImpactOfRemovedIdentities": "Of these 10 removed identities, 3 had a price on file and 7 were already pending -- accounting for the full 3-priced / 7-pending drop between the old and new baselines (2053-2050=3, 489-482=7). None was baseline:'OWNED', so the OWNED breakdown (230/211/19) is completely unchanged by this update.",
+    "denominatorSource": "tools/price-runtime-audit.mjs -- runs the real census-mutating scripts through the actual registerCensusMutation -> census-finalize.js pipeline (not a hardcoded number), then the real price-*.js scripts, and reports coverage against the resulting live INCLUDED set. Cross-checked against a live browser session: DATA.n === 2532 after load, matching this tool's output exactly."
   },
   "priceSortBug": {
-    "cause": "model-fix.js's render() has a sort-priority chain (ZA title-desc -> HUNT-filter huntPrice().rank -> search-query acquisitionRank relevance) with no branch for window.SHELFCHECK_SORT==='LOW'/'HIGH'. Whenever a search query was present, model-fix's render unconditionally re-sorted by acquisitionRank + alphabetical tie-break, discarding the price ordering that price-sort-v063.js's outer render wrapper had already applied to the `items` array -- this is what actually produced the 'looks alphabetized' symptom (confirmed by reproducing it live: filter ALL, sort LOW, search 'a' or 'the' -> results order by acquisitionRank/alpha, ignoring price). Plain ALL/OWNED/NEEDED views with an EMPTY search box were not affected.",
+    "cause": "model-fix.js's render() has a sort-priority chain (ZA title-desc -> HUNT-filter huntPrice().rank -> search-query acquisitionRank relevance) with no branch for window.SHELFCHECK_SORT==='LOW'/'HIGH'. Whenever a search query was present, model-fix's render unconditionally re-sorted by acquisitionRank + alphabetical tie-break, discarding the price ordering that price-sort-v063.js's outer render wrapper had already applied to the `items` array -- this is what actually produced the 'looks alphabetized' symptom. Plain ALL/OWNED/NEEDED views with an EMPTY search box were not affected.",
     "fix": "Exposed price-sort-v063.js's existing numeric comparator as window.SHELFCHECK_PRICE_COMPARE, and added one branch to model-fix.js's render() sort chain -- positioned after the existing ZA and HUNT branches (both left untouched) and before the q-relevance fallback -- that applies it whenever SHELFCHECK_SORT is LOW or HIGH. HUNT's own price-hierarchy ranking is unchanged by design.",
-    "filesChanged": [
-      "model-fix.js",
-      "price-sort-v063.js"
-    ],
-    "validationStatus": "PASS -- re-verified live in a clean browser session against the corrected 2,542-identity state: full ALL/OWNED/NEEDED/HUNT x LOW/HIGH x empty/non-empty-search matrix, all combinations numerically monotonic with unknown prices last and alphabetical tie-break intact."
+    "filesChanged": ["model-fix.js", "price-sort-v063.js"],
+    "survivedRebase": true,
+    "validationStatus": "PASS -- re-verified live in a clean browser session AFTER rebasing onto main/PR #29, against the corrected 2,532-identity finalized census: full ALL/OWNED/NEEDED/HUNT x LOW/HIGH x empty/non-empty-search matrix (16 combinations), all numerically monotonic with unknown ('PRICE PENDING') prices last and alphabetical tie-break intact. (The unrelated 'BEST WAY TO BUY' collection-recommendation cards that fun-features-v103.js injects for some search queries were excluded from this check -- they are pre-existing, out-of-scope functionality with their own 'games added' ordering, not part of the price sort.)"
   },
-  "baseline": {
-    "included": 2542,
-    "priced": 2053,
-    "pending": 489,
-    "coveragePercent": 80.76
-  },
-  "final": {
-    "included": 2542,
-    "priced": 2053,
-    "pending": 489,
-    "coveragePercent": 80.76
-  },
-  "owned": {
-    "total": 230,
-    "priced": 211,
-    "pending": 19,
-    "coveragePercent": 91.74
-  },
-  "needed": {
-    "total": 2312,
-    "priced": 1842,
-    "pending": 470,
-    "coveragePercent": 79.67
-  },
-  "products": {
-    "total": 48,
-    "priced": 11,
-    "pending": 37,
-    "coveragePercent": 22.92
-  },
+  "baseline": { "included": 2532, "priced": 2050, "pending": 482, "coveragePercent": 80.96 },
+  "final": { "included": 2532, "priced": 2050, "pending": 482, "coveragePercent": 80.96 },
+  "owned": { "total": 230, "priced": 211, "pending": 19, "coveragePercent": 91.74 },
+  "needed": { "total": 2302, "priced": 1839, "pending": 463, "coveragePercent": 79.89 },
+  "products": { "total": 50, "priced": 11, "pending": 39, "somePriced": 13, "nonePriced": 26, "coveragePercent": 22.0 },
   "safeMatchesAdded": 0,
   "invalidMappingsFixed": 0,
   "ambiguousRemaining": 0,
   "noMatchRemaining": 19,
   "workflowDispatch": {
-    "workflowUsed": "price-whole-census-final.yml (\"Strict Final Whole Census Price Pass\")",
-    "whyThisOne": "Of the 7 existing price-related workflows, this is the most recent/strictest whole-census fill mechanism (its own tools/price-whole-census-final.mjs requires either an exact title match or >=78% token overlap with at most 1 missing token, and only accepts a single unambiguous candidate -- ties/multiple qualifying matches are rejected rather than guessed), it never overwrites an identity that already has x.max>0 (preserves existing verified mappings by construction), it needs no credentials (plain unauthenticated PriceCharting scrape, same as the other price-*.mjs tools), and it uploads its output as a reviewable artifact rather than committing directly to main (unlike price-gap-audit.yml, which does auto-commit and was therefore NOT dispatched). price-whole-census-v077.js -- the file already committed in the repo -- is literally this workflow's own prior output.",
-    "runId": 33796142511,
-    "runUrl": "https://github.com/Blade1090/the-josh-set/actions/runs/33796142511",
-    "dispatchedAgainst": "main @ ade7a2a2 (current main HEAD at dispatch time)",
-    "conclusion": "success",
-    "result": "Re-running the workflow reproduced EXACTLY the 122 entries already committed in price-whole-census-v077.js -- zero new entries, zero removed entries, byte-for-byte identical id set. The workflow's own diagnostic reports 478 titles it attempted and could not confidently match (reason NO_STRICT_PRODUCT_MATCH in every case checked), including all 19 currently OWNED-pending identities -- independent, first-party-credentialed confirmation of what this session's earlier manual research had already found for the 3 standalone OWNED-pending titles (e.g. Marvel's Spider-Man has multiple competing PriceCharting editions -- GOTY, Collector's, Not-For-Resale, base -- preventing the strict single-unambiguous-match requirement from firing).",
-    "safeMatchesIncorporated": 0,
-    "note": "The workflow's own 'requested: 600' figure (vs. this pass's 489 pending) reflects a real architectural detail, not an error: tools/price-whole-census-audit.mjs (which builds the workflow's input list) only checks for a blank x.max field, not the full priceFor() resolution chain -- so it also re-attempts ~111 identities that are already effectively priced via price-online-v041.js's auto-synced snapshot (stored in stateCache.prices, not x.max). Re-finding a price for those is redundant but harmless (never conflicts, since the script never overwrites an existing x.max, and these identities are not counted as 'pending' by this pass's own more accurate priceFor()-based measurement)."
+    "reDispatchedThisPass": false,
+    "reason": "This update only rebased onto main (PR #29's runtime-determinism fix) and re-measured against the newly-finalized 2,532 census -- it did not add, remove, or research any price-related identity. The prior pass's strict whole-census workflow dispatch (price-whole-census-final.yml, run 33796142511) already found zero additional safe matches across the full prior candidate set, and none of the 10 identities removed by PR #29 were priced-pending candidates this workflow could have matched differently (7 of the 10 were already unpriced/excluded from consideration; the workflow's own NO_STRICT_PRODUCT_MATCH list already covered them). Re-running it would be pure repeated work with no new identities exposed by the rebase, so per instructions it was not re-dispatched.",
+    "priorRun": {
+      "workflowUsed": "price-whole-census-final.yml (\"Strict Final Whole Census Price Pass\")",
+      "runId": 33796142511,
+      "runUrl": "https://github.com/Blade1090/the-josh-set/actions/runs/33796142511",
+      "conclusion": "success",
+      "result": "Reproduced EXACTLY the 122 entries already committed in price-whole-census-v077.js -- zero new entries. All 19 currently OWNED-pending identities independently confirmed NO_STRICT_PRODUCT_MATCH."
+    }
+  },
+  "priceRulesPreserved": {
+    "wrongPriceWorseThanPending": true,
+    "noFuzzyEditionMatching": true,
+    "noUnsafeRegionalInheritance": true,
+    "noCompilationBoxPriceAssignedToComponents": true,
+    "verification": "No price-*.js file's matching/assignment logic was touched by this pass -- only census script content (via the PR #29 merge) and index.html/audit-out files changed. price-whole-census-final.mjs's own strict-match rule (exact title or >=78% token overlap with <=1 missing token, single unambiguous candidate only, never overwrites an existing price) is unchanged."
   },
   "phase3Findings": {
     "zeroDollarPricesTreatedAsReal": 0,
     "nanOrStringSortingProblems": 0,
     "duplicatePriceChartingProductIdsAssignedIncompatibly": "not applicable -- no PriceCharting product ID/URL/UPC is stored anywhere in this codebase; all price data is baked directly as [census id, cents] pairs into the price-*.js files (plus one auto-synced compressed snapshot, price-online-v041.js), with no persisted external identifier to cross-check for collisions",
-    "identitiesIncorrectlyInheritingCompilationPrices": "0 found -- checked all 48 multi-identity products' priced components for identical shared price values (the specific anti-pattern the task rules warn against); none found.",
+    "identitiesIncorrectlyInheritingCompilationPrices": "0 found -- re-checked all 50 multi-identity products' priced components for identical shared price values; none found.",
     "suspiciousOutliers": {
       "veryLow": 0,
       "veryHigh": [
-        {
-          "id": 1203,
-          "title": "Tamashii",
-          "price": 856,
-          "assessment": "Plausible -- known ultra-rare Japan-only PS4 release, not a decimal/cents conversion error."
-        },
-        {
-          "id": 2,
-          "title": "1001 Spikes",
-          "price": 801.07,
-          "assessment": "Plausible -- known limited/expensive physical PS4 run."
-        },
-        {
-          "id": 924,
-          "title": "Poop Slinger",
-          "price": 511.88,
-          "assessment": "Plausible -- known ultra-limited niche release."
-        }
+        { "id": 1203, "title": "Tamashii", "price": 856, "assessment": "Plausible -- known ultra-rare Japan-only PS4 release, not a decimal/cents conversion error." },
+        { "id": 2, "title": "1001 Spikes", "price": 801.07, "assessment": "Plausible -- known limited/expensive physical PS4 run." },
+        { "id": 924, "title": "Poop Slinger", "price": 511.88, "assessment": "Plausible -- known ultra-limited niche release." }
       ]
     },
-    "productPriceArchitectureGap": "No product/compilation-level price field exists anywhere in the codebase. Only individual component identities carry prices, which is why 37 of 48 multi-identity products have at least one unpriced component and only 11 of 48 have every component priced. Flagged as a structural gap for a future feature pass, not built in this cleanup.",
-    "priceArchitectureCorrection": "Corrects an inaccuracy in this pass's original PR: the primary source of baked-in price coverage is NOT public-prices-full-v066.js's own wrapped priceFor() map (that wrap is in fact superseded/unreachable -- price-fix.js, loaded later, replaces the global priceFor with a fresh function declaration that only checks priceMap (populated from stateCache.prices) and x.max, not the earlier wrap chain). The real primary source is price-online-v041.js, which decompresses a baked compressed snapshot (1,744 identity->price pairs) directly into stateCache.prices/localStorage on every session via a real async DecompressionStream step. This does not change any measured coverage number (which was always taken from the live, correctly-resolved priceFor() output) -- it only corrects the prior report's explanation of which file the data actually comes from."
+    "productPriceArchitectureGap": "No product/compilation-level price field exists anywhere in the codebase. Only individual component identities carry prices, which is why 39 of 50 multi-identity products have at least one unpriced component and only 11 of 50 have every component priced. Flagged as a structural gap for a future feature pass, not built in this cleanup."
   },
   "externalAccessBlocker": {
-    "summary": "PriceCharting blocked this session's own WebFetch tool entirely (HTTP 403) in the original pass. This follow-up did not need to retest that, since Task 2 was fulfilled by dispatching the existing price-whole-census-final.yml workflow instead, which runs from GitHub's own runners and is unaffected by this session's network restriction."
+    "summary": "Not retested this pass -- no new external price research was performed (see workflowDispatch.reason above)."
   },
-  "externalInvestigationsPerformed": 3,
+  "externalInvestigationsPerformed": 0,
   "externalInvestigationsBudget": 40
 }

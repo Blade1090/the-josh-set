@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T19:47:17.666Z",
-  "note": "ShelfCheck price curator queue -- FOLLOW-UP pass, using the authoritative 2,542-identity baseline (see audit-out/price-system-audit.json's runtimeCountDiscrepancy for how that was confirmed) and the strict-final-whole-census-prices workflow's own diagnostics (run 33796142511) for per-title reasons. Zero new safe prices were found either locally or via that workflow this pass -- see workflowDispatch in the audit file. Ranked per instructions: OWNED unresolved first.",
+  "generatedAt": "2026-09-04T14:51:19.267Z",
+  "note": "ShelfCheck price curator queue -- UPDATED after PR #29 (fix/runtime-census-determinism) merged to main. Uses the current authoritative 2,532-identity finalized-runtime denominator (see audit-out/price-system-audit.json's runtimeBaselineUpdate for why this replaces the old 2,542 figure) and the strict-final-whole-census-prices workflow's own diagnostics (run 33796142511, not re-dispatched this pass -- see workflowDispatch in the audit file) for per-title reasons. The 19 OWNED-pending identities below are UNCHANGED from the prior 2,542-based queue: none of the 10 identities PR #29 newly excludes was baseline:'OWNED', so this list is identical in membership, just re-validated against the new denominator. Ranked per instructions: OWNED unresolved first.",
   "ownedPending": [
     {
       "id": 162,
@@ -137,7 +137,7 @@
     }
   ],
   "neededPendingSummary": {
-    "count": 470,
-    "note": "Not individually enumerated, per instructions not to research hundreds of titles individually. The strict-final-whole-census-prices workflow attempted all of these too (as part of its 478 NO_STRICT_PRODUCT_MATCH/NO_PRICE pending list) and found no new confident matches. Queued for a future pass once new PriceCharting catalog data exists or the strict-matching criteria are deliberately revisited."
+    "count": 463,
+    "note": "Not individually enumerated, per instructions not to research hundreds of titles individually. Down from 470 under the old 2,542 baseline because 7 of the 10 identities PR #29 now correctly excludes were themselves unpriced NEEDED-pending rows (470 - 7 = 463); the other 3 excluded identities already had a price on file. The strict-final-whole-census-prices workflow attempted the surviving titles too (as part of its NO_STRICT_PRODUCT_MATCH/NO_PRICE pending list) and found no new confident matches. Queued for a future pass once new PriceCharting catalog data exists or the strict-matching criteria are deliberately revisited."
   }
 }
