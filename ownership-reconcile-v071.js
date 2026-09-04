@@ -1,6 +1,6 @@
 // ShelfCheck v0.71 — close the six-row GameEye reconciliation queue.
 // Products remain products; Josh-rule exclusions remain outside the denominator.
-(()=>{let tries=0;const apply=()=>{tries++;if(typeof norm!=='function'||!Array.isArray(items)||!items.length||!DATA||typeof byId==='undefined'){if(tries<120)setTimeout(apply,100);return;}
+(()=>{registerCensusMutation('exclude',()=>{
 const find=t=>items.find(x=>norm(x.title)===norm(t));
 const addAlias=(target,alias)=>{const x=find(target);if(!x)return false;const a=norm(alias);if(!aliasesById.has(x.id))aliasesById.set(x.id,[]);if(!aliasesById.get(x.id).includes(a))aliasesById.get(x.id).push(a);x.search=(x.search||norm(x.title))+' '+a;return true;};
 const ensureExcluded=(title,reason,id)=>{let x=find(title);if(!x){x={id,title,set:'EXCLUDED',baseline:'EXCLUDED',strong:null,target:null,max:null,search:norm(title)};items.push(x);byId.set(id,x)}else x.set='EXCLUDED';x.cleanupReason=reason;return x;};
@@ -10,4 +10,4 @@ ensureExcluded('Firewall Zero Hour','PSVR REQUIRED — excluded by Josh Set cons
 ensureExcluded('WWE 2K24','ANNUAL SPORTS — excluded by Josh Set constitution.',-71002);
 ensureProduct('Kingdom Hearts: The Story So Far',['Kingdom Hearts HD I.5 + II.5 Remix','Kingdom Hearts HD 1.5 + 2.5 Remix','Kingdom Hearts HD 2.8 Final Chapter Prologue']);
 ensureProduct('The Walking Dead: The Telltale Definitive Series',['The Walking Dead: A Telltale Games Series - The Complete First Season','The Walking Dead: Season Two - A Telltale Games Series','The Walking Dead: The Telltale Series - A New Frontier','The Walking Dead: The Telltale Series - The Final Season']);
-if(typeof mergedProductIndex!=='undefined')mergedProductIndex=null;DATA.n=items.filter(x=>x.set==='INCLUDED').length;if(typeof progress==='function')progress();window.SHELFCHECK_OWNERSHIP_RECONCILE_V071=true;console.info('ShelfCheck v0.71 ownership reconciliation applied');};apply();})();
+window.SHELFCHECK_OWNERSHIP_RECONCILE_V071=true;console.info('ShelfCheck v0.71 ownership reconciliation applied');});})();

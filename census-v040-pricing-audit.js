@@ -3,7 +3,6 @@
 // missing from the census. This pass adds them with product-level corroboration and
 // retires the duplicate Sexy Brutale physical-edition identity.
 (()=>{
-  let tries=0;
   const ADD=[
     [2266,'DUSK','https://newbloodstore.com/products/dusk-for-ps4-physical-edition'],
     [2267,'Hot Wheels Unleashed','https://www.bestbuy.com/product/hot-wheels-unleashed-playstation-4/J3LZT8T3Y4'],
@@ -12,9 +11,7 @@
     [2270,'Saints Row','https://www.bestbuy.com/product/saints-row-standard-edition-playstation-4/6478100'],
     [2271,'Construction Simulator','https://www.doesitplay.org/game/Construction%20Simulator/ps4/PS4%20Pro?region=PAL&version=Day+One+Edition']
   ];
-  const apply=()=>{
-    tries++;
-    if(typeof norm!=='function'||!Array.isArray(items)||!items.length||!DATA||typeof byId==='undefined'){if(tries<120)setTimeout(apply,100);return;}
+  registerCensusMutation('add',()=>{
     const added=[];
     for(const [id,title,source] of ADD){
       let x=byId.get(id)||items.find(g=>norm(g.title)===norm(title));
@@ -33,10 +30,7 @@
       if(typeof reverseProducts!=='undefined'){if(!reverseProducts.has(base.id))reverseProducts.set(base.id,[]);if(!reverseProducts.get(base.id).includes('The Sexy Brutale: Full House Edition'))reverseProducts.get(base.id).push('The Sexy Brutale: Full House Edition');}
       if(typeof mergedProductIndex!=='undefined')mergedProductIndex=null;
     }
-    DATA.n=items.filter(x=>x.set==='INCLUDED').length;
-    if(typeof progress==='function')progress();if(typeof resetBrowse==='function')resetBrowse();
-    window.SHELFCHECK_V040_CENSUS={added,denominator:DATA.n,retiredEdition:edition?.title||null};
-    console.info(`ShelfCheck v0.40 pricing audit: ${added.length} missing identities added; denominator ${DATA.n}`);
-  };
-  apply();
+    window.SHELFCHECK_V040_CENSUS={added,retiredEdition:edition?.title||null};
+    console.info(`ShelfCheck v0.40 pricing audit: ${added.length} missing identities added`);
+  });
 })();
