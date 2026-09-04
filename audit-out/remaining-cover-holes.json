@@ -11,11 +11,11 @@
     "note": "Recomputed from the finalized runtime census (deterministic vm replay of the real census-mutation pipeline) plus the real covers-manifest.js + cover-overrides.js merge, not from a historical audit file."
   },
   "results": {
-    "filledHighConfidence": 10,
-    "filledEditionChoice": 9,
+    "filledHighConfidence": 39,
+    "filledEditionChoice": 28,
     "systemicFixes": 0,
     "unresolvedAmbiguous": 27,
-    "unresolvedNoUsableArt": 50,
+    "unresolvedNoUsableArt": 2,
     "battleChefBrigade": {
       "censusId": 138,
       "status": "FILLED_HIGH_CONFIDENCE",
@@ -28,33 +28,33 @@
       "id": 13,
       "title": "8 to Glory: The Official Game of the PBR",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PlayStation Store product page, exact title match.",
+      "coverAsset": "https://image.api.playstation.com/cdn/UP4276/CUSA13280_00/YC7FsliL81bu72LbPXlRzu8EFfDawCpc.jpg"
     },
     {
       "id": 14,
       "title": "8-Bit Adventure Anthology: Volume One",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PlayStation Store product page, exact title match.",
+      "coverAsset": "https://image.api.playstation.com/cdn/UP4126/CUSA10150_00/XzNiNS31UVkQUqeoxdxC4bkFnQemqV0y.jpg"
     },
     {
       "id": 36,
       "title": "ADK Tamashii",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PS Store cover for \"ADK DAMASHII\" (alternate romanization of the same Japanese title, same product).",
+      "coverAsset": "https://image.api.playstation.com/cdn/UP0576/CUSA03783_00/SIQWZx8OO4E8lWAOzBafFiOD7NGmslLn.jpg"
     },
     {
       "id": 111,
       "title": "Atari Flashback Classics: Volume 1",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PlayStation Store product page, exact title match.",
+      "coverAsset": "https://image.api.playstation.com/cdn/UP0182/CUSA06100_00/kVoXoDrftiXNuFyutpsYEp4r5UHcWPMI.png"
     },
     {
       "id": 138,
@@ -108,9 +108,9 @@
       "id": 944,
       "title": "Quar: Infernal Machines",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PlayStation Store product page, exact title match.",
+      "coverAsset": "https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA10099_00/7/i_98ff1a91cb695b06adbf58050ed504b4b1b072d715ab377e33653c6b60163727/i/pic0.png"
     },
     {
       "id": 969,
@@ -124,33 +124,33 @@
       "id": 985,
       "title": "Resonance of Fate 4K / HD Edition",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PlayStation Store product page, exact title match.",
+      "coverAsset": "https://image.api.playstation.com/cdn/UP5203/CUSA13827_00/ah94NGSVrmkivz0G8wBWtekzXNYdQE3d.jpg"
     },
     {
       "id": 1053,
       "title": "SG/ZH: School Girl Zombie Hunter",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PS Store cover for \"School Girl/Zombie Hunter\", exact title match.",
+      "coverAsset": "https://image.api.playstation.com/cdn/UP1024/CUSA09750_00/oR39Wdht1uYjWCoi00vvohixHL2qwlun.jpg"
     },
     {
       "id": 1103,
       "title": "Soccer: Tactics & Glory",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PS Store cover for \"Soccer, Tactics & Glory\" (NA release title), exact match.",
+      "coverAsset": "https://image.api.playstation.com/vulcan/img/cfn/11307xAxWYCKxcF0jViJvipZZ6zg6dY8MPhzB24ipsw3g2ekJe4Jt_lRIU7tVa4cFkiR2T0fdgHkgrpKXn3JQOZlXu4tcgjM.png"
     },
     {
       "id": 1119,
       "title": "Spintires: Mudrunner - American Wilds Edition",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PS Store listing for this edition was not found (likely delisted); used a Rarewaves retailer product photo of the exact physical edition, verified reachable.",
+      "coverAsset": "https://www.rarewaves.com/cdn/shop/products/orig_2685864_jpg.jpg?v=1706273033&width=1946"
     },
     {
       "id": 1155,
@@ -173,7 +173,7 @@
       "title": "The Elder Scrolls Online: Tamriel Unlimited",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
       "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Researched this pass: the official PS Store's live listing shows a modern (2025-era) rebranded cover, not the original 2015 \"Tamriel Unlimited\" box branding this census identity specifies. MobyGames (Cloudflare-blocked), Amazon (JS-rendered, no usable image), and eBay (403) were all unreachable via automated fetch. A Wikipedia \"Elder Scrolls Online cover.png\" file is low-resolution (264x376) and explicitly captioned as PC/Mac cover art, not the PS4 console box -- using it would risk presenting wrong-platform art, so left unresolved rather than guessing.",
       "coverAsset": null
     },
     {
@@ -196,16 +196,16 @@
       "id": 1333,
       "title": "Tokyo Chronos",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PlayStation Store product page, exact title match.",
+      "coverAsset": "https://image.api.playstation.com/vulcan/img/cfn/11307OQOxtLtQf_FThM2q_OfYFtdiFAaJwaRLxfWiXvmVODU3-oF-robQ9jFmgsNh9N2Qd2ypN3dXuH5hX-M4AEVcsItVkL2.png"
     },
     {
       "id": 1451,
       "title": "World Poker Championship",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
       "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Researched this pass: no PS4 release titled exactly \"World Poker Championship\" was found. The only PS4 poker title located is the distinctly-named \"Pure Hold'em World Poker Championship\" (VooFoo Studios/Ripstone) -- a different developer/product structure, and PriceCharting independently tracks \"World Poker Championship\" as its own separate PS4 listing (PriceCharting itself returned 403 to automated fetch, consistent with prior findings this engagement). Given the real risk this is a distinct, more obscure title, left unresolved rather than substituting the Pure Hold'em cover.",
       "coverAsset": null
     },
     {
@@ -228,9 +228,9 @@
       "id": 1525,
       "title": "Ryuu ga Gotoku 7 Gaiden: Na o Keshita Otoko",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_EDITION_CHOICE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): This census identity is the JP-region import; used the Japanese PS Store's \"龍が如く７外伝 名を消した男\" listing (exact Japanese title match, confirmed distinct from base Yakuza 7/Like a Dragon).",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202305/2313/f6dc88ce4ad59e2fba00573762526235e5a00c773931be71.png"
     },
     {
       "id": 1533,
@@ -244,25 +244,25 @@
       "id": 1565,
       "title": "Alternate Jake Hunter: Daedalus - The Awakening of Golden Jazz",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PlayStation Store product page, exact title match.",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202111/1105/bL40n6BDKmn87eEnxALQsUNN.jpg"
     },
     {
       "id": 1580,
       "title": "Bit.Trip Presents...Runner2: Future Legend of Rhythm Alien",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PS Store cover, exact title match (punctuation variant only).",
+      "coverAsset": "https://image.api.playstation.com/cdn/EP4457/CUSA04823_00/X8z72fYTM2qmIIEFo8HMaZRsPEKtK47S.png"
     },
     {
       "id": 1612,
       "title": "Euro Fishing: Urban Edition",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PlayStation Store product page, exact title match.",
+      "coverAsset": "https://image.api.playstation.com/cdn/UP3004/CUSA08113_00/2DBzS5I2HHSPHPLU3If1qBEBkBhJNq7M.jpg"
     },
     {
       "id": 1639,
@@ -276,9 +276,9 @@
       "id": 1651,
       "title": "Last Labyrinth",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PlayStation Store product page, exact title match.",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202302/1505/d2c01d062dd864694df69107d3e6efe8cef95a3b9c77549a.png"
     },
     {
       "id": 1665,
@@ -324,9 +324,9 @@
       "id": 1753,
       "title": "The First Tree: Console Edition",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_EDITION_CHOICE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PS Store cover for \"The First Tree\" (the digital base-name for the same physical Limited Run Games \"Console Edition\" release).",
+      "coverAsset": "https://image.api.playstation.com/cdn/UP4699/CUSA11699_00/ip6QW2yoPdUZYZyFUMKTYygC7pAhlHfr.png"
     },
     {
       "id": 1764,
@@ -348,9 +348,9 @@
       "id": 1954,
       "title": "Söldner-X 2: Final Prototype Definitive Edition",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PlayStation Store product page, exact title match.",
+      "coverAsset": "https://image.api.playstation.com/vulcan/img/rnd/202010/3008/Im4FpwCSv0iy3mWh3A2YHEn8.png"
     },
     {
       "id": 1969,
@@ -380,17 +380,17 @@
       "id": 1979,
       "title": "Trouble Witches Final: Episode 1 - Daughters of Amalgam",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PS Store cover for \"Trouble☆Witches FINAL! Episode 01 Daughters of Amalgam\" (punctuation variant only).",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202503/1214/6aafb60f041653b8ccbd59d39f863694eaf3ce9610558675.jpg"
     },
     {
       "id": 1981,
       "title": "SturmFront - The Mutant War: Übel Edition",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PlayStation Store product page, exact title match.",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202103/0815/UrWr8IktwiP4RzhmSPX0h4yZ.jpg"
     },
     {
       "id": 1992,
@@ -404,9 +404,9 @@
       "id": 1995,
       "title": "Cyanide & Happiness - Freakpocalypse (Episode 1)",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PlayStation Store product page, exact title match.",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202110/2123/KQP7KiZMdEA85c88030y1TAG.png"
     },
     {
       "id": 1999,
@@ -420,17 +420,17 @@
       "id": 2062,
       "title": "Ganryu 2: Hakuma Kojiro",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PlayStation Store product page, exact title match.",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202202/1610/FaEyK7RSYLMrgI0LYRAeAwyv.jpg"
     },
     {
       "id": 2241,
       "title": "Steel Empire Chronicles",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): This is a distinct 2025 Strictly Limited Games compilation (Steel Empire + Over Horizon), NOT the same product as \"The Legend of Steel Empire\"; used the publisher's own physical box art.",
+      "coverAsset": "https://www.strictlylimitedgames.com/cdn/shop/files/STE-Steel-Empire-Chronicles-Playstation-4-PS4-Limited-Edition-Physical-Copy-Box-Art-2D_1024x1024.png?v=1743662291"
     },
     {
       "id": 2308,
@@ -468,9 +468,9 @@
       "id": 2370,
       "title": "Dogfighter WW2",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PS Store listing for \"DOGFIGHTER -WW2-\" is delisted (game was taken offline mid-2024); used a VideoGamesNewYork retailer product photo of the exact physical edition, verified reachable.",
+      "coverAsset": "https://cdn11.bigcommerce.com/s-kzjsut/images/stencil/1280x1280/products/2275/10673/dogfighter-world-war-2-multilanguage-593317.10__38702.1592840958.jpg?c=2"
     },
     {
       "id": 2376,
@@ -484,9 +484,9 @@
       "id": 2378,
       "title": "Everyone Spelunker",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_EDITION_CHOICE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): This census identity is the JP-region import; used the Japanese PS Store's \"元祖みんなでスペランカー\" (Ganso Minna de Spelunker) listing.",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202106/1401/HqnJTBrX0ZtzaZ39vfDsqxFe.jpg"
     },
     {
       "id": 2382,
@@ -500,17 +500,17 @@
       "id": 2384,
       "title": "Hakuouki: Shinkai Fukaden",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_EDITION_CHOICE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): This census identity is JP-only (no western release); used the Japanese PS Store's \"薄桜鬼 真改 風華伝\" listing.",
+      "coverAsset": "https://image.api.playstation.com/cdn/JP0031/CUSA07568_00/lzLXBPkUTPqqfUcJwZpIvXwHyfOdADoE.png"
     },
     {
       "id": 2396,
       "title": "Natsuiro High School: Seisyun Hakusyo",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_EDITION_CHOICE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): This census identity is JP-only; used the Japanese PS Store's \"Natsuiro High School: Seishun Hakusho\" listing.",
+      "coverAsset": "https://image.api.playstation.com/cdn/JP0367/CUSA00891_00/MGtnNvROzsTrjoriWyxMLIRaZDSn4ZgZaBysdfJxCkZSd7XDoULajj5qW9F7FWLK.png"
     },
     {
       "id": 2399,
@@ -524,33 +524,33 @@
       "id": 2404,
       "title": "Shinigami: Shibito Magire",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_EDITION_CHOICE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): This census identity is JP-only (western release renamed \"Spirit Hunter: Death Mark II\" and shifted to PS5); used the Japanese PS Store's \"死噛 ～シビトマギレ～\" listing.",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202210/1901/xkheP6gdJHIiaUs4xtJSpt5q.png"
     },
     {
       "id": 2408,
       "title": "Tetsudou Nippon! Rosen Tabi: Eizan Densha-Hen",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_EDITION_CHOICE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): This census identity is JP-only; used the Japanese PS Store's \"鉄道にっぽん！路線たび 叡山電車編\" listing.",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202011/1211/cIuNwKGscVQO2pwj21JrnE1e.png"
     },
     {
       "id": 2410,
       "title": "Wonderland TOD-Reloaded",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_EDITION_CHOICE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): This census identity is JP-only; used the Japanese PS Store's \"不思議の幻想郷TOD -RELOADED-\" listing (confirmed distinct from the unrelated \"Touhou Genso Wanderer Reloaded\").",
+      "coverAsset": "https://image.api.playstation.com/cdn/JP0704/CUSA06366_00/ykOSboENjJMZXkTeNKzcMcnNAmmRTggh.png"
     },
     {
       "id": 2429,
       "title": "Noob: Les Sans-Factions",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PlayStation Store product page, exact title match.",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202306/2609/fea258ce1b5ecb9821ede7cf1db6ef9de74c91ecaa086a7e.png"
     },
     {
       "id": 2462,
@@ -572,9 +572,9 @@
       "id": 2469,
       "title": "Kyukyoku Tiger / Twin Cobra",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PS Store cover for \"Kyukyoku TigerHeli -TOAPLAN ARCADE GARAGE-\" (JP/intl title pairing matches census identity).",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202405/0207/b728d4d4ec2c6446ac251fc361203495140b06365dc01f54.png"
     },
     {
       "id": 2470,
@@ -588,17 +588,17 @@
       "id": 2471,
       "title": "Get Star / Guardian",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_EDITION_CHOICE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): This title (Toaplan's 1986 \"ゲットスター\", international title \"GUARDIAN\") is sold as a bonus DLC pack within the Kyukyoku Tiger-Heli release, not as a standalone product; used the official PS Store cover for that \"+ Get Star DLC\" product listing (a distinct image from the base Tiger-Heli collection).",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202405/1407/a1cebe2cfe1e0efecd570c040121458b557295b3570bef2c.png"
     },
     {
       "id": 2566,
       "title": "Dead Craft",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PS Store cover for \"DEADCRAFT\" (formatting variant only), exact title match.",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202204/1107/T3Ij4KmLvArKMv0YYVD0Eu5W.png"
     },
     {
       "id": 2573,
@@ -612,73 +612,73 @@
       "id": 2589,
       "title": "Gear Club Unlimited 2",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_EDITION_CHOICE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): The base edition appears delisted from PS Store; \"Ultimate Edition\" is the only PS4 SKU currently listed, used as the edition choice.",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202110/2614/G1AGZ4emKGKtzlvWjzIxrIQ0.jpg"
     },
     {
       "id": 2619,
       "title": "Jinrui No Minasama E",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_EDITION_CHOICE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): This census identity is JP-only; used the Japanese PS Store's \"じんるいのみなさまへ\" listing.",
+      "coverAsset": "https://image.api.playstation.com/cdn/JP0404/CUSA15374_00/Np8HC9UgRswW0Mhx6RQua2913VR6uNAs.png"
     },
     {
       "id": 2629,
       "title": "Kaleidoscope Of Phantom Prison",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_EDITION_CHOICE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): This census identity is JP-only; used the Japanese PS Store's \"幻想牢獄のカレイドスコープ\" listing (confirmed distinct from its sequel).",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202011/0503/C0vs3zfoWt1zjUMKx03XTsZE.png"
     },
     {
       "id": 2630,
       "title": "Kamen Rider: Battride War Creation",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_EDITION_CHOICE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): This census identity is JP-only; used the Japanese PS Store's \"仮面ライダー バトライド・ウォー 創生\" (PS4) listing.",
+      "coverAsset": "https://image.api.playstation.com/cdn/JP0700/CUSA02714_00/baLBlpejperzLQABFQZDenvNHtwXTSrt.png"
     },
     {
       "id": 2631,
       "title": "Kangokutou Mary Skelter 2",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_EDITION_CHOICE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): This census identity is the Asian-region import SKU; used the \"KANGOKUTOU MARY-SKELTER 2 (Chinese/Korean Ver.)\" PS Store listing, exact title match.",
+      "coverAsset": "https://image.api.playstation.com/cdn/KP0004/CUSA12857_00/ynYSPzEzztIEyhDowsKVWRrPUACVarRo.png"
     },
     {
       "id": 2645,
       "title": "Lapis Re Abyss",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_EDITION_CHOICE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): This census identity is JP-only (western release rebranded \"Lapis x Labyrinth\"); used the Japanese PS Store's \"ラピス・リ・アビス\" listing.",
+      "coverAsset": "https://image.api.playstation.com/cdn/JP0404/CUSA13508_00/MuYToA4RvBe8DY9CG3phl55aARQUn8px.png"
     },
     {
       "id": 2660,
       "title": "Neptunia Game Maker R:Evolution",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PlayStation Store product page, exact title match.",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202403/2600/e1c0ce55e0851753b1156a38a5e7992db189ef762e74a53e.jpg"
     },
     {
       "id": 2661,
       "title": "Neptunia VS Titan Dogoo",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_EDITION_CHOICE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): This is the same release the western PS Store now lists as \"Neptunia Riders VS Dogoos\" (a rebrand of the same June 2024 PS4/PS5 game, JP title \"Bakusou Jigen Neptune VS Kyoshin Surainu\"); used its official PS Store cover.",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202411/0415/7ece2437d5b56105d3bc85e36f71b6706d22904f8ceb6d3c.png"
     },
     {
       "id": 2669,
       "title": "Offroad Racing - Buggy x ATV x Moto",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PlayStation Store product page, exact title match.",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202009/0815/1b5K7iyEuMNfbpNMhZ7dmYoA.png"
     },
     {
       "id": 2673,
@@ -692,17 +692,17 @@
       "id": 2675,
       "title": "Onechanbara Origin",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PS Store cover for \"Onee Chanbara Origin\" (spacing variant only), exact match.",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202010/0203/sOEooxJYNLUIgpMJEpe2irl7.png"
     },
     {
       "id": 2684,
       "title": "Paleo Pines: The Dino Valley",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official PlayStation Store product page, exact title match.",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202307/0716/4ac795b1d264ef19c54db8c86b6c24c89fcf283b7afc3073.jpg"
     },
     {
       "id": 2686,
@@ -732,9 +732,9 @@
       "id": 2729,
       "title": "Tadeo Jones: La Tabla Esmeralda",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_HIGH_CONFIDENCE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): Official Spanish PlayStation Store product page, exact title match.",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202512/1613/616909be807bf8322dcc31d0d8dd2ac9fb78bd12581426e5.jpg"
     },
     {
       "id": 2744,
@@ -748,25 +748,25 @@
       "id": 2763,
       "title": "Warui Ousama To Rippana Yuusha",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_EDITION_CHOICE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): This census identity is JP-only; used the Japanese PS Store's \"わるい王様とりっぱな勇者\" listing.",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202103/1805/p7GpVTOJzJfaU7RKjQadQhzn.jpg"
     },
     {
       "id": 2768,
       "title": "Yo-Kai Watch Jam: Yo-Kai Academy Y",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_EDITION_CHOICE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): This census identity is JP-only (download-exclusive title, no western release); used the Japanese PS Store's \"妖怪学園Y ～ワイワイ学園生活～\" listing.",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202010/0906/l8emQIiKcYb4ZwSvy9WsTKwc.png"
     },
     {
       "id": 2779,
       "title": "Zero: Tsukihami No Kamen",
       "originalReason": "Prior automated status: NO_MATCH (IGDB found no candidate match).",
-      "finalClassification": "UNRESOLVED_NO_USABLE_ART",
-      "sourceEvidence": "Not individually web-researched this pass under the task's bounded-research scope (Part 8); likely a genuine long-tail, import, or Japan-only title without an easily verified PS4 physical cover source.",
-      "coverAsset": null
+      "finalClassification": "FILLED_EDITION_CHOICE",
+      "sourceEvidence": "CORRECTION PASS (individually researched): This census identity is JP-only (physical disc PLJM-17164); used the official Japanese PS Store cover for the 2023 \"零 ～月蝕の仮面～\" remaster that carries that physical release.",
+      "coverAsset": "https://image.api.playstation.com/vulcan/ap/rnd/202301/2406/dMDxb6opGxJGyirnlBZUtVNk.png"
     },
     {
       "id": 2781,
@@ -795,28 +795,41 @@
   ],
   "final": {
     "included": 2535,
-    "covered": 2458,
-    "missing": 77,
-    "percentage": 96.96,
+    "covered": 2506,
+    "missing": 29,
+    "percentage": 98.86,
     "ownedMissing": 0,
-    "neededMissing": 77
+    "neededMissing": 29
   },
   "safety": {
     "previouslyWorkingMappingsChanged": 0,
     "previouslyWorkingMappingsRemoved": 0,
-    "newMappingsAdded": 19,
-    "note": "Verified via a before/after diff of the merged (covers-manifest.js + cover-overrides.js) cover map, comparing origin/main:cover-overrides.js against the working-tree version. covers-manifest.js was not modified (confirmed 0 diff).",
+    "newMappingsAdded": 67,
+    "note": "Verified via a before/after diff of the merged (covers-manifest.js + cover-overrides.js) cover map, comparing origin/main:cover-overrides.js against the working-tree version, both after the initial pass and again after this correction pass. covers-manifest.js was not modified (confirmed 0 diff) at any point.",
     "brokenNewCoverRequests": 0,
-    "brokenNewCoverRequestsNote": "All 19 newly-added cover URLs verified to load successfully (valid image, naturalWidth > 0) via live browser check against the running app.",
+    "brokenNewCoverRequestsNote": "All 67 newly-added cover URLs (19 from the initial pass + 48 from this correction pass) verified to load successfully (valid image, naturalWidth > 0 / HTTP 200 with an image content-type) via live browser and HTTP checks against the running app.",
     "consoleErrorsIntroduced": 0,
-    "consoleErrorsNote": "One pre-existing console [error] from census-audit-resync.js (\"registerCensusMutation('exclude') called after census finalization -- refused\") is present both before and after this pass's changes; it is unrelated to cover files and was not introduced by this pass.",
+    "consoleErrorsNote": "One pre-existing console [error] from census-audit-resync.js (\"registerCensusMutation('exclude') called after census finalization -- refused\") is present intermittently before and after this pass's changes; it is unrelated to cover files and was not introduced by this pass. A separate fresh page load during this correction pass produced zero console messages at all.",
     "censusDeterminism": "20/20 runs, INCLUDED=2535 (tools/census-determinism-test.mjs), unaffected by this pass (no census files touched).",
     "pwaPrecacheConsistency": "PASS - tools/pwa-precache-consistency-test.mjs: [A] 111 precache entries, 101 verified exact matches, 0 mismatches; [B] 102 runtime URLs referenced, 102 precached, 0 missing."
   },
   "filesChanged": [
-    "cover-overrides.js (19 new entries appended; 0 existing entries modified or removed)",
-    "index.html (cover-overrides.js cache-bust bumped ?v=137 -> ?v=141)",
-    "sw.js (precache entry for cover-overrides.js bumped to match index.html; cache version shelfcheck-v127 -> shelfcheck-v128)",
-    "audit-out/remaining-cover-holes.json (this artifact)"
-  ]
+    "cover-overrides.js (67 new entries total across both passes: 19 initial + 48 from this correction pass; 0 existing entries modified or removed)",
+    "index.html (cover-overrides.js cache-bust bumped ?v=137 -> ?v=142)",
+    "sw.js (precache entry for cover-overrides.js bumped to match index.html; cache version shelfcheck-v127 -> shelfcheck-v129)",
+    "audit-out/remaining-cover-holes.json (this artifact, updated with correction-pass results)"
+  ],
+  "correctionPass": {
+    "generatedAt": "2026-09-04T18:16:21.256Z",
+    "trigger": "PR #33 review correction: all 50 identities originally classified UNRESOLVED_NO_USABLE_ART had not been individually web-researched. This pass researched every one of them individually per the review's explicit instruction.",
+    "identitiesResearched": 50,
+    "additionalFilledHighConfidence": 29,
+    "additionalFilledEditionChoice": 19,
+    "stillUnresolvedAfterResearch": 2,
+    "stillUnresolvedIds": [
+      1240,
+      1451
+    ],
+    "note": "The 27 pre-existing UNRESOLVED_AMBIGUOUS identities were explicitly out of scope for this correction pass and were not revisited."
+  }
 }
