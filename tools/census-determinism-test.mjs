@@ -43,11 +43,12 @@ const MUTATORS = [
   ['census-v057-pricecharting-gl-sweep.js', 63],
   ['census-v058-pricecharting-mr-sweep.js', 64],
   ['census-v059-pricecharting-sz-sweep.js', 65],
-  ['census-v060-integrity-scrub.js', 66],
-  ['census-integrity-pass-v001.js', 67],
-  ['census-integrity-pass-v002.js', 68],
-  ['ownership-reconcile-v071.js', 69],
-  ['census-finalize.js', 70],
+  ['census-physical-omission-pass-v001.js', 66],
+  ['census-v060-integrity-scrub.js', 67],
+  ['census-integrity-pass-v001.js', 68],
+  ['census-integrity-pass-v002.js', 69],
+  ['ownership-reconcile-v071.js', 70],
+  ['census-finalize.js', 71],
 ];
 
 // Known conflict identities: added by a v052-059 sweep script under an id that also matches
