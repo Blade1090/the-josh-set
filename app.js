@@ -4,11 +4,15 @@ let DATA,items=[],byId=new Map(),filter="ALL",aliasesById=new Map(),productMap=n
 // same source data produces the same final census on every load regardless of script or
 // network timing. `add` (new/reinstated identities) always runs before `exclude`
 // (eligibility/dedup rules), so exclusion rules see the complete candidate set exactly
-// once. A script whose <script> tag runs after finalization already happened (e.g. one
-// loaded late in the page) has its function invoked immediately instead of queued, since
-// census data is guaranteed ready by then.
+// once. Every census-mutating <script> tag must be positioned BEFORE census-finalize.js
+// in index.html so its registration is queued and included in that single pass -- once
+// census-finalize.js has run, INCLUDED/EXCLUDED membership for this page load is frozen.
+// A late registerCensusMutation call (a script positioned after census-finalize.js, or a
+// bug that calls it from a timer after load) is refused rather than silently applied, so a
+// misplaced <script> tag fails loudly at load time instead of quietly reintroducing the
+// exact class of race this pipeline exists to prevent.
 let censusFinalized=false;const censusQueue={add:[],exclude:[]};
-function registerCensusMutation(phase,fn){if(censusFinalized){fn();DATA.n=items.filter(x=>x.set==="INCLUDED").length;if(typeof progress==="function")progress();if(typeof resetBrowse==="function")resetBrowse();return}censusQueue[phase].push(fn)}
+function registerCensusMutation(phase,fn){if(censusFinalized){const msg=`ShelfCheck: registerCensusMutation('${phase}') called after census finalization -- refused. Census membership is frozen once SHELFCHECK_CENSUS_FINALIZED is set; move this script's <script> tag to before census-finalize.js in index.html.`;console.error(msg);throw new Error(msg)}censusQueue[phase].push(fn)}
 let dataReadyResolve;const dataReady=new Promise(r=>dataReadyResolve=r);
 const $=s=>document.querySelector(s),esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const norm=s=>String(s??"").normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[’'`]/g,"").replaceAll("&"," and ").match(/[a-z0-9]+/g)?.join(" ")||"";

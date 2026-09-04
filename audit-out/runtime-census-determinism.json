@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-04T13:37:57.860Z",
-  "task": "SHELFCHECK — RUNTIME CENSUS STABILITY FIX (fix/runtime-census-determinism)",
-  "note": "Goal was determinism, not a re-audit of census content. Execution order was made fully deterministic; the resulting count differs from the previously-assumed 2,542/256 baseline because that baseline itself depended on a favorable race outcome. Per instructions this was NOT forced back to 2,542 -- see deterministicIncluded/identitiesDifferingFromExpected and STOPPED_FOR_REVIEW below.",
+  "generatedAt": "2026-09-04T14:10:00.000Z",
+  "task": "SHELFCHECK — RUNTIME CENSUS STABILITY FIX (fix/runtime-census-determinism, PR #29)",
+  "note": "Goal was determinism, not a re-audit of census content. Execution order was made fully deterministic; the resulting count differs from the previously-assumed 2,542/256 baseline because that baseline itself depended on a favorable race outcome. Per instructions this was NOT forced back to 2,542 -- see deterministicIncluded/identitiesDifferingFromExpected and STOPPED_FOR_REVIEW below. Updated after PR #29 review: see lateMutationFollowUp for a second architectural gap (ownership-reconcile-v071.js could still mutate census state after the single finalization point) found during review and fixed in this revision.",
 
   "baselineExpected": {
     "included": 2542,
@@ -47,13 +47,13 @@
       "census-v052-pricecharting-negative-space.js .. census-v059-pricecharting-sz-sweep.js (identity-adding sweep)",
       "census-v060-integrity-scrub.js (narrow DROP list)",
       "census-integrity-pass-v001.js / census-integrity-pass-v002.js (narrow dedup/exclude lists)",
-      "ownership-reconcile-v071.js (narrow ensureExcluded calls, very late tag position)",
+      "ownership-reconcile-v071.js (narrow ensureExcluded calls; ORIGINALLY at a very late tag position -- see lateMutationFollowUp)",
       "census-integrity.js (non-mutating diagnostic; read the mid-load snapshot, not the final one)"
     ]
   },
 
   "fix": {
-    "architecturalDescription": "Replaced 15 independent poll-and-self-apply loops with a single deterministic two-phase finalization pipeline. Every census-mutating script now calls registerCensusMutation(phase, fn) (phase is 'add' or 'exclude') instead of self-polling; registration is synchronous and needs no data readiness, so it always completes in the script's own guaranteed <script>-tag document order regardless of network/fetch timing. A new census-finalize.js tag, placed after every census-mutating tag, awaits a real dataReady Promise (resolved once by app.js's loadData() the instant items/DATA/byId are populated — no polling) and then runs every queued 'add' function, in registration order, followed by every queued 'exclude' function, in registration order, exactly once. This guarantees every exclusion/dedup rule always sees the complete, fully-populated candidate set the add phase built, so a later-added identity can never be silently left INCLUDED just because an exclusion pass already ran before it existed. A script whose own <script> tag runs after finalization has already completed (ownership-reconcile-v071.js, which loads much later, after price/hltb scripts) has registerCensusMutation invoke its function immediately instead of queuing it, since census data is guaranteed ready by then — no polling anywhere in the pipeline, and DATA.n/progress()/resetBrowse() are recomputed exactly once at the true end of each mutation rather than after every individual script.",
+    "architecturalDescription": "Replaced 15 independent poll-and-self-apply loops with a single deterministic two-phase finalization pipeline. Every census-mutating script now calls registerCensusMutation(phase, fn) (phase is 'add' or 'exclude') instead of self-polling; registration is synchronous and needs no data readiness, so it always completes in the script's own guaranteed <script>-tag document order regardless of network/fetch timing. A new census-finalize.js tag, placed after EVERY census-mutating tag (including ownership-reconcile-v071.js — see lateMutationFollowUp for why its tag was moved), awaits a real dataReady Promise (resolved once by app.js's loadData() the instant items/DATA/byId are populated — no polling) and then runs every queued 'add' function, in registration order, followed by every queued 'exclude' function, in registration order, exactly once. This guarantees every exclusion/dedup rule always sees the complete, fully-populated candidate set the add phase built, so a later-added identity can never be silently left INCLUDED just because an exclusion pass already ran before it existed. DATA.n/progress()/resetBrowse() are recomputed exactly once at the true end of the pipeline rather than after every individual script.",
     "filesChanged": [
       "app.js",
       "census-finalize.js (new)",
@@ -82,19 +82,20 @@
   },
 
   "after": {
-    "method": "Two independent Node vm harnesses (a throwaway verification script plus the checked-in tools/census-determinism-test.mjs) execute the real FIXED census + finalize scripts under the same randomized realistic timing model used for the 'before' measurement, then compare INCLUDED count, exact included-id-set (membership hash), and a SATISFIED count against a fixed synthetic ownership snapshot (every item flagged OWNED in the base data — chosen because Josh's real GameEye-derived ownership state cannot be reproduced in a stateless test session) across every run. Cross-checked against 3 live browser page loads on the actual index.html.",
-    "numberOfRuns": 40,
+    "method": "Independent Node vm harnesses (a throwaway verification script plus the checked-in tools/census-determinism-test.mjs) execute the real FIXED census + finalize scripts under the same randomized realistic timing model used for the 'before' measurement, then compare INCLUDED count, exact included-id-set (membership hash), and a SATISFIED count against a fixed synthetic ownership snapshot (every item flagged OWNED in the base data — chosen because Josh's real GameEye-derived ownership state cannot be reproduced in a stateless test session) across every run. Cross-checked against live browser page loads on the actual index.html, both before and after the PR #29 review follow-up (moving ownership-reconcile-v071.js before census-finalize.js and making late registration refuse instead of silently apply).",
+    "numberOfRuns": 60,
     "uniqueIncludedCounts": [2532],
     "uniqueSatisfiedCounts": [230],
     "membershipHashes": 1,
     "allRunsIdentical": true,
-    "knownConflictIdentitiesRegressionCheck": "All 10 sweep-added identities that match an existing EXCLUDE rule (see before.unstableIdentities, excluding the dedup-only case 2623) were EXCLUDED on every single one of the 40 runs — zero exceptions.",
+    "knownConflictIdentitiesRegressionCheck": "All 10 sweep-added identities that match an existing EXCLUDE rule (see before.unstableIdentities, excluding the dedup-only case 2623) were EXCLUDED on every single one of the 60 runs — zero exceptions.",
+    "postFinalizationFreezeCheck": "Added after the PR #29 review follow-up: every run also calls registerCensusMutation('exclude', fn) once AFTER census-finalize.js has already completed and asserts (a) the call throws and (b) membership is unchanged. Held on all 20 runs of the current tools/census-determinism-test.mjs (freezeHeld: true every time) — see lateMutationFollowUp.",
     "liveBrowserCrossCheck": {
-      "runs": 3,
+      "runs": 6,
       "included": 2532,
       "progressLine": "230 / 2532 · 9.08%",
       "consoleErrors": 0,
-      "verifiedManually": ["search (query 'fusion' correctly returns only 'Trials Fusion', not the excluded 'Funko Fusion')", "OWNED filter renders", "NEEDED filter renders", "HUNT filter renders", "progress header reflects the finalized denominator", "items.find('Funko Fusion').set === 'EXCLUDED'"]
+      "verifiedManually": ["search (query 'fusion' correctly returns only 'Trials Fusion', not the excluded 'Funko Fusion')", "OWNED filter renders", "NEEDED filter renders", "HUNT filter renders", "progress header reflects the finalized denominator", "items.find('Funko Fusion').set === 'EXCLUDED'", "items.find('Firewall Zero Hour').set === 'EXCLUDED' (ownership-reconcile-v071.js output, confirming it still runs correctly from its new earlier tag position)", "aliasesById for Ghost Recon: Breakpoint present (ownership-reconcile-v071.js's addAlias, confirming it can still find sweep-added items after the move)", "a manual post-finalization registerCensusMutation() call throws and is logged via console.error, membership unaffected"]
     }
   },
 
@@ -107,6 +108,18 @@
   ],
   "identitiesDifferingNote": "All 10 are sweep-added identities (census-v052..059, baseline:'NEEDED' at creation, so none could have been part of any owned/satisfied count) that also exactly match an existing, already-authored census-cleanup.js EXCLUDE-map entry with a stated eligibility reason (digital-only or no confirmed physical PS4 release in every case). The fix does not introduce a new opinion about these titles — it makes the codebase's OWN existing rule for them apply consistently instead of only on some loads. deterministicSatisfied (230) is measured against a synthetic 'every baseline-OWNED item' snapshot, not Josh's real GameEye-imported ownership state (256), which this stateless harness cannot reproduce; since all 10 differing identities are baseline:'NEEDED', they could not have contributed to the real 256 figure either unless Josh's own import separately matched one of them by title, which is unverified here.",
   "STOPPED_FOR_REVIEW": true,
+
+  "lateMutationFollowUp": {
+    "issueFound": "PR #29 code review: census-finalize.js was positioned before ownership-reconcile-v071.js's <script> tag in index.html. Because registerCensusMutation(phase, fn) applied fn() immediately whenever censusFinalized was already true, ownership-reconcile-v071.js was still able to mutate census membership (its two ensureExcluded calls) AFTER the single finalization point had already run — undermining the 'all mutations register first -> one finalization -> membership frozen' guarantee the whole pipeline exists to provide, even though in practice its own mutations only ever excluded items and never reintroduced anything.",
+    "fixApplied": [
+      "Moved the <script src=\"ownership-reconcile-v071.js\"> tag in index.html to immediately before <script src=\"census-finalize.js\">, right after census-integrity-pass-v002.js (real tag position 68 -> 69; census-finalize.js is now 70). Its registerCensusMutation('exclude', fn) call now registers into the normal queue like every other census-mutating script and runs as part of the single finalization pass, in the exclude phase (after every add-phase script, so its find()-by-title lookups for sweep-added titles like 'Ghost Recon: Breakpoint' still resolve correctly).",
+      "Changed registerCensusMutation() in app.js so a post-finalization call is REFUSED rather than silently applied: it now logs a console.error naming the offending phase and throws, instead of running fn() and re-rendering. Once SHELFCHECK_CENSUS_FINALIZED is set, INCLUDED/EXCLUDED membership is frozen for the rest of that page load — a misplaced <script> tag now fails loudly at load time instead of quietly reintroducing the exact class of race this pipeline exists to prevent.",
+      "tools/census-determinism-test.mjs updated to match: ownership-reconcile-v071.js moved from the old 'late/immediate-apply' special case into the normal MUTATORS list at its new tag position, and a new check added to every run that deliberately calls registerCensusMutation() after finalization and asserts it throws and leaves membership unchanged (postFinalizationFreezeCheck)."
+    ],
+    "eligibilityRulesChanged": false,
+    "countForced": false,
+    "verification": "20/20 regression-harness runs with freezeHeld:true (see after.postFinalizationFreezeCheck), plus 3 live browser reloads confirming ownership-reconcile-v071.js's own exclusions (Firewall Zero Hour, WWE 2K24) and its Ghost Recon: Breakpoint alias still apply correctly from the new tag position, and that a manual post-finalization registerCensusMutation() call throws with membership unchanged. INCLUDED remained 2532 throughout — the tag move and freeze enforcement are purely architectural and did not change which identities are INCLUDED."
+  },
 
   "pwa": {
     "staleCacheIssueFound": true,
@@ -132,8 +145,9 @@
       "SATISFIED count (against a fixed synthetic ownership snapshot) identical across all runs",
       "exact included-identity-id-set identical across all runs (membership hash)",
       "every known Funko-Fusion-class conflict identity (added by a later script, matched by an earlier-authored exclusion rule) ends EXCLUDED on every run",
-      "no script throws while running under randomized realistic timing"
+      "a registerCensusMutation() call made AFTER census-finalize.js has completed throws and leaves membership unchanged, on every run",
+      "no script throws unexpectedly while running under randomized realistic timing"
     ],
-    "lastResult": "PASS — 20/20 runs identical, INCLUDED=2532, SATISFIED=230, 1 unique membership hash, all 10 known-conflict identities correctly excluded on every run."
+    "lastResult": "PASS — 20/20 runs identical, INCLUDED=2532, SATISFIED=230, 1 unique membership hash, all 10 known-conflict identities correctly excluded on every run, post-finalization mutation refused on every run."
   }
 }

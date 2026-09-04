@@ -1,14 +1,20 @@
 // ShelfCheck census runtime determinism regression test.
 //
 // Loads the real census data + every census-mutating <script> (in their actual index.html
-// order) into a fresh Node vm context per run, under randomized realistic load timing (a
-// variable data-fetch delay plus a variable per-tag execution offset, modeling the other
-// non-mutating <script> tags -- dossier overrides etc. -- that sit between them in the real
-// page), and checks that the finalized census (item set membership, INCLUDED count, and a
-// SATISFIED count against a fixed synthetic ownership snapshot) is byte-for-byte identical
-// across every run. It also specifically checks the class of bug this was written for: an
-// identity matching an existing exclusion/dedup rule must end up EXCLUDED even when a later
-// script is the one that adds it to the census, regardless of script/network timing.
+// order, ALL of them positioned before census-finalize.js) into a fresh Node vm context per
+// run, under randomized realistic load timing (a variable data-fetch delay plus a variable
+// per-tag execution offset, modeling the other non-mutating <script> tags -- dossier
+// overrides etc. -- that sit between them in the real page), and checks that the finalized
+// census (item set membership, INCLUDED count, and a SATISFIED count against a fixed
+// synthetic ownership snapshot) is byte-for-byte identical across every run. It also
+// specifically checks the class of bug this was written for: an identity matching an
+// existing exclusion/dedup rule must end up EXCLUDED even when a later script is the one
+// that adds it to the census, regardless of script/network timing.
+//
+// It also verifies the finalization freeze itself: once census-finalize.js has run, a
+// registerCensusMutation() call (e.g. from a script mistakenly placed after it) must be
+// refused (throw), not silently applied -- INCLUDED membership must stay frozen for the
+// rest of that page load.
 //
 // Usage:
 //   node tools/census-determinism-test.mjs [runs]     (default 20 runs; exits 1 on failure)
@@ -40,11 +46,9 @@ const MUTATORS = [
   ['census-v060-integrity-scrub.js', 66],
   ['census-integrity-pass-v001.js', 67],
   ['census-integrity-pass-v002.js', 68],
-  ['census-finalize.js', 69],
+  ['ownership-reconcile-v071.js', 69],
+  ['census-finalize.js', 70],
 ];
-// A script that registers a census mutation from much later in the real document (after
-// price/hltb scripts) -- verifies the "late registration after finalization" path.
-const LATE_MUTATOR = ['ownership-reconcile-v071.js', 90];
 
 // Known conflict identities: added by a v052-059 sweep script under an id that also matches
 // an existing exclusion/dedup rule elsewhere (census-cleanup.js's EXCLUDE map, in every case
@@ -98,7 +102,10 @@ function runOneLoad(DATA0, dataDelayMs) {
     };
     const errors = [];
     ctx.registerCensusMutation = (phase, fn) => {
-      if (ctx.censusFinalized) { fn(); ctx.DATA.n = ctx.items.filter((x) => x.set === 'INCLUDED').length; return; }
+      if (ctx.censusFinalized) {
+        const msg = `registerCensusMutation('${phase}') called after census finalization -- refused`;
+        throw new Error(msg);
+      }
       ctx.censusQueue[phase].push(fn);
     };
     ctx.dataReady = new Promise((r) => { dataReadyResolve = r; });
@@ -119,15 +126,24 @@ function runOneLoad(DATA0, dataDelayMs) {
         catch (e) { errors.push(`${file}: ${e.message}`); }
       }, cumMs);
     }
-    cumMs += (LATE_MUTATOR[1] - lastPos) * perTagMs();
-    setTimeout(() => {
-      try { vm.runInContext(readFile(LATE_MUTATOR[0]), ctx, { filename: LATE_MUTATOR[0], displayErrors: true }); }
-      catch (e) { errors.push(`${LATE_MUTATOR[0]}: ${e.message}`); }
-    }, cumMs);
     const lastTagMs = cumMs;
 
     setTimeout(() => {
       if (!ctx.censusFinalized) { reject(new Error('census-finalize.js never ran to completion')); return; }
+
+      // Verify the freeze: a registration attempt after finalization must be refused, and
+      // must not mutate membership -- this is the exact bug this follow-up fixes (a script
+      // positioned after census-finalize.js could otherwise still change INCLUDED status).
+      const beforeSnapshot = membershipHash(new Set(ctx.items.filter((x) => x.set === 'INCLUDED').map((x) => x.id)));
+      let lateRegistrationRefused = false;
+      try {
+        ctx.registerCensusMutation('exclude', () => { ctx.items[0].set = 'EXCLUDED'; });
+      } catch (e) {
+        lateRegistrationRefused = true;
+      }
+      const afterSnapshot = membershipHash(new Set(ctx.items.filter((x) => x.set === 'INCLUDED').map((x) => x.id)));
+      const freezeHeld = lateRegistrationRefused && beforeSnapshot === afterSnapshot;
+
       const included = ctx.items.filter((x) => x.set === 'INCLUDED');
       // Fixed synthetic ownership snapshot (every item flagged OWNED in the base data) so
       // SATISFIED is computable and comparable across runs without needing Josh's real
@@ -141,6 +157,7 @@ function runOneLoad(DATA0, dataDelayMs) {
         included: included.length,
         includedIds: new Set(included.map((x) => x.id)),
         satisfied: satisfied.size,
+        freezeHeld,
         errors,
       });
     }, Math.max(dataDelayMs, lastTagMs) + 500);
@@ -176,13 +193,16 @@ async function main() {
   if (hashes.size !== 1) fail(`Item membership not identical across runs (${hashes.size} distinct membership sets)`);
   if (anyErrors.length) fail(`Script errors during simulated loads: ${anyErrors.slice(0, 5).join(' | ')}`);
 
+  const unfrozenRuns = runs.filter((r) => !r.freezeHeld).length;
+  if (unfrozenRuns > 0) fail(`Post-finalization registerCensusMutation() was NOT refused (or mutated membership anyway) in ${unfrozenRuns}/${N} runs -- census membership is not frozen after finalization`);
+
   const lastRun = runs[runs.length - 1];
   for (const id of KNOWN_CONFLICT_IDS) {
     if (lastRun.includedIds.has(id)) fail(`Known conflict identity id=${id} was INCLUDED (must always be EXCLUDED by an existing rule)`);
   }
 
   if (!failed) {
-    console.log(`\nPASS: ${N}/${N} runs identical -- INCLUDED=${[...includedCounts][0]}, SATISFIED=${[...satisfiedCounts][0]}, 1 unique membership hash, all ${KNOWN_CONFLICT_IDS.length} known-conflict identities correctly excluded on every run.`);
+    console.log(`\nPASS: ${N}/${N} runs identical -- INCLUDED=${[...includedCounts][0]}, SATISFIED=${[...satisfiedCounts][0]}, 1 unique membership hash, all ${KNOWN_CONFLICT_IDS.length} known-conflict identities correctly excluded on every run, post-finalization mutation refused on every run.`);
   } else {
     console.error(`\n${runs.length} runs completed with failures above.`);
   }
