@@ -1,0 +1,174 @@
+{
+  "generatedAt": "2026-09-04T16:08:01.076Z",
+  "task": "SHELFCHECK — SEARCH HARDENING + SAFE ZERO-RESULT UX (fix/search-hardening-and-zero-results)",
+  "note": "Search/UX reliability pass only. Census membership, ownership, and the runtime finalization architecture are untouched -- INCLUDED remains 2,535 throughout.",
+
+  "pipelineInspected": {
+    "finding": "app.js's own render() (line 32) is dead code at runtime -- model-fix.js defines a full replacement `function render(){...}` (a plain redeclaration, not a wrap) that actually executes, since it loads after app.js and JS function declarations sharing the same global scope let the later one win outright. price-fix.js and price-sort-v063.js then genuinely WRAP that model-fix.js render (capture-and-call-through), for price-card decoration and price sorting respectively. All search matching (the `x.search.includes(q)` predicate) and the 'Nothing matched.' zero-result HTML live entirely inside model-fix.js's render() -- the one place this pass needed to change.",
+    "filesTouched": ["model-fix.js"],
+    "architectureReplaced": false,
+    "reason": "Editing the single existing, actually-executing render() implementation in place is far more surgical than adding another wrapper layer that would need to reimplement or intercept an inline mid-function conditional; matches how the prior price-sort-bug fix (PR #28) and runtime-determinism fix (PR #29) also edited core files directly rather than adding new wrapper indirection for core-algorithm changes."
+  },
+
+  "searchMatching": {
+    "existingBehaviorPreserved": "The plain substring check (x.search.includes(q)) is still the FIRST and primary match path, completely unchanged -- both query and every title/alias already pass through the same norm() before comparison, so punctuation differences (dragon-ball / dragon.ball / dragon ball) were already handled before this pass and remain handled identically.",
+    "newMechanism": "A second, narrower match path: a 'compact' representation of the search text (its normalized tokens, minus a tiny fixed stopword list, joined with no spaces) is checked as a substring only when the query's own compact form is 5+ characters. This closes exactly two gaps: (1) the query omits whitespace the target has ('dragonb' vs 'dragon ball the breakers'), and (2) the query skips a short connecting word the target has ('princepersia' vs 'prince of persia').",
+    "stopwordList": ["the", "of", "and"],
+    "stopwordListDeliberatelyExcludes": "Single-letter words ('a', 'an') were tested and removed from the stopword list after they produced a genuine false positive: stripping 'a' from 'Twin Breaker: A Sacred Symbols Adventure' let 'breaker' + 'sacred' spell 'breakers' across the word boundary, matching a query for 'breakers' that should not have matched it. Restricting the stopword list to 3+ letter words eliminated this without losing any required test case (princepersia only needs 'of' stripped).",
+    "minimumCompactQueryLength": 5,
+    "minimumLengthReason": "Guarantees every existing short/ambiguous query (the false-positive guardrail set: 'dra', 'the', 'game', 'ball', 'ps', 'xx', 'a', 'of', 'and') resolves through the EXACT SAME substring check as before this pass, byte-for-byte -- the new compact path never engages for them, so their result counts are provably unchanged (see falsePositiveGuardrails.results below).",
+    "noFuzzyMatching": true,
+    "noLevenshtein": true,
+    "aliasesIncluded": "x.search already includes appended aliases (space-joined) at every item's creation site; the compact representation is derived from that same field, so aliases participate in both match paths identically to the title."
+  },
+
+  "dragonbResult": {
+    "before": { "resultCount": 0 },
+    "after": { "resultCount": 5, "includesTitle": true, "allResults": ["Dragon Ball FighterZ", "Dragon Ball Z: Kakarot", "Dragon Ball: The Breakers", "Dragon Ball: Xenoverse", "Dragon Ball: Xenoverse 2"] },
+    "verifiedLive": true,
+    "verifiedOnFreshPageLoad": true
+  },
+
+  "requiredQueryTests": {
+    "dragonball": { "before": 0, "after": 5, "match": true },
+    "dragon ball": { "before": 5, "after": 5, "match": true, "note": "Already worked before this pass -- unchanged." },
+    "dragon-ball": { "before": 5, "after": 5, "match": true, "note": "Already worked before this pass (norm() already strips the hyphen) -- unchanged." },
+    "dragon.ball": { "before": 5, "after": 5, "match": true, "note": "Already worked before this pass -- unchanged." },
+    "Dragon Ball The Breakers": { "before": 1, "after": 1, "match": true, "note": "Already worked -- unchanged." },
+    "Dragon Ball: The Breakers": { "before": 1, "after": 1, "match": true, "note": "Already worked -- unchanged." },
+    "breakers": { "before": 3, "after": 3, "match": true, "note": "Already worked; also correctly still surfaces unrelated 'Breakers Collection'/'Circuit Breakers' -- expected substring behavior, unchanged count." },
+    "princepersia": { "before": 0, "after": 1, "match": true },
+    "prince of persia": { "before": 1, "after": 1, "match": true, "note": "Already worked -- unchanged." },
+    "lostcrown": { "before": 0, "after": 1, "match": true },
+    "lost crown": { "before": 1, "after": 1, "match": true, "note": "Already worked -- unchanged." },
+    "russiansubway": { "before": 0, "after": 1, "match": true },
+    "russian subway dogs": { "before": 1, "after": 1, "match": true, "note": "Already worked -- unchanged." }
+  },
+
+  "falsePositiveGuardrails": {
+    "regressionSetSize": 33,
+    "regressionSetCategories": ["exact titles", "partial titles", "spacing removed", "punctuation removed/varied", "prefixes/merged words across boundaries", "aliases", "short common terms", "nonsense queries"],
+    "method": "For every query, computed both the OLD (plain substring-only) match count and the NEW (substring OR compact) match count directly against the live 2,535-item runtime, filtered exactly as the ALL view filters (excludes EXCLUDED-set items).",
+    "shortQueryGuardrailResults": {
+      "dra": { "before": 48, "after": 48, "unchanged": true },
+      "the": { "before": 442, "after": 442, "unchanged": true },
+      "game": { "before": 37, "after": 37, "unchanged": true },
+      "ball": { "before": 12, "after": 12, "unchanged": true },
+      "ps": { "before": 22, "after": 22, "unchanged": true },
+      "xx": { "before": 5, "after": 5, "unchanged": true },
+      "a": { "before": 1995, "after": 1995, "unchanged": true },
+      "of": { "before": 306, "after": 306, "unchanged": true },
+      "and": { "before": 162, "after": 162, "unchanged": true }
+    },
+    "nonsenseQueryResults": {
+      "qwqwqwqw": { "before": 0, "after": 0 },
+      "asdkfjasldkfj": { "before": 0, "after": 0 },
+      "zzzzzz": { "before": 0, "after": 0 }
+    },
+    "otherResults": {
+      "Marvel's Spider-Man": { "before": 2, "after": 2, "unchanged": true },
+      "The Messenger": { "before": 1, "after": 1, "unchanged": true },
+      "Yakuza 0": { "before": 1, "after": 1, "unchanged": true },
+      "spider man": { "before": 3, "after": 3, "unchanged": true },
+      "spiderman": { "before": 0, "after": 3, "newMatch": true, "note": "Correctly finds the same 3 Spider-Man titles via the compact path." },
+      "yakuza0": { "before": 0, "after": 1, "newMatch": true },
+      "thebreakers": { "before": 0, "after": 0, "note": "Merged word with an embedded stopword ('the') typed with no internal space does not resolve -- stopword-stripping only applies to whole tokens split on real spaces, not substrings inside an already-merged word. Not a required test case; staying at 0 is safe (no false positive), just an unhandled edge case, left as-is per 'wrong match is worse than no match.'" }
+    },
+    "falsePositivesFoundDuringDevelopment": [
+      {
+        "query": "breakers",
+        "issue": "Before excluding single-letter stopwords, stripping 'a' from 'Twin Breaker: A Sacred Symbols Adventure' produced compact text containing 'breakers' (breaker+sacred bridging), incorrectly matching a query for 'breakers'.",
+        "fixApplied": "Removed 'a'/'an' from the stopword list, keeping only 3+ letter words ('the','of','and'). Re-verified 'breakers' returns exactly the same 3 results as before this pass."
+      }
+    ],
+    "falsePositivesRemainingAfterFix": 0
+  },
+
+  "zeroResultUx": {
+    "notFoundWording": "⚠️ NOT FOUND IN SHELFCHECK / No match for \"{query}\". / This does NOT mean you already own it or don't need it. Verify the title before buying.",
+    "includesUserSearchTerm": true,
+    "onlyFiresForNonEmptyQuery": true,
+    "blankQueryWithEmptyFilteredListBehavior": "Unchanged plain 'Nothing matched.' text -- verified via source path (zeroResultHtml returns the plain string whenever q is falsy, before any matching logic runs).",
+    "verifiedLive": {
+      "query": "qwqwqwqwzzzznotreal",
+      "resultHtmlContainsWarning": true,
+      "resultHtmlContainsGuidance": true
+    }
+  },
+
+  "filterHiddenDistinction": {
+    "implemented": true,
+    "wording": "Found in ShelfCheck, but not in the current filter. / {up to 3 matched titles with status} / [SHOW ALL] button",
+    "showAllButton": {
+      "implemented": true,
+      "behavior": "Sets filter='ALL', updates the nav button active state, and re-renders -- reuses the exact same class-toggle logic app.js's own nav click handler already uses.",
+      "verifiedLive": true
+    },
+    "verifiedLiveExample": {
+      "scenario": "Filter=NEEDED, searched an OWNED baseline title ('13 Sentinels: Aegis Rim')",
+      "resultBeforeShowAll": "Found in ShelfCheck, but not in the current filter. / 13 Sentinels: Aegis Rim — OWNED / [SHOW ALL]",
+      "afterClickingShowAll": { "filter": "ALL", "activeNavButton": "ALL", "titleNowVisible": true }
+    },
+    "scopeNote": "Deliberately does not further distinguish an EXCLUDED-set match (a title correctly outside the Josh Set) from a status-mismatch match (OWNED-vs-NEEDED-filter) -- both surface the same 'not in the current filter' message. Adding that third distinction was judged out of scope per 'do not build a large new UI system'."
+  },
+
+  "ownedNeededSafety": {
+    "titlesChecked": ["Dragon Ball: The Breakers", "Russian Subway Dogs", "Prince of Persia: The Lost Crown", "Marvel's Spider-Man", "The Messenger", "Yakuza 0"],
+    "ownershipStateAltered": false,
+    "realGameEyeImportPerformed": false,
+    "results": {
+      "Dragon Ball: The Breakers": { "effectiveStatus": "NEEDED", "visibleUnder": ["ALL", "NEEDED", "HUNT"], "hiddenUnder": ["OWNED"] },
+      "Russian Subway Dogs": { "effectiveStatus": "NEEDED", "visibleUnder": ["ALL", "NEEDED", "HUNT"], "hiddenUnder": ["OWNED"] },
+      "Prince of Persia: The Lost Crown": { "effectiveStatus": "NEEDED", "visibleUnder": ["ALL", "NEEDED", "HUNT"], "hiddenUnder": ["OWNED"] },
+      "Marvel's Spider-Man": { "effectiveStatus": "OWNED", "visibleUnder": ["ALL", "OWNED"], "hiddenUnder": ["NEEDED", "HUNT"] },
+      "The Messenger": { "effectiveStatus": "NEEDED", "visibleUnder": ["ALL", "NEEDED", "HUNT"], "hiddenUnder": ["OWNED"] },
+      "Yakuza 0": { "effectiveStatus": "OWNED", "visibleUnder": ["ALL", "OWNED"], "hiddenUnder": ["NEEDED", "HUNT"] }
+    },
+    "allResultsAsExpected": true
+  },
+
+  "priceSortRegression": {
+    "combinationsTested": 16,
+    "matrix": "ALL/OWNED/NEEDED/HUNT x LOW/HIGH x empty/non-empty search",
+    "violations": 0,
+    "unknownPricesLast": true,
+    "alphabeticalFallbackBugPresent": false,
+    "verifiedLive": true
+  },
+
+  "censusRegression": {
+    "deterministicRuns": 20,
+    "allRunsIdentical": true,
+    "includedCount": 2535,
+    "satisfiedCount": 230,
+    "membershipHashes": 1,
+    "postFinalizationMutationRefused": true,
+    "knownConflictIdentitiesStillExcluded": true,
+    "note": "This pass does not touch any census-mutating script, app.js's census pipeline, or census-finalize.js -- included purely as confirmation nothing was disturbed."
+  },
+
+  "browserValidation": {
+    "consoleErrors": 0,
+    "verifiedOnFreshTabs": true,
+    "pwaCacheVersion": "shelfcheck-v124",
+    "changedFilePrecached": true,
+    "cacheBusting": {
+      "model-fix.js": "?v=138 -> ?v=140",
+      "swCacheVersion": "shelfcheck-v123 -> shelfcheck-v124"
+    },
+    "serviceWorkerCaveatAcknowledged": "sw.js's precache list still stores each URL without its ?v= query string while index.html requests the versioned URL -- the same pre-existing, broader mismatch documented in the runtime-determinism pass's audit artifact. Not touched here; this pass only bumped the version numbers themselves (the mechanism that already works for the network-first live-fetch path), per explicit instruction not to broaden into a service-worker redesign."
+  },
+
+  "filesChanged": ["model-fix.js", "index.html", "sw.js"],
+
+  "scopeConfirmation": {
+    "censusAdditionsRemovals": 0,
+    "ownershipCleanup": false,
+    "priceDataCampaign": false,
+    "dossierWork": false,
+    "hltbWork": false,
+    "coverWork": false,
+    "uiRedesignBeyondZeroResultAndFilterMessages": false,
+    "unrelatedRefactors": false
+  }
+}
