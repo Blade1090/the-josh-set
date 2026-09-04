@@ -73,6 +73,31 @@
     "2197": "https://image.api.playstation.com/vulcan/ap/rnd/202409/1221/85006e3582d8b415bf4b7b2aa884c8ddf2f1a7d5d7d2083e.jpg", // Tomb Raider: The Last Revelation -> Tomb Raider IV-VI Remastered (PS Store concept/10009064)
     "2198": "https://image.api.playstation.com/vulcan/ap/rnd/202409/1221/85006e3582d8b415bf4b7b2aa884c8ddf2f1a7d5d7d2083e.jpg", // Tomb Raider: Chronicles -> Tomb Raider IV-VI Remastered (same product)
     "2199": "https://image.api.playstation.com/vulcan/ap/rnd/202409/1221/85006e3582d8b415bf4b7b2aa884c8ddf2f1a7d5d7d2083e.jpg", // Tomb Raider: The Angel of Darkness -> Tomb Raider IV-VI Remastered (same product)
+
+    // Remaining-cover-holes pass: previously blank identities filled under the RELAXED
+    // standard for this pass only ("a reasonable, clearly-correct cover is better than a
+    // blank" -- see audit-out/remaining-cover-holes.json for full evidence per entry).
+    // Every URL below was verified reachable (HTTP 200, image content-type) before being
+    // added. Existing covers elsewhere in this file/covers-manifest.js are untouched.
+    "138": "https://limitedrungames.com/cdn/shop/products/BCB-PS4.png?height=1080&v=1541696364", // Battle Chef Brigade -> Limited Run Games #197 physical PS4 box (LRG's own listing is literally titled "Battle Chef Brigade (PS4)"); the PS Store digital SKU is separately branded "Deluxe" but this is the actual physical retail box art.
+    "1725": "https://image.api.playstation.com/cdn/UP0177/CUSA12279_00/G3eot3TIgEXEL8ZOM1dW6FVrY0ydKDO4.jpg", // Shenmue I -> no standalone PS4 disc exists; only satisfiable via the "Shenmue I & II" bundle (official PS Store cover, verified).
+    "1992": "https://image.api.playstation.com/cdn/UP4489/CUSA00748_00/mUEXEkwmofCGv7A8SsM1bt4VG1PvTAV3.png", // Another World -> Another World: 20th Anniversary Edition, the only PS4 release (official PS Store cover, verified).
+    "1685": "https://image.api.playstation.com/cdn/UP4134/CUSA00329_00/96a6Sx1QQqxs87GrtoqSYORytjuFbKfE.png", // Oddworld: Abe's Oddysee - New 'n Tasty -> official PS Store cover, verified exact title match.
+    "1198": "https://image.api.playstation.com/vulcan/ap/rnd/202101/2102/4K1YBMvXQ1NMOv0mTRHuSWMY.jpg", // Tales from the Borderlands: A Telltale Game Series -> official PS Store cover for the standard PS4 physical/digital release, verified.
+    "2695": "https://image.api.playstation.com/cdn/EP4151/CUSA02603_00/DLdKKXcmlVvEo3gy4yRbkYbEwfWMq7UH.png", // Q.U.B.E. -> Q.U.B.E: Director's Cut is the only PS4 release of this title (official PS Store cover, verified).
+    "722": "https://image.api.playstation.com/cdn/UP1024/CUSA12126_00/AHSQCkTqxot3X77aiOtX2k8LCqmr9UdS.jpg", // Little Dragons Cafe -> official PS Store cover, verified exact title match (Aksys Games).
+    "1639": "https://image.api.playstation.com/cdn/UP2150/CUSA01218_00/liwElxmKCIDvkME9MJmHmLTWTSitcez1.png", // Home: A Unique Horror Adventure -> official PS Store cover, verified exact title match.
+    "1155": "https://image.api.playstation.com/vulcan/img/cfn/11307y8lBDDMMkHa8kUdIWg0jQEUoGD1mgUNGtYmJQ_DQfmErlR_yUEzRyc63awRhujZ0T2V5Fzkyzizq56No1MHdp4OJmF7.jpg", // Stranded Sails: Explorers of the Cursed Islands -> official PS Store cover, verified exact title match.
+    "2308": "https://image.api.playstation.com/cdn/EP1628/CUSA05760_00/OZ2SNmLyTghsCbSf8ZtcpKGmvV1kv1Fi.png", // Fahrenheit -> this census identity is the PAL/EU import (per its own PriceCharting audit source); used the EU PlayStation Store's "FAHRENHEIT" listing (not the NA "Indigo Prophecy" branding) for the correct regional cover, verified.
+    "2462": "https://image.api.playstation.com/vulcan/ap/rnd/202202/2323/BxNDoOdxy1ArInrvsOsagkkA.jpg", // Malnazidos -> official PS Store cover for "Valley of the Dead: MalnaZidos" (same game, international branding), verified.
+    "2361": "https://image.api.playstation.com/vulcan/ap/rnd/202306/0815/436bae6a27eaf83d921ab59a6e26c1f43f66d0438764feea.png", // UFO Robot Grendizer -> official PS Store cover for "UFO ROBOT GRENDIZER - The Feast of the Wolves" standard edition, PS4 confirmed platform, verified.
+    "2573": "https://image.api.playstation.com/vulcan/img/rnd/202112/1614/MLohrRD3JlQknPQ4Xzq3gwV5.png", // Embr: Uber Firefighters -> official PS Store cover, verified exact title match ("Embr").
+    "2342": "https://image.api.playstation.com/vulcan/ap/rnd/202103/1713/KncKSWmkh5kba9wVxO55ms52.jpg", // Scourge Bringer -> official PS Store cover for "ScourgeBringer" (same game, spacing/capitalization variant only), verified.
+    "2366": "https://image.api.playstation.com/vulcan/ap/rnd/202305/1814/bfba563be80ed9ada5cdff3229f98d44d8a78a5d493b8c8d.png", // Wobbledogs -> "Wobbledogs Console Edition" is the only PS4 release (official PS Store cover, verified).
+    "2399": "https://image.api.playstation.com/cdn/HP0177/CUSA13347_00/5lNyDp9q545cU54ymYAEsQFO9GCex1hh.png", // Puyo Puyo eSports -> this census identity is the JP-region import; used an Asian-region PS Store SKU ("Puyo Puyo eSports (Korean, Traditional Chinese)") for the correct regional title/art rather than the Western "Puyo Puyo Champions" rebrand, verified.
+    "2781": "https://image.api.playstation.com/vulcan/ap/rnd/202402/1411/893ee5064ae982395e414eb5011f4788468460b7776d3ebc.png", // Dragon Ball: The Breakers -> official PS Store cover for "DRAGON BALL: THE BREAKERS Special Edition" (UP0700-CUSA29213_00), matching the physical Special Edition evidence (UPC 722674127578, release 10/14/2022) already on this identity, verified.
+    "2782": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1103/779d66b30bd8eb38983002adefe11886fb648b3e5b0ec2f4.png", // Russian Subway Dogs -> official PS Store cover, verified exact title match (Limited Run Games #555 physical release).
+    "2783": "https://image.api.playstation.com/vulcan/ap/rnd/202312/0701/e0df18c55b01b7ccac6423e53e0a752e99ff665de760ecc5.jpg", // Prince of Persia: The Lost Crown -> official PS Store cover, Standard Edition, verified exact title match.
   };
   const PRODUCT_COVER_OVERRIDES = {
     // Same fix, at the product level (used when browsing "COLLECTION"/"BEST WAY TO BUY" cards).
