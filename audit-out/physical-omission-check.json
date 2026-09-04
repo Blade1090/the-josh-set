@@ -1,0 +1,151 @@
+{
+  "generatedAt": "2026-09-04T16:05:00.000Z",
+  "task": "SHELFCHECK — THE BREAKERS CORRECTION + BOUNDED PHYSICAL-OMISSION CHECK (fix/breakers-and-physical-omissions, PR #30)",
+  "note": "Updated after PR #30 review: promoted Russian Subway Dogs and Prince of Persia: The Lost Crown from the curator queue to additions on first-party physical-PS4-disc evidence that doesn't require a PriceCharting ID (see omissionCheck.additions and omissionCheck.reclassifications below); corrected the candidate-count wording (the 244-title GameEye check was a bulk reconciliation comparison, not 244 individually-investigated omission candidates); Blasphemous 2 kept unresolved per explicit reviewer instruction.",
+
+  "breakers": {
+    "identity": {
+      "added": true,
+      "id": 2781,
+      "title": "Dragon Ball: The Breakers",
+      "set": "INCLUDED",
+      "verifiedAbsentBeforeThisPass": "Confirmed via direct search of base census data (DATA.i), every census-mutating ADD script (census-v034, v052-059), DATA.p products, and DATA.a aliases before making any change -- no match for 'Dragon Ball: The Breakers' or 'Breakers' (the only 'Breakers' hits were the unrelated 'Breakers Collection' retro compilation and 'LawBreakers').",
+      "evidence": "Confirmed physical PS4 Special Edition, Bandai Namco, released October 14, 2022, North America/ESRB, UPC 722674127578, PriceCharting product ID 4175899 (all supplied with the task and treated as authoritative, matching this repo's existing evidence-citation convention).",
+      "eligibilityReasoning": "Bandai Namco's own launch information distinguishes: Standard Edition = digital-only (does not qualify), Special Edition = full physical game + extras (qualifies), Limited Edition Bundle = full game + physical extras (qualifies). The game requires an internet connection, but ShelfCheck's existing rules do not exclude a physical game merely for requiring online service (confirmed by inspecting census-cleanup.js's EXCLUDE map, which excludes titles only for PSVR-required, digital-only, DLC/edition-collapse, or dead-online-service-with-no-offline-content reasons -- an online-service REQUIREMENT while the disc/game itself still functions is not one of those categories). Qualifies under existing rules."
+    },
+    "physicalProductEditionHandling": "One playable identity added ('Dragon Ball: The Breakers'), not one per edition -- matching the existing convention (e.g. census-v040-pricing-audit.js's handling of The Sexy Brutale vs its 'Full House Edition'): the base game is the identity, and edition-qualified titles (Special/Limited) are physical-product variants of that same identity, not separate identities. No DATA.p product entry was created, because ShelfCheck's product/collectionInfo mechanism (app.js's collectionInfo()) is specifically for MULTI-identity compilations (covered.length>=2); Dragon Ball: The Breakers is a single-identity title, so a product entry would be semantically wrong and functionally unused. Digital Standard Edition was NOT represented as any kind of SKU, per instructions.",
+    "ownershipHandling": {
+      "mechanism": "Added 3 explicit aliases to aliasesById for id 2781, covering the plausible GameEye title formats for the physical edition: 'Dragon Ball: The Breakers [Special Edition]', 'Dragon Ball: The Breakers - Special Edition', 'Dragon Ball: The Breakers Special Edition' (all normalize to the same string, so this is a single functional alias with format redundancy for safety). This follows the exact existing pattern used by ownership-reconcile-v071.js's addAlias() and the census-integrity-pass files' dedup aliases -- no new ownership mechanism was invented.",
+      "verification": "Directly tested app.js's real candidates()/importCSV()-matching logic (extracted and run against the actual identity+alias data) for all 4 plausible GameEye title formats: 'Dragon Ball: The Breakers [Special Edition]', '... - Special Edition', '... Special Edition', and the bare title. All 4 resolve to id 2781 -- the bracketed format resolves automatically via app.js's existing '[...]'-stripping in candidates() even without the added alias; the added aliases are the safety net for the non-bracketed formats, which the generic mechanism does not cover.",
+      "resolvesOwnedInLocalTestData": false,
+      "why": "This stateless test harness has no access to Josh's real GameEye-imported ownership data (localStorage), and per instructions ownership must ONLY be established through the normal GameEye import/reconciliation pipeline -- not faked. The new identity was created with baseline:'NEEDED' (the same default every other newly-discovered identity in this codebase gets), so it correctly shows NEEDED until Josh's next GameEye CSV import runs, at which point the alias mapping added here lets that import correctly recognize and mark it OWNED."
+    },
+    "priceHandling": {
+      "mechanism": "Set x.max = 8.99 (the CIB/Complete figure from the supplied PriceCharting evidence) directly at item-creation time in the new census-physical-omission-pass-v001.js script, with x.priceSource documenting the exact PriceCharting product ID (4175899), UPC (722674127578), and the loose/CIB/new price snapshot. This reuses the EXACT existing mechanism every other census identity's price field works through (priceFor() in price-fix.js falls back to x.max when no priceMap/online-snapshot entry exists) -- no new pricing architecture was created, and no other price-*.js file was touched, so this cannot bleed into any other Dragon Ball title's pricing.",
+      "fieldChosen": "x.max (CIB/Complete), per instructions to prefer CIB as the normal ShelfCheck comparison price -- confirmed via app.js's advice()/priceHtml() that x.max is exactly the field displayed as 'CIB MARKET' and used for the CIB price-ceiling comparison.",
+      "strongTargetLeftNull": "x.strong and x.target were left null -- there is no evidence-based methodology available for those fields for this identity, and inventing values would violate 'wrong data is worse than incomplete data'.",
+      "digitalStandardEditionMapped": false,
+      "bleedCheck": "Verified this identity is looked up strictly by its own numeric id (2781); priceFor()'s only other lookup paths are norm(title) against priceMap and this identity's own alias list, neither of which any other Dragon Ball identity (FighterZ, Kakarot, Xenoverse, Xenoverse 2) shares."
+    },
+    "searchResults": {
+      "Dragon Ball": { "resultCount": 5, "includesBreakers": true, "note": "Surfaces all 5 Dragon Ball census identities including The Breakers." },
+      "Dragon Ball The Breakers": { "resultCount": 1, "includesBreakers": true },
+      "Dragon Ball: The Breakers": { "resultCount": 1, "includesBreakers": true },
+      "Breakers": { "resultCount": 3, "includesBreakers": true, "note": "Also correctly surfaces the unrelated 'Breakers Collection' and 'Circuit Breakers' -- expected substring-search behavior, not a bug." }
+    }
+  },
+
+  "omissionCheck": {
+    "scope": "Bounded per instructions -- did not re-review the 2,532 existing identities or re-litigate existing exclusions. Used two distinct, differently-scoped channels: (1) a BULK RECONCILIATION COMPARISON of Josh's real, current GameEye-derived owned-title list (tools/gameeye-2026-08-30-ps4.json, 244 titles) against the census using the REAL app.js candidates()/importCSV()-style resolution logic -- this is a mechanical, automated comparison of an existing data file against the census (not 244 individually-researched omission candidates), included because it is the highest-confidence signal available (every title in it is a game Josh has independently verified he owns) and it surfaced zero genuine missing-identity cases (see relatedFindingsOutOfScope for the 4 non-omission alias gaps it did surface); (2) the actual BOUNDED MANUAL OMISSION INVESTIGATION -- 48 candidate titles individually considered against the task's priority categories (digital-live-service-with-physical-special-edition, boutique/Limited-Run-style late PS4 releases), each checked for census absence and then, for the most plausible ones, individually researched against available web sources. This manual investigation stayed within the <=50 cap the task specifies.",
+    "candidatesInvestigated": 48,
+    "candidatesInvestigatedNote": "This is the bounded MANUAL investigation count (<=50 cap), not the separate 244-title automated GameEye reconciliation comparison described above -- that comparison is a different kind of check (existing-data-file vs. census) and is not 244 individually-researched omission candidates.",
+    "toolingLimitation": "PriceCharting (pricecharting.com) refuses this session's WebFetch tool with HTTP 403, exactly as found in the prior price-audit pass -- so no candidate's exact UPC/PriceCharting product ID could be independently confirmed this session. Per PR #30 review, this alone does not block an addition when other sufficiently strong FIRST-PARTY evidence of a physical PS4 disc exists (see additions below) -- it only means those additions are PRICE PENDING rather than priced, and it's why the remaining candidates below were not added.",
+    "additions": [
+      { "id": 2781, "title": "Dragon Ball: The Breakers", "note": "See breakers section above. Added in the original pass; priced ($8.99 CIB) from the supplied UPC/PriceCharting evidence." },
+      { "id": 2782, "title": "Russian Subway Dogs", "note": "See additionalAdditionsAfterReview below. Added after PR #30 review on first-party Limited Run Games evidence. PRICE PENDING -- no price invented." },
+      { "id": 2783, "title": "Prince of Persia: The Lost Crown", "note": "See additionalAdditionsAfterReview below. Added after PR #30 review on first-party Sony/PlayStation evidence. PRICE PENDING -- no price invented." }
+    ],
+    "rejected": [
+      { "title": "Marvel MaXimum Collection", "reason": "Confirmed via Wikipedia: Nintendo Switch, PlayStation 5, Windows, Xbox Series X/S only -- no PS4 release. Not eligible." },
+      { "title": "Hollow Knight: Silksong", "reason": "PS5/Xbox Series/Switch/PC only -- no PS4 release. Not eligible." },
+      { "title": "Firewall Zero Hour", "reason": "Present in Josh's GameEye list but already deliberately EXCLUDED by ownership-reconcile-v071.js ('PSVR REQUIRED — excluded by Josh Set constitution'). Not an omission -- existing, correct exclusion." },
+      { "title": "WWE 2K24", "reason": "Present in Josh's GameEye list but already deliberately EXCLUDED by ownership-reconcile-v071.js ('ANNUAL SPORTS — excluded by Josh Set constitution'). Not an omission -- existing, correct exclusion." },
+      { "title": "~40 other brainstormed candidates (Concord, Foamstars, Knockout City, Rumbleverse, Sifu, Animal Well, Balatro, Cocoon, Tchia, Neva, Trepang2, and similar)", "reason": "Absent from census, but this session could not obtain reliable platform/physical-release confirmation for these; general knowledge alone is not authoritative enough per instructions ('do not use marketplace listings alone as proof', 'do not add based only on fuzzy title matching'). Not added and not queued -- the risk of asserting an unverified physical-PS4-release claim outweighs the value of a low-confidence curator entry for each." }
+    ],
+    "curatorQueue": [
+      {
+        "title": "Blasphemous 2",
+        "status": "unresolved -- no confirmed physical PS4 release",
+        "reasonUnresolved": "Team17 confirms a PS4 VERSION of the game exists, but a digital PS4 version alone does not prove a physical PS4 disc release. Sources found on the physical release itself were inconsistent -- one describing a Team17-published standard retail release from September 2023, another describing an April 2024 Selecta Play Collector's Edition for 'Nintendo Switch and PS4' -- and this session could not resolve the discrepancy or confirm either as an accurate first-party PS4 physical SKU. Per explicit PR #30 review instruction: kept unresolved, NOT added.",
+        "evidenceNeeded": "Direct first-party confirmation (publisher/retailer listing explicitly naming a PS4 disc SKU/UPC) resolving the Team17-vs-Selecta-Play discrepancy, before this should be considered further."
+      }
+    ]
+  },
+
+  "additionalAdditionsAfterReview": {
+    "note": "Added after independent PR #30 review found first-party physical-disc evidence sufficient without a PriceCharting ID. Both use the same registerCensusMutation('add', ...) pipeline as Breakers, both left PRICE PENDING (x.max stays null) since no safe exact price source exists for either yet -- no price was invented.",
+    "russianSubwayDogs": {
+      "id": 2782,
+      "title": "Russian Subway Dogs",
+      "set": "INCLUDED",
+      "verifiedAbsentBeforeAdding": true,
+      "evidence": "Limited Run Games' own official product page: 'Limited Run #555: Russian Subway Dogs (PS4)', which states directly: 'Russian Subway Dogs is on a region-free physical disc for the PlayStation 4.' First-party manufacturer/publisher confirmation of the physical disc, sufficient without a PriceCharting ID per review.",
+      "priceHandling": "max left null (PRICE PENDING) -- no exact safe price source was found; not invented.",
+      "searchResults": {
+        "Russian Subway Dogs": { "resultCount": 1, "includesTitle": true }
+      }
+    },
+    "princeOfPersiaTheLostCrown": {
+      "id": 2783,
+      "title": "Prince of Persia: The Lost Crown",
+      "set": "INCLUDED",
+      "verifiedAbsentBeforeAdding": true,
+      "evidence": "Sony's own official PlayStation listing states that owners of the PS4 disc copy must insert that physical disc into a PS5 to claim the PS5 digital upgrade -- a disc-insertion cross-gen-upgrade check has no meaning unless a real PS4 disc exists, which is direct first-party confirmation of a physical PS4 release (Ubisoft, January 18, 2024).",
+      "priceHandling": "max left null (PRICE PENDING) -- no exact safe price source was found; not invented.",
+      "searchResults": {
+        "Prince of Persia": { "resultCount": 1, "includesTitle": true },
+        "Lost Crown": { "resultCount": 1, "includesTitle": true }
+      }
+    }
+  },
+
+  "relatedFindingsOutOfScope": {
+    "note": "Discovered while cross-checking Josh's real GameEye owned-title list against the census. These are NOT missing identities -- every title below already exists as an INCLUDED census identity or product. They are GameEye ownership-reconciliation matching gaps for EXISTING identities, a different problem class from Part 2's mandate (missing physical releases). Explicitly NOT fixed in this PR (would be 'unrelated census/alias cleanup', out of scope) -- documented here for a future dedicated ownership-reconciliation pass.",
+    "findings": [
+      { "gameEyeTitle": "The Callisto Protocol [Day One Edition]", "censusTitle": "Callisto Protocol [Day One Edition]", "issue": "Leading 'The' in GameEye's title has no matching alias/product entry; app.js's importCSV only strips a leading 'the'/'The' for PRODUCT-map lookups, not plain item-title matches, so this specific title format would fail to reconcile as owned." },
+      { "gameEyeTitle": "The Last Kids on Earth and the Staff of Doom", "censusTitle": "Last Kids on Earth and the Staff of Doom", "issue": "Same leading-'The' mismatch as above." },
+      { "gameEyeTitle": "The Lord of the Rings: Gollum", "censusTitle": "Lord of the Rings: Gollum", "issue": "Same leading-'The' mismatch as above." },
+      { "gameEyeTitle": "The Dark Pictures Anthology: Man of Medan", "censusTitle": "Dark Pictures Anthology: Man of Medan", "issue": "An alias already exists from census-integrity-pass-v001.js, but for the string 'The Dark Pictures - Man of Medan' (no 'Anthology', has a dash) -- a different variant than Josh's actual GameEye title text ('The Dark Pictures Anthology: Man of Medan'), so it does not cover this exact format." },
+      { "gameEyeTitle": "Don't Starve: Mega Pack", "censusTitle": "Don't Starve: Mega Pack (product, covers ids 386, 1799)", "issue": "The stored product key normalizes to 'don t starve mega pack' (extra space where an apostrophe should be stripped), suggesting the original title text used a different apostrophe character than norm() recognizes -- a standard-apostrophe 'Don't Starve: Mega Pack' does not resolve to the existing product key." }
+    ]
+  },
+
+  "searchTrustRegression": {
+    "goal": "Regression evidence for the incident: a legitimate physical PS4 release can be completely absent, causing a NEEDED search to misleadingly return nothing.",
+    "postAdditionResults": {
+      "Dragon Ball": { "resultCount": 5, "includesBreakers": true },
+      "Dragon Ball The Breakers": { "resultCount": 1, "includesBreakers": true },
+      "Dragon Ball: The Breakers": { "resultCount": 1, "includesBreakers": true },
+      "Breakers": { "resultCount": 3, "includesBreakers": true }
+    },
+    "dragonbBehavior": {
+      "resultCount": 0,
+      "confirmed": true,
+      "cause": "app.js's search is a plain substring test (x.search.includes(q)) against a space-tokenized, normalized string (e.g. 'dragon ball the breakers ...'). 'dragonb' is not a substring of that string because 'dragon' and 'ball' are separated by a space -- the search has no word-boundary-tolerant or fuzzy/prefix-per-token matching. This is a genuine, reproducible tokenization gap, not fixed here per explicit instructions not to broaden this PR into a search rewrite. Documented for a dedicated future search-hardening pass."
+    },
+    "missingResultUxRisk": {
+      "documented": true,
+      "notFixed": true,
+      "risk": "When a search genuinely returns zero results (either because the query doesn't tokenize-match an existing title, as with 'Dragonb', OR because the title is genuinely absent from the census, as Dragon Ball: The Breakers was before this pass), the UI shows the same generic \"Nothing matched.\" message (app.js render(): `$(\"#results\").innerHTML=cards+more||'<p class=\"muted\">Nothing matched.</p>'`) with no distinction between 'try a different search term' and 'this genuinely was not in your data'. A user can easily read \"Nothing matched\" as \"I already have this\" or \"this doesn't exist for PS4\" -- exactly the failure mode that let The Breakers stay silently absent. Not fixed here because a real fix requires actual UX/copy design and possibly a distinct empty-state (a dedicated search-hardening pass), not a one-line text edit that could be done safely blind; flagged explicitly for that pass instead of attempted here."
+    }
+  },
+
+  "finalCounts": {
+    "included": 2535,
+    "priced": 2051,
+    "pending": 484,
+    "coveragePercent": 80.91,
+    "owned": { "total": 230, "priced": 211, "pending": 19, "coveragePercent": 91.74 },
+    "needed": { "total": 2305, "priced": 1840, "pending": 465, "coveragePercent": 79.83 },
+    "changeFromPriorBaseline": "included 2532 -> 2535 (+3: Dragon Ball: The Breakers, Russian Subway Dogs, Prince of Persia: The Lost Crown); priced 2050 -> 2051 (+1, Breakers only -- the other two are PRICE PENDING); pending 482 -> 484 (+2, Russian Subway Dogs and Prince of Persia: The Lost Crown, both PRICE PENDING as instructed rather than guessed)."
+  },
+
+  "regression": {
+    "deterministicRuns": 20,
+    "allRunsIdentical": true,
+    "membershipHashes": 1,
+    "postFinalizationMutationRefused": true,
+    "knownConflictIdentitiesStillExcluded": true,
+    "liveBrowserValidation": {
+      "consoleErrors": 0,
+      "priceSortViolations": 0,
+      "ownedFilterRenders": true,
+      "neededFilterRenders": true,
+      "huntFilterRenders": true,
+      "progressReflectsFinalizedState": true,
+      "pwaCacheVersion": "shelfcheck-v123",
+      "newFilePrecached": true,
+      "searchVerifiedForAllThreeAddedIdentities": true
+    }
+  }
+}

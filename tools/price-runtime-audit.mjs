@@ -30,6 +30,7 @@ const CENSUS_MUTATORS = [
   'census-v054-pricecharting-collection-gap.js', 'census-v055-pricecharting-ab-sweep.js',
   'census-v056-pricecharting-cf-sweep.js', 'census-v057-pricecharting-gl-sweep.js',
   'census-v058-pricecharting-mr-sweep.js', 'census-v059-pricecharting-sz-sweep.js',
+  'census-physical-omission-pass-v001.js',
   'census-v060-integrity-scrub.js', 'census-integrity-pass-v001.js', 'census-integrity-pass-v002.js',
   'ownership-reconcile-v071.js',
 ];
