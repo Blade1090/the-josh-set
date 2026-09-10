@@ -1,0 +1,219 @@
+{
+  "task": "SHELFCHECK — DOSSIER CONTAMINATION REPAIR — BATCH 3",
+  "source": "audit-out/curation-verification-pass-1.json (dossierContaminationFullManifest, 84 confirmed contaminated dossiers)",
+  "selection": "The next 20 entries in manifest array order after the 30 handled by Batches 1 and 2 (ids 1151,501,822,564,835,836,1116,621,496,494,6,10,18,34,50,61,66,80,85,88,92,96,111,130,140,160,238,245,246,314 excluded from selection).",
+  "manifestEntriesInspected": 20,
+  "classificationCounts": {
+    "ALREADY_FIXED": 15,
+    "REPAIRED": 5
+  },
+  "method": "For each of the 20 titles, loaded the base shelfcheck-dossiers.txt entry and replayed every existing dossier-overrides-*.js batch (1 through 47, in real load order) using the same last-write-wins Map.set logic dossier-apply.js uses at runtime, to determine the actual EFFECTIVE (live) dossier object -- not just whether an override file happens to mention the title. An entry was classified ALREADY_FIXED only when the effective object was a distinct, already-accurate override (verified against the real game); LIVE_CONTAMINATED (-> REPAIRED) when the effective object was still the contaminated base entry itself.",
+  "classifications": [
+    {
+      "id": 322,
+      "title": "Dead Alliance",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base IllFonic, LLC company bio)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (multiplayer FPS with zombies used as tactical weapons) and an appropriately cautious curator take about its online-dependent value. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 354,
+      "title": "Destiny Connect: Tick-Tock Travelers",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "SWITCH_LIST",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base 'part of the list of Nintendo Switch games' stub)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (turn-based JRPG, time-travel/New Year's Eve premise) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 362,
+      "title": "Devious Dungeon",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "VITA_LIST",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base 'list of PlayStation Vita games' stub)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (side-scrolling action-platform RPG, randomized levels) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 428,
+      "title": "Earth's Dawn",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base Rising Star Games publisher bio)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (2D side-scrolling action RPG, combo-heavy combat, black-and-white art) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 438,
+      "title": "Embers of Mirrim",
+      "classification": "REPAIRED",
+      "manifestPattern": "XBOX_LIST",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base 'list of Xbox One games' stub.",
+      "correction": "Added a new override (dossier-overrides-48.js) describing the actual game: a dual-stick puzzle-platformer controlling two linked creatures (Mir and Rim) simultaneously via the left and right analog sticks.",
+      "researchSources": ["PlayStation Blog announcement", "Cubed3 review", "PS4Blog.net review", "Playstation Enthusiast review", "Limited Run Games product page"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 440,
+      "title": "Erica",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "DISAMBIGUATION",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base Wikipedia disambiguation-page stub 'Erica or ERICA may refer to:')",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (interactive live-action FMV thriller) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 492,
+      "title": "Firefighters: Airport Fire Department",
+      "classification": "REPAIRED",
+      "manifestPattern": "XBOX_LIST",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base 'list of Xbox One games' stub.",
+      "correction": "Added a new override describing the actual game: an airport-crash-and-rescue-focused firefighting simulation spun off from Firefighters: The Simulation, with a curator take honestly noting the same studio/genre lineage as that already-excluded title.",
+      "researchSources": ["GameFAQs release info", "Push Square", "Amazon PS4 listing", "PlayStation Store product page"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 499,
+      "title": "Flipping Death",
+      "classification": "REPAIRED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base Zoink AB company-history bio.",
+      "correction": "Added a new override describing the actual game: a 2D comedy adventure-puzzle-platformer from the Stick it to the Man! team, built around possessing townsfolk to flip the world between the living and the dead. Curator take explicitly connects it to the Josh-confirmed hit Stick it to the Man! while being honest that Josh has not personally played this one.",
+      "researchSources": ["GamePitt review", "Push Square review", "Gamecritics.com review", "PlayStationLifeStyle review", "PS4Blog.net review"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 506,
+      "title": "Frane: Dragons' Odyssey",
+      "classification": "REPAIRED",
+      "manifestPattern": "KEMCO_LIST",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base 'list of Kemco games' stub.",
+      "correction": "Added a new override describing the actual game: an Ys-style real-time action RPG with an elemental matchup system, honestly reflecting its mixed-to-negative reception for thin/frustrating combat despite a well-liked story.",
+      "researchSources": ["Metacritic", "Gaming Age review", "Operation Rainfall review", "Movies Games and Tech review"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 528,
+      "title": "Ghost Parade",
+      "classification": "REPAIRED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base Aksys Games Localization, Inc. company bio.",
+      "correction": "Added a new override describing the actual game: a Metroidvania built around Indonesian-folklore ghost companions, with a curator take acknowledging both the creative folklore setting and reviewers' floaty-platforming criticism.",
+      "researchSources": ["NoisyPixel review", "Aksys Games official product page", "PS4Blog.net review", "Metacritic"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 550,
+      "title": "Gravity Rush Remastered",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base Bluepoint Games company bio)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct description (Kat's gravity-shifting movement system remastered from Vita) and an enthusiastic, well-supported curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 579,
+      "title": "Hell Warders",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "XBOX_LIST",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base 'list of Xbox One games' stub)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (action/tower-defense hybrid) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 615,
+      "title": "Illusion of L'Phalcia",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "KEMCO_LIST (also matched MISSING_FIELDS)",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base 'list of Kemco games' stub and its empty 'Not identified' structured fields)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (traditional Kemco JRPG, legendary-sword quest) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 626,
+      "title": "Infliction: Extended Cut",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "PS_PLATFORM_LIST",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base 'list of games for the PlayStation 5' stub)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (first-person domestic horror) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 632,
+      "title": "Iris.Fall",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "SWITCH_LIST",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base 'part of the list of Nintendo Switch games' stub)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (monochrome light/shadow puzzle adventure) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 681,
+      "title": "Kromaia Omega",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "PS_PLATFORM_LIST",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base 'list of games for the PlayStation 4' stub)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (free-roaming 3D six-degrees-of-freedom shooter) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 690,
+      "title": "Lapis x Labyrinth",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base Nippon Ichi Software company bio)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre and core mechanic (stacking chibi party members into a tower, loot-driven action RPG). This is also the sibling English identity that satisfies the identity-rule note for Lapis Re Abyss (id 2645) in the language-barrier audit -- confirmed consistent with that prior finding. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 698,
+      "title": "Legendary Fishing",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base SIMS Co., Ltd. company bio)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (arcade fishing sim) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 721,
+      "title": "Lili: Child of Geos",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "LRG_LIST",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base 'list of games released by Limited Run Games' stub)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre and signature mechanic (nonviolent 3D adventure, plucking flowers from enemies instead of fighting) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 722,
+      "title": "Little Dragons Cafe",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base Paon DP Co., Ltd. company bio)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (Harvest Moon-lineage life-sim, cafe management + dragon raising) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    }
+  ],
+  "notesForReviewer": [
+    "Exactly 20 manifest entries were inspected, selected as the next 20 in the manifest's original array order following the 30 already handled by Batches 1 and 2.",
+    "15 of the 20 were classified ALREADY_FIXED, all with their effective override already living in dossier-overrides-45.js -- every one already supersedes the contaminated base shelfcheck-dossiers.txt entry at runtime, so Josh has never seen the wrong text for any of these 15. Each was independently re-verified against the real game for accuracy and deliberately left untouched.",
+    "5 of the 20 were classified REPAIRED (genuinely LIVE_CONTAMINATED): no override existed, so the contaminated base text was what ShelfCheck actually served. New, game-specific overrides for these 5 were added in a new file, dossier-overrides-48.js, following the exact same {t,s,w,c,r,b,p} object-literal schema as every prior batch.",
+    "Firefighters: Airport Fire Department's dossier text honestly notes the same studio/genre lineage as the already-excluded Firefighters: The Simulation (GENERIC_SIM, curation pass #1) -- this repair only touched dossier content, not census status; Firefighters: Airport Fire Department itself remains INCLUDED and was not re-evaluated for exclusion (out of scope for this pass).",
+    "Flipping Death's curator take draws an evidence-supported connection to the Josh-confirmed hit Stick it to the Man! (same studio, same art style/humor/mechanic lineage per multiple reviews) while being explicit that this specific personal-fit claim is not confirmed for this title, avoiding manufactured personalization.",
+    "dossier-apply.js, index.html, and sw.js each received exactly one minimal line-edit to register/precache the new batch file, consistent with every prior batch; sw.js's cache generation was bumped shelfcheck-v137 -> shelfcheck-v138."
+  ],
+  "validation": {
+    "manifestEntriesInspectedCount": 20,
+    "dossierOverrideSyntax": "PASS — node --check dossier-overrides-48.js",
+    "dossierFactoryValidation": "PASS — tools/dossier-factory.mjs ran cleanly and parsed the new batch file's {t:\"...\"} entries via its existing regex-based override scanner without error",
+    "allOverridesStillLoad": "PASS — live browser confirms all 48 batch files load without exception and every one of the 20 inspected titles resolves to its correct id and expected content",
+    "onlyLiveContaminatedEntriesGotNewOverrides": "PASS — only the 5 REPAIRED titles appear in dossier-overrides-48.js; the 15 ALREADY_FIXED titles were not written to any file",
+    "noUnrelatedDossierChanged": "PASS — git diff confirms only the new dossier-overrides-48.js file plus one-line wiring edits to dossier-apply.js/index.html/sw.js; no existing dossier-overrides-*.js file was modified",
+    "censusMembershipUnchanged": "PASS — tools/census-determinism-test.mjs, 20/20 runs, INCLUDED = 2509 (unchanged)",
+    "ownershipUnchanged": "PASS — live browser header progress reads 230 / 2509, matching pre-repair state exactly",
+    "pwaPrecacheConsistency": "PASS — tools/pwa-precache-consistency-test.mjs, both checks pass (run because sw.js's precache list changed)",
+    "repairedDossiersRenderRecommendation": "PASS — all 5 REPAIRED titles confirmed live to render a non-empty RECOMMENDATION section (p field length checked >=28 chars, live usefulText() check confirmed true for all 5)",
+    "zeroConsoleErrors": "PASS — confirmed on a fresh live load"
+  }
+}
