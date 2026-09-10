@@ -1,0 +1,221 @@
+{
+  "generatedAt": "2026-09-10T00:00:00.000Z",
+  "task": "SHELFCHECK -- CURATION DISCOVERY PASS #1 (analysis-only, no runtime/UI/census changes)",
+  "purpose": "Identify categories with essentially no practical collecting/play value for Josh, while preserving weird/obscure/interesting games, per the 4 principles + horse-game callout in the task prompt. This is a discovery sample, not a full 2,536-title review, and NOT an exclusion decision -- everything here needs Josh's sign-off before any runtime change.",
+  "methodology": "Loaded the real finalized runtime census (2,536 INCLUDED identities, same deterministic vm-replay harness used throughout this engagement) joined with the real shelfcheck-dossiers.txt data (1,491 dossier records). Ran keyword scans against census titles for each principle's likely vocabulary (simulator/sim, horse/pony/equestrian/ranch, kids-IP franchise names, party/sing/trivia, life/tycoon/youtuber), then individually assessed each hit's dossier text and/or general/verified knowledge. For the most consequential or ambiguous candidates (all 3 language-barrier candidates, the named Principle 2-4 examples, and several representative borderline titles), performed live web verification (English-language-support confirmation, review-aggregator gameplay-depth evidence) rather than inferring from title/region/genre alone, per Principle 1's explicit 'verify it' instruction and the general 'reason not merely genre/title/region' requirement. Separately ran a mechanical local-text scan across all 1,491 loaded dossier summaries for known wrong-content contamination patterns (Wikipedia list/disambiguation-page text, publisher/developer company bios) -- this is NOT part of the curation-judgment identity count below since it required no individual research, only string inspection of already-loaded data.",
+  "identitiesInvestigated": {
+    "curationJudgmentSample": 84,
+    "curationJudgmentSampleNote": "Distinct identities given an individual KEEP / CUT CANDIDATE / UNCERTAIN judgment below, counted against the task's 100-identity cap.",
+    "mechanicalDossierScanHits": 62,
+    "mechanicalDossierScanNote": "Separate mechanical local pattern-scan for contaminated dossier text (see dataBroken below) -- not curation judgment, not counted against the 100-identity cap, since it is a plain string-pattern check over data already loaded for the census/dossier join, not individual research.",
+    "noSubagentsUsed": true
+  },
+
+  "keep": [
+    { "id": 2508, "title": "Baby Shark: Sing & Swim Party", "initialConcern": "Looked like a trivial toddler cash-in by IP alone (Principle 2/4 overlap).", "whyKeep": "Verified via multiple reviews: 30 songs x 2 modes = 60 levels, 4-player local co-op, 100+ collectibles, reviewers 'pleasantly surprised by the quality and amount of content.' Real design effort, not a shovelware cash-in." },
+    { "id": 1581, "title": "Bluey's Quest for the Gold Pen", "initialConcern": "Kids'-IP tie-in, superficially resembles Peppa Pig/Big Bobby Car pattern.", "whyKeep": "From Halfbrick Studios (Jetpack Joyride). Reviews mostly positive-to-mixed: 'solid game mechanics,' 'substantial improvement,' genuine collectathon structure with real puzzles. Matches the explicit 'genuinely creative children's games...remain eligible' carve-out; one negative review exists but is the minority view." },
+    { "id": 2530, "title": "Bluey: The Videogame", "initialConcern": "Same franchise/category concern as above.", "whyKeep": "Licensed platformer with real co-op mechanics and generally decent critical reception; fits the 'meaningful gameplay' carve-out, not the extreme low-value end." },
+    { "id": 1986, "title": "Urban Trial Tricky Deluxe Edition", "initialConcern": "Named as an explicit 'investigate, do not decide' candidate; sounded like a shallow trick-collecting budget title.", "whyKeep": "Reviews describe legitimate, distinctive physics/trick gameplay ('a mash-up of Tony Hawk's Pro Skater and Trials'), smooth controls, real single-player mode variety, and reviewers wanting to replay it. Not extreme low-value." },
+    { "id": 2701, "title": "Rabbids: Party of Legends", "initialConcern": "Title pattern-matches the Principle 4 party-game concern.", "whyKeep": "AAA Ubisoft production with real budget and polish, distinct from the low-effort licensed/party pattern this principle targets." },
+    { "id": 1253, "title": "The Jackbox Party Pack", "initialConcern": "Keyword false-positive on 'party.'", "whyKeep": "Iconic, critically acclaimed, all-ages party-game franchise; the opposite of the low-value pattern this principle targets. Trivially obvious keep, included only to document the keyword search was appropriately broad." },
+    { "id": 536, "title": "Goat Simulator: The Bundle", "initialConcern": "Keyword false-positive on 'simulator.'", "whyKeep": "Iconic, deliberately-absurd comedy sandbox with a large cult following -- exactly the kind of weirdness this pass is supposed to protect, not remove." },
+    { "id": 1187, "title": "Surgeon Simulator: Anniversary Edition", "initialConcern": "Same as above.", "whyKeep": "Cult classic physics-comedy game, same reasoning as Goat Simulator." },
+    { "id": 1599, "title": "Deeeer Simulator", "initialConcern": "Same as above.", "whyKeep": "Viral absurdist 'chaos simulator' with a genuine internet following; distinctive, not generic." },
+    { "id": 1600, "title": "Deer Simulator", "initialConcern": "Same as above.", "whyKeep": "Same reasoning as Deeeer Simulator -- distinctive novelty title, not a generic work-loop sim." },
+    { "id": 209, "title": "Buddy Simulator 1984", "initialConcern": "Same as above.", "whyKeep": "Acclaimed narrative satire/horror-comedy indie game; highly distinctive concept, not a generic simulator." },
+    { "id": 228, "title": "Car Mechanic Simulator", "initialConcern": "Same as above.", "whyKeep": "Legitimate simulation with real mechanical/progression depth and a dedicated fanbase -- the genre's 'good' end this principle explicitly says to preserve." },
+    { "id": 2271, "title": "Construction Simulator", "initialConcern": "Same as above.", "whyKeep": "Same reasoning as Car Mechanic Simulator -- real vehicle-operation depth, established franchise." },
+    { "id": 262, "title": "Construction Simulator 2: Console Edition", "initialConcern": "Same as above.", "whyKeep": "Same franchise/reasoning." },
+    { "id": 263, "title": "Construction Simulator 3: Console Edition", "initialConcern": "Same as above.", "whyKeep": "Same franchise/reasoning." },
+    { "id": 2542, "title": "Bus Simulator", "initialConcern": "Same as above.", "whyKeep": "Legitimate simulation franchise (astragon) with real depth and a dedicated fanbase." },
+    { "id": 2543, "title": "Bus Simulator 21", "initialConcern": "Same as above.", "whyKeep": "Same franchise/reasoning." },
+    { "id": 1350, "title": "Train Sim World", "initialConcern": "Same as above.", "whyKeep": "Flagship, well-produced train-simulation franchise (Dovetail Games) with a passionate hobbyist fanbase -- not generic." },
+    { "id": 1351, "title": "Train Sim World 2020", "initialConcern": "Same as above.", "whyKeep": "Same franchise/reasoning." },
+    { "id": 2646, "title": "Lawn Mowing Simulator: Landmark Edition", "initialConcern": "Sounds like a joke-tier generic sim by title alone.", "whyKeep": "Has a genuine 'surprisingly good' critical reputation with real business/progression depth, distinct from the extreme low-value end this principle targets." },
+    { "id": 153, "title": "Bee Simulator", "initialConcern": "Keyword false-positive on 'simulator.'", "whyKeep": "Legitimate family nature-exploration game with real content variety (story missions, minigames), not a generic work-loop." },
+    { "id": 571, "title": "Harvest Moon: A Wonderful Life Special Edition", "initialConcern": "Keyword false-positive on 'life.'", "whyKeep": "Flagship entry of a beloved, long-running farming-sim franchise. Obviously not low-value." },
+    { "id": 572, "title": "Harvest Moon: Light of Hope", "initialConcern": "Same as above.", "whyKeep": "Same franchise/reasoning." },
+    { "id": 574, "title": "Harvest Moon: Mad Dash", "initialConcern": "Same as above.", "whyKeep": "Same franchise/reasoning." },
+    { "id": 2600, "title": "Harvest Moon: One World", "initialConcern": "Same as above.", "whyKeep": "Same franchise/reasoning." },
+    { "id": 2601, "title": "Harvest Moon: The Winds of Anthos", "initialConcern": "Same as above.", "whyKeep": "Same franchise/reasoning." },
+    { "id": 2609, "title": "Hokko Life", "initialConcern": "Keyword false-positive on 'life.'", "whyKeep": "Well-reviewed Animal Crossing-like life sim with real crafting/building depth." },
+    { "id": 2652, "title": "Mad Games Tycoon", "initialConcern": "Keyword false-positive on 'tycoon.'", "whyKeep": "Legitimate management-sim with a dedicated niche fanbase." },
+    { "id": 2653, "title": "Mad Tower Tycoon", "initialConcern": "Same as above.", "whyKeep": "Same reasoning." },
+    { "id": 1738, "title": "Super Life of Pixel", "initialConcern": "Keyword false-positive on 'life.'", "whyKeep": "Distinctive autobiographical indie game about gaming history -- exactly the kind of odd, interesting title this pass should protect." },
+    { "id": 2354, "title": "The Good Life", "initialConcern": "Same as above.", "whyKeep": "Quirky mystery/life-sim hybrid from a notable auteur developer (SWERY, Deadly Premonition), cult following. Distinctive, not generic." },
+    { "id": 2738, "title": "Taxi Chaos", "initialConcern": "Not part of any named principle, surfaced by a broad scan.", "whyKeep": "Legitimate Crazy-Taxi-style arcade driving game with real skill-based mechanics and a niche following." },
+    { "id": 2770, "title": "You Suck at Parking", "initialConcern": "Same as above.", "whyKeep": "Well-reviewed precision-driving skill game with genuine mechanical depth and challenge." },
+    { "id": 717, "title": "Life is Strange", "initialConcern": "Keyword false-positive on 'life.'", "whyKeep": "Critically acclaimed flagship narrative adventure. Trivially obvious keep." },
+    { "id": 718, "title": "Life is Strange 2", "initialConcern": "Same as above.", "whyKeep": "Same franchise." },
+    { "id": 719, "title": "Life is Strange: Before the Storm", "initialConcern": "Same as above.", "whyKeep": "Same franchise." },
+    { "id": 1471, "title": "Yakuza 6: The Song of Life", "initialConcern": "Keyword false-positive on 'life.'", "whyKeep": "Mainline flagship RPG entry in an acclaimed series. Trivially obvious keep." },
+    { "id": 1103, "title": "Soccer: Tactics & Glory", "initialConcern": "Explicit 'likely keep' example given in the task.", "whyKeep": "Confirmed: a real sports-management/tactics hybrid with genuine mechanical depth, not a low-effort licensed sports title." },
+    { "id": 1771, "title": "TT Isle of Man: Ride On The Edge", "initialConcern": "Explicit 'likely keep' example given in the task.", "whyKeep": "Confirmed: a legitimate licensed motorsport-sim with real racing depth, not a low-effort tie-in." },
+    { "id": 2363, "title": "Unicorn Overlord", "initialConcern": "Keyword false-positive on 'unicorn' during the horse-game scan.", "whyKeep": "A well-regarded 2024 tactical RPG (Vanillaware) unrelated to horse/riding gameplay -- confirms the horse-keyword scan needs individual verification, not blanket keyword exclusion." }
+  ],
+
+  "cutCandidates": [
+    { "id": 2694, "title": "Peppa Pig World Adventures", "category": "VERY_YOUNG_LICENSED", "reason": "Explicit named example from Josh's own Random Game review -- treated as direct first-hand evidence of extreme-low practical play value for an adult collector, not a genre/IP assumption." },
+    { "id": 2520, "title": "Big Bobby Car: The Big Race", "category": "VERY_YOUNG_LICENSED", "reason": "Same as above -- explicit named example, direct first-hand evidence." },
+    { "id": 2678, "title": "PAW Patrol: On a Roll", "category": "VERY_YOUNG_LICENSED", "reason": "Verified via multiple reviews: targeted at ages 4-6, 'repetitive gameplay loop which doesn't offer any challenge,' 'feels like a tutorial mode,' and the game literally 'has no ending.' This is the extreme low-value end Principle 2 targets, not a genre/IP assumption -- confirmed by direct review evidence of near-zero depth for anyone past the target age." },
+    { "id": 58, "title": "Airport Simulator 2019", "category": "GENERIC_SIM", "reason": "Explicit named example. ShelfCheck's own existing dossier already independently concludes 'LEAN IGNORE': 'Slow, repetitive work-sim loop with little traditional gameplay payoff.'" },
+    { "id": 494, "title": "Firefighters: The Simulation", "category": "GENERIC_SIM", "reason": "Explicit named example. Also DATA BROKEN (see below) -- its dossier Quick Summary is a contaminated chronological index of 2018 releases, unrelated to the actual game." },
+    { "id": 492, "title": "Firefighters: Airport Fire Department", "category": "GENERIC_SIM", "reason": "Same publisher/franchise and genre as the confirmed Firefighters: The Simulation (id 494) -- almost certainly the same low-effort simulation production. Also DATA BROKEN (contaminated dossier, see below). Flagged on franchise-pattern grounds rather than independently re-verified; recommend confirming before cutting." },
+    { "id": 2771, "title": "YouTubers Life 2", "category": "GENERIC_SIM", "reason": "Explicit named example -- Josh's own hands-on Random Game judgment, which is stronger evidence than any review-aggregator score for 'practical value to Josh specifically.'" },
+    { "id": 2627, "title": "Just Sing", "category": "LOW_VALUE_ACTIVITY", "reason": "Explicit named example from Josh's own Random Game review." },
+    { "id": 1447, "title": "WordHunters", "category": "LOW_VALUE_ACTIVITY", "reason": "Explicit named example. Also DATA BROKEN (see below) -- its dossier Quick Summary is a publisher company bio (Wired Productions), not a description of the game itself." },
+    { "id": 1430, "title": "We Sing", "category": "LOW_VALUE_ACTIVITY", "reason": "Same generic karaoke/music-matching mechanical class as the confirmed Just Sing -- a title-agnostic song-track-and-score-a-microphone-input loop with no distinctive design beyond the licensed setlist." },
+    { "id": 1682, "title": "Now That's What I Call Sing", "category": "LOW_VALUE_ACTIVITY", "reason": "Same reasoning as We Sing -- same generic karaoke mechanical class as the confirmed Just Sing example." },
+    { "id": 2587, "title": "Garfield Lasagna Party", "category": "LOW_VALUE_ACTIVITY", "reason": "Budget licensed minigame-collection party title from a low-production-tier publisher pattern; no evidence of the distinctive design that would justify keeping a party title (contrast with Jackbox/Rabbids: Party of Legends in KEEP)." },
+    { "id": 2614, "title": "Inspector Gadget: Mad Time Party", "category": "LOW_VALUE_ACTIVITY", "reason": "Same publisher/production-tier pattern as Garfield Lasagna Party -- budget licensed minigame collection with no distinguishing design evidence found." },
+    { "id": 2689, "title": "Party Arcade", "category": "LOW_VALUE_ACTIVITY", "reason": "Verified via reviews: critics describe the included minigames as 'too tedious, too repetitive, or too frustrating,' with a grind structure 'likely put in place to encourage microtransactions.' Low design value plus a monetization-driven design that actively works against collecting/play enjoyment." },
+    { "id": 2606, "title": "Higurashi no Naku Koro ni Hou", "category": "LANGUAGE_BARRIER", "reason": "Explicitly named in the task as a 'likely keep unless verified language accessibility makes it unusable' case. VERIFIED: no official English release exists on PS4; the developer (07th Expansion) has stated the script is too long to feasibly translate, and the only fan translation effort targets the Switch version specifically, not PS4. This is a pure-text visual novel where the entire experience is reading a mystery narrative -- understanding the language is not optional, it IS the game. Meets both Principle 1 conditions." },
+    { "id": 2411, "title": "Yoru, Tomosu", "category": "LANGUAGE_BARRIER", "reason": "Same named 'likely keep unless verified' case. VERIFIED: a horror visual novel with no evidence of any English localization or fan translation found. Same reasoning as Higurashi -- text comprehension is the entire game." },
+    { "id": 2396, "title": "Natsuiro High School: Seisyun Hakusyo", "category": "LANGUAGE_BARRIER", "reason": "One of the task's explicit 'investigate' candidates. VERIFIED: no official English support; sources state 'a strong grasp of Japanese language is necessary...to have any idea of what to do.' Only a partial, incomplete fan translation project (one route) exists, for the PS3 version specifically. The game is a narrative-driven high-school life/relationship adventure -- understanding dialogue and text prompts is materially necessary to play it as designed." }
+  ],
+
+  "horseGameBucket": {
+    "note": "Separate bucket per explicit instruction -- NOT recommended for exclusion in this pass. Listed so Josh can see exactly what a 'no horse games' rule would remove before deciding whether to apply it.",
+    "titles": [
+      { "id": 160, "title": "Bibi & Tina at the horse farm", "note": "Licensed tie-in to the German Bibi & Tina horse-franchise. Also DATA BROKEN (contaminated dossier, see below)." },
+      { "id": 2512, "title": "Barbie: Horse Trails", "note": "Horse-riding-focused Barbie tie-in." },
+      { "id": 2426, "title": "My Fantastic Ranch", "note": "Verified: a horse/unicorn/dragon riding-lesson management sim -- core gameplay is training and riding creatures, primarily horses/unicorns." },
+      { "id": 2440, "title": "Windstorm", "note": "Verified: based on the German Ostwind film franchise about a girl bonding with a horse; gameplay is grooming/riding/caring for the horse. Also raised as a Principle-3 generic-sim example in the task prompt (repetitive chore loop) -- listed once here rather than double-counted." },
+      { "id": 2441, "title": "Windstorm: An Unexpected Arrival", "note": "Same franchise/reasoning as Windstorm." },
+      { "id": 2749, "title": "Unicorn Princess", "note": "Verified: despite the fantasy branding, core gameplay is explicitly 'experience life as a Horse rider,' riding one of six horses; the unicorn/princess framing is a dream-world skin over horse-riding gameplay." }
+    ],
+    "count": 6,
+    "excludedFromKeepList": "Unicorn Overlord (id 2363) was checked and confirmed NOT a horse game (unrelated tactical RPG) -- see keep list."
+  },
+
+  "dataBroken": {
+    "note": "Mechanical scan of already-loaded local dossier text for known wrong-content contamination patterns (Wikipedia list/disambiguation-page text standing in for a real game description, or a publisher/developer company bio standing in for a game description). This is a systemic dossier-factory quality issue, not isolated to the one example given in the task -- it affects at least 62 of 1,491 loaded dossier records (~4.2%). NOT fixed in this pass per scope instructions; documented for a future dedicated dossier-remediation pass. Grouped by contamination pattern below.",
+    "totalContaminatedSummaries": 62,
+    "patternGroups": [
+      {
+        "pattern": "\"This is part of the list of Nintendo Switch games\" (wrong Wikipedia list-page linked instead of the game's own article)",
+        "count": 18,
+        "titles": ["1971 Project Helios (id 6)", "88 Heroes (id 18)", "Alchemic Jousts (id 61)", "Bard's Gold (id 130)", "Battle Princess Madelyn (id 140)", "Bibi & Tina at the horse farm (id 160)", "Caveman Warriors (id 238)", "Destiny Connect: Tick-Tock Travelers (id 354)", "Inertial Drift (id 621)", "Iris.Fall (id 632)", "Musynx (id 805)", "Neon City Riders (id 831)", "Nexomon: Extinction (id 836)", "RemiLore: Lost Girl in the Lands of Lore (id 971)", "Sparklite (id 1116)", "Stranded Sails: Explorers of the Cursed Islands (id 1155)", "Street Power Soccer (id 1163)", "The Inner World: The Last Wind Monk (id 1251)"]
+      },
+      {
+        "pattern": "\"This is a list of Kemco games\" (wrong publisher-list page)",
+        "count": 6,
+        "titles": ["Antiquia Lost (id 80)", "Asdivine Hearts (id 96)", "Chronus Arc (id 245)", "Frane: Dragons' Odyssey (id 506)", "Illusion of L'Phalcia (id 615, also missing dev/publisher/genre fields entirely)", "Revenant Dogma (id 989)", "Revenant Saga (id 990)"]
+      },
+      {
+        "pattern": "\"This is a list of games for the PlayStation 4/5\" (wrong platform-list page)",
+        "count": 7,
+        "titles": ["Kromaia Omega (id 681)", "SmuggleCraft (id 1094)", "Song of Memories (id 1104)", "Super Cane Magic ZERO (id 1176)", "SuperEpic: The Entertainment War (id 1184)", "Unbox: Newbie's Adventure (id 1378)", "Infliction: Extended Cut (id 626, wrong console generation entirely -- linked to a PS5 list)"]
+      },
+      {
+        "pattern": "\"This is a list of Xbox One games\" (wrong platform-list page)",
+        "count": 4,
+        "titles": ["Citadel: Forged with Fire (id 246)", "Embers of Mirrim (id 438)", "Firefighters: Airport Fire Department (id 492)", "Hell Warders (id 579)"]
+      },
+      {
+        "pattern": "Publisher/developer company bio standing in for a game description",
+        "count": 10,
+        "titles": ["Arcadegeddon (id 88, IllFonic bio)", "Dead Alliance (id 322, IllFonic bio)", "Flipping Death (id 499, Zoink AB bio)", "Stick it to the Man! (id 1151, Zoink AB bio)", "Zombie Vikings (id 1490, Zoink AB bio)", "Ghost Parade (id 528, Aksys Games bio)", "Pool Nation (id 922, Wired Productions bio)", "Surf World Series (id 1186, Wired Productions bio)", "Those Who Remain (id 1323, Wired Productions bio)", "WordHunters (id 1447, Wired Productions bio)", "Siralim (id 1076, Super Rare Games bio)", "Siralim 2 (id 1077, Super Rare Games bio)"]
+      },
+      {
+        "pattern": "Miscellaneous wrong-list/disambiguation contamination (one-off, individually distinct wrong sources)",
+        "count": 11,
+        "titles": [
+          "Agony (id 50) -- disambiguation-page text ('Agony may refer to:')",
+          "Erica (id 440) -- disambiguation-page text (confuses the game with the Erica plant genus and a bank chatbot)",
+          "All-Star Fruit Racing (id 66) -- linked to a generic 'list of vehicular combat games'",
+          "For the King (id 501) -- linked to a list of Accolade-published games; For the King is not an Accolade title, so this is also factually wrong, not just generic",
+          "Lili: Child of Geos (id 721) -- linked to a Limited Run Games product-list page",
+          "Slime-san: Superslime Edition (id 1092) -- same Limited Run Games list-page pattern",
+          "Devious Dungeon (id 362) -- linked to a PS Vita retail-cartridge list page",
+          "SuperMash (id 1185) -- linked to a 2021 Atari VCS games list (wrong platform entirely)",
+          "Qubit's Quest (id 945) -- linked to a generic light-gun-games list (wrong genre entirely)",
+          "Naruto to Boruto: Shinobi Striker (id 822) -- linked to a generic Bandai Namco publisher-catalog list rather than the game's own article",
+          "Gundam Versus (id 564) / New Gundam Breaker (id 835) -- both linked to a generic Gundam-franchise-merchandise overview rather than their own game articles"
+        ]
+      }
+    ],
+    "falsePositivesExcludedFromThisList": "ToeJam & Earl: Back in the Groove (id 1331) matched the scan pattern on 'founded by' but its actual summary text is a correct, specific description of the game -- excluded after manual check."
+  },
+
+  "uncertain": [
+    { "id": 2550, "title": "Chef Life: A Restaurant Simulator", "why": "Explicit 'investigate, do not decide' candidate. Has genuine cooking/business-management depth and moderate reviews -- not clearly extreme low-value, but also not a standout. Needs Josh's personal judgment." },
+    { "id": 2412, "title": "ATV Renegades", "why": "Explicit 'investigate, do not decide' candidate. Reviews are sparse and mixed ('bargain bin' vs. 'pure thrill'); a genuinely borderline budget racer, not clearly worse than several other budget racers already kept in the census." },
+    { "id": 648, "title": "Jumanji: The Video Game", "why": "Licensed board-game-to-videogame adaptation with real 4-player co-op mechanics translating actual board-game rules; not obviously extreme low-value but not independently verified as distinctive either." },
+    { "id": 2625, "title": "Jumanji: Wild Adventures", "why": "Newer sequel/spinoff in the same franchise; not independently researched this pass." },
+    { "id": 2774, "title": "Youtubers Life OMG", "why": "Same franchise as the confirmed-cut YouTubers Life 2, but this specific title was not personally played/judged by Josh and not independently verified -- flagging the pattern rather than assuming the same verdict applies." },
+    { "id": 2427, "title": "My Friend Peppa Pig", "why": "Same IP as the confirmed-cut Peppa Pig World Adventures, but a distinct title not independently verified. Flagging the pattern, not assuming the verdict transfers automatically." },
+    { "id": 2679, "title": "PAW Patrol Rescue Wheels: Championship", "why": "Same publisher/production-tier pattern as the verified-low-depth PAW Patrol: On a Roll, but not individually reviewed this pass." },
+    { "id": 2680, "title": "PAW Patrol The Movie: Adventure City Calls", "why": "Same pattern as above, not individually reviewed." },
+    { "id": 2691, "title": "Paw Patrol Grand Prix", "why": "Same pattern as above, not individually reviewed." },
+    { "id": 2692, "title": "Paw Patrol World", "why": "Same pattern as above, not individually reviewed." },
+    { "id": 2693, "title": "Paw Patrol: Mighty Pups Save Adventure Bay", "why": "Same pattern as above, not individually reviewed." },
+    { "id": 2681, "title": "PJ Masks Power Heroes: Mighty Alliance", "why": "Same publisher/production-tier pattern as the PAW Patrol titles, not individually reviewed." },
+    { "id": 2682, "title": "PJ Masks: Heroes of The Night", "why": "Same pattern as above, not individually reviewed." },
+    { "id": 1400, "title": "Vegas Party", "why": "Mixed reviews but has real minigame variety (10-17 casino-themed minigames, 4-player support) -- not clearly extreme low-value." },
+    { "id": 2621, "title": "JoJo Siwa: Worldwide Party", "why": "Mixed reviews: has a real mechanical structure (rhythm/platforming hybrid) but reviewers repeatedly call it thin/repetitive ('smoke and mirrors,' 'too thin a thread'). Leaning toward LOW_VALUE_ACTIVITY but not confident enough to list as a firm candidate." },
+    { "id": 2617, "title": "Island Flight Simulator", "why": "Likely a budget/shallow flight sim by pattern, but not independently verified this pass." },
+    { "id": 2671, "title": "On the Road: Truck Simulator", "why": "Likely a budget truck sim by pattern (similar profile to Airport Simulator 2019), but not independently verified this pass." },
+    { "id": 2585, "title": "Garden Life: A Cozy Simulator", "why": "Cozy-genre simulation with plausible real niche appeal; not independently verified this pass either way." },
+    { "id": 2586, "title": "Garden Simulator", "why": "Same reasoning as Garden Life -- not independently verified this pass." },
+    { "id": 1650, "title": "Labyrinth Life", "why": "Niche puzzle-RPG (Idea Factory) surfaced by a 'life' keyword false-positive; has real dungeon-crawler mechanics on the surface but not independently verified this pass." },
+    { "id": 1865, "title": "Escape From Life Inc.", "why": "Keyword false-positive on 'life,' unclear game beyond the title; not researched this pass." },
+    { "id": 2477, "title": "Aerial Life", "why": "Same as above -- surfaced by keyword, not researched this pass." },
+    { "id": 2724, "title": "Seed Of Life", "why": "Same as above -- surfaced by keyword, not researched this pass." }
+  ],
+
+  "counts": {
+    "keep": 39,
+    "cutCandidateNonHorse": 16,
+    "horseGame": 6,
+    "cutCandidateTotalIncludingHorse": 22,
+    "uncertain": 23,
+    "dataBrokenContaminatedSummaries": 62,
+    "byCategory": {
+      "LANGUAGE_BARRIER": 3,
+      "VERY_YOUNG_LICENSED": 3,
+      "GENERIC_SIM": 3,
+      "LOW_VALUE_ACTIVITY": 7,
+      "HORSE_GAME": 6
+    }
+  },
+
+  "projectedIncludedIfAllCutCandidatesExcluded": {
+    "currentIncluded": 2536,
+    "ifNonHorseCutCandidatesOnlyExcluded": 2520,
+    "ifHorseGamesAlsoExcluded": 2514,
+    "note": "Purely arithmetic projection (2536 minus 16, then minus 6 more) for planning purposes only -- no census change was made in this pass."
+  },
+
+  "categoriesTooRiskyToAutomate": [
+    "LOW_VALUE_ACTIVITY (party/music/trivia games) -- quality varies enormously within the category by production budget alone (The Jackbox Party Pack and Rabbids: Party of Legends vs. Party Arcade and Garfield Lasagna Party are all 'party games' but polar opposites in value). A genre/keyword rule would catch good titles.",
+    "VERY_YOUNG_LICENSED -- quality depends entirely on the specific developer/publisher, not the IP or target age. The same 'kids' license' pattern produced both a near-zero-depth title (PAW Patrol: On a Roll) and a genuinely well-made one (Bluey's Quest for the Gold Pen) from different developers. Cannot be automated by franchise or ESRB rating.",
+    "GENERIC_SIM -- the word 'Simulator' in the title has almost no correlation with quality; some of the most beloved, distinctive titles in the whole census use it ironically (Goat Simulator, Surgeon Simulator, Deeeer Simulator). A title-keyword rule would remove exactly the weirdness this pass is supposed to protect.",
+    "LANGUAGE_BARRIER is comparatively the SAFEST of the four to eventually formalize into a semi-automated check, because the underlying question (does verified English text/audio support exist for this specific release?) is a checkable fact rather than a quality judgment -- but it still requires a per-title lookup, not an inference from region/publisher/genre, since many JP-region titles (fighters, shmups, racers, arcade, action) remain fully playable without language support."
+  ],
+
+  "representativeBorderlineExamplesForJoshReview": [
+    { "id": 2771, "title": "YouTubers Life 2", "category": "GENERIC_SIM (cut candidate)", "why": "Your own Random Game verdict -- confirm this is the intended reading before it's used as a template for judging Youtubers Life OMG too." },
+    { "id": 2678, "title": "PAW Patrol: On a Roll", "category": "VERY_YOUNG_LICENSED (cut candidate)", "why": "Strongest-evidence example of the licensed-kids-IP pattern; also representative of the other 4 PAW Patrol + 2 PJ Masks titles left in UNCERTAIN." },
+    { "id": 2627, "title": "Just Sing", "category": "LOW_VALUE_ACTIVITY (cut candidate)", "why": "Your own Random Game verdict -- confirms whether We Sing / Now That's What I Call Sing should follow the same reasoning." },
+    { "id": 2689, "title": "Party Arcade", "category": "LOW_VALUE_ACTIVITY (cut candidate)", "why": "Monetization-driven grind design, a different flavor of 'low value' than Just Sing's genre-genericness -- worth confirming both read the same way to you." },
+    { "id": 2396, "title": "Natsuiro High School: Seisyun Hakusyo", "category": "LANGUAGE_BARRIER (cut candidate)", "why": "Explicit investigate candidate; verified genuinely text-dependent with no English support." },
+    { "id": 2606, "title": "Higurashi no Naku Koro ni Hou", "category": "LANGUAGE_BARRIER (cut candidate)", "why": "You explicitly flagged this as a 'likely keep unless verified' case -- verification flipped it to a cut candidate; worth confirming you're comfortable losing this one specifically since it's a well-known VN series." },
+    { "id": 2440, "title": "Windstorm: An Unexpected Arrival", "category": "HORSE_GAME", "why": "Shows the overlap between the horse-game bucket and Principle 3's generic-sim concern -- illustrates why horse games were kept as their own bucket rather than folded into GENERIC_SIM." },
+    { "id": 2749, "title": "Unicorn Princess", "category": "HORSE_GAME", "why": "A horse game that would NOT be caught by a naive title-keyword search (no 'horse' in the title) -- illustrates why horse-game identification needs a real look, not a keyword rule." },
+    { "id": 2621, "title": "JoJo Siwa: Worldwide Party", "category": "UNCERTAIN", "why": "Mixed evidence -- a good example of where the line between LOW_VALUE_ACTIVITY and KEEP is genuinely unclear and needs your judgment." },
+    { "id": 2550, "title": "Chef Life: A Restaurant Simulator", "category": "UNCERTAIN", "why": "Real simulation depth found, but explicitly flagged by you as needing manual review rather than an automatic verdict." },
+    { "id": 1581, "title": "Bluey's Quest for the Gold Pen", "category": "KEEP (reversed from initial concern)", "why": "Best example of the 'looked questionable by IP, investigation reversed it' pattern this pass was designed to catch." },
+    { "id": 2508, "title": "Baby Shark: Sing & Swim Party", "category": "KEEP (reversed from initial concern)", "why": "Same reversal pattern as Bluey's Quest, different IP -- worth sanity-checking both land the way you'd expect." },
+    { "id": 1986, "title": "Urban Trial Tricky Deluxe Edition", "category": "KEEP", "why": "Explicit investigate candidate that turned out to be a genuine keep -- confirms the review found real substance here." },
+    { "id": 2412, "title": "ATV Renegades", "category": "UNCERTAIN", "why": "Explicit investigate candidate where evidence was too sparse/mixed to land a confident verdict either way." },
+    { "id": 494, "title": "Firefighters: The Simulation", "category": "GENERIC_SIM (cut candidate) + DATA BROKEN", "why": "The example you already flagged -- shown here as the anchor case for both a curation cut AND the much larger 62-title dossier-contamination issue it led to discovering." },
+    { "id": 1447, "title": "WordHunters", "category": "LOW_VALUE_ACTIVITY (cut candidate) + DATA BROKEN", "why": "Same dual-issue pattern as Firefighters: The Simulation, different contamination source (publisher bio instead of a wrong list page)." },
+    { "id": 492, "title": "Firefighters: Airport Fire Department", "category": "GENERIC_SIM (cut candidate, pattern-based)", "why": "Flagged only by franchise-pattern similarity to id 494, not independently re-verified -- worth confirming before treating it as equally confident." },
+    { "id": 493, "title": "Firefighters: Plant Fire Department", "category": "UNCERTAIN (not listed above, see note)", "why": "Same franchise as the two Firefighters cut candidates, but its dossier explicitly says it's an owned title still pending real research rather than confirmed low-value -- deliberately left out of the cut list pending a real look, shown here so it isn't silently forgotten." },
+    { "id": 2749, "title": "My Fantastic Ranch", "category": "HORSE_GAME", "why": "A title that reads as generic 'ranch management' but is confirmed horse/unicorn/dragon-riding focused -- another non-obvious horse-game inclusion for the bucket." },
+    { "id": 2363, "title": "Unicorn Overlord", "category": "KEEP (false-positive check)", "why": "Shows the horse/unicorn keyword scan correctly did NOT sweep in an unrelated, well-regarded tactical RPG -- a sanity check on the scan's precision." }
+  ],
+
+  "explicitlyNotDone": "No INCLUDED/EXCLUDED status was changed. No census, UI, pricing, cover, or dossier files were edited. No exclusion code was written. No PR was created. This is analysis only, awaiting Josh's review."
+}
