@@ -1,0 +1,184 @@
+{
+  "task": "SHELFCHECK — JOSH SET LANGUAGE BARRIER DISCOVERY PASS #2",
+  "mode": "ANALYSIS_ONLY — no census mutation, no dossier/pricing/cover/HLTB/ownership/UI edits, no commit, no PR",
+  "baseline": {
+    "includedIdentitiesScanned": 2518,
+    "source": "Deterministic runtime replay of index.html's real census-mutating script order (through curation-josh-set-pass-v001.js, i.e. current main post-PR #38), same method used throughout this engagement.",
+    "alreadyHandledInPriorPass_doNotRecount": [
+      { "id": 2606, "title": "Higurashi no Naku Koro ni Hou" },
+      { "id": 2411, "title": "Yoru, Tomosu" },
+      { "id": 2396, "title": "Natsuiro High School: Seisyun Hakusyo" }
+    ]
+  },
+  "discoveryMethod": [
+    "Cross-referenced prior verified JP-import/JP-only evidence comments in cover-overrides.js (15 seed candidates)",
+    "Mechanical regex scan of all 2518 titles for untranslated multi-particle romanized-Japanese phrasing (1 new candidate)",
+    "Recalled ambiguous/unresolved titles flagged in earlier curation passes (11 candidates)",
+    "Franchise/genre keyword scan of the full 2518, triaged by general knowledge of official localization status (2 new candidates surfaced as needing verification; ~65 other raw hits triaged out as known-localized franchises without further research)",
+    "Discovery-only dossier Quick-Summary text scan for language-barrier phrases (5 hits) — explicitly NOT used as evidence per task rules, used only to surface candidates for independent verification"
+  ],
+  "candidatesInvestigated": 34,
+  "counts": {
+    "KEEP_ENGLISH": 21,
+    "KEEP_LANGUAGE_LIGHT": 4,
+    "CUT_CANDIDATE": 9,
+    "UNCERTAIN": 0
+  },
+  "proposedCutCount": 9,
+  "projectedIncludedIfAllCutsApproved": 2509,
+  "correctionPass": {
+    "trigger": "SHELFCHECK — LANGUAGE BARRIER PASS #2 CORRECTION: Josh/ChatGPT review requested re-verification of ids 2763, 2779, and 2376 specifically.",
+    "changes": [
+      "id 2763 Warui Ousama to Rippana Yuusha: CUT_CANDIDATE -> KEEP_ENGLISH. Confirmed same playable identity as NIS America's 'The Cruel King and the Great Hero' (developed by Nippon Ichi Software, same director/premise), which received a genuine North American/English physical PS4 release (NISA, March 11 2022, Standard + Storybook Edition, English text with Japanese audio). The prior pass correctly found no SEPARATE 'Cruel King' ShelfCheck identity exists, but incorrectly treated that as meaning the identity has no English option — it does not need a second identity: this identity's own underlying game already has a confirmed English physical PS4 product. No identity reconciliation/merge is actually needed since only one ShelfCheck identity exists for this game; it should simply be classified KEEP_ENGLISH.",
+      "id 2779 Zero: Tsukihami no Kamen: CUT_CANDIDATE -> KEEP_ENGLISH. The prior pass only checked the Japan-only physical disc (PLJM-17164). Re-investigation surfaced a separate Asia-region physical PS4 release, catalog number PLAS-11373 (UPC 4710782158986), explicitly marketed by multiple independent retailers (Play-Asia, TokyoGameStory, eBay listings titled '(Asian ENGLISH)', Amazon listing titled '(Multi-Language)') as a Multi-Language release with an English cover. This is corroborated by Sony's own Asia-region PS Store digital listing for the same game/build ('FATAL FRAME: Mask of the Lunar Eclipse (PS4 & PS5)', Indonesia/Malaysia stores) explicitly stating supported languages as 'Simplified Chinese, English, Traditional Chinese'. This PLAS-11373 disc is region-free and satisfies the same playable identity as 'Zero: Tsukihami no Kamen'. English appears to be part of the base multi-language build (not a deluxe-only or patch-only feature) based on the base digital listing carrying the same language tag; no patch requirement was found. Per the task rule that any qualifying physical PS4 product satisfying the identity in English keeps it INCLUDED, this identity should be KEEP_ENGLISH, not cut merely because the Japan-only SKU lacks English.",
+      "id 2376 Dokyusei: Bangin' Summer CSver: UNCERTAIN -> CUT_CANDIDATE. Deeper research (not merely inferring from the later Western digital release) found: (1) a Japan-market boutique product page for the actual CSver catalog number (CDJapan, PLJM-17345) describing it plainly as 'the Japan version' with no English mentioned anywhere; (2) independent research confirming the PS4 CSver's language is Japanese only, explicitly stating it does NOT support Chinese or English text options; (3) confirmation that the only English-supporting release ('Home Edition', Simplified Chinese/English/Traditional Chinese) is a separate, later (2025), West-targeted digital PS Store product, with no evidence it is the same disc build as the 2024 Japan CSver physical release. Since the physical CSver disc itself is not shown to carry English, and the only confirmed-English version is a distinct digital product not established as sharing that localization, this now clears the bar for CUT_CANDIDATE rather than remaining UNCERTAIN."
+    ]
+  },
+  "identityRuleNotes": [
+    "id 2645 (Lapis Re Abyss) is NOT a cut candidate: it is the JP-only identity for a game whose western release was rebranded 'Lapis x Labyrinth', which IS separately tracked as ShelfCheck identity id 690 (English, already INCLUDED). The identity rule is satisfied by that sibling — worked example of the rule.",
+    "id 2763 (Warui Ousama to Rippana Yuusha) is KEEP_ENGLISH as of the correction pass: it is the same playable game as NIS America's English physical PS4 release 'The Cruel King and the Great Hero' (March 2022). No second ShelfCheck identity exists for that English release, and none is needed — this single identity's own underlying game already has a qualifying English physical PS4 product.",
+    "id 2779 (Zero: Tsukihami no Kamen) is KEEP_ENGLISH as of the correction pass: an Asia-region physical PS4 disc (PLAS-11373, region-free, 'Multi-Language' including English) satisfies this identity even though the Japan-only disc (PLJM-17164) does not.",
+    "id 2410 (Wonderland TOD-Reloaded) was reclassified to KEEP_ENGLISH after this pass's own re-verification overturned an earlier (incorrect) cover-pass note that had called it 'unrelated' to NIS America's English 'Touhou Genso Wanderer Reloaded' (PS4, CUSA11862, physical, 2018). Direct evidence (the game's own Steam listing showing 'Touhou Genso Wanderer -Reloaded- / 不思議の幻想郷TOD -RELOADED-' as the same product across regions) confirms they are the same release. This is flagged explicitly because it corrects prior research from an earlier task, exactly the kind of case the task instructed to re-verify rather than trust inherited assumptions."
+  ],
+  "KEEP_ENGLISH": [
+    { "id": 1525, "title": "Ryuu ga Gotoku 7 Gaiden: Na o Keshita Otoko", "note": "JP-region physical release confirmed to include English subtitles at launch." },
+    { "id": 2410, "title": "Wonderland TOD-Reloaded", "note": "Same underlying release as NIS America's English 'Touhou Genso Wanderer Reloaded' (PS4, CUSA11862, physical, 2018); see identityRuleNotes." },
+    { "id": 2645, "title": "Lapis Re Abyss", "note": "Satisfied via sibling ShelfCheck identity id 690 'Lapis x Labyrinth' (English, INCLUDED) under the identity rule." },
+    { "id": 1483, "title": "Ys: Memories of Celceta - Kai", "note": "XSEED localized this specific 'Kai' PS4 remaster in English (dual audio), physical release, June 2020." },
+    { "id": 2696, "title": "Quintessential Quintuplets Fives Memories With You", "note": "Confirmed English text alongside Traditional Chinese and Japanese (Spike Chunsoft, 2024)." },
+    { "id": 1250, "title": "The House in Fata Morgana", "note": "Limited Run Games #259, complete English localization, physical PS4 release (2019)." },
+    { "id": 1533, "title": "Sword And Fairy: Together Forever", "note": "Confirmed English in-game text (plus Traditional/Simplified Chinese); physical PS4 editions widely retailed." },
+    { "id": 1189, "title": "Sword & Fairy 6", "note": "Confirmed playable in English (plus Chinese); physical Limited Edition via Play-Asia." },
+    { "id": 2673, "title": "One Piece Unlimited World Red", "note": "Bandai Namco America released the Deluxe Edition in English physically and digitally in the West (2017)." },
+    { "id": 2686, "title": "Paper Dolls", "note": "Confirmed English language support alongside Chinese/Korean/Japanese; physical PSVR release exists (Perp Games, UK)." },
+    { "id": 1670, "title": "Mighty Gunvolt Burst", "note": "Physical release (also branded 'Gal*Gunvolt Burst' on PS4) via Limited Run Games, English." },
+    { "id": 1764, "title": "Tokyo Twilight Ghost Hunters", "note": "Officially localized and physically released in English by Aksys Games." },
+    { "id": 1765, "title": "Tokyo Twilight Ghost Hunters: Daybreak Special Gigs", "note": "Officially localized and physically released in English by Aksys Games (PS4)." },
+    { "id": 2658, "title": "Nayuta no Kiseki: Kai", "note": "Same SKU family localized in English by NIS America as 'The Legend of Nayuta: Boundless Trails' (PS4, physical, Sept 2023)." },
+    { "id": 59, "title": "Akiba's Beat", "note": "English audio/text confirmed; physical release (XSEED NA / PQube EU, 2017). Discovery-only dossier hint of 'Japan-only' was incorrect/contamination." },
+    { "id": 329, "title": "Dead or Alive 5 Last Round", "note": "Mainstream worldwide English fighter release. Discovery-only dossier hint of 'Japan-only' was incorrect/contamination." },
+    { "id": 331, "title": "Dead or Alive Xtreme 3: Fortune", "note": "Confirmed 'ENGLISH SUBTITLE' Asian physical release, widely retailed (Amazon, Walmart, Play-Asia)." },
+    { "id": 880, "title": "Our World Is Ended.", "note": "PQube localized and physically released in English (PS4, 2019). Discovery-only dossier hint of 'Japanese-only' was incorrect/contamination." },
+    { "id": 1073, "title": "Shining Resonance Refrain", "note": "Sega published English physical release with dual audio (PS4, 2018). Discovery-only dossier hint of 'Japan-only' was incorrect/contamination." },
+    { "id": 2763, "title": "Warui Ousama to Rippana Yuusha", "note": "CORRECTION PASS: same playable game as NIS America's 'The Cruel King and the Great Hero' (PS4, physical, English text/Japanese audio, March 2022, Standard + Storybook Edition). No separate ShelfCheck identity exists for the English release, and none is needed — this identity's own game already has a qualifying English physical PS4 product. Reclassified from CUT_CANDIDATE." },
+    { "id": 2779, "title": "Zero: Tsukihami no Kamen", "note": "CORRECTION PASS: an Asia-region physical PS4 disc (catalog PLAS-11373, UPC 4710782158986), distinct from the Japan-only PLJM-17164 disc checked in the original pass, is region-free and confirmed Multi-Language including English by multiple independent retailers (Play-Asia, TokyoGameStory, Amazon 'Multi-Language' listing, eBay '(Asian ENGLISH)' listings) and corroborated by Sony's own Asia PS Store listing for the same build ('Simplified Chinese, English, Traditional Chinese'). This physical product satisfies the identity in English. Reclassified from CUT_CANDIDATE." }
+  ],
+  "KEEP_LANGUAGE_LIGHT": [
+    { "id": 2399, "title": "Puyo Puyo eSports", "note": "Puzzle game; English not confirmed for this Asian-region SKU, but genre is language-light enough to remain meaningfully playable." },
+    { "id": 2378, "title": "Everyone Spelunker", "note": "Platformer/arcade genre; language comprehension not materially necessary to play." },
+    { "id": 2408, "title": "Tetsudou Nippon! Rosen Tabi: Eizan Densha-Hen", "note": "Train simulation with simple menu-driven objectives; genre carve-out applies." },
+    { "id": 2630, "title": "Kamen Rider: Battride War Creation", "note": "Action/hack-and-slash genre; menus/objectives simple enough to remain playable without Japanese." }
+  ],
+  "UNCERTAIN": [],
+  "CUT_CANDIDATE": [
+    {
+      "id": 2376,
+      "title": "Dokyusei: Bangin' Summer CSver",
+      "physicalRelease": "Japanese PS4 physical release, catalog PLJM-17345, released April 18, 2024",
+      "confirmedSupportedLanguages": "Japanese only",
+      "evidenceEnglishAbsent": "CORRECTION PASS resolved this from UNCERTAIN: a Japan-market boutique product page for this exact catalog number (CDJapan, PLJM-17345) describes it plainly as 'the Japan version' with no English mentioned; independent research separately confirmed the PS4 CSver's language is Japanese only and does not support English or Chinese text options. The only confirmed-English release ('Home Edition', Simplified Chinese/English/Traditional Chinese) is a separate, later (2025) West-targeted digital PS Store product with no evidence it shares the same disc build as the 2024 Japan CSver physical release, so it was not used to infer language support for this identity's physical product per the correction instructions.",
+      "gameplayNarrativeType": "Dating-sim visual novel",
+      "whyLanguageComprehensionMaterial": "Entire game is narrative dialogue and route/relationship text; no non-text gameplay layer exists.",
+      "otherEnglishAccessiblePhysicalIdentity": "None — the English-capable 'Home Edition' is digital-only and not established as the same build as this identity's physical disc.",
+      "confidence": "Medium-High",
+      "sources": ["CDJapan product page for catalog PLJM-17345 (direct fetch)", "Independent language-support research confirming Japanese-only for the PS4 CSver"]
+    },
+    {
+      "id": 2384,
+      "title": "Hakuouki: Shinkai Fukaden",
+      "physicalRelease": "Japanese PS4 physical release (JP0031-CUSA07568_00), no western release exists",
+      "confirmedSupportedLanguages": "Japanese only",
+      "evidenceEnglishAbsent": "Direct WebFetch of the Japanese PS Store product page (store.playstation.com/ja-jp/product/JP0031-CUSA07568_00-HAKUOKISHINKAI00): no supported languages listed other than Japanese; page entirely in Japanese; English not mentioned.",
+      "gameplayNarrativeType": "Otome visual novel (dialogue-choice romance/historical drama)",
+      "whyLanguageComprehensionMaterial": "Entire game is read dialogue and branching narrative choices; no gameplay exists outside comprehension of the text.",
+      "otherEnglishAccessiblePhysicalIdentity": "None found",
+      "confidence": "High",
+      "sources": ["Japanese PS Store product page (direct fetch)"]
+    },
+    {
+      "id": 2404,
+      "title": "Shinigami: Shibito Magire",
+      "physicalRelease": "Japanese PS4 physical release",
+      "confirmedSupportedLanguages": "Japanese only",
+      "evidenceEnglishAbsent": "The western localization of this game ('Spirit Hunter: Death Mark II') exists only on PS5, Switch, and PC — not on PS4. No PS4 English release exists for this identity.",
+      "gameplayNarrativeType": "Horror visual novel / dialogue-and-choice adventure",
+      "whyLanguageComprehensionMaterial": "Investigation and survival depend entirely on reading dialogue, clues, and branching choices.",
+      "otherEnglishAccessiblePhysicalIdentity": "None — the English 'Spirit Hunter: Death Mark II' is not a PS4 release and is not separately tracked as a ShelfCheck identity.",
+      "confidence": "High",
+      "sources": ["General knowledge of Spirit Hunter: Death Mark II's platform list (PS5/Switch/PC only)"]
+    },
+    {
+      "id": 2619,
+      "title": "Jinrui No Minasama E",
+      "physicalRelease": "Japanese PS4 physical release (JP0404-CUSA15374_00), no western release found",
+      "confirmedSupportedLanguages": "Japanese only (no English found in any source)",
+      "evidenceEnglishAbsent": "No English release, store listing, or localization announcement found anywhere.",
+      "gameplayNarrativeType": "Narrative adventure",
+      "whyLanguageComprehensionMaterial": "Story/narrative comprehension is the core experience; no combat/action layer to fall back on.",
+      "otherEnglishAccessiblePhysicalIdentity": "None found",
+      "confidence": "Medium-High",
+      "sources": ["Japanese PS Store listing", "No western release/localization found in search"]
+    },
+    {
+      "id": 2629,
+      "title": "Kaleidoscope Of Phantom Prison",
+      "physicalRelease": "Japanese PS4 physical release, no western release found",
+      "confirmedSupportedLanguages": "Japanese only",
+      "evidenceEnglishAbsent": "07th Expansion visual novel with no announced or found English localization; confirmed distinct from its sequel (which is also unlocalized).",
+      "gameplayNarrativeType": "Visual novel (mystery/horror)",
+      "whyLanguageComprehensionMaterial": "Visual novels of this type consist entirely of narrative text; comprehension is the entire gameplay loop.",
+      "otherEnglishAccessiblePhysicalIdentity": "None found",
+      "confidence": "High",
+      "sources": ["Japanese PS Store listing", "No localization found in search"]
+    },
+    {
+      "id": 2631,
+      "title": "Kangokutou Mary Skelter 2",
+      "physicalRelease": "Asian-region physical PS4 release, explicitly marketed as 'KANGOKUTOU MARY-SKELTER 2 (Chinese/Korean Ver.)'",
+      "confirmedSupportedLanguages": "Chinese and Korean only",
+      "evidenceEnglishAbsent": "Direct WebFetch of the Hong Kong PS Store product page (store.playstation.com/en-hk/product/KP0004-CUSA12857_00-...): page content confirms Chinese/Korean-version branding; English is not mentioned anywhere on the page.",
+      "gameplayNarrativeType": "Dungeon-crawler RPG with heavy dialogue, character relationship systems, item/menu text, and story",
+      "whyLanguageComprehensionMaterial": "Menus, item descriptions, quest/story text, and character interaction systems all require reading comprehension; this is not a language-light action game.",
+      "otherEnglishAccessiblePhysicalIdentity": "None — checked included-census.json for any other tracked 'Mary Skelter 2' identity; only 'Mary Skelter Finale' (a different, later game in the series) exists, which does not satisfy this identity.",
+      "confidence": "High",
+      "sources": ["Hong Kong PS Store product page (direct fetch)", "included-census.json cross-check"]
+    },
+    {
+      "id": 2744,
+      "title": "Umineko no Naku Koro ni: Nekobako to Musou no Koukyoukyoku",
+      "physicalRelease": "Japanese PS4 physical release (Entergram, Jan 2021), no western release",
+      "confirmedSupportedLanguages": "Japanese only",
+      "evidenceEnglishAbsent": "No official English localization exists; the English fan-translation team (Witch Hunt) has stated an official English release would require a publisher and is considered very unlikely.",
+      "gameplayNarrativeType": "07th Expansion visual novel (mystery/drama)",
+      "whyLanguageComprehensionMaterial": "The entire experience is reading branching mystery narrative text; there is no non-text gameplay layer.",
+      "otherEnglishAccessiblePhysicalIdentity": "None found",
+      "confidence": "High",
+      "sources": ["Fan translation team public statement", "No official localization found"]
+    },
+    {
+      "id": 2768,
+      "title": "Yo-Kai Watch Jam: Yo-Kai Academy Y",
+      "physicalRelease": "Japanese PS4 physical release",
+      "confirmedSupportedLanguages": "Japanese only",
+      "evidenceEnglishAbsent": "No English localization has ever been announced for this title.",
+      "gameplayNarrativeType": "Narrative school-life RPG",
+      "whyLanguageComprehensionMaterial": "School-life sim/RPG systems (relationships, quests, dialogue) require reading comprehension.",
+      "otherEnglishAccessiblePhysicalIdentity": "None found",
+      "confidence": "Medium-High",
+      "sources": ["No localization announcement found in search"],
+      "flagForJosh": "The cover-overrides.js evidence comment for this identity describes it as a 'download-exclusive title' — if that is accurate, this identity may also have a physical-eligibility question independent of language; that is a different curation category and is explicitly out of scope for this language-only pass, but is flagged here for awareness."
+    },
+    {
+      "id": 2610,
+      "title": "Idolm@ster Platinum Stars",
+      "physicalRelease": "Japanese PS4 physical release, no western release",
+      "confirmedSupportedLanguages": "Japanese only",
+      "evidenceEnglishAbsent": "Confirmed no English language option exists; only fan translations/guides exist for English speakers.",
+      "gameplayNarrativeType": "Idol management sim with rhythm-game segments",
+      "whyLanguageComprehensionMaterial": "Core producing/scheduling/relationship-management loop is text- and dialogue-driven; the rhythm-game segments alone are only part of the experience, not the whole game, so the language-light action/rhythm carve-out does not cover the full title.",
+      "otherEnglishAccessiblePhysicalIdentity": "None found",
+      "confidence": "Medium",
+      "sources": ["Community/FAQ discussion of language support and gameplay structure"]
+    }
+  ]
+}
