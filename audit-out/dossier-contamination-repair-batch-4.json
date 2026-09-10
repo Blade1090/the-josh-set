@@ -1,0 +1,214 @@
+{
+  "task": "SHELFCHECK — DOSSIER CONTAMINATION REPAIR — BATCH 4",
+  "source": "audit-out/curation-verification-pass-1.json (dossierContaminationFullManifest, 84 confirmed contaminated dossiers)",
+  "selection": "The next 20 entries in manifest array order after the 50 handled by Batches 1-3 (ids 1151,501,822,564,835,836,1116,621,496,494,6,10,18,34,50,61,66,80,85,88,92,96,111,130,140,160,238,245,246,314,322,354,362,428,438,440,492,499,506,528,550,579,615,626,632,681,690,698,721,722 excluded from selection).",
+  "manifestEntriesInspected": 20,
+  "classificationCounts": {
+    "ALREADY_FIXED": 20,
+    "REPAIRED": 0
+  },
+  "method": "For each of the 20 titles, loaded the base shelfcheck-dossiers.txt entry and replayed every existing dossier-overrides-*.js batch (1 through 48, in real load order) using the same last-write-wins Map.set logic dossier-apply.js uses at runtime, to determine the actual EFFECTIVE (live) dossier object -- not just whether an override file happens to mention the title. An entry was classified ALREADY_FIXED only when the effective object was a distinct, already-accurate override (verified against the real game); LIVE_CONTAMINATED (-> REPAIRED) when the effective object was still the contaminated base entry itself.",
+  "outcome": "All 20 inspected entries in this batch were already superseded by an accurate override (16 from dossier-overrides-16.js, 4 from dossier-overrides-17.js), predating batches 1-3's work. None required a new override, so no dossier-overrides-49.js was created and no code files were changed in this batch -- only this audit artifact.",
+  "classifications": [
+    {
+      "id": 789,
+      "title": "Monopoly: Family Fun Pack",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-16.js (pre-existing override already supersedes the contaminated base Asobo Studio SAS company bio)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct description (digital Monopoly bundle with alternate modes) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 805,
+      "title": "Musynx",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "SWITCH_LIST",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-16.js (pre-existing override already supersedes the contaminated base 'part of the list of Nintendo Switch games' stub)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (lane-based rhythm game, large song library) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 831,
+      "title": "Neon City Riders",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "SWITCH_LIST",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-16.js (pre-existing override already supersedes the contaminated base 'part of the list of Nintendo Switch games' stub)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (top-down cyberpunk Zelda-like action-adventure) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 919,
+      "title": "PlayerUnknown's Battlegrounds",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-16.js (pre-existing override already supersedes the contaminated base Brendan Greene/PlayerUnknown biography)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (battle royale shooter) and an appropriately cautious curator take about its online-service dependence. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 922,
+      "title": "Pool Nation",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-16.js (pre-existing override already supersedes the contaminated base Wired Productions publisher bio)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (pool/billiards simulation) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 925,
+      "title": "Port Royale 4",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-16.js (pre-existing override already supersedes the contaminated base Kalypso Media Group company bio)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (Caribbean trading/colony-management strategy) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 945,
+      "title": "Qubit's Quest",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "LIGHTGUN_LIST",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-16.js (pre-existing override already supersedes the contaminated base 'list of light-gun games' stub)",
+      "correction": "None made. The existing override is a deliberate, honest placeholder ('Obscure PS4 physical-list entry requiring stronger product-level identification...') rather than an invented gameplay description -- this correctly follows the same 'don't invent facts without reliable evidence' principle this task itself requires, since no confident product-level identification of this specific title could be independently established. It is not factually wrong (unlike the light-gun-list base text), so it is not live-contaminated and was left untouched rather than replaced with a guessed description.",
+      "validationResult": "PASS (verification only) — live dossier already non-misleading and honest about its own uncertainty; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 949,
+      "title": "Rad Rodgers",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-16.js (pre-existing override already supersedes the contaminated base Slipgate Ironworks ApS company bio)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (90s-throwback 2D platform shooter) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 970,
+      "title": "Regions Of Ruin",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-16.js (pre-existing override already supersedes the contaminated base Raw Fury AB publisher bio)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (side-scrolling action RPG, dwarf settlement-building) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 971,
+      "title": "RemiLore: Lost Girl in the Lands of Lore",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "SWITCH_LIST",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-16.js (pre-existing override already supersedes the contaminated base 'part of the list of Nintendo Switch games' stub)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (isometric action roguelite) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 989,
+      "title": "Revenant Dogma",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "KEMCO_LIST",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-17.js (pre-existing override already supersedes the contaminated base 'list of Kemco games' stub)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (Kemco turn-based JRPG, gods/transformations) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 990,
+      "title": "Revenant Saga",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "KEMCO_LIST",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-17.js (pre-existing override already supersedes the contaminated base 'list of Kemco games' stub)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (retro-styled turn-based JRPG, demonic transformation) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 1076,
+      "title": "Siralim",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-17.js (pre-existing override already supersedes the contaminated base Super Rare Games Limited publisher bio)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (monster-collecting dungeon RPG) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 1077,
+      "title": "Siralim 2",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-17.js (pre-existing override already supersedes the contaminated base Super Rare Games Limited publisher bio)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (expanded monster-collecting roguelike RPG) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 1092,
+      "title": "Slime-san: Superslime Edition",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "LRG_LIST",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-17.js (pre-existing override already supersedes the contaminated base 'list of games released by Limited Run Games' stub)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre and signature mechanic (precision wall-jump platformer) and a fair, well-supported curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 1094,
+      "title": "SmuggleCraft",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "PS_PLATFORM_LIST",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-17.js (pre-existing override already supersedes the contaminated base 'list of games for the PlayStation 4' stub)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (hovercraft racing/adventure with narrative choices) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 1104,
+      "title": "Song of Memories",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "PS_PLATFORM_LIST",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-17.js (pre-existing override already supersedes the contaminated base 'list of games for the PlayStation 4' stub)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (visual novel/romance with an outbreak-drama twist) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 1155,
+      "title": "Stranded Sails: Explorers of the Cursed Islands",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "SWITCH_LIST",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-17.js (pre-existing override already supersedes the contaminated base 'part of the list of Nintendo Switch games' stub)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (relaxed exploration/farming adventure) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 1163,
+      "title": "Street Power Soccer",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "SWITCH_LIST",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-17.js (pre-existing override already supersedes the contaminated base 'part of the list of Nintendo Switch games' stub)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (arcade street-football) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 1165,
+      "title": "Strikers Edge",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-17.js (pre-existing override already supersedes the contaminated base Plug In Digital publisher bio)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (dodgeball-style fantasy arena game) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    }
+  ],
+  "notesForReviewer": [
+    "Exactly 20 manifest entries were inspected, selected as the next 20 in the manifest's original array order following the 50 already handled by Batches 1-3.",
+    "All 20 were classified ALREADY_FIXED: 16 already-accurate overrides live in dossier-overrides-16.js and 4 in dossier-overrides-17.js -- both batches predate this contamination-repair effort and already supersede the contaminated base shelfcheck-dossiers.txt entry for every one of these 20 titles. Josh has never seen the wrong text for any of them.",
+    "No LIVE_CONTAMINATED entries were found in this batch, so no new override file was created (no dossier-overrides-49.js) and no code files (dossier-apply.js, index.html, sw.js) were touched -- only this audit artifact was added.",
+    "Qubit's Quest (id 945) deserves a specific note: its existing override is an honest, deliberately non-specific placeholder acknowledging that this identity's exact product/game cannot be confidently identified, rather than a factually wrong description. Per this task's own 'do not invent facts without reliable evidence' principle, this is the correct treatment, not a defect -- it was left untouched rather than replaced with a guessed description.",
+    "PWA precache consistency testing was skipped because no new override file was added and sw.js/index.html were not modified, consistent with the task's instruction to run that check only 'if a new override file is added'."
+  ],
+  "validation": {
+    "manifestEntriesInspectedCount": 20,
+    "dossierOverrideSyntax": "N/A — no new override file was created in this batch",
+    "dossierFactoryValidation": "PASS — tools/dossier-factory.mjs ran cleanly against the unchanged override set (no new file to parse)",
+    "allOverridesStillLoad": "PASS — live browser confirms all 48 existing batch files load without exception and every one of the 20 inspected titles resolves to its correct id and expected content",
+    "onlyLiveContaminatedEntriesGotNewOverrides": "PASS (vacuously) — 0 entries were classified LIVE_CONTAMINATED, so 0 new override entries were written",
+    "noUnrelatedDossierChanged": "PASS — git status confirms zero tracked files changed; only the new audit-out/dossier-contamination-repair-batch-4.json was added",
+    "censusMembershipUnchanged": "PASS — tools/census-determinism-test.mjs, 20/20 runs, INCLUDED = 2509 (unchanged)",
+    "ownershipUnchanged": "PASS — live browser header progress reads 230 / 2509, matching pre-repair state exactly",
+    "pwaPrecacheConsistency": "SKIPPED — no new override file was added and no precache-relevant file was modified",
+    "repairedDossiersRenderRecommendation": "N/A — no dossiers were repaired in this batch (0 REPAIRED)",
+    "zeroConsoleErrors": "PASS — confirmed on a fresh live load"
+  }
+}
