@@ -1,6 +1,6 @@
 // ShelfCheck v1.03 — random game picker (NEEDED), price bands, playtime bands, and quick buy advice.
 (()=>{
-let priceBand='ALL',ownedBand='ALL',buyChoice=null,lastRandom=null;
+let priceBand='ALL',ownedBand='ALL',buyChoice=null,randomCycle={universe:null,remaining:[],lastId:null};
 const bands=[['ALL','ALL PRICES'],['UNDER10','UNDER $10'],['10TO20','$10–20'],['20TO40','$20–40'],['40PLUS','$40+'],['PENDING','PRICE PENDING']];
 const lengthBands=[['ALL','ANY LENGTH'],['UNDER4','UNDER 4H'],['4TO8','4–8H'],['8TO15','8–15H'],['15TO30','15–30H'],['30PLUS','30H+'],['PENDING','TIME PENDING']];
 const market=x=>{const p=priceFor(x),n=Number(p?.m??p?.x??x.max);return Number.isFinite(n)&&n>0?n:null};
@@ -18,7 +18,17 @@ function ownedTools(){const results=$('#results');if(filter!=='OWNED'||!results)
 // and every reroll) so a randomly-opened dossier always starts at the top on mobile,
 // instead of staying scrolled to wherever the user tapped the previous reroll control.
 function resetDialogScroll(){if(dlg)dlg.scrollTop=0}
-function randomGame(){const owned=filter==='OWNED',pool=owned?ownedPool():neededPool();if(!pool.length){$('#syncmsg').textContent=owned?'No owned games match this search.':'No needed games match this price range.';return}const choices=lastRandom&&pool.length>1?pool.filter(x=>x.id!==lastRandom):pool,x=choices[Math.floor(Math.random()*choices.length)];lastRandom=x.id;detail(x.id);resetDialogScroll();setTimeout(randomDetailButtons,0);setTimeout(randomDetailButtons,650)}
+// Session-level no-repeat shuffle bag: within whatever pool is currently eligible (NEEDED or
+// OWNED, filtered by the active price/length band and search text), every game is drawn
+// exactly once before any game repeats. The bag is keyed by the pool's own id set rather than
+// by filter state, so ANY change that alters the eligible pool (switching NEEDED/OWNED,
+// changing a band, typing a search, or the underlying census/ownership state changing) is
+// detected directly and safely rebuilds a fresh shuffle instead of ever going stale. When a
+// cycle empties, it reshuffles automatically; if the pool has more than one game, the reshuffle
+// avoids drawing the game that just ended the previous cycle as its very next pick.
+function shuffle(arr){for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]]}return arr}
+function drawRandomId(pool){const ids=pool.map(x=>x.id),universe=randomCycle.universe,sameUniverse=!!universe&&universe.size===ids.length&&ids.every(id=>universe.has(id));if(!sameUniverse||!randomCycle.remaining.length){const shuffled=shuffle(ids.slice()),last=shuffled.length-1;if(last>0&&shuffled[last]===randomCycle.lastId){const j=Math.floor(Math.random()*last);[shuffled[last],shuffled[j]]=[shuffled[j],shuffled[last]]}randomCycle={universe:new Set(ids),remaining:shuffled,lastId:randomCycle.lastId}}const id=randomCycle.remaining.pop();randomCycle.lastId=id;return id}
+function randomGame(){const owned=filter==='OWNED',pool=owned?ownedPool():neededPool();if(!pool.length){$('#syncmsg').textContent=owned?'No owned games match this search.':'No needed games match this price range.';return}const x=byId.get(drawRandomId(pool));detail(x.id);resetDialogScroll();setTimeout(randomDetailButtons,0);setTimeout(randomDetailButtons,650)}
 // Random-only reroll controls: one pinned near the top of the dossier (reachable without
 // scrolling at all) and the existing one at the bottom, so a mobile reader can reroll from
 // either end without a manual scroll-back-to-top. Never added to a manually-opened dossier
