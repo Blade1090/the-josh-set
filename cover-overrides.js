@@ -98,6 +98,7 @@
     "2781": "https://image.api.playstation.com/vulcan/ap/rnd/202402/1411/893ee5064ae982395e414eb5011f4788468460b7776d3ebc.png", // Dragon Ball: The Breakers -> official PS Store cover for "DRAGON BALL: THE BREAKERS Special Edition" (UP0700-CUSA29213_00), matching the physical Special Edition evidence (UPC 722674127578, release 10/14/2022) already on this identity, verified.
     "2782": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1103/779d66b30bd8eb38983002adefe11886fb648b3e5b0ec2f4.png", // Russian Subway Dogs -> official PS Store cover, verified exact title match (Limited Run Games #555 physical release).
     "2783": "https://image.api.playstation.com/vulcan/ap/rnd/202312/0701/e0df18c55b01b7ccac6423e53e0a752e99ff665de760ecc5.jpg", // Prince of Persia: The Lost Crown -> official PS Store cover, Standard Edition, verified exact title match.
+    "2784": "https://image.api.playstation.com/vulcan/ap/rnd/202502/2100/5a082446577b5f38ca04bf9bac67726fcbe0bc61baf6de7b.png", // Tony Hawk's Pro Skater 3 + 4 -> official PS Store cover (matches the "Content Pack" and "Cross-Gen Edition" PS4/PS5 listings, same standard-edition key art as the physical Target/GameStop/Best Buy retail box), exact title match, verified.
 
     // --- PR #33 manual research correction pass: individually researched all 50 remaining
     // UNRESOLVED_NO_USABLE_ART identities per review feedback. 48 resolved below; 2 remain

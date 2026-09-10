@@ -1,0 +1,92 @@
+{
+  "generatedAt": "2026-09-10T00:00:00.000Z",
+  "task": "SHELFCHECK -- TARGETED RECENT PS4 PHYSICAL OMISSION CHECK (fix/recent-ps4-physical-omissions)",
+  "scope": "Narrow, targeted correction triggered by a known missing title (Tony Hawk's Pro Skater 3 + 4), followed by a bounded 2024-2026 recent-release sanity check. This is explicitly NOT a full census rebuild or broad historical audit -- 8 candidate titles were individually investigated (the confirmed omission plus 7 other plausible 2024-2026 PS4 candidates suggested by the same pattern), matching the task's 'narrow' mandate. No subagents were used.",
+
+  "confirmedOmissions": [
+    {
+      "title": "Tony Hawk's Pro Skater 3 + 4",
+      "region": "North America / ESRB",
+      "id": 2784,
+      "verifiedAbsentBeforeAdding": "Confirmed via direct search of the finalized runtime census (all items, aliases, and products) for 'tony hawk' before making any change -- only Tony Hawk's Pro Skater 1 + 2 (id 1340) and Tony Hawk's Pro Skater 5 (id 1767) existed; no '3 + 4' identity.",
+      "physicalEvidence": "Target.com product listing (https://www.target.com/p/tony-hawk-pro-skater-3-4-playstation-4/-/A-94650080): exact title 'Tony Hawk's Pro Skater 3 + 4 - PlayStation 4', format explicitly listed as 'Physical' disc, UPC 196388575534, publisher Activision, release date July 11, 2025, launch price $39.99. Corroborated by GameStop and Best Buy both separately listing a standalone PS4 product page for the same title (GameStop product 20015170, Best Buy SKU JJGXPXWZ4Y), and by PlayStation's own blog post 'Tony Hawk's Pro Skater 3 + 4 launches July 11 on PS5 and PS4' confirming a native PS4 release (not just PS5 back-compat).",
+      "eligibilityReasoning": "Physical PS4 disc confirmed (not digital-only) -- qualifies under existing core eligibility rules. Not PSVR-required, not an annual/serialized sports title, not shovelware. The PS Store 'Cross-Gen Edition'/'Digital Deluxe Edition' listings are separate digital-only cross-buy bundle SKUs distinct from the physical retail disc; this identity represents the standalone physical PS4 release, matching the existing one-identity-per-game convention (edition-name variants are treated as physical-product variants of the same identity elsewhere in this census, e.g. Dragon Ball: The Breakers).",
+      "proposedTreatment": "Single new INCLUDED identity (id 2784, 'Tony Hawk's Pro Skater 3 + 4'). No DATA.p product entry created -- this is a single-identity title, not a multi-identity compilation, so collectionInfo()'s product mechanism does not apply.",
+      "priceStatus": "PRICE PENDING (max left null). PriceCharting (pricecharting.com) returned HTTP 403 to this session's fetch tool, the same tooling limitation documented in every prior pricing pass this engagement -- no independently-verified secondary-market CIB price source was available. Target's $39.99 is a current/recent retail listing price, not a verified aftermarket CIB figure, and was deliberately NOT used as a substitute per the task's explicit instruction to use PRICE PENDING rather than guess.",
+      "coverStatus": "Mapped. Official PlayStation Store cover image (https://image.api.playstation.com/vulcan/ap/rnd/202502/2100/5a082446577b5f38ca04bf9bac67726fcbe0bc61baf6de7b.png), confirmed as the SAME image served by both the PS4/PS5 'Content Pack' and 'Cross-Gen Edition' PS Store listings for this title (i.e. the standard-edition key art), which publishers consistently reuse as the physical retail box art. Verified reachable (HTTP 200, image/jpeg, 864,761 bytes) and confirmed rendering live in the app.",
+      "aliasesAdded": ["Tony Hawk's Pro Skater 3 and 4", "Tony Hawk Pro Skater 3 4"],
+      "aliasReasoning": "norm() already maps '&' to ' and ' and strips punctuation, so 'Tony Hawk's Pro Skater 3 & 4' normalizes identically to the stored title. These two aliases are a defensive safety net for GameEye export title formats that spell out 'and' as a separate word or omit the '+' entirely."
+    }
+  ],
+
+  "recentReleaseCheck": {
+    "candidatesInvestigated": 7,
+    "candidatesInvestigatedNote": "Bounded manual investigation of plausible 2024-2026 PS4 physical release candidates, prompted by the same failure pattern that produced the Tony Hawk omission (a mainstream/cross-gen or remaster title that might have slipped through). Each candidate was first checked for census absence, then individually researched for confirmed PS4 platform/physical status.",
+    "alreadyPresent": [
+      { "title": "Like A Dragon: Pirate Yakuza in Hawaii", "id": 1518, "note": "Already an INCLUDED census identity -- not an omission. No action taken." },
+      { "title": "Romancing SaGa -Minstrel Song- Remastered", "id": 1845, "note": "Already an INCLUDED census identity (covers the 'International' release variant found during this check). Not an omission. No action taken." },
+      { "title": "Teenage Mutant Ninja Turtles: Splintered Fate - Deluxe Edition", "id": 1744, "note": "Already an INCLUDED census identity. Not an omission. No action taken." }
+    ],
+    "rejected": [
+      {
+        "title": "Final Fantasy Tactics: The Ivalice Chronicles",
+        "reason": "Digital-only on PS4. Multiple independent sources (Square Enix's own retail-availability messaging, gaming press coverage of the September 30, 2025 launch, and retailer listings across Amazon/GameStop/Best Buy/Walmart/Target) consistently confirm physical copies exist ONLY for PS5 and Nintendo Switch -- PS4, Xbox Series X|S, and PC are digital-only. Does not qualify under existing digital-only exclusion rule."
+      },
+      {
+        "title": "Mega Man Star Force Legacy Collection",
+        "reason": "Digital-only on PS4. Confirmed via Gematsu/GameSpot/RPG Site coverage of the March 27, 2026 launch: the collection released digitally on PS4, PS5, Xbox One, Xbox Series, Switch, and PC, but physical retail editions were produced ONLY for PS5 and Switch. Does not qualify under existing digital-only exclusion rule."
+      },
+      {
+        "title": "Dragon Quest I & II HD-2D Remake",
+        "reason": "No PS4 version exists in any form (digital or physical). Confirmed via Square Enix's own North American press release and PlayStation Store listing: platforms are PS5, Nintendo Switch, Nintendo Switch 2, Xbox Series X|S, and PC (Steam/Microsoft Store) only. Not eligible -- not a PS4 release at all."
+      },
+      {
+        "title": "Onimusha: Way of the Sword",
+        "reason": "No PS4 version exists in any form. Confirmed via multiple sources for the September 4, 2026 launch: platforms are PS5, Nintendo Switch 2, Windows, and Xbox Series X/S only. Not eligible -- not a PS4 release at all."
+      },
+      {
+        "title": "Ninja Gaiden 2 Black",
+        "reason": "No PS4 version exists in any form. Confirmed physical release (via Play-Asia, March 27, 2025) and all other coverage describe this as a PS5-exclusive title (also available digitally via Xbox Game Pass). Not eligible -- not a PS4 release at all."
+      }
+    ],
+    "candidateSourceNote": "Candidates were identified via general 2025-2026 PS4-release-tracking search queries (e.g. searches for known late-cycle PS4 physical release trackers/forums) rather than a systematic crawl of any single list -- this check intentionally stayed bounded rather than working through every title such a tracker might surface, per the task's explicit 'narrow' scope and the instruction not to expand into a full historical audit without asking."
+  },
+
+  "regressionValidation": {
+    "includedCountBefore": 2535,
+    "includedCountAfter": 2536,
+    "censusDeterminism": "20/20 runs identical (tools/census-determinism-test.mjs, updated MUTATORS list to include the new census-physical-omission-pass-v002.js at its real index.html tag position), INCLUDED=2536 on every run, 1 unique membership hash, all 10 known-conflict identities correctly excluded on every run, post-finalization mutation refused on every run.",
+    "searchVerification": {
+      "tony hawk": { "resultCount": 3, "includesNewTitle": true, "note": "Correctly surfaces all 3 Tony Hawk identities (1+2, 3+4, 5)." },
+      "pro skater 3": { "resultCount": 1, "includesNewTitle": true },
+      "skater 3 4": { "resultCount": 1, "includesNewTitle": true },
+      "tony hawk's pro skater 3 + 4 (exact title)": { "resultCount": 1, "includesNewTitle": true },
+      "tony hawk 3": { "resultCount": 0, "includesNewTitle": false, "note": "PRE-EXISTING search limitation, not a regression: ShelfCheck's search is a plain substring match against the normalized, space-joined title ('tony hawk s pro skater 3 4'). The query 'tony hawk 3' is not a contiguous substring of that string because 'pro skater' sits between 'hawk' and '3'. This is the same class of tokenization gap already documented in audit-out/physical-omission-check.json (the 'Dragonb' case) -- not fixed here per the explicit instruction not to change search logic in this pass." },
+      "thps": { "resultCount": 0, "includesNewTitle": false, "note": "Expected, not a bug -- the literal string 'thps' does not appear anywhere in the title text, so a plain substring search correctly returns nothing." }
+    },
+    "renderingVerification": {
+      "allFilterRenders": true,
+      "neededFilterRenders": true,
+      "priceSortLowHighStillWorks": true,
+      "randomGameStillWorks": true,
+      "randomGameResetsScrollToTop": true,
+      "randomGameTopButtonPresent": true,
+      "coverImageVerifiedReachable": true,
+      "coverImageVerifiedRenderingLive": true
+    },
+    "pwaPrecacheConsistency": "PASS -- tools/pwa-precache-consistency-test.mjs: [A] 113 precache entries, 103 verified exact matches, 0 mismatches; [B] 104 runtime URLs referenced, 104 precached, 0 missing.",
+    "consoleErrors": 0,
+    "consoleErrorsNote": "Zero console errors/warnings of any kind on a fresh page load, verified directly (not just checking for 'onlyErrors')."
+  },
+
+  "filesChanged": [
+    "census-physical-omission-pass-v002.js (new -- adds Tony Hawk's Pro Skater 3 + 4, id 2784)",
+    "cover-overrides.js (1 new entry appended for id 2784; 0 existing entries modified or removed)",
+    "index.html (new census-physical-omission-pass-v002.js script tag added before census-finalize.js; cover-overrides.js cache-bust bumped ?v=142 -> ?v=143)",
+    "sw.js (new script added to precache list; cover-overrides.js precache entry bumped to match; cache version shelfcheck-v132 -> v133)",
+    "tools/census-determinism-test.mjs (MUTATORS list updated with the new script's real tag position, and every subsequent position renumbered by +1 to stay in sync with index.html, per the file's own maintenance convention)",
+    "audit-out/recent-ps4-omission-check.json (this artifact)"
+  ],
+
+  "explicitlyNotChanged": "Per task instructions: no existing INCLUDED/EXCLUDED identity was altered; no dossier overrides were touched; no search/pricing/Random-Game/UI/cover-architecture/ownership-matching/curation logic was changed; the Japanese-only/kids/filler curation pass was NOT started (separate future scope)."
+}
