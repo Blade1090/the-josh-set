@@ -1,0 +1,192 @@
+{
+  "task": "SHELFCHECK — DOSSIER CONTAMINATION REPAIR — FINAL BATCH",
+  "source": "audit-out/curation-verification-pass-1.json (dossierContaminationFullManifest, 84 confirmed contaminated dossiers)",
+  "selection": "The final 14 entries in manifest array order, following the 70 handled by Batches 1-4 (PR #40, #41, #42, #43). This closes the original 84-entry manifest completely.",
+  "manifestEntriesInspected": 14,
+  "classificationCounts": {
+    "ALREADY_FIXED": 3,
+    "REPAIRED": 11
+  },
+  "method": "For each of the 14 titles, loaded the base shelfcheck-dossiers.txt entry and replayed every existing dossier-overrides-*.js batch (1 through 48, in real load order) using the same last-write-wins Map.set logic dossier-apply.js uses at runtime, to determine the actual EFFECTIVE (live) dossier object -- not just whether an override file happens to mention the title. An entry was classified ALREADY_FIXED only when the effective object was a distinct, already-accurate override (verified against the real game); LIVE_CONTAMINATED (-> REPAIRED) when the effective object was still the contaminated base entry itself.",
+  "classifications": [
+    {
+      "id": 1176,
+      "title": "Super Cane Magic ZERO",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "PS_PLATFORM_LIST",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base 'list of games for the PlayStation 4' stub)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre/hook (action RPG/brawler with absurd item interactions, art by Sio) and a fair, enthusiastic curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 1184,
+      "title": "SuperEpic: The Entertainment War",
+      "classification": "REPAIRED",
+      "manifestPattern": "PS_PLATFORM_LIST",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base 'list of games for the PlayStation 4' stub.",
+      "correction": "Added a new override (dossier-overrides-49.js) describing the actual game: a 2D action-platformer/Metroidvania where you play a raccoon riding a llama, satirizing microtransactions by turning them into real gameplay systems.",
+      "researchSources": ["OpenCritic", "GameFAQs", "The Review Geek review", "Rapid Reviews UK"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 1185,
+      "title": "SuperMash",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "ATARI_VCS_LIST",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base 'list of games released on the 2021 Atari VCS' stub)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct high-concept genre-mashing hook and an appropriately mixed ('clever not fun') curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 1186,
+      "title": "Surf World Series",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeThisBatch": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base Wired Productions publisher bio)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (arcade surfing) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 1246,
+      "title": "The Fisherman: Fishing Planet",
+      "classification": "REPAIRED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base Nacon SA company bio.",
+      "correction": "Added a new override describing the actual game: a realistic Fishing-Planet-engine fishing simulation with 110+ fish species, life-like fish AI, and deep gear customization.",
+      "researchSources": ["Twinfinite review", "TheGamer review", "AUSRETROGAMER review", "Operation Sports review", "Chalgyr's Game Room review"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 1251,
+      "title": "The Inner World: The Last Wind Monk",
+      "classification": "REPAIRED",
+      "manifestPattern": "SWITCH_LIST",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base 'part of the list of Nintendo Switch games' stub.",
+      "correction": "Added a new override describing the actual game: a point-and-click adventure sequel following Robert and his pigeon friend Peck, with a curator note about the console's less-comfortable gamepad control conversion.",
+      "researchSources": ["Geeks Under Grace review", "GamePitt review", "VideoChums review", "Metacritic", "TheSixthAxis review"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 1252,
+      "title": "The Invisible Hours",
+      "classification": "REPAIRED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base Tequila Works S.L. company bio.",
+      "correction": "Added a new override describing the actual game: a walkable, rewindable Agatha-Christie-style murder-mystery 'immersive theater' experience with near-zero traditional interaction, honestly framed as a narrative curiosity rather than a gameplay pick.",
+      "researchSources": ["GamePitt review", "Gamecritics.com review", "Thumb Culture review", "Push Square review", "Metacritic"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 1287,
+      "title": "The Seven Deadly Sins: Knights of Britannia",
+      "classification": "REPAIRED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base Natsume Atari Co., Ltd. company bio.",
+      "correction": "Added a new override describing the actual game: a 3D anime arena fighter with Adventure and Duel modes and a 25-character roster, honestly reflecting the largely negative reviews of its combat (input delay, mindless missions).",
+      "researchSources": ["CGMagazine review", "Dualshockers review", "Push Square review", "PlayStationLifeStyle review", "Shane the Gamer review"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 1323,
+      "title": "Those Who Remain",
+      "classification": "REPAIRED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base Wired Productions publisher bio.",
+      "correction": "Added a new override describing the actual game: a first-person 'stay in the light' psychological horror walking-sim, honestly reflecting the largely negative reviews (dated presentation, obtuse puzzles, harsh checkpointing).",
+      "researchSources": ["Push Square review", "Metacritic", "GamePitt review", "PSU review", "Hey Poor Player review", "Rely on Horror review"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 1375,
+      "title": "Twin Breaker: A Sacred Symbols Adventure",
+      "classification": "REPAIRED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base Lillymo Games Inc. company bio.",
+      "correction": "Added a new override describing the actual game: a twin-stick dual-paddle brick-breaker (40-level adventure plus endless/boss-rush/pong modes) created by the Sacred Symbols podcast hosts.",
+      "researchSources": ["Metacritic", "Push Square review", "ScreenRant review", "PS4Blog.net review", "Pure Dead Gaming review"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 1378,
+      "title": "Unbox: Newbie's Adventure",
+      "classification": "REPAIRED",
+      "manifestPattern": "PS_PLATFORM_LIST",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base 'list of games for the PlayStation 4' stub.",
+      "correction": "Added a new override describing the actual game: a 90s-style open-world 3D collectathon platformer where you play a self-delivering cardboard box with a signature 'unboxing' multi-jump ability.",
+      "researchSources": ["Metacritic", "KeenGamer review", "VideoChums review", "PlayStation Country review", "Marooners' Rock review"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 1447,
+      "title": "WordHunters",
+      "classification": "REPAIRED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base Wired Productions publisher bio.",
+      "correction": "Added a new override describing the actual game: a PlayLink smartphone-controlled party word game for 2-6 players. Curator take explicitly preserves this identity's existing LOW_VALUE_ACTIVITY exclusion from Josh Set curation pass #1 -- this repair only touched dossier content, not census status.",
+      "researchSources": ["Gamereactor review", "VideoChums review", "Gaming Age review", "Wired Productions official product page"],
+      "validationResult": "PASS — live dossier renders corrected content; census status confirmed unchanged (still EXCLUDED per Pass #1, LOW_VALUE_ACTIVITY)."
+    },
+    {
+      "id": 1451,
+      "title": "World Poker Championship",
+      "classification": "REPAIRED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base Coresoft company bio (an unrelated older studio; Coresoft's own 'World Championship Poker' series never released on PS4).",
+      "correction": "Added a new override describing the actual game: a budget Play It-published Texas Hold'em poker title, explicitly distinguished from the separate 'Pure Hold'em World Poker Championship' by Ripstone/VooFoo Studios so the two are not conflated.",
+      "researchSources": ["GameStop product listings", "PlayStation Store product page (for the distinct Pure Hold'em title, used for disambiguation)", "General retail listings confirming Play It as publisher"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 1490,
+      "title": "Zombie Vikings",
+      "classification": "REPAIRED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base Zoink AB company bio.",
+      "correction": "Added a new override describing the actual game: a 4-player co-op 2D beat-'em-up from the Stick it to the Man! studio. Curator take draws an evidence-supported connection to the Josh-confirmed hit Stick it to the Man! (same studio, same hand-drawn art style/humor) while being explicit that Josh has not personally played this brawler.",
+      "researchSources": ["Cubed3 review", "VideoChums review", "Push Square review", "PSU review", "PlayStationLifeStyle review", "ZTGD review"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    }
+  ],
+  "finalManifestReconciliation": {
+    "originalManifestCount": 84,
+    "totalInspectedAcrossAllBatches": 84,
+    "uniqueIdsInspected": 84,
+    "duplicateIds": [],
+    "missingIds": [],
+    "cumulativeAlreadyFixed": 51,
+    "cumulativeRepaired": 33,
+    "remainingUnreviewed": 0,
+    "method": "Programmatically parsed the ids and classifications recorded in all five repair-batch audit artifacts (batch 1's 'repairs' array, using its 'correction' text starting with 'No change made' as the ALREADY_FIXED signal, and batches 2-5's 'classifications' arrays) and compared the combined id list against the original 84-id dossierContaminationFullManifest from audit-out/curation-verification-pass-1.json. Confirmed: exact set equality (every manifest id appears exactly once across the five batches, no id appears in more than one batch, no inspected id is absent from the original manifest), yielding a perfect 84-of-84 1:1 match with zero duplicates and zero gaps.",
+    "perBatchCounts": {
+      "batch1": { "inspected": 10, "alreadyFixed": 4, "repaired": 6 },
+      "batch2": { "inspected": 20, "alreadyFixed": 9, "repaired": 11 },
+      "batch3": { "inspected": 20, "alreadyFixed": 15, "repaired": 5 },
+      "batch4": { "inspected": 20, "alreadyFixed": 20, "repaired": 0 },
+      "batch5": { "inspected": 14, "alreadyFixed": 3, "repaired": 11 },
+      "sumCheck": "10+20+20+20+14 = 84; (4+9+15+20+3)=51 ALREADY_FIXED + (6+11+5+0+11)=33 REPAIRED = 84"
+    }
+  },
+  "notesForReviewer": [
+    "This is the final batch: all 84 entries from the original contamination manifest are now accounted for exactly once, across batches 1-5 (PR #40, #41, #42, #43, and this PR).",
+    "3 of these final 14 were classified ALREADY_FIXED (Super Cane Magic ZERO, SuperMash, Surf World Series), all with their effective override already living in dossier-overrides-45.js -- each already supersedes the contaminated base shelfcheck-dossiers.txt entry at runtime, so Josh has never seen the wrong text for any of these 3. Each was independently re-verified against the real game and deliberately left untouched.",
+    "11 of these final 14 were classified REPAIRED (genuinely LIVE_CONTAMINATED): no override existed, so the contaminated base text was what ShelfCheck actually served. New, game-specific overrides for these 11 were added in a new file, dossier-overrides-49.js, following the exact same {t,s,w,c,r,b,p} object-literal schema as every prior batch.",
+    "WordHunters's dossier text is now accurate about the actual game while explicitly noting it remains excluded from the Josh Set (LOW_VALUE_ACTIVITY, curation pass #1) -- this repair only touched dossier content, not census status.",
+    "World Poker Championship required disambiguation research: its base contamination (a Coresoft company bio) is entirely unrelated, since Coresoft's own poker series never released on PS4. This specific ShelfCheck identity is a distinct, separately-published (Play It) budget poker title, explicitly distinguished in the new dossier from the similarly-named 'Pure Hold'em World Poker Championship' by Ripstone/VooFoo Studios to avoid conflating the two.",
+    "Zombie Vikings's curator take draws an evidence-supported connection to the Josh-confirmed hit Stick it to the Man! (same studio Zoink, same hand-drawn art style and humor per multiple reviews) while being explicit that this specific personal-fit claim is a prediction, not a claim that Josh has played this title.",
+    "dossier-apply.js, index.html, and sw.js each received exactly one minimal line-edit to register/precache the new batch file, consistent with every prior batch; sw.js's cache generation was bumped shelfcheck-v138 -> shelfcheck-v139."
+  ],
+  "validation": {
+    "manifestEntriesInspectedCount": 14,
+    "dossierOverrideSyntax": "PASS — node --check dossier-overrides-49.js",
+    "dossierFactoryValidation": "PASS — tools/dossier-factory.mjs ran cleanly and parsed the new batch file's {t:\"...\"} entries via its existing regex-based override scanner without error",
+    "allOverridesStillLoad": "PASS — live browser confirms all 49 batch files load without exception and every one of the 14 inspected titles resolves to its correct id and expected content",
+    "onlyLiveContaminatedEntriesGotNewOverrides": "PASS — only the 11 REPAIRED titles appear in dossier-overrides-49.js; the 3 ALREADY_FIXED titles were not written to any file",
+    "noUnrelatedDossierChanged": "PASS — git diff confirms only the new dossier-overrides-49.js file plus one-line wiring edits to dossier-apply.js/index.html/sw.js; no existing dossier-overrides-*.js file was modified",
+    "censusMembershipUnchanged": "PASS — tools/census-determinism-test.mjs, 20/20 runs, INCLUDED = 2509 (unchanged)",
+    "ownershipUnchanged": "PASS — live browser header progress reads 230 / 2509, matching pre-repair state exactly",
+    "pwaPrecacheConsistency": "PASS — tools/pwa-precache-consistency-test.mjs, both checks pass (run because sw.js's precache list changed)",
+    "repairedDossiersRenderRecommendation": "PASS — all 11 REPAIRED titles confirmed live to render a non-empty RECOMMENDATION section (p field length checked >=28 chars, live usefulText() check confirmed true for all 11)",
+    "zeroConsoleErrors": "PASS — confirmed on a fresh live load",
+    "final84IdReconciliation": "PASS — programmatic comparison of all five batch audit artifacts' ids against the original 84-id manifest yields exact set equality: 84 unique ids inspected, 0 duplicates, 0 ids inspected outside the manifest, 0 manifest ids left unreviewed"
+  }
+}
