@@ -1,0 +1,223 @@
+{
+  "task": "SHELFCHECK — DOSSIER CONTAMINATION REPAIR — BATCH 2",
+  "source": "audit-out/curation-verification-pass-1.json (dossierContaminationFullManifest, 84 confirmed contaminated dossiers)",
+  "selection": "The next 20 entries in manifest array order after the 10 handled by Batch 1 (ids 1151, 501, 822, 564, 835, 836, 1116, 621, 496, 494 excluded from selection).",
+  "manifestEntriesInspected": 20,
+  "classificationCounts": {
+    "ALREADY_FIXED": 9,
+    "REPAIRED": 11
+  },
+  "method": "For each of the 20 titles, loaded the base shelfcheck-dossiers.txt entry and replayed every existing dossier-overrides-*.js batch (1 through 46, in real load order) using the same last-write-wins Map.set logic dossier-apply.js uses at runtime, to determine the actual EFFECTIVE (live) dossier object -- not just whether an override file happens to mention the title. An entry was classified ALREADY_FIXED only when the effective object was a distinct, already-accurate override (verified against the real game); LIVE_CONTAMINATED (-> REPAIRED) when the effective object was still the contaminated base entry itself.",
+  "classifications": [
+    {
+      "id": 6,
+      "title": "1971 Project Helios",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "SWITCH_LIST",
+      "effectiveDossierLocation": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base 'part of the list of Nintendo Switch games' stub)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (turn-based tactics, frozen alternate-history setting, small-squad combat) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 10,
+      "title": "3D MiniGolf",
+      "classification": "REPAIRED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base shelfcheck-dossiers.txt entry (a Digital Chocolate, Inc. company-history bio, unrelated to the actual game).",
+      "correction": "Added a new override (dossier-overrides-47.js) describing the actual game: a straightforward 1-4 player mini-golf title with 50+ holes across three themed settings and local multiplayer.",
+      "researchSources": ["GameFAQs release info", "PlayStation Store product page", "Amazon PS4 listing"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 18,
+      "title": "88 Heroes",
+      "classification": "REPAIRED",
+      "manifestPattern": "SWITCH_LIST",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base 'part of the list of Nintendo Switch games' stub.",
+      "correction": "Added a new override describing the actual game: an 88-second-level 2D platformer where every death/clear randomly swaps in one of 88 (98 in this edition) parody hero characters with different abilities.",
+      "researchSources": ["Metacritic", "TV Tropes", "PlayStation Country review", "Hey Poor Player review (98 Heroes Edition)"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 34,
+      "title": "Aces of the Luftwaffe: Squadron",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocation": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base handy-games GmbH company bio)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (vertical shoot-'em-up, four-pilot squad system) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 50,
+      "title": "Agony",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "DISAMBIGUATION",
+      "effectiveDossierLocation": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base Wikipedia disambiguation-page stub 'Agony may refer to:')",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (first-person horror set in Hell) and a fair, appropriately critical curator take reflecting the game's poor reception. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 61,
+      "title": "Alchemic Jousts",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "SWITCH_LIST",
+      "effectiveDossierLocation": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base Switch-list stub)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (lane-based elemental strategy battler) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 66,
+      "title": "All-Star Fruit Racing",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "VEHICULAR_COMBAT_LIST",
+      "effectiveDossierLocation": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base 'list of vehicular combat games' stub)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (kart racer with a combinable fruit-power-up system) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 80,
+      "title": "Antiquia Lost",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "KEMCO_LIST",
+      "effectiveDossierLocation": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base 'list of Kemco games' stub)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (traditional Kemco turn-based JRPG) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 85,
+      "title": "Arc of Alchemist",
+      "classification": "REPAIRED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base Compile Heart company-history bio.",
+      "correction": "Added a new override describing the actual game: a hack-and-slash action RPG in a post-apocalyptic chibi-styled world, switching between a home base and real-time field combat, with an honest note about its mixed-to-negative critical reception.",
+      "researchSources": ["Metacritic", "RPGamer review", "NoisyPixel review", "VideoChums review"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 88,
+      "title": "Arcadegeddon",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocation": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base IllFonic, LLC company bio)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (third-person roguelite shooter with co-op) and an appropriate curator caution about its live-service/online design. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 92,
+      "title": "ArmaGallant: Decks of Destiny",
+      "classification": "REPAIRED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base Maximum Games, Inc. publisher-history bio.",
+      "correction": "Added a new override describing the actual game: a real-time deckbuilding strategy game (cards + lane-based RTS hybrid) played in 1v1/2v2 online arena matches, with a curator caution that it is online-multiplayer-only.",
+      "researchSources": ["Digitally Downloaded review", "GameSpew review", "PS4Home review", "GameFAQs"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 96,
+      "title": "Asdivine Hearts",
+      "classification": "REPAIRED",
+      "manifestPattern": "KEMCO_LIST",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base 'list of Kemco games' stub.",
+      "correction": "Added a new override describing the actual game: a retro-styled turn-based JRPG with grid-position combat and a Tetris-block 'Rubix' stat-jewel system, noting the generally mixed/'bland' critical reception.",
+      "researchSources": ["Metacritic", "Nintendo Life review", "GameSpew review", "RPGamer review"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 111,
+      "title": "Atari Flashback Classics: Volume 1",
+      "classification": "REPAIRED",
+      "manifestPattern": "WRONG_PRODUCT_LINE_ARTICLE (also matched MISSING_FIELDS)",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base entry, which (despite the thematic overlap in name) described the unrelated Atari Flashback plug-and-play hardware console line rather than this software compilation, and also carried empty 'Not identified' structured fields.",
+      "correction": "Added a new override describing the actual game: a 50-game AtGames compilation of licensed Atari arcade and 2600 titles with online leaderboards, explicitly distinguishing it from the unrelated Atari Flashback hardware line.",
+      "researchSources": ["AtGames official product page", "GameStop listing", "Retrovolve complete game list", "PlayStation Store product page"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 130,
+      "title": "Bard's Gold",
+      "classification": "REPAIRED",
+      "manifestPattern": "SWITCH_LIST",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base 'part of the list of Nintendo Switch games' stub.",
+      "correction": "Added a new override describing the actual game: a Spelunky/Rogue Legacy-style precision platformer with timed levels, permadeath runs, and multiple play modes.",
+      "researchSources": ["Metacritic", "CogConnected review", "PSU review", "PS4Blog.net review"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 140,
+      "title": "Battle Princess Madelyn",
+      "classification": "REPAIRED",
+      "manifestPattern": "SWITCH_LIST",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base 'part of the list of Nintendo Switch games' stub.",
+      "correction": "Added a new override describing the actual game: a Ghouls 'n Ghosts homage 2D action-platformer with Arcade and Story modes and a ghost-dog revive mechanic.",
+      "researchSources": ["Metacritic", "NoisyPixel review", "TheSixthAxis review", "PlayStationLifeStyle review", "Gamecritics.com review"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 160,
+      "title": "Bibi & Tina at the horse farm",
+      "classification": "REPAIRED",
+      "manifestPattern": "SWITCH_LIST",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base 'part of the list of Nintendo Switch games' stub.",
+      "correction": "Added a new override describing the actual game: a licensed Bibi & Tina horse-riding game (10 horses, 18 riding missions, horse-care minigames). Curator take honestly reflects that this identity is already excluded from the Josh Set (HORSE_GAME, curation pass #1) -- this repair only touched dossier content, not census status.",
+      "researchSources": ["PlayStation Store product page", "GameStop listing", "Target/Amazon product descriptions"],
+      "validationResult": "PASS — live dossier renders corrected content; census status confirmed unchanged (still EXCLUDED per Pass #1, HORSE_GAME)."
+    },
+    {
+      "id": 238,
+      "title": "Caveman Warriors",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "SWITCH_LIST",
+      "effectiveDossierLocation": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base Switch-list stub)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (2D action-platformer with 4-character swapping) and a fair curator take. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 245,
+      "title": "Chronus Arc",
+      "classification": "REPAIRED",
+      "manifestPattern": "KEMCO_LIST",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base 'list of Kemco games' stub.",
+      "correction": "Added a new override describing the actual game: a Chrono Trigger-inspired Kemco turn-based JRPG with visible field encounters, crafting, and a battle speed-up option.",
+      "researchSources": ["Metacritic", "Seafoam Gaming review", "Vortainment review", "Gaming Age review"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 246,
+      "title": "Citadel: Forged with Fire",
+      "classification": "REPAIRED",
+      "manifestPattern": "XBOX_LIST",
+      "effectiveDossierLocationBeforeFix": "No override existed; live dossier was the base 'list of Xbox One games' stub.",
+      "correction": "Added a new override describing the actual game: an open-world fantasy survival sandbox with base-building, spellcrafting, and tameable creatures, playable offline or on PvP/PvE servers.",
+      "researchSources": ["GodisaGeek review", "Gideon's Gaming review", "PlayStationLifeStyle review", "AlternativeTo game summary"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED)."
+    },
+    {
+      "id": 314,
+      "title": "Date-A-Live: Rio Reincarnation",
+      "classification": "ALREADY_FIXED",
+      "manifestPattern": "COMPANY_BIO",
+      "effectiveDossierLocation": "dossier-overrides-45.js (pre-existing override already supersedes the contaminated base Compile Heart company bio)",
+      "correction": "None made. Verified the live-rendered dossier is accurate: correct genre (Date A Live visual-novel collection) and an appropriate curator take flagging it as a niche, text-heavy franchise piece. Left untouched.",
+      "validationResult": "PASS (verification only) — live dossier already correct; census status unchanged (INCLUDED)."
+    }
+  ],
+  "notesForReviewer": [
+    "Exactly 20 manifest entries were inspected, selected as the next 20 in the manifest's original array order following the 10 already handled by Batch 1.",
+    "9 of the 20 were classified ALREADY_FIXED: each already has an accurate, game-specific override from an earlier batch (in every case batch 45) that already supersedes the contaminated base shelfcheck-dossiers.txt entry at runtime. Josh has never actually seen the contaminated text for any of these 9. Each was independently re-verified against the real game for accuracy and deliberately left untouched -- no research-for-its-own-sake rewrites were performed, per the batch-1 lesson.",
+    "11 of the 20 were classified REPAIRED (genuinely LIVE_CONTAMINATED): no override existed, so the contaminated base text was what ShelfCheck actually served. New, game-specific overrides for these 11 were added in a new file, dossier-overrides-47.js, following the exact same {t,s,w,c,r,b,p} object-literal schema as every prior batch.",
+    "Bibi & Tina at the horse farm's dossier text is now accurate about the actual game while explicitly noting it remains excluded from the Josh Set (HORSE_GAME, curation pass #1) -- this repair only touched dossier content, not census status.",
+    "dossier-apply.js, index.html, and sw.js each received exactly one minimal line-edit to register/precache the new batch file, consistent with every prior batch; sw.js's cache generation was bumped shelfcheck-v136 -> shelfcheck-v137."
+  ],
+  "validation": {
+    "manifestEntriesInspectedCount": 20,
+    "dossierOverrideSyntax": "PASS — node --check dossier-overrides-47.js",
+    "dossierFactoryValidation": "PASS — tools/dossier-factory.mjs ran cleanly and parsed the new batch file's {t:\"...\"} entries via its existing regex-based override scanner without error",
+    "allOverridesStillLoad": "PASS — live browser confirms all 47 batch files load without exception and every one of the 20 inspected titles resolves to its correct id and expected content",
+    "onlyLiveContaminatedEntriesGotNewOverrides": "PASS — only the 11 REPAIRED titles appear in dossier-overrides-47.js; the 9 ALREADY_FIXED titles were not written to any file",
+    "noUnrelatedDossierChanged": "PASS — git diff confirms only the new dossier-overrides-47.js file plus one-line wiring edits to dossier-apply.js/index.html/sw.js; no existing dossier-overrides-*.js file was modified",
+    "censusMembershipUnchanged": "PASS — tools/census-determinism-test.mjs, 20/20 runs, INCLUDED = 2509 (unchanged)",
+    "ownershipUnchanged": "PASS — live browser header progress reads 230 / 2509, matching pre-repair state exactly",
+    "pwaPrecacheConsistency": "PASS — tools/pwa-precache-consistency-test.mjs, both checks pass (run because sw.js's precache list changed)",
+    "zeroConsoleErrors": "PASS — confirmed on a fresh live load"
+  }
+}
