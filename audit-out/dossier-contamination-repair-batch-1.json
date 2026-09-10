@@ -1,0 +1,126 @@
+{
+  "task": "SHELFCHECK — CONTAMINATED DOSSIER REPAIR — BATCH 1",
+  "source": "audit-out/curation-verification-pass-1.json (dossierContaminationFullManifest, 84 confirmed contaminated dossiers)",
+  "manifestVerification": "All 10 requested titles confirmed present in the 84-title manifest before any repair work began. None substituted.",
+  "scope": "Exactly these 10 titles. Does not mark or touch the remaining 74 contaminated dossiers. Does not alter any other dossier.",
+  "repairs": [
+    {
+      "id": 1151,
+      "title": "Stick it to the Man!",
+      "manifestPattern": "COMPANY_BIO",
+      "existingDossierLocation": "No override existed. The live dossier came straight from the base shelfcheck-dossiers.txt entry (no override file superseded it).",
+      "contaminationFound": "The base Quick Summary was a Wikipedia-style company biography of Zoink AB (the Swedish developer/Thunderful history) — not a description of the game at all.",
+      "correction": "Added a new override (dossier-overrides-46.js) describing the actual game: a 2D comedic adventure-platformer where a giant psychic hand lets Ray Doewood read minds and use stickers to solve puzzles and sneak past guards. Preserved Josh's personal note in the JOSH / CURATOR TAKE field: he has completed this game, called it \"rad,\" and felt the length was exactly right — kept verbatim rather than replaced with generic reviewer sentiment.",
+      "researchSources": ["Wikipedia (Stick it to The Man!)", "OpenCritic", "PS4Blog.net review", "ShelfCheck's own live HLTB data (4.4h main / 5.0h main+extra / 5.7h completionist, consistent with the 'short adventure' and 'right length' framing used)"],
+      "validationResult": "PASS — live dossier renders the corrected Quick Summary, Why It Belongs, Watch Out For, Josh/Curator Take (personal note preserved), Physical/Coverage, and Recommendation fields. Census status unchanged (INCLUDED). Confirmed live in browser."
+    },
+    {
+      "id": 501,
+      "title": "For the King",
+      "manifestPattern": "ACCOLADE_LIST",
+      "existingDossierLocation": "No override existed. The live dossier came straight from the base shelfcheck-dossiers.txt entry.",
+      "contaminationFound": "The base Quick Summary was a Wikipedia-style article about Accolade, an unrelated 1980s American publisher (HardBall!, Jack Nicklaus, Test Drive) — not about this game.",
+      "correction": "Added a new override describing the actual game: a tabletop-style RPG blending turn-based tactical combat with a hex-map overworld, playable solo or with up to 2 others locally/online, built around a rising 'Chaos' timer and permadeath runs. Curator take flags it as strongest in 3-player co-op and rougher solo.",
+      "researchSources": ["Wikipedia (For the King)", "PlayStation Store product page", "PSU.com review", "TheSixthAxis review", "Co-Optimus co-op info page"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED); confirmed live in browser."
+    },
+    {
+      "id": 822,
+      "title": "Naruto to Boruto: Shinobi Striker",
+      "manifestPattern": "BANDAI_NAMCO_LIST",
+      "existingDossierLocation": "dossier-overrides-16.js (existing override, unchanged by this batch).",
+      "contaminationFound": "The base shelfcheck-dossiers.txt entry (superseded at runtime) was a generic Bandai Namco Entertainment company-catalog blurb. However, an accurate, game-specific override already existed in dossier-overrides-16.js describing the real 4v4 online ninja action game with wall-running and classes, and it already takes precedence at runtime.",
+      "correction": "No change made. Verified the live-rendered dossier (via the existing override) is already accurate: correct genre (online team action), correct core loop (4v4, wall-running, classes, team objectives), and an appropriate curator caution about service/online dependence. Left untouched per the instruction to repair only what's actually broken.",
+      "researchSources": ["General knowledge of Naruto to Boruto: Shinobi Striker's confirmed 4v4 team-based online structure, cross-checked against the existing override text for accuracy"],
+      "validationResult": "PASS (verification only, no content change) — live dossier already correct; census status unchanged (INCLUDED); confirmed live in browser."
+    },
+    {
+      "id": 564,
+      "title": "Gundam Versus",
+      "manifestPattern": "GUNDAM_FRANCHISE_OVERVIEW",
+      "existingDossierLocation": "dossier-overrides.js (batch 1) and dossier-overrides-15.js both contain an override; dossier-overrides-15.js loads later and is what's actually live. Neither touched by this batch.",
+      "contaminationFound": "The base shelfcheck-dossiers.txt entry (superseded at runtime) was a generic Wikipedia-style overview of the entire Gundam anime franchise and its ~250 games — not about this specific title. However, TWO separate, independently-written, accurate overrides already exist for this identity (in batch 1 and batch 15), both correctly describing it as a fast arena-combat mobile-suit team game with boost movement; the later one (batch 15) is what's live.",
+      "correction": "No change made. Verified the live-rendered dossier (via dossier-overrides-15.js) is accurate: correct genre (arena/versus combat), correct mechanics (boost movement, ranged/melee, team battles), and an appropriate curator note about arcade structure vs. story depth. Left untouched per the instruction to repair only what's actually broken; the pre-existing duplicate override across two batch files is a separate, unrelated redundancy issue, not contamination, and is out of scope for this pass.",
+      "researchSources": ["General knowledge of the Gundam Vs. arena-fighter series' confirmed 2v2/3v3 team-combat format, cross-checked against the existing override text for accuracy"],
+      "validationResult": "PASS (verification only, no content change) — live dossier already correct; census status unchanged (INCLUDED); confirmed live in browser."
+    },
+    {
+      "id": 835,
+      "title": "New Gundam Breaker",
+      "manifestPattern": "GUNDAM_FRANCHISE_OVERVIEW",
+      "existingDossierLocation": "No override existed. The live dossier came straight from the base shelfcheck-dossiers.txt entry — the same generic Gundam-franchise text also found (but already superseded) under Gundam Versus.",
+      "contaminationFound": "The base Quick Summary was the identical generic Wikipedia-style Gundam-franchise overview used for Gundam Versus's base entry — describing the anime franchise in general, not this specific, mechanically distinct game (Gunpla-building/customization, not arena versus combat).",
+      "correction": "Added a new override describing the actual game: an arena action game where battles let you break apart and collect Gunpla parts, then build/customize your own mobile suit. Curator take reflects the game's mixed-to-negative critical reception (shallow/repetitive combat, restrictive part-carrying limit) and explicitly distinguishes it from the mechanically different Gundam Versus.",
+      "researchSources": ["Metacritic (New Gundam Breaker)", "MP1st / Shacknews / NoisyPixel coverage comparing it unfavorably to its own later sequel Gundam Breaker 4", "GameStop product listing confirming a physical PS4 release exists"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED); confirmed live in browser."
+    },
+    {
+      "id": 836,
+      "title": "Nexomon: Extinction",
+      "manifestPattern": "SWITCH_LIST",
+      "existingDossierLocation": "dossier-overrides-16.js (existing override, unchanged by this batch).",
+      "contaminationFound": "The base shelfcheck-dossiers.txt entry (superseded at runtime) was a generic 'part of the list of Nintendo Switch games' stub. An accurate, game-specific override already existed in dossier-overrides-16.js correctly describing the monster-catching turn-based RPG and already takes precedence at runtime.",
+      "correction": "No change made. Verified the live-rendered dossier is already accurate: correct genre (monster-catching RPG), correct core loop (turn-based battles, comedic tone vs. Pokémon), and a fair curator take. Left untouched.",
+      "researchSources": ["General knowledge of Nexomon: Extinction's confirmed monster-catching turn-based RPG structure, cross-checked against the existing override text for accuracy"],
+      "validationResult": "PASS (verification only, no content change) — live dossier already correct; census status unchanged (INCLUDED); confirmed live in browser."
+    },
+    {
+      "id": 1116,
+      "title": "Sparklite",
+      "manifestPattern": "SWITCH_LIST",
+      "existingDossierLocation": "No override existed. The live dossier came straight from the base shelfcheck-dossiers.txt entry.",
+      "contaminationFound": "The base Quick Summary was the same generic 'part of the list of Nintendo Switch games' stub with zero game-specific content.",
+      "correction": "Added a new override describing the actual game: a top-down Zelda-style action-adventure roguelite where the overworld itself is procedurally reshuffled between runs, with gadget-gated progression and Titan boss fights. Curator take reflects reviewer consensus (charming and creative, but combat/aim less precise than its inspirations, thin story).",
+      "researchSources": ["GameSkinny review", "Push Square review", "PlayStation Country review", "PS4Blog.net review", "ThisGenGaming review"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED); confirmed live in browser."
+    },
+    {
+      "id": 621,
+      "title": "Inertial Drift",
+      "manifestPattern": "SWITCH_LIST",
+      "existingDossierLocation": "dossier-overrides-15.js (existing override, unchanged by this batch).",
+      "contaminationFound": "The base shelfcheck-dossiers.txt entry (superseded at runtime) was the same generic 'part of the list of Nintendo Switch games' stub. An accurate, game-specific override already existed in dossier-overrides-15.js correctly describing the twin-stick drift racer and already takes precedence at runtime.",
+      "correction": "No change made. Verified the live-rendered dossier is already accurate: correct genre (stylized arcade racer), correct core mechanic (twin-stick steer/drift control scheme), and a fair curator take framing it as a worthwhile experiment. Left untouched.",
+      "researchSources": ["General knowledge of Inertial Drift's confirmed twin-stick steering/drift control scheme, cross-checked against the existing override text for accuracy"],
+      "validationResult": "PASS (verification only, no content change) — live dossier already correct; census status unchanged (INCLUDED); confirmed live in browser."
+    },
+    {
+      "id": 496,
+      "title": "Flashback",
+      "manifestPattern": "WRONG_PRODUCT_LINE_ARTICLE",
+      "existingDossierLocation": "No override existed. The live dossier came straight from the base shelfcheck-dossiers.txt entry.",
+      "contaminationFound": "The base Quick Summary described the unrelated 'Atari Flashback' plug-and-play retro hardware console line (AtGames, built-in Atari 2600 games) — a completely different product line sharing only the name 'Flashback' with this identity, which is actually the 1992 Delphine Software cinematic platformer / its later HD remaster.",
+      "correction": "Added a new override describing the actual game: a remaster of the 1992 sci-fi cinematic platformer (amnesiac Conrad B. Hart, rotoscoped animation, environmental puzzle-platforming), noting its genre-founding influence on later games like Another World and LUNARK (both already correctly referenced in this repo's own dossiers), its old-school trial-and-error design, and the specific Maximum Games physical PS4 release (including the European Limited Edition).",
+      "researchSources": ["Wikipedia (Flashback (2013 video game); Flashback (1992 video game))", "Amazon/GameStop/Walmart physical PS4 listings (Maximum Games publisher)", "Worthplaying.com coverage of the '25th Anniversary' PS4/Xbox One release", "Cross-reference against this repo's own existing dossiers for Another World: 20th Anniversary Edition and LUNARK, which already correctly cite Flashback as a genre influence"],
+      "validationResult": "PASS — live dossier renders corrected content; census status unchanged (INCLUDED); confirmed live in browser."
+    },
+    {
+      "id": 494,
+      "title": "Firefighters: The Simulation",
+      "manifestPattern": "YEARLY_INDEX",
+      "existingDossierLocation": "No override existed. The live dossier came straight from the base shelfcheck-dossiers.txt entry.",
+      "contaminationFound": "The base Quick Summary was a generic 'comprehensive index of all games released in 2018' stub with zero game-specific content.",
+      "correction": "Added a new override describing the actual game: a budget firefighting simulation where you drive fire trucks and other vehicles to missions (structure fires, hazmat incidents) across a city/industrial/countryside map, ranking up through the department. Curator take explicitly preserves this identity's existing GENERIC_SIM exclusion from Josh Set curation pass #1 (census status itself was NOT changed by this repair — only the dossier text), and disambiguates it from the separate, unrelated 2022 game 'Firefighting Simulator: The Squad.'",
+      "researchSources": ["PlayStation Store product/concept pages", "Amazon/Target/Walmart physical PS4 listings (UIG Entertainment / astragon)", "The Video Game Company CIB listing confirming physical release", "curation-josh-set-pass-v001.js (existing GENERIC_SIM exclusion reasoning, referenced but not altered)"],
+      "validationResult": "PASS — live dossier renders corrected content; census status confirmed unchanged (still EXCLUDED per Pass #1, GENERIC_SIM); confirmed live in browser."
+    }
+  ],
+  "notOnManifestOrSubstituted": [],
+  "notesForReviewer": [
+    "Exactly 10 titles were investigated per the manifest verification requirement -- none were missing from the 84-title manifest, so none were substituted.",
+    "Of the 10, 6 required a genuinely new override (Stick it to the Man!, For the King, New Gundam Breaker, Sparklite, Flashback, Firefighters: The Simulation) because no override previously existed to supersede their contaminated base shelfcheck-dossiers.txt entry.",
+    "The remaining 4 (Naruto to Boruto: Shinobi Striker, Gundam Versus, Nexomon: Extinction, Inertial Drift) already had an accurate, game-specific override in an earlier batch (15 or 16) that already supersedes the contaminated base entry at runtime -- Josh has never actually seen the contaminated text for these 4. Each was independently re-verified for accuracy against the actual game and left untouched, per the instruction to repair only what's actually broken rather than rewrite good dossiers.",
+    "All 6 new entries live in a new file, dossier-overrides-46.js, following the exact same object-literal {t,s,w,c,r,b,p} schema as the most recent existing batch (45). No existing dossier-overrides-*.js file was edited.",
+    "dossier-apply.js, index.html, and sw.js each received exactly one minimal line-edit to register/precache the new batch file (consistent with how every prior batch was wired in); sw.js's cache generation was bumped shelfcheck-v135 -> shelfcheck-v136 since the precache list changed."
+  ],
+  "validation": {
+    "dossierOverrideSyntax": "PASS — node --check dossier-overrides-46.js",
+    "dossierFactoryValidation": "PASS — tools/dossier-factory.mjs ran cleanly, correctly parsed the new batch file's {t:\"...\"} entries via its existing regex-based override scanner, and did not error",
+    "allOverridesStillLoad": "PASS — live console confirms 'ShelfCheck: applied N researched dossier overrides' with no errors, and all 46 batch files (1 through 46) load without exception",
+    "exactlyThese10Changed": "PASS — git diff confirms only dossier-overrides-46.js (new file, the 6 new entries) plus one-line wiring edits to dossier-apply.js/index.html/sw.js; no other dossier-overrides-*.js file was modified",
+    "censusMembershipUnchanged": "PASS — tools/census-determinism-test.mjs, 20/20 runs, INCLUDED = 2509 (unchanged from pre-repair state)",
+    "ownershipUnchanged": "PASS — live browser header progress reads 230 / 2509, matching pre-repair state exactly",
+    "pwaPrecacheConsistency": "PASS — tools/pwa-precache-consistency-test.mjs, both checks pass (run because sw.js's precache list changed)",
+    "zeroConsoleErrors": "PASS — confirmed on a fresh live load"
+  }
+}
