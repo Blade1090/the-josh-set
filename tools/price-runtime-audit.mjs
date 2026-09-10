@@ -23,6 +23,9 @@ import { fileURLToPath } from 'node:url';
 
 const REPO = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 
+// Kept in sync with tools/census-determinism-test.mjs's MUTATORS list -- if a new
+// census-mutating script is added there, add it here too, or this audit's INCLUDED
+// denominator (and therefore its priced/pending split) silently goes stale.
 const CENSUS_MUTATORS = [
   'census-cleanup.js', 'census-v034.js', 'census-collapse-v035.js', 'census-v035-final.js',
   'census-v040-pricing-audit.js',
@@ -30,9 +33,10 @@ const CENSUS_MUTATORS = [
   'census-v054-pricecharting-collection-gap.js', 'census-v055-pricecharting-ab-sweep.js',
   'census-v056-pricecharting-cf-sweep.js', 'census-v057-pricecharting-gl-sweep.js',
   'census-v058-pricecharting-mr-sweep.js', 'census-v059-pricecharting-sz-sweep.js',
-  'census-physical-omission-pass-v001.js',
+  'census-physical-omission-pass-v001.js', 'census-physical-omission-pass-v002.js',
   'census-v060-integrity-scrub.js', 'census-integrity-pass-v001.js', 'census-integrity-pass-v002.js',
   'ownership-reconcile-v071.js',
+  'curation-josh-set-pass-v001.js', 'curation-josh-set-pass-v002.js', 'curation-josh-set-pass-v003.js',
 ];
 const PRICE_FILES = [
   'price-import-v037.js', 'price-alias-v039.js', 'price-alias-v040.js', 'price-final-v041.js',
@@ -97,9 +101,11 @@ async function main() {
   const fakeEl = { textContent: '', dataset: {}, querySelectorAll: () => [], querySelector: () => null, addEventListener: () => {}, appendChild: () => {}, style: {} };
   const fakeDocument = { querySelector: () => fakeEl, querySelectorAll: () => [], createElement: () => ({ ...fakeEl }), addEventListener: () => {}, readyState: 'complete', head: { appendChild: () => {} }, body: { appendChild: () => {} } };
   let stateCache = { owned: [], products: [], prices: [] };
+  let dataReadyResolveFn;
 
   const ctx = {
     DATA, items, byId, norm, aliasesById, productMap, reverseProducts,
+    priceMap: new Map(),
     window: {}, console,
     document: fakeDocument,
     localStorage: { getItem: () => null, setItem: () => {}, removeItem: () => {} },
@@ -109,7 +115,12 @@ async function main() {
     setTimeout, clearTimeout, setInterval, clearInterval,
     progress: () => {}, resetBrowse: () => {},
     get stateCache() { return stateCache; }, set stateCache(v) { stateCache = v; },
-    saveState: (s) => { stateCache = s; }, loadState: () => stateCache,
+    // Mirrors app.js's real saveState()/rebuildPriceMap(): priceMap stays live from
+    // stateCache.prices on every save, exactly like the real app -- price-fix.js no longer
+    // freezes it from a separate localStorage snapshot, so this harness must model the same
+    // live-sync behavior or it will under/over-count coverage relative to a real browser.
+    saveState: (s) => { stateCache = s; ctx.priceMap = new Map(); for (const p of stateCache?.prices || []) if (p?.t) ctx.priceMap.set(norm(p.t), p); },
+    loadState: () => stateCache,
     ownedSet: new Set(), productSet: new Set(), filter: 'ALL',
     visibleLimit: 70,
     $: () => fakeEl,
@@ -122,6 +133,12 @@ async function main() {
     if (ctx.censusFinalized) throw new Error(`registerCensusMutation('${phase}') called after finalization`);
     ctx.censusQueue[phase].push(fn);
   };
+  // price-online-v041.js and the price-new-games-v07x.js/price-whole-census-v077.js patches
+  // now gate their byId-dependent work on `await dataReady` (the same primitive
+  // census-finalize.js uses) instead of racing byId synchronously -- see census-finalize.js
+  // and price-online-v041.js for why. Census is already fully finalized synchronously below
+  // by the time PRICE_FILES runs, so data is "ready" the moment we resolve this.
+  ctx.dataReady = new Promise((r) => { dataReadyResolveFn = r; });
   vm.createContext(ctx);
 
   // Run every census-mutating script (real runtime order), then finalize exactly like
@@ -131,6 +148,7 @@ async function main() {
   for (const fn of ctx.censusQueue.exclude) fn();
   ctx.DATA.n = ctx.items.filter((x) => x.set === 'INCLUDED').length;
   ctx.censusFinalized = true;
+  dataReadyResolveFn();
 
   const includedCount = ctx.items.filter((x) => x.set === 'INCLUDED').length;
 
@@ -139,7 +157,7 @@ async function main() {
   // price-online-v041.js decompresses a real (local, deterministic-outcome) compressed
   // snapshot asynchronously -- let that settle before measuring.
   await new Promise((r) => setTimeout(r, 1500));
-  if (typeof ctx.loadLocalPrices === 'function') ctx.loadLocalPrices();
+  if (typeof ctx.loadUserPriceProfile === 'function') ctx.loadUserPriceProfile();
 
   const included = ctx.items.filter((x) => x.set === 'INCLUDED');
   const isUsable = (v) => v != null && Number.isFinite(Number(v)) && Number(v) > 0;
