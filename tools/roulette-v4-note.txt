@@ -1,1 +1,0 @@
-After deployment, shelf-roulette-v001.js?v=3 may require the normal PWA refresh cycle because index.html still references v=3.
