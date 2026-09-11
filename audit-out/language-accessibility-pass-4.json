@@ -1,0 +1,121 @@
+{
+  "task": "ShelfCheck Josh Set language accessibility pass #4",
+  "mode": "Verify 5 named CUT candidates from Claude's prior-turn dossier-text scan before excluding, research remaining ambiguous cases, fix a dossier-mapping bug, apply exclusions only where evidence is strong.",
+  "method": "Independent external verification (WebSearch) of each named/ambiguous identity, cross-checked against audit-out/language-accessibility-pass-3.json (prior verified pass) where that pass had already investigated the same identity.",
+  "baselineIncludedCount": 2478,
+  "namedCutCandidates_fromPriorTurn": [
+    {
+      "id": 11,
+      "title": "428: Shibuya Scramble",
+      "priorTurnCall": "CUT_CANDIDATE",
+      "verifiedDecision": "KEEP",
+      "reasoning": "REVERSED. Spike Chunsoft released a full English-localized PS4 physical retail release in North America Sept 4, 2018 (published by Sega of America; confirmed via Amazon and GameStop US listings, and Siliconera's localization coverage). The dossier's 'import and region differences matter' phrasing does not describe a language gap.",
+      "sources": ["https://www.amazon.com/428-Shibuya-Scramble-PlayStation-4/dp/B07BKL2TF4", "https://www.gamestop.com/video-games/playstation-4/games/products/428-shibuya-scramble/10160926.html", "https://www.siliconera.com/spike-chunsoft-talks-localization-with-428-shibuya-scramble-and-its-complex-story/"]
+    },
+    {
+      "id": 2383,
+      "title": "Hakoniwa Company Works",
+      "priorTurnCall": "CUT_CANDIDATE",
+      "verifiedDecision": "CUT",
+      "reasoning": "CONFIRMED. Nippon Ichi Software tactical RPG, Japan-only PS4 release (July 13, 2017), no official English localization ever released. Tactical-RPG genre where comprehension is materially required.",
+      "sources": ["https://en.wikipedia.org/wiki/Hakoniwa_Company_Works", "https://gamefaqs.gamespot.com/ps4/207899-hakoniwa-company-works/data"]
+    },
+    {
+      "id": 2407,
+      "title": "Tantei Bokumetsu",
+      "priorTurnCall": "CUT_CANDIDATE",
+      "verifiedDecision": "KEEP",
+      "reasoning": "REVERSED. Already resolved KEEP in audit-out/language-accessibility-pass-3.json's identityRuleNote_TanteiBokumetsu, which this pass's dossier scan missed. Localized in English by NIS America as 'Process of Elimination,' with a physical PS4 Deluxe Edition (game + digital soundtrack + mini art book) and Limited Edition sold via GameStop, NISA store, and Rarewaves -- a confirmed physical English PS4 release of the same identity under a different title. No separate 'Process of Elimination' census identity exists.",
+      "sources": ["https://www.gematsu.com/games/process-of-elimination", "https://store.nisaeurope.com/products/process-of-elimination-deluxe-edition-ps4", "https://www.gamestop.com/video-games/products/process-of-elimination---deluxe-edition/20001501.html"]
+    },
+    {
+      "id": 2478,
+      "title": "Aikano: Yukizora No Triangle",
+      "priorTurnCall": "CUT_CANDIDATE",
+      "verifiedDecision": "CUT",
+      "reasoning": "CONFIRMED. Entergram romance visual novel, Japan-only physical PS4 release (Oct 29, 2020), no English localization announced or released. Entirely text-driven visual-novel gameplay.",
+      "sources": ["https://www.gematsu.com/2020/07/romance-visual-novel-aikano-yukizora-no-triangle-coming-to-ps4-switch-on-october-29-in-japan", "https://gamefaqs.gamespot.com/ps4/294929-aikano-yukizora-no-triangle/data"]
+    },
+    {
+      "id": 2541,
+      "title": "Buried Stars",
+      "priorTurnCall": "CUT_CANDIDATE",
+      "verifiedDecision": "KEEP",
+      "reasoning": "REVERSED. Already resolved KEEP in audit-out/language-accessibility-pass-3.json. The Korea-exclusive physical PS4 disc supports selectable English subtitles alongside Korean/Japanese voice and Korean/English/Japanese/Traditional Chinese/Simplified Chinese text, despite the Korean-language box.",
+      "sources": ["https://www.gematsu.com/2020/06/survival-adventure-game-buried-stars-launches-in-july-for-ps4-switch-in-korea-with-english-subtitles", "https://www.amazon.com/Buried-Stars-English-Supports-PlayStation-4/dp/B08SW6SLVW"]
+    }
+  ],
+  "moveToResearchPile": [
+    {
+      "id": 2403,
+      "title": "Sengoku Basara: Sanada Yukimura-Den",
+      "instruction": "Josh: do not exclude yet, needs stronger evidence that untranslated text materially prevents play (not just story), given it's fundamentally an action game.",
+      "priorResolution": "Already resolved KEEP once in audit-out/language-accessibility-pass-3.json's MANUAL_REVIEW (approved by Josh at the time), on the reasoning that it's still a hack-and-slash musou game despite its story being Japanese-only.",
+      "freshEvidenceThisPass": "GameFAQs player report ('as I don't know Japanese I wont be able to follow the story') confirms the story is inaccessible, consistent with what pass 3 already knew. No evidence found that menu navigation or core hack-and-slash play is blocked -- only that story comprehension is.",
+      "decision": "NO CHANGE. Not excluded. This is not new/stronger evidence than pass 3 already had, so there is no basis yet to overturn the existing KEEP. Remains INCLUDED pending either stronger play-blocking evidence or a direct judgment call from Josh on whether narrative-only inaccessibility should be disqualifying by itself."
+    }
+  ],
+  "ambiguousCasesFromPriorTurnReport": [
+    {
+      "id": 331,
+      "title": "Dead or Alive Xtreme 3: Fortune",
+      "decision": "KEEP",
+      "reasoning": "Already resolved KEEP_ENGLISH in Pass 2 (see language-accessibility-pass-3.json's alreadyDecidedInPriorPasses). No new evidence needed."
+    },
+    {
+      "id": 2385,
+      "title": "Headliner: NoviNews",
+      "decision": "KEEP",
+      "reasoning": "Already resolved KEEP in pass 3 via a firsthand physical multi-language unboxing check: the Japan-market disc 'starts in Japanese, but can be set to English in options menu.'"
+    },
+    {
+      "id": 2754,
+      "title": "Venus Vacation Prism: Dead Or Alive Xtreme",
+      "decision": "KEEP",
+      "reasoning": "Confirmed this pass: Koei Tecmo's Asian-region PS4/PS5 physical release has a selectable English text option (announced explicitly by the publisher), alongside Japanese/Korean/Chinese.",
+      "sources": ["https://noisypixel.net/venus-vacation-prism-dead-or-alive-english-option/", "https://www.amazon.com/Venus-Vacation-PRISM-English-PlayStation-4/dp/B0F37KR7BW"]
+    },
+    {
+      "id": 1388,
+      "title": "Utawarerumono Zan",
+      "decision": "KEEP",
+      "reasoning": "Confirmed this pass: legitimate NISA-published English PS4 physical release (Sept 10, 2019), reusing English dialogue from Mask of Deception. Independently, it is a Musou-style action game (genre carve-out applies regardless). Its dossier-mapping bug (resolving to the wrong series entry's dossier) is fixed separately in dossier-overrides-50.js.",
+      "sources": ["https://www.gematsu.com/games/utawarerumono-zan", "https://saveorquit.com/2019/09/29/review-utawarerumono-zan-ps4/"]
+    },
+    {
+      "id": 2696,
+      "title": "Quintessential Quintuplets Fives Memories With You",
+      "decision": "UNRESOLVED",
+      "reasoning": "Spike Chunsoft released an English localization of these visual novels on PS4 in the West, but it is unclear whether that is the same physical disc/SKU this census identity counts (the original dossier described the countable physical path as the earlier Japan-region disc specifically). Insufficient evidence to confirm the counted physical release itself carries English text. Left INCLUDED without a decision, per 'wrong cut is worse than no cut.'",
+      "sources": ["https://www.pushsquare.com/news/2024/05/in-case-you-missed-it-there-are-two-quintessential-quintuplets-games-on-ps4-now"]
+    },
+    {
+      "id": 2471,
+      "title": "Get Star / Guardian",
+      "decision": "UNRESOLVED",
+      "reasoning": "No information located via web search under this title. Genuinely unresolved; needs a more specialized lookup (e.g. direct JP PlayStation Store listing) than this pass performed. Left INCLUDED without a decision."
+    },
+    {
+      "id": 2666,
+      "title": "Octopath Traveler 0",
+      "decision": "OUT OF SCOPE FOR THIS PASS -- flagged separately",
+      "reasoning": "Not a language issue. Research surfaced that Octopath Traveler 0 (announced for Dec 4, 2025) is reported as PS4-digital-only, with physical editions limited to PS5/Xbox Series/Switch 2/Switch. If accurate, this may be a physical-release ELIGIBILITY problem (CLAUDE.md: physical PS4 release required, digital-only does not qualify), not a language problem. Not touched by this pass -- census membership rules are out of scope here; flagging for a separate curator review.",
+      "sources": ["https://www.rpgsite.net/news/18040-octopath-traveler-0-collectors-edition-deluxe-switch-2-upgrade-path-not-available"]
+    }
+  ],
+  "dossierBugFixed": {
+    "id": 1388,
+    "title": "Utawarerumono Zan",
+    "bug": "dossierFor() was resolving id 1388's dossier via alias fallback to the unrelated 'Utawarerumono: Prelude to the Fallen' (id 1391) dossier text, describing the wrong game.",
+    "fix": "Added a direct dossier override entry keyed to the exact census title 'Utawarerumono Zan' in dossier-overrides-50.js, describing the actual Musou-style action spin-off. A direct DOSSIERS.get(norm(x.title)) match always wins over the alias fallback in dossierFor(), so this fully corrects the mismatch."
+  },
+  "counts": {
+    "excludedThisPass": 2,
+    "reversedFromPriorTurn": 3,
+    "movedToResearchPile_noChange": 1,
+    "resolvedKeepThisPass": 3,
+    "stillUnresolved": 2,
+    "outOfScopeFlagged": 1
+  },
+  "status": "APPLIED. 2 LANGUAGE_BARRIER exclusions applied via curation-josh-set-pass-v004.js (Hakoniwa Company Works id 2383, Aikano: Yukizora No Triangle id 2478). The other 3 of Josh's originally named 5 were NOT excluded after verification contradicted the prior-turn recommendation (see namedCutCandidates_fromPriorTurn above) -- Josh should double check this deviation from his original instruction before treating it as final. Expected new INCLUDED count: 2476 (2478 - 2), not 2473 as originally estimated (that estimate assumed all 5 would be cut)."
+}
