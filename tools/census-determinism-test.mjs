@@ -52,7 +52,8 @@ const MUTATORS = [
   ['curation-josh-set-pass-v001.js', 72],
   ['curation-josh-set-pass-v002.js', 73],
   ['curation-josh-set-pass-v003.js', 74],
-  ['census-finalize.js', 75],
+  ['curation-josh-set-pass-v004.js', 75],
+  ['census-finalize.js', 76],
 ];
 
 // Known conflict identities: added by a v052-059 sweep script under an id that also matches
