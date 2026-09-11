@@ -1,104 +1,26 @@
-// ShelfCheck "My Shelf" v1 -- a celebratory collection-profile screen: "what have I built?"
-// Complementary to Shelf Roulette ("what should I play?"). Every number is computed live from
-// the app's existing effective state each time this opens -- nothing here is hardcoded, and
-// nothing here is a second ownership/census system.
+// ShelfCheck "My Shelf" v2 -- collection profile + play-progress dashboard.
 (()=>{
   const style=document.createElement('style');
-  style.textContent=`.shelf-actions{display:flex;flex-direction:column;gap:8px;margin:10px 0}.shelf-actions .roulette-entry-btn{margin:0}.my-shelf-entry-btn{display:block;width:100%;margin:0;padding:14px;border:0;border-radius:14px;background:linear-gradient(135deg,#4ee1c4,#4e8cff);color:#04241d;font-weight:950;font-size:1rem;letter-spacing:.02em;box-shadow:0 8px 24px #4e8cff33;cursor:pointer}@media(min-width:480px){.shelf-actions{flex-direction:row}}`
-    +`.my-shelf{padding-top:2px}.my-shelf-hero{text-align:center;padding:4px 0 6px}.my-shelf-hero>small{display:block;color:var(--blue);font-size:.62rem;font-weight:900;letter-spacing:.16em}.my-shelf-hero h2{margin:3px 0 16px;font-size:1.4rem}`
-    +`.my-shelf-ring-row{display:flex;align-items:center;justify-content:center;gap:22px;flex-wrap:wrap}`
-    +`.my-shelf-ring{position:relative;width:132px;height:132px;border-radius:50%;background:conic-gradient(var(--blue) var(--pct),#232b3a 0);display:flex;align-items:center;justify-content:center;flex:0 0 auto}`
-    +`.my-shelf-ring::after{content:'';position:absolute;inset:11px;border-radius:50%;background:#111620}`
-    +`.my-shelf-ring b{position:relative;z-index:1;font-size:1.55rem}.my-shelf-ring small{position:relative;z-index:1;display:block;margin-top:-2px;font-size:.6rem;font-weight:900;letter-spacing:.1em;color:#8dbaff}`
-    +`.my-shelf-bignums{display:flex;gap:22px}.my-shelf-bignums div{text-align:center}.my-shelf-bignums b{display:block;font-size:1.9rem;font-variant-numeric:tabular-nums}.my-shelf-bignums small{display:block;color:#8e9aad;font-size:.62rem;font-weight:900;letter-spacing:.12em;margin-top:2px}`
-    +`.my-shelf-section-head{margin:22px 0 10px;color:var(--blue);font-size:.62rem;font-weight:900;letter-spacing:.16em}`
-    +`.my-shelf-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px}.my-shelf-stat{background:#171d27;border:1px solid #283242;border-radius:12px;padding:12px 13px}.my-shelf-stat small{display:block;color:#8dbaff;font-size:.62rem;font-weight:900;letter-spacing:.08em}.my-shelf-stat b{display:block;margin-top:4px;font-size:1.25rem}.my-shelf-stat span{display:block;margin-top:3px;font-size:.75rem;color:#9ba7b8;line-height:1.3}`
-    +`.my-shelf-note{font-size:.75rem;margin-top:10px}`
-    +`.my-shelf-superlatives{display:flex;flex-direction:column;gap:12px}@media(min-width:700px){.my-shelf-superlatives{flex-direction:row}}`
-    +`.superlative-card{display:flex;gap:13px;align-items:center;background:linear-gradient(145deg,#1b2230,#141a24);border:1px solid #344154;border-radius:16px;padding:12px;box-shadow:0 8px 20px #0005;cursor:pointer;flex:1;min-width:0}`
-    +`.superlative-cover{flex:0 0 auto;width:70px;height:94px;border-radius:8px;overflow:hidden;background:linear-gradient(160deg,#283343,#151b25);border:1px solid #344154;display:flex;align-items:center;justify-content:center}.superlative-cover img{width:100%;height:100%;object-fit:contain}.superlative-cover .cover-fallback{font-size:.55rem;font-weight:950;letter-spacing:.06em;color:#7790b1;text-align:center;padding:4px;line-height:1.25}`
-    +`.superlative-info{min-width:0}.superlative-info small{display:block;color:#8dbaff;font-size:.63rem;font-weight:900;letter-spacing:.08em}.superlative-info b{display:block;margin-top:3px;font-size:.95rem;line-height:1.25}.superlative-time,.superlative-sub{display:block;margin-top:3px;font-size:.78rem;color:#9ba7b8}`
-    +`.my-shelf-strip{display:flex;gap:8px;overflow-x:auto;padding:2px 2px 10px}.my-shelf-strip-item{flex:0 0 auto;width:76px;height:102px;border-radius:9px;overflow:hidden;background:linear-gradient(160deg,#283343,#151b25);border:1px solid #344154;box-shadow:0 4px 12px #0005;display:flex;align-items:center;justify-content:center;cursor:pointer}.my-shelf-strip-item img{width:100%;height:100%;object-fit:cover}.my-shelf-strip-item .cover-fallback{font-size:.5rem;font-weight:950;letter-spacing:.05em;color:#7790b1;text-align:center;padding:4px;line-height:1.25}`
-    +`.my-shelf-reshuffle{width:100%;margin:14px 0 4px;padding:13px;border:0;border-radius:12px;background:#273044;color:white;font-weight:850;cursor:pointer}`;
+  style.textContent=`.shelf-actions{display:flex;flex-direction:column;gap:8px;margin:10px 0}.shelf-actions .roulette-entry-btn{margin:0}.my-shelf-entry-btn{display:block;width:100%;margin:0;padding:14px;border:0;border-radius:14px;background:linear-gradient(135deg,#4ee1c4,#4e8cff);color:#04241d;font-weight:950;font-size:1rem;letter-spacing:.02em;box-shadow:0 8px 24px #4e8cff33;cursor:pointer}@media(min-width:480px){.shelf-actions{flex-direction:row}}.my-shelf{padding-top:2px}.my-shelf-hero{text-align:center;padding:4px 0 6px}.my-shelf-hero>small{display:block;color:var(--blue);font-size:.62rem;font-weight:900;letter-spacing:.16em}.my-shelf-hero h2{margin:3px 0 16px;font-size:1.4rem}.my-shelf-ring-row{display:flex;align-items:center;justify-content:center;gap:22px;flex-wrap:wrap}.my-shelf-ring{position:relative;width:132px;height:132px;border-radius:50%;background:conic-gradient(var(--blue) var(--pct),#232b3a 0);display:flex;align-items:center;justify-content:center;flex:0 0 auto}.my-shelf-ring::after{content:'';position:absolute;inset:11px;border-radius:50%;background:#111620}.my-shelf-ring b{position:relative;z-index:1;font-size:1.55rem}.my-shelf-ring small{position:relative;z-index:1;display:block;margin-top:-2px;font-size:.6rem;font-weight:900;letter-spacing:.1em;color:#8dbaff}.my-shelf-bignums{display:flex;gap:22px}.my-shelf-bignums div{text-align:center}.my-shelf-bignums b{display:block;font-size:1.9rem;font-variant-numeric:tabular-nums}.my-shelf-bignums small{display:block;color:#8e9aad;font-size:.62rem;font-weight:900;letter-spacing:.12em;margin-top:2px}.my-shelf-section-head{margin:22px 0 10px;color:var(--blue);font-size:.62rem;font-weight:900;letter-spacing:.16em}.my-shelf-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px}.my-shelf-stat{background:#171d27;border:1px solid #283242;border-radius:12px;padding:12px 13px}.my-shelf-stat small{display:block;color:#8dbaff;font-size:.62rem;font-weight:900;letter-spacing:.08em}.my-shelf-stat b{display:block;margin-top:4px;font-size:1.25rem}.my-shelf-stat span{display:block;margin-top:3px;font-size:.75rem;color:#9ba7b8;line-height:1.3}.my-shelf-note{font-size:.75rem;margin-top:10px}.my-shelf-superlatives{display:flex;flex-direction:column;gap:12px}@media(min-width:700px){.my-shelf-superlatives{flex-direction:row}}.superlative-card{display:flex;gap:13px;align-items:center;background:linear-gradient(145deg,#1b2230,#141a24);border:1px solid #344154;border-radius:16px;padding:12px;box-shadow:0 8px 20px #0005;cursor:pointer;flex:1;min-width:0}.superlative-cover{flex:0 0 auto;width:70px;height:94px;border-radius:8px;overflow:hidden;background:linear-gradient(160deg,#283343,#151b25);border:1px solid #344154;display:flex;align-items:center;justify-content:center}.superlative-cover img{width:100%;height:100%;object-fit:contain}.superlative-cover .cover-fallback{font-size:.55rem;font-weight:950;letter-spacing:.06em;color:#7790b1;text-align:center;padding:4px;line-height:1.25}.superlative-info{min-width:0}.superlative-info small{display:block;color:#8dbaff;font-size:.63rem;font-weight:900;letter-spacing:.08em}.superlative-info b{display:block;margin-top:3px;font-size:.95rem;line-height:1.25}.superlative-time,.superlative-sub{display:block;margin-top:3px;font-size:.78rem;color:#9ba7b8}.my-shelf-strip{display:flex;gap:8px;overflow-x:auto;padding:2px 2px 10px}.my-shelf-strip-item{flex:0 0 auto;width:76px;height:102px;border-radius:9px;overflow:hidden;background:linear-gradient(160deg,#283343,#151b25);border:1px solid #344154;box-shadow:0 4px 12px #0005;display:flex;align-items:center;justify-content:center;cursor:pointer}.my-shelf-strip-item img{width:100%;height:100%;object-fit:cover}.my-shelf-strip-item .cover-fallback{font-size:.5rem;font-weight:950;letter-spacing:.05em;color:#7790b1;text-align:center;padding:4px;line-height:1.25}.my-shelf-reshuffle,.quick-mark-open{width:100%;margin:14px 0 4px;padding:13px;border:0;border-radius:12px;background:#273044;color:white;font-weight:850;cursor:pointer}.quick-mark-open{background:linear-gradient(135deg,#4ee1c4,#4e8cff);color:#04241d}.quick-mark-head{display:flex;align-items:center;justify-content:space-between;gap:10px}.quick-mark-list{display:flex;flex-direction:column;gap:8px;margin-top:12px}.quick-mark-row{display:grid;grid-template-columns:1fr auto;gap:8px;align-items:center;background:#171d27;border:1px solid #283242;border-radius:11px;padding:10px}.quick-mark-title{font-size:.86rem;font-weight:850;line-height:1.25}.quick-mark-actions{display:flex;gap:5px}.quick-mark-actions button{padding:7px 8px;border:1px solid #46556d;border-radius:8px;background:#111824;color:#d7e3f5;font-weight:850;font-size:.68rem;cursor:pointer}.quick-mark-actions button.active{border-color:#4ee1c4;background:#203b3b}.quick-mark-back{border:0;background:none;color:#8dbaff;font-weight:900;cursor:pointer}`;
   document.head.appendChild(style);
-
   function ownedPool(){return items.filter(x=>x.set==='INCLUDED'&&effectiveStatus(x)==='OWNED')}
-  function mainHoursOf(x){const h=typeof hltbFor==='function'?hltbFor(x):null;const n=Number(h?.a);return Number.isFinite(n)&&n>0?n:null}
+  function idSet(key){return new Set(Array.isArray(stateCache?.[key])?stateCache[key]:[])}
+  function statusOf(x){if(idSet('beaten').has(x.id))return'BEATEN';if(idSet('played').has(x.id))return'PLAYED';return'UNPLAYED'}
+  function setStatus(id,status){if(window.SHELFCHECK_ROULETTE?.setStatus)return window.SHELFCHECK_ROULETTE.setStatus(id,status);const played=idSet('played'),beaten=idSet('beaten');played.delete(id);beaten.delete(id);if(status==='PLAYED')played.add(id);if(status==='BEATEN')beaten.add(id);saveState({...stateCache,played:[...played],beaten:[...beaten]})}
+  function mainHoursOf(x){const h=typeof hltbFor==='function'?hltbFor(x):null,n=Number(h?.a);return Number.isFinite(n)&&n>0?n:null}
   function timeLabel(x){const n=mainHoursOf(x);return n!=null?`~${fmtHours(n)} main`:'TIME UNKNOWN'}
-  function shuffle(arr){for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]]}return arr}
-
-  function coverInnerHtml(x){
-    const cover=window.SHELFCHECK_COVER_ART?.coverFor?.(x);
-    return cover
-      ?`<img src="${esc(cover)}" alt="" loading="lazy" decoding="async" onerror="__myShelfCoverError(this)">`
-      :'<div class="cover-fallback">PS4<br>COVER</div>';
-  }
+  function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+  function coverInnerHtml(x){const c=window.SHELFCHECK_COVER_ART?.coverFor?.(x);return c?`<img src="${esc(c)}" alt="" loading="lazy" decoding="async" onerror="__myShelfCoverError(this)">`:'<div class="cover-fallback">PS4<br>COVER</div>'}
   window.__myShelfCoverError=function(img){const p=img.parentElement;if(p)p.innerHTML='<div class="cover-fallback">PS4<br>COVER</div>'};
-
-  function superlativeCard(emoji,label,x,sub){
-    return `<article class="superlative-card" onclick="detail(${x.id})">`
-      +`<div class="superlative-cover">${coverInnerHtml(x)}</div>`
-      +`<div class="superlative-info"><small>${emoji} ${esc(label)}</small><b>${esc(x.title)}</b>`
-      +`<span class="superlative-time">${esc(timeLabel(x))}</span>`
-      +(sub?`<span class="superlative-sub">${esc(sub)}</span>`:'')
-      +'</div></article>';
-  }
+  function superlativeCard(e,l,x,sub){return `<article class="superlative-card" onclick="detail(${x.id})"><div class="superlative-cover">${coverInnerHtml(x)}</div><div class="superlative-info"><small>${e} ${esc(l)}</small><b>${esc(x.title)}</b><span class="superlative-time">${esc(timeLabel(x))}</span>${sub?`<span class="superlative-sub">${esc(sub)}</span>`:''}</div></article>`}
   function stripItemHtml(x){return `<div class="my-shelf-strip-item" onclick="detail(${x.id})" title="${esc(x.title)}">${coverInnerHtml(x)}</div>`}
-
-  function buildStats(){
-    const included=items.filter(x=>x.set==='INCLUDED');
-    const owned=included.filter(x=>effectiveStatus(x)==='OWNED');
-    const withTime=owned.map(x=>({x,h:mainHoursOf(x)})).filter(o=>o.h!=null);
-    let quick=null,monster=null;
-    for(const o of withTime){if(!quick||o.h<quick.h)quick=o;if(!monster||o.h>monster.h)monster=o}
-    const oneNight=withTime.filter(o=>o.h<=8).length;
-    const backlogHours=withTime.reduce((n,o)=>n+o.h,0);
-    const wildcard=owned.length?owned[Math.floor(Math.random()*owned.length)]:null;
-    const strip=shuffle(owned.slice()).slice(0,Math.min(12,owned.length));
-    return{included,owned,withTime,quick,monster,oneNight,backlogHours,wildcard,strip};
-  }
-
-  function render(){
-    const s=buildStats();
-    const host=$('#detail');
-    if(!s.owned.length){
-      host.innerHTML='<section class="my-shelf"><div class="my-shelf-hero"><small>MY SHELF</small><h2>📊 Your PS4 Collection</h2></div><p class="muted">No owned games yet -- import your GameEye CSV to see your shelf come alive.</p></section>';
-      dlg.showModal();
-      return;
-    }
-    const pct=s.included.length?Math.round(s.owned.length/s.included.length*100):0;
-    const statBlock=(label,value,sub)=>`<div class="my-shelf-stat"><small>${esc(label)}</small><b>${value}</b>${sub?`<span>${esc(sub)}</span>`:''}</div>`;
-    host.innerHTML=`<section class="my-shelf">`
-      +`<div class="my-shelf-hero"><small>MY SHELF</small><h2>📊 Your PS4 Collection</h2>`
-      +`<div class="my-shelf-ring-row">`
-      +`<div class="my-shelf-ring" style="--pct:${pct}%"><b>${pct}%</b><small>COMPLETE</small></div>`
-      +`<div class="my-shelf-bignums"><div><b>${s.owned.length}</b><small>OWNED</small></div><div><b>${s.included.length}</b><small>JOSH SET</small></div></div>`
-      +`</div></div>`
-      +`<div class="my-shelf-section-head">YOUR SHELF</div>`
-      +`<div class="my-shelf-stats">`
-      +statBlock('QUICK HIT',s.quick?fmtHours(s.quick.h):'—',s.quick?s.quick.x.title:'No known times yet')
-      +statBlock('THE MONSTER',s.monster?fmtHours(s.monster.h):'—',s.monster?s.monster.x.title:'No known times yet')
-      +statBlock('ONE-NIGHT GAMES',String(s.oneNight),'Known ≤8h main story')
-      +statBlock('BACKLOG HOURS',`${Math.round(s.backlogHours)}h`,'Known main-story estimates')
-      +`</div>`
-      +`<p class="muted my-shelf-note">Known HLTB only · Based on ${s.withTime.length} of ${s.owned.length} owned games with known times</p>`
-      +`<div class="my-shelf-section-head">COLLECTION SUPERLATIVES</div>`
-      +`<div class="my-shelf-superlatives">`
-      +(s.quick?superlativeCard('⚡','QUICK HIT',s.quick.x):'')
-      +(s.monster?superlativeCard('🐉','THE MONSTER',s.monster.x):'')
-      +(s.wildcard?superlativeCard('🎲',"TONIGHT'S WILDCARD",s.wildcard):'')
-      +`</div>`
-      +`<div class="my-shelf-section-head">THE SHELF</div>`
-      +`<div class="my-shelf-strip">${s.strip.map(stripItemHtml).join('')}</div>`
-      +`<button class="my-shelf-reshuffle" onclick="myShelfOpen()">🔀 RESHUFFLE</button>`
-      +`</section>`;
-    dlg.showModal();
-  }
-
+  function buildStats(){const included=items.filter(x=>x.set==='INCLUDED'),owned=ownedPool(),played=owned.filter(x=>statusOf(x)==='PLAYED'),beaten=owned.filter(x=>statusOf(x)==='BEATEN'),unplayed=owned.filter(x=>statusOf(x)==='UNPLAYED'),unfinished=owned.filter(x=>statusOf(x)!=='BEATEN'),withTime=unfinished.map(x=>({x,h:mainHoursOf(x)})).filter(o=>o.h!=null),allWithTime=owned.map(x=>({x,h:mainHoursOf(x)})).filter(o=>o.h!=null);let quick=null,monster=null;for(const o of allWithTime){if(!quick||o.h<quick.h)quick=o;if(!monster||o.h>monster.h)monster=o}const oneNight=withTime.filter(o=>o.h<=8).length,backlogHours=withTime.reduce((n,o)=>n+o.h,0),wildcard=unfinished.length?unfinished[Math.floor(Math.random()*unfinished.length)]:null,strip=shuffle(owned.slice()).slice(0,Math.min(12,owned.length));return{included,owned,played,beaten,unplayed,unfinished,withTime,allWithTime,quick,monster,oneNight,backlogHours,wildcard,strip}}
+  function render(){const s=buildStats(),host=$('#detail');if(!s.owned.length){host.innerHTML='<section class="my-shelf"><div class="my-shelf-hero"><small>MY SHELF</small><h2>📊 Your PS4 Collection</h2></div><p class="muted">No owned games yet -- import your GameEye CSV to see your shelf come alive.</p></section>';dlg.showModal();return}const pct=s.included.length?Math.round(s.owned.length/s.included.length*100):0,stat=(l,v,sub)=>`<div class="my-shelf-stat"><small>${esc(l)}</small><b>${v}</b>${sub?`<span>${esc(sub)}</span>`:''}</div>`;host.innerHTML=`<section class="my-shelf"><div class="my-shelf-hero"><small>MY SHELF</small><h2>📊 Your PS4 Collection</h2><div class="my-shelf-ring-row"><div class="my-shelf-ring" style="--pct:${pct}%"><b>${pct}%</b><small>COMPLETE</small></div><div class="my-shelf-bignums"><div><b>${s.owned.length}</b><small>OWNED</small></div><div><b>${s.included.length}</b><small>JOSH SET</small></div></div></div></div><div class="my-shelf-section-head">PLAY PROGRESS</div><div class="my-shelf-stats">${stat('UNPLAYED',s.unplayed.length,'Roulette default pool')}${stat('PLAYED',s.played.length,'Started / sampled')}${stat('BEATEN',s.beaten.length,'Finished games')}${stat('UNFINISHED',s.unfinished.length,'Unplayed + played')}</div><button class="quick-mark-open" onclick="myShelfQuickMark()">⚡ QUICK MARK MY SHELF</button><div class="my-shelf-section-head">YOUR SHELF</div><div class="my-shelf-stats">${stat('QUICK HIT',s.quick?fmtHours(s.quick.h):'—',s.quick?s.quick.x.title:'No known times yet')}${stat('THE MONSTER',s.monster?fmtHours(s.monster.h):'—',s.monster?s.monster.x.title:'No known times yet')}${stat('ONE-NIGHT BACKLOG',String(s.oneNight),'Unfinished · known ≤8h')}${stat('BACKLOG HOURS',`${Math.round(s.backlogHours)}h`,'Unfinished known main stories')}</div><p class="muted my-shelf-note">Backlog excludes ${s.beaten.length} beaten ${s.beaten.length===1?'game':'games'} · ${s.withTime.length} unfinished games have known HLTB times</p><div class="my-shelf-section-head">COLLECTION SUPERLATIVES</div><div class="my-shelf-superlatives">${s.quick?superlativeCard('⚡','QUICK HIT',s.quick.x):''}${s.monster?superlativeCard('🐉','THE MONSTER',s.monster.x):''}${s.wildcard?superlativeCard('🎲',"TONIGHT'S WILDCARD",s.wildcard,'Not marked beaten'):''}</div><div class="my-shelf-section-head">THE SHELF</div><div class="my-shelf-strip">${s.strip.map(stripItemHtml).join('')}</div><button class="my-shelf-reshuffle" onclick="myShelfOpen()">🔀 RESHUFFLE</button></section>`;dlg.showModal()}
+  function quickMark(){const owned=ownedPool().slice().sort((a,b)=>a.title.localeCompare(b.title)),host=$('#detail');host.innerHTML=`<section class="my-shelf"><div class="quick-mark-head"><div><small class="my-shelf-section-head">QUICK MARK</small><h2 style="margin:3px 0">Your ${owned.length} Games</h2></div><button class="quick-mark-back" onclick="myShelfOpen()">← MY SHELF</button></div><p class="muted my-shelf-note">Tap a state. Tap the active state again to return it to UNPLAYED.</p><div class="quick-mark-list">${owned.map(x=>{const s=statusOf(x);return `<div class="quick-mark-row"><div class="quick-mark-title">${esc(x.title)}</div><div class="quick-mark-actions"><button class="${s==='PLAYED'?'active':''}" onclick="myShelfMark(${x.id},'PLAYED')">✓ PLAYED</button><button class="${s==='BEATEN'?'active':''}" onclick="myShelfMark(${x.id},'BEATEN')">🏆 BEATEN</button></div></div>`}).join('')}</div></section>`;host.scrollTop=0;dlg.showModal()}
+  function mark(id,status){const x=items.find(g=>g.id===id),current=x?statusOf(x):'UNPLAYED';setStatus(id,current===status?'UNPLAYED':status);quickMark()}
   function openMyShelf(){render()}
-  myShelfOpen=openMyShelf;
-
+  myShelfOpen=openMyShelf;myShelfQuickMark=quickMark;myShelfMark=mark;
   function install(){const btn=document.getElementById('myShelfBtn');if(btn)btn.onclick=openMyShelf}
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',install);else install();
-  window.SHELFCHECK_MY_SHELF={version:1,buildStats,mainHoursOf};
+  window.SHELFCHECK_MY_SHELF={version:2,buildStats,mainHoursOf,statusOf,setStatus,quickMark};
 })();
