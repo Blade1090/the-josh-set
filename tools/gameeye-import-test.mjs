@@ -14,6 +14,13 @@
 // "Dragon Quest Heroes II [Explorer's Edition]" (census id 405) for the real-world case this
 // reproduces -- both must resolve to their own distinct identity, never to each other.
 //
+// Second regression case: "Shenmue I & II" (a real physical PS4 compilation covering the
+// Shenmue I and Shenmue II identities) went entirely UNRESOLVED -- not a normalization bug, but
+// a missing DATA.p product row (fixed in ownership-reconcile-v072.js by registering it the same
+// way as every other real compilation, via the existing ensureProduct() pattern). Also checks
+// an already-existing multi-identity product (Yakuza Remastered Collection, 3 identities) to
+// confirm the fix doesn't disturb compilation matching that already worked.
+//
 // Usage: node tools/gameeye-import-test.mjs (exits 1 on failure)
 import fs from 'node:fs';
 import path from 'node:path';
@@ -32,8 +39,9 @@ const CENSUS_MUTATORS = [
   'census-v058-pricecharting-mr-sweep.js', 'census-v059-pricecharting-sz-sweep.js',
   'census-physical-omission-pass-v001.js', 'census-physical-omission-pass-v002.js',
   'census-v060-integrity-scrub.js', 'census-integrity-pass-v001.js', 'census-integrity-pass-v002.js',
-  'ownership-reconcile-v071.js',
+  'ownership-reconcile-v071.js', 'ownership-reconcile-v072.js',
   'curation-josh-set-pass-v001.js', 'curation-josh-set-pass-v002.js', 'curation-josh-set-pass-v003.js',
+  'curation-josh-set-pass-v004.js',
 ];
 
 function readFile(name) { return fs.readFileSync(path.join(REPO, name), 'utf8'); }
@@ -93,6 +101,8 @@ async function main() {
     'G.I. Joe: Operation Blackout',
     "Dragon Quest Heroes: The World Tree's Woe and the Blight Below (Day One Edition)",
     "Dragon Quest Heroes II [Explorer's Edition]",
+    'Shenmue I & II',
+    'Yakuza Remastered Collection',
   ];
   ctx.__testFile = { name: 'gameeye-import-test.csv', text: () => Promise.resolve(csvOf(titles)) };
   run('stateCache={version:11,owned:[],products:[],prices:[]};ownedSet=new Set();productSet=new Set();');
@@ -103,6 +113,8 @@ async function main() {
   const giJoe = byTitle('G.I. Joe: Operation Blackout');
   const dqh1 = byTitle("Dragon Quest Heroes: The World Tree's Woe and the Blight Below (Day One Edition)");
   const dqh2 = byTitle("Dragon Quest Heroes II [Explorer's Edition]");
+  const shenmue = byTitle('Shenmue I & II');
+  const yakuza = byTitle('Yakuza Remastered Collection');
 
   let failed = false;
   const fail = (msg) => { console.error(`FAIL: ${msg}`); failed = true; };
@@ -122,13 +134,24 @@ async function main() {
     fail(`Dragon Quest Heroes rows share an identity id -- cross-contamination between id 405/406: dqh1.ids=${JSON.stringify(dqh1.ids)} dqh2.ids=${JSON.stringify(dqh2.ids)}`);
   }
 
+  // The Shenmue I & II compilation bug: the product row was entirely missing, so this must now
+  // resolve as a MULTI_IDENTITY_PRODUCT covering both Shenmue I and Shenmue II specifically --
+  // not UNRESOLVED, and not a partial single-identity match.
+  if (!shenmue || shenmue.matchType !== 'MULTI_IDENTITY_PRODUCT') fail(`Shenmue I & II did not resolve as a multi-identity product (got ${JSON.stringify(shenmue)})`);
+  else if (shenmue.identities.length !== 2 || !shenmue.identities.includes('Shenmue I') || !shenmue.identities.includes('Shenmue II')) fail(`Shenmue I & II did not cover exactly Shenmue I + Shenmue II: ${JSON.stringify(shenmue)}`);
+
+  // Regression guard: an already-existing multi-identity product must keep working exactly as
+  // before -- the fix must not disturb compilation matching that already worked.
+  if (!yakuza || yakuza.matchType !== 'MULTI_IDENTITY_PRODUCT') fail(`Yakuza Remastered Collection did not resolve as a multi-identity product (got ${JSON.stringify(yakuza)})`);
+  else if (yakuza.identities.length !== 3) fail(`Yakuza Remastered Collection did not cover all 3 identities: ${JSON.stringify(yakuza)}`);
+
   if (audit.unresolvedRows !== 0) fail(`Expected 0 unresolved rows, got ${audit.unresolvedRows}: ${JSON.stringify(audit.unresolved)}`);
   if (!audit.rowAccountingOK || !audit.identityAccountingOK || !audit.bonusAccountingOK) {
     fail(`Ownership audit accounting failed: rowAccountingOK=${audit.rowAccountingOK} identityAccountingOK=${audit.identityAccountingOK} bonusAccountingOK=${audit.bonusAccountingOK}`);
   }
 
   if (!failed) {
-    console.log('PASS: G.I. Joe, Dragon Quest Heroes, and Dragon Quest Heroes II all resolve to their own distinct identity; 0 unresolved; accounting verified.');
+    console.log('PASS: G.I. Joe, Dragon Quest Heroes, and Dragon Quest Heroes II all resolve to their own distinct identity; Shenmue I & II and Yakuza Remastered Collection both resolve as multi-identity products; 0 unresolved; accounting verified.');
   }
   process.exit(failed ? 1 : 0);
 }

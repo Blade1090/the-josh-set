@@ -49,11 +49,12 @@ const MUTATORS = [
   ['census-integrity-pass-v001.js', 69],
   ['census-integrity-pass-v002.js', 70],
   ['ownership-reconcile-v071.js', 71],
-  ['curation-josh-set-pass-v001.js', 72],
-  ['curation-josh-set-pass-v002.js', 73],
-  ['curation-josh-set-pass-v003.js', 74],
-  ['curation-josh-set-pass-v004.js', 75],
-  ['census-finalize.js', 76],
+  ['ownership-reconcile-v072.js', 72],
+  ['curation-josh-set-pass-v001.js', 73],
+  ['curation-josh-set-pass-v002.js', 74],
+  ['curation-josh-set-pass-v003.js', 75],
+  ['curation-josh-set-pass-v004.js', 76],
+  ['census-finalize.js', 77],
 ];
 
 // Known conflict identities: added by a v052-059 sweep script under an id that also matches
