@@ -348,8 +348,118 @@ async function main() {
     }
   }
 
+  console.log('--- Random Wishlist toggle renders synchronously (no flash/retry) across repeated "Another Random Game" presses ---');
+  {
+    // Needs a genuinely realistic (if minimal) #detail host: detail() (dossiers.js) assigns a
+    // full HTML string via innerHTML, then randomDetailButton() (fun-features-v103.js) and
+    // renderRandomWishlistToggle() (wishlist-v001.js) insert real elements via
+    // querySelector()/.before()/.after() -- the shared single-fakeEl approach used elsewhere in
+    // this file can't prove synchronous DOM presence, only state/logic. This is the smallest
+    // fake that supports all three: an innerHTML setter that clears tracked children (exactly
+    // like a real assignment wipes previous content), a stable synthetic "#v" anchor (the real
+    // Store Mode verdict div every NEEDED dossier renders), and real appendChild/before/after
+    // wired to one shared child list.
+    function makeDetailHost() {
+      let children = [];
+      function queryIn(sel) {
+        if (sel === '#v') return vAnchor;
+        if (sel.startsWith('.')) { const cls = sel.slice(1); return children.find((c) => (c.className || '').split(/\s+/).includes(cls)) || null; }
+        return null;
+      }
+      function makeNode(tagName) {
+        const node = {
+          tagName, className: '', textContent: '', onclick: null, dataset: {},
+          classList: { toggle(c, on) { const has = node.className.split(/\s+/).filter(Boolean).includes(c); const want = on === undefined ? !has : on; const parts = node.className.split(/\s+/).filter(Boolean).filter((x) => x !== c); if (want) parts.push(c); node.className = parts.join(' '); } },
+          querySelector: queryIn,
+          appendChild(el) { children.push(el); return el; },
+          before(el) { const i = children.indexOf(node); children.splice(i < 0 ? children.length : i, 0, el); },
+          after(el) { const i = children.indexOf(node); children.splice(i < 0 ? children.length : i + 1, 0, el); },
+        };
+        return node;
+      }
+      const vAnchor = makeNode('div');
+      const host = {
+        _lastRawHTML: '',
+        get innerHTML() { return host._lastRawHTML; },
+        set innerHTML(html) { host._lastRawHTML = html; children = []; },
+        querySelector: queryIn,
+        appendChild(el) { children.push(el); return el; },
+      };
+      return { host, makeNode };
+    }
+
+    const { host: detailHost, makeNode } = makeDetailHost();
+    const inertEl = { textContent: '', dataset: {}, querySelectorAll: () => [], querySelector: () => null, addEventListener: () => {}, appendChild: () => {}, style: {}, value: '' };
+    const uiDoc = {
+      querySelector: (sel) => (sel === '#detail' ? detailHost : inertEl),
+      querySelectorAll: () => [],
+      createElement: (tag) => makeNode(tag),
+      addEventListener: () => {}, readyState: 'complete', head: { appendChild: () => {} }, body: { appendChild: () => {} }, getElementById: () => null,
+    };
+    const dlgStub = { open: false, scrollTop: 0, close() { this.open = false; }, showModal() { this.open = true; } };
+    const uiCtx = {
+      window: { addEventListener: () => {} }, console,
+      document: uiDoc, navigator: {},
+      localStorage: { getItem: () => null, setItem: () => {}, removeItem: () => {} },
+      atob: (s) => Buffer.from(s, 'base64').toString('binary'), btoa: (s) => Buffer.from(s, 'binary').toString('base64'),
+      DecompressionStream, Response, Blob, Uint8Array,
+      fetch: (name) => { const p = path.join(REPO, name); return Promise.resolve({ ok: fs.existsSync(p), text: () => Promise.resolve(fs.existsSync(p) ? fs.readFileSync(p, 'utf8') : '') }); },
+      setTimeout, clearTimeout, setInterval, clearInterval,
+      dlg: dlgStub,
+    };
+    vm.createContext(uiCtx);
+    const runR = (code, filename) => vm.runInContext(code, uiCtx, { filename: filename || '<eval>', displayErrors: true });
+
+    runR(readFile('app.js'), 'app.js');
+    await runR('dataReady');
+    await new Promise((r) => setTimeout(r, 20));
+    runR(readFile('model-fix.js'), 'model-fix.js');
+    runR(readFile('dossiers.js'), 'dossiers.js');
+    for (const f of CENSUS_MUTATORS) runR(readFile(f), f);
+    runR(readFile('census-finalize.js'), 'census-finalize.js');
+    await new Promise((r) => setTimeout(r, 20));
+    runR(readFile('price-fix.js'), 'price-fix.js');
+    runR(readFile('fun-features-v103.js'), 'fun-features-v103.js');
+    runR(readFile('wishlist-v001.js'), 'wishlist-v001.js');
+
+    // Wait for the real dossiersReady/hltbReady flags -- this test deliberately exercises the
+    // already-loaded fast path (no retry timer used), which is what every "Another Random
+    // Game" press after the first few seconds of a real session actually hits.
+    let waited = 0;
+    while (!runR('dossiersReady && hltbReady') && waited < 5000) { await new Promise((r) => setTimeout(r, 100)); waited += 100; }
+    if (!runR('dossiersReady && hltbReady')) fail('Test setup error: dossiersReady/hltbReady never became true');
+
+    runR('filter="NEEDED"');
+    for (let i = 0; i < 3; i++) {
+      runR('window.SHELFCHECK_FUN.randomGame()');
+      const state = runR(`(() => {
+        const host = document.querySelector('#detail');
+        const anotherRandom = host.querySelector('.another-random-thumb');
+        const toggle = host.querySelector('.wishlist-toggle');
+        return { hasAnotherRandom: !!anotherRandom, hasToggle: !!toggle, toggleText: toggle && toggle.textContent, id: window.SHELFCHECK_FUN.lastRandomWishlistId };
+      })()`);
+      if (!state.hasAnotherRandom) fail(`Press ${i + 1}: ANOTHER RANDOM GAME button missing immediately after randomGame() (no timer elapsed)`);
+      if (!state.hasToggle) fail(`Press ${i + 1}: Wishlist toggle missing immediately after randomGame() -- it must render synchronously, not via a delayed retry`);
+      else {
+        const expectedText = runR(`window.isWishlisted(${JSON.stringify(state.id)})`) ? '⭐ WISHLISTED' : '☆ ADD TO WISHLIST';
+        if (state.toggleText !== expectedText) fail(`Press ${i + 1}: Wishlist toggle text "${state.toggleText}" does not match actual wishlist state for id ${state.id} (expected "${expectedText}")`);
+        else ok(`Press ${i + 1}: both ANOTHER RANDOM GAME and the Wishlist toggle ("${state.toggleText}") exist synchronously for the newly selected game (id ${state.id}) -- no timer needed`);
+      }
+    }
+
+    // Toggling must still update immediately in place and never touch the current game.
+    const idBefore = runR('window.SHELFCHECK_FUN.lastRandomWishlistId');
+    runR(`document.querySelector('#detail').querySelector('.wishlist-toggle').onclick()`);
+    const stillSameId = runR('window.SHELFCHECK_FUN.lastRandomWishlistId') === idBefore;
+    const newToggleText = runR(`document.querySelector('#detail').querySelector('.wishlist-toggle').textContent`);
+    const expectedAfterClick = runR(`window.isWishlisted(${idBefore})`) ? '⭐ WISHLISTED' : '☆ ADD TO WISHLIST';
+    if (!stillSameId) fail('Clicking the Wishlist toggle changed the current Random game id');
+    else if (newToggleText !== expectedAfterClick) fail(`Wishlist toggle did not update its own label immediately after a click (got "${newToggleText}", expected "${expectedAfterClick}")`);
+    else ok('Clicking the Wishlist toggle updates its own label immediately in place and leaves the current Random game untouched');
+  }
+
   if (!failed) {
-    console.log('\nPASS: add/remove/toggle, no effect on OWNED/NEEDED or census/completion, persistence across reload, Backup/Restore round-trip, the normal-browsing badge, the Wishlist-only view, automatic removal on real GameEye-driven ownership, the Random toggle not disturbing the current dossier, and the Wishlist entry point living in the 2x2 utility grid (never the status nav) all behave exactly as specified.');
+    console.log('\nPASS: add/remove/toggle, no effect on OWNED/NEEDED or census/completion, persistence across reload, Backup/Restore round-trip, the normal-browsing badge, the Wishlist-only view, automatic removal on real GameEye-driven ownership, the Random toggle not disturbing the current dossier, the Wishlist entry point living in the 2x2 utility grid (never the status nav), and the Random Wishlist toggle rendering synchronously across repeated "Another Random Game" presses all behave exactly as specified.');
   }
   process.exit(failed ? 1 : 0);
 }

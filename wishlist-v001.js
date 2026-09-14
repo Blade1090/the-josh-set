@@ -49,37 +49,29 @@
   };
 
   // Random/Dossier: a prominent wishlist toggle next to the Random Game flow's own "ANOTHER
-  // RANDOM GAME" button. Deliberately does NOT edit fun-features-v103.js -- randomGame()/
-  // randomDetailButton() are private to that file's closure, so this instead wraps the same
-  // global detail() cover-art-v080.js already wraps, and watches for the ".another-random-
-  // thumb" marker that ONLY the Random flow ever creates (a plain card click never adds it,
-  // and detail()'s innerHTML replacement wipes any leftover one from a previous view). Uses
-  // the exact same 0ms/650ms retry timing randomDetailButton() itself already uses to cover
-  // the dossier-not-ready-yet race.
-  const _detailForWishlist=detail;
-  detail=function(id){
-    const r=_detailForWishlist(id);
-    scheduleWishlistToggle(id);
-    return r;
-  };
-  function scheduleWishlistToggle(id){
-    setTimeout(()=>injectWishlistToggle(id),0);
-    setTimeout(()=>injectWishlistToggle(id),650);
-  }
-  function injectWishlistToggle(id){
-    if(!dlg.open)return;
-    const host=$('#detail');
-    const anchor=host&&host.querySelector('.another-random-thumb');
-    if(!anchor||host.querySelector('.wishlist-toggle'))return;
-    const w=document.createElement('button');
-    w.className='wishlist-toggle';
+  // RANDOM GAME" button. fun-features-v103.js's randomDetailButton() now calls this directly,
+  // synchronously, right after building/finding its own button (see fun-features-v103.js) --
+  // no polling, no setTimeout retry, no separate wrap of detail() needed. This previously
+  // wrapped the global detail() and polled for the ".another-random-thumb" marker on a 0ms/
+  // 650ms timer, independent of fun-features-v103.js's own identical-purpose retry for that
+  // same button; the two independent timers raced each other, which is exactly what made the
+  // toggle visibly flash on every "ANOTHER RANDOM GAME" press. Exposed on window rather than
+  // called via a hard import, so this stays the same kind of optional, removable add-on the
+  // rest of Wishlist is (fun-features-v103.js feature-detects it).
+  function renderRandomWishlistToggle(id,host,anchorEl){
+    let w=host.querySelector('.wishlist-toggle');
+    if(!w){
+      w=document.createElement('button');
+      w.className='wishlist-toggle';
+      anchorEl.before(w);
+    }
     const paint=()=>{const on=isWishlisted(id);w.textContent=on?'⭐ WISHLISTED':'☆ ADD TO WISHLIST';w.classList.toggle('active',on)};
     // Toggles state and repaints this one button only -- no render(), no detail(), no
     // randomGame() call, so the current Random dossier and game never change underneath it.
     w.onclick=()=>{toggleWishlist(id);paint()};
     paint();
-    anchor.before(w);
   }
+  window.renderRandomWishlistToggle=renderRandomWishlistToggle;
 
   // Normal browsing: a compact supplemental "⭐ WISHLIST" badge alongside the existing status
   // badge on every rendered card. Same post-process-the-rendered-DOM approach price-fix.js's
@@ -149,5 +141,5 @@
     decorateWishlistBadges();
   };
 
-  window.SHELFCHECK_WISHLIST={version:1,isWishlisted,addWishlist,removeWishlist,toggleWishlist,wishlistedItems,decorateWishlistBadges};
+  window.SHELFCHECK_WISHLIST={version:1,isWishlisted,addWishlist,removeWishlist,toggleWishlist,wishlistedItems,decorateWishlistBadges,renderRandomWishlistToggle};
 })();
