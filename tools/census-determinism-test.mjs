@@ -45,16 +45,17 @@ const MUTATORS = [
   ['census-v059-pricecharting-sz-sweep.js', 65],
   ['census-physical-omission-pass-v001.js', 66],
   ['census-physical-omission-pass-v002.js', 67],
-  ['census-v060-integrity-scrub.js', 68],
-  ['census-integrity-pass-v001.js', 69],
-  ['census-integrity-pass-v002.js', 70],
-  ['ownership-reconcile-v071.js', 71],
-  ['ownership-reconcile-v072.js', 72],
-  ['curation-josh-set-pass-v001.js', 73],
-  ['curation-josh-set-pass-v002.js', 74],
-  ['curation-josh-set-pass-v003.js', 75],
-  ['curation-josh-set-pass-v004.js', 76],
-  ['census-finalize.js', 77],
+  ['census-physical-omission-pass-v003.js', 68],
+  ['census-v060-integrity-scrub.js', 69],
+  ['census-integrity-pass-v001.js', 70],
+  ['census-integrity-pass-v002.js', 71],
+  ['ownership-reconcile-v071.js', 72],
+  ['ownership-reconcile-v072.js', 73],
+  ['curation-josh-set-pass-v001.js', 74],
+  ['curation-josh-set-pass-v002.js', 75],
+  ['curation-josh-set-pass-v003.js', 76],
+  ['curation-josh-set-pass-v004.js', 77],
+  ['census-finalize.js', 78],
 ];
 
 // Known conflict identities: added by a v052-059 sweep script under an id that also matches
@@ -63,6 +64,13 @@ const MUTATORS = [
 // (id 2310): it must be EXCLUDED in the finalized census on every single run, never
 // INCLUDED, regardless of script/network timing.
 const KNOWN_CONFLICT_IDS = [2310, 2394, 2421, 2472, 2571, 2713, 2714, 2734, 2743, 2764];
+
+// Known required identities: real physical PS4 releases confirmed present via a targeted
+// physical-omission pass after being reported missing. Each must be INCLUDED in the finalized
+// census on every single run -- this is the exact class of bug reported for Made in Abyss:
+// Binary Star Falling into Darkness (id 2785, census-physical-omission-pass-v003.js): it must
+// never silently disappear again regardless of script/network timing.
+const KNOWN_REQUIRED_IDS = [{ id: 2785, title: 'Made in Abyss: Binary Star Falling into Darkness' }];
 
 function norm(s) {
   return String(s ?? '').normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase()
@@ -207,9 +215,12 @@ async function main() {
   for (const id of KNOWN_CONFLICT_IDS) {
     if (lastRun.includedIds.has(id)) fail(`Known conflict identity id=${id} was INCLUDED (must always be EXCLUDED by an existing rule)`);
   }
+  for (const { id, title } of KNOWN_REQUIRED_IDS) {
+    if (!lastRun.includedIds.has(id)) fail(`Known required identity id=${id} ("${title}") was NOT included (must always be INCLUDED -- confirmed real physical release, do not let this silently disappear again)`);
+  }
 
   if (!failed) {
-    console.log(`\nPASS: ${N}/${N} runs identical -- INCLUDED=${[...includedCounts][0]}, SATISFIED=${[...satisfiedCounts][0]}, 1 unique membership hash, all ${KNOWN_CONFLICT_IDS.length} known-conflict identities correctly excluded on every run, post-finalization mutation refused on every run.`);
+    console.log(`\nPASS: ${N}/${N} runs identical -- INCLUDED=${[...includedCounts][0]}, SATISFIED=${[...satisfiedCounts][0]}, 1 unique membership hash, all ${KNOWN_CONFLICT_IDS.length} known-conflict identities correctly excluded and all ${KNOWN_REQUIRED_IDS.length} known-required identities correctly included on every run, post-finalization mutation refused on every run.`);
   } else {
     console.error(`\n${runs.length} runs completed with failures above.`);
   }
