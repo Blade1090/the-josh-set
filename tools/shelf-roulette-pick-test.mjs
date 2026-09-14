@@ -168,17 +168,24 @@ async function main() {
     else ok(`Unknown-HLTB identity "${candidates.unknown.title}" gets WILDCARD`);
   }
 
-  // Real ownership import (mirrors how a phone actually gets these three OWNED) -- also proves
+  // Nine distinct eligible identities (the short/long/unknown trio above, plus 6 more) -- enough
+  // for exactly 3 non-overlapping hands, so the session no-repeat bag's walk-forward AND its
+  // exhaustion/reset behavior are both meaningfully observable, not just trivially true because
+  // the pool happens to equal one hand's worth of games.
+  const extra = run(`items.filter(x=>x.set==='INCLUDED'&&effectiveStatus(x)!=='OWNED'&&![${candidates.short.id},${candidates.long.id},${candidates.unknown.id}].includes(x.id)).slice(0,6).map(x=>({id:x.id,title:x.title}))`);
+  if (extra.length < 6) throw new Error('Test setup error: could not find 6 additional distinct identities to own');
+  const nineIds = [candidates.short.id, candidates.long.id, candidates.unknown.id, ...extra.map((x) => x.id)].sort((a, b) => a - b);
+  const titles = [candidates.short.title, candidates.long.title, candidates.unknown.title, ...extra.map((x) => x.title)];
+
+  // Real ownership import (mirrors how a phone actually gets these nine OWNED) -- also proves
   // Roulette's own "OWNED, unplayed" pool selection is untouched by this feature.
-  const titles = [candidates.short.title, candidates.long.title, candidates.unknown.title];
   run(`window.__ownFile = { name: 'roulette-test.csv', text: () => Promise.resolve(${JSON.stringify(csvOf(titles))}) }`);
   await run('importCSV(window.__ownFile)');
 
   run('shelfRouletteOpen()');
   let handIds = run('window.SHELFCHECK_ROULETTE.currentHandIds');
-  const expectedIds = [candidates.short.id, candidates.long.id, candidates.unknown.id].sort((a, b) => a - b);
-  if (JSON.stringify([...handIds].sort((a, b) => a - b)) !== JSON.stringify(expectedIds)) fail(`Roulette dealt an unexpected hand: ${JSON.stringify(handIds)}, expected exactly ${JSON.stringify(expectedIds)}`);
-  else ok(`Roulette deals exactly the 3 eligible OWNED games: ${JSON.stringify(handIds)}`);
+  if (handIds.length !== 3 || !handIds.every((id) => nineIds.includes(id))) fail(`Roulette dealt an unexpected hand: ${JSON.stringify(handIds)}, expected 3 ids drawn from the 9 eligible OWNED games`);
+  else ok(`Roulette deals exactly 3 of the 9 eligible OWNED games: ${JSON.stringify(handIds)}`);
 
   console.log('--- Pick For Me only ever chooses among the currently dealt three ---');
   {
@@ -207,16 +214,93 @@ async function main() {
     else ok(`Census INCLUDED unchanged by Pick For Me: ${includedAfter}`);
   }
 
-  console.log('--- NOPE / Pick Again re-selects within the SAME hand, never redeals ---');
+  console.log('--- NOPE -- PICK AGAIN rejects the whole hand and walks through NEW games, not the same three ---');
   {
-    const handBefore = [...run('window.SHELFCHECK_ROULETTE.currentHandIds')].sort((a, b) => a - b);
-    for (let i = 0; i < 6; i++) {
-      run('window.SHELFCHECK_ROULETTE.pickForMe()');
+    // Drive this entirely through the REAL button's own onclick, exactly like a real tap --
+    // calling window.SHELFCHECK_ROULETTE.nopeRejectHand() directly would miss the actual bug,
+    // which lived in whether the button gets rewired to that action at all after a pick.
+    const pressPickButton = () => run(`document.querySelector('#detail').querySelector('#roulettePickBtn').onclick()`);
+
+    // Fresh session bag, fresh first hand.
+    run('shelfRouletteOpen()');
+    const hand1 = run('window.SHELFCHECK_ROULETTE.currentHandIds');
+    if (hand1.length !== 3) fail(`Test setup error: expected a fresh 3-card hand, got ${JSON.stringify(hand1)}`);
+
+    // First press = "PICK FOR ME" on the freshly dealt hand -- must NOT change the hand.
+    pressPickButton();
+    await new Promise((r) => setTimeout(r, 1600));
+    if (run('window.SHELFCHECK_ROULETTE.winnerId') == null) fail('Test setup error: first button press did not produce a winner');
+    const handAfterFirstPress = run('window.SHELFCHECK_ROULETTE.currentHandIds');
+    if (JSON.stringify([...handAfterFirstPress].sort((a, b) => a - b)) !== JSON.stringify([...hand1].sort((a, b) => a - b))) fail('The initial PICK FOR ME press (before any NOPE) changed the dealt hand -- it should only mark a winner among it');
+    else ok('The initial PICK FOR ME press only marks a winner within the dealt hand, same three as before');
+
+    // Second press on the SAME button is now "NOPE -- PICK AGAIN" -- this is the actual bug: it
+    // must deal 3 DIFFERENT games (none of hand1), not just re-pick a winner among the same three.
+    pressPickButton();
+    await new Promise((r) => setTimeout(r, 1600));
+    const hand2 = run('window.SHELFCHECK_ROULETTE.currentHandIds');
+    const overlap12 = hand2.filter((id) => hand1.includes(id));
+    if (overlap12.length) fail(`Pressing the button a second time (NOPE) redealt a game from the just-rejected hand instead of walking to new ones: overlap ${JSON.stringify(overlap12)} (hand1=${JSON.stringify(hand1)}, hand2=${JSON.stringify(hand2)})`);
+    else ok(`Pressing NOPE deals 3 entirely new games via the real button: ${JSON.stringify(hand1)} -> ${JSON.stringify(hand2)}`);
+    if (run('window.SHELFCHECK_ROULETTE.winnerId') == null) fail('NOPE did not immediately offer a new recommendation on the fresh hand');
+    else ok('NOPE immediately re-offers a recommendation (winner set) on the freshly dealt hand');
+
+    // Third press: the 9-game pool has exactly 3 left unseen (9 - 3 - 3) -- must be exactly those,
+    // with zero overlap against EITHER prior hand.
+    pressPickButton();
+    await new Promise((r) => setTimeout(r, 1600));
+    const hand3 = run('window.SHELFCHECK_ROULETTE.currentHandIds');
+    const overlap123 = hand3.filter((id) => hand1.includes(id) || hand2.includes(id));
+    if (overlap123.length) fail(`A further NOPE press repeated an already-rejected game: overlap ${JSON.stringify(overlap123)}`);
+    else ok(`A further NOPE press again deals 3 entirely new games, completing all 9 with zero repeats: ${JSON.stringify(hand3)}`);
+    const seenSoFar = [...run('window.SHELFCHECK_ROULETTE.sessionSeenIds')].sort((a, b) => a - b);
+    if (JSON.stringify(seenSoFar) !== JSON.stringify(nineIds)) fail(`Session bag should now contain exactly all 9 eligible ids, got ${JSON.stringify(seenSoFar)}`);
+    else ok('Session bag has now recorded all 9 eligible games across the 3 hands dealt so far');
+
+    // Fourth press: the bag is exhausted (all 9 already seen) -- dealHand() must reset and
+    // recycle rather than error or return an empty hand.
+    pressPickButton();
+    await new Promise((r) => setTimeout(r, 1600));
+    const hand4 = run('window.SHELFCHECK_ROULETTE.currentHandIds');
+    const bagAfterReset = run('window.SHELFCHECK_ROULETTE.sessionSeenIds');
+    if (hand4.length !== 3 || !hand4.every((id) => nineIds.includes(id))) fail(`Bag-exhaustion NOPE press did not deal a valid 3-card hand from the 9 eligible games: ${JSON.stringify(hand4)}`);
+    else ok(`Once the bag is exhausted, NOPE resets it and deals again from the full pool: ${JSON.stringify(hand4)}`);
+    if (bagAfterReset.length !== 3) fail(`Session bag should have been reset and repopulated with only the new hand (3), got ${bagAfterReset.length}: ${JSON.stringify(bagAfterReset)}`);
+    else ok('Session bag was actually reset (not accumulated past the pool size) once exhausted');
+
+    // Repeated presses (5 more) must never throw and must always land on a valid winner within
+    // whatever hand is currently showing -- proves the button stays correctly wired to NOPE
+    // across many consecutive presses, not just the first one.
+    for (let i = 0; i < 5; i++) {
+      pressPickButton();
       await new Promise((r) => setTimeout(r, 1600));
-      const handNow = [...run('window.SHELFCHECK_ROULETTE.currentHandIds')].sort((a, b) => a - b);
-      if (JSON.stringify(handNow) !== JSON.stringify(handBefore)) { fail(`NOPE/Pick Again changed the dealt hand: ${JSON.stringify(handBefore)} -> ${JSON.stringify(handNow)}`); break; }
+      const hand = run('window.SHELFCHECK_ROULETTE.currentHandIds');
+      const winner = run('window.SHELFCHECK_ROULETTE.winnerId');
+      if (hand.length !== 3 || winner == null || !hand.includes(winner)) { fail(`Repeated NOPE press ${i + 1} left an invalid state: hand=${JSON.stringify(hand)} winner=${winner}`); break; }
     }
-    if (!failed) ok(`6 consecutive NOPE/Pick Again presses kept the exact same hand: ${JSON.stringify(handBefore)}`);
+    if (!failed) ok('5 further consecutive NOPE presses each keep producing a valid fresh hand + winner');
+  }
+
+  console.log('--- DEAL AGAIN respects the same no-repeat session bag ---');
+  {
+    run('shelfRouletteOpen()');
+    const hand1 = run('window.SHELFCHECK_ROULETTE.currentHandIds');
+    run('shelfRouletteDeal()');
+    const hand2 = run('window.SHELFCHECK_ROULETTE.currentHandIds');
+    const overlap = hand2.filter((id) => hand1.includes(id));
+    if (overlap.length) fail(`DEAL AGAIN repeated a just-dealt game: overlap ${JSON.stringify(overlap)} (hand1=${JSON.stringify(hand1)}, hand2=${JSON.stringify(hand2)})`);
+    else ok(`DEAL AGAIN also draws from the same no-repeat session bag: ${JSON.stringify(hand1)} -> ${JSON.stringify(hand2)}`);
+  }
+
+  console.log('--- closing/reopening Shelf Roulette resets the session bag ---');
+  {
+    // Bag currently holds 6 ids (two hands) from the DEAL AGAIN test above.
+    const bagBeforeReopen = run('window.SHELFCHECK_ROULETTE.sessionSeenIds');
+    if (bagBeforeReopen.length < 6) fail(`Test setup error: expected an accumulated bag before reopening, got ${JSON.stringify(bagBeforeReopen)}`);
+    run('shelfRouletteOpen()');
+    const bagAfterReopen = run('window.SHELFCHECK_ROULETTE.sessionSeenIds');
+    if (bagAfterReopen.length !== 3) fail(`Reopening Shelf Roulette should reset the session bag to just the freshly dealt hand (3), got ${bagAfterReopen.length}: ${JSON.stringify(bagAfterReopen)}`);
+    else ok('Reopening Shelf Roulette resets the accumulated session bag (starts fresh with only the new hand)');
   }
 
   console.log('--- dealing a new hand clears the previous winner ---');
@@ -259,7 +343,7 @@ async function main() {
   }
 
   if (!failed) {
-    console.log('\nPASS: Shelf Roulette roles are derived correctly from real HLTB data, Pick For Me only ever selects among the currently dealt hand, NOPE/Pick Again never redeals, dealing a new hand clears the previous winner, no persistent state (owned/played/beaten/wishlist/census) changes merely from selecting a winner, the reduced-motion path settles synchronously, and the existing Played/Beaten eligibility filters behave exactly as before.');
+    console.log('\nPASS: Shelf Roulette roles are derived correctly from real HLTB data, Pick For Me only ever selects among the currently dealt hand, NOPE -- PICK AGAIN rejects the whole hand and walks through genuinely new games (never the same three) until the session bag is exhausted and resets, DEAL AGAIN respects that same bag, reopening Shelf Roulette resets it, dealing a new hand clears the previous winner, no persistent state (owned/played/beaten/wishlist/census) changes merely from selecting a winner, the reduced-motion path settles synchronously, and the existing Played/Beaten eligibility filters behave exactly as before.');
   }
   process.exit(failed ? 1 : 0);
 }
