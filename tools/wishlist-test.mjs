@@ -261,8 +261,95 @@ async function main() {
     else ok('toggleWishlist() only flips state -- it never calls detail() (never re-opens/changes the current Random dossier or game)');
   }
 
+  console.log('--- UI placement: Wishlist stays OUT of the status nav; all 4 utility buttons share the 2x2 action area ---');
+  {
+    // This one needs real (if minimal) DOM tracking for .shelf-actions/nav -- the shared
+    // fakeDocument above returns one inert element for every selector, which is fine for
+    // testing state/logic but can't prove WHERE a button ended up. A separate, deliberately
+    // small vm context: just app.js (for render()/document/filter to exist) + the real
+    // fun-features-v103.js and wishlist-v001.js install() calls -- no census/dossiers needed,
+    // since button placement happens synchronously at script-load time, before any data
+    // finishes loading.
+    const shelfActionsChildren = [
+      { tagName: 'BUTTON', id: 'shelfRouletteBtn' },
+      { tagName: 'BUTTON', id: 'myShelfBtn' },
+    ];
+    const navChildren = [
+      { tagName: 'BUTTON', dataset: { s: 'ALL' }, className: 'active' },
+      { tagName: 'BUTTON', dataset: { s: 'NEEDED' }, className: '' },
+      { tagName: 'BUTTON', dataset: { s: 'OWNED' }, className: '' },
+    ];
+    const shelfActionsEl = {
+      tagName: 'DIV',
+      appendChild(el) { shelfActionsChildren.push(el); return el; },
+      querySelector(sel) { return sel.startsWith('#') ? (shelfActionsChildren.find((c) => c.id === sel.slice(1)) || null) : null; },
+    };
+    const navEl = {
+      tagName: 'NAV',
+      appendChild(el) { navChildren.push(el); return el; },
+      querySelectorAll(sel) { return sel === 'button' ? navChildren : []; },
+    };
+    const inertEl = { textContent: '', dataset: {}, querySelectorAll: () => [], querySelector: () => null, addEventListener: () => {}, appendChild: () => {}, style: {}, value: '' };
+    const uiDoc = {
+      querySelector: (sel) => {
+        if (sel === '.shelf-actions') return shelfActionsEl;
+        if (sel === 'nav') return navEl;
+        // install()'s own "already exists?" guards look these two up by id at the top
+        // level -- must genuinely return null until each is actually created, unlike every
+        // other selector ($('#q') etc.), which just needs a harmless non-null stub.
+        if (sel === '#quickBuyBtn' || sel === '#wishlistEntryBtn') return shelfActionsChildren.find((c) => c.id === sel.slice(1)) || null;
+        return inertEl;
+      },
+      querySelectorAll: (sel) => (sel === 'nav button' ? navChildren : []),
+      createElement: () => ({ ...inertEl, dataset: {}, classList: { toggle() {}, add() {}, remove() {} }, appendChild: () => {} }),
+      // Deliberately 'loading', matching a real initial <script> tag execution (before
+      // DOMContentLoaded fires) -- this is the exact condition that exposed the real bug: with
+      // readyState 'complete' from the start, both fun-features-v103.js's and this file's own
+      // install() calls would run "immediately" in script-tag order regardless of whether
+      // either actually gates on readyState, hiding a real deferred-vs-immediate race. Queued
+      // DOMContentLoaded listeners are fired in registration order below, exactly like a real
+      // browser dispatches them.
+      domContentLoadedQueue: [],
+      addEventListener(evt, cb) { if (evt === 'DOMContentLoaded') this.domContentLoadedQueue.push(cb); },
+      readyState: 'loading', head: { appendChild: () => {} }, body: { appendChild: () => {} }, getElementById: () => null,
+    };
+    const uiCtx = {
+      window: { addEventListener: () => {} }, console,
+      document: uiDoc, navigator: {},
+      localStorage: { getItem: () => null, setItem: () => {}, removeItem: () => {} },
+      atob: (s) => Buffer.from(s, 'base64').toString('binary'), btoa: (s) => Buffer.from(s, 'binary').toString('base64'),
+      DecompressionStream, Response, Blob, Uint8Array,
+      fetch: (name) => { const p = path.join(REPO, name); return Promise.resolve({ ok: fs.existsSync(p), text: () => Promise.resolve(fs.existsSync(p) ? fs.readFileSync(p, 'utf8') : '') }); },
+      setTimeout, clearTimeout, setInterval, clearInterval,
+      dlg: { close() {}, showModal() {}, open: false, scrollTop: 0 },
+    };
+    vm.createContext(uiCtx);
+    const runUI = (code, filename) => vm.runInContext(code, uiCtx, { filename: filename || '<eval>', displayErrors: true });
+    runUI(readFile('app.js'), 'app.js'); // kicks off async loadData in the background; not awaited -- button placement doesn't need census data
+    runUI(readFile('fun-features-v103.js'), 'fun-features-v103.js');
+    runUI(readFile('wishlist-v001.js'), 'wishlist-v001.js');
+    // Now simulate the actual DOMContentLoaded dispatch, firing every queued listener in the
+    // exact order the two scripts registered them -- this is what determines final DOM order,
+    // not the order the scripts merely executed in.
+    runUI('document.readyState="complete"; for (const cb of document.domContentLoadedQueue) cb();');
+
+    if (navChildren.length !== 3 || navChildren.some((c) => c.id === 'wishlistFilterBtn' || c.id === 'wishlistEntryBtn')) {
+      fail(`Status nav must remain exactly ALL/NEEDED/OWNED with no Wishlist entry -- found ${navChildren.length} button(s): ${JSON.stringify(navChildren.map((c) => c.id || c.dataset?.s))}`);
+    } else {
+      ok('Status nav is untouched -- still exactly ALL/NEEDED/OWNED, no Wishlist button inserted there');
+    }
+
+    const actionIds = shelfActionsChildren.map((c) => c.id);
+    const expectedOrder = ['shelfRouletteBtn', 'myShelfBtn', 'quickBuyBtn', 'wishlistEntryBtn'];
+    if (JSON.stringify(actionIds) !== JSON.stringify(expectedOrder)) {
+      fail(`.shelf-actions must contain exactly the 4 utility buttons in 2x2 reading order [Roulette, My Shelf, Should I Buy This, Wishlist] -- got ${JSON.stringify(actionIds)}`);
+    } else {
+      ok(`.shelf-actions contains exactly the 4 utility buttons in the intended 2x2 order: ${JSON.stringify(actionIds)}`);
+    }
+  }
+
   if (!failed) {
-    console.log('\nPASS: add/remove/toggle, no effect on OWNED/NEEDED or census/completion, persistence across reload, Backup/Restore round-trip, the normal-browsing badge, the Wishlist-only view, automatic removal on real GameEye-driven ownership, and the Random toggle not disturbing the current dossier all behave exactly as specified.');
+    console.log('\nPASS: add/remove/toggle, no effect on OWNED/NEEDED or census/completion, persistence across reload, Backup/Restore round-trip, the normal-browsing badge, the Wishlist-only view, automatic removal on real GameEye-driven ownership, the Random toggle not disturbing the current dossier, and the Wishlist entry point living in the 2x2 utility grid (never the status nav) all behave exactly as specified.');
   }
   process.exit(failed ? 1 : 0);
 }

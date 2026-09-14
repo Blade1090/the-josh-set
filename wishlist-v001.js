@@ -23,7 +23,7 @@
   window.toggleWishlist=toggleWishlist;
 
   const style=document.createElement('style');
-  style.textContent=`.badge.wishlist-badge{background:#3a2a08;color:#ffcf5c;margin-left:6px}.wishlist-toggle{display:block;width:100%;margin:10px 0 0;padding:13px;border-radius:12px;font-weight:900;background:#20232c;border:1px solid #4a4530;color:#ffcf5c}.wishlist-toggle.active{background:linear-gradient(135deg,#ffb648,#ff8a3d);color:#2a1600;border-color:#ffb648}`;
+  style.textContent=`.badge.wishlist-badge{background:#3a2a08;color:#ffcf5c;margin-left:6px}.wishlist-toggle{display:block;width:100%;margin:10px 0 0;padding:13px;border-radius:12px;font-weight:900;background:#20232c;border:1px solid #4a4530;color:#ffcf5c}.wishlist-toggle.active{background:linear-gradient(135deg,#ffb648,#ff8a3d);color:#2a1600;border-color:#ffb648}#wishlistEntryBtn{width:100%;height:100%;margin:0;padding:14px;border:0;border-radius:14px;background:linear-gradient(135deg,#ffd76b,#ffb648);color:#2a1600;font-weight:950;font-size:1rem;letter-spacing:.02em;box-shadow:0 8px 24px #ffb64833;cursor:pointer;display:flex;align-items:center;justify-content:center;text-align:center}`;
   document.head.appendChild(style);
 
   // Auto-remove from Wishlist once an identity becomes OWNED -- runs on every saveState()
@@ -102,25 +102,33 @@
     }
   }
 
-  // View My Wishlist: integrates into the existing ALL/NEEDED/OWNED filter model as a 4th
-  // filter value rather than a separate subsystem -- appends a plain <button data-s="WISHLIST">
-  // into <nav> exactly like price-sort-v063.js already appends its own control there, so the
-  // existing nav click handler (app.js) picks it up for free (it already does
-  // `filter=e.target.dataset.s` for any element with that attribute) and it inherits the same
-  // base button/.active styling every other nav button already has.
-  let navTries=0;
-  function installNavButton(){
-    navTries++;
-    const nav=document.querySelector('nav');
-    if(!nav){if(navTries<80)setTimeout(installNavButton,100);return}
-    if(document.querySelector('#wishlistFilterBtn'))return;
+  // View My Wishlist: NOT a 4th ALL/NEEDED/OWNED status filter -- those three stay exactly the
+  // collection-status trio they already are. Instead this completes the main utility area as a
+  // 2x2 grid: SHELF ROULETTE | MY SHELF on row 1, SHOULD I BUY THIS? | WISHLIST on row 2 (see
+  // the .shelf-actions grid rule in my-shelf-v001.js, which already owns that shared layout,
+  // and fun-features-v103.js's #quickBuyBtn, which now mounts into the same container). Reuses
+  // the existing `filter` variable render() already branches on -- clicking just sets
+  // filter='WISHLIST' and re-renders, the same effect a nav filter click would have had, without
+  // actually living in <nav>.
+  function installShelfActionButton(){
+    const container=document.querySelector('.shelf-actions');
+    if(!container||document.querySelector('#wishlistEntryBtn'))return;
     const b=document.createElement('button');
-    b.id='wishlistFilterBtn';
-    b.dataset.s='WISHLIST';
+    b.id='wishlistEntryBtn';
     b.textContent='⭐ WISHLIST';
-    nav.appendChild(b);
+    b.onclick=()=>{
+      filter='WISHLIST';
+      document.querySelectorAll('nav button').forEach(x=>x.classList.remove('active'));
+      resetBrowse();
+    };
+    container.appendChild(b);
   }
-  installNavButton();
+  // Matches fun-features-v103.js's own readyState gate exactly -- both #quickBuyBtn and this
+  // button must install at the SAME loading phase (either both immediate or both deferred to
+  // DOMContentLoaded) for their relative <script> tag order to determine final DOM/grid order;
+  // without this, calling install unconditionally here can append this button to
+  // .shelf-actions BEFORE fun-features-v103.js's deferred install runs, reversing row 2.
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',installShelfActionButton);else installShelfActionButton();
 
   function wishlistedItems(){return items.filter(x=>x.set!=='EXCLUDED'&&isWishlisted(x.id))}
 
