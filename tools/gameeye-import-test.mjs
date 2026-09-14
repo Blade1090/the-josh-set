@@ -38,6 +38,7 @@ const CENSUS_MUTATORS = [
   'census-v056-pricecharting-cf-sweep.js', 'census-v057-pricecharting-gl-sweep.js',
   'census-v058-pricecharting-mr-sweep.js', 'census-v059-pricecharting-sz-sweep.js',
   'census-physical-omission-pass-v001.js', 'census-physical-omission-pass-v002.js',
+  'census-physical-omission-pass-v003.js',
   'census-v060-integrity-scrub.js', 'census-integrity-pass-v001.js', 'census-integrity-pass-v002.js',
   'ownership-reconcile-v071.js', 'ownership-reconcile-v072.js',
   'curation-josh-set-pass-v001.js', 'curation-josh-set-pass-v002.js', 'curation-josh-set-pass-v003.js',
@@ -103,6 +104,7 @@ async function main() {
     "Dragon Quest Heroes II [Explorer's Edition]",
     'Shenmue I & II',
     'Yakuza Remastered Collection',
+    "Made in Abyss: Binary Star Falling into Darkness (Collector's Edition)",
   ];
   ctx.__testFile = { name: 'gameeye-import-test.csv', text: () => Promise.resolve(csvOf(titles)) };
   run('stateCache={version:11,owned:[],products:[],prices:[]};ownedSet=new Set();productSet=new Set();');
@@ -115,6 +117,7 @@ async function main() {
   const dqh2 = byTitle("Dragon Quest Heroes II [Explorer's Edition]");
   const shenmue = byTitle('Shenmue I & II');
   const yakuza = byTitle('Yakuza Remastered Collection');
+  const madeInAbyss = byTitle("Made in Abyss: Binary Star Falling into Darkness (Collector's Edition)");
 
   let failed = false;
   const fail = (msg) => { console.error(`FAIL: ${msg}`); failed = true; };
@@ -145,13 +148,20 @@ async function main() {
   if (!yakuza || yakuza.matchType !== 'MULTI_IDENTITY_PRODUCT') fail(`Yakuza Remastered Collection did not resolve as a multi-identity product (got ${JSON.stringify(yakuza)})`);
   else if (yakuza.identities.length !== 3) fail(`Yakuza Remastered Collection did not cover all 3 identities: ${JSON.stringify(yakuza)}`);
 
+  // Made in Abyss: Binary Star Falling into Darkness (newly added, census-physical-omission-pass-v003.js).
+  // A GameEye row for the Collector's Edition SKU (a trailing "(...)" edition tag) must still
+  // resolve to the single base identity via the existing generic candidates() bracket-stripping
+  // -- no title-specific ownership hack should be needed.
+  if (!madeInAbyss || madeInAbyss.matchType === 'UNRESOLVED') fail(`Made in Abyss (Collector's Edition) did not match (got ${JSON.stringify(madeInAbyss)})`);
+  else if (!madeInAbyss.identities.includes('Made in Abyss: Binary Star Falling into Darkness')) fail(`Made in Abyss (Collector's Edition) matched the wrong identity: ${JSON.stringify(madeInAbyss)}`);
+
   if (audit.unresolvedRows !== 0) fail(`Expected 0 unresolved rows, got ${audit.unresolvedRows}: ${JSON.stringify(audit.unresolved)}`);
   if (!audit.rowAccountingOK || !audit.identityAccountingOK || !audit.bonusAccountingOK) {
     fail(`Ownership audit accounting failed: rowAccountingOK=${audit.rowAccountingOK} identityAccountingOK=${audit.identityAccountingOK} bonusAccountingOK=${audit.bonusAccountingOK}`);
   }
 
   if (!failed) {
-    console.log('PASS: G.I. Joe, Dragon Quest Heroes, and Dragon Quest Heroes II all resolve to their own distinct identity; Shenmue I & II and Yakuza Remastered Collection both resolve as multi-identity products; 0 unresolved; accounting verified.');
+    console.log('PASS: G.I. Joe, Dragon Quest Heroes, and Dragon Quest Heroes II all resolve to their own distinct identity; Shenmue I & II and Yakuza Remastered Collection both resolve as multi-identity products; Made in Abyss (Collector\'s Edition) resolves to its base identity; 0 unresolved; accounting verified.');
   }
   process.exit(failed ? 1 : 0);
 }
