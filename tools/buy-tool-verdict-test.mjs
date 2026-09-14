@@ -70,18 +70,39 @@ async function buildContext() {
   await new Promise((r) => setTimeout(r, 20));
 
   run(readFile('model-fix.js'), 'model-fix.js');
+  // dossiers.js defines storeFacts()/dossierQuality()/usefulText(), which buyContextLines()
+  // needs -- its own async dossier/HLTB fetches don't need to finish for this test (hltbFor/
+  // dossierFor just read from still-empty maps until then), only the functions need to exist.
+  run(readFile('dossiers.js'), 'dossiers.js');
   for (const f of CENSUS_MUTATORS) run(readFile(f), f);
   run(readFile('census-finalize.js'), 'census-finalize.js');
   await new Promise((r) => setTimeout(r, 20));
 
+  // Inject one synthetic multi-identity product whose title contains an HTML-sensitive
+  // character ("&") to deterministically test buyContextLines()'s escaping behavior, without
+  // depending on any specific real compilation ("Bayonetta & Vanquish" etc.) continuing to
+  // exist in the census. Picks two NEEDED identities not already covered by any real product,
+  // so preferredCollectionFor() can only ever resolve to this synthetic one for them -- then
+  // resets the cached product index exactly like census-finalize.js itself does after any
+  // DATA.p mutation, so the injected row is actually picked up.
+  const escTestIds = run(`(() => {
+    const idx = ensureMergedProducts();
+    const usedIds = new Set();
+    for (const p of idx.values()) for (const id of p.ids) usedIds.add(id);
+    const covered = items.filter(x => x.set === 'INCLUDED' && status(x) === 'NEEDED' && !usedIds.has(x.id)).slice(0, 2).map(x => x.id);
+    DATA.p.push(['Test & Product Bundle', 'Test & Product Bundle', covered]);
+    mergedProductIndex = null;
+    return covered;
+  })()`);
+
   run(readFile('price-fix.js'), 'price-fix.js');
   run(readFile('fun-features-v103.js'), 'fun-features-v103.js');
 
-  return { run };
+  return { run, escTestIds };
 }
 
 async function main() {
-  const { run } = await buildContext();
+  const { run, escTestIds } = await buildContext();
   let failed = false;
   const fail = (msg) => { console.error(`FAIL: ${msg}`); failed = true; };
 
@@ -157,6 +178,27 @@ async function main() {
       const v = run(`window.SHELFCHECK_FUN.priceVerdict(items.find(x=>x.id===${ownedItem.id}), 10)`);
       if (!v || v.tier !== 'GREAT_DEAL') fail(`OWNED identity "${ownedItem.title}" did not receive a real price verdict (expected GREAT_DEAL at $10 vs $20 market): ${JSON.stringify(v)}`);
       else console.log(`OK  OWNED identity "${ownedItem.title}" still receives a real verdict (${v.tier}) -- ownership did not suppress it`);
+    }
+  }
+
+  console.log('--- Escaping: compilation title with "&" is escaped exactly once ---');
+  {
+    if (escTestIds.length < 2) {
+      fail(`Could not find 2 NEEDED identities free of any real product to build the synthetic "&" compilation test fixture (found ${escTestIds.length})`);
+    } else {
+      const lines = run(`window.SHELFCHECK_FUN.buyContextLines(items.find(x => x.id === ${escTestIds[0]}))`);
+      const prefLine = lines.find((l) => l.includes('Test & Product Bundle') || l.includes('Test &amp; Product Bundle'));
+      if (!prefLine) {
+        fail(`Expected a compilation cross-sell context line mentioning the synthetic "Test & Product Bundle", got: ${JSON.stringify(lines)}`);
+      } else if (!prefLine.includes('Test & Product Bundle')) {
+        fail(`buyContextLines() must return PLAIN TEXT (unescaped) until the final render -- got: ${JSON.stringify(prefLine)}`);
+      } else {
+        console.log(`OK  buyContextLines() returns plain, unescaped text: "${prefLine}"`);
+        const rendered = run(`esc(${JSON.stringify(prefLine)})`);
+        if (!rendered.includes('Test &amp; Product Bundle')) fail(`esc() did not escape the "&" as expected: ${rendered}`);
+        else if (rendered.includes('&amp;amp;')) fail(`Double-escaping detected -- the line was escaped more than once: ${rendered}`);
+        else console.log(`OK  esc() renders it escaped exactly once (no double-escaping): "${rendered}"`);
+      }
     }
   }
 

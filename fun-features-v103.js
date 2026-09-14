@@ -72,7 +72,7 @@ function buyContextLines(x){
     const text=typeof usefulText==='function'?usefulText(f.d.s):f.d.s;
     if(text)lines.push(text.length>150?text.slice(0,147).trimEnd()+'…':text);
   }
-  if(f.pref&&!f.pref.owned)lines.push(`Check ${esc(f.pref.p.title)} instead -- covers ${f.pref.count} Josh Set identities.`);
+  if(f.pref&&!f.pref.owned)lines.push(`Check ${f.pref.p.title} instead -- covers ${f.pref.count} Josh Set identities.`);
   return lines;
 }
 window.__buyCoverError=function(img){const shell=img.closest('.buy-cover');if(shell)shell.innerHTML='<div class="cover-fallback">PS4<br>COVER</div>'};
@@ -95,5 +95,5 @@ function runBuyAdvice(){
 }
 function openBuyTool(){buyChoice=null;$('#detail').innerHTML=`<section class="buy-tool"><small>STORE MODE</small><h2>Should I Buy This?</h2><p class="muted">Pick the game, enter the price on the sticker, and ShelfCheck will call it.</p><label>GAME<input id="buyTitle" type="search" placeholder="Start typing a title…" autocomplete="off"></label><div id="buyMatches"><p class="muted">Type a needed game title.</p></div><label>STORE PRICE<input id="buyPrice" type="number" inputmode="decimal" min="0" step=".01" placeholder="$0.00"></label><button id="runBuy">GET VERDICT</button><div id="buyVerdict"></div></section>`;$('#buyTitle').oninput=buySearch;$('#buyMatches').onclick=e=>{const b=e.target.closest('[data-id]');if(b)chooseBuy(b.dataset.id)};$('#runBuy').onclick=runBuyAdvice;$('#buyPrice').onkeydown=e=>{if(e.key==='Enter')runBuyAdvice()};dlg.showModal();setTimeout(()=>$('#buyTitle').focus(),50)}
 function install(){if($('#quickBuyBtn'))return;const b=document.createElement('button');b.id='quickBuyBtn';b.textContent='🤔 SHOULD I BUY THIS?';b.onclick=openBuyTool;document.querySelector('.sync').appendChild(b);render()}
-if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',install);else install();window.SHELFCHECK_FUN={version:106,randomGame,openBuyTool,priceVerdict};
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',install);else install();window.SHELFCHECK_FUN={version:107,randomGame,openBuyTool,priceVerdict,buyContextLines};
 })();
