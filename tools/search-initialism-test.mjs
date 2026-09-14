@@ -31,9 +31,11 @@ const CENSUS_MUTATORS = [
   'census-v056-pricecharting-cf-sweep.js', 'census-v057-pricecharting-gl-sweep.js',
   'census-v058-pricecharting-mr-sweep.js', 'census-v059-pricecharting-sz-sweep.js',
   'census-physical-omission-pass-v001.js', 'census-physical-omission-pass-v002.js',
+  'census-physical-omission-pass-v003.js',
   'census-v060-integrity-scrub.js', 'census-integrity-pass-v001.js', 'census-integrity-pass-v002.js',
-  'ownership-reconcile-v071.js',
+  'ownership-reconcile-v071.js', 'ownership-reconcile-v072.js',
   'curation-josh-set-pass-v001.js', 'curation-josh-set-pass-v002.js', 'curation-josh-set-pass-v003.js',
+  'curation-josh-set-pass-v004.js',
 ];
 
 function readFile(name) { return fs.readFileSync(path.join(REPO, name), 'utf8'); }
@@ -117,7 +119,16 @@ async function main() {
   // Baseline counts captured against today's live census with the OLD (pre-fix) matcher --
   // this test runs against the fixed code, so we assert the specific expected post-fix counts
   // directly rather than re-deriving "before" at test time.
-  const guardrailExpected = { dra: 47, the: 438, game: 37, ball: 12, ps: 22, a: 1953, of: 305, and: 161 };
+  //
+  // "a" was 1953 before this test's own CENSUS_MUTATORS list was corrected to include three
+  // already-merged mutators it was missing (census-physical-omission-pass-v003.js,
+  // ownership-reconcile-v072.js, curation-josh-set-pass-v004.js). Once included, the "a" count
+  // mechanically drops by exactly 1: curation pass #4 excludes two titles that contain "a"
+  // ("Hakoniwa Company Works", "Aikano: Yukizora No Triangle", -2) and physical-omission pass
+  // #3 adds one newly-INCLUDED title that also contains "a" ("Made in Abyss: Binary Star
+  // Falling into Darkness", +1) -- net -1, matching the observed 1953 -> 1952 exactly. Not a
+  // search-behavior change; every other guardrail query is unaffected.
+  const guardrailExpected = { dra: 47, the: 438, game: 37, ball: 12, ps: 22, a: 1952, of: 305, and: 161 };
   for (const [q, expected] of Object.entries(guardrailExpected)) {
     const count = countFor(q);
     if (count !== expected) fail(`Guardrail query "${q}" changed: expected ${expected}, got ${count}`);
