@@ -17,11 +17,23 @@ function ownedTools(){const results=$('#results');if(filter!=='OWNED'||!results)
 function resetDialogScroll(){if(dlg)dlg.scrollTop=0}
 function shuffle(arr){for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]]}return arr}
 function drawRandomId(pool){const ids=pool.map(x=>x.id),universe=randomCycle.universe,sameUniverse=!!universe&&universe.size===ids.length&&ids.every(id=>universe.has(id));if(!sameUniverse||!randomCycle.remaining.length){const shuffled=shuffle(ids.slice()),last=shuffled.length-1;if(last>0&&shuffled[last]===randomCycle.lastId){const j=Math.floor(Math.random()*last);[shuffled[last],shuffled[j]]=[shuffled[j],shuffled[last]]}randomCycle={universe:new Set(ids),remaining:shuffled,lastId:randomCycle.lastId}}const id=randomCycle.remaining.pop();randomCycle.lastId=id;return id}
-function randomGame(){const owned=filter==='OWNED',pool=owned?ownedPool():neededPool();if(!pool.length){$('#syncmsg').textContent=owned?'No owned games match this search.':'No needed games match this price range.';return}const x=byId.get(drawRandomId(pool));detail(x.id);resetDialogScroll();setTimeout(randomDetailButton,0);setTimeout(randomDetailButton,650)}
+let lastRandomWishlistId=null;
+function randomGame(){const owned=filter==='OWNED',pool=owned?ownedPool():neededPool();if(!pool.length){$('#syncmsg').textContent=owned?'No owned games match this search.':'No needed games match this price range.';return}const x=byId.get(drawRandomId(pool));lastRandomWishlistId=owned?null:x.id;detail(x.id);resetDialogScroll();randomDetailButton();
+  // detail() (dossiers.js) itself may re-paint #detail from scratch once more at 500ms if
+  // dossier/HLTB data wasn't ready yet at call time -- that repaint replaces the whole
+  // container, wiping these controls, so re-run once more just after it. Skipped entirely once
+  // data is already loaded (dossiersReady && hltbReady), which is every "ANOTHER RANDOM GAME"
+  // press after the first few seconds of a session -- this is why the controls no longer need
+  // (or use) an unconditional blind-retry timer the way they used to.
+  if(!dossiersReady||!hltbReady)setTimeout(randomDetailButton,520);
+}
 // Random-opened dossiers get ONE reroll control directly below Store Mode's price/verdict
 // area and directly above the Josh Dossier. Anchor to #v instead of guessing by text/content,
 // because dossier enhancement wraps sections and made the old text-based anchor land at top.
-function randomDetailButton(){resetDialogScroll();if(!dlg.open)return;const host=$('#detail');if(!host||host.querySelector('.another-random-thumb'))return;const b=document.createElement('button');b.className='another-random another-random-thumb';b.textContent='🎲 ANOTHER RANDOM GAME';b.onclick=randomGame;const verdict=host.querySelector('#v');if(verdict)verdict.after(b);else{const dossier=host.querySelector('.dossier');if(dossier)dossier.before(b);else host.appendChild(b)}}
+// Called synchronously right after detail() so it (and the Wishlist toggle beside it, see
+// window.renderRandomWishlistToggle) render as part of the same paint -- never a separate,
+// visibly-delayed injection.
+function randomDetailButton(){resetDialogScroll();if(!dlg.open)return;const host=$('#detail');if(!host)return;let b=host.querySelector('.another-random-thumb');if(!b){b=document.createElement('button');b.className='another-random another-random-thumb';b.textContent='🎲 ANOTHER RANDOM GAME';b.onclick=randomGame;const verdict=host.querySelector('#v');if(verdict)verdict.after(b);else{const dossier=host.querySelector('.dossier');if(dossier)dossier.before(b);else host.appendChild(b)}}if(lastRandomWishlistId!=null&&typeof window.renderRandomWishlistToggle==='function')window.renderRandomWishlistToggle(lastRandomWishlistId,host,b)}
 const baseRender=render;render=function(){cleanTools();const original=items;if(filter==='NEEDED'&&priceBand!=='ALL')items=items.filter(inBand);if(filter==='OWNED'&&ownedBand!=='ALL')items=items.filter(inLengthBand);try{baseRender()}finally{items=original}neededTools();ownedTools()};
 function buyMatches(value){const q=norm(value);if(!q)return[];return items.filter(x=>x.set==='INCLUDED'&&x.search.includes(q)).sort((a,b)=>(norm(b.title)===q)-(norm(a.title)===q)||a.title.length-b.title.length||a.title.localeCompare(b.title)).slice(0,8)}
 function buySearch(){const matches=buyMatches($('#buyTitle').value),out=$('#buyMatches');buyChoice=null;out.innerHTML=matches.length?matches.map(x=>{const st=effectiveStatus(x);return `<button data-id="${x.id}"><b>${esc(x.title)}</b><small>${st}${market(x)==null?' · PRICE PENDING':` · CIB ${money(market(x))}`}</small></button>`}).join(''):'<p class="muted">Type a game title.</p>'}
@@ -95,5 +107,5 @@ function runBuyAdvice(){
 }
 function openBuyTool(){buyChoice=null;$('#detail').innerHTML=`<section class="buy-tool"><small>STORE MODE</small><h2>Should I Buy This?</h2><p class="muted">Pick the game, enter the price on the sticker, and ShelfCheck will call it.</p><label>GAME<input id="buyTitle" type="search" placeholder="Start typing a title…" autocomplete="off"></label><div id="buyMatches"><p class="muted">Type a needed game title.</p></div><label>STORE PRICE<input id="buyPrice" type="number" inputmode="decimal" min="0" step=".01" placeholder="$0.00"></label><button id="runBuy">GET VERDICT</button><div id="buyVerdict"></div></section>`;$('#buyTitle').oninput=buySearch;$('#buyMatches').onclick=e=>{const b=e.target.closest('[data-id]');if(b)chooseBuy(b.dataset.id)};$('#runBuy').onclick=runBuyAdvice;$('#buyPrice').onkeydown=e=>{if(e.key==='Enter')runBuyAdvice()};dlg.showModal();setTimeout(()=>$('#buyTitle').focus(),50)}
 function install(){if($('#quickBuyBtn'))return;const b=document.createElement('button');b.id='quickBuyBtn';b.textContent='🤔 SHOULD I BUY THIS?';b.onclick=openBuyTool;(document.querySelector('.shelf-actions')||document.querySelector('.sync')).appendChild(b);render()}
-if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',install);else install();window.SHELFCHECK_FUN={version:107,randomGame,openBuyTool,priceVerdict,buyContextLines};
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',install);else install();window.SHELFCHECK_FUN={version:108,randomGame,openBuyTool,priceVerdict,buyContextLines,get lastRandomWishlistId(){return lastRandomWishlistId}};
 })();
