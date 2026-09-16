@@ -124,6 +124,81 @@
 
   function wishlistedItems(){return items.filter(x=>x.set!=='EXCLUDED'&&isWishlisted(x.id))}
 
+  // Random Wishlist Game: same shuffle-bag/no-repeat pattern as fun-features-v103.js's own
+  // drawRandomId() for NEEDED/OWNED Random Game (shuffle the pool, pop one at a time, reshuffle
+  // -- swapping away an immediate repeat at the boundary -- once the pool's own identity changes
+  // or the bag empties), but with its OWN independent cycle state so drawing from the Wishlist
+  // never shares or disturbs Random Game's bag. drawRandomId() itself is private to fun-features-
+  // v103.js's IIFE and not reachable from here, so this is a small, deliberately separate copy of
+  // the same algorithm rather than a shared one -- scoped exactly like Shelf Roulette's own
+  // independent session bag already is.
+  let wishlistRandomCycle={universe:null,remaining:[],lastId:null};
+  let lastWishlistRandomId=null;
+  function shuffle(arr){for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]]}return arr}
+  function drawWishlistRandomId(pool){
+    const ids=pool.map(x=>x.id),universe=wishlistRandomCycle.universe,sameUniverse=!!universe&&universe.size===ids.length&&ids.every(id=>universe.has(id));
+    if(!sameUniverse||!wishlistRandomCycle.remaining.length){
+      const shuffled=shuffle(ids.slice()),last=shuffled.length-1;
+      if(last>0&&shuffled[last]===wishlistRandomCycle.lastId){const j=Math.floor(Math.random()*last);[shuffled[last],shuffled[j]]=[shuffled[j],shuffled[last]]}
+      wishlistRandomCycle={universe:new Set(ids),remaining:shuffled,lastId:wishlistRandomCycle.lastId};
+    }
+    const id=wishlistRandomCycle.remaining.pop();
+    wishlistRandomCycle.lastId=id;
+    return id;
+  }
+  // Same current-search-respecting shape as fun-features-v103.js's neededPool()/ownedPool() --
+  // drawing while a search filter is active in the Wishlist view only draws from what's actually
+  // shown, and removing the currently-displayed game from the Wishlist (or it becoming OWNED,
+  // handled by the auto-removal above) simply makes it disappear from this live pool on the very
+  // next draw -- no separate bookkeeping needed.
+  function wishlistRandomPool(){const q=norm($('#q').value);return wishlistedItems().filter(x=>!q||x.search.includes(q))}
+  function resetDialogScroll(){if(dlg)dlg.scrollTop=0}
+  function randomWishlistGame(){
+    const pool=wishlistRandomPool();
+    if(!pool.length){$('#syncmsg').textContent='Your wishlist is empty.';return}
+    lastWishlistRandomId=drawWishlistRandomId(pool);
+    detail(lastWishlistRandomId);
+    resetDialogScroll();
+    randomWishlistDetailButton();
+    if(!dossiersReady||!hltbReady)setTimeout(randomWishlistDetailButton,520);
+  }
+  // Mirrors fun-features-v103.js's randomDetailButton() exactly -- same anchor-off-#v-or-before-
+  // .dossier placement, same synchronous call right after detail() so the reroll control and the
+  // Wishlist toggle beside it render as part of one paint, never a delayed injection. Opens the
+  // real, normal detail()/dossier view -- there is no separate "Wishlist detail screen".
+  function randomWishlistDetailButton(){
+    resetDialogScroll();
+    if(!dlg.open)return;
+    const host=$('#detail');
+    if(!host)return;
+    let b=host.querySelector('.another-wishlist-thumb');
+    if(!b){
+      b=document.createElement('button');
+      b.className='another-random another-wishlist-thumb';
+      b.textContent='🎲 ANOTHER WISHLIST GAME';
+      b.onclick=randomWishlistGame;
+      const verdict=host.querySelector('#v');
+      if(verdict)verdict.after(b);
+      else{const dossier=host.querySelector('.dossier');if(dossier)dossier.before(b);else host.appendChild(b)}
+    }
+    if(lastWishlistRandomId!=null)renderRandomWishlistToggle(lastWishlistRandomId,host,b);
+  }
+  // Entry point, shown only in the Wishlist view itself -- same "info blurb + button" .hunt-
+  // tools/.hunt-random box fun-features-v103.js's ownedTools() already uses for its own Random
+  // entry point, so this needs no new CSS. fun-features-v103.js's cleanTools() already wipes
+  // every .hunt-tools section on every render before the current filter's own tools (including
+  // this one) get re-added, so no separate duplicate-guard is needed here.
+  function wishlistTools(){
+    const results=$('#results');
+    if(!results)return;
+    const pool=wishlistRandomPool();
+    const box=document.createElement('section');
+    box.className='hunt-tools wishlist-random-tools';
+    box.innerHTML=`<div class="hunt-random"><div><small>WANT TO REDISCOVER SOMETHING?</small><b>${pool.length} wishlisted ${pool.length===1?'game':'games'}</b></div><button id="randomWishlist">🎲 RANDOM WISHLIST GAME</button></div>`;
+    results.before(box);
+    box.querySelector('#randomWishlist').onclick=randomWishlistGame;
+  }
+
   const _renderForWishlist=render;
   render=function(){
     if(filter==='WISHLIST'){
@@ -135,11 +210,12 @@
       if(!wishlisted.length&&!norm($('#q').value)){
         $('#results').innerHTML='<div class="muted" style="text-align:center;padding:22px 14px"><p style="font-weight:700;margin:0 0 8px">⭐ Your wishlist is empty</p><p style="margin:0">Save games you want to hunt for by tapping ☆ ADD TO WISHLIST from Random Game.</p></div>';
       }
+      wishlistTools();
       return;
     }
     _renderForWishlist();
     decorateWishlistBadges();
   };
 
-  window.SHELFCHECK_WISHLIST={version:1,isWishlisted,addWishlist,removeWishlist,toggleWishlist,wishlistedItems,decorateWishlistBadges,renderRandomWishlistToggle};
+  window.SHELFCHECK_WISHLIST={version:2,isWishlisted,addWishlist,removeWishlist,toggleWishlist,wishlistedItems,decorateWishlistBadges,renderRandomWishlistToggle,randomWishlistGame,wishlistRandomPool,get lastWishlistRandomId(){return lastWishlistRandomId}};
 })();
