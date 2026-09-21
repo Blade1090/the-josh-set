@@ -1996,134 +1996,134 @@
     },
     {
       "checkpointNumber": 13,
-      "status": "PENDING",
-      "overrideBatchFile": null,
+      "status": "VALIDATED",
+      "overrideBatchFile": "dossier-overrides-77.js",
       "commitSha": null,
       "identities": [
         {
           "id": 1357,
           "t": "Trials Fusion",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1359,
           "t": "Trials of Mana",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1360,
           "t": "Trials of the Blood Dragon",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1362,
           "t": "Tribes of Midgard [Deluxe Edition]",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1363,
           "t": "Tricky Towers",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1364,
           "t": "Trine 4: The Nightmare Prince",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1366,
           "t": "Troll and I",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1367,
           "t": "Trollhunters Defenders of Arcadia",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1368,
           "t": "Tropico 5",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1370,
           "t": "Tropico 6",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1372,
           "t": "Truberbrook",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1373,
           "t": "Truck Driver",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1374,
           "t": "Tumblestone",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1376,
           "t": "Two Point Hospital",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1377,
           "t": "Ultimate Marvel vs. Capcom 3",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1379,
           "t": "Uncharted 4: A Thief's End",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1380,
           "t": "Uncharted: The Lost Legacy",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1382,
           "t": "Undertale",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1383,
           "t": "Unepic",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1386,
           "t": "Until Dawn",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1387,
           "t": "Untitled Goose Game",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1389,
           "t": "Utawarerumono: Mask of Deception",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1390,
           "t": "Utawarerumono: Mask of Truth",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1391,
           "t": "Utawarerumono: Prelude to the Fallen",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1392,
           "t": "Valfaris",
-          "state": "PENDING"
+          "state": "VALIDATED"
         }
       ]
     },
