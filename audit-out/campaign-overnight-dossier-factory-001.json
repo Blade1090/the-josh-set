@@ -787,134 +787,134 @@
     },
     {
       "checkpointNumber": 4,
-      "status": "VALIDATED",
+      "status": "COMMITTED",
       "overrideBatchFile": "dossier-overrides-68.js",
-      "commitSha": null,
+      "commitSha": "517ca8ce285b7b8a227c453768f61217cf13ac4e",
       "identities": [
         {
           "id": 352,
           "t": "Destiny",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 358,
           "t": "Detroit: Become Human",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 364,
           "t": "Diablo III: Ultimate Evil Edition",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 366,
           "t": "Digimon Story Cyber Sleuth: Hacker's Memory",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 399,
           "t": "Dragon Ball Z: Kakarot",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 402,
           "t": "Dragon Fantasy: The Black Tome of Ice",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 408,
           "t": "Dragon Star Varnir",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 411,
           "t": "Dragon's Lair Trilogy",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 415,
           "t": "Duke Nukem 3D: 20th Anniversary World Tour",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 416,
           "t": "Dungeon of the Endless",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 417,
           "t": "Dungeons 3",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 421,
           "t": "Dying Light: The Following",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 422,
           "t": "Dynasty Warriors 8 Empires",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 423,
           "t": "Dynasty Warriors 9",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 424,
           "t": "Earth Atlantis",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 430,
           "t": "Earthlock: Festival of Magic",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 431,
           "t": "EarthNight",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 432,
           "t": "Edge Of Eternity",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 437,
           "t": "Elliot Quest",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 441,
           "t": "Escape Game: Fort Boyard",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 442,
           "t": "Escape Goat 2",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 443,
           "t": "ETHER One",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 446,
           "t": "EVERSPACE",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 452,
           "t": "Exist Archive: The Other Side of the Sky",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 455,
           "t": "Fade to Silence",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         }
       ]
     },
@@ -2440,7 +2440,7 @@
       ]
     }
   ],
-  "currentCheckpoint": 4,
+  "currentCheckpoint": 5,
   "totalEligible": 385,
   "totalCheckpoints": 16
 }
