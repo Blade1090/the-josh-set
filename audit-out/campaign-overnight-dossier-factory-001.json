@@ -1319,134 +1319,134 @@
     },
     {
       "checkpointNumber": 8,
-      "status": "VALIDATED",
+      "status": "COMMITTED",
       "overrideBatchFile": "dossier-overrides-72.js",
-      "commitSha": null,
+      "commitSha": "c94b90e1e6bbe5b963f5cfd4800f94b48f1e6860",
       "identities": [
         {
           "id": 955,
           "t": "Railway Empire",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 961,
           "t": "Ratchet & Clank",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 964,
           "t": "Red Dead Redemption 2",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 974,
           "t": "Remothered: Tormented Fathers",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 978,
           "t": "Resident Evil 4",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1027,
           "t": "Sackboy: A Big Adventure",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1034,
           "t": "Samurai Shodown V Special",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1062,
           "t": "Shadows: Awakening",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1070,
           "t": "Shenmue III",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1078,
           "t": "Skater XL",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1117,
           "t": "SpellForce III: Reforced",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1123,
           "t": "SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1128,
           "t": "Star Ocean: Integrity and Faithlessness",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1133,
           "t": "Star Wars Jedi Knight II: Jedi Outcast",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1134,
           "t": "Star Wars Jedi Knight: Jedi Academy",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1135,
           "t": "Star Wars Jedi: Fallen Order",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1138,
           "t": "Star Wars: Squadrons",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1142,
           "t": "Starlink: Battle for Atlas",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1152,
           "t": "Story of Seasons: Friends of Mineral Town",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1156,
           "t": "Strange Brigade",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1159,
           "t": "Street Fighter V",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1168,
           "t": "Sudden Strike 4",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1182,
           "t": "Super Street: The Game",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1192,
           "t": "Sword Art Online: Fatal Bullet",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1194,
           "t": "Sword Art Online: Lost Song",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         }
       ]
     },
@@ -2440,7 +2440,7 @@
       ]
     }
   ],
-  "currentCheckpoint": 8,
+  "currentCheckpoint": 9,
   "totalEligible": 385,
   "totalCheckpoints": 16
 }
