@@ -521,134 +521,134 @@
     },
     {
       "checkpointNumber": 2,
-      "status": "VALIDATED",
+      "status": "COMMITTED",
       "overrideBatchFile": "dossier-overrides-66.js",
-      "commitSha": null,
+      "commitSha": "e1e7d2a21904a2c1d2d6aba9c232fbdcdebf40e1",
       "identities": [
         {
           "id": 123,
           "t": "Away: Journey to the Unexpected",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 124,
           "t": "Awesomenauts Assemble!",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 125,
           "t": "Axiom Verge",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 126,
           "t": "Azur Lane: Crosswave",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 127,
           "t": "Azure Striker Gunvolt: Striker Pack",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 131,
           "t": "Bastion",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 136,
           "t": "Batman: The Telltale Series",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 137,
           "t": "Battle Chasers: Nightwar",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 138,
           "t": "Battle Chef Brigade",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 143,
           "t": "Battlefield 1",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 144,
           "t": "Battlefield 4",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 145,
           "t": "Battlefield Hardline",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 146,
           "t": "Battlefield V",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 147,
           "t": "Battlezone",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 152,
           "t": "Beast Quest",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 156,
           "t": "Ben 10",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 166,
           "t": "Birthdays the Beginning",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 167,
           "t": "Black Clover: Quartet Knights",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 168,
           "t": "Black Desert",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 169,
           "t": "Black Mirror",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 170,
           "t": "Blackguards 2",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 172,
           "t": "Blacksad: Under the Skin",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 173,
           "t": "Blade Strangers",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 187,
           "t": "Bloodborne",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 195,
           "t": "Bomber Crew",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         }
       ]
     },
@@ -2440,7 +2440,7 @@
       ]
     }
   ],
-  "currentCheckpoint": 2,
+  "currentCheckpoint": 3,
   "totalEligible": 385,
   "totalCheckpoints": 16
 }
