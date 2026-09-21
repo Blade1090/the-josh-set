@@ -654,134 +654,134 @@
     },
     {
       "checkpointNumber": 3,
-      "status": "VALIDATED",
+      "status": "COMMITTED",
       "overrideBatchFile": "dossier-overrides-67.js",
-      "commitSha": null,
+      "commitSha": "292ea8f764f9e80bdec44588ee6f78d73e1a4d89",
       "identities": [
         {
           "id": 200,
           "t": "Bound by Flame",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 209,
           "t": "Buddy Simulator 1984",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 211,
           "t": "Bug Fables: The Everlasting Sapling",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 217,
           "t": "Call of Duty: Black Ops 4",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 218,
           "t": "Call of Duty: Black Ops III",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 224,
           "t": "Callisto Protocol [Day One Edition]",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 234,
           "t": "Cat Quest",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 250,
           "t": "ClaDun Returns: This is Sengoku!",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 264,
           "t": "Constructor",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 265,
           "t": "Contra Anniversary Collection",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 275,
           "t": "Crawl",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 278,
           "t": "Cris Tales",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 281,
           "t": "Crossing Souls",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 283,
           "t": "Crystal Crisis",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 284,
           "t": "Crystar",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 286,
           "t": "Curses 'N Chaos",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 288,
           "t": "Cyberdimension Neptunia: 4 Goddesses Online",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 289,
           "t": "Cyberpunk 2077",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 295,
           "t": "Danganronpa V3: Killing Harmony",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 316,
           "t": "Daymare: 1998",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 333,
           "t": "Dead Rising 2",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 339,
           "t": "Death Mark",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 342,
           "t": "Death's Gambit",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 348,
           "t": "Deponia",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 351,
           "t": "Desperados III",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         }
       ]
     },
@@ -2440,7 +2440,7 @@
       ]
     }
   ],
-  "currentCheckpoint": 3,
+  "currentCheckpoint": 4,
   "totalEligible": 385,
   "totalCheckpoints": 16
 }
