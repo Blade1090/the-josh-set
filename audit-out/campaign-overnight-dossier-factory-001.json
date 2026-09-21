@@ -375,134 +375,134 @@
   "checkpoints": [
     {
       "checkpointNumber": 1,
-      "status": "VALIDATED",
+      "status": "COMMITTED",
       "overrideBatchFile": "dossier-overrides-65.js",
-      "commitSha": null,
+      "commitSha": "54614388c34b26c80fe4cc1479be93bc5c68e5e8",
       "identities": [
         {
           "id": 53,
           "t": "Air Conflicts: Pacific Carriers",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 79,
           "t": "Anthem",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 81,
           "t": "Apex Legends",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 86,
           "t": "Arcade Classics Anniversary Collection",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 87,
           "t": "Arcade Spirits",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 89,
           "t": "Arcania: The Complete Tale",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 91,
           "t": "ARK: Survival Evolved",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 94,
           "t": "Arslan: The Warriors of Legend",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 95,
           "t": "Art of Fighting Anthology",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 97,
           "t": "Assassin's Creed Chronicles",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 98,
           "t": "Assassin's Creed III Remastered",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 100,
           "t": "Assassin's Creed Odyssey",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 101,
           "t": "Assassin's Creed Origins",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 107,
           "t": "Assault Suit Leynos",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 108,
           "t": "Assetto Corsa",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 110,
           "t": "ASTRONEER",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 113,
           "t": "Atelier Firis: The Alchemist and the Mysterious Journey",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 114,
           "t": "Atelier Lulua: The Scion of Arland",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 116,
           "t": "Atelier Ryza: Ever Darkness & the Secret Hideout",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 117,
           "t": "Atelier Sophie: The Alchemist of the Mysterious Book",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 118,
           "t": "Attack on Titan",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 119,
           "t": "Attack on Titan 2",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 120,
           "t": "Attack on Titan 2: Final Battle",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 121,
           "t": "Aven Colony",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 122,
           "t": "AVICII Invector",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         }
       ]
     },
@@ -2427,7 +2427,7 @@
       ]
     }
   ],
-  "currentCheckpoint": 1,
+  "currentCheckpoint": 2,
   "totalEligible": 385,
   "totalCheckpoints": 16
 }
