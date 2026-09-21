@@ -920,134 +920,134 @@
     },
     {
       "checkpointNumber": 5,
-      "status": "PENDING",
-      "overrideBatchFile": null,
+      "status": "VALIDATED",
+      "overrideBatchFile": "dossier-overrides-69.js",
       "commitSha": null,
       "identities": [
         {
           "id": 457,
           "t": "Fairy Tail",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 458,
           "t": "Fallen Legion: Flames of Rebellion",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 459,
           "t": "Fallout 4",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 460,
           "t": "Fallout 76",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 461,
           "t": "Far Cry 3: Classic Edition",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 466,
           "t": "FAR: Lone Sails",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 467,
           "t": "Fast & Furious Crossroads",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 469,
           "t": "Fat Princess Adventures",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 470,
           "t": "Fatal Fury: Battle Archives Volume 2",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 473,
           "t": "fault milestone one",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 476,
           "t": "Fight'N Rage",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 497,
           "t": "FlatOut 4: Total Insanity",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 502,
           "t": "Forager",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 504,
           "t": "Fortnite",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 505,
           "t": "FOX n FORESTS",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 508,
           "t": "Freedom Planet",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 512,
           "t": "Furi",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 514,
           "t": "Gal Gunvolt Burst",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 517,
           "t": "Game of Thrones: A Telltale Games Series",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 518,
           "t": "Game Tengoku: Cruisin Mix Special",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 521,
           "t": "Garou: Mark of the Wolves",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 522,
           "t": "Gas Guzzlers Extreme",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 524,
           "t": "Genesis Alpha One",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 525,
           "t": "Geometry Wars 3: Dimensions",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 526,
           "t": "Ghost Blade HD",
-          "state": "PENDING"
+          "state": "VALIDATED"
         }
       ]
     },
