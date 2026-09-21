@@ -370,7 +370,20 @@
       "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
     }
   ],
-  "curatorReviewQueue": [],
+  "curatorReviewQueue": [
+    {
+      "id": 147,
+      "t": "Battlezone",
+      "issue": "PSVR_PATCH_STATUS",
+      "evidence": "Originally PSVR-required at launch; a free May 2018 Gold Edition update added a non-VR Classic Mode for all existing owners. Dossier written reflecting current playable-without-VR state, but flagging for curator awareness since the underlying census rule concerns PSVR requirement and this is a patched-not-originally-optional case (same category as The Persistence, previously reviewed and KEPT)."
+    },
+    {
+      "id": 168,
+      "t": "Black Desert",
+      "issue": "SERVER_SHUTDOWN",
+      "evidence": "Pearl Abyss ended all PS4 server support on June 26, 2025 (confirmed via PlayStation.Blog/PSU/official Pearl Abyss notice). The game can no longer be downloaded or played on PS4 in any form; PS4 owners were offered a free upgrade to the PS5 version. The physical PS4 disc no longer represents a functioning game. Dossier written factually noting this; census status NOT changed pending curator decision on whether a server-dead online-only game still qualifies as a meaningfully playable physical PS4 identity."
+    }
+  ],
   "failures": [],
   "checkpoints": [
     {
@@ -508,134 +521,134 @@
     },
     {
       "checkpointNumber": 2,
-      "status": "PENDING",
-      "overrideBatchFile": null,
+      "status": "VALIDATED",
+      "overrideBatchFile": "dossier-overrides-66.js",
       "commitSha": null,
       "identities": [
         {
           "id": 123,
           "t": "Away: Journey to the Unexpected",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 124,
           "t": "Awesomenauts Assemble!",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 125,
           "t": "Axiom Verge",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 126,
           "t": "Azur Lane: Crosswave",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 127,
           "t": "Azure Striker Gunvolt: Striker Pack",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 131,
           "t": "Bastion",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 136,
           "t": "Batman: The Telltale Series",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 137,
           "t": "Battle Chasers: Nightwar",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 138,
           "t": "Battle Chef Brigade",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 143,
           "t": "Battlefield 1",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 144,
           "t": "Battlefield 4",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 145,
           "t": "Battlefield Hardline",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 146,
           "t": "Battlefield V",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 147,
           "t": "Battlezone",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 152,
           "t": "Beast Quest",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 156,
           "t": "Ben 10",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 166,
           "t": "Birthdays the Beginning",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 167,
           "t": "Black Clover: Quartet Knights",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 168,
           "t": "Black Desert",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 169,
           "t": "Black Mirror",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 170,
           "t": "Blackguards 2",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 172,
           "t": "Blacksad: Under the Skin",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 173,
           "t": "Blade Strangers",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 187,
           "t": "Bloodborne",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 195,
           "t": "Bomber Crew",
-          "state": "PENDING"
+          "state": "VALIDATED"
         }
       ]
     },
