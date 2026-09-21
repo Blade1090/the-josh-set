@@ -5,7 +5,7 @@
 //   app.js -> model-fix.js -> every census-mutating script -> census-finalize.js
 //     (the actual current INCLUDED set, not the raw baked-in data files)
 //   -> dossiers.js (the real dossierFor() / dossierQuality() / auditDossiers())
-//   -> all 61 dossier-overrides-N.js files -> dossier-apply.js (the real override-merge logic)
+//   -> all 62 dossier-overrides-N.js files -> dossier-apply.js (the real override-merge logic)
 // None of that logic is reimplemented here. In particular, coverage is never judged by mere
 // object existence: dossierQuality() already distinguishes good/thin/generic/badSummary/missing,
 // exactly the classification dossierHtml() uses to decide what a user actually sees ("RESEARCH
@@ -46,9 +46,9 @@ const CENSUS_MUTATORS = [
   'curation-josh-set-pass-v004.js',
 ];
 
-// dossier-overrides.js is batch 1 (no numeric suffix); dossier-overrides-2.js..-61.js are 2-61.
-// Kept in sync with dossier-apply.js's own DOSSIER_OVERRIDES/_2/../_61 global name list by hand.
-const OVERRIDE_BATCHES = Array.from({ length: 61 }, (_, i) => {
+// dossier-overrides.js is batch 1 (no numeric suffix); dossier-overrides-2.js..-62.js are 2-62.
+// Kept in sync with dossier-apply.js's own DOSSIER_OVERRIDES/_2/../_62 global name list by hand.
+const OVERRIDE_BATCHES = Array.from({ length: 62 }, (_, i) => {
   const n = i + 1;
   return { file: n === 1 ? 'dossier-overrides.js' : `dossier-overrides-${n}.js`, global: n === 1 ? 'DOSSIER_OVERRIDES' : `DOSSIER_OVERRIDES_${n}` };
 });
@@ -230,7 +230,7 @@ async function main() {
   const pct = (n) => `${((n / includedCount) * 100).toFixed(2)}%`;
   const report = {
     generatedAt: new Date().toISOString(),
-    method: 'Runtime resolution trace: app.js -> model-fix.js -> full census-mutator pipeline -> census-finalize.js -> dossiers.js (dossierFor/dossierQuality/auditDossiers, real) -> all 61 dossier-overrides-N.js -> dossier-apply.js (real override merge). Coverage is never judged by object existence alone.',
+    method: 'Runtime resolution trace: app.js -> model-fix.js -> full census-mutator pipeline -> census-finalize.js -> dossiers.js (dossierFor/dossierQuality/auditDossiers, real) -> all 62 dossier-overrides-N.js -> dossier-apply.js (real override merge). Coverage is never judged by object existence alone.',
     includedCensusCount: includedCount,
     liveRuntimeDossierAudit: liveAudit,
     categories: {
