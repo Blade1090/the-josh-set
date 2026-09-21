@@ -2262,134 +2262,134 @@
     },
     {
       "checkpointNumber": 15,
-      "status": "PENDING",
-      "overrideBatchFile": null,
+      "status": "VALIDATED",
+      "overrideBatchFile": "dossier-overrides-79.js",
       "commitSha": null,
       "identities": [
         {
           "id": 1440,
           "t": "Wolfenstein II: The New Colossus",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1442,
           "t": "Wolfenstein: The New Order",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1443,
           "t": "Wolfenstein: The Old Blood",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1444,
           "t": "Wolfenstein: Youngblood",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1445,
           "t": "Wonder Boy Collection",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1446,
           "t": "Wonder Boy: The Dragon's Trap",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1449,
           "t": "World of Final Fantasy",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1452,
           "t": "World to the West",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1453,
           "t": "World War Z",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1456,
           "t": "Worms W.M.D",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1458,
           "t": "Wreckfest",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1460,
           "t": "XCOM 2",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1462,
           "t": "Xenon Racer",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1464,
           "t": "Xeodrifter",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1466,
           "t": "Yaga",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1468,
           "t": "Yakuza 3 Remastered",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1469,
           "t": "Yakuza 4 Remastered",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1470,
           "t": "Yakuza 5 Remastered",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1471,
           "t": "Yakuza 6: The Song of Life",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1474,
           "t": "Yesterday Origins",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1476,
           "t": "Yomawari: Midnight Shadows",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1477,
           "t": "Yonder: The Cloud Catcher Chronicles",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1478,
           "t": "Yooka-Laylee",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1479,
           "t": "Yooka-Laylee and the Impossible Lair",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1480,
           "t": "Ys Origin",
-          "state": "PENDING"
+          "state": "VALIDATED"
         }
       ]
     },
