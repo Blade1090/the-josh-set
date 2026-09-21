@@ -1464,134 +1464,134 @@
     },
     {
       "checkpointNumber": 9,
-      "status": "VALIDATED",
+      "status": "COMMITTED",
       "overrideBatchFile": "dossier-overrides-73.js",
-      "commitSha": null,
+      "commitSha": "57e95128bb2741ae8b0cf6e02d65b4d067ce8731",
       "identities": [
         {
           "id": 1195,
           "t": "Syberia 3",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1199,
           "t": "Tales of Arise",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1200,
           "t": "Tales of Berseria",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1209,
           "t": "Terminator: Resistance",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1211,
           "t": "Terraria",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1212,
           "t": "Teslagrad",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1213,
           "t": "Tetris Effect",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1214,
           "t": "The 25th Ward: The Silver Case",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1215,
           "t": "The Alliance Alive HD Remastered",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1218,
           "t": "The Aquatic Adventure of the Last Human",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1220,
           "t": "The Bard's Tale IV: Director's Cut",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1221,
           "t": "The Bard's Tale: Remastered and Resnarkled",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1222,
           "t": "The Binding of Isaac: Afterbirth+",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1223,
           "t": "The Bit.Trip",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1224,
           "t": "The Book of Unwritten Tales 2",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1225,
           "t": "The Bunker",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1226,
           "t": "The Caligula Effect: Overdose",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1227,
           "t": "The Church in the Darkness",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1228,
           "t": "The Coma: Recut",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1230,
           "t": "The Council",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1231,
           "t": "The Crew",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1232,
           "t": "The Crew 2",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1233,
           "t": "The Crew: Wild Run",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1235,
           "t": "The Dark Pictures - Little Hope",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1237,
           "t": "The Dwarves",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         }
       ]
     },
@@ -2452,7 +2452,7 @@
       ]
     }
   ],
-  "currentCheckpoint": 9,
+  "currentCheckpoint": 10,
   "totalEligible": 385,
   "totalCheckpoints": 16
 }
