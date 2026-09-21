@@ -1863,134 +1863,134 @@
     },
     {
       "checkpointNumber": 12,
-      "status": "PENDING",
-      "overrideBatchFile": null,
+      "status": "VALIDATED",
+      "overrideBatchFile": "dossier-overrides-76.js",
       "commitSha": null,
       "identities": [
         {
           "id": 1320,
           "t": "This Is the Police",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1322,
           "t": "Thomas Was Alone",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1326,
           "t": "Timespinner",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1327,
           "t": "Tiny Troopers: Joint Ops",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1328,
           "t": "Titan Quest",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1331,
           "t": "ToeJam & Earl: Back in the Groove",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1332,
           "t": "Toki Tori 2 +",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1334,
           "t": "Tokyo Ghoul: re Call to Exist",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1335,
           "t": "Tokyo Xanadu eX+",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1337,
           "t": "Tom Clancy's The Division",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1338,
           "t": "Tom Clancy's The Division 2",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1339,
           "t": "Tomb Raider: Definitive Edition",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1340,
           "t": "Tony Hawk's Pro Skater 1 + 2",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1341,
           "t": "Torment: Tides of Numenera",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1343,
           "t": "Touhou Genso Wanderer",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1344,
           "t": "Touhou Kobuto V: Burst Battle",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1345,
           "t": "Toukiden 2",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1346,
           "t": "Toukiden: Kiwami",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1347,
           "t": "Tower of Guns",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1348,
           "t": "Toy Soldiers: War Chest",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1350,
           "t": "Train Sim World",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1351,
           "t": "Train Sim World 2020",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1353,
           "t": "Transformers: Devastation",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1354,
           "t": "Transformers: Rise of the Dark Spark",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1355,
           "t": "Transistor",
-          "state": "PENDING"
+          "state": "VALIDATED"
         }
       ]
     },
