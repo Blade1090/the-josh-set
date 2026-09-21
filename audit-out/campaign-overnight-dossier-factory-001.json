@@ -382,6 +382,18 @@
       "t": "Black Desert",
       "issue": "SERVER_SHUTDOWN",
       "evidence": "Pearl Abyss ended all PS4 server support on June 26, 2025 (confirmed via PlayStation.Blog/PSU/official Pearl Abyss notice). The game can no longer be downloaded or played on PS4 in any form; PS4 owners were offered a free upgrade to the PS5 version. The physical PS4 disc no longer represents a functioning game. Dossier written factually noting this; census status NOT changed pending curator decision on whether a server-dead online-only game still qualifies as a meaningfully playable physical PS4 identity."
+    },
+    {
+      "id": 1231,
+      "t": "The Crew",
+      "issue": "SERVER_SHUTDOWN_TOTAL",
+      "evidence": "Ubisoft permanently shut down all servers and delisted the game on March 31, 2024, revoking licenses. Always-online with no offline mode -- the entire game, including single-player, is now unplayable on any platform for any owner, physical disc included. More severe than a single-platform sunset. Census status NOT changed pending curator decision."
+    },
+    {
+      "id": 1233,
+      "t": "The Crew: Wild Run",
+      "issue": "SERVER_SHUTDOWN_TOTAL",
+      "evidence": "Same underlying game/shutdown as The Crew (id 1231) -- this expansion-inclusive edition is equally completely unplayable since the March 2024 permanent server shutdown. Census status NOT changed pending curator decision."
     }
   ],
   "failures": [],
@@ -1452,134 +1464,134 @@
     },
     {
       "checkpointNumber": 9,
-      "status": "PENDING",
-      "overrideBatchFile": null,
+      "status": "VALIDATED",
+      "overrideBatchFile": "dossier-overrides-73.js",
       "commitSha": null,
       "identities": [
         {
           "id": 1195,
           "t": "Syberia 3",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1199,
           "t": "Tales of Arise",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1200,
           "t": "Tales of Berseria",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1209,
           "t": "Terminator: Resistance",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1211,
           "t": "Terraria",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1212,
           "t": "Teslagrad",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1213,
           "t": "Tetris Effect",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1214,
           "t": "The 25th Ward: The Silver Case",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1215,
           "t": "The Alliance Alive HD Remastered",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1218,
           "t": "The Aquatic Adventure of the Last Human",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1220,
           "t": "The Bard's Tale IV: Director's Cut",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1221,
           "t": "The Bard's Tale: Remastered and Resnarkled",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1222,
           "t": "The Binding of Isaac: Afterbirth+",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1223,
           "t": "The Bit.Trip",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1224,
           "t": "The Book of Unwritten Tales 2",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1225,
           "t": "The Bunker",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1226,
           "t": "The Caligula Effect: Overdose",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1227,
           "t": "The Church in the Darkness",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1228,
           "t": "The Coma: Recut",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1230,
           "t": "The Council",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1231,
           "t": "The Crew",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1232,
           "t": "The Crew 2",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1233,
           "t": "The Crew: Wild Run",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1235,
           "t": "The Dark Pictures - Little Hope",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1237,
           "t": "The Dwarves",
-          "state": "PENDING"
+          "state": "VALIDATED"
         }
       ]
     },
