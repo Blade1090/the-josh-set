@@ -1730,134 +1730,134 @@
     },
     {
       "checkpointNumber": 11,
-      "status": "VALIDATED",
+      "status": "COMMITTED",
       "overrideBatchFile": "dossier-overrides-75.js",
-      "commitSha": null,
+      "commitSha": "4c5cd2b15e58b026a9d5322e9879c7befe7f1f8c",
       "identities": [
         {
           "id": 1277,
           "t": "The Missing: JJ Macfield and the Island of Memories",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1279,
           "t": "The Ninja Saviors: Return of the Warriors",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1281,
           "t": "The Order: 1886",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1282,
           "t": "The Outer Worlds",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1283,
           "t": "The Persistence",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1284,
           "t": "The Pinball Arcade",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1285,
           "t": "The Princess Guide",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1286,
           "t": "The Raven Remastered",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1289,
           "t": "The Shapeshifting Detective",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1290,
           "t": "The Silver Case",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1291,
           "t": "The Sims 4",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1294,
           "t": "The Sinking City",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1296,
           "t": "The Surge 2",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1297,
           "t": "The Swapper",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1298,
           "t": "The Swindle",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1299,
           "t": "The Swords of Ditto: Mormo's Curse",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1301,
           "t": "The Technomancer",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1302,
           "t": "The Town of Light",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1310,
           "t": "The Witch and the Hundred Knight 2",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1312,
           "t": "The Witcher 3: Wild Hunt",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1313,
           "t": "The Wolf Among Us",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1314,
           "t": "The Wonderful 101: Remastered",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1316,
           "t": "theHunter: Call of the Wild",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1317,
           "t": "They Are Billions",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1318,
           "t": "Thief",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         }
       ]
     },
@@ -2452,7 +2452,7 @@
       ]
     }
   ],
-  "currentCheckpoint": 11,
+  "currentCheckpoint": 12,
   "totalEligible": 385,
   "totalCheckpoints": 16
 }
