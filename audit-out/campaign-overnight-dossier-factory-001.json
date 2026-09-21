@@ -1996,134 +1996,134 @@
     },
     {
       "checkpointNumber": 13,
-      "status": "VALIDATED",
+      "status": "COMMITTED",
       "overrideBatchFile": "dossier-overrides-77.js",
-      "commitSha": null,
+      "commitSha": "8efbdb30850e108f6e59814730fdc0678980e315",
       "identities": [
         {
           "id": 1357,
           "t": "Trials Fusion",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1359,
           "t": "Trials of Mana",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1360,
           "t": "Trials of the Blood Dragon",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1362,
           "t": "Tribes of Midgard [Deluxe Edition]",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1363,
           "t": "Tricky Towers",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1364,
           "t": "Trine 4: The Nightmare Prince",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1366,
           "t": "Troll and I",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1367,
           "t": "Trollhunters Defenders of Arcadia",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1368,
           "t": "Tropico 5",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1370,
           "t": "Tropico 6",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1372,
           "t": "Truberbrook",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1373,
           "t": "Truck Driver",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1374,
           "t": "Tumblestone",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1376,
           "t": "Two Point Hospital",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1377,
           "t": "Ultimate Marvel vs. Capcom 3",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1379,
           "t": "Uncharted 4: A Thief's End",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1380,
           "t": "Uncharted: The Lost Legacy",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1382,
           "t": "Undertale",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1383,
           "t": "Unepic",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1386,
           "t": "Until Dawn",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1387,
           "t": "Untitled Goose Game",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1389,
           "t": "Utawarerumono: Mask of Deception",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1390,
           "t": "Utawarerumono: Mask of Truth",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1391,
           "t": "Utawarerumono: Prelude to the Fallen",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1392,
           "t": "Valfaris",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         }
       ]
     },
@@ -2452,7 +2452,7 @@
       ]
     }
   ],
-  "currentCheckpoint": 13,
+  "currentCheckpoint": 14,
   "totalEligible": 385,
   "totalCheckpoints": 16
 }
