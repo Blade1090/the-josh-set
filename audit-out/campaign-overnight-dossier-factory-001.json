@@ -920,134 +920,134 @@
     },
     {
       "checkpointNumber": 5,
-      "status": "VALIDATED",
+      "status": "COMMITTED",
       "overrideBatchFile": "dossier-overrides-69.js",
-      "commitSha": null,
+      "commitSha": "352df47099b856c67a55fa17b7e8be620f4a1eaa",
       "identities": [
         {
           "id": 457,
           "t": "Fairy Tail",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 458,
           "t": "Fallen Legion: Flames of Rebellion",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 459,
           "t": "Fallout 4",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 460,
           "t": "Fallout 76",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 461,
           "t": "Far Cry 3: Classic Edition",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 466,
           "t": "FAR: Lone Sails",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 467,
           "t": "Fast & Furious Crossroads",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 469,
           "t": "Fat Princess Adventures",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 470,
           "t": "Fatal Fury: Battle Archives Volume 2",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 473,
           "t": "fault milestone one",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 476,
           "t": "Fight'N Rage",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 497,
           "t": "FlatOut 4: Total Insanity",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 502,
           "t": "Forager",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 504,
           "t": "Fortnite",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 505,
           "t": "FOX n FORESTS",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 508,
           "t": "Freedom Planet",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 512,
           "t": "Furi",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 514,
           "t": "Gal Gunvolt Burst",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 517,
           "t": "Game of Thrones: A Telltale Games Series",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 518,
           "t": "Game Tengoku: Cruisin Mix Special",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 521,
           "t": "Garou: Mark of the Wolves",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 522,
           "t": "Gas Guzzlers Extreme",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 524,
           "t": "Genesis Alpha One",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 525,
           "t": "Geometry Wars 3: Dimensions",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 526,
           "t": "Ghost Blade HD",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         }
       ]
     },
@@ -2440,7 +2440,7 @@
       ]
     }
   ],
-  "currentCheckpoint": 5,
+  "currentCheckpoint": 6,
   "totalEligible": 385,
   "totalCheckpoints": 16
 }
