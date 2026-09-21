@@ -2395,59 +2395,59 @@
     },
     {
       "checkpointNumber": 16,
-      "status": "PENDING",
-      "overrideBatchFile": null,
+      "status": "VALIDATED",
+      "overrideBatchFile": "dossier-overrides-80.js",
       "commitSha": null,
       "identities": [
         {
           "id": 1481,
           "t": "Ys VIII: Lacrimosa of DANA",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1482,
           "t": "Ys: Memories of Celceta",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1483,
           "t": "Ys: Memories of Celceta - Kai",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1484,
           "t": "YU-NO: A Girl Who Chants Love at the Bound of this World",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1485,
           "t": "Zanki Zero: Last Beginning",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1486,
           "t": "Zero Escape: The Nonary Games",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1487,
           "t": "Ziggurat",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1488,
           "t": "Zombie Army 4: Dead War",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1489,
           "t": "Zombie Army Trilogy",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1491,
           "t": "Zone of the Enders: The 2nd Runner MARS",
-          "state": "PENDING"
+          "state": "VALIDATED"
         }
       ]
     }
