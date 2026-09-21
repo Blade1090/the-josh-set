@@ -1186,134 +1186,134 @@
     },
     {
       "checkpointNumber": 7,
-      "status": "PENDING",
-      "overrideBatchFile": null,
+      "status": "VALIDATED",
+      "overrideBatchFile": "dossier-overrides-71.js",
       "commitSha": null,
       "identities": [
         {
           "id": 738,
           "t": "Mafia III",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 739,
           "t": "Mafia: Definitive Edition",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 746,
           "t": "Marvel's Spider-Man",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 747,
           "t": "Marvel's Spider-Man: Miles Morales",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 748,
           "t": "Mass Effect: Andromeda",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 751,
           "t": "MediEvil",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 762,
           "t": "Mercenary Kings",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 767,
           "t": "Metal Gear Survive",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 769,
           "t": "Metal Slug 3",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 786,
           "t": "Mirror's Edge Catalyst",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 788,
           "t": "Monkey King: Hero is Back",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 791,
           "t": "Monster Hunter: World",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 820,
           "t": "Naruto Shippuden: Ultimate Ninja Storm 4",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 838,
           "t": "Ni no Kuni: Wrath of the White Witch Remastered",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 842,
           "t": "NieR: Automata",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 847,
           "t": "Nioh",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 848,
           "t": "Nioh 2",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 850,
           "t": "No Man's Sky",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 851,
           "t": "No More Heroes III [Day 1 Edition]",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 860,
           "t": "Odin Sphere Leifthrasir",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 861,
           "t": "Okami HD",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 884,
           "t": "Outward",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 890,
           "t": "Pac-Man Championship Edition 2",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 902,
           "t": "Persona 5",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 927,
           "t": "Power Rangers: Battle for the Grid",
-          "state": "PENDING"
+          "state": "VALIDATED"
         }
       ]
     },
