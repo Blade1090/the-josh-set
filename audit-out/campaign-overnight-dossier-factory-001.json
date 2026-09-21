@@ -1186,134 +1186,134 @@
     },
     {
       "checkpointNumber": 7,
-      "status": "VALIDATED",
+      "status": "COMMITTED",
       "overrideBatchFile": "dossier-overrides-71.js",
-      "commitSha": null,
+      "commitSha": "0640e3c822b698361b1285541bf76ee22b48e6c2",
       "identities": [
         {
           "id": 738,
           "t": "Mafia III",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 739,
           "t": "Mafia: Definitive Edition",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 746,
           "t": "Marvel's Spider-Man",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 747,
           "t": "Marvel's Spider-Man: Miles Morales",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 748,
           "t": "Mass Effect: Andromeda",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 751,
           "t": "MediEvil",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 762,
           "t": "Mercenary Kings",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 767,
           "t": "Metal Gear Survive",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 769,
           "t": "Metal Slug 3",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 786,
           "t": "Mirror's Edge Catalyst",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 788,
           "t": "Monkey King: Hero is Back",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 791,
           "t": "Monster Hunter: World",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 820,
           "t": "Naruto Shippuden: Ultimate Ninja Storm 4",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 838,
           "t": "Ni no Kuni: Wrath of the White Witch Remastered",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 842,
           "t": "NieR: Automata",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 847,
           "t": "Nioh",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 848,
           "t": "Nioh 2",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 850,
           "t": "No Man's Sky",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 851,
           "t": "No More Heroes III [Day 1 Edition]",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 860,
           "t": "Odin Sphere Leifthrasir",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 861,
           "t": "Okami HD",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 884,
           "t": "Outward",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 890,
           "t": "Pac-Man Championship Edition 2",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 902,
           "t": "Persona 5",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 927,
           "t": "Power Rangers: Battle for the Grid",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         }
       ]
     },
@@ -2440,7 +2440,7 @@
       ]
     }
   ],
-  "currentCheckpoint": 7,
+  "currentCheckpoint": 8,
   "totalEligible": 385,
   "totalCheckpoints": 16
 }
