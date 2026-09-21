@@ -2395,64 +2395,91 @@
     },
     {
       "checkpointNumber": 16,
-      "status": "VALIDATED",
+      "status": "COMMITTED",
       "overrideBatchFile": "dossier-overrides-80.js",
-      "commitSha": null,
+      "commitSha": "dd77e6566dad1cabc4256d1adabbd185f9605922",
       "identities": [
         {
           "id": 1481,
           "t": "Ys VIII: Lacrimosa of DANA",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1482,
           "t": "Ys: Memories of Celceta",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1483,
           "t": "Ys: Memories of Celceta - Kai",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1484,
           "t": "YU-NO: A Girl Who Chants Love at the Bound of this World",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1485,
           "t": "Zanki Zero: Last Beginning",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1486,
           "t": "Zero Escape: The Nonary Games",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1487,
           "t": "Ziggurat",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1488,
           "t": "Zombie Army 4: Dead War",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1489,
           "t": "Zombie Army Trilogy",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1491,
           "t": "Zone of the Enders: The 2nd Runner MARS",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         }
       ]
     }
   ],
-  "currentCheckpoint": 16,
+  "currentCheckpoint": null,
   "totalEligible": 385,
-  "totalCheckpoints": 16
+  "totalCheckpoints": 16,
+  "campaignStatus": "COMPLETE",
+  "finalTotals": {
+    "startingAudit": {
+      "good": 2020,
+      "thin": 455,
+      "generic": 0,
+      "missing": 0,
+      "total": 2475
+    },
+    "endingAudit": {
+      "good": 2405,
+      "thin": 70,
+      "generic": 0,
+      "missing": 0,
+      "total": 2475
+    },
+    "startingIncluded": 2475,
+    "endingIncluded": 2475,
+    "identitiesResearched": 385,
+    "identitiesRepaired": 385,
+    "identitiesBorderlinePreserved": 70,
+    "identitiesCuratorReview": 4,
+    "identitiesPending": 0,
+    "checkpointCount": 16,
+    "ceilingHit": false,
+    "queueExhausted": true
+  }
 }
