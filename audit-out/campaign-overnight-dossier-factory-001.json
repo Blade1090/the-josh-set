@@ -1053,134 +1053,134 @@
     },
     {
       "checkpointNumber": 6,
-      "status": "PENDING",
-      "overrideBatchFile": null,
+      "status": "VALIDATED",
+      "overrideBatchFile": "dossier-overrides-70.js",
       "commitSha": null,
       "identities": [
         {
           "id": 529,
           "t": "Ghostbusters",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 554,
           "t": "GRIP: Combat Racing",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 559,
           "t": "Guacamelee! Super Turbo Championship Edition",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 560,
           "t": "Guilty Gear",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 561,
           "t": "Guilty Gear Xrd -REVELATOR-",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 562,
           "t": "Guilty Gear Xrd -SIGN-",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 572,
           "t": "Harvest Moon: Light of Hope",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 593,
           "t": "Hollow Knight",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 602,
           "t": "Hotline Miami 2: Wrong Number",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 619,
           "t": "Indivisible",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 623,
           "t": "inFamous: Second Son",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 651,
           "t": "Just Cause 3",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 653,
           "t": "Just Cause 4",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 666,
           "t": "Kingdom Hearts HD 2.8 Final Chapter Prologue",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 668,
           "t": "Kingdom Hearts III",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 673,
           "t": "Kitaria Fables",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 688,
           "t": "Lair of the Clockwork God",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 692,
           "t": "Last Kids on Earth and the Staff of Doom",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 694,
           "t": "Layers of Fear",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 696,
           "t": "Left Alive",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 706,
           "t": "LEGO Marvel Super Heroes",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 707,
           "t": "LEGO Marvel Super Heroes 2",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 708,
           "t": "LEGO Marvel's Avengers",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 725,
           "t": "LittleBigPlanet 3",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 728,
           "t": "Lord of the Rings: Gollum",
-          "state": "PENDING"
+          "state": "VALIDATED"
         }
       ]
     },
