@@ -1730,134 +1730,134 @@
     },
     {
       "checkpointNumber": 11,
-      "status": "PENDING",
-      "overrideBatchFile": null,
+      "status": "VALIDATED",
+      "overrideBatchFile": "dossier-overrides-75.js",
       "commitSha": null,
       "identities": [
         {
           "id": 1277,
           "t": "The Missing: JJ Macfield and the Island of Memories",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1279,
           "t": "The Ninja Saviors: Return of the Warriors",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1281,
           "t": "The Order: 1886",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1282,
           "t": "The Outer Worlds",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1283,
           "t": "The Persistence",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1284,
           "t": "The Pinball Arcade",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1285,
           "t": "The Princess Guide",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1286,
           "t": "The Raven Remastered",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1289,
           "t": "The Shapeshifting Detective",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1290,
           "t": "The Silver Case",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1291,
           "t": "The Sims 4",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1294,
           "t": "The Sinking City",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1296,
           "t": "The Surge 2",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1297,
           "t": "The Swapper",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1298,
           "t": "The Swindle",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1299,
           "t": "The Swords of Ditto: Mormo's Curse",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1301,
           "t": "The Technomancer",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1302,
           "t": "The Town of Light",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1310,
           "t": "The Witch and the Hundred Knight 2",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1312,
           "t": "The Witcher 3: Wild Hunt",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1313,
           "t": "The Wolf Among Us",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1314,
           "t": "The Wonderful 101: Remastered",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1316,
           "t": "theHunter: Call of the Wild",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1317,
           "t": "They Are Billions",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1318,
           "t": "Thief",
-          "state": "PENDING"
+          "state": "VALIDATED"
         }
       ]
     },
