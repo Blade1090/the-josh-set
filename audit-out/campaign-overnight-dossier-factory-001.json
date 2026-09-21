@@ -2262,134 +2262,134 @@
     },
     {
       "checkpointNumber": 15,
-      "status": "VALIDATED",
+      "status": "COMMITTED",
       "overrideBatchFile": "dossier-overrides-79.js",
-      "commitSha": null,
+      "commitSha": "2d3ac54fd629e970cdec841170dfe6f80808ee80",
       "identities": [
         {
           "id": 1440,
           "t": "Wolfenstein II: The New Colossus",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1442,
           "t": "Wolfenstein: The New Order",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1443,
           "t": "Wolfenstein: The Old Blood",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1444,
           "t": "Wolfenstein: Youngblood",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1445,
           "t": "Wonder Boy Collection",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1446,
           "t": "Wonder Boy: The Dragon's Trap",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1449,
           "t": "World of Final Fantasy",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1452,
           "t": "World to the West",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1453,
           "t": "World War Z",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1456,
           "t": "Worms W.M.D",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1458,
           "t": "Wreckfest",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1460,
           "t": "XCOM 2",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1462,
           "t": "Xenon Racer",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1464,
           "t": "Xeodrifter",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1466,
           "t": "Yaga",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1468,
           "t": "Yakuza 3 Remastered",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1469,
           "t": "Yakuza 4 Remastered",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1470,
           "t": "Yakuza 5 Remastered",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1471,
           "t": "Yakuza 6: The Song of Life",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1474,
           "t": "Yesterday Origins",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1476,
           "t": "Yomawari: Midnight Shadows",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1477,
           "t": "Yonder: The Cloud Catcher Chronicles",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1478,
           "t": "Yooka-Laylee",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1479,
           "t": "Yooka-Laylee and the Impossible Lair",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1480,
           "t": "Ys Origin",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         }
       ]
     },
@@ -2452,7 +2452,7 @@
       ]
     }
   ],
-  "currentCheckpoint": 15,
+  "currentCheckpoint": 16,
   "totalEligible": 385,
   "totalCheckpoints": 16
 }
