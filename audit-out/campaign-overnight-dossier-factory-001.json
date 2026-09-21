@@ -654,134 +654,134 @@
     },
     {
       "checkpointNumber": 3,
-      "status": "PENDING",
-      "overrideBatchFile": null,
+      "status": "VALIDATED",
+      "overrideBatchFile": "dossier-overrides-67.js",
       "commitSha": null,
       "identities": [
         {
           "id": 200,
           "t": "Bound by Flame",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 209,
           "t": "Buddy Simulator 1984",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 211,
           "t": "Bug Fables: The Everlasting Sapling",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 217,
           "t": "Call of Duty: Black Ops 4",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 218,
           "t": "Call of Duty: Black Ops III",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 224,
           "t": "Callisto Protocol [Day One Edition]",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 234,
           "t": "Cat Quest",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 250,
           "t": "ClaDun Returns: This is Sengoku!",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 264,
           "t": "Constructor",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 265,
           "t": "Contra Anniversary Collection",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 275,
           "t": "Crawl",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 278,
           "t": "Cris Tales",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 281,
           "t": "Crossing Souls",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 283,
           "t": "Crystal Crisis",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 284,
           "t": "Crystar",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 286,
           "t": "Curses 'N Chaos",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 288,
           "t": "Cyberdimension Neptunia: 4 Goddesses Online",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 289,
           "t": "Cyberpunk 2077",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 295,
           "t": "Danganronpa V3: Killing Harmony",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 316,
           "t": "Daymare: 1998",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 333,
           "t": "Dead Rising 2",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 339,
           "t": "Death Mark",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 342,
           "t": "Death's Gambit",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 348,
           "t": "Deponia",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 351,
           "t": "Desperados III",
-          "state": "PENDING"
+          "state": "VALIDATED"
         }
       ]
     },
