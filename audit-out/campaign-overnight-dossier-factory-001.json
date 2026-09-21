@@ -1319,134 +1319,134 @@
     },
     {
       "checkpointNumber": 8,
-      "status": "PENDING",
-      "overrideBatchFile": null,
+      "status": "VALIDATED",
+      "overrideBatchFile": "dossier-overrides-72.js",
       "commitSha": null,
       "identities": [
         {
           "id": 955,
           "t": "Railway Empire",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 961,
           "t": "Ratchet & Clank",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 964,
           "t": "Red Dead Redemption 2",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 974,
           "t": "Remothered: Tormented Fathers",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 978,
           "t": "Resident Evil 4",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1027,
           "t": "Sackboy: A Big Adventure",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1034,
           "t": "Samurai Shodown V Special",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1062,
           "t": "Shadows: Awakening",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1070,
           "t": "Shenmue III",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1078,
           "t": "Skater XL",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1117,
           "t": "SpellForce III: Reforced",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1123,
           "t": "SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1128,
           "t": "Star Ocean: Integrity and Faithlessness",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1133,
           "t": "Star Wars Jedi Knight II: Jedi Outcast",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1134,
           "t": "Star Wars Jedi Knight: Jedi Academy",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1135,
           "t": "Star Wars Jedi: Fallen Order",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1138,
           "t": "Star Wars: Squadrons",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1142,
           "t": "Starlink: Battle for Atlas",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1152,
           "t": "Story of Seasons: Friends of Mineral Town",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1156,
           "t": "Strange Brigade",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1159,
           "t": "Street Fighter V",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1168,
           "t": "Sudden Strike 4",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1182,
           "t": "Super Street: The Game",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1192,
           "t": "Sword Art Online: Fatal Bullet",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1194,
           "t": "Sword Art Online: Lost Song",
-          "state": "PENDING"
+          "state": "VALIDATED"
         }
       ]
     },
