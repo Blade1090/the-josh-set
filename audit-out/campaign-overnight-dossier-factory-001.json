@@ -2129,134 +2129,134 @@
     },
     {
       "checkpointNumber": 14,
-      "status": "PENDING",
-      "overrideBatchFile": null,
+      "status": "VALIDATED",
+      "overrideBatchFile": "dossier-overrides-78.js",
       "commitSha": null,
       "identities": [
         {
           "id": 1394,
           "t": "Valkyria Chronicles 4",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1396,
           "t": "Valkyria Revolution",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1397,
           "t": "Valkyrie Elysium",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1398,
           "t": "Vampyr",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1403,
           "t": "Vikings: Wolves of Midgard",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1404,
           "t": "Void Bastards",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1406,
           "t": "Volgarr the Viking",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1408,
           "t": "Wandersong",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1409,
           "t": "Warborn",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1412,
           "t": "Warhammer 40,000: Deathwatch",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1417,
           "t": "Warhammer: Chaosbane",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1418,
           "t": "Warhammer: End Times - Vermintide",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1420,
           "t": "Warriors All-Stars",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1421,
           "t": "Warriors Orochi 3 Ultimate",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1422,
           "t": "Warriors Orochi 4",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1424,
           "t": "Wasteland 2: Director's Cut",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1426,
           "t": "Watch Dogs",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1427,
           "t": "Watch Dogs 2",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1429,
           "t": "We Happy Few",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1432,
           "t": "Where the Water Tastes Like Wine",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1434,
           "t": "Wild Guns Reloaded",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1435,
           "t": "Wildermyth",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1437,
           "t": "WindJammers",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1438,
           "t": "Wipeout: Omega Collection",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1439,
           "t": "Wizard of Legend",
-          "state": "PENDING"
+          "state": "VALIDATED"
         }
       ]
     },
