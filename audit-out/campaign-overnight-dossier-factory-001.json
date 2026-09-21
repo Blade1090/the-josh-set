@@ -1053,134 +1053,134 @@
     },
     {
       "checkpointNumber": 6,
-      "status": "VALIDATED",
+      "status": "COMMITTED",
       "overrideBatchFile": "dossier-overrides-70.js",
-      "commitSha": null,
+      "commitSha": "0a56569f8acd00b7258b5bd0d733bb857925ffb0",
       "identities": [
         {
           "id": 529,
           "t": "Ghostbusters",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 554,
           "t": "GRIP: Combat Racing",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 559,
           "t": "Guacamelee! Super Turbo Championship Edition",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 560,
           "t": "Guilty Gear",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 561,
           "t": "Guilty Gear Xrd -REVELATOR-",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 562,
           "t": "Guilty Gear Xrd -SIGN-",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 572,
           "t": "Harvest Moon: Light of Hope",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 593,
           "t": "Hollow Knight",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 602,
           "t": "Hotline Miami 2: Wrong Number",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 619,
           "t": "Indivisible",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 623,
           "t": "inFamous: Second Son",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 651,
           "t": "Just Cause 3",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 653,
           "t": "Just Cause 4",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 666,
           "t": "Kingdom Hearts HD 2.8 Final Chapter Prologue",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 668,
           "t": "Kingdom Hearts III",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 673,
           "t": "Kitaria Fables",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 688,
           "t": "Lair of the Clockwork God",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 692,
           "t": "Last Kids on Earth and the Staff of Doom",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 694,
           "t": "Layers of Fear",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 696,
           "t": "Left Alive",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 706,
           "t": "LEGO Marvel Super Heroes",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 707,
           "t": "LEGO Marvel Super Heroes 2",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 708,
           "t": "LEGO Marvel's Avengers",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 725,
           "t": "LittleBigPlanet 3",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 728,
           "t": "Lord of the Rings: Gollum",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         }
       ]
     },
@@ -2440,7 +2440,7 @@
       ]
     }
   ],
-  "currentCheckpoint": 6,
+  "currentCheckpoint": 7,
   "totalEligible": 385,
   "totalCheckpoints": 16
 }
