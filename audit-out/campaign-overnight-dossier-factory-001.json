@@ -787,134 +787,134 @@
     },
     {
       "checkpointNumber": 4,
-      "status": "PENDING",
-      "overrideBatchFile": null,
+      "status": "VALIDATED",
+      "overrideBatchFile": "dossier-overrides-68.js",
       "commitSha": null,
       "identities": [
         {
           "id": 352,
           "t": "Destiny",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 358,
           "t": "Detroit: Become Human",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 364,
           "t": "Diablo III: Ultimate Evil Edition",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 366,
           "t": "Digimon Story Cyber Sleuth: Hacker's Memory",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 399,
           "t": "Dragon Ball Z: Kakarot",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 402,
           "t": "Dragon Fantasy: The Black Tome of Ice",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 408,
           "t": "Dragon Star Varnir",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 411,
           "t": "Dragon's Lair Trilogy",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 415,
           "t": "Duke Nukem 3D: 20th Anniversary World Tour",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 416,
           "t": "Dungeon of the Endless",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 417,
           "t": "Dungeons 3",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 421,
           "t": "Dying Light: The Following",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 422,
           "t": "Dynasty Warriors 8 Empires",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 423,
           "t": "Dynasty Warriors 9",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 424,
           "t": "Earth Atlantis",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 430,
           "t": "Earthlock: Festival of Magic",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 431,
           "t": "EarthNight",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 432,
           "t": "Edge Of Eternity",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 437,
           "t": "Elliot Quest",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 441,
           "t": "Escape Game: Fort Boyard",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 442,
           "t": "Escape Goat 2",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 443,
           "t": "ETHER One",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 446,
           "t": "EVERSPACE",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 452,
           "t": "Exist Archive: The Other Side of the Sky",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 455,
           "t": "Fade to Silence",
-          "state": "PENDING"
+          "state": "VALIDATED"
         }
       ]
     },
