@@ -2129,134 +2129,134 @@
     },
     {
       "checkpointNumber": 14,
-      "status": "VALIDATED",
+      "status": "COMMITTED",
       "overrideBatchFile": "dossier-overrides-78.js",
-      "commitSha": null,
+      "commitSha": "553921aae1f0b06d80fcf764e66bcebe375b2a26",
       "identities": [
         {
           "id": 1394,
           "t": "Valkyria Chronicles 4",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1396,
           "t": "Valkyria Revolution",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1397,
           "t": "Valkyrie Elysium",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1398,
           "t": "Vampyr",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1403,
           "t": "Vikings: Wolves of Midgard",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1404,
           "t": "Void Bastards",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1406,
           "t": "Volgarr the Viking",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1408,
           "t": "Wandersong",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1409,
           "t": "Warborn",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1412,
           "t": "Warhammer 40,000: Deathwatch",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1417,
           "t": "Warhammer: Chaosbane",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1418,
           "t": "Warhammer: End Times - Vermintide",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1420,
           "t": "Warriors All-Stars",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1421,
           "t": "Warriors Orochi 3 Ultimate",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1422,
           "t": "Warriors Orochi 4",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1424,
           "t": "Wasteland 2: Director's Cut",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1426,
           "t": "Watch Dogs",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1427,
           "t": "Watch Dogs 2",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1429,
           "t": "We Happy Few",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1432,
           "t": "Where the Water Tastes Like Wine",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1434,
           "t": "Wild Guns Reloaded",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1435,
           "t": "Wildermyth",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1437,
           "t": "WindJammers",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1438,
           "t": "Wipeout: Omega Collection",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1439,
           "t": "Wizard of Legend",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         }
       ]
     },
@@ -2452,7 +2452,7 @@
       ]
     }
   ],
-  "currentCheckpoint": 14,
+  "currentCheckpoint": 15,
   "totalEligible": 385,
   "totalCheckpoints": 16
 }
