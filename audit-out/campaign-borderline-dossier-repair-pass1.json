@@ -85,6 +85,39 @@
       "evidence": "No confirmed physical PS4 release found via official listings, review outlets, or PriceCharting.",
       "sources": "PlayStation.Blog, Metacritic, PriceCharting (no listing)",
       "question": "Is there a physical PS4 disc for this title anywhere? If not, is this identity digital-only?"
+    },
+    {
+      "censusId": 1414,
+      "title": "Warhammer 40,000: Space Wolf",
+      "category": "NO_QUALIFYING_PHYSICAL",
+      "explanation": "Mobile-originated freemium tactical game; no retail listing or PriceCharting price data found for a PS4 physical release on any platform.",
+      "sources": [
+        "PriceCharting (no listing)",
+        "PS Store/general retail search (digital-only, March 2019)"
+      ],
+      "question": "Confirm whether a physical PS4 release of Warhammer 40,000: Space Wolf exists anywhere; if not, exclude as DIGITAL_ONLY/NO_QUALIFYING_PHYSICAL."
+    },
+    {
+      "censusId": 1415,
+      "title": "Warhammer Quest",
+      "category": "NO_QUALIFYING_PHYSICAL",
+      "explanation": "Mobile-ported dungeon crawler; no retail listing or PriceCharting price data found for a PS4 physical release on any platform.",
+      "sources": [
+        "PriceCharting (no listing)",
+        "GameFAQs/general retail search (digital-only, Feb 2017)"
+      ],
+      "question": "Confirm whether a physical PS4 release of Warhammer Quest exists anywhere; if not, exclude as DIGITAL_ONLY/NO_QUALIFYING_PHYSICAL."
+    },
+    {
+      "censusId": 1416,
+      "title": "Warhammer Quest 2: The End Times",
+      "category": "NO_QUALIFYING_PHYSICAL",
+      "explanation": "Sequel to Warhammer Quest; no retail listing or PriceCharting price data found for a PS4 physical release on any platform.",
+      "sources": [
+        "PriceCharting (no listing)",
+        "general retail search (digital-only, Jan 2020)"
+      ],
+      "question": "Confirm whether a physical PS4 release of Warhammer Quest 2: The End Times exists anywhere; if not, exclude as DIGITAL_ONLY/NO_QUALIFYING_PHYSICAL."
     }
   ],
   "checkpoints": [
@@ -414,59 +447,59 @@
     },
     {
       "checkpointNumber": 4,
-      "status": "PENDING",
-      "overrideBatchFile": null,
+      "status": "VALIDATED",
+      "overrideBatchFile": "dossier-overrides-84.js",
       "commitSha": null,
       "identities": [
         {
           "id": 1413,
           "t": "Warhammer 40,000: Mechanicus",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1414,
           "t": "Warhammer 40,000: Space Wolf",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1415,
           "t": "Warhammer Quest",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1416,
           "t": "Warhammer Quest 2: The End Times",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1419,
           "t": "Warhammer: Vermintide 2",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1428,
           "t": "Wattam",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1448,
           "t": "World End Syndrome",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1450,
           "t": "World of Warships: Legends",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1454,
           "t": "Worms Anniversary Edition",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1465,
           "t": "XIII (Remake)",
-          "state": "PENDING"
+          "state": "VALIDATED"
         }
       ]
     }
