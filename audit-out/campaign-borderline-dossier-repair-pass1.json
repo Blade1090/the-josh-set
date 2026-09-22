@@ -447,62 +447,63 @@
     },
     {
       "checkpointNumber": 4,
-      "status": "VALIDATED",
+      "status": "COMMITTED",
       "overrideBatchFile": "dossier-overrides-84.js",
-      "commitSha": null,
+      "commitSha": "6d6b8359e93fed142be8b5645bbc2f58eb1366ca",
       "identities": [
         {
           "id": 1413,
           "t": "Warhammer 40,000: Mechanicus",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1414,
           "t": "Warhammer 40,000: Space Wolf",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1415,
           "t": "Warhammer Quest",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1416,
           "t": "Warhammer Quest 2: The End Times",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1419,
           "t": "Warhammer: Vermintide 2",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1428,
           "t": "Wattam",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1448,
           "t": "World End Syndrome",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1450,
           "t": "World of Warships: Legends",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1454,
           "t": "Worms Anniversary Edition",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1465,
           "t": "XIII (Remake)",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         }
       ]
     }
   ],
-  "currentCheckpoint": 4
+  "currentCheckpoint": null,
+  "status": "ALL_CHECKPOINTS_COMMITTED"
 }
