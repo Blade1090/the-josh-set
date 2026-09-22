@@ -50,109 +50,109 @@
   "checkpoints": [
     {
       "checkpointNumber": 1,
-      "status": "VALIDATED",
+      "status": "COMMITTED",
       "overrideBatchFile": "dossier-overrides-81.js",
-      "commitSha": null,
+      "commitSha": "bbe3fc551daa72c3e8280706be08eded8139fc08",
       "identities": [
         {
           "id": 33,
           "t": "Aces of the Luftwaffe",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 54,
           "t": "Air Conflicts: Secret Wars - Ultimate Edition",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 55,
           "t": "Air Conflicts: Vietnam Ultimate Edition",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 93,
           "t": "Armello",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 106,
           "t": "Assault Gunners HD Edition",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 115,
           "t": "Atelier Lydie & Suelle: The Alchemists and the Mysterious Paintings",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 128,
           "t": "BADLAND: Game of the Year Edition",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 129,
           "t": "Baldur's Gate and Baldur's Gate II: Enhanced Editions",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 135,
           "t": "Batman: The Enemy Within - The Telltale Series",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 139,
           "t": "Battle Garegga Rev.2016",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 148,
           "t": "bayala - the game",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 149,
           "t": "Bayonetta",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 151,
           "t": "Bear With Me: The Complete Collection",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 154,
           "t": "Beholder: Complete Edition",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 155,
           "t": "Below",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 161,
           "t": "Big Pharma",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 162,
           "t": "BioShock 2 Remastered",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 163,
           "t": "BioShock Infinite: Complete Edition",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 164,
           "t": "BioShock Remastered",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 171,
           "t": "BLACKHOLE: Complete Edition",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         }
       ]
     },
@@ -431,5 +431,5 @@
       ]
     }
   ],
-  "currentCheckpoint": 1
+  "currentCheckpoint": 2
 }
