@@ -45,6 +45,22 @@
       "evidence": "No confirmed physical PS4 retail disc found. All located listings (PlayStation Store, review outlets, PriceCharting) show digital-only distribution.",
       "sources": "PlayStation Store, Push Square/PSU reviews (no physical mentioned), PriceCharting (no listing)",
       "question": "Is there a physical PS4 disc for this title anywhere? If not, is this identity digital-only?"
+    },
+    {
+      "id": 263,
+      "t": "Construction Simulator 3: Console Edition",
+      "category": "NO_QUALIFYING_PHYSICAL",
+      "evidence": "No confirmed physical PS4 release found. Official/price-tracking sources (PriceCharting) show a physical release for Nintendo Switch only; PS4 appears digital-only.",
+      "sources": "PlayStation Store, thexboxhub.com, PriceCharting (Switch listing only, no PS4)",
+      "question": "Is there a physical PS4 disc for this title anywhere? If not, is this identity digital-only on PS4?"
+    },
+    {
+      "id": 433,
+      "t": "Edna & Harvey: The Breakout - 10th Anniversary Edition",
+      "category": "NO_QUALIFYING_PHYSICAL",
+      "evidence": "No confirmed physical PS4 release found via official listings, review outlets, or PriceCharting.",
+      "sources": "PlayStation Store, Metacritic/review coverage, PriceCharting (no listing)",
+      "question": "Is there a physical PS4 disc for this title anywhere? If not, is this identity digital-only?"
     }
   ],
   "checkpoints": [
@@ -158,109 +174,109 @@
     },
     {
       "checkpointNumber": 2,
-      "status": "PENDING",
-      "overrideBatchFile": null,
+      "status": "VALIDATED",
+      "overrideBatchFile": "dossier-overrides-82.js",
       "commitSha": null,
       "identities": [
         {
           "id": 185,
           "t": "Blood Bowl 2",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 248,
           "t": "Cities: Skylines - PlayStation 4 Edition",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 262,
           "t": "Construction Simulator 2: Console Edition",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 263,
           "t": "Construction Simulator 3: Console Edition",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 429,
           "t": "Earthfall",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 433,
           "t": "Edna & Harvey: The Breakout - 10th Anniversary Edition",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 477,
           "t": "Final Fantasy Crystal Chronicles: Remastered Edition",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 484,
           "t": "Final Fantasy XIV Online: A Realm Reborn",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 513,
           "t": "Furwind",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 531,
           "t": "Ghoulboy",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 628,
           "t": "Injustice: Gods Among Us - Ultimate Edition",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 629,
           "t": "INSIDE",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 667,
           "t": "Kingdom Hearts HD I.5 + II.5 Remix",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 676,
           "t": "Knack 2",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 686,
           "t": "La-Mulana 2",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 737,
           "t": "Mafia II: Definitive Edition",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 783,
           "t": "Minecraft: Story Mode - A Telltale Games Series",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 874,
           "t": "Oniken: Unstoppable Edition",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1069,
           "t": "Shenmue II",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1132,
           "t": "Star Wars Episode I: Racer",
-          "state": "PENDING"
+          "state": "VALIDATED"
         }
       ]
     },
