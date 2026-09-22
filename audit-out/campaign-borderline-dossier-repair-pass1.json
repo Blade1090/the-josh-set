@@ -306,109 +306,109 @@
     },
     {
       "checkpointNumber": 3,
-      "status": "VALIDATED",
+      "status": "COMMITTED",
       "overrideBatchFile": "dossier-overrides-83.js",
-      "commitSha": null,
+      "commitSha": "7a89cecba8b5f8f099df46c7f265a0e19cf7ad6b",
       "identities": [
         {
           "id": 1216,
           "t": "The Amazing Spider-Man 2",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1247,
           "t": "The Flame in the Flood: Complete Edition",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1259,
           "t": "The Last Door: Complete Edition",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1263,
           "t": "The Last Remnant Remastered",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1278,
           "t": "The Mummy Demastered",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1300,
           "t": "The Talos Principle: Deluxe Edition",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1303,
           "t": "The Walking Dead: A Telltale Games Series - The Complete First Season",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1305,
           "t": "The Walking Dead: Season Two - A Telltale Games Series",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1307,
           "t": "The Walking Dead: The Telltale Series - A New Frontier",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1308,
           "t": "The Walking Dead: The Telltale Series - The Final Season",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1309,
           "t": "The Walking Vegetables: Radical Edition",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1311,
           "t": "The Witch and the Hundred Knight: Revival Edition",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1321,
           "t": "This is the Police 2",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1336,
           "t": "Tom Clancy's Rainbow Six Siege: Advanced Edition",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1356,
           "t": "Travis Strikes Again: No More Heroes - Complete Edition",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1384,
           "t": "Unexplored: Unlocked Edition",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1385,
           "t": "Unravel",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1393,
           "t": "Valhalla Hills: Definitive Edition",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1399,
           "t": "Vasara Collection",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         },
         {
           "id": 1410,
           "t": "Wargroove",
-          "state": "VALIDATED"
+          "state": "COMMITTED"
         }
       ]
     },
@@ -471,5 +471,5 @@
       ]
     }
   ],
-  "currentCheckpoint": 3
+  "currentCheckpoint": 4
 }
