@@ -4,13 +4,17 @@
 // ids on top of the already-finalized runtime census. A rejected identity's in-memory
 // x.set flips from INCLUDED to EXCLUDED -- the same value the real census/curation
 // pipeline already uses for "not in the Josh Set" -- so every existing consumer that
-// already gates on x.set==='INCLUDED'/'EXCLUDED' (NEEDED/OWNED/ALL and the new EXCLUDED
-// tab in model-fix.js, Shelf Roulette's eligible pool, My Shelf's owned pool, Wishlist,
-// fun-features' Random Game/length bands, Store Mode's SKIP check) automatically respects
-// the rejection with no changes to any of those files. Only the id list ever persists
-// (stateCache.rejected, part of the existing BACKUP/RESTORE JSON) -- never a mutation to
-// the census data files themselves, and never a permanent change to the in-memory
-// identity object beyond this runtime overlay.
+// already gates on x.set==='INCLUDED'/'EXCLUDED' (NEEDED/OWNED/ALL, Shelf Roulette's
+// eligible pool, My Shelf's owned pool, Wishlist, fun-features' Random Game/length bands,
+// Store Mode's SKIP check) automatically respects the rejection with no changes to any of
+// those files. The one exception is the EXCLUDED tab: since a canonical census exclusion
+// (curation-josh-set-pass-*, census-cleanup.js, etc.) also sets x.set to the same
+// 'EXCLUDED' value, model-fix.js's render() is patched (a single line) to check
+// isRejected(x.id) there instead of raw x.set, so EXCLUDED only ever surfaces Josh's own
+// rejections for review/restore, never the ~300 built-in census exclusions. Only the id
+// list ever persists (stateCache.rejected, part of the existing BACKUP/RESTORE JSON) --
+// never a mutation to the census data files themselves, and never a permanent change to
+// the in-memory identity object beyond this runtime overlay.
 (()=>{
   const style=document.createElement('style');
   style.textContent=`.reject-controls{margin:10px 0}.reject-status{margin:0 0 8px;padding:9px 11px;border-radius:10px;background:#2a1414;color:#ffaaaa;font-weight:850;font-size:.85rem}.reject-toggle-btn{display:block;width:100%;padding:12px;border-radius:11px;font-weight:900;cursor:pointer}.reject-toggle-btn.reject-btn{background:#3a1414;color:#ff9d9d;border:1px solid #6b2b2b}.reject-toggle-btn.restore-btn{background:#123324;color:#87efaa;border:1px solid #285b3f}`;
