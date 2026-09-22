@@ -87,37 +87,28 @@
       "question": "Is there a physical PS4 disc for this title anywhere? If not, is this identity digital-only?"
     },
     {
-      "censusId": 1414,
-      "title": "Warhammer 40,000: Space Wolf",
+      "id": 1414,
+      "t": "Warhammer 40,000: Space Wolf",
       "category": "NO_QUALIFYING_PHYSICAL",
-      "explanation": "Mobile-originated freemium tactical game; no retail listing or PriceCharting price data found for a PS4 physical release on any platform.",
-      "sources": [
-        "PriceCharting (no listing)",
-        "PS Store/general retail search (digital-only, March 2019)"
-      ],
-      "question": "Confirm whether a physical PS4 release of Warhammer 40,000: Space Wolf exists anywhere; if not, exclude as DIGITAL_ONLY/NO_QUALIFYING_PHYSICAL."
+      "evidence": "Mobile-originated freemium tactical game ported to PS4; no confirmed physical PS4 retail disc found (PriceCharting, general retail search).",
+      "sources": "PriceCharting (no listing), general retail/PS Store search (digital-only, March 2019)",
+      "question": "Is there a physical PS4 disc for this title anywhere? If not, is this identity digital-only?"
     },
     {
-      "censusId": 1415,
-      "title": "Warhammer Quest",
+      "id": 1415,
+      "t": "Warhammer Quest",
       "category": "NO_QUALIFYING_PHYSICAL",
-      "explanation": "Mobile-ported dungeon crawler; no retail listing or PriceCharting price data found for a PS4 physical release on any platform.",
-      "sources": [
-        "PriceCharting (no listing)",
-        "GameFAQs/general retail search (digital-only, Feb 2017)"
-      ],
-      "question": "Confirm whether a physical PS4 release of Warhammer Quest exists anywhere; if not, exclude as DIGITAL_ONLY/NO_QUALIFYING_PHYSICAL."
+      "evidence": "Mobile-ported dungeon crawler; no confirmed physical PS4 retail disc found (PriceCharting, GameFAQs, general retail search).",
+      "sources": "PriceCharting (no listing), GameFAQs/general retail search (digital-only, Feb 2017)",
+      "question": "Is there a physical PS4 disc for this title anywhere? If not, is this identity digital-only?"
     },
     {
-      "censusId": 1416,
-      "title": "Warhammer Quest 2: The End Times",
+      "id": 1416,
+      "t": "Warhammer Quest 2: The End Times",
       "category": "NO_QUALIFYING_PHYSICAL",
-      "explanation": "Sequel to Warhammer Quest; no retail listing or PriceCharting price data found for a PS4 physical release on any platform.",
-      "sources": [
-        "PriceCharting (no listing)",
-        "general retail search (digital-only, Jan 2020)"
-      ],
-      "question": "Confirm whether a physical PS4 release of Warhammer Quest 2: The End Times exists anywhere; if not, exclude as DIGITAL_ONLY/NO_QUALIFYING_PHYSICAL."
+      "evidence": "Sequel to Warhammer Quest; no confirmed physical PS4 retail disc found (PriceCharting, general retail search).",
+      "sources": "PriceCharting (no listing), general retail search (digital-only, Jan 2020)",
+      "question": "Is there a physical PS4 disc for this title anywhere? If not, is this identity digital-only?"
     }
   ],
   "checkpoints": [
