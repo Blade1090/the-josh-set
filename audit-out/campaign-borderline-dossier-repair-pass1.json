@@ -1,0 +1,500 @@
+{
+  "campaignId": "borderline-dossier-repair-pass1",
+  "createdAt": "2026-09-22",
+  "baselineMainSha": "fdb871d9ebb2398d37cd226e9aa8fc4b0966eb05",
+  "baselineCensusCount": 2475,
+  "baselineAudit": {
+    "good": 2405,
+    "thin": 70,
+    "generic": 0,
+    "missing": 0,
+    "total": 2475
+  },
+  "branch": "campaign/borderline-dossier-repair-pass1",
+  "sourceManifest": "audit-out/campaign-overnight-dossier-factory-001.json (borderlineQueue)",
+  "targetCount": 70,
+  "curatorReviewQueue": [
+    {
+      "id": 33,
+      "t": "Aces of the Luftwaffe",
+      "category": "NO_QUALIFYING_PHYSICAL",
+      "evidence": "No confirmed physical PS4 retail disc found for this exact base-game identity (official store, retailer, and PriceCharting searches). The confirmed-physical titles are the related but distinct \"Aces of the Luftwaffe: Squadron\" and \"Squadron - Extended Edition\", a separate later game by the same developer/publisher.",
+      "sources": "GameStop/Amazon/PS Store listings (Squadron only), PriceCharting (no listing for base title)",
+      "question": "Does a genuine physical PS4 disc exist for the exact base \"Aces of the Luftwaffe\" (not Squadron)? If not, should this identity be considered digital-only?"
+    },
+    {
+      "id": 106,
+      "t": "Assault Gunners HD Edition",
+      "category": "NO_QUALIFYING_PHYSICAL",
+      "evidence": "No confirmed physical PS4 retail disc found. All located listings (PlayStation Store, price-tracking sites, PriceCharting) show digital-only distribution.",
+      "sources": "PlayStation Store, platprices.com, psdeals.net, PriceCharting (no listing)",
+      "question": "Is there a physical PS4 disc for this title anywhere (including import/boutique publishers)? If not, is this identity digital-only?"
+    },
+    {
+      "id": 128,
+      "t": "BADLAND: Game of the Year Edition",
+      "category": "NO_QUALIFYING_PHYSICAL",
+      "evidence": "No confirmed physical PS4 retail disc found. All located listings (PlayStation Store, PSprices, PriceCharting) show digital-only distribution.",
+      "sources": "PlayStation Store, psndeals.com, PriceCharting (no listing)",
+      "question": "Is there a physical PS4 disc for this title anywhere? If not, is this identity digital-only?"
+    },
+    {
+      "id": 151,
+      "t": "Bear With Me: The Complete Collection",
+      "category": "NO_QUALIFYING_PHYSICAL",
+      "evidence": "No confirmed physical PS4 retail disc found. All located listings (PlayStation Store, review outlets, PriceCharting) show digital-only distribution.",
+      "sources": "PlayStation Store, Push Square/PSU reviews (no physical mentioned), PriceCharting (no listing)",
+      "question": "Is there a physical PS4 disc for this title anywhere? If not, is this identity digital-only?"
+    },
+    {
+      "id": 263,
+      "t": "Construction Simulator 3: Console Edition",
+      "category": "NO_QUALIFYING_PHYSICAL",
+      "evidence": "No confirmed physical PS4 release found. Official/price-tracking sources (PriceCharting) show a physical release for Nintendo Switch only; PS4 appears digital-only.",
+      "sources": "PlayStation Store, thexboxhub.com, PriceCharting (Switch listing only, no PS4)",
+      "question": "Is there a physical PS4 disc for this title anywhere? If not, is this identity digital-only on PS4?"
+    },
+    {
+      "id": 433,
+      "t": "Edna & Harvey: The Breakout - 10th Anniversary Edition",
+      "category": "NO_QUALIFYING_PHYSICAL",
+      "evidence": "No confirmed physical PS4 release found via official listings, review outlets, or PriceCharting.",
+      "sources": "PlayStation Store, Metacritic/review coverage, PriceCharting (no listing)",
+      "question": "Is there a physical PS4 disc for this title anywhere? If not, is this identity digital-only?"
+    },
+    {
+      "id": 1263,
+      "t": "The Last Remnant Remastered",
+      "category": "NO_QUALIFYING_PHYSICAL",
+      "evidence": "Official coverage (Kotaku, PlayStation.Blog) explicitly describes the Western PS4 release as digital-only.",
+      "sources": "Kotaku first-look coverage, PlayStation.Blog announcement",
+      "question": "Is there any physical PS4 release of this remaster (any region)? If not, is this identity digital-only?"
+    },
+    {
+      "id": 1309,
+      "t": "The Walking Vegetables: Radical Edition",
+      "category": "NO_QUALIFYING_PHYSICAL",
+      "evidence": "All located coverage (Gematsu, PlayStation Store, reviews) describes this as a digital-only PS4 release with no physical retail mention found.",
+      "sources": "Gematsu announcement, thumbculture.co.uk review, PlayStation Store listing",
+      "question": "Is there a physical PS4 disc for this title anywhere? If not, is this identity digital-only?"
+    },
+    {
+      "id": 1384,
+      "t": "Unexplored: Unlocked Edition",
+      "category": "NO_QUALIFYING_PHYSICAL",
+      "evidence": "No confirmed physical PS4 release found via official listings, review outlets, or PriceCharting.",
+      "sources": "PlayStation.Blog, Metacritic, PriceCharting (no listing)",
+      "question": "Is there a physical PS4 disc for this title anywhere? If not, is this identity digital-only?"
+    },
+    {
+      "id": 1414,
+      "t": "Warhammer 40,000: Space Wolf",
+      "category": "NO_QUALIFYING_PHYSICAL",
+      "evidence": "Mobile-originated freemium tactical game ported to PS4; no confirmed physical PS4 retail disc found (PriceCharting, general retail search).",
+      "sources": "PriceCharting (no listing), general retail/PS Store search (digital-only, March 2019)",
+      "question": "Is there a physical PS4 disc for this title anywhere? If not, is this identity digital-only?"
+    },
+    {
+      "id": 1415,
+      "t": "Warhammer Quest",
+      "category": "NO_QUALIFYING_PHYSICAL",
+      "evidence": "Mobile-ported dungeon crawler; no confirmed physical PS4 retail disc found (PriceCharting, GameFAQs, general retail search).",
+      "sources": "PriceCharting (no listing), GameFAQs/general retail search (digital-only, Feb 2017)",
+      "question": "Is there a physical PS4 disc for this title anywhere? If not, is this identity digital-only?"
+    },
+    {
+      "id": 1416,
+      "t": "Warhammer Quest 2: The End Times",
+      "category": "NO_QUALIFYING_PHYSICAL",
+      "evidence": "Sequel to Warhammer Quest; no confirmed physical PS4 retail disc found (PriceCharting, general retail search).",
+      "sources": "PriceCharting (no listing), general retail search (digital-only, Jan 2020)",
+      "question": "Is there a physical PS4 disc for this title anywhere? If not, is this identity digital-only?"
+    }
+  ],
+  "checkpoints": [
+    {
+      "checkpointNumber": 1,
+      "status": "COMMITTED",
+      "overrideBatchFile": "dossier-overrides-81.js",
+      "commitSha": "bbe3fc551daa72c3e8280706be08eded8139fc08",
+      "identities": [
+        {
+          "id": 33,
+          "t": "Aces of the Luftwaffe",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 54,
+          "t": "Air Conflicts: Secret Wars - Ultimate Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 55,
+          "t": "Air Conflicts: Vietnam Ultimate Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 93,
+          "t": "Armello",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 106,
+          "t": "Assault Gunners HD Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 115,
+          "t": "Atelier Lydie & Suelle: The Alchemists and the Mysterious Paintings",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 128,
+          "t": "BADLAND: Game of the Year Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 129,
+          "t": "Baldur's Gate and Baldur's Gate II: Enhanced Editions",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 135,
+          "t": "Batman: The Enemy Within - The Telltale Series",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 139,
+          "t": "Battle Garegga Rev.2016",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 148,
+          "t": "bayala - the game",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 149,
+          "t": "Bayonetta",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 151,
+          "t": "Bear With Me: The Complete Collection",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 154,
+          "t": "Beholder: Complete Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 155,
+          "t": "Below",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 161,
+          "t": "Big Pharma",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 162,
+          "t": "BioShock 2 Remastered",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 163,
+          "t": "BioShock Infinite: Complete Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 164,
+          "t": "BioShock Remastered",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 171,
+          "t": "BLACKHOLE: Complete Edition",
+          "state": "COMMITTED"
+        }
+      ]
+    },
+    {
+      "checkpointNumber": 2,
+      "status": "COMMITTED",
+      "overrideBatchFile": "dossier-overrides-82.js",
+      "commitSha": "900c2f30289278003d3e1d208daba77befb0e8be",
+      "identities": [
+        {
+          "id": 185,
+          "t": "Blood Bowl 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 248,
+          "t": "Cities: Skylines - PlayStation 4 Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 262,
+          "t": "Construction Simulator 2: Console Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 263,
+          "t": "Construction Simulator 3: Console Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 429,
+          "t": "Earthfall",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 433,
+          "t": "Edna & Harvey: The Breakout - 10th Anniversary Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 477,
+          "t": "Final Fantasy Crystal Chronicles: Remastered Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 484,
+          "t": "Final Fantasy XIV Online: A Realm Reborn",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 513,
+          "t": "Furwind",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 531,
+          "t": "Ghoulboy",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 628,
+          "t": "Injustice: Gods Among Us - Ultimate Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 629,
+          "t": "INSIDE",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 667,
+          "t": "Kingdom Hearts HD I.5 + II.5 Remix",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 676,
+          "t": "Knack 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 686,
+          "t": "La-Mulana 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 737,
+          "t": "Mafia II: Definitive Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 783,
+          "t": "Minecraft: Story Mode - A Telltale Games Series",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 874,
+          "t": "Oniken: Unstoppable Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1069,
+          "t": "Shenmue II",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1132,
+          "t": "Star Wars Episode I: Racer",
+          "state": "COMMITTED"
+        }
+      ]
+    },
+    {
+      "checkpointNumber": 3,
+      "status": "COMMITTED",
+      "overrideBatchFile": "dossier-overrides-83.js",
+      "commitSha": "7a89cecba8b5f8f099df46c7f265a0e19cf7ad6b",
+      "identities": [
+        {
+          "id": 1216,
+          "t": "The Amazing Spider-Man 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1247,
+          "t": "The Flame in the Flood: Complete Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1259,
+          "t": "The Last Door: Complete Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1263,
+          "t": "The Last Remnant Remastered",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1278,
+          "t": "The Mummy Demastered",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1300,
+          "t": "The Talos Principle: Deluxe Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1303,
+          "t": "The Walking Dead: A Telltale Games Series - The Complete First Season",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1305,
+          "t": "The Walking Dead: Season Two - A Telltale Games Series",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1307,
+          "t": "The Walking Dead: The Telltale Series - A New Frontier",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1308,
+          "t": "The Walking Dead: The Telltale Series - The Final Season",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1309,
+          "t": "The Walking Vegetables: Radical Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1311,
+          "t": "The Witch and the Hundred Knight: Revival Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1321,
+          "t": "This is the Police 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1336,
+          "t": "Tom Clancy's Rainbow Six Siege: Advanced Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1356,
+          "t": "Travis Strikes Again: No More Heroes - Complete Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1384,
+          "t": "Unexplored: Unlocked Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1385,
+          "t": "Unravel",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1393,
+          "t": "Valhalla Hills: Definitive Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1399,
+          "t": "Vasara Collection",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1410,
+          "t": "Wargroove",
+          "state": "COMMITTED"
+        }
+      ]
+    },
+    {
+      "checkpointNumber": 4,
+      "status": "COMMITTED",
+      "overrideBatchFile": "dossier-overrides-84.js",
+      "commitSha": "6d6b8359e93fed142be8b5645bbc2f58eb1366ca",
+      "identities": [
+        {
+          "id": 1413,
+          "t": "Warhammer 40,000: Mechanicus",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1414,
+          "t": "Warhammer 40,000: Space Wolf",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1415,
+          "t": "Warhammer Quest",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1416,
+          "t": "Warhammer Quest 2: The End Times",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1419,
+          "t": "Warhammer: Vermintide 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1428,
+          "t": "Wattam",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1448,
+          "t": "World End Syndrome",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1450,
+          "t": "World of Warships: Legends",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1454,
+          "t": "Worms Anniversary Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1465,
+          "t": "XIII (Remake)",
+          "state": "COMMITTED"
+        }
+      ]
+    }
+  ],
+  "currentCheckpoint": null,
+  "status": "ALL_CHECKPOINTS_COMMITTED"
+}
