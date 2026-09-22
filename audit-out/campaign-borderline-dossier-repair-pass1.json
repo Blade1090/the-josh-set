@@ -61,6 +61,30 @@
       "evidence": "No confirmed physical PS4 release found via official listings, review outlets, or PriceCharting.",
       "sources": "PlayStation Store, Metacritic/review coverage, PriceCharting (no listing)",
       "question": "Is there a physical PS4 disc for this title anywhere? If not, is this identity digital-only?"
+    },
+    {
+      "id": 1263,
+      "t": "The Last Remnant Remastered",
+      "category": "NO_QUALIFYING_PHYSICAL",
+      "evidence": "Official coverage (Kotaku, PlayStation.Blog) explicitly describes the Western PS4 release as digital-only.",
+      "sources": "Kotaku first-look coverage, PlayStation.Blog announcement",
+      "question": "Is there any physical PS4 release of this remaster (any region)? If not, is this identity digital-only?"
+    },
+    {
+      "id": 1309,
+      "t": "The Walking Vegetables: Radical Edition",
+      "category": "NO_QUALIFYING_PHYSICAL",
+      "evidence": "All located coverage (Gematsu, PlayStation Store, reviews) describes this as a digital-only PS4 release with no physical retail mention found.",
+      "sources": "Gematsu announcement, thumbculture.co.uk review, PlayStation Store listing",
+      "question": "Is there a physical PS4 disc for this title anywhere? If not, is this identity digital-only?"
+    },
+    {
+      "id": 1384,
+      "t": "Unexplored: Unlocked Edition",
+      "category": "NO_QUALIFYING_PHYSICAL",
+      "evidence": "No confirmed physical PS4 release found via official listings, review outlets, or PriceCharting.",
+      "sources": "PlayStation.Blog, Metacritic, PriceCharting (no listing)",
+      "question": "Is there a physical PS4 disc for this title anywhere? If not, is this identity digital-only?"
     }
   ],
   "checkpoints": [
@@ -282,109 +306,109 @@
     },
     {
       "checkpointNumber": 3,
-      "status": "PENDING",
-      "overrideBatchFile": null,
+      "status": "VALIDATED",
+      "overrideBatchFile": "dossier-overrides-83.js",
       "commitSha": null,
       "identities": [
         {
           "id": 1216,
           "t": "The Amazing Spider-Man 2",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1247,
           "t": "The Flame in the Flood: Complete Edition",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1259,
           "t": "The Last Door: Complete Edition",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1263,
           "t": "The Last Remnant Remastered",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1278,
           "t": "The Mummy Demastered",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1300,
           "t": "The Talos Principle: Deluxe Edition",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1303,
           "t": "The Walking Dead: A Telltale Games Series - The Complete First Season",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1305,
           "t": "The Walking Dead: Season Two - A Telltale Games Series",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1307,
           "t": "The Walking Dead: The Telltale Series - A New Frontier",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1308,
           "t": "The Walking Dead: The Telltale Series - The Final Season",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1309,
           "t": "The Walking Vegetables: Radical Edition",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1311,
           "t": "The Witch and the Hundred Knight: Revival Edition",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1321,
           "t": "This is the Police 2",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1336,
           "t": "Tom Clancy's Rainbow Six Siege: Advanced Edition",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1356,
           "t": "Travis Strikes Again: No More Heroes - Complete Edition",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1384,
           "t": "Unexplored: Unlocked Edition",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1385,
           "t": "Unravel",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1393,
           "t": "Valhalla Hills: Definitive Edition",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1399,
           "t": "Vasara Collection",
-          "state": "PENDING"
+          "state": "VALIDATED"
         },
         {
           "id": 1410,
           "t": "Wargroove",
-          "state": "PENDING"
+          "state": "VALIDATED"
         }
       ]
     },
