@@ -1,0 +1,2485 @@
+{
+  "campaignId": "overnight-dossier-factory-001",
+  "createdAt": "2026-09-21",
+  "baselineMainSha": "0a00ed8b577e93eb2890954a2f3fadfef9c5b743",
+  "baselineCensusCount": 2475,
+  "baselineAudit": {
+    "good": 2020,
+    "thin": 455,
+    "generic": 0,
+    "missing": 0,
+    "total": 2475
+  },
+  "branch": "campaign/overnight-dossier-factory-001",
+  "thinPoolRecount": 455,
+  "classification": {
+    "ELIGIBLE_RESEARCH_count": 385,
+    "BORDERLINE_count": 70,
+    "CURATOR_REVIEW_count": 0,
+    "ALREADY_RESOLVED_count": 0
+  },
+  "borderlineQueue": [
+    {
+      "id": 33,
+      "t": "Aces of the Luftwaffe",
+      "reason": "fc>=3 useful fields already present (score>=64); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 54,
+      "t": "Air Conflicts: Secret Wars - Ultimate Edition",
+      "reason": "fc>=3 useful fields already present (score>=62); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 55,
+      "t": "Air Conflicts: Vietnam Ultimate Edition",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 93,
+      "t": "Armello",
+      "reason": "fc>=3 useful fields already present (score>=66); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 106,
+      "t": "Assault Gunners HD Edition",
+      "reason": "fc>=3 useful fields already present (score>=64); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 115,
+      "t": "Atelier Lydie & Suelle: The Alchemists and the Mysterious Paintings",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 128,
+      "t": "BADLAND: Game of the Year Edition",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 129,
+      "t": "Baldur's Gate and Baldur's Gate II: Enhanced Editions",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 135,
+      "t": "Batman: The Enemy Within - The Telltale Series",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 139,
+      "t": "Battle Garegga Rev.2016",
+      "reason": "fc>=3 useful fields already present (score>=66); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 148,
+      "t": "bayala - the game",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 149,
+      "t": "Bayonetta",
+      "reason": "fc>=3 useful fields already present (score>=65); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 151,
+      "t": "Bear With Me: The Complete Collection",
+      "reason": "fc>=3 useful fields already present (score>=66); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 154,
+      "t": "Beholder: Complete Edition",
+      "reason": "fc>=3 useful fields already present (score>=66); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 155,
+      "t": "Below",
+      "reason": "fc>=3 useful fields already present (score>=66); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 161,
+      "t": "Big Pharma",
+      "reason": "fc>=3 useful fields already present (score>=66); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 162,
+      "t": "BioShock 2 Remastered",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 163,
+      "t": "BioShock Infinite: Complete Edition",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 164,
+      "t": "BioShock Remastered",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 171,
+      "t": "BLACKHOLE: Complete Edition",
+      "reason": "fc>=3 useful fields already present (score>=65); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 185,
+      "t": "Blood Bowl 2",
+      "reason": "fc>=3 useful fields already present (score>=69); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 248,
+      "t": "Cities: Skylines - PlayStation 4 Edition",
+      "reason": "fc>=3 useful fields already present (score>=69); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 262,
+      "t": "Construction Simulator 2: Console Edition",
+      "reason": "fc>=3 useful fields already present (score>=62); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 263,
+      "t": "Construction Simulator 3: Console Edition",
+      "reason": "fc>=3 useful fields already present (score>=62); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 429,
+      "t": "Earthfall",
+      "reason": "fc>=3 useful fields already present (score>=64); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 433,
+      "t": "Edna & Harvey: The Breakout - 10th Anniversary Edition",
+      "reason": "fc>=3 useful fields already present (score>=65); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 477,
+      "t": "Final Fantasy Crystal Chronicles: Remastered Edition",
+      "reason": "fc>=3 useful fields already present (score>=64); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 484,
+      "t": "Final Fantasy XIV Online: A Realm Reborn",
+      "reason": "fc>=3 useful fields already present (score>=62); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 513,
+      "t": "Furwind",
+      "reason": "fc>=3 useful fields already present (score>=64); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 531,
+      "t": "Ghoulboy",
+      "reason": "fc>=3 useful fields already present (score>=66); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 628,
+      "t": "Injustice: Gods Among Us - Ultimate Edition",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 629,
+      "t": "INSIDE",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 667,
+      "t": "Kingdom Hearts HD I.5 + II.5 Remix",
+      "reason": "fc>=3 useful fields already present (score>=69); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 676,
+      "t": "Knack 2",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 686,
+      "t": "La-Mulana 2",
+      "reason": "fc>=3 useful fields already present (score>=69); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 737,
+      "t": "Mafia II: Definitive Edition",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 783,
+      "t": "Minecraft: Story Mode - A Telltale Games Series",
+      "reason": "fc>=3 useful fields already present (score>=69); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 874,
+      "t": "Oniken: Unstoppable Edition",
+      "reason": "fc>=3 useful fields already present (score>=62); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1069,
+      "t": "Shenmue II",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1132,
+      "t": "Star Wars Episode I: Racer",
+      "reason": "fc>=3 useful fields already present (score>=69); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1216,
+      "t": "The Amazing Spider-Man 2",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1247,
+      "t": "The Flame in the Flood: Complete Edition",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1259,
+      "t": "The Last Door: Complete Edition",
+      "reason": "fc>=3 useful fields already present (score>=64); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1263,
+      "t": "The Last Remnant Remastered",
+      "reason": "fc>=3 useful fields already present (score>=66); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1278,
+      "t": "The Mummy Demastered",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1300,
+      "t": "The Talos Principle: Deluxe Edition",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1303,
+      "t": "The Walking Dead: A Telltale Games Series - The Complete First Season",
+      "reason": "fc>=3 useful fields already present (score>=69); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1305,
+      "t": "The Walking Dead: Season Two - A Telltale Games Series",
+      "reason": "fc>=3 useful fields already present (score>=69); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1307,
+      "t": "The Walking Dead: The Telltale Series - A New Frontier",
+      "reason": "fc>=3 useful fields already present (score>=69); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1308,
+      "t": "The Walking Dead: The Telltale Series - The Final Season",
+      "reason": "fc>=3 useful fields already present (score>=69); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1309,
+      "t": "The Walking Vegetables: Radical Edition",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1311,
+      "t": "The Witch and the Hundred Knight: Revival Edition",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1321,
+      "t": "This is the Police 2",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1336,
+      "t": "Tom Clancy's Rainbow Six Siege: Advanced Edition",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1356,
+      "t": "Travis Strikes Again: No More Heroes - Complete Edition",
+      "reason": "fc>=3 useful fields already present (score>=64); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1384,
+      "t": "Unexplored: Unlocked Edition",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1385,
+      "t": "Unravel",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1393,
+      "t": "Valhalla Hills: Definitive Edition",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1399,
+      "t": "Vasara Collection",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1410,
+      "t": "Wargroove",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1413,
+      "t": "Warhammer 40,000: Mechanicus",
+      "reason": "fc>=3 useful fields already present (score>=65); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1414,
+      "t": "Warhammer 40,000: Space Wolf",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1415,
+      "t": "Warhammer Quest",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1416,
+      "t": "Warhammer Quest 2: The End Times",
+      "reason": "fc>=3 useful fields already present (score>=65); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1419,
+      "t": "Warhammer: Vermintide 2",
+      "reason": "fc>=3 useful fields already present (score>=64); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1428,
+      "t": "Wattam",
+      "reason": "fc>=3 useful fields already present (score>=64); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1448,
+      "t": "World End Syndrome",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1450,
+      "t": "World of Warships: Legends",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1454,
+      "t": "Worms Anniversary Edition",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    },
+    {
+      "id": 1465,
+      "t": "XIII (Remake)",
+      "reason": "fc>=3 useful fields already present (score>=63); spot-checked sample confirms accurate, correctly-identified, just short of word-count/field-count gate. Preserved untouched per campaign rule (do not research merely to satisfy classifier)."
+    }
+  ],
+  "curatorReviewQueue": [
+    {
+      "id": 147,
+      "t": "Battlezone",
+      "issue": "PSVR_PATCH_STATUS",
+      "evidence": "Originally PSVR-required at launch; a free May 2018 Gold Edition update added a non-VR Classic Mode for all existing owners. Dossier written reflecting current playable-without-VR state, but flagging for curator awareness since the underlying census rule concerns PSVR requirement and this is a patched-not-originally-optional case (same category as The Persistence, previously reviewed and KEPT)."
+    },
+    {
+      "id": 168,
+      "t": "Black Desert",
+      "issue": "SERVER_SHUTDOWN",
+      "evidence": "Pearl Abyss ended all PS4 server support on June 26, 2025 (confirmed via PlayStation.Blog/PSU/official Pearl Abyss notice). The game can no longer be downloaded or played on PS4 in any form; PS4 owners were offered a free upgrade to the PS5 version. The physical PS4 disc no longer represents a functioning game. Dossier written factually noting this; census status NOT changed pending curator decision on whether a server-dead online-only game still qualifies as a meaningfully playable physical PS4 identity."
+    },
+    {
+      "id": 1231,
+      "t": "The Crew",
+      "issue": "SERVER_SHUTDOWN_TOTAL",
+      "evidence": "Ubisoft permanently shut down all servers and delisted the game on March 31, 2024, revoking licenses. Always-online with no offline mode -- the entire game, including single-player, is now unplayable on any platform for any owner, physical disc included. More severe than a single-platform sunset. Census status NOT changed pending curator decision."
+    },
+    {
+      "id": 1233,
+      "t": "The Crew: Wild Run",
+      "issue": "SERVER_SHUTDOWN_TOTAL",
+      "evidence": "Same underlying game/shutdown as The Crew (id 1231) -- this expansion-inclusive edition is equally completely unplayable since the March 2024 permanent server shutdown. Census status NOT changed pending curator decision."
+    }
+  ],
+  "failures": [],
+  "checkpoints": [
+    {
+      "checkpointNumber": 1,
+      "status": "COMMITTED",
+      "overrideBatchFile": "dossier-overrides-65.js",
+      "commitSha": "54614388c34b26c80fe4cc1479be93bc5c68e5e8",
+      "identities": [
+        {
+          "id": 53,
+          "t": "Air Conflicts: Pacific Carriers",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 79,
+          "t": "Anthem",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 81,
+          "t": "Apex Legends",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 86,
+          "t": "Arcade Classics Anniversary Collection",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 87,
+          "t": "Arcade Spirits",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 89,
+          "t": "Arcania: The Complete Tale",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 91,
+          "t": "ARK: Survival Evolved",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 94,
+          "t": "Arslan: The Warriors of Legend",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 95,
+          "t": "Art of Fighting Anthology",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 97,
+          "t": "Assassin's Creed Chronicles",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 98,
+          "t": "Assassin's Creed III Remastered",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 100,
+          "t": "Assassin's Creed Odyssey",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 101,
+          "t": "Assassin's Creed Origins",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 107,
+          "t": "Assault Suit Leynos",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 108,
+          "t": "Assetto Corsa",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 110,
+          "t": "ASTRONEER",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 113,
+          "t": "Atelier Firis: The Alchemist and the Mysterious Journey",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 114,
+          "t": "Atelier Lulua: The Scion of Arland",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 116,
+          "t": "Atelier Ryza: Ever Darkness & the Secret Hideout",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 117,
+          "t": "Atelier Sophie: The Alchemist of the Mysterious Book",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 118,
+          "t": "Attack on Titan",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 119,
+          "t": "Attack on Titan 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 120,
+          "t": "Attack on Titan 2: Final Battle",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 121,
+          "t": "Aven Colony",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 122,
+          "t": "AVICII Invector",
+          "state": "COMMITTED"
+        }
+      ]
+    },
+    {
+      "checkpointNumber": 2,
+      "status": "COMMITTED",
+      "overrideBatchFile": "dossier-overrides-66.js",
+      "commitSha": "e1e7d2a21904a2c1d2d6aba9c232fbdcdebf40e1",
+      "identities": [
+        {
+          "id": 123,
+          "t": "Away: Journey to the Unexpected",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 124,
+          "t": "Awesomenauts Assemble!",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 125,
+          "t": "Axiom Verge",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 126,
+          "t": "Azur Lane: Crosswave",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 127,
+          "t": "Azure Striker Gunvolt: Striker Pack",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 131,
+          "t": "Bastion",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 136,
+          "t": "Batman: The Telltale Series",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 137,
+          "t": "Battle Chasers: Nightwar",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 138,
+          "t": "Battle Chef Brigade",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 143,
+          "t": "Battlefield 1",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 144,
+          "t": "Battlefield 4",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 145,
+          "t": "Battlefield Hardline",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 146,
+          "t": "Battlefield V",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 147,
+          "t": "Battlezone",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 152,
+          "t": "Beast Quest",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 156,
+          "t": "Ben 10",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 166,
+          "t": "Birthdays the Beginning",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 167,
+          "t": "Black Clover: Quartet Knights",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 168,
+          "t": "Black Desert",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 169,
+          "t": "Black Mirror",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 170,
+          "t": "Blackguards 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 172,
+          "t": "Blacksad: Under the Skin",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 173,
+          "t": "Blade Strangers",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 187,
+          "t": "Bloodborne",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 195,
+          "t": "Bomber Crew",
+          "state": "COMMITTED"
+        }
+      ]
+    },
+    {
+      "checkpointNumber": 3,
+      "status": "COMMITTED",
+      "overrideBatchFile": "dossier-overrides-67.js",
+      "commitSha": "292ea8f764f9e80bdec44588ee6f78d73e1a4d89",
+      "identities": [
+        {
+          "id": 200,
+          "t": "Bound by Flame",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 209,
+          "t": "Buddy Simulator 1984",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 211,
+          "t": "Bug Fables: The Everlasting Sapling",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 217,
+          "t": "Call of Duty: Black Ops 4",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 218,
+          "t": "Call of Duty: Black Ops III",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 224,
+          "t": "Callisto Protocol [Day One Edition]",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 234,
+          "t": "Cat Quest",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 250,
+          "t": "ClaDun Returns: This is Sengoku!",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 264,
+          "t": "Constructor",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 265,
+          "t": "Contra Anniversary Collection",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 275,
+          "t": "Crawl",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 278,
+          "t": "Cris Tales",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 281,
+          "t": "Crossing Souls",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 283,
+          "t": "Crystal Crisis",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 284,
+          "t": "Crystar",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 286,
+          "t": "Curses 'N Chaos",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 288,
+          "t": "Cyberdimension Neptunia: 4 Goddesses Online",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 289,
+          "t": "Cyberpunk 2077",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 295,
+          "t": "Danganronpa V3: Killing Harmony",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 316,
+          "t": "Daymare: 1998",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 333,
+          "t": "Dead Rising 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 339,
+          "t": "Death Mark",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 342,
+          "t": "Death's Gambit",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 348,
+          "t": "Deponia",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 351,
+          "t": "Desperados III",
+          "state": "COMMITTED"
+        }
+      ]
+    },
+    {
+      "checkpointNumber": 4,
+      "status": "COMMITTED",
+      "overrideBatchFile": "dossier-overrides-68.js",
+      "commitSha": "517ca8ce285b7b8a227c453768f61217cf13ac4e",
+      "identities": [
+        {
+          "id": 352,
+          "t": "Destiny",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 358,
+          "t": "Detroit: Become Human",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 364,
+          "t": "Diablo III: Ultimate Evil Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 366,
+          "t": "Digimon Story Cyber Sleuth: Hacker's Memory",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 399,
+          "t": "Dragon Ball Z: Kakarot",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 402,
+          "t": "Dragon Fantasy: The Black Tome of Ice",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 408,
+          "t": "Dragon Star Varnir",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 411,
+          "t": "Dragon's Lair Trilogy",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 415,
+          "t": "Duke Nukem 3D: 20th Anniversary World Tour",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 416,
+          "t": "Dungeon of the Endless",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 417,
+          "t": "Dungeons 3",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 421,
+          "t": "Dying Light: The Following",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 422,
+          "t": "Dynasty Warriors 8 Empires",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 423,
+          "t": "Dynasty Warriors 9",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 424,
+          "t": "Earth Atlantis",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 430,
+          "t": "Earthlock: Festival of Magic",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 431,
+          "t": "EarthNight",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 432,
+          "t": "Edge Of Eternity",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 437,
+          "t": "Elliot Quest",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 441,
+          "t": "Escape Game: Fort Boyard",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 442,
+          "t": "Escape Goat 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 443,
+          "t": "ETHER One",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 446,
+          "t": "EVERSPACE",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 452,
+          "t": "Exist Archive: The Other Side of the Sky",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 455,
+          "t": "Fade to Silence",
+          "state": "COMMITTED"
+        }
+      ]
+    },
+    {
+      "checkpointNumber": 5,
+      "status": "COMMITTED",
+      "overrideBatchFile": "dossier-overrides-69.js",
+      "commitSha": "352df47099b856c67a55fa17b7e8be620f4a1eaa",
+      "identities": [
+        {
+          "id": 457,
+          "t": "Fairy Tail",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 458,
+          "t": "Fallen Legion: Flames of Rebellion",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 459,
+          "t": "Fallout 4",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 460,
+          "t": "Fallout 76",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 461,
+          "t": "Far Cry 3: Classic Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 466,
+          "t": "FAR: Lone Sails",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 467,
+          "t": "Fast & Furious Crossroads",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 469,
+          "t": "Fat Princess Adventures",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 470,
+          "t": "Fatal Fury: Battle Archives Volume 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 473,
+          "t": "fault milestone one",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 476,
+          "t": "Fight'N Rage",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 497,
+          "t": "FlatOut 4: Total Insanity",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 502,
+          "t": "Forager",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 504,
+          "t": "Fortnite",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 505,
+          "t": "FOX n FORESTS",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 508,
+          "t": "Freedom Planet",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 512,
+          "t": "Furi",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 514,
+          "t": "Gal Gunvolt Burst",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 517,
+          "t": "Game of Thrones: A Telltale Games Series",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 518,
+          "t": "Game Tengoku: Cruisin Mix Special",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 521,
+          "t": "Garou: Mark of the Wolves",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 522,
+          "t": "Gas Guzzlers Extreme",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 524,
+          "t": "Genesis Alpha One",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 525,
+          "t": "Geometry Wars 3: Dimensions",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 526,
+          "t": "Ghost Blade HD",
+          "state": "COMMITTED"
+        }
+      ]
+    },
+    {
+      "checkpointNumber": 6,
+      "status": "COMMITTED",
+      "overrideBatchFile": "dossier-overrides-70.js",
+      "commitSha": "0a56569f8acd00b7258b5bd0d733bb857925ffb0",
+      "identities": [
+        {
+          "id": 529,
+          "t": "Ghostbusters",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 554,
+          "t": "GRIP: Combat Racing",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 559,
+          "t": "Guacamelee! Super Turbo Championship Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 560,
+          "t": "Guilty Gear",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 561,
+          "t": "Guilty Gear Xrd -REVELATOR-",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 562,
+          "t": "Guilty Gear Xrd -SIGN-",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 572,
+          "t": "Harvest Moon: Light of Hope",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 593,
+          "t": "Hollow Knight",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 602,
+          "t": "Hotline Miami 2: Wrong Number",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 619,
+          "t": "Indivisible",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 623,
+          "t": "inFamous: Second Son",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 651,
+          "t": "Just Cause 3",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 653,
+          "t": "Just Cause 4",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 666,
+          "t": "Kingdom Hearts HD 2.8 Final Chapter Prologue",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 668,
+          "t": "Kingdom Hearts III",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 673,
+          "t": "Kitaria Fables",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 688,
+          "t": "Lair of the Clockwork God",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 692,
+          "t": "Last Kids on Earth and the Staff of Doom",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 694,
+          "t": "Layers of Fear",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 696,
+          "t": "Left Alive",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 706,
+          "t": "LEGO Marvel Super Heroes",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 707,
+          "t": "LEGO Marvel Super Heroes 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 708,
+          "t": "LEGO Marvel's Avengers",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 725,
+          "t": "LittleBigPlanet 3",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 728,
+          "t": "Lord of the Rings: Gollum",
+          "state": "COMMITTED"
+        }
+      ]
+    },
+    {
+      "checkpointNumber": 7,
+      "status": "COMMITTED",
+      "overrideBatchFile": "dossier-overrides-71.js",
+      "commitSha": "0640e3c822b698361b1285541bf76ee22b48e6c2",
+      "identities": [
+        {
+          "id": 738,
+          "t": "Mafia III",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 739,
+          "t": "Mafia: Definitive Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 746,
+          "t": "Marvel's Spider-Man",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 747,
+          "t": "Marvel's Spider-Man: Miles Morales",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 748,
+          "t": "Mass Effect: Andromeda",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 751,
+          "t": "MediEvil",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 762,
+          "t": "Mercenary Kings",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 767,
+          "t": "Metal Gear Survive",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 769,
+          "t": "Metal Slug 3",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 786,
+          "t": "Mirror's Edge Catalyst",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 788,
+          "t": "Monkey King: Hero is Back",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 791,
+          "t": "Monster Hunter: World",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 820,
+          "t": "Naruto Shippuden: Ultimate Ninja Storm 4",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 838,
+          "t": "Ni no Kuni: Wrath of the White Witch Remastered",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 842,
+          "t": "NieR: Automata",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 847,
+          "t": "Nioh",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 848,
+          "t": "Nioh 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 850,
+          "t": "No Man's Sky",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 851,
+          "t": "No More Heroes III [Day 1 Edition]",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 860,
+          "t": "Odin Sphere Leifthrasir",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 861,
+          "t": "Okami HD",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 884,
+          "t": "Outward",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 890,
+          "t": "Pac-Man Championship Edition 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 902,
+          "t": "Persona 5",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 927,
+          "t": "Power Rangers: Battle for the Grid",
+          "state": "COMMITTED"
+        }
+      ]
+    },
+    {
+      "checkpointNumber": 8,
+      "status": "COMMITTED",
+      "overrideBatchFile": "dossier-overrides-72.js",
+      "commitSha": "c94b90e1e6bbe5b963f5cfd4800f94b48f1e6860",
+      "identities": [
+        {
+          "id": 955,
+          "t": "Railway Empire",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 961,
+          "t": "Ratchet & Clank",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 964,
+          "t": "Red Dead Redemption 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 974,
+          "t": "Remothered: Tormented Fathers",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 978,
+          "t": "Resident Evil 4",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1027,
+          "t": "Sackboy: A Big Adventure",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1034,
+          "t": "Samurai Shodown V Special",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1062,
+          "t": "Shadows: Awakening",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1070,
+          "t": "Shenmue III",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1078,
+          "t": "Skater XL",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1117,
+          "t": "SpellForce III: Reforced",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1123,
+          "t": "SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1128,
+          "t": "Star Ocean: Integrity and Faithlessness",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1133,
+          "t": "Star Wars Jedi Knight II: Jedi Outcast",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1134,
+          "t": "Star Wars Jedi Knight: Jedi Academy",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1135,
+          "t": "Star Wars Jedi: Fallen Order",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1138,
+          "t": "Star Wars: Squadrons",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1142,
+          "t": "Starlink: Battle for Atlas",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1152,
+          "t": "Story of Seasons: Friends of Mineral Town",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1156,
+          "t": "Strange Brigade",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1159,
+          "t": "Street Fighter V",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1168,
+          "t": "Sudden Strike 4",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1182,
+          "t": "Super Street: The Game",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1192,
+          "t": "Sword Art Online: Fatal Bullet",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1194,
+          "t": "Sword Art Online: Lost Song",
+          "state": "COMMITTED"
+        }
+      ]
+    },
+    {
+      "checkpointNumber": 9,
+      "status": "COMMITTED",
+      "overrideBatchFile": "dossier-overrides-73.js",
+      "commitSha": "57e95128bb2741ae8b0cf6e02d65b4d067ce8731",
+      "identities": [
+        {
+          "id": 1195,
+          "t": "Syberia 3",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1199,
+          "t": "Tales of Arise",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1200,
+          "t": "Tales of Berseria",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1209,
+          "t": "Terminator: Resistance",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1211,
+          "t": "Terraria",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1212,
+          "t": "Teslagrad",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1213,
+          "t": "Tetris Effect",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1214,
+          "t": "The 25th Ward: The Silver Case",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1215,
+          "t": "The Alliance Alive HD Remastered",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1218,
+          "t": "The Aquatic Adventure of the Last Human",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1220,
+          "t": "The Bard's Tale IV: Director's Cut",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1221,
+          "t": "The Bard's Tale: Remastered and Resnarkled",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1222,
+          "t": "The Binding of Isaac: Afterbirth+",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1223,
+          "t": "The Bit.Trip",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1224,
+          "t": "The Book of Unwritten Tales 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1225,
+          "t": "The Bunker",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1226,
+          "t": "The Caligula Effect: Overdose",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1227,
+          "t": "The Church in the Darkness",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1228,
+          "t": "The Coma: Recut",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1230,
+          "t": "The Council",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1231,
+          "t": "The Crew",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1232,
+          "t": "The Crew 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1233,
+          "t": "The Crew: Wild Run",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1235,
+          "t": "The Dark Pictures - Little Hope",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1237,
+          "t": "The Dwarves",
+          "state": "COMMITTED"
+        }
+      ]
+    },
+    {
+      "checkpointNumber": 10,
+      "status": "COMMITTED",
+      "overrideBatchFile": "dossier-overrides-74.js",
+      "commitSha": "ab7533390dd0c751bd32edf8189f5282b578dd37",
+      "identities": [
+        {
+          "id": 1242,
+          "t": "The End Is Nigh",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1243,
+          "t": "The Escapists 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1244,
+          "t": "The Evil Within",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1245,
+          "t": "The Evil Within 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1249,
+          "t": "The Golf Club 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1250,
+          "t": "The House in Fata Morgana",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1253,
+          "t": "The Jackbox Party Pack",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1254,
+          "t": "The King of Fighters '97: Global Match",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1255,
+          "t": "The King of Fighters '98 Ultimate Match",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1257,
+          "t": "The King of Fighters XIV",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1258,
+          "t": "The Last Blade 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1260,
+          "t": "The Last Guardian",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1261,
+          "t": "The Last of Us Part II",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1262,
+          "t": "The Last of Us Remastered",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1264,
+          "t": "The Last Tinker: City of Colors",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1265,
+          "t": "The Legend of Heroes: Trails of Cold Steel",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1266,
+          "t": "The Legend of Heroes: Trails of Cold Steel II",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1267,
+          "t": "The Legend of Heroes: Trails of Cold Steel III",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1268,
+          "t": "The Legend of Heroes: Trails of Cold Steel IV",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1270,
+          "t": "The LEGO Movie 2 Videogame",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1271,
+          "t": "The LEGO Movie Videogame",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1272,
+          "t": "The LEGO NINJAGO Movie Video Game",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1273,
+          "t": "The Liar Princess and the Blind Prince",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1274,
+          "t": "The Long Dark",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1275,
+          "t": "The Lost Child",
+          "state": "COMMITTED"
+        }
+      ]
+    },
+    {
+      "checkpointNumber": 11,
+      "status": "COMMITTED",
+      "overrideBatchFile": "dossier-overrides-75.js",
+      "commitSha": "4c5cd2b15e58b026a9d5322e9879c7befe7f1f8c",
+      "identities": [
+        {
+          "id": 1277,
+          "t": "The Missing: JJ Macfield and the Island of Memories",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1279,
+          "t": "The Ninja Saviors: Return of the Warriors",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1281,
+          "t": "The Order: 1886",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1282,
+          "t": "The Outer Worlds",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1283,
+          "t": "The Persistence",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1284,
+          "t": "The Pinball Arcade",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1285,
+          "t": "The Princess Guide",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1286,
+          "t": "The Raven Remastered",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1289,
+          "t": "The Shapeshifting Detective",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1290,
+          "t": "The Silver Case",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1291,
+          "t": "The Sims 4",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1294,
+          "t": "The Sinking City",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1296,
+          "t": "The Surge 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1297,
+          "t": "The Swapper",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1298,
+          "t": "The Swindle",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1299,
+          "t": "The Swords of Ditto: Mormo's Curse",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1301,
+          "t": "The Technomancer",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1302,
+          "t": "The Town of Light",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1310,
+          "t": "The Witch and the Hundred Knight 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1312,
+          "t": "The Witcher 3: Wild Hunt",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1313,
+          "t": "The Wolf Among Us",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1314,
+          "t": "The Wonderful 101: Remastered",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1316,
+          "t": "theHunter: Call of the Wild",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1317,
+          "t": "They Are Billions",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1318,
+          "t": "Thief",
+          "state": "COMMITTED"
+        }
+      ]
+    },
+    {
+      "checkpointNumber": 12,
+      "status": "COMMITTED",
+      "overrideBatchFile": "dossier-overrides-76.js",
+      "commitSha": "97cde96e07b9cce911ecc0753594fb351659ab5f",
+      "identities": [
+        {
+          "id": 1320,
+          "t": "This Is the Police",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1322,
+          "t": "Thomas Was Alone",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1326,
+          "t": "Timespinner",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1327,
+          "t": "Tiny Troopers: Joint Ops",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1328,
+          "t": "Titan Quest",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1331,
+          "t": "ToeJam & Earl: Back in the Groove",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1332,
+          "t": "Toki Tori 2 +",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1334,
+          "t": "Tokyo Ghoul: re Call to Exist",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1335,
+          "t": "Tokyo Xanadu eX+",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1337,
+          "t": "Tom Clancy's The Division",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1338,
+          "t": "Tom Clancy's The Division 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1339,
+          "t": "Tomb Raider: Definitive Edition",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1340,
+          "t": "Tony Hawk's Pro Skater 1 + 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1341,
+          "t": "Torment: Tides of Numenera",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1343,
+          "t": "Touhou Genso Wanderer",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1344,
+          "t": "Touhou Kobuto V: Burst Battle",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1345,
+          "t": "Toukiden 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1346,
+          "t": "Toukiden: Kiwami",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1347,
+          "t": "Tower of Guns",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1348,
+          "t": "Toy Soldiers: War Chest",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1350,
+          "t": "Train Sim World",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1351,
+          "t": "Train Sim World 2020",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1353,
+          "t": "Transformers: Devastation",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1354,
+          "t": "Transformers: Rise of the Dark Spark",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1355,
+          "t": "Transistor",
+          "state": "COMMITTED"
+        }
+      ]
+    },
+    {
+      "checkpointNumber": 13,
+      "status": "COMMITTED",
+      "overrideBatchFile": "dossier-overrides-77.js",
+      "commitSha": "8efbdb30850e108f6e59814730fdc0678980e315",
+      "identities": [
+        {
+          "id": 1357,
+          "t": "Trials Fusion",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1359,
+          "t": "Trials of Mana",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1360,
+          "t": "Trials of the Blood Dragon",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1362,
+          "t": "Tribes of Midgard [Deluxe Edition]",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1363,
+          "t": "Tricky Towers",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1364,
+          "t": "Trine 4: The Nightmare Prince",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1366,
+          "t": "Troll and I",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1367,
+          "t": "Trollhunters Defenders of Arcadia",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1368,
+          "t": "Tropico 5",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1370,
+          "t": "Tropico 6",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1372,
+          "t": "Truberbrook",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1373,
+          "t": "Truck Driver",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1374,
+          "t": "Tumblestone",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1376,
+          "t": "Two Point Hospital",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1377,
+          "t": "Ultimate Marvel vs. Capcom 3",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1379,
+          "t": "Uncharted 4: A Thief's End",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1380,
+          "t": "Uncharted: The Lost Legacy",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1382,
+          "t": "Undertale",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1383,
+          "t": "Unepic",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1386,
+          "t": "Until Dawn",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1387,
+          "t": "Untitled Goose Game",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1389,
+          "t": "Utawarerumono: Mask of Deception",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1390,
+          "t": "Utawarerumono: Mask of Truth",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1391,
+          "t": "Utawarerumono: Prelude to the Fallen",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1392,
+          "t": "Valfaris",
+          "state": "COMMITTED"
+        }
+      ]
+    },
+    {
+      "checkpointNumber": 14,
+      "status": "COMMITTED",
+      "overrideBatchFile": "dossier-overrides-78.js",
+      "commitSha": "553921aae1f0b06d80fcf764e66bcebe375b2a26",
+      "identities": [
+        {
+          "id": 1394,
+          "t": "Valkyria Chronicles 4",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1396,
+          "t": "Valkyria Revolution",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1397,
+          "t": "Valkyrie Elysium",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1398,
+          "t": "Vampyr",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1403,
+          "t": "Vikings: Wolves of Midgard",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1404,
+          "t": "Void Bastards",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1406,
+          "t": "Volgarr the Viking",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1408,
+          "t": "Wandersong",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1409,
+          "t": "Warborn",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1412,
+          "t": "Warhammer 40,000: Deathwatch",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1417,
+          "t": "Warhammer: Chaosbane",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1418,
+          "t": "Warhammer: End Times - Vermintide",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1420,
+          "t": "Warriors All-Stars",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1421,
+          "t": "Warriors Orochi 3 Ultimate",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1422,
+          "t": "Warriors Orochi 4",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1424,
+          "t": "Wasteland 2: Director's Cut",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1426,
+          "t": "Watch Dogs",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1427,
+          "t": "Watch Dogs 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1429,
+          "t": "We Happy Few",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1432,
+          "t": "Where the Water Tastes Like Wine",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1434,
+          "t": "Wild Guns Reloaded",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1435,
+          "t": "Wildermyth",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1437,
+          "t": "WindJammers",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1438,
+          "t": "Wipeout: Omega Collection",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1439,
+          "t": "Wizard of Legend",
+          "state": "COMMITTED"
+        }
+      ]
+    },
+    {
+      "checkpointNumber": 15,
+      "status": "COMMITTED",
+      "overrideBatchFile": "dossier-overrides-79.js",
+      "commitSha": "2d3ac54fd629e970cdec841170dfe6f80808ee80",
+      "identities": [
+        {
+          "id": 1440,
+          "t": "Wolfenstein II: The New Colossus",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1442,
+          "t": "Wolfenstein: The New Order",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1443,
+          "t": "Wolfenstein: The Old Blood",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1444,
+          "t": "Wolfenstein: Youngblood",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1445,
+          "t": "Wonder Boy Collection",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1446,
+          "t": "Wonder Boy: The Dragon's Trap",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1449,
+          "t": "World of Final Fantasy",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1452,
+          "t": "World to the West",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1453,
+          "t": "World War Z",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1456,
+          "t": "Worms W.M.D",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1458,
+          "t": "Wreckfest",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1460,
+          "t": "XCOM 2",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1462,
+          "t": "Xenon Racer",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1464,
+          "t": "Xeodrifter",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1466,
+          "t": "Yaga",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1468,
+          "t": "Yakuza 3 Remastered",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1469,
+          "t": "Yakuza 4 Remastered",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1470,
+          "t": "Yakuza 5 Remastered",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1471,
+          "t": "Yakuza 6: The Song of Life",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1474,
+          "t": "Yesterday Origins",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1476,
+          "t": "Yomawari: Midnight Shadows",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1477,
+          "t": "Yonder: The Cloud Catcher Chronicles",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1478,
+          "t": "Yooka-Laylee",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1479,
+          "t": "Yooka-Laylee and the Impossible Lair",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1480,
+          "t": "Ys Origin",
+          "state": "COMMITTED"
+        }
+      ]
+    },
+    {
+      "checkpointNumber": 16,
+      "status": "COMMITTED",
+      "overrideBatchFile": "dossier-overrides-80.js",
+      "commitSha": "dd77e6566dad1cabc4256d1adabbd185f9605922",
+      "identities": [
+        {
+          "id": 1481,
+          "t": "Ys VIII: Lacrimosa of DANA",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1482,
+          "t": "Ys: Memories of Celceta",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1483,
+          "t": "Ys: Memories of Celceta - Kai",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1484,
+          "t": "YU-NO: A Girl Who Chants Love at the Bound of this World",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1485,
+          "t": "Zanki Zero: Last Beginning",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1486,
+          "t": "Zero Escape: The Nonary Games",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1487,
+          "t": "Ziggurat",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1488,
+          "t": "Zombie Army 4: Dead War",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1489,
+          "t": "Zombie Army Trilogy",
+          "state": "COMMITTED"
+        },
+        {
+          "id": 1491,
+          "t": "Zone of the Enders: The 2nd Runner MARS",
+          "state": "COMMITTED"
+        }
+      ]
+    }
+  ],
+  "currentCheckpoint": null,
+  "totalEligible": 385,
+  "totalCheckpoints": 16,
+  "campaignStatus": "COMPLETE",
+  "finalTotals": {
+    "startingAudit": {
+      "good": 2020,
+      "thin": 455,
+      "generic": 0,
+      "missing": 0,
+      "total": 2475
+    },
+    "endingAudit": {
+      "good": 2405,
+      "thin": 70,
+      "generic": 0,
+      "missing": 0,
+      "total": 2475
+    },
+    "startingIncluded": 2475,
+    "endingIncluded": 2475,
+    "identitiesResearched": 385,
+    "identitiesRepaired": 385,
+    "identitiesBorderlinePreserved": 70,
+    "identitiesCuratorReview": 4,
+    "identitiesPending": 0,
+    "checkpointCount": 16,
+    "ceilingHit": false,
+    "queueExhausted": true
+  }
+}
