@@ -8,9 +8,51 @@
 //
 //   EXCLUDED (confirmed no English release exists anywhere):
 //     - Hakoniwa Company Works (2383): Nippon Ichi Software tactical RPG, Japan-only,
-//       no official English localization for the PS4 version.
+//       no official English localization for the PS4 version (confirmed via GameFAQs release
+//       data and retailer listings -- Japanese-only import).
 //     - Aikano: Yukizora No Triangle (2478): Entergram romance visual novel, Japan-only
-//       physical PS4 release, no English localization.
+//       physical PS4 release (Oct 29, 2020), no English localization announced or released.
+//
+//   NOT excluded -- reversed from Claude's prior-turn recommendation, verified English exists:
+//     - 428: Shibuya Scramble (11): Spike Chunsoft released a full English-localized PS4
+//       physical retail release in North America Sept 4, 2018 (Amazon/GameStop listings,
+//       published by Sega of America). The census dossier's ambiguous "import and region
+//       differences matter" phrasing was misread as a language gap in the prior pass; it was
+//       not one.
+//     - Tantei Bokumetsu (2407): Localized in English by NIS America as "Process of
+//       Elimination," released physically on PS4 in North America April 11, 2023 (Standard +
+//       Deluxe Edition, confirmed for sale at GameStop/NISA store/Rarewaves). This matches
+//       audit-out/language-accessibility-pass-3.json's own prior identityRuleNote on this exact
+//       identity, which already concluded KEEP -- the prior-turn dossier scan re-flagged it
+//       without checking that existing research.
+//     - Buried Stars (2541): The Korea-exclusive physical PS4 disc supports selectable English
+//       subtitles alongside Korean/Japanese/Chinese (Gematsu, Amazon "English Supports"
+//       listing, multiple retailer listings). Also already KEEP in
+//       audit-out/language-accessibility-pass-3.json for the same reason.
+//
+// Sengoku Basara: Sanada Yukimura-Den (2403) was named by Josh as "move to research pile, not
+// excluded yet." It was already resolved KEEP once before, in pass 3's MANUAL_REVIEW (see
+// audit-out/language-accessibility-pass-3.json), on the reasoning that it's still fundamentally
+// a hack-and-slash musou game even though its distinguishing narrative content is
+// Japanese-only. Fresh research this pass (GameFAQs player report: "as I don't know Japanese I
+// wont be able to follow the story") confirms the story is inaccessible but did not turn up any
+// evidence that menu navigation or core combat play is blocked -- only that the story is. That
+// is not new/stronger evidence than what pass 3 already had, so no exclusion is applied here;
+// it remains INCLUDED pending either stronger play-blocking evidence or a direct judgment call
+// from Josh on narrative-only inaccessibility. See audit-out/language-accessibility-pass-4.json.
+//
+// Also resolved this pass (see audit-out/language-accessibility-pass-4.json for full sourcing):
+// Venus Vacation Prism: Dead Or Alive Xtreme (2754) confirmed KEEP -- the Asian-region PS4/PS5
+// physical release has a selectable English text option (Noisy Pixel, PlayStation Store
+// listing, Amazon "English in Game" listing). Utawarerumono Zan (1388) confirmed KEEP -- a
+// legitimate NISA-published English PS4 release (Sept 10, 2019), and independently an
+// action/musou game under the existing genre carve-out; its dossier is fixed separately in
+// dossier-overrides-50.js. Quintessential Quintuplets Fives Memories With You (2696) and
+// Get Star / Guardian (2471) remain unresolved -- insufficient evidence either way -- and stay
+// INCLUDED without a decision, per "wrong cut is worse than no cut."
+//
+// Reuses the existing set='EXCLUDED' + cleanupReason convention and the same
+// registerCensusMutation('exclude', ...) pipeline as curation-josh-set-pass-v001/002/003.js.
 (()=>{
   registerCensusMutation('exclude',()=>{
     const find=t=>items.find(x=>norm(x.title)===norm(t));
@@ -23,14 +65,27 @@
       x.cleanupReason=reason;
       excluded.push(x.title);
     };
-    exclude('Hakoniwa Company Works',2383,'LANGUAGE_BARRIER — excluded by Josh Set language accessibility pass #4. Verified: Nippon Ichi Software tactical RPG, Japan-only PS4 release with no official English localization anywhere; comprehension of its tactical-RPG systems and story requires Japanese fluency.');
-    exclude('Aikano: Yukizora No Triangle',2478,'LANGUAGE_BARRIER — excluded by Josh Set language accessibility pass #4. Verified: Entergram romance visual novel, Japan-only PS4 release with no English localization announced or released; the entire game is text-driven visual-novel gameplay.');
+
+    // LANGUAGE_BARRIER -- applies only to these 2 individually-verified identities. Both
+    // confirmed to have no English release anywhere via external sourcing, not just dossier
+    // text. See audit-out/language-accessibility-pass-4.json.
+    exclude('Hakoniwa Company Works',2383,'LANGUAGE_BARRIER — excluded by Josh Set language accessibility pass #4. Verified: Nippon Ichi Software tactical RPG, Japan-only PS4 release (July 13, 2017) with no official English localization anywhere; comprehension of its tactical-RPG systems and story requires Japanese fluency. See audit-out/language-accessibility-pass-4.json.');
+    exclude('Aikano: Yukizora No Triangle',2478,'LANGUAGE_BARRIER — excluded by Josh Set language accessibility pass #4. Verified: Entergram romance visual novel, Japan-only PS4 release (Oct 29, 2020) with no English localization announced or released; the entire game is text-driven visual-novel gameplay. See audit-out/language-accessibility-pass-4.json.');
+
     window.SHELFCHECK_CURATION_JOSH_SET_PASS_V004={excluded};
     console.info(`ShelfCheck Josh Set language accessibility curation pass #4 applied: ${excluded.length} identities excluded`,excluded);
   });
 })();
 
 // ShelfCheck curation — physical-legitimacy correction pass #13 (2026-09-23).
+// Re-audit of identities that had been placed in NO_RELIABLE_DATA. These identities do NOT have
+// a qualifying manufactured PS4 physical release and therefore never belonged in the physical-only
+// Josh Set. They are excluded canonically rather than hidden merely because pricing is unavailable.
+// Bridge Constructor is deliberately NOT included here: a qualifying Bridge Constructor Compilation
+// physical route exists and needs product-mapping review instead of exclusion.
+// Double Dragon & Kunio-kun Retro Brawler Bundle is also NOT excluded: fresh follow-up found the
+// equivalent Kunio-kun: The World Classics Collection physical PS4 releases (JP PLJS-36054 and
+// Asian PLAS-10219), including an English/Japanese Asian route. It remains INCLUDED.
 (()=>{
   registerCensusMutation('exclude',()=>{
     const find=t=>items.find(x=>norm(x.title)===norm(t));
@@ -43,15 +98,19 @@
       x.cleanupReason=reason;
       excluded.push(x.title);
     };
+
     exclude('101 Ways to Die',3,'NO_QUALIFYING_PHYSICAL — corrected from NO_RELIABLE_DATA after fresh physical-legitimacy re-audit. Sony PlayStation Blog listed the PS4 launch explicitly as DIGITAL and GameFAQs release data lists PlayStation Store distribution only; no qualifying PS4 disc SKU was verified.');
     exclude('CastleStorm: Definitive Edition',232,'NO_QUALIFYING_PHYSICAL — corrected from NO_RELIABLE_DATA after fresh physical-legitimacy re-audit. Official PlayStation Blog launch coverage directs the PS4 release to PlayStation Store; no manufactured PS4 disc SKU was verified.');
     exclude('DISTRAINT: Deluxe Edition',378,'NO_QUALIFYING_PHYSICAL — corrected from NO_RELIABLE_DATA after fresh physical-legitimacy re-audit. Official PS Store identifies the PS4/Vita release as Cross-Buy download software and no manufactured PS4 disc SKU was verified; known physical DISTRAINT releases are on other platforms.');
+
     window.SHELFCHECK_CURATION_PHYSICAL_CORRECTION_V013={excluded};
     console.info(`ShelfCheck physical-legitimacy correction pass #13 applied: ${excluded.length} identities excluded`,excluded);
   });
 })();
 
 // ShelfCheck curation — physical-legitimacy correction pass #14 (2026-09-23).
+// Second re-audit batch from NO_RELIABLE_DATA. All five PS4 identities below resolve to digital
+// storefront releases only; no qualifying manufactured PS4 disc SKU was verified.
 (()=>{
   registerCensusMutation('exclude',()=>{
     const find=t=>items.find(x=>norm(x.title)===norm(t));
@@ -64,11 +123,13 @@
       x.cleanupReason=reason;
       excluded.push(x.title);
     };
-    exclude('Hard West Ultimate Edition',569,'NO_QUALIFYING_PHYSICAL — corrected from NO_RELIABLE_DATA after fresh physical-legitimacy re-audit. GameFAQs release data lists PS4 distribution through PlayStation Store in US/EU/AU; no manufactured PS4 disc SKU was verified.');
-    exclude("Qubit's Quest",945,'NO_QUALIFYING_PHYSICAL — corrected from NO_RELIABLE_DATA after fresh physical-legitimacy re-audit. Sony PlayStation Blog explicitly listed Qubit’s Quest as PS4 Digital; no qualifying PS4 disc SKU was verified.');
-    exclude("Slayaway Camp: Butcher's Cut",1088,'NO_QUALIFYING_PHYSICAL — corrected from NO_RELIABLE_DATA after fresh physical-legitimacy re-audit. PS4 release data lists PlayStation Store distribution and the proposed Physicality Games physical release as canceled.');
-    exclude('Stranded Deep',1154,'NO_QUALIFYING_PHYSICAL — corrected from NO_RELIABLE_DATA after fresh physical-legitimacy re-audit. Developer/community confirmation states the PS4 version is digital only; later physical retail announcements are for Switch.');
-    exclude('Surgeon Simulator: Anniversary Edition',1187,'NO_QUALIFYING_PHYSICAL — corrected from NO_RELIABLE_DATA after fresh physical-legitimacy re-audit. PS4 Anniversary Edition release data lists PlayStation Store distribution in US/EU/AU; no qualifying PS4 disc SKU was verified.');
+
+    exclude('Hard West Ultimate Edition',569,'NO_QUALIFYING_PHYSICAL — corrected from NO_RELIABLE_DATA after fresh physical-legitimacy re-audit. GameFAQs release data lists CUSA-18105/CUSA-17408 as PlayStation Store PS4 distribution in US/EU/AU, while the official PS Store is the PS4 product route; no manufactured PS4 disc SKU was verified.');
+    exclude("Qubit's Quest",945,'NO_QUALIFYING_PHYSICAL — corrected from NO_RELIABLE_DATA after fresh physical-legitimacy re-audit. Sony PlayStation Blog explicitly listed Qubit’s Quest as “PS4 — Digital (Out 11/1)”; the PS Store page likewise describes downloadable starter-pack software. No qualifying PS4 disc SKU was verified.');
+    exclude("Slayaway Camp: Butcher's Cut",1088,'NO_QUALIFYING_PHYSICAL — corrected from NO_RELIABLE_DATA after fresh physical-legitimacy re-audit. GameFAQs release data lists PS4 distribution through PlayStation Store and records the proposed Physicality Games physical release as CANCELED. No manufactured PS4 disc release shipped.');
+    exclude('Stranded Deep',1154,'NO_QUALIFYING_PHYSICAL — corrected from NO_RELIABLE_DATA after fresh physical-legitimacy re-audit. An official Stranded Deep developer/community response states the PS4 version is digital only; later physical-retail announcements are for Nintendo Switch, not PS4.');
+    exclude('Surgeon Simulator: Anniversary Edition',1187,'NO_QUALIFYING_PHYSICAL — corrected from NO_RELIABLE_DATA after fresh physical-legitimacy re-audit. GameFAQs release data lists the PS4 Anniversary Edition in US/EU/AU exclusively as PlayStation Store distribution (CUSA-01037/CUSA-00861); no qualifying PS4 disc SKU was verified.');
+
     window.SHELFCHECK_CURATION_PHYSICAL_CORRECTION_V014={excluded};
     console.info(`ShelfCheck physical-legitimacy correction pass #14 applied: ${excluded.length} identities excluded`,excluded);
   });
