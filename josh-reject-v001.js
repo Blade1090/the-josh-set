@@ -142,3 +142,40 @@
 
   window.SHELFCHECK_REJECT={version:1,isRejected,rejectGame,restoreGame,rejectedIds:()=>[...rejectedIds()],reconcileOverlay};
 })();
+
+// Browser/runtime pricing reconcile (2026-09-23).
+// The full product-aware Node audit already classified these three identities as priced,
+// but the mobile browser path was still surfacing them as PRICE PENDING. Because this file
+// loads last, wrap the final priceFor() and supply only the three independently verified
+// exact PS4 CIB values when every earlier pricing tier returned nothing. Existing prices
+// always win; the six intentionally-held endgame cases are untouched.
+(()=>{
+  const FIX=new Map([
+    ['double switch 25th anniversary edition',{m:29.23,product:'Double Switch',region:'US',source:'PriceCharting exact PS4 product'}],
+    ['mighty switch force collection',{m:35.79,product:'Mighty Switch Force Collection',region:'US',source:'PriceCharting exact PS4 product'}],
+    ['bud spencer terence hill slaps and beans 2',{m:28.98,product:'Slaps and Beans 2',region:'US',source:'PriceCharting exact PS4 product'}],
+  ]);
+  let tries=0;
+  const apply=()=>{
+    tries++;
+    if(typeof priceFor!=='function'||typeof norm!=='function'){
+      if(tries<100)setTimeout(apply,100);
+      return;
+    }
+    if(window.__SHELFCHECK_BROWSER_PRICE_RECONCILED)return;
+    window.__SHELFCHECK_BROWSER_PRICE_RECONCILED=true;
+    const prev=priceFor;
+    priceFor=function(x){
+      const p=prev(x);
+      if(p)return p;
+      const rec=FIX.get(norm(x.title));
+      if(!rec)return null;
+      const m=rec.m;
+      return {t:x.title,m,s:+(m*.70).toFixed(2),g:+(m*.85).toFixed(2),x:+(m*1.10).toFixed(2),pc:rec.product,c:rec.region,source:rec.source,browserRuntimeReconcile:true};
+    };
+    window.SHELFCHECK_BROWSER_PRICE_RECONCILE={count:FIX.size,version:1};
+    if(typeof resetBrowse==='function')resetBrowse();
+    if(typeof render==='function')render();
+  };
+  apply();
+})();
