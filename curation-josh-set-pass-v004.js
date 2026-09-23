@@ -107,3 +107,30 @@
     console.info(`ShelfCheck physical-legitimacy correction pass #13 applied: ${excluded.length} identities excluded`,excluded);
   });
 })();
+
+// ShelfCheck curation — physical-legitimacy correction pass #14 (2026-09-23).
+// Second re-audit batch from NO_RELIABLE_DATA. All five PS4 identities below resolve to digital
+// storefront releases only; no qualifying manufactured PS4 disc SKU was verified.
+(()=>{
+  registerCensusMutation('exclude',()=>{
+    const find=t=>items.find(x=>norm(x.title)===norm(t));
+    const excluded=[];
+    const exclude=(title,id,reason)=>{
+      const x=find(title);
+      if(!x){console.warn(`ShelfCheck physical correction pass #14: expected identity not found, skipped: "${title}" (id ${id})`);return;}
+      if(x.id!==id)console.warn(`ShelfCheck physical correction pass #14: id mismatch for "${title}" -- expected ${id}, found ${x.id}. Excluding by title match anyway.`);
+      x.set='EXCLUDED';
+      x.cleanupReason=reason;
+      excluded.push(x.title);
+    };
+
+    exclude('Hard West Ultimate Edition',569,'NO_QUALIFYING_PHYSICAL — corrected from NO_RELIABLE_DATA after fresh physical-legitimacy re-audit. GameFAQs release data lists CUSA-18105/CUSA-17408 as PlayStation Store PS4 distribution in US/EU/AU, while the official PS Store is the PS4 product route; no manufactured PS4 disc SKU was verified.');
+    exclude("Qubit's Quest",945,'NO_QUALIFYING_PHYSICAL — corrected from NO_RELIABLE_DATA after fresh physical-legitimacy re-audit. Sony PlayStation Blog explicitly listed Qubit’s Quest as “PS4 — Digital (Out 11/1)”; the PS Store page likewise describes downloadable starter-pack software. No qualifying PS4 disc SKU was verified.');
+    exclude("Slayaway Camp: Butcher's Cut",1088,'NO_QUALIFYING_PHYSICAL — corrected from NO_RELIABLE_DATA after fresh physical-legitimacy re-audit. GameFAQs release data lists PS4 distribution through PlayStation Store and records the proposed Physicality Games physical release as CANCELED. No manufactured PS4 disc release shipped.');
+    exclude('Stranded Deep',1154,'NO_QUALIFYING_PHYSICAL — corrected from NO_RELIABLE_DATA after fresh physical-legitimacy re-audit. An official Stranded Deep developer/community response states the PS4 version is digital only; later physical-retail announcements are for Nintendo Switch, not PS4.');
+    exclude('Surgeon Simulator: Anniversary Edition',1187,'NO_QUALIFYING_PHYSICAL — corrected from NO_RELIABLE_DATA after fresh physical-legitimacy re-audit. GameFAQs release data lists the PS4 Anniversary Edition in US/EU/AU exclusively as PlayStation Store distribution (CUSA-01037/CUSA-00861); no qualifying PS4 disc SKU was verified.');
+
+    window.SHELFCHECK_CURATION_PHYSICAL_CORRECTION_V014={excluded};
+    console.info(`ShelfCheck physical-legitimacy correction pass #14 applied: ${excluded.length} identities excluded`,excluded);
+  });
+})();
