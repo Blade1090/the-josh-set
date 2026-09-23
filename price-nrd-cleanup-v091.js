@@ -11,7 +11,10 @@
     [393,{m:39.99,product:'Kunio-kun: The World Classics Collection / Double Dragon & Kunio-kun Retro Brawler Bundle',source:'Current physical acquisition listing / product-map re-audit'}],
     [985,{m:119.99,product:'Resonance of Fate 4K / HD Edition',source:'Current complete/VG physical listing'}],
     [1647,{m:33.99,product:'Katana Kami: A Way of the Samurai Story',source:'Current physical acquisition listing'}],
-    [1682,{m:18.90,product:"Now That's What I Call Sing",source:'Current PAL physical acquisition listing'}],
+    [1682,{m:18.90,product:"Now That\'s What I Call Sing",source:'Current PAL physical acquisition listing'}],
+    [1793,{m:34.99,product:'YIIK: A Postmodern RPG - Standard Edition',source:'Limited Run Games PS4 MSRP $34.99; product sold out and in production, estimated ship Oct-Dec 2026'}],
+    [1964,{m:29.99,product:'Blast Brigade vs. the Evil Legion of Dr. Cread',source:'Strictly Limited Games PS4 physical MSRP $29.99; limited to 1,000 copies'}],
+    [1970,{m:34.13,product:'Vesper: Zero Light Edition',source:'Strictly Limited Games PS4 physical MSRP €29.99 converted at 1 EUR = 1.13797 USD on 2026-09-23'}],
     [203,{m:10.86,product:'Bridge Constructor Compilation',source:'Current compilation CIB acquisition value'}],
     [1508,{m:26.46,product:'Gori: Cuddly Carnage PS4 Physical',source:'Wired Productions £19.99 live retail converted at 1 GBP = 1.32357 USD on 2026-09-23'}],
     [1586,{m:94.95,product:'Capcom Arcade Stadium Vol. 1 (LRG #591)',source:'Current sealed acquisition listing; original LRG MSRP $59.99'}],
@@ -20,7 +23,7 @@
     [1845,{m:39.99,product:'Romancing SaGa -Minstrel Song- Remastered',source:'Current PS4 physical acquisition listing'}],
     [1848,{m:34.99,product:'Itorah',source:'Current PS4 physical retail listing'}],
     [2057,{m:35.99,product:'River City Saga: Three Kingdoms Next',source:'Current Asian-English PS4 physical listing'}],
-    [2063,{m:16.96,product:"Guns N' Runs",source:'PixelHeart €14.90 live retail converted at 1 EUR = 1.13797 USD on 2026-09-23'}],
+    [2063,{m:16.96,product:"Guns N\' Runs",source:'PixelHeart €14.90 live retail converted at 1 EUR = 1.13797 USD on 2026-09-23'}],
     [2068,{m:39.82,product:'Beyond the Ice Palace 2',source:'PixelHeart €34.99 physical retail converted at 1 EUR = 1.13797 USD on 2026-09-23'}],
     [2098,{m:81.93,product:'Underhero',source:'Current sealed physical listing €72 converted at 1 EUR = 1.13797 USD on 2026-09-23'}],
     [2338,{m:33.97,product:'Ravenswatch - Legendary Edition',source:'Live PS4 retailer listing at $33.97'}],
@@ -38,6 +41,7 @@
     [2773,{m:21.98,product:'Your Toy',source:'Current Very Good PS4 physical acquisition listing'}],
     [2779,{m:59.00,product:'Fatal Frame: Mask of the Lunar Eclipse / Zero: Tsukihami No Kamen',source:'Current mapped PS4 physical acquisition value'}],
     [2782,{m:53.99,product:'Russian Subway Dogs',source:'Current PS4 physical acquisition listing'}],
+    [2787,{m:24.99,product:'Catlateral Damage: Remeowstered',source:'PriceCharting PS4 Complete market value $24.99; Limited Run physical product'}],
   ]);
 
   let tries=0;
@@ -68,7 +72,7 @@
         researchedAt:'2026-09-23'
       };
     };
-    window.SHELFCHECK_NRD_CLEANUP_V091={priced:FIX.size,heldManufacturingStatusIds:[1793,1964,1970]};
+    window.SHELFCHECK_NRD_CLEANUP_V091={priced:FIX.size,heldManufacturingStatusIds:[]};
     if(typeof resetBrowse==='function')resetBrowse();
     if(typeof render==='function')render();
   };
