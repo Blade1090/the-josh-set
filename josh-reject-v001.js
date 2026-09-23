@@ -146,3 +146,12 @@
   };
   apply();
 })();
+
+// Load the post-audit NRD cleanup after all other pricing/runtime wrappers are in place.
+(()=>{
+  if(document.querySelector('script[data-shelfcheck-nrd-cleanup]'))return;
+  const s=document.createElement('script');
+  s.src='price-nrd-cleanup-v091.js?v=1';
+  s.dataset.shelfcheckNrdCleanup='1';
+  document.body.appendChild(s);
+})();
