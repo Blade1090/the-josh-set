@@ -38,13 +38,15 @@ const CENSUS_MUTATORS = [
   'census-v060-integrity-scrub.js', 'census-integrity-pass-v001.js', 'census-integrity-pass-v002.js',
   'ownership-reconcile-v071.js', 'ownership-reconcile-v072.js',
   'curation-josh-set-pass-v001.js', 'curation-josh-set-pass-v002.js', 'curation-josh-set-pass-v003.js',
-  'curation-josh-set-pass-v004.js',
+  'curation-josh-set-pass-v004.js', 'curation-josh-set-pass-v005.js', 'curation-josh-set-pass-v006.js',
 ];
 const PRICE_FILES = [
   'price-import-v037.js', 'price-alias-v039.js', 'price-alias-v040.js', 'price-final-v041.js',
   'price-online-v041.js', 'price-negative-space-v042.js', 'price-direct-v050.js', 'price-direct-v051.js',
   'public-prices-full-v066.js', 'price-new-games-v073.js', 'price-new-games-v074.js',
-  'price-new-games-v075.js', 'price-whole-census-v077.js', 'price-fix.js',
+  'price-new-games-v075.js', 'price-whole-census-v077.js', 'price-batch-001-v079.js',
+  'price-batch-003-v082.js', 'price-batch-004-v083.js', 'price-batch-005-v084.js', 'price-batch-006-v085.js', 'price-fix.js',
+  'price-product-inherited-v086.js',
 ];
 
 function norm(s) {
