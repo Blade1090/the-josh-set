@@ -76,3 +76,32 @@
     console.info(`ShelfCheck Josh Set language accessibility curation pass #4 applied: ${excluded.length} identities excluded`,excluded);
   });
 })();
+
+// ShelfCheck curation — physical-legitimacy correction pass #13 (2026-09-23).
+// Re-audit of identities that had been placed in NO_RELIABLE_DATA. These four do NOT have a
+// qualifying manufactured PS4 physical release and therefore never belonged in the physical-only
+// Josh Set. They are excluded canonically rather than hidden merely because pricing is unavailable.
+// Bridge Constructor is deliberately NOT included here: a qualifying Bridge Constructor physical
+// compilation route exists and needs product-mapping review instead of exclusion.
+(()=>{
+  registerCensusMutation('exclude',()=>{
+    const find=t=>items.find(x=>norm(x.title)===norm(t));
+    const excluded=[];
+    const exclude=(title,id,reason)=>{
+      const x=find(title);
+      if(!x){console.warn(`ShelfCheck physical correction pass #13: expected identity not found, skipped: "${title}" (id ${id})`);return;}
+      if(x.id!==id)console.warn(`ShelfCheck physical correction pass #13: id mismatch for "${title}" -- expected ${id}, found ${x.id}. Excluding by title match anyway.`);
+      x.set='EXCLUDED';
+      x.cleanupReason=reason;
+      excluded.push(x.title);
+    };
+
+    exclude('101 Ways to Die',3,'NO_QUALIFYING_PHYSICAL — corrected from NO_RELIABLE_DATA after fresh physical-legitimacy re-audit. Sony PlayStation Blog listed the PS4 launch explicitly as DIGITAL and GameFAQs release data lists PlayStation Store distribution only; no qualifying PS4 disc SKU was verified.');
+    exclude('CastleStorm: Definitive Edition',232,'NO_QUALIFYING_PHYSICAL — corrected from NO_RELIABLE_DATA after fresh physical-legitimacy re-audit. Official PlayStation Blog launch coverage directs the PS4 release to PlayStation Store; no manufactured PS4 disc SKU was verified.');
+    exclude('DISTRAINT: Deluxe Edition',378,'NO_QUALIFYING_PHYSICAL — corrected from NO_RELIABLE_DATA after fresh physical-legitimacy re-audit. Official PS Store identifies the PS4/Vita release as Cross-Buy download software and no manufactured PS4 disc SKU was verified; known physical DISTRAINT releases are on other platforms.');
+    exclude('Double Dragon & Kunio-kun Retro Brawler Bundle',393,'NO_QUALIFYING_PHYSICAL — corrected from NO_RELIABLE_DATA after fresh physical-legitimacy re-audit. PS4 release records list PlayStation Store distribution; the physical release found for this compilation is Switch, and no qualifying PS4 disc release was verified.');
+
+    window.SHELFCHECK_CURATION_PHYSICAL_CORRECTION_V013={excluded};
+    console.info(`ShelfCheck physical-legitimacy correction pass #13 applied: ${excluded.length} identities excluded`,excluded);
+  });
+})();
