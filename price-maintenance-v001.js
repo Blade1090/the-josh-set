@@ -3,7 +3,6 @@
 // summary + current-price audit export, and keeps the normal browse/store UI uncluttered.
 (()=>{
   const BASELINE_DATE='2026-09-23T18:24:00-04:00';
-  const money=v=>Number.isFinite(Number(v))?`$${Number(v).toFixed(2)}`:'—';
   const fmtDate=v=>{try{return new Date(v).toLocaleDateString(undefined,{year:'numeric',month:'short',day:'numeric'})}catch{return 'Unknown'}};
 
   function snapshot(){
@@ -71,8 +70,17 @@
     audit.id='priceAuditExportBtn';audit.type='button';audit.textContent='EXPORT PRICE AUDIT';audit.onclick=downloadAudit;
     priceBtn.after(audit);
 
-    prices.addEventListener('change',()=>setTimeout(()=>{paint();if(stateCache?.priceImportedAt){stateCache.priceRefreshImportedAt=stateCache.priceImportedAt}},900));
+    // price-import-v037 handles the actual CSV/JSON validation + import. After it settles,
+    // stamp the maintenance date in the same persisted state so JSON refresh packs and native
+    // PriceCharting CSV imports both update the "Last refresh" display consistently.
+    prices.addEventListener('change',()=>setTimeout(()=>{
+      try{
+        if(stateCache&&typeof saveState==='function')saveState({...stateCache,priceRefreshImportedAt:new Date().toISOString()});
+      }catch{}
+      paint();
+    },1100));
     setTimeout(paint,1200);
+    setTimeout(paint,2600);
     window.SHELFCHECK_PRICE_MAINTENANCE={version:1,snapshot,makeAudit,paint,lastRefresh};
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',install);else install();
