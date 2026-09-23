@@ -202,3 +202,221 @@
     console.info(`ShelfCheck Josh Set curation pass #8 applied: ${excluded.length} duplicate/product identities excluded; OlliOlli2 added. Expected denominator 2456.`,excluded);
   });
 })();
+
+// ShelfCheck curation — Josh Set pass #9.
+// Physical-legitimacy adjudication: 10 identities confirmed to have no qualifying physical
+// PS4 release anywhere (NA, PAL, JP/Asian-English import, or compilation/bundle), after
+// multi-source research (official storefronts, publisher pages, delisting coverage, and —
+// for the multi-source cases — independent live web verification against the existing
+// dossier claims). See the pricing-campaign chat report (physical-legitimacy adjudication,
+// 2026-09-23) for full per-identity source citations.
+//
+// Destroy All Humans! (2005) (356): the census identity is explicitly the 2005 original,
+// which never received any PS4 SKU of its own -- the "Destroy All Humans PS4" boxed copies
+// found everywhere belong to the unrelated 2020 remake, which already exists as its own
+// separate INCLUDED identity (355, "Destroy All Humans!"). Confirmed before excluding: this
+// is a mistaken/non-PS4 row, not a rename/reuse candidate.
+//
+// Held out of this pass, NOT excluded here:
+// - Warhammer 40,000: Space Wolf (1414): CONFLICT with pass #7's explicit prior curator
+//   ruling ("KEEP after curator review... qualifying PS4 disc exists"), which contradicts
+//   fresh multi-source research (PS Store, Wikipedia, a WorthPlaying delisting article) all
+//   describing it as digital-storefront-only. Flagged for Josh; not resolved silently.
+// - Super Blackjack Battle II Turbo Edition: The Card Warriors (1173): held for one final
+//   focused verification pass per Josh's explicit instruction before any exclusion.
+(()=>{
+  registerCensusMutation('exclude',()=>{
+    const find=t=>items.find(x=>norm(x.title)===norm(t));
+    const excluded=[];
+    const exclude=(title,id,reason)=>{
+      const x=find(title);
+      if(!x){console.warn(`ShelfCheck curation pass v0.09: expected identity not found, skipped: "${title}" (id ${id})`);return;}
+      if(x.id!==id){console.warn(`ShelfCheck curation pass v0.09: id mismatch for "${title}" -- expected ${id}, found ${x.id}. Excluding by title match anyway.`);}
+      x.set='EXCLUDED';
+      x.cleanupReason=reason;
+      excluded.push(x.title);
+    };
+
+    const reason='NO_QUALIFYING_PHYSICAL_PS4 — excluded by Josh Set curation pass #9 after physical-legitimacy adjudication. No genuine qualifying physical PS4 release was found in any region (NA/PAL retail, JP/Asian-English import, limited-print, or compilation/bundle); digital-only software does not count toward the physical-only Josh Set.';
+    exclude('Abyss Odyssey: Extended Dream Edition',28,reason);
+    exclude('Amnesia Collection',71,reason);
+    exclude('Candleman: The Complete Journey',225,reason);
+    exclude('Construction Simulator 2: Console Edition',262,reason);
+    exclude('Deep Sky Derelicts: Definitive Edition',345,reason);
+    exclude('Destroy All Humans! (2005)',356,'NO_QUALIFYING_PHYSICAL_PS4 — excluded by Josh Set curation pass #9. This identity is explicitly the 2005 original, which never received any PS4 SKU of its own; the boxed "Destroy All Humans PS4" copies found in every source belong to the unrelated 2020 remake, already represented by its own separate INCLUDED identity (355, "Destroy All Humans!"). Confirmed not a rename/reuse case before excluding.');
+    exclude('Sunless Sea: Zubmariner Edition',1172,reason);
+    exclude('Worms Anniversary Edition',1454,reason);
+    exclude("A Winter's Daydream",1561,'NO_QUALIFYING_PHYSICAL_PS4 — excluded by Josh Set curation pass #9. Only a PS Vita physical limited edition was found (1,200-copy run); the PS4 version is confirmed digital-only across every source checked. The existing dossier claim appears to conflate the Vita physical release with PS4.');
+    exclude('Euro Fishing: Urban Edition',1612,'NO_QUALIFYING_PHYSICAL_PS4 — excluded by Josh Set curation pass #9. This specific Urban Edition SKU (base game + Foundry Dock DLC) is confirmed digital-only across every source checked; a physical "Euro Fishing Collector\'s Edition" exists but is a different product/content set for the base game, not this identity.');
+
+    window.SHELFCHECK_CURATION_JOSH_SET_PASS_V009={excluded,expectedIncluded:2446};
+    console.info(`ShelfCheck Josh Set curation pass #9 applied: ${excluded.length} identities excluded (physical-legitimacy adjudication). Expected denominator 2446.`,excluded);
+  });
+})();
+
+// ShelfCheck curation — Josh Set pass #10.
+// Two focused physical-release adjudications, each requiring affirmative evidence before
+// any exclusion (per Josh's explicit instruction), reported to Josh in full before this pass
+// was approved and applied.
+//
+// Warhammer 40,000: Space Wolf (1414) -- REVERSES pass #7's KEEP ruling above ("KEEP after
+// curator review: Warhammer 40,000: Space Wolf (1414) -- qualifying PS4 disc exists."). That
+// prior note is left untouched above, on purpose, as the historical audit trail -- this pass
+// documents the newer ruling and its evidence basis rather than overwriting it. A dedicated
+// re-adjudication (2026-09-23) found: HeroCraft's own October 2023 delisting announcement
+// (covered by WorthPlaying, NicheGamer, GameSpace, TheGamer, and a PSNProfiles thread) frames
+// the removal purely as leaving "digital stores"/"all console and PC platforms" as digital
+// purchases, with no carve-out for existing physical inventory anywhere; no UPC/barcode entry
+// exists in barcode databases; no eBay/Amazon boxed-disc listing was found in any region; and
+// PriceCharting -- which tracks nearly every manufactured physical release -- has no page for
+// this title at all, not even an untracked/no-price entry. Originated as a mobile freemium
+// card game, a common profile for PS4 ports that never leave digital storefronts. No
+// manufactured PS4 physical SKU was found in any qualifying region.
+//
+// Super Blackjack Battle II Turbo Edition: The Card Warriors (1173) -- final verification
+// distinguished genuine boxed evidence from storefront listings. GameStop confirms a real
+// physical Nintendo Switch release (both physical and digital purchase options on its Switch
+// product page) -- but no GameStop, Amazon, eBay, or PriceCharting listing exists for a PS4
+// disc despite the game being cross-platform (PC/Xbox One/PS4/Switch/mobile, per Headup
+// Games' own site). PriceCharting has no page at all for this title on PS4. Physical releases
+// exist on other platforms; no qualifying PS4 physical release was found.
+(()=>{
+  registerCensusMutation('exclude',()=>{
+    const find=t=>items.find(x=>norm(x.title)===norm(t));
+    const excluded=[];
+    const exclude=(title,id,reason)=>{
+      const x=find(title);
+      if(!x){console.warn(`ShelfCheck curation pass v0.10: expected identity not found, skipped: "${title}" (id ${id})`);return;}
+      if(x.id!==id){console.warn(`ShelfCheck curation pass v0.10: id mismatch for "${title}" -- expected ${id}, found ${x.id}. Excluding by title match anyway.`);}
+      x.set='EXCLUDED';
+      x.cleanupReason=reason;
+      excluded.push(x.title);
+    };
+
+    exclude('Warhammer 40,000: Space Wolf',1414,'NO_QUALIFYING_PHYSICAL_PS4 — excluded by Josh Set curation pass #10, REVERSING pass #7\'s prior KEEP ruling ("qualifying PS4 disc exists") after a dedicated re-adjudication. Evidence: HeroCraft\'s Oct 2023 delisting announcement frames removal purely as leaving digital storefronts across all platforms with no mention of existing physical inventory; no UPC/barcode found; no boxed-disc listing found on eBay/Amazon in any region; no PriceCharting page exists for this title at all. Originated as a mobile freemium card game. No manufactured PS4 physical SKU found in any qualifying region. Pass #7\'s original note is preserved above as the historical record, not overwritten.');
+    exclude('Super Blackjack Battle II Turbo Edition: The Card Warriors',1173,'NO_QUALIFYING_PHYSICAL_PS4 — excluded by Josh Set curation pass #10 after final verification. A genuine physical release exists for Nintendo Switch (confirmed via GameStop\'s Switch product page offering both physical and digital purchase), but no GameStop/Amazon/eBay/PriceCharting listing exists for a PS4 disc despite this being a cross-platform title (PC/Xbox One/PS4/Switch/mobile). PriceCharting has no page at all for this title on PS4. Physical releases exist on other platforms; no qualifying PS4 physical release was found.');
+
+    window.SHELFCHECK_CURATION_JOSH_SET_PASS_V010={excluded,expectedIncluded:2444};
+    console.info(`ShelfCheck Josh Set curation pass #10 applied: ${excluded.length} identities excluded (focused physical-release adjudication). Expected denominator 2444.`,excluded);
+  });
+})();
+
+// ShelfCheck curation — Josh Set pass #11.
+// Product-mapping repair only -- registers 5 verified physical products in DATA.p that were
+// missing from the product registry (confirmed by direct inspection: zero matches for any of
+// these titles before this pass). No identity is added, excluded, or re-included by this pass;
+// it only restores the product<->identity relationship so Model A's product-inherited pricing
+// tier (price-product-inherited-v086.js) can see these already-verified physical products.
+// See the pricing-campaign chat report (COMPILATION_ONLY salvage, 2026-09-23) for full sourcing.
+//
+//   - GALAK-Z: The Void & Skulls of the Shogun: Bone-A-Fide (Maximum Games, US) -- covers
+//     Galak-Z: The Void (1625) and Skulls of the Shogun: Bone-a-Fide Edition (1731).
+//   - The Journey Down Trilogy (Strictly Limited Games, PAL) -- covers all 3 Journey Down
+//     chapters (1754, 1755, 1756) on one disc.
+//   - Epics of Hammerwatch: Heroes' Edition (Strictly Limited Games, PAL) -- covers Hammerwatch
+//     (2256) and Heroes of Hammerwatch - Ultimate Edition (2257).
+//   - Toaplan Arcade Garage: Kyukyoku Tiger-Heli (PriceCharting product 8576642, US) -- covers
+//     Kyukyoku Tiger / Twin Cobra (2469), Tiger-Heli (2470), Get Star / Guardian (2471), and
+//     Teki-Paki (2472). Teki-Paki is INTENTIONALLY included in the product's ids array (it is
+//     genuinely on this disc), but it is already EXCLUDED for an unrelated reason -- registering
+//     this product does not and must not change its set status, since productCoverage()/
+//     collectionInfo() only ever count ids with set==='INCLUDED'.
+//   - DOOM: The Classics Collection (Limited Run #395, US) -- covers only DOOM 3 (389). The
+//     collection also contains the 1993 DOOM and DOOM II, but neither has its own census
+//     identity, so this product genuinely covers just 1 currently-INCLUDED identity. It is
+//     still registered here as a real physical product (not invented); see
+//     price-product-inherited-v086.js for the explicit, individually-flagged exception that
+//     lets a verified single-identity product like this one provide product-inherited pricing.
+(()=>{
+  const PRODUCTS_TO_REGISTER=[
+    ['GALAK-Z: The Void & Skulls of the Shogun: Bone-A-Fide','GALAK-Z: The Void & Skulls of the Shogun: Bone-A-Fide',[1625,1731]],
+    ['The Journey Down Trilogy','The Journey Down Trilogy',[1754,1755,1756]],
+    ["Epics of Hammerwatch: Heroes' Edition","Epics of Hammerwatch: Heroes' Edition",[2256,2257]],
+    ['Toaplan Arcade Garage: Kyukyoku Tiger-Heli','Toaplan Arcade Garage: Kyukyoku Tiger-Heli',[2469,2470,2471,2472]],
+    ['DOOM: The Classics Collection','DOOM: The Classics Collection',[389]],
+  ];
+
+  registerCensusMutation('add',()=>{
+    const registered=[];
+    for(const [raw,title,ids] of PRODUCTS_TO_REGISTER){
+      const already=DATA.p.some(r=>norm(r?.[1])===norm(title));
+      if(already){console.warn(`ShelfCheck curation pass v0.11: product already registered, skipped: "${title}"`);continue;}
+      DATA.p.push([raw,title,[...ids]]);
+      registered.push(title);
+    }
+    // Reset the cached product index so Model A (and any other consumer of
+    // ensureMergedProducts()) picks up these rows on its next call, and rebuild the simpler
+    // productMap/reverseProducts index the same way pass #8's OlliOlli repair did, so search
+    // and collection UI stay consistent with the same DATA.p change.
+    if(typeof mergedProductIndex!=='undefined')mergedProductIndex=null;
+    if(typeof productMap!=='undefined'&&typeof reverseProducts!=='undefined'){
+      productMap.clear();
+      reverseProducts.clear();
+      for(const [n,title,ids] of DATA.p){
+        const key=norm(n),p={key,title,ids};
+        productMap.set(key,p);
+        const noThe=key.startsWith('the ')?key.slice(4):key;
+        productMap.set(noThe,p);
+        for(const id of ids){
+          if(!reverseProducts.has(id))reverseProducts.set(id,[]);
+          reverseProducts.get(id).push(title);
+        }
+      }
+    }
+    window.SHELFCHECK_CURATION_JOSH_SET_PASS_V011={registered};
+    console.info(`ShelfCheck Josh Set curation pass #11 applied: ${registered.length} physical products registered in DATA.p (product-mapping repair only, no identity changes).`,registered);
+  });
+})();
+
+// ShelfCheck curation — Josh Set pass #12.
+// Product-mapping repair only (same pattern as pass #11) -- registers 2 more verified physical
+// products, both single-identity cases (their other disc contents have no separate census
+// identity, same reasoning as DOOM: The Classics Collection in pass #11). No identity is
+// added, excluded, or re-included by this pass. See price-product-inherited-v086.js for the
+// matching PRODUCT_PRICES entries and the verifiedSingleIdentityProduct flag each needs.
+//
+//   - Ara Fell & Rise of the Third Power (Limited Run #496, US) -- covers Ara Fell: Enhanced
+//     Edition (82) only; "Rise of the Third Power" is not a separate census identity.
+//   - Minecraft: Story Mode Complete Adventure (US) -- covers Minecraft: Story Mode - A
+//     Telltale Games Series (783) only; Season Two is not a separate census identity. (Note:
+//     a different row, "Minecraft: Story Mode - A Telltale Games Series - The Complete
+//     Adventure", was already excluded as a duplicate/wrapper by census-cleanup.js long
+//     before this pass -- this registration is for the underlying physical product, not that
+//     excluded row.)
+//
+// Bayonetta & Vanquish needed NO mapping fix -- it was already correctly registered in
+// DATA.p (covering Bayonetta/149 and Vanquish/1779, both currently INCLUDED); it only needed
+// a PRODUCT_PRICES entry, added directly in price-product-inherited-v086.js.
+(()=>{
+  const PRODUCTS_TO_REGISTER=[
+    ['Ara Fell & Rise of the Third Power','Ara Fell & Rise of the Third Power',[82]],
+    ['Minecraft: Story Mode Complete Adventure','Minecraft: Story Mode Complete Adventure',[783]],
+  ];
+
+  registerCensusMutation('add',()=>{
+    const registered=[];
+    for(const [raw,title,ids] of PRODUCTS_TO_REGISTER){
+      const already=DATA.p.some(r=>norm(r?.[1])===norm(title));
+      if(already){console.warn(`ShelfCheck curation pass v0.12: product already registered, skipped: "${title}"`);continue;}
+      DATA.p.push([raw,title,[...ids]]);
+      registered.push(title);
+    }
+    if(typeof mergedProductIndex!=='undefined')mergedProductIndex=null;
+    if(typeof productMap!=='undefined'&&typeof reverseProducts!=='undefined'){
+      productMap.clear();
+      reverseProducts.clear();
+      for(const [n,title,ids] of DATA.p){
+        const key=norm(n),p={key,title,ids};
+        productMap.set(key,p);
+        const noThe=key.startsWith('the ')?key.slice(4):key;
+        productMap.set(noThe,p);
+        for(const id of ids){
+          if(!reverseProducts.has(id))reverseProducts.set(id,[]);
+          reverseProducts.get(id).push(title);
+        }
+      }
+    }
+    window.SHELFCHECK_CURATION_JOSH_SET_PASS_V012={registered};
+    console.info(`ShelfCheck Josh Set curation pass #12 applied: ${registered.length} physical products registered in DATA.p (product-mapping repair only, no identity changes).`,registered);
+  });
+})();

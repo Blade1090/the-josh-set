@@ -35,14 +35,14 @@
   // always match the registered title exactly -- `sourceTitle` keeps PRODUCT_ONLY's original
   // wording for traceability back to where the price was verified.
   const PRODUCT_PRICES=[
-    {productTitle:'Ara Fell & Rise of the Third Power',sourceTitle:'Ara Fell & Rise of the Third Power',m:39.78,c:'Playstation 4'}, // not registered in DATA.p -- see report; inert until a curation pass registers it
-    {productTitle:'Galak-Z: The Void & Skulls of the Shogun: Bone-A-Fide',sourceTitle:'Galak-Z: The Void & Skulls of the Shogun: Bone-A-Fide',m:10.15,c:'Playstation 4'}, // not registered in DATA.p -- inert
+    {productTitle:'Ara Fell & Rise of the Third Power',sourceTitle:'Ara Fell & Rise of the Third Power',m:39.78,c:'Playstation 4',verifiedSingleIdentityProduct:true}, // registered in DATA.p by curation pass #12 (2026-09-23) -- covers 82 only; Rise of the Third Power is not a separate census identity
+    {productTitle:'GALAK-Z: The Void & Skulls of the Shogun: Bone-A-Fide',sourceTitle:'Galak-Z: The Void & Skulls of the Shogun: Bone-A-Fide',m:10.15,c:'Playstation 4'}, // registered in DATA.p by curation pass #11 (2026-09-23) -- covers 1625, 1731
     {productTitle:"Steven Universe: Save the Light / OK K.O.! Let's Play Heroes 2 Games in 1",sourceTitle:'Steven Universe: Save The Light & OK KO Lets Play Heroes',m:26.36,c:'Playstation 4'},
     {productTitle:'Monopoly Plus & Monopoly Madness',sourceTitle:'Monopoly Plus & Monopoly Madness',m:11.01,c:'Playstation 4'}, // not registered in DATA.p -- inert
     {productTitle:'Robotics;Notes Double Pack',sourceTitle:'Robotics Notes Elite and Dash Double Pack',m:19.99,c:'Playstation 4'},
     {productTitle:'Pac-Man Championship Edition 2 + Arcade Game Series',sourceTitle:'Pac-Man Championship Edition 2 + Arcade Game Series',m:11.39,c:'Playstation 4'}, // not registered as a multi-identity product in DATA.p (this edition was collapsed into a single identity, id 890) -- inert here
     {productTitle:'Planescape: Torment: Enhanced Edition / Icewind Dale: Enhanced Edition',sourceTitle:'Planescape: Torment & Icewind Dale Enhanced Editions',m:18.85,c:'Playstation 4'},
-    {productTitle:'The Journey Down Trilogy',sourceTitle:'The Journey Down Trilogy',m:51.15,c:'PAL Playstation 4'}, // not registered in DATA.p -- inert
+    {productTitle:'The Journey Down Trilogy',sourceTitle:'The Journey Down Trilogy',m:51.15,c:'PAL Playstation 4'}, // registered in DATA.p by curation pass #11 (2026-09-23) -- covers 1754, 1755, 1756
     // Batch 2 -- verified 2026-09-22 via tools/compilation-price-scan.mjs, then individually
     // re-checked (see audit-out/compilation-verification-26.md). Two exact-duplicate-coverage
     // pairs were found (same identities, two qualifying products) -- only the cheaper of each
@@ -73,6 +73,20 @@
     {productTitle:"Cat Quest + Cat Quest II: Pawsome Pack",sourceTitle:"Cat Quest + Cat Quest II: Pawsome Pack",m:49.25,c:"Playstation 4"},
     {productTitle:"Saints Row IV: Re-Elected & Gat Out of Hell",sourceTitle:"Saints Row IV: Re-Elected & Gat Out of Hell",m:11.95,c:"Playstation 4"},
     {productTitle:"Shenmue I & II",sourceTitle:"Shenmue I & II",m:21.14,c:"Playstation 4"},
+    // Batch 3 -- COMPILATION_ONLY salvage from the physical-legitimacy adjudication
+    // (2026-09-23). All 3 registered in DATA.p by curation pass #11 in the same commit.
+    {productTitle:"Epics of Hammerwatch: Heroes' Edition",sourceTitle:"Epics of Hammerwatch: Heroes' Edition",m:27.84,c:"PAL Playstation 4"}, // covers 2256, 2257
+    {productTitle:"Toaplan Arcade Garage: Kyukyoku Tiger-Heli",sourceTitle:"Toaplan Arcade Garage: Kyukyoku Tiger-Heli",m:34.33,c:"Playstation 4"}, // covers 2469, 2470, 2471 (already-INCLUDED coverage; Teki-Paki/2472 is also on this disc but stays EXCLUDED); price reused from 2469/2470's existing direct-price entries (same PriceCharting product 8576642)
+    // DOOM: The Classics Collection genuinely covers only 1 currently-INCLUDED identity (389,
+    // DOOM 3) -- its other disc contents (1993 DOOM, DOOM II) have no separate census identity.
+    // verifiedSingleIdentityProduct explicitly opts this ONE entry into qualifyingProducts()'s
+    // single-identity exception above; no other entry in this array carries this flag.
+    {productTitle:"DOOM: The Classics Collection",sourceTitle:"DOOM: The Classics Collection",m:67.5,c:"Playstation 4",verifiedSingleIdentityProduct:true}, // covers 389 only, by design
+    // Batch 4 -- larger-batch endgame pricing pass (2026-09-23). Bayonetta & Vanquish was
+    // already registered in DATA.p (covers 149, 1779 -- no mapping fix needed, just this
+    // price). The other 2 are registered in DATA.p by curation pass #12 in the same commit.
+    {productTitle:'Bayonetta & Vanquish',sourceTitle:'Bayonetta & Vanquish 10th Anniversary Bundle',m:28.81,c:'Playstation 4'}, // covers 149, 1779
+    {productTitle:'Minecraft: Story Mode Complete Adventure',sourceTitle:'Minecraft: Story Mode Complete Adventure',m:79.99,c:'Playstation 4',verifiedSingleIdentityProduct:true}, // covers 783 only; Season Two is not a separate census identity
   ];
 
   let tries=0;
@@ -104,10 +118,19 @@
         seen.add(g);
         if(!g.ids.includes(x.id))continue;
         // Must genuinely be a multi-identity product (same >=2 gate collectionInfo()/
-        // productCoverage() already use) -- a "product" DATA.p row covering fewer than 2
-        // currently-INCLUDED identities isn't a compilation for pricing purposes either.
+        // productCoverage() already use, left completely unchanged here) -- a "product"
+        // DATA.p row covering fewer than 2 currently-INCLUDED identities isn't a compilation
+        // for pricing purposes either, UNLESS it is one of a small, individually-verified set
+        // of real physical products whose OTHER disc contents simply have no separate census
+        // identity (e.g. DOOM: The Classics Collection also contains the 1993 DOOM and DOOM
+        // II, neither of which is its own identity here). That exception never fires
+        // automatically: it requires the product's own PRODUCT_PRICES entry below to carry an
+        // explicit, manually-set `verifiedSingleIdentityProduct:true` flag -- an ordinary
+        // standalone DATA.p row with no such flagged price entry is completely unaffected.
         const coveredCount=[...new Set(g.ids)].filter(id=>byId.get(id)?.set==='INCLUDED').length;
-        if(coveredCount>=2)out.push(g);
+        const rec=priceByProductKey.get(norm(g.title))||g.titles?.map(t=>priceByProductKey.get(norm(t))).find(Boolean);
+        const minCoverage=rec?.verifiedSingleIdentityProduct?1:2;
+        if(coveredCount>=minCoverage)out.push(g);
       }
       return out;
     }

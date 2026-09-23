@@ -45,8 +45,17 @@ const PRICE_FILES = [
   'price-online-v041.js', 'price-negative-space-v042.js', 'price-direct-v050.js', 'price-direct-v051.js',
   'public-prices-full-v066.js', 'price-new-games-v073.js', 'price-new-games-v074.js',
   'price-new-games-v075.js', 'price-whole-census-v077.js', 'price-batch-001-v079.js',
-  'price-batch-003-v082.js', 'price-batch-004-v083.js', 'price-batch-005-v084.js', 'price-batch-006-v085.js', 'price-fix.js',
+  'price-batch-003-v082.js', 'price-batch-004-v083.js', 'price-batch-005-v084.js', 'price-batch-006-v085.js',
+  'price-batch-007-v087.js', 'price-batch-008-v088.js', 'price-fix.js',
   'price-product-inherited-v086.js',
+  // price-no-reliable-data-v089.js gates only on price-product-inherited-v086.js's own wrap
+  // flag (window.SHELFCHECK_PRODUCT_INHERITED_PRICING), which this stripped harness DOES set
+  // (public-prices-full-v066.js sets the flag it in turn waits for) -- so it wraps correctly
+  // here too, even though ensureMergedProducts() itself is undefined in this harness (no
+  // model-fix.js -- see the file header) and therefore never actually returns a qualifying
+  // product. NO_RELIABLE_DATA identities still resolve correctly; only Model A's
+  // product-inherited tier is affected by the known, documented model-fix.js gap.
+  'price-no-reliable-data-v089.js',
 ];
 
 function norm(s) {
@@ -166,7 +175,16 @@ async function main() {
   const included = ctx.items.filter((x) => x.set === 'INCLUDED');
   const isUsable = (v) => v != null && Number.isFinite(Number(v)) && Number(v) > 0;
   const priceVal = (x) => { const p = typeof ctx.priceFor === 'function' ? ctx.priceFor(x) : null; return p?.m ?? p?.x ?? x.max; };
-  const stats = (list) => { const priced = list.filter((x) => isUsable(priceVal(x))).length; return { total: list.length, priced, pending: list.length - priced, coveragePercent: +(100 * priced / list.length).toFixed(2) }; };
+  // NO_RELIABLE_DATA (price-no-reliable-data-v089.js): exact qualifying physical product
+  // confirmed and researched, but no defensible CIB market value currently exists -- distinct
+  // from PRICE PENDING (not yet researched). Mutually exclusive with `priced` by construction
+  // (it's the outermost priceFor wrap, only reachable once every real price tier is empty).
+  const isNoReliableData = (x) => { const p = typeof ctx.priceFor === 'function' ? ctx.priceFor(x) : null; return !isUsable(priceVal(x)) && !!p?.noReliableData; };
+  const stats = (list) => {
+    const priced = list.filter((x) => isUsable(priceVal(x))).length;
+    const noReliableData = list.filter((x) => isNoReliableData(x)).length;
+    return { total: list.length, priced, noReliableData, pending: list.length - priced - noReliableData, coveragePercent: +(100 * priced / list.length).toFixed(2) };
+  };
 
   const owned = included.filter((x) => x.baseline === 'OWNED');
   const needed = included.filter((x) => x.baseline !== 'OWNED');
@@ -194,8 +212,9 @@ async function main() {
     coveragePercent: +(100 * productsAllPriced / multiIdentityProductCount).toFixed(2),
   };
 
-  const pendingFull = included.filter((x) => !isUsable(priceVal(x))).map((x) => ({ id: x.id, title: x.title }));
-  const ownedPending = owned.filter((x) => !isUsable(priceVal(x))).map((x) => ({ id: x.id, title: x.title, compilationComponent: compIds.has(x.id) }));
+  const pendingFull = included.filter((x) => !isUsable(priceVal(x)) && !isNoReliableData(x)).map((x) => ({ id: x.id, title: x.title }));
+  const noReliableDataFull = included.filter((x) => isNoReliableData(x)).map((x) => { const p = ctx.priceFor(x); return { id: x.id, title: x.title, product: p.product, region: p.region, reason: p.reason, researchedAt: p.researchedAt, source: p.source }; });
+  const ownedPending = owned.filter((x) => !isUsable(priceVal(x)) && !isNoReliableData(x)).map((x) => ({ id: x.id, title: x.title, compilationComponent: compIds.has(x.id) }));
 
   const result = {
     generatedAt: new Date().toISOString(),
@@ -207,6 +226,7 @@ async function main() {
     ownedPending,
     neededPendingCount: pendingFull.length - ownedPending.length,
     pendingFull,
+    noReliableDataFull,
     compilationComponentCount: compIds.size,
     note: 'OWNED/NEEDED use a synthetic baseline:\'OWNED\' snapshot (this stateless harness has no access to real GameEye-imported ownership), not Josh\'s real owned-collection state. included/overall are computed from the live finalized runtime census, never hardcoded.',
   };
@@ -217,7 +237,7 @@ async function main() {
   }
 
   console.log(`INCLUDED: ${result.included}`);
-  console.log(`priced: ${result.overall.priced} / pending: ${result.overall.pending} / coverage: ${result.overall.coveragePercent}%`);
+  console.log(`priced: ${result.overall.priced} / pending: ${result.overall.pending} / noReliableData: ${result.overall.noReliableData} / coverage: ${result.overall.coveragePercent}%`);
   console.log(`OWNED: ${JSON.stringify(result.owned)}`);
   console.log(`NEEDED: ${JSON.stringify(result.needed)}`);
   console.log(`OWNED pending: ${ownedPending.length} (${ownedPending.filter((x) => x.compilationComponent).length} compilation components)`);

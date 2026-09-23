@@ -47,8 +47,9 @@ const PRICE_FILES = [
   'price-online-v041.js', 'price-negative-space-v042.js', 'price-direct-v050.js', 'price-direct-v051.js',
   'public-prices-full-v066.js', 'price-new-games-v073.js', 'price-new-games-v074.js',
   'price-new-games-v075.js', 'price-whole-census-v077.js', 'price-batch-001-v079.js',
-  'price-batch-003-v082.js', 'price-batch-004-v083.js', 'price-batch-005-v084.js', 'price-batch-006-v085.js', 'price-fix.js',
-  'price-product-inherited-v086.js',
+  'price-batch-003-v082.js', 'price-batch-004-v083.js', 'price-batch-005-v084.js', 'price-batch-006-v085.js',
+  'price-batch-007-v087.js', 'price-batch-008-v088.js', 'price-fix.js',
+  'price-product-inherited-v086.js', 'price-no-reliable-data-v089.js',
 ];
 const OVERRIDE_BATCHES = Array.from({ length: 63 }, (_, i) => {
   const n = i + 1;
@@ -138,9 +139,16 @@ async function main() {
         const p = typeof priceFor === 'function' ? priceFor(x) : null;
         const v = p?.m ?? p?.x ?? x.max;
         const priced = isUsable(v);
+        // NO_RELIABLE_DATA (price-no-reliable-data-v089.js): exact qualifying physical product
+        // confirmed and researched, but no defensible CIB market value currently exists. This
+        // is DISTINCT from PRICE PENDING (not yet researched) -- see that file's own header.
+        // Any real direct/product-inherited price always wins before this flag can ever be set
+        // (it's the outermost priceFor wrap), so priced and noReliableData are mutually exclusive.
+        const noReliableData = !priced && !!p?.noReliableData;
         const d = typeof dossierFor === 'function' ? dossierFor(x) : null;
         return {
-          id: x.id, title: x.title, priced,
+          id: x.id, title: x.title, priced, noReliableData,
+          noReliableDataInfo: noReliableData ? { product: p.product, region: p.region, reason: p.reason, researchedAt: p.researchedAt, source: p.source } : null,
           lookupKey: norm(x.title),
           compilationComponent: compIds.has(x.id),
           baseline: x.baseline,
@@ -150,8 +158,9 @@ async function main() {
     })()
   `);
 
-  const pending = rows.filter((r) => !r.priced);
-  const priced = rows.length - pending.length;
+  const noReliableDataRecords = rows.filter((r) => r.noReliableData).sort((a, b) => a.id - b.id);
+  const pending = rows.filter((r) => !r.priced && !r.noReliableData);
+  const priced = rows.filter((r) => r.priced).length;
 
   for (const r of pending) {
     r.region = regionHint(r.dossierPhysicalNote) || regionHint(r.title);
@@ -171,6 +180,7 @@ async function main() {
     included: includedCount,
     priced,
     pending: pending.length,
+    noReliableData: noReliableDataRecords.length,
     coveragePercent: +(100 * priced / includedCount).toFixed(2),
     difficultyBreakdown: pending.reduce((acc, r) => { acc[r.difficulty] = (acc[r.difficulty] || 0) + 1; return acc; }, {}),
     compilationComponentPendingCount: pending.filter((r) => r.compilationComponent).length,
@@ -214,7 +224,7 @@ async function main() {
 
   const jsonIdx = process.argv.indexOf('--json');
   if (jsonIdx !== -1 && process.argv[jsonIdx + 1]) {
-    fs.writeFileSync(process.argv[jsonIdx + 1], JSON.stringify({ summary, pending, integrity }, null, 2));
+    fs.writeFileSync(process.argv[jsonIdx + 1], JSON.stringify({ summary, pending, noReliableDataRecords, integrity }, null, 2));
   }
 
   console.log(JSON.stringify(summary, null, 2));

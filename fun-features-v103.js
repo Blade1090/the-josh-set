@@ -1,10 +1,14 @@
 // ShelfCheck v1.05 — random game picker (NEEDED), price bands, playtime bands, and quick buy advice.
 (()=>{
 let priceBand='ALL',ownedBand='ALL',buyChoice=null,randomCycle={universe:null,remaining:[],lastId:null};
-const bands=[['ALL','ALL PRICES'],['UNDER10','UNDER $10'],['10TO20','$10–20'],['20TO40','$20–40'],['40PLUS','$40+'],['PENDING','PRICE PENDING']];
+const bands=[['ALL','ALL PRICES'],['UNDER10','UNDER $10'],['10TO20','$10–20'],['20TO40','$20–40'],['40PLUS','$40+'],['PENDING','PRICE PENDING'],['NODATA','NO RELIABLE DATA']];
 const lengthBands=[['ALL','ANY LENGTH'],['UNDER4','UNDER 4H'],['4TO8','4–8H'],['8TO15','8–15H'],['15TO30','15–30H'],['30PLUS','30H+'],['PENDING','TIME PENDING']];
 const market=x=>{const p=priceFor(x),n=Number(p?.m??p?.x??x.max);return Number.isFinite(n)&&n>0?n:null};
-const inBand=x=>{const v=market(x);if(priceBand==='ALL')return true;if(priceBand==='PENDING')return v==null;if(v==null)return false;if(priceBand==='UNDER10')return v<10;if(priceBand==='10TO20')return v>=10&&v<20;if(priceBand==='20TO40')return v>=20&&v<40;return priceBand==='40PLUS'&&v>=40};
+// NO_RELIABLE_DATA (price-no-reliable-data-v089.js) identities have market(x)===null just like
+// genuine PRICE PENDING ones, but are a researched, distinct state -- see that file's header.
+// They get their own band below rather than silently sitting inside PRICE PENDING.
+const isNoReliableData=x=>!!priceFor(x)?.noReliableData;
+const inBand=x=>{const v=market(x);if(priceBand==='ALL')return true;if(priceBand==='NODATA')return v==null&&isNoReliableData(x);if(priceBand==='PENDING')return v==null&&!isNoReliableData(x);if(v==null)return false;if(priceBand==='UNDER10')return v<10;if(priceBand==='10TO20')return v>=10&&v<20;if(priceBand==='20TO40')return v>=20&&v<40;return priceBand==='40PLUS'&&v>=40};
 const neededPool=()=>{const q=norm($('#q').value);return items.filter(x=>x.set==='INCLUDED'&&effectiveStatus(x)==='NEEDED'&&inBand(x)&&(!q||x.search.includes(q)))};
 const playtime=x=>{const h=typeof hltbFor==='function'?hltbFor(x):null,n=Number(h?.a??h?.e??h?.c);return Number.isFinite(n)&&n>=0?n:null};
 const inLengthBand=x=>{const h=playtime(x);if(ownedBand==='ALL')return true;if(ownedBand==='PENDING')return h==null;if(h==null)return false;if(ownedBand==='UNDER4')return h<4;if(ownedBand==='4TO8')return h>=4&&h<=8;if(ownedBand==='8TO15')return h>8&&h<=15;if(ownedBand==='15TO30')return h>15&&h<=30;return ownedBand==='30PLUS'&&h>30};
