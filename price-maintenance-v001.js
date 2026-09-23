@@ -53,13 +53,13 @@
   function paint(){
     const host=document.getElementById('priceMaintenanceStatus');if(!host)return;
     const s=snapshot();
-    host.innerHTML=`<b>PRICE MAINTENANCE</b><small>Last refresh: ${fmtDate(lastRefresh())}</small><small>${s.priced.toLocaleString()} / ${s.included.toLocaleString()} priced · ${s.coverage.toFixed(2)}% coverage${s.pending?` · ${s.pending} pending`:''}${s.noData?` · ${s.noData} no-data`:''}</small>`;
+    host.innerHTML=`<b>PRICE MAINTENANCE</b><small>Last refresh: ${fmtDate(lastRefresh())}</small><small>${s.priced.toLocaleString()} / ${s.included.toLocaleString()} priced · ${s.coverage.toFixed(2)}% coverage${s.pending?` · ${s.pending} pending`:''}${s.noData?` · ${s.noData} no-data`:''}</small><small style="opacity:.75;margin-top:4px">1) Export audit · 2) Run PC refresh tool · 3) Import generated refresh file</small>`;
   }
 
   function install(){
     const menu=document.getElementById('maintMenu'),priceBtn=document.getElementById('priceBtn'),prices=document.getElementById('prices');
     if(!menu||!priceBtn||!prices||document.getElementById('priceMaintenanceStatus'))return;
-    priceBtn.textContent='REFRESH PRICES';
+    priceBtn.textContent='IMPORT PRICE REFRESH';
     const status=document.createElement('div');
     status.id='priceMaintenanceStatus';
     status.style.cssText='display:grid;gap:2px;padding:9px 11px;margin:2px 0 6px;border:1px solid #29303a;border-radius:10px;background:#10151d;color:#d9e0ea;font-size:.78rem';
