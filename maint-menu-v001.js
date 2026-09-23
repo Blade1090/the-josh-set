@@ -17,6 +17,17 @@
     menu.addEventListener('click',e=>{if(e.target.closest('button,label'))close()});
     document.addEventListener('click',e=>{if(isOpen()&&!menu.contains(e.target)&&e.target!==btn)close()});
     document.addEventListener('keydown',e=>{if(e.key==='Escape'&&isOpen())close()});
+
+    // Price maintenance is intentionally lazy-loaded from the maintenance menu layer rather
+    // than adding another always-visible control to the main app. Its script waits for the
+    // pricing pipeline before computing coverage, so loading it here is safe even though this
+    // file appears early in index.html.
+    if(!document.querySelector('script[data-shelfcheck-price-maintenance]')){
+      const s=document.createElement('script');
+      s.src='price-maintenance-v001.js?v=1';
+      s.dataset.shelfcheckPriceMaintenance='1';
+      document.body.appendChild(s);
+    }
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',install);else install();
 })();
