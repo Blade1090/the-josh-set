@@ -151,63 +151,15 @@
 (()=>{
   if(document.querySelector('script[data-shelfcheck-nrd-cleanup]'))return;
   const s=document.createElement('script');
-  s.src='price-nrd-cleanup-v091.js?v=2';
+  s.src='price-nrd-cleanup-v091.js?v=1';
   s.dataset.shelfcheckNrdCleanup='1';
   document.body.appendChild(s);
 })();
 
-// Endgame runtime correction (2026-09-23).
-// Resolves the final six PRICE_PENDING entries and removes the last three NRD holds.
+// Pricing campaign is complete: hide the two now-empty endgame status filters so the
+// remaining useful price bands fit cleanly on mobile without horizontal scrolling.
 (()=>{
-  const REMEOWSTERED_ID=2787;
-  const CUT_IDS=[237,1627,2224,2225,2226,2665];
-  const EXTRA_PRICES=new Map([
-    [1793,{m:34.99,product:'YIIK: A Postmodern RPG - Standard Edition',source:'Limited Run Games PS4 MSRP; in production, estimated ship Oct-Dec 2026'}],
-    [1964,{m:29.99,product:'Blast Brigade vs. the Evil Legion of Dr. Cread',source:'Strictly Limited Games PS4 physical MSRP'}],
-    [1970,{m:34.13,product:'Vesper: Zero Light Edition',source:'Strictly Limited Games €29.99 PS4 physical MSRP converted to USD on 2026-09-23'}],
-    [REMEOWSTERED_ID,{m:24.99,product:'Catlateral Damage: Remeowstered',source:'PriceCharting PS4 Complete market value'}],
-  ]);
-
-  let tries=0;
-  const apply=async()=>{
-    tries++;
-    if(typeof dataReady==='undefined'||typeof priceFor!=='function'||typeof byId==='undefined'||typeof items==='undefined'){
-      if(tries<100)setTimeout(apply,100);
-      return;
-    }
-    await dataReady;
-    if(window.__SHELFCHECK_ENDGAME_RUNTIME_V001)return;
-    window.__SHELFCHECK_ENDGAME_RUNTIME_V001=true;
-
-    for(const id of CUT_IDS){const x=byId.get(id);if(x&&x.set==='INCLUDED')x.set='EXCLUDED';}
-
-    if(!byId.has(REMEOWSTERED_ID)){
-      const title='Catlateral Damage: Remeowstered';
-      const x={id:REMEOWSTERED_ID,title,set:'INCLUDED',baseline:'NEEDED',strong:null,target:null,max:null,search:norm(title),auditSource:'Physical-only model repair: rebuilt Remeowstered edition has the qualifying Limited Run PS4 disc; original Catlateral Damage PS4 identity is digital-only.'};
-      items.push(x);byId.set(REMEOWSTERED_ID,x);
-      if(Array.isArray(DATA?.p)&&!DATA.p.some(r=>norm(r?.[0])===norm(title)||norm(r?.[1])===norm(title)))DATA.p.push([title,title,[REMEOWSTERED_ID]]);
-      const key=norm(title),p={key,title,ids:[REMEOWSTERED_ID]};
-      if(typeof productMap!=='undefined')productMap.set(key,p);
-      if(typeof reverseProducts!=='undefined')reverseProducts.set(REMEOWSTERED_ID,[title]);
-    }
-
-    if(typeof DATA!=='undefined'&&DATA)DATA.n=items.filter(x=>x.set==='INCLUDED').length;
-
-    const prev=priceFor;
-    const real=p=>p&&Number.isFinite(Number(p.m??p.x))&&Number(p.m??p.x)>0&&!p.noReliableData;
-    priceFor=function(x){
-      const prior=prev(x);
-      if(real(prior))return prior;
-      const rec=EXTRA_PRICES.get(x.id);
-      if(!rec)return prior||null;
-      const m=Number(rec.m);
-      return {t:x.title,m,s:+(m*.70).toFixed(2),g:+(m*.85).toFixed(2),x:+(m*1.10).toFixed(2),pc:rec.product,source:rec.source,endgameRuntimeFix:true,researchedAt:'2026-09-23'};
-    };
-
-    if(typeof progress==='function')progress();
-    if(typeof resetBrowse==='function')resetBrowse();
-    else if(typeof render==='function')render();
-    window.SHELFCHECK_ENDGAME_RUNTIME={excluded:CUT_IDS,added:[REMEOWSTERED_ID],priced:[...EXTRA_PRICES.keys()]};
-  };
-  apply();
+  const style=document.createElement('style');
+  style.textContent='.price-bands button[data-band="PENDING"],.price-bands button[data-band="NODATA"]{display:none!important}';
+  document.head.appendChild(style);
 })();
