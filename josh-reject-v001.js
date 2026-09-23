@@ -23,10 +23,6 @@
   function rejectedIds(){return new Set(Array.isArray(stateCache?.rejected)?stateCache.rejected:[])}
   function isRejected(id){return rejectedIds().has(id)}
 
-  // Tracks which ids THIS overlay has flipped to EXCLUDED, independent of stateCache, so a
-  // later reconcile (e.g. after a BACKUP restore swaps in a different rejected list) can
-  // correctly revert exactly the ones no longer wanted without touching a genuinely
-  // census-excluded identity that this overlay never touched.
   const appliedIds=new Set();
   function applyOverlayId(id){const x=byId.get(id);if(x&&x.set==='INCLUDED'){x.set='EXCLUDED';appliedIds.add(id)}}
   function revertOverlayId(id){const x=byId.get(id);if(x&&x.set==='EXCLUDED')x.set='INCLUDED';appliedIds.delete(id)}
@@ -39,11 +35,6 @@
     recomputeIncluded();
   }
 
-  // Wraps whatever saveState currently resolves to (already wrapped once by
-  // state-guard-v043.js and again by wishlist-v001.js) so every save -- GameEye import,
-  // price import, BACKUP restore, roulette played/beaten marks, and this feature's own
-  // reject/restore -- re-syncs the overlay and repaints the active-set views, the same
-  // "wrap the current global" pattern those two scripts already use.
   const rawSaveState=saveState;
   saveState=function(next){
     const r=rawSaveState(next);
@@ -73,8 +64,6 @@
 
   function controlHtml(id){
     const x=byId.get(id),rejected=isRejected(id);
-    // No button at all for a genuinely census-excluded identity this overlay never touched --
-    // reject/restore only applies to something currently active or Josh-rejected.
     if(!rejected&&(!x||x.set!=='INCLUDED'))return'';
     const status=rejected?'<p class="reject-status">🚫 Excluded from Josh Set by Josh</p>':'';
     const btn=rejected
@@ -83,12 +72,6 @@
     return status+btn;
   }
 
-  // The top status badge (".badge", first one in the detail markup) was painted once by the
-  // original detail() call and never repainted by it again -- calling detail() a second time
-  // to refresh it isn't safe here, since dossiers.js's detail() unconditionally calls
-  // dlg.showModal() at the end, which throws on a <dialog> that's already open (exactly the
-  // case every time this button is clicked). So this patches that badge's class/text in place
-  // instead, using the same effectiveStatus()/collectionInfo() logic detail() itself used.
   function badgeInfo(x){
     const c=typeof collectionInfo==='function'?collectionInfo(x):null;
     if(c)return{cls:c.owned?'OWNED':'NEEDED',text:c.owned?'OWNED · COLLECTION':'NEEDED · COLLECTION'};
@@ -112,12 +95,6 @@
     if(badge)badge.insertAdjacentElement('afterend',wrap);else host.prepend(wrap);
   }
 
-  // Wraps whatever `detail` currently resolves to -- by loading last, this is always the
-  // fully-assembled version (dossiers.js's richer detail, further wrapped by
-  // product-smart-v036.js and cover-art-v080.js) -- purely additive, the same pattern
-  // those two already use. The second, delayed repaint mirrors dossiers.js's own 500ms
-  // dossier/HLTB retry so this control survives that later repaint instead of being wiped
-  // by it.
   if(typeof detail==='function'){
     const oldDetail=detail;
     detail=function(id){
@@ -128,11 +105,6 @@
     };
   }
 
-  // Applies the overlay once at load (a returning device with rejections already in
-  // localStorage). Registered last, after census-finalize.js's own `await dataReady`
-  // continuation, so by the time this resumes the add/exclude phases have already run and
-  // DATA.n already reflects the finalized census -- this only adjusts it further for
-  // Josh's own rejections.
   (async()=>{
     await dataReady;
     reconcileOverlay();
@@ -144,16 +116,11 @@
 })();
 
 // Browser/runtime pricing reconcile (2026-09-23).
-// The full product-aware Node audit already classified these three identities as priced,
-// but the mobile browser path was still surfacing them as PRICE PENDING. Because this file
-// loads last, wrap the final priceFor() and supply only the three independently verified
-// exact PS4 CIB values when every earlier pricing tier returned nothing. Existing prices
-// always win; the six intentionally-held endgame cases are untouched.
 (()=>{
   const FIX=new Map([
     ['double switch 25th anniversary edition',{m:29.23,product:'Double Switch',region:'US',source:'PriceCharting exact PS4 product'}],
     ['mighty switch force collection',{m:35.79,product:'Mighty Switch Force Collection',region:'US',source:'PriceCharting exact PS4 product'}],
-    ['bud spencer terence hill slaps and beans 2',{m:28.98,product:'Slaps and Beans 2',region:'US',source:'PriceCharting exact PS4 product'}],
+    ['bud spencer and terence hill slaps and beans 2',{m:28.98,product:'Slaps and Beans 2',region:'US',source:'PriceCharting exact PS4 product'}],
   ]);
   let tries=0;
   const apply=()=>{
@@ -173,7 +140,7 @@
       const m=rec.m;
       return {t:x.title,m,s:+(m*.70).toFixed(2),g:+(m*.85).toFixed(2),x:+(m*1.10).toFixed(2),pc:rec.product,c:rec.region,source:rec.source,browserRuntimeReconcile:true};
     };
-    window.SHELFCHECK_BROWSER_PRICE_RECONCILE={count:FIX.size,version:1};
+    window.SHELFCHECK_BROWSER_PRICE_RECONCILE={count:FIX.size,version:2};
     if(typeof resetBrowse==='function')resetBrowse();
     if(typeof render==='function')render();
   };
