@@ -24,16 +24,35 @@
   style.textContent=`.card{display:grid;grid-template-columns:108px minmax(0,1fr);gap:15px;align-items:center;min-height:156px;padding-top:7px;padding-bottom:7px}.card>.cover-shell{grid-row:1/span 2;width:108px;height:150px;border-radius:9px;overflow:hidden;background:linear-gradient(160deg,#283343,#151b25);border:1px solid #344154;box-shadow:0 4px 12px #0005;display:flex;align-items:center;justify-content:center}.card>.cover-shell img{width:100%;height:100%;object-fit:contain;display:block;background:#0c1118}.card>.cover-shell .cover-fallback{font-size:.54rem;font-weight:950;letter-spacing:.08em;color:#7790b1;text-align:center;padding:5px;line-height:1.3}.card>.top,.card>.sub{grid-column:2}.card>.top{align-self:end}.card>.sub{margin-top:0;align-self:start}.card.cover-owned>.cover-shell{box-shadow:0 0 0 1px #2d6344,0 4px 12px #0005}.detail-cover-shell{width:160px;height:228px;border-radius:10px;border:1px solid #344154;box-shadow:0 8px 24px #0007;margin:2px 0 18px;background:linear-gradient(160deg,#283343,#151b25);display:flex;align-items:center;justify-content:center;overflow:hidden}.detail-cover-shell.has-cover{cursor:zoom-in}.detail-cover-shell .detail-cover{width:100%;height:100%;object-fit:contain;display:block;background:#0c1118}.detail-cover-shell .cover-fallback{font-size:.62rem;font-weight:950;letter-spacing:.07em;color:#7790b1;text-align:center;padding:6px;line-height:1.3}.detail-cover-row{display:flex;align-items:flex-start;gap:18px;margin:4px 0 18px}.detail-cover-row .detail-cover-shell{margin:0;flex:0 0 auto}.detail-cover-info{min-width:0;flex:1}.cover-lightbox{border:0;margin:0;padding:24px;width:100vw;height:100dvh;max-width:none;max-height:none;box-sizing:border-box;background:#000e;color:#fff;align-items:center;justify-content:center;cursor:zoom-out}.cover-lightbox[open]{display:flex}.cover-lightbox::backdrop{background:#000e}.cover-lightbox img{display:block;max-width:min(92vw,760px);max-height:92vh;width:auto;height:auto;object-fit:contain;filter:drop-shadow(0 16px 36px #000)}.cover-lightbox button{position:fixed;right:max(18px,env(safe-area-inset-right));top:max(18px,env(safe-area-inset-top));width:44px;height:44px;border-radius:50%;font-size:28px;line-height:1;padding:0;background:#151a22e8;color:#fff;border:1px solid #ffffff35;cursor:pointer}@media(min-width:700px){.card{grid-template-columns:96px minmax(0,1fr);gap:16px;min-height:140px;padding-top:8px;padding-bottom:8px}.card>.cover-shell{width:96px;height:132px}.detail-cover-shell{width:184px;height:262px}}`;
   document.head.appendChild(style);
 
-  // Use a native modal dialog so the cover preview enters the browser's top layer.
-  // A normal fixed div cannot out-z-index the dossier when the dossier itself is modal.
   const lightbox=document.createElement('dialog');
   lightbox.className='cover-lightbox';lightbox.setAttribute('aria-label','Cover art preview');
   lightbox.innerHTML='<button type="button" aria-label="Close cover preview">×</button><img alt="">';document.body.appendChild(lightbox);
+  let suspendedModal=null;
+  let suspendedDisplay='';
+  const suspendDossier=()=>{
+    const detail=document.querySelector('#detail');
+    if(!detail)return;
+    const dialog=detail.closest('dialog');
+    if(dialog&&dialog.open){
+      suspendedModal=dialog;
+      suspendedDisplay=dialog.style.display;
+      dialog.style.display='none';
+      return;
+    }
+    let node=detail;
+    while(node&&node!==document.body){
+      const cs=getComputedStyle(node);
+      if(cs.position==='fixed'){suspendedModal=node;break}
+      node=node.parentElement;
+    }
+    if(suspendedModal){suspendedDisplay=suspendedModal.style.display;suspendedModal.style.display='none'}
+  };
+  const restoreDossier=()=>{if(!suspendedModal)return;suspendedModal.style.display=suspendedDisplay;suspendedModal=null;suspendedDisplay=''};
   const clearLightbox=()=>lightbox.querySelector('img').removeAttribute('src');
-  const closeLightbox=()=>{if(lightbox.open)lightbox.close();else clearLightbox()};
-  const openLightbox=(url,title)=>{if(!url)return;const img=lightbox.querySelector('img');img.src=url;img.alt=(title||'Game')+' cover';if(!lightbox.open)lightbox.showModal()};
+  const closeLightbox=()=>{if(lightbox.open)lightbox.close();else{clearLightbox();restoreDossier()}};
+  const openLightbox=(url,title)=>{if(!url)return;const img=lightbox.querySelector('img');img.src=url;img.alt=(title||'Game')+' cover';suspendDossier();if(!lightbox.open)lightbox.showModal()};
   lightbox.addEventListener('click',e=>{if(e.target===lightbox||e.target.tagName==='BUTTON')closeLightbox()});
-  lightbox.addEventListener('close',clearLightbox);
+  lightbox.addEventListener('close',()=>{clearLightbox();restoreDossier()});
 
   const paint=()=>{
     document.querySelectorAll('#results article.card').forEach(card=>{
@@ -52,7 +71,7 @@
   const repaint=()=>{document.querySelectorAll('#results .cover-shell').forEach(x=>x.remove());paint()};
   const oldRender=render;render=function(){const r=oldRender.apply(this,arguments);paint();if(typeof decoratePriceCards==='function')decoratePriceCards();return r};
   const oldDetail=detail;detail=function(id){const r=oldDetail.apply(this,arguments);const box=document.querySelector('#detail');if(!box||box.querySelector('.detail-cover-shell'))return r;const h=box.querySelector('h2');if(!h)return r;const x=byId.get(id),url=x&&coverFor(x);const shell=document.createElement('div');shell.className='detail-cover-shell';const fallback=()=>{shell.classList.remove('has-cover');shell.innerHTML=fallbackHtml};if(url){const img=document.createElement('img');img.className='detail-cover';img.src=url;img.alt=x.title+' cover';img.decoding='async';img.onerror=fallback;shell.classList.add('has-cover');shell.title='Tap to enlarge cover';shell.addEventListener('click',()=>openLightbox(url,x.title));shell.appendChild(img)}else fallback();h.insertAdjacentElement('afterend',shell);return r};
-  window.SHELFCHECK_COVER_ART={version:99,paint,repaint,coverFor,productCover,openLightbox};
+  window.SHELFCHECK_COVER_ART={version:100,paint,repaint,coverFor,productCover,openLightbox};
 
   const retailScript=document.createElement('script');
   retailScript.src=`cover-gameye-retail.js?v=${Date.now()}`;
