@@ -1,0 +1,53 @@
+{
+  "updatedAt": "2026-09-24T15:44:00-04:00",
+  "notes": "Manual Art Department QA from production screenshots. confirmed_bad entries must stay at the top of the automated review queue until replaced/approved. fixed entries are retained for regression checking. eligibility entries require census review rather than an art-only fix.",
+  "confirmed_bad": [
+    {"title":"Need for Speed","reason":"bannerless/key art"},
+    {"title":"The Journey Down: Chapter Two","reason":"weak/thumbnail-style art"},
+    {"title":"Lone Survivor: The Director's Cut","reason":"blurry/bannerless art"},
+    {"title":"N++","reason":"bannerless key art"},
+    {"title":"Sayonara Wild Hearts","reason":"bannerless key art"},
+    {"title":"Ninja JaJaMaru Legendary Ninja Collection","reason":"bannerless/non-retail presentation"},
+    {"title":"Blazing Beaks","reason":"bannerless key art"},
+    {"title":"Penguin Wars","reason":"bannerless key art"},
+    {"title":"Our World Is Ended.","reason":"bannerless key art"},
+    {"title":"One Punch Man: A Hero Nobody Knows","reason":"bannerless key art"},
+    {"title":"Zero Strain","reason":"bannerless key art"},
+    {"title":"Hardcore Mecha","reason":"bannerless key art"},
+    {"title":"The Flame in the Flood: Complete Edition","reason":"logo/key art instead of retail PS4 front"},
+    {"title":"Black Desert","reason":"bannerless key art"},
+    {"title":"Bleed","reason":"bannerless key art"},
+    {"title":"Blood Bowl 2","reason":"bannerless key art"},
+    {"title":"Blue Rider","reason":"bannerless key art"},
+    {"title":"Bomber Crew","reason":"bannerless key art"},
+    {"title":"Braveland Trilogy","reason":"bannerless key art"},
+    {"title":"Bridge Constructor","reason":"bannerless key art"},
+    {"title":"Bubsy: The Woolies Strike Back","reason":"bannerless key art"},
+    {"title":"Capcom Beat 'Em Up Bundle","reason":"bannerless key art"},
+    {"title":"Chariot","reason":"bannerless key art"},
+    {"title":"Coffee Talk","reason":"bannerless key art"},
+    {"title":"Code:Realize - Bouquet of Rainbows","reason":"bannerless key art"}
+  ],
+  "fixed": [
+    {"title":"A Boy and His Blob"},
+    {"title":"2Dark"},
+    {"title":"ADK Tamashii"},
+    {"title":"Alchemic Jousts"},
+    {"title":"Alienation"},
+    {"title":"Anima: Gate of Memories - The Nameless Chronicles"},
+    {"title":"Ara Fell: Enhanced Edition"},
+    {"title":"ArmaGallant: Decks of Destiny"},
+    {"title":"Asdivine Hearts"},
+    {"title":"Atari Flashback Classics: Volume 1"},
+    {"title":"8-Bit Adventure Anthology: Volume One"},
+    {"title":"Bayonetta"},
+    {"title":"AVICII Invector"},
+    {"title":"Baldur's Gate and Baldur's Gate II: Enhanced Editions"},
+    {"title":"BioShock Remastered"},
+    {"title":"BioShock 2 Remastered"},
+    {"title":"BioShock Infinite: Complete Edition"}
+  ],
+  "eligibility": [
+    {"title":"Big Pharma","reason":"appears PS4 digital-only; verify census eligibility"}
+  ]
+}
