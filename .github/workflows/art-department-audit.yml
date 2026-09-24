@@ -1,0 +1,38 @@
+name: ShelfCheck Art Department Audit
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Number of suspect covers to query against GameEye'
+        required: false
+        default: '250'
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: art-department-retail-covers
+      - name: Run Art Department source audit
+        env:
+          ART_AUDIT_LIMIT: ${{ github.event.inputs.limit || '250' }}
+        run: node tools/art-department-audit.mjs
+      - name: Commit audit reports to Art Department branch
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add audit-out/art-department-audit.json audit-out/art-department-audit.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Update Art Department cover audit"
+            git push origin HEAD:art-department-retail-covers
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: shelfcheck-art-department-audit
+          path: |
+            audit-out/art-department-audit.json
+            audit-out/art-department-audit.md
