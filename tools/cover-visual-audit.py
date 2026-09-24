@@ -20,7 +20,7 @@ manual_fixed={norm_title(x['title']):x for x in manual.get('fixed',[])}
 manual_elig={norm_title(x['title']):x for x in manual.get('eligibility',[])}
 
 def fetch(url):
-    req=urllib.request.Request(url,headers={'User-Agent':'ShelfCheck-ArtAudit/1.1'})
+    req=urllib.request.Request(url,headers={'User-Agent':'ShelfCheck-ArtAudit/1.2'})
     with urllib.request.urlopen(req,timeout=20) as r:
         raw=r.read(8_000_000)
     return Image.open(io.BytesIO(raw)).convert('RGB')
@@ -42,9 +42,22 @@ def ps4_banner_score(im):
         if col: blue_cols+=1
     return blue_cols/tw, blue_px/total
 
+def manual_reason_code(text):
+    t=str(text or '').lower()
+    if 'angled' in t or 'product shot' in t: return 'angled_product_shot'
+    if 'photo' in t and ('case' in t or 'table' in t or 'shelf' in t): return 'photo_of_case'
+    if 'blurry' in t or 'low-res' in t or 'low res' in t or 'thumbnail' in t: return 'blurry_or_low_res'
+    if 'wrong platform' in t: return 'wrong_platform'
+    if 'region' in t or 'edition' in t: return 'wrong_region_or_edition'
+    if 'mockup' in t or 'promo' in t or 'glamour' in t: return 'mockup_or_promo'
+    if 'crop' in t or 'incomplete' in t: return 'cropped_or_incomplete'
+    if 'key art' in t or 'logo' in t or 'bannerless' in t or 'non-retail' in t: return 'key_art_only'
+    return 'manual_review'
+
 rows=[]
 for i,r in enumerate(data['rows'],1):
-    source=r['source']; url=r.get('url'); verdict='PASS'; reason='curated'
+    source=r['source']; url=r.get('url')
+    quality='GOOD'; reason='curated'; physical='CONFIRMED'
     span=ratio=None; err=None
     key=norm_title(r['title'])
     manual_status=None; manual_reason=None
@@ -56,51 +69,73 @@ for i,r in enumerate(data['rows'],1):
         manual_status='ELIGIBILITY'; manual_reason=manual_elig[key].get('reason')
 
     if source=='MISSING' or not url:
-        verdict='REVIEW'; reason='missing_cover'
+        quality='REVIEW'; reason='missing_cover'; physical='VERIFY'
     elif source=='PS_STORE_OVERRIDE':
-        verdict='REVIEW'; reason='playstation_store_art'
+        quality='REVIEW'; reason='digital_store_art'; physical='VERIFY'
     elif source in ('GAMEYE','LEGACY_IGDB'):
         try:
             im=fetch(url)
             span,ratio=ps4_banner_score(im)
             if span>=0.72 and ratio>=0.08:
-                verdict='PASS'; reason='strong_ps4_header'
+                quality='GOOD'; reason='strong_ps4_header'; physical='LIKELY'
             else:
-                verdict='REVIEW'; reason='weak_or_missing_ps4_header'
+                quality='REVIEW'; reason='missing_ps4_banner'; physical='LIKELY' if source=='GAMEYE' else 'VERIFY'
         except Exception as e:
-            verdict='REVIEW'; reason='image_fetch_or_decode_failed'; err=str(e)[:200]
+            quality='REVIEW'; reason='image_fetch_failed'; physical='VERIFY'; err=str(e)[:200]
     elif source=='CURATED_ID':
-        verdict='PASS'; reason='curated_id_override'
+        quality='GOOD'; reason='curated_id_override'; physical='CONFIRMED'
     elif source=='CURATED_TITLE':
-        verdict='PASS'; reason='curated_title_override'
+        quality='GOOD'; reason='curated_title_override'; physical='CONFIRMED'
 
-    # Human QA always wins over heuristics until the title is explicitly moved to FIXED.
+    # Human QA always wins until a title is explicitly moved to FIXED.
     if manual_status=='CONFIRMED_BAD':
-        verdict='REVIEW'; reason='manual_confirmed_bad'
+        quality='REVIEW'; reason=manual_reason_code(manual_reason)
+        physical='LIKELY' if reason in ('angled_product_shot','photo_of_case') else physical
     elif manual_status=='ELIGIBILITY':
-        verdict='REVIEW'; reason='eligibility_review'
+        quality='REVIEW'; reason='physical_release_unverified'; physical='VERIFY'
 
-    rows.append({**r,'verdict':verdict,'reason':reason,'manualStatus':manual_status,'manualReason':manual_reason,'bannerColumnSpan':span,'bannerPixelRatio':ratio,'error':err})
+    verdict='PASS' if quality=='GOOD' else 'REVIEW'
+    rows.append({**r,'verdict':verdict,'qualityState':quality,'reason':reason,'reasonCode':reason,'physicalSanity':physical,'manualStatus':manual_status,'manualReason':manual_reason,'bannerColumnSpan':span,'bannerPixelRatio':ratio,'error':err})
     if i%100==0: print(f'audited {i}/{len(data["rows"])}')
 
-review=[r for r in rows if r['verdict']=='REVIEW']
-review.sort(key=lambda r:(0 if r.get('manualStatus')=='CONFIRMED_BAD' else 1 if r.get('manualStatus')=='ELIGIBILITY' else 2 if r['source']=='MISSING' else 3 if r['source']=='PS_STORE_OVERRIDE' else 4, r.get('bannerColumnSpan') or 0, r['title'].lower()))
+review=[r for r in rows if r['qualityState']=='REVIEW']
+priority={
+    'physical_release_unverified':0,
+    'missing_cover':1,
+    'wrong_platform':2,
+    'wrong_region_or_edition':2,
+    'digital_store_art':3,
+    'key_art_only':4,
+    'photo_of_case':5,
+    'angled_product_shot':5,
+    'blurry_or_low_res':6,
+    'cropped_or_incomplete':6,
+    'mockup_or_promo':6,
+    'missing_ps4_banner':7,
+    'image_fetch_failed':8,
+    'manual_review':9
+}
+review.sort(key=lambda r:(0 if r.get('manualStatus')=='CONFIRMED_BAD' else 1 if r.get('manualStatus')=='ELIGIBILITY' else 2, priority.get(r['reasonCode'],10), r.get('bannerColumnSpan') or 0, r['title'].lower()))
 summary={
     'generatedAt':data['generatedAt'],
     'included':len(rows),
-    'pass':sum(r['verdict']=='PASS' for r in rows),
+    'good':sum(r['qualityState']=='GOOD' for r in rows),
+    'fallback':sum(r['qualityState']=='FALLBACK' for r in rows),
     'review':len(review),
+    'physicalVerify':sum(r['physicalSanity']=='VERIFY' for r in rows),
+    'physicalLikely':sum(r['physicalSanity']=='LIKELY' for r in rows),
+    'physicalConfirmed':sum(r['physicalSanity']=='CONFIRMED' for r in rows),
     'manualConfirmedBad':sum(r.get('manualStatus')=='CONFIRMED_BAD' for r in rows),
     'manualEligibility':sum(r.get('manualStatus')=='ELIGIBILITY' for r in rows),
     'manualFixedTracked':sum(r.get('manualStatus')=='FIXED' for r in rows),
     'reviewByReason':{}
 }
-for r in review: summary['reviewByReason'][r['reason']]=summary['reviewByReason'].get(r['reason'],0)+1
+for r in review: summary['reviewByReason'][r['reasonCode']]=summary['reviewByReason'].get(r['reasonCode'],0)+1
 os.makedirs('audit-out',exist_ok=True)
-with open(OUT,'w',encoding='utf-8') as f: json.dump({'summary':summary,'review':review,'rows':rows},f,indent=2)
+with open(OUT,'w',encoding='utf-8') as f: json.dump({'standard':'docs/COVER_ART_STANDARD.md','summary':summary,'review':review,'rows':rows},f,indent=2)
 with open('audit-out/cover-review-queue.csv','w',encoding='utf-8',newline='') as f:
     import csv
     w=csv.writer(f)
-    w.writerow(['id','title','source','reason','manualStatus','manualReason','bannerColumnSpan','bannerPixelRatio','url'])
-    for r in review: w.writerow([r['id'],r['title'],r['source'],r['reason'],r.get('manualStatus'),r.get('manualReason'),r.get('bannerColumnSpan'),r.get('bannerPixelRatio'),r.get('url')])
+    w.writerow(['id','title','source','qualityState','reasonCode','physicalSanity','manualStatus','manualReason','bannerColumnSpan','bannerPixelRatio','url'])
+    for r in review: w.writerow([r['id'],r['title'],r['source'],r['qualityState'],r['reasonCode'],r['physicalSanity'],r.get('manualStatus'),r.get('manualReason'),r.get('bannerColumnSpan'),r.get('bannerPixelRatio'),r.get('url')])
 print(json.dumps(summary,indent=2))
