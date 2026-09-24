@@ -8,7 +8,7 @@ set "REPORT=%REPO%audit-out\price-refresh-report.json"
 
 cls
 echo ========================================
-echo      SHELFCHECK PRICE REFRESH
+echo      SHELFCHECK PRICE REFRESH v3
 echo ========================================
 echo.
 
@@ -18,7 +18,8 @@ if not defined AUDIT (
   echo No ShelfCheck price audit found in:
   echo %DOWNLOADS%
   echo.
-  echo Export one from ShelfCheck on your phone, then put it in Downloads.
+  echo In ShelfCheck: Menu ^> EXPORT PRICE AUDIT
+  echo Then put that JSON file in Downloads and run this again.
   echo.
   pause
   exit /b 1
@@ -37,8 +38,17 @@ if errorlevel 1 (
 )
 
 echo.
-echo Running price refresh. This takes a while because it checks PriceCharting carefully.
-echo You can leave this window open and do other things.
+if exist "%REPORT%" (
+  echo Found your previous refresh report.
+  echo v3 will reuse its exact PriceCharting routes instead of rediscovering every game.
+) else (
+  echo No previous route report found. This first run may be slower;
+  echo later refreshes will reuse the report created today.
+)
+echo.
+echo Checking current CIB values now...
+echo Normal changes will be prepared automatically.
+echo Big jumps and suspicious values are held for review and NOT imported.
 echo.
 cd /d "%REPO%"
 node "%TOOL%" --audit="%AUDIT%"
@@ -53,16 +63,19 @@ echo.
 echo ========================================
 echo REFRESH FINISHED
 echo ========================================
-echo Report:
-echo %REPORT%
 echo.
-echo Import file:
+echo Safe merge import:
 echo %IMPORT%
+echo.
+echo Full review report:
+echo %REPORT%
 echo.
 if exist "%IMPORT%" copy /Y "%IMPORT%" "%DOWNLOADS%\shelfcheck-price-refresh-import.json" >nul
 if exist "%REPORT%" copy /Y "%REPORT%" "%DOWNLOADS%\shelfcheck-price-refresh-report.json" >nul
 
-echo Copies were also placed in Downloads for easy transfer back to your phone.
+echo Both files were copied to Downloads.
+echo Import ONLY shelfcheck-price-refresh-import.json into ShelfCheck.
+echo The report is just for reviewing anything v3 refused to auto-accept.
 echo.
 explorer "%DOWNLOADS%"
 pause
