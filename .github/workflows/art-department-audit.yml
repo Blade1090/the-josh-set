@@ -12,6 +12,7 @@ on:
     paths:
       - '.github/workflows/art-department-audit.yml'
       - 'tools/art-department-audit.mjs'
+      - 'tools/promote-gameye-retail.mjs'
       - 'covers-manifest.js'
       - 'cover-overrides.js'
       - 'cover-title-overrides.js'
@@ -30,13 +31,15 @@ jobs:
         env:
           ART_AUDIT_LIMIT: ${{ github.event.inputs.limit || '250' }}
         run: node tools/art-department-audit.mjs
-      - name: Commit audit reports to Art Department branch
+      - name: Verify and promote safe GameEye retail fronts
+        run: node tools/promote-gameye-retail.mjs
+      - name: Commit audit and generated retail layer
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add audit-out/art-department-audit.json audit-out/art-department-audit.md
+          git add audit-out/art-department-audit.json audit-out/art-department-audit.md audit-out/art-department-gameye-promotions.json cover-gameye-retail.js
           if ! git diff --cached --quiet; then
-            git commit -m "Update Art Department cover audit"
+            git commit -m "Update Art Department cover audit and retail fronts"
             git push origin HEAD:art-department-retail-covers
           fi
       - uses: actions/upload-artifact@v4
@@ -46,3 +49,5 @@ jobs:
           path: |
             audit-out/art-department-audit.json
             audit-out/art-department-audit.md
+            audit-out/art-department-gameye-promotions.json
+            cover-gameye-retail.js
