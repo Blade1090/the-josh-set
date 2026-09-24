@@ -17,12 +17,16 @@
     "ufo robot grendizer":"https://www.estore.iq/web/image/product.template/16349/image_1024?unique=5a0acd5",
     "a boy and his blob":"https://pnpdistribution.com/i/A-BOY-AN-P4-N.jpg",
     "2dark":"https://vgdb.uk/images/db/covers/214244.jpg",
-    "tomb raider":"https://cdn11.bigcommerce.com/s-sp9oc95xrw/images/stencil/1280x1280/products/61110/145954/base_image_15__98131.1770636879.jpg?c=2%3Fimbypass%3Don",
-    "tomb raider ii":"https://cdn11.bigcommerce.com/s-sp9oc95xrw/images/stencil/1280x1280/products/61110/145954/base_image_15__98131.1770636879.jpg?c=2%3Fimbypass%3Don",
-    "tomb raider iii adventures of lara croft":"https://cdn11.bigcommerce.com/s-sp9oc95xrw/images/stencil/1280x1280/products/61110/145954/base_image_15__98131.1770636879.jpg?c=2%3Fimbypass%3Don",
-    "tomb raider the last revelation":"https://down-br.img.susercontent.com/file/sg-11134201-7rdy2-mdn6mw45ayc508",
-    "tomb raider chronicles":"https://down-br.img.susercontent.com/file/sg-11134201-7rdy2-mdn6mw45ayc508",
-    "tomb raider the angel of darkness":"https://down-br.img.susercontent.com/file/sg-11134201-7rdy2-mdn6mw45ayc508",
+    "8 bit adventure anthology volume one":"https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/FFoAAOSwHoJnegm7/%24_12.JPG?set_id=880000500F",
+    "a hole new world":"https://limitedrungames.com/cdn/shop/articles/IG_Sqaure_Image_AHoleNewWorld_1200x1200.png?v=1551999014",
+    "a plague tale innocence":"https://playgame.bg/image/cache/catalog/02.2026/A%20plague%20tale%20innocence/a%20plague%20tale%20innocence-800x800.jpg",
+    "a way out":"https://i.ebayimg.com/images/g/6W0AAeSw4yFpLgkX/s-l1200.jpg",
+    "accel world vs sword art online millennium twilight":"https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AF9J2G/00bb20c372de459880ec3519a9c2bd19.jpg/f/accel-world-vs-sword-art-online.jpg",
+    "ace of seafood":"https://images.launchbox-app.com/7772b6a1-e724-4e14-9a2c-075ffecf0ded.jpg",
+    "aces of the luftwaffe squadron":"https://i5-mx.walmartimages.com/mg/gm/3pp/asr/4e926778-614e-4bee-a9cc-cd6b1b1eaf08.b89578147ac3d4a121aa01d628e760a5.jpeg?odnBg=FFFFFF&odnHeight=612&odnWidth=612",
+    "adk damashii":"https://images.launchbox-app.com/609089b1-1034-493b-b0fe-159e72b8057a.jpg",
+    "aer memories of old":"https://cdn.cdon.com/media-dynamic/images/product/cloud/store/VideoGameSoftare/000/213/332/311/213332311-380305215-11453-org.jpg?cache=134036604330634916&imWidth=600",
+    "aerea":"https://www.jnlgame.com/cdn/shop/files/FullSizeRender_236b134d-c5dd-4c1f-ba72-2d6e399b9491.jpg?v=1720628678",
     ...(window.SHELFCHECK_TITLE_COVERS||{})
   };
   const coverFor=x=>titleCovers[norm(x.title)]||window.SHELFCHECK_GAMEYE_RETAIL?.[x.id]||window.SHELFCHECK_COVERS?.[x.id]||null;
