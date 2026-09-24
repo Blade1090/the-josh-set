@@ -6,10 +6,20 @@ on:
         description: 'Number of suspect covers to query against GameEye'
         required: false
         default: '250'
+  push:
+    branches:
+      - art-department-retail-covers
+    paths:
+      - '.github/workflows/art-department-audit.yml'
+      - 'tools/art-department-audit.mjs'
+      - 'covers-manifest.js'
+      - 'cover-overrides.js'
+      - 'cover-title-overrides.js'
 permissions:
   contents: write
 jobs:
   audit:
+    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:
