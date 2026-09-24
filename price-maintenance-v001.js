@@ -32,6 +32,7 @@
         source:p?.source||null,
         product:p?.pc||p?.productTitle||p?.product||null,
         region:p?.c||p?.region||null,
+        url:p?.url||p?.pcUrl||p?.priceChartingUrl||null,
         productInherited:!!p?.productInherited,
         noReliableData:!!p?.noReliableData,
       };
@@ -53,7 +54,7 @@
   function paint(){
     const host=document.getElementById('priceMaintenanceStatus');if(!host)return;
     const s=snapshot();
-    host.innerHTML=`<b>PRICE MAINTENANCE</b><small>Last refresh: ${fmtDate(lastRefresh())}</small><small>${s.priced.toLocaleString()} / ${s.included.toLocaleString()} priced · ${s.coverage.toFixed(2)}% coverage${s.pending?` · ${s.pending} pending`:''}${s.noData?` · ${s.noData} no-data`:''}</small><small style="opacity:.75;margin-top:4px">1) Export audit · 2) Run PC refresh tool · 3) Import generated refresh file</small>`;
+    host.innerHTML=`<b>PRICE MAINTENANCE</b><small>Last refresh: ${fmtDate(lastRefresh())}</small><small>${s.priced.toLocaleString()} / ${s.included.toLocaleString()} priced · ${s.coverage.toFixed(2)}% coverage${s.pending?` · ${s.pending} pending`:''}${s.noData?` · ${s.noData} no-data`:''}</small><small style="opacity:.75;margin-top:4px">1) Export audit · 2) Double-click Refresh ShelfCheck Prices · 3) Import generated refresh file</small>`;
   }
 
   function install(){
@@ -81,7 +82,7 @@
     },1100));
     setTimeout(paint,1200);
     setTimeout(paint,2600);
-    window.SHELFCHECK_PRICE_MAINTENANCE={version:1,snapshot,makeAudit,paint,lastRefresh};
+    window.SHELFCHECK_PRICE_MAINTENANCE={version:3,snapshot,makeAudit,paint,lastRefresh};
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',install);else install();
 })();
