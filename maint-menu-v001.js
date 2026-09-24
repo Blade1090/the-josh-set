@@ -24,7 +24,7 @@
     // file appears early in index.html.
     if(!document.querySelector('script[data-shelfcheck-price-maintenance]')){
       const s=document.createElement('script');
-      s.src='price-maintenance-v001.js?v=1';
+      s.src='price-maintenance-v001.js?v=2';
       s.dataset.shelfcheckPriceMaintenance='1';
       document.body.appendChild(s);
     }
