@@ -19,3 +19,14 @@ window.SHELFCHECK_TITLE_COVERS={
   "bioshock 2 remastered":"https://vgames.co.nz/cdn/shop/files/Bioshock-the-Collection-PS4-2K-22958350.jpg?v=1758591200&width=1946",
   "bioshock infinite complete edition":"https://vgames.co.nz/cdn/shop/files/Bioshock-the-Collection-PS4-2K-22958350.jpg?v=1758591200&width=1946"
 };
+
+// Art Department quality gate. Loaded here because this file is already part of the
+// cover pipeline, keeping the runtime policy attached to cover data rather than an
+// unrelated app feature.
+(()=>{
+  if(document.querySelector('script[data-shelfcheck-cover-quality]'))return;
+  const s=document.createElement('script');
+  s.src='cover-quality-v001.js?v=1';
+  s.dataset.shelfcheckCoverQuality='1';
+  document.head.appendChild(s);
+})();
