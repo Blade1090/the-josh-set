@@ -1,7 +1,5 @@
 // ShelfCheck cover-art layer. Identity covers + generated collection-product covers.
 (()=>{
-  // Curated physical-package fronts. This inline copy makes the Art Department batch active
-  // immediately on the current page; cover-title-overrides.js remains the human-readable registry.
   const titleCovers={
     "warui ousama to rippana yuusha":"https://shop.nippon1.jp/html/upload/save_image/06241139_60d3f06b6aed5.jpg",
     "kingdom hearts hd i 5 ii 5 remix":"https://cdn.awsli.com.br/2500x2500/138/138431/produto/19545804/d5c25058c1.jpg",
@@ -48,8 +46,20 @@
       card.prepend(shell);if((x&&effectiveStatus(x)==='OWNED')||(p&&productSet.has(p.key)))card.classList.add('cover-owned');
     });
   };
+  const repaint=()=>{document.querySelectorAll('#results .cover-shell').forEach(x=>x.remove());paint()};
   const oldRender=render;render=function(){const r=oldRender.apply(this,arguments);paint();if(typeof decoratePriceCards==='function')decoratePriceCards();return r};
   const oldDetail=detail;detail=function(id){const r=oldDetail.apply(this,arguments);const box=document.querySelector('#detail');if(!box||box.querySelector('.detail-cover-shell'))return r;const h=box.querySelector('h2');if(!h)return r;const x=byId.get(id),url=x&&coverFor(x);const shell=document.createElement('div');shell.className='detail-cover-shell';const fallback=()=>{shell.classList.remove('has-cover');shell.innerHTML=fallbackHtml};if(url){const img=document.createElement('img');img.className='detail-cover';img.src=url;img.alt=x.title+' cover';img.decoding='async';img.onerror=fallback;shell.classList.add('has-cover');shell.title='Tap to enlarge cover';shell.addEventListener('click',()=>openLightbox(url,x.title));shell.appendChild(img)}else fallback();h.insertAdjacentElement('afterend',shell);return r};
-  window.SHELFCHECK_COVER_ART={version:93,paint,coverFor,productCover,openLightbox};
+  window.SHELFCHECK_COVER_ART={version:94,paint,repaint,coverFor,productCover,openLightbox};
+
+  // Generated GameEye retail fronts are a separate, replaceable layer. Load them dynamically so
+  // the Art Department automation can rebuild hundreds of safe exact-title fronts without ever
+  // touching index.html or the hand-curated override registry. Cache-busted because the file is
+  // tiny and may change several times during a curation campaign.
+  const retailScript=document.createElement('script');
+  retailScript.src=`cover-gameye-retail.js?v=${Date.now()}`;
+  retailScript.onload=repaint;
+  retailScript.onerror=()=>console.warn('ShelfCheck: generated GameEye retail cover layer unavailable; using curated/legacy covers.');
+  document.head.appendChild(retailScript);
+
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',paint);else paint();
 })();
