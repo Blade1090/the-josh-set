@@ -17,6 +17,12 @@
     "ufo robot grendizer":"https://www.estore.iq/web/image/product.template/16349/image_1024?unique=5a0acd5",
     "a boy and his blob":"https://pnpdistribution.com/i/A-BOY-AN-P4-N.jpg",
     "2dark":"https://vgdb.uk/images/db/covers/214244.jpg",
+    "tomb raider":"https://cdn11.bigcommerce.com/s-sp9oc95xrw/images/stencil/1280x1280/products/61110/145954/base_image_15__98131.1770636879.jpg?c=2%3Fimbypass%3Don",
+    "tomb raider ii":"https://cdn11.bigcommerce.com/s-sp9oc95xrw/images/stencil/1280x1280/products/61110/145954/base_image_15__98131.1770636879.jpg?c=2%3Fimbypass%3Don",
+    "tomb raider iii adventures of lara croft":"https://cdn11.bigcommerce.com/s-sp9oc95xrw/images/stencil/1280x1280/products/61110/145954/base_image_15__98131.1770636879.jpg?c=2%3Fimbypass%3Don",
+    "tomb raider the last revelation":"https://down-br.img.susercontent.com/file/sg-11134201-7rdy2-mdn6mw45ayc508",
+    "tomb raider chronicles":"https://down-br.img.susercontent.com/file/sg-11134201-7rdy2-mdn6mw45ayc508",
+    "tomb raider the angel of darkness":"https://down-br.img.susercontent.com/file/sg-11134201-7rdy2-mdn6mw45ayc508",
     ...(window.SHELFCHECK_TITLE_COVERS||{})
   };
   const coverFor=x=>titleCovers[norm(x.title)]||window.SHELFCHECK_GAMEYE_RETAIL?.[x.id]||window.SHELFCHECK_COVERS?.[x.id]||null;
@@ -42,7 +48,7 @@
   const repaint=()=>{document.querySelectorAll('#results .cover-shell').forEach(x=>x.remove());paint()};
   const oldRender=render;render=function(){const r=oldRender.apply(this,arguments);paint();if(typeof decoratePriceCards==='function')decoratePriceCards();return r};
   const oldDetail=detail;detail=function(id){const r=oldDetail.apply(this,arguments);const box=document.querySelector('#detail');if(!box||box.querySelector('.detail-cover-shell'))return r;const h=box.querySelector('h2');if(!h)return r;const x=byId.get(id),url=x&&coverFor(x);const shell=document.createElement('div');shell.className='detail-cover-shell';const fallback=()=>{shell.classList.remove('has-cover');shell.innerHTML=fallbackHtml};if(url){const img=document.createElement('img');img.className='detail-cover';img.src=url;img.alt=x.title+' cover';img.decoding='async';img.onerror=fallback;shell.classList.add('has-cover');shell.title='Tap to enlarge cover';shell.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();openLightbox(url,x.title)});shell.appendChild(img)}else fallback();h.insertAdjacentElement('afterend',shell);return r};
-  window.SHELFCHECK_COVER_ART={version:103,paint,repaint,coverFor,productCover,openLightbox};
+  window.SHELFCHECK_COVER_ART={version:104,paint,repaint,coverFor,productCover,openLightbox};
 
   const retailScript=document.createElement('script');
   retailScript.src='https://cdn.jsdelivr.net/gh/Blade1090/the-josh-set@e8d33ecbe32f8ad22ad8431a6c14491e91d6dabe/cover-gameye-retail.js';
