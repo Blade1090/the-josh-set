@@ -1,30 +1,13 @@
 {
-  "updatedAt": "2026-09-24T16:24:00-04:00",
-  "notes": "Manual Art Department QA from production screenshots. confirmed_bad stays REVIEW until replaced/approved. fallback is a real physical-package image that may remain visible while a cleaner straight-on front is sought. fixed is retained for regression checking. eligibility requires physical-release verification rather than an art-only fix.",
-  "confirmed_bad": [
-    {"title":"The Journey Down: Chapter Two","reason":"weak/thumbnail-style art"},
-    {"title":"Lone Survivor: The Director's Cut","reason":"blurry/bannerless art"},
-    {"title":"N++","reason":"bannerless key art"},
-    {"title":"Ninja JaJaMaru Legendary Ninja Collection","reason":"bannerless/non-retail presentation"},
-    {"title":"Black Desert","reason":"bannerless key art"},
-    {"title":"Bleed","reason":"bannerless key art"},
-    {"title":"Blood Bowl 2","reason":"bannerless key art"},
-    {"title":"Blue Rider","reason":"bannerless key art"},
-    {"title":"Bomber Crew","reason":"bannerless key art"},
-    {"title":"Braveland Trilogy","reason":"bannerless key art"},
-    {"title":"Bubsy: The Woolies Strike Back","reason":"bannerless key art"},
-    {"title":"Capcom Beat 'Em Up Bundle","reason":"bannerless key art"},
-    {"title":"Chariot","reason":"bannerless key art"},
-    {"title":"Coffee Talk","reason":"bannerless key art"},
-    {"title":"Code:Realize - Bouquet of Rainbows","reason":"bannerless key art"},
-    {"title":"Alternate Jake Hunter: Daedalus - The Awakening of Golden Jazz","reason":"tiny/bannerless key art with large empty frame"},
-    {"title":"The Elder Scrolls V: Skyrim Special Edition","reason":"bannerless key art instead of retail PS4 front"},
-    {"title":"The Church in the Darkness","reason":"bannerless key art"},
-    {"title":"Shoppe Keep","reason":"bannerless key art"}
-  ],
+  "updatedAt": "2026-09-24T16:38:00-04:00",
+  "notes": "Manual Art Department QA. confirmed_bad stays REVIEW and is replaced by COVER NEEDED at runtime until a real physical PS4 source is approved. fallback is a verified physical-package image that may remain visible while a cleaner straight-on front is sought. fixed is retained for regression checking. eligibility requires physical-release verification rather than an art-only fix.",
+  "confirmed_bad": [],
   "fallback": [
     {"title":"ADK Tamashii","reason":"real physical product shot, but angled instead of clean straight-on front"},
-    {"title":"Aaero","reason":"real physical product shot, but angled instead of clean straight-on front"}
+    {"title":"Aaero","reason":"real physical product shot, but angled instead of clean straight-on front"},
+    {"title":"N++","reason":"official Limited Run physical package render, angled rather than a flat front scan"},
+    {"title":"Bleed","reason":"verified physical PS4 case photo, but product-photo framing is not a clean flat cover scan"},
+    {"title":"Braveland Trilogy","reason":"official Red Art Games physical package render, angled rather than a flat front scan"}
   ],
   "fixed": [
     {"title":"A Boy and His Blob"},
@@ -53,7 +36,23 @@
     {"title":"Hardcore Mecha"},
     {"title":"The Flame in the Flood: Complete Edition"},
     {"title":"Bridge Constructor"},
-    {"title":"Void Bastards"}
+    {"title":"Void Bastards"},
+    {"title":"The Journey Down: Chapter Two"},
+    {"title":"Lone Survivor: The Director's Cut"},
+    {"title":"Ninja JaJaMaru Legendary Ninja Collection"},
+    {"title":"Black Desert"},
+    {"title":"Blood Bowl 2"},
+    {"title":"Blue Rider"},
+    {"title":"Bomber Crew"},
+    {"title":"Bubsy: The Woolies Strike Back"},
+    {"title":"Capcom Beat 'Em Up Bundle"},
+    {"title":"Chariot"},
+    {"title":"Coffee Talk"},
+    {"title":"Code:Realize - Bouquet of Rainbows"},
+    {"title":"Alternate Jake Hunter: Daedalus - The Awakening of Golden Jazz"},
+    {"title":"The Elder Scrolls V: Skyrim Special Edition"},
+    {"title":"The Church in the Darkness"},
+    {"title":"Shoppe Keep"}
   ],
   "eligibility": [
     {"title":"Big Pharma","reason":"appears PS4 digital-only; verify census eligibility"}
