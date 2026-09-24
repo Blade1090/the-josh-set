@@ -21,7 +21,7 @@ manual_fixed={norm_title(x['title']):x for x in manual.get('fixed',[])}
 manual_elig={norm_title(x['title']):x for x in manual.get('eligibility',[])}
 
 def fetch(url):
-    req=urllib.request.Request(url,headers={'User-Agent':'ShelfCheck-ArtAudit/1.3'})
+    req=urllib.request.Request(url,headers={'User-Agent':'ShelfCheck-ArtAudit/1.4'})
     with urllib.request.urlopen(req,timeout=20) as r:
         raw=r.read(8_000_000)
     return Image.open(io.BytesIO(raw)).convert('RGB')
@@ -45,8 +45,8 @@ def ps4_banner_score(im):
 
 def manual_reason_code(text):
     t=str(text or '').lower()
-    if 'angled' in t or 'product shot' in t: return 'angled_product_shot'
-    if 'photo' in t and ('case' in t or 'table' in t or 'shelf' in t): return 'photo_of_case'
+    if 'angled' in t or 'product shot' in t or 'package render' in t: return 'angled_product_shot'
+    if 'photo' in t and ('case' in t or 'table' in t or 'shelf' in t or 'framing' in t): return 'photo_of_case'
     if 'blurry' in t or 'low-res' in t or 'low res' in t or 'thumbnail' in t: return 'blurry_or_low_res'
     if 'wrong platform' in t: return 'wrong_platform'
     if 'region' in t or 'edition' in t: return 'wrong_region_or_edition'
@@ -82,15 +82,20 @@ for i,r in enumerate(data['rows'],1):
             if span>=0.72 and ratio>=0.08:
                 quality='GOOD'; reason='strong_ps4_header'; physical='LIKELY'
             else:
-                quality='REVIEW'; reason='missing_ps4_banner'; physical='LIKELY' if source=='GAMEYE' else 'VERIFY'
+                # A banner miss is a heuristic suspicion, not proof of bad art.
+                # Keep it visible in the audit as WATCH so the actionable REVIEW queue
+                # is reserved for known cover gaps / digital art / human-confirmed issues.
+                quality='WATCH'; reason='missing_ps4_banner'; physical='LIKELY' if source=='GAMEYE' else 'VERIFY'
         except Exception as e:
-            quality='REVIEW'; reason='image_fetch_failed'; physical='VERIFY'; err=str(e)[:200]
+            # Remote hosts can block CI even when the browser image is fine. Treat a
+            # fetch failure as WATCH unless a human/source rule independently escalates it.
+            quality='WATCH'; reason='image_fetch_failed'; physical='VERIFY'; err=str(e)[:200]
     elif source=='CURATED_ID':
         quality='GOOD'; reason='curated_id_override'; physical='CONFIRMED'
     elif source=='CURATED_TITLE':
         quality='GOOD'; reason='curated_title_override'; physical='CONFIRMED'
 
-    # Human QA always wins until a title is explicitly moved to FIXED.
+    # Human QA always wins until a title is explicitly moved to FIXED/FALLBACK.
     if manual_status=='CONFIRMED_BAD':
         quality='REVIEW'; reason=manual_reason_code(manual_reason)
         physical='LIKELY' if reason in ('angled_product_shot','photo_of_case') else physical
@@ -99,12 +104,13 @@ for i,r in enumerate(data['rows'],1):
     elif manual_status=='ELIGIBILITY':
         quality='REVIEW'; reason='physical_release_unverified'; physical='VERIFY'
 
-    verdict='PASS' if quality=='GOOD' else ('FALLBACK' if quality=='FALLBACK' else 'REVIEW')
+    verdict={'GOOD':'PASS','FALLBACK':'FALLBACK','WATCH':'WATCH'}.get(quality,'REVIEW')
     rows.append({**r,'verdict':verdict,'qualityState':quality,'reason':reason,'reasonCode':reason,'physicalSanity':physical,'manualStatus':manual_status,'manualReason':manual_reason,'bannerColumnSpan':span,'bannerPixelRatio':ratio,'error':err})
     if i%100==0: print(f'audited {i}/{len(data["rows"])}')
 
 review=[r for r in rows if r['qualityState']=='REVIEW']
 fallback=[r for r in rows if r['qualityState']=='FALLBACK']
+watch=[r for r in rows if r['qualityState']=='WATCH']
 priority={
     'physical_release_unverified':0,
     'missing_cover':1,
@@ -123,12 +129,14 @@ priority={
 }
 review.sort(key=lambda r:(0 if r.get('manualStatus')=='CONFIRMED_BAD' else 1 if r.get('manualStatus')=='ELIGIBILITY' else 2, priority.get(r['reasonCode'],10), r.get('bannerColumnSpan') or 0, r['title'].lower()))
 fallback.sort(key=lambda r:(priority.get(r['reasonCode'],10),r['title'].lower()))
+watch.sort(key=lambda r:(priority.get(r['reasonCode'],10),r.get('bannerColumnSpan') or 0,r['title'].lower()))
 summary={
     'generatedAt':data['generatedAt'],
     'included':len(rows),
     'good':sum(r['qualityState']=='GOOD' for r in rows),
     'fallback':len(fallback),
     'review':len(review),
+    'watch':len(watch),
     'physicalVerify':sum(r['physicalSanity']=='VERIFY' for r in rows),
     'physicalLikely':sum(r['physicalSanity']=='LIKELY' for r in rows),
     'physicalConfirmed':sum(r['physicalSanity']=='CONFIRMED' for r in rows),
@@ -136,14 +144,16 @@ summary={
     'manualFallback':sum(r.get('manualStatus')=='FALLBACK' for r in rows),
     'manualEligibility':sum(r.get('manualStatus')=='ELIGIBILITY' for r in rows),
     'manualFixedTracked':sum(r.get('manualStatus')=='FIXED' for r in rows),
-    'reviewByReason':{}
+    'reviewByReason':{},
+    'watchByReason':{}
 }
 for r in review: summary['reviewByReason'][r['reasonCode']]=summary['reviewByReason'].get(r['reasonCode'],0)+1
+for r in watch: summary['watchByReason'][r['reasonCode']]=summary['watchByReason'].get(r['reasonCode'],0)+1
 os.makedirs('audit-out',exist_ok=True)
-with open(OUT,'w',encoding='utf-8') as f: json.dump({'standard':'docs/COVER_ART_STANDARD.md','summary':summary,'review':review,'fallback':fallback,'rows':rows},f,indent=2)
+with open(OUT,'w',encoding='utf-8') as f: json.dump({'standard':'docs/COVER_ART_STANDARD.md','summary':summary,'review':review,'fallback':fallback,'watch':watch,'rows':rows},f,indent=2)
 with open('audit-out/cover-review-queue.csv','w',encoding='utf-8',newline='') as f:
     import csv
     w=csv.writer(f)
     w.writerow(['id','title','source','qualityState','reasonCode','physicalSanity','manualStatus','manualReason','bannerColumnSpan','bannerPixelRatio','url'])
-    for r in review+fallback: w.writerow([r['id'],r['title'],r['source'],r['qualityState'],r['reasonCode'],r['physicalSanity'],r.get('manualStatus'),r.get('manualReason'),r.get('bannerColumnSpan'),r.get('bannerPixelRatio'),r.get('url')])
+    for r in review+fallback+watch: w.writerow([r['id'],r['title'],r['source'],r['qualityState'],r['reasonCode'],r['physicalSanity'],r.get('manualStatus'),r.get('manualReason'),r.get('bannerColumnSpan'),r.get('bannerPixelRatio'),r.get('url')])
 print(json.dumps(summary,indent=2))
