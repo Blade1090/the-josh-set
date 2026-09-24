@@ -10,10 +10,13 @@ function loadData(){
   const DATA=JSON.parse(zlib.gunzipSync(Buffer.from(b64,'base64')).toString('utf8'));
   let items=DATA.i.map(r=>({id:r[0],title:r[1],set:r[2],baseline:r[3],strong:r[4],target:r[5],max:r[6],search:norm(r[1])}));
   let byId=new Map(items.map(x=>[x.id,x]));
-  const ctx={DATA,items,byId,norm,window:{},console,setTimeout:(f)=>{f();return 1},clearTimeout:()=>{},setInterval:(f)=>{for(let i=0;i<8;i++)f();return 1},clearInterval:()=>{},progress:()=>{},resetBrowse:()=>{},stateCache:{owned:[],products:[],prices:[]},ownedSet:new Set(),productSet:new Set(),filter:'ALL',aliasesById:new Map(),productMap:new Map(),reverseProducts:new Map()};
+  const censusQueue={add:[],exclude:[]};
+  const registerCensusMutation=(phase,fn)=>{if(censusQueue[phase])censusQueue[phase].push(fn)};
+  const ctx={DATA,items,byId,norm,window:{},console,registerCensusMutation,setTimeout:(f)=>{f();return 1},clearTimeout:()=>{},setInterval:(f)=>{for(let i=0;i<8;i++)f();return 1},clearInterval:()=>{},progress:()=>{},resetBrowse:()=>{},stateCache:{owned:[],products:[],prices:[]},ownedSet:new Set(),productSet:new Set(),filter:'ALL',aliasesById:new Map(),productMap:new Map(),reverseProducts:new Map()};
   vm.createContext(ctx);
   const censusScripts=['census-cleanup.js','census-v034.js','census-collapse-v035.js','census-v035-final.js','census-v040-pricing-audit.js','census-v052-pricecharting-negative-space.js','census-v053-pricecharting-regional-sweep.js','census-v054-pricecharting-collection-gap.js','census-v055-pricecharting-ab-sweep.js','census-v056-pricecharting-cf-sweep.js','census-v057-pricecharting-gl-sweep.js','census-v058-pricecharting-mr-sweep.js','census-v059-pricecharting-sz-sweep.js','census-v060-integrity-scrub.js'];
   for(const f of censusScripts)if(fs.existsSync(f))vm.runInContext(fs.readFileSync(f,'utf8'),ctx,{filename:f});
+  for(const phase of ['add','exclude'])for(const fn of censusQueue[phase])fn();
   items=ctx.items;byId=ctx.byId;
   return {DATA,items,byId};
 }
