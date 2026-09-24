@@ -1,0 +1,19 @@
+name: ShelfCheck GameEye Image Probe
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - art-department-retail-covers
+    paths:
+      - 'tools/gameye-image-probe.mjs'
+      - '.github/workflows/gameye-image-probe.yml'
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: art-department-retail-covers
+      - name: Probe GameEye image delivery
+        run: node tools/gameye-image-probe.mjs
