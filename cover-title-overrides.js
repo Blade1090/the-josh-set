@@ -10,5 +10,11 @@ window.SHELFCHECK_TITLE_COVERS={
   "ara fell enhanced edition":"https://www.tradeinn.com/f/14135/141350183/playstation-ps4-ara-fell-and-rise-of-the-third-power-import.webp",
   "armagallant decks of destiny":"https://pnpdistribution.com/i/ARMAG-DD-P4-I.jpg",
   "asdivine hearts":"https://limitedrungames.com/cdn/shop/products/AH-PS4.png?v=1503350384",
-  "atari flashback classics volume 1":"https://cdn.awsli.com.br/2500x2500/138/138431/produto/27132878/8e5fec5bad.jpg"
+  "atari flashback classics volume 1":"https://cdn.awsli.com.br/2500x2500/138/138431/produto/27132878/8e5fec5bad.jpg",
+  "bayonetta":"https://gamefaqs.gamespot.com/a/box/9/2/1/742921_front.jpg",
+  "avicii invector":"https://gamefaqs.gamespot.com/a/box/3/8/9/782389_front.jpg",
+  "baldurs gate and baldurs gate ii enhanced editions":"https://gamefaqs.gamespot.com/a/box/4/6/9/723469_front.jpg",
+  "bioshock remastered":"https://vgames.co.nz/cdn/shop/files/Bioshock-the-Collection-PS4-2K-22958350.jpg?v=1758591200&width=1946",
+  "bioshock 2 remastered":"https://vgames.co.nz/cdn/shop/files/Bioshock-the-Collection-PS4-2K-22958350.jpg?v=1758591200&width=1946",
+  "bioshock infinite complete edition":"https://vgames.co.nz/cdn/shop/files/Bioshock-the-Collection-PS4-2K-22958350.jpg?v=1758591200&width=1946"
 };
