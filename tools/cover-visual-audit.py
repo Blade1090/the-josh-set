@@ -12,15 +12,16 @@ def norm_title(s):
     s=s.replace('&',' and ').replace('’','').replace("'",'').replace('`','')
     return ' '.join(re.findall(r'[a-z0-9]+',s))
 
-manual={'confirmed_bad':[],'fixed':[],'eligibility':[]}
+manual={'confirmed_bad':[],'fallback':[],'fixed':[],'eligibility':[]}
 if os.path.exists(MANUAL):
     with open(MANUAL,'r',encoding='utf-8') as f: manual=json.load(f)
 manual_bad={norm_title(x['title']):x for x in manual.get('confirmed_bad',[])}
+manual_fallback={norm_title(x['title']):x for x in manual.get('fallback',[])}
 manual_fixed={norm_title(x['title']):x for x in manual.get('fixed',[])}
 manual_elig={norm_title(x['title']):x for x in manual.get('eligibility',[])}
 
 def fetch(url):
-    req=urllib.request.Request(url,headers={'User-Agent':'ShelfCheck-ArtAudit/1.2'})
+    req=urllib.request.Request(url,headers={'User-Agent':'ShelfCheck-ArtAudit/1.3'})
     with urllib.request.urlopen(req,timeout=20) as r:
         raw=r.read(8_000_000)
     return Image.open(io.BytesIO(raw)).convert('RGB')
@@ -63,6 +64,8 @@ for i,r in enumerate(data['rows'],1):
     manual_status=None; manual_reason=None
     if key in manual_bad:
         manual_status='CONFIRMED_BAD'; manual_reason=manual_bad[key].get('reason')
+    elif key in manual_fallback:
+        manual_status='FALLBACK'; manual_reason=manual_fallback[key].get('reason')
     elif key in manual_fixed:
         manual_status='FIXED'; manual_reason=manual_fixed[key].get('reason')
     elif key in manual_elig:
@@ -91,14 +94,17 @@ for i,r in enumerate(data['rows'],1):
     if manual_status=='CONFIRMED_BAD':
         quality='REVIEW'; reason=manual_reason_code(manual_reason)
         physical='LIKELY' if reason in ('angled_product_shot','photo_of_case') else physical
+    elif manual_status=='FALLBACK':
+        quality='FALLBACK'; reason=manual_reason_code(manual_reason); physical='CONFIRMED'
     elif manual_status=='ELIGIBILITY':
         quality='REVIEW'; reason='physical_release_unverified'; physical='VERIFY'
 
-    verdict='PASS' if quality=='GOOD' else 'REVIEW'
+    verdict='PASS' if quality=='GOOD' else ('FALLBACK' if quality=='FALLBACK' else 'REVIEW')
     rows.append({**r,'verdict':verdict,'qualityState':quality,'reason':reason,'reasonCode':reason,'physicalSanity':physical,'manualStatus':manual_status,'manualReason':manual_reason,'bannerColumnSpan':span,'bannerPixelRatio':ratio,'error':err})
     if i%100==0: print(f'audited {i}/{len(data["rows"])}')
 
 review=[r for r in rows if r['qualityState']=='REVIEW']
+fallback=[r for r in rows if r['qualityState']=='FALLBACK']
 priority={
     'physical_release_unverified':0,
     'missing_cover':1,
@@ -116,26 +122,28 @@ priority={
     'manual_review':9
 }
 review.sort(key=lambda r:(0 if r.get('manualStatus')=='CONFIRMED_BAD' else 1 if r.get('manualStatus')=='ELIGIBILITY' else 2, priority.get(r['reasonCode'],10), r.get('bannerColumnSpan') or 0, r['title'].lower()))
+fallback.sort(key=lambda r:(priority.get(r['reasonCode'],10),r['title'].lower()))
 summary={
     'generatedAt':data['generatedAt'],
     'included':len(rows),
     'good':sum(r['qualityState']=='GOOD' for r in rows),
-    'fallback':sum(r['qualityState']=='FALLBACK' for r in rows),
+    'fallback':len(fallback),
     'review':len(review),
     'physicalVerify':sum(r['physicalSanity']=='VERIFY' for r in rows),
     'physicalLikely':sum(r['physicalSanity']=='LIKELY' for r in rows),
     'physicalConfirmed':sum(r['physicalSanity']=='CONFIRMED' for r in rows),
     'manualConfirmedBad':sum(r.get('manualStatus')=='CONFIRMED_BAD' for r in rows),
+    'manualFallback':sum(r.get('manualStatus')=='FALLBACK' for r in rows),
     'manualEligibility':sum(r.get('manualStatus')=='ELIGIBILITY' for r in rows),
     'manualFixedTracked':sum(r.get('manualStatus')=='FIXED' for r in rows),
     'reviewByReason':{}
 }
 for r in review: summary['reviewByReason'][r['reasonCode']]=summary['reviewByReason'].get(r['reasonCode'],0)+1
 os.makedirs('audit-out',exist_ok=True)
-with open(OUT,'w',encoding='utf-8') as f: json.dump({'standard':'docs/COVER_ART_STANDARD.md','summary':summary,'review':review,'rows':rows},f,indent=2)
+with open(OUT,'w',encoding='utf-8') as f: json.dump({'standard':'docs/COVER_ART_STANDARD.md','summary':summary,'review':review,'fallback':fallback,'rows':rows},f,indent=2)
 with open('audit-out/cover-review-queue.csv','w',encoding='utf-8',newline='') as f:
     import csv
     w=csv.writer(f)
     w.writerow(['id','title','source','qualityState','reasonCode','physicalSanity','manualStatus','manualReason','bannerColumnSpan','bannerPixelRatio','url'])
-    for r in review: w.writerow([r['id'],r['title'],r['source'],r['qualityState'],r['reasonCode'],r['physicalSanity'],r.get('manualStatus'),r.get('manualReason'),r.get('bannerColumnSpan'),r.get('bannerPixelRatio'),r.get('url')])
+    for r in review+fallback: w.writerow([r['id'],r['title'],r['source'],r['qualityState'],r['reasonCode'],r['physicalSanity'],r.get('manualStatus'),r.get('manualReason'),r.get('bannerColumnSpan'),r.get('bannerPixelRatio'),r.get('url')])
 print(json.dumps(summary,indent=2))
