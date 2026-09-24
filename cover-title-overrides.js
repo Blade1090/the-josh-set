@@ -60,7 +60,17 @@ window.SHELFCHECK_TITLE_COVERS={
   "ys memories of celceta kai":"https://gamefaqs.gamespot.com/a/box/8/5/9/721859_front.jpg",
   "tiger heli":"https://gamefaqs.gamespot.com/a/box/7/4/5/825745_front.jpg",
   "another world":"https://gamefaqs.gamespot.com/a/box/4/5/2/721452_front.jpg",
-  "mighty gunvolt burst":"https://limitedrungames.com/cdn/shop/products/mighty-gunvolt-burst-ps4-lrg.png?height=1080&v=1660241946"
+  "mighty gunvolt burst":"https://limitedrungames.com/cdn/shop/products/mighty-gunvolt-burst-ps4-lrg.png?height=1080&v=1660241946",
+  "oddworld abes oddysee new n tasty":"https://gamefaqs.gamespot.com/a/box/8/5/8/790858_front.jpg",
+  "sturmfront the mutant war ubel edition":"https://gamefaqs.gamespot.com/a/box/8/7/0/809870_front.jpg",
+  "soldner x 2 final prototype definitive edition":"https://gamefaqs.gamespot.com/a/box/1/5/5/791155_front.jpg",
+  "noob les sans factions":"https://gamefaqs.gamespot.com/a/box/7/0/8/1025708_front.jpg",
+  "the walking dead michonne a telltale miniseries":"https://gamefaqs.gamespot.com/a/box/0/6/5/752065_front.jpg",
+  "shenmue i":"https://gamefaqs.gamespot.com/a/box/7/4/6/686746_front.jpg",
+  "bit trip presents runner2 future legend of rhythm alien":"https://limitedrungames.com/cdn/shop/products/Runner2-PS4.png?height=1080&v=1487891287",
+  "streets of red":"https://limitedrungames.com/cdn/shop/products/AssetTemplateSER_PS4.png?height=1080&v=1579552336",
+  "gear club unlimited 2":"https://gamefaqs.gamespot.com/a/box/2/9/1/853291_front.jpg",
+  "dragon ball the breakers":"https://gamefaqs.gamespot.com/a/box/5/6/6/900566_front.jpg"
 };
 
 // Art Department quality gate. Browser-only: CI evaluates this file in a VM without DOM APIs.
