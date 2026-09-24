@@ -1,53 +1,20 @@
 {
   "summary": {
-    "generatedAt": "2026-09-24T16:42:06.762Z",
-    "included": 2543,
+    "generatedAt": "2026-09-24T16:45:18.721Z",
+    "included": 2409,
     "curated": 15,
-    "psStoreLegacy": 58,
-    "igdbLegacy": 2429,
+    "psStoreLegacy": 50,
+    "igdbLegacy": 2316,
     "unknown": 0,
-    "missing": 37,
-    "suspect": 2524,
+    "missing": 24,
+    "suspect": 2390,
     "candidateQueries": 250,
-    "highConfidenceGameEye": 164
+    "highConfidenceGameEye": 180
   },
   "rows": [
     {
-      "id": 9,
-      "title": "3D Mini Golf",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL"
-    },
-    {
-      "id": 90,
-      "title": "ARK Park",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL"
-    },
-    {
       "id": 210,
       "title": "Budget Cuts",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL"
-    },
-    {
-      "id": 225,
-      "title": "Candleman: The Complete Journey",
       "owned": false,
       "url": null,
       "curated": false,
@@ -68,19 +35,8 @@
       "reason": "No cover URL"
     },
     {
-      "id": 349,
-      "title": "Deracine",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL"
-    },
-    {
-      "id": 2376,
-      "title": "Dokyusei: Bangin' Summer CSver",
+      "id": 2787,
+      "title": "Catlateral Damage: Remeowstered",
       "owned": false,
       "url": null,
       "curated": false,
@@ -92,17 +48,6 @@
     {
       "id": 484,
       "title": "Final Fantasy XIV Online: A Realm Reborn",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL"
-    },
-    {
-      "id": 2382,
-      "title": "GoHELLgo",
       "owned": false,
       "url": null,
       "curated": false,
@@ -134,8 +79,8 @@
       "reason": "No cover URL"
     },
     {
-      "id": 2623,
-      "title": "JoJo: Eyes of Heaven",
+      "id": 2785,
+      "title": "Made in Abyss: Binary Star Falling into Darkness",
       "owned": false,
       "url": null,
       "curated": false,
@@ -178,6 +123,17 @@
       "reason": "No cover URL"
     },
     {
+      "id": 2786,
+      "title": "OlliOlli2: Welcome to Olliwood",
+      "owned": false,
+      "url": null,
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "COVER_NEEDED",
+      "score": 100,
+      "reason": "No cover URL"
+    },
+    {
       "id": 2673,
       "title": "One Piece Unlimited World Red",
       "owned": false,
@@ -191,28 +147,6 @@
     {
       "id": 2686,
       "title": "Paper Dolls",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL"
-    },
-    {
-      "id": 923,
-      "title": "Pool Nation FX",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL"
-    },
-    {
-      "id": 935,
-      "title": "Project Nimbus: Complete Edition",
       "owned": false,
       "url": null,
       "curated": false,
@@ -288,17 +222,6 @@
       "reason": "No cover URL"
     },
     {
-      "id": 1217,
-      "title": "The American Dream",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL"
-    },
-    {
       "id": 1240,
       "title": "The Elder Scrolls Online: Tamriel Unlimited",
       "owned": false,
@@ -312,17 +235,6 @@
     {
       "id": 1250,
       "title": "The House in Fata Morgana",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL"
-    },
-    {
-      "id": 1304,
-      "title": "The Walking Dead: Saints & Sinners",
       "owned": false,
       "url": null,
       "curated": false,
@@ -354,63 +266,8 @@
       "reason": "No cover URL"
     },
     {
-      "id": 2744,
-      "title": "Umineko no Naku Koro ni: Nekobako to Musou no Koukyoukyoku",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL"
-    },
-    {
-      "id": 1431,
-      "title": "Werewolves Within",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL"
-    },
-    {
-      "id": 1441,
-      "title": "Wolfenstein: Cyberpilot",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL"
-    },
-    {
       "id": 1451,
       "title": "World Poker Championship",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL"
-    },
-    {
-      "id": 1454,
-      "title": "Worms Anniversary Edition",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL"
-    },
-    {
-      "id": 1483,
-      "title": "Ys: Memories of Celceta - Kai",
       "owned": false,
       "url": null,
       "curated": false,
@@ -574,10 +431,10 @@
       "reason": "PlayStation Store image; audit for physical package front"
     },
     {
-      "id": 356,
-      "title": "Destroy All Humans! (2005)",
+      "id": 2781,
+      "title": "Dragon Ball: The Breakers",
       "owned": false,
-      "url": "https://image.api.playstation.com/cdn/UP4389/CUSA05232_00/8iv6yRf3XBljArTKnPDssQW5XNK296f2.jpg",
+      "url": "https://image.api.playstation.com/vulcan/ap/rnd/202402/1411/893ee5064ae982395e414eb5011f4788468460b7776d3ebc.png",
       "curated": false,
       "legacyOverride": true,
       "bucket": "PS_STORE_LEGACY",
@@ -589,17 +446,6 @@
       "title": "Embr: Uber Firefighters",
       "owned": false,
       "url": "https://image.api.playstation.com/vulcan/img/rnd/202112/1614/MLohrRD3JlQknPQ4Xzq3gwV5.png",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "PS_STORE_LEGACY",
-      "score": 90,
-      "reason": "PlayStation Store image; audit for physical package front"
-    },
-    {
-      "id": 1612,
-      "title": "Euro Fishing: Urban Edition",
-      "owned": false,
-      "url": "https://image.api.playstation.com/cdn/UP3004/CUSA08113_00/2DBzS5I2HHSPHPLU3If1qBEBkBhJNq7M.jpg",
       "curated": false,
       "legacyOverride": true,
       "bucket": "PS_STORE_LEGACY",
@@ -662,65 +508,10 @@
       "reason": "PlayStation Store image; audit for physical package front"
     },
     {
-      "id": 2384,
-      "title": "Hakuouki: Shinkai Fukaden",
-      "owned": false,
-      "url": "https://image.api.playstation.com/cdn/JP0031/CUSA07568_00/lzLXBPkUTPqqfUcJwZpIvXwHyfOdADoE.png",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "PS_STORE_LEGACY",
-      "score": 90,
-      "reason": "PlayStation Store image; audit for physical package front"
-    },
-    {
       "id": 1639,
       "title": "Home: A Unique Horror Adventure",
       "owned": false,
       "url": "https://image.api.playstation.com/cdn/UP2150/CUSA01218_00/liwElxmKCIDvkME9MJmHmLTWTSitcez1.png",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "PS_STORE_LEGACY",
-      "score": 90,
-      "reason": "PlayStation Store image; audit for physical package front"
-    },
-    {
-      "id": 2619,
-      "title": "Jinrui No Minasama E",
-      "owned": false,
-      "url": "https://image.api.playstation.com/cdn/JP0404/CUSA15374_00/Np8HC9UgRswW0Mhx6RQua2913VR6uNAs.png",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "PS_STORE_LEGACY",
-      "score": 90,
-      "reason": "PlayStation Store image; audit for physical package front"
-    },
-    {
-      "id": 2629,
-      "title": "Kaleidoscope Of Phantom Prison",
-      "owned": false,
-      "url": "https://image.api.playstation.com/vulcan/ap/rnd/202011/0503/C0vs3zfoWt1zjUMKx03XTsZE.png",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "PS_STORE_LEGACY",
-      "score": 90,
-      "reason": "PlayStation Store image; audit for physical package front"
-    },
-    {
-      "id": 2630,
-      "title": "Kamen Rider: Battride War Creation",
-      "owned": false,
-      "url": "https://image.api.playstation.com/cdn/JP0700/CUSA02714_00/baLBlpejperzLQABFQZDenvNHtwXTSrt.png",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "PS_STORE_LEGACY",
-      "score": 90,
-      "reason": "PlayStation Store image; audit for physical package front"
-    },
-    {
-      "id": 2631,
-      "title": "Kangokutou Mary Skelter 2",
-      "owned": false,
-      "url": "https://image.api.playstation.com/cdn/KP0004/CUSA12857_00/ynYSPzEzztIEyhDowsKVWRrPUACVarRo.png",
       "curated": false,
       "legacyOverride": true,
       "bucket": "PS_STORE_LEGACY",
@@ -739,32 +530,10 @@
       "reason": "PlayStation Store image; audit for physical package front"
     },
     {
-      "id": 2645,
-      "title": "Lapis Re Abyss",
-      "owned": false,
-      "url": "https://image.api.playstation.com/cdn/JP0404/CUSA13508_00/MuYToA4RvBe8DY9CG3phl55aARQUn8px.png",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "PS_STORE_LEGACY",
-      "score": 90,
-      "reason": "PlayStation Store image; audit for physical package front"
-    },
-    {
       "id": 1651,
       "title": "Last Labyrinth",
       "owned": false,
       "url": "https://image.api.playstation.com/vulcan/ap/rnd/202302/1505/d2c01d062dd864694df69107d3e6efe8cef95a3b9c77549a.png",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "PS_STORE_LEGACY",
-      "score": 90,
-      "reason": "PlayStation Store image; audit for physical package front"
-    },
-    {
-      "id": 2396,
-      "title": "Natsuiro High School: Seisyun Hakusyo",
-      "owned": false,
-      "url": "https://image.api.playstation.com/cdn/JP0367/CUSA00891_00/MGtnNvROzsTrjoriWyxMLIRaZDSn4ZgZaBysdfJxCkZSd7XDoULajj5qW9F7FWLK.png",
       "curated": false,
       "legacyOverride": true,
       "bucket": "PS_STORE_LEGACY",
@@ -838,6 +607,17 @@
       "reason": "PlayStation Store image; audit for physical package front"
     },
     {
+      "id": 2783,
+      "title": "Prince of Persia: The Lost Crown",
+      "owned": false,
+      "url": "https://image.api.playstation.com/vulcan/ap/rnd/202312/0701/e0df18c55b01b7ccac6423e53e0a752e99ff665de760ecc5.jpg",
+      "curated": false,
+      "legacyOverride": true,
+      "bucket": "PS_STORE_LEGACY",
+      "score": 90,
+      "reason": "PlayStation Store image; audit for physical package front"
+    },
+    {
       "id": 2399,
       "title": "Puyo Puyo eSports",
       "owned": false,
@@ -871,6 +651,17 @@
       "reason": "PlayStation Store image; audit for physical package front"
     },
     {
+      "id": 2782,
+      "title": "Russian Subway Dogs",
+      "owned": false,
+      "url": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1103/779d66b30bd8eb38983002adefe11886fb648b3e5b0ec2f4.png",
+      "curated": false,
+      "legacyOverride": true,
+      "bucket": "PS_STORE_LEGACY",
+      "score": 90,
+      "reason": "PlayStation Store image; audit for physical package front"
+    },
+    {
       "id": 1525,
       "title": "Ryuu ga Gotoku 7 Gaiden: Na o Keshita Otoko",
       "owned": false,
@@ -897,17 +688,6 @@
       "title": "SG/ZH: School Girl Zombie Hunter",
       "owned": false,
       "url": "https://image.api.playstation.com/cdn/UP1024/CUSA09750_00/oR39Wdht1uYjWCoi00vvohixHL2qwlun.jpg",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "PS_STORE_LEGACY",
-      "score": 90,
-      "reason": "PlayStation Store image; audit for physical package front"
-    },
-    {
-      "id": 2404,
-      "title": "Shinigami: Shibito Magire",
-      "owned": false,
-      "url": "https://image.api.playstation.com/vulcan/ap/rnd/202210/1901/xkheP6gdJHIiaUs4xtJSpt5q.png",
       "curated": false,
       "legacyOverride": true,
       "bucket": "PS_STORE_LEGACY",
@@ -959,17 +739,6 @@
       "reason": "PlayStation Store image; audit for physical package front"
     },
     {
-      "id": 2408,
-      "title": "Tetsudou Nippon! Rosen Tabi: Eizan Densha-Hen",
-      "owned": false,
-      "url": "https://image.api.playstation.com/vulcan/ap/rnd/202011/1211/cIuNwKGscVQO2pwj21JrnE1e.png",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "PS_STORE_LEGACY",
-      "score": 90,
-      "reason": "PlayStation Store image; audit for physical package front"
-    },
-    {
       "id": 1753,
       "title": "The First Tree: Console Edition",
       "owned": false,
@@ -1003,6 +772,17 @@
       "reason": "PlayStation Store image; audit for physical package front"
     },
     {
+      "id": 2784,
+      "title": "Tony Hawk's Pro Skater 3 + 4",
+      "owned": false,
+      "url": "https://image.api.playstation.com/vulcan/ap/rnd/202502/2100/5a082446577b5f38ca04bf9bac67726fcbe0bc61baf6de7b.png",
+      "curated": false,
+      "legacyOverride": true,
+      "bucket": "PS_STORE_LEGACY",
+      "score": 90,
+      "reason": "PlayStation Store image; audit for physical package front"
+    },
+    {
       "id": 1979,
       "title": "Trouble Witches Final: Episode 1 - Daughters of Amalgam",
       "owned": false,
@@ -1029,17 +809,6 @@
       "title": "Wonderland TOD-Reloaded",
       "owned": false,
       "url": "https://image.api.playstation.com/cdn/JP0704/CUSA06366_00/ykOSboENjJMZXkTeNKzcMcnNAmmRTggh.png",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "PS_STORE_LEGACY",
-      "score": 90,
-      "reason": "PlayStation Store image; audit for physical package front"
-    },
-    {
-      "id": 2768,
-      "title": "Yo-Kai Watch Jam: Yo-Kai Academy Y",
-      "owned": false,
-      "url": "https://image.api.playstation.com/vulcan/ap/rnd/202010/0906/l8emQIiKcYb4ZwSvy9WsTKwc.png",
       "curated": false,
       "legacyOverride": true,
       "bucket": "PS_STORE_LEGACY",
@@ -1850,17 +1619,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 1627,
-      "title": "God Eater Resurrection",
-      "owned": true,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vp1.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 540,
       "title": "God of War III Remastered",
       "owned": true,
@@ -2609,17 +2367,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 1003,
-      "title": "River City Melee",
-      "owned": true,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24on.jpg",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 1011,
       "title": "Rock Boshers DX: Director's Cut",
       "owned": true,
@@ -3170,17 +2917,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 1330,
-      "title": "TMNT: Mutants Unleashed",
-      "owned": true,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8yl5.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 1335,
       "title": "Tokyo Xanadu eX+",
       "owned": true,
@@ -3566,17 +3302,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 3,
-      "title": "101 Ways to Die",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3krh.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 4,
       "title": "11-11: Memories Retold",
       "owned": false,
@@ -3830,17 +3555,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 1561,
-      "title": "A Winter's Daydream",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co88fa.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 24,
       "title": "A-Train Express",
       "owned": false,
@@ -3878,17 +3592,6 @@
       "title": "Absolver",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co45wq.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 28,
-      "title": "Abyss Odyssey: Extended Dream Edition",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co317g.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -3944,17 +3647,6 @@
       "title": "Ace of Seafood",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tjm.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 33,
-      "title": "Aces of the Luftwaffe",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2sda.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -4076,17 +3768,6 @@
       "title": "AereA",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocmv2.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2477,
-      "title": "Aerial Life",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7yzf.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -4248,17 +3929,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2478,
-      "title": "Aikano: Yukizora No Triangle",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobiuv.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 53,
       "title": "Air Conflicts: Pacific Carriers",
       "owned": false,
@@ -4336,17 +4006,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 58,
-      "title": "Airport Simulator 2019",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28ts.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 1564,
       "title": "AK-xolotl",
       "owned": false,
@@ -4362,17 +4021,6 @@
       "title": "Akai Katana Shin",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob77l.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2372,
-      "title": "Akatsuki Yureru Koi Akari",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co66sv.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -4633,17 +4281,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2373,
-      "title": "Ambitious Mission",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7zej.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 69,
       "title": "America's Greatest Game Shows: Wheel of Fortune & Jeopardy!",
       "owned": false,
@@ -4681,17 +4318,6 @@
       "title": "American Ninja Warrior Challenge",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2490.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 71,
-      "title": "Amnesia Collection",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8jbk.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -4846,17 +4472,6 @@
       "title": "Another Sight",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24am.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 78,
-      "title": "Another World: 20th Anniversary Edition",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ucg.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -5205,17 +4820,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2374,
-      "title": "Asatsugutori",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocbw8.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 1534,
       "title": "Ascent",
       "owned": false,
@@ -5458,17 +5062,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 106,
-      "title": "Assault Gunners HD Edition",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28uj.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 107,
       "title": "Assault Suit Leynos",
       "owned": false,
@@ -5645,28 +5238,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2224,
-      "title": "Atelier Ayesha: The Alchemist of Dusk DX",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co210l.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2225,
-      "title": "Atelier Escha & Logy: Alchemists of the Dusk Sky DX",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wdq.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 113,
       "title": "Atelier Firis: The Alchemist and the Mysterious Journey",
       "owned": false,
@@ -5744,17 +5315,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2226,
-      "title": "Atelier Shallie: Alchemists of the Dusk Sea DX",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wds.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 2503,
       "title": "Atelier Sophie 2: The Alchemist of the Mysterious Dream",
       "owned": false,
@@ -5825,17 +5385,6 @@
       "title": "Attack on Titan",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4qqz.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 119,
-      "title": "Attack on Titan 2",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4qr5.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -6041,17 +5590,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 128,
-      "title": "BADLAND: Game of the Year Edition",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1sud.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 2283,
       "title": "Balan Wonderworld",
       "owned": false,
@@ -6089,17 +5627,6 @@
       "title": "Barbie Project Friendship",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8mjz.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2512,
-      "title": "Barbie: Horse Trails",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coad7d.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -6283,17 +5810,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2514,
-      "title": "Battle Spirits: Connected Battlers",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2zng.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 141,
       "title": "Battle Worlds: Kronos",
       "owned": false,
@@ -6364,17 +5880,6 @@
       "title": "Bayonetta",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xp1.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 151,
-      "title": "Bear With Me: The Complete Collection",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coav45.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -6496,28 +6001,6 @@
       "title": "Beyond the Ice Palace 2",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co82o9.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 160,
-      "title": "Bibi & Tina at the horse farm",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co31rv.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2520,
-      "title": "Big Bobby Car The Big Race",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2wdu.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -7046,17 +6529,6 @@
       "title": "Bluey's Quest for the Gold Pen",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coavz4.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2531,
-      "title": "Bokuhime Project",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ne6.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -7768,17 +7240,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2547,
-      "title": "Cardfight Vanguard EX",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobuva.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 229,
       "title": "Carmageddon: Max Damage",
       "owned": false,
@@ -7827,17 +7288,6 @@
       "title": "Cartoon Network: Battle Crashers",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22v8.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 232,
-      "title": "CastleStorm: Definitive Edition",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z1w.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -7915,17 +7365,6 @@
       "title": "Catherine: Full Body",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2e3g.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 237,
-      "title": "Catlateral Damage",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2po5.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -8443,28 +7882,6 @@
       "title": "Construction Simulator",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co513s.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 262,
-      "title": "Construction Simulator 2: Console Edition",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x9r.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 263,
-      "title": "Construction Simulator 3: Console Edition",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23lk.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -9561,17 +8978,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 345,
-      "title": "Deep Sky Derelicts: Definitive Edition",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20sh.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 1600,
       "title": "Deer Simulator",
       "owned": false,
@@ -9983,17 +9389,6 @@
       "title": "Dissidia: Final Fantasy NT",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vjm.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 378,
-      "title": "DISTRAINT: Deluxe Edition",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27tn.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -10551,17 +9946,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 421,
-      "title": "Dying Light: The Following",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co661a.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 423,
       "title": "Dynasty Warriors 9",
       "owned": false,
@@ -10698,17 +10082,6 @@
       "title": "Edge Of Eternity",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8q9v.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 433,
-      "title": "Edna & Harvey: The Breakout - 10th Anniversary Edition",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4oy4.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -11039,17 +10412,6 @@
       "title": "Ever Forward",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2f29.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2377,
-      "title": "Everlasting Flowers",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7tz6.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -11563,28 +10925,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 493,
-      "title": "Firefighters: Plant Fire Department",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4pbg.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 494,
-      "title": "Firefighters: The Simulation",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24h9.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 1503,
       "title": "Firewatch",
       "owned": false,
@@ -11926,17 +11266,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2379,
-      "title": "Fuyu Kiss",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobvkf.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 2581,
       "title": "G-Darius HD",
       "owned": false,
@@ -12212,17 +11541,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2380,
-      "title": "Genkai Tokki: Castle Panzers",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/tcskh4xd5r2vtj4ihxzi.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 525,
       "title": "Geometry Wars 3: Dimensions",
       "owned": false,
@@ -12447,17 +11765,6 @@
       "title": "Ginger Beyond the Crystal",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24j9.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2381,
-      "title": "Ginsei Shogi: Aun Toushin Kongou Raizan",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7nms.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -12817,17 +12124,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 560,
-      "title": "Guilty Gear",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tez.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 561,
       "title": "Guilty Gear Xrd -REVELATOR-",
       "owned": false,
@@ -12916,17 +12212,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 566,
-      "title": "Gunman Clive HD Collection",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3gpk.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 2063,
       "title": "Guns N' Runs",
       "owned": false,
@@ -12993,17 +12278,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2383,
-      "title": "Hakoniwa Company Works",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28dz.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 568,
       "title": "Halloween Forever",
       "owned": false,
@@ -13048,17 +12322,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 569,
-      "title": "Hard West Ultimate Edition",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3rw0.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 570,
       "title": "Hardcore Mecha",
       "owned": false,
@@ -13074,17 +12337,6 @@
       "title": "Harry Potter: Quidditch Champions",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ire.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 571,
-      "title": "Harvest Moon: A Wonderful Life Special Edition",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ovr.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -13444,17 +12696,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2606,
-      "title": "Higurashi no Naku Koro ni Hou",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6kkm.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 1877,
       "title": "Hillbilly Doomsday",
       "owned": false,
@@ -13483,28 +12724,6 @@
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2qcq.jpg",
       "curated": false,
       "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2120,
-      "title": "Hitman: Absolution",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ign.jpg",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2119,
-      "title": "Hitman: Blood Money",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ign.jpg",
-      "curated": false,
-      "legacyOverride": true,
       "bucket": "IGDB_LEGACY",
       "score": 70,
       "reason": "IGDB cover; may be key art or wrong edition/region"
@@ -13646,17 +12865,6 @@
       "title": "Hover",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/reusdd1a8eb4ookvp1cc.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 606,
-      "title": "How to Survive: Storm Warning Edition",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1s6x.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -13822,17 +13030,6 @@
       "title": "Idol Manager",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co53te.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2610,
-      "title": "Idolm@ster Platinum Stars",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2wfm.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -14236,17 +13433,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2618,
-      "title": "Itadaki Street: Dragon Quest and Final Fantasy 30th Anniversary",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co205s.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 1848,
       "title": "Itorah",
       "owned": false,
@@ -14361,17 +13547,6 @@
       "title": "Jets'N'Guns 2",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27oo.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2056,
-      "title": "Jinki Resurrection",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kwr.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -14588,17 +13763,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2627,
-      "title": "Just Sing",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22p5.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 2628,
       "title": "Justice Chronicles",
       "owned": false,
@@ -14636,17 +13800,6 @@
       "title": "Karma: Incarnation 1",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21ar.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2632,
-      "title": "Karumaruka Circle",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co614q.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -14779,28 +13932,6 @@
       "title": "Killing Floor 2",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2coc.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2635,
-      "title": "Kin'Iro Loveriche",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2t9w.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2636,
-      "title": "Kin'iro Loveriche: Golden Time",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lda.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -15028,17 +14159,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2388,
-      "title": "Kyoei Toshi",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28a8.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 684,
       "title": "L.A. Noire",
       "owned": false,
@@ -15131,17 +14251,6 @@
       "title": "Lacuna",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2qj1.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2644,
-      "title": "Laid-Back Camp: Have A Nice Day!",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co47rp.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -16007,17 +15116,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2391,
-      "title": "Maitetsu: Pure Station",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27lr.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 742,
       "title": "Maneater",
       "owned": false,
@@ -16055,17 +15153,6 @@
       "title": "Mark McMorris Infinite Air",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4r2l.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2424,
-      "title": "Marooners",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y5r.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -16275,17 +15362,6 @@
       "title": "Megaquarium",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27m1.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2393,
-      "title": "Megaton Musashi",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co67rj.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -16766,17 +15842,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2464,
-      "title": "MOP: Operation Cleanup",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6mvp.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 797,
       "title": "Mortal Kombat X",
       "owned": false,
@@ -16865,17 +15930,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2395,
-      "title": "Musicus",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4itc.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 805,
       "title": "Musynx",
       "owned": false,
@@ -16946,17 +16000,6 @@
       "title": "My Aunt is a Witch",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2z3y.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2426,
-      "title": "My Fantastic Ranch",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co52p9.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -17371,17 +16414,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 833,
-      "title": "Never Alone: Arctic Collection",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hmg.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 2329,
       "title": "NeverAwake",
       "owned": false,
@@ -17789,17 +16821,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2665,
-      "title": "Occultic; Nine",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22rr.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 1684,
       "title": "Oceanhorn: Monster of Uncharted Seas",
       "owned": false,
@@ -17903,28 +16924,6 @@
       "title": "OlliOlli",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ihr.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 862,
-      "title": "OlliOlli: Epic Combo Edition",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coblzv.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2670,
-      "title": "Omega Labyrinth Z",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co31e5.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -18471,28 +17470,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2688,
-      "title": "Parfait Remake",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co498n.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2689,
-      "title": "Party Arcade",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24g6.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 894,
       "title": "Past Cure",
       "owned": false,
@@ -18552,17 +17529,6 @@
       "title": "Paw Patrol Grand Prix",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5dhl.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2678,
-      "title": "PAW Patrol On a Roll",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27nt.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -18651,17 +17617,6 @@
       "title": "Penguin Wars",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7xhb.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2694,
-      "title": "Peppa Pig World Adventures",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5zca.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -19131,17 +18086,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2398,
-      "title": "PriministAr",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co80f7.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 930,
       "title": "Prison Architect",
       "owned": false,
@@ -19388,17 +18332,6 @@
       "title": "Quake II",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9f8q.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 945,
-      "title": "Qubit's Quest",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7o10.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -19703,17 +18636,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2400,
-      "title": "Raspberry Cube",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2vq8.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 2338,
       "title": "Ravenswatch",
       "owned": false,
@@ -19828,17 +18750,6 @@
       "title": "Redemption Reapers",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9s64.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 1703,
-      "title": "Redout: Lightspeed Edition",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27wo.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -20092,17 +19003,6 @@
       "title": "Revita",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2u55.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2401,
-      "title": "Rewrite",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4fga.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -20400,17 +19300,6 @@
       "title": "Road Redemption",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hlo.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 1007,
-      "title": "Roarr! Jurassic Edition",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8kqv.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -20836,28 +19725,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 1718,
-      "title": "SaGa: Scarlet Grace - Ambitions",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co49t0.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2402,
-      "title": "Saiaku Naru Saiyaku Ningen Ni Sasagu",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6x46.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 2715,
       "title": "Saint Kotar",
       "owned": false,
@@ -21111,17 +19978,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2721,
-      "title": "Satsujin Tantei Jack The Ripper",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g9r.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 1039,
       "title": "Saturday Morning RPG",
       "owned": false,
@@ -21324,28 +20180,6 @@
       "title": "Semispheres",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24so.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2726,
-      "title": "Sengoku Basara 4 Sumeragi",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocp1p.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2403,
-      "title": "Sengoku Basara: Sanada Yukimura-Den",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2u8k.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -22112,17 +20946,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 1088,
-      "title": "Slayaway Camp: Butcher's Cut",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/tdo5o7orqv8wn77rqmi5.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 1090,
       "title": "Slide Stars",
       "owned": false,
@@ -22640,17 +21463,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 1126,
-      "title": "Squareboy vs. Bullies: Arena Edition",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ym0.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 1127,
       "title": "Star Ocean: First Departure R",
       "owned": false,
@@ -22926,32 +21738,10 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 1154,
-      "title": "Stranded Deep",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23lh.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 1157,
       "title": "Stranger Things 3: The Game",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1sez.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2405,
-      "title": "Strawberry Nauts",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3zss.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -23058,17 +21848,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2406,
-      "title": "Sugar Style",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2nwe.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 2350,
       "title": "Summertime Madness",
       "owned": false,
@@ -23097,28 +21876,6 @@
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/aq6qahkwjzwgdppbydcc.jpg",
       "curated": false,
       "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 1172,
-      "title": "Sunless Sea: Zubmariner Edition",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5dfx.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 1173,
-      "title": "Super Blackjack Battle II Turbo Edition: The Card Warriors",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27en.jpg",
-      "curated": false,
-      "legacyOverride": true,
       "bucket": "IGDB_LEGACY",
       "score": 70,
       "reason": "IGDB cover; may be key art or wrong edition/region"
@@ -23355,17 +22112,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 1187,
-      "title": "Surgeon Simulator: Anniversary Edition",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4o2m.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 1188,
       "title": "Surviving Mars",
       "owned": false,
@@ -23381,17 +22127,6 @@
       "title": "Sword & Fairy 6",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27v0.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 1190,
-      "title": "Sword Art Online Re: Hollow Fragment",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co86zv.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -23590,17 +22325,6 @@
       "title": "Tales of Vesperia: Definitive Edition",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5gb5.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2735,
-      "title": "Talisman: Digital Edition",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2321.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -24015,17 +22739,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 1749,
-      "title": "The Bug Butcher",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co26sw.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 1225,
       "title": "The Bunker",
       "owned": false,
@@ -24136,17 +22849,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 1233,
-      "title": "The Crew: Wild Run",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co62ps.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 1234,
       "title": "The Dark Crystal: Age of Resistance Tactics",
       "owned": false,
@@ -24164,17 +22866,6 @@
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20xn.jpg",
       "curated": false,
       "legacyOverride": true,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 1236,
-      "title": "The Dark Pictures - Man of Medan",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1omz.jpg",
-      "curated": false,
-      "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
       "score": 70,
       "reason": "IGDB cover; may be key art or wrong edition/region"
@@ -24448,17 +23139,6 @@
       "title": "The Last of Us Part II",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ziw.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 1263,
-      "title": "The Last Remnant Remastered",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gz5.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -24939,17 +23619,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 1309,
-      "title": "The Walking Vegetables: Radical Edition",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocq94.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 1310,
       "title": "The Witch and the Hundred Knight 2",
       "owned": false,
@@ -25185,17 +23854,6 @@
       "title": "Tokyo Ghoul: re Call to Exist",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co268u.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 1765,
-      "title": "Tokyo Twilight Ghost Hunters: Daybreak Special Gigs",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co44q0.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -25951,32 +24609,10 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 1384,
-      "title": "Unexplored: Unlocked Edition",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/pv6lhkrib0kufcgdelah.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 2363,
       "title": "Unicorn Overlord",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7310.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2749,
-      "title": "Unicorn Princess",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2rs8.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -26479,17 +25115,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 1407,
-      "title": "Voyage of the Dead",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pu4.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 2759,
       "title": "Wallachia: Reign of Dracula",
       "owned": false,
@@ -26604,39 +25229,6 @@
       "title": "Warhammer 40,000: Shootas, Blood & Teef",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4tav.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 1414,
-      "title": "Warhammer 40,000: Space Wolf",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24kh.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 1415,
-      "title": "Warhammer Quest",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co221r.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 1416,
-      "title": "Warhammer Quest 2: The End Times",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24df.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -26886,28 +25478,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2440,
-      "title": "Windstorm",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9cpd.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2441,
-      "title": "Windstorm: An Unexpected Arrival",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9cd9.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 1438,
       "title": "Wipeout: Omega Collection",
       "owned": false,
@@ -27033,17 +25603,6 @@
       "title": "Wonder Boy: The Dragon's Trap",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z4q.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 1447,
-      "title": "WordHunters",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1hfg.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -27370,17 +25929,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2769,
-      "title": "Yo-kai Watch 4++",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6o1m.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 1549,
       "title": "Yomawari: Lost in the Dark [Deluxe Edition]",
       "owned": false,
@@ -27436,17 +25984,6 @@
       "reason": "IGDB cover; may be key art or wrong edition/region"
     },
     {
-      "id": 2411,
-      "title": "Yoru, Tomosu",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fpz.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
       "id": 2770,
       "title": "You Suck at Parking",
       "owned": false,
@@ -27473,17 +26010,6 @@
       "title": "Your Toy",
       "owned": false,
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co234p.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region"
-    },
-    {
-      "id": 2771,
-      "title": "YouTubers Life 2",
-      "owned": false,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa924.jpg",
       "curated": false,
       "legacyOverride": false,
       "bucket": "IGDB_LEGACY",
@@ -27987,77 +26513,6 @@
   ],
   "candidates": [
     {
-      "id": 9,
-      "title": "3D Mini Golf",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL",
-      "gameye": [],
-      "autoCandidate": false,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 1
-        },
-        {
-          "country": 34,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 3,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        }
-      ]
-    },
-    {
-      "id": 90,
-      "title": "ARK Park",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL",
-      "gameye": [
-        {
-          "id": 53718,
-          "title": "Ark Park",
-          "country_id": 1,
-          "platform_id": 46,
-          "release_type": 0,
-          "image": {
-            "id": 872656,
-            "width": 1430,
-            "height": 1760,
-            "file": "art_front/46/9499db65-5a5e-4dce-b5a4-1a6074fb9938.webp"
-          },
-          "queryCountry": 1,
-          "matchScore": 100,
-          "quality": "HIGH_CONFIDENCE"
-        }
-      ],
-      "autoCandidate": true,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 2
-        }
-      ]
-    },
-    {
       "id": 210,
       "title": "Budget Cuts",
       "owned": false,
@@ -28089,50 +26544,6 @@
       "gameyeQueried": [
         {
           "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 225,
-      "title": "Candleman: The Complete Journey",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL",
-      "gameye": [
-        {
-          "id": 51475,
-          "title": "Candleman: The Complete Journey",
-          "country_id": 34,
-          "platform_id": 46,
-          "release_type": 7,
-          "image": {
-            "id": 65728,
-            "width": 640,
-            "height": 640,
-            "file": "art_front/46/0bcca1cd-8cf1-4561-95a7-b4ce5cc4b2e7.webp"
-          },
-          "queryCountry": 34,
-          "matchScore": 100,
-          "quality": "REVIEW"
-        }
-      ],
-      "autoCandidate": false,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 34,
           "ok": true,
           "status": 200,
           "count": 1
@@ -28173,8 +26584,8 @@
       ]
     },
     {
-      "id": 349,
-      "title": "Deracine",
+      "id": 2787,
+      "title": "Catlateral Damage: Remeowstered",
       "owned": false,
       "url": null,
       "curated": false,
@@ -28184,16 +26595,16 @@
       "reason": "No cover URL",
       "gameye": [
         {
-          "id": 51420,
-          "title": "Deracine",
+          "id": 86604,
+          "title": "Catlateral Damage: Remeowstered",
           "country_id": 1,
           "platform_id": 46,
           "release_type": 0,
           "image": {
-            "id": 455266,
-            "width": 1523,
-            "height": 1897,
-            "file": "art_front/46/55e15c5d-f2e1-48a6-8458-143d00d9c571.webp"
+            "id": 371422,
+            "width": 752,
+            "height": 976,
+            "file": "art_front/46/d2b6a626-e2a3-40f4-bd55-97b146be17dd.webp"
           },
           "queryCountry": 1,
           "matchScore": 100,
@@ -28207,39 +26618,6 @@
           "ok": true,
           "status": 200,
           "count": 1
-        }
-      ]
-    },
-    {
-      "id": 2376,
-      "title": "Dokyusei: Bangin' Summer CSver",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL",
-      "gameye": [],
-      "autoCandidate": false,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 34,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 3,
-          "ok": true,
-          "status": 200,
-          "count": 0
         }
       ]
     },
@@ -28278,39 +26656,6 @@
           "ok": true,
           "status": 200,
           "count": 2
-        }
-      ]
-    },
-    {
-      "id": 2382,
-      "title": "GoHELLgo",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL",
-      "gameye": [],
-      "autoCandidate": false,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 34,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 3,
-          "ok": true,
-          "status": 200,
-          "count": 0
         }
       ]
     },
@@ -28408,8 +26753,8 @@
       ]
     },
     {
-      "id": 2623,
-      "title": "JoJo: Eyes of Heaven",
+      "id": 2785,
+      "title": "Made in Abyss: Binary Star Falling into Darkness",
       "owned": false,
       "url": null,
       "curated": false,
@@ -28417,26 +26762,31 @@
       "bucket": "COVER_NEEDED",
       "score": 100,
       "reason": "No cover URL",
-      "gameye": [],
-      "autoCandidate": false,
+      "gameye": [
+        {
+          "id": 99885,
+          "title": "Made in Abyss: Binary Star Falling into Darkness",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 469561,
+            "width": 742,
+            "height": 943,
+            "file": "art_front/46/bfbb9a10-243f-4fa2-9eba-05091c4f42aa.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "HIGH_CONFIDENCE"
+        }
+      ],
+      "autoCandidate": true,
       "gameyeQueried": [
         {
           "country": 1,
           "ok": true,
           "status": 200,
-          "count": 0
-        },
-        {
-          "country": 34,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 3,
-          "ok": true,
-          "status": 200,
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -28551,6 +26901,39 @@
       ]
     },
     {
+      "id": 2786,
+      "title": "OlliOlli2: Welcome to Olliwood",
+      "owned": false,
+      "url": null,
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "COVER_NEEDED",
+      "score": 100,
+      "reason": "No cover URL",
+      "gameye": [],
+      "autoCandidate": false,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 0
+        },
+        {
+          "country": 34,
+          "ok": true,
+          "status": 200,
+          "count": 0
+        },
+        {
+          "country": 3,
+          "ok": true,
+          "status": 200,
+          "count": 0
+        }
+      ]
+    },
+    {
       "id": 2673,
       "title": "One Piece Unlimited World Red",
       "owned": false,
@@ -28586,72 +26969,6 @@
     {
       "id": 2686,
       "title": "Paper Dolls",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL",
-      "gameye": [],
-      "autoCandidate": false,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 34,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 3,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        }
-      ]
-    },
-    {
-      "id": 923,
-      "title": "Pool Nation FX",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL",
-      "gameye": [],
-      "autoCandidate": false,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 34,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 3,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        }
-      ]
-    },
-    {
-      "id": 935,
-      "title": "Project Nimbus: Complete Edition",
       "owned": false,
       "url": null,
       "curated": false,
@@ -28886,44 +27203,6 @@
       ]
     },
     {
-      "id": 1217,
-      "title": "The American Dream",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL",
-      "gameye": [
-        {
-          "id": 96880,
-          "title": "American Dream",
-          "country_id": 1,
-          "platform_id": 46,
-          "release_type": 0,
-          "image": {
-            "id": 313447,
-            "width": 602,
-            "height": 750,
-            "file": "art_front/46/7d890c0d-2595-49e8-92ee-2947c30a0b6c.webp"
-          },
-          "queryCountry": 1,
-          "matchScore": 90,
-          "quality": "REVIEW_EDITION"
-        }
-      ],
-      "autoCandidate": false,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 1240,
       "title": "The Elder Scrolls Online: Tamriel Unlimited",
       "owned": false,
@@ -28983,44 +27262,6 @@
             "width": 1022,
             "height": 1262,
             "file": "art_front/46/e5531aa3-63a8-4de9-ba48-7bee24fbddaf.webp"
-          },
-          "queryCountry": 1,
-          "matchScore": 90,
-          "quality": "REVIEW_EDITION"
-        }
-      ],
-      "autoCandidate": false,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": 1304,
-      "title": "The Walking Dead: Saints & Sinners",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL",
-      "gameye": [
-        {
-          "id": 62222,
-          "title": "Walking Dead: Saints & Sinners [Complete Edition]",
-          "country_id": 1,
-          "platform_id": 46,
-          "release_type": 0,
-          "image": {
-            "id": 289218,
-            "width": 999,
-            "height": 1286,
-            "file": "art_front/46/05edf684-696c-4f04-b80c-c769e9e6ad08.webp"
           },
           "queryCountry": 1,
           "matchScore": 90,
@@ -29104,115 +27345,6 @@
       ]
     },
     {
-      "id": 2744,
-      "title": "Umineko no Naku Koro ni: Nekobako to Musou no Koukyoukyoku",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL",
-      "gameye": [],
-      "autoCandidate": false,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 34,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 3,
-          "ok": true,
-          "status": 200,
-          "count": 2
-        }
-      ]
-    },
-    {
-      "id": 1431,
-      "title": "Werewolves Within",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL",
-      "gameye": [
-        {
-          "id": 39962,
-          "title": "Werewolves Within",
-          "country_id": 1,
-          "platform_id": 46,
-          "release_type": 0,
-          "image": {
-            "id": 41224,
-            "width": 1181,
-            "height": 1500,
-            "file": "art_front/46/873b279f-2b5a-4597-ac6e-10e78c1cc817.webp"
-          },
-          "queryCountry": 1,
-          "matchScore": 100,
-          "quality": "HIGH_CONFIDENCE"
-        }
-      ],
-      "autoCandidate": true,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 1441,
-      "title": "Wolfenstein: Cyberpilot",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL",
-      "gameye": [
-        {
-          "id": 50968,
-          "title": "Wolfenstein: Cyberpilot",
-          "country_id": 1,
-          "platform_id": 46,
-          "release_type": 0,
-          "image": {
-            "id": 873573,
-            "width": 801,
-            "height": 1000,
-            "file": "art_front/46/2acf51e3-eef6-4a27-8a25-f5f03a7db5b2.webp"
-          },
-          "queryCountry": 1,
-          "matchScore": 100,
-          "quality": "HIGH_CONFIDENCE"
-        }
-      ],
-      "autoCandidate": true,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 1451,
       "title": "World Poker Championship",
       "owned": false,
@@ -29244,89 +27376,6 @@
       "gameyeQueried": [
         {
           "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 1454,
-      "title": "Worms Anniversary Edition",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL",
-      "gameye": [],
-      "autoCandidate": false,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 34,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 3,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        }
-      ]
-    },
-    {
-      "id": 1483,
-      "title": "Ys: Memories of Celceta - Kai",
-      "owned": false,
-      "url": null,
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "COVER_NEEDED",
-      "score": 100,
-      "reason": "No cover URL",
-      "gameye": [
-        {
-          "id": 54566,
-          "title": "Ys: Memories of Celceta - Kai",
-          "country_id": 3,
-          "platform_id": 46,
-          "release_type": 0,
-          "image": {
-            "id": 27295,
-            "width": 143,
-            "height": 180,
-            "file": "art_front/46/fb5c8103-247a-41d6-97b5-c972b50c880f.webp"
-          },
-          "queryCountry": 3,
-          "matchScore": 100,
-          "quality": "HIGH_CONFIDENCE"
-        }
-      ],
-      "autoCandidate": true,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 34,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 3,
           "ok": true,
           "status": 200,
           "count": 1
@@ -29817,35 +27866,56 @@
       ]
     },
     {
-      "id": 356,
-      "title": "Destroy All Humans! (2005)",
+      "id": 2781,
+      "title": "Dragon Ball: The Breakers",
       "owned": false,
-      "url": "https://image.api.playstation.com/cdn/UP4389/CUSA05232_00/8iv6yRf3XBljArTKnPDssQW5XNK296f2.jpg",
+      "url": "https://image.api.playstation.com/vulcan/ap/rnd/202402/1411/893ee5064ae982395e414eb5011f4788468460b7776d3ebc.png",
       "curated": false,
       "legacyOverride": true,
       "bucket": "PS_STORE_LEGACY",
       "score": 90,
       "reason": "PlayStation Store image; audit for physical package front",
-      "gameye": [],
+      "gameye": [
+        {
+          "id": 141961,
+          "title": "Dragon Ball: The Breakers [Limited Edition]",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 466742,
+            "width": 475,
+            "height": 640,
+            "file": "art_front/46/141961_d35daa2c-41c4-4b69-b04e-6a4c51eda234.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 90,
+          "quality": "REVIEW_EDITION"
+        },
+        {
+          "id": 100968,
+          "title": "Dragon Ball: The Breakers [Special Edition]",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 334207,
+            "width": 743,
+            "height": 942,
+            "file": "art_front/46/2a114178-3e23-4d49-b8bf-b870900ae42f.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 90,
+          "quality": "REVIEW_EDITION"
+        }
+      ],
       "autoCandidate": false,
       "gameyeQueried": [
         {
           "country": 1,
           "ok": true,
           "status": 200,
-          "count": 0
-        },
-        {
-          "country": 34,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 3,
-          "ok": true,
-          "status": 200,
-          "count": 0
+          "count": 2
         }
       ]
     },
@@ -29867,39 +27937,6 @@
           "ok": true,
           "status": 200,
           "count": 1
-        },
-        {
-          "country": 34,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 3,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        }
-      ]
-    },
-    {
-      "id": 1612,
-      "title": "Euro Fishing: Urban Edition",
-      "owned": false,
-      "url": "https://image.api.playstation.com/cdn/UP3004/CUSA08113_00/2DBzS5I2HHSPHPLU3If1qBEBkBhJNq7M.jpg",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "PS_STORE_LEGACY",
-      "score": 90,
-      "reason": "PlayStation Store image; audit for physical package front",
-      "gameye": [],
-      "autoCandidate": false,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 0
         },
         {
           "country": 34,
@@ -30120,39 +28157,6 @@
       ]
     },
     {
-      "id": 2384,
-      "title": "Hakuouki: Shinkai Fukaden",
-      "owned": false,
-      "url": "https://image.api.playstation.com/cdn/JP0031/CUSA07568_00/lzLXBPkUTPqqfUcJwZpIvXwHyfOdADoE.png",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "PS_STORE_LEGACY",
-      "score": 90,
-      "reason": "PlayStation Store image; audit for physical package front",
-      "gameye": [],
-      "autoCandidate": false,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 34,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 3,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        }
-      ]
-    },
-    {
       "id": 1639,
       "title": "Home: A Unique Horror Adventure",
       "owned": false,
@@ -30191,192 +28195,10 @@
       ]
     },
     {
-      "id": 2619,
-      "title": "Jinrui No Minasama E",
-      "owned": false,
-      "url": "https://image.api.playstation.com/cdn/JP0404/CUSA15374_00/Np8HC9UgRswW0Mhx6RQua2913VR6uNAs.png",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "PS_STORE_LEGACY",
-      "score": 90,
-      "reason": "PlayStation Store image; audit for physical package front",
-      "gameye": [
-        {
-          "id": 160427,
-          "title": "Jinrui No Minasama E",
-          "country_id": 3,
-          "platform_id": 46,
-          "release_type": 0,
-          "image": {
-            "id": 879672,
-            "width": 799,
-            "height": 1000,
-            "file": "art_front/46/1134bd86-14f6-402a-b73e-c7cbde114ebe.webp"
-          },
-          "queryCountry": 3,
-          "matchScore": 100,
-          "quality": "HIGH_CONFIDENCE"
-        }
-      ],
-      "autoCandidate": true,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 34,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 3,
-          "ok": true,
-          "status": 200,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 2629,
-      "title": "Kaleidoscope Of Phantom Prison",
-      "owned": false,
-      "url": "https://image.api.playstation.com/vulcan/ap/rnd/202011/0503/C0vs3zfoWt1zjUMKx03XTsZE.png",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "PS_STORE_LEGACY",
-      "score": 90,
-      "reason": "PlayStation Store image; audit for physical package front",
-      "gameye": [],
-      "autoCandidate": false,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 34,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 3,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        }
-      ]
-    },
-    {
-      "id": 2630,
-      "title": "Kamen Rider: Battride War Creation",
-      "owned": false,
-      "url": "https://image.api.playstation.com/cdn/JP0700/CUSA02714_00/baLBlpejperzLQABFQZDenvNHtwXTSrt.png",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "PS_STORE_LEGACY",
-      "score": 90,
-      "reason": "PlayStation Store image; audit for physical package front",
-      "gameye": [],
-      "autoCandidate": false,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 34,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 3,
-          "ok": true,
-          "status": 200,
-          "count": 1
-        }
-      ]
-    },
-    {
-      "id": 2631,
-      "title": "Kangokutou Mary Skelter 2",
-      "owned": false,
-      "url": "https://image.api.playstation.com/cdn/KP0004/CUSA12857_00/ynYSPzEzztIEyhDowsKVWRrPUACVarRo.png",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "PS_STORE_LEGACY",
-      "score": 90,
-      "reason": "PlayStation Store image; audit for physical package front",
-      "gameye": [],
-      "autoCandidate": false,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 34,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 3,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        }
-      ]
-    },
-    {
       "id": 2469,
       "title": "Kyukyoku Tiger / Twin Cobra",
       "owned": false,
       "url": "https://image.api.playstation.com/vulcan/ap/rnd/202405/0207/b728d4d4ec2c6446ac251fc361203495140b06365dc01f54.png",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "PS_STORE_LEGACY",
-      "score": 90,
-      "reason": "PlayStation Store image; audit for physical package front",
-      "gameye": [],
-      "autoCandidate": false,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 34,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 3,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        }
-      ]
-    },
-    {
-      "id": 2645,
-      "title": "Lapis Re Abyss",
-      "owned": false,
-      "url": "https://image.api.playstation.com/cdn/JP0404/CUSA13508_00/MuYToA4RvBe8DY9CG3phl55aARQUn8px.png",
       "curated": false,
       "legacyOverride": true,
       "bucket": "PS_STORE_LEGACY",
@@ -30446,56 +28268,6 @@
           "ok": true,
           "status": 200,
           "count": 2
-        }
-      ]
-    },
-    {
-      "id": 2396,
-      "title": "Natsuiro High School: Seisyun Hakusyo",
-      "owned": false,
-      "url": "https://image.api.playstation.com/cdn/JP0367/CUSA00891_00/MGtnNvROzsTrjoriWyxMLIRaZDSn4ZgZaBysdfJxCkZSd7XDoULajj5qW9F7FWLK.png",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "PS_STORE_LEGACY",
-      "score": 90,
-      "reason": "PlayStation Store image; audit for physical package front",
-      "gameye": [
-        {
-          "id": 139536,
-          "title": "Natsuiro High School: Seisyun Hakusyo",
-          "country_id": 3,
-          "platform_id": 46,
-          "release_type": 0,
-          "image": {
-            "id": 458939,
-            "width": 200,
-            "height": 251,
-            "file": "art_front/46/139536_3a958eb3-a697-4e7a-8a16-cdbf15fb4339.webp"
-          },
-          "queryCountry": 3,
-          "matchScore": 100,
-          "quality": "HIGH_CONFIDENCE"
-        }
-      ],
-      "autoCandidate": true,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 34,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 3,
-          "ok": true,
-          "status": 200,
-          "count": 1
         }
       ]
     },
@@ -30730,6 +28502,44 @@
       ]
     },
     {
+      "id": 2783,
+      "title": "Prince of Persia: The Lost Crown",
+      "owned": false,
+      "url": "https://image.api.playstation.com/vulcan/ap/rnd/202312/0701/e0df18c55b01b7ccac6423e53e0a752e99ff665de760ecc5.jpg",
+      "curated": false,
+      "legacyOverride": true,
+      "bucket": "PS_STORE_LEGACY",
+      "score": 90,
+      "reason": "PlayStation Store image; audit for physical package front",
+      "gameye": [
+        {
+          "id": 143712,
+          "title": "Prince Of Persia: The Lost Crown",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 874591,
+            "width": 764,
+            "height": 946,
+            "file": "art_front/46/faf8c359-e35b-4a4e-b87e-a332356df8ae.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "HIGH_CONFIDENCE"
+        }
+      ],
+      "autoCandidate": true,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 1
+        }
+      ]
+    },
+    {
       "id": 2399,
       "title": "Puyo Puyo eSports",
       "owned": false,
@@ -30862,6 +28672,44 @@
       ]
     },
     {
+      "id": 2782,
+      "title": "Russian Subway Dogs",
+      "owned": false,
+      "url": "https://image.api.playstation.com/vulcan/ap/rnd/202306/1103/779d66b30bd8eb38983002adefe11886fb648b3e5b0ec2f4.png",
+      "curated": false,
+      "legacyOverride": true,
+      "bucket": "PS_STORE_LEGACY",
+      "score": 90,
+      "reason": "PlayStation Store image; audit for physical package front",
+      "gameye": [
+        {
+          "id": 156191,
+          "title": "Russian Subway Dogs",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 513195,
+            "width": 803,
+            "height": 1228,
+            "file": "art_front/46/038785ae-26ba-40e9-96b3-74a05ebcee1f.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "HIGH_CONFIDENCE"
+        }
+      ],
+      "autoCandidate": true,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 1
+        }
+      ]
+    },
+    {
       "id": 1525,
       "title": "Ryuu ga Gotoku 7 Gaiden: Na o Keshita Otoko",
       "owned": false,
@@ -30983,39 +28831,6 @@
       ]
     },
     {
-      "id": 2404,
-      "title": "Shinigami: Shibito Magire",
-      "owned": false,
-      "url": "https://image.api.playstation.com/vulcan/ap/rnd/202210/1901/xkheP6gdJHIiaUs4xtJSpt5q.png",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "PS_STORE_LEGACY",
-      "score": 90,
-      "reason": "PlayStation Store image; audit for physical package front",
-      "gameye": [],
-      "autoCandidate": false,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 34,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 3,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        }
-      ]
-    },
-    {
       "id": 1103,
       "title": "Soccer: Tactics & Glory",
       "owned": false,
@@ -31124,39 +28939,6 @@
       "title": "Tadeo Jones: La Tabla Esmeralda",
       "owned": false,
       "url": "https://image.api.playstation.com/vulcan/ap/rnd/202512/1613/616909be807bf8322dcc31d0d8dd2ac9fb78bd12581426e5.jpg",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "PS_STORE_LEGACY",
-      "score": 90,
-      "reason": "PlayStation Store image; audit for physical package front",
-      "gameye": [],
-      "autoCandidate": false,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 34,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 3,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        }
-      ]
-    },
-    {
-      "id": 2408,
-      "title": "Tetsudou Nippon! Rosen Tabi: Eizan Densha-Hen",
-      "owned": false,
-      "url": "https://image.api.playstation.com/vulcan/ap/rnd/202011/1211/cIuNwKGscVQO2pwj21JrnE1e.png",
       "curated": false,
       "legacyOverride": true,
       "bucket": "PS_STORE_LEGACY",
@@ -31306,6 +29088,44 @@
       ]
     },
     {
+      "id": 2784,
+      "title": "Tony Hawk's Pro Skater 3 + 4",
+      "owned": false,
+      "url": "https://image.api.playstation.com/vulcan/ap/rnd/202502/2100/5a082446577b5f38ca04bf9bac67726fcbe0bc61baf6de7b.png",
+      "curated": false,
+      "legacyOverride": true,
+      "bucket": "PS_STORE_LEGACY",
+      "score": 90,
+      "reason": "PlayStation Store image; audit for physical package front",
+      "gameye": [
+        {
+          "id": 165119,
+          "title": "Tony Hawk’s Pro Skater 3 + 4",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 909746,
+            "width": 880,
+            "height": 1047,
+            "file": "art_front/46/30118088-62ca-488e-ab2c-e1329ddf740a.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "REVIEW"
+        }
+      ],
+      "autoCandidate": false,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 1
+        }
+      ]
+    },
+    {
       "id": 1979,
       "title": "Trouble Witches Final: Episode 1 - Daughters of Amalgam",
       "owned": false,
@@ -31401,56 +29221,6 @@
           "ok": true,
           "status": 200,
           "count": 0
-        }
-      ]
-    },
-    {
-      "id": 2768,
-      "title": "Yo-Kai Watch Jam: Yo-Kai Academy Y",
-      "owned": false,
-      "url": "https://image.api.playstation.com/vulcan/ap/rnd/202010/0906/l8emQIiKcYb4ZwSvy9WsTKwc.png",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "PS_STORE_LEGACY",
-      "score": 90,
-      "reason": "PlayStation Store image; audit for physical package front",
-      "gameye": [
-        {
-          "id": 157494,
-          "title": "Yo-kai Watch Jam: Yo-kai Academy Y",
-          "country_id": 3,
-          "platform_id": 46,
-          "release_type": 0,
-          "image": {
-            "id": 516779,
-            "width": 640,
-            "height": 800,
-            "file": "art_front/46/14dd0d1f-2157-444e-b59e-163b0fbcad80.webp"
-          },
-          "queryCountry": 3,
-          "matchScore": 100,
-          "quality": "HIGH_CONFIDENCE"
-        }
-      ],
-      "autoCandidate": true,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 34,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 3,
-          "ok": true,
-          "status": 200,
-          "count": 1
         }
       ]
     },
@@ -34415,50 +32185,6 @@
       ]
     },
     {
-      "id": 1627,
-      "title": "God Eater Resurrection",
-      "owned": true,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vp1.jpg",
-      "curated": false,
-      "legacyOverride": false,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region",
-      "gameye": [
-        {
-          "id": 145334,
-          "title": "God Eater Resurrection",
-          "country_id": 34,
-          "platform_id": 46,
-          "release_type": 7,
-          "image": {
-            "id": 481237,
-            "width": 800,
-            "height": 800,
-            "file": "art_front/46/145334_5e3803b0-8ebb-4973-b0ac-42c10e04e89a.webp"
-          },
-          "queryCountry": 34,
-          "matchScore": 100,
-          "quality": "REVIEW"
-        }
-      ],
-      "autoCandidate": false,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 0
-        },
-        {
-          "country": 34,
-          "ok": true,
-          "status": 200,
-          "count": 1
-        }
-      ]
-    },
-    {
       "id": 540,
       "title": "God of War III Remastered",
       "owned": true,
@@ -37259,44 +34985,6 @@
       ]
     },
     {
-      "id": 1003,
-      "title": "River City Melee",
-      "owned": true,
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24on.jpg",
-      "curated": false,
-      "legacyOverride": true,
-      "bucket": "IGDB_LEGACY",
-      "score": 70,
-      "reason": "IGDB cover; may be key art or wrong edition/region",
-      "gameye": [
-        {
-          "id": 48608,
-          "title": "River City Melee",
-          "country_id": 1,
-          "platform_id": 46,
-          "release_type": 0,
-          "image": {
-            "id": 508234,
-            "width": 1715,
-            "height": 2173,
-            "file": "art_front/46/4decae38-092c-469a-ab2a-4ba55eb094bf.webp"
-          },
-          "queryCountry": 1,
-          "matchScore": 100,
-          "quality": "HIGH_CONFIDENCE"
-        }
-      ],
-      "autoCandidate": true,
-      "gameyeQueried": [
-        {
-          "country": 1,
-          "ok": true,
-          "status": 200,
-          "count": 2
-        }
-      ]
-    },
-    {
       "id": 1011,
       "title": "Rock Boshers DX: Director's Cut",
       "owned": true,
@@ -37819,6 +35507,934 @@
         }
       ],
       "autoCandidate": true,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 1123,
+      "title": "SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated",
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xrg.jpg",
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "gameye": [
+        {
+          "id": 63671,
+          "title": "SpongeBob SquarePants: Battle for Bikini Bottom Rehydrated",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 927656,
+            "width": 820,
+            "height": 1024,
+            "file": "art_front/46/e19e4d43-3b9f-4b70-941b-853eacfa6359.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "HIGH_CONFIDENCE"
+        }
+      ],
+      "autoCandidate": true,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 1128,
+      "title": "Star Ocean: Integrity and Faithlessness",
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uf1.jpg",
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "gameye": [
+        {
+          "id": 187841,
+          "title": "Star Ocean: Integrity and Faithlessness",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 1044471,
+            "width": 1006,
+            "height": 1280,
+            "file": "art_front/46/3d1fd0c9-e231-4bfc-9c60-7dac868573c3.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "HIGH_CONFIDENCE"
+        },
+        {
+          "id": 28972,
+          "title": "Star Ocean: Integrity and Faithlessness [Day One Edition]",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 321076,
+            "width": 600,
+            "height": 742,
+            "file": "art_front/46/0582e266-bcd2-4085-970e-f332851eef02.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 90,
+          "quality": "REVIEW_EDITION"
+        }
+      ],
+      "autoCandidate": true,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 1132,
+      "title": "Star Wars Episode I: Racer",
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wj7.jpg",
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "gameye": [
+        {
+          "id": 64104,
+          "title": "Star Wars Episode I: Racer",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 192883,
+            "width": 670,
+            "height": 826,
+            "file": "art_front/46/fe9f337a-8ebd-4178-b31f-01e4f82779b3.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "HIGH_CONFIDENCE"
+        }
+      ],
+      "autoCandidate": true,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 1135,
+      "title": "Star Wars Jedi: Fallen Order",
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbi.jpg",
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "gameye": [
+        {
+          "id": 55279,
+          "title": "Star Wars Jedi: Fallen Order",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 193831,
+            "width": 767,
+            "height": 955,
+            "file": "art_front/46/842a965f-5185-4a69-9379-7261481fb26a.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "HIGH_CONFIDENCE"
+        },
+        {
+          "id": 57420,
+          "title": "Star Wars Jedi: Fallen Order [Deluxe Edition]",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 193336,
+            "width": 508,
+            "height": 640,
+            "file": "art_front/46/4c5900fb-5e70-4a9d-b804-0a94ef2cc564.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 90,
+          "quality": "REVIEW_EDITION"
+        }
+      ],
+      "autoCandidate": true,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 1998,
+      "title": "Star Wars: Republic Commando",
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2au4.jpg",
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "gameye": [
+        {
+          "id": 75279,
+          "title": "Star Wars: Republic Commando",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 226203,
+            "width": 480,
+            "height": 608,
+            "file": "art_front/46/bbd543d6-41d0-4e1c-ab9b-29fbc306d20a.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "HIGH_CONFIDENCE"
+        }
+      ],
+      "autoCandidate": true,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 1138,
+      "title": "Star Wars: Squadrons",
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wlz.jpg",
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "gameye": [
+        {
+          "id": 63543,
+          "title": "Star Wars: Squadrons",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 857768,
+            "width": 764,
+            "height": 953,
+            "file": "art_front/46/8975f6d7-f922-4aee-94ce-62fe9971e4f7.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "HIGH_CONFIDENCE"
+        }
+      ],
+      "autoCandidate": true,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 1140,
+      "title": "Stardew Valley",
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa93h.jpg",
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "gameye": [
+        {
+          "id": 187898,
+          "title": "Stardew Valley",
+          "country_id": 34,
+          "platform_id": 46,
+          "release_type": 7,
+          "image": {
+            "id": 1044749,
+            "width": 264,
+            "height": 352,
+            "file": "art_front/46/875e7276-b528-4088-b9dc-065d82b41c10.webp"
+          },
+          "queryCountry": 34,
+          "matchScore": 100,
+          "quality": "HIGH_CONFIDENCE"
+        }
+      ],
+      "autoCandidate": true,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 1
+        },
+        {
+          "country": 34,
+          "ok": true,
+          "status": 200,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 1142,
+      "title": "Starlink: Battle for Atlas",
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7pm8.jpg",
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "gameye": [
+        {
+          "id": 50711,
+          "title": "Starlink: Battle for Atlas",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 197469,
+            "width": 640,
+            "height": 798,
+            "file": "art_front/46/8e4443b9-e4e3-4db1-9c7a-27550738040b.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "HIGH_CONFIDENCE"
+        }
+      ],
+      "autoCandidate": true,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 1151,
+      "title": "Stick it to the Man!",
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24ue.jpg",
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "gameye": [
+        {
+          "id": 22160,
+          "title": "Stick it to the Man!",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 193075,
+            "width": 640,
+            "height": 800,
+            "file": "art_front/46/96ef3ce7-d099-497d-acec-e481e9d3847b.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "HIGH_CONFIDENCE"
+        }
+      ],
+      "autoCandidate": true,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 1152,
+      "title": "Story of Seasons: Friends of Mineral Town",
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1mij.jpg",
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "gameye": [
+        {
+          "id": 88331,
+          "title": "Story of Seasons: Friends of Mineral Town",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 368659,
+            "width": 478,
+            "height": 609,
+            "file": "art_front/46/4da65d43-104d-4225-bf4b-28f4ed200f1e.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "HIGH_CONFIDENCE"
+        }
+      ],
+      "autoCandidate": true,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 1156,
+      "title": "Strange Brigade",
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2769.jpg",
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "gameye": [
+        {
+          "id": 51562,
+          "title": "Strange Brigade",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 875009,
+            "width": 766,
+            "height": 947,
+            "file": "art_front/46/22e6c9df-7ae1-4a02-9f21-5c7553c59e17.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "HIGH_CONFIDENCE"
+        }
+      ],
+      "autoCandidate": true,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 1158,
+      "title": "Stray",
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4tt2.jpg",
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "gameye": [
+        {
+          "id": 102442,
+          "title": "Stray",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 455638,
+            "width": 1533,
+            "height": 1904,
+            "file": "art_front/46/77a7714e-2ec4-4bb6-8786-48c7d2cddfec.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "HIGH_CONFIDENCE"
+        }
+      ],
+      "autoCandidate": true,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 1182,
+      "title": "Super Street: The Game",
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rqd.jpg",
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "gameye": [
+        {
+          "id": 57841,
+          "title": "Super Street: The Game",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 183573,
+            "width": 480,
+            "height": 597,
+            "file": "art_front/46/99c14bee-6456-4841-a15a-393ec7e056e4.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "HIGH_CONFIDENCE"
+        }
+      ],
+      "autoCandidate": true,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 1184,
+      "title": "SuperEpic: The Entertainment War",
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uqv.jpg",
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "gameye": [
+        {
+          "id": 63524,
+          "title": "SuperEpic: The Entertainment War",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 187240,
+            "width": 1080,
+            "height": 1199,
+            "file": "art_front/46/bd8dd625-0cf6-4104-aa50-2960b9fac616.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "REVIEW"
+        }
+      ],
+      "autoCandidate": false,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 1192,
+      "title": "Sword Art Online: Fatal Bullet",
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co276v.jpg",
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "gameye": [
+        {
+          "id": 48521,
+          "title": "Sword Art Online: Fatal Bullet",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 816229,
+            "width": 1525,
+            "height": 1900,
+            "file": "art_front/46/f1b1f17f-f6ed-4ee8-b6a5-2b9851ec9b0a.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "HIGH_CONFIDENCE"
+        }
+      ],
+      "autoCandidate": true,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 1194,
+      "title": "Sword Art Online: Lost Song",
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co79mw.jpg",
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "gameye": [
+        {
+          "id": 28072,
+          "title": "Sword Art Online: Lost Song",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 189037,
+            "width": 1204,
+            "height": 1500,
+            "file": "art_front/46/eb4b7c28-6d2d-4d63-be77-462f42164f0f.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "HIGH_CONFIDENCE"
+        }
+      ],
+      "autoCandidate": true,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 1195,
+      "title": "Syberia 3",
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24va.jpg",
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "gameye": [
+        {
+          "id": 137991,
+          "title": "Syberia 3",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 447671,
+            "width": 640,
+            "height": 793,
+            "file": "art_front/46/137991_70597e9e-49e3-4b31-871e-88f7eba682d0.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "HIGH_CONFIDENCE"
+        }
+      ],
+      "autoCandidate": true,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 1199,
+      "title": "Tales of Arise",
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ls2.jpg",
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "gameye": [
+        {
+          "id": 59064,
+          "title": "Tales of Arise",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 875357,
+            "width": 1204,
+            "height": 1500,
+            "file": "art_front/46/22b8a226-74f4-47a6-a6a2-54d23fe4921b.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "HIGH_CONFIDENCE"
+        }
+      ],
+      "autoCandidate": true,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 1200,
+      "title": "Tales of Berseria",
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rk1.jpg",
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "gameye": [
+        {
+          "id": 37397,
+          "title": "Tales of Berseria",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 808311,
+            "width": 1525,
+            "height": 1900,
+            "file": "art_front/46/9bed64d6-fcce-49aa-a6e6-d1e612c2224b.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "HIGH_CONFIDENCE"
+        }
+      ],
+      "autoCandidate": true,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 1202,
+      "title": "Tales of Zestiria",
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rdq.jpg",
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "gameye": [
+        {
+          "id": 87776,
+          "title": "Tales of Zestiria",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 741492,
+            "width": 1525,
+            "height": 1904,
+            "file": "art_front/46/eba0da40-895b-427e-887e-b810166cbaa0.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "HIGH_CONFIDENCE"
+        }
+      ],
+      "autoCandidate": true,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 1210,
+      "title": "Terra Trilogy",
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2yrx.jpg",
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "gameye": [
+        {
+          "id": 77437,
+          "title": "Terra Trilogy",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 126286,
+            "width": 480,
+            "height": 596,
+            "file": "art_front/46/9d3c295d-0846-450c-b00b-5a08facec9ab.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "HIGH_CONFIDENCE"
+        }
+      ],
+      "autoCandidate": true,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 1211,
+      "title": "Terraria",
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaamg.jpg",
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "gameye": [
+        {
+          "id": 23228,
+          "title": "Terraria",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 438851,
+            "width": 1203,
+            "height": 1500,
+            "file": "art_front/46/96ee5020-69cf-4142-a957-7e41ca37861b.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 100,
+          "quality": "HIGH_CONFIDENCE"
+        },
+        {
+          "id": 96131,
+          "title": "Terraria [Special Edition]",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 276600,
+            "width": 250,
+            "height": 317,
+            "file": "art_front/46/343161ec-28f6-4831-b891-1d5d3ed807b8.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 90,
+          "quality": "REVIEW_EDITION"
+        }
+      ],
+      "autoCandidate": true,
+      "gameyeQueried": [
+        {
+          "country": 1,
+          "ok": true,
+          "status": 200,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 1245,
+      "title": "The Evil Within 2",
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5wgu.jpg",
+      "curated": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "gameye": [
+        {
+          "id": 46106,
+          "title": "Evil Within 2",
+          "country_id": 1,
+          "platform_id": 46,
+          "release_type": 0,
+          "image": {
+            "id": 796123,
+            "width": 1524,
+            "height": 1902,
+            "file": "art_front/46/0b496fc7-257e-4388-98e5-e41edb939148.webp"
+          },
+          "queryCountry": 1,
+          "matchScore": 90,
+          "quality": "REVIEW_EDITION"
+        }
+      ],
+      "autoCandidate": false,
       "gameyeQueried": [
         {
           "country": 1,

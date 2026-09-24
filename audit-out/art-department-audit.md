@@ -1,31 +1,19 @@
 # ShelfCheck Art Department Audit
 
-Generated: 2026-09-24T16:42:06.762Z
+Generated: 2026-09-24T16:45:18.721Z
 
 ## Summary
 
-- Included identities: 2543
+- Included identities: 2409
 - Curated retail overrides: 15
-- PS Store legacy art: 58
-- IGDB legacy art: 2429
+- PS Store legacy art: 50
+- IGDB legacy art: 2316
 - Unknown-source art: 0
-- Missing art: 37
-- Suspect/review queue: 2524
-- High-confidence GameEye candidates in this run: 164
+- Missing art: 24
+- Suspect/review queue: 2390
+- High-confidence GameEye candidates in this run: 180
 
 ## High-priority queue
-
-### 3D Mini Golf (#9)
-- Current bucket: **COVER_NEEDED**
-- Current source: COVER NEEDED
-- Reason: No cover URL
-- GameEye candidate: none confidently title-matched
-
-### ARK Park (#90)
-- Current bucket: **COVER_NEEDED**
-- Current source: COVER NEEDED
-- Reason: No cover URL
-- GameEye candidate: **Ark Park** · HIGH_CONFIDENCE · country 1 · 1430×1760 · `art_front/46/9499db65-5a5e-4dce-b5a4-1a6074fb9938.webp`
 
 ### Budget Cuts (#210)
 - Current bucket: **COVER_NEEDED**
@@ -33,41 +21,23 @@ Generated: 2026-09-24T16:42:06.762Z
 - Reason: No cover URL
 - GameEye candidate: **Budget Cuts** · HIGH_CONFIDENCE · country 1 · 1017×1268 · `art_front/46/71da47ec-71cd-4b9e-8e29-d500cdb20a3c.webp`
 
-### Candleman: The Complete Journey (#225)
-- Current bucket: **COVER_NEEDED**
-- Current source: COVER NEEDED
-- Reason: No cover URL
-- GameEye candidate: **Candleman: The Complete Journey** · REVIEW · country 34 · 640×640 · `art_front/46/0bcca1cd-8cf1-4561-95a7-b4ce5cc4b2e7.webp`
-
 ### Cannon Dancer (#1969)
 - Current bucket: **COVER_NEEDED**
 - Current source: COVER NEEDED
 - Reason: No cover URL
 - GameEye candidate: none confidently title-matched
 
-### Deracine (#349)
+### Catlateral Damage: Remeowstered (#2787)
 - Current bucket: **COVER_NEEDED**
 - Current source: COVER NEEDED
 - Reason: No cover URL
-- GameEye candidate: **Deracine** · HIGH_CONFIDENCE · country 1 · 1523×1897 · `art_front/46/55e15c5d-f2e1-48a6-8458-143d00d9c571.webp`
-
-### Dokyusei: Bangin' Summer CSver (#2376)
-- Current bucket: **COVER_NEEDED**
-- Current source: COVER NEEDED
-- Reason: No cover URL
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Catlateral Damage: Remeowstered** · HIGH_CONFIDENCE · country 1 · 752×976 · `art_front/46/d2b6a626-e2a3-40f4-bd55-97b146be17dd.webp`
 
 ### Final Fantasy XIV Online: A Realm Reborn (#484)
 - Current bucket: **COVER_NEEDED**
 - Current source: COVER NEEDED
 - Reason: No cover URL
 - GameEye candidate: **Final Fantasy XIV Online: A Realm Reborn** · HIGH_CONFIDENCE · country 1 · 1503×1894 · `art_front/46/a915ad40-4541-4c15-bdda-a75be2e3d61e.webp`
-
-### GoHELLgo (#2382)
-- Current bucket: **COVER_NEEDED**
-- Current source: COVER NEEDED
-- Reason: No cover URL
-- GameEye candidate: none confidently title-matched
 
 ### Ground Zero: Texas (#1809)
 - Current bucket: **COVER_NEEDED**
@@ -81,11 +51,11 @@ Generated: 2026-09-24T16:42:06.762Z
 - Reason: No cover URL
 - GameEye candidate: **Jim Power: The Lost Dimension** · REVIEW · country 34 · 507×607 · `art_front/46/7f260e52-315b-4f49-b155-0d6da80fc714.webp`
 
-### JoJo: Eyes of Heaven (#2623)
+### Made in Abyss: Binary Star Falling into Darkness (#2785)
 - Current bucket: **COVER_NEEDED**
 - Current source: COVER NEEDED
 - Reason: No cover URL
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Made in Abyss: Binary Star Falling into Darkness** · HIGH_CONFIDENCE · country 1 · 742×943 · `art_front/46/bfbb9a10-243f-4fa2-9eba-05091c4f42aa.webp`
 
 ### Maldita Castilla EX: Cursed Castilla (#1665)
 - Current bucket: **COVER_NEEDED**
@@ -105,6 +75,12 @@ Generated: 2026-09-24T16:42:06.762Z
 - Reason: No cover URL
 - GameEye candidate: none confidently title-matched
 
+### OlliOlli2: Welcome to Olliwood (#2786)
+- Current bucket: **COVER_NEEDED**
+- Current source: COVER NEEDED
+- Reason: No cover URL
+- GameEye candidate: none confidently title-matched
+
 ### One Piece Unlimited World Red (#2673)
 - Current bucket: **COVER_NEEDED**
 - Current source: COVER NEEDED
@@ -112,18 +88,6 @@ Generated: 2026-09-24T16:42:06.762Z
 - GameEye candidate: none confidently title-matched
 
 ### Paper Dolls (#2686)
-- Current bucket: **COVER_NEEDED**
-- Current source: COVER NEEDED
-- Reason: No cover URL
-- GameEye candidate: none confidently title-matched
-
-### Pool Nation FX (#923)
-- Current bucket: **COVER_NEEDED**
-- Current source: COVER NEEDED
-- Reason: No cover URL
-- GameEye candidate: none confidently title-matched
-
-### Project Nimbus: Complete Edition (#935)
 - Current bucket: **COVER_NEEDED**
 - Current source: COVER NEEDED
 - Reason: No cover URL
@@ -165,12 +129,6 @@ Generated: 2026-09-24T16:42:06.762Z
 - Reason: No cover URL
 - GameEye candidate: **Sword And Fairy: Together Forever** · HIGH_CONFIDENCE · country 1 · 1000×1280 · `art_front/46/53ae3608-a657-4f9b-9bb3-ec062a610a14.webp`
 
-### The American Dream (#1217)
-- Current bucket: **COVER_NEEDED**
-- Current source: COVER NEEDED
-- Reason: No cover URL
-- GameEye candidate: **American Dream** · REVIEW_EDITION · country 1 · 602×750 · `art_front/46/7d890c0d-2595-49e8-92ee-2947c30a0b6c.webp`
-
 ### The Elder Scrolls Online: Tamriel Unlimited (#1240)
 - Current bucket: **COVER_NEEDED**
 - Current source: COVER NEEDED
@@ -182,12 +140,6 @@ Generated: 2026-09-24T16:42:06.762Z
 - Current source: COVER NEEDED
 - Reason: No cover URL
 - GameEye candidate: **House in Fata Morgana** · REVIEW_EDITION · country 1 · 1022×1262 · `art_front/46/e5531aa3-63a8-4de9-ba48-7bee24fbddaf.webp`
-
-### The Walking Dead: Saints & Sinners (#1304)
-- Current bucket: **COVER_NEEDED**
-- Current source: COVER NEEDED
-- Reason: No cover URL
-- GameEye candidate: **Walking Dead: Saints & Sinners [Complete Edition]** · REVIEW_EDITION · country 1 · 999×1286 · `art_front/46/05edf684-696c-4f04-b80c-c769e9e6ad08.webp`
 
 ### Tiger-Heli (#2470)
 - Current bucket: **COVER_NEEDED**
@@ -201,41 +153,11 @@ Generated: 2026-09-24T16:42:06.762Z
 - Reason: No cover URL
 - GameEye candidate: none confidently title-matched
 
-### Umineko no Naku Koro ni: Nekobako to Musou no Koukyoukyoku (#2744)
-- Current bucket: **COVER_NEEDED**
-- Current source: COVER NEEDED
-- Reason: No cover URL
-- GameEye candidate: none confidently title-matched
-
-### Werewolves Within (#1431)
-- Current bucket: **COVER_NEEDED**
-- Current source: COVER NEEDED
-- Reason: No cover URL
-- GameEye candidate: **Werewolves Within** · HIGH_CONFIDENCE · country 1 · 1181×1500 · `art_front/46/873b279f-2b5a-4597-ac6e-10e78c1cc817.webp`
-
-### Wolfenstein: Cyberpilot (#1441)
-- Current bucket: **COVER_NEEDED**
-- Current source: COVER NEEDED
-- Reason: No cover URL
-- GameEye candidate: **Wolfenstein: Cyberpilot** · HIGH_CONFIDENCE · country 1 · 801×1000 · `art_front/46/2acf51e3-eef6-4a27-8a25-f5f03a7db5b2.webp`
-
 ### World Poker Championship (#1451)
 - Current bucket: **COVER_NEEDED**
 - Current source: COVER NEEDED
 - Reason: No cover URL
 - GameEye candidate: **World Poker Championship** · HIGH_CONFIDENCE · country 1 · 640×787 · `art_front/46/2ffb1d36-a3dd-4e0b-af40-03029253b2bb.webp`
-
-### Worms Anniversary Edition (#1454)
-- Current bucket: **COVER_NEEDED**
-- Current source: COVER NEEDED
-- Reason: No cover URL
-- GameEye candidate: none confidently title-matched
-
-### Ys: Memories of Celceta - Kai (#1483)
-- Current bucket: **COVER_NEEDED**
-- Current source: COVER NEEDED
-- Reason: No cover URL
-- GameEye candidate: **Ys: Memories of Celceta - Kai** · HIGH_CONFIDENCE · country 3 · 143×180 · `art_front/46/fb5c8103-247a-41d6-97b5-c972b50c880f.webp`
 
 ### Tomb Raider (#2194)
 - Current bucket: **PS_STORE_LEGACY**
@@ -321,21 +243,15 @@ Generated: 2026-09-24T16:42:06.762Z
 - Reason: PlayStation Store image; audit for physical package front
 - GameEye candidate: none confidently title-matched
 
-### Destroy All Humans! (2005) (#356)
+### Dragon Ball: The Breakers (#2781)
 - Current bucket: **PS_STORE_LEGACY**
-- Current source: https://image.api.playstation.com/cdn/UP4389/CUSA05232_00/8iv6yRf3XBljArTKnPDssQW5XNK296f2.jpg
+- Current source: https://image.api.playstation.com/vulcan/ap/rnd/202402/1411/893ee5064ae982395e414eb5011f4788468460b7776d3ebc.png
 - Reason: PlayStation Store image; audit for physical package front
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Dragon Ball: The Breakers [Limited Edition]** · REVIEW_EDITION · country 1 · 475×640 · `art_front/46/141961_d35daa2c-41c4-4b69-b04e-6a4c51eda234.webp`
 
 ### Embr: Uber Firefighters (#2573)
 - Current bucket: **PS_STORE_LEGACY**
 - Current source: https://image.api.playstation.com/vulcan/img/rnd/202112/1614/MLohrRD3JlQknPQ4Xzq3gwV5.png
-- Reason: PlayStation Store image; audit for physical package front
-- GameEye candidate: none confidently title-matched
-
-### Euro Fishing: Urban Edition (#1612)
-- Current bucket: **PS_STORE_LEGACY**
-- Current source: https://image.api.playstation.com/cdn/UP3004/CUSA08113_00/2DBzS5I2HHSPHPLU3If1qBEBkBhJNq7M.jpg
 - Reason: PlayStation Store image; audit for physical package front
 - GameEye candidate: none confidently title-matched
 
@@ -369,51 +285,15 @@ Generated: 2026-09-24T16:42:06.762Z
 - Reason: PlayStation Store image; audit for physical package front
 - GameEye candidate: none confidently title-matched
 
-### Hakuouki: Shinkai Fukaden (#2384)
-- Current bucket: **PS_STORE_LEGACY**
-- Current source: https://image.api.playstation.com/cdn/JP0031/CUSA07568_00/lzLXBPkUTPqqfUcJwZpIvXwHyfOdADoE.png
-- Reason: PlayStation Store image; audit for physical package front
-- GameEye candidate: none confidently title-matched
-
 ### Home: A Unique Horror Adventure (#1639)
 - Current bucket: **PS_STORE_LEGACY**
 - Current source: https://image.api.playstation.com/cdn/UP2150/CUSA01218_00/liwElxmKCIDvkME9MJmHmLTWTSitcez1.png
 - Reason: PlayStation Store image; audit for physical package front
 - GameEye candidate: **Home: A Unique Horror Adventure** · HIGH_CONFIDENCE · country 1 · 181×279 · `art_front/46/decb108f-ec6b-412f-a8d4-00e2c403bb31.webp`
 
-### Jinrui No Minasama E (#2619)
-- Current bucket: **PS_STORE_LEGACY**
-- Current source: https://image.api.playstation.com/cdn/JP0404/CUSA15374_00/Np8HC9UgRswW0Mhx6RQua2913VR6uNAs.png
-- Reason: PlayStation Store image; audit for physical package front
-- GameEye candidate: **Jinrui No Minasama E** · HIGH_CONFIDENCE · country 3 · 799×1000 · `art_front/46/1134bd86-14f6-402a-b73e-c7cbde114ebe.webp`
-
-### Kaleidoscope Of Phantom Prison (#2629)
-- Current bucket: **PS_STORE_LEGACY**
-- Current source: https://image.api.playstation.com/vulcan/ap/rnd/202011/0503/C0vs3zfoWt1zjUMKx03XTsZE.png
-- Reason: PlayStation Store image; audit for physical package front
-- GameEye candidate: none confidently title-matched
-
-### Kamen Rider: Battride War Creation (#2630)
-- Current bucket: **PS_STORE_LEGACY**
-- Current source: https://image.api.playstation.com/cdn/JP0700/CUSA02714_00/baLBlpejperzLQABFQZDenvNHtwXTSrt.png
-- Reason: PlayStation Store image; audit for physical package front
-- GameEye candidate: none confidently title-matched
-
-### Kangokutou Mary Skelter 2 (#2631)
-- Current bucket: **PS_STORE_LEGACY**
-- Current source: https://image.api.playstation.com/cdn/KP0004/CUSA12857_00/ynYSPzEzztIEyhDowsKVWRrPUACVarRo.png
-- Reason: PlayStation Store image; audit for physical package front
-- GameEye candidate: none confidently title-matched
-
 ### Kyukyoku Tiger / Twin Cobra (#2469)
 - Current bucket: **PS_STORE_LEGACY**
 - Current source: https://image.api.playstation.com/vulcan/ap/rnd/202405/0207/b728d4d4ec2c6446ac251fc361203495140b06365dc01f54.png
-- Reason: PlayStation Store image; audit for physical package front
-- GameEye candidate: none confidently title-matched
-
-### Lapis Re Abyss (#2645)
-- Current bucket: **PS_STORE_LEGACY**
-- Current source: https://image.api.playstation.com/cdn/JP0404/CUSA13508_00/MuYToA4RvBe8DY9CG3phl55aARQUn8px.png
 - Reason: PlayStation Store image; audit for physical package front
 - GameEye candidate: none confidently title-matched
 
@@ -422,12 +302,6 @@ Generated: 2026-09-24T16:42:06.762Z
 - Current source: https://image.api.playstation.com/vulcan/ap/rnd/202302/1505/d2c01d062dd864694df69107d3e6efe8cef95a3b9c77549a.png
 - Reason: PlayStation Store image; audit for physical package front
 - GameEye candidate: **Last Labyrinth** · HIGH_CONFIDENCE · country 34 · 637×801 · `art_front/46/791237d9-4b64-49b1-be9c-de1f11111d0f.webp`
-
-### Natsuiro High School: Seisyun Hakusyo (#2396)
-- Current bucket: **PS_STORE_LEGACY**
-- Current source: https://image.api.playstation.com/cdn/JP0367/CUSA00891_00/MGtnNvROzsTrjoriWyxMLIRaZDSn4ZgZaBysdfJxCkZSd7XDoULajj5qW9F7FWLK.png
-- Reason: PlayStation Store image; audit for physical package front
-- GameEye candidate: **Natsuiro High School: Seisyun Hakusyo** · HIGH_CONFIDENCE · country 3 · 200×251 · `art_front/46/139536_3a958eb3-a697-4e7a-8a16-cdbf15fb4339.webp`
 
 ### Neptunia Game Maker R:Evolution (#2660)
 - Current bucket: **PS_STORE_LEGACY**
@@ -465,6 +339,12 @@ Generated: 2026-09-24T16:42:06.762Z
 - Reason: PlayStation Store image; audit for physical package front
 - GameEye candidate: **Paleo Pines: The Dino Valley** · HIGH_CONFIDENCE · country 1 · 775×1000 · `art_front/46/141503_017f2275-64dc-4430-87ea-da9918242cab.webp`
 
+### Prince of Persia: The Lost Crown (#2783)
+- Current bucket: **PS_STORE_LEGACY**
+- Current source: https://image.api.playstation.com/vulcan/ap/rnd/202312/0701/e0df18c55b01b7ccac6423e53e0a752e99ff665de760ecc5.jpg
+- Reason: PlayStation Store image; audit for physical package front
+- GameEye candidate: **Prince Of Persia: The Lost Crown** · HIGH_CONFIDENCE · country 1 · 764×946 · `art_front/46/faf8c359-e35b-4a4e-b87e-a332356df8ae.webp`
+
 ### Puyo Puyo eSports (#2399)
 - Current bucket: **PS_STORE_LEGACY**
 - Current source: https://image.api.playstation.com/cdn/HP0177/CUSA13347_00/5lNyDp9q545cU54ymYAEsQFO9GCex1hh.png
@@ -483,6 +363,12 @@ Generated: 2026-09-24T16:42:06.762Z
 - Reason: PlayStation Store image; audit for physical package front
 - GameEye candidate: **Resonance of Fate 4K / HD Edition** · REVIEW · country 34 · 240×240 · `art_front/46/eeb82157-232f-4385-b862-b27460fe1799.webp`
 
+### Russian Subway Dogs (#2782)
+- Current bucket: **PS_STORE_LEGACY**
+- Current source: https://image.api.playstation.com/vulcan/ap/rnd/202306/1103/779d66b30bd8eb38983002adefe11886fb648b3e5b0ec2f4.png
+- Reason: PlayStation Store image; audit for physical package front
+- GameEye candidate: **Russian Subway Dogs** · HIGH_CONFIDENCE · country 1 · 803×1228 · `art_front/46/038785ae-26ba-40e9-96b3-74a05ebcee1f.webp`
+
 ### Ryuu ga Gotoku 7 Gaiden: Na o Keshita Otoko (#1525)
 - Current bucket: **PS_STORE_LEGACY**
 - Current source: https://image.api.playstation.com/vulcan/ap/rnd/202305/2313/f6dc88ce4ad59e2fba00573762526235e5a00c773931be71.png
@@ -500,12 +386,6 @@ Generated: 2026-09-24T16:42:06.762Z
 - Current source: https://image.api.playstation.com/cdn/UP1024/CUSA09750_00/oR39Wdht1uYjWCoi00vvohixHL2qwlun.jpg
 - Reason: PlayStation Store image; audit for physical package front
 - GameEye candidate: **SG/ZH: School Girl Zombie Hunter** · HIGH_CONFIDENCE · country 1 · 1204×1500 · `art_front/46/a7a6f624-f9bb-4abe-8211-f5ec28aa5f00.webp`
-
-### Shinigami: Shibito Magire (#2404)
-- Current bucket: **PS_STORE_LEGACY**
-- Current source: https://image.api.playstation.com/vulcan/ap/rnd/202210/1901/xkheP6gdJHIiaUs4xtJSpt5q.png
-- Reason: PlayStation Store image; audit for physical package front
-- GameEye candidate: none confidently title-matched
 
 ### Soccer: Tactics & Glory (#1103)
 - Current bucket: **PS_STORE_LEGACY**
@@ -531,12 +411,6 @@ Generated: 2026-09-24T16:42:06.762Z
 - Reason: PlayStation Store image; audit for physical package front
 - GameEye candidate: none confidently title-matched
 
-### Tetsudou Nippon! Rosen Tabi: Eizan Densha-Hen (#2408)
-- Current bucket: **PS_STORE_LEGACY**
-- Current source: https://image.api.playstation.com/vulcan/ap/rnd/202011/1211/cIuNwKGscVQO2pwj21JrnE1e.png
-- Reason: PlayStation Store image; audit for physical package front
-- GameEye candidate: none confidently title-matched
-
 ### The First Tree: Console Edition (#1753)
 - Current bucket: **PS_STORE_LEGACY**
 - Current source: https://image.api.playstation.com/cdn/UP4699/CUSA11699_00/ip6QW2yoPdUZYZyFUMKTYygC7pAhlHfr.png
@@ -555,6 +429,12 @@ Generated: 2026-09-24T16:42:06.762Z
 - Reason: PlayStation Store image; audit for physical package front
 - GameEye candidate: **Tokyo Chronos** · HIGH_CONFIDENCE · country 1 · 480×595 · `art_front/46/888d4820-cec8-44d8-a130-1230355320cf.webp`
 
+### Tony Hawk's Pro Skater 3 + 4 (#2784)
+- Current bucket: **PS_STORE_LEGACY**
+- Current source: https://image.api.playstation.com/vulcan/ap/rnd/202502/2100/5a082446577b5f38ca04bf9bac67726fcbe0bc61baf6de7b.png
+- Reason: PlayStation Store image; audit for physical package front
+- GameEye candidate: **Tony Hawk’s Pro Skater 3 + 4** · REVIEW · country 1 · 880×1047 · `art_front/46/30118088-62ca-488e-ab2c-e1329ddf740a.webp`
+
 ### Trouble Witches Final: Episode 1 - Daughters of Amalgam (#1979)
 - Current bucket: **PS_STORE_LEGACY**
 - Current source: https://image.api.playstation.com/vulcan/ap/rnd/202503/1214/6aafb60f041653b8ccbd59d39f863694eaf3ce9610558675.jpg
@@ -572,12 +452,6 @@ Generated: 2026-09-24T16:42:06.762Z
 - Current source: https://image.api.playstation.com/cdn/JP0704/CUSA06366_00/ykOSboENjJMZXkTeNKzcMcnNAmmRTggh.png
 - Reason: PlayStation Store image; audit for physical package front
 - GameEye candidate: none confidently title-matched
-
-### Yo-Kai Watch Jam: Yo-Kai Academy Y (#2768)
-- Current bucket: **PS_STORE_LEGACY**
-- Current source: https://image.api.playstation.com/vulcan/ap/rnd/202010/0906/l8emQIiKcYb4ZwSvy9WsTKwc.png
-- Reason: PlayStation Store image; audit for physical package front
-- GameEye candidate: **Yo-kai Watch Jam: Yo-kai Academy Y** · HIGH_CONFIDENCE · country 3 · 640×800 · `art_front/46/14dd0d1f-2157-444e-b59e-163b0fbcad80.webp`
 
 ### Zero: Tsukihami No Kamen (#2779)
 - Current bucket: **PS_STORE_LEGACY**
@@ -1017,12 +891,6 @@ Generated: 2026-09-24T16:42:06.762Z
 - Reason: IGDB cover; may be key art or wrong edition/region
 - GameEye candidate: **Gigantosaurus: The Game** · HIGH_CONFIDENCE · country 1 · 1523×1899 · `art_front/46/45329d70-ad30-4449-a173-fb65f83d3176.webp`
 
-### God Eater Resurrection (#1627)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3vp1.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **God Eater Resurrection** · REVIEW · country 34 · 800×800 · `art_front/46/145334_5e3803b0-8ebb-4973-b0ac-42c10e04e89a.webp`
-
 ### God of War III Remastered (#540)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3koh.jpg
@@ -1431,12 +1299,6 @@ Generated: 2026-09-24T16:42:06.762Z
 - Reason: IGDB cover; may be key art or wrong edition/region
 - GameEye candidate: **Resident Evil HD Remaster** · REVIEW · country 34 · 640×640 · `art_front/46/724a20de-5201-4e04-9026-a6a027d8751a.webp`
 
-### River City Melee (#1003)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24on.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **River City Melee** · HIGH_CONFIDENCE · country 1 · 1715×2173 · `art_front/46/4decae38-092c-469a-ab2a-4ba55eb094bf.webp`
-
 ### Rock Boshers DX: Director's Cut (#1011)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co27ff.jpg
@@ -1514,3 +1376,141 @@ Generated: 2026-09-24T16:42:06.762Z
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co8um9.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
 - GameEye candidate: **SpellForce III: Reforced** · HIGH_CONFIDENCE · country 1 · 1201×1500 · `art_front/46/ea7eb46c-20c1-4bf9-9d5e-1cf69db1fab9.webp`
+
+### SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated (#1123)
+- Current bucket: **IGDB_LEGACY**
+- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1xrg.jpg
+- Reason: IGDB cover; may be key art or wrong edition/region
+- GameEye candidate: **SpongeBob SquarePants: Battle for Bikini Bottom Rehydrated** · HIGH_CONFIDENCE · country 1 · 820×1024 · `art_front/46/e19e4d43-3b9f-4b70-941b-853eacfa6359.webp`
+
+### Star Ocean: Integrity and Faithlessness (#1128)
+- Current bucket: **IGDB_LEGACY**
+- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1uf1.jpg
+- Reason: IGDB cover; may be key art or wrong edition/region
+- GameEye candidate: **Star Ocean: Integrity and Faithlessness** · HIGH_CONFIDENCE · country 1 · 1006×1280 · `art_front/46/3d1fd0c9-e231-4bfc-9c60-7dac868573c3.webp`
+
+### Star Wars Episode I: Racer (#1132)
+- Current bucket: **IGDB_LEGACY**
+- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3wj7.jpg
+- Reason: IGDB cover; may be key art or wrong edition/region
+- GameEye candidate: **Star Wars Episode I: Racer** · HIGH_CONFIDENCE · country 1 · 670×826 · `art_front/46/fe9f337a-8ebd-4178-b31f-01e4f82779b3.webp`
+
+### Star Wars Jedi: Fallen Order (#1135)
+- Current bucket: **IGDB_LEGACY**
+- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbi.jpg
+- Reason: IGDB cover; may be key art or wrong edition/region
+- GameEye candidate: **Star Wars Jedi: Fallen Order** · HIGH_CONFIDENCE · country 1 · 767×955 · `art_front/46/842a965f-5185-4a69-9379-7261481fb26a.webp`
+
+### Star Wars: Republic Commando (#1998)
+- Current bucket: **IGDB_LEGACY**
+- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2au4.jpg
+- Reason: IGDB cover; may be key art or wrong edition/region
+- GameEye candidate: **Star Wars: Republic Commando** · HIGH_CONFIDENCE · country 1 · 480×608 · `art_front/46/bbd543d6-41d0-4e1c-ab9b-29fbc306d20a.webp`
+
+### Star Wars: Squadrons (#1138)
+- Current bucket: **IGDB_LEGACY**
+- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3wlz.jpg
+- Reason: IGDB cover; may be key art or wrong edition/region
+- GameEye candidate: **Star Wars: Squadrons** · HIGH_CONFIDENCE · country 1 · 764×953 · `art_front/46/8975f6d7-f922-4aee-94ce-62fe9971e4f7.webp`
+
+### Stardew Valley (#1140)
+- Current bucket: **IGDB_LEGACY**
+- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/coa93h.jpg
+- Reason: IGDB cover; may be key art or wrong edition/region
+- GameEye candidate: **Stardew Valley** · HIGH_CONFIDENCE · country 34 · 264×352 · `art_front/46/875e7276-b528-4088-b9dc-065d82b41c10.webp`
+
+### Starlink: Battle for Atlas (#1142)
+- Current bucket: **IGDB_LEGACY**
+- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7pm8.jpg
+- Reason: IGDB cover; may be key art or wrong edition/region
+- GameEye candidate: **Starlink: Battle for Atlas** · HIGH_CONFIDENCE · country 1 · 640×798 · `art_front/46/8e4443b9-e4e3-4db1-9c7a-27550738040b.webp`
+
+### Stick it to the Man! (#1151)
+- Current bucket: **IGDB_LEGACY**
+- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24ue.jpg
+- Reason: IGDB cover; may be key art or wrong edition/region
+- GameEye candidate: **Stick it to the Man!** · HIGH_CONFIDENCE · country 1 · 640×800 · `art_front/46/96ef3ce7-d099-497d-acec-e481e9d3847b.webp`
+
+### Story of Seasons: Friends of Mineral Town (#1152)
+- Current bucket: **IGDB_LEGACY**
+- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1mij.jpg
+- Reason: IGDB cover; may be key art or wrong edition/region
+- GameEye candidate: **Story of Seasons: Friends of Mineral Town** · HIGH_CONFIDENCE · country 1 · 478×609 · `art_front/46/4da65d43-104d-4225-bf4b-28f4ed200f1e.webp`
+
+### Strange Brigade (#1156)
+- Current bucket: **IGDB_LEGACY**
+- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2769.jpg
+- Reason: IGDB cover; may be key art or wrong edition/region
+- GameEye candidate: **Strange Brigade** · HIGH_CONFIDENCE · country 1 · 766×947 · `art_front/46/22e6c9df-7ae1-4a02-9f21-5c7553c59e17.webp`
+
+### Stray (#1158)
+- Current bucket: **IGDB_LEGACY**
+- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4tt2.jpg
+- Reason: IGDB cover; may be key art or wrong edition/region
+- GameEye candidate: **Stray** · HIGH_CONFIDENCE · country 1 · 1533×1904 · `art_front/46/77a7714e-2ec4-4bb6-8786-48c7d2cddfec.webp`
+
+### Super Street: The Game (#1182)
+- Current bucket: **IGDB_LEGACY**
+- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1rqd.jpg
+- Reason: IGDB cover; may be key art or wrong edition/region
+- GameEye candidate: **Super Street: The Game** · HIGH_CONFIDENCE · country 1 · 480×597 · `art_front/46/99c14bee-6456-4841-a15a-393ec7e056e4.webp`
+
+### SuperEpic: The Entertainment War (#1184)
+- Current bucket: **IGDB_LEGACY**
+- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1uqv.jpg
+- Reason: IGDB cover; may be key art or wrong edition/region
+- GameEye candidate: **SuperEpic: The Entertainment War** · REVIEW · country 1 · 1080×1199 · `art_front/46/bd8dd625-0cf6-4104-aa50-2960b9fac616.webp`
+
+### Sword Art Online: Fatal Bullet (#1192)
+- Current bucket: **IGDB_LEGACY**
+- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co276v.jpg
+- Reason: IGDB cover; may be key art or wrong edition/region
+- GameEye candidate: **Sword Art Online: Fatal Bullet** · HIGH_CONFIDENCE · country 1 · 1525×1900 · `art_front/46/f1b1f17f-f6ed-4ee8-b6a5-2b9851ec9b0a.webp`
+
+### Sword Art Online: Lost Song (#1194)
+- Current bucket: **IGDB_LEGACY**
+- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co79mw.jpg
+- Reason: IGDB cover; may be key art or wrong edition/region
+- GameEye candidate: **Sword Art Online: Lost Song** · HIGH_CONFIDENCE · country 1 · 1204×1500 · `art_front/46/eb4b7c28-6d2d-4d63-be77-462f42164f0f.webp`
+
+### Syberia 3 (#1195)
+- Current bucket: **IGDB_LEGACY**
+- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24va.jpg
+- Reason: IGDB cover; may be key art or wrong edition/region
+- GameEye candidate: **Syberia 3** · HIGH_CONFIDENCE · country 1 · 640×793 · `art_front/46/137991_70597e9e-49e3-4b31-871e-88f7eba682d0.webp`
+
+### Tales of Arise (#1199)
+- Current bucket: **IGDB_LEGACY**
+- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5ls2.jpg
+- Reason: IGDB cover; may be key art or wrong edition/region
+- GameEye candidate: **Tales of Arise** · HIGH_CONFIDENCE · country 1 · 1204×1500 · `art_front/46/22b8a226-74f4-47a6-a6a2-54d23fe4921b.webp`
+
+### Tales of Berseria (#1200)
+- Current bucket: **IGDB_LEGACY**
+- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1rk1.jpg
+- Reason: IGDB cover; may be key art or wrong edition/region
+- GameEye candidate: **Tales of Berseria** · HIGH_CONFIDENCE · country 1 · 1525×1900 · `art_front/46/9bed64d6-fcce-49aa-a6e6-d1e612c2224b.webp`
+
+### Tales of Zestiria (#1202)
+- Current bucket: **IGDB_LEGACY**
+- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1rdq.jpg
+- Reason: IGDB cover; may be key art or wrong edition/region
+- GameEye candidate: **Tales of Zestiria** · HIGH_CONFIDENCE · country 1 · 1525×1904 · `art_front/46/eba0da40-895b-427e-887e-b810166cbaa0.webp`
+
+### Terra Trilogy (#1210)
+- Current bucket: **IGDB_LEGACY**
+- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2yrx.jpg
+- Reason: IGDB cover; may be key art or wrong edition/region
+- GameEye candidate: **Terra Trilogy** · HIGH_CONFIDENCE · country 1 · 480×596 · `art_front/46/9d3c295d-0846-450c-b00b-5a08facec9ab.webp`
+
+### Terraria (#1211)
+- Current bucket: **IGDB_LEGACY**
+- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/coaamg.jpg
+- Reason: IGDB cover; may be key art or wrong edition/region
+- GameEye candidate: **Terraria** · HIGH_CONFIDENCE · country 1 · 1203×1500 · `art_front/46/96ee5020-69cf-4142-a957-7e41ca37861b.webp`
+
+### The Evil Within 2 (#1245)
+- Current bucket: **IGDB_LEGACY**
+- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5wgu.jpg
+- Reason: IGDB cover; may be key art or wrong edition/region
+- GameEye candidate: **Evil Within 2** · REVIEW_EDITION · country 1 · 1524×1902 · `art_front/46/0b496fc7-257e-4388-98e5-e41edb939148.webp`
