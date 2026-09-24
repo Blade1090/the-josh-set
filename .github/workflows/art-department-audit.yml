@@ -5,7 +5,7 @@ on:
       limit:
         description: 'Number of suspect covers to query against GameEye'
         required: false
-        default: '1000'
+        default: '5000'
   push:
     branches:
       - art-department-retail-covers
@@ -29,7 +29,7 @@ jobs:
           ref: art-department-retail-covers
       - name: Run Art Department source audit
         env:
-          ART_AUDIT_LIMIT: ${{ github.event.inputs.limit || '1000' }}
+          ART_AUDIT_LIMIT: ${{ github.event.inputs.limit || '5000' }}
         run: node tools/art-department-audit.mjs
       - name: Verify and promote safe GameEye retail fronts
         run: node tools/promote-gameye-retail.mjs
