@@ -44,10 +44,23 @@ window.SHELFCHECK_TITLE_COVERS={
   "chariot":"https://limitedrungames.com/cdn/shop/files/charriot-limited-run-games-ps4.png?height=1080&v=1698943937",
   "coffee talk":"https://cdn11.bigcommerce.com/s-kzjsut/images/stencil/1280x1280/products/3031/16404/PS4_COFFEETALK__50003.1622216742.jpg?c=2",
   "code realize bouquet of rainbows":"https://cdn.mobygames.com/covers/9526472-code-realize-bouquet-of-rainbows-playstation-4-front-cover.jpg",
-  "alternate jake hunter daedalus the awakening of golden jazz":"https://ecommerce.datablitz.com.ph/cdn/shop/products/daedalus-the-awakening-of-golden-jazz-multilanguage-588235.9_1200x.jpg?v=1676776758",
+  "alternate jake hunter daedalus the awakening of golden jazz":"https://ecommerce.datablitz.com.ph/cdn/shop/products/daedalus-the-awakening-of-golden-jazz-multilanguage-588235.9_1200x1200.jpg?v=1676776758",
   "the elder scrolls v skyrim special edition":"https://gamefaqs.gamespot.com/a/box/9/5/8/602958_front.jpg",
   "the church in the darkness":"https://limitedrungames.com/cdn/shop/files/church-in-the-darkness-limited-run-games-ps4.png?height=1080&v=1698943937",
-  "shoppe keep":"https://gamefaqs.gamespot.com/a/box/6/3/9/662639_front.jpg"
+  "shoppe keep":"https://gamefaqs.gamespot.com/a/box/6/3/9/662639_front.jpg",
+  "big pharma":"https://gamefaqs.gamespot.com/a/box/5/8/6/738586_front.jpg",
+  "constructor":"https://gamefaqs.gamespot.com/a/box/6/9/1/923691_front.jpg",
+  "ground zero texas":"https://gamefaqs.gamespot.com/a/box/8/5/3/808853_front.jpg",
+  "jim power the lost dimension":"https://gamefaqs.gamespot.com/a/box/3/0/7/874307_front.jpg",
+  "maldita castilla ex cursed castilla":"https://gamefaqs.gamespot.com/a/box/3/2/6/646326_front.jpg",
+  "sisters royale":"https://gamefaqs.gamespot.com/a/box/3/3/1/812331_front.jpg",
+  "project nimbus complete edition":"https://gamefaqs.gamespot.com/a/box/1/5/0/726150_front.jpg",
+  "the house in fata morgana":"https://gamefaqs.gamespot.com/a/box/5/5/2/692552_front.jpg",
+  "the elder scrolls online tamriel unlimited":"https://gamefaqs.gamespot.com/a/box/0/1/3/325013_front.jpg",
+  "ys memories of celceta kai":"https://gamefaqs.gamespot.com/a/box/8/5/9/721859_front.jpg",
+  "tiger heli":"https://gamefaqs.gamespot.com/a/box/7/4/5/825745_front.jpg",
+  "another world":"https://gamefaqs.gamespot.com/a/box/4/5/2/721452_front.jpg",
+  "mighty gunvolt burst":"https://limitedrungames.com/cdn/shop/products/mighty-gunvolt-burst-ps4-lrg.png?height=1080&v=1660241946"
 };
 
 // Art Department quality gate. Browser-only: CI evaluates this file in a VM without DOM APIs.
