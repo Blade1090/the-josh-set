@@ -76,6 +76,15 @@ function exactish(title,row){
   return strip(a)===strip(b)?90:0;
 }
 
+function candidateQuality(row){
+  if(!row?.image?.width||!row?.image?.height)return 'REVIEW';
+  const ratio=row.image.width/row.image.height;
+  const portrait=ratio>=0.5&&ratio<=0.82;
+  if(row.matchScore===100&&portrait)return 'HIGH_CONFIDENCE';
+  if(row.matchScore>=90&&portrait)return 'REVIEW_EDITION';
+  return 'REVIEW';
+}
+
 const {DATA,items,byId}=loadData();
 const included=items.filter(x=>x.set==='INCLUDED');
 const legacy=loadLegacy(),over=loadOverrides(DATA,items,byId);
@@ -83,11 +92,11 @@ const rows=[];
 for(const x of included){
   const n=norm(x.title);
   const curatedTitle=over.title[n];
-  const curatedId=over.id[x.id];
-  const url=curatedTitle||curatedId||legacy.covers[x.id]||null;
-  const curated=Boolean(curatedTitle||curatedId);
+  const legacyOverride=over.id[x.id];
+  const url=curatedTitle||legacyOverride||legacy.covers[x.id]||null;
+  const curated=Boolean(curatedTitle);
   const cls=sourceClass(url,{curated});
-  rows.push({id:x.id,title:x.title,owned:x.baseline==='OWNED',url,curated,...cls});
+  rows.push({id:x.id,title:x.title,owned:x.baseline==='OWNED',url,curated,legacyOverride:Boolean(legacyOverride),...cls});
 }
 
 rows.sort((a,b)=>b.score-a.score||Number(b.owned)-Number(a.owned)||a.title.localeCompare(b.title));
@@ -104,7 +113,8 @@ for(let i=0;i<Math.min(limit,suspect.length);i++){
     await sleep(120);
   }
   const scored=lookups.flatMap(l=>l.records.map(x=>({...x,queryCountry:l.country,matchScore:exactish(r.title,x)}))).filter(x=>x.matchScore>0).sort((a,b)=>b.matchScore-a.matchScore);
-  candidates.push({...r,gameye:scored.slice(0,5),gameyeQueried:lookups.map(l=>({country:l.country,ok:l.ok,status:l.status,count:l.records.length}))});
+  const gameye=scored.slice(0,5).map(x=>({...x,quality:candidateQuality(x)}));
+  candidates.push({...r,gameye,autoCandidate:gameye[0]?.quality==='HIGH_CONFIDENCE',gameyeQueried:lookups.map(l=>({country:l.country,ok:l.ok,status:l.status,count:l.records.length}))});
   if((i+1)%25===0)console.log(`audited ${i+1}/${Math.min(limit,suspect.length)}`);
   await sleep(120);
 }
@@ -117,18 +127,19 @@ const summary={
   igdbLegacy:rows.filter(r=>r.bucket==='IGDB_LEGACY').length,
   unknown:rows.filter(r=>r.bucket==='UNKNOWN_SOURCE').length,
   missing:rows.filter(r=>r.bucket==='COVER_NEEDED').length,
-  suspect:suspect.length,candidateQueries:candidates.length
+  suspect:suspect.length,candidateQueries:candidates.length,
+  highConfidenceGameEye:candidates.filter(r=>r.autoCandidate).length
 };
 fs.writeFileSync('audit-out/art-department-audit.json',JSON.stringify({summary,rows,candidates},null,2));
 
 const md=[];
 md.push('# ShelfCheck Art Department Audit','',`Generated: ${summary.generatedAt}`,'');
-md.push('## Summary','',`- Included identities: ${summary.included}`,`- Curated retail overrides: ${summary.curated}`,`- PS Store legacy art: ${summary.psStoreLegacy}`,`- IGDB legacy art: ${summary.igdbLegacy}`,`- Unknown-source art: ${summary.unknown}`,`- Missing art: ${summary.missing}`,`- Suspect/review queue: ${summary.suspect}`,'');
+md.push('## Summary','',`- Included identities: ${summary.included}`,`- Curated retail overrides: ${summary.curated}`,`- PS Store legacy art: ${summary.psStoreLegacy}`,`- IGDB legacy art: ${summary.igdbLegacy}`,`- Unknown-source art: ${summary.unknown}`,`- Missing art: ${summary.missing}`,`- Suspect/review queue: ${summary.suspect}`,`- High-confidence GameEye candidates in this run: ${summary.highConfidenceGameEye}`,'');
 md.push('## High-priority queue','');
 for(const r of candidates){
   const g=r.gameye?.[0];
   md.push(`### ${r.title} (#${r.id})`,`- Current bucket: **${r.bucket}**`,`- Current source: ${r.url||'COVER NEEDED'}`,`- Reason: ${r.reason}`);
-  if(g){md.push(`- GameEye candidate: **${g.title}** · country ${g.country_id} · ${g.image?`${g.image.width}×${g.image.height} · \`${g.image.file}\``:'no front image'}`)}
+  if(g){md.push(`- GameEye candidate: **${g.title}** · ${g.quality} · country ${g.country_id} · ${g.image?`${g.image.width}×${g.image.height} · \`${g.image.file}\``:'no front image'}`)}
   else md.push('- GameEye candidate: none confidently title-matched');
   md.push('');
 }
