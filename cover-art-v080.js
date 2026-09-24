@@ -13,6 +13,10 @@
     "oddworld abes oddysee new n tasty":"https://now.estarland.com/images/products/23/60023/PS4-Oddworld-New-and-Tasty-Limited-RUn-large-image.jpg",
     "shenmue i":"https://a.allegroimg.com/original/119330/e3958dea4b6f80ca15f1a2afcb98/SHENMUE-I-II-PS4-PS5-GRA-NA-PLYCIE-W-PUDELKU",
     "q u b e":"https://images.launchbox-app.com/74c337ed-3f9c-4b95-81ba-e10ec181755e.jpg",
+    "below":"https://videogamesplus.ca/cdn/shop/products/VGP0016556_700x700.png?v=1668522862",
+    "stranded sails explorers of the cursed islands":"https://img-va.myshopline.com/image/store/1692612216760/38b99324-a472-439a-844f-b5915343324d.jpg?h=1000&w=787",
+    "malnazidos":"https://selecta-play.com/9458/malnazidos-ps4.jpg",
+    "ufo robot grendizer":"https://www.estore.iq/web/image/product.template/16349/image_1024?unique=5a0acd5",
     ...(window.SHELFCHECK_TITLE_COVERS||{})
   };
   const coverFor=x=>titleCovers[norm(x.title)]||window.SHELFCHECK_COVERS?.[x.id]||null;
@@ -46,6 +50,6 @@
   };
   const oldRender=render;render=function(){const r=oldRender.apply(this,arguments);paint();if(typeof decoratePriceCards==='function')decoratePriceCards();return r};
   const oldDetail=detail;detail=function(id){const r=oldDetail.apply(this,arguments);const box=document.querySelector('#detail');if(!box||box.querySelector('.detail-cover-shell'))return r;const h=box.querySelector('h2');if(!h)return r;const x=byId.get(id),url=x&&coverFor(x);const shell=document.createElement('div');shell.className='detail-cover-shell';const fallback=()=>{shell.classList.remove('has-cover');shell.innerHTML=fallbackHtml};if(url){const img=document.createElement('img');img.className='detail-cover';img.src=url;img.alt=x.title+' cover';img.decoding='async';img.onerror=fallback;shell.classList.add('has-cover');shell.title='Tap to enlarge cover';shell.addEventListener('click',()=>openLightbox(url,x.title));shell.appendChild(img)}else fallback();h.insertAdjacentElement('afterend',shell);return r};
-  window.SHELFCHECK_COVER_ART={version:91,paint,coverFor,productCover,openLightbox};
+  window.SHELFCHECK_COVER_ART={version:92,paint,coverFor,productCover,openLightbox};
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',paint);else paint();
 })();
