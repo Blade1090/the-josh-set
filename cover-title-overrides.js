@@ -15,5 +15,9 @@ window.SHELFCHECK_TITLE_COVERS = {
   "another world": "https://images.static-bluray.com/products/29/5593_1_large.jpg",
   "oddworld abes oddysee new n tasty": "https://now.estarland.com/images/products/23/60023/PS4-Oddworld-New-and-Tasty-Limited-RUn-large-image.jpg",
   "shenmue i": "https://a.allegroimg.com/original/119330/e3958dea4b6f80ca15f1a2afcb98/SHENMUE-I-II-PS4-PS5-GRA-NA-PLYCIE-W-PUDELKU",
-  "q u b e": "https://images.launchbox-app.com/74c337ed-3f9c-4b95-81ba-e10ec181755e.jpg"
+  "q u b e": "https://images.launchbox-app.com/74c337ed-3f9c-4b95-81ba-e10ec181755e.jpg",
+  "below": "https://videogamesplus.ca/cdn/shop/products/VGP0016556_700x700.png?v=1668522862",
+  "stranded sails explorers of the cursed islands": "https://img-va.myshopline.com/image/store/1692612216760/38b99324-a472-439a-844f-b5915343324d.jpg?h=1000&w=787",
+  "malnazidos": "https://selecta-play.com/9458/malnazidos-ps4.jpg",
+  "ufo robot grendizer": "https://www.estore.iq/web/image/product.template/16349/image_1024?unique=5a0acd5"
 };
