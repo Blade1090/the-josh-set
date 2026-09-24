@@ -1,17 +1,15 @@
-// ShelfCheck periodic price refresh v2 — conservative, merge-safe, reusable.
+// ShelfCheck periodic price refresh v3 — route-aware, conservative, merge-safe.
 //
 // Normal workflow:
 //   node tools/price-refresh.mjs --audit=path/to/shelfcheck-price-audit.json
 //
-// Reuse a completed v1/v2 report without redoing the whole 2,384-title search:
-//   node tools/price-refresh.mjs --reuse-report=audit-out/price-refresh-report.json
-//
-// v2 improvements:
-// - Uses the audit's existing PriceCharting product + region as tie-breakers.
-// - Same-title multi-region hits are no longer automatically ambiguous.
-// - Manual/retailer-priced oddballs remain untouched when PriceCharting has no clean CIB route.
-// - Import pack contains CHANGES ONLY and is marked mode=merge so ShelfCheck never wipes other prices.
-// - Large price moves remain review-only.
+// v3 maintenance behavior:
+// - Automatically reuses exact PriceCharting URLs from the previous refresh report.
+// - Audit-carried URLs win once v3 has been imported, so future refreshes stay direct.
+// - Only titles without a known route fall back to PriceCharting search/matching.
+// - Large moves and suspiciously huge values are review-only; they never auto-import.
+// - Import pack contains CHANGES ONLY and is mode=merge, preserving manual/local prices.
+// - The previous report remains useful as the route cache, so no 2,385-title rediscovery pass.
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -22,8 +20,9 @@ const auditPath=path.resolve(REPO,args.audit||'audit-out/shelfcheck-price-audit.
 const reusePath=args['reuse-report']?path.resolve(REPO,args['reuse-report']):null;
 const outPath=path.resolve(REPO,args.out||'audit-out/price-refresh-report.json');
 const importPath=path.resolve(REPO,args.import||'audit-out/price-refresh-import.json');
-const delayMs=Number(args.delay||300);
+const delayMs=Number(args.delay||175);
 const maxMovePct=Number(args['max-move']||25);
+const suspiciousValue=Number(args['suspicious-value']||500);
 const limit=args.limit?Number(args.limit):Infinity;
 
 fs.mkdirSync(path.dirname(outPath),{recursive:true});
@@ -34,7 +33,7 @@ const norm=s=>decode(s).toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]
 async function get(url,retries=4){
   for(let i=0;i<retries;i++){
     try{
-      const r=await fetch(url,{headers:{'user-agent':'Mozilla/5.0 ShelfCheck periodic pricing maintenance v2'}});
+      const r=await fetch(url,{headers:{'user-agent':'Mozilla/5.0 ShelfCheck periodic pricing maintenance v3'}});
       if(r.ok)return{text:await r.text(),url:r.url};
       if(r.status===429||r.status>=500){await sleep(1000*Math.pow(2,i));continue}
       return null;
@@ -44,9 +43,11 @@ async function get(url,retries=4){
 }
 
 function platform(url){
-  const m=new URL(url).pathname.match(/^\/(?:[a-z]{2}\/)?game\/([a-z0-9-]+)\//);
-  if(!m)return null;
-  return ({'playstation-4':'US','pal-playstation-4':'PAL','jp-playstation-4':'JP','asian-english-playstation-4':'Asian English'})[m[1]]||null;
+  try{
+    const m=new URL(url).pathname.match(/^\/(?:[a-z]{2}\/)?game\/([a-z0-9-]+)\//);
+    if(!m)return null;
+    return ({'playstation-4':'US','pal-playstation-4':'PAL','jp-playstation-4':'JP','asian-english-playstation-4':'Asian English'})[m[1]]||null;
+  }catch{return null}
 }
 function desiredRegion(row){
   const s=String(row.region||row.c||'').toLowerCase();
@@ -65,6 +66,24 @@ function parseCib(html){
   if(!sec)return null;
   const m=sec[0].match(/\$([0-9,]+\.\d{2})/);
   return m?Number(m[1].replaceAll(',','')):null;
+}
+
+// Load the previous report BEFORE this run overwrites it. It becomes our exact route cache.
+let previousReport=null;
+if(fs.existsSync(outPath)){
+  try{const x=JSON.parse(fs.readFileSync(outPath,'utf8'));if(Array.isArray(x.results))previousReport=x}catch{}
+}
+const priorByTitle=new Map((previousReport?.results||[]).map(r=>[norm(r.title),r]));
+
+function routeFromRow(row){
+  const direct=row.url||row.pcUrl||row.priceChartingUrl;
+  if(direct&&platform(direct))return{url:direct,title:row.product||row.title,region:platform(direct),routeSource:'audit'};
+  const prior=priorByTitle.get(norm(row.title));
+  const c=prior?.candidate;
+  if(c?.url&&platform(c.url))return{url:c.url,title:c.title||row.product||row.title,region:c.region||platform(c.url),routeSource:'previous-report'};
+  // One intentional identity replacement from the pricing endgame.
+  if(norm(row.title)===norm('Catlateral Damage: Remeowstered'))return{url:'https://www.pricecharting.com/game/playstation-4/catlateral-damage-remeowstered',title:'Catlateral Damage: Remeowstered',region:'US',routeSource:'identity-repair'};
+  return null;
 }
 
 async function candidates(query){
@@ -108,17 +127,21 @@ async function finishMatch(row,hit,selection){
   if(!Number.isFinite(fresh)||fresh<=0)return{...row,status:'NO_CIB_DATA',candidate:hit,selection};
   const old=Number(row.market),move=Number.isFinite(old)&&old>0?(fresh-old)/old*100:null;
   const absMove=move==null?null:Math.abs(move);
-  const status=absMove!=null&&absMove>maxMovePct?'REVIEW_LARGE_MOVE':absMove!=null&&absMove<0.5?'UNCHANGED':'SAFE_UPDATE';
+  let status;
+  if(fresh>=suspiciousValue)status='REVIEW_SUSPICIOUS_VALUE';
+  else if(absMove!=null&&absMove>maxMovePct)status='REVIEW_LARGE_MOVE';
+  else if(absMove!=null&&absMove<0.5)status='UNCHANGED';
+  else status='SAFE_UPDATE';
   return{...row,status,fresh:+fresh.toFixed(2),old:Number.isFinite(old)?+old.toFixed(2):null,movePct:move==null?null:+move.toFixed(1),candidate:hit,selection};
 }
 
 async function refreshOne(row){
+  const route=routeFromRow(row);
+  if(route)return finishMatch(row,route,{targetRegion:desiredRegion(row),routeSource:route.routeSource});
   const primary=(row.source&&/pricecharting/i.test(row.source)&&row.product)?row.product:row.title;
   let found=await candidates(primary);
   if(found.error)return{...row,status:'ERROR_RETRY'};
   let chosen=chooseCandidate(row,found.rows);
-  // If an old PriceCharting product name differs from the identity title, it is valuable evidence.
-  // Conversely, manual retailer product strings can be noisy, so only retry with product when needed.
   if(chosen.status==='NO_EXACT_MATCH'&&row.product&&norm(row.product)!==norm(primary)){
     found=await candidates(row.product);
     if(found.error)return{...row,status:'ERROR_RETRY'};
@@ -129,7 +152,8 @@ async function refreshOne(row){
 }
 
 async function refineExisting(r){
-  if(r.status==='SAFE_UPDATE'||r.status==='UNCHANGED'||r.status==='REVIEW_LARGE_MOVE')return r;
+  if(r.status==='SAFE_UPDATE'||r.status==='UNCHANGED'||r.status==='REVIEW_LARGE_MOVE'||r.status==='REVIEW_SUSPICIOUS_VALUE')return r;
+  if(r.candidate?.url)return finishMatch(r,r.candidate,{targetRegion:desiredRegion(r),routeSource:'existing-result'});
   if(r.status==='REVIEW_AMBIGUOUS'&&Array.isArray(r.candidates)){
     const chosen=chooseCandidate(r,r.candidates);
     if(chosen.hit)return finishMatch(r,chosen.hit,chosen.selection);
@@ -145,10 +169,10 @@ if(reusePath){
   const old=JSON.parse(fs.readFileSync(reusePath,'utf8'));
   if(!Array.isArray(old.results))throw new Error('Reuse file has no results array.');
   source=old.results.slice(0,limit);
-  console.log(`Reusing ${source.length} existing scan results. Only ambiguous/product-name cases will need new lookups.\n`);
+  console.log(`Reusing ${source.length} existing scan results.\n`);
   for(let i=0;i<source.length;i++){
     const before=source[i],r=await refineExisting(before);results.push(r);
-    if(r.status!==before.status||['REVIEW_AMBIGUOUS','NO_EXACT_MATCH'].includes(before.status))console.log(`[${i+1}/${source.length}] ${r.title} -> ${r.status}${r.fresh?` $${r.fresh}`:''}`);
+    if(r.status!==before.status||['REVIEW_AMBIGUOUS','NO_EXACT_MATCH','NO_CIB_DATA'].includes(before.status))console.log(`[${i+1}/${source.length}] ${r.title} -> ${r.status}${r.fresh?` $${r.fresh}`:''}`);
     if(i<source.length-1&&r!==before)await sleep(delayMs);
   }
 }else{
@@ -156,6 +180,9 @@ if(reusePath){
   const audit=JSON.parse(fs.readFileSync(auditPath,'utf8'));
   if(audit.shelfcheckPriceAudit!==1||!Array.isArray(audit.prices))throw new Error('Not a ShelfCheck price-audit JSON.');
   source=audit.prices.filter(r=>r.market!=null).slice(0,limit);
+  const routeCount=source.filter(routeFromRow).length;
+  console.log(`ShelfCheck v3: ${routeCount}/${source.length} titles already have exact PriceCharting routes.`);
+  console.log(`Only ${source.length-routeCount} titles may need search fallback.\n`);
   for(let i=0;i<source.length;i++){
     const r=await refreshOne(source[i]);results.push(r);
     console.log(`[${i+1}/${source.length}] ${r.title} -> ${r.status}${r.fresh?` $${r.fresh}`:''}`);
@@ -170,11 +197,12 @@ const unresolved=results.filter(r=>!['SAFE_UPDATE','UNCHANGED'].includes(r.statu
 const generatedAt=new Date().toISOString();
 const prices=changes.map(r=>({
   t:r.title,m:r.fresh,s:+(r.fresh*.70).toFixed(2),g:+(r.fresh*.85).toFixed(2),x:+(r.fresh*1.10).toFixed(2),
-  pc:r.candidate?.title||r.product||r.title,c:r.candidate?.region||r.region||'PlayStation 4',source:'PriceCharting periodic refresh v2',refreshedAt:generatedAt
+  pc:r.candidate?.title||r.product||r.title,c:r.candidate?.region||r.region||'PlayStation 4',url:r.candidate?.url||null,
+  source:'PriceCharting periodic refresh v3',refreshedAt:generatedAt
 }));
-const summary={generatedAt,scanned:results.length,verified:safe.length,safeImport:prices.length,changed:changes.length,unchanged:safe.length-changes.length,review:review.length,unresolved:unresolved.length,maxMovePct,reused:!!reusePath};
+const summary={generatedAt,scanned:results.length,verified:safe.length,safeImport:prices.length,changed:changes.length,unchanged:safe.length-changes.length,review:review.length,unresolved:unresolved.length,maxMovePct,suspiciousValue,reused:!!reusePath,knownRoutes:results.filter(r=>r.selection?.routeSource).length};
 fs.writeFileSync(outPath,JSON.stringify({summary,changes,review,unresolved,results},null,2));
-fs.writeFileSync(importPath,JSON.stringify({shelfcheckPriceRefresh:2,mode:'merge',source:'ShelfCheck periodic PriceCharting refresh v2',generatedAt,prices},null,2));
+fs.writeFileSync(importPath,JSON.stringify({shelfcheckPriceRefresh:3,mode:'merge',source:'ShelfCheck periodic PriceCharting refresh v3',generatedAt,prices},null,2));
 console.log('\n'+JSON.stringify(summary,null,2));
 console.log(`Report: ${path.relative(REPO,outPath)}`);
 console.log(`Import (merge-only changes): ${path.relative(REPO,importPath)}`);
