@@ -19,7 +19,7 @@
   }
 
   function lastRefresh(){
-    return stateCache?.priceImportedAt||stateCache?.priceRefreshImportedAt||BASELINE_DATE;
+    return stateCache?.priceRefreshImportedAt||stateCache?.priceImportedAt||BASELINE_DATE;
   }
 
   function makeAudit(){
