@@ -1,12 +1,26 @@
-import colorsys, io, json, os, sys, urllib.request
+import colorsys, io, json, os, re, unicodedata, urllib.request
 from PIL import Image
 
 SRC='audit-out/cover-source-audit.json'
 OUT='audit-out/cover-visual-audit.json'
+MANUAL='audit-out/cover-manual-qa.json'
 with open(SRC,'r',encoding='utf-8') as f: data=json.load(f)
 
+def norm_title(s):
+    s=unicodedata.normalize('NFKD',str(s or ''))
+    s=''.join(c for c in s if not unicodedata.combining(c)).lower()
+    s=s.replace('&',' and ').replace('’','').replace("'",'').replace('`','')
+    return ' '.join(re.findall(r'[a-z0-9]+',s))
+
+manual={'confirmed_bad':[],'fixed':[],'eligibility':[]}
+if os.path.exists(MANUAL):
+    with open(MANUAL,'r',encoding='utf-8') as f: manual=json.load(f)
+manual_bad={norm_title(x['title']):x for x in manual.get('confirmed_bad',[])}
+manual_fixed={norm_title(x['title']):x for x in manual.get('fixed',[])}
+manual_elig={norm_title(x['title']):x for x in manual.get('eligibility',[])}
+
 def fetch(url):
-    req=urllib.request.Request(url,headers={'User-Agent':'ShelfCheck-ArtAudit/1.0'})
+    req=urllib.request.Request(url,headers={'User-Agent':'ShelfCheck-ArtAudit/1.1'})
     with urllib.request.urlopen(req,timeout=20) as r:
         raw=r.read(8_000_000)
     return Image.open(io.BytesIO(raw)).convert('RGB')
@@ -32,6 +46,15 @@ rows=[]
 for i,r in enumerate(data['rows'],1):
     source=r['source']; url=r.get('url'); verdict='PASS'; reason='curated'
     span=ratio=None; err=None
+    key=norm_title(r['title'])
+    manual_status=None; manual_reason=None
+    if key in manual_bad:
+        manual_status='CONFIRMED_BAD'; manual_reason=manual_bad[key].get('reason')
+    elif key in manual_fixed:
+        manual_status='FIXED'; manual_reason=manual_fixed[key].get('reason')
+    elif key in manual_elig:
+        manual_status='ELIGIBILITY'; manual_reason=manual_elig[key].get('reason')
+
     if source=='MISSING' or not url:
         verdict='REVIEW'; reason='missing_cover'
     elif source=='PS_STORE_OVERRIDE':
@@ -40,8 +63,6 @@ for i,r in enumerate(data['rows'],1):
         try:
             im=fetch(url)
             span,ratio=ps4_banner_score(im)
-            # Full front scans usually carry a blue PS4 header spanning most of the width.
-            # Conservative threshold: anything less stays in REVIEW.
             if span>=0.72 and ratio>=0.08:
                 verdict='PASS'; reason='strong_ps4_header'
             else:
@@ -52,24 +73,34 @@ for i,r in enumerate(data['rows'],1):
         verdict='PASS'; reason='curated_id_override'
     elif source=='CURATED_TITLE':
         verdict='PASS'; reason='curated_title_override'
-    rows.append({**r,'verdict':verdict,'reason':reason,'bannerColumnSpan':span,'bannerPixelRatio':ratio,'error':err})
+
+    # Human QA always wins over heuristics until the title is explicitly moved to FIXED.
+    if manual_status=='CONFIRMED_BAD':
+        verdict='REVIEW'; reason='manual_confirmed_bad'
+    elif manual_status=='ELIGIBILITY':
+        verdict='REVIEW'; reason='eligibility_review'
+
+    rows.append({**r,'verdict':verdict,'reason':reason,'manualStatus':manual_status,'manualReason':manual_reason,'bannerColumnSpan':span,'bannerPixelRatio':ratio,'error':err})
     if i%100==0: print(f'audited {i}/{len(data["rows"])}')
 
 review=[r for r in rows if r['verdict']=='REVIEW']
-review.sort(key=lambda r:(0 if r['source']=='MISSING' else 1 if r['source']=='PS_STORE_OVERRIDE' else 2, r.get('bannerColumnSpan') or 0, r['title'].lower()))
+review.sort(key=lambda r:(0 if r.get('manualStatus')=='CONFIRMED_BAD' else 1 if r.get('manualStatus')=='ELIGIBILITY' else 2 if r['source']=='MISSING' else 3 if r['source']=='PS_STORE_OVERRIDE' else 4, r.get('bannerColumnSpan') or 0, r['title'].lower()))
 summary={
     'generatedAt':data['generatedAt'],
     'included':len(rows),
     'pass':sum(r['verdict']=='PASS' for r in rows),
     'review':len(review),
+    'manualConfirmedBad':sum(r.get('manualStatus')=='CONFIRMED_BAD' for r in rows),
+    'manualEligibility':sum(r.get('manualStatus')=='ELIGIBILITY' for r in rows),
+    'manualFixedTracked':sum(r.get('manualStatus')=='FIXED' for r in rows),
     'reviewByReason':{}
 }
 for r in review: summary['reviewByReason'][r['reason']]=summary['reviewByReason'].get(r['reason'],0)+1
 os.makedirs('audit-out',exist_ok=True)
 with open(OUT,'w',encoding='utf-8') as f: json.dump({'summary':summary,'review':review,'rows':rows},f,indent=2)
-with open('audit-out/cover-review-queue.csv','w',encoding='utf-8') as f:
-    f.write('id,title,source,reason,bannerColumnSpan,bannerPixelRatio,url\n')
+with open('audit-out/cover-review-queue.csv','w',encoding='utf-8',newline='') as f:
     import csv
     w=csv.writer(f)
-    for r in review: w.writerow([r['id'],r['title'],r['source'],r['reason'],r.get('bannerColumnSpan'),r.get('bannerPixelRatio'),r.get('url')])
+    w.writerow(['id','title','source','reason','manualStatus','manualReason','bannerColumnSpan','bannerPixelRatio','url'])
+    for r in review: w.writerow([r['id'],r['title'],r['source'],r['reason'],r.get('manualStatus'),r.get('manualReason'),r.get('bannerColumnSpan'),r.get('bannerPixelRatio'),r.get('url')])
 print(json.dumps(summary,indent=2))
