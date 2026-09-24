@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T15:44:00-04:00",
+  "updatedAt": "2026-09-24T15:49:00-04:00",
   "notes": "Manual Art Department QA from production screenshots. confirmed_bad entries must stay at the top of the automated review queue until replaced/approved. fixed entries are retained for regression checking. eligibility entries require census review rather than an art-only fix.",
   "confirmed_bad": [
     {"title":"Need for Speed","reason":"bannerless/key art"},
@@ -26,12 +26,18 @@
     {"title":"Capcom Beat 'Em Up Bundle","reason":"bannerless key art"},
     {"title":"Chariot","reason":"bannerless key art"},
     {"title":"Coffee Talk","reason":"bannerless key art"},
-    {"title":"Code:Realize - Bouquet of Rainbows","reason":"bannerless key art"}
+    {"title":"Code:Realize - Bouquet of Rainbows","reason":"bannerless key art"},
+    {"title":"ADK Tamashii","reason":"physical product shot but not clean straight-on front cover"},
+    {"title":"Aaero","reason":"physical product shot but not clean straight-on front cover"},
+    {"title":"Alternate Jake Hunter: Daedalus - The Awakening of Golden Jazz","reason":"tiny/bannerless key art with large empty frame"},
+    {"title":"The Elder Scrolls V: Skyrim Special Edition","reason":"bannerless key art instead of retail PS4 front"},
+    {"title":"Void Bastards","reason":"bannerless key art"},
+    {"title":"The Church in the Darkness","reason":"bannerless key art"},
+    {"title":"Shoppe Keep","reason":"bannerless key art"}
   ],
   "fixed": [
     {"title":"A Boy and His Blob"},
     {"title":"2Dark"},
-    {"title":"ADK Tamashii"},
     {"title":"Alchemic Jousts"},
     {"title":"Alienation"},
     {"title":"Anima: Gate of Memories - The Nameless Chronicles"},
