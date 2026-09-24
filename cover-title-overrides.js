@@ -17,7 +17,18 @@ window.SHELFCHECK_TITLE_COVERS={
   "baldurs gate and baldurs gate ii enhanced editions":"https://gamefaqs.gamespot.com/a/box/4/6/9/723469_front.jpg",
   "bioshock remastered":"https://vgames.co.nz/cdn/shop/files/Bioshock-the-Collection-PS4-2K-22958350.jpg?v=1758591200&width=1946",
   "bioshock 2 remastered":"https://vgames.co.nz/cdn/shop/files/Bioshock-the-Collection-PS4-2K-22958350.jpg?v=1758591200&width=1946",
-  "bioshock infinite complete edition":"https://vgames.co.nz/cdn/shop/files/Bioshock-the-Collection-PS4-2K-22958350.jpg?v=1758591200&width=1946"
+  "bioshock infinite complete edition":"https://vgames.co.nz/cdn/shop/files/Bioshock-the-Collection-PS4-2K-22958350.jpg?v=1758591200&width=1946",
+  "need for speed":"https://gamefaqs.gamespot.com/a/box/4/1/9/562419_front.jpg",
+  "sayonara wild hearts":"https://www.avxperten.no/images/product/229726/800x800/78254347-de3b-40d6-846a-00f9ccb02501.jpg",
+  "blazing beaks":"https://gamefaqs.gamespot.com/a/box/8/1/3/796813_front.jpg",
+  "penguin wars":"https://www.lukiegames.com/assets/images/ps4_penguin_wars-423954.jpg",
+  "our world is ended":"https://i5.walmartimages.com/seo/Our-World-Is-Ended-Day-1-Edition-Other_238ef0e0-ef4d-454e-ad33-595355c9d411.24ac03611cb674b4087d1ec18e46aa54.jpeg",
+  "one punch man a hero nobody knows":"https://f.fcdn.app/imgs/ce12a0/tienda.soysantander.com.uy/comp/500a/original/catalogo/20-722674121880-P_20-722674121880_1/1500-1500/one-punch-man-a-hero-nobody-knows-juego.jpg",
+  "zero strain":"https://gamefaqs.gamespot.com/a/box/8/3/0/710830_front.jpg",
+  "hardcore mecha":"https://cdn11.bigcommerce.com/s-kzjsut/images/stencil/1280x1280/products/3587/19755/hardcore-mecha-multilanguage-598427.6__03541.1698692071.jpg?c=2%3Fimbypass%3Don",
+  "the flame in the flood complete edition":"https://limitedrungames.com/cdn/shop/products/flame-in-the-flood-ps4-lrg.png?v=1668033181&width=1920",
+  "bridge constructor":"https://gamefairy.io/wp-content/uploads/2018/03/Packshot_BC_3D_PEGI.png",
+  "void bastards":"https://media.gamestop.com/i/gamestop/11104055/Void-Bastards---PlayStation-4?fmt=auto&h=768&w=768"
 };
 
 // Art Department quality gate. Browser-only: CI evaluates this file in a VM without DOM APIs.
