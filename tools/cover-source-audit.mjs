@@ -18,16 +18,24 @@ vm.createContext(ctx);
 const mutators=['census-cleanup.js','census-v034.js','census-collapse-v035.js','census-v035-final.js','census-v040-pricing-audit.js','census-v052-pricecharting-negative-space.js','census-v053-pricecharting-regional-sweep.js','census-v054-pricecharting-collection-gap.js','census-v055-pricecharting-ab-sweep.js','census-v056-pricecharting-cf-sweep.js','census-v057-pricecharting-gl-sweep.js','census-v058-pricecharting-mr-sweep.js','census-v059-pricecharting-sz-sweep.js','census-physical-omission-pass-v001.js','census-physical-omission-pass-v002.js','census-physical-omission-pass-v003.js','census-v060-integrity-scrub.js','census-integrity-pass-v001.js','census-integrity-pass-v002.js','ownership-reconcile-v071.js','ownership-reconcile-v072.js','curation-josh-set-pass-v001.js','curation-josh-set-pass-v002.js','curation-josh-set-pass-v003.js','curation-josh-set-pass-v004.js'];
 for(const f of mutators){if(fs.existsSync(f))vm.runInContext(fs.readFileSync(f,'utf8'),ctx,{filename:f});}
 for(const fn of ctx.censusQueue.add)fn();for(const fn of ctx.censusQueue.exclude)fn();ctx.censusQueue.add.length=0;ctx.censusQueue.exclude.length=0;
-// Reproduce curator-only finalization cuts/repairs without running the async browser finalizer.
 for(const t of ['God Eater Resurrection','Atelier Ayesha: The Alchemist of Dusk DX','Atelier Escha & Logy: Alchemists of the Dusk Sky DX','Atelier Shallie: Alchemists of the Dusk Sea DX','Occultic;Nine']){const x=ctx.items.find(v=>norm(v.title)===norm(t));if(x)x.set='EXCLUDED'}
 const oldCat=ctx.byId.get(237)||ctx.items.find(v=>norm(v.title)===norm('Catlateral Damage'));if(oldCat)oldCat.set='EXCLUDED';
 if(!ctx.byId.get(2787)){const cat={id:2787,title:'Catlateral Damage: Remeowstered',set:'INCLUDED',baseline:'NEEDED',strong:null,target:null,max:24.99,search:norm('Catlateral Damage: Remeowstered')};ctx.items.push(cat);ctx.byId.set(cat.id,cat)}
 items=ctx.items;byId=ctx.byId;
 
-function evalFile(file,seed={}){const c={window:{...seed},console};vm.createContext(c);vm.runInContext(fs.readFileSync(file,'utf8'),c,{filename:file});return c.window}
+function evalText(text,file,seed={}){const c={window:{...seed},console};vm.createContext(c);vm.runInContext(text,c,{filename:file});return c.window}
+function evalFile(file,seed={}){return evalText(fs.readFileSync(file,'utf8'),file,seed)}
 const manifest=evalFile('covers-manifest.js');
 const afterOverrides=evalFile('cover-overrides.js',{SHELFCHECK_COVERS:manifest.SHELFCHECK_COVERS||{},SHELFCHECK_PRODUCT_COVERS:manifest.SHELFCHECK_PRODUCT_COVERS||{}});
-const gameye=fs.existsSync('cover-gameye-retail.js')?evalFile('cover-gameye-retail.js').SHELFCHECK_GAMEYE_RETAIL||{}:{};
+let gameye={};
+if(fs.existsSync('cover-gameye-retail.js')){
+  gameye=evalFile('cover-gameye-retail.js').SHELFCHECK_GAMEYE_RETAIL||{};
+}else{
+  const retailUrl='https://raw.githubusercontent.com/Blade1090/the-josh-set/e8d33ecbe32f8ad22ad8431a6c14491e91d6dabe/cover-gameye-retail.js';
+  const res=await fetch(retailUrl);
+  if(!res.ok)throw new Error(`Unable to fetch production GameEye retail layer: ${res.status}`);
+  gameye=evalText(await res.text(),'cover-gameye-retail.remote.js').SHELFCHECK_GAMEYE_RETAIL||{};
+}
 const titleMap=fs.existsSync('cover-title-overrides.js')?evalFile('cover-title-overrides.js').SHELFCHECK_TITLE_COVERS||{}:{};
 const base=manifest.SHELFCHECK_COVERS||{},final=afterOverrides.SHELFCHECK_COVERS||base;
 const rows=[];
