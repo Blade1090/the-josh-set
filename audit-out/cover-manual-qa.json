@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T16:38:00-04:00",
+  "updatedAt": "2026-09-24T16:49:00-04:00",
   "notes": "Manual Art Department QA. confirmed_bad stays REVIEW and is replaced by COVER NEEDED at runtime until a real physical PS4 source is approved. fallback is a verified physical-package image that may remain visible while a cleaner straight-on front is sought. fixed is retained for regression checking. eligibility requires physical-release verification rather than an art-only fix.",
   "confirmed_bad": [],
   "fallback": [
@@ -52,9 +52,11 @@
     {"title":"Alternate Jake Hunter: Daedalus - The Awakening of Golden Jazz"},
     {"title":"The Elder Scrolls V: Skyrim Special Edition"},
     {"title":"The Church in the Darkness"},
-    {"title":"Shoppe Keep"}
+    {"title":"Shoppe Keep"},
+    {"title":"Big Pharma"}
   ],
   "eligibility": [
-    {"title":"Big Pharma","reason":"appears PS4 digital-only; verify census eligibility"}
+    {"title":"Candleman: The Complete Journey","reason":"PS4 release records found only as PlayStation Store/download; no physical PS4 release verified"},
+    {"title":"Paper Dolls","reason":"PS4 release records found only as PlayStation Store/download; no physical PS4 release verified"}
   ]
 }
