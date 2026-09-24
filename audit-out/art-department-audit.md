@@ -1,19 +1,20 @@
 # ShelfCheck Art Department Audit
 
-Generated: 2026-09-24T17:26:48.036Z
+Generated: 2026-09-24T17:50:03.461Z
 
 ## Summary
 
 - Included identities: 2409
 - Curated retail overrides: 15
-- Verified GameEye retail fronts: 866
+- Verified GameEye retail fronts: 917
 - PS Store legacy art: 34
-- IGDB legacy art: 1472
+- IGDB legacy art: 1421
 - Unknown-source art: 0
 - Missing art: 18
-- Suspect/review queue: 1524
-- High-confidence GameEye candidates in this run: 51
-- Of those, exact ShelfCheck aliases: 21
+- Suspect/review queue: 1473
+- High-confidence GameEye candidates in this run: 67
+- Of those, exact ShelfCheck aliases: 0
+- Exact/alias GameEye matches held back for low resolution: 17
 
 ## High-priority queue
 
@@ -111,7 +112,7 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **COVER_NEEDED**
 - Current source: COVER NEEDED
 - Reason: No cover URL
-- GameEye candidate: **House in Fata Morgana** · REVIEW_EDITION · EDITION_RELAXED · country 1 · 1022×1262 · `art_front/46/e5531aa3-63a8-4de9-ba48-7bee24fbddaf.webp`
+- GameEye candidate: **House in Fata Morgana** · REVIEW · EDITION_RELAXED · country 1 · 1022×1262 · `art_front/46/e5531aa3-63a8-4de9-ba48-7bee24fbddaf.webp`
 
 ### Tiger-Heli (#2470)
 - Current bucket: **COVER_NEEDED**
@@ -291,7 +292,7 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **PS_STORE_LEGACY**
 - Current source: https://image.api.playstation.com/cdn/UP4699/CUSA11699_00/ip6QW2yoPdUZYZyFUMKTYygC7pAhlHfr.png
 - Reason: PlayStation Store image; audit for physical package front
-- GameEye candidate: **First Tree: Console Edition** · REVIEW_EDITION · EDITION_RELAXED · country 1 · 700×874 · `art_front/46/13015658-e855-4ac0-8e27-7336d649f021.webp`
+- GameEye candidate: **First Tree: Console Edition** · REVIEW · EDITION_RELAXED · country 1 · 700×874 · `art_front/46/13015658-e855-4ac0-8e27-7336d649f021.webp`
 
 ### The Walking Dead: Michonne - A Telltale Miniseries (#1762)
 - Current bucket: **PS_STORE_LEGACY**
@@ -329,12 +330,6 @@ Generated: 2026-09-24T17:26:48.036Z
 - Reason: PlayStation Store image; audit for physical package front
 - GameEye candidate: none confidently title-matched
 
-### A Hat in Time (#20)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cob1uc.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Hat in Time** · HIGH_CONFIDENCE · CURATED_ALIAS_EXACT · country 1 · 1086×1391 · `art_front/46/049a624b-1a84-4ab4-9c40-ff7a96e4469f.webp`
-
 ### BioShock 2 Remastered (#162)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co54yw.jpg
@@ -352,12 +347,6 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co54yu.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
 - GameEye candidate: **BioShock Remastered** · REVIEW · TITLE_EXACT · country 34 · 2048×2048 · `art_front/46/d5dff129-5169-4703-868c-40567a632d06.webp`
-
-### Call of Duty: Black Ops 4 (#217)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1wkf.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Call of Duty: Black Ops IIII** · HIGH_CONFIDENCE · CURATED_ALIAS_EXACT · country 1 · 425×530 · `art_front/46/ae5c0ded-4aa5-4ded-8052-3c8e84917c12.webp`
 
 ### Cuphead [Limited Edition] (#285)
 - Current bucket: **IGDB_LEGACY**
@@ -382,24 +371,6 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/coaajv.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
 - GameEye candidate: **Heavy Rain** · REVIEW · TITLE_EXACT · country 34 · 513×600 · `art_front/46/27586c11-a2ae-49e5-b272-26cfe5b1166f.webp`
-
-### Little Nightmares (#723)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1rdi.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Little Nightmares [Complete Edition]** · HIGH_CONFIDENCE · CURATED_ALIAS_EXACT · country 1 · 640×797 · `art_front/46/ecec6269-82ff-4b5f-8313-491bbec2f890.webp`
-
-### Power Rangers: Battle for the Grid (#927)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1isu.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Power Rangers: Battle for the Grid Super Edition** · HIGH_CONFIDENCE · CURATED_ALIAS_EXACT · country 1 · 799×994 · `art_front/46/0e4b76e8-de70-4d0d-a8cf-b59712239f5e.webp`
-
-### Red Dead Redemption 2 (#964)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1q1f.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Red Dead Redemption II** · HIGH_CONFIDENCE · CURATED_ALIAS_EXACT · country 1 · 640×797 · `art_front/46/9c268269-ff38-41c0-b4c0-e89a1741b6a4.webp`
 
 ### Resident Evil 0 HD Remaster (#2122)
 - Current bucket: **IGDB_LEGACY**
@@ -431,96 +402,6 @@ Generated: 2026-09-24T17:26:48.036Z
 - Reason: IGDB cover; may be key art or wrong edition/region
 - GameEye candidate: **SuperEpic: The Entertainment War** · REVIEW · TITLE_EXACT · country 1 · 1080×1199 · `art_front/46/bd8dd625-0cf6-4104-aa50-2960b9fac616.webp`
 
-### The Evil Within 2 (#1245)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5wgu.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Evil Within 2** · HIGH_CONFIDENCE · CURATED_ALIAS_EXACT · country 1 · 1524×1902 · `art_front/46/0b496fc7-257e-4388-98e5-e41edb939148.webp`
-
-### The Inner World: The Last Wind Monk (#1251)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co23cv.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Inner World: The Last Wind Monk** · HIGH_CONFIDENCE · CURATED_ALIAS_EXACT · country 1 · 1194×1500 · `art_front/46/5986fc27-c9a4-498d-be92-880826351161.webp`
-
-### The Last Guardian (#1260)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co271e.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Last Guardian** · HIGH_CONFIDENCE · CURATED_ALIAS_EXACT · country 1 · 1523×1904 · `art_front/46/a3af2f1d-5548-4255-b272-e5d74ed0ed32.webp`
-
-### The Last of Us Remastered (#1262)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5zks.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Last of Us Remastered** · HIGH_CONFIDENCE · CURATED_ALIAS_EXACT · country 1 · 800×1006 · `art_front/46/99e4edab-9274-4524-a505-c389fb204082.webp`
-
-### The Order: 1886 (#1281)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2rn6.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Order 1886** · HIGH_CONFIDENCE · CURATED_ALIAS_EXACT · country 1 · 1512×1879 · `art_front/46/53f816b3-a8c9-4ca0-afb1-043d317ff450.webp`
-
-### The Outer Worlds (#1282)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2eew.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Outer Worlds** · HIGH_CONFIDENCE · CURATED_ALIAS_EXACT · country 1 · 1191×1500 · `art_front/46/92c8e026-3b01-40a3-a864-2b55aae6057e.webp`
-
-### The Raven Remastered (#1286)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2fop.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Raven Remastered** · HIGH_CONFIDENCE · CURATED_ALIAS_EXACT · country 1 · 400×500 · `art_front/46/917b2aed-8a5b-48d9-a825-0124738368b7.webp`
-
-### The Sims 4 (#1291)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3h3l.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Sims 4 [Cats & Dogs Bundle]** · HIGH_CONFIDENCE · CURATED_ALIAS_EXACT · country 1 · 803×1000 · `art_front/46/6490bf68-1ec0-47d5-8897-f077ff7735f5.webp`
-
-### The Sinking City (#1294)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7kpe.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Sinking City** · HIGH_CONFIDENCE · CURATED_ALIAS_EXACT · country 1 · 1044×1346 · `art_front/46/65de4edb-34c7-4f07-a3e8-b515cedf7156.webp`
-
-### The Sojourn (#1295)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1ne9.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Sojourn** · HIGH_CONFIDENCE · CURATED_ALIAS_EXACT · country 1 · 700×872 · `art_front/46/e04579ca-654a-461c-b404-73ad4dfd3ba5.webp`
-
-### The Technomancer (#1301)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1ppu.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Technomancer** · HIGH_CONFIDENCE · CURATED_ALIAS_EXACT · country 1 · 742×932 · `art_front/46/9c30b4de-280e-49f9-a7b5-a3de7e229fe0.webp`
-
-### The Witcher 3: Wild Hunt (#1312)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/coaarl.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Witcher III: Wild Hunt [Complete Edition]** · HIGH_CONFIDENCE · CURATED_ALIAS_EXACT · country 1 · 640×810 · `art_front/46/d4b8be0a-9b6f-4bb3-aaf6-e0ac92aa07e3.webp`
-
-### The Wonderful 101: Remastered (#1314)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co26zl.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Wonderful 101: Remastered** · HIGH_CONFIDENCE · CURATED_ALIAS_EXACT · country 1 · 1191×1469 · `art_front/46/b47ba0c2-2ab8-464d-8ad4-09c051b02f91.webp`
-
-### Tower of Guns (#1347)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1uy9.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Tower of Guns [Special Edition]** · HIGH_CONFIDENCE · CURATED_ALIAS_EXACT · country 1 · 791×1111 · `art_front/46/821d5148-8839-4b8e-9d73-6fbd5f87e99f.webp`
-
-### Toy Soldiers: War Chest (#1348)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co6vhk.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Toy Soldiers: War Chest [Hall of Fame Edition]** · HIGH_CONFIDENCE · CURATED_ALIAS_EXACT · country 1 · 390×498 · `art_front/46/3c3e72b3-299c-4298-a460-2bde46a0a343.webp`
-
 ### Uncharted 2: Among Thieves Remastered (#2109)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1un4.jpg
@@ -550,12 +431,6 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4hgb.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
 - GameEye candidate: **Wargroove** · REVIEW · TITLE_EXACT · country 34 · 2048×2048 · `art_front/46/74f3a4b5-d7fd-4a7c-b26e-3521c0aae017.webp`
-
-### Warhammer: End Times - Vermintide (#1418)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/coa99u.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Warhammer: The End Times - Vermintide** · HIGH_CONFIDENCE · CURATED_ALIAS_EXACT · country 1 · 763×943 · `art_front/46/da76def0-e3e8-4ca5-b87c-8880a8752b04.webp`
 
 ### 112th Seed (#1557)
 - Current bucket: **IGDB_LEGACY**
@@ -603,7 +478,7 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1lat.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Plague Tale: Innocence** · REVIEW_EDITION · EDITION_RELAXED · country 1 · 1101×1395 · `art_front/46/2c8961e0-55b0-4c6e-9c0e-977417eea427.webp`
+- GameEye candidate: **Plague Tale: Innocence** · REVIEW · EDITION_RELAXED · country 1 · 1101×1395 · `art_front/46/2c8961e0-55b0-4c6e-9c0e-977417eea427.webp`
 
 ### A Short Hike (#1560)
 - Current bucket: **IGDB_LEGACY**
@@ -615,7 +490,7 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1vca.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Way Out** · REVIEW_EDITION · EDITION_RELAXED · country 1 · 800×1000 · `art_front/46/1cac296f-58d8-4256-baa0-57b0f13934de.webp`
+- GameEye candidate: **Way Out** · REVIEW · EDITION_RELAXED · country 1 · 800×1000 · `art_front/46/1cac296f-58d8-4256-baa0-57b0f13934de.webp`
 
 ### Acalesia (#1876)
 - Current bucket: **IGDB_LEGACY**
@@ -687,7 +562,7 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co8ci7.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Alchemic Jousts [Limited Edition]** · REVIEW_EDITION · EDITION_RELAXED · country 34 · 640×814 · `art_front/46/6b213936-d196-40c5-89fb-fad5651618ac.webp`
+- GameEye candidate: **Alchemic Jousts [Limited Edition]** · REVIEW · EDITION_RELAXED · country 34 · 640×814 · `art_front/46/6b213936-d196-40c5-89fb-fad5651618ac.webp`
 
 ### Alice Gear Aegis CS: Concerto of Simulatrix (#2482)
 - Current bucket: **IGDB_LEGACY**
@@ -1059,7 +934,7 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2331.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Bomber Crew: Complete Edition** · REVIEW_EDITION · EDITION_RELAXED · country 1 · 480×592 · `art_front/46/322ae35a-c5f3-4c55-b52b-1ac57a39a5cb.webp`
+- GameEye candidate: **Bomber Crew: Complete Edition** · REVIEW · EDITION_RELAXED · country 1 · 480×592 · `art_front/46/322ae35a-c5f3-4c55-b52b-1ac57a39a5cb.webp`
 
 ### Bounty Battle (#2533)
 - Current bucket: **IGDB_LEGACY**
@@ -1317,7 +1192,7 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3nj1.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Contraptions Collection** · REVIEW_EDITION · EDITION_RELAXED · country 1 · 1191×1500 · `art_front/46/147820_20646ae1-3b39-4d02-b680-75f5d0a4610d.webp`
+- GameEye candidate: **Contraptions Collection** · REVIEW · EDITION_RELAXED · country 1 · 1191×1500 · `art_front/46/147820_20646ae1-3b39-4d02-b680-75f5d0a4610d.webp`
 
 ### Corpse Killer: 25th Anniversary Edition (#269)
 - Current bucket: **IGDB_LEGACY**
@@ -1383,7 +1258,7 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co67t8.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Crymachina [Deluxe Edition]** · REVIEW_EDITION · EDITION_RELAXED · country 1 · 799×1000 · `art_front/46/140764_642d28ee-5af3-4979-9213-c8083910c2de.webp`
+- GameEye candidate: **Crymachina [Deluxe Edition]** · REVIEW · EDITION_RELAXED · country 1 · 799×1000 · `art_front/46/140764_642d28ee-5af3-4979-9213-c8083910c2de.webp`
 
 ### Cursed Castilla EX (#1956)
 - Current bucket: **IGDB_LEGACY**
@@ -1485,7 +1360,7 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5zky.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Dead by Daylight [Special Edition]** · REVIEW_EDITION · EDITION_RELAXED · country 1 · 1201×1500 · `art_front/46/aca52b8b-6062-46c4-b197-3a72bc096539.webp`
+- GameEye candidate: **Dead by Daylight [Special Edition]** · REVIEW · EDITION_RELAXED · country 1 · 1201×1500 · `art_front/46/aca52b8b-6062-46c4-b197-3a72bc096539.webp`
 
 ### DEADBOLT (#335)
 - Current bucket: **IGDB_LEGACY**
@@ -1534,12 +1409,6 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7vod.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
 - GameEye candidate: none confidently title-matched
-
-### Deliver Us The Moon (#347)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co20yy.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Deliver Us The Moon** · HIGH_CONFIDENCE · TITLE_EXACT · country 34 · 900×1200 · `art_front/46/55b165c7-e37c-4df7-9407-a3803b0fc344.webp`
 
 ### Demetrios the Big Cynical Adventure (#1945)
 - Current bucket: **IGDB_LEGACY**
@@ -1653,7 +1522,7 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1wu5.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Dragon Fantasy: The Black Tome of Ice - Special Edition** · REVIEW_EDITION · EDITION_RELAXED · country 1 · 1111×1360 · `art_front/46/ab4db55a-7a71-47d5-90d2-bfef6797c48d.webp`
+- GameEye candidate: **Dragon Fantasy: The Black Tome of Ice - Special Edition** · REVIEW · EDITION_RELAXED · country 1 · 1111×1360 · `art_front/46/ab4db55a-7a71-47d5-90d2-bfef6797c48d.webp`
 
 ### Dragon Lapis (#2039)
 - Current bucket: **IGDB_LEGACY**
@@ -1665,7 +1534,7 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cob9mq.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Dragon Quest Builders [Day One Edition]** · REVIEW_EDITION · EDITION_RELAXED · country 1 · 539×686 · `art_front/46/c89c0ece-2b2a-4b35-b3e7-9a5476010d7a.webp`
+- GameEye candidate: **Dragon Quest Builders [Day One Edition]** · REVIEW · EDITION_RELAXED · country 1 · 539×686 · `art_front/46/c89c0ece-2b2a-4b35-b3e7-9a5476010d7a.webp`
 
 ### Drawfighters (#2460)
 - Current bucket: **IGDB_LEGACY**
@@ -2079,7 +1948,7 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cob42c.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **GrimGrimoire OnceMore [Deluxe Edition]** · REVIEW_EDITION · EDITION_RELAXED · country 1 · 1080×1353 · `art_front/46/0eaa9cac-3c3f-4423-abff-fe8b5d52708b.webp`
+- GameEye candidate: **GrimGrimoire OnceMore [Deluxe Edition]** · REVIEW · EDITION_RELAXED · country 1 · 1080×1353 · `art_front/46/0eaa9cac-3c3f-4423-abff-fe8b5d52708b.webp`
 
 ### Gunborg: Dark Matters (#1896)
 - Current bucket: **IGDB_LEGACY**
@@ -2325,7 +2194,7 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4496.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Isonzo [Deluxe Edition]** · REVIEW_EDITION · EDITION_RELAXED · country 1 · 1204×1500 · `art_front/46/140458_5f967e65-3046-4369-b7c2-10dac3516ba1.webp`
+- GameEye candidate: **Isonzo [Deluxe Edition]** · REVIEW · EDITION_RELAXED · country 1 · 1204×1500 · `art_front/46/140458_5f967e65-3046-4369-b7c2-10dac3516ba1.webp`
 
 ### JackQuest: The Tale of the Sword (#634)
 - Current bucket: **IGDB_LEGACY**
@@ -2369,95 +2238,11 @@ Generated: 2026-09-24T17:26:48.036Z
 - Reason: IGDB cover; may be key art or wrong edition/region
 - GameEye candidate: none confidently title-matched
 
-### Katana Kami: A Way of the Samurai Story (#1647)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2m92.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Katana Kami: A Way of the Samurai Story** · HIGH_CONFIDENCE · TITLE_EXACT · country 3 · 1024×1283 · `art_front/46/a25580c3-d80c-45de-b621-77048b4b860a.webp`
-
-### Ketsui Deathtiny: Kizuna Jigoku Tachi (#2387)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cob8qh.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Ketsui Deathtiny: Kizuna Jigoku Tachi** · HIGH_CONFIDENCE · TITLE_EXACT · country 3 · 500×627 · `art_front/46/0f01532c-83ce-4319-92b1-26b2f9c09150.webp`
-
-### KeyWe (#2319)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3jkn.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **KeyWe** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1522×1900 · `art_front/46/e569d8ab-8324-4f8a-af2a-c796404c5999.webp`
-
 ### Kholat (#1514)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2irc.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
 - GameEye candidate: none confidently title-matched
-
-### Kill la Kill: IF (#659)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1sb8.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Kill la Kill: IF** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1134×1395 · `art_front/46/3d2df81c-d2d1-4f10-adf2-1cae67490a7c.webp`
-
-### Kill the Bad Guy (#1648)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co252d.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Kill the Bad Guy** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 812×1228 · `art_front/46/fced42d6-8fcb-4471-905f-0a8a4e928143.webp`
-
-### Killer Frequency (#2634)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co9mzn.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Killer Frequency** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 792×1000 · `art_front/46/138471_a152e292-aa57-4684-91fd-c8674a3e3984.webp`
-
-### Killing Floor 2 (#660)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2coc.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Killing Floor 2** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1524×1898 · `art_front/46/7482790c-1fb2-4ebe-954a-e62a99e3d7bc.webp`
-
-### King Of Fighters XIII: Global Match (#2637)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co6x5w.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **King of Fighters XIII: Global Match** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 314×478 · `art_front/46/1191ec0b-c119-4313-b58c-8186916b66ad.webp`
-
-### King Of Fighters XV (#2638)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co6gt4.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **King of Fighters XV** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1756×2148 · `art_front/46/7455b8ac-32bf-4541-9ef0-be889df824d0.webp`
-
-### King's Bounty II (#2639)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co8tzi.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **King's Bounty II** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1219×1500 · `art_front/46/68841dce-401c-465a-a327-d0368d199990.webp`
-
-### King's Quest: The Complete Collection (#664)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1s8v.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **King's Quest The Complete Collection** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1523×1898 · `art_front/46/590657c9-039c-471c-a62a-ed4f5205d224.webp`
-
-### Kingdom Come: Deliverance (#665)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4aqi.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Kingdom Come: Deliverance** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 486×600 · `art_front/46/a5f40190-a4df-421d-9663-2103af3800d3.webp`
-
-### Kingdom Hearts HD 2.8 Final Chapter Prologue (#666)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cocb24.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Kingdom Hearts HD 2.8 Final Chapter Prologue** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1520×1889 · `art_front/46/090b468e-919c-4bba-975d-3a911bcbe06e.webp`
-
-### Kingdom Majestic (#670)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2g14.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Kingdom Majestic** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1520×1935 · `art_front/46/6ca00735-6d41-476f-b4d9-e9877c2e6929.webp`
 
 ### Kingdom of Arcadia (#1906)
 - Current bucket: **IGDB_LEGACY**
@@ -2465,89 +2250,11 @@ Generated: 2026-09-24T17:26:48.036Z
 - Reason: IGDB cover; may be key art or wrong edition/region
 - GameEye candidate: none confidently title-matched
 
-### Kingdom: New Lands (#671)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/vuubnxip6x4ka3rlumva.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Kingdom: New Lands** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 640×801 · `art_front/46/18341b98-bdd8-4d63-a138-1939e9469c9d.webp`
-
-### Kingdoms of Amalur: Re-Reckoning (#672)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co28og.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Kingdoms of Amalur Re-Reckoning** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 820×1024 · `art_front/46/9c56b2d9-f786-4f84-aad6-c42a9989378e.webp`
-
-### Klaus (#674)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2cc5.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Klaus** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 990×1221 · `art_front/46/1d2b1997-f4cf-42e6-af15-7c9f3cba3cb2.webp`
-
-### Knack (#675)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4lea.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Knack** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1001×1250 · `art_front/46/7cc3fa0f-476b-409b-952f-0cd850fcb9f5.webp`
-
-### Knights and Bikes (#677)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1yg9.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Knights and Bikes** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 700×875 · `art_front/46/2586dbc5-3499-433b-b938-78432ab63731.webp`
-
-### Knowledge is Power (#678)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1nhc.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Knowledge is Power** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1199×1495 · `art_front/46/29953aca-7104-42ff-83f4-870cc8aa62d6.webp`
-
-### Koihime Enbu RyoRaiRai (#679)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24dy.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Koihime Enbu RyoRaiRai** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1025×1280 · `art_front/46/eee153ae-e159-410e-b5f2-25b863754477.webp`
-
-### Kombinera (#2449)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4o71.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Kombinera** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 754×1138 · `art_front/46/140934_690f44ed-fc65-466a-984d-be69c09cba16.webp`
-
-### Kotodama: The 7 Mysteries of Fujisawa (#680)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2gyc.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Kotodama: The 7 Mysteries of Fujisawa** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1144×1408 · `art_front/46/48ad935b-c084-4eeb-8018-5e6ee47bffad.webp`
-
-### Kromaia Omega (#681)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/wo5wltc0mpci0hvlhcj6.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Kromaia Omega** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 640×812 · `art_front/46/44363a4b-434f-4461-a8cf-489a967a1802.webp`
-
-### Kung Fu Panda: Showdown of Legendary Legends (#682)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1wm3.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Kung Fu Panda: Showdown of Legendary Legends** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1203×1500 · `art_front/46/5c8a824d-4483-4f82-a28f-b8aeb0bd98eb.webp`
-
 ### Kung Fury: Street Rage (#683)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4ero.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
 - GameEye candidate: **Kung Fury: Street Rage** · REVIEW · TITLE_EXACT · country 34 · 240×240 · `art_front/46/18066df5-9fd2-4d14-9239-ebfe579e12d0.webp`
-
-### L.A. Noire (#684)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2ld0.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **L.A. Noire** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1191×1500 · `art_front/46/1cc0e5e0-9843-496b-bda1-cce726de7f08.webp`
-
-### L.O.L. Surprise: B.B.s. Born to Travel (#2640)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5efw.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **L.O.L. Surprise! B.B.s Born to Travel** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 734×919 · `art_front/46/dc4872bc-b91d-4ecb-ae8d-ec9b5d4600f9.webp`
 
 ### La-Mulana (#1649)
 - Current bucket: **IGDB_LEGACY**
@@ -2559,31 +2266,19 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3w00.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **La-Mulana 2** · REVIEW · TITLE_EXACT · country 34 · 700×490 · `art_front/46/a307a471-2847-49c1-be6f-0f661895c8c5.webp`
 
 ### Labyrinth Life (#1650)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1o1i.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
-
-### Labyrinth of Galleria: The Moon Society (#2642)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co68ur.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Labyrinth of Galleria: The Moon Society** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1553×1939 · `art_front/46/2ed23747-0f27-43ab-8f6d-a3ad4628e256.webp`
-
-### Labyrinth of Refrain: Coven of Dusk (#687)
-- Current bucket: **IGDB_LEGACY**
-- Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4wg2.jpg
-- Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: **Labyrinth of Refrain: Coven of Dusk** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1201×1500 · `art_front/46/011ca316-3d7f-474b-b8c2-d8ed44c17cb4.webp`
+- GameEye candidate: **Labyrinth Life** · REVIEW · TITLE_EXACT · country 34 · 1197×1500 · `art_front/46/86c68ac5-ff33-4318-ba81-094713de5167.webp`
 
 ### Labyrinth of Zangetsu (#2643)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4tqb.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Labyrinth of Zangetsu** · REVIEW · TITLE_EXACT · country 1 · 884×1120 · `art_front/46/d1bc63d5-bffe-402b-bcc8-f0bb8a7ac9c9.webp`
 
 ### Lacuna (#1874)
 - Current bucket: **IGDB_LEGACY**
@@ -2601,79 +2296,79 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1kom.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Langrisser I & II** · REVIEW · TITLE_EXACT · country 1 · 353×446 · `art_front/46/605a27e6-3bde-40a4-b063-084408b2bd4a.webp`
 
 ### Lapis x Labyrinth (#690)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co26q3.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Lapis x Labyrinth** · REVIEW · TITLE_EXACT · country 3 · 640×806 · `art_front/46/64cb4064-7c4c-4625-8de7-fcdb7cca8501.webp`
 
 ### Lara Croft and the Temple of Osiris (#691)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1voe.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Lara Croft and the Temple of Osiris** · REVIEW · TITLE_EXACT · country 1 · 1024×1024 · `art_front/46/7947dbf0-fdec-4699-96bd-e3a13ee3366f.webp`
 
 ### Late Shift (#1515)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1njk.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Late Shift** · REVIEW · TITLE_EXACT · country 1 · 640×799 · `art_front/46/14f5fedb-6a12-469c-a10a-a194dc18d74a.webp`
 
 ### Lawn Mowing Simulator: Landmark Edition (#2646)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4v15.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Lawn Mowing Simulator: Landmark Edition** · REVIEW_LOW_RES · TITLE_EXACT · country 1 · 150×194 · `art_front/46/139977_7a90202b-1a0c-40d7-b621-7071725e2f68.webp`
 
 ### Layers of Fear (#694)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1nhw.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Layers of Fear** · REVIEW · TITLE_EXACT · country 1 · 640×640 · `art_front/46/c7a80d6c-c515-46fb-8798-bf27996c112d.webp`
 
 ### Leap of Fate (#1652)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3vsi.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Leap of Fate** · REVIEW · TITLE_EXACT · country 34 · 1024×1024 · `art_front/46/dd124a6b-713a-43f9-9b72-12def5eb2ffc.webp`
 
 ### Legend Of Heroes: Trails Beyond The Horizon (#2647)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cobjgs.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Legend of Heroes: Trails Beyond the Horizon [Deluxe Edition]** · REVIEW · EDITION_RELAXED · country 1 · 1507×1893 · `art_front/46/c45cbb2a-45a7-4de6-99c6-7de5be5d57fc.webp`
 
 ### Legend Of Heroes: Trails From Zero (#2648)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cob8gm.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Legend of Heroes: Trails from Zero** · HIGH_CONFIDENCE · TITLE_EXACT · country 34 · 1200×1600 · `art_front/46/fd62d90c-b8da-4d2f-99a1-1e568946d267.webp`
 
 ### Legend of Ixtona (#2027)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7hue.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Legend of Ixtona** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 844×1260 · `art_front/46/144813_fef92253-608f-4220-af76-95b09cef2f5b.webp`
 
 ### Legend of Kay Anniversary (#697)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1v5r.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Legend of Kay Anniversary** · REVIEW · TITLE_EXACT · country 1 · 1186×1500 · `art_front/46/ce570093-579a-4267-ac6b-e680acee4158.webp`
 
 ### Legend Of Legacy HD Remastered (#2649)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co74we.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Legend of Legacy HD Remastered [Deluxe Edition]** · REVIEW · EDITION_RELAXED · country 1 · 845×1066 · `art_front/46/142699_34e006bf-fdcd-44e4-8830-d4c65253ffef.webp`
 
 ### Legend of Mana Remastered (#2650)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2us6.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Legend of Mana Remastered** · HIGH_CONFIDENCE · TITLE_EXACT · country 34 · 709×966 · `art_front/46/06626cb8-ee15-4112-b700-d83eecb13c73.webp`
 
 ### Legend of the Skyfish (#1936)
 - Current bucket: **IGDB_LEGACY**
@@ -2685,133 +2380,133 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co249s.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Legend of the Tetrarchs** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 775×1191 · `art_front/46/a8beea02-a326-4e3f-ae9f-a28d792b56a6.webp`
 
 ### Legendary Fishing (#698)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5ajb.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Legendary Fishing** · REVIEW · TITLE_EXACT · country 1 · 1527×1938 · `art_front/46/24603500-0564-4c73-a703-acf648d95704.webp`
 
 ### LEGO Batman 3: Beyond Gotham (#699)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3jk7.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **LEGO Batman 3: Beyond Gotham** · REVIEW · TITLE_EXACT · country 1 · 1607×1979 · `art_front/46/35c4cf6a-cb05-4dfa-9524-eee56550e6c9.webp`
 
 ### LEGO Brawls (#2641)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4uj8.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **LEGO Brawls** · REVIEW · TITLE_EXACT · country 1 · 1552×1962 · `art_front/46/6234fd08-37b8-4d2d-8b0d-795f1926c654.webp`
 
 ### LEGO City Undercover (#700)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co9svv.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **LEGO City Undercover** · REVIEW · TITLE_EXACT · country 1 · 1185×1465 · `art_front/46/300b41a7-ef24-442c-9d16-fd50bc16f1a9.webp`
 
 ### LEGO DC Super-Villains (#701)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co26qa.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **LEGO DC Super-Villains** · REVIEW · TITLE_EXACT · country 1 · 1122×1422 · `art_front/46/76de3d13-b437-4458-8f4a-b651456db7f2.webp`
 
 ### LEGO Dimensions (#702)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co8ghf.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **LEGO Dimensions** · REVIEW · TITLE_EXACT · country 1 · 1284×1600 · `art_front/46/3d6ab91d-6309-4775-978d-b8d0b56da16a.webp`
 
 ### LEGO Harry Potter Collection (#703)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2zvl.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **LEGO Harry Potter Collection** · REVIEW · TITLE_EXACT · country 1 · 870×1082 · `art_front/46/92bf68c1-17e3-4926-8096-c4dddd65f9a6.webp`
 
 ### LEGO Jurassic World (#704)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1mws.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **LEGO Jurassic World** · REVIEW · TITLE_EXACT · country 1 · 1546×1924 · `art_front/46/f2e18c42-beed-4000-bbd1-d60c569b31bf.webp`
 
 ### LEGO Marvel Super Heroes (#706)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5bze.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **LEGO Marvel Super Heroes** · REVIEW · TITLE_EXACT · country 1 · 1524×1902 · `art_front/46/07342013-5360-4674-a8b2-598f5c266203.webp`
 
 ### LEGO Marvel Super Heroes 2 (#707)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co27zd.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **LEGO Marvel Super Heroes 2** · REVIEW · TITLE_EXACT · country 1 · 2160×2649 · `art_front/46/fe003d20-8590-4abf-9ac6-ab1958e97b25.webp`
 
 ### LEGO Marvel's Avengers (#708)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2bvz.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **LEGO Marvel's Avengers** · REVIEW · TITLE_EXACT · country 1 · 2160×2657 · `art_front/46/14c6e1a9-c732-4b8c-8108-8f0bba044c5f.webp`
 
 ### LEGO Star Wars: The Force Awakens (#709)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1wnc.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **LEGO Star Wars: The Force Awakens** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 2000×2589 · `art_front/46/9c58130c-ceec-4152-893d-5c0a7a78ccdd.webp`
 
 ### LEGO Star Wars: The Skywalker Saga (#710)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co28yb.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **LEGO Star Wars: The Skywalker Saga** · REVIEW · TITLE_EXACT · country 1 · 1127×1427 · `art_front/46/9603ce79-24f4-41be-a085-6c09c08b4660.webp`
 
 ### LEGO The Hobbit (#711)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cocsb7.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **LEGO The Hobbit** · REVIEW · TITLE_EXACT · country 1 · 1256×1542 · `art_front/46/ec03133f-13e2-4d60-976e-1ea2e317a7d0.webp`
 
 ### LEGO The Incredibles (#712)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3wkq.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **LEGO The Incredibles** · REVIEW · TITLE_EXACT · country 1 · 1134×1410 · `art_front/46/076a8d11-55ea-4ef3-b1f7-91e6dc55917e.webp`
 
 ### LEGO Worlds (#713)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1j95.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **LEGO Worlds** · REVIEW · TITLE_EXACT · country 1 · 1053×1312 · `art_front/46/90a17a50-0f79-4b68-9997-ca070248343c.webp`
 
 ### Lemon Cake (#2321)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2ju9.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Lemon Cake** · REVIEW · TITLE_EXACT · country 1 · 1608×2052 · `art_front/46/85fd1791-5d3e-46ea-95c2-49de0ef23c86.webp`
 
 ### Lethal League (#714)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1tvb.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Lethal League** · REVIEW · TITLE_EXACT · country 1 · 1202×1512 · `art_front/46/bfe15ba5-aa50-4022-928d-e421e3f12751.webp`
 
 ### Lethal League Blaze (#1655)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2toi.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Lethal League Blaze** · REVIEW · TITLE_EXACT · country 3 · 798×1000 · `art_front/46/88b27138-2445-45cd-a9af-ef5639b8d8dd.webp`
 
 ### Liberated (#2389)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1klv.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Liberated** · REVIEW · TITLE_EXACT · country 3 · 470×598 · `art_front/46/140075_3a4ad003-6f63-47c2-a6da-cb20e42d10ea.webp`
 
 ### Lichdom: Battlemage (#715)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2h1x.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Lichdom: Battlemage** · REVIEW_LOW_RES · TITLE_EXACT · country 1 · 388×500 · `art_front/46/565f37fe-82d7-412a-b3c8-6cb64578b234.webp`
 
 ### Lichtspeer (#716)
 - Current bucket: **IGDB_LEGACY**
@@ -2823,31 +2518,31 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co6lxr.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Lies of P** · REVIEW · TITLE_EXACT · country 1 · 1267×1598 · `art_front/46/d19b9228-e1ed-46f5-ac7e-4dc1cc771dcb.webp`
 
 ### Life is Strange (#717)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1r8e.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Life is Strange** · REVIEW · TITLE_EXACT · country 1 · 1202×1500 · `art_front/46/6842ec3c-5c5a-40ff-b604-7585a4e2f7aa.webp`
 
 ### Life is Strange 2 (#718)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1r7p.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Life is Strange 2** · REVIEW · TITLE_EXACT · country 1 · 1202×1500 · `art_front/46/436e2057-5cf4-4bfe-9acf-5573cc94280b.webp`
 
 ### Life is Strange: Before the Storm (#719)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1twj.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Life is Strange: Before the Storm** · REVIEW · TITLE_EXACT · country 1 · 947×1173 · `art_front/46/7b508981-de44-45b3-96e7-f41c39949b63.webp`
 
 ### Lifeless Planet: Premier Edition (#720)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1t6z.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Lifeless Planet: Premier Edition** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 777×1191 · `art_front/46/f56464a2-99f7-4f60-8d2a-c3fd23efd332.webp`
 
 ### Light Fairytale Episode 1 (#1904)
 - Current bucket: **IGDB_LEGACY**
@@ -2865,25 +2560,25 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co59yh.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Like a Dragon: Ishin!** · REVIEW · TITLE_EXACT · country 1 · 1000×1243 · `art_front/46/245bdeb0-39cb-44ef-82b2-2deb2edd1afb.webp`
 
 ### Like A Dragon: Pirate Yakuza in Hawaii (#1518)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co8u8o.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Like A Dragon: Pirate Yakuza in Hawaii** · REVIEW · TITLE_EXACT · country 1 · 1524×1899 · `art_front/46/e0683f0c-8f26-4530-8141-9199f2f599a2.webp`
 
 ### Lili: Child of Geos (#721)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co21bf.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Lili: Child of Geos** · REVIEW · TITLE_EXACT · country 1 · 1100×1392 · `art_front/46/4c7ca8b3-0a1b-4985-85cc-01a6cdbcac08.webp`
 
 ### LIMBO (#2217)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1qrs.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **LIMBO** · REVIEW · TITLE_EXACT · country 34 · 892×1116 · `art_front/46/d79b2dd7-1919-4891-9b63-7fcf9277255c.webp`
 
 ### Little Nightmares III (#1658)
 - Current bucket: **IGDB_LEGACY**
@@ -2895,103 +2590,103 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1q9f.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Little Town Hero** · REVIEW · TITLE_EXACT · country 1 · 480×596 · `art_front/46/9861be4b-b66e-409f-ac0b-27a58fcecd0c.webp`
 
 ### Lock's Quest (#727)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1px4.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Lock's Quest** · REVIEW · TITLE_EXACT · country 1 · 1554×1941 · `art_front/46/0fb949d2-4ee5-4318-ade5-d4ee43af1fb9.webp`
 
 ### LocoRoco (#1659)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2dvq.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **LocoRoco** · REVIEW · TITLE_EXACT · country 34 · 800×800 · `art_front/46/b0af1309-74cf-4c9f-a0cd-6ab678cbb7f7.webp`
 
 ### LocoRoco 2 Remastered (#1660)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2dvp.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **LocoRoco 2 Remastered** · REVIEW · TITLE_EXACT · country 34 · 1024×1024 · `art_front/46/136856_79e296b8-ac8b-41ff-95f4-39398a842c68.webp`
 
 ### Lode Runner Legacy (#1661)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co27z0.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Lode Runner Legacy** · REVIEW_LOW_RES · TITLE_EXACT · country 34 · 535×699 · `art_front/46/112da1d7-e06e-445d-8b3e-d7db64714dd7.webp`
 
 ### Lone Survivor: The Director's Cut (#1662)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2gye.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Lone Survivor: The Director's Cut** · REVIEW · TITLE_EXACT · country 1 · 1127×1354 · `art_front/46/395164cf-2971-4e9b-a90d-5d54bfc433d6.webp`
 
 ### Loopers (#2390)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2mzd.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **LOOPERS** · REVIEW · TITLE_EXACT · country 3 · 796×998 · `art_front/46/52cbf0fd-63e2-44b2-a9ba-b7870983c365.webp`
 
 ### Lord Winklebottom Investigates (#2423)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2m9b.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Lord Winklebottom Investigates** · REVIEW · TITLE_EXACT · country 1 · 658×820 · `art_front/46/142678_b2007a0b-0de0-46b6-8160-95a9ac2f0592.webp`
 
 ### Lords of the Fallen (#729)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1nzt.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Lords of the Fallen** · REVIEW · TITLE_EXACT · country 1 · 1205×1500 · `art_front/46/b60881e3-c8dc-4ca0-ab67-8ccd4d87576e.webp`
 
 ### Lost Ruins (#1850)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2oij.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Lost Ruins** · HIGH_CONFIDENCE · TITLE_EXACT · country 34 · 1200×1600 · `art_front/46/b1d7a4b3-8051-4e58-bfac-8d3579ce6371.webp`
 
 ### Lost Sea (#730)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co26qn.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Lost Sea** · REVIEW · TITLE_EXACT · country 34 · 1127×1344 · `art_front/46/3ad989dc-b5a8-4563-a764-f2df593dc558.webp`
 
 ### Lost Sphear (#731)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1pwu.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Lost Sphear** · REVIEW · TITLE_EXACT · country 1 · 1609×2018 · `art_front/46/2e6c9e1a-59d5-4965-8d06-a0d1ddf059cc.webp`
 
 ### Lovers in a Dangerous Spacetime (#732)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2543.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Lovers in a Dangerous Spacetime** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1216×1856 · `art_front/46/0f0aa5a7-3d5b-458d-80e1-1c6975096635.webp`
 
 ### Lumines Remastered (#733)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co26qs.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Lumines Remastered** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 808×1228 · `art_front/46/0b0e69aa-0709-4811-986e-9fb654171e1b.webp`
 
 ### Lumote: The Mastermote Chronicles (#1833)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4oj0.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Lumote: The Mastermote Chronicles** · REVIEW · TITLE_EXACT · country 1 · 867×1089 · `art_front/46/935a899d-f29e-4e24-afb2-343df7b5f42c.webp`
 
 ### LUNARK (#2014)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2b9h.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Lunark** · REVIEW_LOW_RES · TITLE_EXACT · country 1 · 400×608 · `art_front/46/147965_e1834b62-87c9-4ac1-8354-144a154156aa.webp`
 
 ### MACROSS -Shooting Insight- (#1844)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7ara.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **MACROSS -Shooting Insight-** · REVIEW · TITLE_EXACT · country 3 · 749×939 · `art_front/46/150131_981f7236-2fa6-4ef2-b927-e83ba7251ff4.webp`
 
 ### Macrotis: A Mother's Journey (#1988)
 - Current bucket: **IGDB_LEGACY**
@@ -3009,13 +2704,13 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1uuh.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mad Max** · REVIEW · TITLE_EXACT · country 1 · 1551×1931 · `art_front/46/3c9d0a9d-2b32-47d4-a451-a0f99f5debce.webp`
 
 ### Mad Rat Dead (#736)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2k1i.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mad Rat Dead** · REVIEW · TITLE_EXACT · country 1 · 1194×1500 · `art_front/46/16cdd818-f753-4031-8c8b-1ee74406cdc0.webp`
 
 ### Mad Tower Tycoon (#2653)
 - Current bucket: **IGDB_LEGACY**
@@ -3027,97 +2722,97 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co9jw0.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mado Monogatari: Fia and the Wondrous Academy** · REVIEW · TITLE_EXACT · country 1 · 445×570 · `art_front/46/80715171-a7d6-47a0-862b-20a135d46db1.webp`
 
 ### Mafia II: Definitive Edition (#737)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co26zi.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mafia II: Definitive Edition** · REVIEW · TITLE_EXACT · country 34 · 300×300 · `art_front/46/cb238634-b515-4ff2-a7d3-d0eef68ea243.webp`
 
 ### Mafia: Definitive Edition (#739)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co26vl.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mafia: Definitive Edition** · REVIEW · TITLE_EXACT · country 1 · 474×591 · `art_front/46/09f9c27f-95b1-40dc-8b4d-ef40ac4b1e54.webp`
 
 ### Mages of Mystralia (#1663)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/dkqoabfj9ka5p0vbeqie.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mages of Mystralia** · REVIEW · TITLE_EXACT · country 1 · 1216×1507 · `art_front/46/fac56fd9-96fd-4879-9ef3-ad7878934d62.webp`
 
 ### Magicka 2 (#1664)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1qrv.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Magicka 2** · REVIEW · TITLE_EXACT · country 1 · 967×1113 · `art_front/46/0fccbd17-f176-4adf-a7e0-db3f43b9e17f.webp`
 
 ### Maid of Sker (#741)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co25mq.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Maid of Sker** · REVIEW · TITLE_EXACT · country 1 · 648×819 · `art_front/46/16e0c718-2a6f-4c5c-8d62-d9757ecf37e7.webp`
 
 ### Maneater (#742)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1lx6.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Maneater** · REVIEW · TITLE_EXACT · country 1 · 1033×1287 · `art_front/46/198656d2-bc4e-47e1-886e-2f536ce9bc6e.webp`
 
 ### Marchen Forest (#2392)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5j4k.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Marchen Forest** · REVIEW · TITLE_EXACT · country 3 · 255×315 · `art_front/46/136179_e601032c-73fb-41f8-b330-62cf540a9ec3.webp`
 
 ### Marenian Tavern Story: Patty and the Hungry God (#1666)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co249v.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Marenian Tavern Story: Patty and the Hungry God** · REVIEW · TITLE_EXACT · country 1 · 875×1082 · `art_front/46/7e71b5ed-5420-4d34-95dd-74fd4aa96145.webp`
 
 ### Mark McMorris Infinite Air (#743)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4r2l.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mark McMorris Infinite Air** · REVIEW · TITLE_EXACT · country 1 · 1235×1500 · `art_front/46/5baadca0-a078-482f-9a9c-d5f5ebacea24.webp`
 
 ### Marsupilami: Hoobadventure (#2425)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co31am.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Marsupilami: Hoobadventure** · REVIEW · TITLE_EXACT · country 1 · 1228×1561 · `art_front/46/5b64cbd8-4542-4891-aa6c-92ad55c074c5.webp`
 
 ### Martha Is Dead (#1519)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2or1.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Martha Is Dead** · REVIEW · TITLE_EXACT · country 1 · 596×730 · `art_front/46/8c01d386-53ef-4d65-8666-c25e639e828a.webp`
 
 ### Marvel vs. Capcom: Infinite (#744)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1wqa.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Marvel vs. Capcom: Infinite** · REVIEW · TITLE_EXACT · country 1 · 1803×2272 · `art_front/46/c4a08c20-bcf5-4fcc-8625-656a95d3288b.webp`
 
 ### Marvel's Avengers (#1667)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2edq.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Marvel's Avengers [Deluxe Edition]** · REVIEW · EDITION_RELAXED · country 1 · 1203×1500 · `art_front/46/233edce9-7e9a-4d78-8a14-4810b796fa8a.webp`
 
 ### Marvel's Guardians of the Galaxy: The Telltale Series (#745)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co27yt.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Marvel's Guardians of the Galaxy: The Telltale Series** · REVIEW · TITLE_EXACT · country 1 · 800×994 · `art_front/46/f887be0c-80c9-46da-b558-0d13663ebf8a.webp`
 
 ### Mary Skelter Finale (#2322)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3wct.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mary Skelter Finale** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1168×1500 · `art_front/46/694bb37d-93c6-4368-902f-b52557186420.webp`
 
 ### Mask of Mists (#1899)
 - Current bucket: **IGDB_LEGACY**
@@ -3141,7 +2836,7 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co26y5.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Max: The Curse of Brotherhood** · REVIEW · TITLE_EXACT · country 1 · 867×1069 · `art_front/46/94bcb239-a8dd-4485-a189-c68693237aa6.webp`
 
 ### Mayhem Brawler (#1894)
 - Current bucket: **IGDB_LEGACY**
@@ -3153,49 +2848,49 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24fb.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mecho Tales** · REVIEW · TITLE_EXACT · country 1 · 640×640 · `art_front/46/1ec4b4c2-70fe-4c83-89fe-87d90d992699.webp`
 
 ### Mega Man 11 (#752)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1zyu.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mega Man 11** · REVIEW · TITLE_EXACT · country 1 · 903×1145 · `art_front/46/17cb9dde-545a-4aa8-b1fd-64c5eee47ef8.webp`
 
 ### Mega Man Legacy Collection (#753)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co204v.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mega Man Legacy Collection** · REVIEW · TITLE_EXACT · country 1 · 1528×1904 · `art_front/46/3b5d54c5-f14a-4908-b5ae-52300a8d7802.webp`
 
 ### Mega Man Legacy Collection 2 (#754)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co204r.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mega Man Legacy Collection 2** · REVIEW · TITLE_EXACT · country 1 · 3573×4385 · `art_front/46/a429adfd-f628-4250-8fd1-c7338da5ded8.webp`
 
 ### Mega Man Zero / ZX Legacy Collection (#758)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co204w.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mega Man Zero / ZX Legacy Collection** · REVIEW · TITLE_EXACT · country 1 · 1205×1516 · `art_front/46/96ad8a0b-5d6b-464b-b954-a03425d35a59.webp`
 
 ### Megadimension Neptunia VII (#759)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2h5a.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Megadimension Neptunia VII** · REVIEW · TITLE_EXACT · country 1 · 6048×7560 · `art_front/46/1fa387f3-3919-4d1f-a38b-fab519b50f5c.webp`
 
 ### Megadimension Neptunia VIIR (#760)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1syz.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Megadimension Neptunia VIIR** · REVIEW · TITLE_EXACT · country 1 · 734×919 · `art_front/46/a0311a3f-cc00-4ac8-87a3-20cb629680ac.webp`
 
 ### Megaquarium (#2324)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co27m1.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Megaquarium** · REVIEW · TITLE_EXACT · country 3 · 1218×1500 · `art_front/46/136277_fd7b581c-b81d-44c7-b6c7-d0163234d893.webp`
 
 ### Memorrha (#2463)
 - Current bucket: **IGDB_LEGACY**
@@ -3207,7 +2902,7 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co45l6.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mercenaries Wings: The False Phoenix** · REVIEW · TITLE_EXACT · country 1 · 1523×1898 · `art_front/46/f7bc9a4a-f92e-47b6-870f-e9c36d9c9b8c.webp`
 
 ### Mercenary Kings (#762)
 - Current bucket: **IGDB_LEGACY**
@@ -3219,31 +2914,31 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1krg.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Metagal** · REVIEW · TITLE_EXACT · country 34 · 600×600 · `art_front/46/402c05a6-3280-464a-a181-60ec6363c21b.webp`
 
 ### Metal Gear Solid V: Ground Zeroes (#764)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1v88.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Metal Gear Solid V: Ground Zeroes** · REVIEW · TITLE_EXACT · country 1 · 1528×1899 · `art_front/46/3ee668c7-14e0-43a1-a59a-63a95022379b.webp`
 
 ### Metal Gear Solid V: The Phantom Pain (#766)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1v85.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Metal Gear Solid V: The Phantom Pain** · REVIEW · TITLE_EXACT · country 1 · 640×802 · `art_front/46/c80626a3-466b-4e20-b1d2-9829e2c6973d.webp`
 
 ### Metal Max Xeno (#768)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co27m6.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Metal Max Xeno** · REVIEW · TITLE_EXACT · country 1 · 1554×1939 · `art_front/46/e0a481cd-3263-4339-b283-1c6a721f10bd.webp`
 
 ### Metal Slug 3 (#769)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cobu6o.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Metal Slug 3** · REVIEW · TITLE_EXACT · country 1 · 480×602 · `art_front/46/1d347fb2-785e-4f71-b90a-1fe51687303d.webp`
 
 ### Metal Slug Anthology (#770)
 - Current bucket: **IGDB_LEGACY**
@@ -3255,37 +2950,37 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2h3s.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Metal Slug XX** · REVIEW · TITLE_EXACT · country 1 · 588×719 · `art_front/46/6a2f458a-0023-402e-9f9f-7514761c87f0.webp`
 
 ### Metal Wolf Chaos XD (#772)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4keg.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Metal Wolf Chaos XD** · REVIEW · TITLE_EXACT · country 1 · 2000×2528 · `art_front/46/ed3596b4-87d0-4b78-ae65-530cf6684c0e.webp`
 
 ### Metaloid: Origin (#1891)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1uqx.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Metaloid: Origin** · REVIEW · TITLE_EXACT · country 1 · 764×970 · `art_front/46/96dc8cee-4ba7-4d50-8e1b-e70bd8cf3315.webp`
 
 ### Metaphor: ReFantazio (#2051)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co8d9t.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Metaphor: ReFantazio** · REVIEW · TITLE_EXACT · country 34 · 1203×1488 · `art_front/46/cf7910bd-180f-4201-a9b9-9df4b7853dab.webp`
 
 ### Metro Exodus (#773)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/coaroh.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Metro Exodus** · REVIEW · TITLE_EXACT · country 1 · 2046×2560 · `art_front/46/04af4985-f100-4ccf-9d0a-83b6956e05a7.webp`
 
 ### Metro Redux (#774)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4b2q.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Metro Redux** · REVIEW · TITLE_EXACT · country 1 · 800×1006 · `art_front/46/2116cd23-d5fa-4e21-be15-cf077cf59041.webp`
 
 ### Metropolis: Lux Obscura (#775)
 - Current bucket: **IGDB_LEGACY**
@@ -3297,37 +2992,37 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1nzu.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Micro Machines: World Series** · REVIEW · TITLE_EXACT · country 1 · 1005×1237 · `art_front/46/eb95588b-ca11-4e23-874b-7f06ea69fd5c.webp`
 
 ### Miden Tower (#1815)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co23fo.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Miden Tower** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 782×1200 · `art_front/46/b62ad353-33ae-4d8d-bbab-070877948acb.webp`
 
 ### Mighty Fight Federation (#2029)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1yrv.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mighty Fight Federation** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 754×1138 · `art_front/46/142690_5e1910bf-67b7-41c7-9b12-b4b0fa12782f.webp`
 
 ### Mighty Goose (#2325)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2hb5.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mighty Goose** · REVIEW · TITLE_EXACT · country 1 · 1200×1332 · `art_front/46/e5c7d906-c7bd-4595-8985-11fb4a897e43.webp`
 
 ### Mighty No. 9 (#779)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2ia0.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mighty No. 9** · REVIEW · TITLE_EXACT · country 1 · 1204×1521 · `art_front/46/d912a8e4-50ba-4770-aeab-b0cdc77586af.webp`
 
 ### Mighty Switch Force! Collection (#780)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cob8y4.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mighty Switch Force! Collection** · REVIEW · TITLE_EXACT · country 1 · 1383×1536 · `art_front/46/a4b92713-c8ef-4a55-aabe-a647a4c519e4.webp`
 
 ### Milli & Greg (#1887)
 - Current bucket: **IGDB_LEGACY**
@@ -3339,13 +3034,13 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co233r.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Minecraft Dungeons** · REVIEW · TITLE_EXACT · country 34 · 800×1001 · `art_front/46/b6eba88b-81a2-4e89-88c0-24695bdc05a4.webp`
 
 ### Minecraft: PlayStation 4 Edition (#782)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co89e6.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Minecraft: PlayStation 4 Edition** · REVIEW · TITLE_EXACT · country 1 · 1204×1500 · `art_front/46/52abfcd2-585e-4029-92c1-372cbd9903ed.webp`
 
 ### Minecraft: Story Mode - A Telltale Games Series (#783)
 - Current bucket: **IGDB_LEGACY**
@@ -3357,73 +3052,73 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1vin.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Minecraft: Story Mode - Season Two: The Telltale Series** · REVIEW · TITLE_EXACT · country 1 · 1085×1386 · `art_front/46/4ba0c5b7-b3e4-4af3-87f3-b6a2c16e4eb7.webp`
 
 ### Minit (#785)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1vcj.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Minit** · REVIEW · TITLE_EXACT · country 1 · 434×545 · `art_front/46/d14a2234-75a4-47f3-bb76-9e3ae2237da7.webp`
 
 ### Minoria (#1840)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2ke0.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Minoria** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 816×1244 · `art_front/46/86df07af-c25b-44b0-971e-0648e77cc8b4.webp`
 
 ### MISTOVER (#1672)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2fa6.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mistover** · REVIEW · TITLE_EXACT · country 3 · 255×318 · `art_front/46/136180_c74de895-68bc-4030-997e-6616530254e9.webp`
 
 ### Mitsurugi Kamui Hikae (#1673)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co27mc.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mitsurugi Kamui Hikae** · REVIEW · TITLE_EXACT · country 1 · 1383×1536 · `art_front/46/357a2d4a-acca-48d3-9583-9fdeee4836fd.webp`
 
 ### Mobile Suit Gundam: Extreme VS. MaxiBoost ON (#787)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2c6y.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mobile Suit Gundam: Extreme Vs. Maxiboost ON** · REVIEW · TITLE_EXACT · country 34 · 1050×1324 · `art_front/46/146255_499a48ea-cd6e-4f2c-b688-d4a1edf9c462.webp`
 
 ### Momodora: Reverie Under the Moonlight (#1674)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2xu6.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Momodora: Reverie Under the Moonlight** · REVIEW · TITLE_EXACT · country 1 · 1213×1516 · `art_front/46/1526ece8-d37b-45e4-89c0-fd83f5ca1a4f.webp`
 
 ### Monochrome Order (#1837)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24c0.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Monochrome Order** · REVIEW · TITLE_EXACT · country 1 · 767×945 · `art_front/46/ef20a5dc-d2de-4449-a83d-635eaf88a2af.webp`
 
 ### Monopoly Plus (#1675)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3wm9.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **MONOPOLY PLUS** · REVIEW · TITLE_EXACT · country 34 · 640×640 · `art_front/46/56852043-12f4-48ca-bf6b-00bee4fa9275.webp`
 
 ### Monopoly: Family Fun Pack (#789)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2gw4.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Monopoly: Family Fun Pack** · REVIEW · TITLE_EXACT · country 1 · 1177×1500 · `art_front/46/10790534-510f-422a-92bc-5059ce1634ef.webp`
 
 ### Monster Boy and the Cursed Kingdom (#790)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co27mg.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Monster Boy and the Cursed Kingdom** · REVIEW · TITLE_EXACT · country 1 · 1202×1500 · `art_front/46/2a5fc690-0592-45fc-9d57-7f28191ca60d.webp`
 
 ### Monster Hunter: World - Iceborne (#792)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1pds.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Monster Hunter: World [Iceborne]** · REVIEW · TITLE_EXACT · country 1 · 1136×1417 · `art_front/46/8e8e77a9-deff-434e-80a9-563893dff48a.webp`
 
 ### Monster Prom XXL (#1923)
 - Current bucket: **IGDB_LEGACY**
@@ -3435,37 +3130,37 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1q3q.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Monster Sanctuary** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 802×1250 · `art_front/46/139997_3f63437c-f81e-4266-aea0-7283a565bd0b.webp`
 
 ### Monstrum (#793)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co23ju.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Monstrum** · REVIEW · TITLE_EXACT · country 1 · 803×1000 · `art_front/46/afb8e3a8-55e6-46fb-957b-d40b7f3ec839.webp`
 
 ### Moonlighter (#794)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1vck.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Moonlighter** · REVIEW · TITLE_EXACT · country 1 · 640×798 · `art_front/46/9e6305ed-f404-48f9-b816-0c53d597a87c.webp`
 
 ### Moonscars (#2326)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4kle.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Moonscars** · REVIEW · TITLE_EXACT · country 1 · 763×946 · `art_front/46/d2c5f8fe-9204-43ae-852b-3663184449a3.webp`
 
 ### Mortal Kombat X (#797)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1y08.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mortal Kombat X** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1544×2000 · `art_front/46/1aef5a6a-a1eb-4c43-8201-d0932fa38c86.webp`
 
 ### Mortal Shell (#2327)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co227z.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mortal Shell** · REVIEW · TITLE_EXACT · country 1 · 1297×1649 · `art_front/46/4515297b-10b5-4d3a-9041-514c6649c413.webp`
 
 ### Mother Russia Bleeds (#800)
 - Current bucket: **IGDB_LEGACY**
@@ -3477,19 +3172,19 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/r9nintb9ccjaubcfbk28.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mothergunship** · REVIEW · TITLE_EXACT · country 1 · 480×601 · `art_front/46/2d97c519-cb11-4230-bc42-fc73548e2df4.webp`
 
 ### Moving Out (#802)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1xlt.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Moving Out** · REVIEW · TITLE_EXACT · country 1 · 480×595 · `art_front/46/49b40406-3d2e-421a-893d-b67e517466e3.webp`
 
 ### Mozart Requiem (#803)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2taa.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mozart Requiem** · REVIEW · TITLE_EXACT · country 1 · 980×1248 · `art_front/46/73e95fea-3333-46cb-a68f-29d67b975dd8.webp`
 
 ### Mulaka (#2095)
 - Current bucket: **IGDB_LEGACY**
@@ -3501,13 +3196,13 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1r7a.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Murdered: Soul Suspect** · REVIEW · TITLE_EXACT · country 1 · 1203×1500 · `art_front/46/b7681146-a974-4ab1-bd30-a687018a9a57.webp`
 
 ### Musynx (#805)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co27mn.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Musynx** · REVIEW · TITLE_EXACT · country 1 · 1204×1512 · `art_front/46/228a00dd-2308-46d0-88b4-f560f7c4095c.webp`
 
 ### Mutant Football League (#806)
 - Current bucket: **IGDB_LEGACY**
@@ -3519,25 +3214,25 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co31dp.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mutant Mudds Deluxe** · REVIEW_LOW_RES · TITLE_EXACT · country 1 · 196×257 · `art_front/46/9501103c-6e0d-44f6-b870-5cab348068d4.webp`
 
 ### Mutant Mudds: Super Challenge (#808)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co31dr.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mutant Mudds: Super Challenge** · REVIEW_LOW_RES · TITLE_EXACT · country 1 · 196×257 · `art_front/46/bd4ac859-6bbf-4704-a1b7-beae522269aa.webp`
 
 ### Mutant Year Zero: Road to Eden (#809)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1z3b.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mutant Year Zero: Road to Eden [Deluxe Edition]** · REVIEW · EDITION_RELAXED · country 1 · 480×601 · `art_front/46/e179b52c-de71-40a9-a5cc-b3e5ecb995d5.webp`
 
 ### Mutazione (#810)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1uxn.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mutazione** · REVIEW · TITLE_EXACT · country 1 · 763×951 · `art_front/46/80761436-b731-41f6-936e-a80cb02554f2.webp`
 
 ### My Aunt is a Witch (#1982)
 - Current bucket: **IGDB_LEGACY**
@@ -3549,61 +3244,61 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/coa4j0.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **My Friend Pedro** · REVIEW · TITLE_EXACT · country 1 · 298×371 · `art_front/46/546bc75a-759a-4c09-ba43-a9c9b745cc76.webp`
 
 ### My Friend Peppa Pig (#2427)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3irs.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **My Friend Peppa Pig** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1070×1382 · `art_front/46/aa3534ff-50a1-4e27-b053-38b85efdcb8b.webp`
 
 ### My Hero One's Justice (#812)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2qrf.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **My Hero One's Justice** · REVIEW · TITLE_EXACT · country 1 · 1204×1500 · `art_front/46/3bf5b475-e8ce-4504-926f-07a2b20f1fb2.webp`
 
 ### My Hero One's Justice 2 (#813)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2hy5.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **My Hero One's Justice 2** · REVIEW · TITLE_EXACT · country 1 · 1525×1900 · `art_front/46/b8eb61db-19d0-40b8-b02b-195f6b40ff75.webp`
 
 ### My Time At Portia (#814)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/fkgei0bjlkkv8psmcrb1.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **My Time at Portia** · REVIEW · TITLE_EXACT · country 1 · 480×595 · `art_front/46/265b3e8f-6de1-466e-9af5-3ade4226ab5c.webp`
 
 ### Mystery Chronicle: One Way Heroics (#815)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3iyg.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mystery Chronicle: One Way Heroics** · REVIEW · TITLE_EXACT · country 1 · 1111×1360 · `art_front/46/e2b3c9ba-dc4e-421d-9df2-0661565cdb07.webp`
 
 ### Mystik Belle (#2328)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/r6noxq7bkyudt1hnzfk5.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mystik Belle** · REVIEW · TITLE_EXACT · country 1 · 399×500 · `art_front/46/bea6c72b-6c73-4234-88e7-fdf8ed7d103b.webp`
 
 ### MythForce (#2016)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4nwg.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **MythForce** · REVIEW_LOW_RES · TITLE_EXACT · country 1 · 402×610 · `art_front/46/147819_207a4fbc-fd78-4dd8-9343-f7cd62d93f62.webp`
 
 ### Mythic Ocean (#2002)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1xfu.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Mythic Ocean** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 677×868 · `art_front/46/44d53ab7-a800-4ac7-a116-55e3f04d6743.webp`
 
 ### N.E.R.O.: Nothing Ever Remains Obscure (#816)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1z3c.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **N.E.R.O.: Nothing Ever Remains Obscure** · REVIEW · TITLE_EXACT · country 1 · 1525×1904 · `art_front/46/d3fffc3a-e3ee-431c-800b-d8cc3bd4e1da.webp`
 
 ### N++ (#1676)
 - Current bucket: **IGDB_LEGACY**
@@ -3615,49 +3310,49 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24d6.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Narcos: Rise of the Cartels** · REVIEW · TITLE_EXACT · country 1 · 1024×1300 · `art_front/46/d1103c5a-0c51-4e38-b8b5-4c74aa405ec6.webp`
 
 ### Narcosis (#818)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co27y2.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Narcosis** · REVIEW · TITLE_EXACT · country 1 · 640×640 · `art_front/46/4861f1f9-37bd-4195-9944-2bb53412795c.webp`
 
 ### Naruto Shippuden: Ultimate Ninja Storm 4 (#820)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3whm.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Naruto Shippuden: Ultimate Ninja Storm 4** · REVIEW · TITLE_EXACT · country 1 · 1525×1900 · `art_front/46/20a36c18-9917-4785-9e6b-91556d5e6c73.webp`
 
 ### Naruto to Boruto: Shinobi Striker (#822)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/fwx6dgszjzxuyxegltlh.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Naruto to Boruto: Shinobi Striker** · REVIEW · TITLE_EXACT · country 1 · 480×601 · `art_front/46/88bbd7f9-3641-48b0-8367-5cdb75a72644.webp`
 
 ### Naruto x Boruto: Ultimate Ninja Storm Connections (#2656)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7jto.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Naruto x Boruto: Ultimate Ninja Storm Connections** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1134×1520 · `art_front/46/78e38523-63cd-48ae-b8a6-ee83694ba2a9.webp`
 
 ### Naruto: Ultimate Ninja Storm (#823)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1u9d.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Naruto: Ultimate Ninja Storm** · REVIEW · TITLE_EXACT · country 34 · 640×640 · `art_front/46/612fea46-5c19-459c-85ac-ed2d9a8aa36b.webp`
 
 ### Natsuki Chronicles (#2097)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co205v.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Natsuki Chronicles** · REVIEW · TITLE_EXACT · country 34 · 1024×1024 · `art_front/46/76199231-e38f-4136-98dc-24424f42def9.webp`
 
 ### Natural Doctrine (#824)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2qt6.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Natural Doctrine** · REVIEW · TITLE_EXACT · country 1 · 1197×1500 · `art_front/46/d79ab90d-bdcb-4e6d-af82-d4da671f0f19.webp`
 
 ### Naught: Extended Edition (#2657)
 - Current bucket: **IGDB_LEGACY**
@@ -3669,175 +3364,175 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2yt5.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Nayuta no Kiseki: Kai** · REVIEW · TITLE_EXACT · country 3 · 420×527 · `art_front/46/140416_31898c39-e6fb-46d8-a631-250d26f87b47.webp`
 
 ### Necromunda: Hired Gun (#2659)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co31dd.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Necromunda :Hired Gun** · REVIEW · TITLE_EXACT · country 1 · 1228×1500 · `art_front/46/bbd1eef4-cf00-4485-b2b7-08071c98eeda.webp`
 
 ### Necrosphere Deluxe (#1677)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1iwl.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Necrosphere Deluxe** · REVIEW · TITLE_EXACT · country 34 · 599×755 · `art_front/46/e398d4c1-bd9e-4506-a36c-8aad69750d45.webp`
 
 ### Need for Speed (#825)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co20a2.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Need for Speed** · REVIEW · TITLE_EXACT · country 1 · 1528×1904 · `art_front/46/96225c0b-be1f-4b69-851c-87f3be903a71.webp`
 
 ### Need for Speed Heat (#826)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/coar0x.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Need for Speed Heat** · REVIEW · TITLE_EXACT · country 1 · 640×797 · `art_front/46/3d74ca1c-cb73-47ed-8270-ad932b2c4f1b.webp`
 
 ### Need for Speed Payback (#827)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co209y.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Need for Speed: Payback** · REVIEW · TITLE_EXACT · country 1 · 800×1002 · `art_front/46/818ccb45-fe14-4528-bcae-bbd8d0e9b94a.webp`
 
 ### Need for Speed: Rivals (#828)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co20a3.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Need for Speed: Rivals** · REVIEW · TITLE_EXACT · country 1 · 397×500 · `art_front/46/283e5795-a4ff-4e45-8376-7a6d82d76636.webp`
 
 ### Nelke & the Legendary Alchemists: Ateliers of the New World (#829)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co21dr.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Nelke & the Legendary Alchemists: Ateliers of The New World** · REVIEW · TITLE_EXACT · country 1 · 1184×1462 · `art_front/46/cee82b96-3744-43f8-a51c-b5e4d339b447.webp`
 
 ### NEO: The World Ends With You (#1520)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co8kzv.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **NEO: The World Ends With You** · REVIEW · TITLE_EXACT · country 1 · 494×617 · `art_front/46/d99f70e8-b12a-4af8-b297-bc91f442e463.webp`
 
 ### Neon Abyss (#830)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2yg7.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Neon Abyss** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 668×1034 · `art_front/46/b7928634-ddb0-4b01-a176-18ef44cca70f.webp`
 
 ### Neon City Riders (#831)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co21qe.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Neon City Riders** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 775×1191 · `art_front/46/587dc29a-d636-412e-9435-ba51319b0412.webp`
 
 ### Neonwall (#1678)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1tjr.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Neonwall** · REVIEW · TITLE_EXACT · country 1 · 480×599 · `art_front/46/654c2592-043a-4726-9da5-207419c18322.webp`
 
 ### Neptunia Virtual Stars (#2662)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2av1.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Neptunia Virtual Stars** · REVIEW · TITLE_EXACT · country 1 · 480×600 · `art_front/46/5604d6d9-ba33-43a5-967e-0b5ddbe9307a.webp`
 
 ### Neptunia X Senran Kagura: Ninja Wars (#2663)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3rn2.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Neptunia x Senran Kagura: Ninja Wars** · REVIEW · TITLE_EXACT · country 1 · 1186×1473 · `art_front/46/e15cae59-50f3-41cb-946e-fd90ca10b7fc.webp`
 
 ### Neptunia: Sisters VS Sisters (#2664)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7od5.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Neptunia: Sisters Vs Sisters** · REVIEW · TITLE_EXACT · country 1 · 789×1000 · `art_front/46/733fa4a8-aff9-4059-8456-390f0eecb1a7.webp`
 
 ### NERF Legends (#2654)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7i03.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **NERF Legends** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1282×1653 · `art_front/46/b1d94267-84e6-4b39-a50f-0d899d6949b5.webp`
 
 ### NeuroVoider (#832)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1n3z.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **NeuroVoider [Limited Edition]** · REVIEW · EDITION_RELAXED · country 1 · 1200×1333 · `art_front/46/54b5bebd-e702-4f7e-bb9c-48c4a68b92b5.webp`
 
 ### NeverAwake (#2329)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5tev.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **NeverAwake** · REVIEW · TITLE_EXACT · country 3 · 1134×1414 · `art_front/46/e6371a67-1f57-42ec-81b5-723f93d10e9e.webp`
 
 ### Neverending Nightmares (#1679)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1r2q.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Neverending Nightmares** · REVIEW · TITLE_EXACT · country 1 · 1094×1386 · `art_front/46/ea57382b-5a9d-4074-bdfa-b5e8e2645490.webp`
 
 ### Neversong (#2330)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2b9m.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Neversong** · REVIEW · TITLE_EXACT · country 34 · 1024×1024 · `art_front/46/c8aa4a9c-93d9-4d7c-b82d-8d207ac62889.webp`
 
 ### Neverwinter Nights: Enhanced Edition (#834)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1ndm.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Neverwinter Nights: Enhanced Edition** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1117×1433 · `art_front/46/0f3e4005-0609-497e-88dc-e1c46cbce3a1.webp`
 
 ### Nex Machina (#1521)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1twn.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Nex Machina** · REVIEW · TITLE_EXACT · country 1 · 1206×1512 · `art_front/46/cdddeeab-809f-4a9f-9f9e-2bdab782a784.webp`
 
 ### Nexomon: Extinction (#836)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4eq6.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Nexomon: Extinction** · REVIEW · TITLE_EXACT · country 1 · 1029×1290 · `art_front/46/8a0db3bd-2ac0-4d17-99c6-0f0ff16f1343.webp`
 
 ### NHRA Championship Drag Racing: Speed For All (#2655)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7i0a.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **NHRA Championship Drag Racing: Speed For All** · REVIEW · TITLE_EXACT · country 1 · 1179×1505 · `art_front/46/08680fc3-cead-455d-a506-2f3a359dfbf6.webp`
 
 ### Nickelodeon Kart Racers (#839)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2que.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Nickelodeon Kart Racers** · REVIEW · TITLE_EXACT · country 1 · 480×599 · `art_front/46/bb0cca1f-7aea-43bc-b03d-cdcbc677579f.webp`
 
 ### Nickelodeon Kart Racers 2: Grand Prix (#840)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2gka.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Nickelodeon Kart Racers 2: Grand Prix** · REVIEW · TITLE_EXACT · country 1 · 1518×1891 · `art_front/46/0ac27761-b80c-4872-807a-a2e0915277f4.webp`
 
 ### Night Book (#2011)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3gin.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Night Book** · REVIEW_LOW_RES · TITLE_EXACT · country 1 · 346×535 · `art_front/46/8a9168ef-1635-4276-8d1a-729555a17e32.webp`
 
 ### Night in the Woods (#843)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4ovg.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Night in the Woods** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 736×1135 · `art_front/46/176b2d9d-6472-4661-a6ad-b3ff775e4e73.webp`
 
 ### Night Trap: 25th Anniversary Edition (#844)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2ufg.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Night Trap: 25th Anniversary Edition** · REVIEW · TITLE_EXACT · country 1 · 1100×1392 · `art_front/46/9cd92ec5-6cb5-4b55-90e0-b8099237feaf.webp`
 
 ### Nightmare Boy (#1680)
 - Current bucket: **IGDB_LEGACY**
@@ -3849,19 +3544,19 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co250k.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Nights of Azure** · REVIEW · TITLE_EXACT · country 1 · 1202×1499 · `art_front/46/071998a3-903d-49f5-ac30-d50c68d2577d.webp`
 
 ### Nights of Azure 2: Bride of the New Moon (#846)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1rcm.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Nights of Azure 2: Bride of the New Moon** · REVIEW · TITLE_EXACT · country 1 · 1202×1500 · `art_front/46/b5f26302-9958-4b15-b46d-5e03310140ef.webp`
 
 ### Nine Witches: Family Disruption (#1816)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2i5g.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Nine Witches: Family Disruption** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 780×1193 · `art_front/46/80adeadd-6556-4979-a5a2-034effe4ab56.webp`
 
 ### NINJA GAIDEN 3: Razor's Edge (#2093)
 - Current bucket: **IGDB_LEGACY**
@@ -3897,43 +3592,43 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2yyu.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Nitroplus Blasterz: Heroines Infinite Duel** · REVIEW · TITLE_EXACT · country 1 · 1282×1600 · `art_front/46/7ebe7ae3-c737-406b-bb9d-807f0939a084.webp`
 
 ### No Heroes Here (#1681)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1uj8.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **No Heroes Here** · HIGH_CONFIDENCE · TITLE_EXACT · country 34 · 578×783 · `art_front/46/24977f2d-e4b1-4f1b-bc46-975388c00a53.webp`
 
 ### No Straight Roads (#852)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1mrn.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **No Straight Roads** · REVIEW · TITLE_EXACT · country 1 · 1849×2360 · `art_front/46/9b9efd68-49d9-402e-8e5c-71010637f9c2.webp`
 
 ### Nobody Saves the World (#1826)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2wcz.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Nobody Saves the World** · REVIEW_LOW_RES · TITLE_EXACT · country 1 · 495×744 · `art_front/46/137101_2951f4d6-3357-428f-a70f-9a348d8c2f45.webp`
 
 ### Nobunaga's Ambition: Sphere of Influence (#853)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co8q4x.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Nobunaga's Ambition: Sphere of Influence** · REVIEW · TITLE_EXACT · country 1 · 801×1000 · `art_front/46/75a5cb86-c3b7-4471-a406-c8af1d214124.webp`
 
 ### Nobunaga's Ambition: Sphere of Influence - Ascension (#854)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7o91.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Nobunaga's Ambition: Sphere of Influence - Ascension** · REVIEW · TITLE_EXACT · country 1 · 1202×1500 · `art_front/46/97f4e953-c993-4221-b733-f76a3f042c6a.webp`
 
 ### Nobunaga's Ambition: Taishi (#855)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1u5c.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Nobunaga's Ambition: Taishi** · REVIEW · TITLE_EXACT · country 1 · 867×1080 · `art_front/46/e80d4ad4-83db-4976-b895-37967553d232.webp`
 
 ### Nongunz: Doppelganger Edition (#1922)
 - Current bucket: **IGDB_LEGACY**
@@ -3945,25 +3640,25 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/guqifzispzew1rubnyzd.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Northgard** · REVIEW · TITLE_EXACT · country 1 · 480×600 · `art_front/46/b869b4a0-dd6a-4bb5-9d63-e6e1ef4fdb82.webp`
 
 ### NOVA-111 (#857)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2qv1.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Nova-111** · REVIEW · TITLE_EXACT · country 1 · 805×986 · `art_front/46/77c38a9e-5a47-4b38-8dd3-533c80b4308c.webp`
 
 ### Nuclear Blaze (#1851)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4a95.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Nuclear Blaze** · REVIEW · TITLE_EXACT · country 1 · 768×971 · `art_front/46/6ee0c5c6-83e3-45f3-b36d-9090c21bc6d5.webp`
 
 ### Null Drifter (#1909)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co244q.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Null Drifter** · REVIEW · TITLE_EXACT · country 34 · 512×512 · `art_front/46/4a4c57e4-991c-422a-a825-7d0462d4d3d8.webp`
 
 ### Oaken (#1856)
 - Current bucket: **IGDB_LEGACY**
@@ -3975,7 +3670,7 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3wod.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Obduction** · REVIEW · TITLE_EXACT · country 3 · 720×903 · `art_front/46/55b2f8e5-edb0-4de2-a6b8-a76142c5c179.webp`
 
 ### Obey Me (#1683)
 - Current bucket: **IGDB_LEGACY**
@@ -3987,19 +3682,19 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co256h.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **>observer_** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 848×1248 · `art_front/46/018f69d7-ef89-4f95-b2b5-4b7cafed836b.webp`
 
 ### Oceanhorn: Monster of Uncharted Seas (#1684)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co262i.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Oceanhorn: Monster of Uncharted Seas** · REVIEW · TITLE_EXACT · country 1 · 1216×1514 · `art_front/46/867d259f-1d99-4759-af32-4efd037d68a5.webp`
 
 ### Octodad: Dadliest Catch (#859)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1szo.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Octodad: Dadliest Catch** · REVIEW · TITLE_EXACT · country 1 · 1127×1344 · `art_front/46/27b5bdc3-efa5-4a0e-b3e9-8ce63bf2977e.webp`
 
 ### Octopath Traveler 0 (#2666)
 - Current bucket: **IGDB_LEGACY**
@@ -4011,19 +3706,19 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7ds7.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Octopath Traveler II** · REVIEW · TITLE_EXACT · country 1 · 1522×1895 · `art_front/46/3976f275-8b89-45d0-a7c6-e7314d5d8a21.webp`
 
 ### Odallus: The Dark Call (#2112)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co21ey.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Odallus: The Dark Call** · HIGH_CONFIDENCE · TITLE_EXACT · country 34 · 761×1200 · `art_front/46/143227_8d7465ca-18e3-432c-9964-69183f39b054.webp`
 
 ### Oddworld: Soulstorm (#2668)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2ysw.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Oddworld: Soulstorm** · REVIEW_LOW_RES · TITLE_EXACT · country 1 · 430×552 · `art_front/46/143862_9a04d90f-9fbd-40bf-b52d-4ce02a09464b.webp`
 
 ### OK K.O.! Let's Play Heroes (#2232)
 - Current bucket: **IGDB_LEGACY**
@@ -4047,13 +3742,13 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1ihr.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **OlliOlli** · REVIEW · TITLE_EXACT · country 34 · 800×800 · `art_front/46/a9cee4e2-dc4d-4342-9981-f6c2406f1d46.webp`
 
 ### Omega Quintet (#863)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co9uim.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Omega Quintet** · REVIEW · TITLE_EXACT · country 1 · 1199×1500 · `art_front/46/cbccdab6-dc7a-4616-90b9-4750ce8938a7.webp`
 
 ### OmegaBot (#1862)
 - Current bucket: **IGDB_LEGACY**
@@ -4065,13 +3760,13 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1m8l.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Omen of Sorrow** · REVIEW · TITLE_EXACT · country 1 · 1526×1902 · `art_front/46/c0a74c73-080c-483b-baea-a876a475be3d.webp`
 
 ### OMORI (#2331)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1xlp.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Omori** · REVIEW · TITLE_EXACT · country 1 · 1524×1898 · `art_front/46/fba50deb-2175-4ff0-8d6d-85645582bcdf.webp`
 
 ### On the Road: Truck Simulator (#2671)
 - Current bucket: **IGDB_LEGACY**
@@ -4083,103 +3778,103 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1yvp.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **One Finger Death Punch 2** · REVIEW · TITLE_EXACT · country 1 · 1515×1871 · `art_front/46/d63aeacb-2781-4425-9e26-f1d748096e3f.webp`
 
 ### One More Dungeon (#865)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co22sk.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **One More Dungeon** · REVIEW · TITLE_EXACT · country 34 · 955×1200 · `art_front/46/c3d35e6a-e458-40cb-83a1-43351f5f0794.webp`
 
 ### One Night Stand (#1926)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2jfi.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **One Night Stand** · REVIEW · TITLE_EXACT · country 34 · 500×500 · `art_front/46/10fa356c-a931-4fc1-8798-3a49e93ebe40.webp`
 
 ### One Piece Odyssey (#2672)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5x13.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **One Piece Odyssey** · REVIEW · TITLE_EXACT · country 1 · 764×942 · `art_front/46/a4819eea-a1b0-41d9-8334-6572e266473d.webp`
 
 ### One Piece: Burning Blood (#866)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3ilr.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **One Piece: Burning Blood** · REVIEW · TITLE_EXACT · country 1 · 1202×1500 · `art_front/46/8c7a35e7-dc37-4516-8b43-f540aa629447.webp`
 
 ### One Piece: Pirate Warriors 3 (#867)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co27nj.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **One Piece: Pirate Warriors 3** · REVIEW · TITLE_EXACT · country 1 · 1204×1500 · `art_front/46/110a4fe2-1682-4cde-953a-8ab339672713.webp`
 
 ### One Piece: Pirate Warriors 4 (#868)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2m9q.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **One Piece: Pirate Warriors 4** · REVIEW · TITLE_EXACT · country 1 · 915×1140 · `art_front/46/b0b80391-7db4-46b5-a384-f49f71064317.webp`
 
 ### One Piece: World Seeker (#869)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1syt.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **One Piece: World Seeker** · REVIEW · TITLE_EXACT · country 1 · 1204×1500 · `art_front/46/25b6a000-561e-4c0d-a865-8b4e9ee5b983.webp`
 
 ### One Punch Man: A Hero Nobody Knows (#870)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2dik.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **One Punch Man A Hero Nobody Knows** · REVIEW · TITLE_EXACT · country 1 · 1024×1275 · `art_front/46/b892a9a1-1afa-4943-99b8-32765f430c2b.webp`
 
 ### One Step From Eden (#872)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co20k4.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **One Step From Eden** · REVIEW · TITLE_EXACT · country 1 · 480×613 · `art_front/46/dcf76a8b-bc5e-41cc-a33d-50fde3712374.webp`
 
 ### Onechanbara Z2: Chaos (#1687)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2f9e.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Onechanbara Z2: Chaos** · REVIEW · TITLE_EXACT · country 3 · 397×500 · `art_front/46/136285_0c460e72-8db0-4f07-b4ad-d16e5bde6376.webp`
 
 ### OneShot: World Machine Edition (#2674)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co6ldh.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **OneShot: World Machine Edition** · REVIEW · TITLE_EXACT · country 1 · 978×1220 · `art_front/46/41b62d39-914d-453e-9f62-90de5770f797.webp`
 
 ### ONI: Road to be the Mightiest Oni (#1857)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5a3o.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Oni: Road to be the Mightiest Oni** · REVIEW · TITLE_EXACT · country 1 · 1124×1421 · `art_front/46/c4e3f1f3-a6c5-4889-8ba5-61bec332814a.webp`
 
 ### Oniken: Unstoppable Edition (#874)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co23ex.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Oniken - Unstoppable Edition** · REVIEW · TITLE_EXACT · country 34 · 1024×1024 · `art_front/46/4f3f1e56-dbc9-4807-a934-03488836f07c.webp`
 
 ### Onimusha: Warlords (#875)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4r13.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Onimusha: Warlords** · REVIEW · TITLE_EXACT · country 1 · 1208×1519 · `art_front/46/d58a3cdf-83ab-4af5-bb3f-9f523d47d2ca.webp`
 
 ### ONRUSH (#876)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2qw1.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **ONRUSH** · REVIEW · TITLE_EXACT · country 1 · 762×945 · `art_front/46/ae734c77-7f2c-43b0-9efd-9c00b077a953.webp`
 
 ### Open Country (#2450)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2upo.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Open Country** · REVIEW · TITLE_EXACT · country 1 · 1263×1500 · `art_front/46/702bfd3c-aad8-4511-ba0c-42f39886fa9a.webp`
 
 ### Operation Wolf Returns: First Mission (#2676)
 - Current bucket: **IGDB_LEGACY**
@@ -4191,19 +3886,19 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co30jd.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Organ Trail: Complete Edition** · REVIEW · TITLE_EXACT · country 1 · 1383×1536 · `art_front/46/a36b813f-3ea0-4453-bc51-2b758416c364.webp`
 
 ### Othercide (#879)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1zv5.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Othercide** · REVIEW · TITLE_EXACT · country 1 · 979×1221 · `art_front/46/8d3be91d-3662-4008-9e44-e303729c1ac8.webp`
 
 ### Our World Is Ended. (#880)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co22tf.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Our World Is Ended.** · REVIEW · TITLE_EXACT · country 1 · 975×1197 · `art_front/46/2b057a27-1dd4-494b-b9e8-7037ad9a93e2.webp`
 
 ### Oure (#1939)
 - Current bucket: **IGDB_LEGACY**
@@ -4215,43 +3910,43 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7i1r.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Outbreak: Contagious Memories** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 684×1037 · `art_front/46/aaf4e4fe-7824-48b7-acbc-1b2115cc16b2.webp`
 
 ### Outcast: Second Contact (#881)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co22th.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Outcast: Second Contact** · REVIEW · TITLE_EXACT · country 1 · 1000×1215 · `art_front/46/46b20f7b-a4ae-4aa6-b2b2-31882d67f9e5.webp`
 
 ### Outer Wilds (#882)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co65ac.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Outer Wilds** · REVIEW · TITLE_EXACT · country 1 · 746×934 · `art_front/46/60efd506-6579-4ea0-b605-eb14fb43001a.webp`
 
 ### Outlast Trinity (#883)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co52vr.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Outlast Trinity** · REVIEW · TITLE_EXACT · country 1 · 480×595 · `art_front/46/912aaca4-f21b-46c9-9dea-6ffd6b43d6c3.webp`
 
 ### Overcooked! (#2227)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co262g.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Overcooked!** · REVIEW · TITLE_EXACT · country 34 · 240×240 · `art_front/46/4ab9c43a-ef2c-443c-922f-ab0d9a1ae425.webp`
 
 ### Overcooked! 2 (#885)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/coasbb.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Overcooked! 2** · REVIEW · TITLE_EXACT · country 1 · 1116×1384 · `art_front/46/eead3141-ce34-4e5e-9be7-c32cf7a830a1.webp`
 
 ### OVERPASS (#886)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1r5g.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Overpass** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 887×1149 · `art_front/46/46c76098-a176-442e-8d5e-1766dcea537b.webp`
 
 ### Override: Mech City Brawl (#887)
 - Current bucket: **IGDB_LEGACY**
@@ -4263,7 +3958,7 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4yt3.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Overrogue** · REVIEW · TITLE_EXACT · country 1 · 1304×1600 · `art_front/46/147815_289c3c8e-379a-4c4c-bd54-6829ceec34ee.webp`
 
 ### Ovivo (#1934)
 - Current bucket: **IGDB_LEGACY**
@@ -4275,37 +3970,37 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cobaac.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Owlboy** · REVIEW · TITLE_EXACT · country 1 · 881×1097 · `art_front/46/28d072d0-d9f5-4b57-8bdb-d88da9216f82.webp`
 
 ### Oxide Room 104 (#2332)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4bx5.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Oxide Room 104** · REVIEW · TITLE_EXACT · country 1 · 734×938 · `art_front/46/a90f48d8-58fc-4478-b5c1-b50c54d35242.webp`
 
 ### Pac-Man World Re-PAC (#2683)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7ex1.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Pac-Man World: Re-PAC** · REVIEW · TITLE_EXACT · country 1 · 496×618 · `art_front/46/433e9579-307e-44fe-8e4a-fd89aca2e957.webp`
 
 ### Pang Adventures (#892)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co26cd.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Pang Adventures** · REVIEW · TITLE_EXACT · country 1 · 1383×1536 · `art_front/46/5d77ae84-8926-491d-94a0-0fea7cc9af81.webp`
 
 ### Pankapu (#1689)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1z3h.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Pankapu** · REVIEW · TITLE_EXACT · country 34 · 598×754 · `art_front/46/c61156bf-35a0-4967-9127-425e86ee9c40.webp`
 
 ### Panorama Cotton (#1974)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5gjk.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Panorama Cotton** · REVIEW · TITLE_EXACT · country 34 · 800×800 · `art_front/46/04cdaeb1-84c6-463a-8811-759efa66fd9c.webp`
 
 ### Pantsu Hunter: Back to the 90s (#1690)
 - Current bucket: **IGDB_LEGACY**
@@ -4317,67 +4012,67 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co21me.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Panzer Dragoon Remake** · REVIEW · TITLE_EXACT · country 34 · 1024×1024 · `art_front/46/73d9299d-66ba-4bf6-85f6-bb9b2fcc854f.webp`
 
 ### Panzer Paladin (#2685)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2h3e.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Panzer Paladin** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 795×1223 · `art_front/46/a6969845-a4a4-49a0-9da8-dc4d1fa2bf4d.webp`
 
 ### Paradise Killer (#1522)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co9910.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Paradise Killer** · REVIEW · TITLE_EXACT · country 1 · 1171×1500 · `art_front/46/143972_d1d07786-2959-4f9a-9ad4-54cd7b9cbeca.webp`
 
 ### Paranormal Activity: The Lost Soul (#2687)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co88e0.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Paranormal Activity: The Lost Soul** · REVIEW · TITLE_EXACT · country 1 · 1190×1469 · `art_front/46/a14e9a24-ba76-46b4-9812-4c25fdfe2689.webp`
 
 ### PaRappa the Rapper Remastered (#1691)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2g0s.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **PaRappa the Rapper Remastered** · REVIEW · TITLE_EXACT · country 3 · 1592×2000 · `art_front/46/8464a204-62ce-4e55-93d4-41b6ed7a41af.webp`
 
 ### Past Cure (#894)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/xkrszayfmxtswdshdefo.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Past Cure** · REVIEW · TITLE_EXACT · country 1 · 1058×1321 · `art_front/46/b7e76b82-ccd9-4167-a32e-2c49ba4c13e3.webp`
 
 ### Patapon (#895)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2dt2.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Patapon** · REVIEW · TITLE_EXACT · country 34 · 188×240 · `art_front/46/d8f04e04-f30e-44b9-9b34-301703ab8a16.webp`
 
 ### Pathfinder: Kingmaker - Definitive Edition (#896)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4b8f.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Pathfinder: Kingmaker - Definitive Edition** · REVIEW · TITLE_EXACT · country 1 · 480×600 · `art_front/46/f9e821f4-7415-43c2-8a97-3945f043e83f.webp`
 
 ### Pathfinder: Wrath of the Righteous (#2690)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1uq7.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Pathfinder: Wrath of the Righteous [Limited Edition]** · REVIEW · EDITION_RELAXED · country 1 · 793×1000 · `art_front/46/684f8543-b25a-4b4b-af1a-8f3567cb78cd.webp`
 
 ### Pato Box (#1885)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1jjk.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Pato Box** · REVIEW · TITLE_EXACT · country 34 · 952×953 · `art_front/46/1c6e285d-ce57-4324-b41d-53f92f631f69.webp`
 
 ### Paw Patrol Grand Prix (#2691)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5dhl.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Paw Patrol: Grand Prix** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1066×1385 · `art_front/46/ae79098c-474f-4250-9465-5ea15ce84ac8.webp`
 
 ### PAW Patrol Rescue Wheels: Championship (#2679)
 - Current bucket: **IGDB_LEGACY**
@@ -4389,79 +4084,79 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3h5v.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **PAW Patrol The Movie: Adventure City Calls** · REVIEW · TITLE_EXACT · country 1 · 1201×1500 · `art_front/46/138555_02ab51ff-9a11-46f2-b7be-ebe1085a27a3.webp`
 
 ### Paw Patrol World (#2692)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co75f0.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Paw Patrol World** · REVIEW · TITLE_EXACT · country 1 · 808×1033 · `art_front/46/137241_eef45295-6160-4c1b-b51d-c1e114127998.webp`
 
 ### Paw Patrol: Mighty Pups Save Adventure Bay (#2693)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2if4.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Paw Patrol Mighty Pups: Save Adventure Bay** · REVIEW · TITLE_EXACT · country 1 · 480×598 · `art_front/46/4ced5fe1-464b-49eb-9f38-690a269360c9.webp`
 
 ### PAWARUMI (#897)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1m5n.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **PAWARUMI** · REVIEW · TITLE_EXACT · country 34 · 1024×1024 · `art_front/46/f9705a26-19a3-4d31-91f1-622ad4508274.webp`
 
 ### Payday 2: Crimewave Edition (#898)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1wn3.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **PayDay 2 [Crimewave Edition]** · REVIEW · TITLE_EXACT · country 1 · 480×601 · `art_front/46/64f2bf00-d5bf-4d8a-909a-328213be5274.webp`
 
 ### Peaky Blinders Mastermind (#2430)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co23is.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Peaky Blinders: Mastermind** · REVIEW · TITLE_EXACT · country 1 · 480×597 · `art_front/46/5b511f99-b5ee-4052-9bd3-1a76f73cf70c.webp`
 
 ### Penguin Wars (#900)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7xhb.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Penguin Wars** · REVIEW · TITLE_EXACT · country 1 · 1506×1901 · `art_front/46/532154e2-b17f-4132-9144-03884e5dbea3.webp`
 
 ### Persona 3 Portable (#2333)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co63fj.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Persona 3 Portable** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 796×1226 · `art_front/46/139120_acc188c3-9b2c-40b9-b437-c74550fee743.webp`
 
 ### Persona 3: Dancing in Moonlight (#901)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1ob9.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Persona 3: Dancing in Moonlight** · REVIEW · TITLE_EXACT · country 1 · 1302×1609 · `art_front/46/eeaa5454-a8e4-4770-a77f-88b8e5e109c9.webp`
 
 ### Persona 4 Golden (#2334)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/coc4k1.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Persona 4 Golden** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 797×1225 · `art_front/46/139116_934f5500-51cd-4c9b-bd63-0854600f7c8a.webp`
 
 ### Persona 5 Royal (#903)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/coclf1.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Persona 5 Royal** · REVIEW · TITLE_EXACT · country 1 · 1524×1899 · `art_front/46/0b3baac2-3aeb-4019-8611-c1e1fdecfab5.webp`
 
 ### Phantom Breaker: Battle Grounds Overdrive (#904)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7fpb.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Phantom Breaker: Battle Grounds Overdrive** · REVIEW · TITLE_EXACT · country 1 · 1503×1869 · `art_front/46/5c74b3d6-4d6e-4489-bc94-b3e7e24f5f6b.webp`
 
 ### Pharaonic (#905)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1jsf.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Pharaonic [Deluxe Edition]** · REVIEW · EDITION_RELAXED · country 1 · 1203×1500 · `art_front/46/623c6665-392d-4076-89c5-66c804db5096.webp`
 
 ### Phoenix Wright: Ace Attorney (#2202)
 - Current bucket: **IGDB_LEGACY**
@@ -4503,55 +4198,55 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2wuo.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Pillars of Eternity II: Deadfire** · REVIEW · TITLE_EXACT · country 1 · 1201×1500 · `art_front/46/eebd700b-dc99-4e37-8389-0212174e64a7.webp`
 
 ### Pillars of Eternity: Complete Edition (#908)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1z3j.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Pillars of Eternity: Complete Edition** · REVIEW · TITLE_EXACT · country 1 · 1201×1500 · `art_front/46/18114783-eea8-495f-bb2a-b27b9caac67d.webp`
 
 ### Pineview Drive (#909)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co887i.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Pineview Drive** · REVIEW · TITLE_EXACT · country 1 · 317×365 · `art_front/46/138558_e66cf9b9-a589-4cb9-bca3-d775147b5c76.webp`
 
 ### Pix the Cat (#910)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co86zp.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Pix the Cat** · REVIEW · TITLE_EXACT · country 1 · 1215×1510 · `art_front/46/b0739133-e3d1-47f4-a846-363711a8258a.webp`
 
 ### PixARK (#911)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co26cp.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **PixARK** · REVIEW · TITLE_EXACT · country 1 · 343×429 · `art_front/46/b16593b5-9a2f-44dd-982a-f9e7c8cd0453.webp`
 
 ### PixelJunk Monsters 2 (#913)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co27ny.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **PixelJunk Monsters 2** · REVIEW · TITLE_EXACT · country 1 · 1221×1513 · `art_front/46/4d482b59-d671-448f-a51f-67c6058f86a7.webp`
 
 ### PJ Masks Power Heroes: Mighty Alliance (#2681)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7wpd.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **PJ Masks Power Heroes: Mighty Alliance** · REVIEW · TITLE_EXACT · country 1 · 1170×1489 · `art_front/46/450f764c-24ad-486d-bd92-9a191c49cef0.webp`
 
 ### PJ Masks: Heroes of The Night (#2682)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3grq.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **PJ Masks: Heroes of The Night** · REVIEW · TITLE_EXACT · country 1 · 1201×1500 · `art_front/46/8d1a4282-0e08-48e8-b13f-dba6ec0aad4d.webp`
 
 ### Plague Road (#914)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co27x8.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Plague Road** · REVIEW · TITLE_EXACT · country 1 · 432×480 · `art_front/46/3e65b9bb-e77f-4726-b40d-7f799117bc87.webp`
 
 ### Planescape: Torment: Enhanced Edition (#2228)
 - Current bucket: **IGDB_LEGACY**
@@ -4563,25 +4258,25 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co21g8.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Planet of the Apes: Last Frontier** · REVIEW · TITLE_EXACT · country 1 · 480×602 · `art_front/46/0277e005-2769-409c-a986-892cf463431d.webp`
 
 ### Plants vs Zombies: Garden Warfare (#916)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2qyz.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Plants vs. Zombies: Garden Warfare** · REVIEW · TITLE_EXACT · country 1 · 1100×1369 · `art_front/46/09249e02-ba76-4df2-a77d-8dd4fff5c4e1.webp`
 
 ### Plants vs Zombies: Garden Warfare 2 (#917)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3xur.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Plants vs Zombies: Garden Warfare 2** · REVIEW · TITLE_EXACT · country 1 · 480×596 · `art_front/46/2312ac4d-a1bf-45cf-9537-a600c34d292a.webp`
 
 ### Plants vs. Zombies: Battle for Neighborville (#918)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3isd.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Plants vs. Zombies: Battle for Neighborville** · REVIEW · TITLE_EXACT · country 1 · 768×960 · `art_front/46/0ac8af40-2049-47ae-ae9e-d005f687d460.webp`
 
 ### PlateUp (#2431)
 - Current bucket: **IGDB_LEGACY**
@@ -4593,67 +4288,67 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/coaam4.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **PlayerUnknown's Battlegrounds** · REVIEW · TITLE_EXACT · country 1 · 1524×1899 · `art_front/46/881e7046-de68-4873-ab04-53301fa44534.webp`
 
 ### Pocket Bravery (#2335)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co6z2h.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Pocket Bravery** · REVIEW · TITLE_EXACT · country 1 · 763×956 · `art_front/46/e579aa26-cfab-4e11-9d6e-9a3890882f2a.webp`
 
 ### Polybius (#921)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2gxn.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Polybius** · REVIEW · TITLE_EXACT · country 1 · 1600×1961 · `art_front/46/2485776c-1f29-4269-bd7f-d509abb78be5.webp`
 
 ### Pool Nation (#922)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co804e.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Pool Nation** · REVIEW · TITLE_EXACT · country 1 · 672×838 · `art_front/46/affb22c4-c842-4db4-b7fc-0b5aff6d8041.webp`
 
 ### Poop Slinger (#924)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7xu8.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Poop Slinger** · REVIEW · TITLE_EXACT · country 1 · 998×1271 · `art_front/46/c20f5f6f-1c60-46c8-86e8-e0400a0bb099.webp`
 
 ### Popcorn Rocket (#1694)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5scl.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Popcorn Rocket** · REVIEW · TITLE_EXACT · country 1 · 1512×1895 · `art_front/46/631597fb-8c46-4695-9b5c-d8ba3601920c.webp`
 
 ### Port Royale 4 (#925)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1xt5.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Port Royale 4** · REVIEW · TITLE_EXACT · country 1 · 609×752 · `art_front/46/6c63c0af-d259-4bb2-93db-12cba8715dd8.webp`
 
 ### Portal Knights (#926)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2jjh.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Portal Knights** · REVIEW · TITLE_EXACT · country 3 · 994×1238 · `art_front/46/147896_96b6515b-8c20-4f16-917c-4cc9ee58bf7f.webp`
 
 ### Postal REDUX (#2009)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24qk.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Postal Redux** · REVIEW · TITLE_EXACT · country 1 · 848×1058 · `art_front/46/0c770b1a-f3b1-45e0-a93b-1448db9171b3.webp`
 
 ### Potion Permit (#2336)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4trz.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Potion Permit** · REVIEW · TITLE_EXACT · country 1 · 363×453 · `art_front/46/c771b034-a7f1-4673-ad1f-a7c13ea07221.webp`
 
 ### PowerSlave Exhumed (#2006)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3klq.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **PowerSlave: Exhumed** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 818×1244 · `art_front/46/cf4b143a-68cd-453e-a55a-e3c1ffaa5ec7.webp`
 
 ### Praetorians - HD Remaster (#2215)
 - Current bucket: **IGDB_LEGACY**
@@ -4665,73 +4360,73 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co235f.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Predator: Hunting Grounds** · REVIEW · TITLE_EXACT · country 1 · 951×1169 · `art_front/46/87c2db1c-55dd-4e0f-b6d2-fef835cb2941.webp`
 
 ### Pressure Overdrive (#1695)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/j0bczbbtzxecwdxgfkln.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Pressure Overdrive** · REVIEW · TITLE_EXACT · country 34 · 1024×1024 · `art_front/46/4e2f21bc-478a-49b4-8620-d90d788606cc.webp`
 
 ### Prey (#929)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co9aoh.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Prey** · REVIEW · TITLE_EXACT · country 1 · 1202×1500 · `art_front/46/392c7006-92eb-4797-ac46-f1dc4445bd24.webp`
 
 ### Prison Architect (#930)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co62ch.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Prison Architect** · REVIEW · TITLE_EXACT · country 1 · 496×624 · `art_front/46/3c80d884-2a37-43cd-a054-8cfde40bce42.webp`
 
 ### Prodeus (#2337)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3b8o.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Prodeus** · REVIEW · TITLE_EXACT · country 1 · 720×916 · `art_front/46/140767_b3379844-f51b-4a2e-8173-6f8685b3ec2a.webp`
 
 ### Project CARS (#931)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2r07.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Project CARS** · REVIEW · TITLE_EXACT · country 1 · 480×599 · `art_front/46/65494d38-87b4-48ac-b44f-f552c31916da.webp`
 
 ### Project CARS 2 (#932)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co20mn.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Project Cars 2** · REVIEW · TITLE_EXACT · country 1 · 1204×1500 · `art_front/46/7ba4daf6-7ceb-47cf-b9ba-6b1fbc8b1c3f.webp`
 
 ### Project CARS 3 (#933)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2frz.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Project CARS 3** · REVIEW · TITLE_EXACT · country 1 · 924×1152 · `art_front/46/103a7f5c-8491-43e0-8bc9-015e1f09c6ea.webp`
 
 ### Project Highrise: Architect's Edition (#934)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/gzkcw0zpqox3p6jze31y.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Project Highrise: Architect's Edition** · REVIEW · TITLE_EXACT · country 1 · 467×585 · `art_front/46/5be318fa-8ffe-4738-8c12-064e05a7423a.webp`
 
 ### Project Starship (#1908)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24eu.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Project Starship** · REVIEW · TITLE_EXACT · country 34 · 2048×2048 · `art_front/46/ddc1c6a0-4d4a-40f9-93d0-c42e96444918.webp`
 
 ### Project Starship X (#1952)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2ava.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Project Starship X** · REVIEW · TITLE_EXACT · country 34 · 1024×1024 · `art_front/46/9fbf8baa-2878-4e43-8b0c-861a5f2c3dad.webp`
 
 ### Project Warlock (#936)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1yif.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Project Warlock** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 777×1192 · `art_front/46/7e4de622-05be-4400-b794-cd30c5eb0328.webp`
 
 ### Projection: First Light (#1990)
 - Current bucket: **IGDB_LEGACY**
@@ -4749,85 +4444,85 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5bt8.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Protodroid DeLTA** · REVIEW_LOW_RES · TITLE_EXACT · country 1 · 418×629 · `art_front/46/bdaf4f2c-bed5-4cff-9423-cddb0b6560bd.webp`
 
 ### Prototype (#1697)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1ql2.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Prototype** · REVIEW · TITLE_EXACT · country 34 · 983×1024 · `art_front/46/ae12fb84-611f-432c-a436-fcfc3b9cd7ba.webp`
 
 ### Psycho-Pass: Mandatory Happiness (#937)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24qy.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Psycho-Pass: Mandatory Happiness** · REVIEW · TITLE_EXACT · country 1 · 1200×1494 · `art_front/46/30a31028-e8d0-4f15-af5a-fdf0c31370c2.webp`
 
 ### Psychonauts (#938)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cob7ms.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Psychonauts** · REVIEW · TITLE_EXACT · country 1 · 800×800 · `art_front/46/f6c54c68-7081-4d0f-80f1-e498b196477c.webp`
 
 ### Psyvariar Delta (#939)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co67mm.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Psyvariar Delta** · REVIEW · TITLE_EXACT · country 1 · 480×596 · `art_front/46/b4a9e64f-a11d-41df-acf1-314c21d86a3d.webp`
 
 ### Punch Line (#940)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co27o8.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Punch Line** · REVIEW · TITLE_EXACT · country 1 · 480×598 · `art_front/46/665ec979-3dc2-48a8-854f-81f199975fa0.webp`
 
 ### Pure Chess (#2433)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2r15.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Pure Chess** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 594×770 · `art_front/46/39d998c0-b359-43e8-9d84-d0f954da5e21.webp`
 
 ### Pure Farming 2018 (#2434)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co27o9.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Pure Farming 2018** · REVIEW · TITLE_EXACT · country 1 · 861×1068 · `art_front/46/597b3865-d093-4358-9eb0-c925d674da39.webp`
 
 ### Putty Squad (#941)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3lyj.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Putty Squad** · REVIEW · TITLE_EXACT · country 1 · 1000×1245 · `art_front/46/12228175-ea6b-4379-be06-22aaca8d8999.webp`
 
 ### Puyo Puyo Tetris (#942)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3vws.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Puyo Puyo Tetris** · REVIEW · TITLE_EXACT · country 1 · 1516×1896 · `art_front/46/a6f15a8e-db01-4edc-bb73-a61821765c00.webp`
 
 ### Puzzle Bobble 3D: Vacation Odyssey (#2244)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co39sn.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Puzzle Bobble 3D: Vacation Odyssey** · REVIEW · TITLE_EXACT · country 1 · 479×600 · `art_front/46/8126e3cd-b9dd-4484-b0ab-3c77810bec6d.webp`
 
 ### Quake II (#1996)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co9f8q.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Quake II** · REVIEW_LOW_RES · TITLE_EXACT · country 34 · 177×265 · `art_front/46/3938288b-808e-4ac9-a460-ac8ce46f00a5.webp`
 
 ### R-Type Dimensions EX (#1698)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7fij.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **R-Type Dimensions EX** · REVIEW · TITLE_EXACT · country 34 · 640×640 · `art_front/46/1b8c3f93-7b7e-4aaa-839a-04c82d3d6e5b.webp`
 
 ### R-Type Final 2 (#2697)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7e2i.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **R-Type Final 2** · REVIEW · TITLE_EXACT · country 1 · 1018×1273 · `art_front/46/be2b6734-4181-487a-a93e-10f5ddf3cb76.webp`
 
 ### R-Type Tactics I & II Cosmos (#2698)
 - Current bucket: **IGDB_LEGACY**
@@ -4839,55 +4534,55 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/coavxt.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rabbids Invasion** · REVIEW · TITLE_EXACT · country 1 · 1516×1908 · `art_front/46/f0c17be2-4d8d-4a1e-b01d-77c152aa5286.webp`
 
 ### Rabbids: Party of Legends (#2701)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co9zwq.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rabbids: Party of Legends** · REVIEW · TITLE_EXACT · country 1 · 1122×1405 · `art_front/46/67ff7b30-be99-4b35-a68f-569a0a5dff84.webp`
 
 ### Rabi-Ribi (#947)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4eck.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rabi-Ribi** · REVIEW · TITLE_EXACT · country 1 · 1214×1513 · `art_front/46/cc23a5ed-b8e8-4901-a12a-3f3c66258ff1.webp`
 
 ### Race the Sun (#948)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2vgk.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Race The Sun** · REVIEW · TITLE_EXACT · country 1 · 1207×1510 · `art_front/46/c674b603-5c0e-4067-ba25-433fa1f783aa.webp`
 
 ### Race with Ryan (#1699)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co26d7.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Race With Ryan** · REVIEW · TITLE_EXACT · country 1 · 1203×1500 · `art_front/46/87476534-1508-4134-be1d-2b25a9f38a43.webp`
 
 ### Rad Rodgers (#949)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co27ex.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rad Rodgers** · REVIEW · TITLE_EXACT · country 1 · 1270×1536 · `art_front/46/d279de33-2ab9-4b74-9fca-08b3ae973486.webp`
 
 ### Radioactive Dwarfs Evil From The Sewers (#2702)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3y8c.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Radioactive Dwarfs: Evil From the Sewers** · REVIEW · TITLE_EXACT · country 1 · 1494×1894 · `art_front/46/7b7ddfc1-c168-4793-9e3e-a6f55ab38035.webp`
 
 ### Radirgy 2 (#2703)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co6nwu.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Radirgy 2** · REVIEW · TITLE_EXACT · country 3 · 773×961 · `art_front/46/150129_43ab2082-18da-47ab-997c-27619281f369.webp`
 
 ### RAGE 2 (#951)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbm.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rage 2** · REVIEW · TITLE_EXACT · country 1 · 1520×1902 · `art_front/46/3faec4bb-8801-4b24-8a7d-d4a22437aaa3.webp`
 
 ### Raging Justice (#1700)
 - Current bucket: **IGDB_LEGACY**
@@ -4899,61 +4594,61 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1tzv.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Raging Loop** · REVIEW · TITLE_EXACT · country 1 · 1183×1465 · `art_front/46/4a438587-90c4-4031-ae14-118fc8ef3622.webp`
 
 ### Raid: World War II (#953)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co8hus.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Raid: World War II** · REVIEW · TITLE_EXACT · country 1 · 758×955 · `art_front/46/830cf9cc-48cf-492c-aef3-9f2003e86d23.webp`
 
 ### Raiden III x Mikado Maniax (#2704)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co66ux.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Raiden III x MIKADO MANIAX** · REVIEW · TITLE_EXACT · country 3 · 502×640 · `art_front/46/141363_1af3ae3b-568c-42e5-8ffd-d65e42c5645b.webp`
 
 ### Raiden IV x MIKADO Remix (#2705)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7oic.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Raiden IV X Mikado Remix [Deluxe Edition]** · REVIEW · EDITION_RELAXED · country 1 · 1551×1941 · `art_front/46/adde66ff-61b7-409d-8e2f-8932aaa64418.webp`
 
 ### Raiden Nova (#2706)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co9ate.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Raiden Nova** · REVIEW · TITLE_EXACT · country 3 · 800×1002 · `art_front/46/b03c2b25-0672-44bb-a3da-995bb8dbd655.webp`
 
 ### Raiden V: Director's Cut (#954)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/qtlsgvxdawb8swmzcqqu.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Raiden V: Director's Cut** · REVIEW · TITLE_EXACT · country 34 · 1024×1024 · `art_front/46/ba2de08b-8ecc-46a0-a4ac-296c74005821.webp`
 
 ### Raidou Remastered: Mystery Of The Soulless Army (#2707)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co9l0l.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **RAIDOU Remastered: The Mystery of the Soulless Army** · REVIEW_EDITION · EDITION_RELAXED · country 1 · 831×1241 · `art_front/46/801afcfc-7cb4-4a51-9a44-24af30be2fbe.webp`
 
 ### Railway Empire (#955)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1ynm.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Railway Empire** · REVIEW · TITLE_EXACT · country 1 · 1092×1356 · `art_front/46/9c9bad72-3f45-4bb3-88ef-88a35e90d0ae.webp`
 
 ### Rain World (#957)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24pm.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rain World** · REVIEW · TITLE_EXACT · country 1 · 1497×1897 · `art_front/46/bc9fd612-4ec3-4e8e-af38-dcb99fb42f98.webp`
 
 ### Rainbow Cotton (#1978)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co8807.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rainbow Cotton** · HIGH_CONFIDENCE · TITLE_EXACT · country 34 · 705×1106 · `art_front/46/361fbfc3-a182-49ea-93be-193388345fa2.webp`
 
 ### Rainbow High: Runway Rush (#2708)
 - Current bucket: **IGDB_LEGACY**
@@ -4965,7 +4660,7 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/xc2cyw3fulmuns2npcmx.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rainbow Moon** · REVIEW · TITLE_EXACT · country 1 · 1111×1360 · `art_front/46/81e71796-7b75-4310-9467-17233d3fc95a.webp`
 
 ### Rainbow Six: Extraction (#2709)
 - Current bucket: **IGDB_LEGACY**
@@ -4977,7 +4672,7 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2okw.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rainbow Skies** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 651×1028 · `art_front/46/ec4756b0-c029-4c73-ae1d-db68dc0d6899.webp`
 
 ### Ravenswatch (#2338)
 - Current bucket: **IGDB_LEGACY**
@@ -4995,43 +4690,43 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3ma8.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rayman Legends** · REVIEW · TITLE_EXACT · country 1 · 1530×1950 · `art_front/46/e133df38-27f7-44cc-b426-36b16de973f9.webp`
 
 ### Real Heroes: Firefighter (#1701)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co694f.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Real Heroes: Firefighter** · REVIEW · TITLE_EXACT · country 1 · 561×687 · `art_front/46/92435194-f404-4732-be74-6c3af013b34d.webp`
 
 ### Realms of Arkania: Blade of Destiny (#963)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co31j4.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Realms of Arkania: Blade of Destiny** · REVIEW · TITLE_EXACT · country 1 · 340×433 · `art_front/46/96e55ef6-5a31-4936-9628-70fcf56d3d85.webp`
 
 ### Record of Lodoss War: Deedlit in Wonder Labyrinth (#1910)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4as3.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Record Of Lodoss War: Deedlit In Wonder Labyrinth** · REVIEW · TITLE_EXACT · country 1 · 1283×1600 · `art_front/46/139650_f791be15-681f-4f0f-bf41-ca1211f90fa5.webp`
 
 ### Red Death (#1702)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2103.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Red Death** · REVIEW · TITLE_EXACT · country 34 · 2048×2048 · `art_front/46/2004aad5-8875-48fa-9de4-3ca4da41e81f.webp`
 
 ### Red Faction (#965)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co48x2.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Red Faction** · REVIEW · TITLE_EXACT · country 1 · 1188×1467 · `art_front/46/c864833e-be87-4ac8-aa59-3264196b0e5e.webp`
 
 ### Red Faction: Guerrilla Re-Mars-tered (#966)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1qs4.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Red Faction: Guerrilla Re-Mars-tered** · REVIEW · TITLE_EXACT · country 1 · 1025×1280 · `art_front/46/3f9e5f3a-b9b6-4f54-959e-2b48bbbdb6ae.webp`
 
 ### Redeemer: Enhanced Edition (#968)
 - Current bucket: **IGDB_LEGACY**
@@ -5043,307 +4738,307 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co9s64.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Redemption Reapers** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 804×1148 · `art_front/46/143291_8ee88c3f-9a19-4f72-9606-5b23b9af30bc.webp`
 
 ### Redout: Space Assault (#2035)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1vb8.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Redout: Space Assault** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 791×1186 · `art_front/46/3ab850b2-41b1-410a-b0b2-685e593d4bf2.webp`
 
 ### Regions Of Ruin (#970)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1s9j.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Regions of Ruin** · REVIEW · TITLE_EXACT · country 1 · 474×599 · `art_front/46/f826ce32-d1ce-406a-be88-7e3e9711997d.webp`
 
 ### Relayer (#1864)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co31cz.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Relayer** · REVIEW · TITLE_EXACT · country 1 · 1124×1434 · `art_front/46/137876_d6d91053-8c27-4eb6-9edd-7dc8d6f17303.webp`
 
 ### RemiLore: Lost Girl in the Lands of Lore (#971)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1wpg.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **RemiLore: Lost Girl in the Lands of Lore** · REVIEW · TITLE_EXACT · country 1 · 640×799 · `art_front/46/77b8e6e6-e161-4c59-a5b8-16ee1d50d9c9.webp`
 
 ### Remnant: From the Ashes (#972)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1m4w.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Remnant: From The Ashes** · REVIEW · TITLE_EXACT · country 1 · 1056×1345 · `art_front/46/129b5ebd-48c8-47b9-8bda-d9cc96e65588.webp`
 
 ### Remothered: Broken Porcelain (#973)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co29pt.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Remothered Broken Porcelain** · REVIEW · TITLE_EXACT · country 1 · 1000×1215 · `art_front/46/3168a4bb-abd0-45bf-9675-ed930d6ff53b.webp`
 
 ### Rendering Ranger R2 Rewind (#2452)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co92ki.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rendering Ranger: R2 [Rewind]** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 593×912 · `art_front/46/5521e78b-fe5e-4edf-8432-6a24d14a22ab.webp`
 
 ### Republique (#975)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7uq0.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **République** · REVIEW · TITLE_EXACT · country 1 · 1522×1897 · `art_front/46/b9c754f8-f8fc-4d05-a085-1d8ce067178b.webp`
 
 ### Resident Evil 2 (#976)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/coaawg.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Resident Evil 2** · REVIEW · TITLE_EXACT · country 1 · 1185×1500 · `art_front/46/fc955017-880d-487c-8b88-a947aab4c9e7.webp`
 
 ### Resident Evil 3 (#977)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co22l7.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Resident Evil 3** · REVIEW · TITLE_EXACT · country 1 · 1024×1292 · `art_front/46/bf84beac-990f-452a-a7ad-575b5bc6d17f.webp`
 
 ### Resident Evil 5 (#979)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cobj1q.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Resident Evil 5** · REVIEW · TITLE_EXACT · country 1 · 640×775 · `art_front/46/aa35a657-5565-4c03-8930-cb6e43023e24.webp`
 
 ### Resident Evil 6 (#980)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co89lz.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Resident Evil 6** · REVIEW · TITLE_EXACT · country 1 · 640×801 · `art_front/46/c76e4669-e88d-4b2e-ba9a-da4214964412.webp`
 
 ### Resident Evil 7: biohazard (#981)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cobtwh.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Resident Evil 7: biohazard** · REVIEW · TITLE_EXACT · country 1 · 1597×2000 · `art_front/46/24df85d9-2cc1-4994-89cb-57dc12d726a1.webp`
 
 ### Resident Evil Village (#2369)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/coab9q.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Resident Evil Village** · REVIEW · TITLE_EXACT · country 1 · 983×1225 · `art_front/46/297fdc44-6b63-4bfb-9247-7ed8cf24b423.webp`
 
 ### Resident Evil: Revelations (#984)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co54dy.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Resident Evil: Revelations** · REVIEW · TITLE_EXACT · country 1 · 480×586 · `art_front/46/611ddfd5-28e6-47cd-8ae4-ce36c3247fd2.webp`
 
 ### Resident Evil: Revelations 2 (#1704)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co92d9.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Resident Evil: Revelations 2** · REVIEW · TITLE_EXACT · country 1 · 1535×1900 · `art_front/46/09462fcd-afdc-458e-8576-234f6fbcb18a.webp`
 
 ### Retro City Rampage DX (#986)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2h4u.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Retro City Rampage DX** · REVIEW · TITLE_EXACT · country 1 · 1502×1876 · `art_front/46/6d51fe48-e5eb-4384-b26a-bcd12496b94c.webp`
 
 ### Return of the Obra Dinn (#987)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co27j9.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Return of the Obra Dinn** · REVIEW · TITLE_EXACT · country 1 · 1203×1500 · `art_front/46/7bdd5d3b-7f46-42da-8d2b-05fae20079b1.webp`
 
 ### Reus (#988)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1z3q.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Reus** · REVIEW · TITLE_EXACT · country 1 · 1137×1427 · `art_front/46/2259d47e-a1ba-4b3a-90f9-79a2ab2ae8e3.webp`
 
 ### Revenant Dogma (#989)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2bzc.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Revenant Dogma** · REVIEW · TITLE_EXACT · country 1 · 949×1170 · `art_front/46/8497ae0d-45de-4a9b-ba91-5aa7811063bb.webp`
 
 ### Revenant Saga (#990)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co249a.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Revenant Saga** · REVIEW · TITLE_EXACT · country 1 · 948×1174 · `art_front/46/95f037b2-1d4c-4fb1-ad9b-381f2095ae2c.webp`
 
 ### Reverie (#991)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co61bv.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Reverie** · REVIEW · TITLE_EXACT · country 34 · 640×640 · `art_front/46/e272621d-a1ec-4847-bc3a-004c0f232f3a.webp`
 
 ### Revita (#1855)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2u55.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Revita** · REVIEW · TITLE_EXACT · country 1 · 1187×1500 · `art_front/46/148065_7ddc4382-86b9-4872-b21c-7d770d722063.webp`
 
 ### Rez Infinite (#992)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7koc.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rez Infinite** · REVIEW · TITLE_EXACT · country 1 · 1208×1509 · `art_front/46/4af721f1-3eb1-4ec7-b06d-ac91d26ef604.webp`
 
 ### RICO (#993)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1q4d.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **RICO** · REVIEW · TITLE_EXACT · country 1 · 480×600 · `art_front/46/2fc84ff8-662a-4d10-973a-f48f0925839c.webp`
 
 ### Riddled Corpses EX (#1946)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1j82.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Riddled Corpses EX** · REVIEW · TITLE_EXACT · country 34 · 640×640 · `art_front/46/c2db10de-2cc6-4773-a2dc-0dad97fb9af9.webp`
 
 ### RIDE (#1705)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2r5e.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Ride** · REVIEW · TITLE_EXACT · country 1 · 1521×1899 · `art_front/46/02d1664f-7c78-4eef-8fe4-4c14d72741df.webp`
 
 ### Ride 2 (#1706)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24ot.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Ride 2** · REVIEW · TITLE_EXACT · country 1 · 1205×1500 · `art_front/46/4a925dd1-11a1-476c-8da1-86c1b40895fe.webp`
 
 ### RIDE 3 (#1707)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co27f9.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **RIDE 3** · REVIEW · TITLE_EXACT · country 1 · 401×500 · `art_front/46/cbeb4520-6eae-4ba6-b05b-85bde08688a8.webp`
 
 ### RIDE 4 (#1708)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co27l0.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **RIDE 4** · REVIEW · TITLE_EXACT · country 1 · 522×651 · `art_front/46/73c4c8df-3106-45c8-96d3-7e138e36f9f0.webp`
 
 ### Rift Keeper (#1916)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1igp.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rift Keeper** · REVIEW · TITLE_EXACT · country 34 · 2048×2048 · `art_front/46/b369058f-ae24-43cb-849d-4ff902e37282.webp`
 
 ### RiME (#995)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2h4w.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **RiME** · REVIEW · TITLE_EXACT · country 1 · 1209×1510 · `art_front/46/4ec39329-9904-4594-964d-13be4f42447f.webp`
 
 ### Riot: Civil Unrest (#996)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24or.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Riot Civil Unrest** · REVIEW · TITLE_EXACT · country 1 · 497×629 · `art_front/46/dee7c5c2-ec81-4c8a-acf3-71dfde5d0dfd.webp`
 
 ### Rise of the Tomb Raider: 20 Year Celebration (#997)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3ib1.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rise of The Tomb Raider: 20 Year Celebration** · REVIEW · TITLE_EXACT · country 1 · 1201×1500 · `art_front/46/4e99a157-34b9-4c7b-98d7-948f289e6ec2.webp`
 
 ### Rise Of The Triad: Ludicrous Edition (#1709)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5agq.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rise of the Triad: Ludicrous Edition** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 796×1223 · `art_front/46/09562e92-3857-4a4c-9ede-51e474064c47.webp`
 
 ### Risen (#2269)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5te7.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Risen** · REVIEW · TITLE_EXACT · country 1 · 1640×2048 · `art_front/46/d54a2652-345b-4d05-8593-27eda13d4753.webp`
 
 ### Risen 3: Titan Lords - Enhanced Edition (#998)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2dsu.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Risen 3: Titan Lords - Enhanced Edition** · REVIEW · TITLE_EXACT · country 1 · 1525×1901 · `art_front/46/c908eed3-bcb9-41c3-bd10-536fd5d00363.webp`
 
 ### Rising Hell (#1972)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2f3r.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rising Hell** · REVIEW · TITLE_EXACT · country 34 · 1000×1000 · `art_front/46/603656e7-fd38-45b4-a6ab-f36110e9b800.webp`
 
 ### Risk of Rain (#999)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2k2z.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Risk of Rain** · REVIEW · TITLE_EXACT · country 34 · 640×640 · `art_front/46/9b192b33-3776-4a35-b69a-a523cb1e1219.webp`
 
 ### Risk of Rain 2 (#1000)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/coaavb.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Risk of Rain 2** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1024×1409 · `art_front/46/a0f0a296-a750-4235-8fff-09d997ab202f.webp`
 
 ### Risk System (#1957)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2e2h.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Risk System** · REVIEW · TITLE_EXACT · country 1 · 1036×1274 · `art_front/46/ef3f3f19-9ff9-44b5-9f96-65cfc78af176.webp`
 
 ### Rival Megagun (#2096)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1yec.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rival Megagun** · REVIEW · TITLE_EXACT · country 34 · 640×640 · `art_front/46/a75f8465-53fd-4070-977a-577a11b183b6.webp`
 
 ### RIVE (#1001)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2o19.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **RIVE** · REVIEW · TITLE_EXACT · country 1 · 1210×1513 · `art_front/46/ec206507-3fb8-489b-808d-0d3751503dc3.webp`
 
 ### River City Girls (#1002)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cob20p.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **River City Girls** · REVIEW · TITLE_EXACT · country 1 · 480×600 · `art_front/46/d5a8a4fe-d62e-4633-8568-625d382f6a6e.webp`
 
 ### River City Girls 2 (#1825)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co9ph4.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **River City Girls 2** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 774×1159 · `art_front/46/134123_c81a5b49-aeb3-4183-8fc8-d5c3e40ca05c.webp`
 
 ### River City Melee: Battle Royal Special (#1710)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24on.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **River City Melee: Battle Royal Special** · REVIEW · TITLE_EXACT · country 34 · 744×940 · `art_front/46/11d510ac-ab75-4f2d-bff7-401e623dea1d.webp`
 
 ### River City Saga: Three Kingdoms Next (#2057)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co90vw.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **River City Saga: Three Kingdoms Next** · REVIEW · TITLE_EXACT · country 34 · 761×946 · `art_front/46/20694993-7e75-4851-9992-20ad749d90a6.webp`
 
 ### Riverbond (#1004)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1z3r.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Riverbond** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 688×1056 · `art_front/46/3ac7a83f-7954-42aa-bf39-2d5861fcc6e4.webp`
 
 ### Road Rage (#1005)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24ol.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Road Rage** · REVIEW · TITLE_EXACT · country 1 · 864×1050 · `art_front/46/db202691-58de-4471-8ce2-d6e380a09946.webp`
 
 ### Road Redemption (#1006)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2hlo.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Road Redemption** · REVIEW · TITLE_EXACT · country 1 · 763×948 · `art_front/46/952f5c88-4a7e-4b43-99c1-a6b58d5bc6d9.webp`
 
 ### Robotics;Notes DaSH (#2114)
 - Current bucket: **IGDB_LEGACY**
@@ -5361,13 +5056,13 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2caw.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Robozarro** · REVIEW · TITLE_EXACT · country 34 · 512×512 · `art_front/46/dab77444-7a42-4a90-af9c-63c899f02269.webp`
 
 ### Rock Band 4 (#1010)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4b7m.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rock Band 4** · REVIEW · TITLE_EXACT · country 1 · 1054×1316 · `art_front/46/0795dc64-9592-44ed-a74a-f8cfacc76422.webp`
 
 ### Rock of Ages 3: Make & Break (#1712)
 - Current bucket: **IGDB_LEGACY**
@@ -5379,73 +5074,73 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cocdio.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rocket League** · REVIEW · TITLE_EXACT · country 34 · 800×800 · `art_front/46/3301ea3b-6ee0-4334-b4e7-86362836dd8d.webp`
 
 ### Rocketbirds 2: Evolution (#1014)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co222i.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rocketbirds 2: Evolution** · REVIEW · TITLE_EXACT · country 1 · 1800×1800 · `art_front/46/9636f4d1-5111-4b70-aa35-13a35b267113.webp`
 
 ### Rocketbirds: Hardboiled Chicken (#2003)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2r6e.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rocketbirds Hardboiled Chicken** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1235×1917 · `art_front/46/e2b86a6c-0e68-4633-849e-d9362ca3a82c.webp`
 
 ### Rocksmith 2014 Edition (#1015)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co48zw.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rocksmith 2014 Edition** · REVIEW · TITLE_EXACT · country 1 · 765×975 · `art_front/46/52b5daea-f471-4387-9d2e-845810cef63e.webp`
 
 ### Rogue Aces (#1713)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2n9o.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rogue Aces** · REVIEW · TITLE_EXACT · country 1 · 1024×1024 · `art_front/46/7ec03c5d-5ef3-45b1-9b33-b29a26b1add5.webp`
 
 ### Rogue Legacy (#1016)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co27fi.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rogue Legacy** · REVIEW · TITLE_EXACT · country 1 · 407×512 · `art_front/46/8ebc87fb-d356-4290-b1d5-de758729b177.webp`
 
 ### Rogue Stormers (#1017)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3ynl.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rogue Stormers** · REVIEW · TITLE_EXACT · country 1 · 727×903 · `art_front/46/d39a6de1-dd1a-4012-a8c9-af12aace217d.webp`
 
 ### Rogue Trooper Redux (#1018)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24od.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rogue Trooper Redux** · REVIEW · TITLE_EXACT · country 1 · 336×424 · `art_front/46/de33725e-06c5-4129-884f-0a9e68feb11e.webp`
 
 ### RollerCoaster Tycoon Joyride (#1714)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co9mv1.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **RollerCoaster Tycoon Joyride** · REVIEW · TITLE_EXACT · country 1 · 354×440 · `art_front/46/9ece2af6-2e54-4751-8d83-62d1c6ba63c1.webp`
 
 ### Romance of the Three Kingdoms XIII (#1019)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24ob.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Romance of the Three Kingdoms XIII** · REVIEW · TITLE_EXACT · country 1 · 1202×1500 · `art_front/46/92fa2d10-4bdd-46bc-bfcf-19f3b6f920c0.webp`
 
 ### Romance of the Three Kingdoms XIV (#1020)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/coaazb.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Romance of the Three Kingdoms XIV** · REVIEW · TITLE_EXACT · country 1 · 1202×1500 · `art_front/46/b889ab2f-ebd7-487e-a20a-7903ec6800d8.webp`
 
 ### Romancing SaGa -Minstrel Song- Remastered (#1845)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7tq9.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Romancing SaGa Minstrel Song Remastered** · REVIEW · TITLE_EXACT · country 34 · 225×225 · `art_front/46/0a1b6655-fb59-48d8-a4bf-b1048ec7cbaa.webp`
 
 ### Romancing SaGa 2 (#1715)
 - Current bucket: **IGDB_LEGACY**
@@ -5457,79 +5152,79 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co8d8f.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Romancing SaGa 2: Revenge of the Seven** · REVIEW · TITLE_EXACT · country 3 · 1181×1500 · `art_front/46/8523f07c-eecd-4830-8924-07c58c294edf.webp`
 
 ### Romancing SaGa 3 (#1716)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1sxo.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Romancing SaGa 3** · REVIEW · TITLE_EXACT · country 34 · 640×640 · `art_front/46/1ce85696-2e7d-4908-b6a7-91d0c60b709d.webp`
 
 ### Roombo: First Blood (#2038)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co50md.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Roombo: First Blood** · REVIEW · TITLE_EXACT · country 1 · 460×511 · `art_front/46/0019c2cd-39de-47d1-8887-0fc3c8050d7b.webp`
 
 ### Root Letter (#1021)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co27wa.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Root Letter** · REVIEW · TITLE_EXACT · country 1 · 1208×1474 · `art_front/46/81a166c3-8efe-4f6e-a86e-93a9a62a81fb.webp`
 
 ### Root Letter: Last Answer (#1022)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1l1v.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Root Letter: Last Answer [Day One Edition]** · REVIEW · EDITION_RELAXED · country 1 · 1585×2012 · `art_front/46/5bfbbb71-6519-47d1-92f0-fef9895c68e1.webp`
 
 ### Rory McIlroy PGA Tour (#2084)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2r6y.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rory McIlroy PGA Tour** · REVIEW · TITLE_EXACT · country 1 · 726×909 · `art_front/46/2ebc2bc9-12dd-42f7-a907-d708072abf36.webp`
 
 ### RPG Maker MV (#1023)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co86ih.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **RPG Maker MV** · REVIEW · TITLE_EXACT · country 1 · 342×428 · `art_front/46/aea45a6b-3ff1-48b4-af2a-00c5e629d85e.webp`
 
 ### RPG Maker WITH (#2699)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co8wdz.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **RPG Maker WITH** · REVIEW · TITLE_EXACT · country 1 · 385×487 · `art_front/46/57d0699f-c68e-4465-abbf-e298f093d3d7.webp`
 
 ### RPGolf Legends (#2700)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co40e2.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **RPGolf Legends** · REVIEW · TITLE_EXACT · country 1 · 323×404 · `art_front/46/c127bd27-a069-4d85-98a7-be48d912e758.webp`
 
 ### Rugrats: Adventures in Gameland (#1838)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co8t8x.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rugrats: Adventures in Gameland** · REVIEW · TITLE_EXACT · country 1 · 972×1080 · `art_front/46/d12353e7-15b6-4796-8190-2f8f76050f4d.webp`
 
 ### Ruiner (#1024)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co6knu.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Ruiner** · REVIEW · TITLE_EXACT · country 1 · 1204×1515 · `art_front/46/b63643a7-4770-4a4b-97ea-cae2aee85a1e.webp`
 
 ### Ruinverse (#2339)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2wz2.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Ruinverse** · REVIEW · TITLE_EXACT · country 1 · 524×649 · `art_front/46/140251_87c442b1-07a1-4d7f-9935-3aa6a3f1faee.webp`
 
 ### Runbow (#1025)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1vgd.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Runbow [Deluxe Edition]** · REVIEW · EDITION_RELAXED · country 1 · 407×512 · `art_front/46/8974787d-b7dc-4169-b1ec-dd95005277f0.webp`
 
 ### Runner3 (#1026)
 - Current bucket: **IGDB_LEGACY**
@@ -5541,19 +5236,19 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1zzf.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rustler** · REVIEW · TITLE_EXACT · country 1 · 1204×1500 · `art_front/46/75fea6cb-213b-497f-9162-6cc9e120f658.webp`
 
 ### RWBY: Arrowfell (#1997)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co6epe.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **RWBY: Arrowfell** · REVIEW_LOW_RES · TITLE_EXACT · country 1 · 402×610 · `art_front/46/143525_28b9121d-6ada-47d3-aebe-6b4a7386ad91.webp`
 
 ### Rym 9000 (#1717)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2el5.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Rym 9000 - Limited Edition** · REVIEW · EDITION_RELAXED · country 34 · 1500×1500 · `art_front/46/d619a4de-fc05-4a4a-90eb-64b0755911dd.webp`
 
 ### S.T.A.L.K.E.R.: Call of Prypiat (#2090)
 - Current bucket: **IGDB_LEGACY**
@@ -5577,295 +5272,295 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co48pa.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Saint Kotar** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 780×1000 · `art_front/46/0892a8f4-a694-4c44-bd76-78874ddebd15.webp`
 
 ### Saint Seiya: Soldiers' Soul (#2083)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co6p9s.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Saint Seiya: Soldier's Soul** · REVIEW · TITLE_EXACT · country 1 · 288×360 · `art_front/46/139348_67ef29da-8c8f-422c-a2c8-50736f3219e9.webp`
 
 ### Saints Row (#2270)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5pxl.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Saints Row [Day One Edition]** · REVIEW · EDITION_RELAXED · country 1 · 616×768 · `art_front/46/68966b32-6c83-436c-b12b-79b67b773533.webp`
 
 ### Saints Row IV: Re-Elected (#2230)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1y9h.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Saints Row IV: Re-Elected** · REVIEW · TITLE_EXACT · country 34 · 640×640 · `art_front/46/6b85098e-c572-4659-98de-63f60d2b6d1b.webp`
 
 ### Saints Row: Gat Out of Hell (#1719)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co23fw.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Saints Row: Gat Out of Hell** · REVIEW · TITLE_EXACT · country 34 · 480×600 · `art_front/46/69078b6f-8371-45dc-86c8-6bf89e6e5eaf.webp`
 
 ### Saints Row: The Third Remastered (#1029)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co22r7.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Saints Row: The Third Remastered** · REVIEW · TITLE_EXACT · country 1 · 1064×1311 · `art_front/46/0cfcbb9b-5bb0-4236-bae7-543ca1ceb8be.webp`
 
 ### Sakuna of Rice and Ruin (#2716)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cob1u5.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sakuna: Of Rice and Ruin** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 776×1000 · `art_front/46/0d24080d-7fc4-49cb-9c6f-5504d0458a04.webp`
 
 ### Sakura Wars (#1030)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co235g.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sakura Wars** · REVIEW · TITLE_EXACT · country 1 · 1203×1500 · `art_front/46/6142b16c-c731-4d24-9c7b-af0b0e56a93f.webp`
 
 ### Salt And Sacrifice (#2717)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cobwoi.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Salt and Sacrifice** · REVIEW · TITLE_EXACT · country 1 · 763×946 · `art_front/46/e9180ca0-dc3a-431d-892d-574bc1e7679a.webp`
 
 ### Salt and Sanctuary (#1031)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cobwoj.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Salt and Sanctuary** · REVIEW · TITLE_EXACT · country 1 · 803×1029 · `art_front/46/35eedea1-af4d-4a95-9b83-588536ede166.webp`
 
 ### Sam & Max: Beyond Time And Space (#2718)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4aay.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sam & Max: Beyond Time and Space** · REVIEW · TITLE_EXACT · country 1 · 630×700 · `art_front/46/26e29bd4-b1ea-41d0-843b-24f827e2e4f0.webp`
 
 ### Sam & Max: Save the World (#2719)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2k80.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sam & Max Save the World** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 796×1223 · `art_front/46/0f4e52e6-d67c-4267-a3b3-04187dfe94ad.webp`
 
 ### Samurai Jack: Battle Through Time (#1526)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co206e.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Samurai Jack: Battle Through Time** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 786×1198 · `art_front/46/e3da9db8-b43e-4ea7-97b1-e91e19b0b675.webp`
 
 ### Samurai Maiden (#2054)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5vcu.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Samurai Maiden** · REVIEW · TITLE_EXACT · country 3 · 463×593 · `art_front/46/250b8ac7-7f25-4600-94f4-727f2c23ee20.webp`
 
 ### Samurai Shodown (#1032)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1m9a.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Samurai Shodown** · REVIEW · TITLE_EXACT · country 1 · 1523×1902 · `art_front/46/0912a6ea-e368-4aef-ba1c-d6d8ae7ce95c.webp`
 
 ### Samurai Shodown NeoGeo Collection (#1033)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co29ku.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Samurai Shodown: NeoGeo Collection** · REVIEW · TITLE_EXACT · country 1 · 796×1020 · `art_front/46/490ebcad-b4b0-4cf0-97d6-f295f48efb2a.webp`
 
 ### Samurai Shodown V Special (#1034)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1thg.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Samurai Shodown V Special** · REVIEW · TITLE_EXACT · country 1 · 1200×1200 · `art_front/46/62af005b-a55c-4858-95dd-32d332149e9f.webp`
 
 ### Samurai Shodown VI (#1720)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5u76.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Samurai Shodown VI** · REVIEW · TITLE_EXACT · country 1 · 480×543 · `art_front/46/65ab0ab0-afa1-4de4-a019-814108685766.webp`
 
 ### Samurai Warriors 4 (#1035)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2r8j.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Samurai Warriors 4** · REVIEW · TITLE_EXACT · country 1 · 1202×1500 · `art_front/46/3a728718-97bb-4828-b7b4-7ceee316eae8.webp`
 
 ### Samurai Warriors 4 Empires (#1036)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2r8l.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Samurai Warriors 4: Empires** · REVIEW · TITLE_EXACT · country 1 · 6065×7497 · `art_front/46/d27130a1-6f3d-4a7f-8fe2-d7c167c9028d.webp`
 
 ### Samurai Warriors 4-II (#1037)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2r8k.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Samurai Warriors 4-II** · REVIEW · TITLE_EXACT · country 1 · 200×250 · `art_front/46/137836_3698aaf4-00b3-46f8-8ade-396f162c8f3e.webp`
 
 ### Samurai Warriors: Spirit of Sanada (#1038)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1u5e.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Samurai Warriors: Spirit of Sanada** · REVIEW · TITLE_EXACT · country 1 · 1524×1899 · `art_front/46/7f85c1cb-f0ae-4550-b081-051c1a4b3432.webp`
 
 ### Sand Land (#2720)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7m35.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sand Land** · REVIEW · TITLE_EXACT · country 1 · 731×931 · `art_front/46/02f278ff-3464-459f-9dcb-0931970b5997.webp`
 
 ### Saturday Morning RPG (#1039)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2965.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Saturday Morning RPG** · REVIEW · TITLE_EXACT · country 1 · 1095×1334 · `art_front/46/16e22ffe-5076-4c4f-9139-18693ccbd102.webp`
 
 ### Saturnalia (#2341)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5p66.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Saturnalia** · REVIEW_LOW_RES · TITLE_EXACT · country 1 · 402×610 · `art_front/46/150128_4c07d758-c835-4288-8d93-7801f19693e4.webp`
 
 ### Sayonara Wild Hearts (#1040)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2gx1.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sayonara Wild Hearts** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 708×908 · `art_front/46/c5bec1ad-6cc9-42e6-9319-321bd00068df.webp`
 
 ### Scar-Lead Salvation (#2435)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co9c7d.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Scar-Lead Salvation** · REVIEW · TITLE_EXACT · country 1 · 1173×1500 · `art_front/46/2e2914cc-126a-43db-bcdc-9341afc0cfca.webp`
 
 ### Scarlet Nexus (#2722)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3b6l.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **SCARLET NEXUS** · REVIEW · TITLE_EXACT · country 1 · 700×872 · `art_front/46/f507c39f-e5f0-4120-973b-c3d43c3f8550.webp`
 
 ### Scott Pilgrim vs. The World: The Game - Complete Edition (#2004)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2g7m.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Scott Pilgrim vs. The World: The Game - Complete Edition** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 767×1180 · `art_front/46/53dcf359-4d4c-42fd-ae86-a03107f86824.webp`
 
 ### Screencheat (#1721)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/fdhebb99wjlrxlwuapwo.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Screencheat** · REVIEW · TITLE_EXACT · country 1 · 640×640 · `art_front/46/a89f26c5-646a-457e-84f6-eac6cf4a7ed5.webp`
 
 ### Scribblenauts Showdown (#1042)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co272u.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Scribblenauts Showdown** · REVIEW · TITLE_EXACT · country 1 · 2160×2645 · `art_front/46/0220b72b-6954-4a17-b685-5f662daa6b77.webp`
 
 ### SD Gundam Battle Alliance (#2710)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co52s2.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **SD Gundam Battle Alliance** · REVIEW · TITLE_EXACT · country 34 · 761×966 · `art_front/46/47a53715-7169-4ffc-90a4-392efd00a8b1.webp`
 
 ### SD Gundam G Generation Cross Rays (#2086)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co31hr.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **SD Gundam G Generation Cross Rays** · REVIEW · TITLE_EXACT · country 3 · 640×640 · `art_front/46/3afe111f-2077-44c0-b011-8bb9d72f8c9b.webp`
 
 ### SD Gundam G Generation Genesis (#2711)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co8edq.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **SD Gundam G Generation Genesis** · REVIEW · TITLE_EXACT · country 34 · 178×210 · `art_front/46/c8b942c8-abe9-4a2e-8ac5-5160a4ecdab5.webp`
 
 ### Sea Of Stars (#2723)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co215b.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sea of Stars** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 775×1000 · `art_front/46/9f0134bb-0f63-41ff-946f-fcc74daf0cfe.webp`
 
 ### Sebastien Loeb Rally Evo (#1043)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2uyy.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sebastien Loeb Rally Evo** · REVIEW · TITLE_EXACT · country 1 · 480×598 · `art_front/46/e9d64dff-0bdb-4ef5-b192-f1667c3e3b81.webp`
 
 ### Secret of Mana (#1044)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co9a7h.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Secret of Mana** · REVIEW · TITLE_EXACT · country 1 · 640×798 · `art_front/46/dbc8cd48-bd96-4597-aec2-a9d7eeade9a8.webp`
 
 ### Seed Of Life (#2724)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co40xh.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Seed of Life** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1177×1518 · `art_front/46/2ef0e80c-00d3-4a4f-a99d-b4c9024200e6.webp`
 
 ### Seek Hearts (#2725)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1xxp.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Seek Hearts** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 775×1191 · `art_front/46/ea77c446-6106-4565-890e-fb66b9dcebaa.webp`
 
 ### Sega Genesis Classics (#1045)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co6sm8.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sega Genesis Classics** · REVIEW · TITLE_EXACT · country 1 · 1128×1430 · `art_front/46/c7d5eefe-c98c-42c4-8be0-cb8626dfaeaf.webp`
 
 ### Sekiro: Shadows Die Twice (#1046)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2a23.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sekiro: Shadows Die Twice** · REVIEW · TITLE_EXACT · country 1 · 933×1171 · `art_front/46/f2226301-20bf-4447-bcbf-46c01fda79e2.webp`
 
 ### Semispheres (#1047)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24so.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Semispheres** · REVIEW · TITLE_EXACT · country 34 · 640×809 · `art_front/46/ab67800a-7ae1-4470-b4ba-9b88f37730d8.webp`
 
 ### Senko no Ronde 2 (#1048)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24s3.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Senko No Ronde 2** · REVIEW · TITLE_EXACT · country 1 · 1210×1511 · `art_front/46/527ab7f9-e1a1-4347-9320-f214cc866483.webp`
 
 ### Senran Kagura Burst Re:Newal (#1049)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cobzm5.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Senran Kagura Burst Re:Newal** · REVIEW · TITLE_EXACT · country 1 · 1205×1511 · `art_front/46/a3397a2d-e982-419e-b141-0ca4757f81b8.webp`
 
 ### Senran Kagura: Estival Versus (#1050)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co6ga8.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Senran Kagura: Estival Versus** · REVIEW · TITLE_EXACT · country 1 · 1524×1898 · `art_front/46/f31881b6-520b-4c48-af6c-563ad8f78b1f.webp`
 
 ### Senran Kagura: Peach Beach Splash (#1051)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3maa.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Senran Kagura: Peach Beach Splash** · REVIEW · TITLE_EXACT · country 1 · 712×888 · `art_front/46/24059221-d701-4611-9511-dd2bf1e0d13f.webp`
 
 ### Sense - A Cyberpunk Ghost Story (#1951)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1xgy.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sense: A Cyberpunk Ghost Story** · REVIEW · TITLE_EXACT · country 34 · 746×926 · `art_front/46/c3dcf9ef-5b07-42be-9f62-2f8ea7404db0.webp`
 
 ### Sephirothic Stories (#2005)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/coc5bw.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sephirothic Stories** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 775×1191 · `art_front/46/1bc09bab-efca-4f1f-9782-a56593dbba4a.webp`
 
 ### Serial Cleaner (#1052)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1tve.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Serial Cleaner** · REVIEW · TITLE_EXACT · country 1 · 2545×3200 · `art_front/46/54e23a2b-287a-4746-8928-59cfd62b9401.webp`
 
 ### Seven: Enhanced Edition (#1527)
 - Current bucket: **IGDB_LEGACY**
@@ -5877,13 +5572,13 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1i2i.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Shadow Complex Remastered** · REVIEW · TITLE_EXACT · country 1 · 1111×1360 · `art_front/46/909db186-52c3-484d-b649-31596b628f81.webp`
 
 ### Shadow of Loot Box (#1723)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1m8r.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Shadow of Loot Box** · REVIEW · TITLE_EXACT · country 34 · 640×640 · `art_front/46/5682e1f6-a31f-4d5a-994e-fb10d68cdffb.webp`
 
 ### Shadow of the Beast (#1724)
 - Current bucket: **IGDB_LEGACY**
@@ -5895,37 +5590,37 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co8sry.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Shadow of the Ninja - Reborn [Limited Edition]** · REVIEW · EDITION_RELAXED · country 34 · 785×995 · `art_front/46/272d47c5-0017-4d1a-92a3-cf5aac7faa2d.webp`
 
 ### Shadow of the Tomb Raider (#1056)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1vcn.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Shadow of the Tomb Raider** · REVIEW · TITLE_EXACT · country 1 · 1064×1325 · `art_front/46/e7382616-f61e-477a-a6ec-7ff36183ef3a.webp`
 
 ### Shadow Tactics: Blades of the Shogun (#1058)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1r8c.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Shadow Tactics: Blades of the Shogun** · REVIEW · TITLE_EXACT · country 1 · 1239×1538 · `art_front/46/0d2a7b70-f32d-4a22-968d-18c16e4d7a05.webp`
 
 ### Shadow Warrior (#1059)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co91kp.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Shadow Warrior** · REVIEW · TITLE_EXACT · country 1 · 1209×1518 · `art_front/46/b8cdc38d-b341-43fa-8a5c-636f586540a9.webp`
 
 ### Shadow Warrior 2 (#1060)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/coavqn.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Shadow Warrior 2** · REVIEW · TITLE_EXACT · country 34 · 366×465 · `art_front/46/d7417df5-26f8-43b2-9df4-d306a169ac00.webp`
 
 ### Shadowgate (#1061)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co249e.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Shadowgate** · REVIEW · TITLE_EXACT · country 1 · 540×600 · `art_front/46/ed517ce1-29ce-4a23-9f9f-47b4ed6b3e5e.webp`
 
 ### Shadowrun Returns (#2473)
 - Current bucket: **IGDB_LEGACY**
@@ -5949,61 +5644,61 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1i0m.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Shadows of Adam** · REVIEW · TITLE_EXACT · country 1 · 1383×1536 · `art_front/46/63b4ea7b-c178-468d-b776-387a20b75e02.webp`
 
 ### Shadows Over Loathing (#2453)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5rue.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Shadows Over Loathing** · REVIEW · TITLE_EXACT · country 1 · 930×1152 · `art_front/46/144648_0b1c11e5-0fb5-4abc-93ee-224b59346740.webp`
 
 ### Shakedown Hawaii (#1063)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1kyl.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Shakedown: Hawaii** · REVIEW · TITLE_EXACT · country 1 · 1134×1417 · `art_front/46/ba2bf2c2-b651-477e-a684-36d637cb8191.webp`
 
 ### Shantae (#2008)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co39y4.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Shantae** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 740×1135 · `art_front/46/136705_d989d080-b0e8-44b9-8e2c-08656ec70dee.webp`
 
 ### Shantae and the Pirate's Curse (#1064)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4b1u.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Shantae and the Pirate's Curse** · REVIEW · TITLE_EXACT · country 1 · 1512×1892 · `art_front/46/324e5144-c067-4c55-99f8-ec4784d7393a.webp`
 
 ### Shantae and the Seven Sirens (#1065)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7csj.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Shantae and the Seven Sirens** · REVIEW · TITLE_EXACT · country 1 · 948×1171 · `art_front/46/f3167c36-675c-4ed6-bb1b-b2b73373ddb1.webp`
 
 ### Shantae: Half-Genie Hero (#1066)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2ymj.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Shantae: Half-Genie Hero** · REVIEW · TITLE_EXACT · country 1 · 1194×1500 · `art_front/46/76ac3a60-e6f8-42a8-9e2c-569221f3a9d1.webp`
 
 ### Shantae: Risky's Revenge - Director's Cut (#1067)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co49xa.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Shantae: Risky's Revenge - Director's Cut** · REVIEW · TITLE_EXACT · country 1 · 1524×1896 · `art_front/46/86ea278c-4d42-4e06-a3a3-aa2d2a1dac11.webp`
 
 ### Shaq Fu: A Legend Reborn (#1068)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co222l.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Shaq Fu: A Legend Reborn** · REVIEW · TITLE_EXACT · country 1 · 1124×1393 · `art_front/46/68bb9017-0c84-45b6-b1be-96b7877bebaf.webp`
 
 ### Sheepo (#2343)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2gpx.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sheepo** · REVIEW_LOW_RES · TITLE_EXACT · country 1 · 368×549 · `art_front/46/140101_6835419f-ec6e-4878-a554-634aa64449a7.webp`
 
 ### Shenmue II (#1069)
 - Current bucket: **IGDB_LEGACY**
@@ -6015,43 +5710,43 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1sqz.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sherlock Holmes: Crimes & Punishments** · REVIEW · TITLE_EXACT · country 1 · 480×605 · `art_front/46/15af52de-de26-4ce1-bfcf-7295ff08099f.webp`
 
 ### Sherlock Holmes: The Devil's Daughter (#1072)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3wmc.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sherlock Holmes: The Devil's Daughter** · REVIEW · TITLE_EXACT · country 1 · 480×596 · `art_front/46/015ef1e6-ee1e-4974-8e77-0858f61a21ef.webp`
 
 ### Shikhondo: Soul Eater (#1726)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/p0rulxsgd2zqk8sj5wtc.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Shikhondo: Soul Eater** · REVIEW · TITLE_EXACT · country 34 · 1024×1024 · `art_front/46/2dcf254f-2c9c-49e8-b447-04d76cf7740c.webp`
 
 ### Shin Megami Tensei V: Vengeance (#2052)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7sv4.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Shin Megami Tensei V: Vengeance** · REVIEW · TITLE_EXACT · country 34 · 800×1017 · `art_front/46/b9e42cf1-c9f0-4dc8-93ba-b648526ac508.webp`
 
 ### Shing! (#2061)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1y9d.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Shing!** · REVIEW · TITLE_EXACT · country 34 · 512×512 · `art_front/46/b776e6f3-e36e-4cd6-91bd-22606a3ca2e1.webp`
 
 ### Shining Resonance Refrain (#1073)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2732.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Shining Resonance Refrain** · REVIEW · TITLE_EXACT · country 1 · 2060×2560 · `art_front/46/81de03fc-16de-4623-bc1b-342c5023e521.webp`
 
 ### Shinobi non Grata (#1966)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4wxq.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Shinobi non Grata** · HIGH_CONFIDENCE · TITLE_EXACT · country 34 · 593×913 · `art_front/46/6ec84107-2b6b-46c5-860a-9039e70adf0b.webp`
 
 ### Shinorubi (#1858)
 - Current bucket: **IGDB_LEGACY**
@@ -6063,25 +5758,25 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2222.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Shoppe Keep** · REVIEW_LOW_RES · TITLE_EXACT · country 34 · 323×454 · `art_front/46/b13a4072-c75d-4adf-a290-a5901c907c4b.webp`
 
 ### Shovel Knight (#1074)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cobaa7.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Shovel Knight** · REVIEW · TITLE_EXACT · country 1 · 753×927 · `art_front/46/9922125f-3d72-4eec-a2f6-b8ece6634bfb.webp`
 
 ### Sid Meier's Civilization VI (#1727)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/coaaqr.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sid Meier's Civilization VI** · REVIEW · TITLE_EXACT · country 1 · 1195×1500 · `art_front/46/d2805764-66ce-40df-bd31-240afd2941b3.webp`
 
 ### Sifu [Vengeance Edition] (#1528)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4oun.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sifu [Vengeance Edition]** · REVIEW · TITLE_EXACT · country 1 · 713×889 · `art_front/46/d2d7a6e2-1c69-4485-a458-9251906fbf65.webp`
 
 ### Sigi: A Fart for Melusina (#1728)
 - Current bucket: **IGDB_LEGACY**
@@ -6093,55 +5788,55 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co62ig.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Signalis** · REVIEW · TITLE_EXACT · country 1 · 1523×1898 · `art_front/46/6f1db552-8134-4f7c-9217-219d4cab4d42.webp`
 
 ### Silt (#2344)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co39tu.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Silt** · REVIEW · TITLE_EXACT · country 34 · 1024×1024 · `art_front/46/1df1e870-4ee1-4506-bf3c-cdb70d6a98c6.webp`
 
 ### SIMULACRA (#1729)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24d0.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Simulacra** · REVIEW · TITLE_EXACT · country 1 · 898×1071 · `art_front/46/87b5c4e9-ab26-43da-bce0-c0a19b5e173f.webp`
 
 ### SINce Memories: Off The Starry Sky (#2712)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co93o2.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **SINce Memories: Off the Starry Sky** · REVIEW · TITLE_EXACT · country 1 · 1522×1896 · `art_front/46/1861230e-88e9-4e26-95ae-c84cba7bf95c.webp`
 
 ### Sine Mora EX (#1075)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24zs.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sine Mora EX** · REVIEW · TITLE_EXACT · country 1 · 1554×1941 · `art_front/46/213875e9-85c8-4590-ba81-a9d48f6c85b4.webp`
 
 ### SingStar Celebration (#1730)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co27w2.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **SingStar Celebration** · REVIEW · TITLE_EXACT · country 1 · 798×994 · `art_front/46/2eb9b63b-d909-4a95-96b5-44ea2654ade2.webp`
 
 ### Sir Lovelot (#1818)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2tlk.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sir Lovelot** · REVIEW · TITLE_EXACT · country 1 · 614×763 · `art_front/46/d15e5cfe-00aa-46dc-a15a-bacc6a9ecdcb.webp`
 
 ### Siralim (#1076)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co224g.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Siralim** · REVIEW · TITLE_EXACT · country 1 · 1524×1876 · `art_front/46/96ff5855-e721-414a-a2ee-1d371d89f07f.webp`
 
 ### Siralim 2 (#1077)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co222g.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Siralim 2** · REVIEW · TITLE_EXACT · country 1 · 1513×1905 · `art_front/46/986d413b-1452-4194-97de-0a13fafa6b2f.webp`
 
 ### Skabma Snowfall (#2345)
 - Current bucket: **IGDB_LEGACY**
@@ -6171,97 +5866,97 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co273a.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Skelattack** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 752×1136 · `art_front/46/136324_bdd4de29-11f9-40c8-85c6-a953105290bb.webp`
 
 ### Skullgirls: 2nd Encore (#1080)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co21fn.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Skullgirls: 2nd Encore** · REVIEW · TITLE_EXACT · country 1 · 2048×1408 · `art_front/46/2e9f2f22-08ea-49ae-8987-ea0a1cd8885b.webp`
 
 ### Skulls of the Shogun: Bone-a-Fide Edition (#1731)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2212.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Skulls of the Shogun: Bone-A-Fide Edition** · REVIEW · TITLE_EXACT · country 34 · 640×640 · `art_front/46/12bb82c8-3fb2-4cdf-9b72-b3ef7cff152f.webp`
 
 ### Skully (#1081)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co27l1.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Skully** · REVIEW · TITLE_EXACT · country 1 · 1000×1215 · `art_front/46/9a82115f-ad20-42d6-86df-284af97bbc24.webp`
 
 ### Sky Force Anniversary (#1082)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24t2.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sky Force Anniversary** · REVIEW · TITLE_EXACT · country 1 · 1383×1536 · `art_front/46/ff14a28c-adbd-44c6-858f-74f88442e05e.webp`
 
 ### Skyhill (#2437)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3wfd.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Skyhill** · REVIEW · TITLE_EXACT · country 34 · 640×640 · `art_front/46/b27986f3-0473-4e65-8300-2fe0b30a5c46.webp`
 
 ### Skylanders Imaginators (#1083)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co21a3.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Skylanders Imaginators** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1200×1600 · `art_front/46/d16c5e37-00e9-48c5-8188-c6ddd321a611.webp`
 
 ### Skylanders SuperChargers (#1084)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co21a1.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Skylanders SuperChargers** · REVIEW · TITLE_EXACT · country 1 · 640×404 · `art_front/46/58c1cb4c-95a3-456e-835b-44ddfdb7ab6a.webp`
 
 ### Skylanders Swap Force (#1085)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1ysb.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Skylanders Swap Force** · REVIEW · TITLE_EXACT · country 1 · 1103×1354 · `art_front/46/a0d301d1-777f-4623-8a33-6f98785e026a.webp`
 
 ### Skylanders Trap Team (#1086)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1ysd.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Skylanders Trap Team** · REVIEW · TITLE_EXACT · country 1 · 803×1000 · `art_front/46/f246376d-d599-42ee-8ca3-85e1fa8444e4.webp`
 
 ### Slain: Back from Hell (#1530)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2rbn.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Slain: Back from Hell** · HIGH_CONFIDENCE · TITLE_EXACT · country 34 · 600×900 · `art_front/46/e29cec0a-9b7c-403a-ae8a-f3e278563aea.webp`
 
 ### Slay the Spire (#1087)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1iyf.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Slay the Spire** · REVIEW · TITLE_EXACT · country 1 · 1900×2419 · `art_front/46/9bd73d7f-b6b5-4571-8f33-3511d44ec4a8.webp`
 
 ### Slide Stars (#1090)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2kgl.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Slide Stars** · REVIEW · TITLE_EXACT · country 1 · 480×597 · `art_front/46/e4114994-e7b5-47b4-8bec-88b39df8f6ca.webp`
 
 ### Slime Rancher (#1091)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co73i2.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Slime Rancher** · REVIEW · TITLE_EXACT · country 1 · 1163×1471 · `art_front/46/46f66a00-8034-410d-8604-d2af8eeae3f1.webp`
 
 ### Slime-san: Superslime Edition (#1092)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co275f.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Slime-san: Superslime Edition** · REVIEW · TITLE_EXACT · country 1 · 1191×1469 · `art_front/46/7f178d9b-bd36-4d31-af23-66eb5049beed.webp`
 
 ### Smashing the Battle: Ghost Soul (#1949)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3rmk.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Smashing the Battle: Ghost Soul [Limited Edition]** · REVIEW_EDITION · EDITION_RELAXED · country 34 · 468×708 · `art_front/46/ce56ad15-fc5d-4194-af47-6c656e118bee.webp`
 
 ### Smelter (#1860)
 - Current bucket: **IGDB_LEGACY**
@@ -6279,55 +5974,55 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24t8.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sniper Elite 4** · REVIEW · TITLE_EXACT · country 1 · 1522×1904 · `art_front/46/ed4d9057-e285-486f-a439-903e1f6f2b9a.webp`
 
 ### Sniper Elite III (#1096)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2e40.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sniper Elite III** · REVIEW · TITLE_EXACT · country 1 · 1204×1500 · `art_front/46/4371e65d-6272-4728-ad00-e60cf83df792.webp`
 
 ### Sniper Elite V2 Remastered (#1097)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2urq.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sniper Elite V2 Remastered** · REVIEW · TITLE_EXACT · country 1 · 640×798 · `art_front/46/6daa56c5-9b42-4f19-a95f-c02650a2ce84.webp`
 
 ### Sniper Ghost Warrior Contracts (#1098)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1ts7.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sniper Ghost Warrior: Contracts** · REVIEW · TITLE_EXACT · country 1 · 1024×1282 · `art_front/46/32790ae7-a9b4-4dbf-bffb-d5c32398d6b3.webp`
 
 ### Sniper: Ghost Warrior 3 (#1099)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/coa11j.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sniper: Ghost Warrior 3 [Limited Edition]** · REVIEW · EDITION_RELAXED · country 1 · 640×788 · `art_front/46/143548_d86cdb46-5e73-4020-8b3f-ce3c7335d285.webp`
 
 ### SNK 40th Anniversary Collection (#1100)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co249k.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **SNK 40th Anniversary Collection** · REVIEW · TITLE_EXACT · country 1 · 480×599 · `art_front/46/6aa4ad03-dc49-4a98-b82b-e0f6cf335cb0.webp`
 
 ### SNK Heroines: Tag Team Frenzy (#1101)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1n7p.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **SNK Heroines: Tag Team Frenzy** · REVIEW · TITLE_EXACT · country 1 · 1208×1514 · `art_front/46/a49f5ff1-85ca-43f2-bfe6-c1db13082b33.webp`
 
 ### Snow Battle Princess Sayuki (#1968)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4gfj.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Snow Battle Princess Sayuki** · HIGH_CONFIDENCE · TITLE_EXACT · country 34 · 707×1081 · `art_front/46/8e3838f5-1957-4325-8936-56c9bceb95ef.webp`
 
 ### SnowRunner (#1102)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/coaazp.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **SnowRunner** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1141×1500 · `art_front/46/533e52c0-55f0-462c-826d-60cdef4768c5.webp`
 
 ### SOL CRESTA (#2018)
 - Current bucket: **IGDB_LEGACY**
@@ -6339,43 +6034,43 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1iwh.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Song of Memories** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1070×1500 · `art_front/46/4ce73908-4c12-489b-9305-89d454f490a1.webp`
 
 ### Song of the Deep (#1105)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2rck.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Song of the Deep** · REVIEW · TITLE_EXACT · country 1 · 1199×1516 · `art_front/46/6f61b49c-8dad-4455-9462-5fdcdb7d609c.webp`
 
 ### Sonic Forces (#1106)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1zr8.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sonic Forces** · REVIEW · TITLE_EXACT · country 1 · 1210×1511 · `art_front/46/35eda2b2-68a0-461f-9e8c-15727f3c0df8.webp`
 
 ### Sonic Frontiers (#2346)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5p52.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sonic Frontiers** · REVIEW · TITLE_EXACT · country 1 · 671×838 · `art_front/46/21f05373-d625-463d-954b-4ede8f878209.webp`
 
 ### Sonic Mania (#1107)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cob1t0.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sonic Mania** · REVIEW · TITLE_EXACT · country 1 · 1521×1896 · `art_front/46/8e017d36-8300-4bd5-998f-50af32cbf13e.webp`
 
 ### Sonic Mania Plus (#1108)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cob8we.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sonic Mania Plus** · REVIEW · TITLE_EXACT · country 1 · 1522×1897 · `art_front/46/b6c69cc2-f35a-4ee3-9f2c-4ec0679d0e55.webp`
 
 ### Sonic Superstars (#2347)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cobbw4.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sonic Superstars** · REVIEW · TITLE_EXACT · country 1 · 1115×1418 · `art_front/46/6c35cc06-390d-4a83-bc60-3eef44a49db8.webp`
 
 ### Sophstar (#1878)
 - Current bucket: **IGDB_LEGACY**
@@ -6387,7 +6082,7 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1x6j.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **SoulCalibur VI** · REVIEW · TITLE_EXACT · country 1 · 1525×1900 · `art_front/46/fa9fa160-8f16-434d-a57f-fd1c411c36f1.webp`
 
 ### Souldiers (#2348)
 - Current bucket: **IGDB_LEGACY**
@@ -6405,25 +6100,25 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1v8w.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **South Park: The Fractured But Whole** · REVIEW · TITLE_EXACT · country 1 · 640×813 · `art_front/46/251890a3-4157-4ac9-a82f-e1f01409c6a0.webp`
 
 ### South Park: The Stick of Truth (#1111)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1v8x.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **South Park: The Stick of Truth** · REVIEW · TITLE_EXACT · country 1 · 480×610 · `art_front/46/06473b9d-89d4-49fc-8eb9-ca90f7aba74c.webp`
 
 ### Space Hulk (#1112)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cobox4.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Space Hulk** · REVIEW · TITLE_EXACT · country 1 · 286×360 · `art_front/46/137944_8d9bd84d-b663-497a-85a1-5ab5aa73c97a.webp`
 
 ### Space Hulk Ascension (#1113)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2e46.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Space Hulk Ascension** · REVIEW · TITLE_EXACT · country 1 · 791×998 · `art_front/46/0dd67ed9-3485-400c-bd72-cb7a2360e28a.webp`
 
 ### Space Hulk: Deathwing (#1114)
 - Current bucket: **IGDB_LEGACY**
@@ -6435,7 +6130,7 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co275l.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Space Hulk: Tactics** · REVIEW · TITLE_EXACT · country 1 · 765×949 · `art_front/46/4973f5c2-0bdd-41fe-8a89-6a1c38e49af2.webp`
 
 ### Spacebase Startopia (#2438)
 - Current bucket: **IGDB_LEGACY**
@@ -6453,7 +6148,7 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co8uzy.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Speedollama** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 560×746 · `art_front/46/d3a82c99-b1bb-4654-811a-e7f161a2dc13.webp`
 
 ### Spellcaster University (#1853)
 - Current bucket: **IGDB_LEGACY**
@@ -6471,37 +6166,37 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co47m4.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Spelunky** · REVIEW · TITLE_EXACT · country 1 · 1185×1467 · `art_front/46/c95e3cb1-cf7d-4af8-bad1-11b098b54a75.webp`
 
 ### Spidersaurs (#2026)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co4xwi.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Spidersaurs!** · REVIEW_LOW_RES · TITLE_EXACT · country 1 · 176×249 · `art_front/46/079e1ec6-2962-43eb-b0c7-aec1638ff387.webp`
 
 ### Spirit Hunter: NG (#1120)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2h6a.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Spirit Hunter: NG** · REVIEW · TITLE_EXACT · country 1 · 803×1000 · `art_front/46/a3d75352-d483-416d-9214-e36705dabf6e.webp`
 
 ### Spirit of the North (#1121)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co7ewy.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Spirit of the North** · REVIEW · TITLE_EXACT · country 1 · 1462×1842 · `art_front/46/e42e23b2-efe5-4289-ab72-5dbbd908d15e.webp`
 
 ### Spiritfarer (#2349)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2fe7.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Spiritfarer** · REVIEW · TITLE_EXACT · country 1 · 751×943 · `art_front/46/19c5f7c3-55d1-434f-8608-200e2a85206d.webp`
 
 ### Splasher (#1122)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1z3z.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Splasher** · REVIEW · TITLE_EXACT · country 1 · 1383×1536 · `art_front/46/5fd372e8-dfb0-45e0-85f0-81b07d6ea80b.webp`
 
 ### Spyro 2: Ripto's Rage! (#2106)
 - Current bucket: **IGDB_LEGACY**
@@ -6525,61 +6220,61 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cob89o.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Star Ocean: First Departure R** · REVIEW · TITLE_EXACT · country 1 · 3644×4534 · `art_front/46/beb1ebf3-2458-4ed2-9393-8fbc74e90bd0.webp`
 
 ### Star Renegades (#2251)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2m8o.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Star Renegades** · REVIEW · TITLE_EXACT · country 1 · 575×706 · `art_front/46/8bf3c7a8-f732-47ee-8231-46520596a16f.webp`
 
 ### Star Trek: Bridge Crew (#1129)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co27vi.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Star Trek: Bridge Crew** · REVIEW · TITLE_EXACT · country 1 · 535×668 · `art_front/46/320356b0-6677-440a-914b-ee345e970a05.webp`
 
 ### Star Wars Battlefront (#1130)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2res.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Star Wars Battlefront** · REVIEW · TITLE_EXACT · country 1 · 803×1000 · `art_front/46/6baa6d54-2b4c-45a1-9872-152f4791b1a8.webp`
 
 ### Star Wars Battlefront II (#1131)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3wi7.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Star Wars Battlefront II** · REVIEW · TITLE_EXACT · country 1 · 641×800 · `art_front/46/8cc5a5c5-80ee-49c8-89d1-134387c2cfe3.webp`
 
 ### Star Wars Jedi Knight II: Jedi Outcast (#1133)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1y67.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Star Wars Jedi Knight II: Jedi Outcast** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 516×797 · `art_front/46/e8669a10-76a9-40f2-b0ad-1bb37bf82343.webp`
 
 ### Star Wars Jedi Knight: Jedi Academy (#1134)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5c44.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Star Wars Jedi Knight: Jedi Academy** · REVIEW · TITLE_EXACT · country 1 · 700×877 · `art_front/46/13849d4e-9464-4aee-b725-a15895a893e1.webp`
 
 ### Star Wars: Bounty Hunter (#1732)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co8f77.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Star Wars: Bounty Hunter** · REVIEW · TITLE_EXACT · country 1 · 480×601 · `art_front/46/217ed8fa-ff29-4a65-9b93-f40451a270c8.webp`
 
 ### Star Wars: Jedi Survivor (#1733)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co5uzk.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Star Wars Jedi: Survivor** · REVIEW · TITLE_EXACT · country 1 · 762×952 · `art_front/46/573068e7-0c2a-464c-a910-e05485aa1eea.webp`
 
 ### Star Wars: Racer Revenge (#1137)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1p1o.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Star Wars: Racer Revenge** · REVIEW · TITLE_EXACT · country 1 · 950×1172 · `art_front/46/a5cf5f52-2abf-4b41-a6df-fb208209248f.webp`
 
 ### Stay (#1940)
 - Current bucket: **IGDB_LEGACY**
@@ -6591,7 +6286,7 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/s3anoxgcy9rjfwg48too.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Stealth Inc: A Clone in the Dark - Ultimate Edition** · REVIEW · TITLE_EXACT · country 1 · 1127×1360 · `art_front/46/2260eee5-4e98-4a90-9e1b-c3d681db461f.webp`
 
 ### Steam Tactics (#1930)
 - Current bucket: **IGDB_LEGACY**
@@ -6603,55 +6298,55 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cob1ud.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **SteamWorld Dig** · REVIEW · TITLE_EXACT · country 34 · 160×160 · `art_front/46/74bec04c-b1c7-4d6c-8362-8630e2e794e2.webp`
 
 ### SteamWorld Dig 2 (#1144)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24u8.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **SteamWorld Dig 2** · REVIEW · TITLE_EXACT · country 1 · 493×626 · `art_front/46/cdb940a0-afc1-4bf9-859a-1ee9b3f62e12.webp`
 
 ### SteamWorld Heist (#2118)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/cob1ue.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **SteamWorld Heist** · REVIEW · TITLE_EXACT · country 34 · 300×300 · `art_front/46/fdd34ed5-b640-4bb7-a44f-ce08b2cc5ca9.webp`
 
 ### Steel Rats (#1532)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24a0.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Steel Rats** · REVIEW · TITLE_EXACT · country 34 · 640×640 · `art_front/46/14241017-283a-4039-9b65-345bff652a13.webp`
 
 ### Steep (#1145)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2jpb.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Steep** · REVIEW · TITLE_EXACT · country 1 · 1523×1935 · `art_front/46/7232c06e-47c6-4291-9ae5-e5adcd4858c1.webp`
 
 ### Steins;Gate 0 (#1146)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24ua.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Steins;Gate 0** · REVIEW · TITLE_EXACT · country 1 · 401×500 · `art_front/46/e50d1164-1098-4f3b-a55b-59946438ef4a.webp`
 
 ### Steins;Gate Elite (#1147)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co3g9p.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Steins;Gate Elite** · REVIEW · TITLE_EXACT · country 1 · 730×914 · `art_front/46/3170da92-b612-4fd8-a32d-1206bc096014.webp`
 
 ### Stellaris: Console Edition (#1148)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co28zl.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Stellaris [Console Edition]** · REVIEW · TITLE_EXACT · country 34 · 640×640 · `art_front/46/f3d63ec3-e3e6-48be-a6ab-012afa53f30d.webp`
 
 ### Stern Pinball Arcade (#1149)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24ud.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Stern Pinball Arcade** · REVIEW · TITLE_EXACT · country 1 · 1084×1369 · `art_front/46/8dd3e684-4aac-43e4-9199-805438057145.webp`
 
 ### Steven Universe: Save the Light (#2231)
 - Current bucket: **IGDB_LEGACY**
@@ -6663,79 +6358,79 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/vsdknmi9ba63qo05d3y6.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Stikbold! A Dodgeball Adventure** · REVIEW · TITLE_EXACT · country 1 · 1858×1536 · `art_front/46/455445d9-ae4b-4dac-93a1-7a426cf22f63.webp`
 
 ### STRAFE (#1153)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/jegkipvyqqhur5uheqgs.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **STRAFE** · REVIEW · TITLE_EXACT · country 1 · 1200×1333 · `art_front/46/22fcf843-8836-4940-a114-214db42c9f0b.webp`
 
 ### Stranger Things 3: The Game (#1157)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1sez.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Stranger Things 3: The Game** · REVIEW · TITLE_EXACT · country 1 · 480×599 · `art_front/46/e0af8e6b-9f03-49df-8cb4-1887219704ca.webp`
 
 ### Street Fighter V (#1159)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1pka.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Street Fighter V** · REVIEW · TITLE_EXACT · country 1 · 1526×1904 · `art_front/46/96668620-a4f1-4818-9715-e5d57f900b36.webp`
 
 ### Street Fighter: 30th Anniversary Collection (#1161)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1nvd.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Street Fighter: 30th Anniversary Collection** · REVIEW · TITLE_EXACT · country 1 · 1901×2407 · `art_front/46/edac25ca-08ae-497a-a211-b158a1c27a21.webp`
 
 ### Street Outlaws: The List (#1162)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24cr.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Street Outlaws: The List** · REVIEW · TITLE_EXACT · country 1 · 1155×1431 · `art_front/46/5779168d-c62a-4ddc-b813-3aa81c17aa73.webp`
 
 ### Street Power Soccer (#1163)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2ebz.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Street Power Soccer** · REVIEW · TITLE_EXACT · country 1 · 480×583 · `art_front/46/c45a2196-f2db-49db-af5c-7840686699f4.webp`
 
 ### Streets of Rage 4 (#1164)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2dru.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Streets of Rage 4** · REVIEW · TITLE_EXACT · country 1 · 761×945 · `art_front/46/3795251c-6c1f-48d9-a325-b01319e33b99.webp`
 
 ### Strikers Edge (#1165)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co276c.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Strikers Edge** · REVIEW · TITLE_EXACT · country 1 · 825×1024 · `art_front/46/df05a406-3c93-43d2-b4c9-ea597ca71f66.webp`
 
 ### Styx: Shards of Darkness (#1166)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co24zt.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Styx: Shards of Darkness** · REVIEW · TITLE_EXACT · country 1 · 800×1001 · `art_front/46/116f0be2-6291-4ddb-833e-be45eeba7627.webp`
 
 ### Subnautica (#1167)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/coa938.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Subnautica** · HIGH_CONFIDENCE · TITLE_EXACT · country 1 · 1545×2097 · `art_front/46/dd5635d3-7ca4-469b-8283-c246b1c37dab.webp`
 
 ### Sudden Strike 4 (#1168)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1ods.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sudden Strike 4** · REVIEW · TITLE_EXACT · country 1 · 330×408 · `art_front/46/ddf68d5e-79a6-4878-93cb-46c3832b5730.webp`
 
 ### Summertime Madness (#2350)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co2vve.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Summertime Madness** · REVIEW · TITLE_EXACT · country 1 · 1080×1200 · `art_front/46/891dc463-1857-46c8-be1f-dd0de2f5c483.webp`
 
 ### Summon Night 6: Lost Borders (#1170)
 - Current bucket: **IGDB_LEGACY**
@@ -6747,13 +6442,13 @@ Generated: 2026-09-24T17:26:48.036Z
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/aq6qahkwjzwgdppbydcc.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Sundered** · REVIEW · TITLE_EXACT · country 1 · 215×272 · `art_front/46/377a75cf-3ff9-4bce-bdab-a48deb1dd18a.webp`
 
 ### Super Blood Hockey (#1174)
 - Current bucket: **IGDB_LEGACY**
 - Current source: https://images.igdb.com/igdb/image/upload/t_cover_big/co1krz.jpg
 - Reason: IGDB cover; may be key art or wrong edition/region
-- GameEye candidate: none confidently title-matched
+- GameEye candidate: **Super Blood Hockey** · REVIEW · TITLE_EXACT · country 1 · 438×547 · `art_front/46/7241d4b1-ca1a-41eb-ba13-6eccd511c0f8.webp`
 
 ### Super Bomberman R (#1175)
 - Current bucket: **IGDB_LEGACY**
