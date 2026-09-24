@@ -11,6 +11,7 @@ window.SHELFCHECK_TITLE_COVERS={
   "armagallant decks of destiny":"https://pnpdistribution.com/i/ARMAG-DD-P4-I.jpg",
   "asdivine hearts":"https://limitedrungames.com/cdn/shop/products/AH-PS4.png?v=1503350384",
   "atari flashback classics volume 1":"https://cdn.awsli.com.br/2500x2500/138/138431/produto/27132878/8e5fec5bad.jpg",
+  "8 bit adventure anthology volume one":"https://gamefaqs.gamespot.com/a/box/8/0/8/688808_front.jpg",
   "bayonetta":"https://gamefaqs.gamespot.com/a/box/9/2/1/742921_front.jpg",
   "avicii invector":"https://gamefaqs.gamespot.com/a/box/3/8/9/782389_front.jpg",
   "baldurs gate and baldurs gate ii enhanced editions":"https://gamefaqs.gamespot.com/a/box/4/6/9/723469_front.jpg",
