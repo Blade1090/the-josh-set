@@ -34,10 +34,9 @@
     "ara fell enhanced edition":"https://www.tradeinn.com/f/14135/141350183/playstation-ps4-ara-fell-and-rise-of-the-third-power-import.webp",
     "armagallant decks of destiny":"https://pnpdistribution.com/i/ARMAG-DD-P4-I.jpg",
     "asdivine hearts":"https://limitedrungames.com/cdn/shop/products/AH-PS4.png?v=1503350384",
-    "atari flashback classics volume 1":"https://cdn.awsli.com.br/2500x2500/138/138431/produto/27132878/8e5fec5bad.jpg",
-    ...(window.SHELFCHECK_TITLE_COVERS||{})
+    "atari flashback classics volume 1":"https://cdn.awsli.com.br/2500x2500/138/138431/produto/27132878/8e5fec5bad.jpg"
   };
-  const coverFor=x=>titleCovers[norm(x.title)]||window.SHELFCHECK_GAMEYE_RETAIL?.[x.id]||window.SHELFCHECK_COVERS?.[x.id]||null;
+  const coverFor=x=>window.SHELFCHECK_TITLE_COVERS?.[norm(x.title)]||titleCovers[norm(x.title)]||window.SHELFCHECK_GAMEYE_RETAIL?.[x.id]||window.SHELFCHECK_COVERS?.[x.id]||null;
   const productCover=p=>{if(!p)return null;const generated=window.SHELFCHECK_PRODUCT_COVERS?.[p.key];if(generated)return generated;const exact=items.find(x=>x.set==='INCLUDED'&&norm(x.title)===norm(p.title)&&coverFor(x));if(exact)return coverFor(exact);const ids=[...new Set(p.ids||[])],covered=ids.map(id=>byId.get(id)).filter(x=>x?.set==='INCLUDED'&&coverFor(x));return covered.length===1?coverFor(covered[0]):null};
   const fallbackHtml='<div class="cover-fallback">COVER<br>NEEDED</div>';
   const style=document.createElement('style');
@@ -60,7 +59,13 @@
   const repaint=()=>{document.querySelectorAll('#results .cover-shell').forEach(x=>x.remove());paint()};
   const oldRender=render;render=function(){const r=oldRender.apply(this,arguments);paint();if(typeof decoratePriceCards==='function')decoratePriceCards();return r};
   const oldDetail=detail;detail=function(id){const r=oldDetail.apply(this,arguments);const box=document.querySelector('#detail');if(!box||box.querySelector('.detail-cover-shell'))return r;const h=box.querySelector('h2');if(!h)return r;const x=byId.get(id),url=x&&coverFor(x);const shell=document.createElement('div');shell.className='detail-cover-shell';const fallback=()=>{shell.classList.remove('has-cover');shell.innerHTML=fallbackHtml};if(url){const img=document.createElement('img');img.className='detail-cover';img.src=url;img.alt=x.title+' cover';img.decoding='async';img.onerror=fallback;shell.classList.add('has-cover');shell.title='Tap to enlarge cover';shell.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();openLightbox(url,x.title)});shell.appendChild(img)}else fallback();h.insertAdjacentElement('afterend',shell);return r};
-  window.SHELFCHECK_COVER_ART={version:105,paint,repaint,coverFor,productCover,openLightbox};
+  window.SHELFCHECK_COVER_ART={version:106,paint,repaint,coverFor,productCover,openLightbox};
+
+  const curatedScript=document.createElement('script');
+  curatedScript.src='cover-title-overrides.js?v=3';
+  curatedScript.onload=repaint;
+  curatedScript.onerror=()=>console.warn('ShelfCheck: curated cover corrections unavailable.');
+  document.head.appendChild(curatedScript);
 
   const retailScript=document.createElement('script');
   retailScript.src='https://cdn.jsdelivr.net/gh/Blade1090/the-josh-set@e8d33ecbe32f8ad22ad8431a6c14491e91d6dabe/cover-gameye-retail.js';
