@@ -27,6 +27,14 @@
     "adk damashii":"https://images.launchbox-app.com/609089b1-1034-493b-b0fe-159e72b8057a.jpg",
     "aer memories of old":"https://cdn.cdon.com/media-dynamic/images/product/cloud/store/VideoGameSoftare/000/213/332/311/213332311-380305215-11453-org.jpg?cache=134036604330634916&imWidth=600",
     "aerea":"https://www.jnlgame.com/cdn/shop/files/FullSizeRender_236b134d-c5dd-4c1f-ba72-2d6e399b9491.jpg?v=1720628678",
+    "adk tamashii":"https://limitedrungames.com/cdn/shop/products/ADKProductImage.png?height=1080&v=1576795434",
+    "alchemic jousts":"https://www.vpd.fi/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/a/l/alchemic_joust_ps4_sp_po84179.jpg",
+    "alienation":"https://cdn.nguyenkimmall.com/images/detailed/232/dia-game--pcas00059-alienation.jpg",
+    "anima gate of memories the nameless chronicles":"https://gameline.ph/cdn/shop/files/w_02367a5f-0f95-4ffb-95f2-23e919b404ba_1200x1200.png?v=1759903314",
+    "ara fell enhanced edition":"https://www.tradeinn.com/f/14135/141350183/playstation-ps4-ara-fell-and-rise-of-the-third-power-import.webp",
+    "armagallant decks of destiny":"https://pnpdistribution.com/i/ARMAG-DD-P4-I.jpg",
+    "asdivine hearts":"https://limitedrungames.com/cdn/shop/products/AH-PS4.png?v=1503350384",
+    "atari flashback classics volume 1":"https://cdn.awsli.com.br/2500x2500/138/138431/produto/27132878/8e5fec5bad.jpg",
     ...(window.SHELFCHECK_TITLE_COVERS||{})
   };
   const coverFor=x=>titleCovers[norm(x.title)]||window.SHELFCHECK_GAMEYE_RETAIL?.[x.id]||window.SHELFCHECK_COVERS?.[x.id]||null;
@@ -52,7 +60,7 @@
   const repaint=()=>{document.querySelectorAll('#results .cover-shell').forEach(x=>x.remove());paint()};
   const oldRender=render;render=function(){const r=oldRender.apply(this,arguments);paint();if(typeof decoratePriceCards==='function')decoratePriceCards();return r};
   const oldDetail=detail;detail=function(id){const r=oldDetail.apply(this,arguments);const box=document.querySelector('#detail');if(!box||box.querySelector('.detail-cover-shell'))return r;const h=box.querySelector('h2');if(!h)return r;const x=byId.get(id),url=x&&coverFor(x);const shell=document.createElement('div');shell.className='detail-cover-shell';const fallback=()=>{shell.classList.remove('has-cover');shell.innerHTML=fallbackHtml};if(url){const img=document.createElement('img');img.className='detail-cover';img.src=url;img.alt=x.title+' cover';img.decoding='async';img.onerror=fallback;shell.classList.add('has-cover');shell.title='Tap to enlarge cover';shell.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();openLightbox(url,x.title)});shell.appendChild(img)}else fallback();h.insertAdjacentElement('afterend',shell);return r};
-  window.SHELFCHECK_COVER_ART={version:104,paint,repaint,coverFor,productCover,openLightbox};
+  window.SHELFCHECK_COVER_ART={version:105,paint,repaint,coverFor,productCover,openLightbox};
 
   const retailScript=document.createElement('script');
   retailScript.src='https://cdn.jsdelivr.net/gh/Blade1090/the-josh-set@e8d33ecbe32f8ad22ad8431a6c14491e91d6dabe/cover-gameye-retail.js';
