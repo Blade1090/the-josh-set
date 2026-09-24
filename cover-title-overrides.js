@@ -20,10 +20,9 @@ window.SHELFCHECK_TITLE_COVERS={
   "bioshock infinite complete edition":"https://vgames.co.nz/cdn/shop/files/Bioshock-the-Collection-PS4-2K-22958350.jpg?v=1758591200&width=1946"
 };
 
-// Art Department quality gate. Loaded here because this file is already part of the
-// cover pipeline, keeping the runtime policy attached to cover data rather than an
-// unrelated app feature.
+// Art Department quality gate. Browser-only: CI evaluates this file in a VM without DOM APIs.
 (()=>{
+  if(typeof document==='undefined')return;
   if(document.querySelector('script[data-shelfcheck-cover-quality]'))return;
   const s=document.createElement('script');
   s.src='cover-quality-v001.js?v=1';
