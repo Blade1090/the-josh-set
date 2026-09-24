@@ -1,0 +1,5812 @@
+{
+  "summary": {
+    "generatedAt": "2026-09-24T17:50:10.263Z",
+    "owned": 229,
+    "fixFirst": 6,
+    "lowRes": 31,
+    "review": 17,
+    "ok": 175,
+    "buckets": {
+      "PS_STORE_LEGACY": 6,
+      "GAMEYE_RETAIL": 206,
+      "IGDB_LEGACY": 17
+    }
+  },
+  "rows": [
+    {
+      "id": 2194,
+      "title": "Tomb Raider",
+      "aliases": [],
+      "owned": true,
+      "url": "https://image.api.playstation.com/vulcan/ap/rnd/202402/0221/b10e4dff0c3c4ba38ef9a331671b156c70bdfadc32a8f5cf.png",
+      "curated": false,
+      "gameye": false,
+      "legacyOverride": true,
+      "bucket": "PS_STORE_LEGACY",
+      "score": 90,
+      "reason": "PlayStation Store image; audit for physical package front",
+      "quality": "FIX_FIRST",
+      "qualityReason": "PlayStation Store/key art, not a verified physical front",
+      "scan": null,
+      "lowCandidate": false
+    },
+    {
+      "id": 2195,
+      "title": "Tomb Raider II",
+      "aliases": [],
+      "owned": true,
+      "url": "https://image.api.playstation.com/vulcan/ap/rnd/202402/0221/b10e4dff0c3c4ba38ef9a331671b156c70bdfadc32a8f5cf.png",
+      "curated": false,
+      "gameye": false,
+      "legacyOverride": true,
+      "bucket": "PS_STORE_LEGACY",
+      "score": 90,
+      "reason": "PlayStation Store image; audit for physical package front",
+      "quality": "FIX_FIRST",
+      "qualityReason": "PlayStation Store/key art, not a verified physical front",
+      "scan": null,
+      "lowCandidate": false
+    },
+    {
+      "id": 2196,
+      "title": "Tomb Raider III: Adventures of Lara Croft",
+      "aliases": [],
+      "owned": true,
+      "url": "https://image.api.playstation.com/vulcan/ap/rnd/202402/0221/b10e4dff0c3c4ba38ef9a331671b156c70bdfadc32a8f5cf.png",
+      "curated": false,
+      "gameye": false,
+      "legacyOverride": true,
+      "bucket": "PS_STORE_LEGACY",
+      "score": 90,
+      "reason": "PlayStation Store image; audit for physical package front",
+      "quality": "FIX_FIRST",
+      "qualityReason": "PlayStation Store/key art, not a verified physical front",
+      "scan": null,
+      "lowCandidate": false
+    },
+    {
+      "id": 2198,
+      "title": "Tomb Raider: Chronicles",
+      "aliases": [],
+      "owned": true,
+      "url": "https://image.api.playstation.com/vulcan/ap/rnd/202409/1221/85006e3582d8b415bf4b7b2aa884c8ddf2f1a7d5d7d2083e.jpg",
+      "curated": false,
+      "gameye": false,
+      "legacyOverride": true,
+      "bucket": "PS_STORE_LEGACY",
+      "score": 90,
+      "reason": "PlayStation Store image; audit for physical package front",
+      "quality": "FIX_FIRST",
+      "qualityReason": "PlayStation Store/key art, not a verified physical front",
+      "scan": null,
+      "lowCandidate": false
+    },
+    {
+      "id": 2199,
+      "title": "Tomb Raider: The Angel of Darkness",
+      "aliases": [],
+      "owned": true,
+      "url": "https://image.api.playstation.com/vulcan/ap/rnd/202409/1221/85006e3582d8b415bf4b7b2aa884c8ddf2f1a7d5d7d2083e.jpg",
+      "curated": false,
+      "gameye": false,
+      "legacyOverride": true,
+      "bucket": "PS_STORE_LEGACY",
+      "score": 90,
+      "reason": "PlayStation Store image; audit for physical package front",
+      "quality": "FIX_FIRST",
+      "qualityReason": "PlayStation Store/key art, not a verified physical front",
+      "scan": null,
+      "lowCandidate": false
+    },
+    {
+      "id": 2197,
+      "title": "Tomb Raider: The Last Revelation",
+      "aliases": [],
+      "owned": true,
+      "url": "https://image.api.playstation.com/vulcan/ap/rnd/202409/1221/85006e3582d8b415bf4b7b2aa884c8ddf2f1a7d5d7d2083e.jpg",
+      "curated": false,
+      "gameye": false,
+      "legacyOverride": true,
+      "bucket": "PS_STORE_LEGACY",
+      "score": 90,
+      "reason": "PlayStation Store image; audit for physical package front",
+      "quality": "FIX_FIRST",
+      "qualityReason": "PlayStation Store/key art, not a verified physical front",
+      "scan": null,
+      "lowCandidate": false
+    },
+    {
+      "id": 44,
+      "title": "Afterimage [Deluxe Edition]",
+      "aliases": [
+        "afterimage deluxe edition"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/8ea8bff1-ac07-4b1b-be05-5407e5f29fd9.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (532×673, 42 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 42610,
+        "width": 532,
+        "height": 673,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 167,
+      "title": "Black Clover: Quartet Knights",
+      "aliases": [
+        "black clover quartet knights"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/f78f77c8-0e64-4b25-9bfd-e72e0ee785ad.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (401×500, 36 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 36440,
+        "width": 401,
+        "height": 500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 217,
+      "title": "Call of Duty: Black Ops 4",
+      "aliases": [
+        "call of duty black ops 4",
+        "call of duty black ops iiii"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/ae5c0ded-4aa5-4ded-8052-3c8e84917c12.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (425×530, 30 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 31042,
+        "width": 425,
+        "height": 530,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 302,
+      "title": "Dark Souls II: Scholar of the First Sin",
+      "aliases": [
+        "dark souls ii scholar of the first sin"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/f0d466b7-0c5b-40f8-b32e-b5778217b30f.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (640×797, 44 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 44772,
+        "width": 640,
+        "height": 797,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 339,
+      "title": "Death Mark",
+      "aliases": [
+        "death mark"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/cf9ab1e7-4749-4a72-ba67-87de60da5caf.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (401×500, 20 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 20464,
+        "width": 401,
+        "height": 500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1799,
+      "title": "Don't Starve: Console Edition",
+      "aliases": [
+        "don t starve console edition"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/139cc7d8-5b06-42d8-a1b6-1ed83e0561a8.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (410×575, 28 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 28278,
+        "width": 410,
+        "height": 575,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1802,
+      "title": "Dungeon Munchies",
+      "aliases": [
+        "dungeon munchies"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/b07ffcb3-72e8-45a1-9523-6248dde83890.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (385×492, 23 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 23248,
+        "width": 385,
+        "height": 492,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 422,
+      "title": "Dynasty Warriors 8 Empires",
+      "aliases": [
+        "dynasty warriors 8 empires"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/45418968-96c7-4118-a54e-fbfa5e4e8e53.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (479×598, 52 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 53034,
+        "width": 479,
+        "height": 598,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 565,
+      "title": "Gunhouse",
+      "aliases": [
+        "gunhouse"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/2fc59d1d-37c6-40aa-a133-c7dc2bfae8b2.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (508×648, 49 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 50644,
+        "width": 508,
+        "height": 648,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 589,
+      "title": "Hitman",
+      "aliases": [
+        "hitman"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/19feacc6-062d-4bb4-a188-d4a2f5c75e44.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (1200×1500, 32 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 32906,
+        "width": 1200,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 601,
+      "title": "Hotline Miami",
+      "aliases": [
+        "hotline miami"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/142625_f483bc3f-d9df-4b17-9238-ed00e298bc5c.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (555×695, 57 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 57870,
+        "width": 555,
+        "height": 695,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 602,
+      "title": "Hotline Miami 2: Wrong Number",
+      "aliases": [
+        "hotline miami 2 wrong number"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/5bf797e8-dfe7-4df7-8973-81516dd658c2.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (448×560, 48 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 48736,
+        "width": 448,
+        "height": 560,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 625,
+      "title": "Infinifactory",
+      "aliases": [
+        "infinifactory"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/154577d2-53e9-4e96-a5c5-3bc7f4a0638d.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (215×270, 10 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 10078,
+        "width": 215,
+        "height": 270,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1553,
+      "title": "Lost Judgment",
+      "aliases": [
+        "lost judgment"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/f8c99aac-706e-4c97-a373-f6fada971002.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (559×700, 32 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 32272,
+        "width": 559,
+        "height": 700,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 788,
+      "title": "Monkey King: Hero is Back",
+      "aliases": [
+        "monkey king hero is back"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/5ab40967-e564-4c9a-840b-88cd2e5b90eb.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (480×600, 38 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 39234,
+        "width": 480,
+        "height": 600,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 884,
+      "title": "Outward",
+      "aliases": [
+        "outward"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/01a27115-adc4-47ed-9853-1abc0cac4027.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (807×993, 30 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 30448,
+        "width": 807,
+        "height": 993,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 978,
+      "title": "Resident Evil 4",
+      "aliases": [
+        "resident evil 4"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/3cd1cc94-917c-4a18-99e2-97cb9a01731c.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (482×597, 31 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 32188,
+        "width": 482,
+        "height": 597,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1070,
+      "title": "Shenmue III",
+      "aliases": [
+        "shenmue iii"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/e630bdbe-0322-40ad-8f17-119e52ae0092.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (454×567, 38 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 39276,
+        "width": 454,
+        "height": 567,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1132,
+      "title": "Star Wars Episode I: Racer",
+      "aliases": [
+        "star wars episode i racer"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/fe9f337a-8ebd-4178-b31f-01e4f82779b3.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (662×826, 36 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 37110,
+        "width": 662,
+        "height": 826,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1998,
+      "title": "Star Wars: Republic Commando",
+      "aliases": [],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/bbd543d6-41d0-4e1c-ab9b-29fbc306d20a.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (480×608, 44 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 45098,
+        "width": 480,
+        "height": 608,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1140,
+      "title": "Stardew Valley",
+      "aliases": [
+        "stardew valley"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/875e7276-b528-4088-b9dc-065d82b41c10.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (264×352, 18 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 18620,
+        "width": 264,
+        "height": 352,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1152,
+      "title": "Story of Seasons: Friends of Mineral Town",
+      "aliases": [
+        "story of seasons friends of mineral town"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/4da65d43-104d-4225-bf4b-28f4ed200f1e.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (478×609, 42 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 42524,
+        "width": 478,
+        "height": 609,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1182,
+      "title": "Super Street: The Game",
+      "aliases": [
+        "super street the game"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/99c14bee-6456-4841-a15a-393ec7e056e4.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (480×597, 30 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 30694,
+        "width": 480,
+        "height": 597,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1195,
+      "title": "Syberia 3",
+      "aliases": [
+        "syberia 3"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/137991_70597e9e-49e3-4b31-871e-88f7eba682d0.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (640×793, 39 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 40324,
+        "width": 640,
+        "height": 793,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1210,
+      "title": "Terra Trilogy",
+      "aliases": [
+        "terra trilogy"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/9d3c295d-0846-450c-b00b-5a08facec9ab.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (480×596, 23 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 23062,
+        "width": 480,
+        "height": 596,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1286,
+      "title": "The Raven Remastered",
+      "aliases": [
+        "raven remastered",
+        "the raven remastered"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/917b2aed-8a5b-48d9-a825-0124738368b7.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (400×500, 27 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 27324,
+        "width": 400,
+        "height": 500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1348,
+      "title": "Toy Soldiers: War Chest",
+      "aliases": [
+        "toy soldiers war chest",
+        "toy soldiers war chest hall of fame edition"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/3c3e72b3-299c-4298-a460-2bde46a0a343.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (390×498, 30 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 30828,
+        "width": 390,
+        "height": 498,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1376,
+      "title": "Two Point Hospital",
+      "aliases": [
+        "two point hospital"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/9413389a-60ee-43dc-bb8b-15dab967797c.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (480×597, 30 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 30706,
+        "width": 480,
+        "height": 597,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1380,
+      "title": "Uncharted: The Lost Legacy",
+      "aliases": [
+        "uncharted the lost legacy"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/4ba6a70d-10c8-4a28-bb66-8d6b2a08946a.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (640×795, 38 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 38436,
+        "width": 640,
+        "height": 795,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1390,
+      "title": "Utawarerumono: Mask of Truth",
+      "aliases": [
+        "utawarerumono mask of truth"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/770243fc-0f2f-4d8a-a72b-062812d13872.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (480×598, 45 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 46496,
+        "width": 480,
+        "height": 598,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1398,
+      "title": "Vampyr",
+      "aliases": [
+        "vampyr"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/861a27a8-a70d-41cb-b761-cfaf779d1af9.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "LOW_RES",
+      "qualityReason": "Retail front is soft/undersized (363×463, 12 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 12320,
+        "width": 363,
+        "height": 463,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 162,
+      "title": "BioShock 2 Remastered",
+      "aliases": [
+        "bioshock 2 remastered"
+      ],
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co54yw.jpg",
+      "curated": false,
+      "gameye": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "quality": "REVIEW",
+      "qualityReason": "Legacy IGDB art has not been retail-front verified",
+      "scan": null,
+      "lowCandidate": false
+    },
+    {
+      "id": 163,
+      "title": "BioShock Infinite: Complete Edition",
+      "aliases": [
+        "bioshock infinite complete edition"
+      ],
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co50k0.jpg",
+      "curated": false,
+      "gameye": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "quality": "REVIEW",
+      "qualityReason": "Legacy IGDB art has not been retail-front verified",
+      "scan": null,
+      "lowCandidate": false
+    },
+    {
+      "id": 164,
+      "title": "BioShock Remastered",
+      "aliases": [
+        "bioshock remastered"
+      ],
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co54yu.jpg",
+      "curated": false,
+      "gameye": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "quality": "REVIEW",
+      "qualityReason": "Legacy IGDB art has not been retail-front verified",
+      "scan": null,
+      "lowCandidate": false
+    },
+    {
+      "id": 285,
+      "title": "Cuphead [Limited Edition]",
+      "aliases": [
+        "cuphead limited edition"
+      ],
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobxvt.jpg",
+      "curated": false,
+      "gameye": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "quality": "REVIEW",
+      "qualityReason": "Legacy IGDB art has not been retail-front verified",
+      "scan": null,
+      "lowCandidate": false
+    },
+    {
+      "id": 386,
+      "title": "Don't Starve Together: Console Edition",
+      "aliases": [
+        "don t starve mega pack",
+        "don t starve together console edition"
+      ],
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaqfk.jpg",
+      "curated": false,
+      "gameye": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "quality": "REVIEW",
+      "qualityReason": "Legacy IGDB art has not been retail-front verified",
+      "scan": null,
+      "lowCandidate": false
+    },
+    {
+      "id": 405,
+      "title": "Dragon Quest Heroes II",
+      "aliases": [
+        "dragon quest heroes ii",
+        "dragon quest heroes ii explorer s edition"
+      ],
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1u5h.jpg",
+      "curated": false,
+      "gameye": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "quality": "REVIEW",
+      "qualityReason": "Legacy IGDB art has not been retail-front verified",
+      "scan": null,
+      "lowCandidate": false
+    },
+    {
+      "id": 1635,
+      "title": "Heavy Rain",
+      "aliases": [
+        "heavy rain"
+      ],
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaajv.jpg",
+      "curated": false,
+      "gameye": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "quality": "REVIEW",
+      "qualityReason": "Legacy IGDB art has not been retail-front verified",
+      "scan": null,
+      "lowCandidate": false
+    },
+    {
+      "id": 2122,
+      "title": "Resident Evil 0 HD Remaster",
+      "aliases": [],
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3dnx.jpg",
+      "curated": false,
+      "gameye": false,
+      "legacyOverride": true,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "quality": "REVIEW",
+      "qualityReason": "Legacy IGDB art has not been retail-front verified",
+      "scan": null,
+      "lowCandidate": false
+    },
+    {
+      "id": 2121,
+      "title": "Resident Evil HD Remaster",
+      "aliases": [],
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3dnx.jpg",
+      "curated": false,
+      "gameye": false,
+      "legacyOverride": true,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "quality": "REVIEW",
+      "qualityReason": "Legacy IGDB art has not been retail-front verified",
+      "scan": null,
+      "lowCandidate": false
+    },
+    {
+      "id": 2115,
+      "title": "Scribblenauts Unlimited",
+      "aliases": [],
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/du7bf613i5hyjwbto3rj.jpg",
+      "curated": false,
+      "gameye": false,
+      "legacyOverride": true,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "quality": "REVIEW",
+      "qualityReason": "Legacy IGDB art has not been retail-front verified",
+      "scan": null,
+      "lowCandidate": false
+    },
+    {
+      "id": 2116,
+      "title": "Scribblenauts Unmasked: A DC Comics Adventure",
+      "aliases": [],
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ns6.jpg",
+      "curated": false,
+      "gameye": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "quality": "REVIEW",
+      "qualityReason": "Legacy IGDB art has not been retail-front verified",
+      "scan": null,
+      "lowCandidate": false
+    },
+    {
+      "id": 1184,
+      "title": "SuperEpic: The Entertainment War",
+      "aliases": [
+        "superepic the entertainment war"
+      ],
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uqv.jpg",
+      "curated": false,
+      "gameye": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "quality": "REVIEW",
+      "qualityReason": "Legacy IGDB art has not been retail-front verified",
+      "scan": null,
+      "lowCandidate": false
+    },
+    {
+      "id": 2109,
+      "title": "Uncharted 2: Among Thieves Remastered",
+      "aliases": [],
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1un4.jpg",
+      "curated": false,
+      "gameye": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "quality": "REVIEW",
+      "qualityReason": "Legacy IGDB art has not been retail-front verified",
+      "scan": null,
+      "lowCandidate": false
+    },
+    {
+      "id": 2110,
+      "title": "Uncharted 3: Drake's Deception Remastered",
+      "aliases": [],
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tpr.jpg",
+      "curated": false,
+      "gameye": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "quality": "REVIEW",
+      "qualityReason": "Legacy IGDB art has not been retail-front verified",
+      "scan": null,
+      "lowCandidate": false
+    },
+    {
+      "id": 2108,
+      "title": "Uncharted: Drake's Fortune Remastered",
+      "aliases": [],
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1un2.jpg",
+      "curated": false,
+      "gameye": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "quality": "REVIEW",
+      "qualityReason": "Legacy IGDB art has not been retail-front verified",
+      "scan": null,
+      "lowCandidate": false
+    },
+    {
+      "id": 1394,
+      "title": "Valkyria Chronicles 4",
+      "aliases": [
+        "valkyria chronicles 4"
+      ],
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20r6.jpg",
+      "curated": false,
+      "gameye": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "quality": "REVIEW",
+      "qualityReason": "Legacy IGDB art has not been retail-front verified",
+      "scan": null,
+      "lowCandidate": false
+    },
+    {
+      "id": 1410,
+      "title": "Wargroove",
+      "aliases": [
+        "wargroove"
+      ],
+      "owned": true,
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4hgb.jpg",
+      "curated": false,
+      "gameye": false,
+      "legacyOverride": false,
+      "bucket": "IGDB_LEGACY",
+      "score": 70,
+      "reason": "IGDB cover; may be key art or wrong edition/region",
+      "quality": "REVIEW",
+      "qualityReason": "Legacy IGDB art has not been retail-front verified",
+      "scan": null,
+      "lowCandidate": false
+    },
+    {
+      "id": 5,
+      "title": "13 Sentinels: Aegis Rim",
+      "aliases": [
+        "13 sentinels aegis rim"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/8a8a1a3f-eef8-46a0-ace4-304ace32d967.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1520×1894, 226 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 231224,
+        "width": 1520,
+        "height": 1894,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 18,
+      "title": "88 Heroes",
+      "aliases": [
+        "88 heroes"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/6f135e16-3dfe-4207-b91f-057da4c21e55.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1090×1388, 77 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 79066,
+        "width": 1090,
+        "height": 1388,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 20,
+      "title": "A Hat in Time",
+      "aliases": [
+        "a hat in time",
+        "hat in time"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/049a624b-1a84-4ab4-9c40-ff7a96e4469f.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1086×1391, 119 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 122302,
+        "width": 1086,
+        "height": 1391,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 62,
+      "title": "Alekhine's Gun",
+      "aliases": [
+        "alekhine s gun"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/ae2cbbfc-5fd9-46e6-8b59-6397bf72bafa.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1200×1490, 145 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 148286,
+        "width": 1200,
+        "height": 1490,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 63,
+      "title": "Alfred Hitchcock: Vertigo [Limited Edition]",
+      "aliases": [
+        "alfred hitchcock vertigo limited edition"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/140004_c9b1d839-602c-4e5c-a864-1820dfecb714.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1191×1500, 198 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 202608,
+        "width": 1191,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 83,
+      "title": "Aragami",
+      "aliases": [
+        "aragami"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/2830d15b-6a78-4328-8d63-e93deb6cd4d7.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (932×1200, 69 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 70304,
+        "width": 932,
+        "height": 1200,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 84,
+      "title": "Aragami 2",
+      "aliases": [
+        "aragami 2"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/8dd53a96-0688-4602-a0df-ade533d964fd.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1496×1894, 161 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 164836,
+        "width": 1496,
+        "height": 1894,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 88,
+      "title": "Arcadegeddon",
+      "aliases": [
+        "arcadegeddon"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/140028_d7a4b12a-e136-4120-8d4d-ec96ffe557b8.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1108×1406, 105 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 107628,
+        "width": 1108,
+        "height": 1406,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 127,
+      "title": "Azure Striker Gunvolt: Striker Pack",
+      "aliases": [
+        "azure striker gunvolt striker pack"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/e21adf7d-f365-4a11-b1e2-8482f05dd825.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1523×1902, 310 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 316984,
+        "width": 1523,
+        "height": 1902,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 143,
+      "title": "Battlefield 1",
+      "aliases": [
+        "battlefield 1"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/a2c073ea-aad8-4599-846c-dcd7d082b457.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1686×2100, 126 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 128914,
+        "width": 1686,
+        "height": 2100,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 153,
+      "title": "Bee Simulator",
+      "aliases": [
+        "bee simulator"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/95a62f9c-1d66-4f54-8552-3a2a20e44899.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1430×1830, 173 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 177142,
+        "width": 1430,
+        "height": 1830,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 156,
+      "title": "Ben 10",
+      "aliases": [
+        "ben 10"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/4b1b02c6-f931-4f9e-8daf-6d570da5e6ab.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (842×1050, 124 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 127424,
+        "width": 842,
+        "height": 1050,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 158,
+      "title": "Bendy and the Ink Machine",
+      "aliases": [
+        "bendy and the ink machine"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/dfe38408-76ec-4c4b-947d-4362ffa19a9e.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (916×1146, 83 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 84908,
+        "width": 916,
+        "height": 1146,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 159,
+      "title": "Berserk and the Band of the Hawk",
+      "aliases": [
+        "berserk and the band of the hawk"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/a5a27ebb-5a41-4ebc-8bc8-4ddc52c09991.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1203×1500, 150 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 153562,
+        "width": 1203,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 2111,
+      "title": "Beyond: Two Souls",
+      "aliases": [],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/9433e6fe-d7d3-4bc5-b202-e898a485a63b.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (802×999, 51 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 52002,
+        "width": 802,
+        "height": 999,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 187,
+      "title": "Bloodborne",
+      "aliases": [
+        "bloodborne"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/29b4765b-83a6-4711-bfd1-d97c4684732a.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1523×1904, 188 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 192436,
+        "width": 1523,
+        "height": 1904,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 191,
+      "title": "Bloodstained: Ritual of the Night",
+      "aliases": [
+        "bloodstained ritual of the night"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/63d89382-aca2-4f59-a9b1-b47dda4527f2.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1137×1423, 132 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 134704,
+        "width": 1137,
+        "height": 1423,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1550,
+      "title": "Blue Fire",
+      "aliases": [
+        "blue fire"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/86c055d1-512c-4a7c-bf42-db066546dd2d.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (976×1242, 48 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 49608,
+        "width": 976,
+        "height": 1242,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 200,
+      "title": "Bound by Flame",
+      "aliases": [
+        "bound by flame"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/0d3f9e57-4a23-48ac-9350-4f5a7cce5b25.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1202×1448, 128 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 130656,
+        "width": 1202,
+        "height": 1448,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 209,
+      "title": "Buddy Simulator 1984",
+      "aliases": [
+        "buddy simulator 1984"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/141631_c4b557db-b7ee-4ca5-9126-bcb9776aa2eb.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (878×1150, 78 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 79730,
+        "width": 878,
+        "height": 1150,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 224,
+      "title": "Callisto Protocol [Day One Edition]",
+      "aliases": [
+        "callisto protocol day one edition"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/854fec1c-5b38-4daa-9321-18d4cfb98e5e.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (949×1205, 75 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 76772,
+        "width": 949,
+        "height": 1205,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 246,
+      "title": "Citadel: Forged with Fire",
+      "aliases": [
+        "citadel forged with fire"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/a10ffa99-3f28-4a31-9721-8c5ffb457c85.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1146×1428, 86 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 88422,
+        "width": 1146,
+        "height": 1428,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 260,
+      "title": "Concrete Genie",
+      "aliases": [
+        "concrete genie"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/604d192a-e09a-4609-bad9-b760d06a9f1e.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1520×1895, 197 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 201874,
+        "width": 1520,
+        "height": 1895,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 261,
+      "title": "ConnecTank",
+      "aliases": [
+        "connectank"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/41620c97-08e0-486b-b4ad-e25c28633cac.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1200×1500, 154 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 157472,
+        "width": 1200,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 280,
+      "title": "CrossCode",
+      "aliases": [
+        "crosscode"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/7687ddba-4ff9-4347-8c80-a61d4b023c23.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (582×724, 44 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 45308,
+        "width": 582,
+        "height": 724,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 287,
+      "title": "Curved Space",
+      "aliases": [
+        "curved space"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/a847bbaf-5a69-43cd-9fdc-ca65ad50aa3b.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1200×1496, 182 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 185954,
+        "width": 1200,
+        "height": 1496,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1556,
+      "title": "Dark Pictures Anthology: Man of Medan",
+      "aliases": [
+        "dark pictures anthology man of medan"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/eb5623ea-2fd5-493a-b90c-e6b8508adf30.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (640×797, 49 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 50300,
+        "width": 640,
+        "height": 797,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 303,
+      "title": "Dark Souls III",
+      "aliases": [
+        "dark souls iii"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/90af6572-78a7-44c0-82f6-8bdd70ed534e.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (640×797, 61 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 62804,
+        "width": 640,
+        "height": 797,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 304,
+      "title": "Dark Souls Remastered",
+      "aliases": [
+        "dark souls remastered"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/6c2bfda5-3df0-426b-8283-18aef403b1ac.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (915×1140, 124 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 126796,
+        "width": 915,
+        "height": 1140,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 306,
+      "title": "Darkest Dungeon",
+      "aliases": [
+        "darkest dungeon"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/e41a7159-28c8-48bf-ac72-40b83eba58f4.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1129×1432, 116 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 118856,
+        "width": 1129,
+        "height": 1432,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 316,
+      "title": "Daymare: 1998",
+      "aliases": [
+        "daymare 1998"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/1737ed31-7f1e-4654-8997-62737578b6ee.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1022×1283, 64 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 65800,
+        "width": 1022,
+        "height": 1283,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 324,
+      "title": "Dead Cells",
+      "aliases": [
+        "dead cells"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/1a567a85-0061-450f-9fc4-386ef2d10ae9.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1187×1469, 66 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 67798,
+        "width": 1187,
+        "height": 1469,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 333,
+      "title": "Dead Rising 2",
+      "aliases": [
+        "dead rising 2"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/9d83a56a-3797-47f9-a95e-9d315422736b.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1142×1427, 134 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 136922,
+        "width": 1142,
+        "height": 1427,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 341,
+      "title": "Death Stranding",
+      "aliases": [
+        "death stranding"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/5b6e35c8-603c-475c-a772-15b3d2767784.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1024×1300, 72 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 73684,
+        "width": 1024,
+        "height": 1300,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 342,
+      "title": "Death's Gambit",
+      "aliases": [
+        "death s gambit"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/9ba2111f-e1b7-48d7-993b-38551a5768ac.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1119×1416, 108 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 110460,
+        "width": 1119,
+        "height": 1416,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 348,
+      "title": "Deponia",
+      "aliases": [
+        "deponia"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/24d38c0c-02d8-413d-a376-c901b43c8036.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1024×1284, 121 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 124260,
+        "width": 1024,
+        "height": 1284,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 351,
+      "title": "Desperados III",
+      "aliases": [
+        "desperados iii"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/442dfa2c-7847-4451-ad56-929c0926a18d.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (920×1152, 129 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 131728,
+        "width": 920,
+        "height": 1152,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 352,
+      "title": "Destiny",
+      "aliases": [
+        "destiny"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/8d8bea89-f021-48a5-b0eb-a393f527c509.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1197×1500, 149 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 152882,
+        "width": 1197,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 358,
+      "title": "Detroit: Become Human",
+      "aliases": [
+        "detroit become human"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/fc0080ef-4981-466d-bf0c-a6594a3247f0.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1044×1301, 119 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 121618,
+        "width": 1044,
+        "height": 1301,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 366,
+      "title": "Digimon Story Cyber Sleuth: Hacker's Memory",
+      "aliases": [
+        "digimon story cyber sleuth hacker s memory"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/adf461cd-310e-4c0a-992e-f734bb4811f0.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1204×1500, 173 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 177284,
+        "width": 1204,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 383,
+      "title": "Dodgeball Academia",
+      "aliases": [
+        "dodgeball academia"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/d2d34335-57ef-4af8-a086-e3018db1222c.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1510×1889, 121 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 123502,
+        "width": 1510,
+        "height": 1889,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 388,
+      "title": "DOOM",
+      "aliases": [
+        "doom"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/15b1ae28-6c62-4cc6-b8db-80b4a0c468e3.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1524×1902, 442 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 452254,
+        "width": 1524,
+        "height": 1902,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 407,
+      "title": "Dragon Quest XI: Echoes of an Elusive Age",
+      "aliases": [
+        "dragon quest xi echoes of an elusive age"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/71fab73a-dcb6-4eeb-9699-8f43694a7124.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1204×1512, 321 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 328854,
+        "width": 1204,
+        "height": 1512,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 409,
+      "title": "Dragon's Crown Pro",
+      "aliases": [
+        "dragon s crown pro",
+        "dragon s crown pro battle hardened edition"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/08a46ca2-eb8a-4150-928c-bc7de3a68a34.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (2055×2560, 344 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 351998,
+        "width": 2055,
+        "height": 2560,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 412,
+      "title": "Dreams",
+      "aliases": [
+        "dreams"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/5a4f63a2-99ef-40db-8799-f9a9214d145f.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1119×1397, 113 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 116188,
+        "width": 1119,
+        "height": 1397,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 417,
+      "title": "Dungeons 3",
+      "aliases": [
+        "dungeons 3"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/823d021c-89b0-40f3-9940-e3a1d8887587.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (805×1000, 92 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 94342,
+        "width": 805,
+        "height": 1000,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1803,
+      "title": "Elden Ring",
+      "aliases": [
+        "elden ring"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/3f915635-f574-4003-b903-529f77d70a46.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1282×1605, 115 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 117322,
+        "width": 1282,
+        "height": 1605,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 435,
+      "title": "Elex",
+      "aliases": [
+        "elex"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/f47221c3-a946-4f7e-a9c5-8b5d4421cd98.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1200×1500, 230 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 235748,
+        "width": 1200,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 452,
+      "title": "Exist Archive: The Other Side of the Sky",
+      "aliases": [
+        "exist archive the other side of the sky"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/43276b0f-ad7f-45c2-93dc-382c24f9dd27.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1206×1512, 305 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 312736,
+        "width": 1206,
+        "height": 1512,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 459,
+      "title": "Fallout 4",
+      "aliases": [
+        "fallout 4"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/8f55e95d-bdf0-44f3-972c-fa9b1e158b70.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1105×1423, 116 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 118546,
+        "width": 1105,
+        "height": 1423,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 463,
+      "title": "Far Cry 5",
+      "aliases": [
+        "far cry 5"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/c9735c22-778a-4c44-a65a-8ff880d355cf.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1181×1500, 285 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 292024,
+        "width": 1181,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 472,
+      "title": "Fate/Extella: The Umbral Star",
+      "aliases": [
+        "fate extella the umbral star"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/d28b02db-385e-4a8c-a633-971ea881f19c.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1523×1899, 294 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 301016,
+        "width": 1523,
+        "height": 1899,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 483,
+      "title": "Final Fantasy XII: The Zodiac Age",
+      "aliases": [
+        "final fantasy xii the zodiac age"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/d63782d9-275a-4133-b0d0-9c081e421024.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1524×1899, 137 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 139876,
+        "width": 1524,
+        "height": 1899,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 490,
+      "title": "Final Fantasy XV",
+      "aliases": [
+        "final fantasy xv",
+        "final fantasy xv day one edition"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/8a5c24be-6e66-4c3a-90f1-9678f34ae603.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1181×1456, 170 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 174480,
+        "width": 1181,
+        "height": 1456,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 499,
+      "title": "Flipping Death",
+      "aliases": [
+        "flipping death"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/129d24af-1de8-4742-b404-5593c0135841.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (801×1000, 71 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 72700,
+        "width": 801,
+        "height": 1000,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 500,
+      "title": "For Honor",
+      "aliases": [
+        "for honor"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/1fe95ad0-aaa9-45a8-83d3-a63d563836b0.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1166×1490, 187 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 191794,
+        "width": 1166,
+        "height": 1490,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 527,
+      "title": "Ghost of Tsushima",
+      "aliases": [
+        "ghost of tsushima"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/908f0fe6-c4f4-4fe7-a8bc-703208d911b8.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1519×1896, 171 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 175026,
+        "width": 1519,
+        "height": 1896,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 534,
+      "title": "Gigantosaurus: The Game",
+      "aliases": [
+        "gigantosaurus the game"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/45329d70-ad30-4449-a173-fb65f83d3176.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1523×1899, 369 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 377460,
+        "width": 1523,
+        "height": 1899,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 540,
+      "title": "God of War III Remastered",
+      "aliases": [
+        "god of war iii remastered"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/9d85fe13-03fc-45b6-9b47-c12cd10b8738.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1521×1890, 959 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 982446,
+        "width": 1521,
+        "height": 1890,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 564,
+      "title": "Gundam Versus",
+      "aliases": [
+        "gundam versus"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/3d348b4b-f687-4b27-807c-15874b41a293.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1525×1900, 257 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 262882,
+        "width": 1525,
+        "height": 1900,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1551,
+      "title": "Hades",
+      "aliases": [
+        "hades"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/d2f200f8-dfdf-4c73-aba8-37637dfaefa3.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (552×700, 51 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 52394,
+        "width": 552,
+        "height": 700,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 598,
+      "title": "Horizon Forbidden West [Launch Edition]",
+      "aliases": [
+        "horizon forbidden west launch edition"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/c87026d3-fd7e-47e6-a2c8-2d4ac0b7ce34.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1068×1349, 181 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 185648,
+        "width": 1068,
+        "height": 1349,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 599,
+      "title": "Horizon Zero Dawn",
+      "aliases": [
+        "horizon zero dawn",
+        "horizon zero dawn limited edition"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/2d3dae54-bce4-457a-a833-561b1ece2fbd.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1524×1899, 364 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 373024,
+        "width": 1524,
+        "height": 1899,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 619,
+      "title": "Indivisible",
+      "aliases": [
+        "indivisible"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/56b84c18-734c-4b83-bc97-d4ad2fc4c88f.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1217×1510, 135 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 137738,
+        "width": 1217,
+        "height": 1510,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 623,
+      "title": "inFamous: Second Son",
+      "aliases": [
+        "infamous second son",
+        "infamous second son limited edition"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/5b7639e4-3bef-4baf-bc72-0a5b11f8b512.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1522×1904, 277 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 283636,
+        "width": 1522,
+        "height": 1904,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 624,
+      "title": "Infernax",
+      "aliases": [
+        "infernax"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/f18af897-6efa-4706-bb37-23eef9515e23.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (919×1160, 92 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 93906,
+        "width": 919,
+        "height": 1160,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 628,
+      "title": "Injustice: Gods Among Us - Ultimate Edition",
+      "aliases": [
+        "injustice gods among us ultimate edition"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/967f48d7-ee7b-44fd-a32f-1f493bf96e0c.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (2000×2494, 460 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 470668,
+        "width": 2000,
+        "height": 2494,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 653,
+      "title": "Just Cause 4",
+      "aliases": [
+        "just cause 4"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/bc662771-361b-44a9-ab62-2b611973856b.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1207×1500, 255 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 261604,
+        "width": 1207,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 656,
+      "title": "Kena: Bridge of Spirits [Deluxe Edition]",
+      "aliases": [
+        "kena bridge of spirits deluxe edition"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/c7868e7c-bab5-48d4-b34f-c4840f5e71ea.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1003×1247, 115 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 117808,
+        "width": 1003,
+        "height": 1247,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 662,
+      "title": "Killzone: Shadow Fall",
+      "aliases": [
+        "killzone shadow fall"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/0bb71a07-7c50-427c-8a34-a9a22b195424.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1531×1904, 101 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 103376,
+        "width": 1531,
+        "height": 1904,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 668,
+      "title": "Kingdom Hearts III",
+      "aliases": [
+        "kingdom hearts iii"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/77a0f142-8908-492b-b507-e30b00d121ee.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1523×1898, 485 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 496226,
+        "width": 1523,
+        "height": 1898,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 673,
+      "title": "Kitaria Fables",
+      "aliases": [
+        "kitaria fables"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/5a4fee44-1027-459d-863a-d3071f1ad024.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1226×1592, 182 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 186012,
+        "width": 1226,
+        "height": 1592,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 676,
+      "title": "Knack 2",
+      "aliases": [
+        "knack 2"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/b05c9c76-f122-4645-9623-8d0f8f1b50c2.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (2000×2492, 477 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 488544,
+        "width": 2000,
+        "height": 2492,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 688,
+      "title": "Lair of the Clockwork God",
+      "aliases": [
+        "lair of the clockwork god"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/02b4ee2d-70b5-40c7-b0db-42871d4772b3.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1140×1763, 58 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 59062,
+        "width": 1140,
+        "height": 1763,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 692,
+      "title": "Last Kids on Earth and the Staff of Doom",
+      "aliases": [
+        "last kids on earth and the staff of doom"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/95486011-b2ea-4afe-841a-c549c8430a27.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (922×1150, 77 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 78680,
+        "width": 922,
+        "height": 1150,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 696,
+      "title": "Left Alive",
+      "aliases": [
+        "left alive"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/4b96bef5-c99b-4ae6-8cf3-e9488b09bf3c.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (640×789, 59 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 60308,
+        "width": 640,
+        "height": 789,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1552,
+      "title": "Like A Dragon: Infinite Wealth",
+      "aliases": [
+        "like a dragon infinite wealth"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/f6d0bd22-9dde-4986-a991-e81b96d0e401.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1202×1498, 115 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 117516,
+        "width": 1202,
+        "height": 1498,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 723,
+      "title": "Little Nightmares",
+      "aliases": [
+        "little nightmares",
+        "little nightmares complete edition"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/ecec6269-82ff-4b5f-8313-491bbec2f890.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (640×797, 45 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 45862,
+        "width": 640,
+        "height": 797,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1657,
+      "title": "Little Nightmares II",
+      "aliases": [
+        "little nightmares ii"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/c6ccd6d0-9dfc-43a9-b66f-eee40644bd71.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1525×1900, 119 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 121588,
+        "width": 1525,
+        "height": 1900,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 725,
+      "title": "LittleBigPlanet 3",
+      "aliases": [
+        "littlebigplanet 3"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/5e615a18-be98-4600-b520-27a9248490b2.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1209×1500, 135 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 138466,
+        "width": 1209,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 728,
+      "title": "Lord of the Rings: Gollum",
+      "aliases": [
+        "lord of the rings gollum"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/139848_d417cc32-1c18-4b87-a397-47878fb12688.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (972×1271, 128 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 131184,
+        "width": 972,
+        "height": 1271,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 734,
+      "title": "Lumo",
+      "aliases": [
+        "lumo"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/b4544dd6-2f60-49e4-a868-427c4798c52d.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (640×798, 47 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 47794,
+        "width": 640,
+        "height": 798,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 738,
+      "title": "Mafia III",
+      "aliases": [
+        "mafia iii"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/779e59e7-50ba-47cb-b953-0ab0dd37ea80.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1195×1500, 149 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 152078,
+        "width": 1195,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 746,
+      "title": "Marvel's Spider-Man",
+      "aliases": [
+        "marvel s spider man"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/ebf91190-1fb4-42f0-ac3e-7659b1467cbc.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1204×1500, 109 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 111362,
+        "width": 1204,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 747,
+      "title": "Marvel's Spider-Man: Miles Morales",
+      "aliases": [
+        "marvel s spider man miles morales"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/10ba9eb1-a647-4371-92d7-c4e0f46c509e.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1496×1904, 131 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 134122,
+        "width": 1496,
+        "height": 1904,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 748,
+      "title": "Mass Effect: Andromeda",
+      "aliases": [
+        "mass effect andromeda"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/86e58c16-ddc1-42d1-9fc6-7664af1045a0.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1194×1500, 162 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 165460,
+        "width": 1194,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 751,
+      "title": "MediEvil",
+      "aliases": [
+        "medievil"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/4136054f-de39-4c93-b5d6-7d6197ab0dd4.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1216×1511, 117 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 119846,
+        "width": 1216,
+        "height": 1511,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 767,
+      "title": "Metal Gear Survive",
+      "aliases": [
+        "metal gear survive"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/17a85df5-43a9-4764-99c1-110a33308746.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (640×796, 69 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 70642,
+        "width": 640,
+        "height": 796,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 777,
+      "title": "Middle-earth: Shadow of Mordor",
+      "aliases": [
+        "middle earth shadow of mordor"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/2800bf6e-bcc2-4488-9ae8-fe10742c2bf8.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1558×1971, 177 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 181176,
+        "width": 1558,
+        "height": 1971,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 778,
+      "title": "Middle-earth: Shadow of War",
+      "aliases": [
+        "middle earth shadow of war"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/ddb8b280-11f4-45cd-b9c8-a178331c4b9e.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1929×2398, 221 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 226246,
+        "width": 1929,
+        "height": 2398,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 786,
+      "title": "Mirror's Edge Catalyst",
+      "aliases": [
+        "mirror s edge catalyst"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/45a72b60-0e62-4819-84e8-fecbcc732e04.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1589×1992, 157 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 161110,
+        "width": 1589,
+        "height": 1992,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 791,
+      "title": "Monster Hunter: World",
+      "aliases": [
+        "monster hunter world"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/3f5deaa2-aab7-4d7d-aa25-1ea397f6e4c2.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (640×808, 82 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 83734,
+        "width": 640,
+        "height": 808,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 795,
+      "title": "Mortal Kombat 11",
+      "aliases": [
+        "mortal kombat 11"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/e020367b-bf66-4b46-b854-25dd9e595321.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (754×936, 54 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 55464,
+        "width": 754,
+        "height": 936,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 819,
+      "title": "Narita Boy",
+      "aliases": [
+        "narita boy"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/21247908-c45f-4619-9638-fe0e58bd6ab1.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1098×1392, 82 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 83752,
+        "width": 1098,
+        "height": 1392,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 835,
+      "title": "New Gundam Breaker",
+      "aliases": [
+        "new gundam breaker"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/bc2fcf87-3fd4-4658-bc33-5fd1b9cc0561.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (915×1140, 117 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 119380,
+        "width": 915,
+        "height": 1140,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 837,
+      "title": "Ni no Kuni II: Revenant Kingdom",
+      "aliases": [
+        "ni no kuni ii revenant kingdom",
+        "ni no kuni ii revenant kingdom day one edition"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/11e0c662-3435-4e36-9c78-17ce08de7700.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1525×1900, 291 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 298304,
+        "width": 1525,
+        "height": 1900,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 838,
+      "title": "Ni no Kuni: Wrath of the White Witch Remastered",
+      "aliases": [
+        "ni no kuni wrath of the white witch remastered"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/d9ccbabd-a4fb-43d8-8ff5-4424cf3a40c6.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1148×1402, 200 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 205242,
+        "width": 1148,
+        "height": 1402,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 841,
+      "title": "NieR Replicant ver.1.22474487139...",
+      "aliases": [
+        "nier replicant ver 1 22474487139"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/96198cc8-835f-4a11-b590-180eb25df730.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (969×1200, 95 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 96920,
+        "width": 969,
+        "height": 1200,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 842,
+      "title": "NieR: Automata",
+      "aliases": [
+        "nier automata",
+        "nier automata day one edition"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/ece1ad23-41df-45ae-ae99-ab51462d4c59.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1204×1500, 154 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 157300,
+        "width": 1204,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 847,
+      "title": "Nioh",
+      "aliases": [
+        "nioh"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/03b0e09d-cf06-4064-b2c9-9c48bde735c8.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1204×1500, 235 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 240626,
+        "width": 1204,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 848,
+      "title": "Nioh 2",
+      "aliases": [
+        "nioh 2"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/550d881f-0f66-4814-a9a9-03187c5182de.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1188×1471, 84 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 85672,
+        "width": 1188,
+        "height": 1471,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 850,
+      "title": "No Man's Sky",
+      "aliases": [
+        "no man s sky"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/8de506d5-d209-41fe-acda-67ce4de3c89d.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1201×1500, 126 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 128586,
+        "width": 1201,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 851,
+      "title": "No More Heroes III [Day 1 Edition]",
+      "aliases": [
+        "no more heroes iii day 1 edition"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/333dfc39-48af-435c-8010-365e1b8cc204.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1150×1500, 227 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 232908,
+        "width": 1150,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 860,
+      "title": "Odin Sphere Leifthrasir",
+      "aliases": [
+        "odin sphere leifthrasir"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/33fd17b9-a47e-413a-8887-0e72a24a0b52.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1521×1908, 240 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 246208,
+        "width": 1521,
+        "height": 1908,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 861,
+      "title": "Okami HD",
+      "aliases": [
+        "okami hd"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/76104a92-e67e-4f1f-ac78-5b01dc66fe0c.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1059×1326, 155 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 159022,
+        "width": 1059,
+        "height": 1326,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 890,
+      "title": "Pac-Man Championship Edition 2",
+      "aliases": [
+        "pac man championship edition 2"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/928b0b68-292f-481d-a2a5-f89d7f852ce5.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (799×1000, 71 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 72664,
+        "width": 799,
+        "height": 1000,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 902,
+      "title": "Persona 5",
+      "aliases": [
+        "persona 5"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/46ba46dd-a3e8-4e94-8543-dbf9364facbb.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1623×2000, 294 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 301084,
+        "width": 1623,
+        "height": 2000,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 920,
+      "title": "Pocky & Rocky Reshrined",
+      "aliases": [
+        "pocky and rocky reshrined"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/c8bb3bf1-bd51-4f7c-b7f4-64590437c66b.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1530×1908, 226 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 231324,
+        "width": 1530,
+        "height": 1908,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 927,
+      "title": "Power Rangers: Battle for the Grid",
+      "aliases": [
+        "power rangers battle for the grid",
+        "power rangers battle for the grid super edition"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/0e4b76e8-de70-4d0d-a8cf-b59712239f5e.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (799×994, 132 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 135240,
+        "width": 799,
+        "height": 994,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 958,
+      "title": "Rainbow Billy: The Curse of the Leviathan",
+      "aliases": [
+        "rainbow billy the curse of the leviathan"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/62ebbc1b-4a60-48fe-88a1-db5983db405c.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1521×1891, 255 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 261330,
+        "width": 1521,
+        "height": 1891,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 961,
+      "title": "Ratchet & Clank",
+      "aliases": [
+        "ratchet and clank"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/2e51f0b7-0108-429c-af4d-a7c0502426e5.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1524×1899, 235 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 240684,
+        "width": 1524,
+        "height": 1899,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1804,
+      "title": "Red Dead Redemption",
+      "aliases": [
+        "red dead redemption"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/2096507b-ffd0-4712-a165-23f0ee493756.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1521×1896, 149 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 152416,
+        "width": 1521,
+        "height": 1896,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 964,
+      "title": "Red Dead Redemption 2",
+      "aliases": [
+        "red dead redemption 2",
+        "red dead redemption ii"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/9c268269-ff38-41c0-b4c0-e89a1741b6a4.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (640×797, 58 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 59758,
+        "width": 640,
+        "height": 797,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 974,
+      "title": "Remothered: Tormented Fathers",
+      "aliases": [
+        "remothered tormented fathers"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/79af55dc-3bea-4f84-96a8-93ab0ac174e2.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1200×1500, 56 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 57096,
+        "width": 1200,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1011,
+      "title": "Rock Boshers DX: Director's Cut",
+      "aliases": [
+        "rock boshers dx director s cut"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/5e441c91-01e0-4245-bca9-31ccf788bc4f.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (716×1100, 79 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 81086,
+        "width": 716,
+        "height": 1100,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1027,
+      "title": "Sackboy: A Big Adventure",
+      "aliases": [
+        "sackboy a big adventure"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/4a052abd-fc7a-49ca-86ec-4db9688fe4cb.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1243×1539, 239 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 244662,
+        "width": 1243,
+        "height": 1539,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1055,
+      "title": "Shadow of the Colossus",
+      "aliases": [
+        "shadow of the colossus"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/20d3ff87-c103-4837-bcda-a7c85205af2b.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1524×1899, 120 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 122750,
+        "width": 1524,
+        "height": 1899,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1062,
+      "title": "Shadows: Awakening",
+      "aliases": [
+        "shadows awakening"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/5c0a1b06-ec16-421a-9882-930ddcea2bcc.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1141×1407, 204 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 208738,
+        "width": 1141,
+        "height": 1407,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1554,
+      "title": "Shin Megami Tensei III: Nocturne HD Remaster",
+      "aliases": [
+        "shin megami tensei iii nocturne hd remaster"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/c5042215-86b0-416c-916f-8fdae9256456.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1511×1864, 164 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 167954,
+        "width": 1511,
+        "height": 1864,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1078,
+      "title": "Skater XL",
+      "aliases": [
+        "skater xl"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/7901c086-4176-49ae-8c63-cbb47cd5644b.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (637×789, 56 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 57144,
+        "width": 637,
+        "height": 789,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1089,
+      "title": "Sleeping Dogs: Definitive Edition",
+      "aliases": [
+        "sleeping dogs definitive edition"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/51a84a75-d543-4bc7-b7d0-a7ce48e6ec2c.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1227×1500, 208 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 213252,
+        "width": 1227,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1555,
+      "title": "Soul Hackers 2",
+      "aliases": [
+        "soul hackers 2"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/ec1951ef-1951-4a9e-b5a3-7650f6b8499f.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1212×1500, 218 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 222862,
+        "width": 1212,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1116,
+      "title": "Sparklite",
+      "aliases": [
+        "sparklite"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/a911bc06-717f-4144-9d02-5ce1431deb94.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1024×1294, 109 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 111870,
+        "width": 1024,
+        "height": 1294,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1117,
+      "title": "SpellForce III: Reforced",
+      "aliases": [
+        "spellforce iii reforced"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/ea7eb46c-20c1-4bf9-9d5e-1cf69db1fab9.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1201×1500, 127 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 130070,
+        "width": 1201,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1123,
+      "title": "SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated",
+      "aliases": [
+        "spongebob squarepants battle for bikini bottom rehydrated"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/e19e4d43-3b9f-4b70-941b-853eacfa6359.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (820×1024, 94 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 96704,
+        "width": 820,
+        "height": 1024,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1128,
+      "title": "Star Ocean: Integrity and Faithlessness",
+      "aliases": [
+        "star ocean integrity and faithlessness",
+        "star ocean integrity and faithlessness day one edition"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/3d1fd0c9-e231-4bfc-9c60-7dac868573c3.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1006×1280, 111 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 113664,
+        "width": 1006,
+        "height": 1280,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1135,
+      "title": "Star Wars Jedi: Fallen Order",
+      "aliases": [
+        "star wars jedi fallen order"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/842a965f-5185-4a69-9379-7261481fb26a.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (767×955, 71 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 73082,
+        "width": 767,
+        "height": 955,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1138,
+      "title": "Star Wars: Squadrons",
+      "aliases": [
+        "star wars squadrons"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/8975f6d7-f922-4aee-94ce-62fe9971e4f7.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (764×953, 83 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 85460,
+        "width": 764,
+        "height": 953,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1142,
+      "title": "Starlink: Battle for Atlas",
+      "aliases": [
+        "starlink battle for atlas"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/8e4443b9-e4e3-4db1-9c7a-27550738040b.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (640×798, 63 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 64480,
+        "width": 640,
+        "height": 798,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1151,
+      "title": "Stick it to the Man!",
+      "aliases": [
+        "stick it to the man"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/96ef3ce7-d099-497d-acec-e481e9d3847b.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (640×800, 57 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 58802,
+        "width": 640,
+        "height": 800,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1156,
+      "title": "Strange Brigade",
+      "aliases": [
+        "strange brigade"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/22e6c9df-7ae1-4a02-9f21-5c7553c59e17.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (766×947, 75 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 77174,
+        "width": 766,
+        "height": 947,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1158,
+      "title": "Stray",
+      "aliases": [
+        "stray"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/77a7714e-2ec4-4bb6-8786-48c7d2cddfec.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1533×1904, 179 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 183052,
+        "width": 1533,
+        "height": 1904,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1192,
+      "title": "Sword Art Online: Fatal Bullet",
+      "aliases": [
+        "sword art online fatal bullet"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/f1b1f17f-f6ed-4ee8-b6a5-2b9851ec9b0a.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1525×1900, 296 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 303048,
+        "width": 1525,
+        "height": 1900,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1194,
+      "title": "Sword Art Online: Lost Song",
+      "aliases": [
+        "sword art online lost song"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/eb4b7c28-6d2d-4d63-be77-462f42164f0f.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1204×1500, 185 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 189528,
+        "width": 1204,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1199,
+      "title": "Tales of Arise",
+      "aliases": [
+        "tales of arise"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/22b8a226-74f4-47a6-a6a2-54d23fe4921b.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1204×1500, 137 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 140564,
+        "width": 1204,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1200,
+      "title": "Tales of Berseria",
+      "aliases": [
+        "tales of berseria"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/9bed64d6-fcce-49aa-a6e6-d1e612c2224b.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1525×1900, 239 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 245182,
+        "width": 1525,
+        "height": 1900,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1202,
+      "title": "Tales of Zestiria",
+      "aliases": [
+        "tales of zestiria"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/eba0da40-895b-427e-887e-b810166cbaa0.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1525×1904, 234 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 239390,
+        "width": 1525,
+        "height": 1904,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1211,
+      "title": "Terraria",
+      "aliases": [
+        "terraria"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/96ee5020-69cf-4142-a957-7e41ca37861b.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1203×1500, 122 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 124736,
+        "width": 1203,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1245,
+      "title": "The Evil Within 2",
+      "aliases": [
+        "evil within 2",
+        "the evil within 2"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/0b496fc7-257e-4388-98e5-e41edb939148.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1524×1902, 164 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 168390,
+        "width": 1524,
+        "height": 1902,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1251,
+      "title": "The Inner World: The Last Wind Monk",
+      "aliases": [
+        "inner world the last wind monk",
+        "the inner world the last wind monk"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/5986fc27-c9a4-498d-be92-880826351161.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1194×1500, 153 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 156740,
+        "width": 1194,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1260,
+      "title": "The Last Guardian",
+      "aliases": [
+        "last guardian",
+        "the last guardian"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/a3af2f1d-5548-4255-b272-e5d74ed0ed32.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1523×1904, 177 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 181344,
+        "width": 1523,
+        "height": 1904,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1262,
+      "title": "The Last of Us Remastered",
+      "aliases": [
+        "last of us remastered",
+        "the last of us remastered"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/99e4edab-9274-4524-a505-c389fb204082.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (800×1006, 63 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 64446,
+        "width": 800,
+        "height": 1006,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1281,
+      "title": "The Order: 1886",
+      "aliases": [
+        "order 1886",
+        "the order 1886"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/53f816b3-a8c9-4ca0-afb1-043d317ff450.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1512×1879, 193 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 198038,
+        "width": 1512,
+        "height": 1879,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1282,
+      "title": "The Outer Worlds",
+      "aliases": [
+        "outer worlds",
+        "the outer worlds"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/92c8e026-3b01-40a3-a864-2b55aae6057e.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1191×1500, 214 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 218624,
+        "width": 1191,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1291,
+      "title": "The Sims 4",
+      "aliases": [
+        "sims 4 cats and dogs bundle",
+        "the sims 4"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/6490bf68-1ec0-47d5-8897-f077ff7735f5.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (803×1000, 69 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 71108,
+        "width": 803,
+        "height": 1000,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1294,
+      "title": "The Sinking City",
+      "aliases": [
+        "sinking city",
+        "the sinking city"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/65de4edb-34c7-4f07-a3e8-b515cedf7156.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1044×1346, 121 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 123992,
+        "width": 1044,
+        "height": 1346,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1295,
+      "title": "The Sojourn",
+      "aliases": [
+        "sojourn",
+        "the sojourn"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/e04579ca-654a-461c-b404-73ad4dfd3ba5.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (700×872, 56 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 57520,
+        "width": 700,
+        "height": 872,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1301,
+      "title": "The Technomancer",
+      "aliases": [
+        "technomancer",
+        "the technomancer"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/9c30b4de-280e-49f9-a7b5-a3de7e229fe0.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (742×932, 46 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 46924,
+        "width": 742,
+        "height": 932,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1312,
+      "title": "The Witcher 3: Wild Hunt",
+      "aliases": [
+        "the witcher 3 wild hunt",
+        "witcher iii wild hunt complete edition"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/d4b8be0a-9b6f-4bb3-aaf6-e0ac92aa07e3.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (640×810, 81 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 82926,
+        "width": 640,
+        "height": 810,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1314,
+      "title": "The Wonderful 101: Remastered",
+      "aliases": [
+        "the wonderful 101 remastered",
+        "wonderful 101 remastered"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/b47ba0c2-2ab8-464d-8ad4-09c051b02f91.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1191×1469, 210 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 215196,
+        "width": 1191,
+        "height": 1469,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1325,
+      "title": "Time on Frog Island",
+      "aliases": [
+        "time on frog island"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/4a750198-f0f5-44c3-acf3-aee27e3cba12.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (767×968, 73 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 74382,
+        "width": 767,
+        "height": 968,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1329,
+      "title": "Titanfall 2",
+      "aliases": [
+        "titanfall 2"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/c0114b73-db95-4ddb-beb8-a0f7117f99b8.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1207×1513, 201 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 205614,
+        "width": 1207,
+        "height": 1513,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1335,
+      "title": "Tokyo Xanadu eX+",
+      "aliases": [
+        "tokyo xanadu ex"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/fd3edf80-a2f3-46a5-aaa9-4913e7007ed1.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1203×1500, 177 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 181264,
+        "width": 1203,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1337,
+      "title": "Tom Clancy's The Division",
+      "aliases": [
+        "tom clancy s the division"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/8b654d9e-0257-4178-9476-7fb5dd4360f2.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (640×818, 78 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 79406,
+        "width": 640,
+        "height": 818,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1338,
+      "title": "Tom Clancy's The Division 2",
+      "aliases": [
+        "tom clancy s the division 2"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/d57a7550-9d8d-404e-9a72-9faf2b85c352.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1181×1500, 209 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 213536,
+        "width": 1181,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1339,
+      "title": "Tomb Raider: Definitive Edition",
+      "aliases": [
+        "tomb raider definitive edition"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/5ea3062b-86db-4241-bca3-c8df1d5a8e30.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (640×800, 52 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 53396,
+        "width": 640,
+        "height": 800,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1341,
+      "title": "Torment: Tides of Numenera",
+      "aliases": [
+        "torment tides of numenera"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/f8d84ea7-d1b9-46bb-a122-caa9724e91ea.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1113×1405, 206 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 211096,
+        "width": 1113,
+        "height": 1405,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1347,
+      "title": "Tower of Guns",
+      "aliases": [
+        "tower of guns",
+        "tower of guns special edition"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/821d5148-8839-4b8e-9d73-6fbd5f87e99f.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (791×1111, 67 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 68686,
+        "width": 791,
+        "height": 1111,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1362,
+      "title": "Tribes of Midgard [Deluxe Edition]",
+      "aliases": [
+        "tribes of midgard deluxe edition"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/d5dd1155-cf66-4c71-90fa-a05005dbac4c.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1282×1758, 172 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 175750,
+        "width": 1282,
+        "height": 1758,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1379,
+      "title": "Uncharted 4: A Thief's End",
+      "aliases": [
+        "uncharted 4 a thief s end"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/7596ec94-963f-4127-98e2-6bf47707c064.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1588×1978, 211 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 215596,
+        "width": 1588,
+        "height": 1978,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1397,
+      "title": "Valkyrie Elysium",
+      "aliases": [
+        "valkyrie elysium"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/495df377-9c17-4ac9-a5e6-d3ee9607cdfa.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1202×1500, 202 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 206854,
+        "width": 1202,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1403,
+      "title": "Vikings: Wolves of Midgard",
+      "aliases": [
+        "vikings wolves of midgard"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/c520a1a0-b017-43d2-80a9-ea85b50d32e0.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1067×1337, 100 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 102056,
+        "width": 1067,
+        "height": 1337,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1418,
+      "title": "Warhammer: End Times - Vermintide",
+      "aliases": [
+        "warhammer end times vermintide",
+        "warhammer the end times vermintide"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/da76def0-e3e8-4ca5-b87c-8880a8752b04.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (763×943, 67 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 68730,
+        "width": 763,
+        "height": 943,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1798,
+      "title": "Watch Dogs: Legion",
+      "aliases": [
+        "watch dogs legion",
+        "watch dogs legion ultimate edition steelbook"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/cfe3bd28-06c5-4b61-990a-b32b01036825.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1171×1494, 167 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 170946,
+        "width": 1171,
+        "height": 1494,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1432,
+      "title": "Where the Water Tastes Like Wine",
+      "aliases": [
+        "where the water tastes like wine"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/1682cd8f-50b0-44b5-8d00-199043b58fdc.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (902×1126, 82 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 84310,
+        "width": 902,
+        "height": 1126,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1433,
+      "title": "White Day: A Labyrinth Named School",
+      "aliases": [
+        "white day a labyrinth named school"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/27f708d8-8103-4311-a4ca-235cd60cee75.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1163×1500, 133 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 136634,
+        "width": 1163,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1435,
+      "title": "Wildermyth",
+      "aliases": [
+        "wildermyth"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/e713e0a2-9aff-4351-9cd3-c1c4eefd7061.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1037×1336, 108 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 110922,
+        "width": 1037,
+        "height": 1336,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1445,
+      "title": "Wonder Boy Collection",
+      "aliases": [
+        "wonder boy collection"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/4bbeebf2-0a1c-42d4-8b2e-f08e7e04e810.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (736×908, 85 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 87532,
+        "width": 736,
+        "height": 908,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1467,
+      "title": "Yakuza 0",
+      "aliases": [
+        "yakuza 0"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/30b0ec42-4635-4c76-bc39-c77850b50f94.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1200×1500, 106 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 109054,
+        "width": 1200,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1468,
+      "title": "Yakuza 3 Remastered",
+      "aliases": [
+        "yakuza 3 remastered"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/f3aae5ad-85dd-45aa-9bcf-9581befa1f2c.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (627×941, 69 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 70450,
+        "width": 627,
+        "height": 941,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1469,
+      "title": "Yakuza 4 Remastered",
+      "aliases": [
+        "yakuza 4 remastered"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/dd657859-271f-4882-b670-e5797cf3165d.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (627×941, 72 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 74168,
+        "width": 627,
+        "height": 941,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1470,
+      "title": "Yakuza 5 Remastered",
+      "aliases": [
+        "yakuza 5 remastered"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/26b385ae-6c33-4aff-91d3-fab98d9008e3.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (627×941, 71 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 72504,
+        "width": 627,
+        "height": 941,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1471,
+      "title": "Yakuza 6: The Song of Life",
+      "aliases": [
+        "yakuza 6 the song of life",
+        "yakuza 6 the song of life essence of art edition"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/fc3aa700-f427-4dfb-8d4d-ce0d5974cb5b.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1521×1899, 234 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 239126,
+        "width": 1521,
+        "height": 1899,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1472,
+      "title": "Yakuza Kiwami",
+      "aliases": [
+        "yakuza kiwami"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/00b68af6-819e-4502-a14c-f19d05708b6d.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1201×1500, 260 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 266142,
+        "width": 1201,
+        "height": 1500,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    },
+    {
+      "id": 1475,
+      "title": "Yoku's Island Express",
+      "aliases": [
+        "yoku s island express"
+      ],
+      "owned": true,
+      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/63c47732-7af9-42b8-b899-aa6e57518316.webp",
+      "curated": false,
+      "gameye": true,
+      "legacyOverride": false,
+      "bucket": "GAMEYE_RETAIL",
+      "score": 5,
+      "reason": "Verified exact-title/curated-alias GameEye PS4 art_front",
+      "quality": "OK",
+      "qualityReason": "Verified retail front (1212×1511, 280 KB)",
+      "scan": {
+        "ok": true,
+        "status": 200,
+        "bytes": 286862,
+        "width": 1212,
+        "height": 1511,
+        "contentType": "application/octet-stream"
+      },
+      "lowCandidate": false
+    }
+  ]
+}
