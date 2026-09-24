@@ -1,3 +1,4 @@
+// Art Department one-shot probe: discover how GameEye image.File paths are publicly served.
 const file='art_front/46/71da47ec-71cd-4b9e-8e29-d500cdb20a3c.webp';
 const candidates=[
   `https://www.gameye.app/${file}`,
@@ -26,7 +27,6 @@ async function probe(url){
 const results=[];
 for(const url of candidates){const x=await probe(url);results.push(x);console.log(JSON.stringify(x));}
 
-// Also inspect the public web app for image-host hints.
 const pages=['https://www.gameye.app/','https://gameye.app/'];
 for(const page of pages){
   try{
