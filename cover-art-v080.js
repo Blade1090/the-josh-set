@@ -1,6 +1,7 @@
 // ShelfCheck cover-art layer. Identity covers + generated collection-product covers.
 (()=>{
-  const coverFor=x=>window.SHELFCHECK_TITLE_COVERS?.[norm(x.title)]||window.SHELFCHECK_COVERS?.[x.id]||null;
+  const titleCovers={"warui ousama to rippana yuusha":"https://shop.nippon1.jp/html/upload/save_image/06241139_60d3f06b6aed5.jpg",...(window.SHELFCHECK_TITLE_COVERS||{})};
+  const coverFor=x=>titleCovers[norm(x.title)]||window.SHELFCHECK_COVERS?.[x.id]||null;
   const productCover=p=>{if(!p)return null;const generated=window.SHELFCHECK_PRODUCT_COVERS?.[p.key];if(generated)return generated;const exact=items.find(x=>x.set==='INCLUDED'&&norm(x.title)===norm(p.title)&&coverFor(x));if(exact)return coverFor(exact);const ids=[...new Set(p.ids||[])],covered=ids.map(id=>byId.get(id)).filter(x=>x?.set==='INCLUDED'&&coverFor(x));return covered.length===1?coverFor(covered[0]):null};
   const fallbackHtml='<div class="cover-fallback">COVER<br>NEEDED</div>';
   const style=document.createElement('style');
@@ -34,6 +35,6 @@
   // dossier content never jump vertically. Missing art is deliberately labeled COVER NEEDED:
   // ShelfCheck should show an honest gap instead of pretending generic/key art is a retail cover.
   const oldDetail=detail;detail=function(id){const r=oldDetail.apply(this,arguments);const box=document.querySelector('#detail');if(!box||box.querySelector('.detail-cover-shell'))return r;const h=box.querySelector('h2');if(!h)return r;const x=byId.get(id),url=x&&coverFor(x);const shell=document.createElement('div');shell.className='detail-cover-shell';const fallback=()=>{shell.classList.remove('has-cover');shell.innerHTML=fallbackHtml};if(url){const img=document.createElement('img');img.className='detail-cover';img.src=url;img.alt=x.title+' cover';img.decoding='async';img.onerror=fallback;shell.classList.add('has-cover');shell.title='Tap to enlarge cover';shell.addEventListener('click',()=>openLightbox(url,x.title));shell.appendChild(img)}else fallback();h.insertAdjacentElement('afterend',shell);return r};
-  window.SHELFCHECK_COVER_ART={version:88,paint,coverFor,productCover,openLightbox};
+  window.SHELFCHECK_COVER_ART={version:89,paint,coverFor,productCover,openLightbox};
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',paint);else paint();
 })();
