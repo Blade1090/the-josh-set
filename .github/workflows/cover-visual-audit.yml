@@ -6,6 +6,7 @@ on:
     paths:
       - 'tools/cover-source-audit.mjs'
       - 'tools/cover-visual-audit.py'
+      - 'audit-out/cover-manual-qa.json'
       - 'cover-gameye-retail.js'
       - 'cover-title-overrides.js'
       - 'cover-overrides.js'
