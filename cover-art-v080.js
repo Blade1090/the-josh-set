@@ -27,30 +27,28 @@
   const lightbox=document.createElement('dialog');
   lightbox.className='cover-lightbox';lightbox.setAttribute('aria-label','Cover art preview');
   lightbox.innerHTML='<button type="button" aria-label="Close cover preview">×</button><img alt="">';document.body.appendChild(lightbox);
-  let suspendedModal=null;
-  let suspendedDisplay='';
-  const suspendDossier=()=>{
-    const detail=document.querySelector('#detail');
-    if(!detail)return;
-    const dialog=detail.closest('dialog');
-    if(dialog&&dialog.open){
-      suspendedModal=dialog;
-      suspendedDisplay=dialog.style.display;
-      dialog.style.display='none';
-      return;
-    }
-    let node=detail;
-    while(node&&node!==document.body){
-      const cs=getComputedStyle(node);
-      if(cs.position==='fixed'){suspendedModal=node;break}
-      node=node.parentElement;
-    }
-    if(suspendedModal){suspendedDisplay=suspendedModal.style.display;suspendedModal.style.display='none'}
-  };
-  const restoreDossier=()=>{if(!suspendedModal)return;suspendedModal.style.display=suspendedDisplay;suspendedModal=null;suspendedDisplay=''};
+  let reopenDossier=false;
+  const dossierDialog=()=>document.getElementById('dlg');
   const clearLightbox=()=>lightbox.querySelector('img').removeAttribute('src');
-  const closeLightbox=()=>{if(lightbox.open)lightbox.close();else{clearLightbox();restoreDossier()}};
-  const openLightbox=(url,title)=>{if(!url)return;const img=lightbox.querySelector('img');img.src=url;img.alt=(title||'Game')+' cover';suspendDossier();if(!lightbox.open)lightbox.showModal()};
+  const restoreDossier=()=>{
+    if(!reopenDossier)return;
+    reopenDossier=false;
+    const dlg=dossierDialog();
+    if(dlg&&!dlg.open)dlg.showModal();
+  };
+  const closeLightbox=()=>{
+    if(lightbox.open)lightbox.close();
+    else{clearLightbox();restoreDossier()}
+  };
+  const openLightbox=(url,title)=>{
+    if(!url)return;
+    const img=lightbox.querySelector('img');
+    img.src=url;img.alt=(title||'Game')+' cover';
+    const dlg=dossierDialog();
+    reopenDossier=!!(dlg&&dlg.open);
+    if(reopenDossier)dlg.close();
+    if(!lightbox.open)lightbox.showModal();
+  };
   lightbox.addEventListener('click',e=>{if(e.target===lightbox||e.target.tagName==='BUTTON')closeLightbox()});
   lightbox.addEventListener('close',()=>{clearLightbox();restoreDossier()});
 
@@ -71,7 +69,7 @@
   const repaint=()=>{document.querySelectorAll('#results .cover-shell').forEach(x=>x.remove());paint()};
   const oldRender=render;render=function(){const r=oldRender.apply(this,arguments);paint();if(typeof decoratePriceCards==='function')decoratePriceCards();return r};
   const oldDetail=detail;detail=function(id){const r=oldDetail.apply(this,arguments);const box=document.querySelector('#detail');if(!box||box.querySelector('.detail-cover-shell'))return r;const h=box.querySelector('h2');if(!h)return r;const x=byId.get(id),url=x&&coverFor(x);const shell=document.createElement('div');shell.className='detail-cover-shell';const fallback=()=>{shell.classList.remove('has-cover');shell.innerHTML=fallbackHtml};if(url){const img=document.createElement('img');img.className='detail-cover';img.src=url;img.alt=x.title+' cover';img.decoding='async';img.onerror=fallback;shell.classList.add('has-cover');shell.title='Tap to enlarge cover';shell.addEventListener('click',()=>openLightbox(url,x.title));shell.appendChild(img)}else fallback();h.insertAdjacentElement('afterend',shell);return r};
-  window.SHELFCHECK_COVER_ART={version:100,paint,repaint,coverFor,productCover,openLightbox};
+  window.SHELFCHECK_COVER_ART={version:101,paint,repaint,coverFor,productCover,openLightbox};
 
   const retailScript=document.createElement('script');
   retailScript.src=`cover-gameye-retail.js?v=${Date.now()}`;
