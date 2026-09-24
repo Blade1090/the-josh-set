@@ -17,6 +17,28 @@
   for(const fn of censusQueue.exclude)fn();
   censusQueue.add.length=0;
   censusQueue.exclude.length=0;
+
+  // Final 2026-09-23 curator language-accessibility decisions. These five PS4 identities
+  // have physical routes, but the qualifying releases are not English-accessible enough
+  // for the Josh Set. Keep the identities in the census history; exclude them from the
+  // active denominator rather than deleting them.
+  const languageCuts=[
+    'God Eater Resurrection',
+    'Atelier Ayesha DX',
+    'Atelier Escha & Logy DX',
+    'Atelier Shallie DX',
+    'Occultic;Nine'
+  ];
+  const appliedLanguageCuts=[];
+  for(const title of languageCuts){
+    const x=items.find(v=>norm(v.title)===norm(title));
+    if(!x){console.warn(`ShelfCheck final language cut: identity not found: ${title}`);continue;}
+    x.set='EXCLUDED';
+    x.cleanupReason='LANGUAGE_BARRIER — qualifying PS4 physical route is not English-accessible enough for the Josh Set; curator decision 2026-09-23.';
+    appliedLanguageCuts.push(x.title);
+  }
+  window.SHELFCHECK_FINAL_LANGUAGE_CUTS={excluded:appliedLanguageCuts};
+
   DATA.n=items.filter(x=>x.set==="INCLUDED").length;
   censusFinalized=true;
   if(typeof mergedProductIndex!=="undefined")mergedProductIndex=null;
