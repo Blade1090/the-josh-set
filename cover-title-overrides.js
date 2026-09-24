@@ -28,7 +28,26 @@ window.SHELFCHECK_TITLE_COVERS={
   "hardcore mecha":"https://cdn11.bigcommerce.com/s-kzjsut/images/stencil/1280x1280/products/3587/19755/hardcore-mecha-multilanguage-598427.6__03541.1698692071.jpg?c=2%3Fimbypass%3Don",
   "the flame in the flood complete edition":"https://limitedrungames.com/cdn/shop/products/flame-in-the-flood-ps4-lrg.png?v=1668033181&width=1920",
   "bridge constructor":"https://gamefairy.io/wp-content/uploads/2018/03/Packshot_BC_3D_PEGI.png",
-  "void bastards":"https://media.gamestop.com/i/gamestop/11104055/Void-Bastards---PlayStation-4?fmt=auto&h=768&w=768"
+  "void bastards":"https://media.gamestop.com/i/gamestop/11104055/Void-Bastards---PlayStation-4?fmt=auto&h=768&w=768",
+  "the journey down chapter two":"https://gamefaqs.gamespot.com/a/box/6/9/3/906693_front.jpg",
+  "lone survivor the directors cut":"https://www.retroplace.com/en/games/pics/ps4/packshots/162836--lone-survivor-the-directors-cut.png",
+  "n":"https://limitedrungames.com/cdn/shop/products/NPP-PS4.png?height=1080&v=1502744581",
+  "ninja jajamaru legendary ninja collection":"https://gamefaqs.gamespot.com/a/box/3/9/0/904390_front.jpg",
+  "black desert":"https://www.gamereactor.it/media/48/blackdesertprestige_3244863.png",
+  "bleed":"https://retromtl.com/cdn/shop/files/DSCN5598-2_3311199c-bf6a-419f-be0a-dcce97f1306f_1200x1200.jpg?v=1697567267",
+  "blood bowl 2":"https://i.ebayimg.com/images/g/2ckAAOSwP0toKmrY/s-l500.jpg",
+  "blue rider":"https://images.launchbox-app.com/713b5678-7819-45ae-ade2-91a6cecca60f.jpg",
+  "bomber crew":"https://gamefaqs.gamespot.com/a/box/3/0/9/680309_front.jpg",
+  "braveland trilogy":"https://www.redartgames.com/3496-vignette/braveland-trilogy-pre-order-ps4.jpg",
+  "bubsy the woolies strike back":"https://media.gamestop.com/i/gamestop/10152927/Bubsy-The-Woolies-Strike-Back?fmt=auto&h=768&w=768",
+  "capcom beat em up bundle":"https://www.japanzon.com/16960-product_large/capcom-belt-action-collection-sony-ps4-playstation-4.jpg",
+  "chariot":"https://limitedrungames.com/cdn/shop/files/charriot-limited-run-games-ps4.png?height=1080&v=1698943937",
+  "coffee talk":"https://cdn11.bigcommerce.com/s-kzjsut/images/stencil/1280x1280/products/3031/16404/PS4_COFFEETALK__50003.1622216742.jpg?c=2",
+  "code realize bouquet of rainbows":"https://cdn.mobygames.com/covers/9526472-code-realize-bouquet-of-rainbows-playstation-4-front-cover.jpg",
+  "alternate jake hunter daedalus the awakening of golden jazz":"https://ecommerce.datablitz.com.ph/cdn/shop/products/daedalus-the-awakening-of-golden-jazz-multilanguage-588235.9_1200x.jpg?v=1676776758",
+  "the elder scrolls v skyrim special edition":"https://gamefaqs.gamespot.com/a/box/9/5/8/602958_front.jpg",
+  "the church in the darkness":"https://limitedrungames.com/cdn/shop/files/church-in-the-darkness-limited-run-games-ps4.png?height=1080&v=1698943937",
+  "shoppe keep":"https://gamefaqs.gamespot.com/a/box/6/3/9/662639_front.jpg"
 };
 
 // Art Department quality gate. Browser-only: CI evaluates this file in a VM without DOM APIs.
