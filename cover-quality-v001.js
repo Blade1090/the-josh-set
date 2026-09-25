@@ -1,5 +1,5 @@
 // ShelfCheck Art Department runtime quality gate.
-// REVIEW art is deliberately hidden; FALLBACK art remains visible until a cleaner shelf front is found.
+// REVIEW/WATCH art is deliberately hidden; FALLBACK art remains visible until a cleaner shelf front is found.
 (()=>{
   const norm=s=>String(s??'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[’'`]/g,'').replaceAll('&',' and ').match(/[a-z0-9]+/g)?.join(' ')||'';
   const state={ready:false,bad:new Map(),runtimeReview:new Map(),fallback:new Map(),fixed:new Set(),eligibility:new Map(),summary:null};
@@ -55,7 +55,12 @@
     state.bad=new Map((manual.confirmed_bad||[]).map(x=>[norm(x.title),x.reason||'manual review']));
     state.eligibility=new Map((manual.eligibility||[]).map(x=>[norm(x.title),x.reason||'physical release unverified']));
     state.fixed=new Set((manual.fixed||[]).map(x=>norm(x.title)));
-    state.runtimeReview=new Map((runtime.review||[]).map(x=>[norm(x.title),x.reason||'audit review']));
+    // REVIEW is known-bad/unverified. WATCH is also suppressed in production because
+    // a failed audit fetch means we did not actually verify that image as shelf-safe.
+    state.runtimeReview=new Map([
+      ...(runtime.review||[]).map(x=>[norm(x.title),x.reason||'audit review']),
+      ...(runtime.watch||[]).map(x=>[norm(x.title),x.reason||'audit verification failed'])
+    ]);
     state.fallback=new Map([
       ...(runtime.fallback||[]).map(x=>[norm(x.title),x.reason||'fallback cover']),
       ...(manual.fallback||[]).map(x=>[norm(x.title),x.reason||'fallback cover'])
@@ -76,5 +81,5 @@
   const startObserver=()=>observer.observe(document.body,{childList:true,subtree:true});
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',startObserver);else startObserver();
 
-  window.SHELFCHECK_COVER_POLICY={version:2,state,qualityForTitle,apply};
+  window.SHELFCHECK_COVER_POLICY={version:3,state,qualityForTitle,apply};
 })();
