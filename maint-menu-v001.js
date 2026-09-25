@@ -44,6 +44,17 @@
       document.body.appendChild(s);
     }
 
+    // Compilation/product inheritance: only identities explicitly covered by a known physical
+    // product may inherit that product's box front, and that product image must independently
+    // pass the same PS4 retail-front gate before the generated layer will contain it.
+    if(!document.querySelector('script[data-shelfcheck-product-inherit-covers]')){
+      const s=document.createElement('script');
+      s.src='cover-product-inherit.js?v=1';
+      s.dataset.shelfcheckProductInheritCovers='1';
+      s.onerror=()=>console.warn('ShelfCheck: product-cover inheritance layer unavailable.');
+      document.body.appendChild(s);
+    }
+
     // Art Department safety gate. Any image still failing the current full audit remains hidden.
     if(!document.querySelector('script[data-shelfcheck-cover-quality]')){
       const s=document.createElement('script');
