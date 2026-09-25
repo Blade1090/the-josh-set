@@ -1,51 +1,31 @@
 {
-  "generatedAt": "2026-09-25T16:25:13.675Z",
+  "generatedAt": "2026-09-25T16:43:06.598Z",
   "summary": {
-    "generatedAt": "2026-09-25T16:25:13.675Z",
+    "generatedAt": "2026-09-25T16:43:06.598Z",
     "included": 2407,
-    "good": 1629,
+    "good": 1959,
     "fallback": 8,
-    "review": 731,
-    "watch": 39,
-    "physicalVerify": 719,
-    "physicalLikely": 977,
+    "review": 412,
+    "watch": 28,
+    "physicalVerify": 404,
+    "physicalLikely": 1292,
     "physicalConfirmed": 711,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "key_art_only": 680,
-      "missing_ps4_banner": 51
+      "key_art_only": 376,
+      "missing_ps4_banner": 36
     },
     "watchByReason": {
-      "image_fetch_failed": 39
+      "image_fetch_failed": 28
     }
   },
   "review": [
     {
-      "id": 1557,
-      "title": "112th Seed",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2037,
       "title": "9th Dawn III",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 21,
-      "title": "A Hole New World",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1560,
-      "title": "A Short Hike",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1876,
-      "title": "Acalesia",
       "reason": "key_art_only"
     },
     {
@@ -54,38 +34,13 @@
       "reason": "key_art_only"
     },
     {
-      "id": 34,
-      "title": "Aces of the Luftwaffe: Squadron",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1867,
-      "title": "Aground",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1564,
-      "title": "AK-xolotl",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2482,
       "title": "Alice Gear Aegis CS: Concerto of Simulatrix",
       "reason": "key_art_only"
     },
     {
-      "id": 1890,
-      "title": "Amazing Princess Sarah",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2077,
       "title": "American Hero",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2456,
-      "title": "Animal Hospital",
       "reason": "key_art_only"
     },
     {
@@ -119,48 +74,13 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2277,
-      "title": "Astebros",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1575,
-      "title": "Asterix & Obelix XXL 2",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2497,
       "title": "Asterix & Obelix XXXL: The Ram from Hibernia",
       "reason": "key_art_only"
     },
     {
-      "id": 2498,
-      "title": "Asterix & Obelix: Heroes",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2504,
-      "title": "Atelier Yumia: The Alchemist Of Memories & The Envisioned Land",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1577,
-      "title": "Awesome Pea",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1578,
-      "title": "Awesome Pea 2",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1579,
       "title": "Back to the Future: The Game",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1897,
-      "title": "Batbarian: Testament of the Primordials",
       "reason": "key_art_only"
     },
     {
@@ -174,28 +94,13 @@
       "reason": "key_art_only"
     },
     {
-      "id": 154,
-      "title": "Beholder: Complete Edition",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2518,
       "title": "Beyond Enemy Lines 2: Enhanced Edition",
       "reason": "key_art_only"
     },
     {
-      "id": 2519,
-      "title": "Beyond Good & Evil: 20th Anniversary Edition",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2068,
       "title": "Beyond the Ice Palace 2",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1944,
-      "title": "Bit Dungeon +",
       "reason": "key_art_only"
     },
     {
@@ -209,21 +114,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1812,
-      "title": "Blaster Master Zero 3",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1927,
-      "title": "Blind Men",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1581,
-      "title": "Bluey's Quest for the Gold Pen",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2532,
       "title": "Bomb Rush Cyberfunk",
       "reason": "key_art_only"
@@ -234,18 +124,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2535,
-      "title": "Bratz Rhythm & Style",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1582,
       "title": "Breach & Clear: Deadline",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2292,
-      "title": "Breathedge",
       "reason": "key_art_only"
     },
     {
@@ -254,38 +134,13 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1842,
-      "title": "Broken Sword - Shadow of the Templars: Reforged",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1913,
-      "title": "Brotherhood United",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2541,
-      "title": "Buried Stars",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2542,
       "title": "Bus Simulator",
       "reason": "key_art_only"
     },
     {
-      "id": 2546,
-      "title": "Candle: The Power of the Flame",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1588,
       "title": "Cat Quest II",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1898,
-      "title": "Catty & Batty: The Spirit Guide",
       "reason": "key_art_only"
     },
     {
@@ -304,16 +159,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2552,
-      "title": "Chicken Range",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2457,
-      "title": "Circuit Breakers",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2415,
       "title": "Coffee Crisis",
       "reason": "key_art_only"
@@ -329,28 +174,13 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2059,
-      "title": "Concept Destruction",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2299,
       "title": "Contra: Operation Galuga",
       "reason": "key_art_only"
     },
     {
-      "id": 1592,
-      "title": "Contraptions",
-      "reason": "key_art_only"
-    },
-    {
       "id": 269,
       "title": "Corpse Killer: 25th Anniversary Edition",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1975,
-      "title": "Cotton 100%",
       "reason": "key_art_only"
     },
     {
@@ -369,11 +199,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1594,
-      "title": "Crash Dummy",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1595,
       "title": "Crashbots",
       "reason": "key_art_only"
@@ -386,11 +211,6 @@
     {
       "id": 2301,
       "title": "Crymachina",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1868,
-      "title": "Cybertrash STATYX",
       "reason": "key_art_only"
     },
     {
@@ -429,11 +249,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 335,
-      "title": "DEADBOLT",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1600,
       "title": "Deer Simulator",
       "reason": "key_art_only"
@@ -444,28 +259,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1945,
-      "title": "Demetrios the Big Cynical Adventure",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1861,
       "title": "Demon Gaze Extra",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2007,
-      "title": "Demon's Tilt",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 362,
-      "title": "Devious Dungeon",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1499,
-      "title": "Dex",
       "reason": "key_art_only"
     },
     {
@@ -474,38 +269,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1920,
-      "title": "Die With Glory",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1603,
-      "title": "Dino Dini's Kick Off Revival",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2416,
-      "title": "Distrust",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2458,
-      "title": "Do Not Open",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2417,
       "title": "Dogchild",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1985,
-      "title": "Dogurai",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2448,
-      "title": "Dora: Rainforest Rescue",
       "reason": "key_art_only"
     },
     {
@@ -529,11 +294,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1929,
-      "title": "Duck Souls+",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2266,
       "title": "DUSK",
       "reason": "key_art_only"
@@ -546,16 +306,6 @@
     {
       "id": 1610,
       "title": "Earthlock",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 431,
-      "title": "EarthNight",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 432,
-      "title": "Edge Of Eternity",
       "reason": "key_art_only"
     },
     {
@@ -574,41 +324,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1901,
-      "title": "Endocrisis",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1872,
-      "title": "Enter Digiton: Heart of Corruption",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1865,
-      "title": "Escape From Life Inc.",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1928,
-      "title": "Escape From Tethys",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1613,
-      "title": "Evan's Remains",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2577,
-      "title": "Everreach: Project Eden",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 449,
-      "title": "Evoland: Legendary Edition",
-      "reason": "key_art_only"
-    },
-    {
       "id": 454,
       "title": "Factotum 90",
       "reason": "key_art_only"
@@ -616,11 +331,6 @@
     {
       "id": 473,
       "title": "fault milestone one",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 481,
-      "title": "Final Fantasy VIII Remastered",
       "reason": "key_art_only"
     },
     {
@@ -634,23 +344,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 506,
-      "title": "Frane: Dragons' Odyssey",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 507,
-      "title": "Freedom Finger",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1622,
       "title": "Fury Unleashed",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1623,
-      "title": "Future Unfolding",
       "reason": "key_art_only"
     },
     {
@@ -674,16 +369,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2585,
-      "title": "Garden Life: A Cozy Simulator",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2586,
-      "title": "Garden Simulator",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1824,
       "title": "Gearshifters",
       "reason": "key_art_only"
@@ -694,28 +379,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2590,
-      "title": "Gene Rain",
-      "reason": "key_art_only"
-    },
-    {
       "id": 525,
       "title": "Geometry Wars 3: Dimensions",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1955,
-      "title": "Ghost 1.0",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2591,
-      "title": "Ghost Of A Tale",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2592,
-      "title": "Ghost Recon: Breakpoint",
       "reason": "key_art_only"
     },
     {
@@ -729,38 +394,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2595,
-      "title": "Gigantosaurus: Dino Sports",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2082,
-      "title": "Ginga Force",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 535,
-      "title": "Giraffe and Annika",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1893,
-      "title": "Glam's Incredible Run: Escape from Dukha",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1866,
       "title": "Godstrike",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2065,
-      "title": "Golden Force",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1508,
-      "title": "Gori: Cuddly Carnage",
       "reason": "key_art_only"
     },
     {
@@ -779,18 +414,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1896,
-      "title": "Gunborg: Dark Matters",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2063,
       "title": "Guns N' Runs",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1632,
-      "title": "Guns, Gore & Cannoli",
       "reason": "key_art_only"
     },
     {
@@ -844,31 +469,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2602,
-      "title": "Heart & Slash",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1882,
-      "title": "Heidelberg 1693",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1905,
-      "title": "Hellbreachers",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1888,
-      "title": "Helvetii",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2604,
-      "title": "Hentai Vs. Evil",
-      "reason": "key_art_only"
-    },
-    {
       "id": 586,
       "title": "Hero Must Die. Again",
       "reason": "key_art_only"
@@ -884,28 +484,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1877,
-      "title": "Hillbilly Doomsday",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2607,
-      "title": "Hishou Same! Same! Same",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1641,
       "title": "I Am Setsuna",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2020,
-      "title": "I Saw Black Clouds",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1947,
-      "title": "Ice Cream Surfer",
       "reason": "key_art_only"
     },
     {
@@ -914,38 +494,13 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1902,
-      "title": "Immortal Planet",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1912,
-      "title": "In rays of the Light",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2422,
-      "title": "Indiecalypse",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1644,
       "title": "Infinite: Beyond the Mind",
       "reason": "key_art_only"
     },
     {
-      "id": 1884,
-      "title": "Inked: A Tale of Love",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1918,
       "title": "Inspector Waffles",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2616,
-      "title": "Intruders: Hide And Seek",
       "reason": "key_art_only"
     },
     {
@@ -964,36 +519,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 634,
-      "title": "JackQuest: The Tale of the Sword",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1852,
-      "title": "Jets'N'Guns 2",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1925,
-      "title": "Journey of the Broken Circle",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2624,
-      "title": "Jujutsu Kaisen: Cursed Clash",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1889,
-      "title": "Karma: Incarnation 1",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1906,
-      "title": "Kingdom of Arcadia",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1649,
       "title": "La-Mulana",
       "reason": "key_art_only"
@@ -1004,48 +529,13 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1650,
-      "title": "Labyrinth Life",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2643,
-      "title": "Labyrinth of Zangetsu",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1874,
-      "title": "Lacuna",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2320,
       "title": "Lake",
       "reason": "key_art_only"
     },
     {
-      "id": 689,
-      "title": "Langrisser I & II",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 690,
-      "title": "Lapis x Labyrinth",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1515,
       "title": "Late Shift",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2646,
-      "title": "Lawn Mowing Simulator: Landmark Edition",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1652,
-      "title": "Leap of Fate",
       "reason": "key_art_only"
     },
     {
@@ -1064,33 +554,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 698,
-      "title": "Legendary Fishing",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2641,
-      "title": "LEGO Brawls",
-      "reason": "key_art_only"
-    },
-    {
       "id": 708,
       "title": "LEGO Marvel's Avengers",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 710,
-      "title": "LEGO Star Wars: The Skywalker Saga",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2321,
-      "title": "Lemon Cake",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2389,
-      "title": "Liberated",
       "reason": "key_art_only"
     },
     {
@@ -1104,18 +569,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1904,
-      "title": "Light Fairytale Episode 1",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1869,
       "title": "Light Fairytale Episode 2",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 724,
-      "title": "Little Town Hero",
       "reason": "key_art_only"
     },
     {
@@ -1124,43 +579,13 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2390,
-      "title": "Loopers",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2423,
       "title": "Lord Winklebottom Investigates",
       "reason": "key_art_only"
     },
     {
-      "id": 1833,
-      "title": "Lumote: The Mastermote Chronicles",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2014,
       "title": "LUNARK",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1844,
-      "title": "MACROSS -Shooting Insight-",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1988,
-      "title": "Macrotis: A Mother's Journey",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2652,
-      "title": "Mad Games Tycoon",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2653,
-      "title": "Mad Tower Tycoon",
       "reason": "key_art_only"
     },
     {
@@ -1179,23 +604,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1519,
-      "title": "Martha Is Dead",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1899,
-      "title": "Mask of Mists",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2323,
       "title": "Mato Anomalies",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1894,
-      "title": "Mayhem Brawler",
       "reason": "key_art_only"
     },
     {
@@ -1219,21 +629,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1891,
-      "title": "Metaloid: Origin",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2051,
-      "title": "Metaphor: ReFantazio",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 775,
-      "title": "Metropolis: Lux Obscura",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2325,
       "title": "Mighty Goose",
       "reason": "key_art_only"
@@ -1241,11 +636,6 @@
     {
       "id": 780,
       "title": "Mighty Switch Force! Collection",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1887,
-      "title": "Milli & Greg",
       "reason": "key_art_only"
     },
     {
@@ -1259,38 +649,13 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1672,
-      "title": "MISTOVER",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1923,
       "title": "Monster Prom XXL",
       "reason": "key_art_only"
     },
     {
-      "id": 793,
-      "title": "Monstrum",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 794,
-      "title": "Moonlighter",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 801,
-      "title": "Mothergunship",
-      "reason": "key_art_only"
-    },
-    {
       "id": 802,
       "title": "Moving Out",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 803,
-      "title": "Mozart Requiem",
       "reason": "key_art_only"
     },
     {
@@ -1314,28 +679,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 810,
-      "title": "Mutazione",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1982,
-      "title": "My Aunt is a Witch",
-      "reason": "key_art_only"
-    },
-    {
       "id": 811,
       "title": "My Friend Pedro",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 813,
-      "title": "My Hero One's Justice 2",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 814,
-      "title": "My Time At Portia",
       "reason": "key_art_only"
     },
     {
@@ -1344,18 +689,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2328,
-      "title": "Mystik Belle",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2016,
       "title": "MythForce",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 818,
-      "title": "Narcosis",
       "reason": "key_art_only"
     },
     {
@@ -1379,48 +714,13 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2658,
-      "title": "Nayuta no Kiseki: Kai",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2659,
       "title": "Necromunda: Hired Gun",
       "reason": "key_art_only"
     },
     {
-      "id": 1677,
-      "title": "Necrosphere Deluxe",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 826,
-      "title": "Need for Speed Heat",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1520,
-      "title": "NEO: The World Ends With You",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2662,
-      "title": "Neptunia Virtual Stars",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2664,
-      "title": "Neptunia: Sisters VS Sisters",
-      "reason": "key_art_only"
-    },
-    {
       "id": 832,
       "title": "NeuroVoider",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2329,
-      "title": "NeverAwake",
       "reason": "key_art_only"
     },
     {
@@ -1439,11 +739,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2655,
-      "title": "NHRA Championship Drag Racing: Speed For All",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2011,
       "title": "Night Book",
       "reason": "key_art_only"
@@ -1454,58 +749,13 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2428,
-      "title": "Nippon Marathon",
-      "reason": "key_art_only"
-    },
-    {
       "id": 849,
       "title": "Nitroplus Blasterz: Heroines Infinite Duel",
       "reason": "key_art_only"
     },
     {
-      "id": 852,
-      "title": "No Straight Roads",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1826,
       "title": "Nobody Saves the World",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 854,
-      "title": "Nobunaga's Ambition: Sphere of Influence - Ascension",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1922,
-      "title": "Nongunz: Doppelganger Edition",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 856,
-      "title": "Northgard",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1851,
-      "title": "Nuclear Blaze",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1909,
-      "title": "Null Drifter",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1856,
-      "title": "Oaken",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1683,
-      "title": "Obey Me",
       "reason": "key_art_only"
     },
     {
@@ -1519,23 +769,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2060,
-      "title": "Okinawa Rush",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1941,
-      "title": "Old Man's Journey",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1686,
       "title": "OlliOlli",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1862,
-      "title": "OmegaBot",
       "reason": "key_art_only"
     },
     {
@@ -1549,28 +784,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1962,
-      "title": "One Finger Death Punch 2",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 865,
-      "title": "One More Dungeon",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1926,
-      "title": "One Night Stand",
-      "reason": "key_art_only"
-    },
-    {
       "id": 872,
       "title": "One Step From Eden",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1687,
-      "title": "Onechanbara Z2: Chaos",
       "reason": "key_art_only"
     },
     {
@@ -1589,18 +804,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2676,
-      "title": "Operation Wolf Returns: First Mission",
-      "reason": "key_art_only"
-    },
-    {
       "id": 878,
       "title": "Organ Trail: Complete Edition",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 879,
-      "title": "Othercide",
       "reason": "key_art_only"
     },
     {
@@ -1614,28 +819,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1934,
-      "title": "Ovivo",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2332,
       "title": "Oxide Room 104",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2683,
-      "title": "Pac-Man World Re-PAC",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1974,
-      "title": "Panorama Cotton",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1690,
-      "title": "Pantsu Hunter: Back to the 90s",
       "reason": "key_art_only"
     },
     {
@@ -1644,43 +829,13 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1522,
-      "title": "Paradise Killer",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 896,
-      "title": "Pathfinder: Kingmaker - Definitive Edition",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2690,
       "title": "Pathfinder: Wrath of the Righteous",
       "reason": "key_art_only"
     },
     {
-      "id": 1885,
-      "title": "Pato Box",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2679,
-      "title": "PAW Patrol Rescue Wheels: Championship",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2680,
-      "title": "PAW Patrol The Movie: Adventure City Calls",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2692,
       "title": "Paw Patrol World",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2693,
-      "title": "Paw Patrol: Mighty Pups Save Adventure Bay",
       "reason": "key_art_only"
     },
     {
@@ -1714,16 +869,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1692,
-      "title": "Pillar",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 907,
-      "title": "Pillars of Eternity II: Deadfire",
-      "reason": "key_art_only"
-    },
-    {
       "id": 909,
       "title": "Pineview Drive",
       "reason": "key_art_only"
@@ -1736,11 +881,6 @@
     {
       "id": 2681,
       "title": "PJ Masks Power Heroes: Mighty Alliance",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2682,
-      "title": "PJ Masks: Heroes of The Night",
       "reason": "key_art_only"
     },
     {
@@ -1759,33 +899,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2431,
-      "title": "PlateUp",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 919,
-      "title": "PlayerUnknown's Battlegrounds",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2335,
-      "title": "Pocket Bravery",
-      "reason": "key_art_only"
-    },
-    {
       "id": 922,
       "title": "Pool Nation",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 924,
-      "title": "Poop Slinger",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1694,
-      "title": "Popcorn Rocket",
       "reason": "key_art_only"
     },
     {
@@ -1799,11 +914,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2336,
-      "title": "Potion Permit",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2215,
       "title": "Praetorians - HD Remaster",
       "reason": "key_art_only"
@@ -1814,18 +924,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 930,
-      "title": "Prison Architect",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2337,
       "title": "Prodeus",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 933,
-      "title": "Project CARS 3",
       "reason": "key_art_only"
     },
     {
@@ -1839,16 +939,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1990,
-      "title": "Projection: First Light",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1523,
-      "title": "Promenade",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2451,
       "title": "Protodroid Delta",
       "reason": "key_art_only"
@@ -1859,23 +949,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 938,
-      "title": "Psychonauts",
-      "reason": "key_art_only"
-    },
-    {
       "id": 939,
       "title": "Psyvariar Delta",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 940,
-      "title": "Punch Line",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2244,
-      "title": "Puzzle Bobble 3D: Vacation Odyssey",
       "reason": "key_art_only"
     },
     {
@@ -1889,48 +964,13 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1699,
-      "title": "Race with Ryan",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2702,
-      "title": "Radioactive Dwarfs Evil From The Sewers",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2703,
-      "title": "Radirgy 2",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1700,
-      "title": "Raging Justice",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2704,
-      "title": "Raiden III x Mikado Maniax",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2705,
       "title": "Raiden IV x MIKADO Remix",
       "reason": "key_art_only"
     },
     {
-      "id": 2706,
-      "title": "Raiden Nova",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2707,
       "title": "Raidou Remastered: Mystery Of The Soulless Army",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2708,
-      "title": "Rainbow High: Runway Rush",
       "reason": "key_art_only"
     },
     {
@@ -1944,31 +984,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1907,
-      "title": "Ravva and the Cyclops Curse",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1701,
-      "title": "Real Heroes: Firefighter",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 963,
-      "title": "Realms of Arkania: Blade of Destiny",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1910,
-      "title": "Record of Lodoss War: Deedlit in Wonder Labyrinth",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1702,
-      "title": "Red Death",
-      "reason": "key_art_only"
-    },
-    {
       "id": 970,
       "title": "Regions Of Ruin",
       "reason": "key_art_only"
@@ -1979,18 +994,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 971,
-      "title": "RemiLore: Lost Girl in the Lands of Lore",
-      "reason": "key_art_only"
-    },
-    {
       "id": 975,
       "title": "Republique",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 981,
-      "title": "Resident Evil 7: biohazard",
       "reason": "key_art_only"
     },
     {
@@ -2009,23 +1014,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1855,
-      "title": "Revita",
-      "reason": "key_art_only"
-    },
-    {
       "id": 993,
       "title": "RICO",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1916,
-      "title": "Rift Keeper",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 996,
-      "title": "Riot: Civil Unrest",
       "reason": "key_art_only"
     },
     {
@@ -2039,23 +1029,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1957,
-      "title": "Risk System",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2096,
       "title": "Rival Megagun",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1002,
-      "title": "River City Girls",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2057,
-      "title": "River City Saga: Three Kingdoms Next",
       "reason": "key_art_only"
     },
     {
@@ -2066,11 +1041,6 @@
     {
       "id": 2113,
       "title": "Robotics;Notes Elite",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1711,
-      "title": "Robozarro",
       "reason": "key_art_only"
     },
     {
@@ -2094,43 +1064,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1524,
-      "title": "Romancing SaGa 2: Revenge of the Seven",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1716,
-      "title": "Romancing SaGa 3",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2038,
       "title": "Roombo: First Blood",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1021,
-      "title": "Root Letter",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1022,
-      "title": "Root Letter: Last Answer",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1023,
-      "title": "RPG Maker MV",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2699,
-      "title": "RPG Maker WITH",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2700,
-      "title": "RPGolf Legends",
       "reason": "key_art_only"
     },
     {
@@ -2146,11 +1081,6 @@
     {
       "id": 1025,
       "title": "Runbow",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2340,
-      "title": "Rustler",
       "reason": "key_art_only"
     },
     {
@@ -2174,11 +1104,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2083,
-      "title": "Saint Seiya: Soldiers' Soul",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2230,
       "title": "Saints Row IV: Re-Elected",
       "reason": "key_art_only"
@@ -2194,18 +1119,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1034,
-      "title": "Samurai Shodown V Special",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1720,
       "title": "Samurai Shodown VI",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2720,
-      "title": "Sand Land",
       "reason": "key_art_only"
     },
     {
@@ -2219,16 +1134,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2435,
-      "title": "Scar-Lead Salvation",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2722,
-      "title": "Scarlet Nexus",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1721,
       "title": "Screencheat",
       "reason": "key_art_only"
@@ -2236,11 +1141,6 @@
     {
       "id": 2116,
       "title": "Scribblenauts Unmasked: A DC Comics Adventure",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2710,
-      "title": "SD Gundam Battle Alliance",
       "reason": "key_art_only"
     },
     {
@@ -2299,16 +1199,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1063,
-      "title": "Shakedown Hawaii",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2343,
-      "title": "Sheepo",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1069,
       "title": "Shenmue II",
       "reason": "key_art_only"
@@ -2319,28 +1209,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2052,
-      "title": "Shin Megami Tensei V: Vengeance",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2061,
       "title": "Shing!",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1858,
-      "title": "Shinorubi",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1528,
-      "title": "Sifu [Vengeance Edition]",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1728,
-      "title": "Sigi: A Fart for Melusina",
       "reason": "key_art_only"
     },
     {
@@ -2374,11 +1244,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1903,
-      "title": "Skautfold: Shrouded in Sanity",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1870,
       "title": "Skautfold: Usurper",
       "reason": "key_art_only"
@@ -2394,11 +1259,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2437,
-      "title": "Skyhill",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1090,
       "title": "Slide Stars",
       "reason": "key_art_only"
@@ -2409,18 +1269,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1860,
-      "title": "Smelter",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1094,
       "title": "SmuggleCraft",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1100,
-      "title": "SNK 40th Anniversary Collection",
       "reason": "key_art_only"
     },
     {
@@ -2434,18 +1284,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1531,
-      "title": "Source of Madness",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1114,
       "title": "Space Hulk: Deathwing",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2438,
-      "title": "Spacebase Startopia",
       "reason": "key_art_only"
     },
     {
@@ -2459,11 +1299,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1853,
-      "title": "Spellcaster University",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2258,
       "title": "Spelunker HD Deluxe",
       "reason": "key_art_only"
@@ -2471,11 +1306,6 @@
     {
       "id": 2026,
       "title": "Spidersaurs",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2349,
-      "title": "Spiritfarer",
       "reason": "key_art_only"
     },
     {
@@ -2499,43 +1329,13 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2251,
-      "title": "Star Renegades",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1133,
-      "title": "Star Wars Jedi Knight II: Jedi Outcast",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1134,
-      "title": "Star Wars Jedi Knight: Jedi Academy",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1940,
-      "title": "Stay",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1734,
       "title": "Stealth Inc: A Clone in the Dark Ultimate Edition",
       "reason": "key_art_only"
     },
     {
-      "id": 1930,
-      "title": "Steam Tactics",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2118,
       "title": "SteamWorld Heist",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1735,
-      "title": "Stikbold! A Dodgeball Adventure",
       "reason": "key_art_only"
     },
     {
@@ -2554,18 +1354,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1176,
-      "title": "Super Cane Magic ZERO",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1736,
       "title": "Super ComboMan: Smash Edition",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2000,
-      "title": "Super Daryl Deluxe",
       "reason": "key_art_only"
     },
     {
@@ -2589,11 +1379,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1931,
-      "title": "Super Skull Smash GO! 2 Turbo",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1854,
       "title": "Super Zangyura",
       "reason": "key_art_only"
@@ -2604,11 +1389,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2351,
-      "title": "Supermarket Shriek",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1185,
       "title": "SuperMash",
       "reason": "key_art_only"
@@ -2616,16 +1396,6 @@
     {
       "id": 2352,
       "title": "Supraland",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1186,
-      "title": "Surf World Series",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1189,
-      "title": "Sword & Fairy 6",
       "reason": "key_art_only"
     },
     {
@@ -2641,21 +1411,6 @@
     {
       "id": 1919,
       "title": "Swordbreaker The Game",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2439,
-      "title": "Symmetry",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1196,
-      "title": "Tachyon Project",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2728,
-      "title": "Tactics Ogre: Reborn",
       "reason": "key_art_only"
     },
     {
@@ -2699,33 +1454,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2407,
-      "title": "Tantei Bokumetsu",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2066,
-      "title": "Tanuki Justice",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2736,
-      "title": "Task Force Kampas",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2737,
-      "title": "Tasomachi: Behind the Twilight",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1205,
       "title": "Tearaway Unfolded",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2739,
-      "title": "Teenage Mutant Ninja Turtles Arcade: Wrath Of The Mutants",
       "reason": "key_art_only"
     },
     {
@@ -2751,11 +1481,6 @@
     {
       "id": 1746,
       "title": "Tharsis",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1218,
-      "title": "The Aquatic Adventure of the Last Human",
       "reason": "key_art_only"
     },
     {
@@ -2789,33 +1514,13 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1230,
-      "title": "The Council",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1750,
-      "title": "The Count Lucanor",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1234,
       "title": "The Dark Crystal: Age of Resistance Tactics",
       "reason": "key_art_only"
     },
     {
-      "id": 1237,
-      "title": "The Dwarves",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2354,
       "title": "The Good Life",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2355,
-      "title": "The Infectious Madness of Doctor Dekker",
       "reason": "key_art_only"
     },
     {
@@ -2856,11 +1561,6 @@
     {
       "id": 2050,
       "title": "The Legend of Nayuta: Boundless Trails",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1274,
-      "title": "The Long Dark",
       "reason": "key_art_only"
     },
     {
@@ -2914,11 +1614,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2046,
-      "title": "The TakeOver",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1302,
       "title": "The Town of Light",
       "reason": "key_art_only"
@@ -2929,38 +1624,13 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1847,
-      "title": "They Always Run",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1317,
       "title": "They Are Billions",
       "reason": "key_art_only"
     },
     {
-      "id": 1323,
-      "title": "Those Who Remain",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1326,
       "title": "Timespinner",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1328,
-      "title": "Titan Quest",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1331,
-      "title": "ToeJam & Earl: Back in the Groove",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1334,
-      "title": "Tokyo Ghoul: re Call to Exist",
       "reason": "key_art_only"
     },
     {
@@ -2979,23 +1649,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1345,
-      "title": "Toukiden 2",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2030,
       "title": "Toy Soldiers HD",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2409,
-      "title": "Trailmakers",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1350,
-      "title": "Train Sim World",
       "reason": "key_art_only"
     },
     {
@@ -3059,38 +1714,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2742,
-      "title": "Ultra Age",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1773,
-      "title": "Ultracore",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1774,
       "title": "Umbrella Corps",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2109,
-      "title": "Uncharted 2: Among Thieves Remastered",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2110,
-      "title": "Uncharted 3: Drake's Deception Remastered",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2108,
-      "title": "Uncharted: Drake's Fortune Remastered",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1829,
-      "title": "Undead Darlings ~no cure for love~",
       "reason": "key_art_only"
     },
     {
@@ -3109,38 +1734,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2748,
-      "title": "Undernauts: Labyrinth of Yomi",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2363,
-      "title": "Unicorn Overlord",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2467,
-      "title": "United Assault: Normandy '44",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2364,
-      "title": "Unpacking",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2751,
-      "title": "Unruly Heroes",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1542,
       "title": "Unsighted",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1984,
-      "title": "Unto The End",
       "reason": "key_art_only"
     },
     {
@@ -3156,11 +1751,6 @@
     {
       "id": 2043,
       "title": "Vagante",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1393,
-      "title": "Valhalla Hills: Definitive Edition",
       "reason": "key_art_only"
     },
     {
@@ -3184,11 +1774,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2754,
-      "title": "Venus Vacation Prism: Dead Or Alive Xtreme",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1781,
       "title": "Verdun",
       "reason": "key_art_only"
@@ -3209,28 +1794,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2756,
-      "title": "Visions Of Mana",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2757,
-      "title": "Void Terrarium 2",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1406,
-      "title": "Volgarr the Viking",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1783,
       "title": "Volume",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2759,
-      "title": "Wallachia: Reign of Dracula",
       "reason": "key_art_only"
     },
     {
@@ -3239,23 +1804,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1935,
-      "title": "War Theatre",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1419,
       "title": "Warhammer: Vermintide 2",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1784,
-      "title": "Warlock's Tower",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1429,
-      "title": "We Happy Few",
       "reason": "key_art_only"
     },
     {
@@ -3266,11 +1816,6 @@
     {
       "id": 1545,
       "title": "West of Dead",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2040,
-      "title": "Who Pressed Mute on Uncle Marcus?",
       "reason": "key_art_only"
     },
     {
@@ -3289,38 +1834,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1960,
-      "title": "Within the Blade",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1819,
-      "title": "Wizards of Brandel",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2255,
-      "title": "Wonder Boy Anniversary Collection",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1448,
-      "title": "World End Syndrome",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1546,
-      "title": "World of Horror",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1450,
       "title": "World of Warships: Legends",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1457,
-      "title": "Worse Than Death",
       "reason": "key_art_only"
     },
     {
@@ -3339,16 +1854,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2765,
-      "title": "Xuan-Yuan Sword VII",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2767,
-      "title": "Yasha: Legends Of The Demon Blade",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1924,
       "title": "YesterMorrow",
       "reason": "key_art_only"
@@ -3356,11 +1861,6 @@
     {
       "id": 1793,
       "title": "YIIK: A Postmodern RPG",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1549,
-      "title": "Yomawari: Lost in the Dark [Deluxe Edition]",
       "reason": "key_art_only"
     },
     {
@@ -3384,33 +1884,13 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2442,
-      "title": "Yum Yum Cookstar",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2776,
-      "title": "Yuppie Psycho: Executive Edition",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2777,
       "title": "Yurukill: The Calumniation Games",
       "reason": "key_art_only"
     },
     {
-      "id": 1871,
-      "title": "Z-Warp",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2443,
       "title": "Zapling Bygone",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2778,
-      "title": "Zero Fire: Toaplan Arcade Garage",
       "reason": "key_art_only"
     },
     {
@@ -3449,11 +1929,6 @@
       "reason": "missing_ps4_banner"
     },
     {
-      "id": 2572,
-      "title": "Electronic Super Joy II",
-      "reason": "missing_ps4_banner"
-    },
-    {
       "id": 474,
       "title": "Fell Seal: Arbiter's Mark",
       "reason": "missing_ps4_banner"
@@ -3461,16 +1936,6 @@
     {
       "id": 1631,
       "title": "GunLord X",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 1921,
-      "title": "Horned Knight",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 2709,
-      "title": "Rainbow Six: Extraction",
       "reason": "missing_ps4_banner"
     },
     {
@@ -3484,18 +1949,8 @@
       "reason": "missing_ps4_banner"
     },
     {
-      "id": 1277,
-      "title": "The Missing: JJ Macfield and the Island of Memories",
-      "reason": "missing_ps4_banner"
-    },
-    {
       "id": 1303,
       "title": "The Walking Dead: A Telltale Games Series - The Complete First Season",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 2368,
-      "title": "Zero Time Dilemma",
       "reason": "missing_ps4_banner"
     },
     {
@@ -3519,18 +1974,8 @@
       "reason": "missing_ps4_banner"
     },
     {
-      "id": 1642,
-      "title": "Immortal Redneck",
-      "reason": "missing_ps4_banner"
-    },
-    {
       "id": 1850,
       "title": "Lost Ruins",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 2069,
-      "title": "3D Billiards & Snooker",
       "reason": "missing_ps4_banner"
     },
     {
@@ -3544,11 +1989,6 @@
       "reason": "missing_ps4_banner"
     },
     {
-      "id": 2308,
-      "title": "Fahrenheit",
-      "reason": "missing_ps4_banner"
-    },
-    {
       "id": 1839,
       "title": "Another Crusade",
       "reason": "missing_ps4_banner"
@@ -3556,11 +1996,6 @@
     {
       "id": 1682,
       "title": "Now That's What I Call Sing",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 2570,
-      "title": "Eiyuden Chronicle: Hundred Heroes",
       "reason": "missing_ps4_banner"
     },
     {
@@ -3599,11 +2034,6 @@
       "reason": "missing_ps4_banner"
     },
     {
-      "id": 2291,
-      "title": "BPM: Bullets Per Minute",
-      "reason": "missing_ps4_banner"
-    },
-    {
       "id": 1247,
       "title": "The Flame in the Flood: Complete Edition",
       "reason": "missing_ps4_banner"
@@ -3619,11 +2049,6 @@
       "reason": "missing_ps4_banner"
     },
     {
-      "id": 2015,
-      "title": "Haven",
-      "reason": "missing_ps4_banner"
-    },
-    {
       "id": 451,
       "title": "Exile's End",
       "reason": "missing_ps4_banner"
@@ -3631,11 +2056,6 @@
     {
       "id": 1132,
       "title": "Star Wars Episode I: Racer",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 2081,
-      "title": "Brigandine: The Legend of Runersia",
       "reason": "missing_ps4_banner"
     },
     {
@@ -3654,23 +2074,8 @@
       "reason": "missing_ps4_banner"
     },
     {
-      "id": 626,
-      "title": "Infliction: Extended Cut",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 1598,
-      "title": "Deathwish Enforcers",
-      "reason": "missing_ps4_banner"
-    },
-    {
       "id": 476,
       "title": "Fight'N Rage",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 565,
-      "title": "Gunhouse",
       "reason": "missing_ps4_banner"
     },
     {
@@ -3748,11 +2153,6 @@
       "reason": "image_fetch_failed"
     },
     {
-      "id": 2573,
-      "title": "Embr: Uber Firefighters",
-      "reason": "image_fetch_failed"
-    },
-    {
       "id": 2471,
       "title": "Get Star / Guardian",
       "reason": "image_fetch_failed"
@@ -3775,11 +2175,6 @@
     {
       "id": 1665,
       "title": "Maldita Castilla EX: Cursed Castilla",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 2462,
-      "title": "Malnazidos",
       "reason": "image_fetch_failed"
     },
     {
@@ -3818,21 +2213,6 @@
       "reason": "image_fetch_failed"
     },
     {
-      "id": 1981,
-      "title": "SturmFront - The Mutant War: \u00dcbel Edition",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 1954,
-      "title": "S\u00f6ldner-X 2: Final Prototype Definitive Edition",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 2729,
-      "title": "Tadeo Jones: La Tabla Esmeralda",
-      "reason": "image_fetch_failed"
-    },
-    {
       "id": 1198,
       "title": "Tales from the Borderlands: A Telltale Game Series",
       "reason": "image_fetch_failed"
@@ -3845,11 +2225,6 @@
     {
       "id": 1756,
       "title": "The Journey Down: Chapter Two",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 2470,
-      "title": "Tiger-Heli",
       "reason": "image_fetch_failed"
     },
     {
@@ -3888,33 +2263,8 @@
       "reason": "image_fetch_failed"
     },
     {
-      "id": 2361,
-      "title": "UFO Robot Grendizer",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 2366,
-      "title": "Wobbledogs",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 2410,
-      "title": "Wonderland TOD-Reloaded",
-      "reason": "image_fetch_failed"
-    },
-    {
       "id": 1465,
       "title": "XIII (Remake)",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 1794,
-      "title": "Zero Strain",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 2779,
-      "title": "Zero: Tsukihami No Kamen",
       "reason": "image_fetch_failed"
     }
   ]
