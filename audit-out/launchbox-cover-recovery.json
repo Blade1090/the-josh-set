@@ -2,10 +2,96 @@
   "summary": {
     "targeted": 1453,
     "recovered": 0,
-    "unresolvedNoMatch": 1045,
-    "ambiguous": 4,
-    "matchedButNoBoxFront": 404,
+    "unresolvedNoMatch": 1053,
+    "ambiguous": 3,
+    "matchedButNoBoxFront": 397,
     "regionCounts": {},
+    "metadataDiagnostics": {
+      "gameImageRecords": 1333329,
+      "gameImagePs4Intersections": 19854,
+      "topImageTypes": [
+        [
+          "Screenshot - Gameplay",
+          254098
+        ],
+        [
+          "Box - Front",
+          205107
+        ],
+        [
+          "Clear Logo",
+          143489
+        ],
+        [
+          "Screenshot - Game Title",
+          109779
+        ],
+        [
+          "Box - Back",
+          105199
+        ],
+        [
+          "Box - 3D",
+          91136
+        ],
+        [
+          "Fanart - Background",
+          70052
+        ],
+        [
+          "Disc",
+          51244
+        ],
+        [
+          "Fanart - Box - Front",
+          49406
+        ],
+        [
+          "Box - Spine",
+          48731
+        ],
+        [
+          "Cart - Front",
+          40177
+        ],
+        [
+          "Banner",
+          31501
+        ],
+        [
+          "Advertisement Flyer - Front",
+          28025
+        ],
+        [
+          "Box - Front - Reconstructed",
+          20765
+        ],
+        [
+          "Screenshot - Game Select",
+          16731
+        ],
+        [
+          "Fanart - Cart - Front",
+          12403
+        ],
+        [
+          "Arcade - Marquee",
+          8463
+        ],
+        [
+          "Screenshot - Game Over",
+          6531
+        ],
+        [
+          "Arcade - Cabinet",
+          5751
+        ],
+        [
+          "Fanart - Disc",
+          5277
+        ]
+      ]
+    },
     "source": "LaunchBox Games Database Metadata.zip / Box - Front only"
   },
   "recovered": [],
@@ -168,9 +254,7 @@
       "title": "Apex Legends",
       "bucket": "review",
       "reason": "key_art_only",
-      "launchboxDatabaseId": 208065,
-      "launchboxName": "Apex Legends: Lifeline",
-      "note": "missing ShelfCheck id"
+      "candidateDatabaseIds": []
     },
     {
       "id": null,
@@ -343,6 +427,13 @@
     },
     {
       "id": null,
+      "title": "Behind the Frame",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidateDatabaseIds": []
+    },
+    {
+      "id": null,
       "title": "Beholgar",
       "bucket": "review",
       "reason": "key_art_only",
@@ -359,6 +450,13 @@
     },
     {
       "id": null,
+      "title": "Beyond the Ice Palace 2",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidateDatabaseIds": []
+    },
+    {
+      "id": null,
       "title": "Bit Dungeon +",
       "bucket": "review",
       "reason": "key_art_only",
@@ -367,6 +465,13 @@
     {
       "id": null,
       "title": "Blast Brigade vs. the Evil Legion of Dr. Cread",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidateDatabaseIds": []
+    },
+    {
+      "id": null,
+      "title": "Blaster Master Zero 3",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -759,9 +864,7 @@
       "title": "Deformers",
       "bucket": "review",
       "reason": "key_art_only",
-      "launchboxDatabaseId": 208697,
-      "launchboxName": "De-formers",
-      "note": "missing ShelfCheck id"
+      "candidateDatabaseIds": []
     },
     {
       "id": null,
@@ -775,9 +878,7 @@
       "title": "Demon's Tilt",
       "bucket": "review",
       "reason": "key_art_only",
-      "launchboxDatabaseId": 442361,
-      "launchboxName": "Demon's Tilt: Occult Pinball Action",
-      "note": "missing ShelfCheck id"
+      "candidateDatabaseIds": []
     },
     {
       "id": null,
@@ -1591,9 +1692,7 @@
       "title": "LEGO Marvel's Avengers",
       "bucket": "review",
       "reason": "key_art_only",
-      "launchboxDatabaseId": 34839,
-      "launchboxName": "LEGO Marvel Avengers",
-      "note": "missing ShelfCheck id"
+      "candidateDatabaseIds": []
     },
     {
       "id": null,
@@ -2050,9 +2149,7 @@
       "title": "Mercenary Kings",
       "bucket": "review",
       "reason": "key_art_only",
-      "launchboxDatabaseId": 23224,
-      "launchboxName": "Mercenary Kings: Reloaded Edition",
-      "note": "missing ShelfCheck id"
+      "candidateDatabaseIds": []
     },
     {
       "id": null,
@@ -2428,9 +2525,7 @@
       "title": "Need for Speed Heat",
       "bucket": "review",
       "reason": "key_art_only",
-      "launchboxDatabaseId": 187015,
-      "launchboxName": "NSF Heat",
-      "note": "missing ShelfCheck id"
+      "candidateDatabaseIds": []
     },
     {
       "id": null,
@@ -2537,9 +2632,7 @@
       "title": "Night Trap: 25th Anniversary Edition",
       "bucket": "review",
       "reason": "key_art_only",
-      "launchboxDatabaseId": 164685,
-      "launchboxName": "Night Trap",
-      "note": "missing ShelfCheck id"
+      "candidateDatabaseIds": []
     },
     {
       "id": null,
@@ -2600,9 +2693,7 @@
       "title": "Nitroplus Blasterz: Heroines Infinite Duel",
       "bucket": "review",
       "reason": "key_art_only",
-      "launchboxDatabaseId": 153537,
-      "launchboxName": "Nitro+ Blasterz: Heroines Infinite Duel",
-      "note": "missing ShelfCheck id"
+      "candidateDatabaseIds": []
     },
     {
       "id": null,
@@ -2779,9 +2870,7 @@
       "title": "Onechanbara Z2: Chaos",
       "bucket": "review",
       "reason": "key_art_only",
-      "launchboxDatabaseId": 31666,
-      "launchboxName": "Onechanbara ZII: Chaos",
-      "note": "missing ShelfCheck id"
+      "candidateDatabaseIds": []
     },
     {
       "id": null,
@@ -3840,6 +3929,13 @@
     },
     {
       "id": null,
+      "title": "Rock of Ages 3: Make & Break",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidateDatabaseIds": []
+    },
+    {
+      "id": null,
       "title": "Rocket League",
       "bucket": "review",
       "reason": "key_art_only",
@@ -3924,18 +4020,14 @@
       "title": "Root Letter",
       "bucket": "review",
       "reason": "key_art_only",
-      "launchboxDatabaseId": 157880,
-      "launchboxName": "√Letter",
-      "note": "missing ShelfCheck id"
+      "candidateDatabaseIds": []
     },
     {
       "id": null,
       "title": "Root Letter: Last Answer",
       "bucket": "review",
       "reason": "key_art_only",
-      "launchboxDatabaseId": 211407,
-      "launchboxName": "√Letter: Last Answer",
-      "note": "missing ShelfCheck id"
+      "candidateDatabaseIds": []
     },
     {
       "id": null,
@@ -5124,6 +5216,13 @@
     },
     {
       "id": null,
+      "title": "Street Power Soccer",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidateDatabaseIds": []
+    },
+    {
+      "id": null,
       "title": "Streets of Rage 4",
       "bucket": "review",
       "reason": "key_art_only",
@@ -5303,6 +5402,13 @@
       "launchboxDatabaseId": 466068,
       "launchboxName": "Surviving Mars",
       "note": "missing ShelfCheck id"
+    },
+    {
+      "id": null,
+      "title": "Sword & Fairy 6",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidateDatabaseIds": []
     },
     {
       "id": null,
@@ -5924,9 +6030,7 @@
       "title": "The Metronomicon: Slay the Dance Floor",
       "bucket": "review",
       "reason": "key_art_only",
-      "launchboxDatabaseId": 164691,
-      "launchboxName": "The Metronomicon",
-      "note": "missing ShelfCheck id"
+      "candidateDatabaseIds": []
     },
     {
       "id": null,
@@ -5960,9 +6064,7 @@
       "title": "The Peanuts Movie: Snoopy's Grand Adventure",
       "bucket": "review",
       "reason": "key_art_only",
-      "launchboxDatabaseId": 35156,
-      "launchboxName": "Snoopy's Grand Adventure",
-      "note": "missing ShelfCheck id"
+      "candidateDatabaseIds": []
     },
     {
       "id": null,
@@ -7025,9 +7127,7 @@
       "title": "Warhammer: Vermintide 2",
       "bucket": "review",
       "reason": "key_art_only",
-      "launchboxDatabaseId": 201890,
-      "launchboxName": "Warhammer: Vermintide II",
-      "note": "missing ShelfCheck id"
+      "candidateDatabaseIds": []
     },
     {
       "id": null,
@@ -7129,9 +7229,7 @@
       "title": "West of Dead",
       "bucket": "review",
       "reason": "key_art_only",
-      "launchboxDatabaseId": 443088,
-      "launchboxName": "West of Dead: Path of the Crow",
-      "note": "missing ShelfCheck id"
+      "candidateDatabaseIds": []
     },
     {
       "id": null,
@@ -7388,6 +7486,13 @@
       "launchboxDatabaseId": 424042,
       "launchboxName": "Xenon Racer",
       "note": "missing ShelfCheck id"
+    },
+    {
+      "id": null,
+      "title": "Xenon Valkyrie+",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidateDatabaseIds": []
     },
     {
       "id": null,
@@ -7682,9 +7787,7 @@
       "title": "Zone of the Enders: The 2nd Runner MARS",
       "bucket": "review",
       "reason": "key_art_only",
-      "launchboxDatabaseId": 155514,
-      "launchboxName": "Zone of the Enders: The 2nd Runner M∀RS",
-      "note": "missing ShelfCheck id"
+      "candidateDatabaseIds": []
     },
     {
       "id": null,
@@ -7943,9 +8046,7 @@
       "title": "Kromaia Omega",
       "bucket": "review",
       "reason": "missing_ps4_banner",
-      "launchboxDatabaseId": 153372,
-      "launchboxName": "Kromaia Ω",
-      "note": "missing ShelfCheck id"
+      "candidateDatabaseIds": []
     },
     {
       "id": null,
@@ -7990,6 +8091,15 @@
       "reason": "missing_ps4_banner",
       "launchboxDatabaseId": 24765,
       "launchboxName": "Grim Fandango: Remastered",
+      "note": "missing ShelfCheck id"
+    },
+    {
+      "id": null,
+      "title": "Alchemic Jousts",
+      "bucket": "review",
+      "reason": "missing_ps4_banner",
+      "launchboxDatabaseId": 421903,
+      "launchboxName": "Alchemic Jousts",
       "note": "missing ShelfCheck id"
     },
     {
@@ -8211,9 +8321,7 @@
       "title": "Blood Bowl 2",
       "bucket": "review",
       "reason": "missing_ps4_banner",
-      "launchboxDatabaseId": 31809,
-      "launchboxName": "Blood Bowl II",
-      "note": "missing ShelfCheck id"
+      "candidateDatabaseIds": []
     },
     {
       "id": null,
@@ -8257,15 +8365,6 @@
       "bucket": "watch",
       "reason": "image_fetch_failed",
       "candidateDatabaseIds": []
-    },
-    {
-      "id": null,
-      "title": "Alchemic Jousts",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "launchboxDatabaseId": 421903,
-      "launchboxName": "Alchemic Jousts",
-      "note": "missing ShelfCheck id"
     },
     {
       "id": null,
@@ -8437,6 +8536,13 @@
     {
       "id": null,
       "title": "Ninja JaJaMaru Legendary Ninja Collection",
+      "bucket": "watch",
+      "reason": "image_fetch_failed",
+      "candidateDatabaseIds": []
+    },
+    {
+      "id": null,
+      "title": "Noob: Les Sans-Factions",
       "bucket": "watch",
       "reason": "image_fetch_failed",
       "candidateDatabaseIds": []
@@ -8731,16 +8837,6 @@
     },
     {
       "id": null,
-      "title": "Naruto Shippuden: Ultimate Ninja Storm 4",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": [
-        35002,
-        476513
-      ]
-    },
-    {
-      "id": null,
       "title": "Republique",
       "bucket": "review",
       "reason": "key_art_only",
@@ -8836,14 +8932,6 @@
     },
     {
       "id": null,
-      "title": "Behind the Frame",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475462,
-      "launchboxName": "Behind the Frame: The Finest Scenery"
-    },
-    {
-      "id": null,
       "title": "Beholder: Complete Edition",
       "bucket": "review",
       "reason": "key_art_only",
@@ -8860,27 +8948,11 @@
     },
     {
       "id": null,
-      "title": "Beyond the Ice Palace 2",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475498,
-      "launchboxName": "Beyond the Ice Palace II"
-    },
-    {
-      "id": null,
       "title": "Bite the Bullet",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 446056,
       "launchboxName": "Bite the Bullet"
-    },
-    {
-      "id": null,
-      "title": "Blaster Master Zero 3",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 472920,
-      "launchboxName": "Blaster Master Zero III"
     },
     {
       "id": null,
@@ -9908,6 +9980,14 @@
     },
     {
       "id": null,
+      "title": "Naruto Shippuden: Ultimate Ninja Storm 4",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 476513,
+      "launchboxName": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 4"
+    },
+    {
+      "id": null,
       "title": "Natsuki Chronicles",
       "bucket": "review",
       "reason": "key_art_only",
@@ -10556,14 +10636,6 @@
     },
     {
       "id": null,
-      "title": "Rock of Ages 3: Make & Break",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473722,
-      "launchboxName": "Rock of Ages III: Make & Break"
-    },
-    {
-      "id": null,
       "title": "Rocksmith 2014 Edition",
       "bucket": "review",
       "reason": "key_art_only",
@@ -10940,14 +11012,6 @@
     },
     {
       "id": null,
-      "title": "Street Power Soccer",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473920,
-      "launchboxName": "Street Power Football"
-    },
-    {
-      "id": null,
       "title": "Summertime Madness",
       "bucket": "review",
       "reason": "key_art_only",
@@ -11009,14 +11073,6 @@
       "reason": "key_art_only",
       "launchboxDatabaseId": 473995,
       "launchboxName": "Surf World Series"
-    },
-    {
-      "id": null,
-      "title": "Sword & Fairy 6",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473926,
-      "launchboxName": "The Legend of Sword and Fairy 6"
     },
     {
       "id": null,
@@ -11708,14 +11764,6 @@
     },
     {
       "id": null,
-      "title": "Xenon Valkyrie+",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 474027,
-      "launchboxName": "Project Xenon Valkyrie+"
-    },
-    {
-      "id": null,
       "title": "Yasha: Legends Of The Demon Blade",
       "bucket": "review",
       "reason": "key_art_only",
@@ -11937,14 +11985,6 @@
       "reason": "missing_ps4_banner",
       "launchboxDatabaseId": 463060,
       "launchboxName": "Gunhouse"
-    },
-    {
-      "id": null,
-      "title": "Noob: Les Sans-Factions",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "launchboxDatabaseId": 476504,
-      "launchboxName": "NOOB: The Factionless"
     },
     {
       "id": null,
