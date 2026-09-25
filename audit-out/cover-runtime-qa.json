@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-09-25T19:57:30.277Z",
+  "generatedAt": "2026-09-25T20:54:01.620Z",
   "summary": {
-    "generatedAt": "2026-09-25T19:57:30.277Z",
+    "generatedAt": "2026-09-25T20:54:01.620Z",
     "included": 2407,
-    "good": 2049,
+    "good": 2059,
     "fallback": 8,
-    "review": 330,
+    "review": 320,
     "watch": 20,
-    "physicalVerify": 325,
-    "physicalLikely": 1371,
-    "physicalConfirmed": 711,
+    "physicalVerify": 316,
+    "physicalLikely": 1370,
+    "physicalConfirmed": 721,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "key_art_only": 305,
-      "missing_ps4_banner": 25
+      "key_art_only": 296,
+      "missing_ps4_banner": 24
     },
     "watchByReason": {
       "image_fetch_failed": 20
@@ -181,11 +181,6 @@
     {
       "id": 1600,
       "title": "Deer Simulator",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2468,
-      "title": "Deformers",
       "reason": "key_art_only"
     },
     {
@@ -474,11 +469,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 762,
-      "title": "Mercenary Kings",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2325,
       "title": "Mighty Goose",
       "reason": "key_art_only"
@@ -514,11 +504,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 805,
-      "title": "Musynx",
-      "reason": "key_art_only"
-    },
-    {
       "id": 807,
       "title": "Mutant Mudds Deluxe",
       "reason": "key_art_only"
@@ -541,11 +526,6 @@
     {
       "id": 2016,
       "title": "MythForce",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 820,
-      "title": "Naruto Shippuden: Ultimate Ninja Storm 4",
       "reason": "key_art_only"
     },
     {
@@ -586,16 +566,6 @@
     {
       "id": 2011,
       "title": "Night Book",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 844,
-      "title": "Night Trap: 25th Anniversary Edition",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 849,
-      "title": "Nitroplus Blasterz: Heroines Infinite Duel",
       "reason": "key_art_only"
     },
     {
@@ -776,11 +746,6 @@
     {
       "id": 1864,
       "title": "Relayer",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 975,
-      "title": "Republique",
       "reason": "key_art_only"
     },
     {
@@ -1454,18 +1419,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1419,
-      "title": "Warhammer: Vermintide 2",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1544,
       "title": "Weird West",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1545,
-      "title": "West of Dead",
       "reason": "key_art_only"
     },
     {
@@ -1596,11 +1551,6 @@
     {
       "id": 1850,
       "title": "Lost Ruins",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 681,
-      "title": "Kromaia Omega",
       "reason": "missing_ps4_banner"
     },
     {

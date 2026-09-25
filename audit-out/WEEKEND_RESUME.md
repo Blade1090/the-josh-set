@@ -3,8 +3,8 @@
 - Branch: `art-department-weekend-final` (worktree: `C:\Users\josh\Documents\tjs-art-weekend`; main checkout stays on its own branch, untouched)
 - Base: main `f513842` (baseline GOOD 2049 / REVIEW 330 / WATCH 20 / FALLBACK 8)
 - Latest verified commit: see `git log -1`; QA in `audit-out/cover-runtime-qa.json`
-- Last completed batch: none yet (setup)
-- Next batch: Batch 1 — offline-index multi-region PriceCharting + TheGamesDB + fresh LaunchBox candidates, visually vetted
+- Last completed batch: 1 (LaunchBox fresh metadata, +10 GOOD; QA 2059/320/20/8)
+- Next batch: 2 — PriceCharting offline-index multi-region + TheGamesDB + vgdb.uk candidates, visually vetted
 - Blocker: GameFAQs box images 403 to automated fetches (all 20 WATCH) — need alternate hosts
 - Lesson: blue-sky key art passes the banner heuristic; every candidate must be visually inspected before mapping
 
