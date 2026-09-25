@@ -23,41 +23,41 @@
       document.body.appendChild(s);
     }
 
-    // Bulk Art Department recovery layer. The generated file contains only strict LaunchBox
-    // "Box - Front" matches from the current REVIEW/WATCH/FALLBACK queue and merges them into
-    // the runtime title-cover map before repainting cards/dossiers.
-    if(!document.querySelector('script[data-shelfcheck-launchbox-covers]')){
-      const s=document.createElement('script');
-      s.src='cover-launchbox-retail.js?v=1';
-      s.dataset.shelfcheckLaunchboxCovers='1';
-      s.onerror=()=>console.warn('ShelfCheck: LaunchBox cover recovery layer unavailable.');
-      document.body.appendChild(s);
-    }
-
-    // Second-pass retail source: exact PS4 products from PriceCharting that independently pass
-    // ShelfCheck's straight portrait + strong blue PS4-header image gate.
-    if(!document.querySelector('script[data-shelfcheck-pricecharting-covers]')){
-      const s=document.createElement('script');
-      s.src='cover-pricecharting-retail.js?v=1';
-      s.dataset.shelfcheckPricechartingCovers='1';
-      s.onerror=()=>console.warn('ShelfCheck: PriceCharting cover recovery layer unavailable.');
-      document.body.appendChild(s);
-    }
-
-    // Compilation/product inheritance: only identities explicitly covered by a known physical
-    // product may inherit that product's box front, and that product image must independently
-    // pass the same PS4 retail-front gate before the generated layer will contain it.
+    // Recovery scripts all merge into the same runtime title map. Dynamic scripts are normally
+    // async, which made source precedence depend on network timing. Force ordered execution and
+    // load lowest-priority recovery first so runtime order matches tools/cover-source-audit.mjs:
+    // LaunchBox > PriceCharting > validated physical-product inheritance > curated/base sources.
     if(!document.querySelector('script[data-shelfcheck-product-inherit-covers]')){
       const s=document.createElement('script');
+      s.async=false;
       s.src='cover-product-inherit.js?v=1';
       s.dataset.shelfcheckProductInheritCovers='1';
       s.onerror=()=>console.warn('ShelfCheck: product-cover inheritance layer unavailable.');
       document.body.appendChild(s);
     }
 
+    if(!document.querySelector('script[data-shelfcheck-pricecharting-covers]')){
+      const s=document.createElement('script');
+      s.async=false;
+      s.src='cover-pricecharting-retail.js?v=1';
+      s.dataset.shelfcheckPricechartingCovers='1';
+      s.onerror=()=>console.warn('ShelfCheck: PriceCharting cover recovery layer unavailable.');
+      document.body.appendChild(s);
+    }
+
+    if(!document.querySelector('script[data-shelfcheck-launchbox-covers]')){
+      const s=document.createElement('script');
+      s.async=false;
+      s.src='cover-launchbox-retail.js?v=1';
+      s.dataset.shelfcheckLaunchboxCovers='1';
+      s.onerror=()=>console.warn('ShelfCheck: LaunchBox cover recovery layer unavailable.');
+      document.body.appendChild(s);
+    }
+
     // Art Department safety gate. Any image still failing the current full audit remains hidden.
     if(!document.querySelector('script[data-shelfcheck-cover-quality]')){
       const s=document.createElement('script');
+      s.async=false;
       s.src='cover-quality-v001.js?v=3';
       s.dataset.shelfcheckCoverQuality='1';
       document.body.appendChild(s);
