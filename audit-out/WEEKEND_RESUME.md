@@ -3,8 +3,8 @@
 - Branch: `art-department-weekend-final` (worktree: `C:\Users\josh\Documents\tjs-art-weekend`; main checkout stays on its own branch, untouched)
 - Base: main `f513842` (baseline GOOD 2049 / REVIEW 330 / WATCH 20 / FALLBACK 8)
 - Latest verified commit: see `git log -1`; QA in `audit-out/cover-runtime-qa.json`
-- Last completed batch: 3 (+45 GOOD; QA 2145/234/20/8)
-- Next batch: 4 — remaining crawl candidates incl. WATCH; VideoGamesPlus candidates
+- Last completed batch: 4 (recover multi-source fronts; QA 2155/225/19/8)
+- Next batch: 5 — VideoGamesPlus crawl candidates + remaining PC crawl + WATCH alternates
 - Blocker: GameFAQs box images 403 to automated fetches (all 20 WATCH) — need alternate hosts
 - Lesson: blue-sky key art passes the banner heuristic; every candidate must be visually inspected before mapping
 

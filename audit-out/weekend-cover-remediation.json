@@ -8,21 +8,21 @@
   "fallback": 8
  },
  "branch": "art-department-weekend-final",
- "currentVerifiedCommit": "cfd9c0e2613dbb9ced93ef66b789585eb22b9aa6 (parent of the batch commit that records this checkpoint)",
+ "currentVerifiedCommit": "d22e414ab67cc775bea90c9baa68aed0889d848c (parent of the batch commit that records this checkpoint)",
  "currentQA": {
   "included": 2407,
-  "good": 2145,
-  "review": 234,
-  "watch": 20,
+  "good": 2155,
+  "review": 225,
+  "watch": 19,
   "fallback": 8
  },
  "totals": {
-  "attempted": 318,
-  "accepted": 96,
-  "rejected": 49,
-  "goodGained": 96,
-  "reviewCleared": 96,
-  "watchCleared": 0,
+  "attempted": 331,
+  "accepted": 106,
+  "rejected": 56,
+  "goodGained": 106,
+  "reviewCleared": 105,
+  "watchCleared": 1,
   "fallbackChange": 0
  },
  "batches": [
@@ -1161,12 +1161,160 @@
    ],
    "goodGained": 45,
    "baselineGoodRegressions": 0
+  },
+  {
+   "batch": 4,
+   "name": "recover multi-source fronts",
+   "before": {
+    "included": 2407,
+    "good": 2145,
+    "review": 234,
+    "watch": 20,
+    "fallback": 8
+   },
+   "after": {
+    "included": 2407,
+    "good": 2155,
+    "review": 225,
+    "watch": 19,
+    "fallback": 8
+   },
+   "attempted": 13,
+   "accepted": [
+    {
+     "id": 2659,
+     "title": "Necromunda: Hired Gun",
+     "layer": "title",
+     "url": "https://cdn.shopify.com/s/files/1/0557/5868/4333/files/VGP0014257_6746c2fe-a1e3-4975-8e94-2830334f87a3.jpg?v=1692291610",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; VideoGamesPlus product image: Necromunda: Hired Gun - PlayStation 4"
+    },
+    {
+     "id": 1739,
+     "title": "Super Pixel Racers",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/jjmrw4zhqfieymh7/1600.jpg",
+     "region": "ASIA",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): Super Pixel Racers"
+    },
+    {
+     "id": 1184,
+     "title": "SuperEpic: The Entertainment War",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/18fac6844160897e3dd05300428fefcf1ccd2c772eb32d8ea2a604a06b6e1c65/1600.jpg",
+     "region": "PAL",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): SuperEpic: The Entertainment War"
+    },
+    {
+     "id": 2013,
+     "title": "Sword of the Necromancer",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/ddc527169e2d6025ec3936dab74e8609c89cafb2b1fcdc7f7155d9391f4e8ec4/1600.jpg",
+     "region": "PAL",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): Sword of the Necromancer [Ultra Collector's Edition]"
+    },
+    {
+     "id": 2730,
+     "title": "Tails of Iron",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/a0691c58047c9ad91ba2700e5c362f68dfa31597e0d154052b9e62d228b4db14/1600.jpg",
+     "region": "US",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): Tails of Iron [Crimson Knight Edition]"
+    },
+    {
+     "id": 2731,
+     "title": "Tales Of Graces F Remastered",
+     "layer": "title",
+     "url": "https://cdn.shopify.com/s/files/1/0557/5868/4333/files/81zsPiQJbDL._AC_SL1500.jpg?v=1727360209",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; VideoGamesPlus product image: Tales of Graces f Remastered [EU Import] - Playstation 4"
+    },
+    {
+     "id": 1744,
+     "title": "Teenage Mutant Ninja Turtles: Splintered Fate - Deluxe Edition",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/h4ro4tshj6e3r4oo/1600.jpg",
+     "region": "PAL",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): Teenage Mutant Ninja Turtles: Splintered Fate: Deluxe Edition"
+    },
+    {
+     "id": 2050,
+     "title": "The Legend of Nayuta: Boundless Trails",
+     "layer": "title",
+     "url": "https://cdn.shopify.com/s/files/1/0557/5868/4333/files/Nayuta_BoundlessPS4.jpg?v=1777311338",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; VideoGamesPlus product image: The Legend of Nayuta: Boundless Trails - PlayStation 4 Reprint (PRE-ORDER)"
+    },
+    {
+     "id": 1465,
+     "title": "XIII (Remake)",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/69210-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: XIII (Remake)"
+    },
+    {
+     "id": 1791,
+     "title": "Xeno Crisis",
+     "layer": "title",
+     "url": "https://cdn.shopify.com/s/files/1/0557/5868/4333/files/Xeno_Crisis_PS4_T_Front_Cover.jpg?v=1779996464",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; VideoGamesPlus product image: Xeno Crisis - Playstation 4"
+    }
+   ],
+   "rejected": [
+    {
+     "id": 2450,
+     "title": "Open Country",
+     "candidate": "https://cdn.shopify.com/s/files/1/0557/5868/4333/products/PS4_OPEN_COUNTRY.png?v=1623264517",
+     "reason": "ESRB RP pre-release art"
+    },
+    {
+     "id": 1739,
+     "title": "Super Pixel Racers",
+     "candidate": "https://storage.googleapis.com/images.pricecharting.com/15815c260771c54d4331a9395eacc27d4f67e9962f635d652469955aa658c11d/1600.jpg",
+     "reason": "photo of case held in hand"
+    },
+    {
+     "id": 1184,
+     "title": "SuperEpic: The Entertainment War",
+     "candidate": "https://storage.googleapis.com/images.pricecharting.com/bpbet5v4bjqwnwr7/1600.jpg",
+     "reason": "3D box render"
+    },
+    {
+     "id": 2013,
+     "title": "Sword of the Necromancer",
+     "candidate": "https://storage.googleapis.com/images.pricecharting.com/5ad5ed2902fc2ec05527fd1c136b05e0fc7e4ec56f6397c1e859d1030537d8e0/1600.jpg",
+     "reason": "3D box render with spine"
+    },
+    {
+     "id": 2013,
+     "title": "Sword of the Necromancer",
+     "candidate": "https://cdn.shopify.com/s/files/1/0557/5868/4333/products/SotN_PS4_3D_Packshot.png?v=1631845956",
+     "reason": "3D box render with spine"
+    },
+    {
+     "id": 2733,
+     "title": "Tales of the Neon Sea",
+     "candidate": "https://storage.googleapis.com/images.pricecharting.com/3c93f4d20dba864e1a67771197129685efc6ff1957d985482b950d80dfc70c44/1600.jpg",
+     "reason": "3D collector box render"
+    },
+    {
+     "id": 2740,
+     "title": "Teenage Mutant Ninja Turtles: Mutants Unleashed",
+     "candidate": "https://storage.googleapis.com/images.pricecharting.com/lqydis25i4hgwm63/1600.jpg",
+     "reason": "3D box render with spine"
+    }
+   ],
+   "goodGained": 10,
+   "baselineGoodRegressions": 0
   }
  ],
  "sourcesUsed": [
   "LaunchBox Box - Front (fresh Metadata.zip)",
   "PriceCharting product pages via offline-index IDs",
   "TheGamesDB PS4 boxart front",
+  "VideoGamesPlus product images",
   "vgdb.uk cover scans"
  ],
  "remainingQueue": {
@@ -1552,11 +1700,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 2659,
-    "title": "Necromunda: Hired Gun",
-    "reason": "key_art_only"
-   },
-   {
     "id": 1679,
     "title": "Neverending Nightmares",
     "reason": "key_art_only"
@@ -1887,18 +2030,8 @@
     "reason": "key_art_only"
    },
    {
-    "id": 1739,
-    "title": "Super Pixel Racers",
-    "reason": "key_art_only"
-   },
-   {
     "id": 1854,
     "title": "Super Zangyura",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1184,
-    "title": "SuperEpic: The Entertainment War",
     "reason": "key_art_only"
    },
    {
@@ -1912,28 +2045,13 @@
     "reason": "key_art_only"
    },
    {
-    "id": 2013,
-    "title": "Sword of the Necromancer",
-    "reason": "key_art_only"
-   },
-   {
     "id": 1873,
     "title": "Sword of the Vagrant",
     "reason": "key_art_only"
    },
    {
-    "id": 2730,
-    "title": "Tails of Iron",
-    "reason": "key_art_only"
-   },
-   {
     "id": 1875,
     "title": "Taimumari",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2731,
-    "title": "Tales Of Graces F Remastered",
     "reason": "key_art_only"
    },
    {
@@ -1954,11 +2072,6 @@
    {
     "id": 2740,
     "title": "Teenage Mutant Ninja Turtles: Mutants Unleashed",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1744,
-    "title": "Teenage Mutant Ninja Turtles: Splintered Fate - Deluxe Edition",
     "reason": "key_art_only"
    },
    {
@@ -2019,11 +2132,6 @@
    {
     "id": 2049,
     "title": "The Legend of Heroes: Trails through Daybreak II",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2050,
-    "title": "The Legend of Nayuta: Boundless Trails",
     "reason": "key_art_only"
    },
    {
@@ -2184,11 +2292,6 @@
    {
     "id": 2367,
     "title": "Wytchwood",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1791,
-    "title": "Xeno Crisis",
     "reason": "key_art_only"
    },
    {
@@ -2437,11 +2540,6 @@
     "id": 1979,
     "title": "Trouble Witches Final: Episode 1 - Daughters of Amalgam",
     "reason": "image_fetch_failed"
-   },
-   {
-    "id": 1465,
-    "title": "XIII (Remake)",
-    "reason": "image_fetch_failed"
    }
   ],
   "fallback": [
@@ -2487,16 +2585,16 @@
    }
   ],
   "reviewByReason": {
-   "key_art_only": 212,
+   "key_art_only": 203,
    "missing_ps4_banner": 22
   },
   "watchByReason": {
-   "image_fetch_failed": 20
+   "image_fetch_failed": 19
   }
  },
  "blockers": [
   "GameFAQs box images return HTTP 403 to automated audit fetches (all 20 WATCH items); audit cannot verify them, so they need alternate hosts."
  ],
- "lastVerified": "2026-09-25T21:09:44+00:00",
- "nextTask": "Batch 4: remaining pc/tgdb crawl candidates incl. WATCH items; VideoGamesPlus crawl candidates"
+ "lastVerified": "2026-09-25T21:14:57+00:00",
+ "nextTask": "5 — VideoGamesPlus crawl candidates + remaining PC crawl + WATCH alternates"
 }

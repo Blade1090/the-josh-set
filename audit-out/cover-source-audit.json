@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-25T21:07:19.801Z",
+  "generatedAt": "2026-09-25T21:12:35.875Z",
   "included": 2407,
   "counts": {
     "CURATED_ID": 6,
-    "CURATED_TITLE": 125,
+    "CURATED_TITLE": 129,
     "GAMEYE": 937,
     "LAUNCHBOX_BOX_FRONT": 688,
-    "LEGACY_IGDB": 212,
-    "PRICECHARTING_BOX_FRONT": 392,
+    "LEGACY_IGDB": 203,
+    "PRICECHARTING_BOX_FRONT": 397,
     "PRODUCT_BOX_FRONT": 47
   },
   "rows": [
@@ -7988,8 +7988,8 @@
     {
       "id": 2659,
       "title": "Necromunda: Hired Gun",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co31dd.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.shopify.com/s/files/1/0557/5868/4333/files/VGP0014257_6746c2fe-a1e3-4975-8e94-2830334f87a3.jpg?v=1692291610"
     },
     {
       "id": 1677,
@@ -11624,8 +11624,8 @@
     {
       "id": 1739,
       "title": "Super Pixel Racers",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1h7n.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/jjmrw4zhqfieymh7/1600.jpg"
     },
     {
       "id": 1931,
@@ -11654,8 +11654,8 @@
     {
       "id": 1184,
       "title": "SuperEpic: The Entertainment War",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uqv.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/18fac6844160897e3dd05300428fefcf1ccd2c772eb32d8ea2a604a06b6e1c65/1600.jpg"
     },
     {
       "id": 2351,
@@ -11726,8 +11726,8 @@
     {
       "id": 2013,
       "title": "Sword of the Necromancer",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2elf.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/ddc527169e2d6025ec3936dab74e8609c89cafb2b1fcdc7f7155d9391f4e8ec4/1600.jpg"
     },
     {
       "id": 1873,
@@ -11798,8 +11798,8 @@
     {
       "id": 2730,
       "title": "Tails of Iron",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6pae.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/a0691c58047c9ad91ba2700e5c362f68dfa31597e0d154052b9e62d228b4db14/1600.jpg"
     },
     {
       "id": 1875,
@@ -11828,8 +11828,8 @@
     {
       "id": 2731,
       "title": "Tales Of Graces F Remastered",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8qra.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.shopify.com/s/files/1/0557/5868/4333/files/81zsPiQJbDL._AC_SL1500.jpg?v=1727360209"
     },
     {
       "id": 2732,
@@ -11942,8 +11942,8 @@
     {
       "id": 1744,
       "title": "Teenage Mutant Ninja Turtles: Splintered Fate - Deluxe Edition",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa1fv.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/h4ro4tshj6e3r4oo/1600.jpg"
     },
     {
       "id": 1207,
@@ -12392,8 +12392,8 @@
     {
       "id": 2050,
       "title": "The Legend of Nayuta: Boundless Trails",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3bb1.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.shopify.com/s/files/1/0557/5868/4333/files/Nayuta_BoundlessPS4.jpg?v=1777311338"
     },
     {
       "id": 1270,
@@ -14114,8 +14114,8 @@
     {
       "id": 1791,
       "title": "Xeno Crisis",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uh0.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.shopify.com/s/files/1/0557/5868/4333/files/Xeno_Crisis_PS4_T_Front_Cover.jpg?v=1779996464"
     },
     {
       "id": 1462,
@@ -14139,7 +14139,7 @@
       "id": 1465,
       "title": "XIII (Remake)",
       "source": "CURATED_TITLE",
-      "url": "https://gamefaqs.gamespot.com/a/box/8/1/1/856811_front.jpg"
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/69210-1.jpg"
     },
     {
       "id": 2765,

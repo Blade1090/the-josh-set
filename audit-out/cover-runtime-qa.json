@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-25T21:07:19.801Z",
+  "generatedAt": "2026-09-25T21:12:35.875Z",
   "summary": {
-    "generatedAt": "2026-09-25T21:07:19.801Z",
+    "generatedAt": "2026-09-25T21:12:35.875Z",
     "included": 2407,
-    "good": 2145,
+    "good": 2155,
     "fallback": 8,
-    "review": 234,
-    "watch": 20,
-    "physicalVerify": 232,
-    "physicalLikely": 1385,
-    "physicalConfirmed": 790,
+    "review": 225,
+    "watch": 19,
+    "physicalVerify": 222,
+    "physicalLikely": 1390,
+    "physicalConfirmed": 795,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "key_art_only": 212,
+      "key_art_only": 203,
       "missing_ps4_banner": 22
     },
     "watchByReason": {
-      "image_fetch_failed": 20
+      "image_fetch_failed": 19
     }
   },
   "review": [
@@ -404,11 +404,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2659,
-      "title": "Necromunda: Hired Gun",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1679,
       "title": "Neverending Nightmares",
       "reason": "key_art_only"
@@ -739,18 +734,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1739,
-      "title": "Super Pixel Racers",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1854,
       "title": "Super Zangyura",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1184,
-      "title": "SuperEpic: The Entertainment War",
       "reason": "key_art_only"
     },
     {
@@ -764,28 +749,13 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2013,
-      "title": "Sword of the Necromancer",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1873,
       "title": "Sword of the Vagrant",
       "reason": "key_art_only"
     },
     {
-      "id": 2730,
-      "title": "Tails of Iron",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1875,
       "title": "Taimumari",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2731,
-      "title": "Tales Of Graces F Remastered",
       "reason": "key_art_only"
     },
     {
@@ -806,11 +776,6 @@
     {
       "id": 2740,
       "title": "Teenage Mutant Ninja Turtles: Mutants Unleashed",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1744,
-      "title": "Teenage Mutant Ninja Turtles: Splintered Fate - Deluxe Edition",
       "reason": "key_art_only"
     },
     {
@@ -871,11 +836,6 @@
     {
       "id": 2049,
       "title": "The Legend of Heroes: Trails through Daybreak II",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2050,
-      "title": "The Legend of Nayuta: Boundless Trails",
       "reason": "key_art_only"
     },
     {
@@ -1036,11 +996,6 @@
     {
       "id": 2367,
       "title": "Wytchwood",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1791,
-      "title": "Xeno Crisis",
       "reason": "key_art_only"
     },
     {
@@ -1330,11 +1285,6 @@
     {
       "id": 1979,
       "title": "Trouble Witches Final: Episode 1 - Daughters of Amalgam",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 1465,
-      "title": "XIII (Remake)",
       "reason": "image_fetch_failed"
     }
   ]

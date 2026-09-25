@@ -78,7 +78,7 @@ window.SHELFCHECK_TITLE_COVERS={
   "little dragons cafe":"https://gamefaqs.gamespot.com/a/box/7/6/2/701762_front.jpg",
   "wobbledogs":"https://gamefaqs.gamespot.com/a/box/6/9/5/953695_front.jpg",
   "ufo robot grendizer":"https://gamefaqs.gamespot.com/a/box/2/2/4/840224_front.jpg",
-  "xiii remake":"https://gamefaqs.gamespot.com/a/box/8/1/1/856811_front.jpg",
+  "xiii remake":"https://cdn.thegamesdb.net/images/original/boxart/front/69210-1.jpg",
   "the first tree console edition":"https://gamefaqs.gamespot.com/a/box/7/7/9/851779_front.jpg",
   "trouble witches final episode 1 daughters of amalgam":"https://gamefaqs.gamespot.com/a/box/5/8/1/964581_front.jpg",
   "zero tsukihami no kamen":"https://gamefaqs.gamespot.com/a/box/5/1/6/917516_front.jpg",
@@ -182,7 +182,11 @@ window.SHELFCHECK_TITLE_COVERS={
   "volume":"https://cdn.thegamesdb.net/images/original/boxart/front/31306-1.jpg",
   "will a wonderful world":"https://cdn.thegamesdb.net/images/original/boxart/front/64105-1.jpg",
   "yestermorrow":"https://cdn.thegamesdb.net/images/original/boxart/front/88404-1.jpg",
-  "ys x nordics":"https://cdn.thegamesdb.net/images/original/boxart/front/129794-1.jpg"
+  "ys x nordics":"https://cdn.thegamesdb.net/images/original/boxart/front/129794-1.jpg",
+  "necromunda hired gun":"https://cdn.shopify.com/s/files/1/0557/5868/4333/files/VGP0014257_6746c2fe-a1e3-4975-8e94-2830334f87a3.jpg?v=1692291610",
+  "tales of graces f remastered":"https://cdn.shopify.com/s/files/1/0557/5868/4333/files/81zsPiQJbDL._AC_SL1500.jpg?v=1727360209",
+  "the legend of nayuta boundless trails":"https://cdn.shopify.com/s/files/1/0557/5868/4333/files/Nayuta_BoundlessPS4.jpg?v=1777311338",
+  "xeno crisis":"https://cdn.shopify.com/s/files/1/0557/5868/4333/files/Xeno_Crisis_PS4_T_Front_Cover.jpg?v=1779996464"
 };
 
 // Art Department quality gate. Browser-only: CI evaluates this file in a VM without DOM APIs.
