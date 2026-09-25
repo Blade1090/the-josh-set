@@ -1,2241 +1,3234 @@
 {
-  "generatedAt": "2026-09-25T17:21:32.410Z",
   "summary": {
-    "generatedAt": "2026-09-25T17:21:32.410Z",
-    "included": 2407,
-    "good": 1965,
-    "fallback": 8,
-    "review": 406,
-    "watch": 28,
-    "physicalVerify": 398,
-    "physicalLikely": 1298,
-    "physicalConfirmed": 711,
-    "manualConfirmedBad": 0,
-    "manualFallback": 8,
-    "manualEligibility": 0,
-    "manualFixedTracked": 91,
-    "reviewByReason": {
-      "key_art_only": 370,
-      "missing_ps4_banner": 36
+    "targeted": 448,
+    "preserved": 0,
+    "acceptedThisRun": 6,
+    "totalInheritedCovers": 6,
+    "noKnownProductCover": 415,
+    "rejectedProductCover": 27,
+    "validatedUniqueProductImages": 21,
+    "productCounts": {
+      "Spyro Reignited Trilogy": 3,
+      "The Banner Saga Trilogy: Bonus Edition": 2,
+      "Trine: Ultimate Collection": 1
     },
-    "watchByReason": {
-      "image_fetch_failed": 28
-    }
+    "standard": "identity is explicitly covered by DATA.p physical product + manifest product cover passes straight portrait + strong blue PS4-header gate"
   },
-  "review": [
+  "accepted": [
+    {
+      "id": 2106,
+      "title": "Spyro 2: Ripto's Rage!",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "spyro reignited trilogy",
+      "productTitle": "Spyro Reignited Trilogy",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobaat.jpg",
+      "coverageCount": 3,
+      "metrics": {
+        "width": 264,
+        "height": 352,
+        "aspect": 0.75,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.6401
+      }
+    },
+    {
+      "id": 2105,
+      "title": "Spyro the Dragon",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "spyro reignited trilogy",
+      "productTitle": "Spyro Reignited Trilogy",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobaat.jpg",
+      "coverageCount": 3,
+      "metrics": {
+        "width": 264,
+        "height": 352,
+        "aspect": 0.75,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.6401
+      }
+    },
+    {
+      "id": 2107,
+      "title": "Spyro: Year of the Dragon",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "spyro reignited trilogy",
+      "productTitle": "Spyro Reignited Trilogy",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobaat.jpg",
+      "coverageCount": 3,
+      "metrics": {
+        "width": 264,
+        "height": 352,
+        "aspect": 0.75,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.6401
+      }
+    },
+    {
+      "id": 2220,
+      "title": "The Banner Saga 2",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "the banner saga trilogy bonus edition",
+      "productTitle": "The Banner Saga Trilogy: Bonus Edition",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/jodqwtoyunscirlei2az.jpg",
+      "coverageCount": 3,
+      "metrics": {
+        "width": 264,
+        "height": 329,
+        "aspect": 0.8024,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.5144
+      }
+    },
+    {
+      "id": 2221,
+      "title": "The Banner Saga 3",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "the banner saga trilogy bonus edition",
+      "productTitle": "The Banner Saga Trilogy: Bonus Edition",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/jodqwtoyunscirlei2az.jpg",
+      "coverageCount": 3,
+      "metrics": {
+        "width": 264,
+        "height": 329,
+        "aspect": 0.8024,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.5144
+      }
+    },
+    {
+      "id": 2124,
+      "title": "Trine 2: Complete Story",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "trine ultimate collection",
+      "productTitle": "Trine: Ultimate Collection",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1krs.jpg",
+      "coverageCount": 4,
+      "metrics": {
+        "width": 264,
+        "height": 352,
+        "aspect": 0.75,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.7716
+      }
+    }
+  ],
+  "noProduct": [
     {
       "id": 2037,
       "title": "9th Dawn III",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 30,
       "title": "Accel World vs. Sword Art Online: Millennium Twilight",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2482,
       "title": "Alice Gear Aegis CS: Concerto of Simulatrix",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2077,
       "title": "American Hero",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2485,
       "title": "Anonymous;Code",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1567,
       "title": "Aokana - Four Rhythms Across the Blue",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 81,
       "title": "Apex Legends",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2100,
       "title": "Assassin's Creed Brotherhood",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2099,
       "title": "Assassin's Creed II",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2101,
       "title": "Assassin's Creed Revelations",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2497,
       "title": "Asterix & Obelix XXXL: The Ram from Hibernia",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1579,
       "title": "Back to the Future: The Game",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 148,
       "title": "bayala - the game",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2515,
       "title": "Behind the Frame",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2518,
       "title": "Beyond Enemy Lines 2: Enhanced Edition",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2068,
       "title": "Beyond the Ice Palace 2",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2521,
       "title": "Bite the Bullet",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1964,
       "title": "Blast Brigade vs. the Evil Legion of Dr. Cread",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2532,
       "title": "Bomb Rush Cyberfunk",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2533,
       "title": "Bounty Battle",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1582,
       "title": "Breach & Clear: Deadline",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1849,
       "title": "BROK: The InvestiGator",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2542,
       "title": "Bus Simulator",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1588,
-      "title": "Cat Quest II",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 238,
       "title": "Caveman Warriors",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2094,
       "title": "Chained Echoes",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2550,
       "title": "Chef Life: A Restaurant Simulator",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2415,
       "title": "Coffee Crisis",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2298,
       "title": "Colossal Cave",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1892,
       "title": "Colt Canyon",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2299,
       "title": "Contra: Operation Galuga",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 269,
       "title": "Corpse Killer: 25th Anniversary Edition",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2102,
-      "title": "Crash Bandicoot",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2103,
-      "title": "Crash Bandicoot 2: Cortex Strikes Back",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2104,
-      "title": "Crash Bandicoot: Warped",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1595,
       "title": "Crashbots",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 275,
       "title": "Crawl",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2301,
       "title": "Crymachina",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2201,
-      "title": "Danganronpa 2: Goodbye Despair",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 298,
       "title": "Darius Cozmic Collection: Arcade",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 299,
       "title": "Darius Cozmic Collection: Console",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 300,
       "title": "Dark Devotion",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2042,
       "title": "Dark Nights with Poe & Munro",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1810,
       "title": "Dark Quest 2",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 322,
       "title": "Dead Alliance",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1600,
       "title": "Deer Simulator",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2468,
       "title": "Deformers",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1861,
       "title": "Demon Gaze Extra",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 364,
       "title": "Diablo III: Ultimate Evil Edition",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2417,
       "title": "Dogchild",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 402,
       "title": "Dragon Fantasy: The Black Tome of Ice",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2039,
       "title": "Dragon Lapis",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1607,
       "title": "DreamWorks Dragons Dawn of New Riders",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1608,
       "title": "Drive!Drive!Drive!",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2266,
       "title": "DUSK",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 429,
       "title": "Earthfall",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1610,
       "title": "Earthlock",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2419,
       "title": "Eldrador Creatures",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1950,
       "title": "Empire of Angels IV",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2306,
       "title": "Enclave HD",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 454,
       "title": "Factotum 90",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 473,
       "title": "fault milestone one",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1807,
       "title": "Five Dates",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1620,
       "title": "Forestry 2017: The Simulation",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1622,
       "title": "Fury Unleashed",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1624,
       "title": "Futuridium EP Deluxe",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1625,
       "title": "Galak-Z: The Void",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1626,
       "title": "Galaxy of Pen & Paper +1 Edition",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 518,
       "title": "Game Tengoku: Cruisin Mix Special",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1824,
       "title": "Gearshifters",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1938,
       "title": "Gekido Kintaro's Revenge",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 525,
       "title": "Geometry Wars 3: Dimensions",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 529,
       "title": "Ghostbusters",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2311,
       "title": "Gigabash",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1866,
       "title": "Godstrike",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2420,
       "title": "Grave Danger",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1628,
       "title": "Gravity Ghost: Deluxe Edition",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2312,
       "title": "GrimGrimoire OnceMore",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2063,
       "title": "Guns N' Runs",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1980,
       "title": "Guns, Gore & Cannoli 2",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2313,
       "title": "GYLT",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1953,
       "title": "Habroxia 2",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 568,
       "title": "Halloween Forever",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2055,
       "title": "Hamidashi Creative",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2256,
       "title": "Hammerwatch",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2598,
       "title": "Hand Of Fate 2",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2599,
       "title": "Harry Potter: Quidditch Champions",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2601,
       "title": "Harvest Moon: The Winds of Anthos",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 575,
       "title": "Has-Been Heroes",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 586,
       "title": "Hero Must Die. Again",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2257,
       "title": "Heroes of Hammerwatch - Ultimate Edition",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1638,
       "title": "Hidden Through Time",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1641,
       "title": "I Am Setsuna",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2229,
       "title": "Icewind Dale: Enhanced Edition",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1644,
       "title": "Infinite: Beyond the Mind",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1918,
       "title": "Inspector Waffles",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2243,
       "title": "Irem Collection Volume 1",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1646,
       "title": "Is It Wrong To Try To Pick Up Girls In A Dungeon? - Infinite Combate",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2461,
       "title": "Isonzo",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1649,
-      "title": "La-Mulana",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 686,
-      "title": "La-Mulana 2",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2320,
       "title": "Lake",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1515,
       "title": "Late Shift",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2647,
       "title": "Legend Of Heroes: Trails Beyond The Horizon",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2649,
       "title": "Legend Of Legacy HD Remastered",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1936,
       "title": "Legend of the Skyfish",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 708,
-      "title": "LEGO Marvel's Avengers",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 716,
       "title": "Lichtspeer",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 720,
       "title": "Lifeless Planet: Premier Edition",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1869,
       "title": "Light Fairytale Episode 2",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1661,
       "title": "Lode Runner Legacy",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2423,
       "title": "Lord Winklebottom Investigates",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2014,
       "title": "LUNARK",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2651,
       "title": "MADO MONOGATARI: Fia And The Wondrous Academy",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 742,
       "title": "Maneater",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2392,
       "title": "Marchen Forest",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2323,
       "title": "Mato Anomalies",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 750,
       "title": "Mecho Tales",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2463,
       "title": "Memorrha",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 761,
       "title": "Mercenaries Wings: The False Phoenix",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 762,
       "title": "Mercenary Kings",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2325,
       "title": "Mighty Goose",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 780,
       "title": "Mighty Switch Force! Collection",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 783,
       "title": "Minecraft: Story Mode - A Telltale Games Series",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 785,
       "title": "Minit",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1923,
       "title": "Monster Prom XXL",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 802,
       "title": "Moving Out",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2095,
       "title": "Mulaka",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 805,
       "title": "Musynx",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 807,
       "title": "Mutant Mudds Deluxe",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 808,
       "title": "Mutant Mudds: Super Challenge",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 811,
       "title": "My Friend Pedro",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 815,
       "title": "Mystery Chronicle: One Way Heroics",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2016,
       "title": "MythForce",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 820,
       "title": "Naruto Shippuden: Ultimate Ninja Storm 4",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 823,
       "title": "Naruto: Ultimate Ninja Storm",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2097,
       "title": "Natsuki Chronicles",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2657,
       "title": "Naught: Extended Edition",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2659,
       "title": "Necromunda: Hired Gun",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 832,
       "title": "NeuroVoider",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1679,
       "title": "Neverending Nightmares",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2330,
       "title": "Neversong",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 836,
       "title": "Nexomon: Extinction",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2011,
       "title": "Night Book",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 844,
       "title": "Night Trap: 25th Anniversary Edition",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 849,
       "title": "Nitroplus Blasterz: Heroines Infinite Duel",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1826,
       "title": "Nobody Saves the World",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2666,
       "title": "Octopath Traveler 0",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2232,
       "title": "OK K.O.! Let's Play Heroes",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1686,
       "title": "OlliOlli",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2331,
       "title": "OMORI",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2671,
       "title": "On the Road: Truck Simulator",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 872,
       "title": "One Step From Eden",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2674,
       "title": "OneShot: World Machine Edition",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1857,
       "title": "ONI: Road to be the Mightiest Oni",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2450,
       "title": "Open Country",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 878,
       "title": "Organ Trail: Complete Edition",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2227,
-      "title": "Overcooked!",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2028,
       "title": "Overrogue",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2332,
       "title": "Oxide Room 104",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1817,
       "title": "Panzer Dragoon: Remake",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2690,
       "title": "Pathfinder: Wrath of the Righteous",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2692,
       "title": "Paw Patrol World",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 897,
       "title": "PAWARUMI",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2430,
       "title": "Peaky Blinders Mastermind",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2206,
-      "title": "Phoenix Wright: Ace Attorney - Dual Destinies",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2203,
-      "title": "Phoenix Wright: Ace Attorney - Justice for All",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2207,
-      "title": "Phoenix Wright: Ace Attorney - Spirit of Justice",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2204,
-      "title": "Phoenix Wright: Ace Attorney - Trials and Tribulations",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 909,
       "title": "Pineview Drive",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 911,
       "title": "PixARK",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2681,
       "title": "PJ Masks Power Heroes: Mighty Alliance",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 914,
       "title": "Plague Road",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2228,
       "title": "Planescape: Torment: Enhanced Edition",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 917,
       "title": "Plants vs Zombies: Garden Warfare 2",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 922,
       "title": "Pool Nation",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 925,
       "title": "Port Royale 4",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2009,
       "title": "Postal REDUX",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2215,
       "title": "Praetorians - HD Remaster",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1695,
       "title": "Pressure Overdrive",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2337,
       "title": "Prodeus",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1908,
       "title": "Project Starship",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1952,
       "title": "Project Starship X",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2451,
       "title": "Protodroid Delta",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1697,
       "title": "Prototype",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 939,
       "title": "Psyvariar Delta",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2698,
       "title": "R-Type Tactics I & II Cosmos",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2701,
       "title": "Rabbids: Party of Legends",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2705,
       "title": "Raiden IV x MIKADO Remix",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2707,
       "title": "Raidou Remastered: Mystery Of The Soulless Army",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 959,
       "title": "Rainbow Moon",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2338,
       "title": "Ravenswatch",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 970,
       "title": "Regions Of Ruin",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1864,
       "title": "Relayer",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 975,
       "title": "Republique",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 987,
       "title": "Return of the Obra Dinn",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 988,
       "title": "Reus",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 991,
       "title": "Reverie",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 993,
       "title": "RICO",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2269,
       "title": "Risen",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1972,
       "title": "Rising Hell",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2096,
       "title": "Rival Megagun",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2114,
-      "title": "Robotics;Notes DaSH",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2113,
-      "title": "Robotics;Notes Elite",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1712,
       "title": "Rock of Ages 3: Make & Break",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1015,
       "title": "Rocksmith 2014 Edition",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1018,
       "title": "Rogue Trooper Redux",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1845,
       "title": "Romancing SaGa -Minstrel Song- Remastered",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2038,
       "title": "Roombo: First Blood",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1838,
       "title": "Rugrats: Adventures in Gameland",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2339,
       "title": "Ruinverse",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1025,
       "title": "Runbow",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1997,
       "title": "RWBY: Arrowfell",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1717,
       "title": "Rym 9000",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2089,
-      "title": "S.T.A.L.K.E.R.: Clear Sky",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2088,
-      "title": "S.T.A.L.K.E.R.: Shadow of Chornobyl",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2230,
-      "title": "Saints Row IV: Re-Elected",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2718,
       "title": "Sam & Max: Beyond Time And Space",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2054,
       "title": "Samurai Maiden",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1720,
       "title": "Samurai Shodown VI",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1039,
       "title": "Saturday Morning RPG",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2341,
       "title": "Saturnalia",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1721,
       "title": "Screencheat",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2116,
-      "title": "Scribblenauts Unmasked: A DC Comics Adventure",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2086,
       "title": "SD Gundam G Generation Cross Rays",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1047,
       "title": "Semispheres",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1951,
       "title": "Sense - A Cyberpunk Ghost Story",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1723,
       "title": "Shadow of Loot Box",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2249,
       "title": "Shadow of the Ninja - Reborn",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1060,
       "title": "Shadow Warrior 2",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1061,
       "title": "Shadowgate",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2473,
       "title": "Shadowrun Returns",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2474,
       "title": "Shadowrun: Dragonfall - Director's Cut",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2475,
       "title": "Shadowrun: Hong Kong - Extended Edition",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1827,
       "title": "Shadows of Adam",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1069,
       "title": "Shenmue II",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1726,
       "title": "Shikhondo: Soul Eater",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2061,
       "title": "Shing!",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2344,
       "title": "Silt",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1729,
       "title": "SIMULACRA",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1818,
       "title": "Sir Lovelot",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1076,
       "title": "Siralim",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1077,
       "title": "Siralim 2",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1846,
       "title": "Skautfold: Into The Fray",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1870,
       "title": "Skautfold: Usurper",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1731,
       "title": "Skulls of the Shogun: Bone-a-Fide Edition",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1081,
       "title": "Skully",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1090,
       "title": "Slide Stars",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1949,
       "title": "Smashing the Battle: Ghost Soul",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1094,
       "title": "SmuggleCraft",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2018,
       "title": "SOL CRESTA",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1878,
       "title": "Sophstar",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1114,
       "title": "Space Hulk: Deathwing",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1881,
       "title": "Spacewing War",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2454,
       "title": "Speedollama",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2258,
       "title": "Spelunker HD Deluxe",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2026,
       "title": "Spidersaurs",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1122,
       "title": "Splasher",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1734,
       "title": "Stealth Inc: A Clone in the Dark Ultimate Edition",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2118,
-      "title": "SteamWorld Heist",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1163,
       "title": "Street Power Soccer",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2350,
       "title": "Summertime Madness",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1171,
       "title": "Sundered",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1736,
       "title": "Super ComboMan: Smash Edition",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1737,
       "title": "Super GunWorld 2",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1738,
       "title": "Super Life of Pixel",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1958,
       "title": "Super Perils of Baking",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1739,
       "title": "Super Pixel Racers",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1854,
       "title": "Super Zangyura",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1184,
       "title": "SuperEpic: The Entertainment War",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1185,
       "title": "SuperMash",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2352,
       "title": "Supraland",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2013,
       "title": "Sword of the Necromancer",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1873,
       "title": "Sword of the Vagrant",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1919,
       "title": "Swordbreaker The Game",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2466,
       "title": "Tadeo Jones y el Manuscrito Perdido",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2730,
       "title": "Tails of Iron",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1875,
       "title": "Taimumari",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2731,
       "title": "Tales Of Graces F Remastered",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2733,
       "title": "Tales of the Neon Sea",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1203,
       "title": "Tamashii",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1742,
       "title": "Tandem: A Tale of Shadows",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1743,
       "title": "Tannenberg",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1205,
       "title": "Tearaway Unfolded",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2740,
       "title": "Teenage Mutant Ninja Turtles: Mutants Unleashed",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1744,
       "title": "Teenage Mutant Ninja Turtles: Splintered Fate - Deluxe Edition",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2455,
       "title": "Ten Dates",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1745,
       "title": "Terror of Hemasaurus",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1746,
       "title": "Tharsis",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1225,
       "title": "The Bunker",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2353,
       "title": "The Coma 2: Vicious Sisters",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1228,
       "title": "The Coma: Recut",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1229,
       "title": "The Complex",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1234,
       "title": "The Dark Crystal: Age of Resistance Tactics",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2354,
       "title": "The Good Life",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1754,
       "title": "The Journey Down: Chapter One",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1755,
       "title": "The Journey Down: Chapter Three",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2019,
       "title": "The King of Fighters 2000",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1258,
       "title": "The Last Blade 2",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1259,
       "title": "The Last Door: Complete Edition",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1264,
       "title": "The Last Tinker: City of Colors",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2049,
       "title": "The Legend of Heroes: Trails through Daybreak II",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2050,
       "title": "The Legend of Nayuta: Boundless Trails",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1275,
       "title": "The Lost Child",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1276,
       "title": "The Messenger",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1758,
       "title": "The Metronomicon: Slay the Dance Floor",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1278,
       "title": "The Mummy Demastered",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1759,
       "title": "The Peanuts Movie: Snoopy's Grand Adventure",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1911,
       "title": "The Procession to Calvary",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1288,
       "title": "The Sexy Brutale",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1298,
       "title": "The Swindle",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1761,
       "title": "The Swords of Ditto",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1299,
       "title": "The Swords of Ditto: Mormo's Curse",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1302,
       "title": "The Town of Light",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1305,
       "title": "The Walking Dead: Season Two - A Telltale Games Series",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1317,
       "title": "They Are Billions",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1326,
       "title": "Timespinner",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1336,
       "title": "Tom Clancy's Rainbow Six Siege: Advanced Edition",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1768,
       "title": "Tormented Souls",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1769,
       "title": "Toto Temple Deluxe",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2030,
       "title": "Toy Soldiers HD",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1351,
       "title": "Train Sim World 2020",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2358,
       "title": "Transformers: Earthspark - Expedition",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2359,
       "title": "Trash Sailors",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1360,
       "title": "Trials of the Blood Dragon",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1366,
       "title": "Troll and I",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2001,
       "title": "Turok",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2360,
       "title": "Turok 2: Seeds of Evil",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1821,
       "title": "Turok 3: Shadow of Oblivion Remastered",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2262,
       "title": "Turrican Anthology Vol. 1",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2263,
       "title": "Turrican Anthology Vol. 2",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1375,
       "title": "Twin Breaker: A Sacred Symbols Adventure",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1774,
       "title": "Umbrella Corps",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2746,
       "title": "Under Night In-Birth II: Sys:Celes",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2098,
       "title": "Underhero",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2033,
       "title": "UnderMine",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1542,
       "title": "Unsighted",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1986,
       "title": "Urban Trial Tricky Deluxe Edition",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1543,
       "title": "VA-11 Hall-A: Cyberpunk Bartender Action",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2043,
       "title": "Vagante",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2752,
       "title": "Valiant Hearts: Coming Home",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1779,
       "title": "Vanquish",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1400,
       "title": "Vegas Party",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2365,
       "title": "Vengeful Guardian: Moonrider",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1781,
       "title": "Verdun",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1970,
       "title": "Vesper: Zero Light Edition",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1402,
       "title": "VESTA",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1782,
       "title": "VirtuaVerse",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1783,
       "title": "Volume",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2761,
       "title": "War Mongrels",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1419,
       "title": "Warhammer: Vermintide 2",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1544,
       "title": "Weird West",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1545,
       "title": "West of Dead",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1948,
       "title": "Wife Quest",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1436,
       "title": "WILL: A Wonderful World",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2022,
       "title": "Witchcrafty",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1450,
       "title": "World of Warships: Legends",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2367,
       "title": "Wytchwood",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1791,
       "title": "Xeno Crisis",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1463,
       "title": "Xenon Valkyrie+",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1924,
       "title": "YesterMorrow",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1793,
       "title": "YIIK: A Postmodern RPG",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2770,
       "title": "You Suck at Parking",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2772,
       "title": "Young Souls",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2775,
       "title": "Ys Vs. Trails In The Sky: Alternative Saga",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2048,
       "title": "Ys X: Nordics",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2777,
       "title": "Yurukill: The Calumniation Games",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2443,
       "title": "Zapling Bygone",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2240,
       "title": "Zero Tolerance Collection",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 1491,
       "title": "Zone of the Enders: The 2nd Runner MARS",
+      "bucket": "review",
       "reason": "key_art_only"
     },
     {
       "id": 2079,
       "title": "Among Us",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 2223,
-      "title": "Batman: Arkham City Remastered",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 1497,
       "title": "Chants of Sennaar",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 2200,
-      "title": "Danganronpa: Trigger Happy Havoc",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 2563,
       "title": "Dark Pictures: The Devil in Me",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 474,
       "title": "Fell Seal: Arbiter's Mark",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 1631,
       "title": "GunLord X",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 2122,
-      "title": "Resident Evil 0 HD Remaster",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 1235,
       "title": "The Dark Pictures - Little Hope",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 1303,
       "title": "The Walking Dead: A Telltale Games Series - The Complete First Season",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 2090,
-      "title": "S.T.A.L.K.E.R.: Call of Prypiat",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 291,
       "title": "Damascus Gear: Operation Osaka",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 1999,
       "title": "Streets of Red",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 2064,
       "title": "Andro Dunos 2",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 1850,
       "title": "Lost Ruins",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 2115,
-      "title": "Scribblenauts Unlimited",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 681,
       "title": "Kromaia Omega",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 1839,
       "title": "Another Crusade",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 1682,
       "title": "Now That's What I Call Sing",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 241,
       "title": "Chariot",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 1670,
       "title": "Mighty Gunvolt Burst",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 2222,
-      "title": "Batman: Arkham Asylum Remastered",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 1227,
       "title": "The Church in the Darkness",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 435,
       "title": "Elex",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 82,
       "title": "Ara Fell: Enhanced Edition",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 1615,
       "title": "Fallen Legion: Sins of an Empire",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 1247,
       "title": "The Flame in the Flood: Complete Edition",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 1942,
       "title": "Fullblast",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 111,
       "title": "Atari Flashback Classics: Volume 1",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 451,
       "title": "Exile's End",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 1132,
-      "title": "Star Wars Episode I: Racer",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 2465,
       "title": "Rolling Gunner",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 2241,
       "title": "Steel Empire Chronicles",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 819,
       "title": "Narita Boy",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 476,
       "title": "Fight'N Rage",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
     },
     {
       "id": 185,
       "title": "Blood Bowl 2",
+      "bucket": "review",
       "reason": "missing_ps4_banner"
-    }
-  ],
-  "fallback": [
-    {
-      "id": 155,
-      "title": "Below",
-      "reason": "wrong_region_or_edition"
     },
-    {
-      "id": 25,
-      "title": "Aaero",
-      "reason": "angled_product_shot"
-    },
-    {
-      "id": 36,
-      "title": "ADK Tamashii",
-      "reason": "angled_product_shot"
-    },
-    {
-      "id": 183,
-      "title": "Bleed",
-      "reason": "photo_of_case"
-    },
-    {
-      "id": 201,
-      "title": "Braveland Trilogy",
-      "reason": "angled_product_shot"
-    },
-    {
-      "id": 1676,
-      "title": "N++",
-      "reason": "angled_product_shot"
-    },
-    {
-      "id": 969,
-      "title": "Redout",
-      "reason": "photo_of_case"
-    },
-    {
-      "id": 2342,
-      "title": "Scourge Bringer",
-      "reason": "angled_product_shot"
-    }
-  ],
-  "watch": [
     {
       "id": 14,
       "title": "8-Bit Adventure Anthology: Volume One",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 1992,
       "title": "Another World",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 149,
       "title": "Bayonetta",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 2288,
       "title": "Blazing Beaks",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 1969,
       "title": "Cannon Dancer",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 2471,
       "title": "Get Star / Guardian",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 1809,
       "title": "Ground Zero: Texas",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 1971,
       "title": "Jim Power: The Lost Dimension",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 2469,
       "title": "Kyukyoku Tiger / Twin Cobra",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 1665,
       "title": "Maldita Castilla EX: Cursed Castilla",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 2242,
       "title": "Ninja JaJaMaru Legendary Ninja Collection",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 2429,
       "title": "Noob: Les Sans-Factions",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 1685,
       "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 2695,
       "title": "Q.U.B.E.",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 2696,
       "title": "Quintessential Quintuplets Fives Memories With You",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 1725,
       "title": "Shenmue I",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 1976,
       "title": "Sisters Royale",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 1198,
       "title": "Tales from the Borderlands: A Telltale Game Series",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 1753,
       "title": "The First Tree: Console Edition",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 1756,
       "title": "The Journey Down: Chapter Two",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 2195,
       "title": "Tomb Raider II",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 2196,
       "title": "Tomb Raider III: Adventures of Lara Croft",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 2198,
       "title": "Tomb Raider: Chronicles",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 2199,
       "title": "Tomb Raider: The Angel of Darkness",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 2197,
       "title": "Tomb Raider: The Last Revelation",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 2784,
       "title": "Tony Hawk's Pro Skater 3 + 4",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 1979,
       "title": "Trouble Witches Final: Episode 1 - Daughters of Amalgam",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
     },
     {
       "id": 1465,
       "title": "XIII (Remake)",
+      "bucket": "watch",
       "reason": "image_fetch_failed"
+    },
+    {
+      "id": 155,
+      "title": "Below",
+      "bucket": "fallback",
+      "reason": "wrong_region_or_edition"
+    },
+    {
+      "id": 25,
+      "title": "Aaero",
+      "bucket": "fallback",
+      "reason": "angled_product_shot"
+    },
+    {
+      "id": 36,
+      "title": "ADK Tamashii",
+      "bucket": "fallback",
+      "reason": "angled_product_shot"
+    },
+    {
+      "id": 183,
+      "title": "Bleed",
+      "bucket": "fallback",
+      "reason": "photo_of_case"
+    },
+    {
+      "id": 201,
+      "title": "Braveland Trilogy",
+      "bucket": "fallback",
+      "reason": "angled_product_shot"
+    },
+    {
+      "id": 1676,
+      "title": "N++",
+      "bucket": "fallback",
+      "reason": "angled_product_shot"
+    },
+    {
+      "id": 969,
+      "title": "Redout",
+      "bucket": "fallback",
+      "reason": "photo_of_case"
+    },
+    {
+      "id": 2342,
+      "title": "Scourge Bringer",
+      "bucket": "fallback",
+      "reason": "angled_product_shot"
+    }
+  ],
+  "rejected": [
+    {
+      "id": 1588,
+      "title": "Cat Quest II",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidates": [
+        {
+          "productKey": "cat quest cat quest ii pawsome pack",
+          "productTitle": "Cat Quest + Cat Quest II: Pawsome Pack",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25o7.jpg",
+          "coverageCount": 2,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.6553,
+            "bannerPixelRatio": 0.2369
+          }
+        }
+      ]
+    },
+    {
+      "id": 2102,
+      "title": "Crash Bandicoot",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidates": [
+        {
+          "productKey": "crash bandicoot n sane trilogy",
+          "productTitle": "Crash Bandicoot N. Sane Trilogy",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v62.jpg",
+          "coverageCount": 3,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.6591,
+            "bannerPixelRatio": 0.2621
+          }
+        }
+      ]
+    },
+    {
+      "id": 2103,
+      "title": "Crash Bandicoot 2: Cortex Strikes Back",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidates": [
+        {
+          "productKey": "crash bandicoot n sane trilogy",
+          "productTitle": "Crash Bandicoot N. Sane Trilogy",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v62.jpg",
+          "coverageCount": 3,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.6591,
+            "bannerPixelRatio": 0.2621
+          }
+        }
+      ]
+    },
+    {
+      "id": 2104,
+      "title": "Crash Bandicoot: Warped",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidates": [
+        {
+          "productKey": "crash bandicoot n sane trilogy",
+          "productTitle": "Crash Bandicoot N. Sane Trilogy",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v62.jpg",
+          "coverageCount": 3,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.6591,
+            "bannerPixelRatio": 0.2621
+          }
+        }
+      ]
+    },
+    {
+      "id": 2201,
+      "title": "Danganronpa 2: Goodbye Despair",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidates": [
+        {
+          "productKey": "danganronpa 1 2 reload",
+          "productTitle": "Danganronpa 1-2 Reload",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23px.jpg",
+          "coverageCount": 2,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.0,
+            "bannerPixelRatio": 0.0
+          }
+        },
+        {
+          "productKey": "danganronpa trilogy",
+          "productTitle": "Danganronpa Trilogy",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2puk.jpg",
+          "coverageCount": 3,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.0,
+            "bannerPixelRatio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 1649,
+      "title": "La-Mulana",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidates": [
+        {
+          "productKey": "la mulana 1 and 2 hidden treasures edition",
+          "productTitle": "La-Mulana 1 & 2: Hidden Treasures Edition",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8rwx.jpg",
+          "coverageCount": 2,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.0,
+            "bannerPixelRatio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 686,
+      "title": "La-Mulana 2",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidates": [
+        {
+          "productKey": "la mulana 1 and 2 hidden treasures edition",
+          "productTitle": "La-Mulana 1 & 2: Hidden Treasures Edition",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8rwx.jpg",
+          "coverageCount": 2,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.0,
+            "bannerPixelRatio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 708,
+      "title": "LEGO Marvel's Avengers",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidates": [
+        {
+          "productKey": "lego marvel collection",
+          "productTitle": "LEGO Marvel Collection",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fuj.jpg",
+          "coverageCount": 3,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.0,
+            "bannerPixelRatio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 2227,
+      "title": "Overcooked!",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidates": [
+        {
+          "productKey": "overcooked overcooked 2",
+          "productTitle": "Overcooked! + Overcooked! 2",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g3n.jpg",
+          "coverageCount": 2,
+          "metrics": {
+            "width": 264,
+            "height": 264,
+            "aspect": 1.0,
+            "bannerColumnSpan": 0.3371,
+            "bannerPixelRatio": 0.1912
+          }
+        }
+      ]
+    },
+    {
+      "id": 2206,
+      "title": "Phoenix Wright: Ace Attorney - Dual Destinies",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidates": [
+        {
+          "productKey": "apollo justice ace attorney trilogy",
+          "productTitle": "Apollo Justice: Ace Attorney Trilogy",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobapo.jpg",
+          "coverageCount": 3,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.3674,
+            "bannerPixelRatio": 0.1096
+          }
+        }
+      ]
+    },
+    {
+      "id": 2203,
+      "title": "Phoenix Wright: Ace Attorney - Justice for All",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidates": [
+        {
+          "productKey": "phoenix wright ace attorney trilogy",
+          "productTitle": "Phoenix Wright: Ace Attorney Trilogy",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa7iv.jpg",
+          "coverageCount": 3,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.0,
+            "bannerPixelRatio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 2207,
+      "title": "Phoenix Wright: Ace Attorney - Spirit of Justice",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidates": [
+        {
+          "productKey": "apollo justice ace attorney trilogy",
+          "productTitle": "Apollo Justice: Ace Attorney Trilogy",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobapo.jpg",
+          "coverageCount": 3,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.3674,
+            "bannerPixelRatio": 0.1096
+          }
+        }
+      ]
+    },
+    {
+      "id": 2204,
+      "title": "Phoenix Wright: Ace Attorney - Trials and Tribulations",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidates": [
+        {
+          "productKey": "phoenix wright ace attorney trilogy",
+          "productTitle": "Phoenix Wright: Ace Attorney Trilogy",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa7iv.jpg",
+          "coverageCount": 3,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.0,
+            "bannerPixelRatio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 2114,
+      "title": "Robotics;Notes DaSH",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidates": [
+        {
+          "productKey": "robotics notes double pack",
+          "productTitle": "Robotics;Notes Double Pack",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2av4.jpg",
+          "coverageCount": 2,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.0,
+            "bannerPixelRatio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 2113,
+      "title": "Robotics;Notes Elite",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidates": [
+        {
+          "productKey": "robotics notes double pack",
+          "productTitle": "Robotics;Notes Double Pack",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2av4.jpg",
+          "coverageCount": 2,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.0,
+            "bannerPixelRatio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 2089,
+      "title": "S.T.A.L.K.E.R.: Clear Sky",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidates": [
+        {
+          "productKey": "s t a l k e r legends of the zone trilogy",
+          "productTitle": "S.T.A.L.K.E.R.: Legends of the Zone Trilogy",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7uzc.jpg",
+          "coverageCount": 3,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.0,
+            "bannerPixelRatio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 2088,
+      "title": "S.T.A.L.K.E.R.: Shadow of Chornobyl",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidates": [
+        {
+          "productKey": "s t a l k e r legends of the zone trilogy",
+          "productTitle": "S.T.A.L.K.E.R.: Legends of the Zone Trilogy",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7uzc.jpg",
+          "coverageCount": 3,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.0,
+            "bannerPixelRatio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 2230,
+      "title": "Saints Row IV: Re-Elected",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidates": [
+        {
+          "productKey": "saints row iv re elected and gat out of hell",
+          "productTitle": "Saints Row IV: Re-Elected & Gat Out of Hell",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ch0.jpg",
+          "coverageCount": 2,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.0,
+            "bannerPixelRatio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 2116,
+      "title": "Scribblenauts Unmasked: A DC Comics Adventure",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidates": [
+        {
+          "productKey": "scribblenauts mega pack",
+          "productTitle": "Scribblenauts Mega Pack",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/du7bf613i5hyjwbto3rj.jpg",
+          "coverageCount": 2,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.3371,
+            "bannerPixelRatio": 0.0902
+          }
+        }
+      ]
+    },
+    {
+      "id": 2118,
+      "title": "SteamWorld Heist",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidates": [
+        {
+          "productKey": "steamworld collection",
+          "productTitle": "SteamWorld Collection",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4fny.jpg",
+          "coverageCount": 2,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.0,
+            "bannerPixelRatio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 2223,
+      "title": "Batman: Arkham City Remastered",
+      "bucket": "review",
+      "reason": "missing_ps4_banner",
+      "candidates": [
+        {
+          "productKey": "batman arkham collection",
+          "productTitle": "Batman: Arkham Collection",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8wgm.jpg",
+          "coverageCount": 2,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.0,
+            "bannerPixelRatio": 0.0
+          }
+        },
+        {
+          "productKey": "batman return to arkham",
+          "productTitle": "Batman: Return to Arkham",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dhj.jpg",
+          "coverageCount": 2,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.0152,
+            "bannerPixelRatio": 0.0004
+          }
+        }
+      ]
+    },
+    {
+      "id": 2200,
+      "title": "Danganronpa: Trigger Happy Havoc",
+      "bucket": "review",
+      "reason": "missing_ps4_banner",
+      "candidates": [
+        {
+          "productKey": "danganronpa 1 2 reload",
+          "productTitle": "Danganronpa 1-2 Reload",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23px.jpg",
+          "coverageCount": 2,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.0,
+            "bannerPixelRatio": 0.0
+          }
+        },
+        {
+          "productKey": "danganronpa trilogy",
+          "productTitle": "Danganronpa Trilogy",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2puk.jpg",
+          "coverageCount": 3,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.0,
+            "bannerPixelRatio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 2122,
+      "title": "Resident Evil 0 HD Remaster",
+      "bucket": "review",
+      "reason": "missing_ps4_banner",
+      "candidates": [
+        {
+          "productKey": "resident evil origins collection",
+          "productTitle": "Resident Evil: Origins Collection",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3dnx.jpg",
+          "coverageCount": 2,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.0,
+            "bannerPixelRatio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 2090,
+      "title": "S.T.A.L.K.E.R.: Call of Prypiat",
+      "bucket": "review",
+      "reason": "missing_ps4_banner",
+      "candidates": [
+        {
+          "productKey": "s t a l k e r legends of the zone trilogy",
+          "productTitle": "S.T.A.L.K.E.R.: Legends of the Zone Trilogy",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7uzc.jpg",
+          "coverageCount": 3,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.0,
+            "bannerPixelRatio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 2115,
+      "title": "Scribblenauts Unlimited",
+      "bucket": "review",
+      "reason": "missing_ps4_banner",
+      "candidates": [
+        {
+          "productKey": "scribblenauts mega pack",
+          "productTitle": "Scribblenauts Mega Pack",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/du7bf613i5hyjwbto3rj.jpg",
+          "coverageCount": 2,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.3371,
+            "bannerPixelRatio": 0.0902
+          }
+        }
+      ]
+    },
+    {
+      "id": 2222,
+      "title": "Batman: Arkham Asylum Remastered",
+      "bucket": "review",
+      "reason": "missing_ps4_banner",
+      "candidates": [
+        {
+          "productKey": "batman arkham collection",
+          "productTitle": "Batman: Arkham Collection",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8wgm.jpg",
+          "coverageCount": 2,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.0,
+            "bannerPixelRatio": 0.0
+          }
+        },
+        {
+          "productKey": "batman return to arkham",
+          "productTitle": "Batman: Return to Arkham",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dhj.jpg",
+          "coverageCount": 2,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.0152,
+            "bannerPixelRatio": 0.0004
+          }
+        }
+      ]
+    },
+    {
+      "id": 1132,
+      "title": "Star Wars Episode I: Racer",
+      "bucket": "review",
+      "reason": "missing_ps4_banner",
+      "candidates": [
+        {
+          "productKey": "star wars racer and commando combo",
+          "productTitle": "Star Wars Racer & Commando Combo",
+          "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3sr6.jpg",
+          "coverageCount": 2,
+          "metrics": {
+            "width": 264,
+            "height": 352,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.2386,
+            "bannerPixelRatio": 0.0824
+          }
+        }
+      ]
     }
   ]
 }
