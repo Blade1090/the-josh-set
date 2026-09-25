@@ -36,12 +36,16 @@ if(fs.existsSync('cover-gameye-retail.js')){
   if(!res.ok)throw new Error(`Unable to fetch production GameEye retail layer: ${res.status}`);
   gameye=evalText(await res.text(),'cover-gameye-retail.remote.js').SHELFCHECK_GAMEYE_RETAIL||{};
 }
+const launchbox=fs.existsSync('cover-launchbox-retail.js')?evalFile('cover-launchbox-retail.js').SHELFCHECK_LAUNCHBOX_COVERS||{}:{};
 const titleMap=fs.existsSync('cover-title-overrides.js')?evalFile('cover-title-overrides.js').SHELFCHECK_TITLE_COVERS||{}:{};
 const base=manifest.SHELFCHECK_COVERS||{},final=afterOverrides.SHELFCHECK_COVERS||base;
 const rows=[];
 for(const x of items.filter(v=>v.set==='INCLUDED').sort((a,b)=>a.title.localeCompare(b.title))){
   const key=norm(x.title);let source,url;
-  if(titleMap[key]){source='CURATED_TITLE';url=titleMap[key]}
+  // LaunchBox contains only titles deliberately recovered from the runtime REVIEW/WATCH/FALLBACK queue.
+  // It therefore takes precedence over the bad legacy/curated image that caused that title to be queued.
+  if(launchbox[x.id]){source='LAUNCHBOX_BOX_FRONT';url=launchbox[x.id]}
+  else if(titleMap[key]){source='CURATED_TITLE';url=titleMap[key]}
   else if(gameye[x.id]){source='GAMEYE';url=gameye[x.id]}
   else if(final[x.id]&&final[x.id]!==base[x.id]){source=/image\.api\.playstation\.com/.test(final[x.id])?'PS_STORE_OVERRIDE':'CURATED_ID';url=final[x.id]}
   else if(base[x.id]){source='LEGACY_IGDB';url=base[x.id]}
