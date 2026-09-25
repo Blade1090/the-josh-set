@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-25T15:27:34.543Z",
+  "generatedAt": "2026-09-25T15:30:57.858Z",
   "summary": {
-    "generatedAt": "2026-09-25T15:27:34.543Z",
+    "generatedAt": "2026-09-25T15:30:57.858Z",
     "included": 2407,
     "good": 954,
     "fallback": 8,
-    "review": 1387,
-    "watch": 58,
+    "review": 1388,
+    "watch": 57,
     "physicalVerify": 1355,
     "physicalLikely": 1016,
     "physicalConfirmed": 36,
@@ -15,14 +15,19 @@
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
+      "missing_cover": 1,
       "key_art_only": 1297,
       "missing_ps4_banner": 90
     },
     "watchByReason": {
-      "image_fetch_failed": 58
+      "image_fetch_failed": 57
     }
   },
   "review": [
+    {
+      "title": "Constructor",
+      "reason": "missing_cover"
+    },
     {
       "title": "112th Seed",
       "reason": "key_art_only"
@@ -5645,10 +5650,6 @@
     },
     {
       "title": "Capcom Beat 'Em Up Bundle",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "title": "Constructor",
       "reason": "image_fetch_failed"
     },
     {
