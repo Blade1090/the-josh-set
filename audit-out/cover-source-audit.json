@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-25T19:57:30.277Z",
+  "generatedAt": "2026-09-25T21:28:49.720Z",
   "included": 2407,
   "counts": {
-    "CURATED_ID": 7,
-    "CURATED_TITLE": 56,
-    "GAMEYE": 939,
-    "LAUNCHBOX_BOX_FRONT": 678,
-    "LEGACY_IGDB": 305,
-    "PRICECHARTING_BOX_FRONT": 375,
+    "CURATED_ID": 4,
+    "CURATED_TITLE": 135,
+    "GAMEYE": 935,
+    "LAUNCHBOX_BOX_FRONT": 688,
+    "LEGACY_IGDB": 189,
+    "PRICECHARTING_BOX_FRONT": 409,
     "PRODUCT_BOX_FRONT": 47
   },
   "rows": [
@@ -536,8 +536,8 @@
     {
       "id": 2482,
       "title": "Alice Gear Aegis CS: Concerto of Simulatrix",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob6ec.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/7ad687a1c0ff67e60905ef0e9c2d9f14efa1d02baab6c96be2208db426febd3a/1600.jpg"
     },
     {
       "id": 64,
@@ -650,8 +650,8 @@
     {
       "id": 2079,
       "title": "Among Us",
-      "source": "GAMEYE",
-      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/53b69972-7cfd-4f81-92c3-ff3e39d634fd.webp"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/jx3ohgqjrfo5ubkm/1600.jpg"
     },
     {
       "id": 73,
@@ -729,7 +729,7 @@
       "id": 1992,
       "title": "Another World",
       "source": "CURATED_TITLE",
-      "url": "https://gamefaqs.gamespot.com/a/box/4/5/2/721452_front.jpg"
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/56047-1.jpg"
     },
     {
       "id": 2444,
@@ -752,14 +752,14 @@
     {
       "id": 1567,
       "title": "Aokana - Four Rhythms Across the Blue",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2t16.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/51db4c25b2c35598836520c508f8567ef0f3d5eef7cff842be55a0665545dabd/1600.jpg"
     },
     {
       "id": 81,
       "title": "Apex Legends",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocqh2.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/6a4dba35a233dc0119857ffbd9ef9c86326227fab7b21b8be0225f3ab1fcd4e3/1600.jpg"
     },
     {
       "id": 2275,
@@ -1562,8 +1562,8 @@
     {
       "id": 2515,
       "title": "Behind the Frame",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co36h5.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/121299-1.jpg"
     },
     {
       "id": 2516,
@@ -1988,8 +1988,8 @@
     {
       "id": 2532,
       "title": "Bomb Rush Cyberfunk",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ya8.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/121702-1.jpg"
     },
     {
       "id": 195,
@@ -2264,8 +2264,8 @@
     {
       "id": 2542,
       "title": "Bus Simulator",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28vz.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/91088-1.jpg"
     },
     {
       "id": 2543,
@@ -2540,8 +2540,8 @@
     {
       "id": 2550,
       "title": "Chef Life: A Restaurant Simulator",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4hwz.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/a692866d1445a23f396f4dd20563a0b45b454900ea3da7cc31e370f541007c17/1600.jpg"
     },
     {
       "id": 2295,
@@ -2732,8 +2732,8 @@
     {
       "id": 1892,
       "title": "Colt Canyon",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co29r7.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/120961-1.jpg"
     },
     {
       "id": 2214,
@@ -2906,8 +2906,8 @@
     {
       "id": 1595,
       "title": "Crashbots",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co249m.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/99766-1.jpg"
     },
     {
       "id": 275,
@@ -3158,8 +3158,8 @@
     {
       "id": 2563,
       "title": "Dark Pictures: The Devil in Me",
-      "source": "CURATED_ID",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coamte.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/94743-1.jpg"
     },
     {
       "id": 1810,
@@ -3488,8 +3488,8 @@
     {
       "id": 2468,
       "title": "Deformers",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7vod.jpg"
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/31c7087f-7bbe-4581-9db9-9400dfd414cb.png"
     },
     {
       "id": 347,
@@ -4160,8 +4160,8 @@
     {
       "id": 1610,
       "title": "Earthlock",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rv0.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97YDfDhP5UGLe7ditzHD2mXO59TTnVEtCM-j66ZnDV4u8EUE9MJDp14rA0g-4thS0a_YA7FxcxZ20vnFQBShvN4uxQzJz9BC5SrYf2LBotyGR23y2OIRx3ZC0YDnDq1JXsuRyHmRwCIEZUjyv9tEOrRWW1SBQ/1600.jpg"
     },
     {
       "id": 430,
@@ -4220,8 +4220,8 @@
     {
       "id": 435,
       "title": "Elex",
-      "source": "GAMEYE",
-      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/f47221c3-a946-4f7e-a9c5-8b5d4421cd98.webp"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/598d171c8c601a42c9a4e68719ad7a69c3fbbc05272d1c533bc650bec41f8452/1600.jpg"
     },
     {
       "id": 436,
@@ -4616,8 +4616,8 @@
     {
       "id": 474,
       "title": "Fell Seal: Arbiter's Mark",
-      "source": "GAMEYE",
-      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/9fa2da87-7947-4645-aeb8-9315415ac639.webp"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/89871-1.jpg"
     },
     {
       "id": 475,
@@ -4958,8 +4958,8 @@
     {
       "id": 1626,
       "title": "Galaxy of Pen & Paper +1 Edition",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7fps.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/121309-1.jpg"
     },
     {
       "id": 2584,
@@ -4976,8 +4976,8 @@
     {
       "id": 518,
       "title": "Game Tengoku: Cruisin Mix Special",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co50q2.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/113360-1.jpg"
     },
     {
       "id": 519,
@@ -5072,8 +5072,8 @@
     {
       "id": 525,
       "title": "Geometry Wars 3: Dimensions",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2q8e.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96KR2nMz8yFtqtiWBcsTkb3bkKkKBf3xM0SsCOEnOt8Pu4V2cjbdW1n87lgSGTJhS6t4MyYh0dZ-VI6JS_5HCHpBT4T40phsyZrxrMrFADN99q0Px6QlBKxDJqKI63Nrj0aYPKzhbhjH_1QP4YzPUKweVavNA/1600.jpg"
     },
     {
       "id": 2471,
@@ -5138,8 +5138,8 @@
     {
       "id": 529,
       "title": "Ghostbusters",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co45qr.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95Qa9VK3SXdyW9thPEPIEIxPlxniuH3v2UJapgd2j8HYk52uDeJnRPOff9Ov-JGVFWcKfBa75qcOgV2uq8KiMvzT83QYXXFs6eCEdp26VxxnVfc6RvYvCcQfNEGKGyMomMnWDmzLGgzqkR7WZnoDSdtzkD1IA/1600.jpg"
     },
     {
       "id": 530,
@@ -5384,8 +5384,8 @@
     {
       "id": 2312,
       "title": "GrimGrimoire OnceMore",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob42c.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/3e0ea0ba255fdae6b7cf8ec7e97349e8027bebe27b21a3d201750c2d4773df71/1600.jpg"
     },
     {
       "id": 554,
@@ -5486,8 +5486,8 @@
     {
       "id": 2063,
       "title": "Guns N' Runs",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2vtr.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/123012-1.jpg"
     },
     {
       "id": 1632,
@@ -5528,8 +5528,8 @@
     {
       "id": 568,
       "title": "Halloween Forever",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27pr.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/66903-1.jpg"
     },
     {
       "id": 2055,
@@ -5546,8 +5546,8 @@
     {
       "id": 2598,
       "title": "Hand Of Fate 2",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2iiq.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/68260-1.jpg"
     },
     {
       "id": 570,
@@ -5582,14 +5582,14 @@
     {
       "id": 2601,
       "title": "Harvest Moon: The Winds of Anthos",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6vi3.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/85c96a7cdead43d2382973ec3cced84237b75a4cdb916e656e2f7cd444ad369d/1600.jpg"
     },
     {
       "id": 575,
       "title": "Has-Been Heroes",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24xa.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/108883-1.jpg"
     },
     {
       "id": 1633,
@@ -5936,8 +5936,8 @@
     {
       "id": 1641,
       "title": "I Am Setsuna",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pwt.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/c2a74a56a9355b653b13c6c0791fd6bc41dff19546e08580fcb4f55d59c687b2/1600.jpg"
     },
     {
       "id": 2020,
@@ -6116,8 +6116,8 @@
     {
       "id": 1644,
       "title": "Infinite: Beyond the Mind",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co247f.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/zejkqsxc7b56oukk/1600.jpg"
     },
     {
       "id": 2613,
@@ -6164,8 +6164,8 @@
     {
       "id": 1918,
       "title": "Inspector Waffles",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2urr.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/96425-1.jpg"
     },
     {
       "id": 2615,
@@ -6206,8 +6206,8 @@
     {
       "id": 1646,
       "title": "Is It Wrong To Try To Pick Up Girls In A Dungeon? - Infinite Combate",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2m8z.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/68243-1.jpg"
     },
     {
       "id": 2617,
@@ -6656,8 +6656,8 @@
     {
       "id": 681,
       "title": "Kromaia Omega",
-      "source": "GAMEYE",
-      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/44363a4b-434f-4461-a8cf-489a967a1802.webp"
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/c6c53d77-2473-48be-af70-989af961bfa7.jpg"
     },
     {
       "id": 682,
@@ -6740,8 +6740,8 @@
     {
       "id": 2320,
       "title": "Lake",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ogi.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/100369-1.jpg"
     },
     {
       "id": 689,
@@ -6842,8 +6842,8 @@
     {
       "id": 1936,
       "title": "Legend of the Skyfish",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21bj.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/74076-1.jpg"
     },
     {
       "id": 1653,
@@ -7022,8 +7022,8 @@
     {
       "id": 1869,
       "title": "Light Fairytale Episode 2",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2cuz.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/124696-1.jpg"
     },
     {
       "id": 1552,
@@ -7136,8 +7136,8 @@
     {
       "id": 2423,
       "title": "Lord Winklebottom Investigates",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2m9b.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/7k3rpja4wmidz7pr/1600.jpg"
     },
     {
       "id": 729,
@@ -7298,8 +7298,8 @@
     {
       "id": 742,
       "title": "Maneater",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1lx6.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/72729-1.jpg"
     },
     {
       "id": 2392,
@@ -7382,8 +7382,8 @@
     {
       "id": 2323,
       "title": "Mato Anomalies",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5krk.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/ac6df0320e7b967f80d866ed2da779e9dc6e341e30a295c4650d1ff8b2187308/1600.jpg"
     },
     {
       "id": 1668,
@@ -7466,14 +7466,14 @@
     {
       "id": 761,
       "title": "Mercenaries Wings: The False Phoenix",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co45l6.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/75940-1.jpg"
     },
     {
       "id": 762,
       "title": "Mercenary Kings",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gyh.jpg"
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/5a64ccf3-0247-481b-aabc-1da7379f3b09.jpg"
     },
     {
       "id": 1669,
@@ -7646,8 +7646,8 @@
     {
       "id": 785,
       "title": "Minit",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vcj.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/54428-1.jpg"
     },
     {
       "id": 1840,
@@ -7790,8 +7790,8 @@
     {
       "id": 802,
       "title": "Moving Out",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xlt.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/72053-1.jpg"
     },
     {
       "id": 803,
@@ -7814,8 +7814,8 @@
     {
       "id": 805,
       "title": "Musynx",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27mn.jpg"
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/08ca1cb4-f43c-4908-a153-411a834d254d.jpg"
     },
     {
       "id": 806,
@@ -7856,8 +7856,8 @@
     {
       "id": 811,
       "title": "My Friend Pedro",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa4j0.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/74951-1.jpg"
     },
     {
       "id": 2427,
@@ -7940,8 +7940,8 @@
     {
       "id": 820,
       "title": "Naruto Shippuden: Ultimate Ninja Storm 4",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3whm.jpg"
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/3e126bb8-506a-4c72-a847-b47c94e652fb.jpg"
     },
     {
       "id": 822,
@@ -7988,8 +7988,8 @@
     {
       "id": 2659,
       "title": "Necromunda: Hired Gun",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co31dd.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.shopify.com/s/files/1/0557/5868/4333/files/VGP0014257_6746c2fe-a1e3-4975-8e94-2830334f87a3.jpg?v=1692291610"
     },
     {
       "id": 1677,
@@ -8132,8 +8132,8 @@
     {
       "id": 836,
       "title": "Nexomon: Extinction",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4eq6.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/76528-1.jpg"
     },
     {
       "id": 2655,
@@ -8192,8 +8192,8 @@
     {
       "id": 844,
       "title": "Night Trap: 25th Anniversary Edition",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ufg.jpg"
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/eb77c9cf-cf66-4fc3-b227-8df4546e36b5.jpg"
     },
     {
       "id": 1680,
@@ -8264,8 +8264,8 @@
     {
       "id": 849,
       "title": "Nitroplus Blasterz: Heroines Infinite Duel",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2yyu.jpg"
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/80dc420d-3b64-44af-8376-5614368acc0f.jpg"
     },
     {
       "id": 1681,
@@ -8492,8 +8492,8 @@
     {
       "id": 2331,
       "title": "OMORI",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xlp.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/101753-1.jpg"
     },
     {
       "id": 2671,
@@ -8582,14 +8582,14 @@
     {
       "id": 2674,
       "title": "OneShot: World Machine Edition",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ldh.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/114312-1.jpg"
     },
     {
       "id": 1857,
       "title": "ONI: Road to be the Mightiest Oni",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5a3o.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/116793-1.jpg"
     },
     {
       "id": 874,
@@ -8720,8 +8720,8 @@
     {
       "id": 2332,
       "title": "Oxide Room 104",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bx5.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/119014-1.jpg"
     },
     {
       "id": 890,
@@ -8816,8 +8816,8 @@
     {
       "id": 2690,
       "title": "Pathfinder: Wrath of the Righteous",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uq7.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/79b75e9e38af7ca658c6f39cc9197d1d0366205bdf5854ecde1eef0682d21c3d/1600.jpg"
     },
     {
       "id": 1885,
@@ -8870,8 +8870,8 @@
     {
       "id": 2430,
       "title": "Peaky Blinders Mastermind",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23is.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/80296-1.jpg"
     },
     {
       "id": 900,
@@ -8972,8 +8972,8 @@
     {
       "id": 909,
       "title": "Pineview Drive",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co887i.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://vgdb.uk/images/db/covers/216492.jpg"
     },
     {
       "id": 910,
@@ -8984,8 +8984,8 @@
     {
       "id": 911,
       "title": "PixARK",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co26cp.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/65806-1.jpg"
     },
     {
       "id": 913,
@@ -8996,8 +8996,8 @@
     {
       "id": 2681,
       "title": "PJ Masks Power Heroes: Mighty Alliance",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7wpd.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/e98a226ec0ecd9fc91b6ca6b54cf3403308864949212ee23b4f23c4adcb5d479/1600.jpg"
     },
     {
       "id": 2682,
@@ -9032,8 +9032,8 @@
     {
       "id": 917,
       "title": "Plants vs Zombies: Garden Warfare 2",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3xur.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/35453-1.jpg"
     },
     {
       "id": 918,
@@ -9074,8 +9074,8 @@
     {
       "id": 922,
       "title": "Pool Nation",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co804e.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/66894-1.jpg"
     },
     {
       "id": 924,
@@ -9092,8 +9092,8 @@
     {
       "id": 925,
       "title": "Port Royale 4",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xt5.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/9c2490dfbe28cbe496e05f13e251208f125f1b64d3d632b9706e195e7df76c0a/1600.jpg"
     },
     {
       "id": 926,
@@ -9104,8 +9104,8 @@
     {
       "id": 2009,
       "title": "Postal REDUX",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24qk.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/91566-1.jpg"
     },
     {
       "id": 2336,
@@ -9164,8 +9164,8 @@
     {
       "id": 2337,
       "title": "Prodeus",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3b8o.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/113505-1.jpg"
     },
     {
       "id": 931,
@@ -9248,8 +9248,8 @@
     {
       "id": 939,
       "title": "Psyvariar Delta",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co67mm.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/65663-1.jpg"
     },
     {
       "id": 940,
@@ -9344,8 +9344,8 @@
     {
       "id": 2701,
       "title": "Rabbids: Party of Legends",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9zwq.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/102933-1.jpg"
     },
     {
       "id": 947,
@@ -9470,8 +9470,8 @@
     {
       "id": 959,
       "title": "Rainbow Moon",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/xc2cyw3fulmuns2npcmx.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/dfa24932f51320a681b6522a52f8ab629565b5b5f1af10e1ee4f197c8a828164/1600.jpg"
     },
     {
       "id": 2709,
@@ -9494,8 +9494,8 @@
     {
       "id": 2338,
       "title": "Ravenswatch",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocs4b.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/uqqc5wr3kw55yyng/1600.jpg"
     },
     {
       "id": 1907,
@@ -9590,8 +9590,8 @@
     {
       "id": 1864,
       "title": "Relayer",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co31cz.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/120008-1.jpg"
     },
     {
       "id": 971,
@@ -9626,8 +9626,8 @@
     {
       "id": 975,
       "title": "Republique",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7uq0.jpg"
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/36866905-858c-4dff-890b-a4514b60ffe1.jpg"
     },
     {
       "id": 2122,
@@ -9710,14 +9710,14 @@
     {
       "id": 987,
       "title": "Return of the Obra Dinn",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27j9.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/75100-1.jpg"
     },
     {
       "id": 988,
       "title": "Reus",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z3q.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://vgdb.uk/images/db/covers/214073.jpg"
     },
     {
       "id": 989,
@@ -9818,8 +9818,8 @@
     {
       "id": 2269,
       "title": "Risen",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5te7.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/106423-1.jpg"
     },
     {
       "id": 998,
@@ -9962,8 +9962,8 @@
     {
       "id": 1015,
       "title": "Rocksmith 2014 Edition",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co48zw.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/25754-1.jpg"
     },
     {
       "id": 1713,
@@ -9986,8 +9986,8 @@
     {
       "id": 1018,
       "title": "Rogue Trooper Redux",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24od.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/60882-1.jpg"
     },
     {
       "id": 1714,
@@ -10016,8 +10016,8 @@
     {
       "id": 1845,
       "title": "Romancing SaGa -Minstrel Song- Remastered",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7tq9.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/114382-1.jpg"
     },
     {
       "id": 1715,
@@ -10124,8 +10124,8 @@
     {
       "id": 1997,
       "title": "RWBY: Arrowfell",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6epe.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/7d272001baca3aaf4f77570662e3f9493191bae95bb3d7429cfb08c6fcea68fd/1600.jpg"
     },
     {
       "id": 1717,
@@ -10244,8 +10244,8 @@
     {
       "id": 2054,
       "title": "Samurai Maiden",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vcu.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/107198-1.jpg"
     },
     {
       "id": 1032,
@@ -10376,8 +10376,8 @@
     {
       "id": 2086,
       "title": "SD Gundam G Generation Cross Rays",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co31hr.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97Ul6Mmstx0brBvnR9CRYaa4KVkqz07HYIP13SCg3rgizN67-MjSyqCCF8c1lBa-Y3BkJhg1GHzKDk5csiKUuYwvNC7Zi048PO0InfeTWgpeo_CQLE1Fix6iBV9u4C8mqSodfz4l1diTYT6CEw8gtE6wE9oyw/1600.jpg"
     },
     {
       "id": 2711,
@@ -10514,8 +10514,8 @@
     {
       "id": 2249,
       "title": "Shadow of the Ninja - Reborn",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8sry.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/128984-1.jpg"
     },
     {
       "id": 1056,
@@ -10634,8 +10634,8 @@
     {
       "id": 1725,
       "title": "Shenmue I",
-      "source": "CURATED_TITLE",
-      "url": "https://gamefaqs.gamespot.com/a/box/7/4/6/686746_front.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/33638023de6a6c5eb67f452bac16043f52f1dd7368c04441a4615bf28e12d0cf/1600.jpg"
     },
     {
       "id": 1069,
@@ -10784,8 +10784,8 @@
     {
       "id": 1077,
       "title": "Siralim 2",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co222g.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/63134-1.jpg"
     },
     {
       "id": 1976,
@@ -10808,8 +10808,8 @@
     {
       "id": 1846,
       "title": "Skautfold: Into The Fray",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9fh4.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/asn6jp2nif3hn7kq/1600.jpg"
     },
     {
       "id": 1903,
@@ -10844,8 +10844,8 @@
     {
       "id": 1081,
       "title": "Skully",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27l1.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/121605-1.jpg"
     },
     {
       "id": 1082,
@@ -10904,8 +10904,8 @@
     {
       "id": 1090,
       "title": "Slide Stars",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kgl.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/82522-1.jpg"
     },
     {
       "id": 1091,
@@ -11054,8 +11054,8 @@
     {
       "id": 1878,
       "title": "Sophstar",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4qpy.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/110193-1.jpg"
     },
     {
       "id": 1555,
@@ -11108,8 +11108,8 @@
     {
       "id": 1114,
       "title": "Space Hulk: Deathwing",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24tj.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/55563-1.jpg"
     },
     {
       "id": 1115,
@@ -11624,8 +11624,8 @@
     {
       "id": 1739,
       "title": "Super Pixel Racers",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1h7n.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/jjmrw4zhqfieymh7/1600.jpg"
     },
     {
       "id": 1931,
@@ -11654,8 +11654,8 @@
     {
       "id": 1184,
       "title": "SuperEpic: The Entertainment War",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uqv.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/18fac6844160897e3dd05300428fefcf1ccd2c772eb32d8ea2a604a06b6e1c65/1600.jpg"
     },
     {
       "id": 2351,
@@ -11726,8 +11726,8 @@
     {
       "id": 2013,
       "title": "Sword of the Necromancer",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2elf.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/ddc527169e2d6025ec3936dab74e8609c89cafb2b1fcdc7f7155d9391f4e8ec4/1600.jpg"
     },
     {
       "id": 1873,
@@ -11780,8 +11780,8 @@
     {
       "id": 2466,
       "title": "Tadeo Jones y el Manuscrito Perdido",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9h5d.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/74813-1.jpg"
     },
     {
       "id": 2729,
@@ -11798,14 +11798,14 @@
     {
       "id": 2730,
       "title": "Tails of Iron",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6pae.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/a0691c58047c9ad91ba2700e5c362f68dfa31597e0d154052b9e62d228b4db14/1600.jpg"
     },
     {
       "id": 1875,
       "title": "Taimumari",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rn2.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/110275-1.jpg"
     },
     {
       "id": 1198,
@@ -11828,8 +11828,8 @@
     {
       "id": 2731,
       "title": "Tales Of Graces F Remastered",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8qra.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.shopify.com/s/files/1/0557/5868/4333/files/81zsPiQJbDL._AC_SL1500.jpg?v=1727360209"
     },
     {
       "id": 2732,
@@ -11864,14 +11864,14 @@
     {
       "id": 1742,
       "title": "Tandem: A Tale of Shadows",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co42jk.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/98927-1.jpg"
     },
     {
       "id": 1743,
       "title": "Tannenberg",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2c7p.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/101034-1.jpg"
     },
     {
       "id": 2407,
@@ -11912,8 +11912,8 @@
     {
       "id": 1205,
       "title": "Tearaway Unfolded",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nfd.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/101410-1.jpg"
     },
     {
       "id": 2739,
@@ -11942,8 +11942,8 @@
     {
       "id": 1744,
       "title": "Teenage Mutant Ninja Turtles: Splintered Fate - Deluxe Edition",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa1fv.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/h4ro4tshj6e3r4oo/1600.jpg"
     },
     {
       "id": 1207,
@@ -12122,8 +12122,8 @@
     {
       "id": 1229,
       "title": "The Complex",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6l6b.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/82015-1.jpg"
     },
     {
       "id": 1230,
@@ -12158,8 +12158,8 @@
     {
       "id": 1235,
       "title": "The Dark Pictures - Little Hope",
-      "source": "CURATED_ID",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20xn.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.shopify.com/s/files/1/0557/5868/4333/products/PS4_DARKPICTURES_LITTLEHOPE.jpg?v=1618123714"
     },
     {
       "id": 1943,
@@ -12356,8 +12356,8 @@
     {
       "id": 1264,
       "title": "The Last Tinker: City of Colors",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co43wv.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/41440-1.jpg"
     },
     {
       "id": 1265,
@@ -12392,8 +12392,8 @@
     {
       "id": 2050,
       "title": "The Legend of Nayuta: Boundless Trails",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3bb1.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.shopify.com/s/files/1/0557/5868/4333/files/Nayuta_BoundlessPS4.jpg?v=1777311338"
     },
     {
       "id": 1270,
@@ -12428,14 +12428,14 @@
     {
       "id": 1275,
       "title": "The Lost Child",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23dh.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/60019-1.jpg"
     },
     {
       "id": 1276,
       "title": "The Messenger",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob1th.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/64569-1.jpg"
     },
     {
       "id": 1758,
@@ -12458,8 +12458,8 @@
     {
       "id": 1278,
       "title": "The Mummy Demastered",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23do.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/62699-1.jpg"
     },
     {
       "id": 1279,
@@ -12512,8 +12512,8 @@
     {
       "id": 1911,
       "title": "The Procession to Calvary",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25hf.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/111022-1.jpg"
     },
     {
       "id": 2356,
@@ -12602,8 +12602,8 @@
     {
       "id": 1299,
       "title": "The Swords of Ditto: Mormo's Curse",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1l41.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/55076-1.jpg"
     },
     {
       "id": 2046,
@@ -12626,14 +12626,14 @@
     {
       "id": 1302,
       "title": "The Town of Light",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20cu.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/48549-1.jpg"
     },
     {
       "id": 1303,
       "title": "The Walking Dead: A Telltale Games Series - The Complete First Season",
-      "source": "CURATED_ID",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4wxx.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/24139-1.jpg"
     },
     {
       "id": 1762,
@@ -12770,8 +12770,8 @@
     {
       "id": 1326,
       "title": "Timespinner",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24ag.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/61183-1.jpg"
     },
     {
       "id": 1327,
@@ -12848,8 +12848,8 @@
     {
       "id": 1336,
       "title": "Tom Clancy's Rainbow Six Siege: Advanced Edition",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ly5.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/86585-1.jpg"
     },
     {
       "id": 1337,
@@ -12932,8 +12932,8 @@
     {
       "id": 1768,
       "title": "Tormented Souls",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vhs.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/98146-1.jpg"
     },
     {
       "id": 1769,
@@ -13058,8 +13058,8 @@
     {
       "id": 2359,
       "title": "Trash Sailors",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co29q4.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/118565-1.jpg"
     },
     {
       "id": 1356,
@@ -13130,8 +13130,8 @@
     {
       "id": 1366,
       "title": "Troll and I",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2it2.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94BQmB3WynWrPgihdPreWma1lJzMIEC9waytJD2eMA_DKeAMdAGv9r7k7wwZryuvDy0X37wFBwNa87SMzdfMTknQY_dRiwdPBoLLgy9urRATPHmizJ4_90nOLwzgABBibWQkPkx0-30fepsmytQNnVqxD7a9w/1600.jpg"
     },
     {
       "id": 1367,
@@ -13154,8 +13154,8 @@
     {
       "id": 1979,
       "title": "Trouble Witches Final: Episode 1 - Daughters of Amalgam",
-      "source": "CURATED_TITLE",
-      "url": "https://gamefaqs.gamespot.com/a/box/5/8/1/964581_front.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/thvxbgcocwwd55cx/1600.jpg"
     },
     {
       "id": 1371,
@@ -13340,8 +13340,8 @@
     {
       "id": 2746,
       "title": "Under Night In-Birth II: Sys:Celes",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6w3y.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/xhttdbaqvfavvte4/1600.jpg"
     },
     {
       "id": 2747,
@@ -13574,8 +13574,8 @@
     {
       "id": 1400,
       "title": "Vegas Party",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3bdp.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/63117-1.jpg"
     },
     {
       "id": 1780,
@@ -13586,8 +13586,8 @@
     {
       "id": 2365,
       "title": "Vengeful Guardian: Moonrider",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5uti.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/117243-1.jpg"
     },
     {
       "id": 2754,
@@ -13676,8 +13676,8 @@
     {
       "id": 1783,
       "title": "Volume",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7kfr.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/31306-1.jpg"
     },
     {
       "id": 2758,
@@ -13772,8 +13772,8 @@
     {
       "id": 1419,
       "title": "Warhammer: Vermintide 2",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20u8.jpg"
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/d90830ee-8f18-4c32-86af-4d1f50554ac1.jpg"
     },
     {
       "id": 1784,
@@ -13862,8 +13862,8 @@
     {
       "id": 1545,
       "title": "West of Dead",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lpa.jpg"
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/d215997e-97ff-4d38-9bcb-c1d91d908fda.jpg"
     },
     {
       "id": 1785,
@@ -13916,8 +13916,8 @@
     {
       "id": 1436,
       "title": "WILL: A Wonderful World",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24k7.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/64105-1.jpg"
     },
     {
       "id": 1437,
@@ -14114,8 +14114,8 @@
     {
       "id": 1791,
       "title": "Xeno Crisis",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uh0.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.shopify.com/s/files/1/0557/5868/4333/files/Xeno_Crisis_PS4_T_Front_Cover.jpg?v=1779996464"
     },
     {
       "id": 1462,
@@ -14139,7 +14139,7 @@
       "id": 1465,
       "title": "XIII (Remake)",
       "source": "CURATED_TITLE",
-      "url": "https://gamefaqs.gamespot.com/a/box/8/1/1/856811_front.jpg"
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/69210-1.jpg"
     },
     {
       "id": 2765,
@@ -14228,8 +14228,8 @@
     {
       "id": 1924,
       "title": "YesterMorrow",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ixs.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/88404-1.jpg"
     },
     {
       "id": 1793,
@@ -14276,14 +14276,14 @@
     {
       "id": 2770,
       "title": "You Suck at Parking",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co59yn.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/9cafc54d2d4f1c391724f76416ee4ca10f0b18157efb4d1619235994450fb279/1600.jpg"
     },
     {
       "id": 2772,
       "title": "Young Souls",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4kal.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/nud7uirjdw6xquba/1600.jpg"
     },
     {
       "id": 2773,
@@ -14318,8 +14318,8 @@
     {
       "id": 2048,
       "title": "Ys X: Nordics",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7s9q.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/129794-1.jpg"
     },
     {
       "id": 1482,
@@ -14348,8 +14348,8 @@
     {
       "id": 2777,
       "title": "Yurukill: The Calumniation Games",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4p28.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/101312-1.jpg"
     },
     {
       "id": 2085,
