@@ -1,0 +1,5843 @@
+{
+  "generatedAt": "2026-09-25T14:56:45.927Z",
+  "summary": {
+    "generatedAt": "2026-09-25T14:56:45.927Z",
+    "included": 2407,
+    "good": 954,
+    "fallback": 8,
+    "review": 1387,
+    "watch": 58,
+    "physicalVerify": 1355,
+    "physicalLikely": 1016,
+    "physicalConfirmed": 36,
+    "manualConfirmedBad": 0,
+    "manualFallback": 8,
+    "manualEligibility": 0,
+    "manualFixedTracked": 91,
+    "reviewByReason": {
+      "key_art_only": 1297,
+      "missing_ps4_banner": 90
+    },
+    "watchByReason": {
+      "image_fetch_failed": 58
+    }
+  },
+  "review": [
+    {
+      "title": "112th Seed",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "99Vidas",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "9th Dawn III",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "A Hole New World",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "A Plague Tale: Innocence",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "A Short Hike",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "A Way Out",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Acalesia",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Accel World vs. Sword Art Online: Millennium Twilight",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ace of Seafood",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Aces of the Luftwaffe: Squadron",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Adventures of Chris",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "AER: Memories of Old",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "AereA",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Agatha Christie: Murder on the Orient Express - Deluxe Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Aground",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "AK-xolotl",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Akinofa",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Alice Gear Aegis CS: Concerto of Simulatrix",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Alphadia Genesis 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Amazing Princess Sarah",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "American Hero",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Animal Hospital",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Anonymous;Code",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Aokana - Four Rhythms Across the Blue",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Apex Legends",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Apollo Justice: Ace Attorney",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Apsulov: End of Gods",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Arietta of Spirits",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Arise: A Simple Story",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ary and the Secret of Seasons",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ash of Gods: Redemption",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Assassin's Creed Brotherhood",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Assassin's Creed II",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Assassin's Creed Revelations",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Astebros",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Asterix & Obelix XXL 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Asterix & Obelix XXL 3: The Crystal Menhir",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Asterix & Obelix XXXL: The Ram from Hibernia",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Asterix & Obelix: Heroes",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Asterix & Obelix: Slap Them All!",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Atelier Yumia: The Alchemist Of Memories & The Envisioned Land",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Awesome Pea",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Awesome Pea 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Back to the Future: The Game",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Baldo: The Guardian Owls",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Batbarian: Testament of the Primordials",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "bayala - the game",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Beast Quest",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Beautiful Desolation",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Behind the Frame",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Beholder: Complete Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Beholgar",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Beyond Enemy Lines 2: Enhanced Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Beyond Good & Evil: 20th Anniversary Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Beyond the Ice Palace 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Bit Dungeon +",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Bite the Bullet",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Blast Brigade vs. the Evil Legion of Dr. Cread",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Blaster Master Zero 3",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Blind Men",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Bluey's Quest for the Gold Pen",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Bomb Rush Cyberfunk",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Bounty Battle",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Bratz Rhythm & Style",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Breach & Clear: Deadline",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Breathedge",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "BROK: The InvestiGator",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Broken Pieces",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Broken Sword - Shadow of the Templars: Reforged",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Broken Sword 5 The Serpent's Curse",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Brotherhood United",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Bud Spencer & Terence Hill - Slaps And Beans 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Bud Spencer & Terence Hill: Slaps And Beans",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Buried Stars",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Bus Simulator",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Bus Simulator 21",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Caladrius Blaze",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Call of the Sea",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Candle: The Power of the Flame",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Castlevania Requiem: Symphony of the Night & Rondo of Blood",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Cat Quest II",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Cathedral",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Catmaze",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Catty & Batty: The Spirit Guide",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Caveman Warriors",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Chained Echoes",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Chef Life: A Restaurant Simulator",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Chicken Range",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Chimparty",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Circuit Breakers",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Clash: Artifacts of Chaos",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Coffee Crisis",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Colossal Cave",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Colt Canyon",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Commandos 2 - HD Remaster",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Concept Destruction",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Contra: Operation Galuga",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Contraptions",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Corpse Killer: 25th Anniversary Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Cotton 100%",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Crash Bandicoot",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Crash Bandicoot 2: Cortex Strikes Back",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Crash Bandicoot: Warped",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Crash Dummy",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Crashbots",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Crawl",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Creepy Road",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Croixleur Sigma",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Crymachina",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Cuphead [Limited Edition]",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Cursed Castilla EX",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Cybertrash STATYX",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Damsel",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Danganronpa 2: Goodbye Despair",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Darius Cozmic Collection: Arcade",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Darius Cozmic Collection: Console",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Dark Devotion",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Dark Nights with Poe & Munro",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Dark Pictures Anthology: House of Ashes",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Dark Quest 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Darksiders II: Deathinitive Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Day of the Tentacle Remastered",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Dead Alliance",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Dead by Daylight",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "DEADBOLT",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Deadlight: Director's Cut",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Death Road to Canada",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Deathsmiles I + II",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Deeeer Simulator",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Deer Simulator",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Defender's Quest: Valley of the Forgotten DX Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Deformers",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Demetrios the Big Cynical Adventure",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Demon Gaze Extra",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Demon's Tilt",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Devious Dungeon",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Dex",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Diablo III: Ultimate Evil Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Die With Glory",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Dino Dini's Kick Off Revival",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Distrust",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "DJMax Respect",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Do Not Open",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Dogchild",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Dogurai",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Don't Starve Together: Console Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "DOOM 3",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Dora: Rainforest Rescue",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Double Dragon & Kunio-kun Retro Brawler Bundle",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Downward Spiral: Horus Station",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Downwell",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Dragon Fantasy: The Black Tome of Ice",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Dragon Lapis",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Dragon Quest Builders",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Dragon Quest Heroes II",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Drawfighters",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Dreamfall Chapters",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "DreamWorks Dragons Dawn of New Riders",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Drive!Drive!Drive!",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Duck Souls+",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "DUSK",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Earthfall",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Earthlock",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "EarthNight",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Edge Of Eternity",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Eldrador Creatures",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Elite: Dangerous",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Empire of Angels IV",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Enclave HD",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Endocrisis",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Enter Digiton: Heart of Corruption",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Escape From Life Inc.",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Escape From Tethys",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Evan's Remains",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Everreach: Project Eden",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Evoland: Legendary Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Factotum 90",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "FAR: Lone Sails",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Fat Princess Adventures",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "fault milestone one",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Fighting EX Layer",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Fimbul",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Final Fantasy VIII Remastered",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Firewatch",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Five Dates",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Flockers",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Forestry 2017: The Simulation",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Frane: Dragons' Odyssey",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Freedom Finger",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Freedom Planet",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Furi",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Furwind",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Fury Unleashed",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Future Unfolding",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Futuridium EP Deluxe",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Galak-Z: The Void",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Galaxy of Pen & Paper +1 Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Game Tengoku: Cruisin Mix Special",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Garden Life: A Cozy Simulator",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Garden Simulator",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Garou: Mark of the Wolves",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Gearshifters",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Gekido Kintaro's Revenge",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Gene Rain",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Geometry Wars 3: Dimensions",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ghost 1.0",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ghost Of A Tale",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ghost Recon: Breakpoint",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ghostbusters",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Gigabash",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Gigantosaurus: Dino Sports",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ginga Force",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ginger Beyond the Crystal",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Giraffe and Annika",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Glam's Incredible Run: Escape from Dukha",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Goat Simulator: The Bundle",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Godstrike",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Golden Force",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Gori: Cuddly Carnage",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Grand Theft Auto V",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Grave Danger",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Gravity Ghost: Deluxe Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "GrimGrimoire OnceMore",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Gunborg: Dark Matters",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Guns N' Runs",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Guns, Gore & Cannoli",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Guns, Gore & Cannoli 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "GYLT",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Habroxia 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Halloween Forever",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Hamidashi Creative",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Hammerwatch",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Hand Of Fate 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Harry Potter: Quidditch Champions",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Harvest Moon: The Winds of Anthos",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Has-Been Heroes",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Hatsune Miku: Project Diva Future Tone",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Heart & Slash",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Heavy Rain",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Heidelberg 1693",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Hellbreachers",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Helldivers",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Helvetii",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Hentai Vs. Evil",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Hero Must Die. Again",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Heroes of Hammerwatch - Ultimate Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Hidden Through Time",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Hillbilly Doomsday",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Hishou Same! Same! Same",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "I Am Setsuna",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "I Saw Black Clouds",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ice Cream Surfer",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Icewind Dale: Enhanced Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Immortal Planet",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "In rays of the Light",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Indiecalypse",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "inFamous: First Light",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Infinite: Beyond the Mind",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Inked: A Tale of Love",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Inspector Waffles",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Intruders: Hide And Seek",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Irem Collection Volume 1",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Is It Wrong To Try To Pick Up Girls In A Dungeon? - Infinite Combate",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Isonzo",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "JackQuest: The Tale of the Sword",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Jets'N'Guns 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "JoJo's Bizarre Adventure: Eyes of Heaven",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Journey of the Broken Circle",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Jujutsu Kaisen: Cursed Clash",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Kandagawa Jet Girls",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Karma: Incarnation 1",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Kholat",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Kingdom of Arcadia",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Kung Fury: Street Rage",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "La-Mulana",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "La-Mulana 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Labyrinth Life",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Labyrinth of Zangetsu",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Lacuna",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Lake",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Langrisser I & II",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Lapis x Labyrinth",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Lara Croft and the Temple of Osiris",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Late Shift",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Lawn Mowing Simulator: Landmark Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Layers of Fear",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Leap of Fate",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Legend Of Heroes: Trails Beyond The Horizon",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Legend of Kay Anniversary",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Legend Of Legacy HD Remastered",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Legend of the Skyfish",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Legendary Fishing",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "LEGO Batman 3: Beyond Gotham",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "LEGO Brawls",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "LEGO City Undercover",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "LEGO DC Super-Villains",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "LEGO Dimensions",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "LEGO Harry Potter Collection",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "LEGO Jurassic World",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "LEGO Marvel Super Heroes",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "LEGO Marvel Super Heroes 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "LEGO Marvel's Avengers",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "LEGO Star Wars: The Skywalker Saga",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "LEGO The Hobbit",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "LEGO The Incredibles",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "LEGO Worlds",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Lemon Cake",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Lethal League",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Lethal League Blaze",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Liberated",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Lichdom: Battlemage",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Lichtspeer",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Lies of P",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Life is Strange",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Life is Strange 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Life is Strange: Before the Storm",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Lifeless Planet: Premier Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Light Fairytale Episode 1",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Light Fairytale Episode 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Like a Dragon: Ishin!",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Like A Dragon: Pirate Yakuza in Hawaii",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Lili: Child of Geos",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "LIMBO",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Little Nightmares III",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Little Town Hero",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Lock's Quest",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "LocoRoco",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "LocoRoco 2 Remastered",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Lode Runner Legacy",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Loopers",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Lord Winklebottom Investigates",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Lords of the Fallen",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Lost Sea",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Lost Sphear",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Lumote: The Mastermote Chronicles",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "LUNARK",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "MACROSS -Shooting Insight-",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Macrotis: A Mother's Journey",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mad Games Tycoon",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mad Max",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mad Rat Dead",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mad Tower Tycoon",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "MADO MONOGATARI: Fia And The Wondrous Academy",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mafia II: Definitive Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mafia: Definitive Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mages of Mystralia",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Magicka 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Maid of Sker",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Maneater",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Marchen Forest",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Marenian Tavern Story: Patty and the Hungry God",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mark McMorris Infinite Air",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Marsupilami: Hoobadventure",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Martha Is Dead",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Marvel vs. Capcom: Infinite",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Marvel's Avengers",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Marvel's Guardians of the Galaxy: The Telltale Series",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mask of Mists",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mato Anomalies",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Matterfall",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Max: The Curse of Brotherhood",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mayhem Brawler",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mecho Tales",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mega Man 11",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mega Man Legacy Collection",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mega Man Legacy Collection 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mega Man Zero / ZX Legacy Collection",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Megadimension Neptunia VII",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Megadimension Neptunia VIIR",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Megaquarium",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Memorrha",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mercenaries Wings: The False Phoenix",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mercenary Kings",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "METAGAL",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Metal Gear Solid V: Ground Zeroes",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Metal Gear Solid V: The Phantom Pain",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Metal Max Xeno",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Metal Slug 3",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Metal Slug Anthology",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Metal Slug XX",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Metal Wolf Chaos XD",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Metaloid: Origin",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Metaphor: ReFantazio",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Metro Exodus",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Metro Redux",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Metropolis: Lux Obscura",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Micro Machines World Series",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mighty Goose",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mighty No. 9",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mighty Switch Force! Collection",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Milli & Greg",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Minecraft Dungeons",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Minecraft: PlayStation 4 Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Minecraft: Story Mode - A Telltale Games Series",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Minecraft: Story Mode - Season Two: The Telltale Series",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Minit",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "MISTOVER",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mitsurugi Kamui Hikae",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mobile Suit Gundam: Extreme VS. MaxiBoost ON",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Momodora: Reverie Under the Moonlight",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Monochrome Order",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Monopoly Plus",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Monopoly: Family Fun Pack",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Monster Boy and the Cursed Kingdom",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Monster Hunter: World - Iceborne",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Monster Prom XXL",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Monstrum",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Moonlighter",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Moonscars",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mortal Shell",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mother Russia Bleeds",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mothergunship",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Moving Out",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mozart Requiem",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mulaka",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Murdered: Soul Suspect",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Musynx",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mutant Football League",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mutant Mudds Deluxe",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mutant Mudds: Super Challenge",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mutant Year Zero: Road to Eden",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mutazione",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "My Aunt is a Witch",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "My Friend Pedro",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "My Hero One's Justice",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "My Hero One's Justice 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "My Time At Portia",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mystery Chronicle: One Way Heroics",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Mystik Belle",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "MythForce",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "N.E.R.O.: Nothing Ever Remains Obscure",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Narcos: Rise of the Cartels",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Narcosis",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Naruto Shippuden: Ultimate Ninja Storm 4",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Naruto to Boruto: Shinobi Striker",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Naruto: Ultimate Ninja Storm",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Natsuki Chronicles",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Natural Doctrine",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Naught: Extended Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Nayuta no Kiseki: Kai",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Necromunda: Hired Gun",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Necrosphere Deluxe",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Need for Speed Heat",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Need for Speed Payback",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Need for Speed: Rivals",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Nelke & the Legendary Alchemists: Ateliers of the New World",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "NEO: The World Ends With You",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Neonwall",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Neptunia Virtual Stars",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Neptunia X Senran Kagura: Ninja Wars",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Neptunia: Sisters VS Sisters",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "NeuroVoider",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "NeverAwake",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Neverending Nightmares",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Neversong",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Nex Machina",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Nexomon: Extinction",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "NHRA Championship Drag Racing: Speed For All",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Nickelodeon Kart Racers",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Nickelodeon Kart Racers 2: Grand Prix",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Night Book",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Night Trap: 25th Anniversary Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Nightmare Boy",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Nights of Azure",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Nights of Azure 2: Bride of the New Moon",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "NINJA GAIDEN 3: Razor's Edge",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "NINJA GAIDEN Sigma",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "NINJA GAIDEN Sigma 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Nippon Marathon",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Nitroplus Blasterz: Heroines Infinite Duel",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "No Straight Roads",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Nobody Saves the World",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Nobunaga's Ambition: Sphere of Influence",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Nobunaga's Ambition: Sphere of Influence - Ascension",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Nobunaga's Ambition: Taishi",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Nongunz: Doppelganger Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Northgard",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "NOVA-111",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Nuclear Blaze",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Null Drifter",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Oaken",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Obduction",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Obey Me",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Oceanhorn: Monster of Uncharted Seas",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Octodad: Dadliest Catch",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Octopath Traveler 0",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Octopath Traveler II",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Oddworld: Soulstorm",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "OK K.O.! Let's Play Heroes",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Okinawa Rush",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Old Man's Journey",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "OlliOlli",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Omega Quintet",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "OmegaBot",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Omen of Sorrow",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "OMORI",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "On the Road: Truck Simulator",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "One Finger Death Punch 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "One More Dungeon",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "One Night Stand",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "One Piece Odyssey",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "One Piece: Burning Blood",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "One Piece: Pirate Warriors 3",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "One Piece: Pirate Warriors 4",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "One Piece: World Seeker",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "One Step From Eden",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Onechanbara Z2: Chaos",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "OneShot: World Machine Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "ONI: Road to be the Mightiest Oni",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Oniken: Unstoppable Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Onimusha: Warlords",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "ONRUSH",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Open Country",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Operation Wolf Returns: First Mission",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Organ Trail: Complete Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Othercide",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Oure",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Outcast: Second Contact",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Outer Wilds",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Outlast Trinity",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Overcooked!",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Overcooked! 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Override: Mech City Brawl",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Overrogue",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ovivo",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Owlboy",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Oxide Room 104",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Pac-Man World Re-PAC",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Pang Adventures",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Pankapu",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Panorama Cotton",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Pantsu Hunter: Back to the 90s",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Panzer Dragoon: Remake",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Paradise Killer",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Paranormal Activity: The Lost Soul",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "PaRappa the Rapper Remastered",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Past Cure",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Patapon",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Pathfinder: Kingmaker - Definitive Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Pathfinder: Wrath of the Righteous",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Pato Box",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "PAW Patrol Rescue Wheels: Championship",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "PAW Patrol The Movie: Adventure City Calls",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Paw Patrol World",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Paw Patrol: Mighty Pups Save Adventure Bay",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "PAWARUMI",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Payday 2: Crimewave Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Peaky Blinders Mastermind",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Persona 3: Dancing in Moonlight",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Persona 5 Royal",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Phantom Breaker: Battle Grounds Overdrive",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Pharaonic",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Phoenix Wright: Ace Attorney",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Phoenix Wright: Ace Attorney - Dual Destinies",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Phoenix Wright: Ace Attorney - Justice for All",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Phoenix Wright: Ace Attorney - Spirit of Justice",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Phoenix Wright: Ace Attorney - Trials and Tribulations",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Pillar",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Pillars of Eternity II: Deadfire",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Pillars of Eternity: Complete Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Pineview Drive",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Pix the Cat",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "PixARK",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "PixelJunk Monsters 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "PJ Masks Power Heroes: Mighty Alliance",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "PJ Masks: Heroes of The Night",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Plague Road",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Planescape: Torment: Enhanced Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Planet of the Apes: Last Frontier",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Plants vs Zombies: Garden Warfare",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Plants vs Zombies: Garden Warfare 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Plants vs. Zombies: Battle for Neighborville",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "PlateUp",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "PlayerUnknown's Battlegrounds",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Pocket Bravery",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Polybius",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Pool Nation",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Poop Slinger",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Popcorn Rocket",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Port Royale 4",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Portal Knights",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Postal REDUX",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Potion Permit",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Praetorians - HD Remaster",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Predator: Hunting Grounds",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Pressure Overdrive",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Prey",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Prison Architect",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Prodeus",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Project CARS",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Project CARS 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Project CARS 3",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Project Highrise: Architect's Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Project Starship",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Project Starship X",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Projection: First Light",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Promenade",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Protodroid Delta",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Prototype",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Psycho-Pass: Mandatory Happiness",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Psychonauts",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Psyvariar Delta",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Punch Line",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Pure Chess",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Pure Farming 2018",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Putty Squad",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Puyo Puyo Tetris",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Puzzle Bobble 3D: Vacation Odyssey",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Quake II",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "R-Type Dimensions EX",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "R-Type Final 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "R-Type Tactics I & II Cosmos",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rabbids: Party of Legends",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rabi-Ribi",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Race the Sun",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Race with Ryan",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rad Rodgers",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Radioactive Dwarfs Evil From The Sewers",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Radirgy 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "RAGE 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Raging Justice",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Raging Loop",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Raid: World War II",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Raiden III x Mikado Maniax",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Raiden IV x MIKADO Remix",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Raiden Nova",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Raiden V: Director's Cut",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Raidou Remastered: Mystery Of The Soulless Army",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Railway Empire",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rain World",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rainbow High: Runway Rush",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rainbow Moon",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ravenswatch",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ravva and the Cyclops Curse",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rayman Legends",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Real Heroes: Firefighter",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Realms of Arkania: Blade of Destiny",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Record of Lodoss War: Deedlit in Wonder Labyrinth",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Red Death",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Red Faction",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Red Faction: Guerrilla Re-Mars-tered",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Redeemer: Enhanced Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Regions Of Ruin",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Relayer",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "RemiLore: Lost Girl in the Lands of Lore",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Remnant: From the Ashes",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Remothered: Broken Porcelain",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Republique",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Resident Evil 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Resident Evil 3",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Resident Evil 5",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Resident Evil 6",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Resident Evil 7: biohazard",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Resident Evil Village",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Resident Evil: Revelations",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Resident Evil: Revelations 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Retro City Rampage DX",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Return of the Obra Dinn",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Reus",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Revenant Dogma",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Revenant Saga",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Reverie",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Revita",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rez Infinite",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "RICO",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Riddled Corpses EX",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "RIDE",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ride 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "RIDE 3",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "RIDE 4",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rift Keeper",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "RiME",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Riot: Civil Unrest",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rise of the Tomb Raider: 20 Year Celebration",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Risen",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Risen 3: Titan Lords - Enhanced Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rising Hell",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Risk of Rain",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Risk System",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rival Megagun",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "RIVE",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "River City Girls",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "River City Melee: Battle Royal Special",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "River City Saga: Three Kingdoms Next",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Road Rage",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Road Redemption",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Robotics;Notes DaSH",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Robotics;Notes Elite",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Robozarro",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rock Band 4",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rock of Ages 3: Make & Break",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rocket League",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rocketbirds 2: Evolution",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rocksmith 2014 Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rogue Aces",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rogue Legacy",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rogue Stormers",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rogue Trooper Redux",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "RollerCoaster Tycoon Joyride",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Romance of the Three Kingdoms XIII",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Romance of the Three Kingdoms XIV",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Romancing SaGa -Minstrel Song- Remastered",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Romancing SaGa 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Romancing SaGa 2: Revenge of the Seven",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Romancing SaGa 3",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Roombo: First Blood",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Root Letter",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Root Letter: Last Answer",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rory McIlroy PGA Tour",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "RPG Maker MV",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "RPG Maker WITH",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "RPGolf Legends",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rugrats: Adventures in Gameland",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ruiner",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ruinverse",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Runbow",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Runner3",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rustler",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "RWBY: Arrowfell",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Rym 9000",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "S.T.A.L.K.E.R.: Clear Sky",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "S.T.A.L.K.E.R.: Shadow of Chornobyl",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Saint Seiya: Soldiers' Soul",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Saints Row",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Saints Row IV: Re-Elected",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Saints Row: Gat Out of Hell",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Saints Row: The Third Remastered",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sakura Wars",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Salt And Sacrifice",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Salt and Sanctuary",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sam & Max: Beyond Time And Space",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Samurai Maiden",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Samurai Shodown",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Samurai Shodown NeoGeo Collection",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Samurai Shodown V Special",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Samurai Shodown VI",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Samurai Warriors 4",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Samurai Warriors 4 Empires",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Samurai Warriors 4-II",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Samurai Warriors: Spirit of Sanada",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sand Land",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Saturday Morning RPG",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Saturnalia",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Scar-Lead Salvation",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Scarlet Nexus",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Screencheat",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Scribblenauts Showdown",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Scribblenauts Unmasked: A DC Comics Adventure",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "SD Gundam Battle Alliance",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "SD Gundam G Generation Cross Rays",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "SD Gundam G Generation Genesis",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sebastien Loeb Rally Evo",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Secret of Mana",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sega Genesis Classics",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sekiro: Shadows Die Twice",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Semispheres",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Senko no Ronde 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Senran Kagura Burst Re:Newal",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Senran Kagura: Estival Versus",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Senran Kagura: Peach Beach Splash",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sense - A Cyberpunk Ghost Story",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Serial Cleaner",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Seven: Enhanced Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shadow Complex Remastered",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shadow of Loot Box",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shadow of the Beast",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shadow of the Ninja - Reborn",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shadow of the Tomb Raider",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shadow Tactics: Blades of the Shogun",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shadow Warrior",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shadow Warrior 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shadowgate",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shadowrun Returns",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shadowrun: Dragonfall - Director's Cut",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shadowrun: Hong Kong - Extended Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shadows of Adam",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shadows Over Loathing",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shakedown Hawaii",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shantae and the Pirate's Curse",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shantae and the Seven Sirens",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shantae: Half-Genie Hero",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shantae: Risky's Revenge - Director's Cut",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shaq Fu: A Legend Reborn",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sheepo",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shenmue II",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sherlock Holmes: Crimes & Punishments",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sherlock Holmes: The Devil's Daughter",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shikhondo: Soul Eater",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shin Megami Tensei V: Vengeance",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shing!",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shining Resonance Refrain",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shinorubi",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Shovel Knight",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sid Meier's Civilization VI",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sifu [Vengeance Edition]",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sigi: A Fart for Melusina",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Signalis",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Silt",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "SIMULACRA",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "SINce Memories: Off The Starry Sky",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sine Mora EX",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "SingStar Celebration",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sir Lovelot",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Siralim",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Siralim 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Skabma Snowfall",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Skautfold: Into The Fray",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Skautfold: Shrouded in Sanity",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Skautfold: Usurper",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Skullgirls: 2nd Encore",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Skulls of the Shogun: Bone-a-Fide Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Skully",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sky Force Anniversary",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Skyhill",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Skylanders SuperChargers",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Skylanders Swap Force",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Skylanders Trap Team",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Slay the Spire",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Slide Stars",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Slime Rancher",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Slime-san: Superslime Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Smashing the Battle: Ghost Soul",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Smelter",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "SmuggleCraft",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sniper Elite 4",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sniper Elite III",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sniper Elite V2 Remastered",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sniper Ghost Warrior Contracts",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sniper: Ghost Warrior 3",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "SNK 40th Anniversary Collection",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "SNK Heroines: Tag Team Frenzy",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "SOL CRESTA",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Song of the Deep",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sonic Forces",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sonic Frontiers",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sonic Mania",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sonic Mania Plus",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sonic Superstars",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sophstar",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "SoulCalibur VI",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Souldiers",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Source of Madness",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "South Park: The Fractured But Whole",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "South Park: The Stick of Truth",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Space Hulk",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Space Hulk Ascension",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Space Hulk: Deathwing",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Space Hulk: Tactics",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Spacebase Startopia",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Spacewing War",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Speedollama",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Spellcaster University",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Spelunker HD Deluxe",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Spelunky",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Spidersaurs",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Spirit Hunter: NG",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Spirit of the North",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Spiritfarer",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Splasher",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Spyro 2: Ripto's Rage!",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Spyro the Dragon",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Spyro: Year of the Dragon",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Star Ocean: First Departure R",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Star Renegades",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Star Trek: Bridge Crew",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Star Wars Battlefront",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Star Wars Battlefront II",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Star Wars Jedi Knight II: Jedi Outcast",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Star Wars Jedi Knight: Jedi Academy",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Star Wars: Bounty Hunter",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Star Wars: Jedi Survivor",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Star Wars: Racer Revenge",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Stay",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Stealth Inc: A Clone in the Dark Ultimate Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Steam Tactics",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "SteamWorld Dig",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "SteamWorld Dig 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "SteamWorld Heist",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Steel Rats",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Steep",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Steins;Gate 0",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Steins;Gate Elite",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Stellaris: Console Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Stern Pinball Arcade",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Steven Universe: Save the Light",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Stikbold! A Dodgeball Adventure",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "STRAFE",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Stranger Things 3: The Game",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Street Fighter V",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Street Fighter: 30th Anniversary Collection",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Street Outlaws: The List",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Street Power Soccer",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Streets of Rage 4",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Strikers Edge",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Styx: Shards of Darkness",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sudden Strike 4",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Summertime Madness",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Summon Night 6: Lost Borders",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sundered",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Super Blood Hockey",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Super Bomberman R",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Super Cane Magic ZERO",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Super ComboMan: Smash Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Super Daryl Deluxe",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Super Dungeon Bros",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Super GunWorld 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Super Hydorah",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Super Life of Pixel",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Super Meat Boy",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Super Monkey Ball: Banana Blitz HD",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Super Neptunia RPG",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Super Perils of Baking",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Super Pixel Racers",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Super Skull Smash GO! 2 Turbo",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Super Zangyura",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "SUPERBEAT: XONiC",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "SuperEpic: The Entertainment War",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Supermarket Shriek",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "SuperMash",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Supraland",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Surf World Series",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Surviving Mars",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sword & Fairy 6",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sword Art Online: Alicization Lycoris",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sword Art Online: Hollow Realization",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sword of the Necromancer",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Sword of the Vagrant",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Swordbreaker The Game",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Symmetry",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Syndrome",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tachyon Project",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tacoma",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tactics Ogre: Reborn",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tadeo Jones y el Manuscrito Perdido",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Taiko no Tatsujin: Drum Session!",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tails of Iron",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Taimumari",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tales Of Graces F Remastered",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tales Of Symphonia Remastered",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tales of the Neon Sea",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tales of Vesperia: Definitive Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tamashii",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tandem: A Tale of Shadows",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tannenberg",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tantei Bokumetsu",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tanuki Justice",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Task Force Kampas",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tasomachi: Behind the Twilight",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Taxi Chaos",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Team Sonic Racing",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tearaway Unfolded",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Teenage Mutant Ninja Turtles Arcade: Wrath Of The Mutants",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Teenage Mutant Ninja Turtles: Mutants in Manhattan",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Teenage Mutant Ninja Turtles: Mutants Unleashed",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Teenage Mutant Ninja Turtles: Splintered Fate - Deluxe Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tekken 7",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tempest 4000",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ten Dates",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Terminator 2D No Fate",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Terminator: Resistance",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Terror of Hemasaurus",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Teslagrad",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tetris Effect",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tharsis",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The 25th Ward: The Silver Case",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Alliance Alive HD Remastered",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Amazing Spider-Man 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Aquatic Adventure of the Last Human",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Banner Saga",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Banner Saga 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Banner Saga 3",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Bard's Tale IV: Director's Cut",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Bard's Tale: Remastered and Resnarkled",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Binding of Isaac: Afterbirth+",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Bit.Trip",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Book of Unwritten Tales 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Bridge",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Bunker",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Caligula Effect: Overdose",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Coma 2: Vicious Sisters",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Coma: Recut",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Complex",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Council",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Count Lucanor",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Crew",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Crew 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Dark Crystal: Age of Resistance Tactics",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Deer God",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Dwarves",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The End Is Nigh",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Escapists 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Evil Within",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Fisherman: Fishing Planet",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Girl and the Robot",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Golf Club 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Good Life",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Infectious Madness of Doctor Dekker",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Invisible Hours",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Jackbox Party Pack",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Journey Down: Chapter One",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Journey Down: Chapter Three",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The King of Fighters '97: Global Match",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The King of Fighters '98 Ultimate Match",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The King of Fighters 2000",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The King of Fighters XIV",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The King's Bird",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Last Blade 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Last Door: Complete Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Last of Us Part II",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Last Tinker: City of Colors",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Legend of Heroes: Trails of Cold Steel",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Legend of Heroes: Trails of Cold Steel II",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Legend of Heroes: Trails of Cold Steel III",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Legend of Heroes: Trails of Cold Steel IV",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Legend of Heroes: Trails through Daybreak II",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Legend of Nayuta: Boundless Trails",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The LEGO Movie 2 Videogame",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The LEGO Movie Videogame",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The LEGO NINJAGO Movie Video Game",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Liar Princess and the Blind Prince",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Long Dark",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Lost Child",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Messenger",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Metronomicon: Slay the Dance Floor",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Mooseman",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Mummy Demastered",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Ninja Saviors: Return of the Warriors",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Occupation",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Peanuts Movie: Snoopy's Grand Adventure",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Persistence",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Pinball Arcade",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Princess Guide",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Procession to Calvary",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Quarry",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Seven Deadly Sins: Knights of Britannia",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Sexy Brutale",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Shapeshifting Detective",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Silver Case",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Surge",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Surge 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Swapper",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Swindle",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Swords of Ditto",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Swords of Ditto: Mormo's Curse",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The TakeOver",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Talos Principle: Deluxe Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Town of Light",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Walking Dead: Season Two - A Telltale Games Series",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Walking Dead: The Telltale Series - A New Frontier",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Walking Dead: The Telltale Series - The Final Season",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Witch and the Hundred Knight 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Witch and the Hundred Knight: Revival Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "The Wolf Among Us",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "theHunter: Call of the Wild",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "They Always Run",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "They Are Billions",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Thief",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Thimbleweed Park",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "This Is the Police",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "This is the Police 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "This War of Mine: The Little Ones",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Thomas Was Alone",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Those Who Remain",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Thumper",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Timespinner",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tiny Troopers: Joint Ops",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Titan Quest",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "ToeJam & Earl: Back in the Groove",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Toki",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Toki Tori 2 +",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tokyo 42",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tokyo Ghoul: re Call to Exist",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tom Clancy's Ghost Recon: Wildlands",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tom Clancy's Rainbow Six Siege: Advanced Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tony Hawk's Pro Skater 1 + 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tony Hawk's Pro Skater 5",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tormented Souls",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Toto Temple Deluxe",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Touhou Genso Rondo: Bullet Ballet",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Touhou Genso Wanderer",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Touhou Kobuto V: Burst Battle",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Toukiden 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Toukiden: Kiwami",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Toy Soldiers HD",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Trackmania Turbo",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Trailblazers",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Trailmakers",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Train Sim World",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Train Sim World 2020",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Transference",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Transformers Battlegrounds",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Transformers: Devastation",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Transformers: Earthspark - Expedition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Transformers: Rise of the Dark Spark",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Transistor",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Trash Sailors",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Travis Strikes Again: No More Heroes - Complete Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Trials Fusion",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Trials of Mana",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Trials of the Blood Dragon",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Trials Rising",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tricky Towers",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Trine 2: Complete Story",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Trine 3: The Artifacts of Power",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Trine 4: The Nightmare Prince",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Trine Enchanted Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Troll and I",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Trollhunters Defenders of Arcadia",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tropico 5",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tropico 6",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Trover Saves the Universe",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Truberbrook",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Truck Driver",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "TT Isle of Man: Ride On The Edge",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Tumblestone",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Turok",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Turok 2: Seeds of Evil",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Turok 3: Shadow of Oblivion Remastered",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Turrican Anthology Vol. 1",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Turrican Anthology Vol. 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Twin Breaker: A Sacred Symbols Adventure",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "TY The Tasmanian Tiger HD",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Typoman: Revised",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "UglyDolls: An Imperfect Adventure",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ultimate Marvel vs. Capcom 3",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ultra Age",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ultracore",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Umbrella Corps",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Umihara Kawase BaZooKa!",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Umihara Kawase Fresh",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Unbound: Worlds Apart",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Unbox: Newbie's Adventure",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Uncharted 2: Among Thieves Remastered",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Uncharted 3: Drake's Deception Remastered",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Uncharted: Drake's Fortune Remastered",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Undead Darlings ~no cure for love~",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Under Night In-Birth II: Sys:Celes",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Under the Waves",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Underhero",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "UnderMine",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Undernauts: Labyrinth of Yomi",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Undertale",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Unepic",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Unicorn Overlord",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "United Assault: Normandy '44",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Unknown 9: Awakening",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Unpacking",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Unravel",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Unruly Heroes",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Unsighted",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Until Dawn",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Untitled Goose Game",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Unto The End",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Urban Trial Tricky Deluxe Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Utawarerumono Zan",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Utawarerumono: Mask of Deception",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Utawarerumono: Prelude to the Fallen",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "VA-11 Hall-A: Cyberpunk Bartender Action",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Vagante",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Valentino Rossi The Game",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Valfaris",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Valhalla Hills: Definitive Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Valiant Hearts: Coming Home",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Valkyria Chronicles 4",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Valkyria Chronicles Remastered",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Valkyria Revolution",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Valthirian Arc: Hero School Story",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Vambrace: Cold Soul",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Vampire: The Masquerade - Coteries of New York",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Vampire: The Masquerade Swansong",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Vanquish",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Vasara Collection",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Vegas Party",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Velocity 2X",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Vengeful Guardian: Moonrider",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Venus Vacation Prism: Dead Or Alive Xtreme",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Verdun",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Vernal Edge",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Vesper: Zero Light Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "VESTA",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Virtua Fighter 5: Ultimate Showdown",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "VirtuaVerse",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Visions Of Mana",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Void Gore",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Void Terrarium 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "void tRrLM(); //Void Terrarium",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Volgarr the Viking",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Volume",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Vostok Inc",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Wallachia: Reign of Dracula",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Wandersong",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Wanted: Dead",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "War Mongrels",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "War Tech Fighters",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "War Theatre",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Warborn",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Wargroove",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Warhammer 40,000: Inquisitor Martyr",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Warhammer 40,000: Mechanicus",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Warhammer 40,000: Shootas, Blood & Teef",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Warhammer: Chaosbane",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Warhammer: Vermintide 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Warlock's Tower",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Warriors All-Stars",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Warriors Orochi 3 Ultimate",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Warriors Orochi 4",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Wasteland 2: Director's Cut",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Wasteland 3",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Watch Dogs",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Watch Dogs 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Wattam",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "We Happy Few",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "We Sing",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Weird West",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "West of Dead",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "What Remains of Edith Finch",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Who Pressed Mute on Uncle Marcus?",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Wife Quest",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Wild at Heart",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Wild Guns Reloaded",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "WILL: A Wonderful World",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "WindJammers",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Wipeout: Omega Collection",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Witchcrafty",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Within the Blade",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Wizard of Legend",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Wizards of Brandel",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Wolfenstein II: The New Colossus",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Wolfenstein: The New Order",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Wolfenstein: The Old Blood",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Wolfenstein: Youngblood",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Wonder Boy Anniversary Collection",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Wonder Boy Returns",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Wonder Boy: The Dragon's Trap",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "World End Syndrome",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "World of Final Fantasy",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "World of Horror",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "World of Warships: Legends",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "World to the West",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "World War Z",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Worlds of Magic: Planar Conquest",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Worms Battlegrounds",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Worms W.M.D",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Worse Than Death",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Wreckfest",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Wuppo",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Wytchwood",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "X-Morph: Defense",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "XCOM 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Xeno Crisis",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Xenon Racer",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Xenon Valkyrie+",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Xeodrifter",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Xuan-Yuan Sword VII",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Xuan-Yuan Sword: The Gate of Firmament",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Yaga",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Yakuza Kiwami 2",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Yakuza: Like A Dragon",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Yasai Ninja",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Yasha: Legends Of The Demon Blade",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Yesterday Origins",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "YesterMorrow",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "YIIK: A Postmodern RPG",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Yomawari: Lost in the Dark [Deluxe Edition]",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Yomawari: Midnight Shadows",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Yonder: The Cloud Catcher Chronicles",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Yooka-Laylee",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Yooka-Laylee and the Impossible Lair",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "You Suck at Parking",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Young Souls",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Your Toy",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Youtubers Life OMG",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ys Origin",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ys VIII: Lacrimosa of DANA",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ys Vs. Trails In The Sky: Alternative Saga",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ys X: Nordics",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ys: Memories of Celceta",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "YU-NO: A Girl Who Chants Love at the Bound of this World",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Yum Yum Cookstar",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Yuppie Psycho: Executive Edition",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Yurukill: The Calumniation Games",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Yuuna and the Haunted Hot Springs: Steam Dungeon",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Z-Warp",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Zanki Zero: Last Beginning",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Zapling Bygone",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Zero Escape: The Nonary Games",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Zero Fire: Toaplan Arcade Garage",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Zero Tolerance Collection",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Ziggurat",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Zombie Army 4: Dead War",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Zombie Army Trilogy",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Zombie Vikings",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Zombieland: Double Tap - Road Trip",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Zone of the Enders: The 2nd Runner MARS",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Zorro the Chronicles",
+      "reason": "key_art_only"
+    },
+    {
+      "title": "Aeterna Noctis",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Among Us",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Batman: Arkham City Remastered",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Chants of Sennaar",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Danganronpa: Trigger Happy Havoc",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Dark Pictures: The Devil in Me",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Deliver Us The Moon",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Don't Starve: Console Edition",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Electronic Super Joy II",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Fell Seal: Arbiter's Mark",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "GunLord X",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Horned Knight",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Rainbow Six: Extraction",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Resident Evil 0 HD Remaster",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Resident Evil HD Remaster",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "The Dark Pictures - Little Hope",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "The Missing: JJ Macfield and the Island of Memories",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "The Walking Dead: A Telltale Games Series - The Complete First Season",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Warhammer 40,000: Deathwatch",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Zero Time Dilemma",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "S.T.A.L.K.E.R.: Call of Prypiat",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Damascus Gear: Operation Osaka",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Streets of Red",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Andro Dunos 2",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Dead Rising 2",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Immortal Redneck",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Final Fantasy Crystal Chronicles: Remastered Edition",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Yakuza Kiwami",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Monster Hunter: World",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Lost Ruins",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "L.A. Noire",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "3D Billiards & Snooker",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Scribblenauts Unlimited",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Chocobo's Mystery Dungeon: Every Buddy!",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Just Cause 3",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Dragon Age: Inquisition",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Kromaia Omega",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Fahrenheit",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "LittleBigPlanet 3",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Dead Rising",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "DmC: Devil May Cry Definitive Edition",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Rabbids Invasion",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Grim Fandango Remastered",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Alchemic Jousts",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Another Crusade",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Guacamelee! Super Turbo Championship Edition",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Now That's What I Call Sing",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "A-Train Express",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Asdivine Hearts",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Battle Chef Brigade",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Bit.Trip Presents...Runner2: Future Legend of Rhythm Alien",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Eiyuden Chronicle: Hundred Heroes",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Chariot",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Mighty Gunvolt Burst",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Batman: Arkham Asylum Remastered",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "The Church in the Darkness",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Elex",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "A Boy and His Blob",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Ara Fell: Enhanced Edition",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Fallen Legion: Sins of an Empire",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "BPM: Bullets Per Minute",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Dodgeball Academia",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "The Flame in the Flood: Complete Edition",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Fullblast",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Agents of Mayhem",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Arcania: The Complete Tale",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Atari Flashback Classics: Volume 1",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "One Punch Man: A Hero Nobody Knows",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Fallen Legion: Flames of Rebellion",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Void Bastards",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Haven",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Exile's End",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Hover",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Star Wars Episode I: Racer",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "2064: Read Only Memories",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Brigandine: The Legend of Runersia",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Curses 'N Chaos",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Demon's Tier+",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Rolling Gunner",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Steel Empire Chronicles",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Narita Boy",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Infliction: Extended Cut",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Deathwish Enforcers",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Fight'N Rage",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Gunhouse",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Blood Bowl 2",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Jagged Alliance: Rage!",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Battlefield 4",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "Bridge Constructor",
+      "reason": "missing_ps4_banner"
+    },
+    {
+      "title": "ConnecTank",
+      "reason": "missing_ps4_banner"
+    }
+  ],
+  "fallback": [
+    {
+      "title": "Below",
+      "reason": "wrong_region_or_edition"
+    },
+    {
+      "title": "Aaero",
+      "reason": "angled_product_shot"
+    },
+    {
+      "title": "ADK Tamashii",
+      "reason": "angled_product_shot"
+    },
+    {
+      "title": "Bleed",
+      "reason": "photo_of_case"
+    },
+    {
+      "title": "Braveland Trilogy",
+      "reason": "angled_product_shot"
+    },
+    {
+      "title": "N++",
+      "reason": "angled_product_shot"
+    },
+    {
+      "title": "Redout",
+      "reason": "photo_of_case"
+    },
+    {
+      "title": "Scourge Bringer",
+      "reason": "angled_product_shot"
+    }
+  ],
+  "watch": [
+    {
+      "title": "8-Bit Adventure Anthology: Volume One",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Another World",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "AVICII Invector",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Baldur's Gate and Baldur's Gate II: Enhanced Editions",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Bayonetta",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Big Pharma",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Blazing Beaks",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Bomber Crew",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Cannon Dancer",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Capcom Beat 'Em Up Bundle",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Constructor",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Dragon Ball: The Breakers",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Embr: Uber Firefighters",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Gear Club Unlimited 2",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Get Star / Guardian",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Ground Zero: Texas",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Jim Power: The Lost Dimension",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Kyukyoku Tiger / Twin Cobra",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Little Dragons Cafe",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Maldita Castilla EX: Cursed Castilla",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Malnazidos",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Need for Speed",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Ninja JaJaMaru Legendary Ninja Collection",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Noob: Les Sans-Factions",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "One Piece Unlimited World Red",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Q.U.B.E.",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Quintessential Quintuplets Fives Memories With You",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Resonance of Fate 4K / HD Edition",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Shenmue I",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Shoppe Keep",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Sisters Royale",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Stranded Sails: Explorers of the Cursed Islands",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "SturmFront - The Mutant War: \u00dcbel Edition",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "S\u00f6ldner-X 2: Final Prototype Definitive Edition",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Tadeo Jones: La Tabla Esmeralda",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Tales from the Borderlands: A Telltale Game Series",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "The Elder Scrolls Online: Tamriel Unlimited",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "The Elder Scrolls V: Skyrim Special Edition",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "The First Tree: Console Edition",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "The House in Fata Morgana",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "The Journey Down: Chapter Two",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "The Walking Dead: Michonne - A Telltale Miniseries",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Tiger-Heli",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Tomb Raider",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Tomb Raider II",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Tomb Raider III: Adventures of Lara Croft",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Tomb Raider: Chronicles",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Tomb Raider: The Angel of Darkness",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Tomb Raider: The Last Revelation",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Tony Hawk's Pro Skater 3 + 4",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Trouble Witches Final: Episode 1 - Daughters of Amalgam",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "UFO Robot Grendizer",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Wobbledogs",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Wonderland TOD-Reloaded",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "XIII (Remake)",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Zero Strain",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Zero: Tsukihami No Kamen",
+      "reason": "image_fetch_failed"
+    }
+  ]
+}
