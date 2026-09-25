@@ -82,7 +82,25 @@ window.SHELFCHECK_TITLE_COVERS={
   "the first tree console edition":"https://gamefaqs.gamespot.com/a/box/7/7/9/851779_front.jpg",
   "trouble witches final episode 1 daughters of amalgam":"https://gamefaqs.gamespot.com/a/box/5/8/1/964581_front.jpg",
   "zero tsukihami no kamen":"https://gamefaqs.gamespot.com/a/box/5/1/6/917516_front.jpg",
-  "scourge bringer":"https://www.pixnlove.com/2793-large_default/scourgebringer-ps4.jpg"
+  "scourge bringer":"https://www.pixnlove.com/2793-large_default/scourgebringer-ps4.jpg",
+  "one piece unlimited world red":"https://gamefaqs.gamespot.com/a/box/8/8/3/430883_front.jpg",
+  "quintessential quintuplets fives memories with you":"https://gamefaqs.gamespot.com/a/box/0/8/1/1150081_front.jpg",
+  "malnazidos":"https://gamefaqs.gamespot.com/a/box/8/6/0/875860_front.jpg",
+  "tadeo jones la tabla esmeralda":"https://gamefaqs.gamespot.com/a/box/9/4/8/920948_front.jpg",
+  "wonderland tod reloaded":"https://gamefaqs.gamespot.com/a/box/9/9/1/679991_front.jpg",
+  "kyukyoku tiger twin cobra":"https://gamefaqs.gamespot.com/a/box/7/4/5/825745_front.jpg",
+  "get star guardian":"https://gamefaqs.gamespot.com/a/box/7/4/5/825745_front.jpg",
+  "tomb raider":"https://gamefaqs.gamespot.com/a/box/7/4/1/983741_front.jpg",
+  "tomb raider ii":"https://gamefaqs.gamespot.com/a/box/7/4/1/983741_front.jpg",
+  "tomb raider iii adventures of lara croft":"https://gamefaqs.gamespot.com/a/box/7/4/1/983741_front.jpg",
+  "tomb raider the last revelation":"https://gamefaqs.gamespot.com/a/box/4/6/0/1168460_front.jpg",
+  "tomb raider chronicles":"https://gamefaqs.gamespot.com/a/box/4/6/0/1168460_front.jpg",
+  "tomb raider the angel of darkness":"https://gamefaqs.gamespot.com/a/box/4/6/0/1168460_front.jpg",
+  "tony hawks pro skater 3 4":"https://gamefaqs.gamespot.com/a/box/5/5/0/1158550_front.jpg",
+  "resonance of fate 4k hd edition":"https://gamefaqs.gamespot.com/a/box/3/4/4/703344_front.jpg",
+  "stranded sails explorers of the cursed islands":"https://gamefaqs.gamespot.com/a/box/7/6/4/736764_front.jpg",
+  "tales from the borderlands a telltale game series":"https://gamefaqs.gamespot.com/a/box/6/9/2/1078692_front.jpg",
+  "q u b e":"https://gamefaqs.gamespot.com/a/box/8/4/3/892843_front.jpg"
 };
 
 // Art Department quality gate. Browser-only: CI evaluates this file in a VM without DOM APIs.
