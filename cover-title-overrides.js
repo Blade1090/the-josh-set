@@ -104,7 +104,7 @@ window.SHELFCHECK_TITLE_COVERS={
   "rolling gunner":"https://www.strictlylimitedgames.com/cdn/shop/files/ROG-Rolling-Gunner-Overpower-Playstation-4-PS4-Limited-Edition-Physical-Copy-Box-Art-2D_1200x.png?v=1743662952",
   "kingdom hearts hd i 5 ii 5 remix":"https://images.launchbox-app.com//58923849-50f6-4d9b-8f48-d711a283e1ae.jpg",
   "tokyo twilight ghost hunters":"https://images.launchbox-app.com//3a358ff0-9e3f-4198-97e5-74aa87d56b3d.jpg",
-  "cyanide happiness freakpocalypse episode 1":"https://images.launchbox-app.com/ad76d915-d840-4f9d-a390-a69bccb92757.jpg",
+  "cyanide and happiness freakpocalypse episode 1":"https://images.launchbox-app.com/ad76d915-d840-4f9d-a390-a69bccb92757.jpg",
   "grip combat racing":"https://images.launchbox-app.com/26ed16f5-9ddb-4565-84b5-c351d9704805.jpg",
   "below":"https://meridiem-games.com/backoffice/public/ckfinder/userfiles/files/below_mockup_eng.png",
   "redout":"https://tokyogamestory.com/157824-large_default/redout-race-faster-than-ever-lightspeed-edition-ps4-fr-game-in-en-fr-de-es-it-racing.jpg",
@@ -112,7 +112,8 @@ window.SHELFCHECK_TITLE_COVERS={
   "ganryu 2 hakuma kojiro":"https://videogamesplus.ca/cdn/shop/products/Ganryu2_PS4_Pegi_MULTI_2D_606x700.png?v=1651764568",
   "warui ousama to rippana yuusha":"https://s.pacn.ws/1/p/129/the-cruel-king-and-the-great-hero-storybook-edition-688541.9.jpg?v=r7fdpm&width=800",
   "fahrenheit":"https://storage.googleapis.com/images.pricecharting.com/79c944f0187ba55e49dffc3d06af3dc6e374781273680a8be454bdc1b9084f9f/1600.jpg",
-  "neptunia vs titan dogoo":"https://storage.googleapis.com/images.pricecharting.com/lowz3xvhosuctu2m/1600.jpg"
+  "neptunia vs titan dogoo":"https://storage.googleapis.com/images.pricecharting.com/lowz3xvhosuctu2m/1600.jpg",
+  "olliolli2 welcome to olliwood":"https://ecommerce.datablitz.com.ph/cdn/shop/products/1_2_b8cccdea-3bea-46b0-b863-3d8dc6f346e7.jpg?v=1676787204"
 };
 
 // Art Department quality gate. Browser-only: CI evaluates this file in a VM without DOM APIs.
