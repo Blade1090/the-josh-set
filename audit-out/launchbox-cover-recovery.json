@@ -1,12 +1,12 @@
 {
   "summary": {
-    "targeted": 778,
+    "targeted": 448,
     "recoveredThisRun": 3,
     "preserved": 678,
     "totalLaunchBoxTitles": 678,
-    "unresolvedNoMatch": 375,
-    "ambiguous": 3,
-    "matchedButNoBoxFront": 397,
+    "unresolvedNoMatch": 237,
+    "ambiguous": 2,
+    "matchedButNoBoxFront": 206,
     "regionCounts": {
       "North America": 2,
       "Asia": 1
@@ -123,43 +123,8 @@
   ],
   "unresolved": [
     {
-      "id": 1557,
-      "title": "112th Seed",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1876,
-      "title": "Acalesia",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 30,
       "title": "Accel World vs. Sword Art Online: Millennium Twilight",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 34,
-      "title": "Aces of the Luftwaffe: Squadron",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1867,
-      "title": "Aground",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1564,
-      "title": "AK-xolotl",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -214,43 +179,8 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 2277,
-      "title": "Astebros",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1575,
-      "title": "Asterix & Obelix XXL 2",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2498,
-      "title": "Asterix & Obelix: Heroes",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1577,
-      "title": "Awesome Pea",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 1579,
       "title": "Back to the Future: The Game",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1897,
-      "title": "Batbarian: Testament of the Primordials",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -284,50 +214,8 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1944,
-      "title": "Bit Dungeon +",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 1964,
       "title": "Blast Brigade vs. the Evil Legion of Dr. Cread",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1812,
-      "title": "Blaster Master Zero 3",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2535,
-      "title": "Bratz Rhythm & Style",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1913,
-      "title": "Brotherhood United",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2546,
-      "title": "Candle: The Power of the Flame",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1898,
-      "title": "Catty & Batty: The Spirit Guide",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -361,13 +249,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1975,
-      "title": "Cotton 100%",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 2102,
       "title": "Crash Bandicoot",
       "bucket": "review",
@@ -389,22 +270,8 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1594,
-      "title": "Crash Dummy",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 1595,
       "title": "Crashbots",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1868,
-      "title": "Cybertrash STATYX",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -452,20 +319,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1945,
-      "title": "Demetrios the Big Cynical Adventure",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2007,
-      "title": "Demon's Tilt",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 364,
       "title": "Diablo III: Ultimate Evil Edition",
       "bucket": "review",
@@ -473,50 +326,8 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1603,
-      "title": "Dino Dini's Kick Off Revival",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2416,
-      "title": "Distrust",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2458,
-      "title": "Do Not Open",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1985,
-      "title": "Dogurai",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2448,
-      "title": "Dora: Rainforest Rescue",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 2039,
       "title": "Dragon Lapis",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1929,
-      "title": "Duck Souls+",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -543,34 +354,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1901,
-      "title": "Endocrisis",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1865,
-      "title": "Escape From Life Inc.",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1928,
-      "title": "Escape From Tethys",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1613,
-      "title": "Evan's Remains",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 454,
       "title": "Factotum 90",
       "bucket": "review",
@@ -587,13 +370,6 @@
     {
       "id": 1807,
       "title": "Five Dates",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 506,
-      "title": "Frane: Dragons' Odyssey",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -620,22 +396,8 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 2586,
-      "title": "Garden Simulator",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 1938,
       "title": "Gekido Kintaro's Revenge",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2590,
-      "title": "Gene Rain",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -648,13 +410,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 2592,
-      "title": "Ghost Recon: Breakpoint",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 529,
       "title": "Ghostbusters",
       "bucket": "review",
@@ -662,29 +417,8 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1893,
-      "title": "Glam's Incredible Run: Escape from Dukha",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2065,
-      "title": "Golden Force",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 1628,
       "title": "Gravity Ghost: Deluxe Edition",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1896,
-      "title": "Gunborg: Dark Matters",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -718,20 +452,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1905,
-      "title": "Hellbreachers",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2604,
-      "title": "Hentai Vs. Evil",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 586,
       "title": "Hero Must Die. Again",
       "bucket": "review",
@@ -746,36 +466,8 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 2607,
-      "title": "Hishou Same! Same! Same",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1947,
-      "title": "Ice Cream Surfer",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 2229,
       "title": "Icewind Dale: Enhanced Edition",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1902,
-      "title": "Immortal Planet",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1912,
-      "title": "In rays of the Light",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -802,41 +494,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 634,
-      "title": "JackQuest: The Tale of the Sword",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1852,
-      "title": "Jets'N'Guns 2",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1925,
-      "title": "Journey of the Broken Circle",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1889,
-      "title": "Karma: Incarnation 1",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1906,
-      "title": "Kingdom of Arcadia",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 1649,
       "title": "La-Mulana",
       "bucket": "review",
@@ -846,34 +503,6 @@
     {
       "id": 686,
       "title": "La-Mulana 2",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1650,
-      "title": "Labyrinth Life",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2643,
-      "title": "Labyrinth of Zangetsu",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2646,
-      "title": "Lawn Mowing Simulator: Landmark Edition",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1652,
-      "title": "Leap of Fate",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -893,13 +522,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 2389,
-      "title": "Liberated",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 716,
       "title": "Lichtspeer",
       "bucket": "review",
@@ -914,13 +536,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 2390,
-      "title": "Loopers",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 2423,
       "title": "Lord Winklebottom Investigates",
       "bucket": "review",
@@ -930,20 +545,6 @@
     {
       "id": 2014,
       "title": "LUNARK",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1844,
-      "title": "MACROSS -Shooting Insight-",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1899,
-      "title": "Mask of Mists",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -970,13 +571,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1887,
-      "title": "Milli & Greg",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 783,
       "title": "Minecraft: Story Mode - A Telltale Games Series",
       "bucket": "review",
@@ -986,13 +580,6 @@
     {
       "id": 1923,
       "title": "Monster Prom XXL",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1982,
-      "title": "My Aunt is a Witch",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -1019,20 +606,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 2658,
-      "title": "Nayuta no Kiseki: Kai",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 826,
-      "title": "Need for Speed Heat",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 832,
       "title": "NeuroVoider",
       "bucket": "review",
@@ -1042,13 +615,6 @@
     {
       "id": 1679,
       "title": "Neverending Nightmares",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2655,
-      "title": "NHRA Championship Drag Racing: Speed For All",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -1075,20 +641,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1851,
-      "title": "Nuclear Blaze",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1856,
-      "title": "Oaken",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 2666,
       "title": "Octopath Traveler 0",
       "bucket": "review",
@@ -1098,20 +650,6 @@
     {
       "id": 1686,
       "title": "OlliOlli",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1926,
-      "title": "One Night Stand",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1687,
-      "title": "Onechanbara Z2: Chaos",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -1152,34 +690,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1934,
-      "title": "Ovivo",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1974,
-      "title": "Panorama Cotton",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1690,
-      "title": "Pantsu Hunter: Back to the 90s",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1885,
-      "title": "Pato Box",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 2206,
       "title": "Phoenix Wright: Ace Attorney - Dual Destinies",
       "bucket": "review",
@@ -1208,20 +718,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1692,
-      "title": "Pillar",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 907,
-      "title": "Pillars of Eternity II: Deadfire",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 2228,
       "title": "Planescape: Torment: Enhanced Edition",
       "bucket": "review",
@@ -1236,29 +732,8 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 919,
-      "title": "PlayerUnknown's Battlegrounds",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1694,
-      "title": "Popcorn Rocket",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 1695,
       "title": "Pressure Overdrive",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 930,
-      "title": "Prison Architect",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -1278,20 +753,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1990,
-      "title": "Projection: First Light",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1523,
-      "title": "Promenade",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 2451,
       "title": "Protodroid Delta",
       "bucket": "review",
@@ -1306,43 +767,8 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1699,
-      "title": "Race with Ryan",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2702,
-      "title": "Radioactive Dwarfs Evil From The Sewers",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2703,
-      "title": "Radirgy 2",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1700,
-      "title": "Raging Justice",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 2705,
       "title": "Raiden IV x MIKADO Remix",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2706,
-      "title": "Raiden Nova",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -1355,29 +781,8 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1907,
-      "title": "Ravva and the Cyclops Curse",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1702,
-      "title": "Red Death",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 1864,
       "title": "Relayer",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 981,
-      "title": "Resident Evil 7: biohazard",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -1390,22 +795,8 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1916,
-      "title": "Rift Keeper",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 2269,
       "title": "Risen",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1957,
-      "title": "Risk System",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -1418,36 +809,8 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1711,
-      "title": "Robozarro",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 1712,
       "title": "Rock of Ages 3: Make & Break",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1021,
-      "title": "Root Letter",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1022,
-      "title": "Root Letter: Last Answer",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2700,
-      "title": "RPGolf Legends",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -1509,13 +872,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 2710,
-      "title": "SD Gundam Battle Alliance",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 2086,
       "title": "SD Gundam G Generation Cross Rays",
       "bucket": "review",
@@ -1553,20 +909,6 @@
     {
       "id": 2061,
       "title": "Shing!",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1858,
-      "title": "Shinorubi",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1528,
-      "title": "Sifu [Vengeance Edition]",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -1649,13 +991,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1853,
-      "title": "Spellcaster University",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 2026,
       "title": "Spidersaurs",
       "bucket": "review",
@@ -1691,27 +1026,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1133,
-      "title": "Star Wars Jedi Knight II: Jedi Outcast",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1134,
-      "title": "Star Wars Jedi Knight: Jedi Academy",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1940,
-      "title": "Stay",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 1734,
       "title": "Stealth Inc: A Clone in the Dark Ultimate Edition",
       "bucket": "review",
@@ -1719,22 +1033,8 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1930,
-      "title": "Steam Tactics",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 2118,
       "title": "SteamWorld Heist",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1735,
-      "title": "Stikbold! A Dodgeball Adventure",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -1756,13 +1056,6 @@
     {
       "id": 1736,
       "title": "Super ComboMan: Smash Edition",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2000,
-      "title": "Super Daryl Deluxe",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -1803,13 +1096,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1189,
-      "title": "Sword & Fairy 6",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 1873,
       "title": "Sword of the Vagrant",
       "bucket": "review",
@@ -1840,34 +1126,6 @@
     {
       "id": 2733,
       "title": "Tales of the Neon Sea",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2407,
-      "title": "Tantei Bokumetsu",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2066,
-      "title": "Tanuki Justice",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2736,
-      "title": "Task Force Kampas",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2737,
-      "title": "Tasomachi: Behind the Twilight",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -1910,13 +1168,6 @@
     {
       "id": 1225,
       "title": "The Bunker",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1230,
-      "title": "The Council",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -1999,13 +1250,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1350,
-      "title": "Train Sim World",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 1351,
       "title": "Train Sim World 2020",
       "bucket": "review",
@@ -2041,22 +1285,8 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1773,
-      "title": "Ultracore",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 1774,
       "title": "Umbrella Corps",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1829,
-      "title": "Undead Darlings ~no cure for love~",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -2097,43 +1327,8 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 2757,
-      "title": "Void Terrarium 2",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1406,
-      "title": "Volgarr the Viking",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1935,
-      "title": "War Theatre",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 1419,
       "title": "Warhammer: Vermintide 2",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1784,
-      "title": "Warlock's Tower",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1429,
-      "title": "We Happy Few",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -2146,13 +1341,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 2040,
-      "title": "Who Pressed Mute on Uncle Marcus?",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 2022,
       "title": "Witchcrafty",
       "bucket": "review",
@@ -2160,29 +1348,8 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1819,
-      "title": "Wizards of Brandel",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1448,
-      "title": "World End Syndrome",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 1450,
       "title": "World of Warships: Legends",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1457,
-      "title": "Worse Than Death",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -2197,13 +1364,6 @@
     {
       "id": 1463,
       "title": "Xenon Valkyrie+",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2765,
-      "title": "Xuan-Yuan Sword VII",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -2230,29 +1390,8 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 2442,
-      "title": "Yum Yum Cookstar",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 1871,
-      "title": "Z-Warp",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 2443,
       "title": "Zapling Bygone",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2778,
-      "title": "Zero Fire: Toaplan Arcade Garage",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -2307,20 +1446,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 2572,
-      "title": "Electronic Super Joy II",
-      "bucket": "review",
-      "reason": "missing_ps4_banner",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2709,
-      "title": "Rainbow Six: Extraction",
-      "bucket": "review",
-      "reason": "missing_ps4_banner",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 1235,
       "title": "The Dark Pictures - Little Hope",
       "bucket": "review",
@@ -2328,22 +1453,8 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1277,
-      "title": "The Missing: JJ Macfield and the Island of Memories",
-      "bucket": "review",
-      "reason": "missing_ps4_banner",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 1303,
       "title": "The Walking Dead: A Telltale Games Series - The Complete First Season",
-      "bucket": "review",
-      "reason": "missing_ps4_banner",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2368,
-      "title": "Zero Time Dilemma",
       "bucket": "review",
       "reason": "missing_ps4_banner",
       "candidateDatabaseIds": []
@@ -2370,22 +1481,8 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1642,
-      "title": "Immortal Redneck",
-      "bucket": "review",
-      "reason": "missing_ps4_banner",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 1850,
       "title": "Lost Ruins",
-      "bucket": "review",
-      "reason": "missing_ps4_banner",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2069,
-      "title": "3D Billiards & Snooker",
       "bucket": "review",
       "reason": "missing_ps4_banner",
       "candidateDatabaseIds": []
@@ -2433,13 +1530,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 2291,
-      "title": "BPM: Bullets Per Minute",
-      "bucket": "review",
-      "reason": "missing_ps4_banner",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 111,
       "title": "Atari Flashback Classics: Volume 1",
       "bucket": "review",
@@ -2463,13 +1553,6 @@
     {
       "id": 2241,
       "title": "Steel Empire Chronicles",
-      "bucket": "review",
-      "reason": "missing_ps4_banner",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 626,
-      "title": "Infliction: Extended Cut",
       "bucket": "review",
       "reason": "missing_ps4_banner",
       "candidateDatabaseIds": []
@@ -2517,13 +1600,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 2573,
-      "title": "Embr: Uber Firefighters",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 2471,
       "title": "Get Star / Guardian",
       "bucket": "watch",
@@ -2554,13 +1630,6 @@
     {
       "id": 1665,
       "title": "Maldita Castilla EX: Cursed Castilla",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2462,
-      "title": "Malnazidos",
       "bucket": "watch",
       "reason": "image_fetch_failed",
       "candidateDatabaseIds": []
@@ -2615,13 +1684,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 2729,
-      "title": "Tadeo Jones: La Tabla Esmeralda",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 1198,
       "title": "Tales from the Borderlands: A Telltale Game Series",
       "bucket": "watch",
@@ -2638,13 +1700,6 @@
     {
       "id": 1756,
       "title": "The Journey Down: Chapter Two",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2470,
-      "title": "Tiger-Heli",
       "bucket": "watch",
       "reason": "image_fetch_failed",
       "candidateDatabaseIds": []
@@ -2692,29 +1747,8 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 2361,
-      "title": "UFO Robot Grendizer",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2410,
-      "title": "Wonderland TOD-Reloaded",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 1465,
       "title": "XIII (Remake)",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2779,
-      "title": "Zero: Tsukihami No Kamen",
       "bucket": "watch",
       "reason": "image_fetch_failed",
       "candidateDatabaseIds": []
@@ -2769,16 +1803,6 @@
         465955,
         476659
       ]
-    },
-    {
-      "id": 2083,
-      "title": "Saint Seiya: Soldiers' Soul",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": [
-        35159,
-        461967
-      ]
     }
   ],
   "noFront": [
@@ -2789,38 +1813,6 @@
       "reason": "key_art_only",
       "launchboxDatabaseId": 475358,
       "launchboxName": "9th Dawn III"
-    },
-    {
-      "id": 21,
-      "title": "A Hole New World",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475827,
-      "launchboxName": "A Hole New World"
-    },
-    {
-      "id": 1560,
-      "title": "A Short Hike",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475914,
-      "launchboxName": "A Short Hike"
-    },
-    {
-      "id": 1890,
-      "title": "Amazing Princess Sarah",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475388,
-      "launchboxName": "Amazing Princess Sarah"
-    },
-    {
-      "id": 2456,
-      "title": "Animal Hospital",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475399,
-      "launchboxName": "Animal Hospital"
     },
     {
       "id": 2485,
@@ -2839,60 +1831,12 @@
       "launchboxName": "Asterix & Obelix XXXL: The Ram From Hibernia"
     },
     {
-      "id": 2504,
-      "title": "Atelier Yumia: The Alchemist Of Memories & The Envisioned Land",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475469,
-      "launchboxName": "Atelier Yumia: The Alchemist of Memories & the Envisioned Land"
-    },
-    {
-      "id": 1578,
-      "title": "Awesome Pea 2",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475436,
-      "launchboxName": "Awesome Pea 2"
-    },
-    {
-      "id": 154,
-      "title": "Beholder: Complete Edition",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475514,
-      "launchboxName": "Beholder Complete Edition"
-    },
-    {
-      "id": 2519,
-      "title": "Beyond Good & Evil: 20th Anniversary Edition",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475451,
-      "launchboxName": "Beyond Good & Evil: 20th Anniversary Edition"
-    },
-    {
       "id": 2521,
       "title": "Bite the Bullet",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 446056,
       "launchboxName": "Bite the Bullet"
-    },
-    {
-      "id": 1927,
-      "title": "Blind Men",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475494,
-      "launchboxName": "Blind Men"
-    },
-    {
-      "id": 1581,
-      "title": "Bluey's Quest for the Gold Pen",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475503,
-      "launchboxName": "Bluey's Quest for the Gold Pen"
     },
     {
       "id": 2532,
@@ -2919,36 +1863,12 @@
       "launchboxName": "Breach & Clear: Deadline"
     },
     {
-      "id": 2292,
-      "title": "Breathedge",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473225,
-      "launchboxName": "Breathedge"
-    },
-    {
       "id": 1849,
       "title": "BROK: The InvestiGator",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 475478,
       "launchboxName": "BROK the InvestiGator"
-    },
-    {
-      "id": 1842,
-      "title": "Broken Sword - Shadow of the Templars: Reforged",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475489,
-      "launchboxName": "Broken Sword: Shadow of the Templars: Reforged"
-    },
-    {
-      "id": 2541,
-      "title": "Buried Stars",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475481,
-      "launchboxName": "BURIED STARS"
     },
     {
       "id": 2542,
@@ -2983,44 +1903,12 @@
       "launchboxName": "Chef Life: A Restaurant Simulator"
     },
     {
-      "id": 2552,
-      "title": "Chicken Range",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475545,
-      "launchboxName": "Chicken Range"
-    },
-    {
-      "id": 2457,
-      "title": "Circuit Breakers",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473046,
-      "launchboxName": "Circuit Breakers"
-    },
-    {
-      "id": 2059,
-      "title": "Concept Destruction",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475564,
-      "launchboxName": "Concept Destruction"
-    },
-    {
       "id": 2299,
       "title": "Contra: Operation Galuga",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 475570,
       "launchboxName": "Contra: Operation Galuga"
-    },
-    {
-      "id": 1592,
-      "title": "Contraptions",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473004,
-      "launchboxName": "Contraptions"
     },
     {
       "id": 269,
@@ -3071,44 +1959,12 @@
       "launchboxName": "Dead Alliance"
     },
     {
-      "id": 335,
-      "title": "DEADBOLT",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473025,
-      "launchboxName": "DEADBOLT"
-    },
-    {
       "id": 1861,
       "title": "Demon Gaze Extra",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 475621,
       "launchboxName": "Demon Gaze Extra"
-    },
-    {
-      "id": 362,
-      "title": "Devious Dungeon",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475626,
-      "launchboxName": "Devious Dungeon"
-    },
-    {
-      "id": 1499,
-      "title": "Dex",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 474119,
-      "launchboxName": "Dex"
-    },
-    {
-      "id": 1920,
-      "title": "Die With Glory",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473033,
-      "launchboxName": "Die With Glory"
     },
     {
       "id": 2417,
@@ -3159,60 +2015,12 @@
       "launchboxName": "Earthfall"
     },
     {
-      "id": 431,
-      "title": "EarthNight",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473082,
-      "launchboxName": "EarthNight"
-    },
-    {
-      "id": 432,
-      "title": "Edge Of Eternity",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473100,
-      "launchboxName": "Edge Of Eternity"
-    },
-    {
       "id": 2419,
       "title": "Eldrador Creatures",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 475673,
       "launchboxName": "Eldrador Creatures"
-    },
-    {
-      "id": 1872,
-      "title": "Enter Digiton: Heart of Corruption",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475700,
-      "launchboxName": "Enter Digiton: Heart of Corruption"
-    },
-    {
-      "id": 2577,
-      "title": "Everreach: Project Eden",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475685,
-      "launchboxName": "Everreach: Project Eden"
-    },
-    {
-      "id": 449,
-      "title": "Evoland: Legendary Edition",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473156,
-      "launchboxName": "Evoland Legendary Edition"
-    },
-    {
-      "id": 481,
-      "title": "Final Fantasy VIII Remastered",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 195815,
-      "launchboxName": "Final Fantasy VIII Remastered"
     },
     {
       "id": 1620,
@@ -3223,28 +2031,12 @@
       "launchboxName": "Forestry 2017: The Simulation"
     },
     {
-      "id": 507,
-      "title": "Freedom Finger",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473153,
-      "launchboxName": "Freedom Finger"
-    },
-    {
       "id": 1622,
       "title": "Fury Unleashed",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 473105,
       "launchboxName": "Fury Unleashed"
-    },
-    {
-      "id": 1623,
-      "title": "Future Unfolding",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473157,
-      "launchboxName": "Future Unfolding"
     },
     {
       "id": 1624,
@@ -3255,36 +2047,12 @@
       "launchboxName": "Futuridium EP Deluxe"
     },
     {
-      "id": 2585,
-      "title": "Garden Life: A Cozy Simulator",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475820,
-      "launchboxName": "Garden Life: A Cozy Simulator"
-    },
-    {
       "id": 1824,
       "title": "Gearshifters",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 473122,
       "launchboxName": "Gearshifters"
-    },
-    {
-      "id": 1955,
-      "title": "Ghost 1.0",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473209,
-      "launchboxName": "Ghost 1.0"
-    },
-    {
-      "id": 2591,
-      "title": "Ghost Of A Tale",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473224,
-      "launchboxName": "Ghost of a Tale"
     },
     {
       "id": 2311,
@@ -3295,44 +2063,12 @@
       "launchboxName": "GigaBash"
     },
     {
-      "id": 2595,
-      "title": "Gigantosaurus: Dino Sports",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475795,
-      "launchboxName": "Gigantosaurus: Dino Sports"
-    },
-    {
-      "id": 2082,
-      "title": "Ginga Force",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473226,
-      "launchboxName": "GINGA FORCE"
-    },
-    {
-      "id": 535,
-      "title": "Giraffe and Annika",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473212,
-      "launchboxName": "Giraffe and Annika"
-    },
-    {
       "id": 1866,
       "title": "Godstrike",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 475773,
       "launchboxName": "Godstrike"
-    },
-    {
-      "id": 1508,
-      "title": "Gori: Cuddly Carnage",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475816,
-      "launchboxName": "Gori: Cuddly Carnage"
     },
     {
       "id": 2420,
@@ -3349,14 +2085,6 @@
       "reason": "key_art_only",
       "launchboxDatabaseId": 475803,
       "launchboxName": "GrimGrimoire OnceMore"
-    },
-    {
-      "id": 1632,
-      "title": "Guns, Gore & Cannoli",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473214,
-      "launchboxName": "Guns, Gore and Cannoli"
     },
     {
       "id": 1980,
@@ -3415,44 +2143,12 @@
       "launchboxName": "Has-Been Heroes"
     },
     {
-      "id": 2602,
-      "title": "Heart & Slash",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473282,
-      "launchboxName": "Heart&Slash"
-    },
-    {
-      "id": 1882,
-      "title": "Heidelberg 1693",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475752,
-      "launchboxName": "Heidelberg 1693"
-    },
-    {
-      "id": 1888,
-      "title": "Helvetii",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473266,
-      "launchboxName": "Helvetii"
-    },
-    {
       "id": 1638,
       "title": "Hidden Through Time",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 473264,
       "launchboxName": "Hidden Through Time"
-    },
-    {
-      "id": 1877,
-      "title": "Hillbilly Doomsday",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476382,
-      "launchboxName": "Hillbilly Doomsday"
     },
     {
       "id": 1641,
@@ -3463,44 +2159,12 @@
       "launchboxName": "I am Setsuna"
     },
     {
-      "id": 2020,
-      "title": "I Saw Black Clouds",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473249,
-      "launchboxName": "I Saw Black Clouds"
-    },
-    {
-      "id": 2422,
-      "title": "Indiecalypse",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475782,
-      "launchboxName": "Indiecalypse"
-    },
-    {
       "id": 1644,
       "title": "Infinite: Beyond the Mind",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 473295,
       "launchboxName": "Infinite Beyond The Mind"
-    },
-    {
-      "id": 1884,
-      "title": "Inked: A Tale of Love",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475824,
-      "launchboxName": "Inked: A Tale of Love"
-    },
-    {
-      "id": 2616,
-      "title": "Intruders: Hide And Seek",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473314,
-      "launchboxName": "Intruders: Hide and Seek"
     },
     {
       "id": 2461,
@@ -3511,44 +2175,12 @@
       "launchboxName": "Isonzo"
     },
     {
-      "id": 2624,
-      "title": "Jujutsu Kaisen: Cursed Clash",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473338,
-      "launchboxName": "Jujutsu Kaisen Cursed Clash"
-    },
-    {
-      "id": 1874,
-      "title": "Lacuna",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475878,
-      "launchboxName": "Lacuna"
-    },
-    {
       "id": 2320,
       "title": "Lake",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 473384,
       "launchboxName": "Lake"
-    },
-    {
-      "id": 689,
-      "title": "Langrisser I & II",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473472,
-      "launchboxName": "LANGRISSER I & II"
-    },
-    {
-      "id": 690,
-      "title": "Lapis x Labyrinth",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475869,
-      "launchboxName": "Lapis x Labyrinth"
     },
     {
       "id": 1515,
@@ -3575,46 +2207,6 @@
       "launchboxName": "The Legend of Legacy HD Remastered"
     },
     {
-      "id": 698,
-      "title": "Legendary Fishing",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473426,
-      "launchboxName": "Legendary Fishing"
-    },
-    {
-      "id": 2641,
-      "title": "LEGO Brawls",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473385,
-      "launchboxName": "LEGO Brawls"
-    },
-    {
-      "id": 710,
-      "title": "LEGO Star Wars: The Skywalker Saga",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473415,
-      "launchboxName": "LEGO Star Wars: The Skywalker Saga"
-    },
-    {
-      "id": 2321,
-      "title": "Lemon Cake",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473411,
-      "launchboxName": "Lemon Cake"
-    },
-    {
-      "id": 1904,
-      "title": "Light Fairytale Episode 1",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475886,
-      "launchboxName": "Light Fairytale Episode 1"
-    },
-    {
       "id": 1869,
       "title": "Light Fairytale Episode 2",
       "bucket": "review",
@@ -3623,52 +2215,12 @@
       "launchboxName": "Light Fairytale Episode 2"
     },
     {
-      "id": 724,
-      "title": "Little Town Hero",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 475897,
-      "launchboxName": "Little Town Hero"
-    },
-    {
       "id": 1661,
       "title": "Lode Runner Legacy",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 473400,
       "launchboxName": "Lode Runner Legacy"
-    },
-    {
-      "id": 1833,
-      "title": "Lumote: The Mastermote Chronicles",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473442,
-      "launchboxName": "Lumote: The Mastermote Chronicles"
-    },
-    {
-      "id": 1988,
-      "title": "Macrotis: A Mother's Journey",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473455,
-      "launchboxName": "Macrotis: A Mother's Journey"
-    },
-    {
-      "id": 2652,
-      "title": "Mad Games Tycoon",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476420,
-      "launchboxName": "Mad Games Tycoon"
-    },
-    {
-      "id": 2653,
-      "title": "Mad Tower Tycoon",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476410,
-      "launchboxName": "Mad Tower Tycoon"
     },
     {
       "id": 2651,
@@ -3695,28 +2247,12 @@
       "launchboxName": "Märchen Forest"
     },
     {
-      "id": 1519,
-      "title": "Martha Is Dead",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473468,
-      "launchboxName": "Martha Is Dead"
-    },
-    {
       "id": 2323,
       "title": "Mato Anomalies",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 476440,
       "launchboxName": "Mato Anomalies"
-    },
-    {
-      "id": 1894,
-      "title": "Mayhem Brawler",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473420,
-      "launchboxName": "Mayhem Brawler"
     },
     {
       "id": 750,
@@ -3735,30 +2271,6 @@
       "launchboxName": "Memorrha"
     },
     {
-      "id": 1891,
-      "title": "Metaloid: Origin",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476438,
-      "launchboxName": "Metaloid: Origin"
-    },
-    {
-      "id": 2051,
-      "title": "Metaphor: ReFantazio",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476445,
-      "launchboxName": "Metaphor: ReFantazio"
-    },
-    {
-      "id": 775,
-      "title": "Metropolis: Lux Obscura",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476454,
-      "launchboxName": "Metropolis: Lux Obscura"
-    },
-    {
       "id": 780,
       "title": "Mighty Switch Force! Collection",
       "bucket": "review",
@@ -3775,52 +2287,12 @@
       "launchboxName": "Minit"
     },
     {
-      "id": 1672,
-      "title": "MISTOVER",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473513,
-      "launchboxName": "MISTOVER"
-    },
-    {
-      "id": 793,
-      "title": "Monstrum",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476500,
-      "launchboxName": "Monstrum"
-    },
-    {
-      "id": 794,
-      "title": "Moonlighter",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473527,
-      "launchboxName": "Moonlighter"
-    },
-    {
-      "id": 801,
-      "title": "Mothergunship",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473548,
-      "launchboxName": "MOTHERGUNSHIP"
-    },
-    {
       "id": 802,
       "title": "Moving Out",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 473588,
       "launchboxName": "Moving Out"
-    },
-    {
-      "id": 803,
-      "title": "Mozart Requiem",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476508,
-      "launchboxName": "Mozart Requiem"
     },
     {
       "id": 2095,
@@ -3847,14 +2319,6 @@
       "launchboxName": "Mutant Mudds Super Challenge"
     },
     {
-      "id": 810,
-      "title": "Mutazione",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476475,
-      "launchboxName": "Mutazione"
-    },
-    {
       "id": 811,
       "title": "My Friend Pedro",
       "bucket": "review",
@@ -3863,44 +2327,12 @@
       "launchboxName": "My Friend Pedro"
     },
     {
-      "id": 813,
-      "title": "My Hero One's Justice 2",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 211520,
-      "launchboxName": "My Hero One's Justice 2"
-    },
-    {
-      "id": 814,
-      "title": "My Time At Portia",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473562,
-      "launchboxName": "My Time at Portia"
-    },
-    {
       "id": 815,
       "title": "Mystery Chronicle: One Way Heroics",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 473540,
       "launchboxName": "Mystery Chronicle: One Way Heroics"
-    },
-    {
-      "id": 2328,
-      "title": "Mystik Belle",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473556,
-      "launchboxName": "Mystik Belle"
-    },
-    {
-      "id": 818,
-      "title": "Narcosis",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476467,
-      "launchboxName": "Narcosis"
     },
     {
       "id": 820,
@@ -3927,46 +2359,6 @@
       "launchboxName": "Necromunda: Hired Gun"
     },
     {
-      "id": 1677,
-      "title": "Necrosphere Deluxe",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473550,
-      "launchboxName": "Necrosphere"
-    },
-    {
-      "id": 1520,
-      "title": "NEO: The World Ends With You",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473635,
-      "launchboxName": "NEO: The World Ends with You"
-    },
-    {
-      "id": 2662,
-      "title": "Neptunia Virtual Stars",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476473,
-      "launchboxName": "Neptunia Virtual Stars"
-    },
-    {
-      "id": 2664,
-      "title": "Neptunia: Sisters VS Sisters",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473606,
-      "launchboxName": "Neptunia: Sisters VS Sisters"
-    },
-    {
-      "id": 2329,
-      "title": "NeverAwake",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473602,
-      "launchboxName": "NeverAwake"
-    },
-    {
       "id": 2330,
       "title": "Neversong",
       "bucket": "review",
@@ -3983,22 +2375,6 @@
       "launchboxName": "Nexomon: Extinction"
     },
     {
-      "id": 2428,
-      "title": "Nippon Marathon",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473609,
-      "launchboxName": "Nippon Marathon"
-    },
-    {
-      "id": 852,
-      "title": "No Straight Roads",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473622,
-      "launchboxName": "NO STRAIGHT ROADS"
-    },
-    {
       "id": 1826,
       "title": "Nobody Saves the World",
       "bucket": "review",
@@ -4007,76 +2383,12 @@
       "launchboxName": "Nobody Saves the World"
     },
     {
-      "id": 854,
-      "title": "Nobunaga's Ambition: Sphere of Influence - Ascension",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473637,
-      "launchboxName": "NOBUNAGA'S AMBITION: SPHERE OF INFLUENCE: ASCENSION"
-    },
-    {
-      "id": 1922,
-      "title": "Nongunz: Doppelganger Edition",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476507,
-      "launchboxName": "Nongunz: Doppelganger Edition"
-    },
-    {
-      "id": 856,
-      "title": "Northgard",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476478,
-      "launchboxName": "Northgard"
-    },
-    {
-      "id": 1909,
-      "title": "Null Drifter",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476490,
-      "launchboxName": "Null Drifter"
-    },
-    {
-      "id": 1683,
-      "title": "Obey Me",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476468,
-      "launchboxName": "Obey Me"
-    },
-    {
       "id": 2232,
       "title": "OK K.O.! Let's Play Heroes",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 473628,
       "launchboxName": "OK K.O.! Let's Play Heroes"
-    },
-    {
-      "id": 2060,
-      "title": "Okinawa Rush",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473711,
-      "launchboxName": "Okinawa Rush"
-    },
-    {
-      "id": 1941,
-      "title": "Old Man's Journey",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476491,
-      "launchboxName": "Old Man's Journey"
-    },
-    {
-      "id": 1862,
-      "title": "OmegaBot",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476470,
-      "launchboxName": "OmegaBot"
     },
     {
       "id": 2331,
@@ -4095,36 +2407,12 @@
       "launchboxName": "On the Road: Truck Simulator"
     },
     {
-      "id": 1962,
-      "title": "One Finger Death Punch 2",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473713,
-      "launchboxName": "One Finger Death Punch 2"
-    },
-    {
-      "id": 865,
-      "title": "One More Dungeon",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473661,
-      "launchboxName": "One More Dungeon"
-    },
-    {
       "id": 872,
       "title": "One Step From Eden",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 473674,
       "launchboxName": "One Step From Eden"
-    },
-    {
-      "id": 2676,
-      "title": "Operation Wolf Returns: First Mission",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473697,
-      "launchboxName": "Operation Wolf Returns: First Mission"
     },
     {
       "id": 878,
@@ -4135,28 +2423,12 @@
       "launchboxName": "Organ Trail Complete Edition"
     },
     {
-      "id": 879,
-      "title": "Othercide",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473676,
-      "launchboxName": "Othercide"
-    },
-    {
       "id": 2332,
       "title": "Oxide Room 104",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 476496,
       "launchboxName": "Oxide Room 104"
-    },
-    {
-      "id": 2683,
-      "title": "Pac-Man World Re-PAC",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473737,
-      "launchboxName": "PAC-MAN WORLD Re-PAC"
     },
     {
       "id": 1817,
@@ -4167,22 +2439,6 @@
       "launchboxName": "Panzer Dragoon: Remake"
     },
     {
-      "id": 1522,
-      "title": "Paradise Killer",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473665,
-      "launchboxName": "Paradise Killer"
-    },
-    {
-      "id": 896,
-      "title": "Pathfinder: Kingmaker - Definitive Edition",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473809,
-      "launchboxName": "Pathfinder: Kingmaker"
-    },
-    {
       "id": 2690,
       "title": "Pathfinder: Wrath of the Righteous",
       "bucket": "review",
@@ -4191,36 +2447,12 @@
       "launchboxName": "Pathfinder: Wrath of the Righteous"
     },
     {
-      "id": 2679,
-      "title": "PAW Patrol Rescue Wheels: Championship",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476548,
-      "launchboxName": "PAW Patrol Rescue Wheels: Championship"
-    },
-    {
-      "id": 2680,
-      "title": "PAW Patrol The Movie: Adventure City Calls",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473803,
-      "launchboxName": "PAW Patrol The Movie: Adventure City Calls"
-    },
-    {
       "id": 2692,
       "title": "Paw Patrol World",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 473804,
       "launchboxName": "PAW Patrol World"
-    },
-    {
-      "id": 2693,
-      "title": "Paw Patrol: Mighty Pups Save Adventure Bay",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473679,
-      "launchboxName": "Paw Patrol: Mighty Pups Save Adventure Bay!"
     },
     {
       "id": 897,
@@ -4263,14 +2495,6 @@
       "launchboxName": "PJ Masks Power Heroes: Mighty Alliance"
     },
     {
-      "id": 2682,
-      "title": "PJ Masks: Heroes of The Night",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473683,
-      "launchboxName": "PJ MASKS: HEROES OF THE NIGHT"
-    },
-    {
       "id": 914,
       "title": "Plague Road",
       "bucket": "review",
@@ -4279,36 +2503,12 @@
       "launchboxName": "Plague Road"
     },
     {
-      "id": 2431,
-      "title": "PlateUp",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476634,
-      "launchboxName": "PlateUp"
-    },
-    {
-      "id": 2335,
-      "title": "Pocket Bravery",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476635,
-      "launchboxName": "Pocket Bravery"
-    },
-    {
       "id": 922,
       "title": "Pool Nation",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 473859,
       "launchboxName": "Pool Nation"
-    },
-    {
-      "id": 924,
-      "title": "Poop Slinger",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473819,
-      "launchboxName": "Poop Slinger"
     },
     {
       "id": 925,
@@ -4327,14 +2527,6 @@
       "launchboxName": "Postal REDUX"
     },
     {
-      "id": 2336,
-      "title": "Potion Permit",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473666,
-      "launchboxName": "Potion Permit"
-    },
-    {
       "id": 2215,
       "title": "Praetorians - HD Remaster",
       "bucket": "review",
@@ -4351,28 +2543,12 @@
       "launchboxName": "Prodeus"
     },
     {
-      "id": 933,
-      "title": "Project CARS 3",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473828,
-      "launchboxName": "Project CARS 3"
-    },
-    {
       "id": 1697,
       "title": "Prototype",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 476646,
       "launchboxName": "Prototype"
-    },
-    {
-      "id": 938,
-      "title": "Psychonauts",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 176107,
-      "launchboxName": "Psychonauts"
     },
     {
       "id": 939,
@@ -4383,44 +2559,12 @@
       "launchboxName": "Psyvariar Delta"
     },
     {
-      "id": 940,
-      "title": "Punch Line",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473752,
-      "launchboxName": "Punch Line"
-    },
-    {
-      "id": 2244,
-      "title": "Puzzle Bobble 3D: Vacation Odyssey",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476613,
-      "launchboxName": "Puzzle Bobble 3D: Vacation Odyssey"
-    },
-    {
       "id": 2701,
       "title": "Rabbids: Party of Legends",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 476648,
       "launchboxName": "Rabbids Party of Legends"
-    },
-    {
-      "id": 2704,
-      "title": "Raiden III x Mikado Maniax",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476626,
-      "launchboxName": "Raiden III x MIKADO MANIAX"
-    },
-    {
-      "id": 2708,
-      "title": "Rainbow High: Runway Rush",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476637,
-      "launchboxName": "RAINBOW HIGH RUNWAY RUSH"
     },
     {
       "id": 959,
@@ -4439,44 +2583,12 @@
       "launchboxName": "Ravenswatch"
     },
     {
-      "id": 1701,
-      "title": "Real Heroes: Firefighter",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473706,
-      "launchboxName": "Real Heroes: Firefighter"
-    },
-    {
-      "id": 963,
-      "title": "Realms of Arkania: Blade of Destiny",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473806,
-      "launchboxName": "Realms of Arkania: Blade of Destiny"
-    },
-    {
-      "id": 1910,
-      "title": "Record of Lodoss War: Deedlit in Wonder Labyrinth",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473777,
-      "launchboxName": "Record of Lodoss War -Deedlit in Wonder Labyrinth-"
-    },
-    {
       "id": 970,
       "title": "Regions Of Ruin",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 476632,
       "launchboxName": "Regions of Ruin"
-    },
-    {
-      "id": 971,
-      "title": "RemiLore: Lost Girl in the Lands of Lore",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473700,
-      "launchboxName": "RemiLore: Lost Girl in the Lands of Lore"
     },
     {
       "id": 987,
@@ -4495,14 +2607,6 @@
       "launchboxName": "Reus"
     },
     {
-      "id": 1855,
-      "title": "Revita",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476676,
-      "launchboxName": "Revita"
-    },
-    {
       "id": 993,
       "title": "RICO",
       "bucket": "review",
@@ -4511,36 +2615,12 @@
       "launchboxName": "RICO"
     },
     {
-      "id": 996,
-      "title": "Riot: Civil Unrest",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473781,
-      "launchboxName": "Riot: Civil Unrest"
-    },
-    {
       "id": 1972,
       "title": "Rising Hell",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 476668,
       "launchboxName": "Rising Hell"
-    },
-    {
-      "id": 1002,
-      "title": "River City Girls",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473694,
-      "launchboxName": "River City Girls"
-    },
-    {
-      "id": 2057,
-      "title": "River City Saga: Three Kingdoms Next",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476670,
-      "launchboxName": "River City Saga: Three Kingdoms Next"
     },
     {
       "id": 2114,
@@ -4583,22 +2663,6 @@
       "launchboxName": "Romancing SaGa -Minstrel Song- Remastered"
     },
     {
-      "id": 1524,
-      "title": "Romancing SaGa 2: Revenge of the Seven",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476693,
-      "launchboxName": "Romancing SaGa 2: Revenge of the Seven"
-    },
-    {
-      "id": 1716,
-      "title": "Romancing SaGa 3",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473801,
-      "launchboxName": "Romancing SaGa 3"
-    },
-    {
       "id": 2038,
       "title": "Roombo: First Blood",
       "bucket": "review",
@@ -4607,36 +2671,12 @@
       "launchboxName": "Roombo: First Blood"
     },
     {
-      "id": 1023,
-      "title": "RPG Maker MV",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473834,
-      "launchboxName": "RPG Maker MV"
-    },
-    {
-      "id": 2699,
-      "title": "RPG Maker WITH",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476688,
-      "launchboxName": "RPG MAKER WITH"
-    },
-    {
       "id": 1025,
       "title": "Runbow",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 459095,
       "launchboxName": "Runbow Deluxe Edition"
-    },
-    {
-      "id": 2340,
-      "title": "Rustler",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473815,
-      "launchboxName": "Rustler"
     },
     {
       "id": 1997,
@@ -4663,14 +2703,6 @@
       "launchboxName": "SAMURAI MAIDEN"
     },
     {
-      "id": 1034,
-      "title": "Samurai Shodown V Special",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476747,
-      "launchboxName": "SAMURAI SHODOWN V SPECIAL"
-    },
-    {
       "id": 1720,
       "title": "Samurai Shodown VI",
       "bucket": "review",
@@ -4679,36 +2711,12 @@
       "launchboxName": "Samurai Shodown VI"
     },
     {
-      "id": 2720,
-      "title": "Sand Land",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476737,
-      "launchboxName": "SAND LAND"
-    },
-    {
       "id": 1039,
       "title": "Saturday Morning RPG",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 473714,
       "launchboxName": "Saturday Morning RPG"
-    },
-    {
-      "id": 2435,
-      "title": "Scar-Lead Salvation",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476755,
-      "launchboxName": "Scar-Lead Salvation"
-    },
-    {
-      "id": 2722,
-      "title": "Scarlet Nexus",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473810,
-      "launchboxName": "Scarlet Nexus"
     },
     {
       "id": 1721,
@@ -4767,22 +2775,6 @@
       "launchboxName": "Shadows of Adam"
     },
     {
-      "id": 1063,
-      "title": "Shakedown Hawaii",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473821,
-      "launchboxName": "Shakedown: Hawaii"
-    },
-    {
-      "id": 2343,
-      "title": "Sheepo",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476749,
-      "launchboxName": "Sheepo"
-    },
-    {
       "id": 1069,
       "title": "Shenmue II",
       "bucket": "review",
@@ -4797,22 +2789,6 @@
       "reason": "key_art_only",
       "launchboxDatabaseId": 473763,
       "launchboxName": "Shikhondo: Soul Eater"
-    },
-    {
-      "id": 2052,
-      "title": "Shin Megami Tensei V: Vengeance",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476741,
-      "launchboxName": "SHIN MEGAMI TENSEI V: Vengeance"
-    },
-    {
-      "id": 1728,
-      "title": "Sigi: A Fart for Melusina",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476785,
-      "launchboxName": "Sigi: A Fart for Melusina"
     },
     {
       "id": 1818,
@@ -4831,14 +2807,6 @@
       "launchboxName": "Skautfold: Into the Fray"
     },
     {
-      "id": 1903,
-      "title": "Skautfold: Shrouded in Sanity",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476776,
-      "launchboxName": "Skautfold: Shrouded in Sanity"
-    },
-    {
       "id": 1870,
       "title": "Skautfold: Usurper",
       "bucket": "review",
@@ -4855,36 +2823,12 @@
       "launchboxName": "Skully"
     },
     {
-      "id": 2437,
-      "title": "Skyhill",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476772,
-      "launchboxName": "SKYHILL"
-    },
-    {
       "id": 1090,
       "title": "Slide Stars",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 473898,
       "launchboxName": "Slide Stars"
-    },
-    {
-      "id": 1860,
-      "title": "Smelter",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476779,
-      "launchboxName": "Smelter"
-    },
-    {
-      "id": 1100,
-      "title": "SNK 40th Anniversary Collection",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473888,
-      "launchboxName": "SNK 40th Anniversary Collection"
     },
     {
       "id": 2018,
@@ -4895,44 +2839,12 @@
       "launchboxName": "Sol Cresta"
     },
     {
-      "id": 1531,
-      "title": "Source of Madness",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473895,
-      "launchboxName": "Source of Madness"
-    },
-    {
-      "id": 2438,
-      "title": "Spacebase Startopia",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473903,
-      "launchboxName": "Spacebase Startopia"
-    },
-    {
       "id": 2258,
       "title": "Spelunker HD Deluxe",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 473970,
       "launchboxName": "Spelunker HD Deluxe"
-    },
-    {
-      "id": 2349,
-      "title": "Spiritfarer",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473971,
-      "launchboxName": "Spiritfarer"
-    },
-    {
-      "id": 2251,
-      "title": "Star Renegades",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 474001,
-      "launchboxName": "Star Renegades"
     },
     {
       "id": 2350,
@@ -4943,36 +2855,12 @@
       "launchboxName": "Summertime Madness"
     },
     {
-      "id": 1176,
-      "title": "Super Cane Magic ZERO",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473950,
-      "launchboxName": "Super Cane Magic ZERO"
-    },
-    {
       "id": 1737,
       "title": "Super GunWorld 2",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 473922,
       "launchboxName": "Super GunWorld 2"
-    },
-    {
-      "id": 1931,
-      "title": "Super Skull Smash GO! 2 Turbo",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476889,
-      "launchboxName": "Super Skull Smash Go! 2 Turbo"
-    },
-    {
-      "id": 2351,
-      "title": "Supermarket Shriek",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473917,
-      "launchboxName": "Supermarket Shriek"
     },
     {
       "id": 1185,
@@ -4991,44 +2879,12 @@
       "launchboxName": "Supraland"
     },
     {
-      "id": 1186,
-      "title": "Surf World Series",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473995,
-      "launchboxName": "Surf World Series"
-    },
-    {
       "id": 2013,
       "title": "Sword of the Necromancer",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 476898,
       "launchboxName": "Sword of the Necromancer"
-    },
-    {
-      "id": 2439,
-      "title": "Symmetry",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473937,
-      "launchboxName": "SYMMETRY"
-    },
-    {
-      "id": 1196,
-      "title": "Tachyon Project",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473969,
-      "launchboxName": "Tachyon Project"
-    },
-    {
-      "id": 2728,
-      "title": "Tactics Ogre: Reborn",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473933,
-      "launchboxName": "Tactics Ogre: Reborn"
     },
     {
       "id": 2730,
@@ -5071,14 +2927,6 @@
       "launchboxName": "Tannenberg"
     },
     {
-      "id": 2739,
-      "title": "Teenage Mutant Ninja Turtles Arcade: Wrath Of The Mutants",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476888,
-      "launchboxName": "Teenage Mutant Ninja Turtles Arcade: Wrath of the Mutants"
-    },
-    {
       "id": 2740,
       "title": "Teenage Mutant Ninja Turtles: Mutants Unleashed",
       "bucket": "review",
@@ -5101,14 +2949,6 @@
       "reason": "key_art_only",
       "launchboxDatabaseId": 473977,
       "launchboxName": "Tharsis"
-    },
-    {
-      "id": 1218,
-      "title": "The Aquatic Adventure of the Last Human",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 472881,
-      "launchboxName": "The Aquatic Adventure of the Last Human"
     },
     {
       "id": 2353,
@@ -5135,36 +2975,12 @@
       "launchboxName": "The Complex"
     },
     {
-      "id": 1750,
-      "title": "The Count Lucanor",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473034,
-      "launchboxName": "The Count Lucanor"
-    },
-    {
-      "id": 1237,
-      "title": "The Dwarves",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473084,
-      "launchboxName": "The Dwarves"
-    },
-    {
       "id": 2354,
       "title": "The Good Life",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 476404,
       "launchboxName": "The Good Life"
-    },
-    {
-      "id": 2355,
-      "title": "The Infectious Madness of Doctor Dekker",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473274,
-      "launchboxName": "The Infectious Madness of Doctor Dekker"
     },
     {
       "id": 1258,
@@ -5197,14 +3013,6 @@
       "reason": "key_art_only",
       "launchboxDatabaseId": 476418,
       "launchboxName": "The Legend of Nayuta: Boundless Trails"
-    },
-    {
-      "id": 1274,
-      "title": "The Long Dark",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473478,
-      "launchboxName": "The Long Dark"
     },
     {
       "id": 1275,
@@ -5263,28 +3071,12 @@
       "launchboxName": "The Swords of Ditto"
     },
     {
-      "id": 2046,
-      "title": "The TakeOver",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473978,
-      "launchboxName": "The Takeover"
-    },
-    {
       "id": 1302,
       "title": "The Town of Light",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 474035,
       "launchboxName": "The Town of Light"
-    },
-    {
-      "id": 1847,
-      "title": "They Always Run",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476939,
-      "launchboxName": "They Always Run"
     },
     {
       "id": 1317,
@@ -5295,44 +3087,12 @@
       "launchboxName": "They Are Billions"
     },
     {
-      "id": 1323,
-      "title": "Those Who Remain",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 474006,
-      "launchboxName": "Those Who Remain"
-    },
-    {
       "id": 1326,
       "title": "Timespinner",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 473924,
       "launchboxName": "Timespinner"
-    },
-    {
-      "id": 1328,
-      "title": "Titan Quest",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473985,
-      "launchboxName": "Titan Quest"
-    },
-    {
-      "id": 1331,
-      "title": "ToeJam & Earl: Back in the Groove",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473961,
-      "launchboxName": "ToeJam & Earl: Back in the Groove!"
-    },
-    {
-      "id": 1334,
-      "title": "Tokyo Ghoul: re Call to Exist",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473931,
-      "launchboxName": "TOKYO GHOUL:re [CALL to EXIST]"
     },
     {
       "id": 1768,
@@ -5349,22 +3109,6 @@
       "reason": "key_art_only",
       "launchboxDatabaseId": 476972,
       "launchboxName": "Toto Temple Deluxe"
-    },
-    {
-      "id": 1345,
-      "title": "Toukiden 2",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 473989,
-      "launchboxName": "Toukiden 2"
-    },
-    {
-      "id": 2409,
-      "title": "Trailmakers",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 477002,
-      "launchboxName": "Trailmakers"
     },
     {
       "id": 2358,
@@ -5423,38 +3167,6 @@
       "launchboxName": "Turok 3: Shadow of Oblivion"
     },
     {
-      "id": 2742,
-      "title": "Ultra Age",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 474054,
-      "launchboxName": "Ultra Age"
-    },
-    {
-      "id": 2109,
-      "title": "Uncharted 2: Among Thieves Remastered",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 477053,
-      "launchboxName": "Uncharted 2: Among Thieves Remastered"
-    },
-    {
-      "id": 2110,
-      "title": "Uncharted 3: Drake's Deception Remastered",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 477082,
-      "launchboxName": "Uncharted 3: Drake's Deception Remastered"
-    },
-    {
-      "id": 2108,
-      "title": "Uncharted: Drake's Fortune Remastered",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 477114,
-      "launchboxName": "Uncharted: Drake's Fortune Remastered"
-    },
-    {
       "id": 2746,
       "title": "Under Night In-Birth II: Sys:Celes",
       "bucket": "review",
@@ -5479,60 +3191,12 @@
       "launchboxName": "UnderMine"
     },
     {
-      "id": 2748,
-      "title": "Undernauts: Labyrinth of Yomi",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 477115,
-      "launchboxName": "Undernauts: Labyrinth of Yomi"
-    },
-    {
-      "id": 2363,
-      "title": "Unicorn Overlord",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 477075,
-      "launchboxName": "Unicorn Overlord"
-    },
-    {
-      "id": 2467,
-      "title": "United Assault: Normandy '44",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 474078,
-      "launchboxName": "United Assault: Normandy '44"
-    },
-    {
-      "id": 2364,
-      "title": "Unpacking",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 477077,
-      "launchboxName": "Unpacking"
-    },
-    {
-      "id": 2751,
-      "title": "Unruly Heroes",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 474059,
-      "launchboxName": "Unruly Heroes"
-    },
-    {
       "id": 1542,
       "title": "Unsighted",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 474049,
       "launchboxName": "UNSIGHTED"
-    },
-    {
-      "id": 1984,
-      "title": "Unto The End",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 477085,
-      "launchboxName": "Unto The End"
     },
     {
       "id": 1986,
@@ -5551,14 +3215,6 @@
       "launchboxName": "Vagante"
     },
     {
-      "id": 1393,
-      "title": "Valhalla Hills: Definitive Edition",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 474061,
-      "launchboxName": "Valhalla Hills"
-    },
-    {
       "id": 2752,
       "title": "Valiant Hearts: Coming Home",
       "bucket": "review",
@@ -5573,14 +3229,6 @@
       "reason": "key_art_only",
       "launchboxDatabaseId": 474034,
       "launchboxName": "Vegas Party"
-    },
-    {
-      "id": 2754,
-      "title": "Venus Vacation Prism: Dead Or Alive Xtreme",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 477057,
-      "launchboxName": "Venus Vacation PRISM: DEAD OR ALIVE Xtreme"
     },
     {
       "id": 1781,
@@ -5599,28 +3247,12 @@
       "launchboxName": "VirtuaVerse"
     },
     {
-      "id": 2756,
-      "title": "Visions Of Mana",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 477064,
-      "launchboxName": "Visions of Mana"
-    },
-    {
       "id": 1783,
       "title": "Volume",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 31306,
       "launchboxName": "Volume"
-    },
-    {
-      "id": 2759,
-      "title": "Wallachia: Reign of Dracula",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 477105,
-      "launchboxName": "Wallachia: Reign of Dracula"
     },
     {
       "id": 2761,
@@ -5655,52 +3287,12 @@
       "launchboxName": "WILL: A Wonderful World"
     },
     {
-      "id": 1960,
-      "title": "Within the Blade",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 474025,
-      "launchboxName": "Within the Blade"
-    },
-    {
-      "id": 2255,
-      "title": "Wonder Boy Anniversary Collection",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 474026,
-      "launchboxName": "Wonder Boy Anniversary Collection"
-    },
-    {
-      "id": 1546,
-      "title": "World of Horror",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 477091,
-      "launchboxName": "WORLD OF HORROR"
-    },
-    {
       "id": 2367,
       "title": "Wytchwood",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 474056,
       "launchboxName": "Wytchwood"
-    },
-    {
-      "id": 2767,
-      "title": "Yasha: Legends Of The Demon Blade",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 477078,
-      "launchboxName": "Yasha: Legends of the Demon Blade"
-    },
-    {
-      "id": 1549,
-      "title": "Yomawari: Lost in the Dark [Deluxe Edition]",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 477059,
-      "launchboxName": "Yomawari: Lost in the Dark"
     },
     {
       "id": 2770,
@@ -5727,14 +3319,6 @@
       "launchboxName": "Ys X: Nordics"
     },
     {
-      "id": 2776,
-      "title": "Yuppie Psycho: Executive Edition",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 474030,
-      "launchboxName": "Yuppie Psycho: Executive Edition"
-    },
-    {
       "id": 2777,
       "title": "Yurukill: The Calumniation Games",
       "bucket": "review",
@@ -5759,14 +3343,6 @@
       "launchboxName": "Gunlord X"
     },
     {
-      "id": 1921,
-      "title": "Horned Knight",
-      "bucket": "review",
-      "reason": "missing_ps4_banner",
-      "launchboxDatabaseId": 473257,
-      "launchboxName": "Horned Knight"
-    },
-    {
       "id": 2122,
       "title": "Resident Evil 0 HD Remaster",
       "bucket": "review",
@@ -5783,28 +3359,12 @@
       "launchboxName": "Andro Dunos 2"
     },
     {
-      "id": 2308,
-      "title": "Fahrenheit",
-      "bucket": "review",
-      "reason": "missing_ps4_banner",
-      "launchboxDatabaseId": 475698,
-      "launchboxName": "Fahrenheit"
-    },
-    {
       "id": 1682,
       "title": "Now That's What I Call Sing",
       "bucket": "review",
       "reason": "missing_ps4_banner",
       "launchboxDatabaseId": 473618,
       "launchboxName": "NOW That's What I Call Sing"
-    },
-    {
-      "id": 2570,
-      "title": "Eiyuden Chronicle: Hundred Heroes",
-      "bucket": "review",
-      "reason": "missing_ps4_banner",
-      "launchboxDatabaseId": 475680,
-      "launchboxName": "Eiyuden Chronicle: Hundred Heroes"
     },
     {
       "id": 241,
@@ -5855,28 +3415,12 @@
       "launchboxName": "FullBlast"
     },
     {
-      "id": 2015,
-      "title": "Haven",
-      "bucket": "review",
-      "reason": "missing_ps4_banner",
-      "launchboxDatabaseId": 474120,
-      "launchboxName": "Haven"
-    },
-    {
       "id": 451,
       "title": "Exile's End",
       "bucket": "review",
       "reason": "missing_ps4_banner",
       "launchboxDatabaseId": 473095,
       "launchboxName": "Exile's End"
-    },
-    {
-      "id": 2081,
-      "title": "Brigandine: The Legend of Runersia",
-      "bucket": "review",
-      "reason": "missing_ps4_banner",
-      "launchboxDatabaseId": 472921,
-      "launchboxName": "BRIGANDINE The Legend of Runersia"
     },
     {
       "id": 819,
@@ -5887,14 +3431,6 @@
       "launchboxName": "Narita Boy"
     },
     {
-      "id": 1598,
-      "title": "Deathwish Enforcers",
-      "bucket": "review",
-      "reason": "missing_ps4_banner",
-      "launchboxDatabaseId": 475619,
-      "launchboxName": "Deathwish Enforcers"
-    },
-    {
       "id": 476,
       "title": "Fight'N Rage",
       "bucket": "review",
@@ -5903,52 +3439,12 @@
       "launchboxName": "Fight'N Rage"
     },
     {
-      "id": 565,
-      "title": "Gunhouse",
-      "bucket": "review",
-      "reason": "missing_ps4_banner",
-      "launchboxDatabaseId": 463060,
-      "launchboxName": "Gunhouse"
-    },
-    {
-      "id": 1981,
-      "title": "SturmFront - The Mutant War: Übel Edition",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "launchboxDatabaseId": 473949,
-      "launchboxName": "SturmFront: The Mutant War - Übel Edition"
-    },
-    {
-      "id": 1954,
-      "title": "Söldner-X 2: Final Prototype Definitive Edition",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "launchboxDatabaseId": 473908,
-      "launchboxName": "Söldner-X 2: Final Prototype Definitive Edition"
-    },
-    {
       "id": 2784,
       "title": "Tony Hawk's Pro Skater 3 + 4",
       "bucket": "watch",
       "reason": "image_fetch_failed",
       "launchboxDatabaseId": 476997,
       "launchboxName": "Tony Hawk's Pro Skater 3 + 4"
-    },
-    {
-      "id": 2366,
-      "title": "Wobbledogs",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "launchboxDatabaseId": 477108,
-      "launchboxName": "Wobbledogs"
-    },
-    {
-      "id": 1794,
-      "title": "Zero Strain",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "launchboxDatabaseId": 474033,
-      "launchboxName": "Zero Strain"
     },
     {
       "id": 155,
