@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-25T21:12:35.875Z",
+  "generatedAt": "2026-09-25T21:15:19.890Z",
   "summary": {
-    "generatedAt": "2026-09-25T21:12:35.875Z",
+    "generatedAt": "2026-09-25T21:15:19.890Z",
     "included": 2407,
-    "good": 2155,
+    "good": 2153,
     "fallback": 8,
     "review": 225,
-    "watch": 19,
-    "physicalVerify": 222,
+    "watch": 21,
+    "physicalVerify": 224,
     "physicalLikely": 1390,
-    "physicalConfirmed": 795,
+    "physicalConfirmed": 793,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
@@ -19,7 +19,7 @@
       "missing_ps4_banner": 22
     },
     "watchByReason": {
-      "image_fetch_failed": 19
+      "image_fetch_failed": 21
     }
   },
   "review": [
@@ -1278,6 +1278,11 @@
       "reason": "image_fetch_failed"
     },
     {
+      "id": 1264,
+      "title": "The Last Tinker: City of Colors",
+      "reason": "image_fetch_failed"
+    },
+    {
       "id": 2784,
       "title": "Tony Hawk's Pro Skater 3 + 4",
       "reason": "image_fetch_failed"
@@ -1285,6 +1290,11 @@
     {
       "id": 1979,
       "title": "Trouble Witches Final: Episode 1 - Daughters of Amalgam",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "id": 1465,
+      "title": "XIII (Remake)",
       "reason": "image_fetch_failed"
     }
   ]
