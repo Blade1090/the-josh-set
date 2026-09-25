@@ -1,22 +1,11 @@
 {
-  "updatedAt": "2026-09-25T10:05:00-04:00",
-  "notes": "Art Department QA. confirmed_bad includes every actionable audit REVIEW art case and is replaced by COVER NEEDED at runtime until a real physical PS4 source is approved. fallback is verified physical-package art that may remain visible while a cleaner straight-on front is sought. fixed is retained for regression checking. eligibility requires physical-release verification.",
+  "updatedAt": "2026-09-25T10:22:00-04:00",
+  "notes": "Art Department QA synchronized to the live census. confirmed_bad contains only included identities with unresolved art. fallback is verified physical-package art that may remain visible while a cleaner straight-on front is sought. fixed is retained for regression checking. eligibility is reserved for unresolved physical-release verification.",
   "confirmed_bad": [
     {"title":"Now That's What I Call Sing","reason":"no approved physical PS4 front cover source"},
-    {"title":"Redout","reason":"no approved physical PS4 front cover source"},
-    {"title":"Rolling Gunner","reason":"no approved physical PS4 front cover source"},
-    {"title":"The Walking Dead: Saints & Sinners","reason":"no approved physical PS4 front cover source"},
-    {"title":"Tokyo Twilight Ghost Hunters","reason":"no approved physical PS4 front cover source"},
-    {"title":"Below","reason":"current source is PlayStation Store/digital art; physical PS4 front cover not yet approved"},
-    {"title":"Cyanide & Happiness - Freakpocalypse (Episode 1)","reason":"current source is PlayStation Store/digital art; physical PS4 front cover not yet approved"},
-    {"title":"Dead Craft","reason":"current source is PlayStation Store/digital art; physical PS4 front cover not yet approved"},
-    {"title":"Destroy All Humans! (2005)","reason":"current source is PlayStation Store/digital art; physical PS4 front cover not yet approved"},
-    {"title":"Euro Fishing: Urban Edition","reason":"current source is PlayStation Store/digital art; physical PS4 front cover not yet approved"},
+    {"title":"Dead Craft","reason":"current source is PlayStation Store/digital art; no qualifying PS4 physical release has been verified"},
     {"title":"Fahrenheit","reason":"current source is PlayStation Store/digital art; physical PS4 front cover not yet approved"},
     {"title":"Ganryu 2: Hakuma Kojiro","reason":"current source is PlayStation Store/digital art; physical PS4 front cover not yet approved"},
-    {"title":"GRIP: Combat Racing","reason":"current source is PlayStation Store/digital art; physical PS4 front cover not yet approved"},
-    {"title":"Kamen Rider: Battride War Creation","reason":"current source is PlayStation Store/digital art; physical PS4 front cover not yet approved"},
-    {"title":"Kingdom Hearts HD I.5 + II.5 Remix","reason":"current source is PlayStation Store/digital art; physical PS4 front cover not yet approved"},
     {"title":"Neptunia VS Titan Dogoo","reason":"current source is PlayStation Store/digital art; physical PS4 front cover not yet approved"},
     {"title":"Warui Ousama To Rippana Yuusha","reason":"current source is PlayStation Store/digital art; physical PS4 front cover not yet approved"}
   ],
@@ -26,16 +15,18 @@
     {"title":"N++","reason":"official Limited Run physical package render, angled rather than a flat front scan"},
     {"title":"Bleed","reason":"verified physical PS4 case photo, but product-photo framing is not a clean flat cover scan"},
     {"title":"Braveland Trilogy","reason":"official Red Art Games physical package render, angled rather than a flat front scan"},
-    {"title":"Scourge Bringer","reason":"official Pix'n Love physical PS4 product shot; angled rather than a flat front scan"}
+    {"title":"Scourge Bringer","reason":"official Pix'n Love physical PS4 product shot; angled rather than a flat front scan"},
+    {"title":"Below","reason":"official Meridiem Games physical PS4 boxed-edition product render; clean retail package but not a flat front scan"},
+    {"title":"Redout","reason":"verified Redout: Lightspeed Edition physical PS4 retail case image; physical front is usable but source is a photographed retail case rather than a flat scan"}
   ],
   "fixed": [
     {"title":"A Boy and His Blob"},{"title":"2Dark"},{"title":"Alchemic Jousts"},{"title":"Alienation"},{"title":"Anima: Gate of Memories - The Nameless Chronicles"},{"title":"Ara Fell: Enhanced Edition"},{"title":"ArmaGallant: Decks of Destiny"},{"title":"Asdivine Hearts"},{"title":"Atari Flashback Classics: Volume 1"},{"title":"8-Bit Adventure Anthology: Volume One"},{"title":"Bayonetta"},{"title":"AVICII Invector"},{"title":"Baldur's Gate and Baldur's Gate II: Enhanced Editions"},{"title":"BioShock Remastered"},{"title":"BioShock 2 Remastered"},{"title":"BioShock Infinite: Complete Edition"},{"title":"Need for Speed"},{"title":"Sayonara Wild Hearts"},{"title":"Blazing Beaks"},{"title":"Penguin Wars"},{"title":"Our World Is Ended."},{"title":"One Punch Man: A Hero Nobody Knows"},{"title":"Zero Strain"},{"title":"Hardcore Mecha"},{"title":"The Flame in the Flood: Complete Edition"},{"title":"Bridge Constructor"},{"title":"Void Bastards"},{"title":"The Journey Down: Chapter Two"},{"title":"Lone Survivor: The Director's Cut"},{"title":"Ninja JaJaMaru Legendary Ninja Collection"},{"title":"Black Desert"},{"title":"Blood Bowl 2"},{"title":"Blue Rider"},{"title":"Bomber Crew"},{"title":"Bubsy: The Woolies Strike Back"},{"title":"Capcom Beat 'Em Up Bundle"},{"title":"Chariot"},{"title":"Coffee Talk"},{"title":"Code:Realize - Bouquet of Rainbows"},{"title":"Alternate Jake Hunter: Daedalus - The Awakening of Golden Jazz"},{"title":"The Elder Scrolls V: Skyrim Special Edition"},{"title":"The Church in the Darkness"},{"title":"Shoppe Keep"},{"title":"Big Pharma"},
     {"title":"Streets of Red"},{"title":"Bit.Trip Presents...Runner2: Future Legend of Rhythm Alien"},{"title":"Dragon Ball: The Breakers"},{"title":"Gear Club Unlimited 2"},{"title":"Noob: Les Sans-Factions"},{"title":"Oddworld: Abe's Oddysee - New 'n' Tasty"},{"title":"Shenmue I"},{"title":"SturmFront - The Mutant War: Übel Edition"},{"title":"Söldner-X 2: Final Prototype Definitive Edition"},{"title":"The Walking Dead: Michonne - A Telltale Miniseries"},
     {"title":"Cannon Dancer"},{"title":"Worms Anniversary Edition"},{"title":"Embr: Uber Firefighters"},{"title":"Lapis Re Abyss"},{"title":"Little Dragons Cafe"},{"title":"Wobbledogs"},{"title":"UFO Robot Grendizer"},{"title":"XIII (Remake)"},{"title":"The First Tree: Console Edition"},{"title":"Trouble Witches Final: Episode 1 - Daughters of Amalgam"},{"title":"Zero: Tsukihami No Kamen"},
-    {"title":"One Piece Unlimited World Red"},{"title":"Quintessential Quintuplets Fives Memories With You"},{"title":"Get Star / Guardian"},{"title":"Kyukyoku Tiger / Twin Cobra"},{"title":"Malnazidos"},{"title":"Q.U.B.E."},{"title":"Resonance of Fate 4K / HD Edition"},{"title":"Stranded Sails: Explorers of the Cursed Islands"},{"title":"Tadeo Jones: La Tabla Esmeralda"},{"title":"Tales from the Borderlands: A Telltale Game Series"},{"title":"Tomb Raider"},{"title":"Tomb Raider II"},{"title":"Tomb Raider III: Adventures of Lara Croft"},{"title":"Tomb Raider: Chronicles"},{"title":"Tomb Raider: The Angel of Darkness"},{"title":"Tomb Raider: The Last Revelation"},{"title":"Tony Hawk's Pro Skater 3 + 4"},{"title":"Wonderland TOD-Reloaded"}
+    {"title":"One Piece Unlimited World Red"},{"title":"Quintessential Quintuplets Fives Memories With You"},{"title":"Get Star / Guardian"},{"title":"Kyukyoku Tiger / Twin Cobra"},{"title":"Malnazidos"},{"title":"Q.U.B.E."},{"title":"Resonance of Fate 4K / HD Edition"},{"title":"Stranded Sails: Explorers of the Cursed Islands"},{"title":"Tadeo Jones: La Tabla Esmeralda"},{"title":"Tales from the Borderlands: A Telltale Game Series"},{"title":"Tomb Raider"},{"title":"Tomb Raider II"},{"title":"Tomb Raider III: Adventures of Lara Croft"},{"title":"Tomb Raider: Chronicles"},{"title":"Tomb Raider: The Angel of Darkness"},{"title":"Tomb Raider: The Last Revelation"},{"title":"Tony Hawk's Pro Skater 3 + 4"},{"title":"Wonderland TOD-Reloaded"},
+    {"title":"Rolling Gunner"},{"title":"Tokyo Twilight Ghost Hunters"},{"title":"Cyanide & Happiness - Freakpocalypse (Episode 1)"},{"title":"GRIP: Combat Racing"},{"title":"Kingdom Hearts HD I.5 + II.5 Remix"}
   ],
   "eligibility": [
-    {"title":"Candleman: The Complete Journey","reason":"PS4 release records found only as PlayStation Store/download; no physical PS4 release verified"},
     {"title":"Paper Dolls","reason":"PS4 release records found only as PlayStation Store/download; no physical PS4 release verified"}
   ]
 }
