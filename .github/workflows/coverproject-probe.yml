@@ -1,4 +1,4 @@
-name: ShelfCheck External Cover Source Probe
+name: ShelfCheck PriceCharting Cover Probe
 
 on:
   workflow_dispatch:
@@ -11,35 +11,36 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Probe external PS4 cover catalogs
+      - name: Probe PriceCharting cover markup
         shell: bash
         run: |
           python - <<'PY'
-          import urllib.request, urllib.error, re, html
-          UA='Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153 Safari/537.36'
+          import urllib.request, re, html
+          UA='Mozilla/5.0 ShelfCheck cover research'
           urls=[
-            'https://www.thecoverproject.net/view.php?cat_id=60&view=&limit=9999',
-            'https://gamefaqs.gamespot.com/ps4/category/999-all?dist=1&region=1&page=1',
-            'https://gamefaqs.gamespot.com/ps4/296556-112th-seed/boxes',
-            'https://gamefaqs.gamespot.com/ps4/296556-112th-seed/boxes/825807',
+            'https://www.pricecharting.com/console/pal-playstation-4?sort=name&view=grid',
+            'https://www.pricecharting.com/search-products?type=prices&q=112th%20Seed%20Playstation%204',
+            'https://www.pricecharting.com/search-products?type=prices&q=A%20Plague%20Tale%20Innocence%20Playstation%204'
           ]
           for u in urls:
               print('\nURL',u)
               try:
-                  req=urllib.request.Request(u,headers={'User-Agent':UA,'Accept-Language':'en-US,en;q=0.9'})
+                  req=urllib.request.Request(u,headers={'User-Agent':UA})
                   with urllib.request.urlopen(req,timeout=30) as r:
-                      raw=r.read(3_000_000); text=raw.decode('utf-8','ignore')
+                      raw=r.read(5_000_000); text=raw.decode('utf-8','ignore')
                       print('STATUS',r.status,'FINAL',r.geturl(),'BYTES',len(raw))
-                      print('TITLE',re.findall(r'<title[^>]*>(.*?)</title>',text,re.I|re.S)[:1])
-                      links=re.findall(r'href=["\']([^"\']+)["\']',text,re.I)
-                      imgs=re.findall(r'(?:src|data-src|data-original)=["\']([^"\']+)["\']',text,re.I)
-                      print('PS4 GAME LINKS SAMPLE',[html.unescape(x) for x in links if '/ps4/' in x][:12])
-                      print('BOX LINKS SAMPLE',[html.unescape(x) for x in links if '/boxes' in x][:12])
-                      print('IMAGE URL SAMPLE',[html.unescape(x) for x in imgs if any(s in x.lower() for s in ['gamespot','gamefaqs','fandom','image'])][:15])
-                      print('CHALLENGE?',any(x in text.lower() for x in ['cf-chl','challenge-platform','just a moment']))
-                      for needle in ['112th Seed','Box Front','825807']:
-                          i=text.lower().find(needle.lower())
-                          if i>=0: print('AROUND',needle,re.sub(r'\s+',' ',text[max(0,i-500):i+1200])[:1700])
+                      for needle in ['112th Seed','A Plague Tale']:
+                          p=text.lower().find(needle.lower())
+                          if p>=0:
+                              snip=text[max(0,p-2500):p+3500]
+                              print('AROUND',needle,re.sub(r'\s+',' ',snip))
+                      imgs=[]
+                      for m in re.finditer(r'<img\b[^>]*>',text,re.I):
+                          tag=m.group(0)
+                          if any(x in tag.lower() for x in ['112th','plague','product_image','product-image','cover']): imgs.append(tag)
+                      print('MATCHING IMG TAGS',imgs[:20])
+                      image_urls=re.findall(r'(?:src|data-src|data-original)=["\']([^"\']+)["\']',text,re.I)
+                      print('IMAGE URL SAMPLES',[html.unescape(x) for x in image_urls if 'image' in x.lower() or 'storage' in x.lower()][:40])
               except Exception as e:
                   print(type(e).__name__,repr(e))
           PY
