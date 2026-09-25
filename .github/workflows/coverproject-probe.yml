@@ -1,0 +1,39 @@
+name: ShelfCheck Cover Project Probe
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/coverproject-probe.yml'
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Probe The Cover Project PS4 catalog
+        shell: bash
+        run: |
+          python - <<'PY'
+          import urllib.request, urllib.error, re
+          urls=[
+            'https://www.thecoverproject.net/view.php?cat_id=60&view=&limit=9999',
+            'http://www.thecoverproject.net/view.php?cat_id=60&view=&limit=9999',
+            'https://tan.thecoverproject.net/view.php?cat_id=60&view=&limit=9999'
+          ]
+          for u in urls:
+              print('\nURL',u)
+              try:
+                  req=urllib.request.Request(u,headers={'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/153 Safari/537.36'})
+                  with urllib.request.urlopen(req,timeout=30) as r:
+                      raw=r.read(2_000_000)
+                      text=raw.decode('utf-8','ignore')
+                      print('STATUS',r.status,'FINAL',r.geturl(),'BYTES',len(raw))
+                      print('TITLE',re.findall(r'<title[^>]*>(.*?)</title>',text,re.I|re.S)[:1])
+                      print('GAME LINKS',len(re.findall(r'href=["\'][^"\']*game_id=',text,re.I)))
+                      print('DOWNLOAD LINKS',len(re.findall(r'download_cover',text,re.I)))
+                      print('CHALLENGE?', any(x in text.lower() for x in ['cf-chl','challenge-platform','just a moment']))
+                      print('HEAD',re.sub(r'\s+',' ',text[:500]))
+              except Exception as e:
+                  print(type(e).__name__,repr(e))
+          PY
