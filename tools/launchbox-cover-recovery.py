@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-import io
 import json
 import os
 import re
@@ -38,13 +37,9 @@ def child_text(el,name):
     return ''
 
 
-def clear_root(el):
-    el.clear()
-
-
 def download_metadata(dest):
     req=urllib.request.Request(META_URL,headers={'User-Agent':'ShelfCheck-ArtDepartment/2.0'})
-    with urllib.request.urlopen(req,timeout=120) as r, open(dest,'wb') as f:
+    with urllib.request.urlopen(req,timeout=180) as r, open(dest,'wb') as f:
         while True:
             chunk=r.read(1024*1024)
             if not chunk: break
@@ -65,8 +60,7 @@ def region_rank(region):
 def main():
     with open(RUNTIME,'r',encoding='utf-8') as f:
         runtime=json.load(f)
-    targets=[]
-    seen=set()
+    targets=[]; seen=set()
     for bucket in ('review','watch','fallback'):
         for row in runtime.get(bucket,[]):
             title=row.get('title')
@@ -82,8 +76,7 @@ def main():
         print('Downloading LaunchBox Metadata.zip...')
         download_metadata(zpath)
         with zipfile.ZipFile(zpath) as z:
-            names=z.namelist()
-            xml_name=next((n for n in names if n.lower().endswith('metadata.xml')),None)
+            xml_name=next((n for n in z.namelist() if n.lower().endswith('metadata.xml')),None)
             if not xml_name: raise RuntimeError('Metadata.xml not found in LaunchBox Metadata.zip')
             xml_path=os.path.join(td,'Metadata.xml')
             with z.open(xml_name) as src, open(xml_path,'wb') as dst:
@@ -92,31 +85,27 @@ def main():
                     if not chunk: break
                     dst.write(chunk)
 
-        games={}
-        exact=defaultdict(set)
-        soft_idx=defaultdict(set)
+        games={}; exact=defaultdict(set); soft_idx=defaultdict(set)
         print('Indexing PS4 games...')
-        for event,el in ET.iterparse(xml_path,events=('end',)):
-            tag=el.tag.rsplit('}',1)[-1]
-            if tag!='Game':
-                continue
+        for _,el in ET.iterparse(xml_path,events=('end',)):
+            if el.tag.rsplit('}',1)[-1]!='Game': continue
             platform=norm(child_text(el,'Platform'))
             if platform not in PS4_NAMES:
-                clear_root(el); continue
+                el.clear(); continue
             try: dbid=int(child_text(el,'DatabaseID'))
             except Exception:
-                clear_root(el); continue
+                el.clear(); continue
             name=child_text(el,'Name').strip()
             if not name:
-                clear_root(el); continue
+                el.clear(); continue
             games[dbid]={'name':name,'alternates':[],'images':[]}
             exact[norm(name)].add(dbid)
-            soft_idx[soft(name)].add(dbid)
-            clear_root(el)
+            if soft(name): soft_idx[soft(name)].add(dbid)
+            el.clear()
         print(f'PS4 games indexed: {len(games)}')
 
         print('Indexing alternate names and Box - Front images...')
-        for event,el in ET.iterparse(xml_path,events=('end',)):
+        for _,el in ET.iterparse(xml_path,events=('end',)):
             tag=el.tag.rsplit('}',1)[-1]
             if tag=='GameAlternateName':
                 try: dbid=int(child_text(el,'DatabaseID'))
@@ -126,63 +115,48 @@ def main():
                     if name:
                         games[dbid]['alternates'].append(name)
                         exact[norm(name)].add(dbid)
-                        soft_idx[soft(name)].add(dbid)
+                        if soft(name): soft_idx[soft(name)].add(dbid)
             elif tag=='GameImage':
                 try: dbid=int(child_text(el,'DatabaseID'))
                 except Exception: dbid=-1
                 if dbid in games and child_text(el,'Type').strip()=='Box - Front':
                     fn=child_text(el,'FileName').strip()
-                    if fn:
-                        games[dbid]['images'].append({'file':fn,'region':child_text(el,'Region').strip()})
-            clear_root(el)
+                    if fn: games[dbid]['images'].append({'file':fn,'region':child_text(el,'Region').strip()})
+            el.clear()
 
-    covers={}
-    recovered=[]
-    unresolved=[]
-    ambiguous=[]
-    no_front=[]
-
+    covers={}; title_covers={}; recovered=[]; unresolved=[]; ambiguous=[]; no_front=[]
     for t in targets:
         n=norm(t['title']); s=soft(t['title'])
-        ids=set(exact.get(n,()))
-        method='exact'
+        ids=set(exact.get(n,())); method='exact'
         if len(ids)!=1:
-            ids=set(soft_idx.get(s,())) if s else set()
-            method='unique_soft_alias'
+            ids=set(soft_idx.get(s,())) if s else set(); method='unique_soft_alias'
         if len(ids)!=1:
             item={**t,'candidateDatabaseIds':sorted(ids)[:10]}
-            if ids: ambiguous.append(item)
-            else: unresolved.append(item)
+            (ambiguous if ids else unresolved).append(item)
             continue
-        dbid=next(iter(ids)); g=games[dbid]
-        fronts=g['images']
+        dbid=next(iter(ids)); g=games[dbid]; fronts=g['images']
         if not fronts:
-            no_front.append({**t,'launchboxDatabaseId':dbid,'launchboxName':g['name']})
-            continue
+            no_front.append({**t,'launchboxDatabaseId':dbid,'launchboxName':g['name']}); continue
         best=sorted(fronts,key=lambda x:(region_rank(x['region']),x['file']))[0]
         url=IMAGE_BASE+best['file']
         if t['id'] is None:
-            unresolved.append({**t,'launchboxDatabaseId':dbid,'launchboxName':g['name'],'note':'missing ShelfCheck id'})
-            continue
+            unresolved.append({**t,'launchboxDatabaseId':dbid,'launchboxName':g['name'],'note':'missing ShelfCheck id'}); continue
         covers[str(t['id'])]=url
+        title_covers[n]=url
         recovered.append({**t,'launchboxDatabaseId':dbid,'launchboxName':g['name'],'matchMethod':method,'region':best['region'] or None,'fileName':best['file'],'url':url,'frontCandidateCount':len(fronts)})
 
     os.makedirs(os.path.dirname(OUT_JSON),exist_ok=True)
-    summary={
-        'targeted':len(targets),'recovered':len(recovered),'unresolvedNoMatch':len(unresolved),
-        'ambiguous':len(ambiguous),'matchedButNoBoxFront':len(no_front),
-        'regionCounts':{},'source':'LaunchBox Games Database Metadata.zip / Box - Front only'
-    }
+    summary={'targeted':len(targets),'recovered':len(recovered),'unresolvedNoMatch':len(unresolved),'ambiguous':len(ambiguous),'matchedButNoBoxFront':len(no_front),'regionCounts':{},'source':'LaunchBox Games Database Metadata.zip / Box - Front only'}
     for r in recovered:
-        rg=r.get('region') or 'Unspecified'
-        summary['regionCounts'][rg]=summary['regionCounts'].get(rg,0)+1
+        rg=r.get('region') or 'Unspecified'; summary['regionCounts'][rg]=summary['regionCounts'].get(rg,0)+1
     report={'summary':summary,'recovered':recovered,'unresolved':unresolved,'ambiguous':ambiguous,'noFront':no_front}
     with open(OUT_JSON,'w',encoding='utf-8') as f: json.dump(report,f,indent=2,ensure_ascii=False)
     with open(OUT_JS,'w',encoding='utf-8') as f:
         f.write('// Generated by tools/launchbox-cover-recovery.py. LaunchBox Box - Front only.\n')
         f.write('window.SHELFCHECK_LAUNCHBOX_COVERS='+json.dumps(covers,separators=(',',':'))+';\n')
+        f.write('window.SHELFCHECK_LAUNCHBOX_TITLES='+json.dumps(title_covers,separators=(',',':'))+';\n')
         f.write('window.SHELFCHECK_LAUNCHBOX_META='+json.dumps(summary,separators=(',',':'))+';\n')
+        f.write("(()=>{let n=0;const apply=()=>{n++;window.SHELFCHECK_TITLE_COVERS={...(window.SHELFCHECK_TITLE_COVERS||{}),...(window.SHELFCHECK_LAUNCHBOX_TITLES||{})};if(window.SHELFCHECK_COVER_ART?.repaint)window.SHELFCHECK_COVER_ART.repaint();else if(n<80)setTimeout(apply,100)};if(document.readyState==='complete')apply();else window.addEventListener('load',apply,{once:true})})();\n")
     print(json.dumps(summary,indent=2))
 
-if __name__=='__main__':
-    main()
+if __name__=='__main__': main()
