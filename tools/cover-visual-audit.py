@@ -21,7 +21,7 @@ manual_fixed={norm_title(x['title']):x for x in manual.get('fixed',[])}
 manual_elig={norm_title(x['title']):x for x in manual.get('eligibility',[])}
 
 def fetch(url):
-    req=urllib.request.Request(url,headers={'User-Agent':'ShelfCheck-ArtAudit/1.4'})
+    req=urllib.request.Request(url,headers={'User-Agent':'ShelfCheck-ArtAudit/1.5'})
     with urllib.request.urlopen(req,timeout=20) as r:
         raw=r.read(8_000_000)
     return Image.open(io.BytesIO(raw)).convert('RGB')
@@ -55,6 +55,24 @@ def manual_reason_code(text):
     if 'key art' in t or 'logo' in t or 'bannerless' in t or 'non-retail' in t: return 'key_art_only'
     return 'manual_review'
 
+def audit_image(url, source):
+    """Run the shelf-front heuristic for every remotely hosted cover source.
+
+    Curated overrides are intentionally *not* auto-approved here. A curated URL can
+    still be an angled product render, promo image, or otherwise fail the Shelf Test.
+    """
+    try:
+        im=fetch(url)
+        span,ratio=ps4_banner_score(im)
+        if span>=0.72 and ratio>=0.08:
+            physical='CONFIRMED' if source in ('CURATED_ID','CURATED_TITLE') else 'LIKELY'
+            return 'GOOD','strong_ps4_header',physical,span,ratio,None
+        physical='LIKELY' if source in ('GAMEYE','CURATED_ID','CURATED_TITLE') else 'VERIFY'
+        return 'REVIEW','missing_ps4_banner',physical,span,ratio,None
+    except Exception as e:
+        # A blocked remote host does not prove that the image itself is wrong.
+        return 'WATCH','image_fetch_failed','VERIFY',None,None,str(e)[:200]
+
 rows=[]
 for i,r in enumerate(data['rows'],1):
     source=r['source']; url=r.get('url')
@@ -75,25 +93,8 @@ for i,r in enumerate(data['rows'],1):
         quality='REVIEW'; reason='missing_cover'; physical='VERIFY'
     elif source=='PS_STORE_OVERRIDE':
         quality='REVIEW'; reason='digital_store_art'; physical='VERIFY'
-    elif source in ('GAMEYE','LEGACY_IGDB'):
-        try:
-            im=fetch(url)
-            span,ratio=ps4_banner_score(im)
-            if span>=0.72 and ratio>=0.08:
-                quality='GOOD'; reason='strong_ps4_header'; physical='LIKELY'
-            else:
-                # A banner miss is a heuristic suspicion, not proof of bad art.
-                # Keep it visible in the audit as WATCH so the actionable REVIEW queue
-                # is reserved for known cover gaps / digital art / human-confirmed issues.
-                quality='WATCH'; reason='missing_ps4_banner'; physical='LIKELY' if source=='GAMEYE' else 'VERIFY'
-        except Exception as e:
-            # Remote hosts can block CI even when the browser image is fine. Treat a
-            # fetch failure as WATCH unless a human/source rule independently escalates it.
-            quality='WATCH'; reason='image_fetch_failed'; physical='VERIFY'; err=str(e)[:200]
-    elif source=='CURATED_ID':
-        quality='GOOD'; reason='curated_id_override'; physical='CONFIRMED'
-    elif source=='CURATED_TITLE':
-        quality='GOOD'; reason='curated_title_override'; physical='CONFIRMED'
+    else:
+        quality,reason,physical,span,ratio,err=audit_image(url,source)
 
     # Human QA always wins until a title is explicitly moved to FIXED/FALLBACK.
     if manual_status=='CONFIRMED_BAD':
@@ -103,6 +104,8 @@ for i,r in enumerate(data['rows'],1):
         quality='FALLBACK'; reason=manual_reason_code(manual_reason); physical='CONFIRMED'
     elif manual_status=='ELIGIBILITY':
         quality='REVIEW'; reason='physical_release_unverified'; physical='VERIFY'
+    # FIXED is historical tracking only. The current image must still pass the
+    # machine shelf-front check above; it no longer receives an implicit pass.
 
     verdict={'GOOD':'PASS','FALLBACK':'FALLBACK','WATCH':'WATCH'}.get(quality,'REVIEW')
     rows.append({**r,'verdict':verdict,'qualityState':quality,'reason':reason,'reasonCode':reason,'physicalSanity':physical,'manualStatus':manual_status,'manualReason':manual_reason,'bannerColumnSpan':span,'bannerPixelRatio':ratio,'error':err})
