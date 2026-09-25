@@ -1,0 +1,83 @@
+name: ShelfCheck LaunchBox Cover Recovery
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'tools/launchbox-cover-recovery.py'
+      - 'tools/cover-source-audit.mjs'
+      - 'maint-menu-v001.js'
+      - '.github/workflows/launchbox-cover-recovery.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: launchbox-cover-recovery-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Pillow
+        run: python -m pip install --disable-pip-version-check pillow
+      - name: Recover strict LaunchBox PS4 box fronts
+        run: python tools/launchbox-cover-recovery.py
+      - name: Rebuild source audit with LaunchBox layer
+        run: node tools/cover-source-audit.mjs
+      - name: Re-run full visual audit
+        env:
+          COVER_AUDIT_WORKERS: '16'
+        run: python tools/cover-visual-audit.py
+      - name: Show recovery result
+        run: |
+          python - <<'PY'
+          import json
+          with open('audit-out/launchbox-cover-recovery.json',encoding='utf-8') as f:
+              print('LAUNCHBOX RECOVERY')
+              print(json.dumps(json.load(f)['summary'],indent=2))
+          with open('audit-out/cover-runtime-qa.json',encoding='utf-8') as f:
+              print('POST-RECOVERY AUDIT')
+              print(json.dumps(json.load(f)['summary'],indent=2))
+          PY
+      - name: Publish recovered layer and new runtime gate
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          cp cover-launchbox-retail.js /tmp/cover-launchbox-retail.js
+          cp audit-out/launchbox-cover-recovery.json /tmp/launchbox-cover-recovery.json
+          cp audit-out/cover-runtime-qa.json /tmp/cover-runtime-qa.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin "$BRANCH"
+          git checkout -B "$BRANCH" "origin/$BRANCH"
+          cp /tmp/cover-launchbox-retail.js cover-launchbox-retail.js
+          cp /tmp/launchbox-cover-recovery.json audit-out/launchbox-cover-recovery.json
+          cp /tmp/cover-runtime-qa.json audit-out/cover-runtime-qa.json
+          git add cover-launchbox-retail.js audit-out/launchbox-cover-recovery.json audit-out/cover-runtime-qa.json
+          if git diff --cached --quiet; then
+            echo "Generated recovery layer unchanged."
+          else
+            git commit -m "Art Department: publish LaunchBox box-front recovery"
+            git push origin HEAD:"$BRANCH"
+          fi
+      - name: Upload recovery audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: shelfcheck-launchbox-recovery
+          path: |
+            cover-launchbox-retail.js
+            audit-out/launchbox-cover-recovery.json
+            audit-out/cover-source-audit.json
+            audit-out/cover-visual-audit.json
+            audit-out/cover-runtime-qa.json
+            audit-out/cover-review-queue.csv
