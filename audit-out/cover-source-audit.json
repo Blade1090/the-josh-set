@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-25T20:59:07.398Z",
+  "generatedAt": "2026-09-25T21:07:19.801Z",
   "included": 2407,
   "counts": {
-    "CURATED_ID": 7,
-    "CURATED_TITLE": 87,
-    "GAMEYE": 938,
+    "CURATED_ID": 6,
+    "CURATED_TITLE": 125,
+    "GAMEYE": 937,
     "LAUNCHBOX_BOX_FRONT": 688,
-    "LEGACY_IGDB": 255,
-    "PRICECHARTING_BOX_FRONT": 385,
+    "LEGACY_IGDB": 212,
+    "PRICECHARTING_BOX_FRONT": 392,
     "PRODUCT_BOX_FRONT": 47
   },
   "rows": [
@@ -4616,8 +4616,8 @@
     {
       "id": 474,
       "title": "Fell Seal: Arbiter's Mark",
-      "source": "GAMEYE",
-      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/9fa2da87-7947-4645-aeb8-9315415ac639.webp"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/89871-1.jpg"
     },
     {
       "id": 475,
@@ -8816,8 +8816,8 @@
     {
       "id": 2690,
       "title": "Pathfinder: Wrath of the Righteous",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uq7.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/79b75e9e38af7ca658c6f39cc9197d1d0366205bdf5854ecde1eef0682d21c3d/1600.jpg"
     },
     {
       "id": 1885,
@@ -8996,8 +8996,8 @@
     {
       "id": 2681,
       "title": "PJ Masks Power Heroes: Mighty Alliance",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7wpd.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/e98a226ec0ecd9fc91b6ca6b54cf3403308864949212ee23b4f23c4adcb5d479/1600.jpg"
     },
     {
       "id": 2682,
@@ -9092,8 +9092,8 @@
     {
       "id": 925,
       "title": "Port Royale 4",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xt5.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/9c2490dfbe28cbe496e05f13e251208f125f1b64d3d632b9706e195e7df76c0a/1600.jpg"
     },
     {
       "id": 926,
@@ -9248,8 +9248,8 @@
     {
       "id": 939,
       "title": "Psyvariar Delta",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co67mm.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/65663-1.jpg"
     },
     {
       "id": 940,
@@ -9344,8 +9344,8 @@
     {
       "id": 2701,
       "title": "Rabbids: Party of Legends",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9zwq.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/102933-1.jpg"
     },
     {
       "id": 947,
@@ -9470,8 +9470,8 @@
     {
       "id": 959,
       "title": "Rainbow Moon",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/xc2cyw3fulmuns2npcmx.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/dfa24932f51320a681b6522a52f8ab629565b5b5f1af10e1ee4f197c8a828164/1600.jpg"
     },
     {
       "id": 2709,
@@ -9494,8 +9494,8 @@
     {
       "id": 2338,
       "title": "Ravenswatch",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocs4b.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/uqqc5wr3kw55yyng/1600.jpg"
     },
     {
       "id": 1907,
@@ -9590,8 +9590,8 @@
     {
       "id": 1864,
       "title": "Relayer",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co31cz.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/120008-1.jpg"
     },
     {
       "id": 971,
@@ -9710,8 +9710,8 @@
     {
       "id": 987,
       "title": "Return of the Obra Dinn",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27j9.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/75100-1.jpg"
     },
     {
       "id": 988,
@@ -9818,8 +9818,8 @@
     {
       "id": 2269,
       "title": "Risen",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5te7.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/106423-1.jpg"
     },
     {
       "id": 998,
@@ -9962,8 +9962,8 @@
     {
       "id": 1015,
       "title": "Rocksmith 2014 Edition",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co48zw.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/25754-1.jpg"
     },
     {
       "id": 1713,
@@ -9986,8 +9986,8 @@
     {
       "id": 1018,
       "title": "Rogue Trooper Redux",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24od.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/60882-1.jpg"
     },
     {
       "id": 1714,
@@ -10016,8 +10016,8 @@
     {
       "id": 1845,
       "title": "Romancing SaGa -Minstrel Song- Remastered",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7tq9.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/114382-1.jpg"
     },
     {
       "id": 1715,
@@ -10124,8 +10124,8 @@
     {
       "id": 1997,
       "title": "RWBY: Arrowfell",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6epe.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/7d272001baca3aaf4f77570662e3f9493191bae95bb3d7429cfb08c6fcea68fd/1600.jpg"
     },
     {
       "id": 1717,
@@ -10244,8 +10244,8 @@
     {
       "id": 2054,
       "title": "Samurai Maiden",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vcu.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/107198-1.jpg"
     },
     {
       "id": 1032,
@@ -10376,8 +10376,8 @@
     {
       "id": 2086,
       "title": "SD Gundam G Generation Cross Rays",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co31hr.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97Ul6Mmstx0brBvnR9CRYaa4KVkqz07HYIP13SCg3rgizN67-MjSyqCCF8c1lBa-Y3BkJhg1GHzKDk5csiKUuYwvNC7Zi048PO0InfeTWgpeo_CQLE1Fix6iBV9u4C8mqSodfz4l1diTYT6CEw8gtE6wE9oyw/1600.jpg"
     },
     {
       "id": 2711,
@@ -10514,8 +10514,8 @@
     {
       "id": 2249,
       "title": "Shadow of the Ninja - Reborn",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8sry.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/128984-1.jpg"
     },
     {
       "id": 1056,
@@ -10784,8 +10784,8 @@
     {
       "id": 1077,
       "title": "Siralim 2",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co222g.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/63134-1.jpg"
     },
     {
       "id": 1976,
@@ -10844,8 +10844,8 @@
     {
       "id": 1081,
       "title": "Skully",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27l1.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/121605-1.jpg"
     },
     {
       "id": 1082,
@@ -10904,8 +10904,8 @@
     {
       "id": 1090,
       "title": "Slide Stars",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kgl.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/82522-1.jpg"
     },
     {
       "id": 1091,
@@ -11054,8 +11054,8 @@
     {
       "id": 1878,
       "title": "Sophstar",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4qpy.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/110193-1.jpg"
     },
     {
       "id": 1555,
@@ -11108,8 +11108,8 @@
     {
       "id": 1114,
       "title": "Space Hulk: Deathwing",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24tj.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/55563-1.jpg"
     },
     {
       "id": 1115,
@@ -11780,8 +11780,8 @@
     {
       "id": 2466,
       "title": "Tadeo Jones y el Manuscrito Perdido",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9h5d.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/74813-1.jpg"
     },
     {
       "id": 2729,
@@ -11864,8 +11864,8 @@
     {
       "id": 1742,
       "title": "Tandem: A Tale of Shadows",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co42jk.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/98927-1.jpg"
     },
     {
       "id": 1743,
@@ -11912,8 +11912,8 @@
     {
       "id": 1205,
       "title": "Tearaway Unfolded",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nfd.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/101410-1.jpg"
     },
     {
       "id": 2739,
@@ -12122,8 +12122,8 @@
     {
       "id": 1229,
       "title": "The Complex",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6l6b.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/82015-1.jpg"
     },
     {
       "id": 1230,
@@ -12356,8 +12356,8 @@
     {
       "id": 1264,
       "title": "The Last Tinker: City of Colors",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co43wv.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/41440-1.jpg"
     },
     {
       "id": 1265,
@@ -12428,14 +12428,14 @@
     {
       "id": 1275,
       "title": "The Lost Child",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23dh.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/60019-1.jpg"
     },
     {
       "id": 1276,
       "title": "The Messenger",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob1th.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/64569-1.jpg"
     },
     {
       "id": 1758,
@@ -12458,8 +12458,8 @@
     {
       "id": 1278,
       "title": "The Mummy Demastered",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23do.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/62699-1.jpg"
     },
     {
       "id": 1279,
@@ -12512,8 +12512,8 @@
     {
       "id": 1911,
       "title": "The Procession to Calvary",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25hf.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/111022-1.jpg"
     },
     {
       "id": 2356,
@@ -12602,8 +12602,8 @@
     {
       "id": 1299,
       "title": "The Swords of Ditto: Mormo's Curse",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1l41.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/55076-1.jpg"
     },
     {
       "id": 2046,
@@ -12626,14 +12626,14 @@
     {
       "id": 1302,
       "title": "The Town of Light",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20cu.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/48549-1.jpg"
     },
     {
       "id": 1303,
       "title": "The Walking Dead: A Telltale Games Series - The Complete First Season",
-      "source": "CURATED_ID",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4wxx.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/24139-1.jpg"
     },
     {
       "id": 1762,
@@ -12770,8 +12770,8 @@
     {
       "id": 1326,
       "title": "Timespinner",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24ag.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/61183-1.jpg"
     },
     {
       "id": 1327,
@@ -12848,8 +12848,8 @@
     {
       "id": 1336,
       "title": "Tom Clancy's Rainbow Six Siege: Advanced Edition",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ly5.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/86585-1.jpg"
     },
     {
       "id": 1337,
@@ -12932,8 +12932,8 @@
     {
       "id": 1768,
       "title": "Tormented Souls",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vhs.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/98146-1.jpg"
     },
     {
       "id": 1769,
@@ -13058,8 +13058,8 @@
     {
       "id": 2359,
       "title": "Trash Sailors",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co29q4.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/118565-1.jpg"
     },
     {
       "id": 1356,
@@ -13574,8 +13574,8 @@
     {
       "id": 1400,
       "title": "Vegas Party",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3bdp.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/63117-1.jpg"
     },
     {
       "id": 1780,
@@ -13586,8 +13586,8 @@
     {
       "id": 2365,
       "title": "Vengeful Guardian: Moonrider",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5uti.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/117243-1.jpg"
     },
     {
       "id": 2754,
@@ -13676,8 +13676,8 @@
     {
       "id": 1783,
       "title": "Volume",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7kfr.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/31306-1.jpg"
     },
     {
       "id": 2758,
@@ -13916,8 +13916,8 @@
     {
       "id": 1436,
       "title": "WILL: A Wonderful World",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24k7.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/64105-1.jpg"
     },
     {
       "id": 1437,
@@ -14228,8 +14228,8 @@
     {
       "id": 1924,
       "title": "YesterMorrow",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ixs.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/88404-1.jpg"
     },
     {
       "id": 1793,
@@ -14318,8 +14318,8 @@
     {
       "id": 2048,
       "title": "Ys X: Nordics",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7s9q.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/129794-1.jpg"
     },
     {
       "id": 1482,

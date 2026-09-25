@@ -8,20 +8,20 @@
   "fallback": 8
  },
  "branch": "art-department-weekend-final",
- "currentVerifiedCommit": "b00cb9de46408f5c3a47c62d2f5e6b8dfcf87a1f (parent of the batch commit that records this checkpoint)",
+ "currentVerifiedCommit": "cfd9c0e2613dbb9ced93ef66b789585eb22b9aa6 (parent of the batch commit that records this checkpoint)",
  "currentQA": {
   "included": 2407,
-  "good": 2100,
-  "review": 279,
+  "good": 2145,
+  "review": 234,
   "watch": 20,
   "fallback": 8
  },
  "totals": {
-  "attempted": 247,
-  "accepted": 51,
-  "rejected": 17,
-  "goodGained": 51,
-  "reviewCleared": 51,
+  "attempted": 318,
+  "accepted": 96,
+  "rejected": 49,
+  "goodGained": 96,
+  "reviewCleared": 96,
   "watchCleared": 0,
   "fallbackChange": 0
  },
@@ -584,6 +584,583 @@
    ],
    "goodGained": 41,
    "baselineGoodRegressions": 0
+  },
+  {
+   "batch": 3,
+   "name": "PriceCharting multi-region + TheGamesDB + vgdb.uk (pass B)",
+   "before": {
+    "included": 2407,
+    "good": 2100,
+    "review": 279,
+    "watch": 20,
+    "fallback": 8
+   },
+   "after": {
+    "included": 2407,
+    "good": 2145,
+    "review": 234,
+    "watch": 20,
+    "fallback": 8
+   },
+   "attempted": 71,
+   "accepted": [
+    {
+     "id": 474,
+     "title": "Fell Seal: Arbiter's Mark",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/89871-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Fell Seal: Arbiter's Mark"
+    },
+    {
+     "id": 2681,
+     "title": "PJ Masks Power Heroes: Mighty Alliance",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/e98a226ec0ecd9fc91b6ca6b54cf3403308864949212ee23b4f23c4adcb5d479/1600.jpg",
+     "region": "PAL",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): PJ Masks Power Heroes: Mighty Alliance"
+    },
+    {
+     "id": 2690,
+     "title": "Pathfinder: Wrath of the Righteous",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/79b75e9e38af7ca658c6f39cc9197d1d0366205bdf5854ecde1eef0682d21c3d/1600.jpg",
+     "region": "PAL",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): Pathfinder: Wrath of the Righteous [Limited Edition]"
+    },
+    {
+     "id": 925,
+     "title": "Port Royale 4",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/9c2490dfbe28cbe496e05f13e251208f125f1b64d3d632b9706e195e7df76c0a/1600.jpg",
+     "region": "PAL",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): Port Royale 4"
+    },
+    {
+     "id": 939,
+     "title": "Psyvariar Delta",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/65663-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Psyvariar Delta"
+    },
+    {
+     "id": 1997,
+     "title": "RWBY: Arrowfell",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/7d272001baca3aaf4f77570662e3f9493191bae95bb3d7429cfb08c6fcea68fd/1600.jpg",
+     "region": "JP",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): RWBY: Arrowfell"
+    },
+    {
+     "id": 2701,
+     "title": "Rabbids: Party of Legends",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/102933-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Rabbids: Party of Legends"
+    },
+    {
+     "id": 959,
+     "title": "Rainbow Moon",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/dfa24932f51320a681b6522a52f8ab629565b5b5f1af10e1ee4f197c8a828164/1600.jpg",
+     "region": "US",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): Rainbow Moon [Limited Edition]"
+    },
+    {
+     "id": 2338,
+     "title": "Ravenswatch",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/uqqc5wr3kw55yyng/1600.jpg",
+     "region": "PAL",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): Ravenswatch [Legendary Edition]"
+    },
+    {
+     "id": 1864,
+     "title": "Relayer",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/120008-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Relayer"
+    },
+    {
+     "id": 987,
+     "title": "Return of the Obra Dinn",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/75100-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Return of the Obra Dinn"
+    },
+    {
+     "id": 2269,
+     "title": "Risen",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/106423-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Risen"
+    },
+    {
+     "id": 1015,
+     "title": "Rocksmith 2014 Edition",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/25754-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Rocksmith 2014 Edition"
+    },
+    {
+     "id": 1018,
+     "title": "Rogue Trooper Redux",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/60882-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Rogue Trooper Redux"
+    },
+    {
+     "id": 1845,
+     "title": "Romancing SaGa -Minstrel Song- Remastered",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/114382-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Romancing SaGa: Minstrel Song Remastered"
+    },
+    {
+     "id": 2086,
+     "title": "SD Gundam G Generation Cross Rays",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97Ul6Mmstx0brBvnR9CRYaa4KVkqz07HYIP13SCg3rgizN67-MjSyqCCF8c1lBa-Y3BkJhg1GHzKDk5csiKUuYwvNC7Zi048PO0InfeTWgpeo_CQLE1Fix6iBV9u4C8mqSodfz4l1diTYT6CEw8gtE6wE9oyw/1600.jpg",
+     "region": "JP",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): SD Gundam G Generation Cross Rays"
+    },
+    {
+     "id": 2054,
+     "title": "Samurai Maiden",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/107198-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Samurai Maiden"
+    },
+    {
+     "id": 2249,
+     "title": "Shadow of the Ninja - Reborn",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/128984-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Shadow of the Ninja: Reborn"
+    },
+    {
+     "id": 1077,
+     "title": "Siralim 2",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/63134-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Siralim 2"
+    },
+    {
+     "id": 1081,
+     "title": "Skully",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/121605-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Skully"
+    },
+    {
+     "id": 1090,
+     "title": "Slide Stars",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/82522-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Slide Stars"
+    },
+    {
+     "id": 1878,
+     "title": "Sophstar",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/110193-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Sophstar"
+    },
+    {
+     "id": 1114,
+     "title": "Space Hulk: Deathwing",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/55563-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Space Hulk: Deathwing"
+    },
+    {
+     "id": 2466,
+     "title": "Tadeo Jones y el Manuscrito Perdido",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/74813-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Tadeo jones y el manuscrito perdido"
+    },
+    {
+     "id": 1742,
+     "title": "Tandem: A Tale of Shadows",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/98927-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Tandem: A Tale of Shadows"
+    },
+    {
+     "id": 1205,
+     "title": "Tearaway Unfolded",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/101410-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Tearaway Unfolded"
+    },
+    {
+     "id": 1229,
+     "title": "The Complex",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/82015-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: The Complex"
+    },
+    {
+     "id": 1264,
+     "title": "The Last Tinker: City of Colors",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/41440-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: The Last Tinker: City of Colors"
+    },
+    {
+     "id": 1275,
+     "title": "The Lost Child",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/60019-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: The Lost Child"
+    },
+    {
+     "id": 1276,
+     "title": "The Messenger",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/64569-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: The Messenger "
+    },
+    {
+     "id": 1278,
+     "title": "The Mummy Demastered",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/62699-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: The Mummy Demastered"
+    },
+    {
+     "id": 1911,
+     "title": "The Procession to Calvary",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/111022-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: The Procession to Calvary"
+    },
+    {
+     "id": 1299,
+     "title": "The Swords of Ditto: Mormo's Curse",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/55076-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: The Swords of Ditto: Mormo's Curse"
+    },
+    {
+     "id": 1302,
+     "title": "The Town of Light",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/48549-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: The Town of Light"
+    },
+    {
+     "id": 1303,
+     "title": "The Walking Dead: A Telltale Games Series - The Complete First Season",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/24139-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: The Walking Dead: A Telltale Games Series - The Complete First Season"
+    },
+    {
+     "id": 1326,
+     "title": "Timespinner",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/61183-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Timespinner"
+    },
+    {
+     "id": 1336,
+     "title": "Tom Clancy's Rainbow Six Siege: Advanced Edition",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/86585-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Tom Clancy's Rainbow Six Siege [Advanced Edition]"
+    },
+    {
+     "id": 1768,
+     "title": "Tormented Souls",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/98146-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Tormented Souls"
+    },
+    {
+     "id": 2359,
+     "title": "Trash Sailors",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/118565-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Trash Sailors"
+    },
+    {
+     "id": 1400,
+     "title": "Vegas Party",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/63117-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Vegas Party"
+    },
+    {
+     "id": 2365,
+     "title": "Vengeful Guardian: Moonrider",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/117243-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Vengeful Guardian Moonrider"
+    },
+    {
+     "id": 1783,
+     "title": "Volume",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/31306-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Volume"
+    },
+    {
+     "id": 1436,
+     "title": "WILL: A Wonderful World",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/64105-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: WILL: A Wonderful World"
+    },
+    {
+     "id": 1924,
+     "title": "YesterMorrow",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/88404-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: YesterMorrow"
+    },
+    {
+     "id": 2048,
+     "title": "Ys X: Nordics",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/129794-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Ys X: Nordics"
+    }
+   ],
+   "rejected": [
+    {
+     "id": 914,
+     "title": "Plague Road",
+     "candidate": "https://storage.googleapis.com/images.pricecharting.com/2wcq5356jcpeelkz/1600.jpg",
+     "reason": "variant Kickstarter cover without rating marks"
+    },
+    {
+     "id": 939,
+     "title": "Psyvariar Delta",
+     "candidate": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94AavfKZSM8EKThRNcVeHFq1ySMKLfUbwqbr2J-ogDSIOhCNMK8QKgAYCOjYQam3XIZXoSyrhs4eEmuFcSQ3sYC5dfvah5OYWaai1AnJqclXygHq05RPlu7Hx22FMg2AGoZurUvZlOODgE_-n00N2Ugw4qmZA/1600.jpg",
+     "reason": "photo of foil-cover case"
+    },
+    {
+     "id": 2096,
+     "title": "Rival Megagun",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/104537-1.jpg",
+     "reason": "no rating marks; uncertain mockup"
+    },
+    {
+     "id": 2086,
+     "title": "SD Gundam G Generation Cross Rays",
+     "candidate": "https://storage.googleapis.com/images.pricecharting.com/d0ad684724803d6332bfda561a6255ddadbcffe8dc29481d05c86fa9464f2867/1600.jpg",
+     "reason": "3D box render with spine"
+    },
+    {
+     "id": 2718,
+     "title": "Sam & Max: Beyond Time And Space",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/128886-1.jpg",
+     "reason": "3D box render with spine"
+    },
+    {
+     "id": 2054,
+     "title": "Samurai Maiden",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/128415-1.jpg",
+     "reason": "Asian copy with retail sticker"
+    },
+    {
+     "id": 1951,
+     "title": "Sense - A Cyberpunk Ghost Story",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/72847-1.jpg",
+     "reason": "no rating marks; uncertain"
+    },
+    {
+     "id": 1060,
+     "title": "Shadow Warrior 2",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/45933-1.jpg",
+     "reason": "no rating/publisher marks; looks like mockup"
+    },
+    {
+     "id": 1726,
+     "title": "Shikhondo: Soul Eater",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/115494-1.jpg",
+     "reason": "no rating marks; uncertain"
+    },
+    {
+     "id": 2061,
+     "title": "Shing!",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/118666-1.jpg",
+     "reason": "PEGI PROVISIONAL pre-release art"
+    },
+    {
+     "id": 1076,
+     "title": "Siralim",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/55553-1.jpg",
+     "reason": "3D box render with spine"
+    },
+    {
+     "id": 1094,
+     "title": "SmuggleCraft",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/89517-1.jpg",
+     "reason": "3D box render with spine"
+    },
+    {
+     "id": 1122,
+     "title": "Splasher",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/94510-1.jpg",
+     "reason": "3D box render with spine"
+    },
+    {
+     "id": 1185,
+     "title": "SuperMash",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/82358-1.jpg",
+     "reason": "3D box render with spine"
+    },
+    {
+     "id": 2352,
+     "title": "Supraland",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/100863-1.jpg",
+     "reason": "3D box render with spine"
+    },
+    {
+     "id": 1873,
+     "title": "Sword of the Vagrant",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/117370-1.jpg",
+     "reason": "PEGI PROVISIONAL pre-release art"
+    },
+    {
+     "id": 1873,
+     "title": "Sword of the Vagrant",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/126748-1.jpg",
+     "reason": "3D box render with spine"
+    },
+    {
+     "id": 1203,
+     "title": "Tamashii",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/86120-1.jpg",
+     "reason": "ESRB RP pre-release art"
+    },
+    {
+     "id": 1225,
+     "title": "The Bunker",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/48546-1.jpg",
+     "reason": "no rating marks; possibly cropped"
+    },
+    {
+     "id": 2030,
+     "title": "Toy Soldiers HD",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/120248-1.jpg",
+     "reason": "3D box render with spine"
+    },
+    {
+     "id": 2030,
+     "title": "Toy Soldiers HD",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/120279-1.jpg",
+     "reason": "3D box render with spine"
+    },
+    {
+     "id": 1366,
+     "title": "Troll and I",
+     "candidate": "https://vgdb.uk/images/db/covers/214271.jpg",
+     "reason": "3D box render with spine"
+    },
+    {
+     "id": 2263,
+     "title": "Turrican Anthology Vol. 2",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/77293-1.jpg",
+     "reason": "3D box render with spine"
+    },
+    {
+     "id": 1375,
+     "title": "Twin Breaker: A Sacred Symbols Adventure",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/68429-1.jpg",
+     "reason": "no rating marks; uncertain"
+    },
+    {
+     "id": 2033,
+     "title": "UnderMine",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/114205-1.jpg",
+     "reason": "3D box render with spine"
+    },
+    {
+     "id": 1986,
+     "title": "Urban Trial Tricky Deluxe Edition",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/98983-1.jpg",
+     "reason": "3D box render with spine"
+    },
+    {
+     "id": 2365,
+     "title": "Vengeful Guardian: Moonrider",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/124410-1.jpg",
+     "reason": "3D box render with spine"
+    },
+    {
+     "id": 1544,
+     "title": "Weird West",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/100275-1.jpg",
+     "reason": "3D box render with spine"
+    },
+    {
+     "id": 2022,
+     "title": "Witchcrafty",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/119648-1.jpg",
+     "reason": "3D box render with spine"
+    },
+    {
+     "id": 1791,
+     "title": "Xeno Crisis",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/78724-1.jpg",
+     "reason": "no rating marks; uncertain"
+    },
+    {
+     "id": 1463,
+     "title": "Xenon Valkyrie+",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/61017-1.jpg",
+     "reason": "no rating marks; uncertain"
+    },
+    {
+     "id": 2772,
+     "title": "Young Souls",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/99055-1.jpg",
+     "reason": "3D box render with spine"
+    }
+   ],
+   "goodGained": 45,
+   "baselineGoodRegressions": 0
   }
  ],
  "sourcesUsed": [
@@ -1040,23 +1617,8 @@
     "reason": "key_art_only"
    },
    {
-    "id": 2690,
-    "title": "Pathfinder: Wrath of the Righteous",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2681,
-    "title": "PJ Masks Power Heroes: Mighty Alliance",
-    "reason": "key_art_only"
-   },
-   {
     "id": 914,
     "title": "Plague Road",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 925,
-    "title": "Port Royale 4",
     "reason": "key_art_only"
    },
    {
@@ -1085,28 +1647,8 @@
     "reason": "key_art_only"
    },
    {
-    "id": 939,
-    "title": "Psyvariar Delta",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2701,
-    "title": "Rabbids: Party of Legends",
-    "reason": "key_art_only"
-   },
-   {
     "id": 2707,
     "title": "Raidou Remastered: Mystery Of The Soulless Army",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 959,
-    "title": "Rainbow Moon",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2338,
-    "title": "Ravenswatch",
     "reason": "key_art_only"
    },
    {
@@ -1115,23 +1657,8 @@
     "reason": "key_art_only"
    },
    {
-    "id": 1864,
-    "title": "Relayer",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 987,
-    "title": "Return of the Obra Dinn",
-    "reason": "key_art_only"
-   },
-   {
     "id": 991,
     "title": "Reverie",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2269,
-    "title": "Risen",
     "reason": "key_art_only"
    },
    {
@@ -1142,21 +1669,6 @@
    {
     "id": 2096,
     "title": "Rival Megagun",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1015,
-    "title": "Rocksmith 2014 Edition",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1018,
-    "title": "Rogue Trooper Redux",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1845,
-    "title": "Romancing SaGa -Minstrel Song- Remastered",
     "reason": "key_art_only"
    },
    {
@@ -1175,11 +1687,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 1997,
-    "title": "RWBY: Arrowfell",
-    "reason": "key_art_only"
-   },
-   {
     "id": 1717,
     "title": "Rym 9000",
     "reason": "key_art_only"
@@ -1187,11 +1694,6 @@
    {
     "id": 2718,
     "title": "Sam & Max: Beyond Time And Space",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2054,
-    "title": "Samurai Maiden",
     "reason": "key_art_only"
    },
    {
@@ -1215,11 +1717,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 2086,
-    "title": "SD Gundam G Generation Cross Rays",
-    "reason": "key_art_only"
-   },
-   {
     "id": 1951,
     "title": "Sense - A Cyberpunk Ghost Story",
     "reason": "key_art_only"
@@ -1227,11 +1724,6 @@
    {
     "id": 1723,
     "title": "Shadow of Loot Box",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2249,
-    "title": "Shadow of the Ninja - Reborn",
     "reason": "key_art_only"
    },
    {
@@ -1300,11 +1792,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 1077,
-    "title": "Siralim 2",
-    "reason": "key_art_only"
-   },
-   {
     "id": 1846,
     "title": "Skautfold: Into The Fray",
     "reason": "key_art_only"
@@ -1320,16 +1807,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 1081,
-    "title": "Skully",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1090,
-    "title": "Slide Stars",
-    "reason": "key_art_only"
-   },
-   {
     "id": 1949,
     "title": "Smashing the Battle: Ghost Soul",
     "reason": "key_art_only"
@@ -1342,16 +1819,6 @@
    {
     "id": 2018,
     "title": "SOL CRESTA",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1878,
-    "title": "Sophstar",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1114,
-    "title": "Space Hulk: Deathwing",
     "reason": "key_art_only"
    },
    {
@@ -1455,11 +1922,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 2466,
-    "title": "Tadeo Jones y el Manuscrito Perdido",
-    "reason": "key_art_only"
-   },
-   {
     "id": 2730,
     "title": "Tails of Iron",
     "reason": "key_art_only"
@@ -1485,18 +1947,8 @@
     "reason": "key_art_only"
    },
    {
-    "id": 1742,
-    "title": "Tandem: A Tale of Shadows",
-    "reason": "key_art_only"
-   },
-   {
     "id": 1743,
     "title": "Tannenberg",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1205,
-    "title": "Tearaway Unfolded",
     "reason": "key_art_only"
    },
    {
@@ -1535,11 +1987,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 1229,
-    "title": "The Complex",
-    "reason": "key_art_only"
-   },
-   {
     "id": 1234,
     "title": "The Dark Crystal: Age of Resistance Tactics",
     "reason": "key_art_only"
@@ -1570,11 +2017,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 1264,
-    "title": "The Last Tinker: City of Colors",
-    "reason": "key_art_only"
-   },
-   {
     "id": 2049,
     "title": "The Legend of Heroes: Trails through Daybreak II",
     "reason": "key_art_only"
@@ -1582,26 +2024,6 @@
    {
     "id": 2050,
     "title": "The Legend of Nayuta: Boundless Trails",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1275,
-    "title": "The Lost Child",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1276,
-    "title": "The Messenger",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1278,
-    "title": "The Mummy Demastered",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1911,
-    "title": "The Procession to Calvary",
     "reason": "key_art_only"
    },
    {
@@ -1615,33 +2037,8 @@
     "reason": "key_art_only"
    },
    {
-    "id": 1299,
-    "title": "The Swords of Ditto: Mormo's Curse",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1302,
-    "title": "The Town of Light",
-    "reason": "key_art_only"
-   },
-   {
     "id": 1317,
     "title": "They Are Billions",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1326,
-    "title": "Timespinner",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1336,
-    "title": "Tom Clancy's Rainbow Six Siege: Advanced Edition",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1768,
-    "title": "Tormented Souls",
     "reason": "key_art_only"
    },
    {
@@ -1662,11 +2059,6 @@
    {
     "id": 2358,
     "title": "Transformers: Earthspark - Expedition",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2359,
-    "title": "Trash Sailors",
     "reason": "key_art_only"
    },
    {
@@ -1745,16 +2137,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 1400,
-    "title": "Vegas Party",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2365,
-    "title": "Vengeful Guardian: Moonrider",
-    "reason": "key_art_only"
-   },
-   {
     "id": 1781,
     "title": "Verdun",
     "reason": "key_art_only"
@@ -1775,11 +2157,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 1783,
-    "title": "Volume",
-    "reason": "key_art_only"
-   },
-   {
     "id": 2761,
     "title": "War Mongrels",
     "reason": "key_art_only"
@@ -1792,11 +2169,6 @@
    {
     "id": 1948,
     "title": "Wife Quest",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1436,
-    "title": "WILL: A Wonderful World",
     "reason": "key_art_only"
    },
    {
@@ -1825,11 +2197,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 1924,
-    "title": "YesterMorrow",
-    "reason": "key_art_only"
-   },
-   {
     "id": 1793,
     "title": "YIIK: A Postmodern RPG",
     "reason": "key_art_only"
@@ -1847,11 +2214,6 @@
    {
     "id": 2775,
     "title": "Ys Vs. Trails In The Sky: Alternative Saga",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2048,
-    "title": "Ys X: Nordics",
     "reason": "key_art_only"
    },
    {
@@ -1885,11 +2247,6 @@
     "reason": "missing_ps4_banner"
    },
    {
-    "id": 474,
-    "title": "Fell Seal: Arbiter's Mark",
-    "reason": "missing_ps4_banner"
-   },
-   {
     "id": 1631,
     "title": "GunLord X",
     "reason": "missing_ps4_banner"
@@ -1897,11 +2254,6 @@
    {
     "id": 1235,
     "title": "The Dark Pictures - Little Hope",
-    "reason": "missing_ps4_banner"
-   },
-   {
-    "id": 1303,
-    "title": "The Walking Dead: A Telltale Games Series - The Complete First Season",
     "reason": "missing_ps4_banner"
    },
    {
@@ -2135,8 +2487,8 @@
    }
   ],
   "reviewByReason": {
-   "key_art_only": 255,
-   "missing_ps4_banner": 24
+   "key_art_only": 212,
+   "missing_ps4_banner": 22
   },
   "watchByReason": {
    "image_fetch_failed": 20
@@ -2145,6 +2497,6 @@
  "blockers": [
   "GameFAQs box images return HTTP 403 to automated audit fetches (all 20 WATCH items); audit cannot verify them, so they need alternate hosts."
  ],
- "lastVerified": "2026-09-25T21:03:47+00:00",
- "nextTask": "Batch 3: vet remaining crawl candidates (pc/tgdb crawls still running), then WATCH alternate hosts"
+ "lastVerified": "2026-09-25T21:09:44+00:00",
+ "nextTask": "Batch 4: remaining pc/tgdb crawl candidates incl. WATCH items; VideoGamesPlus crawl candidates"
 }

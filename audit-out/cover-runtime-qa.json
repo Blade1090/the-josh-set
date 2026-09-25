@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-09-25T20:59:07.398Z",
+  "generatedAt": "2026-09-25T21:07:19.801Z",
   "summary": {
-    "generatedAt": "2026-09-25T20:59:07.398Z",
+    "generatedAt": "2026-09-25T21:07:19.801Z",
     "included": 2407,
-    "good": 2100,
+    "good": 2145,
     "fallback": 8,
-    "review": 279,
+    "review": 234,
     "watch": 20,
-    "physicalVerify": 275,
-    "physicalLikely": 1380,
-    "physicalConfirmed": 752,
+    "physicalVerify": 232,
+    "physicalLikely": 1385,
+    "physicalConfirmed": 790,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "key_art_only": 255,
-      "missing_ps4_banner": 24
+      "key_art_only": 212,
+      "missing_ps4_banner": 22
     },
     "watchByReason": {
       "image_fetch_failed": 20
@@ -469,23 +469,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2690,
-      "title": "Pathfinder: Wrath of the Righteous",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2681,
-      "title": "PJ Masks Power Heroes: Mighty Alliance",
-      "reason": "key_art_only"
-    },
-    {
       "id": 914,
       "title": "Plague Road",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 925,
-      "title": "Port Royale 4",
       "reason": "key_art_only"
     },
     {
@@ -514,28 +499,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 939,
-      "title": "Psyvariar Delta",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2701,
-      "title": "Rabbids: Party of Legends",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2707,
       "title": "Raidou Remastered: Mystery Of The Soulless Army",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 959,
-      "title": "Rainbow Moon",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2338,
-      "title": "Ravenswatch",
       "reason": "key_art_only"
     },
     {
@@ -544,23 +509,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1864,
-      "title": "Relayer",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 987,
-      "title": "Return of the Obra Dinn",
-      "reason": "key_art_only"
-    },
-    {
       "id": 991,
       "title": "Reverie",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2269,
-      "title": "Risen",
       "reason": "key_art_only"
     },
     {
@@ -571,21 +521,6 @@
     {
       "id": 2096,
       "title": "Rival Megagun",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1015,
-      "title": "Rocksmith 2014 Edition",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1018,
-      "title": "Rogue Trooper Redux",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1845,
-      "title": "Romancing SaGa -Minstrel Song- Remastered",
       "reason": "key_art_only"
     },
     {
@@ -604,11 +539,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1997,
-      "title": "RWBY: Arrowfell",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1717,
       "title": "Rym 9000",
       "reason": "key_art_only"
@@ -616,11 +546,6 @@
     {
       "id": 2718,
       "title": "Sam & Max: Beyond Time And Space",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2054,
-      "title": "Samurai Maiden",
       "reason": "key_art_only"
     },
     {
@@ -644,11 +569,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2086,
-      "title": "SD Gundam G Generation Cross Rays",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1951,
       "title": "Sense - A Cyberpunk Ghost Story",
       "reason": "key_art_only"
@@ -656,11 +576,6 @@
     {
       "id": 1723,
       "title": "Shadow of Loot Box",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2249,
-      "title": "Shadow of the Ninja - Reborn",
       "reason": "key_art_only"
     },
     {
@@ -729,11 +644,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1077,
-      "title": "Siralim 2",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1846,
       "title": "Skautfold: Into The Fray",
       "reason": "key_art_only"
@@ -749,16 +659,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1081,
-      "title": "Skully",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1090,
-      "title": "Slide Stars",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1949,
       "title": "Smashing the Battle: Ghost Soul",
       "reason": "key_art_only"
@@ -771,16 +671,6 @@
     {
       "id": 2018,
       "title": "SOL CRESTA",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1878,
-      "title": "Sophstar",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1114,
-      "title": "Space Hulk: Deathwing",
       "reason": "key_art_only"
     },
     {
@@ -884,11 +774,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2466,
-      "title": "Tadeo Jones y el Manuscrito Perdido",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2730,
       "title": "Tails of Iron",
       "reason": "key_art_only"
@@ -914,18 +799,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1742,
-      "title": "Tandem: A Tale of Shadows",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1743,
       "title": "Tannenberg",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1205,
-      "title": "Tearaway Unfolded",
       "reason": "key_art_only"
     },
     {
@@ -964,11 +839,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1229,
-      "title": "The Complex",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1234,
       "title": "The Dark Crystal: Age of Resistance Tactics",
       "reason": "key_art_only"
@@ -999,11 +869,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1264,
-      "title": "The Last Tinker: City of Colors",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2049,
       "title": "The Legend of Heroes: Trails through Daybreak II",
       "reason": "key_art_only"
@@ -1011,26 +876,6 @@
     {
       "id": 2050,
       "title": "The Legend of Nayuta: Boundless Trails",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1275,
-      "title": "The Lost Child",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1276,
-      "title": "The Messenger",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1278,
-      "title": "The Mummy Demastered",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1911,
-      "title": "The Procession to Calvary",
       "reason": "key_art_only"
     },
     {
@@ -1044,33 +889,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1299,
-      "title": "The Swords of Ditto: Mormo's Curse",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1302,
-      "title": "The Town of Light",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1317,
       "title": "They Are Billions",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1326,
-      "title": "Timespinner",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1336,
-      "title": "Tom Clancy's Rainbow Six Siege: Advanced Edition",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1768,
-      "title": "Tormented Souls",
       "reason": "key_art_only"
     },
     {
@@ -1091,11 +911,6 @@
     {
       "id": 2358,
       "title": "Transformers: Earthspark - Expedition",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2359,
-      "title": "Trash Sailors",
       "reason": "key_art_only"
     },
     {
@@ -1174,16 +989,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1400,
-      "title": "Vegas Party",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2365,
-      "title": "Vengeful Guardian: Moonrider",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1781,
       "title": "Verdun",
       "reason": "key_art_only"
@@ -1204,11 +1009,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1783,
-      "title": "Volume",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2761,
       "title": "War Mongrels",
       "reason": "key_art_only"
@@ -1221,11 +1021,6 @@
     {
       "id": 1948,
       "title": "Wife Quest",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1436,
-      "title": "WILL: A Wonderful World",
       "reason": "key_art_only"
     },
     {
@@ -1254,11 +1049,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1924,
-      "title": "YesterMorrow",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1793,
       "title": "YIIK: A Postmodern RPG",
       "reason": "key_art_only"
@@ -1276,11 +1066,6 @@
     {
       "id": 2775,
       "title": "Ys Vs. Trails In The Sky: Alternative Saga",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2048,
-      "title": "Ys X: Nordics",
       "reason": "key_art_only"
     },
     {
@@ -1314,11 +1099,6 @@
       "reason": "missing_ps4_banner"
     },
     {
-      "id": 474,
-      "title": "Fell Seal: Arbiter's Mark",
-      "reason": "missing_ps4_banner"
-    },
-    {
       "id": 1631,
       "title": "GunLord X",
       "reason": "missing_ps4_banner"
@@ -1326,11 +1106,6 @@
     {
       "id": 1235,
       "title": "The Dark Pictures - Little Hope",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 1303,
-      "title": "The Walking Dead: A Telltale Games Series - The Complete First Season",
       "reason": "missing_ps4_banner"
     },
     {
