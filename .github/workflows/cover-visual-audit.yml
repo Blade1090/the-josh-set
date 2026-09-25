@@ -48,6 +48,8 @@ jobs:
               print(json.dumps(json.load(f)['summary'], indent=2))
           PY
       - name: Publish runtime quality gate to branch
+        env:
+          BRANCH: ${{ github.ref_name }}
         run: |
           if git diff --quiet -- audit-out/cover-runtime-qa.json; then
             echo "Runtime gate unchanged."
@@ -55,9 +57,13 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp audit-out/cover-runtime-qa.json /tmp/cover-runtime-qa.json
+          git fetch origin "$BRANCH"
+          git checkout -B "$BRANCH" "origin/$BRANCH"
+          cp /tmp/cover-runtime-qa.json audit-out/cover-runtime-qa.json
           git add audit-out/cover-runtime-qa.json
           git commit -m "Art Department: refresh runtime cover quality gate"
-          git push
+          git push origin HEAD:"$BRANCH"
       - name: Upload audit results
         uses: actions/upload-artifact@v4
         with:
