@@ -12,16 +12,10 @@
     const open=()=>{menu.hidden=false;btn.setAttribute('aria-expanded','true')};
     const close=()=>{menu.hidden=true;btn.setAttribute('aria-expanded','false')};
     btn.addEventListener('click',e=>{e.stopPropagation();isOpen()?close():open()});
-    // Close once an action inside the menu is actually chosen (file-picker labels/buttons),
-    // but not for a stray click on the menu's own background/padding.
     menu.addEventListener('click',e=>{if(e.target.closest('button,label'))close()});
     document.addEventListener('click',e=>{if(isOpen()&&!menu.contains(e.target)&&e.target!==btn)close()});
     document.addEventListener('keydown',e=>{if(e.key==='Escape'&&isOpen())close()});
 
-    // Price maintenance is intentionally lazy-loaded from the maintenance menu layer rather
-    // than adding another always-visible control to the main app. Its script waits for the
-    // pricing pipeline before computing coverage, so loading it here is safe even though this
-    // file appears early in index.html.
     if(!document.querySelector('script[data-shelfcheck-price-maintenance]')){
       const s=document.createElement('script');
       s.src='price-maintenance-v001.js?v=3';
@@ -29,11 +23,21 @@
       document.body.appendChild(s);
     }
 
-    // Art Department safety gate. Load after the parser has finished so the complete cover
-    // pipeline exists, then keep REVIEW art from being shown as if it were approved shelf art.
+    // Bulk Art Department recovery layer. The generated file contains only strict LaunchBox
+    // "Box - Front" matches from the current REVIEW/WATCH/FALLBACK queue and merges them into
+    // the runtime title-cover map before repainting cards/dossiers.
+    if(!document.querySelector('script[data-shelfcheck-launchbox-covers]')){
+      const s=document.createElement('script');
+      s.src='cover-launchbox-retail.js?v=1';
+      s.dataset.shelfcheckLaunchboxCovers='1';
+      s.onerror=()=>console.warn('ShelfCheck: LaunchBox cover recovery layer unavailable.');
+      document.body.appendChild(s);
+    }
+
+    // Art Department safety gate. Any image still failing the current full audit remains hidden.
     if(!document.querySelector('script[data-shelfcheck-cover-quality]')){
       const s=document.createElement('script');
-      s.src='cover-quality-v001.js?v=2';
+      s.src='cover-quality-v001.js?v=3';
       s.dataset.shelfcheckCoverQuality='1';
       document.body.appendChild(s);
     }
