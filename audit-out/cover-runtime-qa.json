@@ -1,36 +1,31 @@
 {
-  "generatedAt": "2026-09-25T17:25:11.901Z",
+  "generatedAt": "2026-09-25T18:16:09.335Z",
   "summary": {
-    "generatedAt": "2026-09-25T17:25:11.901Z",
+    "generatedAt": "2026-09-25T18:16:09.335Z",
     "included": 2407,
-    "good": 1965,
+    "good": 1985,
     "fallback": 8,
-    "review": 406,
-    "watch": 28,
-    "physicalVerify": 398,
-    "physicalLikely": 1298,
+    "review": 387,
+    "watch": 27,
+    "physicalVerify": 382,
+    "physicalLikely": 1314,
     "physicalConfirmed": 711,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "key_art_only": 370,
-      "missing_ps4_banner": 36
+      "key_art_only": 355,
+      "missing_ps4_banner": 32
     },
     "watchByReason": {
-      "image_fetch_failed": 28
+      "image_fetch_failed": 27
     }
   },
   "review": [
     {
       "id": 2037,
       "title": "9th Dawn III",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 30,
-      "title": "Accel World vs. Sword Art Online: Millennium Twilight",
       "reason": "key_art_only"
     },
     {
@@ -81,11 +76,6 @@
     {
       "id": 1579,
       "title": "Back to the Future: The Game",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 148,
-      "title": "bayala - the game",
       "reason": "key_art_only"
     },
     {
@@ -239,11 +229,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1810,
-      "title": "Dark Quest 2",
-      "reason": "key_art_only"
-    },
-    {
       "id": 322,
       "title": "Dead Alliance",
       "reason": "key_art_only"
@@ -281,11 +266,6 @@
     {
       "id": 2039,
       "title": "Dragon Lapis",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1607,
-      "title": "DreamWorks Dragons Dawn of New Riders",
       "reason": "key_art_only"
     },
     {
@@ -336,11 +316,6 @@
     {
       "id": 1807,
       "title": "Five Dates",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1620,
-      "title": "Forestry 2017: The Simulation",
       "reason": "key_art_only"
     },
     {
@@ -401,11 +376,6 @@
     {
       "id": 2420,
       "title": "Grave Danger",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1628,
-      "title": "Gravity Ghost: Deluxe Edition",
       "reason": "key_art_only"
     },
     {
@@ -561,11 +531,6 @@
     {
       "id": 716,
       "title": "Lichtspeer",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 720,
-      "title": "Lifeless Planet: Premier Edition",
       "reason": "key_art_only"
     },
     {
@@ -1044,11 +1009,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1712,
-      "title": "Rock of Ages 3: Make & Break",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1015,
       "title": "Rocksmith 2014 Edition",
       "reason": "key_art_only"
@@ -1394,11 +1354,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1919,
-      "title": "Swordbreaker The Game",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2466,
       "title": "Tadeo Jones y el Manuscrito Perdido",
       "reason": "key_art_only"
@@ -1549,28 +1504,13 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1758,
-      "title": "The Metronomicon: Slay the Dance Floor",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1278,
       "title": "The Mummy Demastered",
       "reason": "key_art_only"
     },
     {
-      "id": 1759,
-      "title": "The Peanuts Movie: Snoopy's Grand Adventure",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1911,
       "title": "The Procession to Calvary",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1288,
-      "title": "The Sexy Brutale",
       "reason": "key_art_only"
     },
     {
@@ -1591,11 +1531,6 @@
     {
       "id": 1302,
       "title": "The Town of Light",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1305,
-      "title": "The Walking Dead: Season Two - A Telltale Games Series",
       "reason": "key_art_only"
     },
     {
@@ -1711,11 +1646,6 @@
     {
       "id": 1986,
       "title": "Urban Trial Tricky Deluxe Edition",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1543,
-      "title": "VA-11 Hall-A: Cyberpunk Bartender Action",
       "reason": "key_art_only"
     },
     {
@@ -1869,11 +1799,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1491,
-      "title": "Zone of the Enders: The 2nd Runner MARS",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2079,
       "title": "Among Us",
       "reason": "missing_ps4_banner"
@@ -1939,11 +1864,6 @@
       "reason": "missing_ps4_banner"
     },
     {
-      "id": 2064,
-      "title": "Andro Dunos 2",
-      "reason": "missing_ps4_banner"
-    },
-    {
       "id": 1850,
       "title": "Lost Ruins",
       "reason": "missing_ps4_banner"
@@ -2004,18 +1924,8 @@
       "reason": "missing_ps4_banner"
     },
     {
-      "id": 1247,
-      "title": "The Flame in the Flood: Complete Edition",
-      "reason": "missing_ps4_banner"
-    },
-    {
       "id": 1942,
       "title": "Fullblast",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 111,
-      "title": "Atari Flashback Classics: Volume 1",
       "reason": "missing_ps4_banner"
     },
     {
@@ -2046,11 +1956,6 @@
     {
       "id": 476,
       "title": "Fight'N Rage",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 185,
-      "title": "Blood Bowl 2",
       "reason": "missing_ps4_banner"
     }
   ],
@@ -2180,11 +2085,6 @@
     {
       "id": 1976,
       "title": "Sisters Royale",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 1198,
-      "title": "Tales from the Borderlands: A Telltale Game Series",
       "reason": "image_fetch_failed"
     },
     {

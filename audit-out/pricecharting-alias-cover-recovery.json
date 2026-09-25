@@ -1,0 +1,842 @@
+{
+  "summary": {
+    "reviewedAliasFiles": [
+      "price-import-v037.js",
+      "price-alias-v039.js",
+      "price-alias-v040.js"
+    ],
+    "reviewedIdentityCount": 109,
+    "targetsWithReviewedAliases": 34,
+    "preserved": 332,
+    "acceptedThisRun": 20,
+    "totalPriceChartingCovers": 352,
+    "noExactAliasMatch": 0,
+    "rejectedByImageGate": 13,
+    "errors": 1,
+    "regionCounts": {
+      "PAL": 10,
+      "US/NTSC": 10
+    },
+    "matchMethods": {
+      "reviewed_alias_exact": 20
+    },
+    "standard": "same identity id from reviewed ShelfCheck alias ledger + exact/compact-exact PS4 product title + straight portrait + strong blue PS4 header"
+  },
+  "accepted": [
+    {
+      "id": 30,
+      "title": "Accel World vs. Sword Art Online: Millennium Twilight",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "Accel World Vs Sword Art Online"
+      ],
+      "alias": "Accel World Vs Sword Art Online",
+      "matchedTitle": "Accel World Vs Sword Art Online",
+      "matchMethod": "reviewed_alias_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/accel-world-vs-sword-art-online",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95abS2hKd-f_G3fT28Vq_1Smd2bBMsgQzXhbNyJl8qvg8PcAHvZfoXvr5IdApTvHn7gW6lW68fo81Tdvdp9odnpQFruQQ1BXVsnkXgmQa2_Aw5mC_n8n2FRkUZEv7ZHwOEXmNlmA-zqWOhCGs2oi7AfUr8a-g/1600.jpg",
+      "metrics": {
+        "width": 411,
+        "height": 512,
+        "aspect": 0.8027,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.5358
+      }
+    },
+    {
+      "id": 148,
+      "title": "bayala - the game",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "Bayala"
+      ],
+      "alias": "Bayala",
+      "matchedTitle": "Bayala",
+      "matchMethod": "reviewed_alias_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/bayala?q=bayala+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/09a6a741f9c202db4fe8b6ebfcb5ddf1c5f58219fe33e7ae837a190d576e0ddb/1600.jpg",
+      "metrics": {
+        "width": 950,
+        "height": 1200,
+        "aspect": 0.7917,
+        "bannerColumnSpan": 0.9944,
+        "bannerPixelRatio": 0.609
+      }
+    },
+    {
+      "id": 1810,
+      "title": "Dark Quest 2",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "dark quest ii"
+      ],
+      "alias": "dark quest ii",
+      "matchedTitle": "Dark Quest II",
+      "matchMethod": "reviewed_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/dark-quest-ii?q=dark+quest+ii+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/56e291d2c898697560786952b41c35eefcf1d7d914ab58b8a570743b9db94c7c/1600.jpg",
+      "metrics": {
+        "width": 1227,
+        "height": 1543,
+        "aspect": 0.7952,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.4312
+      }
+    },
+    {
+      "id": 1607,
+      "title": "DreamWorks Dragons Dawn of New Riders",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "dragons dawn of new riders"
+      ],
+      "alias": "dragons dawn of new riders",
+      "matchedTitle": "Dragons: Dawn of New Riders",
+      "matchMethod": "reviewed_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/dragons-dawn-of-new-riders",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/c4944fc980c113e99b0f1986194120943b396d5610574119306133c103f8134c/1600.jpg",
+      "metrics": {
+        "width": 1203,
+        "height": 1500,
+        "aspect": 0.802,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.7347
+      }
+    },
+    {
+      "id": 1620,
+      "title": "Forestry 2017: The Simulation",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "Forestry 2017"
+      ],
+      "alias": "Forestry 2017",
+      "matchedTitle": "Forestry 2017",
+      "matchMethod": "reviewed_alias_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/forestry-2017",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/1bfaa817cefb4947f1b9d612286f33b8949df7d2943058a76523d6d497a473ab/1600.jpg",
+      "metrics": {
+        "width": 640,
+        "height": 799,
+        "aspect": 0.801,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.5107
+      }
+    },
+    {
+      "id": 1628,
+      "title": "Gravity Ghost: Deluxe Edition",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "Gravity Ghost"
+      ],
+      "alias": "Gravity Ghost",
+      "matchedTitle": "Gravity Ghost",
+      "matchMethod": "reviewed_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/gravity-ghost?q=gravity+ghost+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv957bA3Re3bjxGwQQDMX9X9-RWQ8gekD1oJeOlXezc2QWwVzuyIAlKGPkrUpSRWjRHsdVFOfAzcTtvf-MljAZKo8Ducmr8CY-vYJ0a7m-b6W-KBllNW7zBb8Ltxe0bwmopfeQRf03W4-FydPZ0hKH0P_NSmbWQ/1600.jpg",
+      "metrics": {
+        "width": 411,
+        "height": 512,
+        "aspect": 0.8027,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.4832
+      }
+    },
+    {
+      "id": 720,
+      "title": "Lifeless Planet: Premier Edition",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "lifeless planet"
+      ],
+      "alias": "lifeless planet",
+      "matchedTitle": "Lifeless Planet",
+      "matchMethod": "reviewed_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/lifeless-planet?q=lifeless+planet+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/de11d5176adfc9db58c649fd305b50efb174143ea00490f8e70bcaf3f82494c6/1600.jpg",
+      "metrics": {
+        "width": 700,
+        "height": 872,
+        "aspect": 0.8028,
+        "bannerColumnSpan": 0.7583,
+        "bannerPixelRatio": 0.3255
+      }
+    },
+    {
+      "id": 1712,
+      "title": "Rock of Ages 3: Make & Break",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "rock of ages iii make break",
+        "Rock of Ages III: Make & Break"
+      ],
+      "alias": "Rock of Ages III: Make & Break",
+      "matchedTitle": "Rock of Ages III: Make & Break",
+      "matchMethod": "reviewed_alias_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/rock-of-ages-iii-make-&-break",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/19d32098348a8ee789f8a2ce0f35d7c88702f72d48ecff94fd7899afb55b6319/1600.jpg",
+      "metrics": {
+        "width": 393,
+        "height": 495,
+        "aspect": 0.7939,
+        "bannerColumnSpan": 0.9778,
+        "bannerPixelRatio": 0.6008
+      }
+    },
+    {
+      "id": 1919,
+      "title": "Swordbreaker The Game",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "Swordbreaker"
+      ],
+      "alias": "Swordbreaker",
+      "matchedTitle": "Swordbreaker",
+      "matchMethod": "reviewed_alias_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/swordbreaker?q=swordbreaker+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/70c863042325a577739123addfc12057bdb844c52ef5f4f658ff6db52a228bcd/1600.jpg",
+      "metrics": {
+        "width": 1200,
+        "height": 1516,
+        "aspect": 0.7916,
+        "bannerColumnSpan": 0.9944,
+        "bannerPixelRatio": 0.4444
+      }
+    },
+    {
+      "id": 1758,
+      "title": "The Metronomicon: Slay the Dance Floor",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "Metronomicon"
+      ],
+      "alias": "Metronomicon",
+      "matchedTitle": "Metronomicon",
+      "matchMethod": "reviewed_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/metronomicon?q=metronomicon+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95MSQM5XaST0gNDTSCnczu5Ic7QiOMvAynbcmsEE7Ac3R9lLoxK74S888O4H80f6y__ywat4r0Z3bQlCyyBRNyOzTnrG5vPPErXJ4dngWXLwO5Au3r4DjgUKbUfzTUHXS_w5Jfy3gkXJspyz5lbCof4XjCPtQ/1600.jpg",
+      "metrics": {
+        "width": 409,
+        "height": 512,
+        "aspect": 0.7988,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.3748
+      }
+    },
+    {
+      "id": 1759,
+      "title": "The Peanuts Movie: Snoopy's Grand Adventure",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "snoopy s grand adventure",
+        "Snoopy's Grand Adventure"
+      ],
+      "alias": "Snoopy's Grand Adventure",
+      "matchedTitle": "Snoopy's Grand Adventure",
+      "matchMethod": "reviewed_alias_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/snoopy%27s-grand-adventure",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95qphbf8D-uHGO7gpy0qiUdzP-MsHzpMZSFTN1jEwcGx_X0r6jNZTeC_9Q_UwvUzbiHG-W0Hun_uko0tzftEWKXS5Ukk1Bt8e3fewDPDI0pGkGw75g-dO9AFap_syKxi_uDkoJT0pEl6vf8OLDZjloqiLO3yw/1600.jpg",
+      "metrics": {
+        "width": 411,
+        "height": 512,
+        "aspect": 0.8027,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.6114
+      }
+    },
+    {
+      "id": 1288,
+      "title": "The Sexy Brutale",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "The Sexy Brutale [Full House Edition]"
+      ],
+      "alias": "The Sexy Brutale [Full House Edition]",
+      "matchedTitle": "The Sexy Brutale [Full House Edition]",
+      "matchMethod": "reviewed_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/the-sexy-brutale-full-house-edition?q=the+sexy+brutale+%5Bfull+house+edition%5D+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/c50dd368090694a8c40df7d80afa0d6eae6ecdad206921df6301af765765a9d1/1600.jpg",
+      "metrics": {
+        "width": 1197,
+        "height": 1500,
+        "aspect": 0.798,
+        "bannerColumnSpan": 0.7806,
+        "bannerPixelRatio": 0.2578
+      }
+    },
+    {
+      "id": 1305,
+      "title": "The Walking Dead: Season Two - A Telltale Games Series",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "The Walking Dead: Season Two"
+      ],
+      "alias": "The Walking Dead: Season Two",
+      "matchedTitle": "The Walking Dead: Season Two",
+      "matchMethod": "reviewed_alias_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/the-walking-dead-season-two",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/d1443575ad5c8a0ef699f0ba0ceec8bc6969857cdb82869f20598ab9a13d452d/1600.jpg",
+      "metrics": {
+        "width": 800,
+        "height": 992,
+        "aspect": 0.8065,
+        "bannerColumnSpan": 0.7778,
+        "bannerPixelRatio": 0.3072
+      }
+    },
+    {
+      "id": 1543,
+      "title": "VA-11 Hall-A: Cyberpunk Bartender Action",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "Va-11 Hall-A"
+      ],
+      "alias": "Va-11 Hall-A",
+      "matchedTitle": "Va-11 Hall-A",
+      "matchMethod": "reviewed_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/va-11-hall-a",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/50c77a85177cfb0919e0f7d143968f5b388001271e252cf77458631cb83d543d/1600.jpg",
+      "metrics": {
+        "width": 480,
+        "height": 599,
+        "aspect": 0.8013,
+        "bannerColumnSpan": 0.9972,
+        "bannerPixelRatio": 0.6995
+      }
+    },
+    {
+      "id": 1491,
+      "title": "Zone of the Enders: The 2nd Runner MARS",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "zone of the enders 2nd runner mars"
+      ],
+      "alias": "zone of the enders 2nd runner mars",
+      "matchedTitle": "Zone of the Enders 2nd Runner Mars",
+      "matchMethod": "reviewed_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/zone-of-the-enders-2nd-runner-mars",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97rNoFhj5oz0DHAe-fnLcAajl0BdDAhC9aFiesMrIlj8O7heoWPjTf3t5OukyAqc2bKDtTj8YRX56buTf6zCl06-eHDFpR4Zmu5cIMJENmzpQdgEyGNK1VOV4Yyp7VEfh2w1o9TDvjnhYxJ-bmVqwfXMBLtrQ/1600.jpg",
+      "metrics": {
+        "width": 291,
+        "height": 360,
+        "aspect": 0.8083,
+        "bannerColumnSpan": 0.9416,
+        "bannerPixelRatio": 0.6594
+      }
+    },
+    {
+      "id": 2064,
+      "title": "Andro Dunos 2",
+      "bucket": "review",
+      "reason": "missing_ps4_banner",
+      "aliases": [
+        "andro dunos ii"
+      ],
+      "alias": "andro dunos ii",
+      "matchedTitle": "Andro Dunos II",
+      "matchMethod": "reviewed_alias_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/andro-dunos-ii",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/2dee29f2edee31cd03a207d805a60b8686136ae68e4b6ad7695f845a44358084/1600.jpg",
+      "metrics": {
+        "width": 750,
+        "height": 959,
+        "aspect": 0.7821,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.6348
+      }
+    },
+    {
+      "id": 1247,
+      "title": "The Flame in the Flood: Complete Edition",
+      "bucket": "review",
+      "reason": "missing_ps4_banner",
+      "aliases": [
+        "The Flame in the Flood"
+      ],
+      "alias": "The Flame in the Flood",
+      "matchedTitle": "The Flame in the Flood",
+      "matchMethod": "reviewed_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/the-flame-in-the-flood?q=the+flame+in+the+flood+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96VLufie_fZRyhNCe9B1AdY2-DZeRNqexObSHtBEU3v6x479OgtQhH6B6-fCDVRnJ1GfJO7j_f01gW0p_0SqrJLFg6vZCaOHfgkIsvPWwI3egepZ8ETsXNUqRHSjgxyg2k3zLZvmk1Y8IyqWt8YqfjGoAAxSg/1600.jpg",
+      "metrics": {
+        "width": 411,
+        "height": 512,
+        "aspect": 0.8027,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.4358
+      }
+    },
+    {
+      "id": 111,
+      "title": "Atari Flashback Classics: Volume 1",
+      "bucket": "review",
+      "reason": "missing_ps4_banner",
+      "aliases": [
+        "atari flashback classics vol 1"
+      ],
+      "alias": "atari flashback classics vol 1",
+      "matchedTitle": "Atari Flashback Classics Vol 1",
+      "matchMethod": "reviewed_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/atari-flashback-classics-vol-1?q=atari+flashback+classics+vol+1+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/85ca38dff4350866dc6033b1c41304b5a10018bb85afa52e2bc70687a3a4456d/1600.jpg",
+      "metrics": {
+        "width": 1269,
+        "height": 1600,
+        "aspect": 0.7931,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.5717
+      }
+    },
+    {
+      "id": 185,
+      "title": "Blood Bowl 2",
+      "bucket": "review",
+      "reason": "missing_ps4_banner",
+      "aliases": [
+        "blood bowl ii"
+      ],
+      "alias": "blood bowl ii",
+      "matchedTitle": "Blood Bowl II",
+      "matchMethod": "reviewed_alias_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/blood-bowl-ii",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/rwksfgkdhzuvs4w3/1600.jpg",
+      "metrics": {
+        "width": 768,
+        "height": 984,
+        "aspect": 0.7805,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.8383
+      }
+    },
+    {
+      "id": 1198,
+      "title": "Tales from the Borderlands: A Telltale Game Series",
+      "bucket": "watch",
+      "reason": "image_fetch_failed",
+      "aliases": [
+        "Tales From the Borderlands"
+      ],
+      "alias": "Tales From the Borderlands",
+      "matchedTitle": "Tales from the Borderlands",
+      "matchMethod": "reviewed_alias_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/tales-from-the-borderlands",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/f2ebf3d77c855a6df8f83e36753b79e5edd7174565976090e7729d535a236fa8/1600.jpg",
+      "metrics": {
+        "width": 401,
+        "height": 498,
+        "aspect": 0.8052,
+        "bannerColumnSpan": 0.975,
+        "bannerPixelRatio": 0.5013
+      }
+    }
+  ],
+  "noMatch": [],
+  "rejected": [
+    {
+      "id": 269,
+      "title": "Corpse Killer: 25th Anniversary Edition",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "Corpse Killer"
+      ],
+      "attempts": [
+        {
+          "alias": "Corpse Killer",
+          "matchedTitle": "Corpse Killer",
+          "region": "US/NTSC",
+          "productUrl": "https://www.pricecharting.com/game/playstation-4/corpse-killer",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/ed7072d71d9e08b0d64951ab7c49b907ea64331779965d62c186b944449ef996/1600.jpg",
+          "reason": "failed_retail_front_gate",
+          "metrics": {
+            "width": 216,
+            "height": 240,
+            "aspect": 0.9,
+            "bannerColumnSpan": 0.6852,
+            "bannerPixelRatio": 0.3754
+          }
+        }
+      ]
+    },
+    {
+      "id": 1624,
+      "title": "Futuridium EP Deluxe",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "Futuridium"
+      ],
+      "attempts": [
+        {
+          "alias": "Futuridium",
+          "matchedTitle": "Futuridium",
+          "region": "US/NTSC",
+          "productUrl": "https://www.pricecharting.com/game/playstation-4/futuridium",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/a9d5d62e15628f8b965289a9a8d86f1c5d9dea848d3969ab18af508f00a8e5f6/1600.jpg",
+          "reason": "failed_retail_front_gate",
+          "metrics": {
+            "width": 1383,
+            "height": 1536,
+            "aspect": 0.9004,
+            "bannerColumnSpan": 0.6028,
+            "bannerPixelRatio": 0.1825
+          }
+        }
+      ]
+    },
+    {
+      "id": 844,
+      "title": "Night Trap: 25th Anniversary Edition",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "Night Trap"
+      ],
+      "attempts": [
+        {
+          "alias": "Night Trap",
+          "matchedTitle": "Night Trap",
+          "region": "US/NTSC",
+          "productUrl": "https://www.pricecharting.com/game/playstation-4/night-trap",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/9663c66979f3fa04d2e44f4690c4a77ad1c7b1b6b9df26416e1cc2a4860dc445/1600.jpg",
+          "reason": "failed_retail_front_gate",
+          "metrics": {
+            "width": 1383,
+            "height": 1536,
+            "aspect": 0.9004,
+            "bannerColumnSpan": 0.5583,
+            "bannerPixelRatio": 0.2153
+          }
+        }
+      ]
+    },
+    {
+      "id": 878,
+      "title": "Organ Trail: Complete Edition",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "Organ Trail"
+      ],
+      "attempts": [
+        {
+          "alias": "Organ Trail",
+          "matchedTitle": "Organ Trail",
+          "region": "US/NTSC",
+          "productUrl": "https://www.pricecharting.com/game/playstation-4/organ-trail?q=organ+trail+playstation+4",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv9523psOI6pAX9ASwSiRj-_q4QDfY5qmgAbI49CMi_ET5xNrFYSDMw-Ht7BYsGeiNZu7PM9qhtfgjW41tjZPFbe7NRvZyraFA31kLTQ5WrPkFBZYlbNVduuG37KAkKYE6f3LSYdXY-N5PlaaBfqyWUxnz14IIg/1600.jpg",
+          "reason": "failed_retail_front_gate",
+          "metrics": {
+            "width": 324,
+            "height": 360,
+            "aspect": 0.9,
+            "bannerColumnSpan": 0.5556,
+            "bannerPixelRatio": 0.2212
+          }
+        }
+      ]
+    },
+    {
+      "id": 1817,
+      "title": "Panzer Dragoon: Remake",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "Panzer Dragoon"
+      ],
+      "attempts": [
+        {
+          "alias": "Panzer Dragoon",
+          "matchedTitle": "Panzer Dragoon",
+          "region": "US/NTSC",
+          "productUrl": "https://www.pricecharting.com/game/playstation-4/panzer-dragoon",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/52cffa37650278218662aaea807762d7b3a69eed616bb13500de7ae3011dcb1a/1600.jpg",
+          "reason": "failed_retail_front_gate",
+          "metrics": {
+            "width": 1383,
+            "height": 1536,
+            "aspect": 0.9004,
+            "bannerColumnSpan": 0.5583,
+            "bannerPixelRatio": 0.2201
+          }
+        }
+      ]
+    },
+    {
+      "id": 1726,
+      "title": "Shikhondo: Soul Eater",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "Shikhondo"
+      ],
+      "attempts": [
+        {
+          "alias": "Shikhondo",
+          "matchedTitle": "Shikhondo",
+          "region": "US/NTSC",
+          "productUrl": "https://www.pricecharting.com/game/playstation-4/shikhondo",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/55b2a8880063f7031b9d087ddd4cb9e3aa9cb1aeda9e800079b04d4263a61b07/1600.jpg",
+          "reason": "failed_retail_front_gate",
+          "metrics": {
+            "width": 1325,
+            "height": 1600,
+            "aspect": 0.8281,
+            "bannerColumnSpan": 0.9056,
+            "bannerPixelRatio": 0.4607
+          }
+        }
+      ]
+    },
+    {
+      "id": 1734,
+      "title": "Stealth Inc: A Clone in the Dark Ultimate Edition",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "Stealth Inc"
+      ],
+      "attempts": [
+        {
+          "alias": "Stealth Inc",
+          "matchedTitle": "Stealth Inc",
+          "region": "US/NTSC",
+          "productUrl": "https://www.pricecharting.com/game/playstation-4/stealth-inc?q=stealth+inc+playstation+4",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/b88416948769adf9f1604e3b24fc24cc2348ff5c486f7abc8d4f84e71e68ad54/1600.jpg",
+          "reason": "failed_retail_front_gate",
+          "metrics": {
+            "width": 1383,
+            "height": 1536,
+            "aspect": 0.9004,
+            "bannerColumnSpan": 0.6056,
+            "bannerPixelRatio": 0.1959
+          }
+        }
+      ]
+    },
+    {
+      "id": 1336,
+      "title": "Tom Clancy's Rainbow Six Siege: Advanced Edition",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "Rainbow Six Siege [Advanced Edition]"
+      ],
+      "attempts": [
+        {
+          "alias": "Rainbow Six Siege [Advanced Edition]",
+          "matchedTitle": "Rainbow Six Siege [Advanced Edition]",
+          "region": "US/NTSC",
+          "productUrl": "https://www.pricecharting.com/game/playstation-4/rainbow-six-siege-advanced-edition",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94Z0vsQbXwXu1oIjK4PJrq2b_JQipFX4PkrZOyk_ZURhIO9EE2UQPBeG5B8yXxGyj2WqE7-Z7M4D8fNXDxxEAL38_W2gi8i4ATNOURiFpOoxFWjPmnFfmNE_WAqpkZ0kpFCf4Y7CuQ-HHVIG3Ntfw4XtfdqMQ/1600.jpg",
+          "reason": "failed_retail_front_gate",
+          "metrics": {
+            "width": 298,
+            "height": 360,
+            "aspect": 0.8278,
+            "bannerColumnSpan": 0.9295,
+            "bannerPixelRatio": 0.4557
+          }
+        },
+        {
+          "alias": "Rainbow Six Siege [Advanced Edition]",
+          "matchedTitle": "Rainbow Six Siege [Advanced Edition]",
+          "region": "PAL",
+          "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/rainbow-six-siege-advanced-edition",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/ij256nx7qhbqz3vm/1600.jpg",
+          "reason": "failed_retail_front_gate",
+          "metrics": {
+            "width": 700,
+            "height": 700,
+            "aspect": 1.0,
+            "bannerColumnSpan": 0.8,
+            "bannerPixelRatio": 0.4153
+          }
+        }
+      ]
+    },
+    {
+      "id": 1821,
+      "title": "Turok 3: Shadow of Oblivion Remastered",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "Turok 3: Shadow Of Oblivion"
+      ],
+      "attempts": [
+        {
+          "alias": "Turok 3: Shadow Of Oblivion",
+          "matchedTitle": "Turok 3: Shadow Of Oblivion",
+          "region": "US/NTSC",
+          "productUrl": "https://www.pricecharting.com/game/playstation-4/turok-3-shadow-of-oblivion",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/vs37flgnj7sm5nre/1600.jpg",
+          "reason": "failed_retail_front_gate",
+          "metrics": {
+            "width": 650,
+            "height": 722,
+            "aspect": 0.9003,
+            "bannerColumnSpan": 0.6083,
+            "bannerPixelRatio": 0.1793
+          }
+        }
+      ]
+    },
+    {
+      "id": 1986,
+      "title": "Urban Trial Tricky Deluxe Edition",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "aliases": [
+        "Urban Trial Tricky"
+      ],
+      "attempts": [
+        {
+          "alias": "Urban Trial Tricky",
+          "matchedTitle": "Urban Trial Tricky",
+          "region": "PAL",
+          "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/urban-trial-tricky?q=urban+trial+tricky+playstation+4",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/9354295c4ccfa3119651bd9988d989332de1e0d9530e77121a1ae7d6fab6f7be/1600.jpg",
+          "reason": "failed_retail_front_gate",
+          "metrics": {
+            "width": 600,
+            "height": 600,
+            "aspect": 1.0,
+            "bannerColumnSpan": 0.7833,
+            "bannerPixelRatio": 0.35
+          }
+        }
+      ]
+    },
+    {
+      "id": 1132,
+      "title": "Star Wars Episode I: Racer",
+      "bucket": "review",
+      "reason": "missing_ps4_banner",
+      "aliases": [
+        "star wars episode 1 racer"
+      ],
+      "attempts": [
+        {
+          "alias": "star wars episode 1 racer",
+          "matchedTitle": "Star Wars Episode 1 Racer",
+          "region": "US/NTSC",
+          "productUrl": "https://www.pricecharting.com/game/playstation-4/star-wars-episode-1-racer",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/f4288e55e4b9ca0e76bca522c88f239e7ef97bf471c229bed0b799a88e55f9a7/1600.jpg",
+          "reason": "failed_retail_front_gate",
+          "metrics": {
+            "width": 450,
+            "height": 500,
+            "aspect": 0.9,
+            "bannerColumnSpan": 0.5556,
+            "bannerPixelRatio": 0.2202
+          }
+        }
+      ]
+    },
+    {
+      "id": 1665,
+      "title": "Maldita Castilla EX: Cursed Castilla",
+      "bucket": "watch",
+      "reason": "image_fetch_failed",
+      "aliases": [
+        "Maldita Castilla EX"
+      ],
+      "attempts": [
+        {
+          "alias": "Maldita Castilla EX",
+          "matchedTitle": "Maldita Castilla EX",
+          "region": "PAL",
+          "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/maldita-castilla-ex?q=maldita+castilla+ex+playstation+4",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/019620d385710cb0f98a64ba7a5cc38ef89117cd19d7051b9bc5037a8771fedd/1600.jpg",
+          "reason": "failed_retail_front_gate",
+          "metrics": {
+            "width": 1024,
+            "height": 630,
+            "aspect": 1.6254,
+            "bannerColumnSpan": 0.0,
+            "bannerPixelRatio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 1753,
+      "title": "The First Tree: Console Edition",
+      "bucket": "watch",
+      "reason": "image_fetch_failed",
+      "aliases": [
+        "The First Tree"
+      ],
+      "attempts": [
+        {
+          "alias": "The First Tree",
+          "matchedTitle": "The First Tree",
+          "region": "US/NTSC",
+          "productUrl": "https://www.pricecharting.com/game/playstation-4/the-first-tree?q=the+first+tree+playstation+4",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96jidSUwtKwUM6mZLbIaNp5pvjeRbkDfVaLpjDyIt3LtyDhMxJtkMYw6nNS1lb_TTuATBEHl-kkBOodOdhNEZpyqycp2q5zCJSVWoD1gCZ7wNBeoY0vAdPWgN6ufvuh56Hg_EN_NcZgE_gpu6s6yOQMv7-AKQ/1600.jpg",
+          "reason": "failed_retail_front_gate",
+          "metrics": {
+            "width": 410,
+            "height": 512,
+            "aspect": 0.8008,
+            "bannerColumnSpan": 0.7111,
+            "bannerPixelRatio": 0.3001
+          }
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "id": 1685,
+      "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
+      "bucket": "watch",
+      "reason": "image_fetch_failed",
+      "aliases": [
+        "oddworld new n tasty"
+      ],
+      "attempts": [
+        {
+          "alias": "oddworld new n tasty",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    }
+  ]
+}
