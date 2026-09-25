@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-25T16:04:25.311Z",
+  "generatedAt": "2026-09-25T16:09:38.586Z",
   "summary": {
-    "generatedAt": "2026-09-25T16:04:25.311Z",
+    "generatedAt": "2026-09-25T16:09:38.586Z",
     "included": 2407,
     "good": 1629,
     "fallback": 8,
@@ -17,6 +17,11 @@
     "reviewByReason": {
       "key_art_only": 680,
       "missing_ps4_banner": 51
+    },
+    "fallbackByReason": {
+      "wrong_region_or_edition": 1,
+      "angled_product_shot": 5,
+      "photo_of_case": 2
     },
     "watchByReason": {
       "image_fetch_failed": 39
