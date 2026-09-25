@@ -38,7 +38,7 @@ def child_text(el,name):
 
 
 def download_metadata(dest):
-    req=urllib.request.Request(META_URL,headers={'User-Agent':'ShelfCheck-ArtDepartment/2.0'})
+    req=urllib.request.Request(META_URL,headers={'User-Agent':'ShelfCheck-ArtDepartment/2.1'})
     with urllib.request.urlopen(req,timeout=180) as r, open(dest,'wb') as f:
         while True:
             chunk=r.read(1024*1024)
@@ -122,7 +122,8 @@ def main():
                 if dbid in games and child_text(el,'Type').strip()=='Box - Front':
                     fn=child_text(el,'FileName').strip()
                     if fn: games[dbid]['images'].append({'file':fn,'region':child_text(el,'Region').strip()})
-            el.clear()
+            # Do not clear leaf fields before their parent record has consumed them.
+            if len(el): el.clear()
 
     covers={}; title_covers={}; recovered=[]; unresolved=[]; ambiguous=[]; no_front=[]
     for t in targets:
@@ -156,7 +157,7 @@ def main():
         f.write('window.SHELFCHECK_LAUNCHBOX_COVERS='+json.dumps(covers,separators=(',',':'))+';\n')
         f.write('window.SHELFCHECK_LAUNCHBOX_TITLES='+json.dumps(title_covers,separators=(',',':'))+';\n')
         f.write('window.SHELFCHECK_LAUNCHBOX_META='+json.dumps(summary,separators=(',',':'))+';\n')
-        f.write("(()=>{let n=0;const apply=()=>{n++;window.SHELFCHECK_TITLE_COVERS={...(window.SHELFCHECK_TITLE_COVERS||{}),...(window.SHELFCHECK_LAUNCHBOX_TITLES||{})};if(window.SHELFCHECK_COVER_ART?.repaint)window.SHELFCHECK_COVER_ART.repaint();else if(n<80)setTimeout(apply,100)};if(document.readyState==='complete')apply();else window.addEventListener('load',apply,{once:true})})();\n")
+        f.write("if(typeof document!=='undefined'){(()=>{let n=0;const apply=()=>{n++;window.SHELFCHECK_TITLE_COVERS={...(window.SHELFCHECK_TITLE_COVERS||{}),...(window.SHELFCHECK_LAUNCHBOX_TITLES||{})};if(window.SHELFCHECK_COVER_ART?.repaint)window.SHELFCHECK_COVER_ART.repaint();else if(n<80)setTimeout(apply,100)};if(document.readyState==='complete')apply();else window.addEventListener('load',apply,{once:true})})()}\n")
     print(json.dumps(summary,indent=2))
 
 if __name__=='__main__': main()
