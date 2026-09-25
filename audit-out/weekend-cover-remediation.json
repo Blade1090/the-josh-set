@@ -8,21 +8,21 @@
   "fallback": 8
  },
  "branch": "art-department-weekend-final",
- "currentVerifiedCommit": "e2a5e8d7f0d4d22e42aa25a21a34befc2f0143d7 (parent of the batch commit that records this checkpoint)",
+ "currentVerifiedCommit": "f1727b92452166241ccc548de587748b6d539703 (parent of the batch commit that records this checkpoint)",
  "currentQA": {
   "included": 2407,
-  "good": 2169,
-  "review": 212,
-  "watch": 18,
+  "good": 2176,
+  "review": 207,
+  "watch": 16,
   "fallback": 8
  },
  "totals": {
-  "attempted": 356,
-  "accepted": 120,
-  "rejected": 69,
-  "goodGained": 120,
-  "reviewCleared": 118,
-  "watchCleared": 2,
+  "attempted": 365,
+  "accepted": 127,
+  "rejected": 71,
+  "goodGained": 127,
+  "reviewCleared": 123,
+  "watchCleared": 4,
   "fallbackChange": 0
  },
  "batches": [
@@ -1548,11 +1548,105 @@
    ],
    "goodGained": 2,
    "baselineGoodRegressions": 0
+  },
+  {
+   "batch": 7,
+   "name": "recover PriceCharting alias fronts",
+   "before": {
+    "included": 2407,
+    "good": 2169,
+    "review": 212,
+    "watch": 18,
+    "fallback": 8
+   },
+   "after": {
+    "included": 2407,
+    "good": 2176,
+    "review": 207,
+    "watch": 16,
+    "fallback": 8
+   },
+   "attempted": 9,
+   "accepted": [
+    {
+     "id": 1567,
+     "title": "Aokana - Four Rhythms Across the Blue",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/51db4c25b2c35598836520c508f8567ef0f3d5eef7cff842be55a0665545dabd/1600.jpg",
+     "region": "JP",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (vetted same-game name via offline index): Aokana Ao no Kanata no Four Rhythm Across the Blue"
+    },
+    {
+     "id": 1610,
+     "title": "Earthlock",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97YDfDhP5UGLe7ditzHD2mXO59TTnVEtCM-j66ZnDV4u8EUE9MJDp14rA0g-4thS0a_YA7FxcxZ20vnFQBShvN4uxQzJz9BC5SrYf2LBotyGR23y2OIRx3ZC0YDnDq1JXsuRyHmRwCIEZUjyv9tEOrRWW1SBQ/1600.jpg",
+     "region": "US",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (vetted same-game name via offline index): Earthlock Festival of Magic"
+    },
+    {
+     "id": 525,
+     "title": "Geometry Wars 3: Dimensions",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96KR2nMz8yFtqtiWBcsTkb3bkKkKBf3xM0SsCOEnOt8Pu4V2cjbdW1n87lgSGTJhS6t4MyYh0dZ-VI6JS_5HCHpBT4T40phsyZrxrMrFADN99q0Px6QlBKxDJqKI63Nrj0aYPKzhbhjH_1QP4YzPUKweVavNA/1600.jpg",
+     "region": "US",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (vetted same-game name via offline index): Geometry Wars 3: Dimensions Evolved"
+    },
+    {
+     "id": 1725,
+     "title": "Shenmue I",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/33638023de6a6c5eb67f452bac16043f52f1dd7368c04441a4615bf28e12d0cf/1600.jpg",
+     "region": "US",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (vetted same-game name via offline index): Shenmue I & II"
+    },
+    {
+     "id": 1846,
+     "title": "Skautfold: Into The Fray",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/asn6jp2nif3hn7kq/1600.jpg",
+     "region": "PAL",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (vetted same-game name via offline index): Skautfold 3: Into The Fray"
+    },
+    {
+     "id": 1979,
+     "title": "Trouble Witches Final: Episode 1 - Daughters of Amalgam",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/thvxbgcocwwd55cx/1600.jpg",
+     "region": "PAL",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (vetted same-game name via offline index): Trouble Witches Final! Episode 01: Daughters Of Amalgam"
+    },
+    {
+     "id": 2746,
+     "title": "Under Night In-Birth II: Sys:Celes",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/xhttdbaqvfavvte4/1600.jpg",
+     "region": "PAL",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (vetted same-game name via offline index): Under Night In-Birth [Sys:Celes]"
+    }
+   ],
+   "rejected": [
+    {
+     "id": 2018,
+     "title": "SOL CRESTA",
+     "candidate": "https://storage.googleapis.com/images.pricecharting.com/fff79ec60d6174a406620e593534ba22e31c741690343fa8e866578e2637babe/1600.jpg",
+     "reason": "SAMPLE watermark on JP image"
+    },
+    {
+     "id": 1259,
+     "title": "The Last Door: Complete Edition",
+     "candidate": "https://storage.googleapis.com/images.pricecharting.com/c01e8912e918b0f89d330b802d34b9f070ace5d060cbedcded55dfb2a7e7597e/1600.jpg",
+     "reason": "Legacy Edition vs Complete Edition naming unverified; curator review"
+    }
+   ],
+   "goodGained": 7,
+   "baselineGoodRegressions": 0
   }
  ],
  "sourcesUsed": [
   "LaunchBox Box - Front (fresh Metadata.zip)",
   "PriceCharting product pages via offline-index IDs",
+  "PriceCharting vetted aliases",
   "TheGamesDB PS4 boxart front",
   "TheGamesDB vetted aliases",
   "VideoGamesPlus product images",
@@ -1568,11 +1662,6 @@
    {
     "id": 2077,
     "title": "American Hero",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1567,
-    "title": "Aokana - Four Rhythms Across the Blue",
     "reason": "key_art_only"
    },
    {
@@ -1706,11 +1795,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 1610,
-    "title": "Earthlock",
-    "reason": "key_art_only"
-   },
-   {
     "id": 2419,
     "title": "Eldrador Creatures",
     "reason": "key_art_only"
@@ -1758,11 +1842,6 @@
    {
     "id": 1938,
     "title": "Gekido Kintaro's Revenge",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 525,
-    "title": "Geometry Wars 3: Dimensions",
     "reason": "key_art_only"
    },
    {
@@ -2161,11 +2240,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 1846,
-    "title": "Skautfold: Into The Fray",
-    "reason": "key_art_only"
-   },
-   {
     "id": 1870,
     "title": "Skautfold: Usurper",
     "reason": "key_art_only"
@@ -2418,11 +2492,6 @@
    {
     "id": 1375,
     "title": "Twin Breaker: A Sacred Symbols Adventure",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2746,
-    "title": "Under Night In-Birth II: Sys:Celes",
     "reason": "key_art_only"
    },
    {
@@ -2688,11 +2757,6 @@
     "reason": "image_fetch_failed"
    },
    {
-    "id": 1725,
-    "title": "Shenmue I",
-    "reason": "image_fetch_failed"
-   },
-   {
     "id": 1753,
     "title": "The First Tree: Console Edition",
     "reason": "image_fetch_failed"
@@ -2705,11 +2769,6 @@
    {
     "id": 2784,
     "title": "Tony Hawk's Pro Skater 3 + 4",
-    "reason": "image_fetch_failed"
-   },
-   {
-    "id": 1979,
-    "title": "Trouble Witches Final: Episode 1 - Daughters of Amalgam",
     "reason": "image_fetch_failed"
    }
   ],
@@ -2756,16 +2815,16 @@
    }
   ],
   "reviewByReason": {
-   "key_art_only": 194,
+   "key_art_only": 189,
    "missing_ps4_banner": 18
   },
   "watchByReason": {
-   "image_fetch_failed": 18
+   "image_fetch_failed": 16
   }
  },
  "blockers": [
   "GameFAQs box images return HTTP 403 to automated audit fetches (all 20 WATCH items); audit cannot verify them, so they need alternate hosts."
  ],
- "lastVerified": "2026-09-25T21:23:08+00:00",
- "nextTask": "7 — residual-queue triage: WATCH alternates, PC gate-failed portraits, LRG/Strictly Limited shop images"
+ "lastVerified": "2026-09-25T21:31:06+00:00",
+ "nextTask": "8 — Limited Run Games crawl candidates, then residual triage"
 }

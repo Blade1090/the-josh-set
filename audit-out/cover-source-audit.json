@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-25T21:20:52.523Z",
+  "generatedAt": "2026-09-25T21:28:49.720Z",
   "included": 2407,
   "counts": {
     "CURATED_ID": 4,
-    "CURATED_TITLE": 137,
+    "CURATED_TITLE": 135,
     "GAMEYE": 935,
     "LAUNCHBOX_BOX_FRONT": 688,
-    "LEGACY_IGDB": 194,
-    "PRICECHARTING_BOX_FRONT": 402,
+    "LEGACY_IGDB": 189,
+    "PRICECHARTING_BOX_FRONT": 409,
     "PRODUCT_BOX_FRONT": 47
   },
   "rows": [
@@ -752,8 +752,8 @@
     {
       "id": 1567,
       "title": "Aokana - Four Rhythms Across the Blue",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2t16.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/51db4c25b2c35598836520c508f8567ef0f3d5eef7cff842be55a0665545dabd/1600.jpg"
     },
     {
       "id": 81,
@@ -4160,8 +4160,8 @@
     {
       "id": 1610,
       "title": "Earthlock",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rv0.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97YDfDhP5UGLe7ditzHD2mXO59TTnVEtCM-j66ZnDV4u8EUE9MJDp14rA0g-4thS0a_YA7FxcxZ20vnFQBShvN4uxQzJz9BC5SrYf2LBotyGR23y2OIRx3ZC0YDnDq1JXsuRyHmRwCIEZUjyv9tEOrRWW1SBQ/1600.jpg"
     },
     {
       "id": 430,
@@ -5072,8 +5072,8 @@
     {
       "id": 525,
       "title": "Geometry Wars 3: Dimensions",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2q8e.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96KR2nMz8yFtqtiWBcsTkb3bkKkKBf3xM0SsCOEnOt8Pu4V2cjbdW1n87lgSGTJhS6t4MyYh0dZ-VI6JS_5HCHpBT4T40phsyZrxrMrFADN99q0Px6QlBKxDJqKI63Nrj0aYPKzhbhjH_1QP4YzPUKweVavNA/1600.jpg"
     },
     {
       "id": 2471,
@@ -10634,8 +10634,8 @@
     {
       "id": 1725,
       "title": "Shenmue I",
-      "source": "CURATED_TITLE",
-      "url": "https://gamefaqs.gamespot.com/a/box/7/4/6/686746_front.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/33638023de6a6c5eb67f452bac16043f52f1dd7368c04441a4615bf28e12d0cf/1600.jpg"
     },
     {
       "id": 1069,
@@ -10808,8 +10808,8 @@
     {
       "id": 1846,
       "title": "Skautfold: Into The Fray",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9fh4.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/asn6jp2nif3hn7kq/1600.jpg"
     },
     {
       "id": 1903,
@@ -13154,8 +13154,8 @@
     {
       "id": 1979,
       "title": "Trouble Witches Final: Episode 1 - Daughters of Amalgam",
-      "source": "CURATED_TITLE",
-      "url": "https://gamefaqs.gamespot.com/a/box/5/8/1/964581_front.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/thvxbgcocwwd55cx/1600.jpg"
     },
     {
       "id": 1371,
@@ -13340,8 +13340,8 @@
     {
       "id": 2746,
       "title": "Under Night In-Birth II: Sys:Celes",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6w3y.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/xhttdbaqvfavvte4/1600.jpg"
     },
     {
       "id": 2747,

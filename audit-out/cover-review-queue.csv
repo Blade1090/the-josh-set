@@ -1,7 +1,6 @@
 id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason,bannerColumnSpan,bannerPixelRatio,url
 2037,9th Dawn III,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2hpn.jpg
 2077,American Hero,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co3w2u.jpg
-1567,Aokana - Four Rhythms Across the Blue,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2t16.jpg
 1579,Back to the Future: The Game,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co5z46.jpg
 2518,Beyond Enemy Lines 2: Enhanced Edition,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co6cm5.jpg
 2068,Beyond the Ice Palace 2,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co82o9.jpg
@@ -28,7 +27,6 @@ id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason
 2039,Dragon Lapis,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2kej.jpg
 1608,Drive!Drive!Drive!,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2pzv.jpg
 2266,DUSK,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co4b39.jpg
-1610,Earthlock,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co1rv0.jpg
 2419,Eldrador Creatures,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2t67.jpg
 1950,Empire of Angels IV,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co214j.jpg
 2306,Enclave HD,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co6r0t.jpg
@@ -39,7 +37,6 @@ id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason
 1624,Futuridium EP Deluxe,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2q7j.jpg
 1625,Galak-Z: The Void,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2170.jpg
 1938,Gekido Kintaro's Revenge,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co1tn6.jpg
-525,Geometry Wars 3: Dimensions,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2q8e.jpg
 2311,Gigabash,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co8ypt.jpg
 1866,Godstrike,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co4j9b.jpg
 2420,Grave Danger,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/ta6vyxj9igahbewyklib.jpg
@@ -119,7 +116,6 @@ id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason
 1729,SIMULACRA,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co24d0.jpg
 1818,Sir Lovelot,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2tlk.jpg
 1076,Siralim,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co224g.jpg
-1846,Skautfold: Into The Fray,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co9fh4.jpg
 1870,Skautfold: Usurper,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co8uxp.jpg
 1731,Skulls of the Shogun: Bone-a-Fide Edition,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2212.jpg
 1949,Smashing the Battle: Ghost Soul,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co3rmk.jpg
@@ -171,7 +167,6 @@ id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason
 2262,Turrican Anthology Vol. 1,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co4xta.jpg
 2263,Turrican Anthology Vol. 2,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co4xtb.jpg
 1375,Twin Breaker: A Sacred Symbols Adventure,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2gmr.jpg
-2746,Under Night In-Birth II: Sys:Celes,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co6w3y.jpg
 2098,Underhero,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co1yig.jpg
 2033,UnderMine,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2erp.jpg
 1542,Unsighted,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co3bt4.jpg
@@ -232,8 +227,6 @@ id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason
 1685,Oddworld: Abe's Oddysee - New 'n' Tasty,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/8/5/8/790858_front.jpg
 2695,Q.U.B.E.,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/8/4/3/892843_front.jpg
 2696,Quintessential Quintuplets Fives Memories With You,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/0/8/1/1150081_front.jpg
-1725,Shenmue I,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/7/4/6/686746_front.jpg
 1753,The First Tree: Console Edition,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/7/7/9/851779_front.jpg
 1756,The Journey Down: Chapter Two,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/6/9/3/906693_front.jpg
 2784,Tony Hawk's Pro Skater 3 + 4,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/5/5/0/1158550_front.jpg
-1979,Trouble Witches Final: Episode 1 - Daughters of Amalgam,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/5/8/1/964581_front.jpg

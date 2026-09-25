@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-25T21:20:52.523Z",
+  "generatedAt": "2026-09-25T21:28:49.720Z",
   "summary": {
-    "generatedAt": "2026-09-25T21:20:52.523Z",
+    "generatedAt": "2026-09-25T21:28:49.720Z",
     "included": 2407,
-    "good": 2169,
+    "good": 2176,
     "fallback": 8,
-    "review": 212,
-    "watch": 18,
-    "physicalVerify": 212,
-    "physicalLikely": 1391,
+    "review": 207,
+    "watch": 16,
+    "physicalVerify": 205,
+    "physicalLikely": 1398,
     "physicalConfirmed": 804,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "key_art_only": 194,
+      "key_art_only": 189,
       "missing_ps4_banner": 18
     },
     "watchByReason": {
-      "image_fetch_failed": 18
+      "image_fetch_failed": 16
     }
   },
   "review": [
@@ -31,11 +31,6 @@
     {
       "id": 2077,
       "title": "American Hero",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1567,
-      "title": "Aokana - Four Rhythms Across the Blue",
       "reason": "key_art_only"
     },
     {
@@ -169,11 +164,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1610,
-      "title": "Earthlock",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2419,
       "title": "Eldrador Creatures",
       "reason": "key_art_only"
@@ -221,11 +211,6 @@
     {
       "id": 1938,
       "title": "Gekido Kintaro's Revenge",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 525,
-      "title": "Geometry Wars 3: Dimensions",
       "reason": "key_art_only"
     },
     {
@@ -624,11 +609,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1846,
-      "title": "Skautfold: Into The Fray",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1870,
       "title": "Skautfold: Usurper",
       "reason": "key_art_only"
@@ -881,11 +861,6 @@
     {
       "id": 1375,
       "title": "Twin Breaker: A Sacred Symbols Adventure",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2746,
-      "title": "Under Night In-Birth II: Sys:Celes",
       "reason": "key_art_only"
     },
     {
@@ -1193,11 +1168,6 @@
       "reason": "image_fetch_failed"
     },
     {
-      "id": 1725,
-      "title": "Shenmue I",
-      "reason": "image_fetch_failed"
-    },
-    {
       "id": 1753,
       "title": "The First Tree: Console Edition",
       "reason": "image_fetch_failed"
@@ -1210,11 +1180,6 @@
     {
       "id": 2784,
       "title": "Tony Hawk's Pro Skater 3 + 4",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 1979,
-      "title": "Trouble Witches Final: Episode 1 - Daughters of Amalgam",
       "reason": "image_fetch_failed"
     }
   ]
