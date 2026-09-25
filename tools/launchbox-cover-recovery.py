@@ -12,7 +12,7 @@ def child_text(el,name):
   if c.tag.rsplit('}',1)[-1].lower()==name.lower(): return c.text or ''
  return ''
 def download_metadata(dest):
- req=urllib.request.Request(META_URL,headers={'User-Agent':'ShelfCheck-ArtDepartment/2.5'}); r=urllib.request.urlopen(req,timeout=180)
+ req=urllib.request.Request(META_URL,headers={'User-Agent':'ShelfCheck-ArtDepartment/2.6'}); r=urllib.request.urlopen(req,timeout=180)
  with r, open(dest,'wb') as f:
   while True:
    chunk=r.read(1024*1024)
@@ -21,18 +21,15 @@ def download_metadata(dest):
 def region_rank(region):
  r=norm(region)
  return 0 if r=='north america' else 1 if r=='world' else 2 if not r else 3 if r=='europe' else 4 if r in {'united kingdom','uk'} else 5 if r in {'australia','oceania'} else 6
-def load_existing_titles():
+def load_existing_map(var):
  if not os.path.exists(OUT_JS): return {}
- text=open(OUT_JS,encoding='utf-8').read()
- m=re.search(r'window\.SHELFCHECK_LAUNCHBOX_TITLES=(\{.*?\});',text,re.S)
+ text=open(OUT_JS,encoding='utf-8').read(); m=re.search(r'window\.'+re.escape(var)+r'=(\{.*?\});',text,re.S)
  if not m: return {}
  try: data=json.loads(m.group(1))
  except Exception: return {}
  out={}
  for k,v in data.items():
-  if not isinstance(v,str): continue
-  fn=v.rsplit('/',1)[-1]
-  out[norm(k)]=IMAGE_BASE+fn
+  if isinstance(v,str): out[norm(k)]=IMAGE_BASE+v.rsplit('/',1)[-1]
  return out
 def main():
  runtime=json.load(open(RUNTIME,encoding='utf-8')); targets=[]; seen=set()
@@ -41,8 +38,10 @@ def main():
    title=row.get('title'); k=norm(title)
    if not title or not k or k in seen: continue
    seen.add(k); targets.append({'id':row.get('id'),'title':title,'bucket':bucket,'reason':row.get('reason')})
- existing_titles=load_existing_titles()
- print('Targets:',len(targets),'Preserved LaunchBox titles:',len(existing_titles))
+ strict_titles=load_existing_map('SHELFCHECK_LAUNCHBOX_TITLES'); recon_titles=load_existing_map('SHELFCHECK_LAUNCHBOX_RECONSTRUCTED_TITLES')
+ for k in list(recon_titles):
+  if k in strict_titles: recon_titles.pop(k,None)
+ print('Targets:',len(targets),'Preserved strict:',len(strict_titles),'Preserved reconstructed:',len(recon_titles))
  with tempfile.TemporaryDirectory() as td:
   zpath=os.path.join(td,'Metadata.zip'); download_metadata(zpath)
   with zipfile.ZipFile(zpath) as z:
@@ -60,11 +59,11 @@ def main():
    except: el.clear(); continue
    name=(child_text(el,'Name') or child_text(el,'Title')).strip()
    if name:
-    games[dbid]={'name':name,'images':[]}; exact[norm(name)].add(dbid)
+    games[dbid]={'name':name,'fronts':[],'reconstructed':[]}; exact[norm(name)].add(dbid)
     if soft(name): soft_idx[soft(name)].add(dbid)
    el.clear()
   ps4_ids=set(games); print('PS4 games indexed:',len(games))
-  ps4_types=Counter(); image_records=0; image_ps4=0; ps4_fronts=0
+  ps4_types=Counter(); image_records=0; image_ps4=0; ps4_fronts=0; ps4_reconstructed=0
   for _,el in ET.iterparse(xml_path,events=('end',)):
    low=el.tag.rsplit('}',1)[-1].lower()
    if low in {'gamealternatename','alternate_name','alternatename'}:
@@ -77,34 +76,41 @@ def main():
       if soft(name): soft_idx[soft(name)].add(dbid)
     el.clear()
    elif low in {'gameimage','image'}:
-    image_records+=1; typ=(child_text(el,'Type') or child_text(el,'ImageType')).strip()
+    image_records+=1; typ=(child_text(el,'Type') or child_text(el,'ImageType')).strip(); typ_norm=norm(typ)
     try: dbid=int(child_text(el,'DatabaseID'))
     except: dbid=-1
     if dbid in ps4_ids:
      image_ps4+=1; ps4_types[typ]+=1
-     if norm(typ) in {'box front','boxfront'}:
+     bucket='fronts' if typ_norm in {'box front','boxfront'} else 'reconstructed' if typ_norm=='box front reconstructed' else None
+     if bucket:
       fn=(child_text(el,'FileName') or child_text(el,'Filename') or child_text(el,'URL')).strip()
       if fn:
-       ps4_fronts+=1; url=fn if fn.startswith(('http://','https://')) else IMAGE_BASE+fn; games[dbid]['images'].append({'file':fn.rsplit('/',1)[-1],'url':url,'region':child_text(el,'Region').strip()})
+       if bucket=='fronts': ps4_fronts+=1
+       else: ps4_reconstructed+=1
+       url=fn if fn.startswith(('http://','https://')) else IMAGE_BASE+fn
+       games[dbid][bucket].append({'file':fn.rsplit('/',1)[-1],'url':url,'region':child_text(el,'Region').strip()})
     el.clear()
- print('PS4 image records:',image_ps4,'PS4 Box - Front records:',ps4_fronts,'PS4 image types:',ps4_types.most_common(15))
- covers={}; title_covers=dict(existing_titles); recovered=[]; no_match=[]; ambiguous=[]; no_front=[]
+ print('PS4 image records:',image_ps4,'strict fronts:',ps4_fronts,'reconstructed fronts:',ps4_reconstructed)
+ covers={}; strict_recovered=[]; recon_recovered=[]; no_match=[]; ambiguous=[]; no_front=[]
  for t in targets:
   n=norm(t['title']); s=soft(t['title']); ids=set(exact.get(n,())); method='exact'
   if len(ids)!=1: ids=set(soft_idx.get(s,())) if s else set(); method='unique_soft_alias'
   if len(ids)!=1:
    (ambiguous if ids else no_match).append({**t,'candidateDatabaseIds':sorted(ids)[:10]}); continue
   dbid=next(iter(ids)); g=games[dbid]
-  if not g['images']:
-   no_front.append({**t,'launchboxDatabaseId':dbid,'launchboxName':g['name']}); continue
-  best=sorted(g['images'],key=lambda x:(region_rank(x['region']),x['file']))[0]; url=best['url']; title_covers[n]=url
-  if t.get('id') is not None: covers[str(t['id'])]=url
-  recovered.append({**t,'launchboxDatabaseId':dbid,'launchboxName':g['name'],'matchMethod':method,'region':best['region'] or None,'fileName':best['file'],'url':url,'frontCandidateCount':len(g['images'])})
- summary={'targeted':len(targets),'recoveredThisRun':len(recovered),'preserved':len(existing_titles),'totalLaunchBoxTitles':len(title_covers),'unresolvedNoMatch':len(no_match),'ambiguous':len(ambiguous),'matchedButNoBoxFront':len(no_front),'regionCounts':{},'metadataDiagnostics':{'gameImageRecords':image_records,'gameImagePs4Intersections':image_ps4,'ps4BoxFrontRecords':ps4_fronts,'topPs4ImageTypes':ps4_types.most_common(15)},'source':'LaunchBox Games Database Metadata.zip / Box - Front only'}
- for r in recovered:
-  rg=r.get('region') or 'Unspecified'; summary['regionCounts'][rg]=summary['regionCounts'].get(rg,0)+1
- os.makedirs(os.path.dirname(OUT_JSON),exist_ok=True); json.dump({'summary':summary,'recovered':recovered,'unresolved':no_match,'ambiguous':ambiguous,'noFront':no_front},open(OUT_JSON,'w',encoding='utf-8'),indent=2,ensure_ascii=False)
+  if g['fronts']:
+   best=sorted(g['fronts'],key=lambda x:(region_rank(x['region']),x['file']))[0]; url=best['url']; strict_titles[n]=url; recon_titles.pop(n,None)
+   if t.get('id') is not None: covers[str(t['id'])]=url
+   strict_recovered.append({**t,'launchboxDatabaseId':dbid,'launchboxName':g['name'],'matchMethod':method,'mediaType':'Box - Front','region':best['region'] or None,'fileName':best['file'],'url':url,'candidateCount':len(g['fronts'])})
+  elif g['reconstructed']:
+   best=sorted(g['reconstructed'],key=lambda x:(region_rank(x['region']),x['file']))[0]; url=best['url']
+   if n not in strict_titles: recon_titles[n]=url
+   recon_recovered.append({**t,'launchboxDatabaseId':dbid,'launchboxName':g['name'],'matchMethod':method,'mediaType':'Box - Front - Reconstructed','region':best['region'] or None,'fileName':best['file'],'url':url,'candidateCount':len(g['reconstructed'])})
+  else:
+   no_front.append({**t,'launchboxDatabaseId':dbid,'launchboxName':g['name']})
+ summary={'targeted':len(targets),'strictRecoveredThisRun':len(strict_recovered),'reconstructedRecoveredThisRun':len(recon_recovered),'totalStrictTitles':len(strict_titles),'totalReconstructedTitles':len(recon_titles),'unresolvedNoMatch':len(no_match),'ambiguous':len(ambiguous),'matchedButNoUsableFront':len(no_front),'metadataDiagnostics':{'gameImageRecords':image_records,'gameImagePs4Intersections':image_ps4,'ps4BoxFrontRecords':ps4_fronts,'ps4ReconstructedFrontRecords':ps4_reconstructed,'topPs4ImageTypes':ps4_types.most_common(15)},'source':'LaunchBox Games Database Metadata.zip / strict Box - Front plus reconstructed fallback'}
+ os.makedirs(os.path.dirname(OUT_JSON),exist_ok=True); json.dump({'summary':summary,'strictRecovered':strict_recovered,'reconstructedRecovered':recon_recovered,'unresolved':no_match,'ambiguous':ambiguous,'noFront':no_front},open(OUT_JSON,'w',encoding='utf-8'),indent=2,ensure_ascii=False)
  with open(OUT_JS,'w',encoding='utf-8') as f:
-  f.write('// Generated by tools/launchbox-cover-recovery.py. LaunchBox Box - Front only.\n'); f.write('window.SHELFCHECK_LAUNCHBOX_COVERS='+json.dumps(covers,separators=(',',':'))+';\n'); f.write('window.SHELFCHECK_LAUNCHBOX_TITLES='+json.dumps(title_covers,separators=(',',':'))+';\n'); f.write('window.SHELFCHECK_LAUNCHBOX_META='+json.dumps(summary,separators=(',',':'))+';\n'); f.write("if(typeof document!=='undefined'){(()=>{let n=0;const apply=()=>{n++;window.SHELFCHECK_TITLE_COVERS={...(window.SHELFCHECK_TITLE_COVERS||{}),...(window.SHELFCHECK_LAUNCHBOX_TITLES||{})};if(window.SHELFCHECK_COVER_ART?.repaint)window.SHELFCHECK_COVER_ART.repaint();else if(n<80)setTimeout(apply,100)};if(document.readyState==='complete')apply();else window.addEventListener('load',apply,{once:true})})()}\n")
+  f.write('// Generated by tools/launchbox-cover-recovery.py. Strict fronts plus reconstructed fallback.\n'); f.write('window.SHELFCHECK_LAUNCHBOX_COVERS='+json.dumps(covers,separators=(',',':'))+';\n'); f.write('window.SHELFCHECK_LAUNCHBOX_TITLES='+json.dumps(strict_titles,separators=(',',':'))+';\n'); f.write('window.SHELFCHECK_LAUNCHBOX_RECONSTRUCTED_TITLES='+json.dumps(recon_titles,separators=(',',':'))+';\n'); f.write('window.SHELFCHECK_LAUNCHBOX_META='+json.dumps(summary,separators=(',',':'))+';\n'); f.write("if(typeof document!=='undefined'){(()=>{let n=0;const apply=()=>{n++;window.SHELFCHECK_TITLE_COVERS={...(window.SHELFCHECK_TITLE_COVERS||{}),...(window.SHELFCHECK_LAUNCHBOX_RECONSTRUCTED_TITLES||{}),...(window.SHELFCHECK_LAUNCHBOX_TITLES||{})};if(window.SHELFCHECK_COVER_ART?.repaint)window.SHELFCHECK_COVER_ART.repaint();else if(n<80)setTimeout(apply,100)};if(document.readyState==='complete')apply();else window.addEventListener('load',apply,{once:true})})()}\n")
  print(json.dumps(summary,indent=2))
 if __name__=='__main__': main()
