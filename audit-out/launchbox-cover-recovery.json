@@ -1,20 +1,18 @@
 {
   "summary": {
     "targeted": 778,
-    "recoveredThisRun": 3,
-    "preserved": 678,
-    "totalLaunchBoxTitles": 678,
+    "strictRecoveredThisRun": 3,
+    "reconstructedRecoveredThisRun": 0,
+    "totalStrictTitles": 678,
+    "totalReconstructedTitles": 0,
     "unresolvedNoMatch": 375,
     "ambiguous": 3,
-    "matchedButNoBoxFront": 397,
-    "regionCounts": {
-      "North America": 2,
-      "Asia": 1
-    },
+    "matchedButNoUsableFront": 397,
     "metadataDiagnostics": {
       "gameImageRecords": 1333329,
       "gameImagePs4Intersections": 19854,
       "ps4BoxFrontRecords": 4565,
+      "ps4ReconstructedFrontRecords": 409,
       "topPs4ImageTypes": [
         [
           "Box - Front",
@@ -78,9 +76,9 @@
         ]
       ]
     },
-    "source": "LaunchBox Games Database Metadata.zip / Box - Front only"
+    "source": "LaunchBox Games Database Metadata.zip / strict Box - Front plus reconstructed fallback"
   },
-  "recovered": [
+  "strictRecovered": [
     {
       "id": 25,
       "title": "Aaero",
@@ -89,10 +87,11 @@
       "launchboxDatabaseId": 155687,
       "launchboxName": "Aaero",
       "matchMethod": "exact",
+      "mediaType": "Box - Front",
       "region": "North America",
       "fileName": "8dd72cbd-c780-445c-bd6f-877de71bac62.jpg",
       "url": "https://images.launchbox-app.com/8dd72cbd-c780-445c-bd6f-877de71bac62.jpg",
-      "frontCandidateCount": 1
+      "candidateCount": 1
     },
     {
       "id": 183,
@@ -102,10 +101,11 @@
       "launchboxDatabaseId": 144756,
       "launchboxName": "Bleed",
       "matchMethod": "exact",
+      "mediaType": "Box - Front",
       "region": "Asia",
       "fileName": "b0ec8dfb-6ec0-4b93-95ac-6c903510c4fb.jpg",
       "url": "https://images.launchbox-app.com/b0ec8dfb-6ec0-4b93-95ac-6c903510c4fb.jpg",
-      "frontCandidateCount": 1
+      "candidateCount": 1
     },
     {
       "id": 1676,
@@ -115,12 +115,14 @@
       "launchboxDatabaseId": 149687,
       "launchboxName": "N++",
       "matchMethod": "exact",
+      "mediaType": "Box - Front",
       "region": "North America",
       "fileName": "c65cb4a2-48cc-4b1c-8da4-ddc4dd9d9b1f.jpg",
       "url": "https://images.launchbox-app.com/c65cb4a2-48cc-4b1c-8da4-ddc4dd9d9b1f.jpg",
-      "frontCandidateCount": 1
+      "candidateCount": 1
     }
   ],
+  "reconstructedRecovered": [],
   "unresolved": [
     {
       "id": 1557,
