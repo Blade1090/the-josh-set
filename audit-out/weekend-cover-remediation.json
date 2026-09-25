@@ -2823,8 +2823,37 @@
   }
  },
  "blockers": [
-  "GameFAQs box images return HTTP 403 to automated audit fetches (all 20 WATCH items); audit cannot verify them, so they need alternate hosts."
+  "GameFAQs box images return HTTP 403 to automated audit fetches; 16 WATCH identities still point at GameFAQs and no alternate clean front was found on PriceCharting/TheGamesDB/vgdb/VideoGamesPlus/LaunchBox.",
+  "Most remaining REVIEW identities only have 3D box renders (Limited Run / Strictly Limited / eastasiasoft shop art), case photos, or provisional/RP art online; these correctly fail the standard.",
+  "Trim-and-rehost lever (not used, needs Josh decision): ~119 remaining identities have square-padded images that pass the banner gate once trimmed, but visual sampling shows most are 3D renders; only ~10-15 are genuine flat fronts. Would require hosting cropped copies in-repo and teaching cover-visual-audit.py to read local files.",
+  "Pre-existing test failures (identical on main f513842): tools/pwa-precache-consistency-test.mjs (precache list version drift) and tools/random-cover-stability-test.mjs (lightbox.setAttribute DOM-stub TypeError). Not touched.",
+  "CLAUDE.md curator holds respected: Prototype (Biohazard Bundle path) and Pressure Overdrive left untouched."
  ],
  "lastVerified": "2026-09-25T21:31:06+00:00",
- "nextTask": "8 — Limited Run Games crawl candidates, then residual triage"
+ "nextTask": "Monday: review draft PR; decide on trim-and-rehost lever; curator calls on curatorReview list. Automated sources (PriceCharting offline index all regions + vetted aliases, TheGamesDB, vgdb.uk, VideoGamesPlus, Limited Run, fresh LaunchBox) are exhausted for the remaining queue.",
+ "remainingSummary": {
+  "total": 231,
+  "review": 207,
+  "watch": 16,
+  "fallback": 8,
+  "reviewByReason": {
+   "key_art_only": 189,
+   "missing_ps4_banner": 18
+  },
+  "watchByReason": {
+   "image_fetch_failed": 16
+  },
+  "reviewBySource": {
+   "LEGACY_IGDB": 189,
+   "GAMEYE": 9,
+   "CURATED_ID": 2,
+   "CURATED_TITLE": 23
+  }
+ },
+ "curatorReview": [
+  "The Last Door: Complete Edition — only PAL physical found is titled Legacy Edition (Tesura); needs naming confirmation.",
+  "DUSK — PriceCharting US image sits on the [Leathernecks Cover] variant product.",
+  "Shenmue II — only physical path is Shenmue I & II; not mapped (no modeled compilation relationship; Shenmue I mapping follows the pre-existing curated choice).",
+  "Journey Down chapters 1-3 — only physical is The Journey Down Trilogy (Strictly Limited); no census compilation relationship, not mapped."
+ ]
 }

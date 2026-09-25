@@ -1,12 +1,16 @@
 # Art Department weekend — resume card
 
-- Branch: `art-department-weekend-final` (worktree: `C:\Users\josh\Documents\tjs-art-weekend`; main checkout stays on its own branch, untouched)
+- Branch: `art-department-weekend-final` (worktree: `C:\Users\josh\Documents\tjs-art-weekend`; the main checkout's own branch is untouched)
 - Base: main `f513842` (baseline GOOD 2049 / REVIEW 330 / WATCH 20 / FALLBACK 8)
-- Latest verified commit: see `git log -1`; QA in `audit-out/cover-runtime-qa.json`
-- Last completed batch: 7 (recover PriceCharting alias fronts; QA 2176/207/16/8)
-- Next batch: 8 — Limited Run Games crawl candidates, then residual triage
-- Blocker: GameFAQs box images 403 to automated fetches (all 20 WATCH) — need alternate hosts
-- Lesson: blue-sky key art passes the banner heuristic; every candidate must be visually inspected before mapping
+- Latest verified QA: GOOD 2176 / REVIEW 207 / WATCH 16 / FALLBACK 8 (0 baseline GOOD regressions)
+- Last completed batch: 7 (PriceCharting vetted aliases). Batches 1-7 all committed and pushed.
+- Next: Monday review. Automated sources are exhausted for the remaining queue (see `blockers` / `curatorReview` in `weekend-cover-remediation.json`).
+- Working tree: clean after final commit; pushed to origin.
+
+## Gotchas
+- The blue-banner heuristic passes blue-sky key art. Inspect every candidate visually before mapping it.
+- Pushing a change to `cover-title-overrides.js` triggers the CI visual audit, which commits its own runtime QA to this branch. Before the next push, merge it (don't rebase) and keep the local verified `cover-runtime-qa.json`.
+- GameFAQs images 403 to the audit. LaunchBox layer entries are auto-GOOD, so vet them by eye.
 
 ## First commands after restart
 ```
@@ -14,9 +18,9 @@ cd C:/Users/josh/Documents/tjs-art-weekend
 git status && git branch --show-current && git log --oneline -10
 node tools/cover-source-audit.mjs && COVER_AUDIT_WORKERS=24 python tools/cover-visual-audit.py
 ```
-Then compare GOOD sets (previous commit's `audit-out/cover-visual-audit.json` vs new) — previous GOOD ids must be a subset of new GOOD ids.
+Compare GOOD id sets (previous commit's `audit-out/cover-visual-audit.json` vs new). Previous GOOD must be a subset of new. Re-run once if a single unrelated row flips to WATCH on a network error.
 
 ## Files
-- Mappings: `cover-pricecharting-retail.js` (PriceCharting fronts), `cover-launchbox-retail.js` (LaunchBox Box - Front, auto-GOOD in audit), `cover-title-overrides.js` (other curated hosts; editing it triggers the cover-visual-audit workflow on push)
-- Checkpoint: `audit-out/weekend-cover-remediation.json`
+- Mappings: `cover-launchbox-retail.js`, `cover-pricecharting-retail.js`, `cover-title-overrides.js`
+- Checkpoint: `audit-out/weekend-cover-remediation.json` (per-batch accepted/rejected with evidence)
 - Private inputs (never commit): `~/Downloads/pricecharting_ps4_offline_index_2026-09-25.json`, `pricecharting_ps4_snapshot_2026-09-25.csv`
