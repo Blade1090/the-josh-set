@@ -6,10 +6,6 @@ on:
   push:
     paths:
       - 'tools/launchbox-cover-recovery.py'
-      - 'tools/cover-source-audit.mjs'
-      - 'tools/cover-visual-audit.py'
-      - 'maint-menu-v001.js'
-      - '.github/workflows/launchbox-cover-recovery.yml'
 
 permissions:
   contents: write
