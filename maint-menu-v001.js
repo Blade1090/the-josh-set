@@ -28,6 +28,15 @@
       s.dataset.shelfcheckPriceMaintenance='1';
       document.body.appendChild(s);
     }
+
+    // Art Department safety gate. Load after the parser has finished so the complete cover
+    // pipeline exists, then keep REVIEW art from being shown as if it were approved shelf art.
+    if(!document.querySelector('script[data-shelfcheck-cover-quality]')){
+      const s=document.createElement('script');
+      s.src='cover-quality-v001.js?v=2';
+      s.dataset.shelfcheckCoverQuality='1';
+      document.body.appendChild(s);
+    }
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',install);else install();
 })();
