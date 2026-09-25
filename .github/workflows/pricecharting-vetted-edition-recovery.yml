@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - 'tools/pricecharting-vetted-edition-recovery.py'
+      - 'audit-out/.vetted-edition-recovery-trigger'
 
 permissions:
   contents: write
