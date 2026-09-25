@@ -23,7 +23,7 @@ manual_fixed={norm_title(x['title']):x for x in manual.get('fixed',[])}
 manual_elig={norm_title(x['title']):x for x in manual.get('eligibility',[])}
 
 def fetch(url):
-    req=urllib.request.Request(url,headers={'User-Agent':'ShelfCheck-ArtAudit/1.8'})
+    req=urllib.request.Request(url,headers={'User-Agent':'ShelfCheck-ArtAudit/1.9'})
     with urllib.request.urlopen(req,timeout=12) as r:
         raw=r.read(8_000_000)
     return Image.open(io.BytesIO(raw)).convert('RGB')
@@ -91,11 +91,11 @@ def audit_row(r):
     elif source=='LEGACY_IGDB':
         quality='REVIEW'; reason='key_art_only'; physical='VERIFY'
     elif source=='LAUNCHBOX_BOX_FRONT':
-        # The recovery layer is constrained upstream to Sony PlayStation 4 records whose
-        # LaunchBox media type is exactly "Box - Front". That semantic classification is
-        # stronger evidence of a physical shelf front than our blue-banner pixel heuristic,
-        # and LaunchBox's host may reject automated image fetches even when browsers load it.
         quality='GOOD'; reason='launchbox_box_front'; physical='CONFIRMED'
+    elif source=='LAUNCHBOX_RECONSTRUCTED':
+        # LaunchBox labels this media explicitly as a reconstructed retail box front.
+        # Keep it visible, but mark it FALLBACK so a true scan can replace it later.
+        quality='FALLBACK'; reason='launchbox_reconstructed_front'; physical='LIKELY'
     else:
         quality,reason,physical,span,ratio,err=audit_image(url,source)
 
@@ -129,12 +129,13 @@ with ThreadPoolExecutor(max_workers=workers) as pool:
 review=[r for r in rows if r['qualityState']=='REVIEW']
 fallback=[r for r in rows if r['qualityState']=='FALLBACK']
 watch=[r for r in rows if r['qualityState']=='WATCH']
-priority={'physical_release_unverified':0,'missing_cover':1,'wrong_platform':2,'wrong_region_or_edition':2,'digital_store_art':3,'key_art_only':4,'photo_of_case':5,'angled_product_shot':5,'blurry_or_low_res':6,'cropped_or_incomplete':6,'mockup_or_promo':6,'missing_ps4_banner':7,'image_fetch_failed':8,'manual_review':9}
+priority={'physical_release_unverified':0,'missing_cover':1,'wrong_platform':2,'wrong_region_or_edition':2,'digital_store_art':3,'key_art_only':4,'photo_of_case':5,'angled_product_shot':5,'blurry_or_low_res':6,'cropped_or_incomplete':6,'mockup_or_promo':6,'missing_ps4_banner':7,'launchbox_reconstructed_front':8,'image_fetch_failed':9,'manual_review':10}
 review.sort(key=lambda r:(0 if r.get('manualStatus')=='CONFIRMED_BAD' else 1 if r.get('manualStatus')=='ELIGIBILITY' else 2, priority.get(r['reasonCode'],10), r.get('bannerColumnSpan') or 0, r['title'].lower()))
 fallback.sort(key=lambda r:(priority.get(r['reasonCode'],10),r['title'].lower()))
 watch.sort(key=lambda r:(priority.get(r['reasonCode'],10),r.get('bannerColumnSpan') or 0,r['title'].lower()))
-summary={'generatedAt':data['generatedAt'],'included':len(rows),'good':sum(r['qualityState']=='GOOD' for r in rows),'fallback':len(fallback),'review':len(review),'watch':len(watch),'physicalVerify':sum(r['physicalSanity']=='VERIFY' for r in rows),'physicalLikely':sum(r['physicalSanity']=='LIKELY' for r in rows),'physicalConfirmed':sum(r['physicalSanity']=='CONFIRMED' for r in rows),'manualConfirmedBad':sum(r.get('manualStatus')=='CONFIRMED_BAD' for r in rows),'manualFallback':sum(r.get('manualStatus')=='FALLBACK' for r in rows),'manualEligibility':sum(r.get('manualStatus')=='ELIGIBILITY' for r in rows),'manualFixedTracked':sum(r.get('manualStatus')=='FIXED' for r in rows),'reviewByReason':{},'watchByReason':{}}
+summary={'generatedAt':data['generatedAt'],'included':len(rows),'good':sum(r['qualityState']=='GOOD' for r in rows),'fallback':len(fallback),'review':len(review),'watch':len(watch),'physicalVerify':sum(r['physicalSanity']=='VERIFY' for r in rows),'physicalLikely':sum(r['physicalSanity']=='LIKELY' for r in rows),'physicalConfirmed':sum(r['physicalSanity']=='CONFIRMED' for r in rows),'manualConfirmedBad':sum(r.get('manualStatus')=='CONFIRMED_BAD' for r in rows),'manualFallback':sum(r.get('manualStatus')=='FALLBACK' for r in rows),'manualEligibility':sum(r.get('manualStatus')=='ELIGIBILITY' for r in rows),'manualFixedTracked':sum(r.get('manualStatus')=='FIXED' for r in rows),'reviewByReason':{},'fallbackByReason':{},'watchByReason':{}}
 for r in review: summary['reviewByReason'][r['reasonCode']]=summary['reviewByReason'].get(r['reasonCode'],0)+1
+for r in fallback: summary['fallbackByReason'][r['reasonCode']]=summary['fallbackByReason'].get(r['reasonCode'],0)+1
 for r in watch: summary['watchByReason'][r['reasonCode']]=summary['watchByReason'].get(r['reasonCode'],0)+1
 os.makedirs('audit-out',exist_ok=True)
 with open(OUT,'w',encoding='utf-8') as f: json.dump({'standard':'docs/COVER_ART_STANDARD.md','summary':summary,'review':review,'fallback':fallback,'watch':watch,'rows':rows},f,indent=2)
