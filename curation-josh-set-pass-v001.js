@@ -64,3 +64,24 @@
     console.info(`ShelfCheck Josh Set curation pass #1 applied: ${excluded.length} identities excluded`,excluded);
   });
 })();
+
+// Physical-census correction discovered during the Art Department cover audit.
+// These identities have PS4 digital releases, but no qualifying physical PS4 release.
+(()=>{
+  registerCensusMutation('exclude',()=>{
+    const targets=[
+      {id:2566,title:'Dead Craft',reason:'NO_QUALIFYING_PHYSICAL_PS4 — DEADCRAFT PS4 release records are PlayStation Store only; no qualifying physical PS4 disc release verified during Art Department audit.'},
+      {id:2686,title:'Paper Dolls',reason:'NO_QUALIFYING_PHYSICAL_PS4 — Paper Dolls / Paper Dolls Original PS4 release records are PlayStation Store only; no qualifying physical PS4 disc release verified during Art Department audit.'}
+    ];
+    const excluded=[];
+    for(const t of targets){
+      const x=items.find(v=>v.id===t.id)||items.find(v=>norm(v.title)===norm(t.title));
+      if(!x){console.warn(`ShelfCheck physical-census correction: identity not found, skipped: ${t.title} (id ${t.id})`);continue;}
+      x.set='EXCLUDED';
+      x.cleanupReason=t.reason;
+      excluded.push(x.title);
+    }
+    window.SHELFCHECK_CURATION_ART_AUDIT_PHYSICAL_V001={excluded};
+    console.info(`ShelfCheck Art Department physical-census correction applied: ${excluded.length} identities excluded`,excluded);
+  });
+})();
