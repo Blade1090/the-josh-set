@@ -1,0 +1,2647 @@
+{
+  "batch": 5,
+  "attempted": 40,
+  "rows": [
+    {
+      "id": 872,
+      "title": "One Step From Eden",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "One Step From Eden",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 872,
+            "title": "One Step From Eden",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473674,
+            "launchboxName": "One Step From Eden"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 872,
+            "title": "One Step From Eden",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "One Step From Eden",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/one-step-from-eden?q=one+step+from+eden+playstation+4",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/40fed4cffb887fccde1687937ce1b15b708cd6acdfb5c121dde8fe98a595af54/1600.jpg",
+            "metrics": {
+              "width": 720,
+              "height": 800,
+              "aspect": 0.9,
+              "bannerColumnSpan": 0.5722,
+              "bannerPixelRatio": 0.2543
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "One Step From Eden",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2674,
+      "title": "OneShot: World Machine Edition",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "OneShot: World Machine Edition",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2674,
+            "title": "OneShot: World Machine Edition",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2674,
+            "title": "OneShot: World Machine Edition",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "OneShot: World Machine Edition",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/oneshot-world-machine-edition",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/bc07aba6c7420d6121351752d65bb608a637583ac422384910d60503b5b8eb84/1600.jpg",
+            "metrics": {
+              "width": 1306,
+              "height": 1450,
+              "aspect": 0.9007,
+              "bannerColumnSpan": 0.6056,
+              "bannerPixelRatio": 0.2928
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "OneShot: World Machine Edition",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 1857,
+      "title": "ONI: Road to be the Mightiest Oni",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "ONI: Road to be the Mightiest Oni",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1857,
+            "title": "ONI: Road to be the Mightiest Oni",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 1857,
+            "title": "ONI: Road to be the Mightiest Oni",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "ONI: Road to be the Mightiest Oni",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/oni-road-to-be-the-mightiest-oni",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/b9b3a4432b79d35605679f0bb8afc6cdd9ee696d3e4c5121eb0d256ac44d89be/1600.jpg",
+            "metrics": {
+              "width": 505,
+              "height": 600,
+              "aspect": 0.8417,
+              "bannerColumnSpan": 0.85,
+              "bannerPixelRatio": 0.5044
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "ONI: Road to be the Mightiest Oni",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2450,
+      "title": "Open Country",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "Open Country",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2450,
+            "title": "Open Country",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "errors",
+          "evidence": {
+            "id": 2450,
+            "title": "Open Country",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "error": "HTTP Error 429: Too Many Requests"
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Open Country",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 878,
+      "title": "Organ Trail: Complete Edition",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification",
+        "reviewed_alternate_spelling"
+      ],
+      "queries": [
+        {
+          "title": "Organ Trail: Complete Edition",
+          "method": "canonical_exact"
+        },
+        {
+          "title": "Organ Trail",
+          "method": "reviewed_identity_alias_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 878,
+            "title": "Organ Trail: Complete Edition",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473836,
+            "launchboxName": "Organ Trail Complete Edition"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-alias-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 878,
+            "title": "Organ Trail: Complete Edition",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "aliases": [
+              "Organ Trail"
+            ],
+            "attempts": [
+              {
+                "alias": "Organ Trail",
+                "matchedTitle": "Organ Trail",
+                "region": "US/NTSC",
+                "productUrl": "https://www.pricecharting.com/game/playstation-4/organ-trail?q=organ+trail+playstation+4",
+                "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv9523psOI6pAX9ASwSiRj-_q4QDfY5qmgAbI49CMi_ET5xNrFYSDMw-Ht7BYsGeiNZu7PM9qhtfgjW41tjZPFbe7NRvZyraFA31kLTQ5WrPkFBZYlbNVduuG37KAkKYE6f3LSYdXY-N5PlaaBfqyWUxnz14IIg/1600.jpg",
+                "reason": "failed_retail_front_gate",
+                "metrics": {
+                  "width": 324,
+                  "height": 360,
+                  "aspect": 0.9,
+                  "bannerColumnSpan": 0.5556,
+                  "bannerPixelRatio": 0.2212
+                }
+              }
+            ]
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 878,
+            "title": "Organ Trail: Complete Edition",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateCount": 62,
+            "candidateTitles": [
+              "Witcher 3: Wild Hunt [Complete Edition]",
+              "Horizon Zero Dawn [Complete Edition]",
+              "Horizon Zero Dawn [Complete Edition Playstation Hits]",
+              "Final Fantasy XIV Complete Edition",
+              "The Legend Of Heroes: Trails To Azure [Deluxe Edition]",
+              "Scott Pilgrim vs. the World: The Game Complete Edition",
+              "Dynasty Warriors 8: Xtreme Legends Complete Edition",
+              "Scott Pilgrim vs. the World: The Game Complete Edition [Best Buy Cover]"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Organ Trail: Complete Edition",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "query": {
+            "title": "Organ Trail",
+            "method": "reviewed_identity_alias_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2028,
+      "title": "Overrogue",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "Overrogue",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2028,
+            "title": "Overrogue",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "errors",
+          "evidence": {
+            "id": 2028,
+            "title": "Overrogue",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "error": "HTTP Error 429: Too Many Requests"
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Overrogue",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2332,
+      "title": "Oxide Room 104",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Oxide Room 104",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2332,
+            "title": "Oxide Room 104",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 476496,
+            "launchboxName": "Oxide Room 104"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2332,
+            "title": "Oxide Room 104",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Oxide Room 104",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/oxide-room-104",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/1bd90b01b9eb56aef090b598d9f87fbaaa194a3a8d965f3d858e2dd4087337e6/1600.jpg",
+            "metrics": {
+              "width": 1536,
+              "height": 1536,
+              "aspect": 1.0,
+              "bannerColumnSpan": 0.7694,
+              "bannerPixelRatio": 0.4709
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Oxide Room 104",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 1817,
+      "title": "Panzer Dragoon: Remake",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification",
+        "reviewed_alternate_spelling"
+      ],
+      "queries": [
+        {
+          "title": "Panzer Dragoon: Remake",
+          "method": "canonical_exact"
+        },
+        {
+          "title": "Panzer Dragoon",
+          "method": "reviewed_identity_alias_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 1817,
+            "title": "Panzer Dragoon: Remake",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473680,
+            "launchboxName": "Panzer Dragoon: Remake"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-alias-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 1817,
+            "title": "Panzer Dragoon: Remake",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "aliases": [
+              "Panzer Dragoon"
+            ],
+            "attempts": [
+              {
+                "alias": "Panzer Dragoon",
+                "matchedTitle": "Panzer Dragoon",
+                "region": "US/NTSC",
+                "productUrl": "https://www.pricecharting.com/game/playstation-4/panzer-dragoon",
+                "image": "https://storage.googleapis.com/images.pricecharting.com/52cffa37650278218662aaea807762d7b3a69eed616bb13500de7ae3011dcb1a/1600.jpg",
+                "reason": "failed_retail_front_gate",
+                "metrics": {
+                  "width": 1383,
+                  "height": 1536,
+                  "aspect": 0.9004,
+                  "bannerColumnSpan": 0.5583,
+                  "bannerPixelRatio": 0.2201
+                }
+              }
+            ]
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 1817,
+            "title": "Panzer Dragoon: Remake",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateCount": 37,
+            "candidateTitles": [
+              "Final Fantasy VII Remake [Deluxe Edition]",
+              "Final Fantasy VII Remake",
+              "Resident Evil 4 Remake",
+              "Panzer Dragoon [Classic Edition]",
+              "Girls und Panzer: Dream Tank Match",
+              "Final Fantasy VII Remake [1st Class Edition]",
+              "Final Fantasy VII Remake",
+              "Final Fantasy VII Remake [Deluxe Edition]"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Panzer Dragoon: Remake",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "source": "PriceCharting",
+          "matchedTitle": "Panzer Dragoon",
+          "region": "US/NTSC",
+          "regionRank": 0,
+          "productUrl": "https://www.pricecharting.com/game/playstation-4/panzer-dragoon",
+          "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/52cffa37650278218662aaea807762d7b3a69eed616bb13500de7ae3011dcb1a/1600.jpg",
+          "matchingMethod": "reviewed_identity_alias_exact",
+          "query": {
+            "title": "Panzer Dragoon",
+            "method": "reviewed_identity_alias_exact"
+          },
+          "reason": "failed_existing_retail_front_gate",
+          "metrics": {
+            "width": 1383,
+            "height": 1536,
+            "aspect": 0.9004,
+            "bannerColumnSpan": 0.5583,
+            "bannerPixelRatio": 0.2201
+          }
+        }
+      ]
+    },
+    {
+      "id": 2690,
+      "title": "Pathfinder: Wrath of the Righteous",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Pathfinder: Wrath of the Righteous",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2690,
+            "title": "Pathfinder: Wrath of the Righteous",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473778,
+            "launchboxName": "Pathfinder: Wrath of the Righteous"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2690,
+            "title": "Pathfinder: Wrath of the Righteous",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Pathfinder: Wrath of the Righteous",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/pathfinder-wrath-of-the-righteous",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/fc912c61a7a8305bbf1a7e26a9c5a3a885064de3e1f44d2f682f5212d4e73a26/1600.jpg",
+            "metrics": {
+              "width": 1263,
+              "height": 1500,
+              "aspect": 0.842,
+              "bannerColumnSpan": 0.8528,
+              "bannerPixelRatio": 0.4727
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "source": "PriceCharting",
+          "matchedTitle": "Pathfinder: Wrath of the Righteous",
+          "region": "US/NTSC",
+          "regionRank": 0,
+          "productUrl": "https://www.pricecharting.com/game/playstation-4/pathfinder-wrath-of-the-righteous",
+          "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/fc912c61a7a8305bbf1a7e26a9c5a3a885064de3e1f44d2f682f5212d4e73a26/1600.jpg",
+          "matchingMethod": "canonical_exact",
+          "query": {
+            "title": "Pathfinder: Wrath of the Righteous",
+            "method": "canonical_exact"
+          },
+          "reason": "failed_existing_retail_front_gate",
+          "metrics": {
+            "width": 1263,
+            "height": 1500,
+            "aspect": 0.842,
+            "bannerColumnSpan": 0.8528,
+            "bannerPixelRatio": 0.4727
+          }
+        }
+      ]
+    },
+    {
+      "id": 2692,
+      "title": "Paw Patrol World",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Paw Patrol World",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2692,
+            "title": "Paw Patrol World",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473804,
+            "launchboxName": "PAW Patrol World"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2692,
+            "title": "Paw Patrol World",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Paw Patrol World",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/paw-patrol-world",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/8ea4ee0ddf9e8ba3084db2e518480100e49c72d43593aa2d8b28c3b8aecbb8fb/1600.jpg",
+            "metrics": {
+              "width": 1152,
+              "height": 1152,
+              "aspect": 1.0,
+              "bannerColumnSpan": 0.7694,
+              "bannerPixelRatio": 0.5366
+            }
+          }
+        }
+      ],
+      "status": "requires_visual_review",
+      "batch": 5,
+      "candidates": [
+        {
+          "source": "PriceCharting",
+          "matchedTitle": "Paw Patrol World",
+          "region": "PAL",
+          "regionRank": 1,
+          "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/paw-patrol-world",
+          "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/46c768c4a58d1857e318b8cb6880c89b0835d4eee48c8198b4443a66cf0fb64b/1600.jpg",
+          "matchingMethod": "canonical_exact",
+          "query": {
+            "title": "Paw Patrol World",
+            "method": "canonical_exact"
+          },
+          "metrics": {
+            "width": 1174,
+            "height": 1500,
+            "aspect": 0.7827,
+            "bannerColumnSpan": 0.9944,
+            "bannerPixelRatio": 0.7001
+          },
+          "status": "requires_visual_review"
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "source": "PriceCharting",
+          "matchedTitle": "Paw Patrol World",
+          "region": "US/NTSC",
+          "regionRank": 0,
+          "productUrl": "https://www.pricecharting.com/game/playstation-4/paw-patrol-world",
+          "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/8ea4ee0ddf9e8ba3084db2e518480100e49c72d43593aa2d8b28c3b8aecbb8fb/1600.jpg",
+          "matchingMethod": "canonical_exact",
+          "query": {
+            "title": "Paw Patrol World",
+            "method": "canonical_exact"
+          },
+          "reason": "failed_existing_retail_front_gate",
+          "metrics": {
+            "width": 1152,
+            "height": 1152,
+            "aspect": 1.0,
+            "bannerColumnSpan": 0.7694,
+            "bannerPixelRatio": 0.5366
+          }
+        }
+      ]
+    },
+    {
+      "id": 2430,
+      "title": "Peaky Blinders Mastermind",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Peaky Blinders Mastermind",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2430,
+            "title": "Peaky Blinders Mastermind",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473672,
+            "launchboxName": "Peaky Blinders: Mastermind"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2430,
+            "title": "Peaky Blinders Mastermind",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Peaky Blinders Mastermind",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/peaky-blinders-mastermind",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/9520247442d42bd45a30d79fa6eb62bf03f185c184f6d8899f2ca975cb8f5e17/1600.jpg",
+            "metrics": {
+              "width": 848,
+              "height": 1031,
+              "aspect": 0.8225,
+              "bannerColumnSpan": 0.9194,
+              "bannerPixelRatio": 0.5522
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Peaky Blinders Mastermind",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 909,
+      "title": "Pineview Drive",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Pineview Drive",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 909,
+            "title": "Pineview Drive",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473850,
+            "launchboxName": "Pineview Drive"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 909,
+            "title": "Pineview Drive",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Pineview Drive",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/pineview-drive",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/a51c51def5ba3100bad7610ec17c47b9259fbfe110ab25fd64b234807776df3d/1600.jpg",
+            "metrics": {
+              "width": 348,
+              "height": 400,
+              "aspect": 0.87,
+              "bannerColumnSpan": 0.3879,
+              "bannerPixelRatio": 0.1402
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Pineview Drive",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 911,
+      "title": "PixARK",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "PixARK",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 911,
+            "title": "PixARK",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473664,
+            "launchboxName": "PixARK"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 911,
+            "title": "PixARK",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "PixArk",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/pixark",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94xgSI7Y-A7C1yFoZIWb-SKln3qlXPI6__yKGF1xzWvJNLGEmnZtSsvTQ5jqn8Reny-VS_-qU5QazRJrWxk3rOnuYcc7nA0ZCMZD-FwfhPO3ppRZSqdvr16KuAPCN6cUnldqmL-U03hGUl6OHnVd85ttnAczg/1600.jpg",
+            "metrics": {
+              "width": 190,
+              "height": 221,
+              "aspect": 0.8597,
+              "bannerColumnSpan": 1.0,
+              "bannerPixelRatio": 0.8779
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "PixARK",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2681,
+      "title": "PJ Masks Power Heroes: Mighty Alliance",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "PJ Masks Power Heroes: Mighty Alliance",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2681,
+            "title": "PJ Masks Power Heroes: Mighty Alliance",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 476620,
+            "launchboxName": "PJ Masks Power Heroes: Mighty Alliance"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2681,
+            "title": "PJ Masks Power Heroes: Mighty Alliance",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "PJ Masks Power Heroes: Mighty Alliance",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/pj-masks-power-heroes-mighty-alliance",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/vjmnlsldjzuau2vw/1600.jpg",
+            "metrics": {
+              "width": 1279,
+              "height": 1500,
+              "aspect": 0.8527,
+              "bannerColumnSpan": 0.9028,
+              "bannerPixelRatio": 0.4217
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "PJ Masks Power Heroes: Mighty Alliance",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 914,
+      "title": "Plague Road",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Plague Road",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 914,
+            "title": "Plague Road",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473667,
+            "launchboxName": "Plague Road"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 914,
+            "title": "Plague Road",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Plague Road",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/plague-road",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96CTkEGcSLYYrdJQnmNYRMJP1E_AIBYhHb_vIqcY5ifIQj6MdUDVhWPK1jvywPpEyReor4YrGp4fHiOzARJZNPBMm6xmRZ4eYDvBIqgwJ0N9CqkUIdLrUOl4LHA078QwfSX9um2fVpv6_uzfV_fSEeJyEweyw/1600.jpg",
+            "metrics": {
+              "width": 324,
+              "height": 360,
+              "aspect": 0.9,
+              "bannerColumnSpan": 0.5556,
+              "bannerPixelRatio": 0.2129
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Plague Road",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 917,
+      "title": "Plants vs Zombies: Garden Warfare 2",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Plants vs Zombies: Garden Warfare 2",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 917,
+            "title": "Plants vs Zombies: Garden Warfare 2",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 917,
+            "title": "Plants vs Zombies: Garden Warfare 2",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Plants vs. Zombies: Garden Warfare 2",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/plants-vs-zombies-garden-warfare-2",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96BhDjEXEwHv-0XTiKmuHZBTRHlM9sxFqfkoMS8AZoJ7antZBdrzx14K8SXYvPWawZZJO5iyCZg0JFXsvvfL3lgCB0AiFLWaRgCyiniBICts7T1d6qNEax8qGpfJgF9mLNJrKv7LQ0ERpmeY5e_gtjceApL4A/1600.jpg",
+            "metrics": {
+              "width": 201,
+              "height": 250,
+              "aspect": 0.804,
+              "bannerColumnSpan": 1.0,
+              "bannerPixelRatio": 0.5253
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Plants vs Zombies: Garden Warfare 2",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 922,
+      "title": "Pool Nation",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Pool Nation",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 922,
+            "title": "Pool Nation",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473859,
+            "launchboxName": "Pool Nation"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 922,
+            "title": "Pool Nation",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Pool Nation",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/pool-nation",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/ff1af92d1760589847b803bcc28d5ab9a0f227cdfa14963b1c2de50d96f33442/1600.jpg",
+            "metrics": {
+              "width": 768,
+              "height": 768,
+              "aspect": 1.0,
+              "bannerColumnSpan": 0.7028,
+              "bannerPixelRatio": 0.4096
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Pool Nation",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 925,
+      "title": "Port Royale 4",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Port Royale 4",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 925,
+            "title": "Port Royale 4",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473760,
+            "launchboxName": "Port Royale 4"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 925,
+            "title": "Port Royale 4",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Port Royale 4",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/port-royale-4",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/681296af1916264087e83726eece0f96efa3bf4aa56fff3f609d25ce83255d39/1600.jpg",
+            "metrics": {
+              "width": 1340,
+              "height": 1500,
+              "aspect": 0.8933,
+              "bannerColumnSpan": 0.7556,
+              "bannerPixelRatio": 0.4186
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Port Royale 4",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2009,
+      "title": "Postal REDUX",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Postal REDUX",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2009,
+            "title": "Postal REDUX",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473861,
+            "launchboxName": "Postal REDUX"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2009,
+            "title": "Postal REDUX",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Postal Redux",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/postal-redux",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/32e2723596f709a48c06e2f3dee0815603709d4c59617a9fddfd16f9ab5d2114/1600.jpg",
+            "metrics": {
+              "width": 213,
+              "height": 237,
+              "aspect": 0.8987,
+              "bannerColumnSpan": 0.6244,
+              "bannerPixelRatio": 0.1863
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Postal REDUX",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 1695,
+      "title": "Pressure Overdrive",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Pressure Overdrive",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1695,
+            "title": "Pressure Overdrive",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 1695,
+            "title": "Pressure Overdrive",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Pressure Overdrive",
+            "region": "PAL",
+            "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/pressure-overdrive",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/e00d768eaddd0650ba93da194c166d13e7c914e2821aa2386ba7d87eb93381ca/1600.jpg",
+            "metrics": {
+              "width": 1016,
+              "height": 785,
+              "aspect": 1.2943,
+              "bannerColumnSpan": 0.5639,
+              "bannerPixelRatio": 0.3305
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Pressure Overdrive",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2337,
+      "title": "Prodeus",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Prodeus",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2337,
+            "title": "Prodeus",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473670,
+            "launchboxName": "Prodeus"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2337,
+            "title": "Prodeus",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Prodeus",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/prodeus",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/01f709206a4edc1124b72d2cf8c16be65c83c8e2af4df45b870d4c04f3892b51/1600.jpg",
+            "metrics": {
+              "width": 1298,
+              "height": 1500,
+              "aspect": 0.8653,
+              "bannerColumnSpan": 0.8,
+              "bannerPixelRatio": 0.4465
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Prodeus",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 1908,
+      "title": "Project Starship",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Project Starship",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1908,
+            "title": "Project Starship",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 1908,
+            "title": "Project Starship",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Project Starship",
+            "region": "PAL",
+            "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/project-starship",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/19a5af91fbb5ed2f2c9b9a3773caeaedcd23c99231a108b986eb7e42f2a01ffd/1600.jpg",
+            "metrics": {
+              "width": 200,
+              "height": 252,
+              "aspect": 0.7937,
+              "bannerColumnSpan": 1.0,
+              "bannerPixelRatio": 0.6525
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Project Starship",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 1952,
+      "title": "Project Starship X",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "Project Starship X",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1952,
+            "title": "Project Starship X",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "errors",
+          "evidence": {
+            "id": 1952,
+            "title": "Project Starship X",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "error": "HTTP Error 429: Too Many Requests"
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Project Starship X",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2451,
+      "title": "Protodroid Delta",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Protodroid Delta",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2451,
+            "title": "Protodroid Delta",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2451,
+            "title": "Protodroid Delta",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Protodroid Delta",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/protodroid-delta?q=protodroid+delta+playstation+4",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/j3a2muytnzuebhni/1600.jpg",
+            "metrics": {
+              "width": 973,
+              "height": 1080,
+              "aspect": 0.9009,
+              "bannerColumnSpan": 0.6056,
+              "bannerPixelRatio": 0.29
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Protodroid Delta",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 1697,
+      "title": "Prototype",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "no_safe_match_in_previous_sources"
+      ],
+      "queries": [
+        {
+          "title": "Prototype",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 1697,
+            "title": "Prototype",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 476646,
+            "launchboxName": "Prototype"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 1697,
+            "title": "Prototype",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateCount": 3,
+            "candidateTitles": [
+              "Prototype Biohazard Bundle",
+              "Soldner X2 Final Prototype Definitive Edition",
+              "Soldner-X 2: Final Prototype [Definitive Edition]"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Prototype",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 939,
+      "title": "Psyvariar Delta",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Psyvariar Delta",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 939,
+            "title": "Psyvariar Delta",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473718,
+            "launchboxName": "Psyvariar Delta"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 939,
+            "title": "Psyvariar Delta",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Psyvariar Delta",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/psyvariar-delta",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95rCktJOWiB6NjR9qkcp92i-tdvcWwEnNesBKe06DE423aTEiNllfC_rBlaXA86ruvu-x1HReCQbrcU_lHpignEJrnzYi9XWu_gw2ZayytIZUZ5PgFKFgeVuwLBxPIBTLToPVb8W4iGVxamHx4YVW8I06WVPQ/1600.jpg",
+            "metrics": {
+              "width": 190,
+              "height": 259,
+              "aspect": 0.7336,
+              "bannerColumnSpan": 0.9368,
+              "bannerPixelRatio": 0.5056
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Psyvariar Delta",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2701,
+      "title": "Rabbids: Party of Legends",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Rabbids: Party of Legends",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2701,
+            "title": "Rabbids: Party of Legends",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 476648,
+            "launchboxName": "Rabbids Party of Legends"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2701,
+            "title": "Rabbids: Party of Legends",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Rabbids Party of Legends",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/rabbids-party-of-legends",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/78e47a704754377d8ffa26bb2a1fd1131dacd560a017e0b3fe8f54fc936e8611/1600.jpg",
+            "metrics": {
+              "width": 1152,
+              "height": 1152,
+              "aspect": 1.0,
+              "bannerColumnSpan": 0.8,
+              "bannerPixelRatio": 0.4601
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Rabbids: Party of Legends",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2707,
+      "title": "Raidou Remastered: Mystery Of The Soulless Army",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "likely_edition_name_mismatch"
+      ],
+      "queries": [
+        {
+          "title": "Raidou Remastered: Mystery Of The Soulless Army",
+          "method": "canonical_exact"
+        },
+        {
+          "title": "Raidou Remastered: The Mystery Of The Soulless Army",
+          "method": "vetted_edition_alias_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2707,
+            "title": "Raidou Remastered: Mystery Of The Soulless Army",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 2707,
+            "title": "Raidou Remastered: Mystery Of The Soulless Army",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateCount": 2,
+            "candidateTitles": [
+              "Raidou Remastered: The Mystery Of The Soulless Army",
+              "Raidou Remastered: The Mystery Of The Soulless Army [Collector's Edition]"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Raidou Remastered: Mystery Of The Soulless Army",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "query": {
+            "title": "Raidou Remastered: The Mystery Of The Soulless Army",
+            "method": "vetted_edition_alias_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 959,
+      "title": "Rainbow Moon",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Rainbow Moon",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 959,
+            "title": "Rainbow Moon",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 461940,
+            "launchboxName": "Rainbow Moon"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 959,
+            "title": "Rainbow Moon",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Rainbow Moon",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/rainbow-moon",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/24ca52742e7a26a654d1328577d1ae01c5df7e14ee74c7e13da3e1f205db9d55/1600.jpg",
+            "metrics": {
+              "width": 1383,
+              "height": 1536,
+              "aspect": 0.9004,
+              "bannerColumnSpan": 0.6028,
+              "bannerPixelRatio": 0.2019
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Rainbow Moon",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2338,
+      "title": "Ravenswatch",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "Ravenswatch",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2338,
+            "title": "Ravenswatch",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 476628,
+            "launchboxName": "Ravenswatch"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "errors",
+          "evidence": {
+            "id": 2338,
+            "title": "Ravenswatch",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "error": "HTTP Error 429: Too Many Requests"
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Ravenswatch",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 970,
+      "title": "Regions Of Ruin",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Regions Of Ruin",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 970,
+            "title": "Regions Of Ruin",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 476632,
+            "launchboxName": "Regions of Ruin"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 970,
+            "title": "Regions Of Ruin",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Regions of Ruin",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/regions-of-ruin?q=regions+of+ruin+playstation+4",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/b8b76905c50011747d8363a319078bc1fc403355b80efe4262b78e6804464215/1600.jpg",
+            "metrics": {
+              "width": 1383,
+              "height": 1536,
+              "aspect": 0.9004,
+              "bannerColumnSpan": 0.5583,
+              "bannerPixelRatio": 0.1366
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Regions Of Ruin",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 1864,
+      "title": "Relayer",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Relayer",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1864,
+            "title": "Relayer",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 1864,
+            "title": "Relayer",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Relayer",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/relayer",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/15794f5413414301863f8696ec7c05729bd824c3b7b971fac77490b3346d8d16/1600.jpg",
+            "metrics": {
+              "width": 589,
+              "height": 700,
+              "aspect": 0.8414,
+              "bannerColumnSpan": 0.8528,
+              "bannerPixelRatio": 0.526
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Relayer",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 975,
+      "title": "Republique",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Republique",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 975,
+            "title": "Republique",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Republique",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/republique",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97Zf-o6A2fHGdn9GyWpOa-Su5n4664UWG55lf-yHy2-AOE29pCgRvaG4J4pZofOeKjAV7Vf80Pq2zezXnq9LLkP5pI0Hn6Aemrca1DBAZE1Y3zJR6Z68YtWfe1Fd0oRvubzxLUVrPZkf8l6k7vPszaqFlHhVA/1600.jpg",
+            "metrics": {
+              "width": 192,
+              "height": 239,
+              "aspect": 0.8033,
+              "bannerColumnSpan": 1.0,
+              "bannerPixelRatio": 0.5319
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Republique",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 987,
+      "title": "Return of the Obra Dinn",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Return of the Obra Dinn",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 987,
+            "title": "Return of the Obra Dinn",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473716,
+            "launchboxName": "Return of the Obra Dinn"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 987,
+            "title": "Return of the Obra Dinn",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Return Of The Obra Dinn",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/return-of-the-obra-dinn",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/43c76dd9f9396fc973e7d19ad26f992c8a63798c60a836b323f5f40dcdb5f0f0/1600.jpg",
+            "metrics": {
+              "width": 540,
+              "height": 600,
+              "aspect": 0.9,
+              "bannerColumnSpan": 0.5556,
+              "bannerPixelRatio": 0.2135
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Return of the Obra Dinn",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 988,
+      "title": "Reus",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Reus",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 988,
+            "title": "Reus",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473681,
+            "launchboxName": "Reus"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 988,
+            "title": "Reus",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Reus",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/reus",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv940FhkoEbtjE_LhwYEq_x3XfJlG4Jnk3fNA-N2g6Sc3JiBaTc2Cc5cDxmyEI3Yk6-CHg5C8uasl0T6Ld96EDsF7VrkvipD4UuE2Ww-QRw8dMCQUL9HE3kNG37Nwc3bJ4IWKlkRuJ1O2h8d3OBADvj3cYol8lw/1600.jpg",
+            "metrics": {
+              "width": 306,
+              "height": 360,
+              "aspect": 0.85,
+              "bannerColumnSpan": 0.6601,
+              "bannerPixelRatio": 0.2597
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Reus",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 991,
+      "title": "Reverie",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Reverie",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 991,
+            "title": "Reverie",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 991,
+            "title": "Reverie",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Reverie",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/reverie",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95E1Q3rumOndE-mcgIgwrnEjOIj0-y-X3btBsYpfqrEfss6XRgpK9wjUP0lRf81D_DQt5uD2TqvK5dge21Vo3LAHQC0scF2Q3AQulTsGZlMPBZ5Ig5BqUUJYetfMoY_v6ZL8RyasVgK3iVgL-FS83N3KNpUUA/1600.jpg",
+            "metrics": {
+              "width": 360,
+              "height": 360,
+              "aspect": 1.0,
+              "bannerColumnSpan": 0.6833,
+              "bannerPixelRatio": 0.3894
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "source": "PriceCharting",
+          "matchedTitle": "Reverie",
+          "region": "US/NTSC",
+          "regionRank": 0,
+          "productUrl": "https://www.pricecharting.com/game/playstation-4/reverie",
+          "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95E1Q3rumOndE-mcgIgwrnEjOIj0-y-X3btBsYpfqrEfss6XRgpK9wjUP0lRf81D_DQt5uD2TqvK5dge21Vo3LAHQC0scF2Q3AQulTsGZlMPBZ5Ig5BqUUJYetfMoY_v6ZL8RyasVgK3iVgL-FS83N3KNpUUA/1600.jpg",
+          "matchingMethod": "canonical_exact",
+          "query": {
+            "title": "Reverie",
+            "method": "canonical_exact"
+          },
+          "reason": "failed_existing_retail_front_gate",
+          "metrics": {
+            "width": 360,
+            "height": 360,
+            "aspect": 1.0,
+            "bannerColumnSpan": 0.6833,
+            "bannerPixelRatio": 0.3894
+          }
+        }
+      ]
+    },
+    {
+      "id": 993,
+      "title": "RICO",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "RICO",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 993,
+            "title": "RICO",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473686,
+            "launchboxName": "RICO"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 993,
+            "title": "RICO",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "RICO",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/rico",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97TReOUrPcXkGVwV9V9JltmSSxLppczIlIbs2256e4IZfWtnk3e6UdOz_pczvi0UQziaMxi4g_SAqCA8pT2chlxBQe8dq3r-_x8LOczLjjKfXTiCBCULCKIv5Pw8gORIOmueyuP12q_u84QalBJuzPDfw8c6g/1600.jpg",
+            "metrics": {
+              "width": 190,
+              "height": 240,
+              "aspect": 0.7917,
+              "bannerColumnSpan": 1.0,
+              "bannerPixelRatio": 0.6568
+            }
+          }
+        }
+      ],
+      "status": "requires_visual_review",
+      "batch": 5,
+      "candidates": [
+        {
+          "source": "PriceCharting",
+          "matchedTitle": "RICO",
+          "region": "PAL",
+          "regionRank": 1,
+          "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/rico",
+          "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/bf017a9741291d82292f2ef3145b381bdccf29cee23d059b0c02b2b365419fa8/1600.jpg",
+          "matchingMethod": "canonical_exact",
+          "query": {
+            "title": "RICO",
+            "method": "canonical_exact"
+          },
+          "metrics": {
+            "width": 797,
+            "height": 1000,
+            "aspect": 0.797,
+            "bannerColumnSpan": 1.0,
+            "bannerPixelRatio": 0.5196
+          },
+          "status": "requires_visual_review"
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "source": "PriceCharting",
+          "matchedTitle": "RICO",
+          "region": "US/NTSC",
+          "regionRank": 0,
+          "productUrl": "https://www.pricecharting.com/game/playstation-4/rico",
+          "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97TReOUrPcXkGVwV9V9JltmSSxLppczIlIbs2256e4IZfWtnk3e6UdOz_pczvi0UQziaMxi4g_SAqCA8pT2chlxBQe8dq3r-_x8LOczLjjKfXTiCBCULCKIv5Pw8gORIOmueyuP12q_u84QalBJuzPDfw8c6g/1600.jpg",
+          "matchingMethod": "canonical_exact",
+          "query": {
+            "title": "RICO",
+            "method": "canonical_exact"
+          },
+          "reason": "failed_existing_retail_front_gate",
+          "metrics": {
+            "width": 190,
+            "height": 240,
+            "aspect": 0.7917,
+            "bannerColumnSpan": 1.0,
+            "bannerPixelRatio": 0.6568
+          }
+        }
+      ]
+    },
+    {
+      "id": 2269,
+      "title": "Risen",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification",
+        "reviewed_alternate_spelling"
+      ],
+      "queries": [
+        {
+          "title": "Risen",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2269,
+            "title": "Risen",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2269,
+            "title": "Risen",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Risen",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/risen",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/3b4642087caf0f4019e59cc493b1fb031828838c1803b0ed39153b95e089bd7c/1600.jpg",
+            "metrics": {
+              "width": 1317,
+              "height": 1600,
+              "aspect": 0.8231,
+              "bannerColumnSpan": 0.5444,
+              "bannerPixelRatio": 0.2779
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Risen",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 1972,
+      "title": "Rising Hell",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Rising Hell",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 1972,
+            "title": "Rising Hell",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 476668,
+            "launchboxName": "Rising Hell"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 1972,
+            "title": "Rising Hell",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Rising Hell",
+            "region": "PAL",
+            "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/rising-hell",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/6a95dce044345ee5c09c1291cea654026151a876b76027d72dcb8db45bbb4c01/1600.jpg",
+            "metrics": {
+              "width": 1000,
+              "height": 1000,
+              "aspect": 1.0,
+              "bannerColumnSpan": 0.575,
+              "bannerPixelRatio": 0.2223
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Rising Hell",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2096,
+      "title": "Rival Megagun",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "Rival Megagun",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2096,
+            "title": "Rival Megagun",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "errors",
+          "evidence": {
+            "id": 2096,
+            "title": "Rival Megagun",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "error": "HTTP Error 429: Too Many Requests"
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 5,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Rival Megagun",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-25T19:55:38.113Z",
+  "generatedAt": "2026-09-25T19:57:30.277Z",
   "included": 2407,
   "counts": {
     "CURATED_ID": 7,
     "CURATED_TITLE": 56,
     "GAMEYE": 939,
     "LAUNCHBOX_BOX_FRONT": 678,
-    "LEGACY_IGDB": 307,
-    "PRICECHARTING_BOX_FRONT": 373,
+    "LEGACY_IGDB": 305,
+    "PRICECHARTING_BOX_FRONT": 375,
     "PRODUCT_BOX_FRONT": 47
   },
   "rows": [
@@ -8846,8 +8846,8 @@
     {
       "id": 2692,
       "title": "Paw Patrol World",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co75f0.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/46c768c4a58d1857e318b8cb6880c89b0835d4eee48c8198b4443a66cf0fb64b/1600.jpg"
     },
     {
       "id": 2693,
@@ -9752,8 +9752,8 @@
     {
       "id": 993,
       "title": "RICO",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q4d.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/bf017a9741291d82292f2ef3145b381bdccf29cee23d059b0c02b2b365419fa8/1600.jpg"
     },
     {
       "id": 1946,

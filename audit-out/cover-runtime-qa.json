@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-09-25T19:55:38.113Z",
+  "generatedAt": "2026-09-25T19:57:30.277Z",
   "summary": {
-    "generatedAt": "2026-09-25T19:55:38.113Z",
+    "generatedAt": "2026-09-25T19:57:30.277Z",
     "included": 2407,
-    "good": 2047,
+    "good": 2049,
     "fallback": 8,
-    "review": 332,
+    "review": 330,
     "watch": 20,
-    "physicalVerify": 327,
-    "physicalLikely": 1369,
+    "physicalVerify": 325,
+    "physicalLikely": 1371,
     "physicalConfirmed": 711,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "key_art_only": 307,
+      "key_art_only": 305,
       "missing_ps4_banner": 25
     },
     "watchByReason": {
@@ -669,11 +669,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2692,
-      "title": "Paw Patrol World",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2430,
       "title": "Peaky Blinders Mastermind",
       "reason": "key_art_only"
@@ -801,11 +796,6 @@
     {
       "id": 991,
       "title": "Reverie",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 993,
-      "title": "RICO",
       "reason": "key_art_only"
     },
     {
