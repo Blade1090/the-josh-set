@@ -1,0 +1,47 @@
+{
+ "baselineSha": "f513842229d876c31da1fca3a89fb29e3668da76",
+ "baselineQA": {
+  "included": 2407,
+  "good": 2049,
+  "review": 330,
+  "watch": 20,
+  "fallback": 8
+ },
+ "branch": "art-department-weekend-final",
+ "currentVerifiedCommit": "f513842229d876c31da1fca3a89fb29e3668da76",
+ "currentQA": {
+  "included": 2407,
+  "good": 2049,
+  "review": 330,
+  "watch": 20,
+  "fallback": 8
+ },
+ "totals": {
+  "attempted": 0,
+  "accepted": 0,
+  "rejected": 0,
+  "goodGained": 0,
+  "reviewCleared": 0,
+  "watchCleared": 0,
+  "fallbackChange": 0
+ },
+ "batches": [],
+ "sourcesUsed": [],
+ "remainingQueue": {
+  "review": 330,
+  "watch": 20,
+  "fallback": 8,
+  "reviewByReason": {
+   "key_art_only": 305,
+   "missing_ps4_banner": 25
+  },
+  "watchByReason": {
+   "image_fetch_failed": 20
+  }
+ },
+ "blockers": [
+  "GameFAQs box images return HTTP 403 to automated audit fetches (all 20 WATCH items); audit cannot verify them, so they need alternate hosts."
+ ],
+ "lastVerified": "2026-09-25T20:46:24+00:00",
+ "nextTask": "Batch 1: offline-index multi-region PriceCharting candidates for all REVIEW/WATCH identities; visually vet gate-passing images; map accepted into cover-pricecharting-retail.js."
+}
