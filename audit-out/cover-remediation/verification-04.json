@@ -1,0 +1,61 @@
+{
+  "batch": 4,
+  "attempted": 40,
+  "approvedCandidates": [],
+  "decisions": [
+    {
+      "id": 2659,
+      "decision": "reject",
+      "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/7bafc29177ef5202186ecff392187dbcf4f6e17f80c6fa3603009cc04816c076/1600.jpg",
+      "reason": "photo_of_case",
+      "visualEvidence": "Visible glare, uneven lighting and surrounding dark surface show a photographed case; not a clean front scan."
+    }
+  ],
+  "before": {
+    "generatedAt": "2026-09-25T19:53:46.152Z",
+    "included": 2407,
+    "good": 2047,
+    "fallback": 8,
+    "review": 332,
+    "watch": 20,
+    "physicalVerify": 327,
+    "physicalLikely": 1369,
+    "physicalConfirmed": 711,
+    "manualConfirmedBad": 0,
+    "manualFallback": 8,
+    "manualEligibility": 0,
+    "manualFixedTracked": 91,
+    "reviewByReason": {
+      "key_art_only": 307,
+      "missing_ps4_banner": 25
+    },
+    "watchByReason": {
+      "image_fetch_failed": 20
+    }
+  },
+  "status": "validated",
+  "after": {
+    "generatedAt": "2026-09-25T19:55:38.113Z",
+    "included": 2407,
+    "good": 2047,
+    "fallback": 8,
+    "review": 332,
+    "watch": 20,
+    "physicalVerify": 327,
+    "physicalLikely": 1369,
+    "physicalConfirmed": 711,
+    "manualConfirmedBad": 0,
+    "manualFallback": 8,
+    "manualEligibility": 0,
+    "manualFixedTracked": 91,
+    "reviewByReason": {
+      "key_art_only": 307,
+      "missing_ps4_banner": 25
+    },
+    "watchByReason": {
+      "image_fetch_failed": 20
+    }
+  },
+  "violations": [],
+  "recovered": []
+}
