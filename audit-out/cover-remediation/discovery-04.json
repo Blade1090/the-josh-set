@@ -1,0 +1,2492 @@
+{
+  "batch": 4,
+  "attempted": 40,
+  "rows": [
+    {
+      "id": 2651,
+      "title": "MADO MONOGATARI: Fia And The Wondrous Academy",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "MADO MONOGATARI: Fia And The Wondrous Academy",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2651,
+            "title": "MADO MONOGATARI: Fia And The Wondrous Academy",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 476409,
+            "launchboxName": "MADO MONOGATARI: Fia and the Wondrous Academy"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2651,
+            "title": "MADO MONOGATARI: Fia And The Wondrous Academy",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "MADO MONOGATARI: Fia And The Wondrous Academy",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/mado-monogatari-fia-and-the-wondrous-academy",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/ikgqqzcp66lfvzee/1600.jpg",
+            "metrics": {
+              "width": 695,
+              "height": 695,
+              "aspect": 1.0,
+              "bannerColumnSpan": 0.7778,
+              "bannerPixelRatio": 0.6218
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "MADO MONOGATARI: Fia And The Wondrous Academy",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 742,
+      "title": "Maneater",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Maneater",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 742,
+            "title": "Maneater",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473488,
+            "launchboxName": "Maneater"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 742,
+            "title": "Maneater",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Maneater",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/maneater",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/88cfd2d31898093098b72596a57d9a9353b6642b0bd10f8d1f31b2b149ca892b/1600.jpg",
+            "metrics": {
+              "width": 1263,
+              "height": 1500,
+              "aspect": 0.842,
+              "bannerColumnSpan": 0.8528,
+              "bannerPixelRatio": 0.5798
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Maneater",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2392,
+      "title": "Marchen Forest",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Marchen Forest",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2392,
+            "title": "Marchen Forest",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473489,
+            "launchboxName": "Märchen Forest"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2392,
+            "title": "Marchen Forest",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Marchen Forest",
+            "region": "JP",
+            "productUrl": "https://www.pricecharting.com/game/jp-playstation-4/marchen-forest",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/4edcfcb83c3be87c26c7adf8b44a040529d95d868db2337ea16caf5f79a4a23a/1600.jpg",
+            "metrics": {
+              "width": 255,
+              "height": 315,
+              "aspect": 0.8095,
+              "bannerColumnSpan": 1.0,
+              "bannerPixelRatio": 0.4898
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Marchen Forest",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2323,
+      "title": "Mato Anomalies",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "Mato Anomalies",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2323,
+            "title": "Mato Anomalies",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 476440,
+            "launchboxName": "Mato Anomalies"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "errors",
+          "evidence": {
+            "id": 2323,
+            "title": "Mato Anomalies",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "error": "HTTP Error 429: Too Many Requests"
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Mato Anomalies",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 750,
+      "title": "Mecho Tales",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Mecho Tales",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 750,
+            "title": "Mecho Tales",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473440,
+            "launchboxName": "Mecho Tales"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 750,
+            "title": "Mecho Tales",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Mecho Tales",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/mecho-tales",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97VqZ4gRLgBs9yOe98WuaiYFOP3l-FvQ2kCqNrvuR7rdrVqLFBvxJCTBfogZpI0T6je3R31p2gKCUuUz9XscfOCuqMxUXBVArCicueH5njPIm_XQNRz4VsCEDX_ea1WkZSzd3nPKux0M8rTrHLU_nTJcr1SMw/1600.jpg",
+            "metrics": {
+              "width": 324,
+              "height": 360,
+              "aspect": 0.9,
+              "bannerColumnSpan": 0.5556,
+              "bannerPixelRatio": 0.2185
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Mecho Tales",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2463,
+      "title": "Memorrha",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "Memorrha",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2463,
+            "title": "Memorrha",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 476433,
+            "launchboxName": "Memorrha"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "errors",
+          "evidence": {
+            "id": 2463,
+            "title": "Memorrha",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "error": "HTTP Error 429: Too Many Requests"
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Memorrha",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 761,
+      "title": "Mercenaries Wings: The False Phoenix",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Mercenaries Wings: The False Phoenix",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 761,
+            "title": "Mercenaries Wings: The False Phoenix",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 761,
+            "title": "Mercenaries Wings: The False Phoenix",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Mercenaries Wings: The False Phoenix",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/mercenaries-wings-the-false-phoenix",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96P7ToraAdVH0LwKG--bToi6m_PIN-cBfGhvSWn8TEzDuxfsGS4NpDVp4aoIVCF_bGXvoiT2STZPGFOF7C2tX15mH_JWHNhyi6MAyxrk7LZKwj9G55Pyrhmw3DaJVM1cv-ioj8rGHTTyOH6PDCvQbpxw2GQqg/1600.jpg",
+            "metrics": {
+              "width": 461,
+              "height": 512,
+              "aspect": 0.9004,
+              "bannerColumnSpan": 0.5583,
+              "bannerPixelRatio": 0.22
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Mercenaries Wings: The False Phoenix",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 762,
+      "title": "Mercenary Kings",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "no_safe_match_in_previous_sources"
+      ],
+      "queries": [
+        {
+          "title": "Mercenary Kings",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 762,
+            "title": "Mercenary Kings",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 762,
+            "title": "Mercenary Kings",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateCount": 2,
+            "candidateTitles": [
+              "Mercenary Kings: Reloaded Edition",
+              "Mercenary Kings: Reloaded Edition [Limited Edition]"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Mercenary Kings",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2325,
+      "title": "Mighty Goose",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "Mighty Goose",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2325,
+            "title": "Mighty Goose",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "errors",
+          "evidence": {
+            "id": 2325,
+            "title": "Mighty Goose",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "error": "HTTP Error 429: Too Many Requests"
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Mighty Goose",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 1670,
+      "title": "Mighty Gunvolt Burst",
+      "reason": "missing_ps4_banner",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "no_safe_match_in_previous_sources"
+      ],
+      "queries": [
+        {
+          "title": "Mighty Gunvolt Burst",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1670,
+            "title": "Mighty Gunvolt Burst",
+            "bucket": "review",
+            "reason": "missing_ps4_banner",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 1670,
+            "title": "Mighty Gunvolt Burst",
+            "bucket": "review",
+            "reason": "missing_ps4_banner",
+            "candidateCount": 37,
+            "candidateTitles": [
+              "Miss Kobayashi's Dragon Maid: Burst Forth!! Choro-Gon Breath",
+              "Mighty No. 9",
+              "Gunvolt Chronicles Luminous Avenger IX",
+              "God Eater 2 Rage Burst",
+              "Azure Striker Gunvolt Striker Pack",
+              "Senran Kagura Burst Re:Newal [Tailor Made Edition]",
+              "Senran Kagura Burst Re:Newal",
+              "Paw Patrol: Mighty Pups Save Adventure Bay"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Mighty Gunvolt Burst",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 780,
+      "title": "Mighty Switch Force! Collection",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Mighty Switch Force! Collection",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 780,
+            "title": "Mighty Switch Force! Collection",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473526,
+            "launchboxName": "Mighty Switch Force! Collection"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 780,
+            "title": "Mighty Switch Force! Collection",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Mighty Switch Force Collection",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/mighty-switch-force-collection",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/9b69df73ef86048569d323a70e672733a14be4d95e41e0051673e4dd6bebd922/1600.jpg",
+            "metrics": {
+              "width": 540,
+              "height": 600,
+              "aspect": 0.9,
+              "bannerColumnSpan": 0.5583,
+              "bannerPixelRatio": 0.2215
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Mighty Switch Force! Collection",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 783,
+      "title": "Minecraft: Story Mode - A Telltale Games Series",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "no_safe_match_in_previous_sources"
+      ],
+      "queries": [
+        {
+          "title": "Minecraft: Story Mode - A Telltale Games Series",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 783,
+            "title": "Minecraft: Story Mode - A Telltale Games Series",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 783,
+            "title": "Minecraft: Story Mode - A Telltale Games Series",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateCount": 34,
+            "candidateTitles": [
+              "Minecraft: Story Mode Complete Adventure",
+              "Minecraft: Playstation 4 Edition",
+              "Minecraft: Story Mode Season Two",
+              "Kingdom Hearts: The Story So Far",
+              "Minecraft: Story Mode Season Pass",
+              "The Walking Dead: The Telltale Definitive Series",
+              "Game of Thrones A Telltale Games Series",
+              "Digimon Story: Cyber Sleuth"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Minecraft: Story Mode - A Telltale Games Series",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 785,
+      "title": "Minit",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Minit",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 785,
+            "title": "Minit",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473515,
+            "launchboxName": "Minit"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 785,
+            "title": "Minit",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Minit",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/minit",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv954FHKyijUIB39dses2Vr0B1M6bmQfy8Op5ymx6SgSW7s6i8HgtISQnYEm1u9AsfcGeRVuRGkiV_oOYYMkd3yInzvwQoK5snKDh1k8Zf5-ChoSD9xhsFxXLLdWgSDso5_Last012tdAGP93AASxC112qtjTPg/1600.jpg",
+            "metrics": {
+              "width": 512,
+              "height": 512,
+              "aspect": 1.0,
+              "bannerColumnSpan": 0.0,
+              "bannerPixelRatio": 0.0
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Minit",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 1923,
+      "title": "Monster Prom XXL",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Monster Prom XXL",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1923,
+            "title": "Monster Prom XXL",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 1923,
+            "title": "Monster Prom XXL",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Monster Prom XXL",
+            "region": "PAL",
+            "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/monster-prom-xxl?q=monster+prom+xxl+playstation+4",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/togo3lyvpujf7uw5/1600.jpg",
+            "metrics": {
+              "width": 700,
+              "height": 869,
+              "aspect": 0.8055,
+              "bannerColumnSpan": 0.7083,
+              "bannerPixelRatio": 0.3068
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Monster Prom XXL",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 802,
+      "title": "Moving Out",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Moving Out",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 802,
+            "title": "Moving Out",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473588,
+            "launchboxName": "Moving Out"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 802,
+            "title": "Moving Out",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Moving Out",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/moving-out",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/868bada2c964b47073979e6032b3d4cbe8e2678c44b1dbab9195efa94c98d256/1600.jpg",
+            "metrics": {
+              "width": 768,
+              "height": 768,
+              "aspect": 1.0,
+              "bannerColumnSpan": 0.7194,
+              "bannerPixelRatio": 0.5053
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Moving Out",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2095,
+      "title": "Mulaka",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Mulaka",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2095,
+            "title": "Mulaka",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 476527,
+            "launchboxName": "Mulaka"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2095,
+            "title": "Mulaka",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Mulaka",
+            "region": "PAL",
+            "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/mulaka?q=mulaka+playstation+4",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/518ec447a5e2f9849424c9293255bdf23252c254f68d879c8747b11bf1052fb5/1600.jpg",
+            "metrics": {
+              "width": 1024,
+              "height": 719,
+              "aspect": 1.4242,
+              "bannerColumnSpan": 0.3389,
+              "bannerPixelRatio": 0.0177
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Mulaka",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 805,
+      "title": "Musynx",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Musynx",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 805,
+            "title": "Musynx",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Musynx",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/musynx?q=musynx+playstation+4",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97xKc75YuwryVgqBOT9eADGPYpq7GKiUXzMGH2kl3a0SH2engQEJeOndaLVO7ofqc5_4_XDN0mJ8Letzz6Y9AhokfmosAV40X2uu2sdZVQPmEDZCVrM3qvAKucmBM3S7uftFBL4JAWEdEGFjvOJctcnTff5Tw/1600.jpg",
+            "metrics": {
+              "width": 324,
+              "height": 360,
+              "aspect": 0.9,
+              "bannerColumnSpan": 0.5556,
+              "bannerPixelRatio": 0.2223
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Musynx",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 807,
+      "title": "Mutant Mudds Deluxe",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "Mutant Mudds Deluxe",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 807,
+            "title": "Mutant Mudds Deluxe",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473560,
+            "launchboxName": "Mutant Mudds Deluxe"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "errors",
+          "evidence": {
+            "id": 807,
+            "title": "Mutant Mudds Deluxe",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "error": "HTTP Error 429: Too Many Requests"
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Mutant Mudds Deluxe",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 808,
+      "title": "Mutant Mudds: Super Challenge",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Mutant Mudds: Super Challenge",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 808,
+            "title": "Mutant Mudds: Super Challenge",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473561,
+            "launchboxName": "Mutant Mudds Super Challenge"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 808,
+            "title": "Mutant Mudds: Super Challenge",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Mutant Mudds Super Challenge",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/mutant-mudds-super-challenge?q=mutant+mudds%3A+super+challenge+playstation+4",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97-IXLGXezmdNsKVKJT3fgIrddbZXkSmZgLb8WxqUXcBrq8uqjg9s60kbVFjLP7P1YOilWVBNNpDT2x0e7YnYD1Ve6lazdInBx2hLQ4moK2-Lo3k7UDYpl2l5WtRCqHeKkQNmgzKJKMZDjHlvzceSb6VLEBDw/1600.jpg",
+            "metrics": {
+              "width": 213,
+              "height": 237,
+              "aspect": 0.8987,
+              "bannerColumnSpan": 0.5587,
+              "bannerPixelRatio": 0.2143
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Mutant Mudds: Super Challenge",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 811,
+      "title": "My Friend Pedro",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "My Friend Pedro",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 811,
+            "title": "My Friend Pedro",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473577,
+            "launchboxName": "My Friend Pedro"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 811,
+            "title": "My Friend Pedro",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "My Friend Pedro",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/my-friend-pedro",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/c33eded9bb81b90560f440acf6fc671a8e76febd6fb39444e7bb39d63fb91d33/1600.jpg",
+            "metrics": {
+              "width": 450,
+              "height": 500,
+              "aspect": 0.9,
+              "bannerColumnSpan": 0.6472,
+              "bannerPixelRatio": 0.3674
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "My Friend Pedro",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 815,
+      "title": "Mystery Chronicle: One Way Heroics",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "Mystery Chronicle: One Way Heroics",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 815,
+            "title": "Mystery Chronicle: One Way Heroics",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473540,
+            "launchboxName": "Mystery Chronicle: One Way Heroics"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "errors",
+          "evidence": {
+            "id": 815,
+            "title": "Mystery Chronicle: One Way Heroics",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "error": "HTTP Error 429: Too Many Requests"
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Mystery Chronicle: One Way Heroics",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2016,
+      "title": "MythForce",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "MythForce",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2016,
+            "title": "MythForce",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2016,
+            "title": "MythForce",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Mythforce",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/mythforce",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/d1868b2c7caf411bd38d6441b2f35b278f2613fc6a4a371dea6de53ee1b89052/1600.jpg",
+            "metrics": {
+              "width": 630,
+              "height": 699,
+              "aspect": 0.9013,
+              "bannerColumnSpan": 0.6083,
+              "bannerPixelRatio": 0.302
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "MythForce",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 819,
+      "title": "Narita Boy",
+      "reason": "missing_ps4_banner",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Narita Boy",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 819,
+            "title": "Narita Boy",
+            "bucket": "review",
+            "reason": "missing_ps4_banner",
+            "launchboxDatabaseId": 473537,
+            "launchboxName": "Narita Boy"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 819,
+            "title": "Narita Boy",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Narita Boy",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/narita-boy",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/904e72339a8b0304cf2913131d668448b4ed295ed93cb68b004a941e7c8fd7fb/1600.jpg",
+            "metrics": {
+              "width": 600,
+              "height": 666,
+              "aspect": 0.9009,
+              "bannerColumnSpan": 0.5583,
+              "bannerPixelRatio": 0.2189
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Narita Boy",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 820,
+      "title": "Naruto Shippuden: Ultimate Ninja Storm 4",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Naruto Shippuden: Ultimate Ninja Storm 4",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 820,
+            "title": "Naruto Shippuden: Ultimate Ninja Storm 4",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 476513,
+            "launchboxName": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 4"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 820,
+            "title": "Naruto Shippuden: Ultimate Ninja Storm 4",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Naruto Shippuden Ultimate Ninja Storm 4",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/naruto-shippuden-ultimate-ninja-storm-4",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96ZLnx4Qdt4AwYt-x64Ebiyk77Yjxyq_z68wvpVieBIFHxgQ3dmT3XRxjdg56eBG3wHDbBAx3NzKP37NLFLT0OJGiiN4M3dccMdbPcUPgZPWw4vHKVvN4SsbtKudIawvYg_1duS6dwThRXUj2GNcPrqJEuUUA/1600.jpg",
+            "metrics": {
+              "width": 200,
+              "height": 250,
+              "aspect": 0.8,
+              "bannerColumnSpan": 1.0,
+              "bannerPixelRatio": 0.5338
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Naruto Shippuden: Ultimate Ninja Storm 4",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 823,
+      "title": "Naruto: Ultimate Ninja Storm",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "no_safe_match_in_previous_sources"
+      ],
+      "queries": [
+        {
+          "title": "Naruto: Ultimate Ninja Storm",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 823,
+            "title": "Naruto: Ultimate Ninja Storm",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 823,
+            "title": "Naruto: Ultimate Ninja Storm",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateCount": 12,
+            "candidateTitles": [
+              "Naruto Shippuden Ultimate Ninja Storm 4",
+              "Naruto Shippuden Ultimate Ninja Storm 4 Road to Boruto",
+              "Naruto Shippuden: Ultimate Ninja Storm Legacy",
+              "Naruto Shippuden: Ultimate Ninja Storm Trilogy",
+              "Naruto X Boruto Ultimate Ninja Storm Connections",
+              "Naruto Shippuden Ultimate Ninja Storm 4",
+              "Naruto Shippuden: Ultimate Ninja Storm 4 [Collector's Edition]",
+              "Naruto shippuden: Ultimate Ninja Storm 4 Road To Boruto"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Naruto: Ultimate Ninja Storm",
+            "method": "canonical_exact"
+          },
+          "reason": "no_exact_product_match",
+          "candidateTitles": [
+            "Naruto Shippuden Ultimate Ninja Storm 4",
+            "Naruto Shippuden Ultimate Ninja Storm 4 Road to Boruto",
+            "Naruto Shippuden: Ultimate Ninja Storm Legacy",
+            "Naruto Shippuden: Ultimate Ninja Storm Trilogy",
+            "Naruto X Boruto Ultimate Ninja Storm Connections",
+            "Naruto Shippuden Ultimate Ninja Storm 4",
+            "Naruto Shippuden: Ultimate Ninja Storm 4 [Collector's Edition]",
+            "Naruto shippuden: Ultimate Ninja Storm 4 Road To Boruto",
+            "Naruto Shippuden Ultimate Ninja Storm 4: Road to Boruto + Naruto to Boruto Shinobi Striker",
+            "Naruto Shippuden Ultimate Ninja Storm Legacy",
+            "Naruto x Boruto: Ultimate Ninja Storm Connections",
+            "Naruto x Boruto: Ultimate Ninja Storm Connections [Collector's Edition]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2097,
+      "title": "Natsuki Chronicles",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Natsuki Chronicles",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2097,
+            "title": "Natsuki Chronicles",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473551,
+            "launchboxName": "Natsuki Chronicles"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2097,
+            "title": "Natsuki Chronicles",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Natsuki Chronicles",
+            "region": "PAL",
+            "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/natsuki-chronicles",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/caa6c5828ef757eda4e32eceb8c425e430225603ef64c38a0cec3e3d005c706d/1600.jpg",
+            "metrics": {
+              "width": 1200,
+              "height": 981,
+              "aspect": 1.2232,
+              "bannerColumnSpan": 0.0,
+              "bannerPixelRatio": 0.0
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "source": "PriceCharting",
+          "matchedTitle": "Natsuki Chronicles",
+          "region": "PAL",
+          "regionRank": 1,
+          "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/natsuki-chronicles",
+          "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/caa6c5828ef757eda4e32eceb8c425e430225603ef64c38a0cec3e3d005c706d/1600.jpg",
+          "matchingMethod": "canonical_exact",
+          "query": {
+            "title": "Natsuki Chronicles",
+            "method": "canonical_exact"
+          },
+          "reason": "failed_existing_retail_front_gate",
+          "metrics": {
+            "width": 1200,
+            "height": 981,
+            "aspect": 1.2232,
+            "bannerColumnSpan": 0.0,
+            "bannerPixelRatio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 2657,
+      "title": "Naught: Extended Edition",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "Naught: Extended Edition",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2657,
+            "title": "Naught: Extended Edition",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "errors",
+          "evidence": {
+            "id": 2657,
+            "title": "Naught: Extended Edition",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "error": "HTTP Error 429: Too Many Requests"
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Naught: Extended Edition",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2659,
+      "title": "Necromunda: Hired Gun",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Necromunda: Hired Gun",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2659,
+            "title": "Necromunda: Hired Gun",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473558,
+            "launchboxName": "Necromunda: Hired Gun"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2659,
+            "title": "Necromunda: Hired Gun",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Necromunda: Hired Gun",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/necromunda-hired-gun",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/4bed105b07fb880ba8f770879dbb33cf1e3a4921dff9cd1bb671dd8878e5edcd/1600.jpg",
+            "metrics": {
+              "width": 1152,
+              "height": 1152,
+              "aspect": 1.0,
+              "bannerColumnSpan": 0.7667,
+              "bannerPixelRatio": 0.479
+            }
+          }
+        }
+      ],
+      "status": "requires_visual_review",
+      "batch": 4,
+      "candidates": [
+        {
+          "source": "PriceCharting",
+          "matchedTitle": "Necromunda: Hired Gun",
+          "region": "PAL",
+          "regionRank": 1,
+          "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/necromunda-hired-gun",
+          "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/7bafc29177ef5202186ecff392187dbcf4f6e17f80c6fa3603009cc04816c076/1600.jpg",
+          "matchingMethod": "canonical_exact",
+          "query": {
+            "title": "Necromunda: Hired Gun",
+            "method": "canonical_exact"
+          },
+          "metrics": {
+            "width": 1277,
+            "height": 1600,
+            "aspect": 0.7981,
+            "bannerColumnSpan": 0.9583,
+            "bannerPixelRatio": 0.3783
+          },
+          "status": "requires_visual_review"
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "source": "PriceCharting",
+          "matchedTitle": "Necromunda: Hired Gun",
+          "region": "US/NTSC",
+          "regionRank": 0,
+          "productUrl": "https://www.pricecharting.com/game/playstation-4/necromunda-hired-gun",
+          "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/4bed105b07fb880ba8f770879dbb33cf1e3a4921dff9cd1bb671dd8878e5edcd/1600.jpg",
+          "matchingMethod": "canonical_exact",
+          "query": {
+            "title": "Necromunda: Hired Gun",
+            "method": "canonical_exact"
+          },
+          "reason": "failed_existing_retail_front_gate",
+          "metrics": {
+            "width": 1152,
+            "height": 1152,
+            "aspect": 1.0,
+            "bannerColumnSpan": 0.7667,
+            "bannerPixelRatio": 0.479
+          }
+        }
+      ]
+    },
+    {
+      "id": 1679,
+      "title": "Neverending Nightmares",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "Neverending Nightmares",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1679,
+            "title": "Neverending Nightmares",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "errors",
+          "evidence": {
+            "id": 1679,
+            "title": "Neverending Nightmares",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "error": "HTTP Error 429: Too Many Requests"
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Neverending Nightmares",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2330,
+      "title": "Neversong",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Neversong",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2330,
+            "title": "Neversong",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 476497,
+            "launchboxName": "Neversong"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2330,
+            "title": "Neversong",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Neversong",
+            "region": "PAL",
+            "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/neversong",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/1284083cf8c842753b29d3257c5884f18c6744212101a8fda9883601422bc153/1600.jpg",
+            "metrics": {
+              "width": 380,
+              "height": 380,
+              "aspect": 1.0,
+              "bannerColumnSpan": 0.7778,
+              "bannerPixelRatio": 0.4476
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Neversong",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 836,
+      "title": "Nexomon: Extinction",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Nexomon: Extinction",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 836,
+            "title": "Nexomon: Extinction",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 473599,
+            "launchboxName": "Nexomon: Extinction"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 836,
+            "title": "Nexomon: Extinction",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Nexomon: Extinction",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/nexomon-extinction",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/fec8cce15bb8e476d310c02959dc5af8746dbe75cb8d2341f20a0c5f73435239/1600.jpg",
+            "metrics": {
+              "width": 1263,
+              "height": 1500,
+              "aspect": 0.842,
+              "bannerColumnSpan": 0.8528,
+              "bannerPixelRatio": 0.5562
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Nexomon: Extinction",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2011,
+      "title": "Night Book",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "Night Book",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2011,
+            "title": "Night Book",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "errors",
+          "evidence": {
+            "id": 2011,
+            "title": "Night Book",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "error": "HTTP Error 429: Too Many Requests"
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Night Book",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 844,
+      "title": "Night Trap: 25th Anniversary Edition",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification",
+        "reviewed_alternate_spelling"
+      ],
+      "queries": [
+        {
+          "title": "Night Trap: 25th Anniversary Edition",
+          "method": "canonical_exact"
+        },
+        {
+          "title": "Night Trap",
+          "method": "reviewed_identity_alias_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 844,
+            "title": "Night Trap: 25th Anniversary Edition",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-alias-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 844,
+            "title": "Night Trap: 25th Anniversary Edition",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "aliases": [
+              "Night Trap"
+            ],
+            "attempts": [
+              {
+                "alias": "Night Trap",
+                "matchedTitle": "Night Trap",
+                "region": "US/NTSC",
+                "productUrl": "https://www.pricecharting.com/game/playstation-4/night-trap",
+                "image": "https://storage.googleapis.com/images.pricecharting.com/9663c66979f3fa04d2e44f4690c4a77ad1c7b1b6b9df26416e1cc2a4860dc445/1600.jpg",
+                "reason": "failed_retail_front_gate",
+                "metrics": {
+                  "width": 1383,
+                  "height": 1536,
+                  "aspect": 0.9004,
+                  "bannerColumnSpan": 0.5583,
+                  "bannerPixelRatio": 0.2153
+                }
+              }
+            ]
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 844,
+            "title": "Night Trap: 25th Anniversary Edition",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateCount": 43,
+            "candidateTitles": [
+              "Skylanders Trap Team",
+              "Skylanders Trap Team",
+              "Elder Scrolls V: Skyrim [Anniversary Edition]",
+              "Summon Night 6 Lost Borders [Amu Edition]",
+              "Dying Light [Anniversary Edition]",
+              "Skylanders Trap Team Dark Edition: Starter Pack",
+              "Human Fall Flat [Anniversary Edition]",
+              "Streets of Rage 4 [Anniversary Edition]"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Night Trap: 25th Anniversary Edition",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "query": {
+            "title": "Night Trap",
+            "method": "reviewed_identity_alias_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 849,
+      "title": "Nitroplus Blasterz: Heroines Infinite Duel",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Nitroplus Blasterz: Heroines Infinite Duel",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 849,
+            "title": "Nitroplus Blasterz: Heroines Infinite Duel",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 849,
+            "title": "Nitroplus Blasterz: Heroines Infinite Duel",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Nitroplus Blasterz: Heroines Infinite Duel",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/nitroplus-blasterz-heroines-infinite-duel",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94TNdAeHZ_29rH__BCRJc2hBPlwIbiDE_sAVNOE9pDULzRwjC8fpQTDW9W2k9gwpDqUN38vkvufvrDEDxRyQCutCmosegrEwBaLHzzZjWvSZEHEy3-P13wctwyoVMRvaesA7xS7Y-sIKUZGl9QFOmIrSvIoSQ/1600.jpg",
+            "metrics": {
+              "width": 200,
+              "height": 250,
+              "aspect": 0.8,
+              "bannerColumnSpan": 1.0,
+              "bannerPixelRatio": 0.523
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Nitroplus Blasterz: Heroines Infinite Duel",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 1826,
+      "title": "Nobody Saves the World",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "Nobody Saves the World",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 1826,
+            "title": "Nobody Saves the World",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 476461,
+            "launchboxName": "Nobody Saves the World"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "errors",
+          "evidence": {
+            "id": 1826,
+            "title": "Nobody Saves the World",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "error": "HTTP Error 429: Too Many Requests"
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Nobody Saves the World",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 1682,
+      "title": "Now That's What I Call Sing",
+      "reason": "missing_ps4_banner",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "no_safe_match_in_previous_sources"
+      ],
+      "queries": [
+        {
+          "title": "Now That's What I Call Sing",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 1682,
+            "title": "Now That's What I Call Sing",
+            "bucket": "review",
+            "reason": "missing_ps4_banner",
+            "launchboxDatabaseId": 473618,
+            "launchboxName": "NOW That's What I Call Sing"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 1682,
+            "title": "Now That's What I Call Sing",
+            "bucket": "review",
+            "reason": "missing_ps4_banner",
+            "candidateCount": 76,
+            "candidateTitles": [
+              "Call of Duty Black Ops III",
+              "Call of Duty WWII",
+              "Call of Duty: Modern Warfare",
+              "Call of Duty: Black Ops 4",
+              "Call of Duty: Infinite Warfare",
+              "Call of Duty Ghosts",
+              "Call of Duty Advanced Warfare",
+              "Call of Duty: Vanguard"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Now That's What I Call Sing",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2666,
+      "title": "Octopath Traveler 0",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Octopath Traveler 0",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2666,
+            "title": "Octopath Traveler 0",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2666,
+            "title": "Octopath Traveler 0",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Octopath Traveler 0",
+            "region": "JP",
+            "productUrl": "https://www.pricecharting.com/game/jp-playstation-4/octopath-traveler-0?q=octopath+traveler+0+playstation+4",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/65muv7gd3dybxkxf/1600.jpg",
+            "metrics": {
+              "width": 198,
+              "height": 254,
+              "aspect": 0.7795,
+              "bannerColumnSpan": 0.9949,
+              "bannerPixelRatio": 0.6601
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Octopath Traveler 0",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 1686,
+      "title": "OlliOlli",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "no_safe_match_in_previous_sources"
+      ],
+      "queries": [
+        {
+          "title": "OlliOlli",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1686,
+            "title": "OlliOlli",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 1686,
+            "title": "OlliOlli",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateCount": 3,
+            "candidateTitles": [
+              "OlliOlli: Epic Combo Edition",
+              "OlliOlli Epic Combo Edition",
+              "OlliOlli2: Welcome to Olliwood"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "OlliOlli",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2331,
+      "title": "OMORI",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "OMORI",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2331,
+            "title": "OMORI",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 476474,
+            "launchboxName": "OMORI"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2331,
+            "title": "OMORI",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Omori",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/omori",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/f7080245025434a0ad454f3d414e9ecb72f9e38f5804c5c47c29155a467e9b18/1600.jpg",
+            "metrics": {
+              "width": 1536,
+              "height": 1536,
+              "aspect": 1.0,
+              "bannerColumnSpan": 0.6917,
+              "bannerPixelRatio": 0.3727
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "OMORI",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2671,
+      "title": "On the Road: Truck Simulator",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "On the Road: Truck Simulator",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2671,
+            "title": "On the Road: Truck Simulator",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 476481,
+            "launchboxName": "On the Road: Truck Simulator"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "errors",
+          "evidence": {
+            "id": 2671,
+            "title": "On the Road: Truck Simulator",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "error": "HTTP Error 429: Too Many Requests"
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 4,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "On the Road: Truck Simulator",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    }
+  ]
+}

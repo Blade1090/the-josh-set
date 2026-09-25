@@ -1,0 +1,53 @@
+{
+  "batch": 3,
+  "attempted": 40,
+  "approvedCandidates": [],
+  "decisions": [],
+  "before": {
+    "generatedAt": "2026-09-25T19:51:50.452Z",
+    "included": 2407,
+    "good": 2047,
+    "fallback": 8,
+    "review": 332,
+    "watch": 20,
+    "physicalVerify": 327,
+    "physicalLikely": 1369,
+    "physicalConfirmed": 711,
+    "manualConfirmedBad": 0,
+    "manualFallback": 8,
+    "manualEligibility": 0,
+    "manualFixedTracked": 91,
+    "reviewByReason": {
+      "key_art_only": 307,
+      "missing_ps4_banner": 25
+    },
+    "watchByReason": {
+      "image_fetch_failed": 20
+    }
+  },
+  "status": "validated",
+  "after": {
+    "generatedAt": "2026-09-25T19:53:46.152Z",
+    "included": 2407,
+    "good": 2047,
+    "fallback": 8,
+    "review": 332,
+    "watch": 20,
+    "physicalVerify": 327,
+    "physicalLikely": 1369,
+    "physicalConfirmed": 711,
+    "manualConfirmedBad": 0,
+    "manualFallback": 8,
+    "manualEligibility": 0,
+    "manualFixedTracked": 91,
+    "reviewByReason": {
+      "key_art_only": 307,
+      "missing_ps4_banner": 25
+    },
+    "watchByReason": {
+      "image_fetch_failed": 20
+    }
+  },
+  "violations": [],
+  "recovered": []
+}

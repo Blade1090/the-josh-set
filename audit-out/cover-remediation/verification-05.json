@@ -1,0 +1,120 @@
+{
+  "batch": 5,
+  "attempted": 40,
+  "approvedCandidates": [
+    {
+      "id": 2692,
+      "title": "Paw Patrol World",
+      "source": "PriceCharting",
+      "matchedTitle": "Paw Patrol World",
+      "region": "PAL",
+      "regionRank": 1,
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/paw-patrol-world",
+      "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/46c768c4a58d1857e318b8cb6880c89b0835d4eee48c8198b4443a66cf0fb64b/1600.jpg",
+      "matchingMethod": "canonical_exact",
+      "query": {
+        "title": "Paw Patrol World",
+        "method": "canonical_exact"
+      },
+      "metrics": {
+        "width": 1174,
+        "height": 1500,
+        "aspect": 0.7827,
+        "bannerColumnSpan": 0.9944,
+        "bannerPixelRatio": 0.7001
+      },
+      "status": "requires_visual_review",
+      "visualEvidence": "Straight-on PAL PAW Patrol World retail front, complete PS4 banner, PEGI 3 and Outright Games branding. Readable, uncropped, no visible spine or angle; exact PS4 product title."
+    },
+    {
+      "id": 993,
+      "title": "RICO",
+      "source": "PriceCharting",
+      "matchedTitle": "RICO",
+      "region": "PAL",
+      "regionRank": 1,
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/rico",
+      "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/bf017a9741291d82292f2ef3145b381bdccf29cee23d059b0c02b2b365419fa8/1600.jpg",
+      "matchingMethod": "canonical_exact",
+      "query": {
+        "title": "RICO",
+        "method": "canonical_exact"
+      },
+      "metrics": {
+        "width": 797,
+        "height": 1000,
+        "aspect": 0.797,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.5196
+      },
+      "status": "requires_visual_review",
+      "visualEvidence": "Flat PAL RICO front artwork, complete PS4 header, PEGI 16 and Rising Star Games branding. Correct title, full front, no angle, case photo or promotional backdrop."
+    }
+  ],
+  "decisions": [
+    {
+      "id": 2692,
+      "decision": "accept",
+      "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/46c768c4a58d1857e318b8cb6880c89b0835d4eee48c8198b4443a66cf0fb64b/1600.jpg",
+      "reason": null,
+      "visualEvidence": "Straight-on PAL PAW Patrol World retail front, complete PS4 banner, PEGI 3 and Outright Games branding. Readable, uncropped, no visible spine or angle; exact PS4 product title."
+    },
+    {
+      "id": 993,
+      "decision": "accept",
+      "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/bf017a9741291d82292f2ef3145b381bdccf29cee23d059b0c02b2b365419fa8/1600.jpg",
+      "reason": null,
+      "visualEvidence": "Flat PAL RICO front artwork, complete PS4 header, PEGI 16 and Rising Star Games branding. Correct title, full front, no angle, case photo or promotional backdrop."
+    }
+  ],
+  "before": {
+    "generatedAt": "2026-09-25T19:55:38.113Z",
+    "included": 2407,
+    "good": 2047,
+    "fallback": 8,
+    "review": 332,
+    "watch": 20,
+    "physicalVerify": 327,
+    "physicalLikely": 1369,
+    "physicalConfirmed": 711,
+    "manualConfirmedBad": 0,
+    "manualFallback": 8,
+    "manualEligibility": 0,
+    "manualFixedTracked": 91,
+    "reviewByReason": {
+      "key_art_only": 307,
+      "missing_ps4_banner": 25
+    },
+    "watchByReason": {
+      "image_fetch_failed": 20
+    }
+  },
+  "status": "validated",
+  "after": {
+    "generatedAt": "2026-09-25T19:57:30.277Z",
+    "included": 2407,
+    "good": 2049,
+    "fallback": 8,
+    "review": 330,
+    "watch": 20,
+    "physicalVerify": 325,
+    "physicalLikely": 1371,
+    "physicalConfirmed": 711,
+    "manualConfirmedBad": 0,
+    "manualFallback": 8,
+    "manualEligibility": 0,
+    "manualFixedTracked": 91,
+    "reviewByReason": {
+      "key_art_only": 305,
+      "missing_ps4_banner": 25
+    },
+    "watchByReason": {
+      "image_fetch_failed": 20
+    }
+  },
+  "violations": [],
+  "recovered": [
+    2692,
+    993
+  ]
+}

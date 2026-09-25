@@ -1,0 +1,61 @@
+{
+  "batch": 2,
+  "attempted": 40,
+  "approvedCandidates": [],
+  "decisions": [
+    {
+      "id": 2563,
+      "decision": "reject",
+      "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/292d6584b700e756706e421bb620b352b52220e40524d8ae76ea520ef1e93be5/1600.jpg",
+      "reason": "provisional_packaging_mockup",
+      "visualEvidence": "PEGI label explicitly says PROVISIONAL. This pre-release package presentation does not verify the final retail front."
+    }
+  ],
+  "before": {
+    "generatedAt": "2026-09-25T19:48:55.091Z",
+    "included": 2407,
+    "good": 2047,
+    "fallback": 8,
+    "review": 332,
+    "watch": 20,
+    "physicalVerify": 327,
+    "physicalLikely": 1369,
+    "physicalConfirmed": 711,
+    "manualConfirmedBad": 0,
+    "manualFallback": 8,
+    "manualEligibility": 0,
+    "manualFixedTracked": 91,
+    "reviewByReason": {
+      "key_art_only": 307,
+      "missing_ps4_banner": 25
+    },
+    "watchByReason": {
+      "image_fetch_failed": 20
+    }
+  },
+  "status": "validated",
+  "after": {
+    "generatedAt": "2026-09-25T19:51:50.452Z",
+    "included": 2407,
+    "good": 2047,
+    "fallback": 8,
+    "review": 332,
+    "watch": 20,
+    "physicalVerify": 327,
+    "physicalLikely": 1369,
+    "physicalConfirmed": 711,
+    "manualConfirmedBad": 0,
+    "manualFallback": 8,
+    "manualEligibility": 0,
+    "manualFixedTracked": 91,
+    "reviewByReason": {
+      "key_art_only": 307,
+      "missing_ps4_banner": 25
+    },
+    "watchByReason": {
+      "image_fetch_failed": 20
+    }
+  },
+  "violations": [],
+  "recovered": []
+}
