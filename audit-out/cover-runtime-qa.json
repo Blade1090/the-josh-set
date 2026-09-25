@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-09-25T18:24:23.061Z",
+  "generatedAt": "2026-09-25T18:31:05.625Z",
   "summary": {
-    "generatedAt": "2026-09-25T18:24:23.061Z",
+    "generatedAt": "2026-09-25T18:31:05.625Z",
     "included": 2407,
-    "good": 2019,
+    "good": 2026,
     "fallback": 8,
-    "review": 359,
+    "review": 352,
     "watch": 21,
-    "physicalVerify": 355,
-    "physicalLikely": 1341,
+    "physicalVerify": 348,
+    "physicalLikely": 1348,
     "physicalConfirmed": 711,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "key_art_only": 334,
+      "key_art_only": 327,
       "missing_ps4_banner": 25
     },
     "watchByReason": {
@@ -419,11 +419,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2229,
-      "title": "Icewind Dale: Enhanced Edition",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1644,
       "title": "Infinite: Beyond the Mind",
       "reason": "key_art_only"
@@ -674,11 +669,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2232,
-      "title": "OK K.O.! Let's Play Heroes",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1686,
       "title": "OlliOlli",
       "reason": "key_art_only"
@@ -774,11 +764,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2228,
-      "title": "Planescape: Torment: Enhanced Edition",
-      "reason": "key_art_only"
-    },
-    {
       "id": 917,
       "title": "Plants vs Zombies: Garden Warfare 2",
       "reason": "key_art_only"
@@ -796,11 +781,6 @@
     {
       "id": 2009,
       "title": "Postal REDUX",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2215,
-      "title": "Praetorians - HD Remaster",
       "reason": "key_art_only"
     },
     {
@@ -919,16 +899,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2114,
-      "title": "Robotics;Notes DaSH",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2113,
-      "title": "Robotics;Notes Elite",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1015,
       "title": "Rocksmith 2014 Edition",
       "reason": "key_art_only"
@@ -971,11 +941,6 @@
     {
       "id": 1717,
       "title": "Rym 9000",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2230,
-      "title": "Saints Row IV: Re-Elected",
       "reason": "key_art_only"
     },
     {
