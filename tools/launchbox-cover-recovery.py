@@ -2,7 +2,7 @@
 import json, os, re, tempfile, unicodedata, urllib.request, zipfile
 import xml.etree.ElementTree as ET
 from collections import defaultdict, Counter
-RUNTIME='audit-out/cover-runtime-qa.json'; OUT_JS='cover-launchbox-retail.js'; OUT_JSON='audit-out/launchbox-cover-recovery.json'; META_URL='https://gamesdb.launchbox-app.com/Metadata.zip'; IMAGE_BASE='https://gamesdb.launchbox-app.com/games/images/'; PS4_NAMES={'sony playstation 4','sony playstation4','playstation 4'}
+RUNTIME='audit-out/cover-runtime-qa.json'; OUT_JS='cover-launchbox-retail.js'; OUT_JSON='audit-out/launchbox-cover-recovery.json'; META_URL='https://gamesdb.launchbox-app.com/Metadata.zip'; IMAGE_BASE='https://images.launchbox-app.com/'; PS4_NAMES={'sony playstation 4','sony playstation4','playstation 4'}
 def norm(s):
  s=unicodedata.normalize('NFKD',str(s or '')); s=''.join(c for c in s if not unicodedata.combining(c)).lower(); s=s.replace('&',' and ').replace('’','').replace("'",'').replace('`',''); return ' '.join(re.findall(r'[a-z0-9]+',s))
 def soft(s):
@@ -12,7 +12,7 @@ def child_text(el,name):
   if c.tag.rsplit('}',1)[-1].lower()==name.lower(): return c.text or ''
  return ''
 def download_metadata(dest):
- req=urllib.request.Request(META_URL,headers={'User-Agent':'ShelfCheck-ArtDepartment/2.3'}); r=urllib.request.urlopen(req,timeout=180)
+ req=urllib.request.Request(META_URL,headers={'User-Agent':'ShelfCheck-ArtDepartment/2.5'}); r=urllib.request.urlopen(req,timeout=180)
  with r, open(dest,'wb') as f:
   while True:
    chunk=r.read(1024*1024)
@@ -21,6 +21,19 @@ def download_metadata(dest):
 def region_rank(region):
  r=norm(region)
  return 0 if r=='north america' else 1 if r=='world' else 2 if not r else 3 if r=='europe' else 4 if r in {'united kingdom','uk'} else 5 if r in {'australia','oceania'} else 6
+def load_existing_titles():
+ if not os.path.exists(OUT_JS): return {}
+ text=open(OUT_JS,encoding='utf-8').read()
+ m=re.search(r'window\.SHELFCHECK_LAUNCHBOX_TITLES=(\{.*?\});',text,re.S)
+ if not m: return {}
+ try: data=json.loads(m.group(1))
+ except Exception: return {}
+ out={}
+ for k,v in data.items():
+  if not isinstance(v,str): continue
+  fn=v.rsplit('/',1)[-1]
+  out[norm(k)]=IMAGE_BASE+fn
+ return out
 def main():
  runtime=json.load(open(RUNTIME,encoding='utf-8')); targets=[]; seen=set()
  for bucket in ('review','watch','fallback'):
@@ -28,7 +41,8 @@ def main():
    title=row.get('title'); k=norm(title)
    if not title or not k or k in seen: continue
    seen.add(k); targets.append({'id':row.get('id'),'title':title,'bucket':bucket,'reason':row.get('reason')})
- print('Targets:',len(targets))
+ existing_titles=load_existing_titles()
+ print('Targets:',len(targets),'Preserved LaunchBox titles:',len(existing_titles))
  with tempfile.TemporaryDirectory() as td:
   zpath=os.path.join(td,'Metadata.zip'); download_metadata(zpath)
   with zipfile.ZipFile(zpath) as z:
@@ -74,7 +88,7 @@ def main():
        ps4_fronts+=1; url=fn if fn.startswith(('http://','https://')) else IMAGE_BASE+fn; games[dbid]['images'].append({'file':fn.rsplit('/',1)[-1],'url':url,'region':child_text(el,'Region').strip()})
     el.clear()
  print('PS4 image records:',image_ps4,'PS4 Box - Front records:',ps4_fronts,'PS4 image types:',ps4_types.most_common(15))
- covers={}; title_covers={}; recovered=[]; no_match=[]; ambiguous=[]; no_front=[]
+ covers={}; title_covers=dict(existing_titles); recovered=[]; no_match=[]; ambiguous=[]; no_front=[]
  for t in targets:
   n=norm(t['title']); s=soft(t['title']); ids=set(exact.get(n,())); method='exact'
   if len(ids)!=1: ids=set(soft_idx.get(s,())) if s else set(); method='unique_soft_alias'
@@ -86,7 +100,7 @@ def main():
   best=sorted(g['images'],key=lambda x:(region_rank(x['region']),x['file']))[0]; url=best['url']; title_covers[n]=url
   if t.get('id') is not None: covers[str(t['id'])]=url
   recovered.append({**t,'launchboxDatabaseId':dbid,'launchboxName':g['name'],'matchMethod':method,'region':best['region'] or None,'fileName':best['file'],'url':url,'frontCandidateCount':len(g['images'])})
- summary={'targeted':len(targets),'recovered':len(recovered),'unresolvedNoMatch':len(no_match),'ambiguous':len(ambiguous),'matchedButNoBoxFront':len(no_front),'regionCounts':{},'metadataDiagnostics':{'gameImageRecords':image_records,'gameImagePs4Intersections':image_ps4,'ps4BoxFrontRecords':ps4_fronts,'topPs4ImageTypes':ps4_types.most_common(15)},'source':'LaunchBox Games Database Metadata.zip / Box - Front only'}
+ summary={'targeted':len(targets),'recoveredThisRun':len(recovered),'preserved':len(existing_titles),'totalLaunchBoxTitles':len(title_covers),'unresolvedNoMatch':len(no_match),'ambiguous':len(ambiguous),'matchedButNoBoxFront':len(no_front),'regionCounts':{},'metadataDiagnostics':{'gameImageRecords':image_records,'gameImagePs4Intersections':image_ps4,'ps4BoxFrontRecords':ps4_fronts,'topPs4ImageTypes':ps4_types.most_common(15)},'source':'LaunchBox Games Database Metadata.zip / Box - Front only'}
  for r in recovered:
   rg=r.get('region') or 'Unspecified'; summary['regionCounts'][rg]=summary['regionCounts'].get(rg,0)+1
  os.makedirs(os.path.dirname(OUT_JSON),exist_ok=True); json.dump({'summary':summary,'recovered':recovered,'unresolved':no_match,'ambiguous':ambiguous,'noFront':no_front},open(OUT_JSON,'w',encoding='utf-8'),indent=2,ensure_ascii=False)
