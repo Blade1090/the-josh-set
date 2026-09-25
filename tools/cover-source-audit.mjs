@@ -32,6 +32,8 @@ let launchbox={},launchboxTitles={};
 if(fs.existsSync('cover-launchbox-retail.js')){const lb=evalFile('cover-launchbox-retail.js');launchbox=lb.SHELFCHECK_LAUNCHBOX_COVERS||{};launchboxTitles=lb.SHELFCHECK_LAUNCHBOX_TITLES||{}}
 let pricecharting={};
 if(fs.existsSync('cover-pricecharting-retail.js')) pricecharting=evalFile('cover-pricecharting-retail.js').SHELFCHECK_PRICECHARTING_COVERS||{};
+let productInherit={};
+if(fs.existsSync('cover-product-inherit.js')) productInherit=evalFile('cover-product-inherit.js').SHELFCHECK_PRODUCT_INHERIT_COVERS||{};
 const titleMap=fs.existsSync('cover-title-overrides.js')?evalFile('cover-title-overrides.js').SHELFCHECK_TITLE_COVERS||{}:{};
 const base=manifest.SHELFCHECK_COVERS||{},final=afterOverrides.SHELFCHECK_COVERS||base;
 const rows=[];
@@ -39,6 +41,7 @@ for(const x of items.filter(v=>v.set==='INCLUDED').sort((a,b)=>a.title.localeCom
   const key=norm(x.title);let source,url;
   if(launchbox[x.id]||launchboxTitles[key]){source='LAUNCHBOX_BOX_FRONT';url=launchbox[x.id]||launchboxTitles[key]}
   else if(pricecharting[key]){source='PRICECHARTING_BOX_FRONT';url=pricecharting[key]}
+  else if(productInherit[key]){source='PRODUCT_BOX_FRONT';url=productInherit[key]}
   else if(titleMap[key]){source='CURATED_TITLE';url=titleMap[key]}
   else if(gameye[x.id]){source='GAMEYE';url=gameye[x.id]}
   else if(final[x.id]&&final[x.id]!==base[x.id]){source=/image\.api\.playstation\.com/.test(final[x.id])?'PS_STORE_OVERRIDE':'CURATED_ID';url=final[x.id]}
