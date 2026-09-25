@@ -7,6 +7,7 @@ on:
     paths:
       - 'tools/launchbox-cover-recovery.py'
       - 'tools/cover-source-audit.mjs'
+      - 'tools/cover-visual-audit.py'
       - 'maint-menu-v001.js'
       - '.github/workflows/launchbox-cover-recovery.yml'
 
@@ -60,7 +61,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git fetch origin "$BRANCH"
-          git checkout -B "$BRANCH" "origin/$BRANCH"
+          git reset --hard "origin/$BRANCH"
           cp /tmp/cover-launchbox-retail.js cover-launchbox-retail.js
           cp /tmp/launchbox-cover-recovery.json audit-out/launchbox-cover-recovery.json
           cp /tmp/cover-runtime-qa.json audit-out/cover-runtime-qa.json
@@ -72,6 +73,7 @@ jobs:
             git push origin HEAD:"$BRANCH"
           fi
       - name: Upload recovery audit
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: shelfcheck-launchbox-recovery
