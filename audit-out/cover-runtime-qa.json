@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-25T14:59:25.029Z",
+  "generatedAt": "2026-09-25T15:16:46.144Z",
   "summary": {
-    "generatedAt": "2026-09-25T14:59:25.029Z",
+    "generatedAt": "2026-09-25T15:16:46.144Z",
     "included": 2407,
     "good": 954,
     "fallback": 8,
-    "review": 1387,
-    "watch": 58,
-    "physicalVerify": 1355,
-    "physicalLikely": 1016,
+    "review": 1386,
+    "watch": 59,
+    "physicalVerify": 1356,
+    "physicalLikely": 1015,
     "physicalConfirmed": 36,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
@@ -16,10 +16,10 @@
     "manualFixedTracked": 91,
     "reviewByReason": {
       "key_art_only": 1297,
-      "missing_ps4_banner": 90
+      "missing_ps4_banner": 89
     },
     "watchByReason": {
-      "image_fetch_failed": 58
+      "image_fetch_failed": 59
     }
   },
   "review": [
@@ -5384,10 +5384,6 @@
       "reason": "missing_ps4_banner"
     },
     {
-      "title": "Alchemic Jousts",
-      "reason": "missing_ps4_banner"
-    },
-    {
       "title": "Another Crusade",
       "reason": "missing_ps4_banner"
     },
@@ -5609,6 +5605,10 @@
   "watch": [
     {
       "title": "8-Bit Adventure Anthology: Volume One",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "title": "Alchemic Jousts",
       "reason": "image_fetch_failed"
     },
     {
