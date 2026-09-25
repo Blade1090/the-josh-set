@@ -4,7 +4,7 @@
 - Base: main `f513842` (baseline GOOD 2049 / REVIEW 330 / WATCH 20 / FALLBACK 8)
 - Latest verified QA: GOOD 2176 / REVIEW 207 / WATCH 16 / FALLBACK 8 (0 baseline GOOD regressions)
 - Last completed batch: 7 (PriceCharting vetted aliases). Batches 1-7 all committed and pushed.
-- Next: Monday review. Automated sources are exhausted for the remaining queue (see `blockers` / `curatorReview` in `weekend-cover-remediation.json`).
+- Next: Monday. Open the draft PR manually (not created: no gh, browsers not signed in): https://github.com/Blade1090/the-josh-set/compare/main...art-department-weekend-final?expand=1 . Then review blockers/curatorReview in the checkpoint JSON.
 - Working tree: clean after final commit; pushed to origin.
 
 ## Gotchas

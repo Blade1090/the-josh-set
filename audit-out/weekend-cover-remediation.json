@@ -2823,6 +2823,7 @@
   }
  },
  "blockers": [
+  "Draft PR NOT created: no gh CLI on this machine, the in-app browser is not signed in to GitHub, and Claude in Chrome was not connected. Open it manually: https://github.com/Blade1090/the-josh-set/compare/main...art-department-weekend-final?expand=1 (body in draftPrBody).",
   "GameFAQs box images return HTTP 403 to automated audit fetches; 16 WATCH identities still point at GameFAQs and no alternate clean front was found on PriceCharting/TheGamesDB/vgdb/VideoGamesPlus/LaunchBox.",
   "Most remaining REVIEW identities only have 3D box renders (Limited Run / Strictly Limited / eastasiasoft shop art), case photos, or provisional/RP art online; these correctly fail the standard.",
   "Trim-and-rehost lever (not used, needs Josh decision): ~119 remaining identities have square-padded images that pass the banner gate once trimmed, but visual sampling shows most are 3D renders; only ~10-15 are genuine flat fronts. Would require hosting cropped copies in-repo and teaching cover-visual-audit.py to read local files.",
@@ -2830,7 +2831,7 @@
   "CLAUDE.md curator holds respected: Prototype (Biohazard Bundle path) and Pressure Overdrive left untouched."
  ],
  "lastVerified": "2026-09-25T21:31:06+00:00",
- "nextTask": "Monday: review draft PR; decide on trim-and-rehost lever; curator calls on curatorReview list. Automated sources (PriceCharting offline index all regions + vetted aliases, TheGamesDB, vgdb.uk, VideoGamesPlus, Limited Run, fresh LaunchBox) are exhausted for the remaining queue.",
+ "nextTask": "Monday: open the draft PR (link in blockers[0]); review; decide on trim-and-rehost lever; curator calls on curatorReview list.",
  "remainingSummary": {
   "total": 231,
   "review": 207,
@@ -2855,5 +2856,6 @@
   "DUSK — PriceCharting US image sits on the [Leathernecks Cover] variant product.",
   "Shenmue II — only physical path is Shenmue I & II; not mapped (no modeled compilation relationship; Shenmue I mapping follows the pre-existing curated choice).",
   "Journey Down chapters 1-3 — only physical is The Journey Down Trilogy (Strictly Limited); no census compilation relationship, not mapped."
- ]
+ ],
+ "draftPrBody": "Art Department weekend: PS4 cover-art remediation\n\nQA GOOD 2049->2176 (+127), REVIEW 330->207, WATCH 20->16, FALLBACK 8->8. Baseline GOOD set preserved (0 regressions, identity-level check every batch).\n\nSources: fresh LaunchBox Box - Front, PriceCharting product pages located via the private offline index (all regions and vetted same-game names), TheGamesDB PS4 fronts, vgdb.uk, VideoGamesPlus. Every accepted image was visually inspected. 3D renders, case photos, provisional/RP art and unrated mockups were rejected.\n\nFiles: cover-launchbox-retail.js, cover-pricecharting-retail.js, cover-title-overrides.js, regenerated audit-out cover QA. No changes to audit logic, census, or app features. Evidence: audit-out/weekend-cover-remediation.json.\n\nGenerated with [Claude Code](https://claude.com/claude-code)"
 }
