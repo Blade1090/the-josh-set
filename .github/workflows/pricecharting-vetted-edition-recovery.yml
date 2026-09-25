@@ -1,0 +1,82 @@
+name: ShelfCheck Vetted Edition Cover Recovery
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'tools/pricecharting-vetted-edition-recovery.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pricecharting-vetted-edition-recovery-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  recover:
+    if: github.ref != 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install image and HTML tooling
+        run: python -m pip install --disable-pip-version-check pillow beautifulsoup4
+      - name: Recover vetted same-game edition fronts
+        run: python tools/pricecharting-vetted-edition-recovery.py
+      - name: Rebuild source audit
+        run: node tools/cover-source-audit.mjs
+      - name: Re-run full visual audit
+        env:
+          COVER_AUDIT_WORKERS: '16'
+        run: python tools/cover-visual-audit.py
+      - name: Show recovery result
+        run: |
+          python - <<'PY'
+          import json
+          with open('audit-out/pricecharting-vetted-edition-recovery.json',encoding='utf-8') as f:
+              print('VETTED EDITION RECOVERY')
+              print(json.dumps(json.load(f)['summary'],indent=2))
+          with open('audit-out/cover-runtime-qa.json',encoding='utf-8') as f:
+              print('POST-RECOVERY AUDIT')
+              print(json.dumps(json.load(f)['summary'],indent=2))
+          PY
+      - name: Publish vetted edition recovery and QA
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          cp cover-pricecharting-retail.js /tmp/cover-pricecharting-retail.js
+          cp audit-out/pricecharting-vetted-edition-recovery.json /tmp/pricecharting-vetted-edition-recovery.json
+          cp audit-out/cover-runtime-qa.json /tmp/cover-runtime-qa.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin "$BRANCH"
+          git reset --hard "origin/$BRANCH"
+          cp /tmp/cover-pricecharting-retail.js cover-pricecharting-retail.js
+          cp /tmp/pricecharting-vetted-edition-recovery.json audit-out/pricecharting-vetted-edition-recovery.json
+          cp /tmp/cover-runtime-qa.json audit-out/cover-runtime-qa.json
+          git add cover-pricecharting-retail.js audit-out/pricecharting-vetted-edition-recovery.json audit-out/cover-runtime-qa.json
+          if git diff --cached --quiet; then
+            echo "Vetted edition recovery output unchanged."
+          else
+            git commit -m "Art Department: publish vetted edition cover recovery"
+            git push origin HEAD:"$BRANCH"
+          fi
+      - name: Upload recovery audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shelfcheck-vetted-edition-cover-recovery
+          path: |
+            cover-pricecharting-retail.js
+            audit-out/pricecharting-vetted-edition-recovery.json
+            audit-out/cover-source-audit.json
+            audit-out/cover-visual-audit.json
+            audit-out/cover-runtime-qa.json
+            audit-out/cover-review-queue.csv
