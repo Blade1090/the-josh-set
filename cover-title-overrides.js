@@ -70,7 +70,19 @@ window.SHELFCHECK_TITLE_COVERS={
   "bit trip presents runner2 future legend of rhythm alien":"https://limitedrungames.com/cdn/shop/products/Runner2-PS4.png?height=1080&v=1487891287",
   "streets of red":"https://limitedrungames.com/cdn/shop/products/AssetTemplateSER_PS4.png?height=1080&v=1579552336",
   "gear club unlimited 2":"https://gamefaqs.gamespot.com/a/box/2/9/1/853291_front.jpg",
-  "dragon ball the breakers":"https://gamefaqs.gamespot.com/a/box/5/6/6/900566_front.jpg"
+  "dragon ball the breakers":"https://gamefaqs.gamespot.com/a/box/5/6/6/900566_front.jpg",
+  "cannon dancer":"https://gamefaqs.gamespot.com/a/box/4/9/5/906495_front.jpg",
+  "worms anniversary edition":"https://gamefaqs.gamespot.com/a/box/7/2/1/1149721_front.jpg",
+  "embr uber firefighters":"https://gamefaqs.gamespot.com/a/box/5/1/2/822512_front.jpg",
+  "lapis re abyss":"https://gamefaqs.gamespot.com/a/box/1/8/6/711186_front.jpg",
+  "little dragons cafe":"https://gamefaqs.gamespot.com/a/box/7/6/2/701762_front.jpg",
+  "wobbledogs":"https://gamefaqs.gamespot.com/a/box/6/9/5/953695_front.jpg",
+  "ufo robot grendizer":"https://gamefaqs.gamespot.com/a/box/2/2/4/840224_front.jpg",
+  "xiii remake":"https://gamefaqs.gamespot.com/a/box/8/1/1/856811_front.jpg",
+  "the first tree console edition":"https://gamefaqs.gamespot.com/a/box/7/7/9/851779_front.jpg",
+  "trouble witches final episode 1 daughters of amalgam":"https://gamefaqs.gamespot.com/a/box/5/8/1/964581_front.jpg",
+  "zero tsukihami no kamen":"https://gamefaqs.gamespot.com/a/box/5/1/6/917516_front.jpg",
+  "scourge bringer":"https://www.pixnlove.com/2793-large_default/scourgebringer-ps4.jpg"
 };
 
 // Art Department quality gate. Browser-only: CI evaluates this file in a VM without DOM APIs.
