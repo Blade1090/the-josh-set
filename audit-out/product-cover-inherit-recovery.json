@@ -1,123 +1,16 @@
 {
   "summary": {
-    "targeted": 448,
-    "preserved": 0,
-    "acceptedThisRun": 6,
+    "targeted": 442,
+    "preserved": 6,
+    "acceptedThisRun": 0,
     "totalInheritedCovers": 6,
     "noKnownProductCover": 415,
     "rejectedProductCover": 27,
-    "validatedUniqueProductImages": 21,
-    "productCounts": {
-      "Spyro Reignited Trilogy": 3,
-      "The Banner Saga Trilogy: Bonus Edition": 2,
-      "Trine: Ultimate Collection": 1
-    },
+    "validatedUniqueProductImages": 18,
+    "productCounts": {},
     "standard": "identity is explicitly covered by DATA.p physical product + manifest product cover passes straight portrait + strong blue PS4-header gate"
   },
-  "accepted": [
-    {
-      "id": 2106,
-      "title": "Spyro 2: Ripto's Rage!",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "productKey": "spyro reignited trilogy",
-      "productTitle": "Spyro Reignited Trilogy",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobaat.jpg",
-      "coverageCount": 3,
-      "metrics": {
-        "width": 264,
-        "height": 352,
-        "aspect": 0.75,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.6401
-      }
-    },
-    {
-      "id": 2105,
-      "title": "Spyro the Dragon",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "productKey": "spyro reignited trilogy",
-      "productTitle": "Spyro Reignited Trilogy",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobaat.jpg",
-      "coverageCount": 3,
-      "metrics": {
-        "width": 264,
-        "height": 352,
-        "aspect": 0.75,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.6401
-      }
-    },
-    {
-      "id": 2107,
-      "title": "Spyro: Year of the Dragon",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "productKey": "spyro reignited trilogy",
-      "productTitle": "Spyro Reignited Trilogy",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobaat.jpg",
-      "coverageCount": 3,
-      "metrics": {
-        "width": 264,
-        "height": 352,
-        "aspect": 0.75,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.6401
-      }
-    },
-    {
-      "id": 2220,
-      "title": "The Banner Saga 2",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "productKey": "the banner saga trilogy bonus edition",
-      "productTitle": "The Banner Saga Trilogy: Bonus Edition",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/jodqwtoyunscirlei2az.jpg",
-      "coverageCount": 3,
-      "metrics": {
-        "width": 264,
-        "height": 329,
-        "aspect": 0.8024,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.5144
-      }
-    },
-    {
-      "id": 2221,
-      "title": "The Banner Saga 3",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "productKey": "the banner saga trilogy bonus edition",
-      "productTitle": "The Banner Saga Trilogy: Bonus Edition",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/jodqwtoyunscirlei2az.jpg",
-      "coverageCount": 3,
-      "metrics": {
-        "width": 264,
-        "height": 329,
-        "aspect": 0.8024,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.5144
-      }
-    },
-    {
-      "id": 2124,
-      "title": "Trine 2: Complete Story",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "productKey": "trine ultimate collection",
-      "productTitle": "Trine: Ultimate Collection",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1krs.jpg",
-      "coverageCount": 4,
-      "metrics": {
-        "width": 264,
-        "height": 352,
-        "aspect": 0.75,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.7716
-      }
-    }
-  ],
+  "accepted": [],
   "noProduct": [
     {
       "id": 2037,
