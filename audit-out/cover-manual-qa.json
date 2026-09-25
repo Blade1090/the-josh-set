@@ -1,13 +1,8 @@
 {
-  "updatedAt": "2026-09-25T10:22:00-04:00",
+  "updatedAt": "2026-09-25T10:34:00-04:00",
   "notes": "Art Department QA synchronized to the live census. confirmed_bad contains only included identities with unresolved art. fallback is verified physical-package art that may remain visible while a cleaner straight-on front is sought. fixed is retained for regression checking. eligibility is reserved for unresolved physical-release verification.",
   "confirmed_bad": [
-    {"title":"Now That's What I Call Sing","reason":"no approved physical PS4 front cover source"},
-    {"title":"Dead Craft","reason":"current source is PlayStation Store/digital art; no qualifying PS4 physical release has been verified"},
-    {"title":"Fahrenheit","reason":"current source is PlayStation Store/digital art; physical PS4 front cover not yet approved"},
-    {"title":"Ganryu 2: Hakuma Kojiro","reason":"current source is PlayStation Store/digital art; physical PS4 front cover not yet approved"},
-    {"title":"Neptunia VS Titan Dogoo","reason":"current source is PlayStation Store/digital art; physical PS4 front cover not yet approved"},
-    {"title":"Warui Ousama To Rippana Yuusha","reason":"current source is PlayStation Store/digital art; physical PS4 front cover not yet approved"}
+    {"title":"Dead Craft","reason":"current source is PlayStation Store/digital art; no qualifying PS4 physical release has been verified"}
   ],
   "fallback": [
     {"title":"ADK Tamashii","reason":"real physical product shot, but angled instead of clean straight-on front"},
@@ -24,7 +19,8 @@
     {"title":"Streets of Red"},{"title":"Bit.Trip Presents...Runner2: Future Legend of Rhythm Alien"},{"title":"Dragon Ball: The Breakers"},{"title":"Gear Club Unlimited 2"},{"title":"Noob: Les Sans-Factions"},{"title":"Oddworld: Abe's Oddysee - New 'n' Tasty"},{"title":"Shenmue I"},{"title":"SturmFront - The Mutant War: Übel Edition"},{"title":"Söldner-X 2: Final Prototype Definitive Edition"},{"title":"The Walking Dead: Michonne - A Telltale Miniseries"},
     {"title":"Cannon Dancer"},{"title":"Worms Anniversary Edition"},{"title":"Embr: Uber Firefighters"},{"title":"Lapis Re Abyss"},{"title":"Little Dragons Cafe"},{"title":"Wobbledogs"},{"title":"UFO Robot Grendizer"},{"title":"XIII (Remake)"},{"title":"The First Tree: Console Edition"},{"title":"Trouble Witches Final: Episode 1 - Daughters of Amalgam"},{"title":"Zero: Tsukihami No Kamen"},
     {"title":"One Piece Unlimited World Red"},{"title":"Quintessential Quintuplets Fives Memories With You"},{"title":"Get Star / Guardian"},{"title":"Kyukyoku Tiger / Twin Cobra"},{"title":"Malnazidos"},{"title":"Q.U.B.E."},{"title":"Resonance of Fate 4K / HD Edition"},{"title":"Stranded Sails: Explorers of the Cursed Islands"},{"title":"Tadeo Jones: La Tabla Esmeralda"},{"title":"Tales from the Borderlands: A Telltale Game Series"},{"title":"Tomb Raider"},{"title":"Tomb Raider II"},{"title":"Tomb Raider III: Adventures of Lara Croft"},{"title":"Tomb Raider: Chronicles"},{"title":"Tomb Raider: The Angel of Darkness"},{"title":"Tomb Raider: The Last Revelation"},{"title":"Tony Hawk's Pro Skater 3 + 4"},{"title":"Wonderland TOD-Reloaded"},
-    {"title":"Rolling Gunner"},{"title":"Tokyo Twilight Ghost Hunters"},{"title":"Cyanide & Happiness - Freakpocalypse (Episode 1)"},{"title":"GRIP: Combat Racing"},{"title":"Kingdom Hearts HD I.5 + II.5 Remix"}
+    {"title":"Rolling Gunner"},{"title":"Tokyo Twilight Ghost Hunters"},{"title":"Cyanide & Happiness - Freakpocalypse (Episode 1)"},{"title":"GRIP: Combat Racing"},{"title":"Kingdom Hearts HD I.5 + II.5 Remix"},
+    {"title":"Now That's What I Call Sing"},{"title":"Fahrenheit"},{"title":"Ganryu 2: Hakuma Kojiro"},{"title":"Neptunia VS Titan Dogoo"},{"title":"Warui Ousama To Rippana Yuusha"}
   ],
   "eligibility": [
     {"title":"Paper Dolls","reason":"PS4 release records found only as PlayStation Store/download; no physical PS4 release verified"}
