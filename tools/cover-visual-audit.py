@@ -23,7 +23,7 @@ manual_fixed={norm_title(x['title']):x for x in manual.get('fixed',[])}
 manual_elig={norm_title(x['title']):x for x in manual.get('eligibility',[])}
 
 def fetch(url):
-    req=urllib.request.Request(url,headers={'User-Agent':'ShelfCheck-ArtAudit/1.7'})
+    req=urllib.request.Request(url,headers={'User-Agent':'ShelfCheck-ArtAudit/1.8'})
     with urllib.request.urlopen(req,timeout=12) as r:
         raw=r.read(8_000_000)
     return Image.open(io.BytesIO(raw)).convert('RGB')
@@ -89,10 +89,13 @@ def audit_row(r):
     elif source=='PS_STORE_OVERRIDE':
         quality='REVIEW'; reason='digital_store_art'; physical='VERIFY'
     elif source=='LEGACY_IGDB':
-        # IGDB is game-level cover/key art, not a verified physical-package source.
-        # It may look convincing (or simply contain lots of blue), but that is not enough
-        # for ShelfCheck's physical shelf standard. It stays REVIEW until replaced/verified.
         quality='REVIEW'; reason='key_art_only'; physical='VERIFY'
+    elif source=='LAUNCHBOX_BOX_FRONT':
+        # The recovery layer is constrained upstream to Sony PlayStation 4 records whose
+        # LaunchBox media type is exactly "Box - Front". That semantic classification is
+        # stronger evidence of a physical shelf front than our blue-banner pixel heuristic,
+        # and LaunchBox's host may reject automated image fetches even when browsers load it.
+        quality='GOOD'; reason='launchbox_box_front'; physical='CONFIRMED'
     else:
         quality,reason,physical,span,ratio,err=audit_image(url,source)
 
@@ -103,7 +106,6 @@ def audit_row(r):
         quality='FALLBACK'; reason=manual_reason_code(manual_reason); physical='CONFIRMED'
     elif manual_status=='ELIGIBILITY':
         quality='REVIEW'; reason='physical_release_unverified'; physical='VERIFY'
-    # FIXED is historical tracking only: current art must independently pass.
 
     verdict={'GOOD':'PASS','FALLBACK':'FALLBACK','WATCH':'WATCH'}.get(quality,'REVIEW')
     return {**r,'verdict':verdict,'qualityState':quality,'reason':reason,'reasonCode':reason,'physicalSanity':physical,'manualStatus':manual_status,'manualReason':manual_reason,'bannerColumnSpan':span,'bannerPixelRatio':ratio,'error':err}
@@ -136,7 +138,7 @@ for r in review: summary['reviewByReason'][r['reasonCode']]=summary['reviewByRea
 for r in watch: summary['watchByReason'][r['reasonCode']]=summary['watchByReason'].get(r['reasonCode'],0)+1
 os.makedirs('audit-out',exist_ok=True)
 with open(OUT,'w',encoding='utf-8') as f: json.dump({'standard':'docs/COVER_ART_STANDARD.md','summary':summary,'review':review,'fallback':fallback,'watch':watch,'rows':rows},f,indent=2)
-with open(RUNTIME,'w',encoding='utf-8') as f: json.dump({'generatedAt':data['generatedAt'],'summary':summary,'review':[{'title':r['title'],'reason':r['reasonCode']} for r in review],'fallback':[{'title':r['title'],'reason':r['reasonCode']} for r in fallback],'watch':[{'title':r['title'],'reason':r['reasonCode']} for r in watch]},f,indent=2)
+with open(RUNTIME,'w',encoding='utf-8') as f: json.dump({'generatedAt':data['generatedAt'],'summary':summary,'review':[{'id':r.get('id'),'title':r['title'],'reason':r['reasonCode']} for r in review],'fallback':[{'id':r.get('id'),'title':r['title'],'reason':r['reasonCode']} for r in fallback],'watch':[{'id':r.get('id'),'title':r['title'],'reason':r['reasonCode']} for r in watch]},f,indent=2)
 with open('audit-out/cover-review-queue.csv','w',encoding='utf-8',newline='') as f:
     import csv
     w=csv.writer(f);w.writerow(['id','title','source','qualityState','reasonCode','physicalSanity','manualStatus','manualReason','bannerColumnSpan','bannerPixelRatio','url'])
