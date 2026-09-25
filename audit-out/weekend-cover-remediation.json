@@ -8,21 +8,21 @@
   "fallback": 8
  },
  "branch": "art-department-weekend-final",
- "currentVerifiedCommit": "d22e414ab67cc775bea90c9baa68aed0889d848c (parent of the batch commit that records this checkpoint)",
+ "currentVerifiedCommit": "bbfb063e31657a39aedfe29739a6d18f5fcd5e51 (parent of the batch commit that records this checkpoint)",
  "currentQA": {
   "included": 2407,
-  "good": 2155,
-  "review": 225,
-  "watch": 19,
+  "good": 2167,
+  "review": 214,
+  "watch": 18,
   "fallback": 8
  },
  "totals": {
-  "attempted": 331,
-  "accepted": 106,
-  "rejected": 56,
-  "goodGained": 106,
-  "reviewCleared": 105,
-  "watchCleared": 1,
+  "attempted": 352,
+  "accepted": 118,
+  "rejected": 66,
+  "goodGained": 118,
+  "reviewCleared": 116,
+  "watchCleared": 2,
   "fallbackChange": 0
  },
  "batches": [
@@ -1308,12 +1308,194 @@
    ],
    "goodGained": 10,
    "baselineGoodRegressions": 0
+  },
+  {
+   "batch": 5,
+   "name": "recover edition-alias fronts",
+   "before": {
+    "included": 2407,
+    "good": 2155,
+    "review": 225,
+    "watch": 19,
+    "fallback": 8
+   },
+   "after": {
+    "included": 2407,
+    "good": 2167,
+    "review": 214,
+    "watch": 18,
+    "fallback": 8
+   },
+   "attempted": 21,
+   "accepted": [
+    {
+     "id": 1992,
+     "title": "Another World",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/56047-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front (vetted edition/full-title alias): Another World: 20th Anniversary Edition"
+    },
+    {
+     "id": 2515,
+     "title": "Behind the Frame",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/121299-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front (vetted edition/full-title alias): Behind the Frame: The Finest Scenery"
+    },
+    {
+     "id": 2532,
+     "title": "Bomb Rush Cyberfunk",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/121702-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front (vetted edition/full-title alias): Bomb Rush Cyberfunk [iam8bit Exclusive Edition]"
+    },
+    {
+     "id": 2563,
+     "title": "Dark Pictures: The Devil in Me",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/94743-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front (vetted edition/full-title alias): The Dark Pictures Anthology: The Devil in Me"
+    },
+    {
+     "id": 1646,
+     "title": "Is It Wrong To Try To Pick Up Girls In A Dungeon? - Infinite Combate",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/68243-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front (vetted edition/full-title alias): Is It Wrong To Try To Pick Up Girls In A Dungeon: Infinite Combat "
+    },
+    {
+     "id": 1875,
+     "title": "Taimumari",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/110275-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front (vetted edition/full-title alias): Taimumari Complete Edition "
+    },
+    {
+     "id": 1743,
+     "title": "Tannenberg",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/101034-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front (vetted edition/full-title alias): WWI Tannenberg: Eastern Front"
+    },
+    {
+     "id": 2770,
+     "title": "You Suck at Parking",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/9cafc54d2d4f1c391724f76416ee4ca10f0b18157efb4d1619235994450fb279/1600.jpg",
+     "region": "PAL",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): You Suck at Parking [Complete Edition]"
+    },
+    {
+     "id": 2772,
+     "title": "Young Souls",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/nud7uirjdw6xquba/1600.jpg",
+     "region": "JP",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): Young Souls"
+    },
+    {
+     "id": 2777,
+     "title": "Yurukill: The Calumniation Games",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/101312-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front (vetted edition/full-title alias): Yurukill: The Calumniation Games [Deluxe Edition]"
+    },
+    {
+     "id": 1235,
+     "title": "The Dark Pictures - Little Hope",
+     "layer": "title",
+     "url": "https://cdn.shopify.com/s/files/1/0557/5868/4333/products/PS4_DARKPICTURES_LITTLEHOPE.jpg?v=1618123714",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; VideoGamesPlus product image: The Dark Pictures: Little Hope - PS4"
+    },
+    {
+     "id": 1366,
+     "title": "Troll and I",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94BQmB3WynWrPgihdPreWma1lJzMIEC9waytJD2eMA_DKeAMdAGv9r7k7wwZryuvDy0X37wFBwNa87SMzdfMTknQY_dRiwdPBoLLgy9urRATPHmizJ4_90nOLwzgABBibWQkPkx0-30fepsmytQNnVqxD7a9w/1600.jpg",
+     "region": "PAL",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): Troll and I"
+    }
+   ],
+   "rejected": [
+    {
+     "id": 2533,
+     "title": "Bounty Battle",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/104822-1.jpg",
+     "reason": "PEGI PROVISIONAL pre-release art"
+    },
+    {
+     "id": 291,
+     "title": "Damascus Gear: Operation Osaka",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/67061-1.jpg",
+     "reason": "no rating marks; uncertain"
+    },
+    {
+     "id": 1809,
+     "title": "Ground Zero: Texas",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/92184-1.jpg",
+     "reason": "3D render and ESRB RP"
+    },
+    {
+     "id": 1638,
+     "title": "Hidden Through Time",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/111093-1.jpg",
+     "reason": "PEGI PROVISIONAL pre-release art"
+    },
+    {
+     "id": 2018,
+     "title": "SOL CRESTA",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/109812-1.jpg",
+     "reason": "3D box render"
+    },
+    {
+     "id": 1949,
+     "title": "Smashing the Battle: Ghost Soul",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/94764-1.jpg",
+     "reason": "3D box render"
+    },
+    {
+     "id": 1854,
+     "title": "Super Zangyura",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/117206-1.jpg",
+     "reason": "3D box render with spine"
+    },
+    {
+     "id": 1402,
+     "title": "VESTA",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/54470-1.jpg",
+     "reason": "no rating marks; uncertain"
+    },
+    {
+     "id": 1948,
+     "title": "Wife Quest",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/101996-1.jpg",
+     "reason": "3D box render"
+    },
+    {
+     "id": 2358,
+     "title": "Transformers: Earthspark - Expedition",
+     "candidate": "https://storage.googleapis.com/images.pricecharting.com/f1369a3c9ce3233b0a9a4aa8ef3bfca82346cbabb1dbfdce748d9d5d53b25579/1600.jpg",
+     "reason": "PEGI PROVISIONAL pre-release art"
+    }
+   ],
+   "goodGained": 12,
+   "baselineGoodRegressions": 0
   }
  ],
  "sourcesUsed": [
   "LaunchBox Box - Front (fresh Metadata.zip)",
   "PriceCharting product pages via offline-index IDs",
   "TheGamesDB PS4 boxart front",
+  "TheGamesDB vetted aliases",
   "VideoGamesPlus product images",
   "vgdb.uk cover scans"
  ],
@@ -1340,11 +1522,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 2515,
-    "title": "Behind the Frame",
-    "reason": "key_art_only"
-   },
-   {
     "id": 2518,
     "title": "Beyond Enemy Lines 2: Enhanced Edition",
     "reason": "key_art_only"
@@ -1362,11 +1539,6 @@
    {
     "id": 1964,
     "title": "Blast Brigade vs. the Evil Legion of Dr. Cread",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2532,
-    "title": "Bomb Rush Cyberfunk",
     "reason": "key_art_only"
    },
    {
@@ -1592,11 +1764,6 @@
    {
     "id": 2243,
     "title": "Irem Collection Volume 1",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1646,
-    "title": "Is It Wrong To Try To Pick Up Girls In A Dungeon? - Infinite Combate",
     "reason": "key_art_only"
    },
    {
@@ -2050,11 +2217,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 1875,
-    "title": "Taimumari",
-    "reason": "key_art_only"
-   },
-   {
     "id": 2733,
     "title": "Tales of the Neon Sea",
     "reason": "key_art_only"
@@ -2062,11 +2224,6 @@
    {
     "id": 1203,
     "title": "Tamashii",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1743,
-    "title": "Tannenberg",
     "reason": "key_art_only"
    },
    {
@@ -2172,11 +2329,6 @@
    {
     "id": 1360,
     "title": "Trials of the Blood Dragon",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1366,
-    "title": "Troll and I",
     "reason": "key_art_only"
    },
    {
@@ -2305,23 +2457,8 @@
     "reason": "key_art_only"
    },
    {
-    "id": 2770,
-    "title": "You Suck at Parking",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2772,
-    "title": "Young Souls",
-    "reason": "key_art_only"
-   },
-   {
     "id": 2775,
     "title": "Ys Vs. Trails In The Sky: Alternative Saga",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2777,
-    "title": "Yurukill: The Calumniation Games",
     "reason": "key_art_only"
    },
    {
@@ -2345,18 +2482,8 @@
     "reason": "missing_ps4_banner"
    },
    {
-    "id": 2563,
-    "title": "Dark Pictures: The Devil in Me",
-    "reason": "missing_ps4_banner"
-   },
-   {
     "id": 1631,
     "title": "GunLord X",
-    "reason": "missing_ps4_banner"
-   },
-   {
-    "id": 1235,
-    "title": "The Dark Pictures - Little Hope",
     "reason": "missing_ps4_banner"
    },
    {
@@ -2449,11 +2576,6 @@
    {
     "id": 14,
     "title": "8-Bit Adventure Anthology: Volume One",
-    "reason": "image_fetch_failed"
-   },
-   {
-    "id": 1992,
-    "title": "Another World",
     "reason": "image_fetch_failed"
    },
    {
@@ -2585,16 +2707,16 @@
    }
   ],
   "reviewByReason": {
-   "key_art_only": 203,
-   "missing_ps4_banner": 22
+   "key_art_only": 194,
+   "missing_ps4_banner": 20
   },
   "watchByReason": {
-   "image_fetch_failed": 19
+   "image_fetch_failed": 18
   }
  },
  "blockers": [
   "GameFAQs box images return HTTP 403 to automated audit fetches (all 20 WATCH items); audit cannot verify them, so they need alternate hosts."
  ],
- "lastVerified": "2026-09-25T21:14:57+00:00",
- "nextTask": "5 — VideoGamesPlus crawl candidates + remaining PC crawl + WATCH alternates"
+ "lastVerified": "2026-09-25T21:20:20+00:00",
+ "nextTask": "6 — remaining PC crawl candidates (WATCH tail), then residual-queue triage"
 }

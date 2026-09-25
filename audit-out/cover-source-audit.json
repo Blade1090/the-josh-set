@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-25T21:12:35.875Z",
+  "generatedAt": "2026-09-25T21:18:04.626Z",
   "included": 2407,
   "counts": {
-    "CURATED_ID": 6,
-    "CURATED_TITLE": 129,
+    "CURATED_ID": 4,
+    "CURATED_TITLE": 137,
     "GAMEYE": 937,
     "LAUNCHBOX_BOX_FRONT": 688,
-    "LEGACY_IGDB": 203,
-    "PRICECHARTING_BOX_FRONT": 397,
+    "LEGACY_IGDB": 194,
+    "PRICECHARTING_BOX_FRONT": 400,
     "PRODUCT_BOX_FRONT": 47
   },
   "rows": [
@@ -729,7 +729,7 @@
       "id": 1992,
       "title": "Another World",
       "source": "CURATED_TITLE",
-      "url": "https://gamefaqs.gamespot.com/a/box/4/5/2/721452_front.jpg"
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/56047-1.jpg"
     },
     {
       "id": 2444,
@@ -1562,8 +1562,8 @@
     {
       "id": 2515,
       "title": "Behind the Frame",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co36h5.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/121299-1.jpg"
     },
     {
       "id": 2516,
@@ -1988,8 +1988,8 @@
     {
       "id": 2532,
       "title": "Bomb Rush Cyberfunk",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ya8.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/121702-1.jpg"
     },
     {
       "id": 195,
@@ -3158,8 +3158,8 @@
     {
       "id": 2563,
       "title": "Dark Pictures: The Devil in Me",
-      "source": "CURATED_ID",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coamte.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/94743-1.jpg"
     },
     {
       "id": 1810,
@@ -6206,8 +6206,8 @@
     {
       "id": 1646,
       "title": "Is It Wrong To Try To Pick Up Girls In A Dungeon? - Infinite Combate",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2m8z.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/68243-1.jpg"
     },
     {
       "id": 2617,
@@ -11804,8 +11804,8 @@
     {
       "id": 1875,
       "title": "Taimumari",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rn2.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/110275-1.jpg"
     },
     {
       "id": 1198,
@@ -11870,8 +11870,8 @@
     {
       "id": 1743,
       "title": "Tannenberg",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2c7p.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/101034-1.jpg"
     },
     {
       "id": 2407,
@@ -12158,8 +12158,8 @@
     {
       "id": 1235,
       "title": "The Dark Pictures - Little Hope",
-      "source": "CURATED_ID",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20xn.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.shopify.com/s/files/1/0557/5868/4333/products/PS4_DARKPICTURES_LITTLEHOPE.jpg?v=1618123714"
     },
     {
       "id": 1943,
@@ -13130,8 +13130,8 @@
     {
       "id": 1366,
       "title": "Troll and I",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2it2.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94BQmB3WynWrPgihdPreWma1lJzMIEC9waytJD2eMA_DKeAMdAGv9r7k7wwZryuvDy0X37wFBwNa87SMzdfMTknQY_dRiwdPBoLLgy9urRATPHmizJ4_90nOLwzgABBibWQkPkx0-30fepsmytQNnVqxD7a9w/1600.jpg"
     },
     {
       "id": 1367,
@@ -14276,14 +14276,14 @@
     {
       "id": 2770,
       "title": "You Suck at Parking",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co59yn.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/9cafc54d2d4f1c391724f76416ee4ca10f0b18157efb4d1619235994450fb279/1600.jpg"
     },
     {
       "id": 2772,
       "title": "Young Souls",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4kal.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/nud7uirjdw6xquba/1600.jpg"
     },
     {
       "id": 2773,
@@ -14348,8 +14348,8 @@
     {
       "id": 2777,
       "title": "Yurukill: The Calumniation Games",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4p28.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/101312-1.jpg"
     },
     {
       "id": 2085,

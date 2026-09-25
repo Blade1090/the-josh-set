@@ -59,7 +59,7 @@ window.SHELFCHECK_TITLE_COVERS={
   "the elder scrolls online tamriel unlimited":"https://gamefaqs.gamespot.com/a/box/0/1/3/325013_front.jpg",
   "ys memories of celceta kai":"https://gamefaqs.gamespot.com/a/box/8/5/9/721859_front.jpg",
   "tiger heli":"https://gamefaqs.gamespot.com/a/box/7/4/5/825745_front.jpg",
-  "another world":"https://gamefaqs.gamespot.com/a/box/4/5/2/721452_front.jpg",
+  "another world":"https://cdn.thegamesdb.net/images/original/boxart/front/56047-1.jpg",
   "mighty gunvolt burst":"https://limitedrungames.com/cdn/shop/products/mighty-gunvolt-burst-ps4-lrg.png?height=1080&v=1660241946",
   "oddworld abes oddysee new n tasty":"https://gamefaqs.gamespot.com/a/box/8/5/8/790858_front.jpg",
   "sturmfront the mutant war ubel edition":"https://gamefaqs.gamespot.com/a/box/8/7/0/809870_front.jpg",
@@ -186,7 +186,15 @@ window.SHELFCHECK_TITLE_COVERS={
   "necromunda hired gun":"https://cdn.shopify.com/s/files/1/0557/5868/4333/files/VGP0014257_6746c2fe-a1e3-4975-8e94-2830334f87a3.jpg?v=1692291610",
   "tales of graces f remastered":"https://cdn.shopify.com/s/files/1/0557/5868/4333/files/81zsPiQJbDL._AC_SL1500.jpg?v=1727360209",
   "the legend of nayuta boundless trails":"https://cdn.shopify.com/s/files/1/0557/5868/4333/files/Nayuta_BoundlessPS4.jpg?v=1777311338",
-  "xeno crisis":"https://cdn.shopify.com/s/files/1/0557/5868/4333/files/Xeno_Crisis_PS4_T_Front_Cover.jpg?v=1779996464"
+  "xeno crisis":"https://cdn.shopify.com/s/files/1/0557/5868/4333/files/Xeno_Crisis_PS4_T_Front_Cover.jpg?v=1779996464",
+  "behind the frame":"https://cdn.thegamesdb.net/images/original/boxart/front/121299-1.jpg",
+  "bomb rush cyberfunk":"https://cdn.thegamesdb.net/images/original/boxart/front/121702-1.jpg",
+  "dark pictures the devil in me":"https://cdn.thegamesdb.net/images/original/boxart/front/94743-1.jpg",
+  "is it wrong to try to pick up girls in a dungeon infinite combate":"https://cdn.thegamesdb.net/images/original/boxart/front/68243-1.jpg",
+  "taimumari":"https://cdn.thegamesdb.net/images/original/boxart/front/110275-1.jpg",
+  "tannenberg":"https://cdn.thegamesdb.net/images/original/boxart/front/101034-1.jpg",
+  "yurukill the calumniation games":"https://cdn.thegamesdb.net/images/original/boxart/front/101312-1.jpg",
+  "the dark pictures little hope":"https://cdn.shopify.com/s/files/1/0557/5868/4333/products/PS4_DARKPICTURES_LITTLEHOPE.jpg?v=1618123714"
 };
 
 // Art Department quality gate. Browser-only: CI evaluates this file in a VM without DOM APIs.

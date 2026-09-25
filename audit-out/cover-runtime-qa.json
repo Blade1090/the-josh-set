@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-25T21:12:35.875Z",
+  "generatedAt": "2026-09-25T21:18:04.626Z",
   "summary": {
-    "generatedAt": "2026-09-25T21:12:35.875Z",
+    "generatedAt": "2026-09-25T21:18:04.626Z",
     "included": 2407,
-    "good": 2155,
+    "good": 2167,
     "fallback": 8,
-    "review": 225,
-    "watch": 19,
-    "physicalVerify": 222,
-    "physicalLikely": 1390,
-    "physicalConfirmed": 795,
+    "review": 214,
+    "watch": 18,
+    "physicalVerify": 212,
+    "physicalLikely": 1391,
+    "physicalConfirmed": 804,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "key_art_only": 203,
-      "missing_ps4_banner": 22
+      "key_art_only": 194,
+      "missing_ps4_banner": 20
     },
     "watchByReason": {
-      "image_fetch_failed": 19
+      "image_fetch_failed": 18
     }
   },
   "review": [
@@ -44,11 +44,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2515,
-      "title": "Behind the Frame",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2518,
       "title": "Beyond Enemy Lines 2: Enhanced Edition",
       "reason": "key_art_only"
@@ -66,11 +61,6 @@
     {
       "id": 1964,
       "title": "Blast Brigade vs. the Evil Legion of Dr. Cread",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2532,
-      "title": "Bomb Rush Cyberfunk",
       "reason": "key_art_only"
     },
     {
@@ -296,11 +286,6 @@
     {
       "id": 2243,
       "title": "Irem Collection Volume 1",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1646,
-      "title": "Is It Wrong To Try To Pick Up Girls In A Dungeon? - Infinite Combate",
       "reason": "key_art_only"
     },
     {
@@ -754,11 +739,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1875,
-      "title": "Taimumari",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2733,
       "title": "Tales of the Neon Sea",
       "reason": "key_art_only"
@@ -766,11 +746,6 @@
     {
       "id": 1203,
       "title": "Tamashii",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1743,
-      "title": "Tannenberg",
       "reason": "key_art_only"
     },
     {
@@ -876,11 +851,6 @@
     {
       "id": 1360,
       "title": "Trials of the Blood Dragon",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1366,
-      "title": "Troll and I",
       "reason": "key_art_only"
     },
     {
@@ -1009,23 +979,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2770,
-      "title": "You Suck at Parking",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2772,
-      "title": "Young Souls",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2775,
       "title": "Ys Vs. Trails In The Sky: Alternative Saga",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2777,
-      "title": "Yurukill: The Calumniation Games",
       "reason": "key_art_only"
     },
     {
@@ -1049,18 +1004,8 @@
       "reason": "missing_ps4_banner"
     },
     {
-      "id": 2563,
-      "title": "Dark Pictures: The Devil in Me",
-      "reason": "missing_ps4_banner"
-    },
-    {
       "id": 1631,
       "title": "GunLord X",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 1235,
-      "title": "The Dark Pictures - Little Hope",
       "reason": "missing_ps4_banner"
     },
     {
@@ -1195,11 +1140,6 @@
     {
       "id": 14,
       "title": "8-Bit Adventure Anthology: Volume One",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 1992,
-      "title": "Another World",
       "reason": "image_fetch_failed"
     },
     {
