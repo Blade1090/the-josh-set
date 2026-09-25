@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-25T20:54:01.620Z",
+  "generatedAt": "2026-09-25T20:59:07.398Z",
   "included": 2407,
   "counts": {
     "CURATED_ID": 7,
-    "CURATED_TITLE": 56,
+    "CURATED_TITLE": 87,
     "GAMEYE": 938,
     "LAUNCHBOX_BOX_FRONT": 688,
-    "LEGACY_IGDB": 296,
-    "PRICECHARTING_BOX_FRONT": 375,
+    "LEGACY_IGDB": 255,
+    "PRICECHARTING_BOX_FRONT": 385,
     "PRODUCT_BOX_FRONT": 47
   },
   "rows": [
@@ -536,8 +536,8 @@
     {
       "id": 2482,
       "title": "Alice Gear Aegis CS: Concerto of Simulatrix",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob6ec.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/7ad687a1c0ff67e60905ef0e9c2d9f14efa1d02baab6c96be2208db426febd3a/1600.jpg"
     },
     {
       "id": 64,
@@ -758,8 +758,8 @@
     {
       "id": 81,
       "title": "Apex Legends",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocqh2.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/6a4dba35a233dc0119857ffbd9ef9c86326227fab7b21b8be0225f3ab1fcd4e3/1600.jpg"
     },
     {
       "id": 2275,
@@ -2264,8 +2264,8 @@
     {
       "id": 2542,
       "title": "Bus Simulator",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28vz.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/91088-1.jpg"
     },
     {
       "id": 2543,
@@ -2540,8 +2540,8 @@
     {
       "id": 2550,
       "title": "Chef Life: A Restaurant Simulator",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4hwz.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/a692866d1445a23f396f4dd20563a0b45b454900ea3da7cc31e370f541007c17/1600.jpg"
     },
     {
       "id": 2295,
@@ -2732,8 +2732,8 @@
     {
       "id": 1892,
       "title": "Colt Canyon",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co29r7.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/120961-1.jpg"
     },
     {
       "id": 2214,
@@ -2906,8 +2906,8 @@
     {
       "id": 1595,
       "title": "Crashbots",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co249m.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/99766-1.jpg"
     },
     {
       "id": 275,
@@ -4958,8 +4958,8 @@
     {
       "id": 1626,
       "title": "Galaxy of Pen & Paper +1 Edition",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7fps.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/121309-1.jpg"
     },
     {
       "id": 2584,
@@ -4976,8 +4976,8 @@
     {
       "id": 518,
       "title": "Game Tengoku: Cruisin Mix Special",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co50q2.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/113360-1.jpg"
     },
     {
       "id": 519,
@@ -5138,8 +5138,8 @@
     {
       "id": 529,
       "title": "Ghostbusters",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co45qr.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95Qa9VK3SXdyW9thPEPIEIxPlxniuH3v2UJapgd2j8HYk52uDeJnRPOff9Ov-JGVFWcKfBa75qcOgV2uq8KiMvzT83QYXXFs6eCEdp26VxxnVfc6RvYvCcQfNEGKGyMomMnWDmzLGgzqkR7WZnoDSdtzkD1IA/1600.jpg"
     },
     {
       "id": 530,
@@ -5384,8 +5384,8 @@
     {
       "id": 2312,
       "title": "GrimGrimoire OnceMore",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob42c.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/3e0ea0ba255fdae6b7cf8ec7e97349e8027bebe27b21a3d201750c2d4773df71/1600.jpg"
     },
     {
       "id": 554,
@@ -5486,8 +5486,8 @@
     {
       "id": 2063,
       "title": "Guns N' Runs",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2vtr.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/123012-1.jpg"
     },
     {
       "id": 1632,
@@ -5528,8 +5528,8 @@
     {
       "id": 568,
       "title": "Halloween Forever",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27pr.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/66903-1.jpg"
     },
     {
       "id": 2055,
@@ -5546,8 +5546,8 @@
     {
       "id": 2598,
       "title": "Hand Of Fate 2",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2iiq.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/68260-1.jpg"
     },
     {
       "id": 570,
@@ -5582,14 +5582,14 @@
     {
       "id": 2601,
       "title": "Harvest Moon: The Winds of Anthos",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6vi3.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/85c96a7cdead43d2382973ec3cced84237b75a4cdb916e656e2f7cd444ad369d/1600.jpg"
     },
     {
       "id": 575,
       "title": "Has-Been Heroes",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24xa.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/108883-1.jpg"
     },
     {
       "id": 1633,
@@ -5936,8 +5936,8 @@
     {
       "id": 1641,
       "title": "I Am Setsuna",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pwt.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/c2a74a56a9355b653b13c6c0791fd6bc41dff19546e08580fcb4f55d59c687b2/1600.jpg"
     },
     {
       "id": 2020,
@@ -6116,8 +6116,8 @@
     {
       "id": 1644,
       "title": "Infinite: Beyond the Mind",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co247f.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/zejkqsxc7b56oukk/1600.jpg"
     },
     {
       "id": 2613,
@@ -6164,8 +6164,8 @@
     {
       "id": 1918,
       "title": "Inspector Waffles",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2urr.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/96425-1.jpg"
     },
     {
       "id": 2615,
@@ -6740,8 +6740,8 @@
     {
       "id": 2320,
       "title": "Lake",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ogi.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/100369-1.jpg"
     },
     {
       "id": 689,
@@ -6842,8 +6842,8 @@
     {
       "id": 1936,
       "title": "Legend of the Skyfish",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21bj.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/74076-1.jpg"
     },
     {
       "id": 1653,
@@ -7022,8 +7022,8 @@
     {
       "id": 1869,
       "title": "Light Fairytale Episode 2",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2cuz.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/124696-1.jpg"
     },
     {
       "id": 1552,
@@ -7136,8 +7136,8 @@
     {
       "id": 2423,
       "title": "Lord Winklebottom Investigates",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2m9b.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/7k3rpja4wmidz7pr/1600.jpg"
     },
     {
       "id": 729,
@@ -7298,8 +7298,8 @@
     {
       "id": 742,
       "title": "Maneater",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1lx6.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/72729-1.jpg"
     },
     {
       "id": 2392,
@@ -7382,8 +7382,8 @@
     {
       "id": 2323,
       "title": "Mato Anomalies",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5krk.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/ac6df0320e7b967f80d866ed2da779e9dc6e341e30a295c4650d1ff8b2187308/1600.jpg"
     },
     {
       "id": 1668,
@@ -7466,8 +7466,8 @@
     {
       "id": 761,
       "title": "Mercenaries Wings: The False Phoenix",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co45l6.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/75940-1.jpg"
     },
     {
       "id": 762,
@@ -7646,8 +7646,8 @@
     {
       "id": 785,
       "title": "Minit",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vcj.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/54428-1.jpg"
     },
     {
       "id": 1840,
@@ -7790,8 +7790,8 @@
     {
       "id": 802,
       "title": "Moving Out",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xlt.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/72053-1.jpg"
     },
     {
       "id": 803,
@@ -7856,8 +7856,8 @@
     {
       "id": 811,
       "title": "My Friend Pedro",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa4j0.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/74951-1.jpg"
     },
     {
       "id": 2427,
@@ -8132,8 +8132,8 @@
     {
       "id": 836,
       "title": "Nexomon: Extinction",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4eq6.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/76528-1.jpg"
     },
     {
       "id": 2655,
@@ -8492,8 +8492,8 @@
     {
       "id": 2331,
       "title": "OMORI",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xlp.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/101753-1.jpg"
     },
     {
       "id": 2671,
@@ -8582,14 +8582,14 @@
     {
       "id": 2674,
       "title": "OneShot: World Machine Edition",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ldh.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/114312-1.jpg"
     },
     {
       "id": 1857,
       "title": "ONI: Road to be the Mightiest Oni",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5a3o.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/116793-1.jpg"
     },
     {
       "id": 874,
@@ -8720,8 +8720,8 @@
     {
       "id": 2332,
       "title": "Oxide Room 104",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bx5.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/119014-1.jpg"
     },
     {
       "id": 890,
@@ -8870,8 +8870,8 @@
     {
       "id": 2430,
       "title": "Peaky Blinders Mastermind",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23is.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/80296-1.jpg"
     },
     {
       "id": 900,
@@ -8972,8 +8972,8 @@
     {
       "id": 909,
       "title": "Pineview Drive",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co887i.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://vgdb.uk/images/db/covers/216492.jpg"
     },
     {
       "id": 910,
@@ -8984,8 +8984,8 @@
     {
       "id": 911,
       "title": "PixARK",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co26cp.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/65806-1.jpg"
     },
     {
       "id": 913,
@@ -9032,8 +9032,8 @@
     {
       "id": 917,
       "title": "Plants vs Zombies: Garden Warfare 2",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3xur.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/35453-1.jpg"
     },
     {
       "id": 918,
@@ -9074,8 +9074,8 @@
     {
       "id": 922,
       "title": "Pool Nation",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co804e.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/66894-1.jpg"
     },
     {
       "id": 924,
@@ -9104,8 +9104,8 @@
     {
       "id": 2009,
       "title": "Postal REDUX",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24qk.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/91566-1.jpg"
     },
     {
       "id": 2336,
@@ -9164,8 +9164,8 @@
     {
       "id": 2337,
       "title": "Prodeus",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3b8o.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/113505-1.jpg"
     },
     {
       "id": 931,
@@ -9716,8 +9716,8 @@
     {
       "id": 988,
       "title": "Reus",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z3q.jpg"
+      "source": "CURATED_TITLE",
+      "url": "https://vgdb.uk/images/db/covers/214073.jpg"
     },
     {
       "id": 989,

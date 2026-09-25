@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-09-25T20:54:01.620Z",
+  "generatedAt": "2026-09-25T20:59:07.398Z",
   "summary": {
-    "generatedAt": "2026-09-25T20:54:01.620Z",
+    "generatedAt": "2026-09-25T20:59:07.398Z",
     "included": 2407,
-    "good": 2059,
+    "good": 2100,
     "fallback": 8,
-    "review": 320,
+    "review": 279,
     "watch": 20,
-    "physicalVerify": 316,
-    "physicalLikely": 1370,
-    "physicalConfirmed": 721,
+    "physicalVerify": 275,
+    "physicalLikely": 1380,
+    "physicalConfirmed": 752,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "key_art_only": 296,
+      "key_art_only": 255,
       "missing_ps4_banner": 24
     },
     "watchByReason": {
@@ -29,11 +29,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2482,
-      "title": "Alice Gear Aegis CS: Concerto of Simulatrix",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2077,
       "title": "American Hero",
       "reason": "key_art_only"
@@ -41,11 +36,6 @@
     {
       "id": 1567,
       "title": "Aokana - Four Rhythms Across the Blue",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 81,
-      "title": "Apex Legends",
       "reason": "key_art_only"
     },
     {
@@ -99,11 +89,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2542,
-      "title": "Bus Simulator",
-      "reason": "key_art_only"
-    },
-    {
       "id": 238,
       "title": "Caveman Warriors",
       "reason": "key_art_only"
@@ -111,11 +96,6 @@
     {
       "id": 2094,
       "title": "Chained Echoes",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2550,
-      "title": "Chef Life: A Restaurant Simulator",
       "reason": "key_art_only"
     },
     {
@@ -129,11 +109,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1892,
-      "title": "Colt Canyon",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2299,
       "title": "Contra: Operation Galuga",
       "reason": "key_art_only"
@@ -141,11 +116,6 @@
     {
       "id": 269,
       "title": "Corpse Killer: 25th Anniversary Edition",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1595,
-      "title": "Crashbots",
       "reason": "key_art_only"
     },
     {
@@ -259,16 +229,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1626,
-      "title": "Galaxy of Pen & Paper +1 Edition",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 518,
-      "title": "Game Tengoku: Cruisin Mix Special",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1938,
       "title": "Gekido Kintaro's Revenge",
       "reason": "key_art_only"
@@ -276,11 +236,6 @@
     {
       "id": 525,
       "title": "Geometry Wars 3: Dimensions",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 529,
-      "title": "Ghostbusters",
       "reason": "key_art_only"
     },
     {
@@ -299,16 +254,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2312,
-      "title": "GrimGrimoire OnceMore",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2063,
-      "title": "Guns N' Runs",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1980,
       "title": "Guns, Gore & Cannoli 2",
       "reason": "key_art_only"
@@ -324,11 +269,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 568,
-      "title": "Halloween Forever",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2055,
       "title": "Hamidashi Creative",
       "reason": "key_art_only"
@@ -336,21 +276,6 @@
     {
       "id": 2256,
       "title": "Hammerwatch",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2598,
-      "title": "Hand Of Fate 2",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2601,
-      "title": "Harvest Moon: The Winds of Anthos",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 575,
-      "title": "Has-Been Heroes",
       "reason": "key_art_only"
     },
     {
@@ -369,21 +294,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1641,
-      "title": "I Am Setsuna",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1644,
-      "title": "Infinite: Beyond the Mind",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1918,
-      "title": "Inspector Waffles",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2243,
       "title": "Irem Collection Volume 1",
       "reason": "key_art_only"
@@ -399,33 +309,13 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2320,
-      "title": "Lake",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1515,
       "title": "Late Shift",
       "reason": "key_art_only"
     },
     {
-      "id": 1936,
-      "title": "Legend of the Skyfish",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1869,
-      "title": "Light Fairytale Episode 2",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1661,
       "title": "Lode Runner Legacy",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2423,
-      "title": "Lord Winklebottom Investigates",
       "reason": "key_art_only"
     },
     {
@@ -439,18 +329,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 742,
-      "title": "Maneater",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2392,
       "title": "Marchen Forest",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2323,
-      "title": "Mato Anomalies",
       "reason": "key_art_only"
     },
     {
@@ -461,11 +341,6 @@
     {
       "id": 2463,
       "title": "Memorrha",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 761,
-      "title": "Mercenaries Wings: The False Phoenix",
       "reason": "key_art_only"
     },
     {
@@ -484,18 +359,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 785,
-      "title": "Minit",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1923,
       "title": "Monster Prom XXL",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 802,
-      "title": "Moving Out",
       "reason": "key_art_only"
     },
     {
@@ -511,11 +376,6 @@
     {
       "id": 808,
       "title": "Mutant Mudds: Super Challenge",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 811,
-      "title": "My Friend Pedro",
       "reason": "key_art_only"
     },
     {
@@ -559,11 +419,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 836,
-      "title": "Nexomon: Extinction",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2011,
       "title": "Night Book",
       "reason": "key_art_only"
@@ -584,11 +439,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2331,
-      "title": "OMORI",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2671,
       "title": "On the Road: Truck Simulator",
       "reason": "key_art_only"
@@ -596,16 +446,6 @@
     {
       "id": 872,
       "title": "One Step From Eden",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2674,
-      "title": "OneShot: World Machine Edition",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1857,
-      "title": "ONI: Road to be the Mightiest Oni",
       "reason": "key_art_only"
     },
     {
@@ -624,11 +464,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2332,
-      "title": "Oxide Room 104",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1817,
       "title": "Panzer Dragoon: Remake",
       "reason": "key_art_only"
@@ -636,21 +471,6 @@
     {
       "id": 2690,
       "title": "Pathfinder: Wrath of the Righteous",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2430,
-      "title": "Peaky Blinders Mastermind",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 909,
-      "title": "Pineview Drive",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 911,
-      "title": "PixARK",
       "reason": "key_art_only"
     },
     {
@@ -664,33 +484,13 @@
       "reason": "key_art_only"
     },
     {
-      "id": 917,
-      "title": "Plants vs Zombies: Garden Warfare 2",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 922,
-      "title": "Pool Nation",
-      "reason": "key_art_only"
-    },
-    {
       "id": 925,
       "title": "Port Royale 4",
       "reason": "key_art_only"
     },
     {
-      "id": 2009,
-      "title": "Postal REDUX",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1695,
       "title": "Pressure Overdrive",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2337,
-      "title": "Prodeus",
       "reason": "key_art_only"
     },
     {
@@ -751,11 +551,6 @@
     {
       "id": 987,
       "title": "Return of the Obra Dinn",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 988,
-      "title": "Reus",
       "reason": "key_art_only"
     },
     {

@@ -8,20 +8,20 @@
   "fallback": 8
  },
  "branch": "art-department-weekend-final",
- "currentVerifiedCommit": "4f8367aa12ea4bff8587f3d4ea370fd27d59ecf7 (parent of the batch commit that records this checkpoint)",
+ "currentVerifiedCommit": "b00cb9de46408f5c3a47c62d2f5e6b8dfcf87a1f (parent of the batch commit that records this checkpoint)",
  "currentQA": {
   "included": 2407,
-  "good": 2059,
-  "review": 320,
+  "good": 2100,
+  "review": 279,
   "watch": 20,
   "fallback": 8
  },
  "totals": {
-  "attempted": 193,
-  "accepted": 10,
-  "rejected": 1,
-  "goodGained": 10,
-  "reviewCleared": 10,
+  "attempted": 247,
+  "accepted": 51,
+  "rejected": 17,
+  "goodGained": 51,
+  "reviewCleared": 51,
   "watchCleared": 0,
   "fallbackChange": 0
  },
@@ -135,21 +135,468 @@
    ],
    "goodGained": 10,
    "baselineGoodRegressions": 0
+  },
+  {
+   "batch": 2,
+   "name": "PriceCharting offline-index multi-region + TheGamesDB + vgdb.uk (pass A)",
+   "before": {
+    "included": 2407,
+    "good": 2059,
+    "review": 320,
+    "watch": 20,
+    "fallback": 8
+   },
+   "after": {
+    "included": 2407,
+    "good": 2100,
+    "review": 279,
+    "watch": 20,
+    "fallback": 8
+   },
+   "attempted": 54,
+   "accepted": [
+    {
+     "id": 2482,
+     "title": "Alice Gear Aegis CS: Concerto of Simulatrix",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/7ad687a1c0ff67e60905ef0e9c2d9f14efa1d02baab6c96be2208db426febd3a/1600.jpg",
+     "region": "PAL",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): Alice Gear Aegis CS: Concerto of Simulatrix"
+    },
+    {
+     "id": 81,
+     "title": "Apex Legends",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/6a4dba35a233dc0119857ffbd9ef9c86326227fab7b21b8be0225f3ab1fcd4e3/1600.jpg",
+     "region": "US",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): Apex Legends [Lifeline Edition]"
+    },
+    {
+     "id": 2542,
+     "title": "Bus Simulator",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/91088-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Bus Simulator"
+    },
+    {
+     "id": 2550,
+     "title": "Chef Life: A Restaurant Simulator",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/a692866d1445a23f396f4dd20563a0b45b454900ea3da7cc31e370f541007c17/1600.jpg",
+     "region": "US",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): Chef Life: A Restaurant Simulator [Al Forno Edition]"
+    },
+    {
+     "id": 1892,
+     "title": "Colt Canyon",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/120961-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Colt Canyon"
+    },
+    {
+     "id": 1595,
+     "title": "Crashbots",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/99766-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Crashbots"
+    },
+    {
+     "id": 1626,
+     "title": "Galaxy of Pen & Paper +1 Edition",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/121309-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Galaxy of Pen & Paper +1 Edition"
+    },
+    {
+     "id": 518,
+     "title": "Game Tengoku: Cruisin Mix Special",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/113360-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Game Tengoku CruisinMix Special"
+    },
+    {
+     "id": 529,
+     "title": "Ghostbusters",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95Qa9VK3SXdyW9thPEPIEIxPlxniuH3v2UJapgd2j8HYk52uDeJnRPOff9Ov-JGVFWcKfBa75qcOgV2uq8KiMvzT83QYXXFs6eCEdp26VxxnVfc6RvYvCcQfNEGKGyMomMnWDmzLGgzqkR7WZnoDSdtzkD1IA/1600.jpg",
+     "region": "PAL",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): Ghostbusters"
+    },
+    {
+     "id": 2312,
+     "title": "GrimGrimoire OnceMore",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/3e0ea0ba255fdae6b7cf8ec7e97349e8027bebe27b21a3d201750c2d4773df71/1600.jpg",
+     "region": "US",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): GrimGrimoire OnceMore [Deluxe Edition]"
+    },
+    {
+     "id": 2063,
+     "title": "Guns N' Runs",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/123012-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Guns N' Runs"
+    },
+    {
+     "id": 568,
+     "title": "Halloween Forever",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/66903-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Halloween Forever"
+    },
+    {
+     "id": 2598,
+     "title": "Hand Of Fate 2",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/68260-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Hand of Fate 2"
+    },
+    {
+     "id": 2601,
+     "title": "Harvest Moon: The Winds of Anthos",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/85c96a7cdead43d2382973ec3cced84237b75a4cdb916e656e2f7cd444ad369d/1600.jpg",
+     "region": "PAL",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): Harvest Moon: The Winds of Anthos"
+    },
+    {
+     "id": 575,
+     "title": "Has-Been Heroes",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/108883-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Has-Been Heroes"
+    },
+    {
+     "id": 1641,
+     "title": "I Am Setsuna",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/c2a74a56a9355b653b13c6c0791fd6bc41dff19546e08580fcb4f55d59c687b2/1600.jpg",
+     "region": "JP",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): I Am Setsuna"
+    },
+    {
+     "id": 1644,
+     "title": "Infinite: Beyond the Mind",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/zejkqsxc7b56oukk/1600.jpg",
+     "region": "PAL",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): Infinite Beyond The Mind [Tanya Edition]"
+    },
+    {
+     "id": 1918,
+     "title": "Inspector Waffles",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/96425-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Inspector Waffles"
+    },
+    {
+     "id": 2320,
+     "title": "Lake",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/100369-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Lake"
+    },
+    {
+     "id": 1936,
+     "title": "Legend of the Skyfish",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/74076-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Legend of the Skyfish "
+    },
+    {
+     "id": 1869,
+     "title": "Light Fairytale Episode 2",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/124696-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Light Fairytale Episode 2"
+    },
+    {
+     "id": 2423,
+     "title": "Lord Winklebottom Investigates",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/7k3rpja4wmidz7pr/1600.jpg",
+     "region": "PAL",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): Lord Winklebottom Investigates"
+    },
+    {
+     "id": 742,
+     "title": "Maneater",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/72729-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Maneater"
+    },
+    {
+     "id": 2323,
+     "title": "Mato Anomalies",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/ac6df0320e7b967f80d866ed2da779e9dc6e341e30a295c4650d1ff8b2187308/1600.jpg",
+     "region": "PAL",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): Mato Anomalies [Day One Edition]"
+    },
+    {
+     "id": 761,
+     "title": "Mercenaries Wings: The False Phoenix",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/75940-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Mercenaries Wings: The False Phoenix "
+    },
+    {
+     "id": 785,
+     "title": "Minit",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/54428-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Minit"
+    },
+    {
+     "id": 802,
+     "title": "Moving Out",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/72053-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Moving Out"
+    },
+    {
+     "id": 811,
+     "title": "My Friend Pedro",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/74951-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: My Friend Pedro"
+    },
+    {
+     "id": 836,
+     "title": "Nexomon: Extinction",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/76528-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Nexomon: Extinction"
+    },
+    {
+     "id": 2331,
+     "title": "OMORI",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/101753-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Omori"
+    },
+    {
+     "id": 1857,
+     "title": "ONI: Road to be the Mightiest Oni",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/116793-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Oni: Road to be the Mightiest Oni"
+    },
+    {
+     "id": 2674,
+     "title": "OneShot: World Machine Edition",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/114312-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: OneShot: World Machine Edition"
+    },
+    {
+     "id": 2332,
+     "title": "Oxide Room 104",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/119014-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Oxide Room 104"
+    },
+    {
+     "id": 2430,
+     "title": "Peaky Blinders Mastermind",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/80296-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Peaky Blinders: Mastermind"
+    },
+    {
+     "id": 909,
+     "title": "Pineview Drive",
+     "layer": "title",
+     "url": "https://vgdb.uk/images/db/covers/216492.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; vgdb.uk PS4 cover scan: Pineview Drive"
+    },
+    {
+     "id": 911,
+     "title": "PixARK",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/65806-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: PixARK"
+    },
+    {
+     "id": 917,
+     "title": "Plants vs Zombies: Garden Warfare 2",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/35453-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Plants vs Zombies: Garden Warfare 2"
+    },
+    {
+     "id": 922,
+     "title": "Pool Nation",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/66894-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Pool Nation"
+    },
+    {
+     "id": 2009,
+     "title": "Postal REDUX",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/91566-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Postal Redux"
+    },
+    {
+     "id": 2337,
+     "title": "Prodeus",
+     "layer": "title",
+     "url": "https://cdn.thegamesdb.net/images/original/boxart/front/113505-1.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; TheGamesDB PS4 boxart front: Prodeus"
+    },
+    {
+     "id": 988,
+     "title": "Reus",
+     "layer": "title",
+     "url": "https://vgdb.uk/images/db/covers/214073.jpg",
+     "region": null,
+     "evidence": "visually vetted straight-on PS4 front; vgdb.uk PS4 cover scan: Reus"
+    }
+   ],
+   "rejected": [
+    {
+     "id": 1579,
+     "title": "Back to the Future: The Game",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/37476-1.jpg",
+     "reason": "NOT FINAL ART pre-release cover"
+    },
+    {
+     "id": 1579,
+     "title": "Back to the Future: The Game",
+     "candidate": "https://vgdb.uk/images/db/covers/61736.jpg",
+     "reason": "NOT FINAL ART pre-release cover"
+    },
+    {
+     "id": 2542,
+     "title": "Bus Simulator",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/117495-1.jpg",
+     "reason": "3D box render with spine"
+    },
+    {
+     "id": 2266,
+     "title": "DUSK",
+     "candidate": "https://storage.googleapis.com/images.pricecharting.com/i7ptn3rdde4zxlda/1600.jpg",
+     "reason": "variant-cover product (Leathernecks Cover) image ambiguity vs standard edition"
+    },
+    {
+     "id": 322,
+     "title": "Dead Alliance",
+     "candidate": "https://vgdb.uk/images/db/covers/215809.jpg",
+     "reason": "3D box render with spine"
+    },
+    {
+     "id": 1938,
+     "title": "Gekido Kintaro's Revenge",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/68241-1.jpg",
+     "reason": "3D render with spine"
+    },
+    {
+     "id": 2420,
+     "title": "Grave Danger",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/104924-1.jpg",
+     "reason": "3D render with spine"
+    },
+    {
+     "id": 1661,
+     "title": "Lode Runner Legacy",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/70193-1.jpg",
+     "reason": "no rating/publisher marks; looks like mockup"
+    },
+    {
+     "id": 2651,
+     "title": "MADO MONOGATARI: Fia And The Wondrous Academy",
+     "candidate": "https://storage.googleapis.com/images.pricecharting.com/h6ttr5nr5z7gzkf3/1600.jpg",
+     "reason": "USK rating pending pre-release art"
+    },
+    {
+     "id": 1923,
+     "title": "Monster Prom XXL",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/93145-1.jpg",
+     "reason": "3D render with spine"
+    },
+    {
+     "id": 2097,
+     "title": "Natsuki Chronicles",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/104538-1.jpg",
+     "reason": "3D render with spine"
+    },
+    {
+     "id": 2659,
+     "title": "Necromunda: Hired Gun",
+     "candidate": "https://storage.googleapis.com/images.pricecharting.com/7bafc29177ef5202186ecff392187dbcf4f6e17f80c6fa3603009cc04816c076/1600.jpg",
+     "reason": "photo of physical case"
+    },
+    {
+     "id": 2659,
+     "title": "Necromunda: Hired Gun",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/91380-1.jpg",
+     "reason": "ESRB RP pre-release art"
+    },
+    {
+     "id": 2011,
+     "title": "Night Book",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/89912-1.jpg",
+     "reason": "3D render with spine"
+    },
+    {
+     "id": 1826,
+     "title": "Nobody Saves the World",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/119649-1.jpg",
+     "reason": "3D render with spine"
+    },
+    {
+     "id": 925,
+     "title": "Port Royale 4",
+     "candidate": "https://cdn.thegamesdb.net/images/original/boxart/front/81139-1.jpg",
+     "reason": "ESRB RP pre-release art"
+    }
+   ],
+   "goodGained": 41,
+   "baselineGoodRegressions": 0
   }
  ],
  "sourcesUsed": [
-  "LaunchBox Box - Front (fresh Metadata.zip)"
+  "LaunchBox Box - Front (fresh Metadata.zip)",
+  "PriceCharting product pages via offline-index IDs",
+  "TheGamesDB PS4 boxart front",
+  "vgdb.uk cover scans"
  ],
  "remainingQueue": {
   "review": [
    {
     "id": 2037,
     "title": "9th Dawn III",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2482,
-    "title": "Alice Gear Aegis CS: Concerto of Simulatrix",
     "reason": "key_art_only"
    },
    {
@@ -160,11 +607,6 @@
    {
     "id": 1567,
     "title": "Aokana - Four Rhythms Across the Blue",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 81,
-    "title": "Apex Legends",
     "reason": "key_art_only"
    },
    {
@@ -218,11 +660,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 2542,
-    "title": "Bus Simulator",
-    "reason": "key_art_only"
-   },
-   {
     "id": 238,
     "title": "Caveman Warriors",
     "reason": "key_art_only"
@@ -230,11 +667,6 @@
    {
     "id": 2094,
     "title": "Chained Echoes",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2550,
-    "title": "Chef Life: A Restaurant Simulator",
     "reason": "key_art_only"
    },
    {
@@ -248,11 +680,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 1892,
-    "title": "Colt Canyon",
-    "reason": "key_art_only"
-   },
-   {
     "id": 2299,
     "title": "Contra: Operation Galuga",
     "reason": "key_art_only"
@@ -260,11 +687,6 @@
    {
     "id": 269,
     "title": "Corpse Killer: 25th Anniversary Edition",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1595,
-    "title": "Crashbots",
     "reason": "key_art_only"
    },
    {
@@ -378,16 +800,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 1626,
-    "title": "Galaxy of Pen & Paper +1 Edition",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 518,
-    "title": "Game Tengoku: Cruisin Mix Special",
-    "reason": "key_art_only"
-   },
-   {
     "id": 1938,
     "title": "Gekido Kintaro's Revenge",
     "reason": "key_art_only"
@@ -395,11 +807,6 @@
    {
     "id": 525,
     "title": "Geometry Wars 3: Dimensions",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 529,
-    "title": "Ghostbusters",
     "reason": "key_art_only"
    },
    {
@@ -418,16 +825,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 2312,
-    "title": "GrimGrimoire OnceMore",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2063,
-    "title": "Guns N' Runs",
-    "reason": "key_art_only"
-   },
-   {
     "id": 1980,
     "title": "Guns, Gore & Cannoli 2",
     "reason": "key_art_only"
@@ -443,11 +840,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 568,
-    "title": "Halloween Forever",
-    "reason": "key_art_only"
-   },
-   {
     "id": 2055,
     "title": "Hamidashi Creative",
     "reason": "key_art_only"
@@ -455,21 +847,6 @@
    {
     "id": 2256,
     "title": "Hammerwatch",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2598,
-    "title": "Hand Of Fate 2",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2601,
-    "title": "Harvest Moon: The Winds of Anthos",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 575,
-    "title": "Has-Been Heroes",
     "reason": "key_art_only"
    },
    {
@@ -488,21 +865,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 1641,
-    "title": "I Am Setsuna",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1644,
-    "title": "Infinite: Beyond the Mind",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1918,
-    "title": "Inspector Waffles",
-    "reason": "key_art_only"
-   },
-   {
     "id": 2243,
     "title": "Irem Collection Volume 1",
     "reason": "key_art_only"
@@ -518,33 +880,13 @@
     "reason": "key_art_only"
    },
    {
-    "id": 2320,
-    "title": "Lake",
-    "reason": "key_art_only"
-   },
-   {
     "id": 1515,
     "title": "Late Shift",
     "reason": "key_art_only"
    },
    {
-    "id": 1936,
-    "title": "Legend of the Skyfish",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1869,
-    "title": "Light Fairytale Episode 2",
-    "reason": "key_art_only"
-   },
-   {
     "id": 1661,
     "title": "Lode Runner Legacy",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2423,
-    "title": "Lord Winklebottom Investigates",
     "reason": "key_art_only"
    },
    {
@@ -558,18 +900,8 @@
     "reason": "key_art_only"
    },
    {
-    "id": 742,
-    "title": "Maneater",
-    "reason": "key_art_only"
-   },
-   {
     "id": 2392,
     "title": "Marchen Forest",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2323,
-    "title": "Mato Anomalies",
     "reason": "key_art_only"
    },
    {
@@ -580,11 +912,6 @@
    {
     "id": 2463,
     "title": "Memorrha",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 761,
-    "title": "Mercenaries Wings: The False Phoenix",
     "reason": "key_art_only"
    },
    {
@@ -603,18 +930,8 @@
     "reason": "key_art_only"
    },
    {
-    "id": 785,
-    "title": "Minit",
-    "reason": "key_art_only"
-   },
-   {
     "id": 1923,
     "title": "Monster Prom XXL",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 802,
-    "title": "Moving Out",
     "reason": "key_art_only"
    },
    {
@@ -630,11 +947,6 @@
    {
     "id": 808,
     "title": "Mutant Mudds: Super Challenge",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 811,
-    "title": "My Friend Pedro",
     "reason": "key_art_only"
    },
    {
@@ -678,11 +990,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 836,
-    "title": "Nexomon: Extinction",
-    "reason": "key_art_only"
-   },
-   {
     "id": 2011,
     "title": "Night Book",
     "reason": "key_art_only"
@@ -703,11 +1010,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 2331,
-    "title": "OMORI",
-    "reason": "key_art_only"
-   },
-   {
     "id": 2671,
     "title": "On the Road: Truck Simulator",
     "reason": "key_art_only"
@@ -715,16 +1017,6 @@
    {
     "id": 872,
     "title": "One Step From Eden",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2674,
-    "title": "OneShot: World Machine Edition",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 1857,
-    "title": "ONI: Road to be the Mightiest Oni",
     "reason": "key_art_only"
    },
    {
@@ -743,11 +1035,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 2332,
-    "title": "Oxide Room 104",
-    "reason": "key_art_only"
-   },
-   {
     "id": 1817,
     "title": "Panzer Dragoon: Remake",
     "reason": "key_art_only"
@@ -755,21 +1042,6 @@
    {
     "id": 2690,
     "title": "Pathfinder: Wrath of the Righteous",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2430,
-    "title": "Peaky Blinders Mastermind",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 909,
-    "title": "Pineview Drive",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 911,
-    "title": "PixARK",
     "reason": "key_art_only"
    },
    {
@@ -783,33 +1055,13 @@
     "reason": "key_art_only"
    },
    {
-    "id": 917,
-    "title": "Plants vs Zombies: Garden Warfare 2",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 922,
-    "title": "Pool Nation",
-    "reason": "key_art_only"
-   },
-   {
     "id": 925,
     "title": "Port Royale 4",
     "reason": "key_art_only"
    },
    {
-    "id": 2009,
-    "title": "Postal REDUX",
-    "reason": "key_art_only"
-   },
-   {
     "id": 1695,
     "title": "Pressure Overdrive",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 2337,
-    "title": "Prodeus",
     "reason": "key_art_only"
    },
    {
@@ -870,11 +1122,6 @@
    {
     "id": 987,
     "title": "Return of the Obra Dinn",
-    "reason": "key_art_only"
-   },
-   {
-    "id": 988,
-    "title": "Reus",
     "reason": "key_art_only"
    },
    {
@@ -1888,7 +2135,7 @@
    }
   ],
   "reviewByReason": {
-   "key_art_only": 296,
+   "key_art_only": 255,
    "missing_ps4_banner": 24
   },
   "watchByReason": {
@@ -1898,6 +2145,6 @@
  "blockers": [
   "GameFAQs box images return HTTP 403 to automated audit fetches (all 20 WATCH items); audit cannot verify them, so they need alternate hosts."
  ],
- "lastVerified": "2026-09-25T20:56:25+00:00",
- "nextTask": "Batch 2: vet PriceCharting offline-index multi-region + TheGamesDB + vgdb.uk crawl candidates (scratch crawls running)"
+ "lastVerified": "2026-09-25T21:03:47+00:00",
+ "nextTask": "Batch 3: vet remaining crawl candidates (pc/tgdb crawls still running), then WATCH alternate hosts"
 }
