@@ -1,5 +1,6 @@
 name: ShelfCheck LaunchBox Cover Recovery
 
+# Bulk recovery pass for the current Art Department REVIEW/WATCH/FALLBACK queue.
 on:
   workflow_dispatch:
   push:
