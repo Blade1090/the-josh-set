@@ -59,10 +59,10 @@
   const repaint=()=>{document.querySelectorAll('#results .cover-shell').forEach(x=>x.remove());paint()};
   const oldRender=render;render=function(){const r=oldRender.apply(this,arguments);paint();if(typeof decoratePriceCards==='function')decoratePriceCards();return r};
   const oldDetail=detail;detail=function(id){const r=oldDetail.apply(this,arguments);const box=document.querySelector('#detail');if(!box||box.querySelector('.detail-cover-shell'))return r;const h=box.querySelector('h2');if(!h)return r;const x=byId.get(id),url=x&&coverFor(x);const shell=document.createElement('div');shell.className='detail-cover-shell';const fallback=()=>{shell.classList.remove('has-cover');shell.innerHTML=fallbackHtml};if(url){const img=document.createElement('img');img.className='detail-cover';img.src=url;img.alt=x.title+' cover';img.decoding='async';img.onerror=fallback;shell.classList.add('has-cover');shell.title='Tap to enlarge cover';shell.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();openLightbox(url,x.title)});shell.appendChild(img)}else fallback();h.insertAdjacentElement('afterend',shell);return r};
-  window.SHELFCHECK_COVER_ART={version:107,paint,repaint,coverFor,productCover,openLightbox};
+  window.SHELFCHECK_COVER_ART={version:108,paint,repaint,coverFor,productCover,openLightbox};
 
   const curatedScript=document.createElement('script');
-  curatedScript.src='cover-title-overrides.js?v=4';
+  curatedScript.src='cover-title-overrides.js?v=5';
   curatedScript.onload=repaint;
   curatedScript.onerror=()=>console.warn('ShelfCheck: curated cover corrections unavailable.');
   document.head.appendChild(curatedScript);
