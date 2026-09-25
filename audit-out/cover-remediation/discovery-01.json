@@ -1,0 +1,3080 @@
+{
+  "batch": 1,
+  "attempted": 40,
+  "rows": [
+    {
+      "id": 14,
+      "title": "8-Bit Adventure Anthology: Volume One",
+      "reason": "image_fetch_failed",
+      "baselineState": "WATCH",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "8-Bit Adventure Anthology: Volume One",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 14,
+            "title": "8-Bit Adventure Anthology: Volume One",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 14,
+            "title": "8-Bit Adventure Anthology: Volume One",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateCount": 13,
+            "candidateTitles": [
+              "The Dark Pictures Anthology: Volume 2",
+              "8-Bit Adventure Anthology",
+              "8-Bit Armies",
+              "8-Bit Armies",
+              "8-Bit Armies [Limited Edition]",
+              "8-Bit Armies [Limited Edition]",
+              "8-Bit Hordes",
+              "8-Bit Hordes"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "8-Bit Adventure Anthology: Volume One",
+            "method": "canonical_exact"
+          },
+          "reason": "no_exact_product_match",
+          "candidateTitles": [
+            "The Dark Pictures Anthology: Volume 2",
+            "8-Bit Adventure Anthology",
+            "8-Bit Armies",
+            "8-Bit Armies",
+            "8-Bit Armies [Limited Edition]",
+            "8-Bit Armies [Limited Edition]",
+            "8-Bit Hordes",
+            "8-Bit Hordes",
+            "8-Bit Invaders",
+            "8-Bit Invaders",
+            "Bit Dungeon+",
+            "Cotton 16-Bit Tribute",
+            "Dark Pictures Anthology: Volume 1 [Limited Edition]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1992,
+      "title": "Another World",
+      "reason": "image_fetch_failed",
+      "baselineState": "WATCH",
+      "recoveryClasses": [
+        "source_fetch_failure",
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Another World",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1992,
+            "title": "Another World",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 1992,
+            "title": "Another World",
+            "bucket": "watch",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Another World",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/another-world",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96VOV287iGOg9CnXZiVHBa4FUvbE6qH-8Q3BbLojwBrbao304nlcc6Jc1wQ0OXIGrTCjlHG_lxeWrVnyta7pHVvcT8V-o3EFLga4Q18S_7Fq7JjTjQRNpIi8eZ7CgKnwgpDn27uoxSeJnmFB27Jtvh0vCBlaw/1600.jpg",
+            "metrics": {
+              "width": 461,
+              "height": 512,
+              "aspect": 0.9004,
+              "bannerColumnSpan": 0.5556,
+              "bannerPixelRatio": 0.2188
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "source": "PriceCharting",
+          "matchedTitle": "Another World",
+          "region": "US/NTSC",
+          "regionRank": 0,
+          "productUrl": "https://www.pricecharting.com/game/playstation-4/another-world",
+          "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96VOV287iGOg9CnXZiVHBa4FUvbE6qH-8Q3BbLojwBrbao304nlcc6Jc1wQ0OXIGrTCjlHG_lxeWrVnyta7pHVvcT8V-o3EFLga4Q18S_7Fq7JjTjQRNpIi8eZ7CgKnwgpDn27uoxSeJnmFB27Jtvh0vCBlaw/1600.jpg",
+          "matchingMethod": "canonical_exact",
+          "query": {
+            "title": "Another World",
+            "method": "canonical_exact"
+          },
+          "reason": "failed_existing_retail_front_gate",
+          "metrics": {
+            "width": 461,
+            "height": 512,
+            "aspect": 0.9004,
+            "bannerColumnSpan": 0.5556,
+            "bannerPixelRatio": 0.2188
+          }
+        }
+      ]
+    },
+    {
+      "id": 2288,
+      "title": "Blazing Beaks",
+      "reason": "image_fetch_failed",
+      "baselineState": "WATCH",
+      "recoveryClasses": [
+        "source_fetch_failure",
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Blazing Beaks",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2288,
+            "title": "Blazing Beaks",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2288,
+            "title": "Blazing Beaks",
+            "bucket": "watch",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Blazing Beaks",
+            "region": "PAL",
+            "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/blazing-beaks?q=blazing+beaks+playstation+4",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/1831e1eedf521c4c987eecc73994d7f61cd9be9d74a17bc5019b8f291ba9880a/1600.jpg",
+            "metrics": {
+              "width": 1200,
+              "height": 675,
+              "aspect": 1.7778,
+              "bannerColumnSpan": 0.3194,
+              "bannerPixelRatio": 0.0174
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "source": "PriceCharting",
+          "matchedTitle": "Blazing Beaks",
+          "region": "PAL",
+          "regionRank": 1,
+          "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/blazing-beaks?q=blazing+beaks+playstation+4",
+          "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/1831e1eedf521c4c987eecc73994d7f61cd9be9d74a17bc5019b8f291ba9880a/1600.jpg",
+          "matchingMethod": "canonical_exact",
+          "query": {
+            "title": "Blazing Beaks",
+            "method": "canonical_exact"
+          },
+          "reason": "failed_existing_retail_front_gate",
+          "metrics": {
+            "width": 1200,
+            "height": 675,
+            "aspect": 1.7778,
+            "bannerColumnSpan": 0.3194,
+            "bannerPixelRatio": 0.0174
+          }
+        }
+      ]
+    },
+    {
+      "id": 1969,
+      "title": "Cannon Dancer",
+      "reason": "image_fetch_failed",
+      "baselineState": "WATCH",
+      "recoveryClasses": [
+        "source_fetch_failure",
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Cannon Dancer",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1969,
+            "title": "Cannon Dancer",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 1969,
+            "title": "Cannon Dancer",
+            "bucket": "watch",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Cannon Dancer",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/cannon-dancer",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/41f05ebf58d3f2dbee3d9dcbbb6c2717940c1869884a455f3d6b81c857b3d890/1600.jpg",
+            "metrics": {
+              "width": 1170,
+              "height": 1322,
+              "aspect": 0.885,
+              "bannerColumnSpan": 0.5833,
+              "bannerPixelRatio": 0.2198
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "source": "PriceCharting",
+          "matchedTitle": "Cannon Dancer",
+          "region": "US/NTSC",
+          "regionRank": 0,
+          "productUrl": "https://www.pricecharting.com/game/playstation-4/cannon-dancer",
+          "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/41f05ebf58d3f2dbee3d9dcbbb6c2717940c1869884a455f3d6b81c857b3d890/1600.jpg",
+          "matchingMethod": "canonical_exact",
+          "query": {
+            "title": "Cannon Dancer",
+            "method": "canonical_exact"
+          },
+          "reason": "failed_existing_retail_front_gate",
+          "metrics": {
+            "width": 1170,
+            "height": 1322,
+            "aspect": 0.885,
+            "bannerColumnSpan": 0.5833,
+            "bannerPixelRatio": 0.2198
+          }
+        }
+      ]
+    },
+    {
+      "id": 2471,
+      "title": "Get Star / Guardian",
+      "reason": "image_fetch_failed",
+      "baselineState": "WATCH",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "Get Star / Guardian",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2471,
+            "title": "Get Star / Guardian",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 2471,
+            "title": "Get Star / Guardian",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateCount": 27,
+            "candidateTitles": [
+              "The Last Guardian",
+              "Playstation 4 Pro 1TB Star Wars Battlefront II Console",
+              "Marvel's Guardians of the Galaxy",
+              "Guardians of the Galaxy: The Telltale Series",
+              "The Last Guardian [Collector's Edition]",
+              "The Last Guardian [Steelbook Edition]",
+              "The Last Guardian [Collector's Edition]",
+              "The Last Guardian [Limited Edition]"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Get Star / Guardian",
+            "method": "canonical_exact"
+          },
+          "reason": "no_exact_product_match",
+          "candidateTitles": [
+            "The Last Guardian",
+            "Playstation 4 Pro 1TB Star Wars Battlefront II Console",
+            "Marvel's Guardians of the Galaxy",
+            "Guardians of the Galaxy: The Telltale Series",
+            "The Last Guardian [Collector's Edition]",
+            "The Last Guardian [Steelbook Edition]",
+            "The Last Guardian [Collector's Edition]",
+            "The Last Guardian [Limited Edition]",
+            "PlayStation 4 Slim Star Wars: Battlefront II Bundle",
+            "Cotton Guardian Force: Saturn Tribute",
+            "Baldo: The Guardian Owls",
+            "Baldo: The Guardian Owls",
+            "Baldo: The Guardian Owls [Collector's Edition]",
+            "Cotton Guardian Force: Saturn Tribute [Collector's Edtion]",
+            "Gal Guardians: Demon Purge",
+            "Get Even",
+            "Get Even [Not for Resale]",
+            "Guardians of the Galaxy: The Telltale Series",
+            "Playstation 4 Jet Black 1TB [The Last Guardian Bundle]",
+            "Rainbow Six: Extraction [Guardian Edition]",
+            "The Last Guardian",
+            "The Last Guardian [Concept Art Sleeve]",
+            "The Last Guardian [Only On PlayStation]",
+            "The Last Guardian [Press Kit]",
+            "Vengeful Guardian: Moonrider",
+            "Vengeful Guardian: Moonrider",
+            "Vengeful Guardian: Moonrider [Collector's Edition]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1809,
+      "title": "Ground Zero: Texas",
+      "reason": "image_fetch_failed",
+      "baselineState": "WATCH",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "Ground Zero: Texas",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1809,
+            "title": "Ground Zero: Texas",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 1809,
+            "title": "Ground Zero: Texas",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateCount": 2,
+            "candidateTitles": [
+              "Ground Zero Texas: Nuclear Edition",
+              "Ground Zero Texas: Nuclear Edition [Classic Edition]"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Ground Zero: Texas",
+            "method": "canonical_exact"
+          },
+          "reason": "no_exact_product_match",
+          "candidateTitles": [
+            "Ground Zero Texas: Nuclear Edition",
+            "Ground Zero Texas: Nuclear Edition [Classic Edition]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1971,
+      "title": "Jim Power: The Lost Dimension",
+      "reason": "image_fetch_failed",
+      "baselineState": "WATCH",
+      "recoveryClasses": [
+        "source_fetch_failure",
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Jim Power: The Lost Dimension",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1971,
+            "title": "Jim Power: The Lost Dimension",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 1971,
+            "title": "Jim Power: The Lost Dimension",
+            "bucket": "watch",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Jim Power: The Lost Dimension",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/jim-power-the-lost-dimension",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/489622e2e8c96653ef5edb69acbbf237f5288425bc0e3b8dff154eff34548397/1600.jpg",
+            "metrics": {
+              "width": 1000,
+              "height": 1000,
+              "aspect": 1.0,
+              "bannerColumnSpan": 0.575,
+              "bannerPixelRatio": 0.2221
+            }
+          }
+        }
+      ],
+      "status": "requires_visual_review",
+      "batch": 1,
+      "candidates": [
+        {
+          "source": "PriceCharting",
+          "matchedTitle": "Jim Power: The Lost Dimension",
+          "region": "PAL",
+          "regionRank": 1,
+          "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/jim-power-the-lost-dimension",
+          "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/0195507ca55c81b150329563b5389e212b8886fa128b669b888666cbe4ea1e51/1600.jpg",
+          "matchingMethod": "canonical_exact",
+          "query": {
+            "title": "Jim Power: The Lost Dimension",
+            "method": "canonical_exact"
+          },
+          "metrics": {
+            "width": 581,
+            "height": 792,
+            "aspect": 0.7336,
+            "bannerColumnSpan": 0.9889,
+            "bannerPixelRatio": 0.587
+          },
+          "status": "requires_visual_review"
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "source": "PriceCharting",
+          "matchedTitle": "Jim Power: The Lost Dimension",
+          "region": "US/NTSC",
+          "regionRank": 0,
+          "productUrl": "https://www.pricecharting.com/game/playstation-4/jim-power-the-lost-dimension",
+          "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/489622e2e8c96653ef5edb69acbbf237f5288425bc0e3b8dff154eff34548397/1600.jpg",
+          "matchingMethod": "canonical_exact",
+          "query": {
+            "title": "Jim Power: The Lost Dimension",
+            "method": "canonical_exact"
+          },
+          "reason": "failed_existing_retail_front_gate",
+          "metrics": {
+            "width": 1000,
+            "height": 1000,
+            "aspect": 1.0,
+            "bannerColumnSpan": 0.575,
+            "bannerPixelRatio": 0.2221
+          }
+        }
+      ]
+    },
+    {
+      "id": 2469,
+      "title": "Kyukyoku Tiger / Twin Cobra",
+      "reason": "image_fetch_failed",
+      "baselineState": "WATCH",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "Kyukyoku Tiger / Twin Cobra",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2469,
+            "title": "Kyukyoku Tiger / Twin Cobra",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 2469,
+            "title": "Kyukyoku Tiger / Twin Cobra",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateCount": 16,
+            "candidateTitles": [
+              "Tiger Heli",
+              "Cobra Kai: The Karate Kid Saga Continues",
+              "Cobra Kai: The Karate Kid Saga Continues",
+              "Cobra Kai 2: Dojos Rising",
+              "Mercenaries Blaze: Dawn of the Twin Dragons",
+              "Twin Breaker: A Sacred Symbols Adventure",
+              "4Gamers Twin Charging Dock",
+              "Cobra Kai 2: Dojos Rising"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Kyukyoku Tiger / Twin Cobra",
+            "method": "canonical_exact"
+          },
+          "reason": "no_exact_product_match",
+          "candidateTitles": [
+            "Tiger Heli",
+            "Cobra Kai: The Karate Kid Saga Continues",
+            "Cobra Kai: The Karate Kid Saga Continues",
+            "Cobra Kai 2: Dojos Rising",
+            "Mercenaries Blaze: Dawn of the Twin Dragons",
+            "Twin Breaker: A Sacred Symbols Adventure",
+            "4Gamers Twin Charging Dock",
+            "Cobra Kai 2: Dojos Rising",
+            "God Eater Off Shot: Lindow-Hen Twin Pack & Anime Vol. 2",
+            "Kyukyoku Tiger-Heli",
+            "Toaplan Arcade Garage: Kyukyoku Tiger-Heli",
+            "Toaplan Arcade Garage: Kyukyoku Tiger-Heli",
+            "Toaplan Arcade Garage: Kyukyoku Tiger-Heli",
+            "Toaplan Arcade Garage: Kyukyoku Tiger-Heli [Deluxe Edition]",
+            "TY The Tasmanian Tiger HD",
+            "Ty the Tasmanian Tiger HD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1665,
+      "title": "Maldita Castilla EX: Cursed Castilla",
+      "reason": "image_fetch_failed",
+      "baselineState": "WATCH",
+      "recoveryClasses": [
+        "source_fetch_failure",
+        "exact_product_previously_failed_image_verification",
+        "reviewed_alternate_spelling"
+      ],
+      "queries": [
+        {
+          "title": "Maldita Castilla EX: Cursed Castilla",
+          "method": "canonical_exact"
+        },
+        {
+          "title": "Maldita Castilla EX",
+          "method": "reviewed_identity_alias_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1665,
+            "title": "Maldita Castilla EX: Cursed Castilla",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-alias-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 1665,
+            "title": "Maldita Castilla EX: Cursed Castilla",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "aliases": [
+              "Maldita Castilla EX"
+            ],
+            "attempts": [
+              {
+                "alias": "Maldita Castilla EX",
+                "matchedTitle": "Maldita Castilla EX",
+                "region": "PAL",
+                "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/maldita-castilla-ex?q=maldita+castilla+ex+playstation+4",
+                "image": "https://storage.googleapis.com/images.pricecharting.com/019620d385710cb0f98a64ba7a5cc38ef89117cd19d7051b9bc5037a8771fedd/1600.jpg",
+                "reason": "failed_retail_front_gate",
+                "metrics": {
+                  "width": 1024,
+                  "height": 630,
+                  "aspect": 1.6254,
+                  "bannerColumnSpan": 0.0,
+                  "bannerPixelRatio": 0.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 1665,
+            "title": "Maldita Castilla EX: Cursed Castilla",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateCount": 38,
+            "candidateTitles": [
+              "Galactic Wars EX",
+              "Deus Ex: Mankind Divided [Day One Edition]",
+              "Cursed Castilla EX",
+              "John Wick Hex",
+              "Tokyo Xanadu EX+",
+              "John Wick Hex",
+              "Dariusburst: Another Chronicle EX+",
+              "Nex Machina"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Maldita Castilla EX: Cursed Castilla",
+            "method": "canonical_exact"
+          },
+          "reason": "no_exact_product_match",
+          "candidateTitles": [
+            "Galactic Wars EX",
+            "Deus Ex: Mankind Divided [Day One Edition]",
+            "Cursed Castilla EX",
+            "John Wick Hex",
+            "Tokyo Xanadu EX+",
+            "John Wick Hex",
+            "Dariusburst: Another Chronicle EX+",
+            "Nex Machina",
+            "Deus Ex: Mankind Divided",
+            "Tokyo Xanadu EX+ [Limited Edition]",
+            "Monster Boy and the Cursed Kingdom",
+            "Tokyo Xanadu EX+",
+            "Sine Mora EX",
+            "Under Night In-Birth Exe:Late St",
+            "R-Type Dimensions EX",
+            "Deus Ex: Mankind Divided [Collector's Edition]",
+            "Deus Ex: Mankind Divided [Day One Edition]",
+            "A-Train Exp",
+            "Blade Arcus from Shining EX [Tony's Premium Fan Box]",
+            "Cardfight Vanguard EX",
+            "Dariusburst: Another Chronicle EX+",
+            "Deus Ex Mankind Divided",
+            "Deus Ex: Mankind Divided [Not For Resale]",
+            "Dex",
+            "Fighting EX Layer",
+            "Fighting EX Layer",
+            "Jujutsu Kaisen: Cursed Clash",
+            "Maldita Castilla EX",
+            "Mickey Storm And The Cursed Mask",
+            "Mickey Storm and the Cursed Mask",
+            "Monster Boy And The Cursed Kingdom",
+            "Monster Boy and the Cursed Kingdom [Collector's Edition]",
+            "Riddled Corpses EX",
+            "Sine Mora EX",
+            "Stranded Sails: Explorers Of The Cursed Islands",
+            "Stranded Sails: Explorers of the Cursed Islands",
+            "Stranded Sails: Explorers of the Cursed Islands [Signature Edition]",
+            "Tokyo Xanadu EX+"
+          ]
+        },
+        {
+          "source": "PriceCharting",
+          "matchedTitle": "Maldita Castilla EX",
+          "region": "PAL",
+          "regionRank": 1,
+          "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/maldita-castilla-ex?q=maldita+castilla+ex+playstation+4",
+          "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/019620d385710cb0f98a64ba7a5cc38ef89117cd19d7051b9bc5037a8771fedd/1600.jpg",
+          "matchingMethod": "reviewed_identity_alias_exact",
+          "query": {
+            "title": "Maldita Castilla EX",
+            "method": "reviewed_identity_alias_exact"
+          },
+          "reason": "failed_existing_retail_front_gate",
+          "metrics": {
+            "width": 1024,
+            "height": 630,
+            "aspect": 1.6254,
+            "bannerColumnSpan": 0.0,
+            "bannerPixelRatio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 2242,
+      "title": "Ninja JaJaMaru Legendary Ninja Collection",
+      "reason": "image_fetch_failed",
+      "baselineState": "WATCH",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "Ninja JaJaMaru Legendary Ninja Collection",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2242,
+            "title": "Ninja JaJaMaru Legendary Ninja Collection",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 2242,
+            "title": "Ninja JaJaMaru Legendary Ninja Collection",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateCount": 2,
+            "candidateTitles": [
+              "JaJaMaru Legendary Ninja Collection",
+              "Ninja JaJaMaru Legendary Ninja Collection [Collector's Edition]"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Ninja JaJaMaru Legendary Ninja Collection",
+            "method": "canonical_exact"
+          },
+          "reason": "no_exact_product_match",
+          "candidateTitles": [
+            "JaJaMaru Legendary Ninja Collection",
+            "Ninja JaJaMaru Legendary Ninja Collection [Collector's Edition]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2429,
+      "title": "Noob: Les Sans-Factions",
+      "reason": "image_fetch_failed",
+      "baselineState": "WATCH",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "Noob: Les Sans-Factions",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2429,
+            "title": "Noob: Les Sans-Factions",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 2429,
+            "title": "Noob: Les Sans-Factions",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateCount": 1,
+            "candidateTitles": [
+              "Noob: Les Sans-Factions [Limited Edition]"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Noob: Les Sans-Factions",
+            "method": "canonical_exact"
+          },
+          "reason": "no_exact_product_match",
+          "candidateTitles": [
+            "Noob: Les Sans-Factions [Limited Edition]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1685,
+      "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
+      "reason": "image_fetch_failed",
+      "baselineState": "WATCH",
+      "recoveryClasses": [
+        "source_fetch_failure",
+        "reviewed_alternate_spelling"
+      ],
+      "queries": [
+        {
+          "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
+          "method": "canonical_exact"
+        },
+        {
+          "title": "oddworld new n tasty",
+          "method": "reviewed_identity_alias_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1685,
+            "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-alias-cover-recovery.json",
+          "outcome": "errors",
+          "evidence": {
+            "id": 1685,
+            "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "aliases": [
+              "oddworld new n tasty"
+            ],
+            "attempts": [
+              {
+                "alias": "oddworld new n tasty",
+                "error": "HTTP Error 429: Too Many Requests"
+              }
+            ]
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 1685,
+            "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateCount": 34,
+            "candidateTitles": [
+              "Wolfenstein II: The New Colossus",
+              "Wolfenstein: The New Order",
+              "Far Cry: New Dawn",
+              "The Walking Dead: A New Frontier",
+              "Wolfenstein The New Order and The Old Blood",
+              "New Gundam Breaker",
+              "Oddworld New 'n Tasty",
+              "Nights of Azure 2: Bride of the New Moon"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
+            "method": "canonical_exact"
+          },
+          "reason": "no_exact_product_match",
+          "candidateTitles": [
+            "Wolfenstein II: The New Colossus",
+            "Wolfenstein: The New Order",
+            "Far Cry: New Dawn",
+            "The Walking Dead: A New Frontier",
+            "Wolfenstein The New Order and The Old Blood",
+            "New Gundam Breaker",
+            "Oddworld New 'n Tasty",
+            "Nights of Azure 2: Bride of the New Moon",
+            "The Walking Dead: A New Frontier",
+            "Oddworld: Soulstorm [Collector's Oddition]",
+            "Oddworld: Soulstorm [Day One Oddition]",
+            "Captain Tsubasa: Rise of New Champions",
+            "Captain Tsubasa: Rise of New Champions",
+            "Wolfenstein: The New Order",
+            "A Hole New World",
+            "Arcade Spirits: The New Challengers",
+            "Dragons Dawn Of New Riders",
+            "Far Cry New Dawn",
+            "Far Cry New Dawn",
+            "Far Cry New Dawn [Superbloom Edition]",
+            "Kingdom New Lands",
+            "Kingdom New Lands [Collector's Edition]",
+            "New Gold Wireless Headset",
+            "New Gundam Breaker",
+            "New Gundam Breaker",
+            "New Joe & Mac: Caveman Ninja",
+            "New Super Lucky's Tale",
+            "Oddworld Soulstorm",
+            "Oddworld: Soulstorm [Collector's Oddition]",
+            "Oddworld Soulstorm [Day One Oddition]",
+            "Vampire: The Masquerade The New York Bundle",
+            "Wolfenstein II: The New Colossus",
+            "Wolfenstein The New Order [EB Games]",
+            "Wolfenstein: The New Order [Playstation Hits]"
+          ]
+        },
+        {
+          "source": "PriceCharting",
+          "matchedTitle": "Oddworld New 'n Tasty",
+          "region": "US/NTSC",
+          "regionRank": 0,
+          "productUrl": "https://www.pricecharting.com/game/playstation-4/oddworld-new-%27n-tasty?q=oddworld+new+n+tasty+playstation+4",
+          "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/8520f52c455bdc9dd748243bc13cfd265282b9cf0d834d6d1540c310283f4c70/1600.jpg",
+          "matchingMethod": "reviewed_identity_alias_exact",
+          "query": {
+            "title": "oddworld new n tasty",
+            "method": "reviewed_identity_alias_exact"
+          },
+          "reason": "failed_existing_retail_front_gate",
+          "metrics": {
+            "width": 1383,
+            "height": 1536,
+            "aspect": 0.9004,
+            "bannerColumnSpan": 0.6056,
+            "bannerPixelRatio": 0.1907
+          }
+        }
+      ]
+    },
+    {
+      "id": 2695,
+      "title": "Q.U.B.E.",
+      "reason": "image_fetch_failed",
+      "baselineState": "WATCH",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "Q.U.B.E.",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2695,
+            "title": "Q.U.B.E.",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "errors",
+          "evidence": {
+            "id": 2695,
+            "title": "Q.U.B.E.",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "error": "HTTP Error 429: Too Many Requests"
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Q.U.B.E.",
+            "method": "canonical_exact"
+          },
+          "reason": "no_exact_product_match",
+          "candidateTitles": [
+            "Q.U.B.E. [10th Anniversary]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2696,
+      "title": "Quintessential Quintuplets Fives Memories With You",
+      "reason": "image_fetch_failed",
+      "baselineState": "WATCH",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "Quintessential Quintuplets Fives Memories With You",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2696,
+            "title": "Quintessential Quintuplets Fives Memories With You",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "errors",
+          "evidence": {
+            "id": 2696,
+            "title": "Quintessential Quintuplets Fives Memories With You",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "error": "HTTP Error 429: Too Many Requests"
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "source": "PriceCharting",
+          "matchedTitle": "Quintessential Quintuplets Fives Memories With You",
+          "region": "JP",
+          "regionRank": 3,
+          "productUrl": "https://www.pricecharting.com/game/jp-playstation-4/quintessential-quintuplets-fives-memories-with-you?q=quintessential+quintuplets+fives+memories+with+you+playstation+4",
+          "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/6bf0c39e7164edfa1984f8da938407a101fa635a763dc15248f1a8ce84f37554/1600.jpg",
+          "matchingMethod": "canonical_exact",
+          "query": {
+            "title": "Quintessential Quintuplets Fives Memories With You",
+            "method": "canonical_exact"
+          },
+          "reason": "failed_existing_retail_front_gate",
+          "metrics": {
+            "width": 1600,
+            "height": 1200,
+            "aspect": 1.3333,
+            "bannerColumnSpan": 0.0,
+            "bannerPixelRatio": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "id": 1725,
+      "title": "Shenmue I",
+      "reason": "image_fetch_failed",
+      "baselineState": "WATCH",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "Shenmue I",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1725,
+            "title": "Shenmue I",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 1725,
+            "title": "Shenmue I",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateCount": 6,
+            "candidateTitles": [
+              "Shenmue I & II",
+              "Shenmue I & II",
+              "Shenmue I & II [Limited Edition]",
+              "Shenmue I & II [Pix'n Love Edition]",
+              "Shenmue I & II [White Label]",
+              "Shenmue III [Day 1 Edition]"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Shenmue I",
+            "method": "canonical_exact"
+          },
+          "reason": "no_exact_product_match",
+          "candidateTitles": [
+            "Shenmue I & II",
+            "Shenmue I & II",
+            "Shenmue I & II [Limited Edition]",
+            "Shenmue I & II [Pix'n Love Edition]",
+            "Shenmue I & II [White Label]",
+            "Shenmue III [Day 1 Edition]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1976,
+      "title": "Sisters Royale",
+      "reason": "image_fetch_failed",
+      "baselineState": "WATCH",
+      "recoveryClasses": [
+        "source_fetch_failure",
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Sisters Royale",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1976,
+            "title": "Sisters Royale",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 1976,
+            "title": "Sisters Royale",
+            "bucket": "watch",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Sisters Royale",
+            "region": "PAL",
+            "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/sisters-royale",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/36f3d2f3cc58f22464333d41af46c77a3b3281419bf26d88433dc0de1456910e/1600.jpg",
+            "metrics": {
+              "width": 1024,
+              "height": 1024,
+              "aspect": 1.0,
+              "bannerColumnSpan": 0.5611,
+              "bannerPixelRatio": 0.2229
+            }
+          }
+        }
+      ],
+      "status": "requires_visual_review",
+      "batch": 1,
+      "candidates": [
+        {
+          "source": "PriceCharting",
+          "matchedTitle": "Sisters Royale",
+          "region": "JP",
+          "regionRank": 3,
+          "productUrl": "https://www.pricecharting.com/game/jp-playstation-4/sisters-royale",
+          "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/91ec56b84c62cc59e78adc0c3df43cf8071cc415bdb9db39cf3500072292ad54/1600.jpg",
+          "matchingMethod": "canonical_exact",
+          "query": {
+            "title": "Sisters Royale",
+            "method": "canonical_exact"
+          },
+          "metrics": {
+            "width": 399,
+            "height": 500,
+            "aspect": 0.798,
+            "bannerColumnSpan": 1.0,
+            "bannerPixelRatio": 0.5228
+          },
+          "status": "requires_visual_review"
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "source": "PriceCharting",
+          "matchedTitle": "Sisters Royale",
+          "region": "PAL",
+          "regionRank": 1,
+          "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/sisters-royale",
+          "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/36f3d2f3cc58f22464333d41af46c77a3b3281419bf26d88433dc0de1456910e/1600.jpg",
+          "matchingMethod": "canonical_exact",
+          "query": {
+            "title": "Sisters Royale",
+            "method": "canonical_exact"
+          },
+          "reason": "failed_existing_retail_front_gate",
+          "metrics": {
+            "width": 1024,
+            "height": 1024,
+            "aspect": 1.0,
+            "bannerColumnSpan": 0.5611,
+            "bannerPixelRatio": 0.2229
+          }
+        }
+      ]
+    },
+    {
+      "id": 1753,
+      "title": "The First Tree: Console Edition",
+      "reason": "image_fetch_failed",
+      "baselineState": "WATCH",
+      "recoveryClasses": [
+        "source_fetch_failure",
+        "exact_product_previously_failed_image_verification",
+        "reviewed_alternate_spelling"
+      ],
+      "queries": [
+        {
+          "title": "The First Tree: Console Edition",
+          "method": "canonical_exact"
+        },
+        {
+          "title": "The First Tree",
+          "method": "reviewed_identity_alias_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1753,
+            "title": "The First Tree: Console Edition",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-alias-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 1753,
+            "title": "The First Tree: Console Edition",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "aliases": [
+              "The First Tree"
+            ],
+            "attempts": [
+              {
+                "alias": "The First Tree",
+                "matchedTitle": "The First Tree",
+                "region": "US/NTSC",
+                "productUrl": "https://www.pricecharting.com/game/playstation-4/the-first-tree?q=the+first+tree+playstation+4",
+                "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96jidSUwtKwUM6mZLbIaNp5pvjeRbkDfVaLpjDyIt3LtyDhMxJtkMYw6nNS1lb_TTuATBEHl-kkBOodOdhNEZpyqycp2q5zCJSVWoD1gCZ7wNBeoY0vAdPWgN6ufvuh56Hg_EN_NcZgE_gpu6s6yOQMv7-AKQ/1600.jpg",
+                "reason": "failed_retail_front_gate",
+                "metrics": {
+                  "width": 410,
+                  "height": 512,
+                  "aspect": 0.8008,
+                  "bannerColumnSpan": 0.7111,
+                  "bannerPixelRatio": 0.3001
+                }
+              }
+            ]
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 1753,
+            "title": "The First Tree: Console Edition",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateCount": 76,
+            "candidateTitles": [
+              "Playstation 4 500GB Black Console",
+              "Playstation 4 Pro 1TB Console",
+              "Playstation 4 1TB Slim Console",
+              "Playstation 4 Pro 1TB Spiderman Console",
+              "Playstation 4 500GB Slim Console",
+              "Playstation 4 1TB God of War Console",
+              "Sony PlayStation 4 500GB Console Uncharted 4 Limited Edition",
+              "Playstation 4 Pro 1TB Star Wars Battlefront II Console"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "The First Tree: Console Edition",
+            "method": "canonical_exact"
+          },
+          "reason": "no_exact_product_match",
+          "candidateTitles": [
+            "Playstation 4 500GB Black Console",
+            "Playstation 4 Pro 1TB Console",
+            "Playstation 4 1TB Slim Console",
+            "Playstation 4 Pro 1TB Spiderman Console",
+            "Playstation 4 500GB Slim Console",
+            "Playstation 4 1TB God of War Console",
+            "Sony PlayStation 4 500GB Console Uncharted 4 Limited Edition",
+            "Playstation 4 Pro 1TB Star Wars Battlefront II Console",
+            "Playstation 4 1TB Slim Days of Play Console",
+            "Playstation 4 1TB Black Ops III Console",
+            "Playstation 4 1TB Slim Gold Console",
+            "Playstation 4 Pro 1TB Death Stranding Console",
+            "Playstation 4 Pro 1TB Kingdom Hearts III Console",
+            "Playstation 4 20th Anniversary Gray Console",
+            "Playstation 4 Slim 1TB Call Of Duty WWII Console",
+            "Playstation 4 500GB Taco Bell Gold Console",
+            "Playstation 4 500GB Destiny Taken King Console Bundle",
+            "Playstation 4 Pro 1TB The Last of Us Part II Console",
+            "Frostpunk: Console Edition",
+            "Stellaris [Console Edition]",
+            "Rust: Console Edition",
+            "Playstation 4 Pro 1TB Call of Duty Modern Warfare Console Bundle",
+            "Playstation 4 1TB Slim Days of Play 2019 Console",
+            "Playstation 4 Pro 1TB Monster Hunter World Console",
+            "Playstation 4 500GB Disney Infinity Star Wars Console Bundle",
+            "PlayStation 4 500GB Dragon Quest Heroes Console",
+            "Playstation 4 1TB Slim Console Spiderman Bundle",
+            "Playstation 4 Pro 1TB White Destiny 2 Console Bundle",
+            "Playstation 4 Pro 1TB Destiny 2 Console",
+            "Playstation 4 1TB Final Fantasy XV Console",
+            "Playstation 4 500GB Black Ops III Console",
+            "The First Tree",
+            "Playstation 4 500GB Destiny Console Bundle",
+            "Playstation 4 500GB Last of Us Remastered Console Bundle",
+            "Playstation 4 500GB Console Uncharted 4 Bundle",
+            "Playstation 4 500GB Slim Days Of Play Console",
+            "Playstation 4 Pro 1TB Star Wars Battlefront II Console",
+            "Playstation 4 1TB Slim Console Spiderman Bundle",
+            "Playstation 4 20th Anniversary Gray Console",
+            "Playstation 4 Pro 1TB Death Stranding Console",
+            "Playstation 4 Pro 1TB The Last of Us Part II Console",
+            "PlayStation 4 Slim 1TB Gran Turismo Sport Edition Console",
+            "Accounting + [Tree Guy Edition]",
+            "Catan: Console Edition",
+            "Catan: Console Edition [Super Deluxe]",
+            "Frostpunk: Console Edition",
+            "Playstation 4 1TB Console",
+            "Playstation 4 1TB [Final Fantasy XV Limited Edition Console]",
+            "Playstation 4 1TB God Of War Console",
+            "Playstation 4 1TB God Of War Console",
+            "Playstation 4 1TB Slim Console Red Dead Redemption II Bundle",
+            "Playstation 4 1TB Slim Days Of Play 2019 Console [Limited Edition]",
+            "Playstation 4 500GB Bloodborne Console",
+            "Playstation 4 500GB [Destiny Taken King Console Bundle]",
+            "Playstation 4 500GB White Destiny Console Bundle",
+            "PlayStation 4 Console Call of Duty Modern Warfare II Bundle",
+            "Playstation 4 Pro 1 TB Console",
+            "Playstation 4 Pro 1TB Console [NHL 20 Bundle]",
+            "Playstation 4 Pro 1TB  Console Red Dead Redemption II Bundle",
+            "Playstation 4 Pro 1TB Fortnite Console Bundle",
+            "Playstation 4 Pro 1TB Kingdom Hearts 3 Console",
+            "Playstation 4 Pro 1TB Kingdom Hearts III Console",
+            "Playstation 4 Pro 1TB Spiderman Console",
+            "Playstation 4 Pro 1TB Star Wars Battlefront II Console",
+            "Playstation 4 Pro 1TB The Last Of Us Part II Console",
+            "PlayStation 4 Slim 1TB Gran Turismo Sport Edition Console",
+            "Playstation 4 Slim 500GB Console [NHL 17 Bundle]",
+            "Playstation 4 Slim Kingdom Hearts 15th Anniversary Console",
+            "Playstation 4 Yuengling Limited Edition Console",
+            "RUST: Console Edition [Day One Edition]",
+            "Sony PlayStation 4 1Tb Console Uncharted 4 [Limited Edition]",
+            "Sony PlayStation 4 Pro 1TB Console [Black]",
+            "Stellaris: Console Edition [The Royal]",
+            "Tram Sim: Console Edition [Deluxe Edition]",
+            "Transport Fever 2: Console Edition",
+            "Transport Fever 2: Console Edition"
+          ]
+        },
+        {
+          "source": "PriceCharting",
+          "matchedTitle": "The First Tree",
+          "region": "US/NTSC",
+          "regionRank": 0,
+          "productUrl": "https://www.pricecharting.com/game/playstation-4/the-first-tree?q=the+first+tree+playstation+4",
+          "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96jidSUwtKwUM6mZLbIaNp5pvjeRbkDfVaLpjDyIt3LtyDhMxJtkMYw6nNS1lb_TTuATBEHl-kkBOodOdhNEZpyqycp2q5zCJSVWoD1gCZ7wNBeoY0vAdPWgN6ufvuh56Hg_EN_NcZgE_gpu6s6yOQMv7-AKQ/1600.jpg",
+          "matchingMethod": "reviewed_identity_alias_exact",
+          "query": {
+            "title": "The First Tree",
+            "method": "reviewed_identity_alias_exact"
+          },
+          "reason": "failed_existing_retail_front_gate",
+          "metrics": {
+            "width": 410,
+            "height": 512,
+            "aspect": 0.8008,
+            "bannerColumnSpan": 0.7111,
+            "bannerPixelRatio": 0.3001
+          }
+        }
+      ]
+    },
+    {
+      "id": 1756,
+      "title": "The Journey Down: Chapter Two",
+      "reason": "image_fetch_failed",
+      "baselineState": "WATCH",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "The Journey Down: Chapter Two",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1756,
+            "title": "The Journey Down: Chapter Two",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 1756,
+            "title": "The Journey Down: Chapter Two",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateCount": 30,
+            "candidateTitles": [
+              "Minecraft: Story Mode Season Two",
+              "Kingdom Hearts HD 2.8 Final Chapter Prologue",
+              "It Takes Two",
+              "Heavy Rain & Beyond Two Souls",
+              "Journey [Collector's Edition]",
+              "Heavy Rain & Beyond: Two Souls",
+              "Journey to the Savage Planet",
+              "The Walking Dead: Season Two"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "The Journey Down: Chapter Two",
+            "method": "canonical_exact"
+          },
+          "reason": "no_exact_product_match",
+          "candidateTitles": [
+            "Minecraft: Story Mode Season Two",
+            "Kingdom Hearts HD 2.8 Final Chapter Prologue",
+            "It Takes Two",
+            "Heavy Rain & Beyond Two Souls",
+            "Journey [Collector's Edition]",
+            "Heavy Rain & Beyond: Two Souls",
+            "Journey to the Savage Planet",
+            "The Walking Dead: Season Two",
+            "Robinson The Journey VR",
+            "Loading Human: Chapter 1",
+            "Brothers A Tale of Two Sons",
+            "Atelier Firis: The Alchemist and the Mysterious Journey",
+            "Away: Journey To The Unexpected",
+            "Two Point Campus [Enrollment Edition]",
+            "Two Point Hospital",
+            "Atelier Firis: The Alchemist and the Mysterious Journey",
+            "Colossus Down",
+            "Down the Rabbit Hole",
+            "Dreamfall Chapters",
+            "It Takes Two",
+            "Japanese Rail Sim: Journey To Kyoto",
+            "Loading Human Chapter 1",
+            "Macrotis: A Mother's Journey",
+            "Old Man's Journey",
+            "Robinson : The Journey",
+            "The Journey Down Trilogy",
+            "The Long Journey Home",
+            "The Sims 4 X Star Wars Bundle - Journey To Batuu",
+            "The Walking Dead: Season Two",
+            "Two Point Hospital"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2784,
+      "title": "Tony Hawk's Pro Skater 3 + 4",
+      "reason": "image_fetch_failed",
+      "baselineState": "WATCH",
+      "recoveryClasses": [
+        "source_fetch_failure",
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Tony Hawk's Pro Skater 3 + 4",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2784,
+            "title": "Tony Hawk's Pro Skater 3 + 4",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "launchboxDatabaseId": 476997,
+            "launchboxName": "Tony Hawk's Pro Skater 3 + 4"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2784,
+            "title": "Tony Hawk's Pro Skater 3 + 4",
+            "bucket": "watch",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Tony Hawk's Pro Skater 3 + 4",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/tony-hawk%27s-pro-skater-3-+-4",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/k4ar4f7kps7xe3ng/1600.jpg",
+            "metrics": {
+              "width": 1600,
+              "height": 1600,
+              "aspect": 1.0,
+              "bannerColumnSpan": 0.6917,
+              "bannerPixelRatio": 0.4702
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "source": "PriceCharting",
+          "matchedTitle": "Tony Hawk's Pro Skater 3 + 4",
+          "region": "US/NTSC",
+          "regionRank": 0,
+          "productUrl": "https://www.pricecharting.com/game/playstation-4/tony-hawk%27s-pro-skater-3-+-4",
+          "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/k4ar4f7kps7xe3ng/1600.jpg",
+          "matchingMethod": "canonical_exact",
+          "query": {
+            "title": "Tony Hawk's Pro Skater 3 + 4",
+            "method": "canonical_exact"
+          },
+          "reason": "failed_existing_retail_front_gate",
+          "metrics": {
+            "width": 1600,
+            "height": 1600,
+            "aspect": 1.0,
+            "bannerColumnSpan": 0.6917,
+            "bannerPixelRatio": 0.4702
+          }
+        },
+        {
+          "source": "PriceCharting",
+          "matchedTitle": "Tony Hawk's Pro Skater 3 + 4",
+          "region": "PAL",
+          "regionRank": 1,
+          "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/tony-hawk%27s-pro-skater-3-+-4",
+          "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/soyfpxw33syf2p34/1600.jpg",
+          "matchingMethod": "canonical_exact",
+          "query": {
+            "title": "Tony Hawk's Pro Skater 3 + 4",
+            "method": "canonical_exact"
+          },
+          "reason": "failed_existing_retail_front_gate",
+          "metrics": {
+            "width": 900,
+            "height": 900,
+            "aspect": 1.0,
+            "bannerColumnSpan": 0.7111,
+            "bannerPixelRatio": 0.4451
+          }
+        }
+      ]
+    },
+    {
+      "id": 1979,
+      "title": "Trouble Witches Final: Episode 1 - Daughters of Amalgam",
+      "reason": "image_fetch_failed",
+      "baselineState": "WATCH",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "Trouble Witches Final: Episode 1 - Daughters of Amalgam",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1979,
+            "title": "Trouble Witches Final: Episode 1 - Daughters of Amalgam",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 1979,
+            "title": "Trouble Witches Final: Episode 1 - Daughters of Amalgam",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateCount": 26,
+            "candidateTitles": [
+              "Final Fantasy I-VI Collection",
+              "Final Fantasy XV",
+              "Danganronpa Another Episode: Ultra Despair Girls",
+              "Playstation 4 1TB Final Fantasy XV Console",
+              "World of Final Fantasy",
+              "Final Fantasy VIII",
+              "Star Wars Episode 1 Racer",
+              "World Of Final Fantasy"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Trouble Witches Final: Episode 1 - Daughters of Amalgam",
+            "method": "canonical_exact"
+          },
+          "reason": "no_exact_product_match",
+          "candidateTitles": [
+            "Final Fantasy I-VI Collection",
+            "Final Fantasy XV",
+            "Danganronpa Another Episode: Ultra Despair Girls",
+            "Playstation 4 1TB Final Fantasy XV Console",
+            "World of Final Fantasy",
+            "Final Fantasy VIII",
+            "Star Wars Episode 1 Racer",
+            "World Of Final Fantasy",
+            "Final Fantasy XV",
+            "Biohazard 25th Episode Selection Vol 1",
+            "Coffee Talk Episode 1 + Episode 2: Double Shot Bundle",
+            "Coffee Talk Episode 2: Hibiscus And Butterfly",
+            "Final Fantasy XV",
+            "Light Fairytale Episode 1",
+            "Light Fairytale Episode 2",
+            "Nine Witches: Family Disruption",
+            "Phantasy Star Online 2 Episode 4 [Deluxe Package]",
+            "Phantasy Star Online 2 Episode 6 [Deluxe Package]",
+            "Playstation 4 1TB [Final Fantasy XV Limited Edition Console]",
+            "PlayStation 4 Final Fantasy Type-0 Suzaku Edition",
+            "Playtstation 4 500GB [Final Fantasy VII Remake Pack]",
+            "Star Wars Episode 1 Racer [Classic Edition]",
+            "Star Wars Episode 1 Racer [Premium Edition]",
+            "Trouble Witches Final! Episode 01: Daughters of Amalgam",
+            "Trouble Witches Final! Episode 01: Daughters Of Amalgam",
+            "Trouble Witches Final! Episode 01: Daughters Of Amalgam [Special Edition]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1465,
+      "title": "XIII (Remake)",
+      "reason": "image_fetch_failed",
+      "baselineState": "WATCH",
+      "recoveryClasses": [
+        "source_fetch_failure"
+      ],
+      "queries": [
+        {
+          "title": "XIII (Remake)",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1465,
+            "title": "XIII (Remake)",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 1465,
+            "title": "XIII (Remake)",
+            "bucket": "watch",
+            "reason": "image_fetch_failed",
+            "candidateCount": 38,
+            "candidateTitles": [
+              "Final Fantasy VII Remake [Deluxe Edition]",
+              "Final Fantasy VII Remake",
+              "Resident Evil 4 Remake",
+              "13 Sentinels: Aegis Rim",
+              "Final Fantasy VII Remake [1st Class Edition]",
+              "Final Fantasy VII Remake",
+              "Final Fantasy VII Remake [Deluxe Edition]",
+              "Resident Evil 4 Remake"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "XIII (Remake)",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2037,
+      "title": "9th Dawn III",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "likely_edition_name_mismatch"
+      ],
+      "queries": [
+        {
+          "title": "9th Dawn III",
+          "method": "canonical_exact"
+        },
+        {
+          "title": "9th Dawn III: Shadow of Erthil",
+          "method": "vetted_edition_alias_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2037,
+            "title": "9th Dawn III",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 475358,
+            "launchboxName": "9th Dawn III"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 2037,
+            "title": "9th Dawn III",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateCount": 1,
+            "candidateTitles": [
+              "9th Dawn III: Shadow of Erthil"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "9th Dawn III",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "query": {
+            "title": "9th Dawn III: Shadow of Erthil",
+            "method": "vetted_edition_alias_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2482,
+      "title": "Alice Gear Aegis CS: Concerto of Simulatrix",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Alice Gear Aegis CS: Concerto of Simulatrix",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2482,
+            "title": "Alice Gear Aegis CS: Concerto of Simulatrix",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2482,
+            "title": "Alice Gear Aegis CS: Concerto of Simulatrix",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Alice Gear Aegis CS: Concerto of Simulatrix",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/alice-gear-aegis-cs-concerto-of-simulatrix",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/cecbd13fb7fce33018f9402ce9c88645e755579d29464f2f78cb9d5190e8f6c0/1600.jpg",
+            "metrics": {
+              "width": 1298,
+              "height": 1500,
+              "aspect": 0.8653,
+              "bannerColumnSpan": 0.8,
+              "bannerPixelRatio": 0.4564
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Alice Gear Aegis CS: Concerto of Simulatrix",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2077,
+      "title": "American Hero",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "American Hero",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2077,
+            "title": "American Hero",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2077,
+            "title": "American Hero",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "American Hero",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/american-hero?q=american+hero+playstation+4",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/274a2858af2e90e7e8ac151187371e8cf3f305b37c5929a13885b004cb36087a/1600.jpg",
+            "metrics": {
+              "width": 600,
+              "height": 667,
+              "aspect": 0.8996,
+              "bannerColumnSpan": 0.6194,
+              "bannerPixelRatio": 0.2905
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "American Hero",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2079,
+      "title": "Among Us",
+      "reason": "missing_ps4_banner",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "no_safe_match_in_previous_sources"
+      ],
+      "queries": [
+        {
+          "title": "Among Us",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2079,
+            "title": "Among Us",
+            "bucket": "review",
+            "reason": "missing_ps4_banner",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 2079,
+            "title": "Among Us",
+            "bucket": "review",
+            "reason": "missing_ps4_banner",
+            "candidateCount": 11,
+            "candidateTitles": [
+              "Injustice: Gods Among Us [Ultimate Edition]",
+              "Wolf Among Us",
+              "Among Us [Imposter Edition]",
+              "Among Us: Crewmate Edition",
+              "Among Us [Ejected Edition]",
+              "Injustice: Gods Among Us Ultimate Edition [Playstation Hits]",
+              "The Wolf Among Us",
+              "Among Us [Crewmate Edition]"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Among Us",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 1839,
+      "title": "Another Crusade",
+      "reason": "missing_ps4_banner",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Another Crusade",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1839,
+            "title": "Another Crusade",
+            "bucket": "review",
+            "reason": "missing_ps4_banner",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 1839,
+            "title": "Another Crusade",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Another Crusade",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/another-crusade?q=another+crusade+playstation+4",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/964b8e51c658a82c1055e77df8ce2b9e6e357cd041fb09761db486295e58d3f3/1600.jpg",
+            "metrics": {
+              "width": 1200,
+              "height": 1600,
+              "aspect": 0.75,
+              "bannerColumnSpan": 0.4972,
+              "bannerPixelRatio": 0.2134
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Another Crusade",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 1567,
+      "title": "Aokana - Four Rhythms Across the Blue",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "no_safe_match_in_previous_sources"
+      ],
+      "queries": [
+        {
+          "title": "Aokana - Four Rhythms Across the Blue",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1567,
+            "title": "Aokana - Four Rhythms Across the Blue",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 1567,
+            "title": "Aokana - Four Rhythms Across the Blue",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateCount": 23,
+            "candidateTitles": [
+              "Blue Reflection",
+              "Playstation 4 Dualshock 4 Midnight Blue Controller",
+              "Playstation 4 Dualshock 4 Berry Blue Controller",
+              "Playstation 4 Dualshock 4 Blue Crystal Controller",
+              "Blue Fire",
+              "Playstation 4 Dualshock 4 Blue Controller",
+              "Playstation 4 Dualshock 4 Gray Blue Controller",
+              "Playstation 4 Dualshock 4 Titanium Blue Controller"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Aokana - Four Rhythms Across the Blue",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "title": "Apex Legends",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "no_safe_match_in_previous_sources"
+      ],
+      "queries": [
+        {
+          "title": "Apex Legends",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 81,
+            "title": "Apex Legends",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 81,
+            "title": "Apex Legends",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateCount": 5,
+            "candidateTitles": [
+              "Apex Legends [Lifeline Edition]",
+              "Apex Legends [Bloodhound Edition]",
+              "Apex Legends [Bloodhound Edition]",
+              "Apex Legends [Bloodhound Edition]",
+              "Apex Legends [Lifeline Edition]"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Apex Legends",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Ara Fell: Enhanced Edition",
+      "reason": "missing_ps4_banner",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "no_safe_match_in_previous_sources"
+      ],
+      "queries": [
+        {
+          "title": "Ara Fell: Enhanced Edition",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 82,
+            "title": "Ara Fell: Enhanced Edition",
+            "bucket": "review",
+            "reason": "missing_ps4_banner",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 82,
+            "title": "Ara Fell: Enhanced Edition",
+            "bucket": "review",
+            "reason": "missing_ps4_banner",
+            "candidateCount": 35,
+            "candidateTitles": [
+              "Baldur's Gate 1 & 2 Enhanced Edition",
+              "Dying Light The Following Enhanced Edition",
+              "Divinity: Original Sin [Enhanced Edition]",
+              "Among the Sleep [Enhanced Edition]",
+              "Neverwinter Nights Enhanced Edition",
+              "Divinity: Original Sin [Enhanced Edition]",
+              "Planescape: Torment & Icewind Dale Enhanced Editions",
+              "Dying Light The Following Enhanced Edition [Playstation Hits]"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Ara Fell: Enhanced Edition",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 1579,
+      "title": "Back to the Future: The Game",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "likely_edition_name_mismatch"
+      ],
+      "queries": [
+        {
+          "title": "Back to the Future: The Game",
+          "method": "canonical_exact"
+        },
+        {
+          "title": "Back to the Future: The Game 30th Anniversary",
+          "method": "vetted_edition_alias_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1579,
+            "title": "Back to the Future: The Game",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 1579,
+            "title": "Back to the Future: The Game",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateCount": 2,
+            "candidateTitles": [
+              "Back to the Future: The Game 30th Anniversary",
+              "Back To The Future: The Game 30th Anniversary"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Back to the Future: The Game",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "query": {
+            "title": "Back to the Future: The Game 30th Anniversary",
+            "method": "vetted_edition_alias_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2515,
+      "title": "Behind the Frame",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Behind the Frame",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2515,
+            "title": "Behind the Frame",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2515,
+            "title": "Behind the Frame",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Behind the Frame",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/behind-the-frame",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/2ae4a2a3a79d02c45603dba6f180eb0e0cc69dad75b6c257b13a8c89e23da07e/1600.jpg",
+            "metrics": {
+              "width": 746,
+              "height": 746,
+              "aspect": 1.0,
+              "bannerColumnSpan": 0.7417,
+              "bannerPixelRatio": 0.4385
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Behind the Frame",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2518,
+      "title": "Beyond Enemy Lines 2: Enhanced Edition",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Beyond Enemy Lines 2: Enhanced Edition",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2518,
+            "title": "Beyond Enemy Lines 2: Enhanced Edition",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2518,
+            "title": "Beyond Enemy Lines 2: Enhanced Edition",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Beyond Enemy Lines 2: Enhanced Edition",
+            "region": "PAL",
+            "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/beyond-enemy-lines-2-enhanced-edition?q=beyond+enemy+lines+2%3A+enhanced+edition+playstation+4",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/cfd44e5a32b2c6463c990996ec9433823be22e5c0162255844e9d427d6cd8f5a/1600.jpg",
+            "metrics": {
+              "width": 1600,
+              "height": 1082,
+              "aspect": 1.4787,
+              "bannerColumnSpan": 0.4389,
+              "bannerPixelRatio": 0.1307
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Beyond Enemy Lines 2: Enhanced Edition",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2068,
+      "title": "Beyond the Ice Palace 2",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "no_safe_match_in_previous_sources"
+      ],
+      "queries": [
+        {
+          "title": "Beyond the Ice Palace 2",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 2068,
+            "title": "Beyond the Ice Palace 2",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 2068,
+            "title": "Beyond the Ice Palace 2",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateCount": 29,
+            "candidateTitles": [
+              "LEGO Batman 3: Beyond Gotham",
+              "Heavy Rain & Beyond Two Souls",
+              "Ice Age: Scrat's Nutty Adventure",
+              "Heavy Rain & Beyond: Two Souls",
+              "Anima: Gate of Memories Beyond Fantasy Edition",
+              "Legend Of Heroes: Trails Beyond The Horizon: Deluxe Edition",
+              "Dragon Fantasy: The Black Tome of Ice",
+              "ICEY"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Beyond the Ice Palace 2",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2521,
+      "title": "Bite the Bullet",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Bite the Bullet",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2521,
+            "title": "Bite the Bullet",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 446056,
+            "launchboxName": "Bite the Bullet"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2521,
+            "title": "Bite the Bullet",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Bite The Bullet",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/bite-the-bullet",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/edb10634d6fb3a39df794028aa06845ecdeefef6b289f49b7def10336278b839/1600.jpg",
+            "metrics": {
+              "width": 1008,
+              "height": 1007,
+              "aspect": 1.001,
+              "bannerColumnSpan": 0.5556,
+              "bannerPixelRatio": 0.2125
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Bite the Bullet",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 1964,
+      "title": "Blast Brigade vs. the Evil Legion of Dr. Cread",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "no_safe_match_in_previous_sources"
+      ],
+      "queries": [
+        {
+          "title": "Blast Brigade vs. the Evil Legion of Dr. Cread",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "unresolved",
+          "evidence": {
+            "id": 1964,
+            "title": "Blast Brigade vs. the Evil Legion of Dr. Cread",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateDatabaseIds": []
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "noMatch",
+          "evidence": {
+            "id": 1964,
+            "title": "Blast Brigade vs. the Evil Legion of Dr. Cread",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "candidateCount": 42,
+            "candidateTitles": [
+              "Resident Evil 2",
+              "The Evil Within",
+              "Resident Evil 3",
+              "The Evil Within 2",
+              "Resident Evil 4",
+              "Resident Evil 6",
+              "Resident Evil 5",
+              "Resident Evil 4 Remake"
+            ]
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Blast Brigade vs. the Evil Legion of Dr. Cread",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2532,
+      "title": "Bomb Rush Cyberfunk",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Bomb Rush Cyberfunk",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2532,
+            "title": "Bomb Rush Cyberfunk",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 475487,
+            "launchboxName": "Bomb Rush Cyberfunk"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2532,
+            "title": "Bomb Rush Cyberfunk",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Bomb Rush Cyberfunk",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/bomb-rush-cyberfunk?q=bomb+rush+cyberfunk+playstation+4",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/32f99541799f1ea82fa8c9f3277e6665172a321fd58d83ca5d2f6c654508a619/1600.jpg",
+            "metrics": {
+              "width": 1000,
+              "height": 1000,
+              "aspect": 1.0,
+              "bannerColumnSpan": 0.6944,
+              "bannerPixelRatio": 0.3854
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Bomb Rush Cyberfunk",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2533,
+      "title": "Bounty Battle",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Bounty Battle",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2533,
+            "title": "Bounty Battle",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 475509,
+            "launchboxName": "Bounty Battle"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2533,
+            "title": "Bounty Battle",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Bounty Battle",
+            "region": "PAL",
+            "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/bounty-battle?q=bounty+battle+playstation+4",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/87d40f086c127f453155bb301e3dcf4e65b7cc7e8ddb7c98c3e3997b5cacb509/1600.jpg",
+            "metrics": {
+              "width": 660,
+              "height": 650,
+              "aspect": 1.0154,
+              "bannerColumnSpan": 0.7806,
+              "bannerPixelRatio": 0.4156
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Bounty Battle",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 1582,
+      "title": "Breach & Clear: Deadline",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Breach & Clear: Deadline",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 1582,
+            "title": "Breach & Clear: Deadline",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 472934,
+            "launchboxName": "Breach & Clear: Deadline"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 1582,
+            "title": "Breach & Clear: Deadline",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Breach & Clear: Deadline",
+            "region": "US/NTSC",
+            "productUrl": "https://www.pricecharting.com/game/playstation-4/breach-&-clear-deadline?q=breach+%26+clear%3A+deadline+playstation+4",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/c571e3384cab5f58f1d13f4d98512b4138c214f76c242a72a5c73ababc8069e0/1600.jpg",
+            "metrics": {
+              "width": 1383,
+              "height": 1536,
+              "aspect": 0.9004,
+              "bannerColumnSpan": 0.6028,
+              "bannerPixelRatio": 0.2031
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "Breach & Clear: Deadline",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 1849,
+      "title": "BROK: The InvestiGator",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "BROK: The InvestiGator",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 1849,
+            "title": "BROK: The InvestiGator",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 475478,
+            "launchboxName": "BROK the InvestiGator"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 1849,
+            "title": "BROK: The InvestiGator",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "BROK: The Investigator",
+            "region": "PAL",
+            "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/brok-the-investigator?q=brok%3A+the+investigator+playstation+4",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/qhjg2hizfwfkrwz6/1600.jpg",
+            "metrics": {
+              "width": 508,
+              "height": 508,
+              "aspect": 1.0,
+              "bannerColumnSpan": 0.575,
+              "bannerPixelRatio": 0.1422
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "query": {
+            "title": "BROK: The InvestiGator",
+            "method": "canonical_exact"
+          },
+          "reason": "source_fetch_failure",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    {
+      "id": 2542,
+      "title": "Bus Simulator",
+      "reason": "key_art_only",
+      "baselineState": "REVIEW",
+      "recoveryClasses": [
+        "exact_product_previously_failed_image_verification"
+      ],
+      "queries": [
+        {
+          "title": "Bus Simulator",
+          "method": "canonical_exact"
+        }
+      ],
+      "priorEvidence": [
+        {
+          "ledger": "audit-out\\launchbox-cover-recovery.json",
+          "outcome": "noFront",
+          "evidence": {
+            "id": 2542,
+            "title": "Bus Simulator",
+            "bucket": "review",
+            "reason": "key_art_only",
+            "launchboxDatabaseId": 444264,
+            "launchboxName": "Bus Simulator"
+          }
+        },
+        {
+          "ledger": "audit-out\\pricecharting-cover-recovery.json",
+          "outcome": "rejected",
+          "evidence": {
+            "id": 2542,
+            "title": "Bus Simulator",
+            "bucket": "review",
+            "reason": "failed_retail_front_gate",
+            "matchedTitle": "Bus Simulator",
+            "region": "PAL",
+            "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/bus-simulator",
+            "image": "https://storage.googleapis.com/images.pricecharting.com/da40f32d374ed8088c11fdd6e8f302793bf3bcf3631fb6734a38053fcd926eb3/1600.jpg",
+            "metrics": {
+              "width": 1200,
+              "height": 1600,
+              "aspect": 0.75,
+              "bannerColumnSpan": 0.4056,
+              "bannerPixelRatio": 0.1431
+            }
+          }
+        }
+      ],
+      "status": "exception",
+      "batch": 1,
+      "candidates": [],
+      "rejectedCandidates": [
+        {
+          "source": "PriceCharting",
+          "matchedTitle": "Bus Simulator",
+          "region": "PAL",
+          "regionRank": 1,
+          "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/bus-simulator",
+          "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/da40f32d374ed8088c11fdd6e8f302793bf3bcf3631fb6734a38053fcd926eb3/1600.jpg",
+          "matchingMethod": "canonical_exact",
+          "query": {
+            "title": "Bus Simulator",
+            "method": "canonical_exact"
+          },
+          "reason": "failed_existing_retail_front_gate",
+          "metrics": {
+            "width": 1200,
+            "height": 1600,
+            "aspect": 0.75,
+            "bannerColumnSpan": 0.4056,
+            "bannerPixelRatio": 0.1431
+          }
+        }
+      ]
+    }
+  ]
+}

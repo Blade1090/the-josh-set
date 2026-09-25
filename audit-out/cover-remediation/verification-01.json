@@ -1,0 +1,94 @@
+{
+  "batch": 1,
+  "attempted": 40,
+  "approvedCandidates": [
+    {
+      "id": 1976,
+      "title": "Sisters Royale",
+      "source": "PriceCharting",
+      "matchedTitle": "Sisters Royale",
+      "region": "JP",
+      "regionRank": 3,
+      "productUrl": "https://www.pricecharting.com/game/jp-playstation-4/sisters-royale",
+      "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/91ec56b84c62cc59e78adc0c3df43cf8071cc415bdb9db39cf3500072292ad54/1600.jpg",
+      "matchingMethod": "canonical_exact",
+      "query": {
+        "title": "Sisters Royale",
+        "method": "canonical_exact"
+      },
+      "metrics": {
+        "width": 399,
+        "height": 500,
+        "aspect": 0.798,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.5228
+      },
+      "status": "requires_visual_review",
+      "visualEvidence": "Straight-on Japanese Sisters Royale front, full PS4 header, CERO B mark and Chorus Worldwide branding. No visible spine, angle, backdrop or cropping; exact PS4 product match. Japanese region is explicit in the source."
+    }
+  ],
+  "decisions": [
+    {
+      "id": 1971,
+      "decision": "reject",
+      "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/0195507ca55c81b150329563b5389e212b8886fa128b669b888666cbe4ea1e51/1600.jpg",
+      "reason": "angled_3d_case_render",
+      "visualEvidence": "Visible left spine and converging top/bottom edges. Fails straight-on physical-front requirement despite passing the pixel gate."
+    },
+    {
+      "id": 1976,
+      "decision": "accept",
+      "imageUrl": "https://storage.googleapis.com/images.pricecharting.com/91ec56b84c62cc59e78adc0c3df43cf8071cc415bdb9db39cf3500072292ad54/1600.jpg",
+      "visualEvidence": "Straight-on Japanese Sisters Royale front, full PS4 header, CERO B mark and Chorus Worldwide branding. No visible spine, angle, backdrop or cropping; exact PS4 product match. Japanese region is explicit in the source."
+    }
+  ],
+  "before": {
+    "generatedAt": "2026-09-25T19:39:05.277Z",
+    "included": 2407,
+    "good": 2046,
+    "fallback": 8,
+    "review": 332,
+    "watch": 21,
+    "physicalVerify": 328,
+    "physicalLikely": 1368,
+    "physicalConfirmed": 711,
+    "manualConfirmedBad": 0,
+    "manualFallback": 8,
+    "manualEligibility": 0,
+    "manualFixedTracked": 91,
+    "reviewByReason": {
+      "key_art_only": 307,
+      "missing_ps4_banner": 25
+    },
+    "watchByReason": {
+      "image_fetch_failed": 21
+    }
+  },
+  "status": "validated",
+  "after": {
+    "generatedAt": "2026-09-25T19:48:55.091Z",
+    "included": 2407,
+    "good": 2047,
+    "fallback": 8,
+    "review": 332,
+    "watch": 20,
+    "physicalVerify": 327,
+    "physicalLikely": 1369,
+    "physicalConfirmed": 711,
+    "manualConfirmedBad": 0,
+    "manualFallback": 8,
+    "manualEligibility": 0,
+    "manualFixedTracked": 91,
+    "reviewByReason": {
+      "key_art_only": 307,
+      "missing_ps4_banner": 25
+    },
+    "watchByReason": {
+      "image_fetch_failed": 20
+    }
+  },
+  "violations": [],
+  "recovered": [
+    1976
+  ]
+}

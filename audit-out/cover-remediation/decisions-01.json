@@ -1,0 +1,4 @@
+[
+  {"id":1971,"decision":"reject","imageUrl":"https://storage.googleapis.com/images.pricecharting.com/0195507ca55c81b150329563b5389e212b8886fa128b669b888666cbe4ea1e51/1600.jpg","reason":"angled_3d_case_render","visualEvidence":"Visible left spine and converging top/bottom edges. Fails straight-on physical-front requirement despite passing the pixel gate."},
+  {"id":1976,"decision":"accept","imageUrl":"https://storage.googleapis.com/images.pricecharting.com/91ec56b84c62cc59e78adc0c3df43cf8071cc415bdb9db39cf3500072292ad54/1600.jpg","visualEvidence":"Straight-on Japanese Sisters Royale front, full PS4 header, CERO B mark and Chorus Worldwide branding. No visible spine, angle, backdrop or cropping; exact PS4 product match. Japanese region is explicit in the source."}
+]
