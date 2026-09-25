@@ -1,11 +1,11 @@
 {
   "standard": "docs/COVER_ART_STANDARD.md",
   "summary": {
-    "generatedAt": "2026-09-25T21:18:04.626Z",
+    "generatedAt": "2026-09-25T21:20:52.523Z",
     "included": 2407,
-    "good": 2167,
+    "good": 2169,
     "fallback": 8,
-    "review": 214,
+    "review": 212,
     "watch": 18,
     "physicalVerify": 212,
     "physicalLikely": 1391,
@@ -16,7 +16,7 @@
     "manualFixedTracked": 91,
     "reviewByReason": {
       "key_art_only": 194,
-      "missing_ps4_banner": 20
+      "missing_ps4_banner": 18
     },
     "watchByReason": {
       "image_fetch_failed": 18
@@ -3128,22 +3128,6 @@
       "error": null
     },
     {
-      "id": 2079,
-      "title": "Among Us",
-      "source": "GAMEYE",
-      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/53b69972-7cfd-4f81-92c3-ff3e39d634fd.webp",
-      "verdict": "REVIEW",
-      "qualityState": "REVIEW",
-      "reason": "missing_ps4_banner",
-      "reasonCode": "missing_ps4_banner",
-      "physicalSanity": "LIKELY",
-      "manualStatus": null,
-      "manualReason": null,
-      "bannerColumnSpan": 0.0,
-      "bannerPixelRatio": 0.0,
-      "error": null
-    },
-    {
       "id": 1497,
       "title": "Chants of Sennaar",
       "source": "GAMEYE",
@@ -3301,22 +3285,6 @@
       "manualReason": null,
       "bannerColumnSpan": 0.6138888888888889,
       "bannerPixelRatio": 0.3030787037037037,
-      "error": null
-    },
-    {
-      "id": 435,
-      "title": "Elex",
-      "source": "GAMEYE",
-      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/f47221c3-a946-4f7e-a9c5-8b5d4421cd98.webp",
-      "verdict": "REVIEW",
-      "qualityState": "REVIEW",
-      "reason": "missing_ps4_banner",
-      "reasonCode": "missing_ps4_banner",
-      "physicalSanity": "LIKELY",
-      "manualStatus": null,
-      "manualReason": null,
-      "bannerColumnSpan": 0.6166666666666667,
-      "bannerPixelRatio": 0.34162037037037035,
       "error": null
     },
     {
@@ -5568,17 +5536,17 @@
     {
       "id": 2079,
       "title": "Among Us",
-      "source": "GAMEYE",
-      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/53b69972-7cfd-4f81-92c3-ff3e39d634fd.webp",
-      "verdict": "REVIEW",
-      "qualityState": "REVIEW",
-      "reason": "missing_ps4_banner",
-      "reasonCode": "missing_ps4_banner",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/jx3ohgqjrfo5ubkm/1600.jpg",
+      "verdict": "PASS",
+      "qualityState": "GOOD",
+      "reason": "strong_ps4_header",
+      "reasonCode": "strong_ps4_header",
       "physicalSanity": "LIKELY",
       "manualStatus": null,
       "manualReason": null,
-      "bannerColumnSpan": 0.0,
-      "bannerPixelRatio": 0.0,
+      "bannerColumnSpan": 0.9888888888888889,
+      "bannerPixelRatio": 0.47877314814814814,
       "error": null
     },
     {
@@ -15088,17 +15056,17 @@
     {
       "id": 435,
       "title": "Elex",
-      "source": "GAMEYE",
-      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/f47221c3-a946-4f7e-a9c5-8b5d4421cd98.webp",
-      "verdict": "REVIEW",
-      "qualityState": "REVIEW",
-      "reason": "missing_ps4_banner",
-      "reasonCode": "missing_ps4_banner",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/598d171c8c601a42c9a4e68719ad7a69c3fbbc05272d1c533bc650bec41f8452/1600.jpg",
+      "verdict": "PASS",
+      "qualityState": "GOOD",
+      "reason": "strong_ps4_header",
+      "reasonCode": "strong_ps4_header",
       "physicalSanity": "LIKELY",
       "manualStatus": null,
       "manualReason": null,
-      "bannerColumnSpan": 0.6166666666666667,
-      "bannerPixelRatio": 0.34162037037037035,
+      "bannerColumnSpan": 0.9916666666666667,
+      "bannerPixelRatio": 0.32472222222222225,
       "error": null
     },
     {

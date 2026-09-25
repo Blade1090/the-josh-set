@@ -8,20 +8,20 @@
   "fallback": 8
  },
  "branch": "art-department-weekend-final",
- "currentVerifiedCommit": "bbfb063e31657a39aedfe29739a6d18f5fcd5e51 (parent of the batch commit that records this checkpoint)",
+ "currentVerifiedCommit": "e2a5e8d7f0d4d22e42aa25a21a34befc2f0143d7 (parent of the batch commit that records this checkpoint)",
  "currentQA": {
   "included": 2407,
-  "good": 2167,
-  "review": 214,
+  "good": 2169,
+  "review": 212,
   "watch": 18,
   "fallback": 8
  },
  "totals": {
-  "attempted": 352,
-  "accepted": 118,
-  "rejected": 66,
-  "goodGained": 118,
-  "reviewCleared": 116,
+  "attempted": 356,
+  "accepted": 120,
+  "rejected": 69,
+  "goodGained": 120,
+  "reviewCleared": 118,
   "watchCleared": 2,
   "fallbackChange": 0
  },
@@ -1489,6 +1489,65 @@
    ],
    "goodGained": 12,
    "baselineGoodRegressions": 0
+  },
+  {
+   "batch": 6,
+   "name": "recover PriceCharting fronts",
+   "before": {
+    "included": 2407,
+    "good": 2167,
+    "review": 214,
+    "watch": 18,
+    "fallback": 8
+   },
+   "after": {
+    "included": 2407,
+    "good": 2169,
+    "review": 212,
+    "watch": 18,
+    "fallback": 8
+   },
+   "attempted": 4,
+   "accepted": [
+    {
+     "id": 2079,
+     "title": "Among Us",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/jx3ohgqjrfo5ubkm/1600.jpg",
+     "region": "PAL",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): Among Us [Crewmate Edition]"
+    },
+    {
+     "id": 435,
+     "title": "Elex",
+     "layer": "pricecharting",
+     "url": "https://storage.googleapis.com/images.pricecharting.com/598d171c8c601a42c9a4e68719ad7a69c3fbbc05272d1c533bc650bec41f8452/1600.jpg",
+     "region": "PAL",
+     "evidence": "visually vetted straight-on PS4 front; PriceCharting product page (offline-index ID): Elex"
+    }
+   ],
+   "rejected": [
+    {
+     "id": 1971,
+     "title": "Jim Power: The Lost Dimension",
+     "candidate": "https://storage.googleapis.com/images.pricecharting.com/0195507ca55c81b150329563b5389e212b8886fa128b669b888666cbe4ea1e51/1600.jpg",
+     "reason": "angled render without rating marks"
+    },
+    {
+     "id": 2241,
+     "title": "Steel Empire Chronicles",
+     "candidate": "https://storage.googleapis.com/images.pricecharting.com/uolq7aze5cxewi3z/1600.jpg",
+     "reason": "3D box render"
+    },
+    {
+     "id": 2241,
+     "title": "Steel Empire Chronicles",
+     "candidate": "https://storage.googleapis.com/images.pricecharting.com/55zm4dewdas25wen/1600.jpg",
+     "reason": "photo, no rating marks"
+    }
+   ],
+   "goodGained": 2,
+   "baselineGoodRegressions": 0
   }
  ],
  "sourcesUsed": [
@@ -2472,11 +2531,6 @@
     "reason": "key_art_only"
    },
    {
-    "id": 2079,
-    "title": "Among Us",
-    "reason": "missing_ps4_banner"
-   },
-   {
     "id": 1497,
     "title": "Chants of Sennaar",
     "reason": "missing_ps4_banner"
@@ -2524,11 +2578,6 @@
    {
     "id": 1227,
     "title": "The Church in the Darkness",
-    "reason": "missing_ps4_banner"
-   },
-   {
-    "id": 435,
-    "title": "Elex",
     "reason": "missing_ps4_banner"
    },
    {
@@ -2708,7 +2757,7 @@
   ],
   "reviewByReason": {
    "key_art_only": 194,
-   "missing_ps4_banner": 20
+   "missing_ps4_banner": 18
   },
   "watchByReason": {
    "image_fetch_failed": 18
@@ -2717,6 +2766,6 @@
  "blockers": [
   "GameFAQs box images return HTTP 403 to automated audit fetches (all 20 WATCH items); audit cannot verify them, so they need alternate hosts."
  ],
- "lastVerified": "2026-09-25T21:20:20+00:00",
- "nextTask": "6 — remaining PC crawl candidates (WATCH tail), then residual-queue triage"
+ "lastVerified": "2026-09-25T21:23:08+00:00",
+ "nextTask": "7 — residual-queue triage: WATCH alternates, PC gate-failed portraits, LRG/Strictly Limited shop images"
 }

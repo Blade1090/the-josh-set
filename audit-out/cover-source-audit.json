@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-25T21:18:04.626Z",
+  "generatedAt": "2026-09-25T21:20:52.523Z",
   "included": 2407,
   "counts": {
     "CURATED_ID": 4,
     "CURATED_TITLE": 137,
-    "GAMEYE": 937,
+    "GAMEYE": 935,
     "LAUNCHBOX_BOX_FRONT": 688,
     "LEGACY_IGDB": 194,
-    "PRICECHARTING_BOX_FRONT": 400,
+    "PRICECHARTING_BOX_FRONT": 402,
     "PRODUCT_BOX_FRONT": 47
   },
   "rows": [
@@ -650,8 +650,8 @@
     {
       "id": 2079,
       "title": "Among Us",
-      "source": "GAMEYE",
-      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/53b69972-7cfd-4f81-92c3-ff3e39d634fd.webp"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/jx3ohgqjrfo5ubkm/1600.jpg"
     },
     {
       "id": 73,
@@ -4220,8 +4220,8 @@
     {
       "id": 435,
       "title": "Elex",
-      "source": "GAMEYE",
-      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/f47221c3-a946-4f7e-a9c5-8b5d4421cd98.webp"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/598d171c8c601a42c9a4e68719ad7a69c3fbbc05272d1c533bc650bec41f8452/1600.jpg"
     },
     {
       "id": 436,

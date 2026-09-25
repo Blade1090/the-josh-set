@@ -3,8 +3,8 @@
 - Branch: `art-department-weekend-final` (worktree: `C:\Users\josh\Documents\tjs-art-weekend`; main checkout stays on its own branch, untouched)
 - Base: main `f513842` (baseline GOOD 2049 / REVIEW 330 / WATCH 20 / FALLBACK 8)
 - Latest verified commit: see `git log -1`; QA in `audit-out/cover-runtime-qa.json`
-- Last completed batch: 5 (recover edition-alias fronts; QA 2167/214/18/8)
-- Next batch: 6 — remaining PC crawl candidates (WATCH tail), then residual-queue triage
+- Last completed batch: 6 (recover PriceCharting fronts; QA 2169/212/18/8)
+- Next batch: 7 — residual-queue triage: WATCH alternates, PC gate-failed portraits, LRG/Strictly Limited shop images
 - Blocker: GameFAQs box images 403 to automated fetches (all 20 WATCH) — need alternate hosts
 - Lesson: blue-sky key art passes the banner heuristic; every candidate must be visually inspected before mapping
 

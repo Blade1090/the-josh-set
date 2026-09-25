@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-25T21:18:04.626Z",
+  "generatedAt": "2026-09-25T21:20:52.523Z",
   "summary": {
-    "generatedAt": "2026-09-25T21:18:04.626Z",
+    "generatedAt": "2026-09-25T21:20:52.523Z",
     "included": 2407,
-    "good": 2167,
+    "good": 2169,
     "fallback": 8,
-    "review": 214,
+    "review": 212,
     "watch": 18,
     "physicalVerify": 212,
     "physicalLikely": 1391,
@@ -16,7 +16,7 @@
     "manualFixedTracked": 91,
     "reviewByReason": {
       "key_art_only": 194,
-      "missing_ps4_banner": 20
+      "missing_ps4_banner": 18
     },
     "watchByReason": {
       "image_fetch_failed": 18
@@ -994,11 +994,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2079,
-      "title": "Among Us",
-      "reason": "missing_ps4_banner"
-    },
-    {
       "id": 1497,
       "title": "Chants of Sennaar",
       "reason": "missing_ps4_banner"
@@ -1046,11 +1041,6 @@
     {
       "id": 1227,
       "title": "The Church in the Darkness",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 435,
-      "title": "Elex",
       "reason": "missing_ps4_banner"
     },
     {
