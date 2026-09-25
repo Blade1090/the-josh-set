@@ -34,6 +34,16 @@
       document.body.appendChild(s);
     }
 
+    // Second-pass retail source: exact PS4 products from PriceCharting that independently pass
+    // ShelfCheck's straight portrait + strong blue PS4-header image gate.
+    if(!document.querySelector('script[data-shelfcheck-pricecharting-covers]')){
+      const s=document.createElement('script');
+      s.src='cover-pricecharting-retail.js?v=1';
+      s.dataset.shelfcheckPricechartingCovers='1';
+      s.onerror=()=>console.warn('ShelfCheck: PriceCharting cover recovery layer unavailable.');
+      document.body.appendChild(s);
+    }
+
     // Art Department safety gate. Any image still failing the current full audit remains hidden.
     if(!document.querySelector('script[data-shelfcheck-cover-quality]')){
       const s=document.createElement('script');
