@@ -1,9 +1,7 @@
 {
-  "updatedAt": "2026-09-25T10:34:00-04:00",
-  "notes": "Art Department QA synchronized to the live census. confirmed_bad contains only included identities with unresolved art. fallback is verified physical-package art that may remain visible while a cleaner straight-on front is sought. fixed is retained for regression checking. eligibility is reserved for unresolved physical-release verification.",
-  "confirmed_bad": [
-    {"title":"Dead Craft","reason":"current source is PlayStation Store/digital art; no qualifying PS4 physical release has been verified"}
-  ],
+  "updatedAt": "2026-09-25T10:40:00-04:00",
+  "notes": "Art Department QA synchronized to the live physical-only census. All actionable cover REVIEW cases from the audited queue are now either fixed, intentionally retained as verified physical FALLBACK art, or canonically excluded from the census when no qualifying physical PS4 release exists.",
+  "confirmed_bad": [],
   "fallback": [
     {"title":"ADK Tamashii","reason":"real physical product shot, but angled instead of clean straight-on front"},
     {"title":"Aaero","reason":"real physical product shot, but angled instead of clean straight-on front"},
@@ -22,7 +20,5 @@
     {"title":"Rolling Gunner"},{"title":"Tokyo Twilight Ghost Hunters"},{"title":"Cyanide & Happiness - Freakpocalypse (Episode 1)"},{"title":"GRIP: Combat Racing"},{"title":"Kingdom Hearts HD I.5 + II.5 Remix"},
     {"title":"Now That's What I Call Sing"},{"title":"Fahrenheit"},{"title":"Ganryu 2: Hakuma Kojiro"},{"title":"Neptunia VS Titan Dogoo"},{"title":"Warui Ousama To Rippana Yuusha"}
   ],
-  "eligibility": [
-    {"title":"Paper Dolls","reason":"PS4 release records found only as PlayStation Store/download; no physical PS4 release verified"}
-  ]
+  "eligibility": []
 }
