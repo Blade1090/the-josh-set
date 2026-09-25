@@ -1,0 +1,1135 @@
+{
+  "summary": {
+    "eligibleMultiGameProducts": 49,
+    "targetsWithKnownCompilation": 41,
+    "preserved": 6,
+    "acceptedThisRun": 34,
+    "totalInheritedCovers": 40,
+    "noExactProductMatch": 6,
+    "rejectedByImageGate": 1,
+    "errors": 0,
+    "queriedUniqueProducts": 23,
+    "productCounts": {
+      "Assassin's Creed: The Ezio Collection": 3,
+      "Cat Quest + Cat Quest II: Pawsome Pack": 1,
+      "Crash Bandicoot N. Sane Trilogy": 3,
+      "Danganronpa 1-2 Reload": 2,
+      "La-Mulana 1 & 2: Hidden Treasures Edition": 2,
+      "LEGO Marvel Collection": 1,
+      "Overcooked! + Overcooked! 2": 1,
+      "Apollo Justice: Ace Attorney Trilogy": 2,
+      "Phoenix Wright: Ace Attorney Trilogy": 2,
+      "S.T.A.L.K.E.R.: Legends of the Zone Trilogy": 3,
+      "Scribblenauts Mega Pack": 2,
+      "SteamWorld Collection": 1,
+      "Bayonetta & Vanquish": 2,
+      "Batman: Arkham Collection": 2,
+      "Resident Evil: Origins Collection": 1,
+      "Star Wars Racer & Commando Combo": 1,
+      "Tomb Raider I-III Remastered": 2,
+      "Tomb Raider IV-VI Remastered": 3
+    },
+    "regionCounts": {
+      "US/NTSC": 19,
+      "PAL": 8,
+      "Asian English": 2,
+      "JP": 5
+    },
+    "standard": "identity explicitly covered by DATA.p multi-game physical product + exact/compact-exact PriceCharting PS4 product title + straight portrait + strong blue PS4 header"
+  },
+  "accepted": [
+    {
+      "id": 2100,
+      "title": "Assassin's Creed Brotherhood",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "assassin s creed the ezio collection",
+      "productTitle": "Assassin's Creed: The Ezio Collection",
+      "coverageCount": 3,
+      "coverageIds": [
+        2099,
+        2100,
+        2101
+      ],
+      "matchedTitle": "Assassin's Creed The Ezio Collection",
+      "matchMethod": "product_title_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/assassin%27s-creed-the-ezio-collection",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97xxV4t18Cxfbo1yCoPxdKYV9R_v9Fc2shEAtqY0ef07m8tyeT-6EOkFcK741KMS4OeZiX-rC9iSamNVZR2YSMIy3UGAJNHck8YJIUa4QUKm1oFT4Y6b2-hdTyK9xc-PApKRQ1nobjwn5MuFYryJokyii2qJg/1600.jpg",
+      "metrics": {
+        "width": 283,
+        "height": 360,
+        "aspect": 0.7861,
+        "bannerColumnSpan": 0.9929,
+        "bannerPixelRatio": 0.5027
+      }
+    },
+    {
+      "id": 2099,
+      "title": "Assassin's Creed II",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "assassin s creed the ezio collection",
+      "productTitle": "Assassin's Creed: The Ezio Collection",
+      "coverageCount": 3,
+      "coverageIds": [
+        2099,
+        2100,
+        2101
+      ],
+      "matchedTitle": "Assassin's Creed The Ezio Collection",
+      "matchMethod": "product_title_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/assassin%27s-creed-the-ezio-collection",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97xxV4t18Cxfbo1yCoPxdKYV9R_v9Fc2shEAtqY0ef07m8tyeT-6EOkFcK741KMS4OeZiX-rC9iSamNVZR2YSMIy3UGAJNHck8YJIUa4QUKm1oFT4Y6b2-hdTyK9xc-PApKRQ1nobjwn5MuFYryJokyii2qJg/1600.jpg",
+      "metrics": {
+        "width": 283,
+        "height": 360,
+        "aspect": 0.7861,
+        "bannerColumnSpan": 0.9929,
+        "bannerPixelRatio": 0.5027
+      }
+    },
+    {
+      "id": 2101,
+      "title": "Assassin's Creed Revelations",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "assassin s creed the ezio collection",
+      "productTitle": "Assassin's Creed: The Ezio Collection",
+      "coverageCount": 3,
+      "coverageIds": [
+        2099,
+        2100,
+        2101
+      ],
+      "matchedTitle": "Assassin's Creed The Ezio Collection",
+      "matchMethod": "product_title_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/assassin%27s-creed-the-ezio-collection",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97xxV4t18Cxfbo1yCoPxdKYV9R_v9Fc2shEAtqY0ef07m8tyeT-6EOkFcK741KMS4OeZiX-rC9iSamNVZR2YSMIy3UGAJNHck8YJIUa4QUKm1oFT4Y6b2-hdTyK9xc-PApKRQ1nobjwn5MuFYryJokyii2qJg/1600.jpg",
+      "metrics": {
+        "width": 283,
+        "height": 360,
+        "aspect": 0.7861,
+        "bannerColumnSpan": 0.9929,
+        "bannerPixelRatio": 0.5027
+      }
+    },
+    {
+      "id": 1588,
+      "title": "Cat Quest II",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "cat quest cat quest ii pawsome pack",
+      "productTitle": "Cat Quest + Cat Quest II: Pawsome Pack",
+      "coverageCount": 2,
+      "coverageIds": [
+        234,
+        1588
+      ],
+      "matchedTitle": "Cat Quest + Cat Quest II Pawsome Pack",
+      "matchMethod": "product_title_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/cat-quest-+-cat-quest-ii-pawsome-pack",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/32f68f653451793aec0ba98acbe80cd4ac1c3551707efc8cb3eabaddfab26fed/1600.jpg",
+      "metrics": {
+        "width": 500,
+        "height": 639,
+        "aspect": 0.7825,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.7654
+      }
+    },
+    {
+      "id": 2102,
+      "title": "Crash Bandicoot",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "crash bandicoot n sane trilogy",
+      "productTitle": "Crash Bandicoot N. Sane Trilogy",
+      "coverageCount": 3,
+      "coverageIds": [
+        2102,
+        2103,
+        2104
+      ],
+      "matchedTitle": "Crash Bandicoot N. Sane Trilogy",
+      "matchMethod": "product_title_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/crash-bandicoot-n-sane-trilogy",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/52e7070d2c14aa185496220dd86968646bf53a8482faac5aa7c8ff70c7acb566/1600.jpg",
+      "metrics": {
+        "width": 1126,
+        "height": 1398,
+        "aspect": 0.8054,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.5023
+      }
+    },
+    {
+      "id": 2103,
+      "title": "Crash Bandicoot 2: Cortex Strikes Back",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "crash bandicoot n sane trilogy",
+      "productTitle": "Crash Bandicoot N. Sane Trilogy",
+      "coverageCount": 3,
+      "coverageIds": [
+        2102,
+        2103,
+        2104
+      ],
+      "matchedTitle": "Crash Bandicoot N. Sane Trilogy",
+      "matchMethod": "product_title_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/crash-bandicoot-n-sane-trilogy",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/52e7070d2c14aa185496220dd86968646bf53a8482faac5aa7c8ff70c7acb566/1600.jpg",
+      "metrics": {
+        "width": 1126,
+        "height": 1398,
+        "aspect": 0.8054,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.5023
+      }
+    },
+    {
+      "id": 2104,
+      "title": "Crash Bandicoot: Warped",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "crash bandicoot n sane trilogy",
+      "productTitle": "Crash Bandicoot N. Sane Trilogy",
+      "coverageCount": 3,
+      "coverageIds": [
+        2102,
+        2103,
+        2104
+      ],
+      "matchedTitle": "Crash Bandicoot N. Sane Trilogy",
+      "matchMethod": "product_title_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/crash-bandicoot-n-sane-trilogy",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/52e7070d2c14aa185496220dd86968646bf53a8482faac5aa7c8ff70c7acb566/1600.jpg",
+      "metrics": {
+        "width": 1126,
+        "height": 1398,
+        "aspect": 0.8054,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.5023
+      }
+    },
+    {
+      "id": 2201,
+      "title": "Danganronpa 2: Goodbye Despair",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "danganronpa 1 2 reload",
+      "productTitle": "Danganronpa 1-2 Reload",
+      "coverageCount": 2,
+      "coverageIds": [
+        2200,
+        2201
+      ],
+      "matchedTitle": "Danganronpa 1-2 Reload",
+      "matchMethod": "product_title_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/danganronpa-1-2-reload",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv974fYTBC8Pd8A8PxSFtOeh1xy4RZ-UzvJYEYIgjUrJfEeYJ4ylqa9yzth_3-q26ZNeQC0mX-JlMx-QVxEGaxJvXWaxC0VkBTNHSsU0yVWXPR-L_poQ2cWEGGO8_21Y_mpnFqHY2rOJBZJfxTuynjqurZxNvxg/1600.jpg",
+      "metrics": {
+        "width": 286,
+        "height": 360,
+        "aspect": 0.7944,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.4203
+      }
+    },
+    {
+      "id": 1649,
+      "title": "La-Mulana",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "la mulana 1 and 2 hidden treasures edition",
+      "productTitle": "La-Mulana 1 & 2: Hidden Treasures Edition",
+      "coverageCount": 2,
+      "coverageIds": [
+        686,
+        1649
+      ],
+      "matchedTitle": "La-Mulana 1 & 2 [Hidden Treasures Edition]",
+      "matchMethod": "product_title_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/la-mulana-1-&-2-hidden-treasures-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/e2c3eed57cd9f6f0316d0edbf1bb64329d70b4e4af45c1e8381049c66bfa78c0/1600.jpg",
+      "metrics": {
+        "width": 1225,
+        "height": 1600,
+        "aspect": 0.7656,
+        "bannerColumnSpan": 0.9361,
+        "bannerPixelRatio": 0.5411
+      }
+    },
+    {
+      "id": 686,
+      "title": "La-Mulana 2",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "la mulana 1 and 2 hidden treasures edition",
+      "productTitle": "La-Mulana 1 & 2: Hidden Treasures Edition",
+      "coverageCount": 2,
+      "coverageIds": [
+        686,
+        1649
+      ],
+      "matchedTitle": "La-Mulana 1 & 2 [Hidden Treasures Edition]",
+      "matchMethod": "product_title_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/la-mulana-1-&-2-hidden-treasures-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/e2c3eed57cd9f6f0316d0edbf1bb64329d70b4e4af45c1e8381049c66bfa78c0/1600.jpg",
+      "metrics": {
+        "width": 1225,
+        "height": 1600,
+        "aspect": 0.7656,
+        "bannerColumnSpan": 0.9361,
+        "bannerPixelRatio": 0.5411
+      }
+    },
+    {
+      "id": 708,
+      "title": "LEGO Marvel's Avengers",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "lego marvel collection",
+      "productTitle": "LEGO Marvel Collection",
+      "coverageCount": 3,
+      "coverageIds": [
+        706,
+        707,
+        708
+      ],
+      "matchedTitle": "LEGO Marvel Collection",
+      "matchMethod": "product_title_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/lego-marvel-collection",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/mr2n46c376ora7bu/1600.jpg",
+      "metrics": {
+        "width": 1116,
+        "height": 1366,
+        "aspect": 0.817,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.5214
+      }
+    },
+    {
+      "id": 2227,
+      "title": "Overcooked!",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "overcooked overcooked 2",
+      "productTitle": "Overcooked! + Overcooked! 2",
+      "coverageCount": 2,
+      "coverageIds": [
+        885,
+        2227
+      ],
+      "matchedTitle": "Overcooked + Overcooked 2",
+      "matchMethod": "product_title_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/overcooked-+-overcooked-2",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/cdfa1b9e1b2c23dd75eadfbbae9aead9dc9727bbfdb44cfa5296557ada0ffc73/1600.jpg",
+      "metrics": {
+        "width": 1012,
+        "height": 1264,
+        "aspect": 0.8006,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.5974
+      }
+    },
+    {
+      "id": 2206,
+      "title": "Phoenix Wright: Ace Attorney - Dual Destinies",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "apollo justice ace attorney trilogy",
+      "productTitle": "Apollo Justice: Ace Attorney Trilogy",
+      "coverageCount": 3,
+      "coverageIds": [
+        2205,
+        2206,
+        2207
+      ],
+      "matchedTitle": "Apollo Justice: Ace Attorney Trilogy",
+      "matchMethod": "product_title_exact",
+      "region": "Asian English",
+      "productUrl": "https://www.pricecharting.com/game/asian-english-playstation-4/apollo-justice-ace-attorney-trilogy",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/bfa957b6a5352a7eccfb4fbb301c59be66ce8ab89c94d33e435d4226b5208c67/1600.jpg",
+      "metrics": {
+        "width": 800,
+        "height": 1009,
+        "aspect": 0.7929,
+        "bannerColumnSpan": 0.9917,
+        "bannerPixelRatio": 0.6562
+      }
+    },
+    {
+      "id": 2203,
+      "title": "Phoenix Wright: Ace Attorney - Justice for All",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "phoenix wright ace attorney trilogy",
+      "productTitle": "Phoenix Wright: Ace Attorney Trilogy",
+      "coverageCount": 3,
+      "coverageIds": [
+        2202,
+        2203,
+        2204
+      ],
+      "matchedTitle": "Phoenix Wright: Ace Attorney Trilogy",
+      "matchMethod": "product_title_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/phoenix-wright-ace-attorney-trilogy",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/nvc7rrvlv36qkf5q/1600.jpg",
+      "metrics": {
+        "width": 666,
+        "height": 858,
+        "aspect": 0.7762,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.5621
+      }
+    },
+    {
+      "id": 2207,
+      "title": "Phoenix Wright: Ace Attorney - Spirit of Justice",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "apollo justice ace attorney trilogy",
+      "productTitle": "Apollo Justice: Ace Attorney Trilogy",
+      "coverageCount": 3,
+      "coverageIds": [
+        2205,
+        2206,
+        2207
+      ],
+      "matchedTitle": "Apollo Justice: Ace Attorney Trilogy",
+      "matchMethod": "product_title_exact",
+      "region": "Asian English",
+      "productUrl": "https://www.pricecharting.com/game/asian-english-playstation-4/apollo-justice-ace-attorney-trilogy",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/bfa957b6a5352a7eccfb4fbb301c59be66ce8ab89c94d33e435d4226b5208c67/1600.jpg",
+      "metrics": {
+        "width": 800,
+        "height": 1009,
+        "aspect": 0.7929,
+        "bannerColumnSpan": 0.9917,
+        "bannerPixelRatio": 0.6562
+      }
+    },
+    {
+      "id": 2204,
+      "title": "Phoenix Wright: Ace Attorney - Trials and Tribulations",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "phoenix wright ace attorney trilogy",
+      "productTitle": "Phoenix Wright: Ace Attorney Trilogy",
+      "coverageCount": 3,
+      "coverageIds": [
+        2202,
+        2203,
+        2204
+      ],
+      "matchedTitle": "Phoenix Wright: Ace Attorney Trilogy",
+      "matchMethod": "product_title_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/phoenix-wright-ace-attorney-trilogy",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/nvc7rrvlv36qkf5q/1600.jpg",
+      "metrics": {
+        "width": 666,
+        "height": 858,
+        "aspect": 0.7762,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.5621
+      }
+    },
+    {
+      "id": 2089,
+      "title": "S.T.A.L.K.E.R.: Clear Sky",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "s t a l k e r legends of the zone trilogy",
+      "productTitle": "S.T.A.L.K.E.R.: Legends of the Zone Trilogy",
+      "coverageCount": 3,
+      "coverageIds": [
+        2088,
+        2089,
+        2090
+      ],
+      "matchedTitle": "S.T.A.L.K.E.R.: Legends Of The Zone Trilogy",
+      "matchMethod": "product_title_exact",
+      "region": "JP",
+      "productUrl": "https://www.pricecharting.com/game/jp-playstation-4/stalker-legends-of-the-zone-trilogy?q=s.t.a.l.k.e.r.%3A+legends+of+the+zone+trilogy+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/z5qblfy7maxmulgt/1600.jpg",
+      "metrics": {
+        "width": 800,
+        "height": 999,
+        "aspect": 0.8008,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.5268
+      }
+    },
+    {
+      "id": 2088,
+      "title": "S.T.A.L.K.E.R.: Shadow of Chornobyl",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "s t a l k e r legends of the zone trilogy",
+      "productTitle": "S.T.A.L.K.E.R.: Legends of the Zone Trilogy",
+      "coverageCount": 3,
+      "coverageIds": [
+        2088,
+        2089,
+        2090
+      ],
+      "matchedTitle": "S.T.A.L.K.E.R.: Legends Of The Zone Trilogy",
+      "matchMethod": "product_title_exact",
+      "region": "JP",
+      "productUrl": "https://www.pricecharting.com/game/jp-playstation-4/stalker-legends-of-the-zone-trilogy?q=s.t.a.l.k.e.r.%3A+legends+of+the+zone+trilogy+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/z5qblfy7maxmulgt/1600.jpg",
+      "metrics": {
+        "width": 800,
+        "height": 999,
+        "aspect": 0.8008,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.5268
+      }
+    },
+    {
+      "id": 2116,
+      "title": "Scribblenauts Unmasked: A DC Comics Adventure",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "scribblenauts mega pack",
+      "productTitle": "Scribblenauts Mega Pack",
+      "coverageCount": 2,
+      "coverageIds": [
+        2115,
+        2116
+      ],
+      "matchedTitle": "Scribblenauts Mega Pack",
+      "matchMethod": "product_title_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/scribblenauts-mega-pack",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96fijiI1v7zhyj-iYxeFqJTWeArZ_W2EzO6FEXiKqqbwnXnRpsQs-1bRtuIInPKnK6u3j2z3knHiq-JtOpla4BilwNo_V_9jHRph9kA0IPiKiEUnG535YWJ24tbvxXNVXJZT7klm-xKQI0U2WWyjZFvQkAuyQ/1600.jpg",
+      "metrics": {
+        "width": 287,
+        "height": 360,
+        "aspect": 0.7972,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.5089
+      }
+    },
+    {
+      "id": 2118,
+      "title": "SteamWorld Heist",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "steamworld collection",
+      "productTitle": "SteamWorld Collection",
+      "coverageCount": 2,
+      "coverageIds": [
+        2117,
+        2118
+      ],
+      "matchedTitle": "SteamWorld Collection",
+      "matchMethod": "product_title_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/steamworld-collection",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97WJdH17x1OpNVAcB4dub2VDVkp9_lelyrFQGlbyWXhxVpjXtIhM30VcAFgDn3YAVhUg_MeS_RavQzJjlLJ3_riMuQmUVYvJYV4GKkr9YQUXr7HDDjOZdf55ale9eD-l8MFyewTy99tF9Ro3kMPQR_Cx2-w0g/1600.jpg",
+      "metrics": {
+        "width": 287,
+        "height": 360,
+        "aspect": 0.7972,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.504
+      }
+    },
+    {
+      "id": 1779,
+      "title": "Vanquish",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "productKey": "bayonetta and vanquish",
+      "productTitle": "Bayonetta & Vanquish",
+      "coverageCount": 2,
+      "coverageIds": [
+        149,
+        1779
+      ],
+      "matchedTitle": "Bayonetta & Vanquish",
+      "matchMethod": "product_title_exact",
+      "region": "JP",
+      "productUrl": "https://www.pricecharting.com/game/jp-playstation-4/bayonetta-&-vanquish",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/0e2b7559957c611ba468f0c2b2432aff821b7f4ee8f25acce02e93903a116766/1600.jpg",
+      "metrics": {
+        "width": 950,
+        "height": 1191,
+        "aspect": 0.7976,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.6667
+      }
+    },
+    {
+      "id": 2223,
+      "title": "Batman: Arkham City Remastered",
+      "bucket": "review",
+      "reason": "missing_ps4_banner",
+      "productKey": "batman arkham collection",
+      "productTitle": "Batman: Arkham Collection",
+      "coverageCount": 2,
+      "coverageIds": [
+        2222,
+        2223
+      ],
+      "matchedTitle": "Batman Arkham Collection",
+      "matchMethod": "product_title_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/batman-arkham-collection",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/471ed489b3f4ceb7e2f3ac1f1ecb982117ab9d4d049c667730049d4b2149825f/1600.jpg",
+      "metrics": {
+        "width": 1210,
+        "height": 1500,
+        "aspect": 0.8067,
+        "bannerColumnSpan": 0.95,
+        "bannerPixelRatio": 0.5738
+      }
+    },
+    {
+      "id": 2200,
+      "title": "Danganronpa: Trigger Happy Havoc",
+      "bucket": "review",
+      "reason": "missing_ps4_banner",
+      "productKey": "danganronpa 1 2 reload",
+      "productTitle": "Danganronpa 1-2 Reload",
+      "coverageCount": 2,
+      "coverageIds": [
+        2200,
+        2201
+      ],
+      "matchedTitle": "Danganronpa 1-2 Reload",
+      "matchMethod": "product_title_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/danganronpa-1-2-reload",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv974fYTBC8Pd8A8PxSFtOeh1xy4RZ-UzvJYEYIgjUrJfEeYJ4ylqa9yzth_3-q26ZNeQC0mX-JlMx-QVxEGaxJvXWaxC0VkBTNHSsU0yVWXPR-L_poQ2cWEGGO8_21Y_mpnFqHY2rOJBZJfxTuynjqurZxNvxg/1600.jpg",
+      "metrics": {
+        "width": 286,
+        "height": 360,
+        "aspect": 0.7944,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.4203
+      }
+    },
+    {
+      "id": 2122,
+      "title": "Resident Evil 0 HD Remaster",
+      "bucket": "review",
+      "reason": "missing_ps4_banner",
+      "productKey": "resident evil origins collection",
+      "productTitle": "Resident Evil: Origins Collection",
+      "coverageCount": 2,
+      "coverageIds": [
+        2121,
+        2122
+      ],
+      "matchedTitle": "Resident Evil Origins Collection",
+      "matchMethod": "product_title_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/resident-evil-origins-collection",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/fe0bed903e10ef120929f9db756d40aa29aebd4b6201c9caba58ccbe306a0fa2/1600.jpg",
+      "metrics": {
+        "width": 403,
+        "height": 500,
+        "aspect": 0.806,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.4919
+      }
+    },
+    {
+      "id": 2090,
+      "title": "S.T.A.L.K.E.R.: Call of Prypiat",
+      "bucket": "review",
+      "reason": "missing_ps4_banner",
+      "productKey": "s t a l k e r legends of the zone trilogy",
+      "productTitle": "S.T.A.L.K.E.R.: Legends of the Zone Trilogy",
+      "coverageCount": 3,
+      "coverageIds": [
+        2088,
+        2089,
+        2090
+      ],
+      "matchedTitle": "S.T.A.L.K.E.R.: Legends Of The Zone Trilogy",
+      "matchMethod": "product_title_exact",
+      "region": "JP",
+      "productUrl": "https://www.pricecharting.com/game/jp-playstation-4/stalker-legends-of-the-zone-trilogy?q=s.t.a.l.k.e.r.%3A+legends+of+the+zone+trilogy+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/z5qblfy7maxmulgt/1600.jpg",
+      "metrics": {
+        "width": 800,
+        "height": 999,
+        "aspect": 0.8008,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.5268
+      }
+    },
+    {
+      "id": 2115,
+      "title": "Scribblenauts Unlimited",
+      "bucket": "review",
+      "reason": "missing_ps4_banner",
+      "productKey": "scribblenauts mega pack",
+      "productTitle": "Scribblenauts Mega Pack",
+      "coverageCount": 2,
+      "coverageIds": [
+        2115,
+        2116
+      ],
+      "matchedTitle": "Scribblenauts Mega Pack",
+      "matchMethod": "product_title_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/scribblenauts-mega-pack",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96fijiI1v7zhyj-iYxeFqJTWeArZ_W2EzO6FEXiKqqbwnXnRpsQs-1bRtuIInPKnK6u3j2z3knHiq-JtOpla4BilwNo_V_9jHRph9kA0IPiKiEUnG535YWJ24tbvxXNVXJZT7klm-xKQI0U2WWyjZFvQkAuyQ/1600.jpg",
+      "metrics": {
+        "width": 287,
+        "height": 360,
+        "aspect": 0.7972,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.5089
+      }
+    },
+    {
+      "id": 2222,
+      "title": "Batman: Arkham Asylum Remastered",
+      "bucket": "review",
+      "reason": "missing_ps4_banner",
+      "productKey": "batman arkham collection",
+      "productTitle": "Batman: Arkham Collection",
+      "coverageCount": 2,
+      "coverageIds": [
+        2222,
+        2223
+      ],
+      "matchedTitle": "Batman Arkham Collection",
+      "matchMethod": "product_title_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/batman-arkham-collection",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/471ed489b3f4ceb7e2f3ac1f1ecb982117ab9d4d049c667730049d4b2149825f/1600.jpg",
+      "metrics": {
+        "width": 1210,
+        "height": 1500,
+        "aspect": 0.8067,
+        "bannerColumnSpan": 0.95,
+        "bannerPixelRatio": 0.5738
+      }
+    },
+    {
+      "id": 1132,
+      "title": "Star Wars Episode I: Racer",
+      "bucket": "review",
+      "reason": "missing_ps4_banner",
+      "productKey": "star wars racer and commando combo",
+      "productTitle": "Star Wars Racer & Commando Combo",
+      "coverageCount": 2,
+      "coverageIds": [
+        1132,
+        1998
+      ],
+      "matchedTitle": "Star Wars Racer & Commando Combo",
+      "matchMethod": "product_title_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/star-wars-racer-&-commando-combo",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/4b046e6817926686f03f296cabf4b8728ac00aa18afe935f0dac0df6133de164/1600.jpg",
+      "metrics": {
+        "width": 1201,
+        "height": 1500,
+        "aspect": 0.8007,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.5045
+      }
+    },
+    {
+      "id": 149,
+      "title": "Bayonetta",
+      "bucket": "watch",
+      "reason": "image_fetch_failed",
+      "productKey": "bayonetta and vanquish",
+      "productTitle": "Bayonetta & Vanquish",
+      "coverageCount": 2,
+      "coverageIds": [
+        149,
+        1779
+      ],
+      "matchedTitle": "Bayonetta & Vanquish",
+      "matchMethod": "product_title_exact",
+      "region": "JP",
+      "productUrl": "https://www.pricecharting.com/game/jp-playstation-4/bayonetta-&-vanquish",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/0e2b7559957c611ba468f0c2b2432aff821b7f4ee8f25acce02e93903a116766/1600.jpg",
+      "metrics": {
+        "width": 950,
+        "height": 1191,
+        "aspect": 0.7976,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.6667
+      }
+    },
+    {
+      "id": 2195,
+      "title": "Tomb Raider II",
+      "bucket": "watch",
+      "reason": "image_fetch_failed",
+      "productKey": "tomb raider i iii remastered",
+      "productTitle": "Tomb Raider I-III Remastered",
+      "coverageCount": 3,
+      "coverageIds": [
+        2194,
+        2195,
+        2196
+      ],
+      "matchedTitle": "Tomb Raider I-III Remastered",
+      "matchMethod": "product_title_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/tomb-raider-i-iii-remastered",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/aruncwqyjud2vrdq/1600.jpg",
+      "metrics": {
+        "width": 492,
+        "height": 640,
+        "aspect": 0.7688,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.6339
+      }
+    },
+    {
+      "id": 2196,
+      "title": "Tomb Raider III: Adventures of Lara Croft",
+      "bucket": "watch",
+      "reason": "image_fetch_failed",
+      "productKey": "tomb raider i iii remastered",
+      "productTitle": "Tomb Raider I-III Remastered",
+      "coverageCount": 3,
+      "coverageIds": [
+        2194,
+        2195,
+        2196
+      ],
+      "matchedTitle": "Tomb Raider I-III Remastered",
+      "matchMethod": "product_title_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/tomb-raider-i-iii-remastered",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/aruncwqyjud2vrdq/1600.jpg",
+      "metrics": {
+        "width": 492,
+        "height": 640,
+        "aspect": 0.7688,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.6339
+      }
+    },
+    {
+      "id": 2198,
+      "title": "Tomb Raider: Chronicles",
+      "bucket": "watch",
+      "reason": "image_fetch_failed",
+      "productKey": "tomb raider iv vi remastered",
+      "productTitle": "Tomb Raider IV-VI Remastered",
+      "coverageCount": 3,
+      "coverageIds": [
+        2197,
+        2198,
+        2199
+      ],
+      "matchedTitle": "Tomb Raider IV-VI Remastered",
+      "matchMethod": "product_title_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/tomb-raider-iv-vi-remastered",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/rokwarhtdllb2qcz/1600.jpg",
+      "metrics": {
+        "width": 1199,
+        "height": 1500,
+        "aspect": 0.7993,
+        "bannerColumnSpan": 0.9639,
+        "bannerPixelRatio": 0.6072
+      }
+    },
+    {
+      "id": 2199,
+      "title": "Tomb Raider: The Angel of Darkness",
+      "bucket": "watch",
+      "reason": "image_fetch_failed",
+      "productKey": "tomb raider iv vi remastered",
+      "productTitle": "Tomb Raider IV-VI Remastered",
+      "coverageCount": 3,
+      "coverageIds": [
+        2197,
+        2198,
+        2199
+      ],
+      "matchedTitle": "Tomb Raider IV-VI Remastered",
+      "matchMethod": "product_title_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/tomb-raider-iv-vi-remastered",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/rokwarhtdllb2qcz/1600.jpg",
+      "metrics": {
+        "width": 1199,
+        "height": 1500,
+        "aspect": 0.7993,
+        "bannerColumnSpan": 0.9639,
+        "bannerPixelRatio": 0.6072
+      }
+    },
+    {
+      "id": 2197,
+      "title": "Tomb Raider: The Last Revelation",
+      "bucket": "watch",
+      "reason": "image_fetch_failed",
+      "productKey": "tomb raider iv vi remastered",
+      "productTitle": "Tomb Raider IV-VI Remastered",
+      "coverageCount": 3,
+      "coverageIds": [
+        2197,
+        2198,
+        2199
+      ],
+      "matchedTitle": "Tomb Raider IV-VI Remastered",
+      "matchMethod": "product_title_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/tomb-raider-iv-vi-remastered",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/rokwarhtdllb2qcz/1600.jpg",
+      "metrics": {
+        "width": 1199,
+        "height": 1500,
+        "aspect": 0.7993,
+        "bannerColumnSpan": 0.9639,
+        "bannerPixelRatio": 0.6072
+      }
+    }
+  ],
+  "noExact": [
+    {
+      "id": 2229,
+      "title": "Icewind Dale: Enhanced Edition",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "products": [
+        {
+          "productKey": "planescape torment enhanced edition icewind dale enhanced edition",
+          "productTitle": "Planescape: Torment: Enhanced Edition / Icewind Dale: Enhanced Edition",
+          "coverageIds": [
+            2228,
+            2229
+          ],
+          "coverageCount": 2
+        }
+      ],
+      "failures": [
+        {
+          "productKey": "planescape torment enhanced edition icewind dale enhanced edition",
+          "productTitle": "Planescape: Torment: Enhanced Edition / Icewind Dale: Enhanced Edition",
+          "coverageIds": [
+            2228,
+            2229
+          ],
+          "coverageCount": 2,
+          "status": "no_exact_product"
+        }
+      ]
+    },
+    {
+      "id": 2232,
+      "title": "OK K.O.! Let's Play Heroes",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "products": [
+        {
+          "productKey": "steven universe save the light ok k o let s play heroes 2 games in 1",
+          "productTitle": "Steven Universe: Save the Light / OK K.O.! Let's Play Heroes 2 Games in 1",
+          "coverageIds": [
+            2231,
+            2232
+          ],
+          "coverageCount": 2
+        }
+      ],
+      "failures": [
+        {
+          "productKey": "steven universe save the light ok k o let s play heroes 2 games in 1",
+          "productTitle": "Steven Universe: Save the Light / OK K.O.! Let's Play Heroes 2 Games in 1",
+          "coverageIds": [
+            2231,
+            2232
+          ],
+          "coverageCount": 2,
+          "status": "no_exact_product"
+        }
+      ]
+    },
+    {
+      "id": 2228,
+      "title": "Planescape: Torment: Enhanced Edition",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "products": [
+        {
+          "productKey": "planescape torment enhanced edition icewind dale enhanced edition",
+          "productTitle": "Planescape: Torment: Enhanced Edition / Icewind Dale: Enhanced Edition",
+          "coverageIds": [
+            2228,
+            2229
+          ],
+          "coverageCount": 2
+        }
+      ],
+      "failures": [
+        {
+          "productKey": "planescape torment enhanced edition icewind dale enhanced edition",
+          "productTitle": "Planescape: Torment: Enhanced Edition / Icewind Dale: Enhanced Edition",
+          "coverageIds": [
+            2228,
+            2229
+          ],
+          "coverageCount": 2,
+          "status": "no_exact_product"
+        }
+      ]
+    },
+    {
+      "id": 2215,
+      "title": "Praetorians - HD Remaster",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "products": [
+        {
+          "productKey": "commandos 2 praetorians hd remaster double pack",
+          "productTitle": "Commandos 2 / Praetorians HD Remaster Double Pack",
+          "coverageIds": [
+            2214,
+            2215
+          ],
+          "coverageCount": 2
+        }
+      ],
+      "failures": [
+        {
+          "productKey": "commandos 2 praetorians hd remaster double pack",
+          "productTitle": "Commandos 2 / Praetorians HD Remaster Double Pack",
+          "coverageIds": [
+            2214,
+            2215
+          ],
+          "coverageCount": 2,
+          "status": "no_exact_product"
+        }
+      ]
+    },
+    {
+      "id": 2114,
+      "title": "Robotics;Notes DaSH",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "products": [
+        {
+          "productKey": "robotics notes double pack",
+          "productTitle": "Robotics;Notes Double Pack",
+          "coverageIds": [
+            2113,
+            2114
+          ],
+          "coverageCount": 2
+        }
+      ],
+      "failures": [
+        {
+          "productKey": "robotics notes double pack",
+          "productTitle": "Robotics;Notes Double Pack",
+          "coverageIds": [
+            2113,
+            2114
+          ],
+          "coverageCount": 2,
+          "status": "no_exact_product"
+        }
+      ]
+    },
+    {
+      "id": 2113,
+      "title": "Robotics;Notes Elite",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "products": [
+        {
+          "productKey": "robotics notes double pack",
+          "productTitle": "Robotics;Notes Double Pack",
+          "coverageIds": [
+            2113,
+            2114
+          ],
+          "coverageCount": 2
+        }
+      ],
+      "failures": [
+        {
+          "productKey": "robotics notes double pack",
+          "productTitle": "Robotics;Notes Double Pack",
+          "coverageIds": [
+            2113,
+            2114
+          ],
+          "coverageCount": 2,
+          "status": "no_exact_product"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "id": 2230,
+      "title": "Saints Row IV: Re-Elected",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "products": [
+        {
+          "productKey": "saints row iv re elected and gat out of hell",
+          "productTitle": "Saints Row IV: Re-Elected & Gat Out of Hell",
+          "coverageIds": [
+            1719,
+            2230
+          ],
+          "coverageCount": 2
+        }
+      ],
+      "failures": [
+        {
+          "productKey": "saints row iv re elected and gat out of hell",
+          "productTitle": "Saints Row IV: Re-Elected & Gat Out of Hell",
+          "coverageIds": [
+            1719,
+            2230
+          ],
+          "coverageCount": 2,
+          "status": "rejected",
+          "attempts": [
+            {
+              "matchedTitle": "Saints Row IV: Re-Elected & Gat Out of Hell",
+              "region": "US/NTSC",
+              "productUrl": "https://www.pricecharting.com/game/playstation-4/saints-row-iv-re-elected-&-gat-out-of-hell",
+              "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95O-DWFPf7UWlbjh9-5bGrhzRZEgfpYFWSVbBbDQMSP1cb1WPDQnUILsbR2vUDGFmwBZkwjvukZ_hlATmg7g_0knMYFqwjEES7UqOSUT53Sv8R3hyAbxuSfKPBJlfctFmDqD08-HiJywMKhChJ68oTYYZVtKQ/1600.jpg",
+              "reason": "failed_retail_front_gate",
+              "metrics": {
+                "width": 200,
+                "height": 250,
+                "aspect": 0.8,
+                "bannerColumnSpan": 0.76,
+                "bannerPixelRatio": 0.3216
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-25T18:16:09.335Z",
+  "generatedAt": "2026-09-25T18:24:23.061Z",
   "summary": {
-    "generatedAt": "2026-09-25T18:16:09.335Z",
+    "generatedAt": "2026-09-25T18:24:23.061Z",
     "included": 2407,
-    "good": 1985,
+    "good": 2019,
     "fallback": 8,
-    "review": 387,
-    "watch": 27,
-    "physicalVerify": 382,
-    "physicalLikely": 1314,
+    "review": 359,
+    "watch": 21,
+    "physicalVerify": 355,
+    "physicalLikely": 1341,
     "physicalConfirmed": 711,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "key_art_only": 355,
-      "missing_ps4_banner": 32
+      "key_art_only": 334,
+      "missing_ps4_banner": 25
     },
     "watchByReason": {
-      "image_fetch_failed": 27
+      "image_fetch_failed": 21
     }
   },
   "review": [
@@ -51,21 +51,6 @@
     {
       "id": 81,
       "title": "Apex Legends",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2100,
-      "title": "Assassin's Creed Brotherhood",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2099,
-      "title": "Assassin's Creed II",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2101,
-      "title": "Assassin's Creed Revelations",
       "reason": "key_art_only"
     },
     {
@@ -129,11 +114,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1588,
-      "title": "Cat Quest II",
-      "reason": "key_art_only"
-    },
-    {
       "id": 238,
       "title": "Caveman Warriors",
       "reason": "key_art_only"
@@ -174,21 +154,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2102,
-      "title": "Crash Bandicoot",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2103,
-      "title": "Crash Bandicoot 2: Cortex Strikes Back",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2104,
-      "title": "Crash Bandicoot: Warped",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1595,
       "title": "Crashbots",
       "reason": "key_art_only"
@@ -201,11 +166,6 @@
     {
       "id": 2301,
       "title": "Crymachina",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2201,
-      "title": "Danganronpa 2: Goodbye Despair",
       "reason": "key_art_only"
     },
     {
@@ -489,16 +449,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1649,
-      "title": "La-Mulana",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 686,
-      "title": "La-Mulana 2",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2320,
       "title": "Lake",
       "reason": "key_art_only"
@@ -521,11 +471,6 @@
     {
       "id": 1936,
       "title": "Legend of the Skyfish",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 708,
-      "title": "LEGO Marvel's Avengers",
       "reason": "key_art_only"
     },
     {
@@ -774,11 +719,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2227,
-      "title": "Overcooked!",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2028,
       "title": "Overrogue",
       "reason": "key_art_only"
@@ -811,26 +751,6 @@
     {
       "id": 2430,
       "title": "Peaky Blinders Mastermind",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2206,
-      "title": "Phoenix Wright: Ace Attorney - Dual Destinies",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2203,
-      "title": "Phoenix Wright: Ace Attorney - Justice for All",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2207,
-      "title": "Phoenix Wright: Ace Attorney - Spirit of Justice",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2204,
-      "title": "Phoenix Wright: Ace Attorney - Trials and Tribulations",
       "reason": "key_art_only"
     },
     {
@@ -1054,16 +974,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2089,
-      "title": "S.T.A.L.K.E.R.: Clear Sky",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2088,
-      "title": "S.T.A.L.K.E.R.: Shadow of Chornobyl",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2230,
       "title": "Saints Row IV: Re-Elected",
       "reason": "key_art_only"
@@ -1096,11 +1006,6 @@
     {
       "id": 1721,
       "title": "Screencheat",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2116,
-      "title": "Scribblenauts Unmasked: A DC Comics Adventure",
       "reason": "key_art_only"
     },
     {
@@ -1276,11 +1181,6 @@
     {
       "id": 1734,
       "title": "Stealth Inc: A Clone in the Dark Ultimate Edition",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2118,
-      "title": "SteamWorld Heist",
       "reason": "key_art_only"
     },
     {
@@ -1659,11 +1559,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1779,
-      "title": "Vanquish",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1400,
       "title": "Vegas Party",
       "reason": "key_art_only"
@@ -1804,18 +1699,8 @@
       "reason": "missing_ps4_banner"
     },
     {
-      "id": 2223,
-      "title": "Batman: Arkham City Remastered",
-      "reason": "missing_ps4_banner"
-    },
-    {
       "id": 1497,
       "title": "Chants of Sennaar",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 2200,
-      "title": "Danganronpa: Trigger Happy Havoc",
       "reason": "missing_ps4_banner"
     },
     {
@@ -1834,11 +1719,6 @@
       "reason": "missing_ps4_banner"
     },
     {
-      "id": 2122,
-      "title": "Resident Evil 0 HD Remaster",
-      "reason": "missing_ps4_banner"
-    },
-    {
       "id": 1235,
       "title": "The Dark Pictures - Little Hope",
       "reason": "missing_ps4_banner"
@@ -1846,11 +1726,6 @@
     {
       "id": 1303,
       "title": "The Walking Dead: A Telltale Games Series - The Complete First Season",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 2090,
-      "title": "S.T.A.L.K.E.R.: Call of Prypiat",
       "reason": "missing_ps4_banner"
     },
     {
@@ -1866,11 +1741,6 @@
     {
       "id": 1850,
       "title": "Lost Ruins",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 2115,
-      "title": "Scribblenauts Unlimited",
       "reason": "missing_ps4_banner"
     },
     {
@@ -1896,11 +1766,6 @@
     {
       "id": 1670,
       "title": "Mighty Gunvolt Burst",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 2222,
-      "title": "Batman: Arkham Asylum Remastered",
       "reason": "missing_ps4_banner"
     },
     {
@@ -1931,11 +1796,6 @@
     {
       "id": 451,
       "title": "Exile's End",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 1132,
-      "title": "Star Wars Episode I: Racer",
       "reason": "missing_ps4_banner"
     },
     {
@@ -2010,11 +1870,6 @@
     {
       "id": 1992,
       "title": "Another World",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 149,
-      "title": "Bayonetta",
       "reason": "image_fetch_failed"
     },
     {
@@ -2095,31 +1950,6 @@
     {
       "id": 1756,
       "title": "The Journey Down: Chapter Two",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 2195,
-      "title": "Tomb Raider II",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 2196,
-      "title": "Tomb Raider III: Adventures of Lara Croft",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 2198,
-      "title": "Tomb Raider: Chronicles",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 2199,
-      "title": "Tomb Raider: The Angel of Darkness",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 2197,
-      "title": "Tomb Raider: The Last Revelation",
       "reason": "image_fetch_failed"
     },
     {
