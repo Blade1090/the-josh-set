@@ -23,7 +23,7 @@ manual_fixed={norm_title(x['title']):x for x in manual.get('fixed',[])}
 manual_elig={norm_title(x['title']):x for x in manual.get('eligibility',[])}
 
 def fetch(url):
-    req=urllib.request.Request(url,headers={'User-Agent':'ShelfCheck-ArtAudit/1.6'})
+    req=urllib.request.Request(url,headers={'User-Agent':'ShelfCheck-ArtAudit/1.7'})
     with urllib.request.urlopen(req,timeout=12) as r:
         raw=r.read(8_000_000)
     return Image.open(io.BytesIO(raw)).convert('RGB')
@@ -58,7 +58,6 @@ def manual_reason_code(text):
     return 'manual_review'
 
 def audit_image(url, source):
-    # Every source has to earn GOOD. Curated URLs are not automatically trusted.
     try:
         im=fetch(url)
         span,ratio=ps4_banner_score(im)
@@ -68,7 +67,6 @@ def audit_image(url, source):
         physical='LIKELY' if source in ('GAMEYE','CURATED_ID','CURATED_TITLE') else 'VERIFY'
         return 'REVIEW','missing_ps4_banner',physical,span,ratio,None
     except Exception as e:
-        # A blocked host is not proof that the image is bad, so keep it distinct.
         return 'WATCH','image_fetch_failed','VERIFY',None,None,str(e)[:200]
 
 def audit_row(r):
@@ -90,11 +88,14 @@ def audit_row(r):
         quality='REVIEW'; reason='missing_cover'; physical='VERIFY'
     elif source=='PS_STORE_OVERRIDE':
         quality='REVIEW'; reason='digital_store_art'; physical='VERIFY'
+    elif source=='LEGACY_IGDB':
+        # IGDB is game-level cover/key art, not a verified physical-package source.
+        # It may look convincing (or simply contain lots of blue), but that is not enough
+        # for ShelfCheck's physical shelf standard. It stays REVIEW until replaced/verified.
+        quality='REVIEW'; reason='key_art_only'; physical='VERIFY'
     else:
         quality,reason,physical,span,ratio,err=audit_image(url,source)
 
-    # Explicit human dispositions win, except FIXED: a historically fixed title must
-    # still pass the current shelf-front test so stale/bad replacements cannot hide.
     if manual_status=='CONFIRMED_BAD':
         quality='REVIEW'; reason=manual_reason_code(manual_reason)
         physical='LIKELY' if reason in ('angled_product_shot','photo_of_case') else physical
@@ -102,6 +103,7 @@ def audit_row(r):
         quality='FALLBACK'; reason=manual_reason_code(manual_reason); physical='CONFIRMED'
     elif manual_status=='ELIGIBILITY':
         quality='REVIEW'; reason='physical_release_unverified'; physical='VERIFY'
+    # FIXED is historical tracking only: current art must independently pass.
 
     verdict={'GOOD':'PASS','FALLBACK':'FALLBACK','WATCH':'WATCH'}.get(quality,'REVIEW')
     return {**r,'verdict':verdict,'qualityState':quality,'reason':reason,'reasonCode':reason,'physicalSanity':physical,'manualStatus':manual_status,'manualReason':manual_reason,'bannerColumnSpan':span,'bannerPixelRatio':ratio,'error':err}
@@ -125,44 +127,18 @@ with ThreadPoolExecutor(max_workers=workers) as pool:
 review=[r for r in rows if r['qualityState']=='REVIEW']
 fallback=[r for r in rows if r['qualityState']=='FALLBACK']
 watch=[r for r in rows if r['qualityState']=='WATCH']
-priority={
-    'physical_release_unverified':0,'missing_cover':1,'wrong_platform':2,'wrong_region_or_edition':2,
-    'digital_store_art':3,'key_art_only':4,'photo_of_case':5,'angled_product_shot':5,
-    'blurry_or_low_res':6,'cropped_or_incomplete':6,'mockup_or_promo':6,
-    'missing_ps4_banner':7,'image_fetch_failed':8,'manual_review':9
-}
+priority={'physical_release_unverified':0,'missing_cover':1,'wrong_platform':2,'wrong_region_or_edition':2,'digital_store_art':3,'key_art_only':4,'photo_of_case':5,'angled_product_shot':5,'blurry_or_low_res':6,'cropped_or_incomplete':6,'mockup_or_promo':6,'missing_ps4_banner':7,'image_fetch_failed':8,'manual_review':9}
 review.sort(key=lambda r:(0 if r.get('manualStatus')=='CONFIRMED_BAD' else 1 if r.get('manualStatus')=='ELIGIBILITY' else 2, priority.get(r['reasonCode'],10), r.get('bannerColumnSpan') or 0, r['title'].lower()))
 fallback.sort(key=lambda r:(priority.get(r['reasonCode'],10),r['title'].lower()))
 watch.sort(key=lambda r:(priority.get(r['reasonCode'],10),r.get('bannerColumnSpan') or 0,r['title'].lower()))
-summary={
-    'generatedAt':data['generatedAt'],'included':len(rows),
-    'good':sum(r['qualityState']=='GOOD' for r in rows),'fallback':len(fallback),'review':len(review),'watch':len(watch),
-    'physicalVerify':sum(r['physicalSanity']=='VERIFY' for r in rows),
-    'physicalLikely':sum(r['physicalSanity']=='LIKELY' for r in rows),
-    'physicalConfirmed':sum(r['physicalSanity']=='CONFIRMED' for r in rows),
-    'manualConfirmedBad':sum(r.get('manualStatus')=='CONFIRMED_BAD' for r in rows),
-    'manualFallback':sum(r.get('manualStatus')=='FALLBACK' for r in rows),
-    'manualEligibility':sum(r.get('manualStatus')=='ELIGIBILITY' for r in rows),
-    'manualFixedTracked':sum(r.get('manualStatus')=='FIXED' for r in rows),
-    'reviewByReason':{},'watchByReason':{}
-}
+summary={'generatedAt':data['generatedAt'],'included':len(rows),'good':sum(r['qualityState']=='GOOD' for r in rows),'fallback':len(fallback),'review':len(review),'watch':len(watch),'physicalVerify':sum(r['physicalSanity']=='VERIFY' for r in rows),'physicalLikely':sum(r['physicalSanity']=='LIKELY' for r in rows),'physicalConfirmed':sum(r['physicalSanity']=='CONFIRMED' for r in rows),'manualConfirmedBad':sum(r.get('manualStatus')=='CONFIRMED_BAD' for r in rows),'manualFallback':sum(r.get('manualStatus')=='FALLBACK' for r in rows),'manualEligibility':sum(r.get('manualStatus')=='ELIGIBILITY' for r in rows),'manualFixedTracked':sum(r.get('manualStatus')=='FIXED' for r in rows),'reviewByReason':{},'watchByReason':{}}
 for r in review: summary['reviewByReason'][r['reasonCode']]=summary['reviewByReason'].get(r['reasonCode'],0)+1
 for r in watch: summary['watchByReason'][r['reasonCode']]=summary['watchByReason'].get(r['reasonCode'],0)+1
 os.makedirs('audit-out',exist_ok=True)
-with open(OUT,'w',encoding='utf-8') as f:
-    json.dump({'standard':'docs/COVER_ART_STANDARD.md','summary':summary,'review':review,'fallback':fallback,'watch':watch,'rows':rows},f,indent=2)
-with open(RUNTIME,'w',encoding='utf-8') as f:
-    json.dump({
-        'generatedAt':data['generatedAt'],
-        'summary':summary,
-        'review':[{'title':r['title'],'reason':r['reasonCode']} for r in review],
-        'fallback':[{'title':r['title'],'reason':r['reasonCode']} for r in fallback],
-        'watch':[{'title':r['title'],'reason':r['reasonCode']} for r in watch]
-    },f,indent=2)
+with open(OUT,'w',encoding='utf-8') as f: json.dump({'standard':'docs/COVER_ART_STANDARD.md','summary':summary,'review':review,'fallback':fallback,'watch':watch,'rows':rows},f,indent=2)
+with open(RUNTIME,'w',encoding='utf-8') as f: json.dump({'generatedAt':data['generatedAt'],'summary':summary,'review':[{'title':r['title'],'reason':r['reasonCode']} for r in review],'fallback':[{'title':r['title'],'reason':r['reasonCode']} for r in fallback],'watch':[{'title':r['title'],'reason':r['reasonCode']} for r in watch]},f,indent=2)
 with open('audit-out/cover-review-queue.csv','w',encoding='utf-8',newline='') as f:
     import csv
-    w=csv.writer(f)
-    w.writerow(['id','title','source','qualityState','reasonCode','physicalSanity','manualStatus','manualReason','bannerColumnSpan','bannerPixelRatio','url'])
-    for r in review+fallback+watch:
-        w.writerow([r['id'],r['title'],r['source'],r['qualityState'],r['reasonCode'],r['physicalSanity'],r.get('manualStatus'),r.get('manualReason'),r.get('bannerColumnSpan'),r.get('bannerPixelRatio'),r.get('url')])
+    w=csv.writer(f);w.writerow(['id','title','source','qualityState','reasonCode','physicalSanity','manualStatus','manualReason','bannerColumnSpan','bannerPixelRatio','url'])
+    for r in review+fallback+watch:w.writerow([r['id'],r['title'],r['source'],r['qualityState'],r['reasonCode'],r['physicalSanity'],r.get('manualStatus'),r.get('manualReason'),r.get('bannerColumnSpan'),r.get('bannerPixelRatio'),r.get('url')])
 print(json.dumps(summary,indent=2))
