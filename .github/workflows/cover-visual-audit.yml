@@ -51,7 +51,7 @@ jobs:
         env:
           BRANCH: ${{ github.ref_name }}
         run: |
-          if git diff --quiet -- audit-out/cover-runtime-qa.json; then
+          if [ -z "$(git status --porcelain -- audit-out/cover-runtime-qa.json)" ]; then
             echo "Runtime gate unchanged."
             exit 0
           fi
