@@ -1,0 +1,81 @@
+name: ShelfCheck Product Cover Inheritance Recovery
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'audit-out/run-product-cover-inherit.txt'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: product-cover-inherit-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Pillow
+        run: python -m pip install --disable-pip-version-check pillow
+      - name: Recover validated physical product covers
+        run: python tools/product-cover-inherit-recovery.py
+      - name: Rebuild source audit with product inheritance layer
+        run: node tools/cover-source-audit.mjs
+      - name: Re-run full visual audit
+        env:
+          COVER_AUDIT_WORKERS: '16'
+        run: python tools/cover-visual-audit.py
+      - name: Show recovery result
+        run: |
+          python - <<'PY'
+          import json
+          with open('audit-out/product-cover-inherit-recovery.json',encoding='utf-8') as f:
+              print('PRODUCT COVER INHERITANCE')
+              print(json.dumps(json.load(f)['summary'],indent=2))
+          with open('audit-out/cover-runtime-qa.json',encoding='utf-8') as f:
+              print('POST-RECOVERY AUDIT')
+              print(json.dumps(json.load(f)['summary'],indent=2))
+          PY
+      - name: Publish inherited layer and runtime gate
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          cp cover-product-inherit.js /tmp/cover-product-inherit.js
+          cp audit-out/product-cover-inherit-recovery.json /tmp/product-cover-inherit-recovery.json
+          cp audit-out/cover-runtime-qa.json /tmp/cover-runtime-qa.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin "$BRANCH"
+          git reset --hard "origin/$BRANCH"
+          cp /tmp/cover-product-inherit.js cover-product-inherit.js
+          cp /tmp/product-cover-inherit-recovery.json audit-out/product-cover-inherit-recovery.json
+          cp /tmp/cover-runtime-qa.json audit-out/cover-runtime-qa.json
+          git add cover-product-inherit.js audit-out/product-cover-inherit-recovery.json audit-out/cover-runtime-qa.json
+          if git diff --cached --quiet; then
+            echo "Generated product inheritance layer unchanged."
+          else
+            git commit -m "Art Department: publish validated product-cover inheritance"
+            git push origin HEAD:"$BRANCH"
+          fi
+      - name: Upload recovery audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shelfcheck-product-cover-inherit
+          path: |
+            cover-product-inherit.js
+            audit-out/product-cover-inherit-recovery.json
+            audit-out/cover-source-audit.json
+            audit-out/cover-visual-audit.json
+            audit-out/cover-runtime-qa.json
+            audit-out/cover-review-queue.csv
