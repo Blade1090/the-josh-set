@@ -1,0 +1,965 @@
+{
+  "summary": {
+    "configuredTargets": 30,
+    "activeUnresolvedTargets": 30,
+    "skippedStaleOrMismatch": 0,
+    "preserved": 352,
+    "acceptedThisRun": 20,
+    "totalPriceChartingCovers": 372,
+    "noExactAliasMatch": 0,
+    "rejectedByImageGate": 10,
+    "errors": 0,
+    "regionCounts": {
+      "US/NTSC": 14,
+      "PAL": 5,
+      "JP": 1
+    },
+    "matchMethods": {
+      "vetted_edition_alias_exact": 20
+    },
+    "standard": "explicit ShelfCheck identity ID + canonical title + vetted same-game PriceCharting edition/spelling alias + exact/compact-exact PS4 product title + straight portrait + strong blue PS4 header; no fuzzy matching"
+  },
+  "accepted": [
+    {
+      "id": 2485,
+      "title": "Anonymous;Code",
+      "aliases": [
+        "Anonymous;Code [SteelBook Launch Edition]"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "status": "accepted",
+      "alias": "Anonymous;Code [SteelBook Launch Edition]",
+      "matchedTitle": "Anonymous;Code [SteelBook Launch Edition]",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/anonymous;code-steelbook-launch-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/3d994068357e6092991c0285930f35d34ada997a66a7395858abfe1090b15ec8/1600.jpg",
+      "metrics": {
+        "width": 698,
+        "height": 893,
+        "aspect": 0.7816,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.6102
+      }
+    },
+    {
+      "id": 2497,
+      "title": "Asterix & Obelix XXXL: The Ram from Hibernia",
+      "aliases": [
+        "Asterix & Obelix XXXL: The Ram from Hibernia [Limited Edition]",
+        "Asterix & Obelix XXXL: The Ram From Hibernia [Collector's Edition]"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "status": "accepted",
+      "alias": "Asterix & Obelix XXXL: The Ram from Hibernia [Limited Edition]",
+      "matchedTitle": "Asterix & Obelix XXXL: The Ram from Hibernia [Limited Edition]",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/asterix-&-obelix-xxxl-the-ram-from-hibernia-limited-edition?q=asterix+%26+obelix+xxxl%3A+the+ram+from+hibernia+%5Blimited+edition%5D+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/7f3bd3aa29484ffe374b47f305414eee46956f6f7f348cd8315e1112a2a368e7/1600.jpg",
+      "metrics": {
+        "width": 1188,
+        "height": 1500,
+        "aspect": 0.792,
+        "bannerColumnSpan": 0.9917,
+        "bannerPixelRatio": 0.8085
+      }
+    },
+    {
+      "id": 2301,
+      "title": "Crymachina",
+      "aliases": [
+        "Crymachina [Deluxe Edition]",
+        "Crymachina [Limited Edition]"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "status": "accepted",
+      "alias": "Crymachina [Deluxe Edition]",
+      "matchedTitle": "Crymachina [Deluxe Edition]",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/crymachina-deluxe-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/e728eecee10f757b1a6e06815b3c4cd4195363f6d481942b118b216def2877bf/1600.jpg",
+      "metrics": {
+        "width": 1190,
+        "height": 1500,
+        "aspect": 0.7933,
+        "bannerColumnSpan": 0.9889,
+        "bannerPixelRatio": 0.5977
+      }
+    },
+    {
+      "id": 1861,
+      "title": "Demon Gaze Extra",
+      "aliases": [
+        "Demon Gaze Extra [Day One Edition]"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "status": "accepted",
+      "alias": "Demon Gaze Extra [Day One Edition]",
+      "matchedTitle": "Demon Gaze Extra [Day One Edition]",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/demon-gaze-extra-day-one-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/7c2da284d0b6d75b7455ae503ad3d26393506b91f5f8f98331b6078b836b4480/1600.jpg",
+      "metrics": {
+        "width": 1188,
+        "height": 1500,
+        "aspect": 0.792,
+        "bannerColumnSpan": 0.9917,
+        "bannerPixelRatio": 0.6603
+      }
+    },
+    {
+      "id": 364,
+      "title": "Diablo III: Ultimate Evil Edition",
+      "aliases": [
+        "Diablo III Reaper of Souls [Ultimate Evil Edition]"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "status": "accepted",
+      "alias": "Diablo III Reaper of Souls [Ultimate Evil Edition]",
+      "matchedTitle": "Diablo III Reaper of Souls [Ultimate Evil Edition]",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/diablo-iii-reaper-of-souls-ultimate-evil-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/2cb7a82c835947faa9af963d5e20ac3f0982b868b72f17fbb67e2311cac0c996/1600.jpg",
+      "metrics": {
+        "width": 493,
+        "height": 617,
+        "aspect": 0.799,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.4862
+      }
+    },
+    {
+      "id": 429,
+      "title": "Earthfall",
+      "aliases": [
+        "Earthfall [Deluxe Edition]",
+        "Earthfall Deluxe Edition"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "status": "accepted",
+      "alias": "Earthfall [Deluxe Edition]",
+      "matchedTitle": "Earthfall Deluxe Edition",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/earthfall-deluxe-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96sl_m1NlaGrm6U1bRGqxkDLkH-ds7a3mKYM14kG7uNPszC3p4ww3w0QofDQKcBKo9xqAjJzZmtOGcelZ75wEfYhhma1NVRcFra_TxvAgIBaHgkvkp8aZeF2uqTdHa3b9ZS6Wurywt9eQIcjvy9Dy5q34NEUA/1600.jpg",
+      "metrics": {
+        "width": 270,
+        "height": 360,
+        "aspect": 0.75,
+        "bannerColumnSpan": 0.8519,
+        "bannerPixelRatio": 0.404
+      }
+    },
+    {
+      "id": 1824,
+      "title": "Gearshifters",
+      "aliases": [
+        "Gear Shifters",
+        "Gear Shifters [Collector's Edition]"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "status": "accepted",
+      "alias": "Gear Shifters",
+      "matchedTitle": "Gear Shifters",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/gear-shifters",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/4d66c60948dc4370da49d50fa66faaadc8a190cdfea5e8ba622c1a4dfce64a0d/1600.jpg",
+      "metrics": {
+        "width": 1136,
+        "height": 1428,
+        "aspect": 0.7955,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.8544
+      }
+    },
+    {
+      "id": 2599,
+      "title": "Harry Potter: Quidditch Champions",
+      "aliases": [
+        "Harry Potter: Quidditch Champions [Deluxe Edition]"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "status": "accepted",
+      "alias": "Harry Potter: Quidditch Champions [Deluxe Edition]",
+      "matchedTitle": "Harry Potter: Quidditch Champions [Deluxe Edition]",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/harry-potter-quidditch-champions-deluxe-edition?q=harry+potter%3A+quidditch+champions+%5Bdeluxe+edition%5D+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/b6cjeowlcmypftaq/1600.jpg",
+      "metrics": {
+        "width": 1199,
+        "height": 1500,
+        "aspect": 0.7993,
+        "bannerColumnSpan": 0.9639,
+        "bannerPixelRatio": 0.609
+      }
+    },
+    {
+      "id": 2647,
+      "title": "Legend Of Heroes: Trails Beyond The Horizon",
+      "aliases": [
+        "Legend Of Heroes: Trails Beyond The Horizon: Deluxe Edition",
+        "The Legend Of Heroes: Trails Beyond The Horizon [Deluxe Edition]",
+        "Legend Of Heroes: Trails Beyond The Horizon [Limited Edition]"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "status": "accepted",
+      "alias": "Legend Of Heroes: Trails Beyond The Horizon: Deluxe Edition",
+      "matchedTitle": "Legend Of Heroes: Trails Beyond The Horizon: Deluxe Edition",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/legend-of-heroes-trails-beyond-the-horizon-deluxe-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/zknjj3mkfiszl2do/1600.jpg",
+      "metrics": {
+        "width": 516,
+        "height": 658,
+        "aspect": 0.7842,
+        "bannerColumnSpan": 0.9861,
+        "bannerPixelRatio": 0.6021
+      }
+    },
+    {
+      "id": 2649,
+      "title": "Legend Of Legacy HD Remastered",
+      "aliases": [
+        "Legend of Legacy HD Remastered [Deluxe Edition]",
+        "The Legend Of Legacy HD Remastered [Deluxe Edition]",
+        "Legend Of Legacy HD Remastered [Limited Edition]"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "status": "accepted",
+      "alias": "The Legend Of Legacy HD Remastered [Deluxe Edition]",
+      "matchedTitle": "The Legend Of Legacy HD Remastered [Deluxe Edition]",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/the-legend-of-legacy-hd-remastered-deluxe-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/xto6sslxymifucqi/1600.jpg",
+      "metrics": {
+        "width": 1188,
+        "height": 1500,
+        "aspect": 0.792,
+        "bannerColumnSpan": 0.9917,
+        "bannerPixelRatio": 0.5844
+      }
+    },
+    {
+      "id": 716,
+      "title": "Lichtspeer",
+      "aliases": [
+        "Lichtspeer [Double Speer Edition]"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "status": "accepted",
+      "alias": "Lichtspeer [Double Speer Edition]",
+      "matchedTitle": "Lichtspeer [Double Speer Edition]",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/lichtspeer-double-speer-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/7z23nul75tqqotyd/1600.jpg",
+      "metrics": {
+        "width": 964,
+        "height": 1208,
+        "aspect": 0.798,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.471
+      }
+    },
+    {
+      "id": 832,
+      "title": "NeuroVoider",
+      "aliases": [
+        "Neuro Voider"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "status": "accepted",
+      "alias": "Neuro Voider",
+      "matchedTitle": "Neuro Voider",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/neuro-voider",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/282f482269deba1ce88788016c87b4cc7d79a17d58ddf86d6933acb00abdcec8/1600.jpg",
+      "metrics": {
+        "width": 600,
+        "height": 812,
+        "aspect": 0.7389,
+        "bannerColumnSpan": 0.9972,
+        "bannerPixelRatio": 0.5387
+      }
+    },
+    {
+      "id": 897,
+      "title": "PAWARUMI",
+      "aliases": [
+        "Pawarumi [Limited Edition]"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "status": "accepted",
+      "alias": "Pawarumi [Limited Edition]",
+      "matchedTitle": "Pawarumi [Limited Edition]",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/pawarumi-limited-edition?q=pawarumi+%5Blimited+edition%5D+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/6e89f5f4935d6b9cf6bdee32b4bc7d99c09ad9029a7c2a4a99e7a5f71378220b/1600.jpg",
+      "metrics": {
+        "width": 682,
+        "height": 1000,
+        "aspect": 0.682,
+        "bannerColumnSpan": 0.9694,
+        "bannerPixelRatio": 0.564
+      }
+    },
+    {
+      "id": 2698,
+      "title": "R-Type Tactics I & II Cosmos",
+      "aliases": [
+        "R-Type Tactics I & II Cosmos [Deluxe Edition]",
+        "R-Type Tactics I • II Cosmos [Deluxe Edition]"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "status": "accepted",
+      "alias": "R-Type Tactics I & II Cosmos [Deluxe Edition]",
+      "matchedTitle": "R-Type Tactics I & II Cosmos [Deluxe Edition]",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/r-type-tactics-i-&-ii-cosmos-deluxe-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/5txssohfz3ratiid/1600.jpg",
+      "metrics": {
+        "width": 1195,
+        "height": 1500,
+        "aspect": 0.7967,
+        "bannerColumnSpan": 0.9611,
+        "bannerPixelRatio": 0.5534
+      }
+    },
+    {
+      "id": 2705,
+      "title": "Raiden IV x MIKADO Remix",
+      "aliases": [
+        "Raiden IV x MIKADO Remix [Deluxe Edition]",
+        "Raiden IV X Mikado Remix [Deluxe Edition]"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "status": "accepted",
+      "alias": "Raiden IV x MIKADO Remix [Deluxe Edition]",
+      "matchedTitle": "Raiden IV x MIKADO Remix [Deluxe Edition]",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/raiden-iv-x-mikado-remix-deluxe-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/affd1edbb12a15953056044fd6f41d73a9cb32ebe167b3b709b0ea89706e3f1f/1600.jpg",
+      "metrics": {
+        "width": 1199,
+        "height": 1500,
+        "aspect": 0.7993,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.5125
+      }
+    },
+    {
+      "id": 1025,
+      "title": "Runbow",
+      "aliases": [
+        "Runbow Deluxe Edition"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "status": "accepted",
+      "alias": "Runbow Deluxe Edition",
+      "matchedTitle": "Runbow Deluxe Edition",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/runbow-deluxe-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95m5MQBOuYCca0xSSh23NhU76tkHxxawQ9SIpz1o-HV8Ldj-5VIQUJiZcvpRppf_aIhV64TYXQqBLawUwcT9Y7e_CtOoW11HcA9eFXTZaMgtqZaJwd43LNPhUygWSTxbEzfiY1hu9lPEnunUtSZS66p9JMyYg/1600.jpg",
+      "metrics": {
+        "width": 407,
+        "height": 512,
+        "aspect": 0.7949,
+        "bannerColumnSpan": 0.9917,
+        "bannerPixelRatio": 0.5391
+      }
+    },
+    {
+      "id": 1047,
+      "title": "Semispheres",
+      "aliases": [
+        "Semispheres [Blue]",
+        "Semispheres [Orange]"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "status": "accepted",
+      "alias": "Semispheres [Orange]",
+      "matchedTitle": "Semispheres [Orange]",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/semispheres-orange?q=semispheres+%5Borange%5D+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94-iI2nd3E51J8eZ3KUjctWPeP6_DqMDR9Wv5B0UZa2T2UyFDZ_j7WYNNBxNpOTclD5MfBloeIjMEfK0UgiaKcpZ3c1CXqD0Qa02Ha9X58INIfitdn1QQjPrK3_SHn5g9WAUD9--wGP4mHMQT56yQ5DbWDvYw/1600.jpg",
+      "metrics": {
+        "width": 249,
+        "height": 360,
+        "aspect": 0.6917,
+        "bannerColumnSpan": 0.8876,
+        "bannerPixelRatio": 0.4258
+      }
+    },
+    {
+      "id": 1228,
+      "title": "The Coma: Recut",
+      "aliases": [
+        "The Coma: Recut [Limited Edition]"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "status": "accepted",
+      "alias": "The Coma: Recut [Limited Edition]",
+      "matchedTitle": "The Coma: Recut [Limited Edition]",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/the-coma-recut-limited-edition?q=the+coma%3A+recut+%5Blimited+edition%5D+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94ZDbQao7b5WC9FAeDTgef_LWYpapnqvortYNTzPbm4Bp9TcorI8FFFcrBT3g0AQP0zGowTT1lO0rjpU5yhcoMIbQsQeTcB9EI8D66GW69QvKpci1-sPg6uqq5DSenRL9e3Z58liI2C9YzHoS-DUZ2Y8smgTg/1600.jpg",
+      "metrics": {
+        "width": 403,
+        "height": 512,
+        "aspect": 0.7871,
+        "bannerColumnSpan": 0.7639,
+        "bannerPixelRatio": 0.3572
+      }
+    },
+    {
+      "id": 1258,
+      "title": "The Last Blade 2",
+      "aliases": [
+        "Last Blade 2",
+        "Last Blade 2 [Collector's Edition]"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "status": "accepted",
+      "alias": "Last Blade 2",
+      "matchedTitle": "Last Blade 2",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/last-blade-2",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/9d0579f4cd79f675632de1d80e56c580b076a1e71722ac749a0fdcb58d31ddce/1600.jpg",
+      "metrics": {
+        "width": 390,
+        "height": 551,
+        "aspect": 0.7078,
+        "bannerColumnSpan": 0.8472,
+        "bannerPixelRatio": 0.4534
+      }
+    },
+    {
+      "id": 1774,
+      "title": "Umbrella Corps",
+      "aliases": [
+        "Resident Evil Umbrella Corps",
+        "Biohazard Umbrella Corps"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "status": "accepted",
+      "alias": "Resident Evil Umbrella Corps",
+      "matchedTitle": "Resident Evil Umbrella Corps",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "JP",
+      "productUrl": "https://www.pricecharting.com/game/jp-playstation-4/resident-evil-umbrella-corps",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/95ef4b03dceddb8108dbaa6e58fe21cb3b53aac3e1b9cc410dcbbca1106dc49d/1600.jpg",
+      "metrics": {
+        "width": 480,
+        "height": 600,
+        "aspect": 0.8,
+        "bannerColumnSpan": 0.9972,
+        "bannerPixelRatio": 0.5087
+      }
+    }
+  ],
+  "noMatch": [],
+  "rejected": [
+    {
+      "id": 2037,
+      "title": "9th Dawn III",
+      "aliases": [
+        "9th Dawn III: Shadow of Erthil"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "attempts": [
+        {
+          "status": "rejected",
+          "alias": "9th Dawn III: Shadow of Erthil",
+          "attempts": [
+            {
+              "alias": "9th Dawn III: Shadow of Erthil",
+              "matchedTitle": "9th Dawn III: Shadow of Erthil",
+              "region": "US/NTSC",
+              "productUrl": "https://www.pricecharting.com/game/playstation-4/9th-dawn-iii-shadow-of-erthil?q=9th+dawn+iii%3A+shadow+of+erthil+playstation+4",
+              "image": "https://storage.googleapis.com/images.pricecharting.com/b2df2f76f20feabbb197d3a3ccd6dfa756602b77cdd027bf7d7eb3204855f4d3/1600.jpg",
+              "reason": "failed_retail_front_gate",
+              "metrics": {
+                "width": 1076,
+                "height": 1079,
+                "aspect": 0.9972,
+                "bannerColumnSpan": 0.0,
+                "bannerPixelRatio": 0.0
+              }
+            }
+          ],
+          "candidateTitles": [
+            "9th Dawn III: Shadow of Erthil"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1579,
+      "title": "Back to the Future: The Game",
+      "aliases": [
+        "Back to the Future: The Game 30th Anniversary"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "attempts": [
+        {
+          "status": "rejected",
+          "alias": "Back to the Future: The Game 30th Anniversary",
+          "attempts": [
+            {
+              "alias": "Back to the Future: The Game 30th Anniversary",
+              "matchedTitle": "Back to the Future: The Game 30th Anniversary",
+              "region": "US/NTSC",
+              "productUrl": "https://www.pricecharting.com/game/playstation-4/back-to-the-future-the-game-30th-anniversary",
+              "image": "https://storage.googleapis.com/images.pricecharting.com/f46bbc9c00c66679405d3de0be1a1d83be69adb35de6703be285aa157d8d2646/1600.jpg",
+              "reason": "failed_retail_front_gate",
+              "metrics": {
+                "width": 480,
+                "height": 599,
+                "aspect": 0.8013,
+                "bannerColumnSpan": 0.6278,
+                "bannerPixelRatio": 0.301
+              }
+            },
+            {
+              "alias": "Back to the Future: The Game 30th Anniversary",
+              "matchedTitle": "Back To The Future: The Game 30th Anniversary",
+              "region": "PAL",
+              "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/back-to-the-future-the-game-30th-anniversary",
+              "image": "https://storage.googleapis.com/images.pricecharting.com/b7fa7924558817caabfdddf725c567fa261272e911aa1c47dde87c57740a2bcd/1600.jpg",
+              "reason": "failed_retail_front_gate",
+              "metrics": {
+                "width": 786,
+                "height": 587,
+                "aspect": 1.339,
+                "bannerColumnSpan": 0.5556,
+                "bannerPixelRatio": 0.2971
+              }
+            }
+          ],
+          "candidateTitles": [
+            "Back to the Future: The Game 30th Anniversary",
+            "Back To The Future: The Game 30th Anniversary"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1622,
+      "title": "Fury Unleashed",
+      "aliases": [
+        "Fury Unleashed [Bang Edition]"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "attempts": [
+        {
+          "status": "rejected",
+          "alias": "Fury Unleashed [Bang Edition]",
+          "attempts": [
+            {
+              "alias": "Fury Unleashed [Bang Edition]",
+              "matchedTitle": "Fury Unleashed [Bang Edition]",
+              "region": "PAL",
+              "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/fury-unleashed-bang-edition?q=fury+unleashed+%5Bbang+edition%5D+playstation+4",
+              "image": "https://storage.googleapis.com/images.pricecharting.com/kg72k54o2qn5r3yr/1600.jpg",
+              "reason": "failed_retail_front_gate",
+              "metrics": {
+                "width": 1392,
+                "height": 1600,
+                "aspect": 0.87,
+                "bannerColumnSpan": 0.8583,
+                "bannerPixelRatio": 0.3807
+              }
+            }
+          ],
+          "candidateTitles": [
+            "Fury Unleashed [Bang Edition]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2707,
+      "title": "Raidou Remastered: Mystery Of The Soulless Army",
+      "aliases": [
+        "Raidou Remastered: The Mystery Of The Soulless Army"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "attempts": [
+        {
+          "status": "rejected",
+          "alias": "Raidou Remastered: The Mystery Of The Soulless Army",
+          "attempts": [
+            {
+              "alias": "Raidou Remastered: The Mystery Of The Soulless Army",
+              "matchedTitle": "Raidou Remastered: The Mystery Of The Soulless Army",
+              "region": "US/NTSC",
+              "productUrl": "https://www.pricecharting.com/game/playstation-4/raidou-remastered-the-mystery-of-the-soulless-army",
+              "image": "https://storage.googleapis.com/images.pricecharting.com/5qo7ln4s3t3rhvwi/1600.jpg",
+              "reason": "failed_retail_front_gate",
+              "metrics": {
+                "width": 120,
+                "height": 133,
+                "aspect": 0.9023,
+                "bannerColumnSpan": 0.6,
+                "bannerPixelRatio": 0.3006
+              }
+            }
+          ],
+          "candidateTitles": [
+            "Raidou Remastered: The Mystery Of The Soulless Army",
+            "Raidou Remastered: The Mystery Of The Soulless Army [Collector's Edition]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1949,
+      "title": "Smashing the Battle: Ghost Soul",
+      "aliases": [
+        "Smashing the Battle: Ghost Soul [Limited Edition]"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "attempts": [
+        {
+          "status": "rejected",
+          "alias": "Smashing the Battle: Ghost Soul [Limited Edition]",
+          "attempts": [
+            {
+              "alias": "Smashing the Battle: Ghost Soul [Limited Edition]",
+              "matchedTitle": "Smashing the Battle: Ghost Soul [Limited Edition]",
+              "region": "US/NTSC",
+              "productUrl": "https://www.pricecharting.com/game/playstation-4/smashing-the-battle-ghost-soul-limited-edition",
+              "image": "https://storage.googleapis.com/images.pricecharting.com/07e0a0aed23ca5bf56598a17f6782a4008d2bc90403dd4547aab39a6686ab3e3/1600.jpg",
+              "reason": "failed_retail_front_gate",
+              "metrics": {
+                "width": 360,
+                "height": 360,
+                "aspect": 1.0,
+                "bannerColumnSpan": 0.6583,
+                "bannerPixelRatio": 0.3688
+              }
+            },
+            {
+              "alias": "Smashing the Battle: Ghost Soul [Limited Edition]",
+              "matchedTitle": "Smashing the Battle: Ghost Soul [Limited Edition]",
+              "region": "JP",
+              "productUrl": "https://www.pricecharting.com/game/jp-playstation-4/smashing-the-battle-ghost-soul-limited-edition",
+              "image": "https://storage.googleapis.com/images.pricecharting.com/854fa97f993deb7e5275ecbb330e35e454f6e306df471c20f913765df8916266/1600.jpg",
+              "reason": "failed_retail_front_gate",
+              "metrics": {
+                "width": 640,
+                "height": 640,
+                "aspect": 1.0,
+                "bannerColumnSpan": 0.6583,
+                "bannerPixelRatio": 0.3691
+              }
+            }
+          ],
+          "candidateTitles": [
+            "Smashing the Battle: Ghost Soul [Limited Edition]",
+            "Smashing the Battle: Ghost Soul [Limited Edition]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1875,
+      "title": "Taimumari",
+      "aliases": [
+        "Taimumari: Complete Edition"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "attempts": [
+        {
+          "status": "rejected",
+          "alias": "Taimumari: Complete Edition",
+          "attempts": [
+            {
+              "alias": "Taimumari: Complete Edition",
+              "matchedTitle": "Taimumari: Complete Edition",
+              "region": "PAL",
+              "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/taimumari-complete-edition?q=taimumari%3A+complete+edition+playstation+4",
+              "image": "https://storage.googleapis.com/images.pricecharting.com/ea89ef433b44348a122919c21fe10baa62c930c67bf281a81489b7a5a5070d31/1600.jpg",
+              "reason": "failed_retail_front_gate",
+              "metrics": {
+                "width": 1358,
+                "height": 1600,
+                "aspect": 0.8488,
+                "bannerColumnSpan": 0.9194,
+                "bannerPixelRatio": 0.4156
+              }
+            }
+          ],
+          "candidateTitles": [
+            "Taimumari: Complete Edition"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2019,
+      "title": "The King of Fighters 2000",
+      "aliases": [
+        "King of Fighters 2000",
+        "King Of Fighters 2000 [Collector's Edition]"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "attempts": [
+        {
+          "status": "rejected",
+          "alias": "King of Fighters 2000",
+          "attempts": [
+            {
+              "alias": "King of Fighters 2000",
+              "matchedTitle": "King of Fighters 2000",
+              "region": "US/NTSC",
+              "productUrl": "https://www.pricecharting.com/game/playstation-4/king-of-fighters-2000",
+              "image": "https://storage.googleapis.com/images.pricecharting.com/003e7c024d973587a878736e309eeb89186a237303a9597d04f4c0bd4d7c64f7/1600.jpg",
+              "reason": "failed_retail_front_gate",
+              "metrics": {
+                "width": 1383,
+                "height": 1536,
+                "aspect": 0.9004,
+                "bannerColumnSpan": 0.5583,
+                "bannerPixelRatio": 0.2199
+              }
+            }
+          ],
+          "candidateTitles": [
+            "King Of Fighters 2000 [Collector's Edition]",
+            "King of Fighters 2000"
+          ]
+        },
+        {
+          "status": "rejected",
+          "alias": "King Of Fighters 2000 [Collector's Edition]",
+          "attempts": [
+            {
+              "alias": "King Of Fighters 2000 [Collector's Edition]",
+              "matchedTitle": "King Of Fighters 2000 [Collector's Edition]",
+              "region": "US/NTSC",
+              "productUrl": "https://www.pricecharting.com/game/playstation-4/king-of-fighters-2000-collector%27s-edition?q=king+of+fighters+2000+%5Bcollector%27s+edition%5D+playstation+4",
+              "image": "https://storage.googleapis.com/images.pricecharting.com/vtmg2pkno7eedg3j/1600.jpg",
+              "reason": "failed_retail_front_gate",
+              "metrics": {
+                "width": 717,
+                "height": 1000,
+                "aspect": 0.717,
+                "bannerColumnSpan": 0.0,
+                "bannerPixelRatio": 0.0
+              }
+            }
+          ],
+          "candidateTitles": [
+            "King Of Fighters 2000 [Collector's Edition]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2049,
+      "title": "The Legend of Heroes: Trails through Daybreak II",
+      "aliases": [
+        "Legend Of Heroes: Trails Through Daybreak II [Deluxe Edition]",
+        "The Legend Of Heroes: Trails Through Daybreak II [Deluxe Edition]",
+        "Legend Of Heroes: Trails Through Daybreak II [Limited Edition]"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "attempts": [
+        {
+          "status": "error",
+          "alias": "Legend Of Heroes: Trails Through Daybreak II [Deluxe Edition]",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "status": "no_exact_alias",
+          "alias": "The Legend Of Heroes: Trails Through Daybreak II [Deluxe Edition]",
+          "attempts": [],
+          "candidateTitles": [
+            "Legend Of Heroes: Trails Through Daybreak II [Deluxe Edition]",
+            "Legend Of Heroes: Trails Through Daybreak II [Deluxe Edition]"
+          ]
+        },
+        {
+          "status": "rejected",
+          "alias": "Legend Of Heroes: Trails Through Daybreak II [Limited Edition]",
+          "attempts": [
+            {
+              "alias": "Legend Of Heroes: Trails Through Daybreak II [Limited Edition]",
+              "matchedTitle": "Legend Of Heroes: Trails Through Daybreak II [Limited Edition]",
+              "region": "US/NTSC",
+              "productUrl": "https://www.pricecharting.com/game/playstation-4/legend-of-heroes-trails-through-daybreak-ii-limited-edition",
+              "image": "https://storage.googleapis.com/images.pricecharting.com/gnfsnmkyvdh4iq2t/1600.jpg",
+              "reason": "failed_retail_front_gate",
+              "metrics": {
+                "width": 1388,
+                "height": 1080,
+                "aspect": 1.2852,
+                "bannerColumnSpan": 0.0,
+                "bannerPixelRatio": 0.0
+              }
+            },
+            {
+              "alias": "Legend Of Heroes: Trails Through Daybreak II [Limited Edition]",
+              "matchedTitle": "Legend Of Heroes: Trails Through Daybreak II [Limited Edition]",
+              "region": "PAL",
+              "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/legend-of-heroes-trails-through-daybreak-ii-limited-edition",
+              "image": "https://storage.googleapis.com/images.pricecharting.com/mo5ln7fxivzygnyo/1600.jpg",
+              "reason": "failed_retail_front_gate",
+              "metrics": {
+                "width": 533,
+                "height": 300,
+                "aspect": 1.7767,
+                "bannerColumnSpan": 0.0,
+                "bannerPixelRatio": 0.0
+              }
+            }
+          ],
+          "candidateTitles": [
+            "Legend Of Heroes: Trails Through Daybreak II [Limited Edition]",
+            "Legend Of Heroes: Trails Through Daybreak II [Limited Edition]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1278,
+      "title": "The Mummy Demastered",
+      "aliases": [
+        "The Mummy Demastered [Limited Run]",
+        "The Mummy Demastered [Collector's Edition]"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "attempts": [
+        {
+          "status": "error",
+          "alias": "The Mummy Demastered [Limited Run]",
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "status": "rejected",
+          "alias": "The Mummy Demastered [Collector's Edition]",
+          "attempts": [
+            {
+              "alias": "The Mummy Demastered [Collector's Edition]",
+              "matchedTitle": "The Mummy Demastered [Collector's Edition]",
+              "region": "US/NTSC",
+              "productUrl": "https://www.pricecharting.com/game/playstation-4/the-mummy-demastered-collector%27s-edition?q=the+mummy+demastered+%5Bcollector%27s+edition%5D+playstation+4",
+              "image": "https://storage.googleapis.com/images.pricecharting.com/ceba4c024b8e9b55e30da1814b2e695791ba09d191078c3b13ee6b056c33e563/1600.jpg",
+              "reason": "failed_retail_front_gate",
+              "metrics": {
+                "width": 1600,
+                "height": 1287,
+                "aspect": 1.2432,
+                "bannerColumnSpan": 0.2083,
+                "bannerPixelRatio": 0.0476
+              }
+            }
+          ],
+          "candidateTitles": [
+            "The Mummy Demastered [Collector's Edition]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1336,
+      "title": "Tom Clancy's Rainbow Six Siege: Advanced Edition",
+      "aliases": [
+        "Rainbow Six Siege [Advanced Edition]"
+      ],
+      "bucket": "review",
+      "reason": "key_art_only",
+      "attempts": [
+        {
+          "status": "rejected",
+          "alias": "Rainbow Six Siege [Advanced Edition]",
+          "attempts": [
+            {
+              "alias": "Rainbow Six Siege [Advanced Edition]",
+              "matchedTitle": "Rainbow Six Siege [Advanced Edition]",
+              "region": "US/NTSC",
+              "productUrl": "https://www.pricecharting.com/game/playstation-4/rainbow-six-siege-advanced-edition",
+              "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94Z0vsQbXwXu1oIjK4PJrq2b_JQipFX4PkrZOyk_ZURhIO9EE2UQPBeG5B8yXxGyj2WqE7-Z7M4D8fNXDxxEAL38_W2gi8i4ATNOURiFpOoxFWjPmnFfmNE_WAqpkZ0kpFCf4Y7CuQ-HHVIG3Ntfw4XtfdqMQ/1600.jpg",
+              "reason": "failed_retail_front_gate",
+              "metrics": {
+                "width": 298,
+                "height": 360,
+                "aspect": 0.8278,
+                "bannerColumnSpan": 0.9295,
+                "bannerPixelRatio": 0.4557
+              }
+            },
+            {
+              "alias": "Rainbow Six Siege [Advanced Edition]",
+              "matchedTitle": "Rainbow Six Siege [Advanced Edition]",
+              "region": "PAL",
+              "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/rainbow-six-siege-advanced-edition",
+              "image": "https://storage.googleapis.com/images.pricecharting.com/ij256nx7qhbqz3vm/1600.jpg",
+              "reason": "failed_retail_front_gate",
+              "metrics": {
+                "width": 700,
+                "height": 700,
+                "aspect": 1.0,
+                "bannerColumnSpan": 0.8,
+                "bannerPixelRatio": 0.4153
+              }
+            }
+          ],
+          "candidateTitles": [
+            "Rainbow Six Siege [Advanced Edition]",
+            "Rainbow Six Siege [Advanced Edition]"
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "skipped": []
+}

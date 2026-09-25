@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-09-25T18:31:05.625Z",
+  "generatedAt": "2026-09-25T18:40:44.332Z",
   "summary": {
-    "generatedAt": "2026-09-25T18:31:05.625Z",
+    "generatedAt": "2026-09-25T18:40:44.332Z",
     "included": 2407,
-    "good": 2026,
+    "good": 2046,
     "fallback": 8,
-    "review": 352,
+    "review": 332,
     "watch": 21,
-    "physicalVerify": 348,
-    "physicalLikely": 1348,
+    "physicalVerify": 328,
+    "physicalLikely": 1368,
     "physicalConfirmed": 711,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "key_art_only": 327,
+      "key_art_only": 307,
       "missing_ps4_banner": 25
     },
     "watchByReason": {
@@ -39,11 +39,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2485,
-      "title": "Anonymous;Code",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1567,
       "title": "Aokana - Four Rhythms Across the Blue",
       "reason": "key_art_only"
@@ -51,11 +46,6 @@
     {
       "id": 81,
       "title": "Apex Legends",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2497,
-      "title": "Asterix & Obelix XXXL: The Ram from Hibernia",
       "reason": "key_art_only"
     },
     {
@@ -164,11 +154,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2301,
-      "title": "Crymachina",
-      "reason": "key_art_only"
-    },
-    {
       "id": 298,
       "title": "Darius Cozmic Collection: Arcade",
       "reason": "key_art_only"
@@ -204,16 +189,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1861,
-      "title": "Demon Gaze Extra",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 364,
-      "title": "Diablo III: Ultimate Evil Edition",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2417,
       "title": "Dogchild",
       "reason": "key_art_only"
@@ -236,11 +211,6 @@
     {
       "id": 2266,
       "title": "DUSK",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 429,
-      "title": "Earthfall",
       "reason": "key_art_only"
     },
     {
@@ -301,11 +271,6 @@
     {
       "id": 518,
       "title": "Game Tengoku: Cruisin Mix Special",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1824,
-      "title": "Gearshifters",
       "reason": "key_art_only"
     },
     {
@@ -384,11 +349,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2599,
-      "title": "Harry Potter: Quidditch Champions",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2601,
       "title": "Harvest Moon: The Winds of Anthos",
       "reason": "key_art_only"
@@ -454,23 +414,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2647,
-      "title": "Legend Of Heroes: Trails Beyond The Horizon",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2649,
-      "title": "Legend Of Legacy HD Remastered",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1936,
       "title": "Legend of the Skyfish",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 716,
-      "title": "Lichtspeer",
       "reason": "key_art_only"
     },
     {
@@ -624,11 +569,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 832,
-      "title": "NeuroVoider",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1679,
       "title": "Neverending Nightmares",
       "reason": "key_art_only"
@@ -734,11 +674,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 897,
-      "title": "PAWARUMI",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2430,
       "title": "Peaky Blinders Mastermind",
       "reason": "key_art_only"
@@ -819,18 +754,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2698,
-      "title": "R-Type Tactics I & II Cosmos",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2701,
       "title": "Rabbids: Party of Legends",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2705,
-      "title": "Raiden IV x MIKADO Remix",
       "reason": "key_art_only"
     },
     {
@@ -929,11 +854,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1025,
-      "title": "Runbow",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1997,
       "title": "RWBY: Arrowfell",
       "reason": "key_art_only"
@@ -976,11 +896,6 @@
     {
       "id": 2086,
       "title": "SD Gundam G Generation Cross Rays",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1047,
-      "title": "Semispheres",
       "reason": "key_art_only"
     },
     {
@@ -1299,11 +1214,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1228,
-      "title": "The Coma: Recut",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1229,
       "title": "The Complex",
       "reason": "key_art_only"
@@ -1331,11 +1241,6 @@
     {
       "id": 2019,
       "title": "The King of Fighters 2000",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1258,
-      "title": "The Last Blade 2",
       "reason": "key_art_only"
     },
     {
@@ -1481,11 +1386,6 @@
     {
       "id": 1375,
       "title": "Twin Breaker: A Sacred Symbols Adventure",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1774,
-      "title": "Umbrella Corps",
       "reason": "key_art_only"
     },
     {
