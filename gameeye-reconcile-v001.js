@@ -21,6 +21,14 @@
 // lookup) -- not a reimplementation, and no title-specific logic anywhere in this file.
 (()=>{
   let tries=0;
+  const ownershipCandidates=title=>{
+    const base=candidates(title),out=[...base];
+    for(const c of base){
+      const alt=c.startsWith('the ')?c.slice(4):`the ${c}`;
+      if(alt&&!out.includes(alt))out.push(alt);
+    }
+    return out;
+  };
   const apply=()=>{
     tries++;
     if(typeof censusFinalized==='undefined'||!censusFinalized||typeof ensureMergedProducts!=='function'||typeof candidates!=='function'){
@@ -35,7 +43,7 @@
     const stillUnresolved=[],reconciled=[];
 
     for(const title of unresolved){
-      const cs=candidates(title);
+      const cs=ownershipCandidates(title);
       let hit=false;
       for(const c of cs){
         let p=null;

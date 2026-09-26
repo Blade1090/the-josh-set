@@ -4,6 +4,18 @@
 (()=>{
   if(typeof importCSV!=='function')return;
 
+  // GameEye occasionally omits a leading "The" that ShelfCheck keeps in its canonical title
+  // (and vice versa). Keep the exact candidates first, then add article-toggled fallbacks so an
+  // exact title/product always wins before this compatibility path is considered.
+  const ownershipCandidates=title=>{
+    const base=candidates(title),out=[...base];
+    for(const c of base){
+      const alt=c.startsWith('the ')?c.slice(4):`the ${c}`;
+      if(alt&&!out.includes(alt))out.push(alt);
+    }
+    return out;
+  };
+
   importCSV=async function(f){
     const rows=parseCSV(await f.text()),h=rows.shift()||[],ix=Object.fromEntries(h.map((x,i)=>[x,i]));
     const owned=new Set(),ownedProducts=new Set(),ledger=[],unmatched=[];
@@ -14,7 +26,7 @@
       const platform=(r[ix.Platform]||'').trim().toLowerCase(),cat=(r[ix.Category]||'').trim().toLowerCase(),typ=(r[ix.UserRecordType]||'Owned').trim().toLowerCase();
       if(!['sony playstation 4','playstation 4','ps4'].includes(platform)||cat!=='games'||typ!=='owned')continue;
       titles++;
-      const title=r[ix.Title]||'',cs=candidates(title);
+      const title=r[ix.Title]||'',cs=ownershipCandidates(title);
       let hit=false;
       for(const c of cs){
         let p=null;
