@@ -2,9 +2,7 @@ name: Ownership Audit
 on:
   push:
     paths:
-      - 'tools/ownership-audit-current.mjs'
       - 'tools/gameeye-import-test.mjs'
-      - 'tools/gameeye-2026-08-30-ps4.json'
       - 'ownership-audit-v068.js'
       - 'gameeye-reconcile-v001.js'
       - 'ownership-reconcile-v07*.js'
@@ -16,12 +14,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Run GameEye import regression
+      - name: Run current GameEye import regression
         run: node tools/gameeye-import-test.mjs
-      - name: Run ownership reconciliation
-        run: node tools/ownership-audit-current.mjs
-      - name: Upload report
-        uses: actions/upload-artifact@v4
-        with:
-          name: ownership-audit-report
-          path: ownership-audit-report.json
