@@ -3,7 +3,12 @@ on:
   push:
     paths:
       - 'tools/ownership-audit-current.mjs'
+      - 'tools/gameeye-import-test.mjs'
       - 'tools/gameeye-2026-08-30-ps4.json'
+      - 'ownership-audit-v068.js'
+      - 'gameeye-reconcile-v001.js'
+      - 'ownership-reconcile-v07*.js'
+      - 'census-physical-omission-pass-v00*.js'
       - '.github/workflows/ownership-audit.yml'
   workflow_dispatch:
 jobs:
@@ -11,6 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Run GameEye import regression
+        run: node tools/gameeye-import-test.mjs
       - name: Run ownership reconciliation
         run: node tools/ownership-audit-current.mjs
       - name: Upload report
