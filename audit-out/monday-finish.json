@@ -70,8 +70,8 @@
  "phases": {
   "0": "done",
   "1": "done",
-  "2": "in progress",
-  "3": "pending",
+  "2": "done",
+  "3": "in progress",
   "4": "pending"
  },
  "batches": [
@@ -156,8 +156,8 @@
    "gate": "0 lost excluding blocked-host flakes: [1809 Ground Zero: Texas, GameFAQs 403, URL unchanged]"
   }
  ],
- "updated": "2026-09-28T14:24:31+00:00",
- "next": "Phase 2: measure Random Game cover latency, then fix",
+ "updated": "2026-09-28T14:42:18+00:00",
+ "next": "Phase 3: HLTB runtime audit repair",
  "phase1": {
   "realCoversGained": 14,
   "syntheticCandidates": {
@@ -172,5 +172,36 @@
    "reconstructionVisuallySafe": 105
   },
   "syntheticTier": "NOT implemented (awaits Josh decision on the candidate count)"
+ },
+ "phase2": {
+  "cause": "sw.js answered every GET (incl. cross-origin cover <img>) with fetch(cache:no-store) and only used cache on network failure, so a previously seen cover always waited on the remote host (PriceCharting 1600px, LaunchBox, GameEye). Covers were also stored unbounded in the app-shell cache (opaque responses ~7MB quota each: 9 covers = 72MB).",
+  "fix": [
+   "cross-origin image requests: cache-first from a separate bounded cache shelfcheck-covers-v1 (40 entries, oldest dropped); app code/data unchanged network-first no-store",
+   "activate purges cover images from the app-shell cache; cover cache survives shell version bumps",
+   "fun-features: warmNextRandomCover() pre-loads the next shuffle-bag pick at idle (read-only peek, 600ms idle timeout)"
+  ],
+  "measured_local_desktop": {
+   "before": {
+    "detailRenderMs": "17-70",
+    "coldCoverMs": "59-297",
+    "afterReloadRepeatCoverMs": "35-210"
+   },
+   "after": {
+    "detailRenderMs": "1-7",
+    "afterReloadRepeatCoverMs": "4-11",
+    "anotherRandomPrewarmedMs": "20-28",
+    "firstRandomPressColdMs": "~380 (network)"
+   },
+   "note": "fast desktop connection; phone/cellular cold fetches are the 1-2s Josh sees, which cache hits and pre-warm now remove from the Random critical path"
+  },
+  "tests": {
+   "fixedHarness": [
+    "random-cover-stability-test (DOM stub setAttribute/classList + real coverFor expectation + shared mutators)",
+    "pwa-precache-consistency-test (sw.js precache resynced: +32 missing, -2 stale)"
+   ],
+   "stillFailingOnMainAndBranch": [
+    "search-initialism-test (guardrail counts stale vs census)"
+   ]
+  }
  }
 }
