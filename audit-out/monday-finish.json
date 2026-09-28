@@ -69,8 +69,8 @@
  },
  "phases": {
   "0": "done",
-  "1": "in progress",
-  "2": "pending",
+  "1": "done",
+  "2": "in progress",
   "3": "pending",
   "4": "pending"
  },
@@ -156,6 +156,21 @@
    "gate": "0 lost excluding blocked-host flakes: [1809 Ground Zero: Texas, GameFAQs 403, URL unchanged]"
   }
  ],
- "updated": "2026-09-28T14:23:22+00:00",
- "next": "Phase 1: WATCH replacements, flat-front trims (visually verified), residual real sources; then synthetic-cover-candidates.json"
+ "updated": "2026-09-28T14:24:31+00:00",
+ "next": "Phase 2: measure Random Game cover latency, then fix",
+ "phase1": {
+  "realCoversGained": 14,
+  "syntheticCandidates": {
+   "total": 211,
+   "byCategory": {
+    "RENDER_ONLY": 105,
+    "PRERELEASE_ONLY": 8,
+    "NO_FRONT_FOUND": 77,
+    "CURATOR_DECISION": 6,
+    "BLOCKED_HOST_REAL_FRONT": 15
+   },
+   "reconstructionVisuallySafe": 105
+  },
+  "syntheticTier": "NOT implemented (awaits Josh decision on the candidate count)"
+ }
 }
