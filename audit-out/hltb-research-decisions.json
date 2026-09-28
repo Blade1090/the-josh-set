@@ -1,0 +1,841 @@
+{
+ "note": "HLTB research decisions. VERIFY_EXISTING upgrades a reviewed LIKELY mapping (times unchanged). ADD_GAMEYE adds HLTB hours mirrored by GameEye for an exact normalized PS4 title/alias match. REJECT_LIKELY removes a wrong mapping. CHANGE_VERIFIED/REJECT_VERIFIED are the only actions allowed to alter previously verified rows (none so far).",
+ "decisions": [
+  {
+   "id": 29,
+   "title": "ABZU",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "ABZÛ",
+   "main": 1.93,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 82,
+   "title": "Ara Fell: Enhanced Edition",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Ara Fell",
+   "main": 16.67,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 139,
+   "title": "Battle Garegga Rev.2016",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Battle Garegga",
+   "main": 0.93,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 163,
+   "title": "BioShock Infinite: Complete Edition",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Bioshock Infinite: The Complete Edition",
+   "main": 11.91,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 178,
+   "title": "Blaster Master Zero II",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "Blaster Master Zero 2",
+   "main": 8,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 180,
+   "title": "BlazBlue: Chrono Phantasma Extend",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "BlazBlue: Chrono Phantasma",
+   "main": 15.45,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 312,
+   "title": "Darksiders: Warmastered Edition",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Darksiders",
+   "main": 17.08,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 395,
+   "title": "Double Switch: 25th Anniversary Edition",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Double Switch",
+   "main": 4.27,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 409,
+   "title": "Dragon's Crown Pro",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Dragon's Crown",
+   "main": 14.05,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 430,
+   "title": "Earthlock: Festival of Magic",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "Earthlock",
+   "main": 22.1,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 514,
+   "title": "Gal Gunvolt Burst",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "Mighty Gunvolt Burst",
+   "main": 3.15,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 525,
+   "title": "Geometry Wars 3: Dimensions",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "Geometry Wars 3: Dimensions Evolved",
+   "main": 8.28,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 526,
+   "title": "Ghost Blade HD",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Ghost Blade",
+   "main": 0.61,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 585,
+   "title": "Hero Defense",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "Hero Defense: Haunted Island",
+   "main": 6.26,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 620,
+   "title": "Industry Giant II",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "Industry Giant 2",
+   "main": 29.78,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 626,
+   "title": "Infliction: Extended Cut",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Infliction",
+   "main": 3.02,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 640,
+   "title": "Jamestown+",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Jamestown: Legend of the Lost Colony",
+   "main": 2.58,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 644,
+   "title": "Jotun: Valhalla Edition",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Jotun",
+   "main": 5.15,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 657,
+   "title": "Kentucky Route Zero: TV Edition",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Kentucky Route Zero",
+   "main": 8.92,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 676,
+   "title": "Knack 2",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "Knack II",
+   "main": 11.25,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 692,
+   "title": "Last Kids on Earth and the Staff of Doom",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "The Last Kids On Earth and the Staff of Doom",
+   "main": 5.34,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 722,
+   "title": "Little Dragons Cafe",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "Little Dragons Café",
+   "main": 32.96,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 728,
+   "title": "Lord of the Rings: Gollum",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "The Lord of the Rings: Gollum",
+   "main": 13.24,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 745,
+   "title": "Marvel's Guardians of the Galaxy: The Telltale Series",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "Guardians of the Galaxy: The Telltale Series",
+   "main": 8.81,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 783,
+   "title": "Minecraft: Story Mode - A Telltale Games Series",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "Minecraft: Story Mode",
+   "main": 12.37,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 805,
+   "title": "Musynx",
+   "action": "WITHHOLD_LIKELY",
+   "matchedTitle": "MUSYNC",
+   "evidence": "MUSYNX mapped to HLTB \"MUSYNC\": spelling differs from the PS4 title; cannot confirm same game without HLTB access. Timing withheld pending evidence.",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 919,
+   "title": "PlayerUnknown's Battlegrounds",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "PUBG: Battlegrounds",
+   "main": 97.85,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 985,
+   "title": "Resonance of Fate 4K / HD Edition",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Resonance of Fate",
+   "main": 49.88,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1043,
+   "title": "Sebastien Loeb Rally Evo",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Sébastien Loeb Rally Evo",
+   "main": 19.77,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1045,
+   "title": "Sega Genesis Classics",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "SEGA Genesis Classics Collection",
+   "main": 7.2,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1092,
+   "title": "Slime-san: Superslime Edition",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Slime-san",
+   "main": 9.1,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1127,
+   "title": "Star Ocean: First Departure R",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Star Ocean: First Departure",
+   "main": 20.82,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1163,
+   "title": "Street Power Soccer",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "Street Power Football",
+   "main": 4.57,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1215,
+   "title": "The Alliance Alive HD Remastered",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "The Alliance Alive",
+   "main": 30.94,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1240,
+   "title": "The Elder Scrolls Online: Tamriel Unlimited",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "The Elder Scrolls Online",
+   "main": 48.34,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1272,
+   "title": "The LEGO NINJAGO Movie Video Game",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "The LEGO Ninjago Movie Videogame",
+   "main": 6.24,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1316,
+   "title": "theHunter: Call of the Wild",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "The Hunter: Call of the Wild",
+   "main": 24.59,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1424,
+   "title": "Wasteland 2: Director's Cut",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Wasteland 2",
+   "main": 40.77,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1450,
+   "title": "World of Warships: Legends",
+   "action": "REJECT_LIKELY",
+   "matchedTitle": "World of Warships",
+   "evidence": "World of Warships: Legends is the separate console F2P game; HLTB \"World of Warships\" is the PC game. Mapping rejected.",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1463,
+   "title": "Xenon Valkyrie+",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "XenonValkyrie",
+   "main": 1.4,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1485,
+   "title": "Zanki Zero: Last Beginning",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "Zanki Zero",
+   "main": 26.3,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1498,
+   "title": "Deadlight: Director's Cut",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Deadlight",
+   "main": 4.05,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1527,
+   "title": "Seven: Enhanced Edition",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Seven: The Days Long Gone",
+   "main": 15.06,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1535,
+   "title": "Caligula Effect 2",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "The Caligula Effect 2",
+   "main": 27.26,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1536,
+   "title": "DioField Chronicle",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "The DioField Chronicle",
+   "main": 25.05,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1537,
+   "title": "Forgotten City",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "The Forgotten City",
+   "main": 6.02,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1538,
+   "title": "Wild at Heart",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "The Wild at Heart",
+   "main": 11.78,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1554,
+   "title": "Shin Megami Tensei III: Nocturne HD Remaster",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Shin Megami Tensei III: Nocturne",
+   "main": 48.86,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1556,
+   "title": "Dark Pictures Anthology: Man of Medan",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "The Dark Pictures: Man of Medan",
+   "main": 4.42,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1571,
+   "title": "Asdivine Hearts II",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "Asdivine Hearts 2",
+   "main": 12.77,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1597,
+   "title": "Dear Esther: Landmark Edition",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Dear Esther",
+   "main": 1.29,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1639,
+   "title": "Home: A Unique Horror Adventure",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "Home",
+   "main": 1.15,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1648,
+   "title": "Kill the Bad Guy",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "KTBG: Kill The Bad Guy",
+   "main": 5.17,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1650,
+   "title": "Labyrinth Life",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "Omega Labyrinth Life",
+   "main": 30.29,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1662,
+   "title": "Lone Survivor: The Director's Cut",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Lone Survivor",
+   "main": 4.08,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1665,
+   "title": "Maldita Castilla EX: Cursed Castilla",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Cursed Castilla",
+   "main": 3.97,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1685,
+   "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "Oddworld: New 'n' Tasty!",
+   "main": 7.45,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1736,
+   "title": "Super ComboMan: Smash Edition",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Super ComboMan",
+   "main": null,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1754,
+   "title": "The Journey Down: Chapter One",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "The Journey Down: Chapter One - Over the Edge",
+   "main": 2.25,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1756,
+   "title": "The Journey Down: Chapter Two",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "The Journey Down: Chapter Two - Into the Mist",
+   "main": 3.73,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1758,
+   "title": "The Metronomicon: Slay the Dance Floor",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "The Metronomicon",
+   "main": 6.61,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1793,
+   "title": "YIIK: A Postmodern RPG",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "YIIK: A Post-Modern RPG",
+   "main": 21.68,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1841,
+   "title": "Blade Runner: Enhanced Edition",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Blade Runner",
+   "main": 7.41,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1883,
+   "title": "Golf Club Wasteland",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "Golf Club Nostalgia",
+   "main": 2.08,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1938,
+   "title": "Gekido Kintaro's Revenge",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Gekido Advance: Kintaro's Revenge",
+   "main": 3.54,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1946,
+   "title": "Riddled Corpses EX",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Riddled Corpses",
+   "main": 7.47,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1954,
+   "title": "Söldner-X 2: Final Prototype Definitive Edition",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Soldner-X 2: Final Prototype",
+   "main": 3.12,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1956,
+   "title": "Cursed Castilla EX",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Cursed Castilla",
+   "main": 3.97,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1968,
+   "title": "Snow Battle Princess Sayuki",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "Heavenly Guardian",
+   "main": 3.83,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1969,
+   "title": "Cannon Dancer",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "Osman",
+   "main": 0.68,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1970,
+   "title": "Vesper: Zero Light Edition",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Vesper",
+   "main": 4.55,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1975,
+   "title": "Cotton 100%",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "Maerchen Adventure Cotton 100%",
+   "main": 0.98,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 1979,
+   "title": "Trouble Witches Final: Episode 1 - Daughters of Amalgam",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "Trouble Witches - Episode 1: Daughters of Amalgam",
+   "main": 0.85,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 2006,
+   "title": "PowerSlave Exhumed",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "PowerSlave",
+   "main": 7.07,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 2030,
+   "title": "Toy Soldiers HD",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Toy Soldiers",
+   "main": 6.13,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 2036,
+   "title": "Akai Katana Shin",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Akai Katana",
+   "main": 0.69,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 2064,
+   "title": "Andro Dunos 2",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "Andro Dunos II",
+   "main": 1.58,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 2068,
+   "title": "Beyond the Ice Palace 2",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "Beyond the Ice Palace II",
+   "main": 6.09,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 2069,
+   "title": "3D Billiards & Snooker",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "3D Pool: Billiards & Snooker",
+   "main": 0.18,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 2088,
+   "title": "S.T.A.L.K.E.R.: Shadow of Chornobyl",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "S.T.A.L.K.E.R.: Shadow of Chernobyl",
+   "main": 15.06,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 2090,
+   "title": "S.T.A.L.K.E.R.: Call of Prypiat",
+   "action": "VERIFY_EXISTING",
+   "kind": "MANUAL_OK",
+   "matchedTitle": "S.T.A.L.K.E.R.: Call of Pripyat",
+   "main": 15.08,
+   "evidence": "same game under an alternate/regional/renamed or punctuation-variant HLTB title",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 2122,
+   "title": "Resident Evil 0 HD Remaster",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Resident Evil Zero: HD Remaster",
+   "main": 10.25,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 2214,
+   "title": "Commandos 2 - HD Remaster",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Commandos 2: Men of Courage",
+   "main": 21.35,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  },
+  {
+   "id": 2215,
+   "title": "Praetorians - HD Remaster",
+   "action": "VERIFY_EXISTING",
+   "kind": "INHERITED_OK",
+   "matchedTitle": "Praetorians",
+   "main": 17.22,
+   "evidence": "same campaign as the HLTB base/original entry; edition/remaster differences do not change the core runtime",
+   "reviewer": "monday-finish 2026-09-28"
+  }
+ ]
+}

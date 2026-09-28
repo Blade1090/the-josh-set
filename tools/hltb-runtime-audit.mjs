@@ -11,17 +11,21 @@
 //   LIKELY              timing present but q=LIKELY: displayed by the app, not yet verified
 //   SUSPICIOUS          timing present but the matched HLTB title looks like a different game
 //   EXCEPTION           no timing, documented reason (compilation components, no fixed time, ...)
+//   REJECTED            a curator rejected the only mapping (wrong game); no timing shown
 //   NO_VERIFIED_MATCH   no timing (q=HLTB_NO_VERIFIED_MATCH) or no record at all
 //
-// Usage: node tools/hltb-runtime-audit.mjs [--out path]
+// Usage: node tools/hltb-runtime-audit.mjs [--out path] [--exclude layer.js,...]
 import fs from 'node:fs';
 import vm from 'node:vm';
 import zlib from 'node:zlib';
 import { loadRuntimeCensus, indexScripts, norm } from './lib/runtime-census.mjs';
 
-const OUT = process.argv.includes('--out') ? process.argv[process.argv.indexOf('--out') + 1] : 'audit-out/hltb-runtime-qa.json';
-const VERIFIED_Q = new Set(['AUTO_OK', 'WEB_OK', 'MANUAL_OK', 'RESEARCH_OK']);
+const arg = (f) => (process.argv.includes(f) ? process.argv[process.argv.indexOf(f) + 1] : null);
+const OUT = arg('--out') || 'audit-out/hltb-runtime-qa.json';
+const EXCLUDE = new Set((arg('--exclude') || '').split(',').filter(Boolean)); // e.g. --exclude hltb-v105-research.js for a pre-layer baseline
+const VERIFIED_Q = new Set(['AUTO_OK', 'WEB_OK', 'MANUAL_OK', 'RESEARCH_OK', 'GAMEYE_HLTB']);
 const EXCEPTION_Q = new Set(['COMPILATION_COMPONENT_TIMES', 'NO_FIXED_HLTB_TIME', 'JOSHSET_EXCLUDE_PSVR', 'CONTENT_OR_EDITION_REVIEW', 'NO_HLTB_ENTRY_VERIFIED']);
+const REJECTED_Q = new Set(['REJECTED_MAPPING']);
 
 export function loadHltbRows(file = 'hltb-data.txt') {
   return JSON.parse(zlib.gunzipSync(Buffer.from(fs.readFileSync(file, 'utf8').trim(), 'base64')).toString('utf8'));
@@ -31,7 +35,7 @@ export function loadHltbRows(file = 'hltb-data.txt') {
 export function buildRuntimeHltb() {
   const HLTB = new Map(), layerOf = new Map();
   for (const d of loadHltbRows()) { HLTB.set(norm(d.t), d); layerOf.set(norm(d.t), 'hltb-data.txt'); }
-  const layers = indexScripts().filter((f) => /^hltb-.*\.js$/.test(f));
+  const layers = indexScripts().filter((f) => /^hltb-.*\.js$/.test(f) && !EXCLUDE.has(f));
   for (const f of layers) {
     const before = new Map([...HLTB].map(([k, v]) => [k, JSON.stringify(v)]));
     const timers = [];
@@ -74,7 +78,7 @@ export async function runAudit() {
     const q = d?.q || null, layer = key ? layerOf.get(key) : null;
     let cls, note = null;
     if (!d) { cls = 'NO_VERIFIED_MATCH'; note = 'no HLTB record resolves for title or aliases'; }
-    else if (!has) { cls = EXCEPTION_Q.has(q) ? 'EXCEPTION' : 'NO_VERIFIED_MATCH'; note = q; }
+    else if (!has) { cls = EXCEPTION_Q.has(q) ? 'EXCEPTION' : REJECTED_Q.has(q) ? 'REJECTED' : 'NO_VERIFIED_MATCH'; note = d.note ? `${q}: ${d.note}` : q; }
     else {
       const sus = suspicion(x.title, d.m);
       if (q === 'INHERITED_OK') cls = 'VERIFIED_INHERITED';
@@ -84,7 +88,7 @@ export async function runAudit() {
       if (sus && cls !== 'VERIFIED_INHERITED' && !d.verifiedNote) { note = sus; if (cls === 'VERIFIED' && q === 'AUTO_OK') cls = 'SUSPICIOUS'; }
     }
     rows.push({ id: x.id, title: x.title, class: cls, matchedTitle: d?.m ?? null, hltbId: d?.i ?? null,
-      main: d?.a ?? null, extras: d?.e ?? null, completionist: d?.c ?? null, q, source: layer, rule, confidence:
+      main: d?.a ?? null, extras: d?.e ?? null, completionist: d?.c ?? null, q, source: layer, rule, hltbKey: key, confidence:
       cls === 'VERIFIED' || cls === 'VERIFIED_INHERITED' ? 'high' : cls === 'LIKELY' ? 'medium' : cls === 'SUSPICIOUS' ? 'low' : null, note });
   }
   const summary = { included: rows.length, byClass: {}, layers };
