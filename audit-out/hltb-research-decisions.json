@@ -2411,6 +2411,17 @@
    "action": "ADD_GAMEYE"
   },
   {
+   "id": 2442,
+   "title": "Yum Yum Cookstar",
+   "matchedTitle": "Yum Yum Cookstar",
+   "gameyeId": 100548,
+   "main": 7.25,
+   "extras": null,
+   "completionist": null,
+   "evidence": "GameEye PS4 item 100548 (\"Yum Yum Cookstar\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
    "id": 2444,
    "title": "Antarctica 88",
    "matchedTitle": "Antarctica 88",
@@ -4663,6 +4674,39 @@
    "extras": 11.43,
    "completionist": 11.83,
    "evidence": "GameEye PS4 item 94127 (\"Young Souls\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2775,
+   "title": "Ys Vs. Trails In The Sky: Alternative Saga",
+   "matchedTitle": "Ys vs. Trails in the Sky: Alternative Saga",
+   "gameyeId": 174885,
+   "main": 3.12,
+   "extras": 11.31,
+   "completionist": 30.83,
+   "evidence": "GameEye PS4 item 174885 (\"Ys vs. Trails in the Sky: Alternative Saga\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2777,
+   "title": "Yurukill: The Calumniation Games",
+   "matchedTitle": "Yurukill: The Calumniation Games [Deluxe Edition]",
+   "gameyeId": 96623,
+   "main": 13.99,
+   "extras": 18.68,
+   "completionist": 25.39,
+   "evidence": "GameEye PS4 item 96623 (\"Yurukill: The Calumniation Games [Deluxe Edition]\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2780,
+   "title": "Zorro the Chronicles",
+   "matchedTitle": "Zorro: The Chronicles",
+   "gameyeId": 109348,
+   "main": 5.08,
+   "extras": 6.04,
+   "completionist": 10.5,
+   "evidence": "GameEye PS4 item 109348 (\"Zorro: The Chronicles\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
    "action": "ADD_GAMEYE"
   },
   {

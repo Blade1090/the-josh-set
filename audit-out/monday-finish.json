@@ -61,19 +61,24 @@
    "fallback": 8
   },
   "hltb": {
-   "VERIFIED": 1800,
+   "VERIFIED": 2110,
    "EXCEPTION": 22,
-   "NO_VERIFIED_MATCH": 546,
+   "NO_VERIFIED_MATCH": 236,
    "VERIFIED_INHERITED": 40,
    "REJECTED": 1
+  },
+  "hltbWithTiming": 2150,
+  "hltbNoTimingReasons": {
+   "GameEye PS4 item exists but carries no HLTB timing": 158,
+   "no exact PS4 title/alias match on GameEye": 78
   }
  },
  "phases": {
   "0": "done",
   "1": "done",
   "2": "done",
-  "3": "in progress",
-  "4": "doc drafted"
+  "3": "done",
+  "4": "done"
  },
  "batches": [
   {
@@ -157,8 +162,8 @@
    "gate": "0 lost excluding blocked-host flakes: [1809 Ground Zero: Texas, GameFAQs 403, URL unchanged]"
   }
  ],
- "updated": "2026-09-28T15:17:44+00:00",
- "next": "Phase 3: resume GameEye crawl hourly (loop running), then rebuild layer; final validation + PR",
+ "updated": "2026-09-28T23:43:29+00:00",
+ "next": "Josh: review/merge PR #118; decide on synthetic-cover tier (audit-out/synthetic-cover-candidates.json); 6 cover curator decisions.",
  "phase1": {
   "realCoversGained": 14,
   "syntheticCandidates": {
@@ -211,6 +216,22 @@
    "validation": "GameEye vs existing HLTB data: median 0.8% main-story difference over 10 games, all within 10%"
   },
   "hltbDirect": "howlongtobeat.com opts out of Anthropic crawlers; not fetched (one early manual check made before this was known)",
-  "likelyReview": "84 reviewed: 82 verified (42 MANUAL_OK, 40 INHERITED_OK), 1 rejected (World of Warships: Legends), 1 withheld (Musynx)"
+  "likelyReview": "84 reviewed: 82 verified (42 MANUAL_OK, 40 INHERITED_OK), 1 rejected (World of Warships: Legends), 1 withheld (Musynx)",
+  "crawl": "complete: 8 hourly chunks within GameEye quota",
+  "gameyeAdds": 359,
+  "final": {
+   "VERIFIED": 2110,
+   "VERIFIED_INHERITED": 40,
+   "EXCEPTION": 22,
+   "REJECTED": 1,
+   "NO_VERIFIED_MATCH": 236
+  },
+  "gate": "1709/1709 baseline verified mappings unchanged"
+ },
+ "final": {
+  "coverGate": "SUBSET_OK vs 2408 and 2407 baselines, 0 GOOD lost",
+  "tests": "13/13 pass",
+  "pr": "https://github.com/Blade1090/the-josh-set/pull/118 (open, not merged)",
+  "mainUntouched": "7b636de"
  }
 }

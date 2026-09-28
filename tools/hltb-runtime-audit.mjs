@@ -91,7 +91,21 @@ export async function runAudit() {
       main: d?.a ?? null, extras: d?.e ?? null, completionist: d?.c ?? null, q, source: layer, rule, hltbKey: key, confidence:
       cls === 'VERIFIED' || cls === 'VERIFIED_INHERITED' ? 'high' : cls === 'LIKELY' ? 'medium' : cls === 'SUSPICIOUS' ? 'low' : null, note });
   }
+  // Every identity without timing carries an explicit, evidenced reason (no silent holes).
+  const candPath = 'audit-out/gameye-hltb-candidates.json';
+  const cand = fs.existsSync(candPath) ? JSON.parse(fs.readFileSync(candPath, 'utf8')) : {};
+  for (const r of rows) {
+    if (r.class !== 'NO_VERIFIED_MATCH') continue;
+    const c = cand[r.id];
+    const why = !c ? 'not yet checked against GameEye'
+      : c.error ? `GameEye lookup error: ${c.error}`
+      : !c.matches.length ? 'no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible'
+      : 'GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible';
+    r.exceptionReason = why;
+  }
   const summary = { included: rows.length, byClass: {}, layers };
+  summary.noTimingReasons = {};
+  for (const r of rows) if (r.exceptionReason) summary.noTimingReasons[r.exceptionReason.split(':')[0].split(';')[0]] = (summary.noTimingReasons[r.exceptionReason.split(':')[0].split(';')[0]] || 0) + 1;
   for (const r of rows) summary.byClass[r.class] = (summary.byClass[r.class] || 0) + 1;
   summary.withTiming = rows.filter((r) => ['VERIFIED', 'VERIFIED_INHERITED', 'LIKELY', 'SUSPICIOUS'].includes(r.class)).length;
   return { generatedAt: new Date().toISOString(), summary, rows };

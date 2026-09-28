@@ -3096,6 +3096,14 @@
   "error": null,
   "done": true
  },
+ "2085": {
+  "id": 2085,
+  "title": "Yuuna and the Haunted Hot Springs: Steam Dungeon",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [],
+  "error": null,
+  "done": true
+ },
  "2228": {
   "id": 2228,
   "title": "Planescape: Torment: Enhanced Edition",
@@ -5421,6 +5429,14 @@
   "error": null,
   "done": true
  },
+ "2368": {
+  "id": 2368,
+  "title": "Zero Time Dilemma",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [],
+  "error": null,
+  "done": true
+ },
  "2369": {
   "id": 2369,
   "title": "Resident Evil Village",
@@ -6188,6 +6204,56 @@
     "extras": 2.84,
     "completionist": 4.38,
     "allStyles": 3.11
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2442": {
+  "id": 2442,
+  "title": "Yum Yum Cookstar",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 100548,
+    "gameyeTitle": "Yum Yum Cookstar",
+    "main": 7.25,
+    "extras": null,
+    "completionist": null,
+    "allStyles": 7.25
+   },
+   {
+    "gameyeId": 143799,
+    "gameyeTitle": "Yum Yum Cookstar",
+    "main": 7.25,
+    "extras": null,
+    "completionist": null,
+    "allStyles": 7.25
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2443": {
+  "id": 2443,
+  "title": "Zapling Bygone",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 141711,
+    "gameyeTitle": "Zapling Bygone",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   },
+   {
+    "gameyeId": 144646,
+    "gameyeTitle": "Zapling Bygone [Deluxe Edition]",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
    }
   ],
   "error": null,
@@ -12388,6 +12454,105 @@
   "title": "Youtubers Life OMG",
   "auditClass": "NO_VERIFIED_MATCH",
   "matches": [],
+  "error": null,
+  "done": true
+ },
+ "2775": {
+  "id": 2775,
+  "title": "Ys Vs. Trails In The Sky: Alternative Saga",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 174885,
+    "gameyeTitle": "Ys vs. Trails in the Sky: Alternative Saga",
+    "main": 3.12,
+    "extras": 11.31,
+    "completionist": 30.83,
+    "allStyles": 7.19
+   },
+   {
+    "gameyeId": 174890,
+    "gameyeTitle": "Ys vs. Trails in the Sky: Alternative Saga [Collector's Edition]",
+    "main": 3.12,
+    "extras": 11.31,
+    "completionist": 30.83,
+    "allStyles": 7.19
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2776": {
+  "id": 2776,
+  "title": "Yuppie Psycho: Executive Edition",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [],
+  "error": null,
+  "done": true
+ },
+ "2777": {
+  "id": 2777,
+  "title": "Yurukill: The Calumniation Games",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 96623,
+    "gameyeTitle": "Yurukill: The Calumniation Games [Deluxe Edition]",
+    "main": 13.99,
+    "extras": 18.68,
+    "completionist": 25.39,
+    "allStyles": 15.28
+   },
+   {
+    "gameyeId": 139890,
+    "gameyeTitle": "Yurukill: The Calumniation Games [Deluxe Edition]",
+    "main": 13.99,
+    "extras": 18.68,
+    "completionist": 25.39,
+    "allStyles": 15.28
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2778": {
+  "id": 2778,
+  "title": "Zero Fire: Toaplan Arcade Garage",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [],
+  "error": null,
+  "done": true
+ },
+ "2779": {
+  "id": 2779,
+  "title": "Zero: Tsukihami No Kamen",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [],
+  "error": null,
+  "done": true
+ },
+ "2780": {
+  "id": 2780,
+  "title": "Zorro the Chronicles",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 109348,
+    "gameyeTitle": "Zorro: The Chronicles",
+    "main": 5.08,
+    "extras": 6.04,
+    "completionist": 10.5,
+    "allStyles": 6.17
+   },
+   {
+    "gameyeId": 140937,
+    "gameyeTitle": "Zorro: The Chronicles",
+    "main": 5.08,
+    "extras": 6.04,
+    "completionist": 10.5,
+    "allStyles": 6.17
+   }
+  ],
   "error": null,
   "done": true
  },

@@ -3,7 +3,7 @@
 - Branch `shelfcheck-monday-finish-line`, worktree `C:\Users\josh\Documents\tjs-monday`, based on main `7b636de`.
 - Save file: `audit-out/monday-finish.json` (baseline, per-phase status, batches, next task).
 - Census: runtime 2409 INCLUDED (after the approved Double Dragon Gaiden 2787->2789 re-id).
-- Current phase: see `phases` / `next` in monday-finish.json.
+- Status: ALL PHASES DONE. PR #118 open (not merged). Covers 2190/196/15/8; HLTB 2150/2409 timed (0 verified regressions); 13/13 tests pass.
 
 ## Restart
 ```

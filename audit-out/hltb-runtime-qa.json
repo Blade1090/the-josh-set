@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-09-28T22:34:39.357Z",
+ "generatedAt": "2026-09-28T23:36:34.813Z",
  "summary": {
   "included": 2409,
   "byClass": {
-   "VERIFIED": 2106,
+   "VERIFIED": 2110,
    "EXCEPTION": 22,
-   "NO_VERIFIED_MATCH": 240,
+   "NO_VERIFIED_MATCH": 236,
    "VERIFIED_INHERITED": 40,
    "REJECTED": 1
   },
@@ -15,7 +15,11 @@
    "hltb-v104-fixes.js",
    "hltb-v105-research.js"
   ],
-  "withTiming": 2146
+  "noTimingReasons": {
+   "GameEye PS4 item exists but carries no HLTB timing": 158,
+   "no exact PS4 title/alias match on GameEye": 78
+  },
+  "withTiming": 2150
  },
  "rows": [
   {
@@ -512,7 +516,8 @@
    "rule": "exact_title",
    "hltbKey": "a train express",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 25,
@@ -608,7 +613,8 @@
    "rule": "exact_title",
    "hltbKey": "accel world vs sword art online millennium twilight",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 31,
@@ -704,7 +710,8 @@
    "rule": "exact_title",
    "hltbKey": "adk tamashii",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2071,
@@ -1120,7 +1127,8 @@
    "rule": "exact_title",
    "hltbKey": "air conflicts vietnam ultimate edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 56,
@@ -1168,7 +1176,8 @@
    "rule": "exact_title",
    "hltbKey": "airheart tales of broken wings",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2273,
@@ -1328,7 +1337,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 61,
@@ -1344,7 +1354,8 @@
    "rule": "exact_title",
    "hltbKey": "alchemic jousts",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 62,
@@ -1648,7 +1659,8 @@
    "rule": "exact_title",
    "hltbKey": "americas greatest game shows wheel of fortune and jeopardy",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 70,
@@ -1696,7 +1708,8 @@
    "rule": "exact_title",
    "hltbKey": "american ninja warrior challenge",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 72,
@@ -1840,7 +1853,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1492,
@@ -2032,7 +2046,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2205,
@@ -2080,7 +2095,8 @@
    "rule": "exact_title",
    "hltbKey": "aqua kitty milk mine defender dx",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 82,
@@ -2272,7 +2288,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1987,
@@ -2352,7 +2369,8 @@
    "rule": "exact_title",
    "hltbKey": "armagallant decks of destiny",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2276,
@@ -2368,7 +2386,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 93,
@@ -2912,7 +2931,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1575,
@@ -2976,7 +2996,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2260,
@@ -3088,7 +3109,8 @@
    "rule": "exact_title",
    "hltbKey": "atari flashback classics volume 1",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2500,
@@ -3104,7 +3126,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 113,
@@ -3360,7 +3383,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2282,
@@ -3600,7 +3624,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2509,
@@ -3680,7 +3705,8 @@
    "rule": "exact_title",
    "hltbKey": "baldurs gate and baldurs gate ii enhanced editions",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2511,
@@ -3872,7 +3898,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1994,
@@ -3952,7 +3979,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 140,
@@ -4080,7 +4108,8 @@
    "rule": "exact_title",
    "hltbKey": "bayala the game",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 149,
@@ -4160,7 +4189,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2516,
@@ -4176,7 +4206,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 154,
@@ -4320,7 +4351,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2519,
@@ -4336,7 +4368,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2068,
@@ -4512,7 +4545,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2522,
@@ -4608,7 +4642,8 @@
    "rule": "exact_title",
    "hltbKey": "blackhole complete edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 172,
@@ -4672,7 +4707,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2523,
@@ -4688,7 +4724,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2525,
@@ -4704,7 +4741,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1841,
@@ -5104,7 +5142,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 188,
@@ -5408,7 +5447,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2446,
@@ -5696,7 +5736,8 @@
    "rule": "exact_title",
    "hltbKey": "broken sword shadow of the templars reforged",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2537,
@@ -5824,7 +5865,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2246,
@@ -5840,7 +5882,8 @@
    "rule": "exact_title",
    "hltbKey": "bud spencer and terence hill slaps and beans 2",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1584,
@@ -5856,7 +5899,8 @@
    "rule": "exact_title",
    "hltbKey": "bud spencer and terence hill slaps and beans",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 209,
@@ -5984,7 +6028,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2541,
@@ -6032,7 +6077,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2543,
@@ -6384,7 +6430,8 @@
    "rule": "exact_title",
    "hltbKey": "car mechanic simulator",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 229,
@@ -6416,7 +6463,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2021,
@@ -6816,7 +6864,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2553,
@@ -6832,7 +6881,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 243,
@@ -6992,7 +7042,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 246,
@@ -7024,7 +7075,8 @@
    "rule": "exact_title",
    "hltbKey": "cities skylines playstation 4 edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 250,
@@ -7536,7 +7588,8 @@
    "rule": "exact_title",
    "hltbKey": "corpse killer 25th anniversary edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 270,
@@ -8128,7 +8181,8 @@
    "rule": "exact_title",
    "hltbKey": "damascus gear operation osaka",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1914,
@@ -8288,7 +8342,8 @@
    "rule": "exact_title",
    "hltbKey": "darius cozmic collection console",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2302,
@@ -8304,7 +8359,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2561,
@@ -8320,7 +8376,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1596,
@@ -8384,7 +8441,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1556,
@@ -8416,7 +8474,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1810,
@@ -9264,7 +9323,8 @@
    "rule": "exact_title",
    "hltbKey": "defenders quest valley of the forgotten dx edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1601,
@@ -9280,7 +9340,8 @@
    "rule": "exact_title",
    "hltbKey": "defenders of ekron",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2468,
@@ -9296,7 +9357,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 347,
@@ -9744,7 +9806,8 @@
    "rule": "exact_title",
    "hltbKey": "dino dinis kick off revival",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1536,
@@ -9968,7 +10031,8 @@
    "rule": "exact_title",
    "hltbKey": "divinity original sin ii definitive edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1604,
@@ -10064,7 +10128,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1985,
@@ -10128,7 +10193,8 @@
    "rule": "exact_title",
    "hltbKey": "dont starve together console edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1799,
@@ -10144,7 +10210,8 @@
    "rule": "exact_title",
    "hltbKey": "dont starve console edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 387,
@@ -10256,7 +10323,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 393,
@@ -10272,7 +10340,8 @@
    "rule": "exact_title",
    "hltbKey": "double dragon and kunio kun retro brawler bundle",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2789,
@@ -10336,7 +10405,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 396,
@@ -10672,7 +10742,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2418,
@@ -10864,7 +10935,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 419,
@@ -10912,7 +10984,8 @@
    "rule": "exact_title",
    "hltbKey": "dustwind the last resort",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 420,
@@ -11232,7 +11305,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2572,
@@ -11248,7 +11322,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 435,
@@ -11328,7 +11403,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1950,
@@ -11424,7 +11500,8 @@
    "rule": "exact_title",
    "hltbKey": "endocrisis",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1872,
@@ -11520,7 +11597,8 @@
    "rule": "exact_title",
    "hltbKey": "escape from life inc",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1928,
@@ -11552,7 +11630,8 @@
    "rule": "exact_title",
    "hltbKey": "escape game fort boyard",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 442,
@@ -11744,7 +11823,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1501,
@@ -11984,7 +12064,8 @@
    "rule": "exact_title",
    "hltbKey": "fall of light darkest edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2580,
@@ -12560,7 +12641,8 @@
    "rule": "exact_title",
    "hltbKey": "firefighters airport fire department",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1503,
@@ -12784,7 +12866,8 @@
    "rule": "exact_title",
    "hltbKey": "forestry 2017 the simulation",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1537,
@@ -12960,7 +13043,8 @@
    "rule": "exact_title",
    "hltbKey": "frostpunk console edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 510,
@@ -13200,7 +13284,8 @@
    "rule": "exact_title",
    "hltbKey": "galactic wars ex",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1625,
@@ -13216,7 +13301,8 @@
    "rule": "exact_title",
    "hltbKey": "galak z the void",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1626,
@@ -13232,7 +13318,8 @@
    "rule": "exact_title",
    "hltbKey": "galaxy of pen and paper 1 edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2584,
@@ -13312,7 +13399,8 @@
    "rule": "exact_title",
    "hltbKey": "ganryu 2 hakuma kojiro",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2585,
@@ -13552,7 +13640,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1955,
@@ -13792,7 +13881,8 @@
    "rule": "exact_title",
    "hltbKey": "giga wrecker alt",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2311,
@@ -13824,7 +13914,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2595,
@@ -13840,7 +13931,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 534,
@@ -13968,7 +14060,8 @@
    "rule": "exact_title",
    "hltbKey": "glams incredible run escape from dukha",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 536,
@@ -13984,7 +14077,8 @@
    "rule": "exact_title",
    "hltbKey": "goat simulator the bundle",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 537,
@@ -14240,7 +14334,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 548,
@@ -14272,7 +14367,8 @@
    "rule": "exact_title",
    "hltbKey": "gravity ghost deluxe edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 549,
@@ -14640,7 +14736,8 @@
    "rule": "exact_title",
    "hltbKey": "guns n runs",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1632,
@@ -15200,7 +15297,8 @@
    "rule": "exact_title",
    "hltbKey": "hello neighbor hide and seek",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 584,
@@ -15392,7 +15490,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 589,
@@ -15952,7 +16051,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2316,
@@ -15968,7 +16068,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 614,
@@ -16576,7 +16677,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2461,
@@ -16864,7 +16966,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2622,
@@ -17024,7 +17127,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 649,
@@ -17104,7 +17208,8 @@
    "rule": "exact_title",
    "hltbKey": "just deal with it",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2626,
@@ -17136,7 +17241,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 655,
@@ -17344,7 +17450,8 @@
    "rule": "exact_title",
    "hltbKey": "kill la kill if",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1648,
@@ -17552,7 +17659,8 @@
    "rule": "exact_title",
    "hltbKey": "kingdom majestic",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1906,
@@ -17568,7 +17676,8 @@
    "rule": "exact_title",
    "hltbKey": "kingdom of arcadia",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 671,
@@ -17808,7 +17917,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 684,
@@ -18096,7 +18206,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 694,
@@ -18592,7 +18703,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 715,
@@ -18704,7 +18816,8 @@
    "rule": "exact_title",
    "hltbKey": "lifeless planet premier edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1904,
@@ -19104,7 +19217,8 @@
    "rule": "exact_title",
    "hltbKey": "lost sea",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 731,
@@ -19248,7 +19362,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 735,
@@ -19456,7 +19571,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 742,
@@ -19520,7 +19636,8 @@
    "rule": "exact_title",
    "hltbKey": "mark mcmorris infinite air",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2425,
@@ -19920,7 +20037,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 761,
@@ -20368,7 +20486,8 @@
    "rule": "exact_title",
    "hltbKey": "minecraft playstation 4 edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 783,
@@ -20400,7 +20519,8 @@
    "rule": "exact_title",
    "hltbKey": "minecraft story mode season two the telltale series",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 785,
@@ -20816,7 +20936,8 @@
    "rule": "exact_title",
    "hltbKey": "mozart requiem",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2095,
@@ -20864,7 +20985,8 @@
    "rule": "exact_title",
    "hltbKey": "musynx",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH: MUSYNX mapped to HLTB \"MUSYNC\": spelling differs from the PS4 title; cannot confirm same game without HLTB access. Timing withheld pending evidence."
+   "note": "HLTB_NO_VERIFIED_MATCH: MUSYNX mapped to HLTB \"MUSYNC\": spelling differs from the PS4 title; cannot confirm same game without HLTB access. Timing withheld pending evidence.",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 806,
@@ -21296,7 +21418,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2658,
@@ -21344,7 +21467,8 @@
    "rule": "exact_title",
    "hltbKey": "necrosphere deluxe",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 825,
@@ -21488,7 +21612,8 @@
    "rule": "exact_title",
    "hltbKey": "neonwall",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2660,
@@ -21504,7 +21629,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2662,
@@ -21536,7 +21662,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2663,
@@ -21584,7 +21711,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 832,
@@ -21728,7 +21856,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 837,
@@ -22048,7 +22177,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 849,
@@ -22224,7 +22354,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 856,
@@ -22416,7 +22547,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2667,
@@ -22672,7 +22804,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2671,
@@ -22688,7 +22821,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1962,
@@ -22768,7 +22902,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 866,
@@ -22944,7 +23079,8 @@
    "rule": "exact_title",
    "hltbKey": "oniken unstoppable edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 875,
@@ -22992,7 +23128,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2676,
@@ -23024,7 +23161,8 @@
    "rule": "exact_title",
    "hltbKey": "organ trail complete edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 879,
@@ -23328,7 +23466,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 892,
@@ -23520,7 +23659,8 @@
    "rule": "exact_title",
    "hltbKey": "pathfinder kingmaker definitive edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2690,
@@ -23584,7 +23724,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2680,
@@ -23792,7 +23933,8 @@
    "rule": "exact_title",
    "hltbKey": "phantom breaker battle grounds overdrive",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 905,
@@ -24016,7 +24158,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2682,
@@ -24064,7 +24207,8 @@
    "rule": "exact_title",
    "hltbKey": "planescape torment enhanced edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1693,
@@ -24176,7 +24320,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 920,
@@ -24240,7 +24385,8 @@
    "rule": "exact_title",
    "hltbKey": "poop slinger",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1694,
@@ -24256,7 +24402,8 @@
    "rule": "exact_title",
    "hltbKey": "popcorn rocket",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 925,
@@ -24528,7 +24675,8 @@
    "rule": "exact_title",
    "hltbKey": "project highrise architects edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1908,
@@ -24816,7 +24964,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1996,
@@ -24848,7 +24997,8 @@
    "rule": "exact_title",
    "hltbKey": "quar infernal machines",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2696,
@@ -24864,7 +25014,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1698,
@@ -24912,7 +25063,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 946,
@@ -25024,7 +25176,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2703,
@@ -25184,7 +25337,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 955,
@@ -25264,7 +25418,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 959,
@@ -25296,7 +25451,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 960,
@@ -25520,7 +25676,8 @@
    "rule": "exact_title",
    "hltbKey": "redeemer enhanced edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2044,
@@ -25680,7 +25837,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 975,
@@ -26128,7 +26286,8 @@
    "rule": "exact_title",
    "hltbKey": "rift keeper",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 995,
@@ -26224,7 +26383,8 @@
    "rule": "exact_title",
    "hltbKey": "risen 3 titan lords enhanced edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1972,
@@ -26480,7 +26640,8 @@
    "rule": "exact_title",
    "hltbKey": "robozarro",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1010,
@@ -26512,7 +26673,8 @@
    "rule": "exact_title",
    "hltbKey": "rock boshers dx directors cut",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1712,
@@ -26672,7 +26834,8 @@
    "rule": "exact_title",
    "hltbKey": "rollercoaster tycoon joyride",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2465,
@@ -26688,7 +26851,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1019,
@@ -26880,7 +27044,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2700,
@@ -26992,7 +27157,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2340,
@@ -27600,7 +27766,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1721,
@@ -28160,7 +28327,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2474,
@@ -28176,7 +28344,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2475,
@@ -28192,7 +28361,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1827,
@@ -28576,7 +28746,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1074,
@@ -28736,7 +28907,8 @@
    "rule": "exact_title",
    "hltbKey": "singstar celebration",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1818,
@@ -28928,7 +29100,8 @@
    "rule": "exact_title",
    "hltbKey": "skulls of the shogun bone a fide edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1081,
@@ -28976,7 +29149,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1083,
@@ -29152,7 +29326,8 @@
    "rule": "exact_title",
    "hltbKey": "smashing the battle ghost soul",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1860,
@@ -29184,7 +29359,8 @@
    "rule": "exact_title",
    "hltbKey": "smugglecraft",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1095,
@@ -29344,7 +29520,8 @@
    "rule": "exact_title",
    "hltbKey": "soccer tactics and glory",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2018,
@@ -29680,7 +29857,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1881,
@@ -29696,7 +29874,8 @@
    "rule": "exact_title",
    "hltbKey": "spacewing war",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1116,
@@ -29728,7 +29907,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1853,
@@ -29776,7 +29956,8 @@
    "rule": "exact_title",
    "hltbKey": "spelunker hd deluxe",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1118,
@@ -29824,7 +30005,8 @@
    "rule": "exact_title",
    "hltbKey": "spintires mudrunner american wilds edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1120,
@@ -30256,7 +30438,8 @@
    "rule": "exact_title",
    "hltbKey": "stealth inc a clone in the dark ultimate edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1930,
@@ -30336,7 +30519,8 @@
    "rule": "exact_title",
    "hltbKey": "steel empire chronicles",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1532,
@@ -30896,7 +31080,8 @@
    "rule": "exact_title",
    "hltbKey": "super dungeon bros",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1737,
@@ -30912,7 +31097,8 @@
    "rule": "exact_title",
    "hltbKey": "super gunworld 2",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1178,
@@ -31168,7 +31354,8 @@
    "rule": "exact_title",
    "hltbKey": "surf world series",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1188,
@@ -31328,7 +31515,8 @@
    "rule": "exact_title",
    "hltbKey": "swordbreaker the game",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1195,
@@ -31440,7 +31628,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2729,
@@ -31456,7 +31645,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1197,
@@ -31520,7 +31710,8 @@
    "rule": "exact_title",
    "hltbKey": "tales from the borderlands a telltale game series",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1199,
@@ -31696,7 +31887,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2066,
@@ -31808,7 +32000,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1206,
@@ -31872,7 +32065,8 @@
    "rule": "exact_title",
    "hltbKey": "teenage mutant ninja turtles splintered fate deluxe edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1207,
@@ -32192,7 +32386,8 @@
    "rule": "exact_title",
    "hltbKey": "the bards tale remastered and resnarkled",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1222,
@@ -32224,7 +32419,8 @@
    "rule": "exact_title",
    "hltbKey": "the bit trip",
    "confidence": null,
-   "note": "LIKELY"
+   "note": "LIKELY",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1224,
@@ -32320,7 +32516,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1228,
@@ -32448,7 +32645,8 @@
    "rule": "exact_title",
    "hltbKey": "the dark pictures little hope",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1943,
@@ -32592,7 +32790,8 @@
    "rule": "exact_title",
    "hltbKey": "the first tree console edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1246,
@@ -32608,7 +32807,8 @@
    "rule": "exact_title",
    "hltbKey": "the fisherman fishing planet",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1247,
@@ -32624,7 +32824,8 @@
    "rule": "exact_title",
    "hltbKey": "the flame in the flood complete edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1248,
@@ -32672,7 +32873,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1250,
@@ -32704,7 +32906,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1251,
@@ -32816,7 +33019,8 @@
    "rule": "exact_title",
    "hltbKey": "the king of fighters 97 global match",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1255,
@@ -33216,7 +33420,8 @@
    "rule": "exact_title",
    "hltbKey": "the missing jj macfield and the island of memories",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1932,
@@ -33408,7 +33613,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1286,
@@ -33664,7 +33870,8 @@
    "rule": "exact_title",
    "hltbKey": "the talos principle deluxe edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1301,
@@ -33712,7 +33919,8 @@
    "rule": "exact_title",
    "hltbKey": "the walking dead a telltale games series the complete first season",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1762,
@@ -33728,7 +33936,8 @@
    "rule": "exact_title",
    "hltbKey": "the walking dead michonne a telltale miniseries",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1305,
@@ -33744,7 +33953,8 @@
    "rule": "exact_title",
    "hltbKey": "the walking dead season two a telltale games series",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1307,
@@ -33760,7 +33970,8 @@
    "rule": "exact_title",
    "hltbKey": "the walking dead the telltale series a new frontier",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1308,
@@ -33776,7 +33987,8 @@
    "rule": "exact_title",
    "hltbKey": "the walking dead the telltale series the final season",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1310,
@@ -34048,7 +34260,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1325,
@@ -34528,7 +34741,8 @@
    "rule": "exact_title",
    "hltbKey": "toto temple deluxe",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1342,
@@ -34688,7 +34902,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2409,
@@ -34704,7 +34919,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1350,
@@ -34848,7 +35064,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1356,
@@ -35312,7 +35529,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1541,
@@ -35328,7 +35546,8 @@
    "rule": "exact_title",
    "hltbKey": "typoman revised",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2361,
@@ -35344,7 +35563,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1772,
@@ -35584,7 +35804,8 @@
    "rule": "exact_title",
    "hltbKey": "undead darlings no cure for love",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2746,
@@ -35728,7 +35949,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2750,
@@ -35872,7 +36094,8 @@
    "rule": "exact_title",
    "hltbKey": "urban trial tricky deluxe edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1388,
@@ -36016,7 +36239,8 @@
    "rule": "exact_title",
    "hltbKey": "valhalla hills definitive edition",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2752,
@@ -36336,7 +36560,8 @@
    "rule": "exact_title",
    "hltbKey": "vesta",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1403,
@@ -36448,7 +36673,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1405,
@@ -36832,7 +37058,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1424,
@@ -36960,7 +37187,8 @@
    "rule": "exact_title",
    "hltbKey": "we sing",
    "confidence": null,
-   "note": "AUTO_OK"
+   "note": "AUTO_OK",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1544,
@@ -37392,7 +37620,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1448,
@@ -37472,7 +37701,8 @@
    "rule": "exact_title",
    "hltbKey": "world poker championship",
    "confidence": null,
-   "note": "LIKELY"
+   "note": "LIKELY",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1452,
@@ -37520,7 +37750,8 @@
    "rule": "exact_title",
    "hltbKey": "worlds of magic planar conquest",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1790,
@@ -37760,7 +37991,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1466,
@@ -38128,7 +38360,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2774,
@@ -38144,7 +38377,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1480,
@@ -38181,18 +38415,18 @@
   {
    "id": 2775,
    "title": "Ys Vs. Trails In The Sky: Alternative Saga",
-   "class": "NO_VERIFIED_MATCH",
-   "matchedTitle": null,
+   "class": "VERIFIED",
+   "matchedTitle": "Ys vs. Trails in the Sky: Alternative Saga",
    "hltbId": null,
-   "main": null,
-   "extras": null,
-   "completionist": null,
-   "q": null,
-   "source": null,
-   "rule": null,
-   "hltbKey": null,
-   "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "main": 3.12,
+   "extras": 11.31,
+   "completionist": 30.83,
+   "q": "GAMEYE_HLTB",
+   "source": "hltb-v105-research.js",
+   "rule": "exact_title",
+   "hltbKey": "ys vs trails in the sky alternative saga",
+   "confidence": "high",
+   "note": null
   },
   {
    "id": 2048,
@@ -38245,18 +38479,18 @@
   {
    "id": 2442,
    "title": "Yum Yum Cookstar",
-   "class": "NO_VERIFIED_MATCH",
-   "matchedTitle": null,
+   "class": "VERIFIED",
+   "matchedTitle": "Yum Yum Cookstar",
    "hltbId": null,
-   "main": null,
+   "main": 7.25,
    "extras": null,
    "completionist": null,
-   "q": null,
-   "source": null,
-   "rule": null,
-   "hltbKey": null,
-   "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "q": "GAMEYE_HLTB",
+   "source": "hltb-v105-research.js",
+   "rule": "exact_title",
+   "hltbKey": "yum yum cookstar",
+   "confidence": "high",
+   "note": null
   },
   {
    "id": 2776,
@@ -38272,23 +38506,24 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2777,
    "title": "Yurukill: The Calumniation Games",
-   "class": "NO_VERIFIED_MATCH",
-   "matchedTitle": null,
+   "class": "VERIFIED",
+   "matchedTitle": "Yurukill: The Calumniation Games [Deluxe Edition]",
    "hltbId": null,
-   "main": null,
-   "extras": null,
-   "completionist": null,
-   "q": null,
-   "source": null,
-   "rule": null,
-   "hltbKey": null,
-   "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "main": 13.99,
+   "extras": 18.68,
+   "completionist": 25.39,
+   "q": "GAMEYE_HLTB",
+   "source": "hltb-v105-research.js",
+   "rule": "exact_title",
+   "hltbKey": "yurukill the calumniation games",
+   "confidence": "high",
+   "note": null
   },
   {
    "id": 2085,
@@ -38304,7 +38539,8 @@
    "rule": "exact_title",
    "hltbKey": "yuuna and the haunted hot springs steam dungeon",
    "confidence": null,
-   "note": "HLTB_NO_VERIFIED_MATCH"
+   "note": "HLTB_NO_VERIFIED_MATCH",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1871,
@@ -38352,7 +38588,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "GameEye PS4 item exists but carries no HLTB timing; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1486,
@@ -38384,7 +38621,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1794,
@@ -38416,7 +38654,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 2240,
@@ -38448,7 +38687,8 @@
    "rule": null,
    "hltbKey": null,
    "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "note": "no HLTB record resolves for title or aliases",
+   "exceptionReason": "no exact PS4 title/alias match on GameEye; HowLongToBeat itself is not machine-accessible"
   },
   {
    "id": 1487,
@@ -38549,18 +38789,18 @@
   {
    "id": 2780,
    "title": "Zorro the Chronicles",
-   "class": "NO_VERIFIED_MATCH",
-   "matchedTitle": null,
+   "class": "VERIFIED",
+   "matchedTitle": "Zorro: The Chronicles",
    "hltbId": null,
-   "main": null,
-   "extras": null,
-   "completionist": null,
-   "q": null,
-   "source": null,
-   "rule": null,
-   "hltbKey": null,
-   "confidence": null,
-   "note": "no HLTB record resolves for title or aliases"
+   "main": 5.08,
+   "extras": 6.04,
+   "completionist": 10.5,
+   "q": "GAMEYE_HLTB",
+   "source": "hltb-v105-research.js",
+   "rule": "exact_title",
+   "hltbKey": "zorro the chronicles",
+   "confidence": "high",
+   "note": null
   }
  ]
 }
