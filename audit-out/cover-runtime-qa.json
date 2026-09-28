@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-28T14:06:42.534Z",
+  "generatedAt": "2026-09-28T14:09:42.009Z",
   "summary": {
-    "generatedAt": "2026-09-28T14:06:42.534Z",
+    "generatedAt": "2026-09-28T14:09:42.009Z",
     "included": 2409,
-    "good": 2177,
+    "good": 2176,
     "fallback": 8,
-    "review": 210,
-    "watch": 14,
-    "physicalVerify": 205,
-    "physicalLikely": 1399,
-    "physicalConfirmed": 805,
+    "review": 209,
+    "watch": 16,
+    "physicalVerify": 207,
+    "physicalLikely": 1398,
+    "physicalConfirmed": 804,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
@@ -17,10 +17,10 @@
     "reviewByReason": {
       "missing_cover": 2,
       "key_art_only": 189,
-      "missing_ps4_banner": 19
+      "missing_ps4_banner": 18
     },
     "watchByReason": {
-      "image_fetch_failed": 14
+      "image_fetch_failed": 16
     }
   },
   "review": [
@@ -990,11 +990,6 @@
       "reason": "missing_ps4_banner"
     },
     {
-      "id": 1685,
-      "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
-      "reason": "missing_ps4_banner"
-    },
-    {
       "id": 291,
       "title": "Damascus Gear: Operation Osaka",
       "reason": "missing_ps4_banner"
@@ -1139,6 +1134,11 @@
       "reason": "image_fetch_failed"
     },
     {
+      "id": 1809,
+      "title": "Ground Zero: Texas",
+      "reason": "image_fetch_failed"
+    },
+    {
       "id": 1971,
       "title": "Jim Power: The Lost Dimension",
       "reason": "image_fetch_failed"
@@ -1161,6 +1161,11 @@
     {
       "id": 2429,
       "title": "Noob: Les Sans-Factions",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "id": 1685,
+      "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
       "reason": "image_fetch_failed"
     },
     {
