@@ -849,6 +849,17 @@
    "action": "ADD_GAMEYE"
   },
   {
+   "id": 211,
+   "title": "Bug Fables: The Everlasting Sapling",
+   "matchedTitle": "Bug Fables: The Everlasting Sapling",
+   "gameyeId": 66850,
+   "main": 25.64,
+   "extras": 36.46,
+   "completionist": 51.3,
+   "evidence": "GameEye PS4 item 66850 (\"Bug Fables: The Everlasting Sapling\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
    "id": 1580,
    "title": "Bit.Trip Presents...Runner2: Future Legend of Rhythm Alien",
    "matchedTitle": "Bit.Trip Presents...Runner2: Future Legend of Rhythm Alien [Limited Edition]",
@@ -857,6 +868,50 @@
    "extras": 9.75,
    "completionist": 25.68,
    "evidence": "GameEye PS4 item 95210 (\"Bit.Trip Presents...Runner2: Future Legend of Rhythm Alien [Limited Edition]\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 1849,
+   "title": "BROK: The InvestiGator",
+   "matchedTitle": "BROK: The Investigator",
+   "gameyeId": 166800,
+   "main": 14.42,
+   "extras": 18.58,
+   "completionist": 27.62,
+   "evidence": "GameEye PS4 item 166800 (\"BROK: The Investigator\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 1995,
+   "title": "Cyanide & Happiness - Freakpocalypse (Episode 1)",
+   "matchedTitle": "Cyanide & Happiness: Freakpocalypse Episode 1 [Collector's Edition]",
+   "gameyeId": 109414,
+   "main": 4.04,
+   "extras": 7.09,
+   "completionist": 10.93,
+   "evidence": "GameEye PS4 item 109414 (\"Cyanide & Happiness: Freakpocalypse Episode 1 [Collector's Edition]\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2042,
+   "title": "Dark Nights with Poe & Munro",
+   "matchedTitle": "Dark Nights with Poe and Munro",
+   "gameyeId": 91567,
+   "main": 3.04,
+   "extras": 3.82,
+   "completionist": 5.41,
+   "evidence": "GameEye PS4 item 91567 (\"Dark Nights with Poe and Munro\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2271,
+   "title": "Construction Simulator",
+   "matchedTitle": "Construction Simulator",
+   "gameyeId": 182532,
+   "main": 42.9,
+   "extras": 45.25,
+   "completionist": 138.22,
+   "evidence": "GameEye PS4 item 182532 (\"Construction Simulator\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
    "action": "ADD_GAMEYE"
   },
   {
@@ -992,6 +1047,160 @@
    "action": "ADD_GAMEYE"
   },
   {
+   "id": 2289,
+   "title": "Bloodrayne Betrayal: Fresh Bites",
+   "matchedTitle": "BloodRayne Betrayal: Fresh Bites",
+   "gameyeId": 86370,
+   "main": 4.9,
+   "extras": 5.11,
+   "completionist": 12.5,
+   "evidence": "GameEye PS4 item 86370 (\"BloodRayne Betrayal: Fresh Bites\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2291,
+   "title": "BPM: Bullets Per Minute",
+   "matchedTitle": "BPM: Bullets Per Minute",
+   "gameyeId": 104008,
+   "main": 3.37,
+   "extras": 11.01,
+   "completionist": 39.21,
+   "evidence": "GameEye PS4 item 104008 (\"BPM: Bullets Per Minute\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2292,
+   "title": "Breathedge",
+   "matchedTitle": "Breathedge",
+   "gameyeId": 93923,
+   "main": 16.43,
+   "extras": 24.48,
+   "completionist": 33.52,
+   "evidence": "GameEye PS4 item 93923 (\"Breathedge\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2294,
+   "title": "Buildings Have Feelings Too",
+   "matchedTitle": "Buildings Have Feelings Too!",
+   "gameyeId": 138311,
+   "main": 8.75,
+   "extras": 8.77,
+   "completionist": null,
+   "evidence": "GameEye PS4 item 138311 (\"Buildings Have Feelings Too!\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2295,
+   "title": "Chernobylite",
+   "matchedTitle": "Chernobylite",
+   "gameyeId": 88325,
+   "main": 14.62,
+   "extras": 20.94,
+   "completionist": 23.92,
+   "evidence": "GameEye PS4 item 88325 (\"Chernobylite\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2296,
+   "title": "Chorus",
+   "matchedTitle": "Chorus",
+   "gameyeId": 92918,
+   "main": 13.32,
+   "extras": 17.98,
+   "completionist": 22.23,
+   "evidence": "GameEye PS4 item 92918 (\"Chorus\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2297,
+   "title": "Chroma Quaternion",
+   "matchedTitle": "Chroma Quaternion",
+   "gameyeId": 92945,
+   "main": 21.43,
+   "extras": null,
+   "completionist": 22.19,
+   "evidence": "GameEye PS4 item 92945 (\"Chroma Quaternion\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2298,
+   "title": "Colossal Cave",
+   "matchedTitle": "Colossal Cave",
+   "gameyeId": 153294,
+   "main": null,
+   "extras": 3.53,
+   "completionist": null,
+   "evidence": "GameEye PS4 item 153294 (\"Colossal Cave\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2299,
+   "title": "Contra: Operation Galuga",
+   "matchedTitle": "Contra Operation Galuga",
+   "gameyeId": 154949,
+   "main": 2.11,
+   "extras": 5.06,
+   "completionist": 15.61,
+   "evidence": "GameEye PS4 item 154949 (\"Contra Operation Galuga\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2300,
+   "title": "Core Keeper",
+   "matchedTitle": "Core Keeper",
+   "gameyeId": 158915,
+   "main": 36.2,
+   "extras": 50.89,
+   "completionist": 134.52,
+   "evidence": "GameEye PS4 item 158915 (\"Core Keeper\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2301,
+   "title": "Crymachina",
+   "matchedTitle": "Crymachina [Deluxe Edition]",
+   "gameyeId": 140764,
+   "main": 14.26,
+   "extras": 19.82,
+   "completionist": 29.56,
+   "evidence": "GameEye PS4 item 140764 (\"Crymachina [Deluxe Edition]\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2413,
+   "title": "Bratz: Flaunt your Fashion",
+   "matchedTitle": "Bratz: Flaunt your Fashion",
+   "gameyeId": 141629,
+   "main": 2,
+   "extras": 4.31,
+   "completionist": 7.16,
+   "evidence": "GameEye PS4 item 141629 (\"Bratz: Flaunt your Fashion\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2414,
+   "title": "Chimparty",
+   "matchedTitle": "Chimparty",
+   "gameyeId": 53749,
+   "main": 0.63,
+   "extras": null,
+   "completionist": null,
+   "evidence": "GameEye PS4 item 53749 (\"Chimparty\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2415,
+   "title": "Coffee Crisis",
+   "matchedTitle": "Coffee Crisis",
+   "gameyeId": 96267,
+   "main": 1.5,
+   "extras": 2.83,
+   "completionist": null,
+   "evidence": "GameEye PS4 item 96267 (\"Coffee Crisis\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
    "id": 2444,
    "title": "Antarctica 88",
    "matchedTitle": "Antarctica 88",
@@ -1000,6 +1209,28 @@
    "extras": 1.56,
    "completionist": 1.7,
    "evidence": "GameEye PS4 item 101484 (\"Antarctica 88\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 3 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2446,
+   "title": "Boxville",
+   "matchedTitle": "Boxville",
+   "gameyeId": 145156,
+   "main": 2.32,
+   "extras": 2.41,
+   "completionist": 2.68,
+   "evidence": "GameEye PS4 item 145156 (\"Boxville\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2447,
+   "title": "Brunswick Pro Bowling",
+   "matchedTitle": "Brunswick Pro Bowling",
+   "gameyeId": 43427,
+   "main": 6.43,
+   "extras": null,
+   "completionist": null,
+   "evidence": "GameEye PS4 item 43427 (\"Brunswick Pro Bowling\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
    "action": "ADD_GAMEYE"
   },
   {
@@ -1374,6 +1605,314 @@
    "extras": 1.11,
    "completionist": 1.63,
    "evidence": "GameEye PS4 item 105402 (\"Blaze and the Monster Machines: Axle City Racers\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2528,
+   "title": "Blazing Strike",
+   "matchedTitle": "Blazing Strike",
+   "gameyeId": 158106,
+   "main": null,
+   "extras": null,
+   "completionist": 4,
+   "evidence": "GameEye PS4 item 158106 (\"Blazing Strike\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2529,
+   "title": "Bleach: Rebirth Of Souls",
+   "matchedTitle": "Bleach: Rebirth Of Souls",
+   "gameyeId": 166233,
+   "main": 25.5,
+   "extras": 39.41,
+   "completionist": 46.74,
+   "evidence": "GameEye PS4 item 166233 (\"Bleach: Rebirth Of Souls\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2530,
+   "title": "Bluey: The Videogame",
+   "matchedTitle": "Bluey: The Videogame",
+   "gameyeId": 137353,
+   "main": 1.22,
+   "extras": 1.84,
+   "completionist": 2.99,
+   "evidence": "GameEye PS4 item 137353 (\"Bluey: The Videogame\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2532,
+   "title": "Bomb Rush Cyberfunk",
+   "matchedTitle": "Bomb Rush Cyberfunk [iam8bit]",
+   "gameyeId": 142162,
+   "main": 10.11,
+   "extras": 13.47,
+   "completionist": 23.61,
+   "evidence": "GameEye PS4 item 142162 (\"Bomb Rush Cyberfunk [iam8bit]\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2534,
+   "title": "Bramble: The Mountain King",
+   "matchedTitle": "Bramble: The Mountain King",
+   "gameyeId": 125222,
+   "main": 4.68,
+   "extras": 5.2,
+   "completionist": 7.11,
+   "evidence": "GameEye PS4 item 125222 (\"Bramble: The Mountain King\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2535,
+   "title": "Bratz Rhythm & Style",
+   "matchedTitle": "Bratz Rhythm & Style",
+   "gameyeId": 176156,
+   "main": 5.42,
+   "extras": 7.19,
+   "completionist": 7.9,
+   "evidence": "GameEye PS4 item 176156 (\"Bratz Rhythm & Style\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2536,
+   "title": "Broken Pieces",
+   "matchedTitle": "Broken Pieces",
+   "gameyeId": 132551,
+   "main": 7.45,
+   "extras": 9.47,
+   "completionist": 12.51,
+   "evidence": "GameEye PS4 item 132551 (\"Broken Pieces\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2537,
+   "title": "Broken Sword 5 The Serpent's Curse",
+   "matchedTitle": "Broken Sword 5: The Serpent's Curse",
+   "gameyeId": 37318,
+   "main": 11.14,
+   "extras": 13.27,
+   "completionist": 13.33,
+   "evidence": "GameEye PS4 item 37318 (\"Broken Sword 5: The Serpent's Curse\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2538,
+   "title": "Bullet Girls Phantasia",
+   "matchedTitle": "Bullet Girls Phantasia",
+   "gameyeId": 53341,
+   "main": 12.48,
+   "extras": 14.13,
+   "completionist": 87.58,
+   "evidence": "GameEye PS4 item 53341 (\"Bullet Girls Phantasia\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2539,
+   "title": "Bunny Must Die! Chelsea and the 7 Devils",
+   "matchedTitle": "Bunny Must Die: Chelsea and the 7 Devils",
+   "gameyeId": 51054,
+   "main": 8.67,
+   "extras": 15.58,
+   "completionist": 22.83,
+   "evidence": "GameEye PS4 item 51054 (\"Bunny Must Die: Chelsea and the 7 Devils\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2541,
+   "title": "Buried Stars",
+   "matchedTitle": "Buried Stars",
+   "gameyeId": 86526,
+   "main": 9.61,
+   "extras": 22.25,
+   "completionist": 29.76,
+   "evidence": "GameEye PS4 item 86526 (\"Buried Stars\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2543,
+   "title": "Bus Simulator 21",
+   "matchedTitle": "Bus Simulator 21",
+   "gameyeId": 109359,
+   "main": 25.22,
+   "extras": 26,
+   "completionist": 51.5,
+   "evidence": "GameEye PS4 item 109359 (\"Bus Simulator 21\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2544,
+   "title": "Call Of Duty: Vanguard",
+   "matchedTitle": "Call of Duty: Vanguard",
+   "gameyeId": 86694,
+   "main": 6.16,
+   "extras": 8.75,
+   "completionist": 28.08,
+   "evidence": "GameEye PS4 item 86694 (\"Call of Duty: Vanguard\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2545,
+   "title": "Call of the Sea",
+   "matchedTitle": "Call of the Sea [Norah Diary Edition]",
+   "gameyeId": 99056,
+   "main": 5.62,
+   "extras": 6.23,
+   "completionist": 7.38,
+   "evidence": "GameEye PS4 item 99056 (\"Call of the Sea [Norah Diary Edition]\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2546,
+   "title": "Candle: The Power of the Flame",
+   "matchedTitle": "Candle: The Power of the Flame",
+   "gameyeId": 59810,
+   "main": 7.66,
+   "extras": 8.28,
+   "completionist": 9.07,
+   "evidence": "GameEye PS4 item 59810 (\"Candle: The Power of the Flame\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2549,
+   "title": "Charon's Staircase",
+   "matchedTitle": "Charon's Staircase",
+   "gameyeId": 105258,
+   "main": 3.3,
+   "extras": null,
+   "completionist": 3.93,
+   "evidence": "GameEye PS4 item 105258 (\"Charon's Staircase\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2550,
+   "title": "Chef Life: A Restaurant Simulator",
+   "matchedTitle": "Chef Life: A Restaurant Simulator [Al Forno Edition]",
+   "gameyeId": 141746,
+   "main": 50,
+   "extras": 70,
+   "completionist": 76,
+   "evidence": "GameEye PS4 item 141746 (\"Chef Life: A Restaurant Simulator [Al Forno Edition]\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2551,
+   "title": "Chicken Police: Paint It Red",
+   "matchedTitle": "Chicken Police - Paint it RED!",
+   "gameyeId": 77476,
+   "main": 6.81,
+   "extras": 10.13,
+   "completionist": 11.15,
+   "evidence": "GameEye PS4 item 77476 (\"Chicken Police - Paint it RED!\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2554,
+   "title": "Chivalry II",
+   "matchedTitle": "Chivalry II",
+   "gameyeId": 76827,
+   "main": 12.81,
+   "extras": 43.26,
+   "completionist": 68.36,
+   "evidence": "GameEye PS4 item 76827 (\"Chivalry II\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2555,
+   "title": "Chronos: Before the Ashes",
+   "matchedTitle": "Chronos: Before the Ashes",
+   "gameyeId": 69266,
+   "main": 8.01,
+   "extras": 9.28,
+   "completionist": 15.46,
+   "evidence": "GameEye PS4 item 69266 (\"Chronos: Before the Ashes\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2556,
+   "title": "Clash: Artifacts of Chaos",
+   "matchedTitle": "Clash: Artifacts of Chaos [Zeno Edition]",
+   "gameyeId": 135438,
+   "main": 11.47,
+   "extras": 19,
+   "completionist": 21.08,
+   "evidence": "GameEye PS4 item 135438 (\"Clash: Artifacts of Chaos [Zeno Edition]\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2557,
+   "title": "DC League of Super-Pets: The Adventures of Krypto and Ace",
+   "matchedTitle": "DC League of Super-Pets: The Adventures of Krypto and Ace",
+   "gameyeId": 104720,
+   "main": 2.51,
+   "extras": 2.88,
+   "completionist": 2.95,
+   "evidence": "GameEye PS4 item 104720 (\"DC League of Super-Pets: The Adventures of Krypto and Ace\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2558,
+   "title": "DC's Justice League: Cosmic Chaos",
+   "matchedTitle": "DC's Justice League: Cosmic Chaos",
+   "gameyeId": 140477,
+   "main": 9.3,
+   "extras": 9.85,
+   "completionist": 13.48,
+   "evidence": "GameEye PS4 item 140477 (\"DC's Justice League: Cosmic Chaos\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2559,
+   "title": "DCL: The Game",
+   "matchedTitle": "DCL - The Game",
+   "gameyeId": 64458,
+   "main": 5.12,
+   "extras": null,
+   "completionist": 100,
+   "evidence": "GameEye PS4 item 64458 (\"DCL - The Game\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2560,
+   "title": "Dakar Desert Rally",
+   "matchedTitle": "Dakar Desert Rally",
+   "gameyeId": 134668,
+   "main": 19.33,
+   "extras": 22.75,
+   "completionist": null,
+   "evidence": "GameEye PS4 item 134668 (\"Dakar Desert Rally\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2564,
+   "title": "Dawn of the Monsters",
+   "matchedTitle": "Dawn of the Monsters",
+   "gameyeId": 96316,
+   "main": 5.94,
+   "extras": 11.31,
+   "completionist": null,
+   "evidence": "GameEye PS4 item 96316 (\"Dawn of the Monsters\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2565,
+   "title": "Daymare: 1994 Sandcastle",
+   "matchedTitle": "Daymare: 1994 Sandcastle",
+   "gameyeId": 140282,
+   "main": 7.35,
+   "extras": 9.61,
+   "completionist": 10.8,
+   "evidence": "GameEye PS4 item 140282 (\"Daymare: 1994 Sandcastle\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2567,
+   "title": "Dead Island 2",
+   "matchedTitle": "Dead Island 2",
+   "gameyeId": 160782,
+   "main": 16.07,
+   "extras": 26.63,
+   "completionist": 38.68,
+   "evidence": "GameEye PS4 item 160782 (\"Dead Island 2\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
    "action": "ADD_GAMEYE"
   }
  ]
