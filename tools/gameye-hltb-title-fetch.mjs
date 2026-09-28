@@ -26,6 +26,9 @@ async function json(url) {
   for (let i = 0; i < 4; i++) {
     const r = await fetch(url, { headers: H });
     if (r.ok) return r.json();
+    // GameEye enforces an hourly quota on /items ("Try again in 1 hour"): stop cleanly and resume
+    // later instead of retrying into the limit. Everything fetched so far is already saved.
+    if (r.status === 429 && /hour/i.test(await r.text())) throw Object.assign(new Error('HOURLY_QUOTA'), { quota: true });
     if (r.status !== 429 && r.status < 500) throw new Error(`${r.status} ${url}`);
     await sleep(2000 * (i + 1));
   }
@@ -36,9 +39,9 @@ const qa = JSON.parse(fs.readFileSync(qaPath, 'utf8'));
 const census = await loadRuntimeCensus();
 const out = fs.existsSync(outPath) ? JSON.parse(fs.readFileSync(outPath, 'utf8')) : {};
 const targets = qa.rows.filter((r) => TARGET.has(r.class));
-let n = 0;
+let n = 0, quotaHit = false;
 for (const t of targets) {
-  if (out[t.id]?.done) continue;
+  if (out[t.id]?.done && !out[t.id].error) continue;
   const names = [t.title, ...(census.aliasesById.get(t.id) || [])];
   const want = new Set(names.map((x) => norm(strip(x))));
   const seen = new Map(); let error = null;
@@ -51,16 +54,21 @@ for (const t of targets) {
     if (seen.size) break;
   }
   const matches = [];
-  for (const [id, title] of seen) {
+  // Regional/edition duplicates carry the same HLTB block; plain-title records first, at most 2
+  // detail calls per identity (a second record still exposes any value conflict).
+  const picks = [...seen].sort((a, b) => /\[/.test(a[1]) - /\[/.test(b[1])).slice(0, 2);
+  for (const [id, title] of picks) {
     try {
       const d = await json(`${BASE}/items/${id}`); const x = d.item_detail || d.item || d, h = x.hltb || {};
       matches.push({ gameyeId: id, gameyeTitle: title, main: hours(h.main_story), extras: hours(h.main_sides), completionist: hours(h.completionist), allStyles: hours(h.all_styles) });
-    } catch (e) { error = String(e).slice(0, 120); }
+    } catch (e) { if (e.quota) { quotaHit = true; break; } error = String(e).slice(0, 120); }
     await sleep(300);
   }
+  if (quotaHit) break;
   out[t.id] = { id: t.id, title: t.title, auditClass: t.class, matches, error, done: !error || matches.length > 0 };
-  if (++n % 20 === 0) { fs.writeFileSync(outPath, JSON.stringify(out, null, 1)); console.log(`${n}/${targets.length}`); }
+  if (++n % 10 === 0) { fs.writeFileSync(outPath, JSON.stringify(out, null, 1)); console.log(`${n}/${targets.length}`); }
 }
 fs.writeFileSync(outPath, JSON.stringify(out, null, 1));
 const v = Object.values(out);
-console.log(JSON.stringify({ targets: targets.length, withExactPs4Match: v.filter((x) => x.matches.length).length, withHltbMain: v.filter((x) => x.matches.some((m) => m.main)).length }, null, 2));
+if (quotaHit) console.log('STOPPED: GameEye hourly quota reached; re-run later to resume.');
+console.log(JSON.stringify({ quotaHit, remaining: targets.filter((t) => !(out[t.id]?.done && !out[t.id].error)).length, targets: targets.length, withExactPs4Match: v.filter((x) => x.matches.length).length, withHltbMain: v.filter((x) => x.matches.some((m) => m.main)).length }, null, 2));
