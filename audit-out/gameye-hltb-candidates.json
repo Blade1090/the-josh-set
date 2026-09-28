@@ -498,6 +498,240 @@
   "error": null,
   "done": true
  },
+ "366": {
+  "id": 366,
+  "title": "Digimon Story Cyber Sleuth: Hacker's Memory",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 47875,
+    "gameyeTitle": "Digimon Story Cyber Sleuth: Hacker's Memory",
+    "main": 45.99,
+    "extras": 61.99,
+    "completionist": 96.77,
+    "allStyles": 59.12
+   },
+   {
+    "gameyeId": 111457,
+    "gameyeTitle": "Digimon Story: Cyber Sleuth – Hacker's Memory",
+    "main": 45.99,
+    "extras": 61.99,
+    "completionist": 96.77,
+    "allStyles": 59.12
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "380": {
+  "id": 380,
+  "title": "Divinity: Original Sin II - Definitive Edition",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [],
+  "error": null,
+  "done": true
+ },
+ "386": {
+  "id": 386,
+  "title": "Don't Starve Together: Console Edition",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 35847,
+    "gameyeTitle": "Don't Starve Together: Console Edition",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "393": {
+  "id": 393,
+  "title": "Double Dragon & Kunio-kun Retro Brawler Bundle",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 68744,
+    "gameyeTitle": "Double Dragon & Kunio-kun: Retro Brawler Bundle",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "400": {
+  "id": 400,
+  "title": "Dragon Ball: Xenoverse",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 23915,
+    "gameyeTitle": "Dragon Ball: Xenoverse",
+    "main": 17.21,
+    "extras": 32.66,
+    "completionist": 90.95,
+    "allStyles": 30.44
+   },
+   {
+    "gameyeId": 136961,
+    "gameyeTitle": "Dragon Ball: Xenoverse",
+    "main": 17.21,
+    "extras": 32.66,
+    "completionist": 90.95,
+    "allStyles": 30.44
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "441": {
+  "id": 441,
+  "title": "Escape Game: Fort Boyard",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 68177,
+    "gameyeTitle": "Escape Game: Fort Boyard",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   },
+   {
+    "gameyeId": 177174,
+    "gameyeTitle": "Escape Game: Fort Boyard",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "492": {
+  "id": 492,
+  "title": "Firefighters: Airport Fire Department",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 79680,
+    "gameyeTitle": "Firefighters Airport Fire Department",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   },
+   {
+    "gameyeId": 137010,
+    "gameyeTitle": "Firefighters: Airport Fire Department",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "509": {
+  "id": 509,
+  "title": "Frostpunk: Console Edition",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 55328,
+    "gameyeTitle": "Frostpunk: Console Edition",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   },
+   {
+    "gameyeId": 140213,
+    "gameyeTitle": "Frostpunk: Console Edition",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "517": {
+  "id": 517,
+  "title": "Game of Thrones: A Telltale Games Series",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 26934,
+    "gameyeTitle": "Game of Thrones: A Telltale Games Series",
+    "main": 12.12,
+    "extras": 12.61,
+    "completionist": 13.29,
+    "allStyles": 12.59
+   },
+   {
+    "gameyeId": 137029,
+    "gameyeTitle": "Game of Thrones: A Telltale Games Series",
+    "main": 12.12,
+    "extras": 12.61,
+    "completionist": 13.29,
+    "allStyles": 12.59
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "518": {
+  "id": 518,
+  "title": "Game Tengoku: Cruisin Mix Special",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 52962,
+    "gameyeTitle": "Game Tengoku: Cruisin Mix Special",
+    "main": 0.5,
+    "extras": 2,
+    "completionist": null,
+    "allStyles": 1.25
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "520": {
+  "id": 520,
+  "title": "Garfield Kart: Furious Racing",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 57616,
+    "gameyeTitle": "Garfield Kart: Furious Racing",
+    "main": 2.11,
+    "extras": 5.22,
+    "completionist": 11.05,
+    "allStyles": 5.89
+   },
+   {
+    "gameyeId": 142285,
+    "gameyeTitle": "Garfield Kart: Furious Racing",
+    "main": 2.11,
+    "extras": 5.22,
+    "completionist": 11.05,
+    "allStyles": 5.89
+   }
+  ],
+  "error": null,
+  "done": true
+ },
  "1568": {
   "id": 1568,
   "title": "Aqua Kitty: Milk Mine Defender DX",
@@ -562,6 +796,148 @@
   "title": "Bud Spencer & Terence Hill: Slaps And Beans",
   "auditClass": "NO_VERIFIED_MATCH",
   "matches": [],
+  "error": null,
+  "done": true
+ },
+ "1601": {
+  "id": 1601,
+  "title": "Defenders of Ekron",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 49133,
+    "gameyeTitle": "Defenders of Ekron",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   },
+   {
+    "gameyeId": 60200,
+    "gameyeTitle": "Defenders of Ekron [Limited Edition]",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "1603": {
+  "id": 1603,
+  "title": "Dino Dini's Kick Off Revival",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 40669,
+    "gameyeTitle": "Dino Dini's Kick Off Revival",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   },
+   {
+    "gameyeId": 140072,
+    "gameyeTitle": "Dino Dini's Kick Off Revival [Limited Edition]",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "1614": {
+  "id": 1614,
+  "title": "Fall of Light: Darkest Edition",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 51476,
+    "gameyeTitle": "Fall of Light: Darkest Edition",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "1620": {
+  "id": 1620,
+  "title": "Forestry 2017: The Simulation",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 42935,
+    "gameyeTitle": "Forestry 2017: The Simulation",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   },
+   {
+    "gameyeId": 138525,
+    "gameyeTitle": "Forestry 2017: The Simulation",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "1625": {
+  "id": 1625,
+  "title": "Galak-Z: The Void",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [],
+  "error": null,
+  "done": true
+ },
+ "1626": {
+  "id": 1626,
+  "title": "Galaxy of Pen & Paper +1 Edition",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 67587,
+    "gameyeTitle": "Galaxy of Pen and Paper + 1 Edition",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   },
+   {
+    "gameyeId": 142281,
+    "gameyeTitle": "Galaxy of Pen and Paper + 1 Edition",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "1799": {
+  "id": 1799,
+  "title": "Don't Starve: Console Edition",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 21782,
+    "gameyeTitle": "Don't Starve: Console Edition",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   }
+  ],
   "error": null,
   "done": true
  },
@@ -648,6 +1024,74 @@
   "error": null,
   "done": true
  },
+ "1865": {
+  "id": 1865,
+  "title": "Escape From Life Inc.",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 102670,
+    "gameyeTitle": "Escape from Life Inc",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "1901": {
+  "id": 1901,
+  "title": "Endocrisis",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 97429,
+    "gameyeTitle": "Endocrisis",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "1929": {
+  "id": 1929,
+  "title": "Duck Souls+",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 72807,
+    "gameyeTitle": "Duck Souls +",
+    "main": 1.71,
+    "extras": 1.93,
+    "completionist": 2.15,
+    "allStyles": 1.95
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "1959": {
+  "id": 1959,
+  "title": "Galactic Wars EX",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 138486,
+    "gameyeTitle": "Galactic Wars EX",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   }
+  ],
+  "error": null,
+  "done": true
+ },
  "1995": {
   "id": 1995,
   "title": "Cyanide & Happiness - Freakpocalypse (Episode 1)",
@@ -660,6 +1104,23 @@
     "extras": 7.09,
     "completionist": 10.93,
     "allStyles": 6.94
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2031": {
+  "id": 2031,
+  "title": "Dustwind - The Last Resort",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 125430,
+    "gameyeTitle": "Dustwind: The Last Resort",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
    }
   ],
   "error": null,
@@ -731,6 +1192,31 @@
   "error": null,
   "done": true
  },
+ "2062": {
+  "id": 2062,
+  "title": "Ganryu 2: Hakuma Kojiro",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 93369,
+    "gameyeTitle": "Ganryu 2: Hakuma Kojiro",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   },
+   {
+    "gameyeId": 137433,
+    "gameyeTitle": "Ganryu 2: Hakuma Kojiro",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   }
+  ],
+  "error": null,
+  "done": true
+ },
  "2064": {
   "id": 2064,
   "title": "Andro Dunos 2",
@@ -775,6 +1261,14 @@
  "2246": {
   "id": 2246,
   "title": "Bud Spencer & Terence Hill - Slaps And Beans 2",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [],
+  "error": null,
+  "done": true
+ },
+ "2266": {
+  "id": 2266,
+  "title": "DUSK",
   "auditClass": "NO_VERIFIED_MATCH",
   "matches": [],
   "error": null,
@@ -1611,6 +2105,181 @@
   "error": null,
   "done": true
  },
+ "2303": {
+  "id": 2303,
+  "title": "Desolatium",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 141881,
+    "gameyeTitle": "Desolatium",
+    "main": 3.56,
+    "extras": null,
+    "completionist": null,
+    "allStyles": 3.56
+   },
+   {
+    "gameyeId": 141882,
+    "gameyeTitle": "Desolatium",
+    "main": 3.56,
+    "extras": null,
+    "completionist": null,
+    "allStyles": 3.56
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2304": {
+  "id": 2304,
+  "title": "Disciples: Liberation",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 79487,
+    "gameyeTitle": "Disciples: Liberation",
+    "main": 55.88,
+    "extras": 63.1,
+    "completionist": 88.03,
+    "allStyles": 65.38
+   },
+   {
+    "gameyeId": 141907,
+    "gameyeTitle": "Disciples: Liberation [Deluxe Edition]",
+    "main": 55.88,
+    "extras": 63.1,
+    "completionist": 88.03,
+    "allStyles": 65.38
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2305": {
+  "id": 2305,
+  "title": "Epic Mickey: Rebrushed",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 161930,
+    "gameyeTitle": "Epic Mickey: Rebrushed",
+    "main": 9.23,
+    "extras": 14.67,
+    "completionist": 24.87,
+    "allStyles": 13.92
+   },
+   {
+    "gameyeId": 166847,
+    "gameyeTitle": "Epic Mickey: Rebrushed",
+    "main": 9.23,
+    "extras": 14.67,
+    "completionist": 24.87,
+    "allStyles": 13.92
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2306": {
+  "id": 2306,
+  "title": "Enclave HD",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 100408,
+    "gameyeTitle": "Enclave HD",
+    "main": 8.22,
+    "extras": 12.26,
+    "completionist": 15.67,
+    "allStyles": 10.65
+   },
+   {
+    "gameyeId": 148659,
+    "gameyeTitle": "Enclave HD [Collector's Edition]",
+    "main": 8.22,
+    "extras": 12.26,
+    "completionist": 15.67,
+    "allStyles": 10.65
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2307": {
+  "id": 2307,
+  "title": "Exophobia",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 158853,
+    "gameyeTitle": "Exophobia",
+    "main": 6,
+    "extras": 11.8,
+    "completionist": null,
+    "allStyles": 9.77
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2308": {
+  "id": 2308,
+  "title": "Fahrenheit",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 66239,
+    "gameyeTitle": "Fahrenheit",
+    "main": 8.12,
+    "extras": 9.12,
+    "completionist": 9.97,
+    "allStyles": 8.69
+   },
+   {
+    "gameyeId": 171306,
+    "gameyeTitle": "Fahrenheit",
+    "main": 8.12,
+    "extras": 9.12,
+    "completionist": 9.97,
+    "allStyles": 8.69
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2309": {
+  "id": 2309,
+  "title": "Foreclosed",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 78723,
+    "gameyeTitle": "Foreclosed",
+    "main": 3.38,
+    "extras": 4.2,
+    "completionist": 4.48,
+    "allStyles": 4.13
+   },
+   {
+    "gameyeId": 141982,
+    "gameyeTitle": "Foreclosed",
+    "main": 3.38,
+    "extras": 4.2,
+    "completionist": 4.48,
+    "allStyles": 4.13
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2370": {
+  "id": 2370,
+  "title": "Dogfighter WW2",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [],
+  "error": null,
+  "done": true
+ },
  "2375": {
   "id": 2375,
   "title": "Buccanyar",
@@ -1619,6 +2288,23 @@
    {
     "gameyeId": 143766,
     "gameyeTitle": "Buccanyar",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2378": {
+  "id": 2378,
+  "title": "Everyone Spelunker",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 88194,
+    "gameyeTitle": "Everyone Spelunker",
     "main": null,
     "extras": null,
     "completionist": null,
@@ -1720,6 +2406,90 @@
   "error": null,
   "done": true
  },
+ "2416": {
+  "id": 2416,
+  "title": "Distrust",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 55461,
+    "gameyeTitle": "Distrust",
+    "main": 4.89,
+    "extras": 13.31,
+    "completionist": 37.31,
+    "allStyles": 8.68
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2417": {
+  "id": 2417,
+  "title": "Dogchild",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 57074,
+    "gameyeTitle": "Dogchild",
+    "main": 4,
+    "extras": null,
+    "completionist": null,
+    "allStyles": 4
+   },
+   {
+    "gameyeId": 136847,
+    "gameyeTitle": "Dogchild",
+    "main": 4,
+    "extras": null,
+    "completionist": null,
+    "allStyles": 4
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2418": {
+  "id": 2418,
+  "title": "Dreamfall Chapters",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 39449,
+    "gameyeTitle": "Dreamfall Chapters",
+    "main": 22,
+    "extras": 24.83,
+    "completionist": 35.97,
+    "allStyles": 24.92
+   },
+   {
+    "gameyeId": 151075,
+    "gameyeTitle": "Dreamfall Chapters",
+    "main": 22,
+    "extras": 24.83,
+    "completionist": 35.97,
+    "allStyles": 24.92
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2419": {
+  "id": 2419,
+  "title": "Eldrador Creatures",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 140748,
+    "gameyeTitle": "Eldrador Creatures",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   }
+  ],
+  "error": null,
+  "done": true
+ },
  "2444": {
   "id": 2444,
   "title": "Antarctica 88",
@@ -1787,6 +2557,14 @@
   "error": null,
   "done": true
  },
+ "2448": {
+  "id": 2448,
+  "title": "Dora: Rainforest Rescue",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [],
+  "error": null,
+  "done": true
+ },
  "2456": {
   "id": 2456,
   "title": "Animal Hospital",
@@ -1826,6 +2604,73 @@
     "allStyles": null
    }
   ],
+  "error": null,
+  "done": true
+ },
+ "2458": {
+  "id": 2458,
+  "title": "Do Not Open",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 140460,
+    "gameyeTitle": "Do Not Open",
+    "main": 1.94,
+    "extras": 2.26,
+    "completionist": null,
+    "allStyles": 2.06
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2459": {
+  "id": 2459,
+  "title": "Downward Spiral: Horus Station",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 55130,
+    "gameyeTitle": "Downward Spiral: Horus Station",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2460": {
+  "id": 2460,
+  "title": "Drawfighters",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 54891,
+    "gameyeTitle": "DrawFighters",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2468": {
+  "id": 2468,
+  "title": "Deformers",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [],
+  "error": null,
+  "done": true
+ },
+ "2471": {
+  "id": 2471,
+  "title": "Get Star / Guardian",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [],
   "error": null,
   "done": true
  },
@@ -3952,6 +4797,591 @@
     "extras": 26.63,
     "completionist": 38.68,
     "allStyles": 23.89
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2568": {
+  "id": 2568,
+  "title": "Earth Defense Force: World Brothers",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 77404,
+    "gameyeTitle": "Earth Defense Force: World Brothers",
+    "main": 12.51,
+    "extras": 14.95,
+    "completionist": null,
+    "allStyles": 13.11
+   },
+   {
+    "gameyeId": 96191,
+    "gameyeTitle": "Earth Defense Force: World Brothers",
+    "main": 12.51,
+    "extras": 14.95,
+    "completionist": null,
+    "allStyles": 13.11
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2569": {
+  "id": 2569,
+  "title": "Earth Defense Force: World Brothers 2",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 157953,
+    "gameyeTitle": "Earth Defense Force: World Brothers 2",
+    "main": null,
+    "extras": 20.75,
+    "completionist": null,
+    "allStyles": 20.75
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2570": {
+  "id": 2570,
+  "title": "Eiyuden Chronicle: Hundred Heroes",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 150384,
+    "gameyeTitle": "Eiyuden Chronicle: Hundred Heroes",
+    "main": 46.27,
+    "extras": 66.29,
+    "completionist": 96.49,
+    "allStyles": 67.66
+   },
+   {
+    "gameyeId": 161766,
+    "gameyeTitle": "Eiyuden Chronicle: Hundred Heroes",
+    "main": 46.27,
+    "extras": 66.29,
+    "completionist": 96.49,
+    "allStyles": 67.66
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2572": {
+  "id": 2572,
+  "title": "Electronic Super Joy II",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [],
+  "error": null,
+  "done": true
+ },
+ "2573": {
+  "id": 2573,
+  "title": "Embr: Uber Firefighters",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 141320,
+    "gameyeTitle": "Embr: Uber Firefighters",
+    "main": null,
+    "extras": null,
+    "completionist": null,
+    "allStyles": null
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2574": {
+  "id": 2574,
+  "title": "Empire of Sin",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 66367,
+    "gameyeTitle": "Empire of Sin",
+    "main": 16.23,
+    "extras": 26.48,
+    "completionist": 75.73,
+    "allStyles": 25.05
+   },
+   {
+    "gameyeId": 139666,
+    "gameyeTitle": "Empire of Sin",
+    "main": 16.23,
+    "extras": 26.48,
+    "completionist": 75.73,
+    "allStyles": 25.05
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2575": {
+  "id": 2575,
+  "title": "Epic Chef",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 95386,
+    "gameyeTitle": "Epic Chef",
+    "main": 32.17,
+    "extras": 52.14,
+    "completionist": 53.9,
+    "allStyles": 50.89
+   },
+   {
+    "gameyeId": 134771,
+    "gameyeTitle": "Epic Chef",
+    "main": 32.17,
+    "extras": 52.14,
+    "completionist": 53.9,
+    "allStyles": 50.89
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2576": {
+  "id": 2576,
+  "title": "Ever Forward",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 95458,
+    "gameyeTitle": "Ever Forward",
+    "main": 2.64,
+    "extras": 3.6,
+    "completionist": 2.97,
+    "allStyles": 2.83
+   },
+   {
+    "gameyeId": 140753,
+    "gameyeTitle": "Ever Forward",
+    "main": 2.64,
+    "extras": 3.6,
+    "completionist": 2.97,
+    "allStyles": 2.83
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2577": {
+  "id": 2577,
+  "title": "Everreach: Project Eden",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 91433,
+    "gameyeTitle": "Everreach: Project Eden",
+    "main": 4.21,
+    "extras": 5.37,
+    "completionist": 6.42,
+    "allStyles": 5.63
+   },
+   {
+    "gameyeId": 140798,
+    "gameyeTitle": "Everreach: Project Eden",
+    "main": 4.21,
+    "extras": 5.37,
+    "completionist": 6.42,
+    "allStyles": 5.63
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2578": {
+  "id": 2578,
+  "title": "FOBIA: St. Dinfna Hotel",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 99542,
+    "gameyeTitle": "Fobia - St. Dinfna Hotel",
+    "main": 11.01,
+    "extras": 12.33,
+    "completionist": 18.7,
+    "allStyles": 12.14
+   },
+   {
+    "gameyeId": 140113,
+    "gameyeTitle": "Fobia - St. Dinfna Hotel",
+    "main": 11.01,
+    "extras": 12.33,
+    "completionist": 18.7,
+    "allStyles": 12.14
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2579": {
+  "id": 2579,
+  "title": "Fairy Fencer F: Refrain Chord",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 139842,
+    "gameyeTitle": "Fairy Fencer F: Refrain Chord",
+    "main": 35.85,
+    "extras": 56.33,
+    "completionist": null,
+    "allStyles": 40.68
+   },
+   {
+    "gameyeId": 120323,
+    "gameyeTitle": "Fairy Fencer F: Refrain Chord [Day One Edition]",
+    "main": 35.85,
+    "extras": 56.33,
+    "completionist": null,
+    "allStyles": 40.68
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2580": {
+  "id": 2580,
+  "title": "Fallen Legion Revenants",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 71622,
+    "gameyeTitle": "Fallen Legion Revenants",
+    "main": 20,
+    "extras": null,
+    "completionist": null,
+    "allStyles": 20
+   },
+   {
+    "gameyeId": 75085,
+    "gameyeTitle": "Fallen Legion Revenants [Exemplary Edition]",
+    "main": 20,
+    "extras": null,
+    "completionist": null,
+    "allStyles": 20
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2581": {
+  "id": 2581,
+  "title": "G-Darius HD",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 91131,
+    "gameyeTitle": "G-Darius HD",
+    "main": 0.79,
+    "extras": 1.44,
+    "completionist": 5.2,
+    "allStyles": 1.15
+   },
+   {
+    "gameyeId": 139514,
+    "gameyeTitle": "G-Darius HD",
+    "main": 0.79,
+    "extras": 1.44,
+    "completionist": 5.2,
+    "allStyles": 1.15
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2582": {
+  "id": 2582,
+  "title": "G.I. Joe: Operation Blackout",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 66366,
+    "gameyeTitle": "G.I. Joe: Operation Blackout",
+    "main": 5.28,
+    "extras": 8.29,
+    "completionist": 15.38,
+    "allStyles": 7.29
+   },
+   {
+    "gameyeId": 139525,
+    "gameyeTitle": "G.I. Joe: Operation Blackout",
+    "main": 5.28,
+    "extras": 8.29,
+    "completionist": 15.38,
+    "allStyles": 7.29
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2583": {
+  "id": 2583,
+  "title": "Gal Guardians: Demon Purge",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 126371,
+    "gameyeTitle": "Gal Guardians: Demon Purge",
+    "main": 8.11,
+    "extras": 11.7,
+    "completionist": 17.37,
+    "allStyles": 10.41
+   },
+   {
+    "gameyeId": 140928,
+    "gameyeTitle": "Gal Guardians: Demon Purge",
+    "main": 8.11,
+    "extras": 11.7,
+    "completionist": 17.37,
+    "allStyles": 10.41
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2584": {
+  "id": 2584,
+  "title": "Gale Of Windoria",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 147880,
+    "gameyeTitle": "Gale Of Windoria",
+    "main": null,
+    "extras": 15.74,
+    "completionist": 19.96,
+    "allStyles": 17.85
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2585": {
+  "id": 2585,
+  "title": "Garden Life: A Cozy Simulator",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 142996,
+    "gameyeTitle": "Garden Life: A Cozy Simulator",
+    "main": 17.96,
+    "extras": 21.33,
+    "completionist": 30.09,
+    "allStyles": 26.72
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2586": {
+  "id": 2586,
+  "title": "Garden Simulator",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 141981,
+    "gameyeTitle": "Garden Simulator",
+    "main": 8,
+    "extras": null,
+    "completionist": 13.35,
+    "allStyles": 11.78
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2587": {
+  "id": 2587,
+  "title": "Garfield Lasagna Party",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 124771,
+    "gameyeTitle": "Garfield: Lasagna Party",
+    "main": 1.32,
+    "extras": 1.54,
+    "completionist": 1.75,
+    "allStyles": 1.71
+   },
+   {
+    "gameyeId": 141264,
+    "gameyeTitle": "Garfield: Lasagna Party",
+    "main": 1.32,
+    "extras": 1.54,
+    "completionist": 1.75,
+    "allStyles": 1.71
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2588": {
+  "id": 2588,
+  "title": "Gargoyles Remastered",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 135407,
+    "gameyeTitle": "Gargoyles: Remastered",
+    "main": 2.58,
+    "extras": null,
+    "completionist": null,
+    "allStyles": 2.58
+   },
+   {
+    "gameyeId": 171256,
+    "gameyeTitle": "Gargoyles: Remastered [Classic Edition]",
+    "main": 2.58,
+    "extras": null,
+    "completionist": null,
+    "allStyles": 2.58
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2589": {
+  "id": 2589,
+  "title": "Gear Club Unlimited 2",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 141272,
+    "gameyeTitle": "Gear.Club Unlimited 2 [Ultimate Edition]",
+    "main": 19.86,
+    "extras": 27.24,
+    "completionist": 37,
+    "allStyles": 25.3
+   },
+   {
+    "gameyeId": 142286,
+    "gameyeTitle": "Gear.Club Unlimited 2 [Ultimate Edition]",
+    "main": 19.86,
+    "extras": 27.24,
+    "completionist": 37,
+    "allStyles": 25.3
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2590": {
+  "id": 2590,
+  "title": "Gene Rain",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 162201,
+    "gameyeTitle": "Gene Rain",
+    "main": 3.43,
+    "extras": null,
+    "completionist": null,
+    "allStyles": 3.43
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2591": {
+  "id": 2591,
+  "title": "Ghost Of A Tale",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 54405,
+    "gameyeTitle": "Ghost of a Tale",
+    "main": 11.44,
+    "extras": 15.27,
+    "completionist": 19.07,
+    "allStyles": 15.27
+   },
+   {
+    "gameyeId": 151158,
+    "gameyeTitle": "Ghost of a Tale",
+    "main": 11.44,
+    "extras": 15.27,
+    "completionist": 19.07,
+    "allStyles": 15.27
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2592": {
+  "id": 2592,
+  "title": "Ghost Recon: Breakpoint",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 55144,
+    "gameyeTitle": "Tom Clancy's Ghost Recon: Breakpoint",
+    "main": 23.21,
+    "extras": 54.58,
+    "completionist": 99.74,
+    "allStyles": 44.77
+   },
+   {
+    "gameyeId": 137025,
+    "gameyeTitle": "Tom Clancy's Ghost Recon: Breakpoint",
+    "main": 23.21,
+    "extras": 54.58,
+    "completionist": 99.74,
+    "allStyles": 44.77
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2781": {
+  "id": 2781,
+  "title": "Dragon Ball: The Breakers",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 141961,
+    "gameyeTitle": "Dragon Ball: The Breakers [Limited Edition]",
+    "main": null,
+    "extras": 14.55,
+    "completionist": 80.67,
+    "allStyles": 38.25
+   },
+   {
+    "gameyeId": 100968,
+    "gameyeTitle": "Dragon Ball: The Breakers [Special Edition]",
+    "main": null,
+    "extras": 14.55,
+    "completionist": 80.67,
+    "allStyles": 38.25
+   }
+  ],
+  "error": null,
+  "done": true
+ },
+ "2789": {
+  "id": 2789,
+  "title": "Double Dragon Gaiden: Rise of the Dragons",
+  "auditClass": "NO_VERIFIED_MATCH",
+  "matches": [
+   {
+    "gameyeId": 130597,
+    "gameyeTitle": "Double Dragon Gaiden: Rise of the Dragons",
+    "main": 2.12,
+    "extras": 5.49,
+    "completionist": 10.04,
+    "allStyles": 3.75
+   },
+   {
+    "gameyeId": 141277,
+    "gameyeTitle": "Double Dragon Gaiden: Rise of the Dragons",
+    "main": 2.12,
+    "extras": 5.49,
+    "completionist": 10.04,
+    "allStyles": 3.75
    }
   ],
   "error": null,

@@ -860,6 +860,61 @@
    "action": "ADD_GAMEYE"
   },
   {
+   "id": 366,
+   "title": "Digimon Story Cyber Sleuth: Hacker's Memory",
+   "matchedTitle": "Digimon Story Cyber Sleuth: Hacker's Memory",
+   "gameyeId": 47875,
+   "main": 45.99,
+   "extras": 61.99,
+   "completionist": 96.77,
+   "evidence": "GameEye PS4 item 47875 (\"Digimon Story Cyber Sleuth: Hacker's Memory\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 400,
+   "title": "Dragon Ball: Xenoverse",
+   "matchedTitle": "Dragon Ball: Xenoverse",
+   "gameyeId": 23915,
+   "main": 17.21,
+   "extras": 32.66,
+   "completionist": 90.95,
+   "evidence": "GameEye PS4 item 23915 (\"Dragon Ball: Xenoverse\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 517,
+   "title": "Game of Thrones: A Telltale Games Series",
+   "matchedTitle": "Game of Thrones: A Telltale Games Series",
+   "gameyeId": 26934,
+   "main": 12.12,
+   "extras": 12.61,
+   "completionist": 13.29,
+   "evidence": "GameEye PS4 item 26934 (\"Game of Thrones: A Telltale Games Series\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 518,
+   "title": "Game Tengoku: Cruisin Mix Special",
+   "matchedTitle": "Game Tengoku: Cruisin Mix Special",
+   "gameyeId": 52962,
+   "main": 0.5,
+   "extras": 2,
+   "completionist": null,
+   "evidence": "GameEye PS4 item 52962 (\"Game Tengoku: Cruisin Mix Special\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 520,
+   "title": "Garfield Kart: Furious Racing",
+   "matchedTitle": "Garfield Kart: Furious Racing",
+   "gameyeId": 57616,
+   "main": 2.11,
+   "extras": 5.22,
+   "completionist": 11.05,
+   "evidence": "GameEye PS4 item 57616 (\"Garfield Kart: Furious Racing\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
    "id": 1580,
    "title": "Bit.Trip Presents...Runner2: Future Legend of Rhythm Alien",
    "matchedTitle": "Bit.Trip Presents...Runner2: Future Legend of Rhythm Alien [Limited Edition]",
@@ -879,6 +934,17 @@
    "extras": 18.58,
    "completionist": 27.62,
    "evidence": "GameEye PS4 item 166800 (\"BROK: The Investigator\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 1929,
+   "title": "Duck Souls+",
+   "matchedTitle": "Duck Souls +",
+   "gameyeId": 72807,
+   "main": 1.71,
+   "extras": 1.93,
+   "completionist": 2.15,
+   "evidence": "GameEye PS4 item 72807 (\"Duck Souls +\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
    "action": "ADD_GAMEYE"
   },
   {
@@ -1168,6 +1234,83 @@
    "action": "ADD_GAMEYE"
   },
   {
+   "id": 2303,
+   "title": "Desolatium",
+   "matchedTitle": "Desolatium",
+   "gameyeId": 141881,
+   "main": 3.56,
+   "extras": null,
+   "completionist": null,
+   "evidence": "GameEye PS4 item 141881 (\"Desolatium\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2304,
+   "title": "Disciples: Liberation",
+   "matchedTitle": "Disciples: Liberation",
+   "gameyeId": 79487,
+   "main": 55.88,
+   "extras": 63.1,
+   "completionist": 88.03,
+   "evidence": "GameEye PS4 item 79487 (\"Disciples: Liberation\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2305,
+   "title": "Epic Mickey: Rebrushed",
+   "matchedTitle": "Epic Mickey: Rebrushed",
+   "gameyeId": 161930,
+   "main": 9.23,
+   "extras": 14.67,
+   "completionist": 24.87,
+   "evidence": "GameEye PS4 item 161930 (\"Epic Mickey: Rebrushed\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2306,
+   "title": "Enclave HD",
+   "matchedTitle": "Enclave HD",
+   "gameyeId": 100408,
+   "main": 8.22,
+   "extras": 12.26,
+   "completionist": 15.67,
+   "evidence": "GameEye PS4 item 100408 (\"Enclave HD\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2307,
+   "title": "Exophobia",
+   "matchedTitle": "Exophobia",
+   "gameyeId": 158853,
+   "main": 6,
+   "extras": 11.8,
+   "completionist": null,
+   "evidence": "GameEye PS4 item 158853 (\"Exophobia\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2308,
+   "title": "Fahrenheit",
+   "matchedTitle": "Fahrenheit",
+   "gameyeId": 66239,
+   "main": 8.12,
+   "extras": 9.12,
+   "completionist": 9.97,
+   "evidence": "GameEye PS4 item 66239 (\"Fahrenheit\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2309,
+   "title": "Foreclosed",
+   "matchedTitle": "Foreclosed",
+   "gameyeId": 78723,
+   "main": 3.38,
+   "extras": 4.2,
+   "completionist": 4.48,
+   "evidence": "GameEye PS4 item 78723 (\"Foreclosed\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
    "id": 2413,
    "title": "Bratz: Flaunt your Fashion",
    "matchedTitle": "Bratz: Flaunt your Fashion",
@@ -1201,6 +1344,39 @@
    "action": "ADD_GAMEYE"
   },
   {
+   "id": 2416,
+   "title": "Distrust",
+   "matchedTitle": "Distrust",
+   "gameyeId": 55461,
+   "main": 4.89,
+   "extras": 13.31,
+   "completionist": 37.31,
+   "evidence": "GameEye PS4 item 55461 (\"Distrust\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2417,
+   "title": "Dogchild",
+   "matchedTitle": "Dogchild",
+   "gameyeId": 57074,
+   "main": 4,
+   "extras": null,
+   "completionist": null,
+   "evidence": "GameEye PS4 item 57074 (\"Dogchild\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2418,
+   "title": "Dreamfall Chapters",
+   "matchedTitle": "Dreamfall Chapters",
+   "gameyeId": 39449,
+   "main": 22,
+   "extras": 24.83,
+   "completionist": 35.97,
+   "evidence": "GameEye PS4 item 39449 (\"Dreamfall Chapters\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
    "id": 2444,
    "title": "Antarctica 88",
    "matchedTitle": "Antarctica 88",
@@ -1231,6 +1407,17 @@
    "extras": null,
    "completionist": null,
    "evidence": "GameEye PS4 item 43427 (\"Brunswick Pro Bowling\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2458,
+   "title": "Do Not Open",
+   "matchedTitle": "Do Not Open",
+   "gameyeId": 140460,
+   "main": 1.94,
+   "extras": 2.26,
+   "completionist": null,
+   "evidence": "GameEye PS4 item 140460 (\"Do Not Open\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
    "action": "ADD_GAMEYE"
   },
   {
@@ -1913,6 +2100,270 @@
    "extras": 26.63,
    "completionist": 38.68,
    "evidence": "GameEye PS4 item 160782 (\"Dead Island 2\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2568,
+   "title": "Earth Defense Force: World Brothers",
+   "matchedTitle": "Earth Defense Force: World Brothers",
+   "gameyeId": 77404,
+   "main": 12.51,
+   "extras": 14.95,
+   "completionist": null,
+   "evidence": "GameEye PS4 item 77404 (\"Earth Defense Force: World Brothers\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2569,
+   "title": "Earth Defense Force: World Brothers 2",
+   "matchedTitle": "Earth Defense Force: World Brothers 2",
+   "gameyeId": 157953,
+   "main": null,
+   "extras": 20.75,
+   "completionist": null,
+   "evidence": "GameEye PS4 item 157953 (\"Earth Defense Force: World Brothers 2\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2570,
+   "title": "Eiyuden Chronicle: Hundred Heroes",
+   "matchedTitle": "Eiyuden Chronicle: Hundred Heroes",
+   "gameyeId": 150384,
+   "main": 46.27,
+   "extras": 66.29,
+   "completionist": 96.49,
+   "evidence": "GameEye PS4 item 150384 (\"Eiyuden Chronicle: Hundred Heroes\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2574,
+   "title": "Empire of Sin",
+   "matchedTitle": "Empire of Sin",
+   "gameyeId": 66367,
+   "main": 16.23,
+   "extras": 26.48,
+   "completionist": 75.73,
+   "evidence": "GameEye PS4 item 66367 (\"Empire of Sin\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2575,
+   "title": "Epic Chef",
+   "matchedTitle": "Epic Chef",
+   "gameyeId": 95386,
+   "main": 32.17,
+   "extras": 52.14,
+   "completionist": 53.9,
+   "evidence": "GameEye PS4 item 95386 (\"Epic Chef\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2576,
+   "title": "Ever Forward",
+   "matchedTitle": "Ever Forward",
+   "gameyeId": 95458,
+   "main": 2.64,
+   "extras": 3.6,
+   "completionist": 2.97,
+   "evidence": "GameEye PS4 item 95458 (\"Ever Forward\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2577,
+   "title": "Everreach: Project Eden",
+   "matchedTitle": "Everreach: Project Eden",
+   "gameyeId": 91433,
+   "main": 4.21,
+   "extras": 5.37,
+   "completionist": 6.42,
+   "evidence": "GameEye PS4 item 91433 (\"Everreach: Project Eden\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2578,
+   "title": "FOBIA: St. Dinfna Hotel",
+   "matchedTitle": "Fobia - St. Dinfna Hotel",
+   "gameyeId": 99542,
+   "main": 11.01,
+   "extras": 12.33,
+   "completionist": 18.7,
+   "evidence": "GameEye PS4 item 99542 (\"Fobia - St. Dinfna Hotel\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2579,
+   "title": "Fairy Fencer F: Refrain Chord",
+   "matchedTitle": "Fairy Fencer F: Refrain Chord",
+   "gameyeId": 139842,
+   "main": 35.85,
+   "extras": 56.33,
+   "completionist": null,
+   "evidence": "GameEye PS4 item 139842 (\"Fairy Fencer F: Refrain Chord\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2580,
+   "title": "Fallen Legion Revenants",
+   "matchedTitle": "Fallen Legion Revenants",
+   "gameyeId": 71622,
+   "main": 20,
+   "extras": null,
+   "completionist": null,
+   "evidence": "GameEye PS4 item 71622 (\"Fallen Legion Revenants\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2581,
+   "title": "G-Darius HD",
+   "matchedTitle": "G-Darius HD",
+   "gameyeId": 91131,
+   "main": 0.79,
+   "extras": 1.44,
+   "completionist": 5.2,
+   "evidence": "GameEye PS4 item 91131 (\"G-Darius HD\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2582,
+   "title": "G.I. Joe: Operation Blackout",
+   "matchedTitle": "G.I. Joe: Operation Blackout",
+   "gameyeId": 66366,
+   "main": 5.28,
+   "extras": 8.29,
+   "completionist": 15.38,
+   "evidence": "GameEye PS4 item 66366 (\"G.I. Joe: Operation Blackout\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2583,
+   "title": "Gal Guardians: Demon Purge",
+   "matchedTitle": "Gal Guardians: Demon Purge",
+   "gameyeId": 126371,
+   "main": 8.11,
+   "extras": 11.7,
+   "completionist": 17.37,
+   "evidence": "GameEye PS4 item 126371 (\"Gal Guardians: Demon Purge\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2584,
+   "title": "Gale Of Windoria",
+   "matchedTitle": "Gale Of Windoria",
+   "gameyeId": 147880,
+   "main": null,
+   "extras": 15.74,
+   "completionist": 19.96,
+   "evidence": "GameEye PS4 item 147880 (\"Gale Of Windoria\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2585,
+   "title": "Garden Life: A Cozy Simulator",
+   "matchedTitle": "Garden Life: A Cozy Simulator",
+   "gameyeId": 142996,
+   "main": 17.96,
+   "extras": 21.33,
+   "completionist": 30.09,
+   "evidence": "GameEye PS4 item 142996 (\"Garden Life: A Cozy Simulator\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2586,
+   "title": "Garden Simulator",
+   "matchedTitle": "Garden Simulator",
+   "gameyeId": 141981,
+   "main": 8,
+   "extras": null,
+   "completionist": 13.35,
+   "evidence": "GameEye PS4 item 141981 (\"Garden Simulator\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2587,
+   "title": "Garfield Lasagna Party",
+   "matchedTitle": "Garfield: Lasagna Party",
+   "gameyeId": 124771,
+   "main": 1.32,
+   "extras": 1.54,
+   "completionist": 1.75,
+   "evidence": "GameEye PS4 item 124771 (\"Garfield: Lasagna Party\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2588,
+   "title": "Gargoyles Remastered",
+   "matchedTitle": "Gargoyles: Remastered",
+   "gameyeId": 135407,
+   "main": 2.58,
+   "extras": null,
+   "completionist": null,
+   "evidence": "GameEye PS4 item 135407 (\"Gargoyles: Remastered\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2589,
+   "title": "Gear Club Unlimited 2",
+   "matchedTitle": "Gear.Club Unlimited 2 [Ultimate Edition]",
+   "gameyeId": 141272,
+   "main": 19.86,
+   "extras": 27.24,
+   "completionist": 37,
+   "evidence": "GameEye PS4 item 141272 (\"Gear.Club Unlimited 2 [Ultimate Edition]\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2590,
+   "title": "Gene Rain",
+   "matchedTitle": "Gene Rain",
+   "gameyeId": 162201,
+   "main": 3.43,
+   "extras": null,
+   "completionist": null,
+   "evidence": "GameEye PS4 item 162201 (\"Gene Rain\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2591,
+   "title": "Ghost Of A Tale",
+   "matchedTitle": "Ghost of a Tale",
+   "gameyeId": 54405,
+   "main": 11.44,
+   "extras": 15.27,
+   "completionist": 19.07,
+   "evidence": "GameEye PS4 item 54405 (\"Ghost of a Tale\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2592,
+   "title": "Ghost Recon: Breakpoint",
+   "matchedTitle": "Tom Clancy's Ghost Recon: Breakpoint",
+   "gameyeId": 55144,
+   "main": 23.21,
+   "extras": 54.58,
+   "completionist": 99.74,
+   "evidence": "GameEye PS4 item 55144 (\"Tom Clancy's Ghost Recon: Breakpoint\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2781,
+   "title": "Dragon Ball: The Breakers",
+   "matchedTitle": "Dragon Ball: The Breakers [Limited Edition]",
+   "gameyeId": 141961,
+   "main": null,
+   "extras": 14.55,
+   "completionist": 80.67,
+   "evidence": "GameEye PS4 item 141961 (\"Dragon Ball: The Breakers [Limited Edition]\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2789,
+   "title": "Double Dragon Gaiden: Rise of the Dragons",
+   "matchedTitle": "Double Dragon Gaiden: Rise of the Dragons",
+   "gameyeId": 130597,
+   "main": 2.12,
+   "extras": 5.49,
+   "completionist": 10.04,
+   "evidence": "GameEye PS4 item 130597 (\"Double Dragon Gaiden: Rise of the Dragons\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
    "action": "ADD_GAMEYE"
   }
  ]
