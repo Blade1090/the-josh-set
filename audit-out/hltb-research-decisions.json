@@ -915,6 +915,39 @@
    "action": "ADD_GAMEYE"
   },
   {
+   "id": 563,
+   "title": "Guilty Gear Xrd: Rev 2",
+   "matchedTitle": "Guilty Gear Xrd: Rev 2",
+   "gameyeId": 42777,
+   "main": 3.65,
+   "extras": 17.68,
+   "completionist": 85.61,
+   "evidence": "GameEye PS4 item 42777 (\"Guilty Gear Xrd: Rev 2\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 598,
+   "title": "Horizon Forbidden West [Launch Edition]",
+   "matchedTitle": "Horizon Forbidden West",
+   "gameyeId": 76690,
+   "main": 28.88,
+   "extras": 62.51,
+   "completionist": 89.77,
+   "evidence": "GameEye PS4 item 76690 (\"Horizon Forbidden West\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 656,
+   "title": "Kena: Bridge of Spirits [Deluxe Edition]",
+   "matchedTitle": "Kena: Bridge of Spirits [Deluxe Edition]",
+   "gameyeId": 72000,
+   "main": 10.27,
+   "extras": 14.41,
+   "completionist": 20.68,
+   "evidence": "GameEye PS4 item 72000 (\"Kena: Bridge of Spirits [Deluxe Edition]\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
    "id": 1580,
    "title": "Bit.Trip Presents...Runner2: Future Legend of Rhythm Alien",
    "matchedTitle": "Bit.Trip Presents...Runner2: Future Legend of Rhythm Alien [Limited Edition]",
@@ -926,6 +959,28 @@
    "action": "ADD_GAMEYE"
   },
   {
+   "id": 1646,
+   "title": "Is It Wrong To Try To Pick Up Girls In A Dungeon? - Infinite Combate",
+   "matchedTitle": "Is It Wrong to Try to Pick Up Girls in a Dungeon? Infinite Combate [Limited Edition]",
+   "gameyeId": 73305,
+   "main": 10.19,
+   "extras": null,
+   "completionist": 37,
+   "evidence": "GameEye PS4 item 73305 (\"Is It Wrong to Try to Pick Up Girls in a Dungeon? Infinite Combate [Limited Edition]\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 1848,
+   "title": "Itorah",
+   "matchedTitle": "Itorah",
+   "gameyeId": 152123,
+   "main": 8.06,
+   "extras": 8.59,
+   "completionist": 9.15,
+   "evidence": "GameEye PS4 item 152123 (\"Itorah\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
    "id": 1849,
    "title": "BROK: The InvestiGator",
    "matchedTitle": "BROK: The Investigator",
@@ -934,6 +989,17 @@
    "extras": 18.58,
    "completionist": 27.62,
    "evidence": "GameEye PS4 item 166800 (\"BROK: The Investigator\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 1889,
+   "title": "Karma: Incarnation 1",
+   "matchedTitle": "Karma. Incarnation 1",
+   "gameyeId": 116535,
+   "main": 2.52,
+   "extras": 4.36,
+   "completionist": 5.72,
+   "evidence": "GameEye PS4 item 116535 (\"Karma. Incarnation 1\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
    "action": "ADD_GAMEYE"
   },
   {
@@ -967,6 +1033,28 @@
    "extras": 3.82,
    "completionist": 5.41,
    "evidence": "GameEye PS4 item 91567 (\"Dark Nights with Poe and Munro\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2267,
+   "title": "Hot Wheels Unleashed",
+   "matchedTitle": "Hot Wheels Unleashed",
+   "gameyeId": 87208,
+   "main": 10.18,
+   "extras": 16.94,
+   "completionist": 36.24,
+   "evidence": "GameEye PS4 item 87208 (\"Hot Wheels Unleashed\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2268,
+   "title": "In Nightmare",
+   "matchedTitle": "In Nightmare",
+   "gameyeId": 140108,
+   "main": 7.65,
+   "extras": 12,
+   "completionist": 16.5,
+   "evidence": "GameEye PS4 item 140108 (\"In Nightmare\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
    "action": "ADD_GAMEYE"
   },
   {
@@ -1311,6 +1399,116 @@
    "action": "ADD_GAMEYE"
   },
   {
+   "id": 2311,
+   "title": "Gigabash",
+   "matchedTitle": "GigaBash",
+   "gameyeId": 153119,
+   "main": 2.51,
+   "extras": 4.04,
+   "completionist": 6.39,
+   "evidence": "GameEye PS4 item 153119 (\"GigaBash\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2312,
+   "title": "GrimGrimoire OnceMore",
+   "matchedTitle": "GrimGrimoire OnceMore [Deluxe Edition]",
+   "gameyeId": 115732,
+   "main": 10.16,
+   "extras": 15.72,
+   "completionist": 21.71,
+   "evidence": "GameEye PS4 item 115732 (\"GrimGrimoire OnceMore [Deluxe Edition]\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2313,
+   "title": "GYLT",
+   "matchedTitle": "Gylt",
+   "gameyeId": 139209,
+   "main": 5.86,
+   "extras": 7.17,
+   "completionist": 8.14,
+   "evidence": "GameEye PS4 item 139209 (\"Gylt\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2314,
+   "title": "Hoa",
+   "matchedTitle": "Hoa",
+   "gameyeId": 124004,
+   "main": 2.28,
+   "extras": 2.68,
+   "completionist": 2.71,
+   "evidence": "GameEye PS4 item 124004 (\"Hoa\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2315,
+   "title": "Horror Tales: The Wine",
+   "matchedTitle": "Horror Tales: The Wine",
+   "gameyeId": 101097,
+   "main": 2.92,
+   "extras": 2.92,
+   "completionist": 3.03,
+   "evidence": "GameEye PS4 item 101097 (\"Horror Tales: The Wine\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2318,
+   "title": "Katamari Damacy Reroll",
+   "matchedTitle": "Katamari Damacy REROLL",
+   "gameyeId": 69031,
+   "main": 4.55,
+   "extras": 5.51,
+   "completionist": 23.66,
+   "evidence": "GameEye PS4 item 69031 (\"Katamari Damacy REROLL\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2319,
+   "title": "KeyWe",
+   "matchedTitle": "KeyWe",
+   "gameyeId": 95098,
+   "main": 6.1,
+   "extras": 8.21,
+   "completionist": 15.17,
+   "evidence": "GameEye PS4 item 95098 (\"KeyWe\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2371,
+   "title": "Gintama Rumble",
+   "matchedTitle": "Gintama Rumble",
+   "gameyeId": 55290,
+   "main": 10.75,
+   "extras": 16.92,
+   "completionist": 52,
+   "evidence": "GameEye PS4 item 55290 (\"Gintama Rumble\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2385,
+   "title": "Headliner: NoviNews",
+   "matchedTitle": "Headliner: NoviNews",
+   "gameyeId": 101637,
+   "main": 2.35,
+   "extras": 4.55,
+   "completionist": 10.71,
+   "evidence": "GameEye PS4 item 101637 (\"Headliner: NoviNews\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2387,
+   "title": "Ketsui Deathtiny: Kizuna Jigoku Tachi",
+   "matchedTitle": "Ketsui Deathtiny: Kizuna Jigoku Tachi",
+   "gameyeId": 53903,
+   "main": 0.52,
+   "extras": 0.88,
+   "completionist": null,
+   "evidence": "GameEye PS4 item 53903 (\"Ketsui Deathtiny: Kizuna Jigoku Tachi\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
    "id": 2413,
    "title": "Bratz: Flaunt your Fashion",
    "matchedTitle": "Bratz: Flaunt your Fashion",
@@ -1377,6 +1575,17 @@
    "action": "ADD_GAMEYE"
   },
   {
+   "id": 2422,
+   "title": "Indiecalypse",
+   "matchedTitle": "indiecalypse",
+   "gameyeId": 67148,
+   "main": 3.27,
+   "extras": 4.44,
+   "completionist": 4.5,
+   "evidence": "GameEye PS4 item 67148 (\"indiecalypse\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
    "id": 2444,
    "title": "Antarctica 88",
    "matchedTitle": "Antarctica 88",
@@ -1418,6 +1627,17 @@
    "extras": 2.26,
    "completionist": null,
    "evidence": "GameEye PS4 item 140460 (\"Do Not Open\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2461,
+   "title": "Isonzo",
+   "matchedTitle": "Isonzo [Deluxe Edition]",
+   "gameyeId": 140458,
+   "main": 12.1,
+   "extras": 19.41,
+   "completionist": 115,
+   "evidence": "GameEye PS4 item 140458 (\"Isonzo [Deluxe Edition]\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
    "action": "ADD_GAMEYE"
   },
   {
@@ -2342,6 +2562,303 @@
    "extras": 54.58,
    "completionist": 99.74,
    "evidence": "GameEye PS4 item 55144 (\"Tom Clancy's Ghost Recon: Breakpoint\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2593,
+   "title": "Ghost Song",
+   "matchedTitle": "Ghost Song",
+   "gameyeId": 133127,
+   "main": 9.73,
+   "extras": 12.46,
+   "completionist": 18.82,
+   "evidence": "GameEye PS4 item 133127 (\"Ghost Song\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2596,
+   "title": "Ginger Beyond the Crystal",
+   "matchedTitle": "Ginger: Beyond the Crystal",
+   "gameyeId": 37557,
+   "main": 9,
+   "extras": 9.75,
+   "completionist": 11.28,
+   "evidence": "GameEye PS4 item 37557 (\"Ginger: Beyond the Crystal\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2597,
+   "title": "Girls und Panzer: Dream Tank Match",
+   "matchedTitle": "Girls und Panzer: Dream Tank Match",
+   "gameyeId": 53733,
+   "main": 5.96,
+   "extras": 14.75,
+   "completionist": 32.83,
+   "evidence": "GameEye PS4 item 53733 (\"Girls und Panzer: Dream Tank Match\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2598,
+   "title": "Hand Of Fate 2",
+   "matchedTitle": "Hand of Fate 2",
+   "gameyeId": 58319,
+   "main": 22.2,
+   "extras": 43.13,
+   "completionist": 106.76,
+   "evidence": "GameEye PS4 item 58319 (\"Hand of Fate 2\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2599,
+   "title": "Harry Potter: Quidditch Champions",
+   "matchedTitle": "Harry Potter: Quidditch Champions",
+   "gameyeId": 155717,
+   "main": 7.13,
+   "extras": 10.44,
+   "completionist": 23.15,
+   "evidence": "GameEye PS4 item 155717 (\"Harry Potter: Quidditch Champions\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2600,
+   "title": "Harvest Moon: One World",
+   "matchedTitle": "Harvest Moon: One World",
+   "gameyeId": 73018,
+   "main": 24.53,
+   "extras": 36.06,
+   "completionist": 60,
+   "evidence": "GameEye PS4 item 73018 (\"Harvest Moon: One World\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2601,
+   "title": "Harvest Moon: The Winds of Anthos",
+   "matchedTitle": "Harvest Moon: The Winds of Anthos",
+   "gameyeId": 139846,
+   "main": 48.01,
+   "extras": null,
+   "completionist": 150,
+   "evidence": "GameEye PS4 item 139846 (\"Harvest Moon: The Winds of Anthos\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2602,
+   "title": "Heart & Slash",
+   "matchedTitle": "Heart&Slash",
+   "gameyeId": 37584,
+   "main": 6.12,
+   "extras": 16.1,
+   "completionist": 25.83,
+   "evidence": "GameEye PS4 item 37584 (\"Heart&Slash\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2603,
+   "title": "Heart Of The Woods",
+   "matchedTitle": "Heart of the Woods",
+   "gameyeId": 146656,
+   "main": 7.43,
+   "extras": 7.45,
+   "completionist": 8.64,
+   "evidence": "GameEye PS4 item 146656 (\"Heart of the Woods\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2604,
+   "title": "Hentai Vs. Evil",
+   "matchedTitle": "Hentai vs. Evil",
+   "gameyeId": 90490,
+   "main": 0.59,
+   "extras": 1.17,
+   "completionist": 1.5,
+   "evidence": "GameEye PS4 item 90490 (\"Hentai vs. Evil\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2605,
+   "title": "Hidden Dragon Legend",
+   "matchedTitle": "Hidden Dragon Legend",
+   "gameyeId": 51828,
+   "main": 5.46,
+   "extras": 7.25,
+   "completionist": null,
+   "evidence": "GameEye PS4 item 51828 (\"Hidden Dragon Legend\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2608,
+   "title": "Hogwarts Legacy",
+   "matchedTitle": "Hogwarts Legacy",
+   "gameyeId": 106580,
+   "main": 26.71,
+   "extras": 45.29,
+   "completionist": 71.79,
+   "evidence": "GameEye PS4 item 106580 (\"Hogwarts Legacy\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2609,
+   "title": "Hokko Life",
+   "matchedTitle": "Hokko Life",
+   "gameyeId": 101863,
+   "main": 7.11,
+   "extras": 25.47,
+   "completionist": 30.06,
+   "evidence": "GameEye PS4 item 101863 (\"Hokko Life\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2611,
+   "title": "Inescapable: No Rules, No Rescue",
+   "matchedTitle": "Inescapable: No Rules, No Rescue",
+   "gameyeId": 142630,
+   "main": 13.02,
+   "extras": 35.9,
+   "completionist": 65,
+   "evidence": "GameEye PS4 item 142630 (\"Inescapable: No Rules, No Rescue\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2612,
+   "title": "Infinite Links",
+   "matchedTitle": "Infinite Links",
+   "gameyeId": 148012,
+   "main": 4.67,
+   "extras": 23.39,
+   "completionist": 33.56,
+   "evidence": "GameEye PS4 item 148012 (\"Infinite Links\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2613,
+   "title": "Infinity Strash: Dragon Quest The Adventure of Dai",
+   "matchedTitle": "Infinity Strash: Dragon Quest The Adventure of Dai",
+   "gameyeId": 140281,
+   "main": 10.55,
+   "extras": 19.92,
+   "completionist": 44.1,
+   "evidence": "GameEye PS4 item 140281 (\"Infinity Strash: Dragon Quest The Adventure of Dai\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2614,
+   "title": "Inspector Gadget: Mad Time Party",
+   "matchedTitle": "Inspector Gadget: Mad Time Party",
+   "gameyeId": 142634,
+   "main": 1.42,
+   "extras": 1.67,
+   "completionist": 1.87,
+   "evidence": "GameEye PS4 item 142634 (\"Inspector Gadget: Mad Time Party\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2615,
+   "title": "Insurgency Sandstorm",
+   "matchedTitle": "Insurgency: Sandstorm",
+   "gameyeId": 48652,
+   "main": 21.6,
+   "extras": 65.5,
+   "completionist": 364.92,
+   "evidence": "GameEye PS4 item 48652 (\"Insurgency: Sandstorm\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2616,
+   "title": "Intruders: Hide And Seek",
+   "matchedTitle": "Intruders: Hide and Seek",
+   "gameyeId": 58271,
+   "main": 2.65,
+   "extras": 3.24,
+   "completionist": 3.38,
+   "evidence": "GameEye PS4 item 58271 (\"Intruders: Hide and Seek\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2620,
+   "title": "Jitsu Squad",
+   "matchedTitle": "Jitsu Squad",
+   "gameyeId": 107255,
+   "main": 2.59,
+   "extras": 3.7,
+   "completionist": 5.1,
+   "evidence": "GameEye PS4 item 107255 (\"Jitsu Squad\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2622,
+   "title": "JoJo's Bizarre Adventure: All-Star Battle R",
+   "matchedTitle": "JoJo's Bizarre Adventure: All-Star Battle R",
+   "gameyeId": 99988,
+   "main": 8.05,
+   "extras": 14.97,
+   "completionist": 35.33,
+   "evidence": "GameEye PS4 item 99988 (\"JoJo's Bizarre Adventure: All-Star Battle R\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2624,
+   "title": "Jujutsu Kaisen: Cursed Clash",
+   "matchedTitle": "Jujutsu Kaisen: Cursed Clash",
+   "gameyeId": 143001,
+   "main": 4.46,
+   "extras": 10.83,
+   "completionist": 26.26,
+   "evidence": "GameEye PS4 item 143001 (\"Jujutsu Kaisen: Cursed Clash\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 1 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2626,
+   "title": "Just Die Already",
+   "matchedTitle": "Just Die Already",
+   "gameyeId": 75706,
+   "main": 3.38,
+   "extras": 7.41,
+   "completionist": 12.43,
+   "evidence": "GameEye PS4 item 75706 (\"Just Die Already\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2633,
+   "title": "Kaze and the Wild Masks",
+   "matchedTitle": "Kaze and the Wild Masks",
+   "gameyeId": 75738,
+   "main": 5.14,
+   "extras": 7.37,
+   "completionist": 10.37,
+   "evidence": "GameEye PS4 item 75738 (\"Kaze and the Wild Masks\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2634,
+   "title": "Killer Frequency",
+   "matchedTitle": "Killer Frequency",
+   "gameyeId": 126601,
+   "main": 5.1,
+   "extras": 5.79,
+   "completionist": 11.9,
+   "evidence": "GameEye PS4 item 126601 (\"Killer Frequency\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2637,
+   "title": "King Of Fighters XIII: Global Match",
+   "matchedTitle": "King of Fighters XIII: Global Match",
+   "gameyeId": 141030,
+   "main": 1.9,
+   "extras": null,
+   "completionist": null,
+   "evidence": "GameEye PS4 item 141030 (\"King of Fighters XIII: Global Match\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
+   "action": "ADD_GAMEYE"
+  },
+  {
+   "id": 2638,
+   "title": "King Of Fighters XV",
+   "matchedTitle": "King of Fighters XV",
+   "gameyeId": 86928,
+   "main": 1.08,
+   "extras": 15.71,
+   "completionist": 188.25,
+   "evidence": "GameEye PS4 item 86928 (\"King of Fighters XV\") exact normalized title/alias match; HLTB block main_story/main_sides/completionist (seconds -> hours); 2 PS4 record(s) with HLTB data, all identical",
    "action": "ADD_GAMEYE"
   },
   {
