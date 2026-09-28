@@ -61,10 +61,11 @@
    "fallback": 8
   },
   "hltb": {
-   "VERIFIED": 1709,
-   "LIKELY": 84,
-   "NO_VERIFIED_MATCH": 594,
-   "EXCEPTION": 22
+   "VERIFIED": 1800,
+   "EXCEPTION": 22,
+   "NO_VERIFIED_MATCH": 546,
+   "VERIFIED_INHERITED": 40,
+   "REJECTED": 1
   }
  },
  "phases": {
@@ -72,7 +73,7 @@
   "1": "done",
   "2": "done",
   "3": "in progress",
-  "4": "pending"
+  "4": "doc drafted"
  },
  "batches": [
   {
@@ -156,8 +157,8 @@
    "gate": "0 lost excluding blocked-host flakes: [1809 Ground Zero: Texas, GameFAQs 403, URL unchanged]"
   }
  ],
- "updated": "2026-09-28T14:42:18+00:00",
- "next": "Phase 3: HLTB runtime audit repair",
+ "updated": "2026-09-28T15:17:44+00:00",
+ "next": "Phase 3: resume GameEye crawl hourly (loop running), then rebuild layer; final validation + PR",
  "phase1": {
   "realCoversGained": 14,
   "syntheticCandidates": {
@@ -199,9 +200,17 @@
     "random-cover-stability-test (DOM stub setAttribute/classList + real coverFor expectation + shared mutators)",
     "pwa-precache-consistency-test (sw.js precache resynced: +32 missing, -2 stale)"
    ],
-   "stillFailingOnMainAndBranch": [
-    "search-initialism-test (guardrail counts stale vs census)"
-   ]
+   "stillFailingOnMainAndBranch": [],
+   "note": "search-initialism passes on the branch (its guardrail counts match the corrected 2409 census)"
   }
+ },
+ "phase3": {
+  "gameyeBridge": {
+   "diagnosis": "deep_search ignores platform filters (bulk fetch saw 2 PS4 products) and item detail HLTB is hltb.{main_story,main_sides,completionist} in SECONDS; old fetcher read averagePlaytime/h.main as hours -> empty bridge",
+   "repair": "tools/gameye-hltb-title-fetch.mjs (per-title PS4 search); GameEye /items has an hourly quota -> crawler stops and resumes hourly",
+   "validation": "GameEye vs existing HLTB data: median 0.8% main-story difference over 10 games, all within 10%"
+  },
+  "hltbDirect": "howlongtobeat.com opts out of Anthropic crawlers; not fetched (one early manual check made before this was known)",
+  "likelyReview": "84 reviewed: 82 verified (42 MANUAL_OK, 40 INHERITED_OK), 1 rejected (World of Warships: Legends), 1 withheld (Musynx)"
  }
 }
