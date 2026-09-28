@@ -1,12 +1,13 @@
 {
-  "generatedAt": "2026-09-25T21:28:49.720Z",
-  "included": 2407,
+  "generatedAt": "2026-09-28T14:06:42.534Z",
+  "included": 2409,
   "counts": {
     "CURATED_ID": 4,
     "CURATED_TITLE": 135,
     "GAMEYE": 935,
     "LAUNCHBOX_BOX_FRONT": 688,
     "LEGACY_IGDB": 189,
+    "MISSING": 2,
     "PRICECHARTING_BOX_FRONT": 409,
     "PRODUCT_BOX_FRONT": 47
   },
@@ -3858,6 +3859,12 @@
       "url": "https://images.launchbox-app.com/5a3327c8-c0c5-4384-a212-26cb6fcc62eb.jpg"
     },
     {
+      "id": 2789,
+      "title": "Double Dragon Gaiden: Rise of the Dragons",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 394,
       "title": "Double Dragon IV",
       "source": "GAMEYE",
@@ -7342,6 +7349,12 @@
       "title": "Marvel's Avengers",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/12109030-c743-4207-b020-afa2a25e871f.jpg"
+    },
+    {
+      "id": 2788,
+      "title": "Marvel's Guardians of the Galaxy",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 745,

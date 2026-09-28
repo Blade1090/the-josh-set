@@ -1,28 +1,39 @@
 {
-  "generatedAt": "2026-09-25T21:42:45.650Z",
+  "generatedAt": "2026-09-28T14:06:42.534Z",
   "summary": {
-    "generatedAt": "2026-09-25T21:42:45.650Z",
-    "included": 2407,
-    "good": 2176,
+    "generatedAt": "2026-09-28T14:06:42.534Z",
+    "included": 2409,
+    "good": 2177,
     "fallback": 8,
-    "review": 207,
-    "watch": 16,
+    "review": 210,
+    "watch": 14,
     "physicalVerify": 205,
-    "physicalLikely": 1398,
-    "physicalConfirmed": 804,
+    "physicalLikely": 1399,
+    "physicalConfirmed": 805,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
+      "missing_cover": 2,
       "key_art_only": 189,
-      "missing_ps4_banner": 18
+      "missing_ps4_banner": 19
     },
     "watchByReason": {
-      "image_fetch_failed": 16
+      "image_fetch_failed": 14
     }
   },
   "review": [
+    {
+      "id": 2789,
+      "title": "Double Dragon Gaiden: Rise of the Dragons",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2788,
+      "title": "Marvel's Guardians of the Galaxy",
+      "reason": "missing_cover"
+    },
     {
       "id": 2037,
       "title": "9th Dawn III",
@@ -979,6 +990,11 @@
       "reason": "missing_ps4_banner"
     },
     {
+      "id": 1685,
+      "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
+      "reason": "missing_ps4_banner"
+    },
+    {
       "id": 291,
       "title": "Damascus Gear: Operation Osaka",
       "reason": "missing_ps4_banner"
@@ -1123,11 +1139,6 @@
       "reason": "image_fetch_failed"
     },
     {
-      "id": 1809,
-      "title": "Ground Zero: Texas",
-      "reason": "image_fetch_failed"
-    },
-    {
       "id": 1971,
       "title": "Jim Power: The Lost Dimension",
       "reason": "image_fetch_failed"
@@ -1150,11 +1161,6 @@
     {
       "id": 2429,
       "title": "Noob: Les Sans-Factions",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 1685,
-      "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
       "reason": "image_fetch_failed"
     },
     {

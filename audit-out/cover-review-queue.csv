@@ -1,4 +1,6 @@
 id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason,bannerColumnSpan,bannerPixelRatio,url
+2789,Double Dragon Gaiden: Rise of the Dragons,MISSING,REVIEW,missing_cover,VERIFY,,,,,
+2788,Marvel's Guardians of the Galaxy,MISSING,REVIEW,missing_cover,VERIFY,,,,,
 2037,9th Dawn III,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2hpn.jpg
 2077,American Hero,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co3w2u.jpg
 1579,Back to the Future: The Game,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co5z46.jpg
@@ -190,6 +192,7 @@ id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason
 2240,Zero Tolerance Collection,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co4woj.jpg
 1497,Chants of Sennaar,GAMEYE,REVIEW,missing_ps4_banner,LIKELY,,,0.0,0.0,https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/143584_2ee8b262-a72c-4675-b8b7-5e2bc18b463f.webp
 1631,GunLord X,GAMEYE,REVIEW,missing_ps4_banner,LIKELY,,,0.0,0.0,https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/576a01f1-b6ea-4abc-bf49-7e3cd1a2b2c3.webp
+1685,Oddworld: Abe's Oddysee - New 'n' Tasty,CURATED_TITLE,REVIEW,missing_ps4_banner,LIKELY,FIXED,,0.0,0.0,https://gamefaqs.gamespot.com/a/box/8/5/8/790858_front.jpg
 291,Damascus Gear: Operation Osaka,CURATED_ID,REVIEW,missing_ps4_banner,LIKELY,,,0.015151515151515152,0.0008116883116883117,https://images.igdb.com/igdb/image/upload/t_cover_big/co1udg.jpg
 1999,Streets of Red,CURATED_TITLE,REVIEW,missing_ps4_banner,LIKELY,FIXED,,0.016666666666666666,0.00020833333333333335,https://limitedrungames.com/cdn/shop/products/AssetTemplateSER_PS4.png?height=1080&v=1579552336
 1850,Lost Ruins,GAMEYE,REVIEW,missing_ps4_banner,LIKELY,,,0.24722222222222223,0.009351851851851853,https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/b1d7a4b3-8051-4e58-bfac-8d3579ce6371.webp
@@ -218,13 +221,11 @@ id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason
 2288,Blazing Beaks,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/8/1/3/796813_front.jpg
 1969,Cannon Dancer,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/4/9/5/906495_front.jpg
 2471,Get Star / Guardian,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/7/4/5/825745_front.jpg
-1809,Ground Zero: Texas,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,,,,,https://gamefaqs.gamespot.com/a/box/8/5/3/808853_front.jpg
 1971,Jim Power: The Lost Dimension,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,,,,,https://gamefaqs.gamespot.com/a/box/3/0/7/874307_front.jpg
 2469,Kyukyoku Tiger / Twin Cobra,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/7/4/5/825745_front.jpg
 1665,Maldita Castilla EX: Cursed Castilla,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,,,,,https://gamefaqs.gamespot.com/a/box/3/2/6/646326_front.jpg
 2242,Ninja JaJaMaru Legendary Ninja Collection,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/3/9/0/904390_front.jpg
 2429,Noob: Les Sans-Factions,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/7/0/8/1025708_front.jpg
-1685,Oddworld: Abe's Oddysee - New 'n' Tasty,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/8/5/8/790858_front.jpg
 2695,Q.U.B.E.,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/8/4/3/892843_front.jpg
 2696,Quintessential Quintuplets Fives Memories With You,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/0/8/1/1150081_front.jpg
 1753,The First Tree: Console Edition,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/7/7/9/851779_front.jpg

@@ -23,40 +23,15 @@ import path from 'node:path';
 import vm from 'node:vm';
 import zlib from 'node:zlib';
 import { fileURLToPath } from 'node:url';
+import { indexScripts, censusMutators } from './lib/runtime-census.mjs';
 
 const REPO = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 
-// Every <script> tag in index.html that can mutate census item membership/status, paired
-// with its real (1-indexed) tag position -- kept in sync with index.html by hand; if a new
-// census-mutating script is added, add its filename + tag position here too.
-const MUTATORS = [
-  ['census-cleanup.js', 5],
-  ['census-v034.js', 54],
-  ['census-collapse-v035.js', 55],
-  ['census-v035-final.js', 56],
-  ['census-v040-pricing-audit.js', 57],
-  ['census-v052-pricecharting-negative-space.js', 58],
-  ['census-v053-pricecharting-regional-sweep.js', 59],
-  ['census-v054-pricecharting-collection-gap.js', 60],
-  ['census-v055-pricecharting-ab-sweep.js', 61],
-  ['census-v056-pricecharting-cf-sweep.js', 62],
-  ['census-v057-pricecharting-gl-sweep.js', 63],
-  ['census-v058-pricecharting-mr-sweep.js', 64],
-  ['census-v059-pricecharting-sz-sweep.js', 65],
-  ['census-physical-omission-pass-v001.js', 66],
-  ['census-physical-omission-pass-v002.js', 67],
-  ['census-physical-omission-pass-v003.js', 68],
-  ['census-v060-integrity-scrub.js', 69],
-  ['census-integrity-pass-v001.js', 70],
-  ['census-integrity-pass-v002.js', 71],
-  ['ownership-reconcile-v071.js', 72],
-  ['ownership-reconcile-v072.js', 73],
-  ['curation-josh-set-pass-v001.js', 74],
-  ['curation-josh-set-pass-v002.js', 75],
-  ['curation-josh-set-pass-v003.js', 76],
-  ['curation-josh-set-pass-v004.js', 77],
-  ['census-finalize.js', 78],
-];
+// Every <script> tag in index.html that can mutate census membership, paired with its real
+// (1-indexed) tag position, derived from index.html itself (tools/lib/runtime-census.mjs) so a
+// newly wired census script can never silently drift out of this test.
+const TAGS = indexScripts(REPO);
+const MUTATORS = [...censusMutators(REPO), 'census-finalize.js'].map((f) => [f, TAGS.indexOf(f) + 1]);
 
 // Known conflict identities: added by a v052-059 sweep script under an id that also matches
 // an existing exclusion/dedup rule elsewhere (census-cleanup.js's EXCLUDE map, in every case
@@ -70,7 +45,13 @@ const KNOWN_CONFLICT_IDS = [2310, 2394, 2421, 2472, 2571, 2713, 2714, 2734, 2743
 // census on every single run -- this is the exact class of bug reported for Made in Abyss:
 // Binary Star Falling into Darkness (id 2785, census-physical-omission-pass-v003.js): it must
 // never silently disappear again regardless of script/network timing.
-const KNOWN_REQUIRED_IDS = [{ id: 2785, title: 'Made in Abyss: Binary Star Falling into Darkness' }];
+const KNOWN_REQUIRED_IDS = [
+  { id: 2785, title: 'Made in Abyss: Binary Star Falling into Darkness' },
+  // 2026-09-28: pass-v004 once reused id 2787 (reserved by census-finalize.js for Catlateral
+  // Damage: Remeowstered), which silently dropped Catlateral from the census. Both must stay.
+  { id: 2787, title: 'Catlateral Damage: Remeowstered' },
+  { id: 2789, title: 'Double Dragon Gaiden: Rise of the Dragons' },
+];
 
 function norm(s) {
   return String(s ?? '').normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase()
@@ -171,6 +152,7 @@ function runOneLoad(DATA0, dataDelayMs) {
       resolve({
         included: included.length,
         includedIds: new Set(included.map((x) => x.id)),
+        titles: new Map(included.map((x) => [x.id, x.title])),
         satisfied: satisfied.size,
         freezeHeld,
         errors,
@@ -216,7 +198,7 @@ async function main() {
     if (lastRun.includedIds.has(id)) fail(`Known conflict identity id=${id} was INCLUDED (must always be EXCLUDED by an existing rule)`);
   }
   for (const { id, title } of KNOWN_REQUIRED_IDS) {
-    if (!lastRun.includedIds.has(id)) fail(`Known required identity id=${id} ("${title}") was NOT included (must always be INCLUDED -- confirmed real physical release, do not let this silently disappear again)`);
+    if (!lastRun.includedIds.has(id) || (lastRun.titles && lastRun.titles.get(id) !== title)) fail(`Known required identity id=${id} ("${title}") was NOT included (must always be INCLUDED -- confirmed real physical release, do not let this silently disappear again)`);
   }
 
   if (!failed) {

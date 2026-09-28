@@ -1,0 +1,80 @@
+{
+ "branch": "shelfcheck-monday-finish-line",
+ "mainSha": "7b636dea12351c365fce3f6cae736cba27986ed8",
+ "baseline": {
+  "censusIncluded": {
+   "runtimeOnMain": 2408,
+   "coverAuditOnMain": 2407,
+   "note": "cover-source-audit.mjs used a stale hand-kept mutator list (missed census-physical-omission-pass-v004 / ownership-reconcile-v073); census-determinism-test reported 2460 from an even staler list. True runtime census on main = 2408, and it was hiding an id collision (below)."
+  },
+  "covers2407OldAudit": {
+   "good": 2176,
+   "review": 208,
+   "watch": 15,
+   "fallback": 8
+  },
+  "covers2408": {
+   "good": 2176,
+   "review": 208,
+   "watch": 16,
+   "fallback": 8
+  },
+  "hltb2408": {
+   "VERIFIED": 1708,
+   "LIKELY": 84,
+   "NO_VERIFIED_MATCH": 593,
+   "EXCEPTION": 22,
+   "SUSPICIOUS": 1
+  },
+  "testsOnMain": {
+   "pass": [
+    "buy-tool-verdict",
+    "census-determinism",
+    "gameeye-import",
+    "gameeye-reconcile-on-load",
+    "gameeye-sync",
+    "gameeye-wishlist-seed",
+    "my-shelf-superlatives",
+    "shelf-roulette-pick",
+    "wishlist-random",
+    "wishlist"
+   ],
+   "fail": [
+    "pwa-precache-consistency (stale sw.js list)",
+    "random-cover-stability (lightbox.setAttribute DOM stub)",
+    "search-initialism (guardrail counts)"
+   ]
+  },
+  "cleanTree": true
+ },
+ "censusFix": {
+  "approvedBy": "Josh 2026-09-28",
+  "issue": "census-physical-omission-pass-v004 added Double Dragon Gaiden with id 2787, reserved for Catlateral Damage: Remeowstered by census-finalize/curation v007/price-nrd-cleanup-v091. Catlateral was dropped and DDG inherited its alias, HLTB, $24.99 price and collection link.",
+  "fix": "Double Dragon Gaiden -> id 2789. INCLUDED 2408 -> 2409."
+ },
+ "current": {
+  "censusIncluded": 2409,
+  "covers": {
+   "good": 2177,
+   "review": 210,
+   "watch": 14,
+   "fallback": 8
+  },
+  "hltb": {
+   "VERIFIED": 1709,
+   "LIKELY": 84,
+   "NO_VERIFIED_MATCH": 594,
+   "EXCEPTION": 22
+  }
+ },
+ "phases": {
+  "0": "done",
+  "1": "in progress",
+  "2": "pending",
+  "3": "pending",
+  "4": "pending"
+ },
+ "batches": [],
+ "updated": "2026-09-28T14:09:19+00:00",
+ "next": "Phase 1: WATCH replacements, flat-front trims (visually verified), residual real sources; then synthetic-cover-candidates.json"
+}

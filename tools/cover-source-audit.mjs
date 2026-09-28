@@ -1,26 +1,10 @@
 import fs from 'node:fs';
-import zlib from 'node:zlib';
 import vm from 'node:vm';
 
-const norm=s=>String(s??'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[’'`]/g,'').replaceAll('&',' and ').match(/[a-z0-9]+/g)?.join(' ')||'';
-const b64=['data0.txt','data1.txt','data2.txt','data3a.txt','data3b.txt'].map(x=>fs.readFileSync(x,'utf8')).join('').trim();
-const DATA=JSON.parse(zlib.gunzipSync(Buffer.from(b64,'base64')).toString('utf8'));
-let items=DATA.i.map(r=>({id:r[0],title:r[1],set:r[2],baseline:r[3],strong:r[4],target:r[5],max:r[6],search:norm(r[1])}));
-let byId=new Map(items.map(x=>[x.id,x]));
-const aliasesById=new Map();for(const [a,id] of DATA.a||[]){if(!aliasesById.has(id))aliasesById.set(id,[]);aliasesById.get(id).push(a)}
-const productMap=new Map(),reverseProducts=new Map();
-const fakeEl={textContent:'',dataset:{},querySelectorAll:()=>[],querySelector:()=>null,addEventListener:()=>{},appendChild:()=>{},style:{}};
-const document={querySelector:()=>fakeEl,querySelectorAll:()=>[],createElement:()=>({...fakeEl}),addEventListener:()=>{},readyState:'complete',head:{appendChild:()=>{}},body:{appendChild:()=>{}}};
-const ctx={DATA,items,byId,norm,aliasesById,productMap,reverseProducts,window:{},console,document,ownedSet:new Set(),productSet:new Set(),stateCache:{owned:[],products:[],prices:[]},filter:'ALL',$:()=>fakeEl,progress:()=>{},resetBrowse:()=>{},saveState:s=>{ctx.stateCache=s},loadState:()=>ctx.stateCache,setTimeout,clearTimeout,setInterval,clearInterval,censusFinalized:false,censusQueue:{add:[],exclude:[]}};
-ctx.registerCensusMutation=(phase,fn)=>{if(ctx.censusFinalized)throw new Error(`late census mutation ${phase}`);ctx.censusQueue[phase].push(fn)};
-ctx.dataReady=Promise.resolve();vm.createContext(ctx);
-const mutators=['census-cleanup.js','census-v034.js','census-collapse-v035.js','census-v035-final.js','census-v040-pricing-audit.js','census-v052-pricecharting-negative-space.js','census-v053-pricecharting-regional-sweep.js','census-v054-pricecharting-collection-gap.js','census-v055-pricecharting-ab-sweep.js','census-v056-pricecharting-cf-sweep.js','census-v057-pricecharting-gl-sweep.js','census-v058-pricecharting-mr-sweep.js','census-v059-pricecharting-sz-sweep.js','census-physical-omission-pass-v001.js','census-physical-omission-pass-v002.js','census-physical-omission-pass-v003.js','census-v060-integrity-scrub.js','census-integrity-pass-v001.js','census-integrity-pass-v002.js','ownership-reconcile-v071.js','ownership-reconcile-v072.js','curation-josh-set-pass-v001.js','curation-josh-set-pass-v002.js','curation-josh-set-pass-v003.js','curation-josh-set-pass-v004.js','curation-josh-set-pass-v005.js','curation-josh-set-pass-v006.js'];
-for(const f of mutators){if(fs.existsSync(f))vm.runInContext(fs.readFileSync(f,'utf8'),ctx,{filename:f});}
-for(const fn of ctx.censusQueue.add)fn();for(const fn of ctx.censusQueue.exclude)fn();ctx.censusQueue.add.length=0;ctx.censusQueue.exclude.length=0;
-for(const t of ['God Eater Resurrection','Atelier Ayesha: The Alchemist of Dusk DX','Atelier Escha & Logy: Alchemists of the Dusk Sky DX','Atelier Shallie: Alchemists of the Dusk Sea DX','Occultic;Nine']){const x=ctx.items.find(v=>norm(v.title)===norm(t));if(x)x.set='EXCLUDED'}
-const oldCat=ctx.byId.get(237)||ctx.items.find(v=>norm(v.title)===norm('Catlateral Damage'));if(oldCat)oldCat.set='EXCLUDED';
-if(!ctx.byId.get(2787)){const cat={id:2787,title:'Catlateral Damage: Remeowstered',set:'INCLUDED',baseline:'NEEDED',strong:null,target:null,max:24.99,search:norm('Catlateral Damage: Remeowstered')};ctx.items.push(cat);ctx.byId.set(cat.id,cat)}
-items=ctx.items;byId=ctx.byId;
+import { loadRuntimeCensus, norm } from './lib/runtime-census.mjs';
+// Finalized runtime census (index.html mutator order + census-finalize.js), shared with the HLTB audit.
+const census=await loadRuntimeCensus();
+let items=census.items,byId=census.byId;
 function evalText(text,file,seed={}){const c={window:{...seed},console};vm.createContext(c);vm.runInContext(text,c,{filename:file});return c.window}
 function evalFile(file,seed={}){return evalText(fs.readFileSync(file,'utf8'),file,seed)}
 const manifest=evalFile('covers-manifest.js');

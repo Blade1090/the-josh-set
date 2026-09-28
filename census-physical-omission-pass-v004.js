@@ -29,7 +29,9 @@
       items.push(x);byId.set(id,x);added.push(title);return x;
     };
 
-    ensureIdentity(2787,'Double Dragon Gaiden: Rise of the Dragons','Confirmed qualifying physical PS4 release: Modus Games / Secret Base, July 27 2023. PlayStation official trailer advertised physical pre-orders for PS4; retail PS4 SKU CUSA-42935 / UPC 814290019037. Surfaced by Josh\'s 2026-09-26 GameEye unresolved queue and verified absent from the current census before adding.');
+    // id 2789 (not 2787): 2787 is reserved for Catlateral Damage: Remeowstered by census-finalize.js,
+    // curation v007 and price-nrd-cleanup-v091. Curator-approved re-id 2026-09-28.
+    ensureIdentity(2789,'Double Dragon Gaiden: Rise of the Dragons','Confirmed qualifying physical PS4 release: Modus Games / Secret Base, July 27 2023. PlayStation official trailer advertised physical pre-orders for PS4; retail PS4 SKU CUSA-42935 / UPC 814290019037. Surfaced by Josh\'s 2026-09-26 GameEye unresolved queue and verified absent from the current census before adding.');
     ensureIdentity(2788,"Marvel's Guardians of the Galaxy",'Confirmed qualifying physical PS4 release: Eidos-Montreal / Square Enix, October 26 2021. Sony PlayStation Store explicitly documents PS4-disc owners inserting the disc to use the PS5 digital upgrade; distinct playable identity from the 2017 Telltale Series game already represented in the census. Verified absent from the current census before adding.');
 
     window.SHELFCHECK_PHYSICAL_OMISSION_PASS_V004={added};
