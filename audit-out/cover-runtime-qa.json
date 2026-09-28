@@ -1,39 +1,28 @@
 {
-  "generatedAt": "2026-09-28T14:06:42.534Z",
+  "generatedAt": "2026-09-28T14:20:33.335Z",
   "summary": {
-    "generatedAt": "2026-09-28T14:06:42.534Z",
+    "generatedAt": "2026-09-28T14:20:33.335Z",
     "included": 2409,
-    "good": 2177,
+    "good": 2190,
     "fallback": 8,
-    "review": 210,
-    "watch": 14,
-    "physicalVerify": 205,
-    "physicalLikely": 1399,
-    "physicalConfirmed": 805,
+    "review": 196,
+    "watch": 15,
+    "physicalVerify": 193,
+    "physicalLikely": 1400,
+    "physicalConfirmed": 816,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "missing_cover": 2,
-      "key_art_only": 189,
-      "missing_ps4_banner": 19
+      "key_art_only": 178,
+      "missing_ps4_banner": 18
     },
     "watchByReason": {
-      "image_fetch_failed": 14
+      "image_fetch_failed": 15
     }
   },
   "review": [
-    {
-      "id": 2789,
-      "title": "Double Dragon Gaiden: Rise of the Dragons",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2788,
-      "title": "Marvel's Guardians of the Galaxy",
-      "reason": "missing_cover"
-    },
     {
       "id": 2037,
       "title": "9th Dawn III",
@@ -175,11 +164,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2419,
-      "title": "Eldrador Creatures",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1950,
       "title": "Empire of Angels IV",
       "reason": "key_art_only"
@@ -245,11 +229,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2313,
-      "title": "GYLT",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1953,
       "title": "Habroxia 2",
       "reason": "key_art_only"
@@ -297,16 +276,6 @@
     {
       "id": 1661,
       "title": "Lode Runner Legacy",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2014,
-      "title": "LUNARK",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2651,
-      "title": "MADO MONOGATARI: Fia And The Wondrous Academy",
       "reason": "key_art_only"
     },
     {
@@ -415,18 +384,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2671,
-      "title": "On the Road: Truck Simulator",
-      "reason": "key_art_only"
-    },
-    {
       "id": 872,
       "title": "One Step From Eden",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2450,
-      "title": "Open Country",
       "reason": "key_art_only"
     },
     {
@@ -620,11 +579,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1870,
-      "title": "Skautfold: Usurper",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1731,
       "title": "Skulls of the Shogun: Bone-a-Fide Edition",
       "reason": "key_art_only"
@@ -740,11 +694,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2740,
-      "title": "Teenage Mutant Ninja Turtles: Mutants Unleashed",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2455,
       "title": "Ten Dates",
       "reason": "key_art_only"
@@ -792,11 +741,6 @@
     {
       "id": 2019,
       "title": "The King of Fighters 2000",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1259,
-      "title": "The Last Door: Complete Edition",
       "reason": "key_art_only"
     },
     {
@@ -890,11 +834,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1986,
-      "title": "Urban Trial Tricky Deluxe Edition",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2043,
       "title": "Vagante",
       "reason": "key_art_only"
@@ -945,11 +884,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1450,
-      "title": "World of Warships: Legends",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2367,
       "title": "Wytchwood",
       "reason": "key_art_only"
@@ -987,11 +921,6 @@
     {
       "id": 1631,
       "title": "GunLord X",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 1685,
-      "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
       "reason": "missing_ps4_banner"
     },
     {
@@ -1139,6 +1068,11 @@
       "reason": "image_fetch_failed"
     },
     {
+      "id": 1809,
+      "title": "Ground Zero: Texas",
+      "reason": "image_fetch_failed"
+    },
+    {
       "id": 1971,
       "title": "Jim Power: The Lost Dimension",
       "reason": "image_fetch_failed"
@@ -1164,6 +1098,11 @@
       "reason": "image_fetch_failed"
     },
     {
+      "id": 1685,
+      "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
+      "reason": "image_fetch_failed"
+    },
+    {
       "id": 2695,
       "title": "Q.U.B.E.",
       "reason": "image_fetch_failed"
@@ -1181,11 +1120,6 @@
     {
       "id": 1756,
       "title": "The Journey Down: Chapter Two",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 2784,
-      "title": "Tony Hawk's Pro Skater 3 + 4",
       "reason": "image_fetch_failed"
     }
   ]

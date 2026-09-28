@@ -55,9 +55,9 @@
  "current": {
   "censusIncluded": 2409,
   "covers": {
-   "good": 2177,
-   "review": 210,
-   "watch": 14,
+   "good": 2190,
+   "review": 196,
+   "watch": 15,
    "fallback": 8
   },
   "hltb": {
@@ -74,7 +74,88 @@
   "3": "pending",
   "4": "pending"
  },
- "batches": [],
- "updated": "2026-09-28T14:09:19+00:00",
+ "batches": [
+  {
+   "phase": 1,
+   "batch": "M1",
+   "accepted": [
+    {
+     "id": 2788,
+     "title": "Marvel's Guardians of the Galaxy",
+     "source": "PriceCharting US"
+    },
+    {
+     "id": 2789,
+     "title": "Double Dragon Gaiden: Rise of the Dragons",
+     "source": "PriceCharting US"
+    },
+    {
+     "id": 2419,
+     "source": "repo-hosted trim (covers/ps4/SOURCES.json)"
+    },
+    {
+     "id": 2313,
+     "source": "repo-hosted trim (covers/ps4/SOURCES.json)"
+    },
+    {
+     "id": 2014,
+     "source": "repo-hosted trim (covers/ps4/SOURCES.json)"
+    },
+    {
+     "id": 2671,
+     "source": "repo-hosted trim (covers/ps4/SOURCES.json)"
+    },
+    {
+     "id": 2450,
+     "source": "repo-hosted trim (covers/ps4/SOURCES.json)"
+    },
+    {
+     "id": 1870,
+     "source": "repo-hosted trim (covers/ps4/SOURCES.json)"
+    },
+    {
+     "id": 2740,
+     "source": "repo-hosted trim (covers/ps4/SOURCES.json)"
+    },
+    {
+     "id": 1259,
+     "source": "repo-hosted trim (covers/ps4/SOURCES.json)"
+    },
+    {
+     "id": 1450,
+     "source": "repo-hosted trim (covers/ps4/SOURCES.json)"
+    },
+    {
+     "id": 2784,
+     "source": "repo-hosted trim (covers/ps4/SOURCES.json)"
+    },
+    {
+     "id": 1986,
+     "source": "repo-hosted trim (covers/ps4/SOURCES.json)"
+    },
+    {
+     "id": 2651,
+     "source": "repo-hosted trim (covers/ps4/SOURCES.json)"
+    }
+   ],
+   "rejectedTrims": {
+    "Neversong": "trim clipped cover",
+    "Mystery Chronicle: One Way Heroics": "spine visible",
+    "Rising Hell": "no rating marks",
+    "Super Life of Pixel": "no rating marks",
+    "Jim Power": "no rating marks",
+    "Q.U.B.E.": "10th Anniversary re-release product, identity match unverified",
+    "Back to the Future": "NOT FINAL ART",
+    "Hidden Through Time": "PEGI provisional",
+    "Zapling Bygone": "PEGI provisional",
+    "War Mongrels": "ESRB RP",
+    "Transformers Earthspark": "ESRB RP",
+    "Bounty Battle": "PEGI provisional",
+    "others (~95)": "3D box renders with spines"
+   },
+   "gate": "0 lost excluding blocked-host flakes: [1809 Ground Zero: Texas, GameFAQs 403, URL unchanged]"
+  }
+ ],
+ "updated": "2026-09-28T14:23:22+00:00",
  "next": "Phase 1: WATCH replacements, flat-front trims (visually verified), residual real sources; then synthetic-cover-candidates.json"
 }

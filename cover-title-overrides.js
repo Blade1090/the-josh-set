@@ -96,7 +96,7 @@ window.SHELFCHECK_TITLE_COVERS={
   "tomb raider the last revelation":"https://gamefaqs.gamespot.com/a/box/4/6/0/1168460_front.jpg",
   "tomb raider chronicles":"https://gamefaqs.gamespot.com/a/box/4/6/0/1168460_front.jpg",
   "tomb raider the angel of darkness":"https://gamefaqs.gamespot.com/a/box/4/6/0/1168460_front.jpg",
-  "tony hawks pro skater 3 4":"https://gamefaqs.gamespot.com/a/box/5/5/0/1158550_front.jpg",
+  "tony hawks pro skater 3 4":"covers/ps4/2784.jpg",
   "resonance of fate 4k hd edition":"https://gamefaqs.gamespot.com/a/box/3/4/4/703344_front.jpg",
   "stranded sails explorers of the cursed islands":"https://gamefaqs.gamespot.com/a/box/7/6/4/736764_front.jpg",
   "tales from the borderlands a telltale game series":"https://gamefaqs.gamespot.com/a/box/6/9/2/1078692_front.jpg",
@@ -194,7 +194,18 @@ window.SHELFCHECK_TITLE_COVERS={
   "taimumari":"https://cdn.thegamesdb.net/images/original/boxart/front/110275-1.jpg",
   "tannenberg":"https://cdn.thegamesdb.net/images/original/boxart/front/101034-1.jpg",
   "yurukill the calumniation games":"https://cdn.thegamesdb.net/images/original/boxart/front/101312-1.jpg",
-  "the dark pictures little hope":"https://cdn.shopify.com/s/files/1/0557/5868/4333/products/PS4_DARKPICTURES_LITTLEHOPE.jpg?v=1618123714"
+  "the dark pictures little hope":"https://cdn.shopify.com/s/files/1/0557/5868/4333/products/PS4_DARKPICTURES_LITTLEHOPE.jpg?v=1618123714",
+  "eldrador creatures":"covers/ps4/2419.jpg",
+  "gylt":"covers/ps4/2313.jpg",
+  "lunark":"covers/ps4/2014.jpg",
+  "on the road truck simulator":"covers/ps4/2671.jpg",
+  "open country":"covers/ps4/2450.jpg",
+  "skautfold usurper":"covers/ps4/1870.jpg",
+  "teenage mutant ninja turtles mutants unleashed":"covers/ps4/2740.jpg",
+  "the last door complete edition":"covers/ps4/1259.jpg",
+  "world of warships legends":"covers/ps4/1450.jpg",
+  "urban trial tricky deluxe edition":"covers/ps4/1986.jpg",
+  "mado monogatari fia and the wondrous academy":"covers/ps4/2651.jpg"
 };
 
 // Art Department quality gate. Browser-only: CI evaluates this file in a VM without DOM APIs.

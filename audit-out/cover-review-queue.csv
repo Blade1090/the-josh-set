@@ -1,6 +1,4 @@
 id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason,bannerColumnSpan,bannerPixelRatio,url
-2789,Double Dragon Gaiden: Rise of the Dragons,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-2788,Marvel's Guardians of the Galaxy,MISSING,REVIEW,missing_cover,VERIFY,,,,,
 2037,9th Dawn III,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2hpn.jpg
 2077,American Hero,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co3w2u.jpg
 1579,Back to the Future: The Game,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co5z46.jpg
@@ -29,7 +27,6 @@ id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason
 2039,Dragon Lapis,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2kej.jpg
 1608,Drive!Drive!Drive!,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2pzv.jpg
 2266,DUSK,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co4b39.jpg
-2419,Eldrador Creatures,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2t67.jpg
 1950,Empire of Angels IV,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co214j.jpg
 2306,Enclave HD,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co6r0t.jpg
 454,Factotum 90,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co24jd.jpg
@@ -43,7 +40,6 @@ id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason
 1866,Godstrike,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co4j9b.jpg
 2420,Grave Danger,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/ta6vyxj9igahbewyklib.jpg
 1980,"Guns, Gore & Cannoli 2",LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/j10dhassxmqqqiyksbwo.jpg
-2313,GYLT,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2qad.jpg
 1953,Habroxia 2,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2lc4.jpg
 2055,Hamidashi Creative,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co9dzu.jpg
 2256,Hammerwatch,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/cocs0i.jpg
@@ -54,8 +50,6 @@ id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason
 2461,Isonzo,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co4496.jpg
 1515,Late Shift,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co1njk.jpg
 1661,Lode Runner Legacy,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co27z0.jpg
-2014,LUNARK,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2b9h.jpg
-2651,MADO MONOGATARI: Fia And The Wondrous Academy,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co9jw0.jpg
 2392,Marchen Forest,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co5j4k.jpg
 750,Mecho Tales,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co24fb.jpg
 2463,Memorrha,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/cocs6h.jpg
@@ -77,9 +71,7 @@ id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason
 1826,Nobody Saves the World,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2wcz.jpg
 2666,Octopath Traveler 0,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/coa7is.jpg
 1686,OlliOlli,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co1ihr.jpg
-2671,On the Road: Truck Simulator,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co7s50.jpg
 872,One Step From Eden,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co20k4.jpg
-2450,Open Country,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2upo.jpg
 878,Organ Trail: Complete Edition,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co30jd.jpg
 2028,Overrogue,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co4yt3.jpg
 1817,Panzer Dragoon: Remake,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co21me.jpg
@@ -118,7 +110,6 @@ id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason
 1729,SIMULACRA,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co24d0.jpg
 1818,Sir Lovelot,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2tlk.jpg
 1076,Siralim,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co224g.jpg
-1870,Skautfold: Usurper,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co8uxp.jpg
 1731,Skulls of the Shogun: Bone-a-Fide Edition,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2212.jpg
 1949,Smashing the Battle: Ghost Soul,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co3rmk.jpg
 1094,SmuggleCraft,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/uwmrwtorn3lzgzl3bbdr.jpg
@@ -142,7 +133,6 @@ id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason
 1873,Sword of the Vagrant,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co5vty.jpg
 2733,Tales of the Neon Sea,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/w4uuihbcbwfjmmfb10na.jpg
 1203,Tamashii,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co24dr.jpg
-2740,Teenage Mutant Ninja Turtles: Mutants Unleashed,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co8yl5.jpg
 2455,Ten Dates,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co65s5.jpg
 1745,Terror of Hemasaurus,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co3p5m.jpg
 1746,Tharsis,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2e7p.jpg
@@ -153,7 +143,6 @@ id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason
 1754,The Journey Down: Chapter One,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co86zb.jpg
 1755,The Journey Down: Chapter Three,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co86ze.jpg
 2019,The King of Fighters 2000,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co9elj.jpg
-1259,The Last Door: Complete Edition,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co1lmt.jpg
 2049,The Legend of Heroes: Trails through Daybreak II,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co8l3f.jpg
 1298,The Swindle,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co23tb.jpg
 1761,The Swords of Ditto,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co27bh.jpg
@@ -172,7 +161,6 @@ id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason
 2098,Underhero,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co1yig.jpg
 2033,UnderMine,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2erp.jpg
 1542,Unsighted,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co3bt4.jpg
-1986,Urban Trial Tricky Deluxe Edition,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co3g8c.jpg
 2043,Vagante,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/cocshv.jpg
 2752,Valiant Hearts: Coming Home,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co5vbk.jpg
 1781,Verdun,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co24l6.jpg
@@ -183,7 +171,6 @@ id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason
 1544,Weird West,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co4no1.jpg
 1948,Wife Quest,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2u0p.jpg
 2022,Witchcrafty,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co3na9.jpg
-1450,World of Warships: Legends,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/coce2s.jpg
 2367,Wytchwood,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co27gm.jpg
 1463,Xenon Valkyrie+,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co1z4u.jpg
 1793,YIIK: A Postmodern RPG,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2z9a.jpg
@@ -192,7 +179,6 @@ id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason
 2240,Zero Tolerance Collection,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co4woj.jpg
 1497,Chants of Sennaar,GAMEYE,REVIEW,missing_ps4_banner,LIKELY,,,0.0,0.0,https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/143584_2ee8b262-a72c-4675-b8b7-5e2bc18b463f.webp
 1631,GunLord X,GAMEYE,REVIEW,missing_ps4_banner,LIKELY,,,0.0,0.0,https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/576a01f1-b6ea-4abc-bf49-7e3cd1a2b2c3.webp
-1685,Oddworld: Abe's Oddysee - New 'n' Tasty,CURATED_TITLE,REVIEW,missing_ps4_banner,LIKELY,FIXED,,0.0,0.0,https://gamefaqs.gamespot.com/a/box/8/5/8/790858_front.jpg
 291,Damascus Gear: Operation Osaka,CURATED_ID,REVIEW,missing_ps4_banner,LIKELY,,,0.015151515151515152,0.0008116883116883117,https://images.igdb.com/igdb/image/upload/t_cover_big/co1udg.jpg
 1999,Streets of Red,CURATED_TITLE,REVIEW,missing_ps4_banner,LIKELY,FIXED,,0.016666666666666666,0.00020833333333333335,https://limitedrungames.com/cdn/shop/products/AssetTemplateSER_PS4.png?height=1080&v=1579552336
 1850,Lost Ruins,GAMEYE,REVIEW,missing_ps4_banner,LIKELY,,,0.24722222222222223,0.009351851851851853,https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/b1d7a4b3-8051-4e58-bfac-8d3579ce6371.webp
@@ -221,13 +207,14 @@ id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason
 2288,Blazing Beaks,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/8/1/3/796813_front.jpg
 1969,Cannon Dancer,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/4/9/5/906495_front.jpg
 2471,Get Star / Guardian,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/7/4/5/825745_front.jpg
+1809,Ground Zero: Texas,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,,,,,https://gamefaqs.gamespot.com/a/box/8/5/3/808853_front.jpg
 1971,Jim Power: The Lost Dimension,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,,,,,https://gamefaqs.gamespot.com/a/box/3/0/7/874307_front.jpg
 2469,Kyukyoku Tiger / Twin Cobra,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/7/4/5/825745_front.jpg
 1665,Maldita Castilla EX: Cursed Castilla,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,,,,,https://gamefaqs.gamespot.com/a/box/3/2/6/646326_front.jpg
 2242,Ninja JaJaMaru Legendary Ninja Collection,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/3/9/0/904390_front.jpg
 2429,Noob: Les Sans-Factions,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/7/0/8/1025708_front.jpg
+1685,Oddworld: Abe's Oddysee - New 'n' Tasty,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/8/5/8/790858_front.jpg
 2695,Q.U.B.E.,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/8/4/3/892843_front.jpg
 2696,Quintessential Quintuplets Fives Memories With You,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/0/8/1/1150081_front.jpg
 1753,The First Tree: Console Edition,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/7/7/9/851779_front.jpg
 1756,The Journey Down: Chapter Two,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/6/9/3/906693_front.jpg
-2784,Tony Hawk's Pro Skater 3 + 4,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/5/5/0/1158550_front.jpg

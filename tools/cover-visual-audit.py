@@ -23,6 +23,11 @@ manual_fixed={norm_title(x['title']):x for x in manual.get('fixed',[])}
 manual_elig={norm_title(x['title']):x for x in manual.get('eligibility',[])}
 
 def fetch(url):
+    # Repo-hosted covers (covers/<system>/...) are trimmed copies of verified flat physical
+    # fronts; audit the committed pixels with the same banner gate as remote images.
+    if not re.match(r'https?://',url):
+        with open(url.split('?')[0],'rb') as f: raw=f.read(8_000_000)
+        return Image.open(io.BytesIO(raw)).convert('RGB')
     req=urllib.request.Request(url,headers={'User-Agent':'ShelfCheck-ArtAudit/1.8'})
     with urllib.request.urlopen(req,timeout=12) as r:
         raw=r.read(8_000_000)
