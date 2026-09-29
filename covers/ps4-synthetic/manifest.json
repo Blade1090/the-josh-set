@@ -11,7 +11,7 @@
    "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
    "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches",
    "note": "Limited Run render; spine cropped",
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "82": {
    "title": "Ara Fell: Enhanced Edition",
@@ -24,655 +24,709 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "238": {
    "title": "Caveman Warriors",
    "url": "covers/ps4-synthetic/238.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co1iep.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "241": {
    "title": "Chariot",
    "url": "covers/ps4-synthetic/241.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co1quk.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "missing_ps4_banner",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "269": {
    "title": "Corpse Killer: 25th Anniversary Edition",
    "url": "covers/ps4-synthetic/269.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co3cz6.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "275": {
    "title": "Crawl",
    "url": "covers/ps4-synthetic/275.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co1lrj.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "291": {
    "title": "Damascus Gear: Operation Osaka",
    "url": "covers/ps4-synthetic/291.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1udg.jpg",
    "sourceKind": "current_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "missing_ps4_banner",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: no rating marks; uncertain",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "298": {
    "title": "Darius Cozmic Collection: Arcade",
    "url": "covers/ps4-synthetic/298.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co4vlw.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "299": {
    "title": "Darius Cozmic Collection: Console",
    "url": "covers/ps4-synthetic/299.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co2yrq.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "300": {
    "title": "Dark Devotion",
    "url": "covers/ps4-synthetic/300.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co2t7g.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "322": {
    "title": "Dead Alliance",
    "url": "covers/ps4-synthetic/322.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co24nr.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D box render with spine",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "402": {
    "title": "Dragon Fantasy: The Black Tome of Ice",
    "url": "covers/ps4-synthetic/402.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co1wu5.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "451": {
    "title": "Exile's End",
    "url": "covers/ps4-synthetic/451.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co2xgn.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "missing_ps4_banner",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "454": {
    "title": "Factotum 90",
    "url": "covers/ps4-synthetic/454.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co24jd.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "473": {
    "title": "fault milestone one",
    "url": "covers/ps4-synthetic/473.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/coapmt.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "476": {
    "title": "Fight'N Rage",
    "url": "covers/ps4-synthetic/476.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co24h3.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "missing_ps4_banner",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "586": {
    "title": "Hero Must Die. Again",
    "url": "covers/ps4-synthetic/586.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co1uw2.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "750": {
    "title": "Mecho Tales",
    "url": "covers/ps4-synthetic/750.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co24fb.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "780": {
    "title": "Mighty Switch Force! Collection",
    "url": "covers/ps4-synthetic/780.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/cob8y4.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "783": {
    "title": "Minecraft: Story Mode - A Telltale Games Series",
    "url": "covers/ps4-synthetic/783.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co1vi7.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "807": {
    "title": "Mutant Mudds Deluxe",
    "url": "covers/ps4-synthetic/807.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co31dp.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "808": {
    "title": "Mutant Mudds: Super Challenge",
    "url": "covers/ps4-synthetic/808.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co31dr.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "815": {
    "title": "Mystery Chronicle: One Way Heroics",
    "url": "covers/ps4-synthetic/815.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co3iyg.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "819": {
    "title": "Narita Boy",
    "url": "covers/ps4-synthetic/819.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co2t3i.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "missing_ps4_banner",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "823": {
    "title": "Naruto: Ultimate Ninja Storm",
    "url": "covers/ps4-synthetic/823.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co1u9d.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "872": {
    "title": "One Step From Eden",
    "url": "covers/ps4-synthetic/872.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co20k4.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "878": {
    "title": "Organ Trail: Complete Edition",
    "url": "covers/ps4-synthetic/878.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co30jd.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "914": {
    "title": "Plague Road",
    "url": "covers/ps4-synthetic/914.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co27x8.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run | rejected candidates: variant Kickstarter cover without rating marks",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "970": {
    "title": "Regions Of Ruin",
    "url": "covers/ps4-synthetic/970.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co1s9j.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "991": {
    "title": "Reverie",
    "url": "covers/ps4-synthetic/991.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co61bv.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1039": {
    "title": "Saturday Morning RPG",
    "url": "covers/ps4-synthetic/1039.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co2965.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1060": {
    "title": "Shadow Warrior 2",
    "url": "covers/ps4-synthetic/1060.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/coavqn.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run | rejected candidates: no rating/publisher marks; looks like mockup",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1061": {
    "title": "Shadowgate",
    "url": "covers/ps4-synthetic/1061.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co249e.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1069": {
    "title": "Shenmue II",
    "url": "covers/ps4-synthetic/1069.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co2raf.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "CURATOR_DECISION",
    "why": "only physical is Shenmue I & II (no modeled compilation relationship)",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1076": {
    "title": "Siralim",
    "url": "covers/ps4-synthetic/1076.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co224g.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D box render with spine",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1094": {
    "title": "SmuggleCraft",
    "url": "covers/ps4-synthetic/1094.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/uwmrwtorn3lzgzl3bbdr.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D box render with spine",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1122": {
    "title": "Splasher",
    "url": "covers/ps4-synthetic/1122.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co1z3z.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D box render with spine",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1163": {
    "title": "Street Power Soccer",
    "url": "covers/ps4-synthetic/1163.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co2ebz.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1171": {
    "title": "Sundered",
    "url": "covers/ps4-synthetic/1171.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/aq6qahkwjzwgdppbydcc.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1185": {
    "title": "SuperMash",
    "url": "covers/ps4-synthetic/1185.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co1ut4.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D box render with spine",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1203": {
    "title": "Tamashii",
    "url": "covers/ps4-synthetic/1203.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co24dr.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: ESRB RP pre-release art",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1225": {
    "title": "The Bunker",
    "url": "covers/ps4-synthetic/1225.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co6l6f.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run | rejected candidates: no rating marks; possibly cropped",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1227": {
    "title": "The Church in the Darkness",
    "url": "covers/ps4-synthetic/1227.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co1neg.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "missing_ps4_banner",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1234": {
    "title": "The Dark Crystal: Age of Resistance Tactics",
    "url": "covers/ps4-synthetic/1234.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co3wmw.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1298": {
    "title": "The Swindle",
    "url": "covers/ps4-synthetic/1298.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co23tb.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1317": {
    "title": "They Are Billions",
    "url": "covers/ps4-synthetic/1317.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co1n7h.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1351": {
    "title": "Train Sim World 2020",
    "url": "covers/ps4-synthetic/1351.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co2k5q.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1360": {
    "title": "Trials of the Blood Dragon",
    "url": "covers/ps4-synthetic/1360.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co2rqw.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1375": {
    "title": "Twin Breaker: A Sacred Symbols Adventure",
    "url": "covers/ps4-synthetic/1375.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co2gmr.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: no rating marks; uncertain",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1402": {
    "title": "VESTA",
    "url": "covers/ps4-synthetic/1402.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co5rmv.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run | rejected candidates: no rating marks; uncertain",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1463": {
    "title": "Xenon Valkyrie+",
    "url": "covers/ps4-synthetic/1463.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co1z4u.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run | rejected candidates: no rating marks; uncertain",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1497": {
    "title": "Chants of Sennaar",
    "url": "covers/ps4-synthetic/1497.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co9mjo.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "missing_ps4_banner",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1515": {
    "title": "Late Shift",
    "url": "covers/ps4-synthetic/1515.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co1njk.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1542": {
    "title": "Unsighted",
    "url": "covers/ps4-synthetic/1542.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co3bt4.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1544": {
    "title": "Weird West",
    "url": "covers/ps4-synthetic/1544.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co4no1.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D box render with spine",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1579": {
    "title": "Back to the Future: The Game",
    "url": "covers/ps4-synthetic/1579.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co5z46.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "PRERELEASE_ONLY",
    "why": "only NOT FINAL ART fronts | only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: NOT FINAL ART pre-release cover",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1582": {
    "title": "Breach & Clear: Deadline",
@@ -685,115 +739,124 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": "TheGamesDB flat key art (IGDB art was a blurry landscape)",
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1600": {
    "title": "Deer Simulator",
    "url": "covers/ps4-synthetic/1600.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co7jli.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1608": {
    "title": "Drive!Drive!Drive!",
    "url": "covers/ps4-synthetic/1608.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co2pzv.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1615": {
    "title": "Fallen Legion: Sins of an Empire",
    "url": "covers/ps4-synthetic/1615.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co2q4h.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "missing_ps4_banner",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1622": {
    "title": "Fury Unleashed",
    "url": "covers/ps4-synthetic/1622.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co2dis.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1624": {
    "title": "Futuridium EP Deluxe",
    "url": "covers/ps4-synthetic/1624.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co2q7j.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1625": {
    "title": "Galak-Z: The Void",
    "url": "covers/ps4-synthetic/1625.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co2170.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1631": {
    "title": "GunLord X",
    "url": "covers/ps4-synthetic/1631.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co30ky.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "missing_ps4_banner",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1638": {
    "title": "Hidden Through Time",
    "url": "covers/ps4-synthetic/1638.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co20gn.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "PRERELEASE_ONLY",
    "why": "only PEGI provisional fronts | only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: PEGI PROVISIONAL pre-release art",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1661": {
    "title": "Lode Runner Legacy",
    "url": "covers/ps4-synthetic/1661.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co27z0.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: no rating/publisher marks; looks like mockup",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1665": {
    "title": "Maldita Castilla EX: Cursed Castilla",
@@ -806,7 +869,7 @@
    "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
    "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches",
    "note": "TheGamesDB Cursed Castilla key art",
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1670": {
    "title": "Mighty Gunvolt Burst",
@@ -819,19 +882,20 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": "Limited Run render; spine cropped, own PS4 banner kept",
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1679": {
    "title": "Neverending Nightmares",
    "url": "covers/ps4-synthetic/1679.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co1r2q.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1682": {
    "title": "Now That's What I Call Sing",
@@ -844,7 +908,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": "flat PAL front (PEGI 12); padding trimmed; fails the PS4 banner gate, so not GOOD",
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1685": {
    "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
@@ -857,199 +921,215 @@
    "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
    "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches",
    "note": "Limited Run render; spine cropped",
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1686": {
    "title": "OlliOlli",
    "url": "covers/ps4-synthetic/1686.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co1ihr.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1695": {
    "title": "Pressure Overdrive",
    "url": "covers/ps4-synthetic/1695.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/j0bczbbtzxecwdxgfkln.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "CURATOR_DECISION",
    "why": "CLAUDE.md curator hold: test dossier inaccuracies; identity review",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1697": {
    "title": "Prototype",
    "url": "covers/ps4-synthetic/1697.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co1ql2.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "CURATOR_DECISION",
    "why": "CLAUDE.md curator hold: physical path via Prototype Biohazard Bundle",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1717": {
    "title": "Rym 9000",
    "url": "covers/ps4-synthetic/1717.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co2el5.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1720": {
    "title": "Samurai Shodown VI",
    "url": "covers/ps4-synthetic/1720.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co5u76.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1721": {
    "title": "Screencheat",
    "url": "covers/ps4-synthetic/1721.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/fdhebb99wjlrxlwuapwo.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1723": {
    "title": "Shadow of Loot Box",
    "url": "covers/ps4-synthetic/1723.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co1m8r.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1726": {
    "title": "Shikhondo: Soul Eater",
    "url": "covers/ps4-synthetic/1726.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/p0rulxsgd2zqk8sj5wtc.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: no rating marks; uncertain",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1729": {
    "title": "SIMULACRA",
    "url": "covers/ps4-synthetic/1729.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co24d0.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1731": {
    "title": "Skulls of the Shogun: Bone-a-Fide Edition",
    "url": "covers/ps4-synthetic/1731.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co2212.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1734": {
    "title": "Stealth Inc: A Clone in the Dark Ultimate Edition",
    "url": "covers/ps4-synthetic/1734.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/s3anoxgcy9rjfwg48too.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1736": {
    "title": "Super ComboMan: Smash Edition",
    "url": "covers/ps4-synthetic/1736.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co1vvk.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1737": {
    "title": "Super GunWorld 2",
    "url": "covers/ps4-synthetic/1737.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co2rh8.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1738": {
    "title": "Super Life of Pixel",
    "url": "covers/ps4-synthetic/1738.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co3ur6.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "PRERELEASE_ONLY",
    "why": "no rating marks on the only flat image | only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1745": {
    "title": "Terror of Hemasaurus",
    "url": "covers/ps4-synthetic/1745.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co3p5m.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1746": {
    "title": "Tharsis",
    "url": "covers/ps4-synthetic/1746.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co2e7p.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1753": {
    "title": "The First Tree: Console Edition",
@@ -1062,115 +1142,124 @@
    "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
    "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches",
    "note": "flat NA front (ESRB E); fails the PS4 banner gate, so not GOOD",
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1754": {
    "title": "The Journey Down: Chapter One",
    "url": "covers/ps4-synthetic/1754.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co86zb.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "CURATOR_DECISION",
    "why": "only physical is The Journey Down Trilogy (no modeled relationship)",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1755": {
    "title": "The Journey Down: Chapter Three",
    "url": "covers/ps4-synthetic/1755.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co86ze.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "CURATOR_DECISION",
    "why": "only physical is The Journey Down Trilogy (no modeled relationship)",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1756": {
    "title": "The Journey Down: Chapter Two",
    "url": "covers/ps4-synthetic/1756.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co86zc.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "WATCH",
    "realCoverReason": "image_fetch_failed",
    "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
    "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1761": {
    "title": "The Swords of Ditto",
    "url": "covers/ps4-synthetic/1761.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co27bh.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1769": {
    "title": "Toto Temple Deluxe",
    "url": "covers/ps4-synthetic/1769.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co44si.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1781": {
    "title": "Verdun",
    "url": "covers/ps4-synthetic/1781.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co24l6.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1782": {
    "title": "VirtuaVerse",
    "url": "covers/ps4-synthetic/1782.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co1puy.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1793": {
    "title": "YIIK: A Postmodern RPG",
    "url": "covers/ps4-synthetic/1793.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co2z9a.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1807": {
    "title": "Five Dates",
    "url": "covers/ps4-synthetic/1807.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co2kp0.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1809": {
    "title": "Ground Zero: Texas",
@@ -1183,67 +1272,72 @@
    "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
    "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches | rejected candidates: 3D render and ESRB RP",
    "note": "Limited Run render (ESRB RP pre-release marks); spine cropped; no better source",
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1817": {
    "title": "Panzer Dragoon: Remake",
    "url": "covers/ps4-synthetic/1817.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co21me.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1818": {
    "title": "Sir Lovelot",
    "url": "covers/ps4-synthetic/1818.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co2tlk.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1821": {
    "title": "Turok 3: Shadow of Oblivion Remastered",
    "url": "covers/ps4-synthetic/1821.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co7fpt.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1826": {
    "title": "Nobody Saves the World",
    "url": "covers/ps4-synthetic/1826.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co2wcz.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D render with spine",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1827": {
    "title": "Shadows of Adam",
    "url": "covers/ps4-synthetic/1827.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co1i0m.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "key_art_only",
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1838": {
    "title": "Rugrats: Adventures in Gameland",
@@ -1256,7 +1350,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1839": {
    "title": "Another Crusade",
@@ -1269,7 +1363,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1849": {
    "title": "BROK: The InvestiGator",
@@ -1282,7 +1376,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1850": {
    "title": "Lost Ruins",
@@ -1295,7 +1389,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1854": {
    "title": "Super Zangyura",
@@ -1308,7 +1402,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D box render with spine",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1866": {
    "title": "Godstrike",
@@ -1321,7 +1415,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1873": {
    "title": "Sword of the Vagrant",
@@ -1334,7 +1428,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D box render with spine; PEGI PROVISIONAL pre-release art",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1881": {
    "title": "Spacewing War",
@@ -1347,7 +1441,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1908": {
    "title": "Project Starship",
@@ -1360,7 +1454,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1923": {
    "title": "Monster Prom XXL",
@@ -1373,7 +1467,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D render with spine",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1938": {
    "title": "Gekido Kintaro's Revenge",
@@ -1386,7 +1480,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D render with spine",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1942": {
    "title": "Fullblast",
@@ -1399,7 +1493,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1948": {
    "title": "Wife Quest",
@@ -1412,7 +1506,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D box render",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1949": {
    "title": "Smashing the Battle: Ghost Soul",
@@ -1425,7 +1519,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D box render",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1950": {
    "title": "Empire of Angels IV",
@@ -1438,7 +1532,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1951": {
    "title": "Sense - A Cyberpunk Ghost Story",
@@ -1451,7 +1545,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: no rating marks; uncertain",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1952": {
    "title": "Project Starship X",
@@ -1464,7 +1558,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1953": {
    "title": "Habroxia 2",
@@ -1477,7 +1571,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1958": {
    "title": "Super Perils of Baking",
@@ -1490,7 +1584,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1964": {
    "title": "Blast Brigade vs. the Evil Legion of Dr. Cread",
@@ -1503,7 +1597,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1969": {
    "title": "Cannon Dancer",
@@ -1516,7 +1610,7 @@
    "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
    "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches",
    "note": "Strictly Limited render; spine cropped",
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1970": {
    "title": "Vesper: Zero Light Edition",
@@ -1529,7 +1623,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1971": {
    "title": "Jim Power: The Lost Dimension",
@@ -1542,7 +1636,7 @@
    "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
    "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches | rejected candidates: angled render without rating marks",
    "note": "Strictly Limited flat front without rating marks",
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1972": {
    "title": "Rising Hell",
@@ -1555,7 +1649,7 @@
    "holdoutCategory": "PRERELEASE_ONLY",
    "why": "no rating marks on the only flat image | only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1980": {
    "title": "Guns, Gore & Cannoli 2",
@@ -1568,7 +1662,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "1999": {
    "title": "Streets of Red",
@@ -1581,7 +1675,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": "PriceCharting render; spine cropped",
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2001": {
    "title": "Turok",
@@ -1594,7 +1688,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2011": {
    "title": "Night Book",
@@ -1607,7 +1701,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D render with spine",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2016": {
    "title": "MythForce",
@@ -1620,7 +1714,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2018": {
    "title": "SOL CRESTA",
@@ -1633,7 +1727,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D box render; SAMPLE watermark on JP image",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2019": {
    "title": "The King of Fighters 2000",
@@ -1646,7 +1740,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2022": {
    "title": "Witchcrafty",
@@ -1659,7 +1753,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D box render with spine",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2026": {
    "title": "Spidersaurs",
@@ -1672,7 +1766,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2028": {
    "title": "Overrogue",
@@ -1685,7 +1779,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2030": {
    "title": "Toy Soldiers HD",
@@ -1698,7 +1792,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D box render with spine",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2033": {
    "title": "UnderMine",
@@ -1711,7 +1805,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D box render with spine",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2037": {
    "title": "9th Dawn III",
@@ -1724,7 +1818,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2038": {
    "title": "Roombo: First Blood",
@@ -1737,7 +1831,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2039": {
    "title": "Dragon Lapis",
@@ -1750,7 +1844,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2042": {
    "title": "Dark Nights with Poe & Munro",
@@ -1763,7 +1857,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2043": {
    "title": "Vagante",
@@ -1776,7 +1870,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2049": {
    "title": "The Legend of Heroes: Trails through Daybreak II",
@@ -1789,7 +1883,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2055": {
    "title": "Hamidashi Creative",
@@ -1802,7 +1896,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2061": {
    "title": "Shing!",
@@ -1815,7 +1909,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: PEGI PROVISIONAL pre-release art",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2068": {
    "title": "Beyond the Ice Palace 2",
@@ -1828,7 +1922,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2077": {
    "title": "American Hero",
@@ -1841,7 +1935,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2094": {
    "title": "Chained Echoes",
@@ -1854,7 +1948,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2095": {
    "title": "Mulaka",
@@ -1867,7 +1961,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2096": {
    "title": "Rival Megagun",
@@ -1880,7 +1974,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run | rejected candidates: no rating marks; uncertain mockup",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2097": {
    "title": "Natsuki Chronicles",
@@ -1893,7 +1987,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D render with spine",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2098": {
    "title": "Underhero",
@@ -1906,7 +2000,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2240": {
    "title": "Zero Tolerance Collection",
@@ -1919,7 +2013,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2241": {
    "title": "Steel Empire Chronicles",
@@ -1932,7 +2026,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D box render; photo, no rating marks",
    "note": "Strictly Limited flat 2D packshot without rating marks",
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2242": {
    "title": "Ninja JaJaMaru Legendary Ninja Collection",
@@ -1945,7 +2039,7 @@
    "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
    "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2243": {
    "title": "Irem Collection Volume 1",
@@ -1958,7 +2052,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2256": {
    "title": "Hammerwatch",
@@ -1971,7 +2065,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2257": {
    "title": "Heroes of Hammerwatch - Ultimate Edition",
@@ -1984,7 +2078,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2258": {
    "title": "Spelunker HD Deluxe",
@@ -1997,7 +2091,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2262": {
    "title": "Turrican Anthology Vol. 1",
@@ -2010,7 +2104,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2263": {
    "title": "Turrican Anthology Vol. 2",
@@ -2023,7 +2117,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D box render with spine",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2266": {
    "title": "DUSK",
@@ -2036,7 +2130,7 @@
    "holdoutCategory": "CURATOR_DECISION",
    "why": "US image sits on [Leathernecks Cover] variant product",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2298": {
    "title": "Colossal Cave",
@@ -2049,7 +2143,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2299": {
    "title": "Contra: Operation Galuga",
@@ -2062,7 +2156,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2306": {
    "title": "Enclave HD",
@@ -2075,7 +2169,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2311": {
    "title": "Gigabash",
@@ -2088,7 +2182,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2325": {
    "title": "Mighty Goose",
@@ -2101,7 +2195,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2330": {
    "title": "Neversong",
@@ -2114,7 +2208,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2339": {
    "title": "Ruinverse",
@@ -2127,7 +2221,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2341": {
    "title": "Saturnalia",
@@ -2140,7 +2234,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2344": {
    "title": "Silt",
@@ -2153,7 +2247,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2350": {
    "title": "Summertime Madness",
@@ -2166,7 +2260,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2352": {
    "title": "Supraland",
@@ -2179,7 +2273,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D box render with spine",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2353": {
    "title": "The Coma 2: Vicious Sisters",
@@ -2192,7 +2286,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2354": {
    "title": "The Good Life",
@@ -2205,7 +2299,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2358": {
    "title": "Transformers: Earthspark - Expedition",
@@ -2218,7 +2312,7 @@
    "holdoutCategory": "PRERELEASE_ONLY",
    "why": "only ESRB RP / provisional fronts | only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: PEGI PROVISIONAL pre-release art",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2360": {
    "title": "Turok 2: Seeds of Evil",
@@ -2231,7 +2325,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2367": {
    "title": "Wytchwood",
@@ -2244,7 +2338,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2392": {
    "title": "Marchen Forest",
@@ -2257,7 +2351,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2415": {
    "title": "Coffee Crisis",
@@ -2270,7 +2364,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2417": {
    "title": "Dogchild",
@@ -2283,7 +2377,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2420": {
    "title": "Grave Danger",
@@ -2296,7 +2390,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D render with spine",
    "note": "flat PAL front with a faint retailer watermark (not accepted as GOOD)",
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2429": {
    "title": "Noob: Les Sans-Factions",
@@ -2309,7 +2403,7 @@
    "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
    "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches",
    "note": "only image found is a photo of the PAL case; cropped to the front",
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2443": {
    "title": "Zapling Bygone",
@@ -2322,7 +2416,7 @@
    "holdoutCategory": "PRERELEASE_ONLY",
    "why": "only PEGI provisional flat front | only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2451": {
    "title": "Protodroid Delta",
@@ -2335,7 +2429,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2454": {
    "title": "Speedollama",
@@ -2348,7 +2442,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2455": {
    "title": "Ten Dates",
@@ -2361,7 +2455,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2461": {
    "title": "Isonzo",
@@ -2374,7 +2468,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2463": {
    "title": "Memorrha",
@@ -2387,7 +2481,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2465": {
    "title": "Rolling Gunner",
@@ -2400,7 +2494,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": "Strictly Limited flat 2D packshot without rating marks",
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2469": {
    "title": "Kyukyoku Tiger / Twin Cobra",
@@ -2413,7 +2507,7 @@
    "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
    "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches",
    "note": "no safe art found (GameFAQs-only front; IGDB/other sources unavailable)",
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2471": {
    "title": "Get Star / Guardian",
@@ -2426,7 +2520,7 @@
    "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
    "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches",
    "note": "no safe art found (GameFAQs-only front; IGDB/other sources unavailable)",
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2473": {
    "title": "Shadowrun Returns",
@@ -2439,7 +2533,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2474": {
    "title": "Shadowrun: Dragonfall - Director's Cut",
@@ -2452,7 +2546,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2475": {
    "title": "Shadowrun: Hong Kong - Extended Edition",
@@ -2465,7 +2559,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2518": {
    "title": "Beyond Enemy Lines 2: Enhanced Edition",
@@ -2478,7 +2572,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2521": {
    "title": "Bite the Bullet",
@@ -2491,7 +2585,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2533": {
    "title": "Bounty Battle",
@@ -2504,7 +2598,7 @@
    "holdoutCategory": "PRERELEASE_ONLY",
    "why": "only PEGI provisional fronts | only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: PEGI PROVISIONAL pre-release art",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2657": {
    "title": "Naught: Extended Edition",
@@ -2517,7 +2611,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2666": {
    "title": "Octopath Traveler 0",
@@ -2530,7 +2624,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2695": {
    "title": "Q.U.B.E.",
@@ -2543,7 +2637,7 @@
    "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
    "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches",
    "note": "TheGamesDB Q.U.B.E. Director's Cut key art",
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2696": {
    "title": "Quintessential Quintuplets Fives Memories With You",
@@ -2556,7 +2650,7 @@
    "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
    "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches",
    "note": "no safe art found (only a JP case photo)",
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2707": {
    "title": "Raidou Remastered: Mystery Of The Soulless Army",
@@ -2569,7 +2663,7 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2718": {
    "title": "Sam & Max: Beyond Time And Space",
@@ -2582,7 +2676,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D box render with spine",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2733": {
    "title": "Tales of the Neon Sea",
@@ -2595,7 +2689,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D collector box render",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2752": {
    "title": "Valiant Hearts: Coming Home",
@@ -2608,7 +2702,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2761": {
    "title": "War Mongrels",
@@ -2621,7 +2715,7 @@
    "holdoutCategory": "PRERELEASE_ONLY",
    "why": "only ESRB RP front | only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   },
   "2775": {
    "title": "Ys Vs. Trails In The Sky: Alternative Saga",
@@ -2634,7 +2728,7 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
-   "toolVersion": 1
+   "toolVersion": 2
   }
  },
  "tier": "SYNTHETIC",

@@ -268,7 +268,7 @@
    "BLANK": 0
   }
  },
- "updated": "2026-09-29T13:45:37+00:00",
+ "updated": "2026-09-29T14:14:13+00:00",
  "next": "done: branch pushed; open PR (do not merge automatically)",
  "syntheticSourceKinds": {
   "boutique_render": 6,
@@ -281,5 +281,22 @@
   "typographic_title": 3
  },
  "determinism": "rebuild with --force is byte-identical (checked on 4 covers across banner/asis/title modes)",
- "tests": "13/13 pass"
+ "tests": "13/13 pass",
+ "visualPass": {
+  "branch": "synthetic-cover-visual-pass",
+  "header": "real PS4 retail header asset covers/_assets/ps4-header.png (from verified GOOD Inspector Waffles scan) replaces the generated strip on all 210",
+  "composition": "title-safe full-bleed fill: crops only quiet ends (<=6% each), otherwise same-art blurred full-bleed background with feathered sharp art; asis sources lose their own header and use the shared one",
+  "rebuilt": 210,
+  "unchanged": 0,
+  "review": "audit-out/synthetic-cover-review.json",
+  "goodSynthetic": 204,
+  "manualArtDirection": [
+   "2469 Kyukyoku Tiger / Twin Cobra",
+   "2471 Get Star / Guardian",
+   "2696 Quintessential Quintuplets",
+   "2695 Q.U.B.E.",
+   "1999 Streets of Red",
+   "2429 Noob: Les Sans-Factions"
+  ]
+ }
 }

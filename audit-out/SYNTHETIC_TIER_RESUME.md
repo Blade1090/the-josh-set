@@ -7,3 +7,7 @@
 - Gate: `python tools/cover-regression-gate.py PREVIOUS_AUDIT.json` must print SUBSET_OK. It also fails if synthetic art ever displays over a real GOOD/FALLBACK cover.
 - Runtime: `SHELFCHECK_COVER_POLICY.displayCoverFor(x)` returns {url, tier}. Cards and detail are painted by applyShell; Random pre-warm, Should I Buy, Shelf Roulette and My Shelf call the resolver.
 - Gotcha: quote heredocs (`<<'EOF'`) when the text contains backticks.
+
+## Visual pass (branch `synthetic-cover-visual-pass`)
+- Header: `covers/_assets/ps4-header.png` (real PS4 retail header from the verified GOOD Inspector Waffles scan; provenance in `covers/_assets/SOURCES.json`).
+- Per-cover review classes: `audit-out/synthetic-cover-review.json` (204 GOOD_SYNTHETIC, 6 NEEDS_MANUAL_ART_DIRECTION, 0 NEEDS_COMPOSITION_FIX).

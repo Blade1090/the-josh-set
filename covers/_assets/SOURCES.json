@@ -1,0 +1,18 @@
+{
+ "ps4-header.png": {
+  "what": "Standard PS4 retail front header band (blue gradient + PlayStation/PS4 marks), used on every SYNTHETIC cover in place of a generated strip.",
+  "derivedFrom": "Verified GOOD real cover: Inspector Waffles (id 1918), TheGamesDB PS4 boxart front https://cdn.thegamesdb.net/images/original/boxart/front/96425-1.jpg (flat print scan, no case rim)",
+  "crop": [
+   0,
+   0,
+   1526,
+   239
+  ],
+  "sourceSize": [
+   1526,
+   1939
+  ],
+  "headerToWidthRatio": 0.15662,
+  "chosenBecause": "cleanest flat standard header among verified high-res fronts (others show case-rim renders or scan-edge lines)"
+ }
+}
