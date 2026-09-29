@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-29T13:32:43.178Z",
+  "generatedAt": "2026-09-29T13:36:08.428Z",
   "summary": {
-    "generatedAt": "2026-09-29T13:32:43.178Z",
+    "generatedAt": "2026-09-29T13:36:08.428Z",
     "included": 2409,
-    "good": 2191,
+    "good": 2190,
     "fallback": 8,
     "review": 196,
-    "watch": 14,
-    "physicalVerify": 192,
+    "watch": 15,
+    "physicalVerify": 193,
     "physicalLikely": 1400,
-    "physicalConfirmed": 817,
+    "physicalConfirmed": 816,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
@@ -19,14 +19,14 @@
       "missing_ps4_banner": 18
     },
     "watchByReason": {
-      "image_fetch_failed": 14
+      "image_fetch_failed": 15
     },
     "synthetic": 95,
     "displayTiers": {
-      "GOOD": 2191,
+      "GOOD": 2190,
       "FALLBACK": 8,
       "SYNTHETIC": 95,
-      "BLANK": 115
+      "BLANK": 116
     },
     "syntheticByRealState": {
       "REVIEW": 94,
@@ -1063,6 +1063,11 @@
     {
       "id": 14,
       "title": "8-Bit Adventure Anthology: Volume One",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "id": 2288,
+      "title": "Blazing Beaks",
       "reason": "image_fetch_failed"
     },
     {
