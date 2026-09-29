@@ -34,8 +34,9 @@ function randomGame(){const owned=filter==='OWNED',pool=owned?ownedPool():needed
 }
 // Pre-warm the cover of the game the NEXT Random press will show (the tail of the already
 // shuffled no-repeat queue), at idle, so ANOTHER RANDOM GAME paints its cover immediately.
-// Read-only peek: never reorders or consumes the queue. Skips art the quality gate hides.
-function warmNextRandomCover(){if(typeof Image!=='function')return;const next=randomCycle.remaining[randomCycle.remaining.length-1];if(next==null)return;const run=()=>{const x=byId.get(next),url=x&&window.SHELFCHECK_COVER_ART?.coverFor?.(x);if(!url)return;if(window.SHELFCHECK_COVER_POLICY?.qualityForTitle?.(x.title)?.quality==='REVIEW')return;const im=new Image();im.decoding='async';im.src=url};window.requestIdleCallback?requestIdleCallback(run,{timeout:600}):setTimeout(run,200)}
+// Read-only peek: never reorders or consumes the queue. Uses the cover policy's display resolver
+// (real GOOD/FALLBACK > SYNTHETIC), so art the quality gate hides is never pre-warmed.
+function warmNextRandomCover(){if(typeof Image!=='function')return;const next=randomCycle.remaining[randomCycle.remaining.length-1];if(next==null)return;const run=()=>{const x=byId.get(next),url=x&&(window.SHELFCHECK_COVER_POLICY?.displayCoverFor?window.SHELFCHECK_COVER_POLICY.displayCoverFor(x).url:window.SHELFCHECK_COVER_ART?.coverFor?.(x));if(!url)return;const im=new Image();im.decoding='async';im.src=url};window.requestIdleCallback?requestIdleCallback(run,{timeout:600}):setTimeout(run,200)}
 // Random-opened dossiers get ONE reroll control directly below Store Mode's price/verdict
 // area and directly above the Josh Dossier. Anchor to #v instead of guessing by text/content,
 // because dossier enhancement wraps sections and made the old text-based anchor land at top.
@@ -97,7 +98,7 @@ function buyContextLines(x){
   return lines;
 }
 window.__buyCoverError=function(img){const shell=img.closest('.buy-cover');if(shell)shell.innerHTML='<div class="cover-fallback">PS4<br>COVER</div>'};
-function buyCoverHtml(x){const cover=window.SHELFCHECK_COVER_ART?.coverFor?.(x);return `<div class="buy-cover">${cover?`<img src="${esc(cover)}" alt="" loading="lazy" decoding="async" onerror="__buyCoverError(this)">`:'<div class="cover-fallback">PS4<br>COVER</div>'}</div>`}
+function buyCoverHtml(x){const cover=(window.SHELFCHECK_COVER_POLICY?.displayCoverFor?window.SHELFCHECK_COVER_POLICY.displayCoverFor(x).url:window.SHELFCHECK_COVER_ART?.coverFor?.(x));return `<div class="buy-cover">${cover?`<img src="${esc(cover)}" alt="" loading="lazy" decoding="async" onerror="__buyCoverError(this)">`:'<div class="cover-fallback">PS4<br>COVER</div>'}</div>`}
 function chooseBuy(id){buyChoice=byId.get(Number(id));const st=effectiveStatus(buyChoice);$('#buyTitle').value=buyChoice.title;$('#buyMatches').innerHTML=`<div class="buy-selected">${buyCoverHtml(buyChoice)}<div class="buy-selected-info"><span class="badge ${st}">${st}</span><b>${esc(buyChoice.title)}</b></div></div>`;$('#buyVerdict').innerHTML='';$('#buyPrice').focus()}
 function runBuyAdvice(){
   const el=$('#buyPrice'),p=Number(el.value),out=$('#buyVerdict');

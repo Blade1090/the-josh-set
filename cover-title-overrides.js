@@ -213,7 +213,7 @@ window.SHELFCHECK_TITLE_COVERS={
   if(typeof document==='undefined')return;
   if(document.querySelector('script[data-shelfcheck-cover-quality]'))return;
   const s=document.createElement('script');
-  s.src='cover-quality-v001.js?v=1';
+  s.src='cover-quality-v001.js?v=4';
   s.dataset.shelfcheckCoverQuality='1';
   document.head.appendChild(s);
 })();

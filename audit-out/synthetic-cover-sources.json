@@ -1,0 +1,152 @@
+{
+ "note": "Reviewed per-identity source choices for tools/synthetic-cover-build.py. Everything else uses the IGDB cover/key art from covers-manifest.js. Modes: banner (default) | asis (image already cover-shaped: trim padding, optional fractional crop, no added banner) | title (typographic).",
+ "overrides": {
+  "14": {
+   "source": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96pZB04xifcjeE8QOVREy16Nh0uIMOT2n3NaDHK24m6q3aRNOpaoMdo_A_estTNhKC4E25xJgw6LoLgeCMtA3w-wJEcrHiNSbtznSrtkOM6fdmJW6HDV_LAtTb5iuUe2UuWzAXg27okg9yI1CPWaKj0qJ6sMQ/1600.jpg",
+   "kind": "boutique_render",
+   "mode": "asis",
+   "crop": [
+    0.06,
+    0,
+    0.75,
+    0.78
+   ],
+   "note": "Limited Run render; spine cropped"
+  },
+  "1582": {
+   "source": "https://cdn.thegamesdb.net/images/original/boxart/front/44231-1.jpg",
+   "kind": "flat_key_art",
+   "note": "TheGamesDB flat key art (IGDB art was a blurry landscape)"
+  },
+  "1665": {
+   "source": "https://cdn.thegamesdb.net/images/original/boxart/front/46688-1.jpg",
+   "kind": "flat_key_art",
+   "note": "TheGamesDB Cursed Castilla key art"
+  },
+  "1670": {
+   "source": "https://limitedrungames.com/cdn/shop/products/mighty-gunvolt-burst-ps4-lrg.png?height=1080&v=1660241946",
+   "kind": "boutique_render",
+   "mode": "asis",
+   "crop": [
+    0.07,
+    0,
+    1,
+    1
+   ],
+   "note": "Limited Run render; spine cropped, own PS4 banner kept"
+  },
+  "1682": {
+   "source": "https://myshopville.com/cdn/shop/products/now_thats_what_i_call_sing_sony_playstation_4_ps4_video_game_box_cover_shopville_canada_usa.jpg",
+   "kind": "flat_front_unverified",
+   "mode": "asis",
+   "note": "flat PAL front (PEGI 12); padding trimmed; fails the PS4 banner gate, so not GOOD"
+  },
+  "1685": {
+   "source": "https://cdn.thegamesdb.net/images/original/boxart/front/20959-1.jpg",
+   "kind": "boutique_render",
+   "mode": "asis",
+   "crop": [
+    0.08,
+    0,
+    0.75,
+    0.78
+   ],
+   "note": "Limited Run render; spine cropped"
+  },
+  "1753": {
+   "source": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96jidSUwtKwUM6mZLbIaNp5pvjeRbkDfVaLpjDyIt3LtyDhMxJtkMYw6nNS1lb_TTuATBEHl-kkBOodOdhNEZpyqycp2q5zCJSVWoD1gCZ7wNBeoY0vAdPWgN6ufvuh56Hg_EN_NcZgE_gpu6s6yOQMv7-AKQ/1600.jpg",
+   "kind": "flat_front_unverified",
+   "mode": "asis",
+   "note": "flat NA front (ESRB E); fails the PS4 banner gate, so not GOOD"
+  },
+  "1809": {
+   "source": "https://cdn.thegamesdb.net/images/original/boxart/front/92184-1.jpg",
+   "kind": "boutique_render",
+   "mode": "asis",
+   "crop": [
+    0.07,
+    0,
+    1,
+    1
+   ],
+   "note": "Limited Run render (ESRB RP pre-release marks); spine cropped; no better source"
+  },
+  "1969": {
+   "source": "https://storage.googleapis.com/images.pricecharting.com/ykixeqhjfyqit4ix/1600.jpg",
+   "kind": "boutique_render",
+   "mode": "asis",
+   "crop": [
+    0.07,
+    0,
+    1,
+    1
+   ],
+   "note": "Strictly Limited render; spine cropped"
+  },
+  "1971": {
+   "source": "https://storage.googleapis.com/images.pricecharting.com/0195507ca55c81b150329563b5389e212b8886fa128b669b888666cbe4ea1e51/1600.jpg",
+   "kind": "flat_front_unverified",
+   "mode": "asis",
+   "note": "Strictly Limited flat front without rating marks"
+  },
+  "1999": {
+   "source": "https://storage.googleapis.com/images.pricecharting.com/e76d6f1013813f3f5635e5108fa3f7bd0d758f3e64d505318aa77a5937ebb676/1600.jpg",
+   "kind": "boutique_render",
+   "mode": "asis",
+   "crop": [
+    0.07,
+    0,
+    1,
+    1
+   ],
+   "note": "PriceCharting render; spine cropped"
+  },
+  "2241": {
+   "source": "https://www.strictlylimitedgames.com/cdn/shop/files/STE-Steel-Empire-Chronicles-Playstation-4-PS4-Limited-Edition-Physical-Copy-Box-Art-2D_1024x1024.png?v=1743662291",
+   "kind": "publisher_packshot",
+   "mode": "asis",
+   "note": "Strictly Limited flat 2D packshot without rating marks"
+  },
+  "2420": {
+   "source": "https://storage.googleapis.com/images.pricecharting.com/37ea9660da1af1e780461fb910b70421dc2a6fb4d2fdfcaf7264804454b09376/1600.jpg",
+   "kind": "flat_front_unverified",
+   "mode": "asis",
+   "note": "flat PAL front with a faint retailer watermark (not accepted as GOOD)"
+  },
+  "2429": {
+   "source": "https://storage.googleapis.com/images.pricecharting.com/rpmsgx47gtkc56s6/1600.jpg",
+   "kind": "case_photo",
+   "mode": "asis",
+   "crop": [
+    0.03,
+    0.08,
+    0.97,
+    0.97
+   ],
+   "note": "only image found is a photo of the PAL case; cropped to the front"
+  },
+  "2465": {
+   "source": "https://www.strictlylimitedgames.com/cdn/shop/files/ROG-Rolling-Gunner-Overpower-Playstation-4-PS4-Limited-Edition-Physical-Copy-Box-Art-2D_1200x.png?v=1743662952",
+   "kind": "publisher_packshot",
+   "mode": "asis",
+   "note": "Strictly Limited flat 2D packshot without rating marks"
+  },
+  "2469": {
+   "mode": "title",
+   "note": "no safe art found (GameFAQs-only front; IGDB/other sources unavailable)"
+  },
+  "2471": {
+   "mode": "title",
+   "note": "no safe art found (GameFAQs-only front; IGDB/other sources unavailable)"
+  },
+  "2695": {
+   "source": "https://cdn.thegamesdb.net/images/original/boxart/front/60963-1.jpg",
+   "kind": "flat_key_art",
+   "note": "TheGamesDB Q.U.B.E. Director's Cut key art"
+  },
+  "2696": {
+   "mode": "title",
+   "note": "no safe art found (only a JP case photo)"
+  }
+ }
+}

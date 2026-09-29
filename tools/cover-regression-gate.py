@@ -34,8 +34,13 @@ def main():
     for i in real: print('  LOST', i, b.get(i, {}).get('title'), b.get(i, {}).get('qualityState'), b.get(i, {}).get('reasonCode'))
     changed_bad = [i for i in b if i in a and a[i]['url'] != b[i]['url'] and b[i]['qualityState'] != 'GOOD']
     for i in changed_bad: print('  changed URL but not GOOD:', i, b[i]['title'], b[i]['reasonCode'])
-    print('SUBSET_OK' if not real else 'REGRESSION')
-    sys.exit(1 if real else 0)
+    # SYNTHETIC tier guard: a synthetic cover may only be displayed when no real GOOD/FALLBACK exists.
+    bad_syn = [i for i, r in b.items() if r.get('displayTier') == 'SYNTHETIC' and r['qualityState'] in ('GOOD', 'FALLBACK')]
+    if 'displayTiers' in sb: print('display tiers', sb['displayTiers'], 'synthetic', sb.get('synthetic'))
+    for i in bad_syn: print('  SYNTHETIC OVER REAL COVER:', i, b[i]['title'])
+    ok = not real and not bad_syn
+    print('SUBSET_OK' if ok else 'REGRESSION')
+    sys.exit(0 if ok else 1)
 
 if __name__ == '__main__':
     main()

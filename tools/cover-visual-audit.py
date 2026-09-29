@@ -141,9 +141,29 @@ watch.sort(key=lambda r:(priority.get(r['reasonCode'],10),r.get('bannerColumnSpa
 summary={'generatedAt':data['generatedAt'],'included':len(rows),'good':sum(r['qualityState']=='GOOD' for r in rows),'fallback':len(fallback),'review':len(review),'watch':len(watch),'physicalVerify':sum(r['physicalSanity']=='VERIFY' for r in rows),'physicalLikely':sum(r['physicalSanity']=='LIKELY' for r in rows),'physicalConfirmed':sum(r['physicalSanity']=='CONFIRMED' for r in rows),'manualConfirmedBad':sum(r.get('manualStatus')=='CONFIRMED_BAD' for r in rows),'manualFallback':sum(r.get('manualStatus')=='FALLBACK' for r in rows),'manualEligibility':sum(r.get('manualStatus')=='ELIGIBILITY' for r in rows),'manualFixedTracked':sum(r.get('manualStatus')=='FIXED' for r in rows),'reviewByReason':{},'watchByReason':{}}
 for r in review: summary['reviewByReason'][r['reasonCode']]=summary['reviewByReason'].get(r['reasonCode'],0)+1
 for r in watch: summary['watchByReason'][r['reasonCode']]=summary['watchByReason'].get(r['reasonCode'],0)+1
+# SYNTHETIC tier: reconstructed covers (covers/ps4-synthetic/manifest.json) for identities with
+# no GOOD/FALLBACK real cover. Tracked separately; never changes qualityState or the counts above.
+SYN='covers/ps4-synthetic/manifest.json'
+syn=json.load(open(SYN,encoding='utf-8')).get('covers',{}) if os.path.exists(SYN) else {}
+syn_ignored=[]; syn_missing_file=[]
+for r in rows:
+    s=syn.get(str(r['id']))
+    if s and not os.path.exists(s['url']): syn_missing_file.append(r['id']); s=None
+    if r['qualityState'] in ('GOOD','FALLBACK'):
+        if s: syn_ignored.append(r['id'])
+        r['displayTier']=r['qualityState']; r['syntheticCover']=None
+    else:
+        r['syntheticCover']=s['url'] if s else None
+        r['displayTier']='SYNTHETIC' if s else 'BLANK'
+summary['synthetic']=sum(r['displayTier']=='SYNTHETIC' for r in rows)
+summary['displayTiers']={t:sum(r['displayTier']==t for r in rows) for t in ('GOOD','FALLBACK','SYNTHETIC','BLANK')}
+summary['syntheticByRealState']={q:sum(r['displayTier']=='SYNTHETIC' and r['qualityState']==q for r in rows) for q in ('REVIEW','WATCH')}
+summary['syntheticIgnoredRealCover']=syn_ignored
+summary['syntheticMissingFile']=syn_missing_file
+synthetic_rows=[{'id':r['id'],'title':r['title'],'url':r['syntheticCover'],'realState':r['qualityState'],'realReason':r['reasonCode']} for r in rows if r['displayTier']=='SYNTHETIC']
 os.makedirs('audit-out',exist_ok=True)
 with open(OUT,'w',encoding='utf-8') as f: json.dump({'standard':'docs/COVER_ART_STANDARD.md','summary':summary,'review':review,'fallback':fallback,'watch':watch,'rows':rows},f,indent=2)
-with open(RUNTIME,'w',encoding='utf-8') as f: json.dump({'generatedAt':data['generatedAt'],'summary':summary,'review':[{'id':r.get('id'),'title':r['title'],'reason':r['reasonCode']} for r in review],'fallback':[{'id':r.get('id'),'title':r['title'],'reason':r['reasonCode']} for r in fallback],'watch':[{'id':r.get('id'),'title':r['title'],'reason':r['reasonCode']} for r in watch]},f,indent=2)
+with open(RUNTIME,'w',encoding='utf-8') as f: json.dump({'generatedAt':data['generatedAt'],'summary':summary,'review':[{'id':r.get('id'),'title':r['title'],'reason':r['reasonCode']} for r in review],'fallback':[{'id':r.get('id'),'title':r['title'],'reason':r['reasonCode']} for r in fallback],'watch':[{'id':r.get('id'),'title':r['title'],'reason':r['reasonCode']} for r in watch],'synthetic':synthetic_rows},f,indent=2)
 with open('audit-out/cover-review-queue.csv','w',encoding='utf-8',newline='') as f:
     import csv
     w=csv.writer(f);w.writerow(['id','title','source','qualityState','reasonCode','physicalSanity','manualStatus','manualReason','bannerColumnSpan','bannerPixelRatio','url'])
