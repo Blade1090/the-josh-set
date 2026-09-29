@@ -225,7 +225,8 @@
     "2761",
     "2775"
    ],
-   "status": "pending"
+   "status": "committed",
+   "kind": "IGDB cover/key art + generated PS4 banner"
   },
   {
    "batch": "S3",
@@ -259,14 +260,14 @@
   "review": 196,
   "watch": 14,
   "fallback": 8,
-  "synthetic": 210,
+  "synthetic": 191,
   "displayTiers": {
    "GOOD": 2191,
    "FALLBACK": 8,
-   "SYNTHETIC": 210,
-   "BLANK": 0
+   "SYNTHETIC": 191,
+   "BLANK": 19
   }
  },
- "updated": "2026-09-29T13:32:04+00:00",
- "next": "S2: add remaining IGDB-art synthetic covers to manifest, audit, gate, commit"
+ "updated": "2026-09-29T13:38:23+00:00",
+ "next": "S3: add the 19 curated-override synthetic covers, audit, gate, commit"
 }
