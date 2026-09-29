@@ -6,6 +6,17 @@
     "NES/Famicom",
     "Nintendo Entertainment System"
   ],
+  "collectionScope": {
+    "coreSet": "North American NES physical releases",
+    "completionRegion": "North America",
+    "includeAnnualSports": true,
+    "includeLowQualityLicensedGames": true,
+    "unlicensed": "track-separately",
+    "homebrew": "track-separately",
+    "aftermarket": "track-separately",
+    "famicom": "track-separately-no-core-completion",
+    "duplicateCopies": "one-playable-identity"
+  },
   "regionPreference": [
     "US",
     "World",
@@ -13,9 +24,20 @@
     "Japan",
     "other"
   ],
+  "theme": {
+    "name": "NES",
+    "background": "#171717",
+    "surface": "#2b2b2b",
+    "surfaceAlt": "#d8d8d8",
+    "text": "#f3f3f3",
+    "textDark": "#222222",
+    "accent": "#e60012",
+    "accentMuted": "#8a0f18",
+    "rule": "NES charcoal, gray and red. Do not inherit PS4 blue UI accents. Famicom entries retain their own packaging identity."
+  },
   "packaging": {
     "type": "nes-retail-front",
-    "rule": "Use a verified straight-on retail box front. Do not require black-box styling; NES packaging varies widely by era and publisher. Cartridge-label art, angled boxes, case photos, fan art and provisional art are not GOOD."
+    "rule": "Use a verified straight-on retail box front. Do not require black-box styling; NES packaging varies widely by era and publisher. Cartridge-label art, angled boxes, case photos, fan art and provisional art are not GOOD. Famicom titles use verified Famicom retail packaging rather than synthetic NES conversions."
   },
   "sources": {
     "launchbox": {
@@ -35,6 +57,7 @@
   "status": "bootstrap",
   "notes": [
     "Source platform IDs must be verified before automated recovery/fetching is enabled.",
-    "Matty's private GameEye export is an input only and must not be committed to this public repository."
+    "Matty's private GameEye export is an input only and must not be committed to this public repository.",
+    "Core completion is North American NES; Famicom is visible and collectible but excluded from the core completion percentage."
   ]
 }
