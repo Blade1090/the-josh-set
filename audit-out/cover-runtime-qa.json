@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-29T13:39:00.779Z",
+  "generatedAt": "2026-09-29T13:51:55.225Z",
   "summary": {
-    "generatedAt": "2026-09-29T13:39:00.779Z",
+    "generatedAt": "2026-09-29T13:51:55.225Z",
     "included": 2409,
-    "good": 2191,
+    "good": 2185,
     "fallback": 8,
     "review": 196,
-    "watch": 14,
-    "physicalVerify": 192,
-    "physicalLikely": 1400,
+    "watch": 20,
+    "physicalVerify": 198,
+    "physicalLikely": 1394,
     "physicalConfirmed": 817,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
@@ -19,14 +19,14 @@
       "missing_ps4_banner": 18
     },
     "watchByReason": {
-      "image_fetch_failed": 14
+      "image_fetch_failed": 20
     },
     "synthetic": 210,
     "displayTiers": {
-      "GOOD": 2191,
+      "GOOD": 2185,
       "FALLBACK": 8,
       "SYNTHETIC": 210,
-      "BLANK": 0
+      "BLANK": 6
     },
     "syntheticByRealState": {
       "REVIEW": 196,
@@ -1066,8 +1066,23 @@
       "reason": "image_fetch_failed"
     },
     {
+      "id": 2281,
+      "title": "Atomicrops",
+      "reason": "image_fetch_failed"
+    },
+    {
       "id": 1969,
       "title": "Cannon Dancer",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "id": 2580,
+      "title": "Fallen Legion Revenants",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "id": 499,
+      "title": "Flipping Death",
       "reason": "image_fetch_failed"
     },
     {
@@ -1088,6 +1103,11 @@
     {
       "id": 2469,
       "title": "Kyukyoku Tiger / Twin Cobra",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "id": 2640,
+      "title": "L.O.L. Surprise: B.B.s. Born to Travel",
       "reason": "image_fetch_failed"
     },
     {
@@ -1128,6 +1148,16 @@
     {
       "id": 1756,
       "title": "The Journey Down: Chapter Two",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "id": 1341,
+      "title": "Torment: Tides of Numenera",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "id": 1418,
+      "title": "Warhammer: End Times - Vermintide",
       "reason": "image_fetch_failed"
     }
   ],
