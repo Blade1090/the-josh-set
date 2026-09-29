@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-09-29T13:14:53.290Z",
+  "generatedAt": "2026-09-29T13:17:42.560Z",
   "summary": {
-    "generatedAt": "2026-09-29T13:14:53.290Z",
+    "generatedAt": "2026-09-29T13:17:42.560Z",
     "included": 2409,
-    "good": 2191,
+    "good": 2190,
     "fallback": 8,
     "review": 196,
-    "watch": 14,
-    "physicalVerify": 192,
-    "physicalLikely": 1400,
+    "watch": 15,
+    "physicalVerify": 193,
+    "physicalLikely": 1399,
     "physicalConfirmed": 817,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
@@ -19,7 +19,7 @@
       "missing_ps4_banner": 18
     },
     "watchByReason": {
-      "image_fetch_failed": 14
+      "image_fetch_failed": 15
     }
   },
   "review": [
@@ -1105,6 +1105,11 @@
     {
       "id": 2696,
       "title": "Quintessential Quintuplets Fives Memories With You",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "id": 1853,
+      "title": "Spellcaster University",
       "reason": "image_fetch_failed"
     },
     {
