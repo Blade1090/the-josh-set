@@ -1,7 +1,7 @@
 {
   "standard": "docs/COVER_ART_STANDARD.md",
   "summary": {
-    "generatedAt": "2026-09-29T13:29:59.395Z",
+    "generatedAt": "2026-09-29T13:32:43.178Z",
     "included": 2409,
     "good": 2191,
     "fallback": 8,
@@ -21,16 +21,16 @@
     "watchByReason": {
       "image_fetch_failed": 14
     },
-    "synthetic": 210,
+    "synthetic": 95,
     "displayTiers": {
       "GOOD": 2191,
       "FALLBACK": 8,
-      "SYNTHETIC": 210,
-      "BLANK": 0
+      "SYNTHETIC": 95,
+      "BLANK": 115
     },
     "syntheticByRealState": {
-      "REVIEW": 196,
-      "WATCH": 14
+      "REVIEW": 94,
+      "WATCH": 1
     },
     "syntheticIgnoredRealCover": [],
     "syntheticMissingFile": []
@@ -51,8 +51,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2037.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2077,
@@ -69,8 +69,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2077.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1579,
@@ -105,8 +105,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2518.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2068,
@@ -123,8 +123,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2068.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2521,
@@ -141,8 +141,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2521.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1964,
@@ -159,8 +159,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1964.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2533,
@@ -177,8 +177,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2533.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1582,
@@ -195,8 +195,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1582.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1849,
@@ -213,8 +213,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1849.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 238,
@@ -249,8 +249,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2094.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2415,
@@ -267,8 +267,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2415.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2298,
@@ -285,8 +285,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2298.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2299,
@@ -303,8 +303,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2299.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 269,
@@ -411,8 +411,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2042.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 322,
@@ -465,8 +465,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2417.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 402,
@@ -501,8 +501,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2039.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1608,
@@ -537,8 +537,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2266.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1950,
@@ -555,8 +555,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1950.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2306,
@@ -573,8 +573,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2306.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 454,
@@ -699,8 +699,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1938.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2311,
@@ -717,8 +717,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2311.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1866,
@@ -735,8 +735,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1866.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2420,
@@ -753,8 +753,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2420.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1980,
@@ -771,8 +771,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1980.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1953,
@@ -789,8 +789,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1953.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2055,
@@ -807,8 +807,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2055.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2256,
@@ -825,8 +825,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2256.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 586,
@@ -861,8 +861,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2257.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1638,
@@ -897,8 +897,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2243.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2461,
@@ -915,8 +915,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2461.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1515,
@@ -969,8 +969,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2392.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 750,
@@ -1005,8 +1005,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2463.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2325,
@@ -1023,8 +1023,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2325.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 780,
@@ -1077,8 +1077,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1923.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2095,
@@ -1095,8 +1095,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2095.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 807,
@@ -1167,8 +1167,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2016.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 823,
@@ -1203,8 +1203,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2097.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2657,
@@ -1221,8 +1221,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2657.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1679,
@@ -1257,8 +1257,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2330.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2011,
@@ -1275,8 +1275,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2011.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1826,
@@ -1311,8 +1311,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2666.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1686,
@@ -1383,8 +1383,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2028.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1817,
@@ -1455,8 +1455,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1908.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1952,
@@ -1473,8 +1473,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1952.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2451,
@@ -1491,8 +1491,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2451.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1697,
@@ -1527,8 +1527,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2707.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 970,
@@ -1581,8 +1581,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1972.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2096,
@@ -1599,8 +1599,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2096.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2038,
@@ -1617,8 +1617,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2038.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1838,
@@ -1635,8 +1635,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1838.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2339,
@@ -1653,8 +1653,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2339.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1717,
@@ -1689,8 +1689,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2718.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1720,
@@ -1743,8 +1743,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2341.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1721,
@@ -1779,8 +1779,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1951.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1723,
@@ -1851,8 +1851,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2473.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2474,
@@ -1869,8 +1869,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2474.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2475,
@@ -1887,8 +1887,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2475.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1827,
@@ -1959,8 +1959,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2061.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2344,
@@ -1977,8 +1977,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2344.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1729,
@@ -2067,8 +2067,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1949.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1094,
@@ -2103,8 +2103,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2018.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1881,
@@ -2121,8 +2121,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1881.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2454,
@@ -2139,8 +2139,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2454.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2258,
@@ -2157,8 +2157,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2258.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2026,
@@ -2175,8 +2175,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2026.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1122,
@@ -2247,8 +2247,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2350.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1171,
@@ -2337,8 +2337,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1958.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1854,
@@ -2355,8 +2355,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1854.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1185,
@@ -2391,8 +2391,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2352.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1873,
@@ -2409,8 +2409,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1873.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2733,
@@ -2427,8 +2427,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2733.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1203,
@@ -2463,8 +2463,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2455.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1745,
@@ -2535,8 +2535,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2353.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1234,
@@ -2571,8 +2571,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2354.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1754,
@@ -2625,8 +2625,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2019.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2049,
@@ -2643,8 +2643,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2049.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1298,
@@ -2733,8 +2733,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2030.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1351,
@@ -2769,8 +2769,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2358.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1360,
@@ -2805,8 +2805,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2001.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2360,
@@ -2823,8 +2823,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2360.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1821,
@@ -2859,8 +2859,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2262.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2263,
@@ -2877,8 +2877,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2263.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1375,
@@ -2913,8 +2913,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2098.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2033,
@@ -2931,8 +2931,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2033.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1542,
@@ -2967,8 +2967,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2043.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2752,
@@ -2985,8 +2985,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2752.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1781,
@@ -3021,8 +3021,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1970.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1402,
@@ -3075,8 +3075,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2761.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1544,
@@ -3111,8 +3111,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1948.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2022,
@@ -3129,8 +3129,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2022.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2367,
@@ -3147,8 +3147,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2367.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1463,
@@ -3201,8 +3201,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2775.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2443,
@@ -3219,8 +3219,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2443.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2240,
@@ -3237,8 +3237,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2240.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1497,
@@ -3309,8 +3309,8 @@
       "bannerColumnSpan": 0.016666666666666666,
       "bannerPixelRatio": 0.00020833333333333335,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1999.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1850,
@@ -3327,8 +3327,8 @@
       "bannerColumnSpan": 0.24722222222222223,
       "bannerPixelRatio": 0.009351851851851853,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1850.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1839,
@@ -3345,8 +3345,8 @@
       "bannerColumnSpan": 0.4861111111111111,
       "bannerPixelRatio": 0.21296296296296297,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1839.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1682,
@@ -3363,8 +3363,8 @@
       "bannerColumnSpan": 0.5416666666666666,
       "bannerPixelRatio": 0.27923611111111113,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1682.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 241,
@@ -3399,8 +3399,8 @@
       "bannerColumnSpan": 0.5972222222222222,
       "bannerPixelRatio": 0.1794675925925926,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1670.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1227,
@@ -3471,8 +3471,8 @@
       "bannerColumnSpan": 0.645,
       "bannerPixelRatio": 0.14316666666666666,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1942.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 451,
@@ -3507,8 +3507,8 @@
       "bannerColumnSpan": 0.7,
       "bannerPixelRatio": 0.41425925925925927,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2465.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2241,
@@ -3525,8 +3525,8 @@
       "bannerColumnSpan": 0.7,
       "bannerPixelRatio": 0.4039583333333333,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2241.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 819,
@@ -3727,8 +3727,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/14.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1969,
@@ -3745,8 +3745,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/1969.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2471,
@@ -3763,8 +3763,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/2471.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1809,
@@ -3781,8 +3781,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/1809.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1971,
@@ -3799,8 +3799,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/1971.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2469,
@@ -3817,8 +3817,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/2469.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1665,
@@ -3835,8 +3835,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/1665.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2242,
@@ -3853,8 +3853,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/2242.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2429,
@@ -3871,8 +3871,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/2429.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1685,
@@ -3889,8 +3889,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/1685.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2695,
@@ -3907,8 +3907,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/2695.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2696,
@@ -3925,8 +3925,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/2696.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1753,
@@ -3943,8 +3943,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/1753.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1756,
@@ -4269,8 +4269,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/14.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 15,
@@ -4395,8 +4395,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2037.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 19,
@@ -5835,8 +5835,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2077.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2078,
@@ -6087,8 +6087,8 @@
       "bannerColumnSpan": 0.4861111111111111,
       "bannerPixelRatio": 0.21296296296296297,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1839.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 77,
@@ -8805,8 +8805,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2518.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2519,
@@ -8841,8 +8841,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2068.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2111,
@@ -9021,8 +9021,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2521.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2522,
@@ -9363,8 +9363,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1964.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 177,
@@ -10029,8 +10029,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2533.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2446,
@@ -10173,8 +10173,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1582.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2239,
@@ -10299,8 +10299,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1849.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 206,
@@ -11055,8 +11055,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/1969.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1586,
@@ -11451,8 +11451,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2094.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1497,
@@ -12063,8 +12063,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2415.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 256,
@@ -12117,8 +12117,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2298.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1892,
@@ -12315,8 +12315,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2299.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 266,
@@ -13359,8 +13359,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2042.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2562,
@@ -15249,8 +15249,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2417.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2370,
@@ -15735,8 +15735,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2039.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2025,
@@ -16167,8 +16167,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2266.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 419,
@@ -16707,8 +16707,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1950.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2574,
@@ -16743,8 +16743,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2306.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1835,
@@ -18579,8 +18579,8 @@
       "bannerColumnSpan": 0.645,
       "bannerPixelRatio": 0.14316666666666666,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1942.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 512,
@@ -19101,8 +19101,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1938.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2590,
@@ -19191,8 +19191,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/2471.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1955,
@@ -19479,8 +19479,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2311.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2594,
@@ -19785,8 +19785,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1866.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 542,
@@ -19965,8 +19965,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2420.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 548,
@@ -20163,8 +20163,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/1809.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 557,
@@ -20451,8 +20451,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1980.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 567,
@@ -20505,8 +20505,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1953.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1551,
@@ -20559,8 +20559,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2055.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2256,
@@ -20577,8 +20577,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2256.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2598,
@@ -21153,8 +21153,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2257.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 587,
@@ -22521,8 +22521,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2243.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 632,
@@ -22611,8 +22611,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2461.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1513,
@@ -22845,8 +22845,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/1971.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2620,
@@ -23979,8 +23979,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/2469.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 684,
@@ -25419,8 +25419,8 @@
       "bannerColumnSpan": 0.24722222222222223,
       "bannerPixelRatio": 0.009351851851851853,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1850.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 730,
@@ -25815,8 +25815,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/1665.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2462,
@@ -25869,8 +25869,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2392.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1666,
@@ -26355,8 +26355,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2463.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 761,
@@ -26751,8 +26751,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2325.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1670,
@@ -26769,8 +26769,8 @@
       "bannerColumnSpan": 0.5972222222222222,
       "bannerPixelRatio": 0.1794675925925926,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1670.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 779,
@@ -27165,8 +27165,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1923.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2024,
@@ -27381,8 +27381,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2095.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 804,
@@ -27669,8 +27669,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2016.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2002,
@@ -27867,8 +27867,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2097.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 824,
@@ -27903,8 +27903,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2657.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2658,
@@ -28299,8 +28299,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2330.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 834,
@@ -28515,8 +28515,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2011.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 843,
@@ -28695,8 +28695,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/2242.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 847,
@@ -28947,8 +28947,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/2429.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 856,
@@ -29001,8 +29001,8 @@
       "bannerColumnSpan": 0.5416666666666666,
       "bannerPixelRatio": 0.27923611111111113,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1682.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1851,
@@ -29163,8 +29163,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2666.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2667,
@@ -29217,8 +29217,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/1685.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2668,
@@ -30081,8 +30081,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2028.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1934,
@@ -31557,8 +31557,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1908.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1952,
@@ -31575,8 +31575,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1952.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 936,
@@ -31647,8 +31647,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2451.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1697,
@@ -31863,8 +31863,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/2695.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1996,
@@ -31917,8 +31917,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/2696.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1698,
@@ -32277,8 +32277,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2707.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 955,
@@ -33465,8 +33465,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1972.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 999,
@@ -33537,8 +33537,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2096.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1001,
@@ -33969,8 +33969,8 @@
       "bannerColumnSpan": 0.7,
       "bannerPixelRatio": 0.41425925925925927,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2465.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1019,
@@ -34095,8 +34095,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2038.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1021,
@@ -34221,8 +34221,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1838.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1024,
@@ -34257,8 +34257,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2339.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1025,
@@ -34653,8 +34653,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2718.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2719,
@@ -34905,8 +34905,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2341.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1040,
@@ -35355,8 +35355,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1951.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2005,
@@ -35625,8 +35625,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2473.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2474,
@@ -35643,8 +35643,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2474.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2475,
@@ -35661,8 +35661,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2475.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1827,
@@ -36021,8 +36021,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2061.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1073,
@@ -36201,8 +36201,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2344.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1729,
@@ -36741,8 +36741,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1949.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1860,
@@ -36975,8 +36975,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2018.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1954,
@@ -37353,8 +37353,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1881.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1116,
@@ -37389,8 +37389,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2454.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1853,
@@ -37443,8 +37443,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2258.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1118,
@@ -37479,8 +37479,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2026.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1119,
@@ -38073,8 +38073,8 @@
       "bannerColumnSpan": 0.7,
       "bannerPixelRatio": 0.4039583333333333,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2241.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1532,
@@ -38451,8 +38451,8 @@
       "bannerColumnSpan": 0.016666666666666666,
       "bannerPixelRatio": 0.00020833333333333335,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1999.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1165,
@@ -38559,8 +38559,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2350.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1170,
@@ -38829,8 +38829,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1958.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1739,
@@ -38901,8 +38901,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1854.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1183,
@@ -38991,8 +38991,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2352.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1186,
@@ -39171,8 +39171,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1873.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1919,
@@ -39495,8 +39495,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2733.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1201,
@@ -39855,8 +39855,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2455.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2741,
@@ -40305,8 +40305,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2353.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1228,
@@ -40611,8 +40611,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": "HTTP Error 403: Forbidden",
-      "syntheticCover": "covers/ps4-synthetic/1753.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1246,
@@ -40701,8 +40701,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2354.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1250,
@@ -40899,8 +40899,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2019.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1257,
@@ -41133,8 +41133,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2049.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2050,
@@ -42915,8 +42915,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2030.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1348,
@@ -43095,8 +43095,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2358.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1354,
@@ -43545,8 +43545,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2001.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2360,
@@ -43563,8 +43563,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2360.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1821,
@@ -43599,8 +43599,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2262.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2263,
@@ -43617,8 +43617,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2263.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1375,
@@ -44031,8 +44031,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2098.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2033,
@@ -44049,8 +44049,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2033.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2748,
@@ -44409,8 +44409,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2043.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1775,
@@ -44481,8 +44481,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2752.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1394,
@@ -44805,8 +44805,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1970.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1402,
@@ -45093,8 +45093,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2761.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1937,
@@ -45651,8 +45651,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/1948.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1538,
@@ -45777,8 +45777,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2022.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1960,
@@ -46263,8 +46263,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2367.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1459,
@@ -46911,8 +46911,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2775.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2048,
@@ -47091,8 +47091,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2443.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 1486,
@@ -47181,8 +47181,8 @@
       "bannerColumnSpan": null,
       "bannerPixelRatio": null,
       "error": null,
-      "syntheticCover": "covers/ps4-synthetic/2240.jpg",
-      "displayTier": "SYNTHETIC"
+      "syntheticCover": null,
+      "displayTier": "BLANK"
     },
     {
       "id": 2779,

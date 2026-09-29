@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-29T13:29:59.395Z",
+  "generatedAt": "2026-09-29T13:32:43.178Z",
   "summary": {
-    "generatedAt": "2026-09-29T13:29:59.395Z",
+    "generatedAt": "2026-09-29T13:32:43.178Z",
     "included": 2409,
     "good": 2191,
     "fallback": 8,
@@ -21,16 +21,16 @@
     "watchByReason": {
       "image_fetch_failed": 14
     },
-    "synthetic": 210,
+    "synthetic": 95,
     "displayTiers": {
       "GOOD": 2191,
       "FALLBACK": 8,
-      "SYNTHETIC": 210,
-      "BLANK": 0
+      "SYNTHETIC": 95,
+      "BLANK": 115
     },
     "syntheticByRealState": {
-      "REVIEW": 196,
-      "WATCH": 14
+      "REVIEW": 94,
+      "WATCH": 1
     },
     "syntheticIgnoredRealCover": [],
     "syntheticMissingFile": []
@@ -1133,34 +1133,6 @@
   ],
   "synthetic": [
     {
-      "id": 14,
-      "title": "8-Bit Adventure Anthology: Volume One",
-      "url": "covers/ps4-synthetic/14.jpg",
-      "realState": "WATCH",
-      "realReason": "image_fetch_failed"
-    },
-    {
-      "id": 2037,
-      "title": "9th Dawn III",
-      "url": "covers/ps4-synthetic/2037.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2077,
-      "title": "American Hero",
-      "url": "covers/ps4-synthetic/2077.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1839,
-      "title": "Another Crusade",
-      "url": "covers/ps4-synthetic/1839.jpg",
-      "realState": "REVIEW",
-      "realReason": "missing_ps4_banner"
-    },
-    {
       "id": 82,
       "title": "Ara Fell: Enhanced Edition",
       "url": "covers/ps4-synthetic/82.jpg",
@@ -1175,72 +1147,9 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 2518,
-      "title": "Beyond Enemy Lines 2: Enhanced Edition",
-      "url": "covers/ps4-synthetic/2518.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2068,
-      "title": "Beyond the Ice Palace 2",
-      "url": "covers/ps4-synthetic/2068.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2521,
-      "title": "Bite the Bullet",
-      "url": "covers/ps4-synthetic/2521.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1964,
-      "title": "Blast Brigade vs. the Evil Legion of Dr. Cread",
-      "url": "covers/ps4-synthetic/1964.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2533,
-      "title": "Bounty Battle",
-      "url": "covers/ps4-synthetic/2533.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1582,
-      "title": "Breach & Clear: Deadline",
-      "url": "covers/ps4-synthetic/1582.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1849,
-      "title": "BROK: The InvestiGator",
-      "url": "covers/ps4-synthetic/1849.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1969,
-      "title": "Cannon Dancer",
-      "url": "covers/ps4-synthetic/1969.jpg",
-      "realState": "WATCH",
-      "realReason": "image_fetch_failed"
-    },
-    {
       "id": 238,
       "title": "Caveman Warriors",
       "url": "covers/ps4-synthetic/238.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2094,
-      "title": "Chained Echoes",
-      "url": "covers/ps4-synthetic/2094.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -1257,27 +1166,6 @@
       "url": "covers/ps4-synthetic/241.jpg",
       "realState": "REVIEW",
       "realReason": "missing_ps4_banner"
-    },
-    {
-      "id": 2415,
-      "title": "Coffee Crisis",
-      "url": "covers/ps4-synthetic/2415.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2298,
-      "title": "Colossal Cave",
-      "url": "covers/ps4-synthetic/2298.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2299,
-      "title": "Contra: Operation Galuga",
-      "url": "covers/ps4-synthetic/2299.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
     },
     {
       "id": 269,
@@ -1322,13 +1210,6 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 2042,
-      "title": "Dark Nights with Poe & Munro",
-      "url": "covers/ps4-synthetic/2042.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 322,
       "title": "Dead Alliance",
       "url": "covers/ps4-synthetic/322.jpg",
@@ -1343,13 +1224,6 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 2417,
-      "title": "Dogchild",
-      "url": "covers/ps4-synthetic/2417.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 402,
       "title": "Dragon Fantasy: The Black Tome of Ice",
       "url": "covers/ps4-synthetic/402.jpg",
@@ -1357,37 +1231,9 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 2039,
-      "title": "Dragon Lapis",
-      "url": "covers/ps4-synthetic/2039.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 1608,
       "title": "Drive!Drive!Drive!",
       "url": "covers/ps4-synthetic/1608.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2266,
-      "title": "DUSK",
-      "url": "covers/ps4-synthetic/2266.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1950,
-      "title": "Empire of Angels IV",
-      "url": "covers/ps4-synthetic/1950.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2306,
-      "title": "Enclave HD",
-      "url": "covers/ps4-synthetic/2306.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -1434,13 +1280,6 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 1942,
-      "title": "Fullblast",
-      "url": "covers/ps4-synthetic/1942.jpg",
-      "realState": "REVIEW",
-      "realReason": "missing_ps4_banner"
-    },
-    {
       "id": 1622,
       "title": "Fury Unleashed",
       "url": "covers/ps4-synthetic/1622.jpg",
@@ -1462,81 +1301,11 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 1938,
-      "title": "Gekido Kintaro's Revenge",
-      "url": "covers/ps4-synthetic/1938.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2471,
-      "title": "Get Star / Guardian",
-      "url": "covers/ps4-synthetic/2471.jpg",
-      "realState": "WATCH",
-      "realReason": "image_fetch_failed"
-    },
-    {
-      "id": 2311,
-      "title": "Gigabash",
-      "url": "covers/ps4-synthetic/2311.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1866,
-      "title": "Godstrike",
-      "url": "covers/ps4-synthetic/1866.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2420,
-      "title": "Grave Danger",
-      "url": "covers/ps4-synthetic/2420.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1809,
-      "title": "Ground Zero: Texas",
-      "url": "covers/ps4-synthetic/1809.jpg",
-      "realState": "WATCH",
-      "realReason": "image_fetch_failed"
-    },
-    {
       "id": 1631,
       "title": "GunLord X",
       "url": "covers/ps4-synthetic/1631.jpg",
       "realState": "REVIEW",
       "realReason": "missing_ps4_banner"
-    },
-    {
-      "id": 1980,
-      "title": "Guns, Gore & Cannoli 2",
-      "url": "covers/ps4-synthetic/1980.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1953,
-      "title": "Habroxia 2",
-      "url": "covers/ps4-synthetic/1953.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2055,
-      "title": "Hamidashi Creative",
-      "url": "covers/ps4-synthetic/2055.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2256,
-      "title": "Hammerwatch",
-      "url": "covers/ps4-synthetic/2256.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
     },
     {
       "id": 586,
@@ -1546,46 +1315,11 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 2257,
-      "title": "Heroes of Hammerwatch - Ultimate Edition",
-      "url": "covers/ps4-synthetic/2257.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 1638,
       "title": "Hidden Through Time",
       "url": "covers/ps4-synthetic/1638.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
-    },
-    {
-      "id": 2243,
-      "title": "Irem Collection Volume 1",
-      "url": "covers/ps4-synthetic/2243.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2461,
-      "title": "Isonzo",
-      "url": "covers/ps4-synthetic/2461.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1971,
-      "title": "Jim Power: The Lost Dimension",
-      "url": "covers/ps4-synthetic/1971.jpg",
-      "realState": "WATCH",
-      "realReason": "image_fetch_failed"
-    },
-    {
-      "id": 2469,
-      "title": "Kyukyoku Tiger / Twin Cobra",
-      "url": "covers/ps4-synthetic/2469.jpg",
-      "realState": "WATCH",
-      "realReason": "image_fetch_failed"
     },
     {
       "id": 1515,
@@ -1602,53 +1336,11 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 1850,
-      "title": "Lost Ruins",
-      "url": "covers/ps4-synthetic/1850.jpg",
-      "realState": "REVIEW",
-      "realReason": "missing_ps4_banner"
-    },
-    {
-      "id": 1665,
-      "title": "Maldita Castilla EX: Cursed Castilla",
-      "url": "covers/ps4-synthetic/1665.jpg",
-      "realState": "WATCH",
-      "realReason": "image_fetch_failed"
-    },
-    {
-      "id": 2392,
-      "title": "Marchen Forest",
-      "url": "covers/ps4-synthetic/2392.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 750,
       "title": "Mecho Tales",
       "url": "covers/ps4-synthetic/750.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
-    },
-    {
-      "id": 2463,
-      "title": "Memorrha",
-      "url": "covers/ps4-synthetic/2463.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2325,
-      "title": "Mighty Goose",
-      "url": "covers/ps4-synthetic/2325.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1670,
-      "title": "Mighty Gunvolt Burst",
-      "url": "covers/ps4-synthetic/1670.jpg",
-      "realState": "REVIEW",
-      "realReason": "missing_ps4_banner"
     },
     {
       "id": 780,
@@ -1661,20 +1353,6 @@
       "id": 783,
       "title": "Minecraft: Story Mode - A Telltale Games Series",
       "url": "covers/ps4-synthetic/783.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1923,
-      "title": "Monster Prom XXL",
-      "url": "covers/ps4-synthetic/1923.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2095,
-      "title": "Mulaka",
-      "url": "covers/ps4-synthetic/2095.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -1700,13 +1378,6 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 2016,
-      "title": "MythForce",
-      "url": "covers/ps4-synthetic/2016.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 819,
       "title": "Narita Boy",
       "url": "covers/ps4-synthetic/819.jpg",
@@ -1721,20 +1392,6 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 2097,
-      "title": "Natsuki Chronicles",
-      "url": "covers/ps4-synthetic/2097.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2657,
-      "title": "Naught: Extended Edition",
-      "url": "covers/ps4-synthetic/2657.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 1679,
       "title": "Neverending Nightmares",
       "url": "covers/ps4-synthetic/1679.jpg",
@@ -1742,60 +1399,11 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 2330,
-      "title": "Neversong",
-      "url": "covers/ps4-synthetic/2330.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2011,
-      "title": "Night Book",
-      "url": "covers/ps4-synthetic/2011.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2242,
-      "title": "Ninja JaJaMaru Legendary Ninja Collection",
-      "url": "covers/ps4-synthetic/2242.jpg",
-      "realState": "WATCH",
-      "realReason": "image_fetch_failed"
-    },
-    {
       "id": 1826,
       "title": "Nobody Saves the World",
       "url": "covers/ps4-synthetic/1826.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
-    },
-    {
-      "id": 2429,
-      "title": "Noob: Les Sans-Factions",
-      "url": "covers/ps4-synthetic/2429.jpg",
-      "realState": "WATCH",
-      "realReason": "image_fetch_failed"
-    },
-    {
-      "id": 1682,
-      "title": "Now That's What I Call Sing",
-      "url": "covers/ps4-synthetic/1682.jpg",
-      "realState": "REVIEW",
-      "realReason": "missing_ps4_banner"
-    },
-    {
-      "id": 2666,
-      "title": "Octopath Traveler 0",
-      "url": "covers/ps4-synthetic/2666.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1685,
-      "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
-      "url": "covers/ps4-synthetic/1685.jpg",
-      "realState": "WATCH",
-      "realReason": "image_fetch_failed"
     },
     {
       "id": 1686,
@@ -1815,13 +1423,6 @@
       "id": 878,
       "title": "Organ Trail: Complete Edition",
       "url": "covers/ps4-synthetic/878.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2028,
-      "title": "Overrogue",
-      "url": "covers/ps4-synthetic/2028.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -1847,51 +1448,9 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 1908,
-      "title": "Project Starship",
-      "url": "covers/ps4-synthetic/1908.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1952,
-      "title": "Project Starship X",
-      "url": "covers/ps4-synthetic/1952.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2451,
-      "title": "Protodroid Delta",
-      "url": "covers/ps4-synthetic/2451.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 1697,
       "title": "Prototype",
       "url": "covers/ps4-synthetic/1697.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2695,
-      "title": "Q.U.B.E.",
-      "url": "covers/ps4-synthetic/2695.jpg",
-      "realState": "WATCH",
-      "realReason": "image_fetch_failed"
-    },
-    {
-      "id": 2696,
-      "title": "Quintessential Quintuplets Fives Memories With You",
-      "url": "covers/ps4-synthetic/2696.jpg",
-      "realState": "WATCH",
-      "realReason": "image_fetch_failed"
-    },
-    {
-      "id": 2707,
-      "title": "Raidou Remastered: Mystery Of The Soulless Army",
-      "url": "covers/ps4-synthetic/2707.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -1910,58 +1469,9 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 1972,
-      "title": "Rising Hell",
-      "url": "covers/ps4-synthetic/1972.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2096,
-      "title": "Rival Megagun",
-      "url": "covers/ps4-synthetic/2096.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2465,
-      "title": "Rolling Gunner",
-      "url": "covers/ps4-synthetic/2465.jpg",
-      "realState": "REVIEW",
-      "realReason": "missing_ps4_banner"
-    },
-    {
-      "id": 2038,
-      "title": "Roombo: First Blood",
-      "url": "covers/ps4-synthetic/2038.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1838,
-      "title": "Rugrats: Adventures in Gameland",
-      "url": "covers/ps4-synthetic/1838.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2339,
-      "title": "Ruinverse",
-      "url": "covers/ps4-synthetic/2339.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 1717,
       "title": "Rym 9000",
       "url": "covers/ps4-synthetic/1717.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2718,
-      "title": "Sam & Max: Beyond Time And Space",
-      "url": "covers/ps4-synthetic/2718.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -1980,23 +1490,9 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 2341,
-      "title": "Saturnalia",
-      "url": "covers/ps4-synthetic/2341.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 1721,
       "title": "Screencheat",
       "url": "covers/ps4-synthetic/1721.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1951,
-      "title": "Sense - A Cyberpunk Ghost Story",
-      "url": "covers/ps4-synthetic/1951.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -2022,27 +1518,6 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 2473,
-      "title": "Shadowrun Returns",
-      "url": "covers/ps4-synthetic/2473.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2474,
-      "title": "Shadowrun: Dragonfall - Director's Cut",
-      "url": "covers/ps4-synthetic/2474.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2475,
-      "title": "Shadowrun: Hong Kong - Extended Edition",
-      "url": "covers/ps4-synthetic/2475.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 1827,
       "title": "Shadows of Adam",
       "url": "covers/ps4-synthetic/1827.jpg",
@@ -2060,20 +1535,6 @@
       "id": 1726,
       "title": "Shikhondo: Soul Eater",
       "url": "covers/ps4-synthetic/1726.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2061,
-      "title": "Shing!",
-      "url": "covers/ps4-synthetic/2061.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2344,
-      "title": "Silt",
-      "url": "covers/ps4-synthetic/2344.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -2106,51 +1567,9 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 1949,
-      "title": "Smashing the Battle: Ghost Soul",
-      "url": "covers/ps4-synthetic/1949.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 1094,
       "title": "SmuggleCraft",
       "url": "covers/ps4-synthetic/1094.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2018,
-      "title": "SOL CRESTA",
-      "url": "covers/ps4-synthetic/2018.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1881,
-      "title": "Spacewing War",
-      "url": "covers/ps4-synthetic/1881.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2454,
-      "title": "Speedollama",
-      "url": "covers/ps4-synthetic/2454.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2258,
-      "title": "Spelunker HD Deluxe",
-      "url": "covers/ps4-synthetic/2258.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2026,
-      "title": "Spidersaurs",
-      "url": "covers/ps4-synthetic/2026.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -2169,30 +1588,9 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 2241,
-      "title": "Steel Empire Chronicles",
-      "url": "covers/ps4-synthetic/2241.jpg",
-      "realState": "REVIEW",
-      "realReason": "missing_ps4_banner"
-    },
-    {
       "id": 1163,
       "title": "Street Power Soccer",
       "url": "covers/ps4-synthetic/1163.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1999,
-      "title": "Streets of Red",
-      "url": "covers/ps4-synthetic/1999.jpg",
-      "realState": "REVIEW",
-      "realReason": "missing_ps4_banner"
-    },
-    {
-      "id": 2350,
-      "title": "Summertime Madness",
-      "url": "covers/ps4-synthetic/2350.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -2225,20 +1623,6 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 1958,
-      "title": "Super Perils of Baking",
-      "url": "covers/ps4-synthetic/1958.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1854,
-      "title": "Super Zangyura",
-      "url": "covers/ps4-synthetic/1854.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 1185,
       "title": "SuperMash",
       "url": "covers/ps4-synthetic/1185.jpg",
@@ -2246,37 +1630,9 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 2352,
-      "title": "Supraland",
-      "url": "covers/ps4-synthetic/2352.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1873,
-      "title": "Sword of the Vagrant",
-      "url": "covers/ps4-synthetic/1873.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2733,
-      "title": "Tales of the Neon Sea",
-      "url": "covers/ps4-synthetic/2733.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 1203,
       "title": "Tamashii",
       "url": "covers/ps4-synthetic/1203.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2455,
-      "title": "Ten Dates",
-      "url": "covers/ps4-synthetic/2455.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -2309,30 +1665,9 @@
       "realReason": "missing_ps4_banner"
     },
     {
-      "id": 2353,
-      "title": "The Coma 2: Vicious Sisters",
-      "url": "covers/ps4-synthetic/2353.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 1234,
       "title": "The Dark Crystal: Age of Resistance Tactics",
       "url": "covers/ps4-synthetic/1234.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1753,
-      "title": "The First Tree: Console Edition",
-      "url": "covers/ps4-synthetic/1753.jpg",
-      "realState": "WATCH",
-      "realReason": "image_fetch_failed"
-    },
-    {
-      "id": 2354,
-      "title": "The Good Life",
-      "url": "covers/ps4-synthetic/2354.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -2356,20 +1691,6 @@
       "url": "covers/ps4-synthetic/1756.jpg",
       "realState": "WATCH",
       "realReason": "image_fetch_failed"
-    },
-    {
-      "id": 2019,
-      "title": "The King of Fighters 2000",
-      "url": "covers/ps4-synthetic/2019.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2049,
-      "title": "The Legend of Heroes: Trails through Daybreak II",
-      "url": "covers/ps4-synthetic/2049.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
     },
     {
       "id": 1298,
@@ -2400,23 +1721,9 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 2030,
-      "title": "Toy Soldiers HD",
-      "url": "covers/ps4-synthetic/2030.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 1351,
       "title": "Train Sim World 2020",
       "url": "covers/ps4-synthetic/1351.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2358,
-      "title": "Transformers: Earthspark - Expedition",
-      "url": "covers/ps4-synthetic/2358.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -2428,37 +1735,9 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 2001,
-      "title": "Turok",
-      "url": "covers/ps4-synthetic/2001.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2360,
-      "title": "Turok 2: Seeds of Evil",
-      "url": "covers/ps4-synthetic/2360.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 1821,
       "title": "Turok 3: Shadow of Oblivion Remastered",
       "url": "covers/ps4-synthetic/1821.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2262,
-      "title": "Turrican Anthology Vol. 1",
-      "url": "covers/ps4-synthetic/2262.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2263,
-      "title": "Turrican Anthology Vol. 2",
-      "url": "covers/ps4-synthetic/2263.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -2470,20 +1749,6 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 2098,
-      "title": "Underhero",
-      "url": "covers/ps4-synthetic/2098.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2033,
-      "title": "UnderMine",
-      "url": "covers/ps4-synthetic/2033.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 1542,
       "title": "Unsighted",
       "url": "covers/ps4-synthetic/1542.jpg",
@@ -2491,30 +1756,9 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 2043,
-      "title": "Vagante",
-      "url": "covers/ps4-synthetic/2043.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2752,
-      "title": "Valiant Hearts: Coming Home",
-      "url": "covers/ps4-synthetic/2752.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 1781,
       "title": "Verdun",
       "url": "covers/ps4-synthetic/1781.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1970,
-      "title": "Vesper: Zero Light Edition",
-      "url": "covers/ps4-synthetic/1970.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -2533,37 +1777,9 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 2761,
-      "title": "War Mongrels",
-      "url": "covers/ps4-synthetic/2761.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 1544,
       "title": "Weird West",
       "url": "covers/ps4-synthetic/1544.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1948,
-      "title": "Wife Quest",
-      "url": "covers/ps4-synthetic/1948.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2022,
-      "title": "Witchcrafty",
-      "url": "covers/ps4-synthetic/2022.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2367,
-      "title": "Wytchwood",
-      "url": "covers/ps4-synthetic/2367.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -2578,27 +1794,6 @@
       "id": 1793,
       "title": "YIIK: A Postmodern RPG",
       "url": "covers/ps4-synthetic/1793.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2775,
-      "title": "Ys Vs. Trails In The Sky: Alternative Saga",
-      "url": "covers/ps4-synthetic/2775.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2443,
-      "title": "Zapling Bygone",
-      "url": "covers/ps4-synthetic/2443.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2240,
-      "title": "Zero Tolerance Collection",
-      "url": "covers/ps4-synthetic/2240.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     }
