@@ -1,0 +1,40 @@
+{
+  "id": "nes",
+  "platform": "Nintendo Entertainment System",
+  "aliases": [
+    "NES",
+    "NES/Famicom",
+    "Nintendo Entertainment System"
+  ],
+  "regionPreference": [
+    "US",
+    "World",
+    "PAL",
+    "Japan",
+    "other"
+  ],
+  "packaging": {
+    "type": "nes-retail-front",
+    "rule": "Use a verified straight-on retail box front. Do not require black-box styling; NES packaging varies widely by era and publisher. Cartridge-label art, angled boxes, case photos, fan art and provisional art are not GOOD."
+  },
+  "sources": {
+    "launchbox": {
+      "platform": "Nintendo Entertainment System"
+    },
+    "pricecharting": {
+      "consoles": []
+    },
+    "thegamesdb": {
+      "platformId": null
+    },
+    "gameye": {
+      "platformLabel": "NES/Famicom",
+      "platformId": null
+    }
+  },
+  "status": "bootstrap",
+  "notes": [
+    "Source platform IDs must be verified before automated recovery/fetching is enabled.",
+    "Matty's private GameEye export is an input only and must not be committed to this public repository."
+  ]
+}
