@@ -10,7 +10,7 @@
   function mainHoursOf(x){const h=typeof hltbFor==='function'?hltbFor(x):null,n=Number(h?.a);return Number.isFinite(n)&&n>0?n:null}
   function timeLabel(x){const n=mainHoursOf(x);return n!=null?`~${fmtHours(n)} main`:'TIME UNKNOWN'}
   function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
-  function coverInnerHtml(x){const c=window.SHELFCHECK_COVER_ART?.coverFor?.(x);return c?`<img src="${esc(c)}" alt="" loading="lazy" decoding="async" onerror="__myShelfCoverError(this)">`:'<div class="cover-fallback">PS4<br>COVER</div>'}
+  function coverInnerHtml(x){const c=(window.SHELFCHECK_COVER_POLICY?.displayCoverFor?window.SHELFCHECK_COVER_POLICY.displayCoverFor(x).url:window.SHELFCHECK_COVER_ART?.coverFor?.(x));return c?`<img src="${esc(c)}" alt="" loading="lazy" decoding="async" onerror="__myShelfCoverError(this)">`:'<div class="cover-fallback">PS4<br>COVER</div>'}
   window.__myShelfCoverError=function(img){const p=img.parentElement;if(p)p.innerHTML='<div class="cover-fallback">PS4<br>COVER</div>'};
   function superlativeCard(e,l,x,sub){return `<article class="superlative-card" onclick="detail(${x.id})"><div class="superlative-cover">${coverInnerHtml(x)}</div><div class="superlative-info"><small>${e} ${esc(l)}</small><b>${esc(x.title)}</b><span class="superlative-time">${esc(timeLabel(x))}</span>${sub?`<span class="superlative-sub">${esc(sub)}</span>`:''}</div></article>`}
   // Collection Superlatives: a small pool of factual, defensible categories built only from

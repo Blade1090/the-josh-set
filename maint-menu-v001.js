@@ -58,7 +58,7 @@
     if(!document.querySelector('script[data-shelfcheck-cover-quality]')){
       const s=document.createElement('script');
       s.async=false;
-      s.src='cover-quality-v001.js?v=3';
+      s.src='cover-quality-v001.js?v=4';
       s.dataset.shelfcheckCoverQuality='1';
       document.body.appendChild(s);
     }

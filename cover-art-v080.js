@@ -62,7 +62,7 @@
   window.SHELFCHECK_COVER_ART={version:108,paint,repaint,coverFor,productCover,openLightbox};
 
   const curatedScript=document.createElement('script');
-  curatedScript.src='cover-title-overrides.js?v=5';
+  curatedScript.src='cover-title-overrides.js?v=6';
   curatedScript.onload=repaint;
   curatedScript.onerror=()=>console.warn('ShelfCheck: curated cover corrections unavailable.');
   document.head.appendChild(curatedScript);
