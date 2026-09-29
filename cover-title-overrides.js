@@ -20,7 +20,7 @@ window.SHELFCHECK_TITLE_COVERS={
   "bioshock infinite complete edition":"https://vgames.co.nz/cdn/shop/files/Bioshock-the-Collection-PS4-2K-22958350.jpg?v=1758591200&width=1946",
   "need for speed":"https://gamefaqs.gamespot.com/a/box/4/1/9/562419_front.jpg",
   "sayonara wild hearts":"https://www.avxperten.no/images/product/229726/800x800/78254347-de3b-40d6-846a-00f9ccb02501.jpg",
-  "blazing beaks":"https://gamefaqs.gamespot.com/a/box/8/1/3/796813_front.jpg",
+  "blazing beaks":"https://cdn.thegamesdb.net/images/original/boxart/front/94909-1.jpg",
   "penguin wars":"https://www.lukiegames.com/assets/images/ps4_penguin_wars-423954.jpg",
   "our world is ended":"https://i5.walmartimages.com/seo/Our-World-Is-Ended-Day-1-Edition-Other_238ef0e0-ef4d-454e-ad33-595355c9d411.24ac03611cb674b4087d1ec18e46aa54.jpeg",
   "one punch man a hero nobody knows":"https://f.fcdn.app/imgs/ce12a0/tienda.soysantander.com.uy/comp/500a/original/catalogo/20-722674121880-P_20-722674121880_1/1500-1500/one-punch-man-a-hero-nobody-knows-juego.jpg",

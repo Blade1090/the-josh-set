@@ -1,15 +1,15 @@
 {
   "standard": "docs/COVER_ART_STANDARD.md",
   "summary": {
-    "generatedAt": "2026-09-28T23:36:51.599Z",
+    "generatedAt": "2026-09-29T13:14:53.290Z",
     "included": 2409,
-    "good": 2190,
+    "good": 2191,
     "fallback": 8,
     "review": 196,
-    "watch": 15,
-    "physicalVerify": 193,
+    "watch": 14,
+    "physicalVerify": 192,
     "physicalLikely": 1400,
-    "physicalConfirmed": 816,
+    "physicalConfirmed": 817,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
@@ -19,7 +19,7 @@
       "missing_ps4_banner": 18
     },
     "watchByReason": {
-      "image_fetch_failed": 15
+      "image_fetch_failed": 14
     }
   },
   "review": [
@@ -3296,22 +3296,6 @@
       "title": "8-Bit Adventure Anthology: Volume One",
       "source": "CURATED_TITLE",
       "url": "https://gamefaqs.gamespot.com/a/box/8/0/8/688808_front.jpg",
-      "verdict": "WATCH",
-      "qualityState": "WATCH",
-      "reason": "image_fetch_failed",
-      "reasonCode": "image_fetch_failed",
-      "physicalSanity": "VERIFY",
-      "manualStatus": "FIXED",
-      "manualReason": null,
-      "bannerColumnSpan": null,
-      "bannerPixelRatio": null,
-      "error": "HTTP Error 403: Forbidden"
-    },
-    {
-      "id": 2288,
-      "title": "Blazing Beaks",
-      "source": "CURATED_TITLE",
-      "url": "https://gamefaqs.gamespot.com/a/box/8/1/3/796813_front.jpg",
       "verdict": "WATCH",
       "qualityState": "WATCH",
       "reason": "image_fetch_failed",
@@ -8449,17 +8433,17 @@
       "id": 2288,
       "title": "Blazing Beaks",
       "source": "CURATED_TITLE",
-      "url": "https://gamefaqs.gamespot.com/a/box/8/1/3/796813_front.jpg",
-      "verdict": "WATCH",
-      "qualityState": "WATCH",
-      "reason": "image_fetch_failed",
-      "reasonCode": "image_fetch_failed",
-      "physicalSanity": "VERIFY",
+      "url": "https://cdn.thegamesdb.net/images/original/boxart/front/94909-1.jpg",
+      "verdict": "PASS",
+      "qualityState": "GOOD",
+      "reason": "strong_ps4_header",
+      "reasonCode": "strong_ps4_header",
+      "physicalSanity": "CONFIRMED",
       "manualStatus": "FIXED",
       "manualReason": null,
-      "bannerColumnSpan": null,
-      "bannerPixelRatio": null,
-      "error": "HTTP Error 403: Forbidden"
+      "bannerColumnSpan": 1.0,
+      "bannerPixelRatio": 0.522337962962963,
+      "error": null
     },
     {
       "id": 182,
