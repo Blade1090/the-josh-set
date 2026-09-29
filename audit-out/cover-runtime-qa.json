@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-25T21:42:45.650Z",
+  "generatedAt": "2026-09-28T23:36:51.599Z",
   "summary": {
-    "generatedAt": "2026-09-25T21:42:45.650Z",
-    "included": 2407,
-    "good": 2176,
+    "generatedAt": "2026-09-28T23:36:51.599Z",
+    "included": 2409,
+    "good": 2190,
     "fallback": 8,
-    "review": 207,
-    "watch": 16,
-    "physicalVerify": 205,
-    "physicalLikely": 1398,
-    "physicalConfirmed": 804,
+    "review": 196,
+    "watch": 15,
+    "physicalVerify": 193,
+    "physicalLikely": 1400,
+    "physicalConfirmed": 816,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "key_art_only": 189,
+      "key_art_only": 178,
       "missing_ps4_banner": 18
     },
     "watchByReason": {
-      "image_fetch_failed": 16
+      "image_fetch_failed": 15
     }
   },
   "review": [
@@ -164,11 +164,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2419,
-      "title": "Eldrador Creatures",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1950,
       "title": "Empire of Angels IV",
       "reason": "key_art_only"
@@ -234,11 +229,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2313,
-      "title": "GYLT",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1953,
       "title": "Habroxia 2",
       "reason": "key_art_only"
@@ -286,16 +276,6 @@
     {
       "id": 1661,
       "title": "Lode Runner Legacy",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2014,
-      "title": "LUNARK",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2651,
-      "title": "MADO MONOGATARI: Fia And The Wondrous Academy",
       "reason": "key_art_only"
     },
     {
@@ -404,18 +384,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2671,
-      "title": "On the Road: Truck Simulator",
-      "reason": "key_art_only"
-    },
-    {
       "id": 872,
       "title": "One Step From Eden",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2450,
-      "title": "Open Country",
       "reason": "key_art_only"
     },
     {
@@ -609,11 +579,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1870,
-      "title": "Skautfold: Usurper",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1731,
       "title": "Skulls of the Shogun: Bone-a-Fide Edition",
       "reason": "key_art_only"
@@ -729,11 +694,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2740,
-      "title": "Teenage Mutant Ninja Turtles: Mutants Unleashed",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2455,
       "title": "Ten Dates",
       "reason": "key_art_only"
@@ -781,11 +741,6 @@
     {
       "id": 2019,
       "title": "The King of Fighters 2000",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1259,
-      "title": "The Last Door: Complete Edition",
       "reason": "key_art_only"
     },
     {
@@ -879,11 +834,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1986,
-      "title": "Urban Trial Tricky Deluxe Edition",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2043,
       "title": "Vagante",
       "reason": "key_art_only"
@@ -931,11 +881,6 @@
     {
       "id": 2022,
       "title": "Witchcrafty",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1450,
-      "title": "World of Warships: Legends",
       "reason": "key_art_only"
     },
     {
@@ -1175,11 +1120,6 @@
     {
       "id": 1756,
       "title": "The Journey Down: Chapter Two",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 2784,
-      "title": "Tony Hawk's Pro Skater 3 + 4",
       "reason": "image_fetch_failed"
     }
   ]

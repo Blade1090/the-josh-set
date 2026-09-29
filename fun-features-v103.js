@@ -30,7 +30,12 @@ function randomGame(){const owned=filter==='OWNED',pool=owned?ownedPool():needed
   // press after the first few seconds of a session -- this is why the controls no longer need
   // (or use) an unconditional blind-retry timer the way they used to.
   if(!dossiersReady||!hltbReady)setTimeout(randomDetailButton,520);
+  warmNextRandomCover();
 }
+// Pre-warm the cover of the game the NEXT Random press will show (the tail of the already
+// shuffled no-repeat queue), at idle, so ANOTHER RANDOM GAME paints its cover immediately.
+// Read-only peek: never reorders or consumes the queue. Skips art the quality gate hides.
+function warmNextRandomCover(){if(typeof Image!=='function')return;const next=randomCycle.remaining[randomCycle.remaining.length-1];if(next==null)return;const run=()=>{const x=byId.get(next),url=x&&window.SHELFCHECK_COVER_ART?.coverFor?.(x);if(!url)return;if(window.SHELFCHECK_COVER_POLICY?.qualityForTitle?.(x.title)?.quality==='REVIEW')return;const im=new Image();im.decoding='async';im.src=url};window.requestIdleCallback?requestIdleCallback(run,{timeout:600}):setTimeout(run,200)}
 // Random-opened dossiers get ONE reroll control directly below Store Mode's price/verdict
 // area and directly above the Josh Dossier. Anchor to #v instead of guessing by text/content,
 // because dossier enhancement wraps sections and made the old text-based anchor land at top.

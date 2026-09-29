@@ -21,23 +21,12 @@ import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
 import { fileURLToPath } from 'node:url';
+import { censusMutators } from './lib/runtime-census.mjs';
 
 const REPO = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 
-const CENSUS_MUTATORS = [
-  'census-cleanup.js', 'census-v034.js', 'census-collapse-v035.js', 'census-v035-final.js',
-  'census-v040-pricing-audit.js',
-  'census-v052-pricecharting-negative-space.js', 'census-v053-pricecharting-regional-sweep.js',
-  'census-v054-pricecharting-collection-gap.js', 'census-v055-pricecharting-ab-sweep.js',
-  'census-v056-pricecharting-cf-sweep.js', 'census-v057-pricecharting-gl-sweep.js',
-  'census-v058-pricecharting-mr-sweep.js', 'census-v059-pricecharting-sz-sweep.js',
-  'census-physical-omission-pass-v001.js', 'census-physical-omission-pass-v002.js',
-  'census-physical-omission-pass-v003.js',
-  'census-v060-integrity-scrub.js', 'census-integrity-pass-v001.js', 'census-integrity-pass-v002.js',
-  'ownership-reconcile-v071.js', 'ownership-reconcile-v072.js',
-  'curation-josh-set-pass-v001.js', 'curation-josh-set-pass-v002.js', 'curation-josh-set-pass-v003.js',
-  'curation-josh-set-pass-v004.js',
-];
+// Census mutators in real index.html order, discovered by the shared loader so this list can't drift.
+const CENSUS_MUTATORS = censusMutators(REPO);
 
 function readFile(name) { return fs.readFileSync(path.join(REPO, name), 'utf8'); }
 
@@ -57,7 +46,12 @@ function makeDetailHost() {
     const kids = [];
     const node = {
       tagName, className: '', textContent: '', onclick: null, onerror: null, dataset: {}, src: '', alt: '',
+      attrs: {}, setAttribute(k, v) { node.attrs[k] = String(v); }, getAttribute(k) { return node.attrs[k] ?? null; }, removeAttribute(k) { delete node.attrs[k]; },
+      addEventListener() {}, style: {},
       classList: {
+        add(c) { node.classList.toggle(c, true); },
+        remove(c) { node.classList.toggle(c, false); },
+        contains(c) { return node.className.split(/\s+/).includes(c); },
         toggle(c, on) {
           const parts = node.className.split(/\s+/).filter(Boolean);
           const has = parts.includes(c), want = on === undefined ? !has : on;
@@ -173,7 +167,9 @@ async function main() {
     run('window.SHELFCHECK_FUN.randomGame()');
     const id = run('window.SHELFCHECK_FUN.lastRandomWishlistId');
     seen.add(id);
-    const expectedUrl = coverMap[id] || null;
+    // Expected = what the real cover-art layer resolves (curated title covers inside
+    // cover-art-v080.js outrank the fake SHELFCHECK_COVERS map for a few titles).
+    const expectedUrl = run(`window.SHELFCHECK_COVER_ART.coverFor(byId.get(${id}))`) || null;
 
     const state = run(`(() => {
       const kids = document.querySelector('#detail')._children;

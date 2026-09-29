@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-25T21:28:49.720Z",
-  "included": 2407,
+  "generatedAt": "2026-09-28T23:36:51.599Z",
+  "included": 2409,
   "counts": {
     "CURATED_ID": 4,
-    "CURATED_TITLE": 135,
+    "CURATED_TITLE": 146,
     "GAMEYE": 935,
     "LAUNCHBOX_BOX_FRONT": 688,
-    "LEGACY_IGDB": 189,
-    "PRICECHARTING_BOX_FRONT": 409,
+    "LEGACY_IGDB": 178,
+    "PRICECHARTING_BOX_FRONT": 411,
     "PRODUCT_BOX_FRONT": 47
   },
   "rows": [
@@ -3858,6 +3858,12 @@
       "url": "https://images.launchbox-app.com/5a3327c8-c0c5-4384-a212-26cb6fcc62eb.jpg"
     },
     {
+      "id": 2789,
+      "title": "Double Dragon Gaiden: Rise of the Dragons",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/48ea8975f084e3aa4f2808bb6bd1a51bb895db27e57bc7c633afe8d1194cb6f6/1600.jpg"
+    },
+    {
       "id": 394,
       "title": "Double Dragon IV",
       "source": "GAMEYE",
@@ -4208,8 +4214,8 @@
     {
       "id": 2419,
       "title": "Eldrador Creatures",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2t67.jpg"
+      "source": "CURATED_TITLE",
+      "url": "covers/ps4/2419.jpg"
     },
     {
       "id": 2572,
@@ -5510,8 +5516,8 @@
     {
       "id": 2313,
       "title": "GYLT",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2qad.jpg"
+      "source": "CURATED_TITLE",
+      "url": "covers/ps4/2313.jpg"
     },
     {
       "id": 1953,
@@ -7196,8 +7202,8 @@
     {
       "id": 2014,
       "title": "LUNARK",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2b9h.jpg"
+      "source": "CURATED_TITLE",
+      "url": "covers/ps4/2014.jpg"
     },
     {
       "id": 1844,
@@ -7244,8 +7250,8 @@
     {
       "id": 2651,
       "title": "MADO MONOGATARI: Fia And The Wondrous Academy",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9jw0.jpg"
+      "source": "CURATED_TITLE",
+      "url": "covers/ps4/2651.jpg"
     },
     {
       "id": 737,
@@ -7342,6 +7348,12 @@
       "title": "Marvel's Avengers",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/12109030-c743-4207-b020-afa2a25e871f.jpg"
+    },
+    {
+      "id": 2788,
+      "title": "Marvel's Guardians of the Galaxy",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/6e2979992b476f2756bf14227755ba51e5311fd9dd44269e605431f2dfe0254c/1600.jpg"
     },
     {
       "id": 745,
@@ -8498,8 +8510,8 @@
     {
       "id": 2671,
       "title": "On the Road: Truck Simulator",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7s50.jpg"
+      "source": "CURATED_TITLE",
+      "url": "covers/ps4/2671.jpg"
     },
     {
       "id": 1962,
@@ -8612,8 +8624,8 @@
     {
       "id": 2450,
       "title": "Open Country",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2upo.jpg"
+      "source": "CURATED_TITLE",
+      "url": "covers/ps4/2450.jpg"
     },
     {
       "id": 2676,
@@ -10820,8 +10832,8 @@
     {
       "id": 1870,
       "title": "Skautfold: Usurper",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8uxp.jpg"
+      "source": "CURATED_TITLE",
+      "url": "covers/ps4/1870.jpg"
     },
     {
       "id": 1079,
@@ -11930,8 +11942,8 @@
     {
       "id": 2740,
       "title": "Teenage Mutant Ninja Turtles: Mutants Unleashed",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8yl5.jpg"
+      "source": "CURATED_TITLE",
+      "url": "covers/ps4/2740.jpg"
     },
     {
       "id": 1834,
@@ -12332,8 +12344,8 @@
     {
       "id": 1259,
       "title": "The Last Door: Complete Edition",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1lmt.jpg"
+      "source": "CURATED_TITLE",
+      "url": "covers/ps4/1259.jpg"
     },
     {
       "id": 1260,
@@ -12915,7 +12927,7 @@
       "id": 2784,
       "title": "Tony Hawk's Pro Skater 3 + 4",
       "source": "CURATED_TITLE",
-      "url": "https://gamefaqs.gamespot.com/a/box/5/5/0/1158550_front.jpg"
+      "url": "covers/ps4/2784.jpg"
     },
     {
       "id": 1767,
@@ -13442,8 +13454,8 @@
     {
       "id": 1986,
       "title": "Urban Trial Tricky Deluxe Edition",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3g8c.jpg"
+      "source": "CURATED_TITLE",
+      "url": "covers/ps4/1986.jpg"
     },
     {
       "id": 1388,
@@ -14036,8 +14048,8 @@
     {
       "id": 1450,
       "title": "World of Warships: Legends",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coce2s.jpg"
+      "source": "CURATED_TITLE",
+      "url": "covers/ps4/1450.jpg"
     },
     {
       "id": 1451,

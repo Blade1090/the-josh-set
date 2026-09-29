@@ -1,0 +1,209 @@
+{
+ "note": "Trimmed copies of verified flat physical PS4 fronts whose source images were padded into square canvases. Pixels unchanged except removal of uniform border. See tools/cover-visual-audit.py for local-file auditing.",
+ "covers": {
+  "2419": {
+   "title": "Eldrador Creatures",
+   "original": "https://storage.googleapis.com/images.pricecharting.com/bca148c75025484d29b00f2098d1e423f07df06916a1b420a0a1e53c22f5c342/1600.jpg",
+   "trimBox": [
+    64,
+    0,
+    547,
+    612
+   ],
+   "originalSize": [
+    612,
+    612
+   ],
+   "sourceCatalog": "PriceCharting",
+   "region": "PAL",
+   "verified": "2026-09-28 visual check: straight-on flat physical PS4 front with final rating marks; only uniform padding removed"
+  },
+  "2313": {
+   "title": "GYLT",
+   "original": "https://storage.googleapis.com/images.pricecharting.com/f5a51e5859155c7325a14619a77c8067932606bda0a2240d50afc85246cdf78b/1600.jpg",
+   "trimBox": [
+    60,
+    3,
+    443,
+    494
+   ],
+   "originalSize": [
+    502,
+    502
+   ],
+   "sourceCatalog": "PriceCharting",
+   "region": "PAL",
+   "verified": "2026-09-28 visual check: straight-on flat physical PS4 front with final rating marks; only uniform padding removed"
+  },
+  "2014": {
+   "title": "LUNARK",
+   "original": "https://storage.googleapis.com/images.pricecharting.com/t6cliunkdcu47sax/1600.jpg",
+   "trimBox": [
+    145,
+    0,
+    1294,
+    1440
+   ],
+   "originalSize": [
+    1440,
+    1440
+   ],
+   "sourceCatalog": "PriceCharting",
+   "region": "JP",
+   "verified": "2026-09-28 visual check: straight-on flat physical PS4 front with final rating marks; only uniform padding removed"
+  },
+  "2671": {
+   "title": "On the Road: Truck Simulator",
+   "original": "https://cdn.thegamesdb.net/images/original/boxart/front/110858-1.jpg",
+   "trimBox": [
+    162,
+    98,
+    1773,
+    2129
+   ],
+   "originalSize": [
+    1875,
+    2227
+   ],
+   "sourceCatalog": "TheGamesDB",
+   "region": "PAL",
+   "verified": "2026-09-28 visual check: straight-on flat physical PS4 front with final rating marks; only uniform padding removed"
+  },
+  "2450": {
+   "title": "Open Country",
+   "original": "https://storage.googleapis.com/images.pricecharting.com/thsp533gguo7ywmm/1600.jpg",
+   "trimBox": [
+    111,
+    65,
+    1194,
+    1434
+   ],
+   "originalSize": [
+    1263,
+    1500
+   ],
+   "sourceCatalog": "PriceCharting",
+   "region": "US",
+   "verified": "2026-09-28 visual check: straight-on flat physical PS4 front with final rating marks; only uniform padding removed"
+  },
+  "1870": {
+   "title": "Skautfold: Usurper",
+   "original": "https://storage.googleapis.com/images.pricecharting.com/11c959c6469ff1ab84854ae7ec8785d11e4b62ab7d9282ca111bdc76a990d475/1600.jpg",
+   "trimBox": [
+    30,
+    22,
+    398,
+    478
+   ],
+   "originalSize": [
+    421,
+    500
+   ],
+   "sourceCatalog": "PriceCharting",
+   "region": "PAL",
+   "verified": "2026-09-28 visual check: straight-on flat physical PS4 front with final rating marks; only uniform padding removed"
+  },
+  "2740": {
+   "title": "Teenage Mutant Ninja Turtles: Mutants Unleashed",
+   "original": "https://storage.googleapis.com/images.pricecharting.com/5vbcqbk6lgcyesnb/1600.jpg",
+   "trimBox": [
+    49,
+    0,
+    1207,
+    1481
+   ],
+   "originalSize": [
+    1279,
+    1500
+   ],
+   "sourceCatalog": "PriceCharting",
+   "region": "US",
+   "verified": "2026-09-28 visual check: straight-on flat physical PS4 front with final rating marks; only uniform padding removed"
+  },
+  "1259": {
+   "title": "The Last Door: Complete Edition",
+   "original": "https://cdn.thegamesdb.net/images/original/boxart/front/108094-1.jpg",
+   "trimBox": [
+    52,
+    11,
+    817,
+    985
+   ],
+   "originalSize": [
+    865,
+    1000
+   ],
+   "sourceCatalog": "TheGamesDB",
+   "region": "PAL",
+   "verified": "2026-09-28 visual check: straight-on flat physical PS4 front with final rating marks; only uniform padding removed"
+  },
+  "1450": {
+   "title": "World of Warships: Legends",
+   "original": "https://storage.googleapis.com/images.pricecharting.com/abbe73309423fa0f9b3856febf8110e749428a6353290e1b50249f523b80c74a/1600.jpg",
+   "trimBox": [
+    113,
+    10,
+    660,
+    758
+   ],
+   "originalSize": [
+    768,
+    768
+   ],
+   "sourceCatalog": "PriceCharting",
+   "region": "US",
+   "verified": "2026-09-28 visual check: straight-on flat physical PS4 front with final rating marks; only uniform padding removed"
+  },
+  "2784": {
+   "title": "Tony Hawk's Pro Skater 3 + 4",
+   "original": "https://storage.googleapis.com/images.pricecharting.com/k4ar4f7kps7xe3ng/1600.jpg",
+   "trimBox": [
+    236,
+    77,
+    1348,
+    1506
+   ],
+   "originalSize": [
+    1600,
+    1600
+   ],
+   "sourceCatalog": "PriceCharting",
+   "region": "US",
+   "verified": "2026-09-28 visual check: straight-on flat physical PS4 front with final rating marks; only uniform padding removed"
+  },
+  "1986": {
+   "title": "Urban Trial Tricky Deluxe Edition",
+   "original": "https://storage.googleapis.com/images.pricecharting.com/9354295c4ccfa3119651bd9988d989332de1e0d9530e77121a1ae7d6fab6f7be/1600.jpg",
+   "trimBox": [
+    62,
+    0,
+    537,
+    600
+   ],
+   "originalSize": [
+    600,
+    600
+   ],
+   "sourceCatalog": "PriceCharting",
+   "region": "PAL",
+   "verified": "2026-09-28 visual check: straight-on flat physical PS4 front with final rating marks; only uniform padding removed"
+  },
+  "2651": {
+   "title": "MADO MONOGATARI: Fia And The Wondrous Academy",
+   "original": "https://storage.googleapis.com/images.pricecharting.com/ikgqqzcp66lfvzee/1600.jpg",
+   "trimBox": [
+    76,
+    0,
+    619,
+    695
+   ],
+   "originalSize": [
+    695,
+    695
+   ],
+   "sourceCatalog": "PriceCharting",
+   "region": "US",
+   "verified": "2026-09-28 visual check: straight-on flat physical PS4 front with final rating marks; only uniform padding removed"
+  }
+ }
+}
