@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-29T13:36:02.492Z",
+  "generatedAt": "2026-09-29T13:39:00.779Z",
   "summary": {
-    "generatedAt": "2026-09-29T13:36:02.492Z",
+    "generatedAt": "2026-09-29T13:39:00.779Z",
     "included": 2409,
     "good": 2191,
     "fallback": 8,
@@ -21,16 +21,16 @@
     "watchByReason": {
       "image_fetch_failed": 14
     },
-    "synthetic": 191,
+    "synthetic": 210,
     "displayTiers": {
       "GOOD": 2191,
       "FALLBACK": 8,
-      "SYNTHETIC": 191,
-      "BLANK": 19
+      "SYNTHETIC": 210,
+      "BLANK": 0
     },
     "syntheticByRealState": {
-      "REVIEW": 189,
-      "WATCH": 2
+      "REVIEW": 196,
+      "WATCH": 14
     },
     "syntheticIgnoredRealCover": [],
     "syntheticMissingFile": []
@@ -1133,6 +1133,13 @@
   ],
   "synthetic": [
     {
+      "id": 14,
+      "title": "8-Bit Adventure Anthology: Volume One",
+      "url": "covers/ps4-synthetic/14.jpg",
+      "realState": "WATCH",
+      "realReason": "image_fetch_failed"
+    },
+    {
       "id": 2037,
       "title": "9th Dawn III",
       "url": "covers/ps4-synthetic/2037.jpg",
@@ -1203,11 +1210,25 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 1582,
+      "title": "Breach & Clear: Deadline",
+      "url": "covers/ps4-synthetic/1582.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
       "id": 1849,
       "title": "BROK: The InvestiGator",
       "url": "covers/ps4-synthetic/1849.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
+    },
+    {
+      "id": 1969,
+      "title": "Cannon Dancer",
+      "url": "covers/ps4-synthetic/1969.jpg",
+      "realState": "WATCH",
+      "realReason": "image_fetch_failed"
     },
     {
       "id": 238,
@@ -1448,6 +1469,13 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 2471,
+      "title": "Get Star / Guardian",
+      "url": "covers/ps4-synthetic/2471.jpg",
+      "realState": "WATCH",
+      "realReason": "image_fetch_failed"
+    },
+    {
       "id": 2311,
       "title": "Gigabash",
       "url": "covers/ps4-synthetic/2311.jpg",
@@ -1460,6 +1488,20 @@
       "url": "covers/ps4-synthetic/1866.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
+    },
+    {
+      "id": 2420,
+      "title": "Grave Danger",
+      "url": "covers/ps4-synthetic/2420.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 1809,
+      "title": "Ground Zero: Texas",
+      "url": "covers/ps4-synthetic/1809.jpg",
+      "realState": "WATCH",
+      "realReason": "image_fetch_failed"
     },
     {
       "id": 1631,
@@ -1532,6 +1574,20 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 1971,
+      "title": "Jim Power: The Lost Dimension",
+      "url": "covers/ps4-synthetic/1971.jpg",
+      "realState": "WATCH",
+      "realReason": "image_fetch_failed"
+    },
+    {
+      "id": 2469,
+      "title": "Kyukyoku Tiger / Twin Cobra",
+      "url": "covers/ps4-synthetic/2469.jpg",
+      "realState": "WATCH",
+      "realReason": "image_fetch_failed"
+    },
+    {
       "id": 1515,
       "title": "Late Shift",
       "url": "covers/ps4-synthetic/1515.jpg",
@@ -1551,6 +1607,13 @@
       "url": "covers/ps4-synthetic/1850.jpg",
       "realState": "REVIEW",
       "realReason": "missing_ps4_banner"
+    },
+    {
+      "id": 1665,
+      "title": "Maldita Castilla EX: Cursed Castilla",
+      "url": "covers/ps4-synthetic/1665.jpg",
+      "realState": "WATCH",
+      "realReason": "image_fetch_failed"
     },
     {
       "id": 2392,
@@ -1579,6 +1642,13 @@
       "url": "covers/ps4-synthetic/2325.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
+    },
+    {
+      "id": 1670,
+      "title": "Mighty Gunvolt Burst",
+      "url": "covers/ps4-synthetic/1670.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_ps4_banner"
     },
     {
       "id": 780,
@@ -1700,11 +1770,32 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 2429,
+      "title": "Noob: Les Sans-Factions",
+      "url": "covers/ps4-synthetic/2429.jpg",
+      "realState": "WATCH",
+      "realReason": "image_fetch_failed"
+    },
+    {
+      "id": 1682,
+      "title": "Now That's What I Call Sing",
+      "url": "covers/ps4-synthetic/1682.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_ps4_banner"
+    },
+    {
       "id": 2666,
       "title": "Octopath Traveler 0",
       "url": "covers/ps4-synthetic/2666.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
+    },
+    {
+      "id": 1685,
+      "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
+      "url": "covers/ps4-synthetic/1685.jpg",
+      "realState": "WATCH",
+      "realReason": "image_fetch_failed"
     },
     {
       "id": 1686,
@@ -1784,6 +1875,20 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 2695,
+      "title": "Q.U.B.E.",
+      "url": "covers/ps4-synthetic/2695.jpg",
+      "realState": "WATCH",
+      "realReason": "image_fetch_failed"
+    },
+    {
+      "id": 2696,
+      "title": "Quintessential Quintuplets Fives Memories With You",
+      "url": "covers/ps4-synthetic/2696.jpg",
+      "realState": "WATCH",
+      "realReason": "image_fetch_failed"
+    },
+    {
       "id": 2707,
       "title": "Raidou Remastered: Mystery Of The Soulless Army",
       "url": "covers/ps4-synthetic/2707.jpg",
@@ -1817,6 +1922,13 @@
       "url": "covers/ps4-synthetic/2096.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
+    },
+    {
+      "id": 2465,
+      "title": "Rolling Gunner",
+      "url": "covers/ps4-synthetic/2465.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_ps4_banner"
     },
     {
       "id": 2038,
@@ -2057,11 +2169,25 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 2241,
+      "title": "Steel Empire Chronicles",
+      "url": "covers/ps4-synthetic/2241.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_ps4_banner"
+    },
+    {
       "id": 1163,
       "title": "Street Power Soccer",
       "url": "covers/ps4-synthetic/1163.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
+    },
+    {
+      "id": 1999,
+      "title": "Streets of Red",
+      "url": "covers/ps4-synthetic/1999.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_ps4_banner"
     },
     {
       "id": 2350,
@@ -2195,6 +2321,13 @@
       "url": "covers/ps4-synthetic/1234.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
+    },
+    {
+      "id": 1753,
+      "title": "The First Tree: Console Edition",
+      "url": "covers/ps4-synthetic/1753.jpg",
+      "realState": "WATCH",
+      "realReason": "image_fetch_failed"
     },
     {
       "id": 2354,

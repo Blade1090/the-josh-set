@@ -252,7 +252,7 @@
     "2696"
    ],
    "kind": "curated overrides (audit-out/synthetic-cover-sources.json)",
-   "status": "pending"
+   "status": "committed"
   }
  ],
  "current": {
@@ -260,14 +260,26 @@
   "review": 196,
   "watch": 14,
   "fallback": 8,
-  "synthetic": 191,
+  "synthetic": 210,
   "displayTiers": {
    "GOOD": 2191,
    "FALLBACK": 8,
-   "SYNTHETIC": 191,
-   "BLANK": 19
+   "SYNTHETIC": 210,
+   "BLANK": 0
   }
  },
- "updated": "2026-09-29T13:38:23+00:00",
- "next": "S3: add the 19 curated-override synthetic covers, audit, gate, commit"
+ "updated": "2026-09-29T13:45:37+00:00",
+ "next": "done: branch pushed; open PR (do not merge automatically)",
+ "syntheticSourceKinds": {
+  "boutique_render": 6,
+  "igdb_cover_art": 190,
+  "current_art": 1,
+  "flat_key_art": 3,
+  "flat_front_unverified": 4,
+  "publisher_packshot": 2,
+  "case_photo": 1,
+  "typographic_title": 3
+ },
+ "determinism": "rebuild with --force is byte-identical (checked on 4 covers across banner/asis/title modes)",
+ "tests": "13/13 pass"
 }

@@ -1,10 +1,24 @@
 {
  "covers": {
+  "14": {
+   "title": "8-Bit Adventure Anthology: Volume One",
+   "url": "covers/ps4-synthetic/14.jpg",
+   "source": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96pZB04xifcjeE8QOVREy16Nh0uIMOT2n3NaDHK24m6q3aRNOpaoMdo_A_estTNhKC4E25xJgw6LoLgeCMtA3w-wJEcrHiNSbtznSrtkOM6fdmJW6HDV_LAtTb5iuUe2UuWzAXg27okg9yI1CPWaKj0qJ6sMQ/1600.jpg",
+   "sourceKind": "boutique_render",
+   "mode": "asis",
+   "realCoverState": "WATCH",
+   "realCoverReason": "image_fetch_failed",
+   "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
+   "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches",
+   "note": "Limited Run render; spine cropped",
+   "toolVersion": 1
+  },
   "82": {
    "title": "Ara Fell: Enhanced Edition",
    "url": "covers/ps4-synthetic/82.jpg",
    "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co21qt.jpg",
    "sourceKind": "igdb_cover_art",
+   "mode": "banner",
    "realCoverState": "REVIEW",
    "realCoverReason": "missing_ps4_banner",
    "holdoutCategory": "NO_FRONT_FOUND",
@@ -660,6 +674,19 @@
    "note": null,
    "toolVersion": 1
   },
+  "1582": {
+   "title": "Breach & Clear: Deadline",
+   "url": "covers/ps4-synthetic/1582.jpg",
+   "source": "https://cdn.thegamesdb.net/images/original/boxart/front/44231-1.jpg",
+   "sourceKind": "flat_key_art",
+   "mode": "banner",
+   "realCoverState": "REVIEW",
+   "realCoverReason": "key_art_only",
+   "holdoutCategory": "RENDER_ONLY",
+   "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
+   "note": "TheGamesDB flat key art (IGDB art was a blurry landscape)",
+   "toolVersion": 1
+  },
   "1600": {
    "title": "Deer Simulator",
    "url": "covers/ps4-synthetic/1600.jpg",
@@ -768,6 +795,32 @@
    "note": null,
    "toolVersion": 1
   },
+  "1665": {
+   "title": "Maldita Castilla EX: Cursed Castilla",
+   "url": "covers/ps4-synthetic/1665.jpg",
+   "source": "https://cdn.thegamesdb.net/images/original/boxart/front/46688-1.jpg",
+   "sourceKind": "flat_key_art",
+   "mode": "banner",
+   "realCoverState": "WATCH",
+   "realCoverReason": "image_fetch_failed",
+   "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
+   "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches",
+   "note": "TheGamesDB Cursed Castilla key art",
+   "toolVersion": 1
+  },
+  "1670": {
+   "title": "Mighty Gunvolt Burst",
+   "url": "covers/ps4-synthetic/1670.jpg",
+   "source": "https://limitedrungames.com/cdn/shop/products/mighty-gunvolt-burst-ps4-lrg.png?height=1080&v=1660241946",
+   "sourceKind": "boutique_render",
+   "mode": "asis",
+   "realCoverState": "REVIEW",
+   "realCoverReason": "missing_ps4_banner",
+   "holdoutCategory": "NO_FRONT_FOUND",
+   "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
+   "note": "Limited Run render; spine cropped, own PS4 banner kept",
+   "toolVersion": 1
+  },
   "1679": {
    "title": "Neverending Nightmares",
    "url": "covers/ps4-synthetic/1679.jpg",
@@ -778,6 +831,32 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
+   "toolVersion": 1
+  },
+  "1682": {
+   "title": "Now That's What I Call Sing",
+   "url": "covers/ps4-synthetic/1682.jpg",
+   "source": "https://myshopville.com/cdn/shop/products/now_thats_what_i_call_sing_sony_playstation_4_ps4_video_game_box_cover_shopville_canada_usa.jpg",
+   "sourceKind": "flat_front_unverified",
+   "mode": "asis",
+   "realCoverState": "REVIEW",
+   "realCoverReason": "missing_ps4_banner",
+   "holdoutCategory": "NO_FRONT_FOUND",
+   "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
+   "note": "flat PAL front (PEGI 12); padding trimmed; fails the PS4 banner gate, so not GOOD",
+   "toolVersion": 1
+  },
+  "1685": {
+   "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
+   "url": "covers/ps4-synthetic/1685.jpg",
+   "source": "https://cdn.thegamesdb.net/images/original/boxart/front/20959-1.jpg",
+   "sourceKind": "boutique_render",
+   "mode": "asis",
+   "realCoverState": "WATCH",
+   "realCoverReason": "image_fetch_failed",
+   "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
+   "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches",
+   "note": "Limited Run render; spine cropped",
    "toolVersion": 1
   },
   "1686": {
@@ -972,6 +1051,19 @@
    "note": null,
    "toolVersion": 1
   },
+  "1753": {
+   "title": "The First Tree: Console Edition",
+   "url": "covers/ps4-synthetic/1753.jpg",
+   "source": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96jidSUwtKwUM6mZLbIaNp5pvjeRbkDfVaLpjDyIt3LtyDhMxJtkMYw6nNS1lb_TTuATBEHl-kkBOodOdhNEZpyqycp2q5zCJSVWoD1gCZ7wNBeoY0vAdPWgN6ufvuh56Hg_EN_NcZgE_gpu6s6yOQMv7-AKQ/1600.jpg",
+   "sourceKind": "flat_front_unverified",
+   "mode": "asis",
+   "realCoverState": "WATCH",
+   "realCoverReason": "image_fetch_failed",
+   "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
+   "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches",
+   "note": "flat NA front (ESRB E); fails the PS4 banner gate, so not GOOD",
+   "toolVersion": 1
+  },
   "1754": {
    "title": "The Journey Down: Chapter One",
    "url": "covers/ps4-synthetic/1754.jpg",
@@ -1078,6 +1170,19 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
+   "toolVersion": 1
+  },
+  "1809": {
+   "title": "Ground Zero: Texas",
+   "url": "covers/ps4-synthetic/1809.jpg",
+   "source": "https://cdn.thegamesdb.net/images/original/boxart/front/92184-1.jpg",
+   "sourceKind": "boutique_render",
+   "mode": "asis",
+   "realCoverState": "WATCH",
+   "realCoverReason": "image_fetch_failed",
+   "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
+   "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches | rejected candidates: 3D render and ESRB RP",
+   "note": "Limited Run render (ESRB RP pre-release marks); spine cropped; no better source",
    "toolVersion": 1
   },
   "1817": {
@@ -1400,6 +1505,19 @@
    "note": null,
    "toolVersion": 1
   },
+  "1969": {
+   "title": "Cannon Dancer",
+   "url": "covers/ps4-synthetic/1969.jpg",
+   "source": "https://storage.googleapis.com/images.pricecharting.com/ykixeqhjfyqit4ix/1600.jpg",
+   "sourceKind": "boutique_render",
+   "mode": "asis",
+   "realCoverState": "WATCH",
+   "realCoverReason": "image_fetch_failed",
+   "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
+   "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches",
+   "note": "Strictly Limited render; spine cropped",
+   "toolVersion": 1
+  },
   "1970": {
    "title": "Vesper: Zero Light Edition",
    "url": "covers/ps4-synthetic/1970.jpg",
@@ -1411,6 +1529,19 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
+   "toolVersion": 1
+  },
+  "1971": {
+   "title": "Jim Power: The Lost Dimension",
+   "url": "covers/ps4-synthetic/1971.jpg",
+   "source": "https://storage.googleapis.com/images.pricecharting.com/0195507ca55c81b150329563b5389e212b8886fa128b669b888666cbe4ea1e51/1600.jpg",
+   "sourceKind": "flat_front_unverified",
+   "mode": "asis",
+   "realCoverState": "WATCH",
+   "realCoverReason": "image_fetch_failed",
+   "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
+   "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches | rejected candidates: angled render without rating marks",
+   "note": "Strictly Limited flat front without rating marks",
    "toolVersion": 1
   },
   "1972": {
@@ -1437,6 +1568,19 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
+   "toolVersion": 1
+  },
+  "1999": {
+   "title": "Streets of Red",
+   "url": "covers/ps4-synthetic/1999.jpg",
+   "source": "https://storage.googleapis.com/images.pricecharting.com/e76d6f1013813f3f5635e5108fa3f7bd0d758f3e64d505318aa77a5937ebb676/1600.jpg",
+   "sourceKind": "boutique_render",
+   "mode": "asis",
+   "realCoverState": "REVIEW",
+   "realCoverReason": "missing_ps4_banner",
+   "holdoutCategory": "NO_FRONT_FOUND",
+   "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
+   "note": "PriceCharting render; spine cropped",
    "toolVersion": 1
   },
   "2001": {
@@ -1775,6 +1919,19 @@
    "holdoutCategory": "RENDER_ONLY",
    "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
    "note": null,
+   "toolVersion": 1
+  },
+  "2241": {
+   "title": "Steel Empire Chronicles",
+   "url": "covers/ps4-synthetic/2241.jpg",
+   "source": "https://www.strictlylimitedgames.com/cdn/shop/files/STE-Steel-Empire-Chronicles-Playstation-4-PS4-Limited-Edition-Physical-Copy-Box-Art-2D_1024x1024.png?v=1743662291",
+   "sourceKind": "publisher_packshot",
+   "mode": "asis",
+   "realCoverState": "REVIEW",
+   "realCoverReason": "missing_ps4_banner",
+   "holdoutCategory": "RENDER_ONLY",
+   "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D box render; photo, no rating marks",
+   "note": "Strictly Limited flat 2D packshot without rating marks",
    "toolVersion": 1
   },
   "2242": {
@@ -2128,6 +2285,32 @@
    "note": null,
    "toolVersion": 1
   },
+  "2420": {
+   "title": "Grave Danger",
+   "url": "covers/ps4-synthetic/2420.jpg",
+   "source": "https://storage.googleapis.com/images.pricecharting.com/37ea9660da1af1e780461fb910b70421dc2a6fb4d2fdfcaf7264804454b09376/1600.jpg",
+   "sourceKind": "flat_front_unverified",
+   "mode": "asis",
+   "realCoverState": "REVIEW",
+   "realCoverReason": "key_art_only",
+   "holdoutCategory": "RENDER_ONLY",
+   "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan | rejected candidates: 3D render with spine",
+   "note": "flat PAL front with a faint retailer watermark (not accepted as GOOD)",
+   "toolVersion": 1
+  },
+  "2429": {
+   "title": "Noob: Les Sans-Factions",
+   "url": "covers/ps4-synthetic/2429.jpg",
+   "source": "https://storage.googleapis.com/images.pricecharting.com/rpmsgx47gtkc56s6/1600.jpg",
+   "sourceKind": "case_photo",
+   "mode": "asis",
+   "realCoverState": "WATCH",
+   "realCoverReason": "image_fetch_failed",
+   "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
+   "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches",
+   "note": "only image found is a photo of the PAL case; cropped to the front",
+   "toolVersion": 1
+  },
   "2443": {
    "title": "Zapling Bygone",
    "url": "covers/ps4-synthetic/2443.jpg",
@@ -2204,6 +2387,45 @@
    "holdoutCategory": "NO_FRONT_FOUND",
    "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
    "note": null,
+   "toolVersion": 1
+  },
+  "2465": {
+   "title": "Rolling Gunner",
+   "url": "covers/ps4-synthetic/2465.jpg",
+   "source": "https://www.strictlylimitedgames.com/cdn/shop/files/ROG-Rolling-Gunner-Overpower-Playstation-4-PS4-Limited-Edition-Physical-Copy-Box-Art-2D_1200x.png?v=1743662952",
+   "sourceKind": "publisher_packshot",
+   "mode": "asis",
+   "realCoverState": "REVIEW",
+   "realCoverReason": "missing_ps4_banner",
+   "holdoutCategory": "RENDER_ONLY",
+   "why": "only 3D box renders / angled shop art found (boutique-label product images); no flat scan",
+   "note": "Strictly Limited flat 2D packshot without rating marks",
+   "toolVersion": 1
+  },
+  "2469": {
+   "title": "Kyukyoku Tiger / Twin Cobra",
+   "url": "covers/ps4-synthetic/2469.jpg",
+   "source": null,
+   "sourceKind": "typographic_title",
+   "mode": "title",
+   "realCoverState": "WATCH",
+   "realCoverReason": "image_fetch_failed",
+   "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
+   "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches",
+   "note": "no safe art found (GameFAQs-only front; IGDB/other sources unavailable)",
+   "toolVersion": 1
+  },
+  "2471": {
+   "title": "Get Star / Guardian",
+   "url": "covers/ps4-synthetic/2471.jpg",
+   "source": null,
+   "sourceKind": "typographic_title",
+   "mode": "title",
+   "realCoverState": "WATCH",
+   "realCoverReason": "image_fetch_failed",
+   "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
+   "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches",
+   "note": "no safe art found (GameFAQs-only front; IGDB/other sources unavailable)",
    "toolVersion": 1
   },
   "2473": {
@@ -2310,6 +2532,32 @@
    "note": null,
    "toolVersion": 1
   },
+  "2695": {
+   "title": "Q.U.B.E.",
+   "url": "covers/ps4-synthetic/2695.jpg",
+   "source": "https://cdn.thegamesdb.net/images/original/boxart/front/60963-1.jpg",
+   "sourceKind": "flat_key_art",
+   "mode": "banner",
+   "realCoverState": "WATCH",
+   "realCoverReason": "image_fetch_failed",
+   "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
+   "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches",
+   "note": "TheGamesDB Q.U.B.E. Director's Cut key art",
+   "toolVersion": 1
+  },
+  "2696": {
+   "title": "Quintessential Quintuplets Fives Memories With You",
+   "url": "covers/ps4-synthetic/2696.jpg",
+   "source": null,
+   "sourceKind": "typographic_title",
+   "mode": "title",
+   "realCoverState": "WATCH",
+   "realCoverReason": "image_fetch_failed",
+   "holdoutCategory": "BLOCKED_HOST_REAL_FRONT",
+   "why": "real curated front exists but its host (GameFAQs) blocks automated audit fetches",
+   "note": "no safe art found (only a JP case photo)",
+   "toolVersion": 1
+  },
   "2707": {
    "title": "Raidou Remastered: Mystery Of The Soulless Army",
    "url": "covers/ps4-synthetic/2707.jpg",
@@ -2391,5 +2639,5 @@
  },
  "tier": "SYNTHETIC",
  "note": "Reconstructed PS4-style covers for identities with no verified real physical front. Never counted as GOOD; shown only when no GOOD/FALLBACK real cover exists.",
- "count": 191
+ "count": 210
 }
