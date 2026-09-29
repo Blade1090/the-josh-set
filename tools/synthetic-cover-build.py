@@ -18,12 +18,13 @@ Usage: python tools/synthetic-cover-build.py [--only id,id] [--force]
 import io, json, os, re, sys, urllib.request
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
-W, H, BANNER = 480, 600, 56
+W, H = 480, 600
+HEADER_ASSET = 'covers/_assets/ps4-header.png'   # real PS4 retail header (see covers/_assets/SOURCES.json)
 OUT_DIR = 'covers/ps4-synthetic'
 MANIFEST = f'{OUT_DIR}/manifest.json'
 SOURCES = 'audit-out/synthetic-cover-sources.json'
 UA = 'ShelfCheck-ArtAudit/1.8'
-TOOL_VERSION = 1
+TOOL_VERSION = 2
 
 def font(size):
     for f in ('arialbd.ttf', 'Arial Bold.ttf', 'DejaVuSans-Bold.ttf', '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'):
@@ -41,14 +42,17 @@ def fetch(url):
 def igdb_hi(url):
     return re.sub(r'/t_[a-z0-9_]+/', '/t_1080p/', url) if url and 'images.igdb.com' in url else url
 
+_HEADER = None
+def header():
+    """The real PS4 header scaled to the cover width at its true height/width proportion."""
+    global _HEADER
+    if _HEADER is None:
+        h = Image.open(HEADER_ASSET).convert('RGB')
+        _HEADER = h.resize((W, round(W * h.height / h.width)), Image.LANCZOS)
+    return _HEADER
+
 def banner(img):
-    d = ImageDraw.Draw(img)
-    top, bot = (0, 55, 145), (0, 112, 209)            # PS4-style blue header gradient
-    for y in range(BANNER):
-        t = y / (BANNER - 1)
-        d.line([(0, y), (W, y)], fill=tuple(round(top[i] + (bot[i] - top[i]) * t) for i in range(3)))
-    d.line([(0, BANNER), (W, BANNER)], fill=(0, 30, 80), width=2)
-    d.text((18, BANNER // 2), 'PS4', font=font(30), fill='white', anchor='lm')
+    img.paste(header(), (0, 0))
 
 def trim(img, tol=28):
     """Remove uniform padding (same colour as the top-left pixel)."""
@@ -62,24 +66,104 @@ def frac_crop(img, f):
     w, h = img.size
     return img.crop((round(f[0] * w), round(f[1] * h), round(f[2] * w), round(f[3] * h)))
 
+def energy_profile(img, axis):
+    """Edge energy per row (axis=0) or column (axis=1): titles/logos/subjects are high-energy."""
+    g = img.convert('L').filter(ImageFilter.FIND_EDGES)
+    w, h = g.size; px = g.load()
+    if axis == 0: return [sum(px[x, y] for x in range(0, w, 2)) for y in range(h)]
+    return [sum(px[x, y] for y in range(0, h, 2)) for x in range(w)]
+
+def best_window(profile, size):
+    """Offset of the window of `size` keeping the most energy. Energy in the outer 18% at each
+    end counts 3x: titles/logos sit at the top or bottom (left/right for wide art), so the crop
+    comes out of whichever end carries less of them."""
+    n = len(profile)
+    if size >= n: return 0
+    band = max(1, round(n * 0.18))
+    weighted = [v * (3 if (i < band or i >= n - band) else 1) for i, v in enumerate(profile)]
+    pre = [0]
+    for v in weighted: pre.append(pre[-1] + v)
+    mid = (n - size) / 2; best, off = None, 0
+    for o in range(n - size + 1):
+        score = (pre[o + size] - pre[o]) * (1 - 0.15 * abs(o - mid) / max(1, mid))
+        if best is None or score > best: best, off = score, o
+    return off
+
+END_CROP = 0.06    # max share of the art that may be cropped from one end, and only from a quiet end
+QUIET = 0.4        # an end is "quiet" (croppable) if its outer 10% band has < 0.4x the mean edge energy
+
+def quiet_ends(prof):
+    n = len(prof); band = max(1, round(n * 0.10)); mean = sum(prof) / n or 1
+    lead = sum(prof[:band]) / band; tail = sum(prof[-band:]) / band
+    return lead < QUIET * mean, tail < QUIET * mean
+
 def fill(art, area_w, area_h):
-    """Art contained (uncropped) over a blurred, dimmed cover-fill of itself."""
-    out = Image.new('RGB', (area_w, area_h), (12, 17, 24))
-    s = max(area_w / art.width, area_h / art.height)
-    bg = art.resize((max(1, round(art.width * s)), max(1, round(art.height * s))), Image.LANCZOS)
+    """Full-bleed art for the printable front area, title-safe.
+    The art is never cropped at an end that carries detail (titles/logos/subjects touch the
+    edges of most key art). Excess is cropped only from quiet ends, at most END_CROP each;
+    whatever gap remains is covered by the same art, zoomed and blurred full-bleed behind, with
+    the sharp art feathered into it so there are no dead bands or hard poster edges."""
+    ratio = art.width / art.height; tall = ratio < area_w / area_h
+    long_ = art.height if tall else art.width
+    prof = energy_profile(art, 0 if tall else 1)
+    q_lead, q_tail = quiet_ends(prof)
+    # How much of the art's long axis would a full cover-crop remove?
+    need = (1 - (area_h / area_w) * ratio) if tall else (1 - (area_w / area_h) / ratio)
+    cut_lead = min(END_CROP if q_lead else 0, need / 2 if q_tail else need)
+    cut_tail = min(END_CROP if q_tail else 0, need - cut_lead)
+    keep0, keep1 = round(long_ * cut_lead), round(long_ * (1 - cut_tail))
+    fg = art.crop((0, keep0, art.width, keep1)) if tall else art.crop((keep0, 0, keep1, art.height))
+    # Scale the kept art to fill the long axis of the area exactly.
+    s = (area_h / fg.height) if tall else (area_w / fg.width)
+    fg = fg.resize((max(1, round(fg.width * s)), max(1, round(fg.height * s))), Image.LANCZOS)
+    if (tall and fg.width >= area_w) or (not tall and fg.height >= area_h):
+        x, y = (fg.width - area_w) // 2, (fg.height - area_h) // 2
+        return fg.crop((x, y, x + area_w, y + area_h))
+    # Background: same art, cover-scaled, blurred; then sharp art feathered in.
+    sb = max(area_w / art.width, area_h / art.height) * 1.08
+    bg = art.resize((max(1, round(art.width * sb)), max(1, round(art.height * sb))), Image.LANCZOS)
     bx, by = (bg.width - area_w) // 2, (bg.height - area_h) // 2
-    bg = bg.crop((bx, by, bx + area_w, by + area_h)).filter(ImageFilter.GaussianBlur(18))
-    out.paste(Image.blend(bg, Image.new('RGB', bg.size, (0, 0, 0)), 0.35), (0, 0))
-    s = min(area_w / art.width, area_h / art.height)
-    fg = art.resize((max(1, round(art.width * s)), max(1, round(art.height * s))), Image.LANCZOS)
-    out.paste(fg, ((area_w - fg.width) // 2, (area_h - fg.height) // 2))
+    # Wide art zooms a lot to fill a tall area; blur harder so zoomed-in text never reads as a stray fragment.
+    out = bg.crop((bx, by, bx + area_w, by + area_h)).filter(ImageFilter.GaussianBlur(10 if tall else 22))
+    out = Image.blend(out, Image.new('RGB', out.size, (0, 0, 0)), 0.12)
+    mask = Image.new('L', fg.size, 255); md = ImageDraw.Draw(mask)
+    gap = (area_w - fg.width) // 2 if tall else (area_h - fg.height) // 2
+    f = max(10, min(round(gap * 1.4), round((fg.width if tall else fg.height) * 0.12)))
+    for i in range(f):
+        a = round(255 * (i / f) ** 1.5)
+        if tall: md.line([(i, 0), (i, fg.height)], fill=a); md.line([(fg.width - 1 - i, 0), (fg.width - 1 - i, fg.height)], fill=a)
+        else: md.line([(0, i), (fg.width, i)], fill=a); md.line([(0, fg.height - 1 - i), (fg.width, fg.height - 1 - i)], fill=a)
+    out.paste(fg, ((area_w - fg.width) // 2, (area_h - fg.height) // 2), mask)
     return out
+
+def own_header_rows(img):
+    """Height of an existing blue PS4 header band at the top of a cover image (0 if none).
+    Measured like the header asset: first run of rows >=50% PS4-blue, ended by a row <30%."""
+    import colorsys
+    w, h = img.size; step = max(1, w // 120); xs = range(0, w, step)
+    def blue(p):
+        r, g, b = p; hh, ss, vv = colorsys.rgb_to_hsv(r / 255, g / 255, b / 255); d = hh * 360
+        return 185 <= d <= 225 and ss >= 0.45 and vv >= 0.30 and b > g * 0.95 and b > r * 1.2
+    px = img.load(); start = None
+    for y in range(int(h * 0.22)):
+        cov = sum(blue(px[x, y]) for x in xs) / len(xs)
+        if start is None and cov >= 0.5: start = y
+        elif start is not None and cov < 0.3: return y + max(2, round(h * 0.004))
+    return 0
+
+def cover_crop(img, w, h):
+    """Exact-ratio centre cover crop (for art that is already a whole cover)."""
+    s = max(w / img.width, h / img.height)
+    r = img.resize((max(1, round(img.width * s)), max(1, round(img.height * s))), Image.LANCZOS)
+    x, y = (r.width - w) // 2, (r.height - h) // 2
+    return r.crop((x, y, x + w, y + h))
 
 def title_card(title):
     """Typographic cover for identities with no safe art at all."""
+    HB = header().height
     canvas = Image.new('RGB', (W, H), (16, 22, 34)); d = ImageDraw.Draw(canvas)
-    for y in range(BANNER, H):
-        t = (y - BANNER) / (H - BANNER); d.line([(0, y), (W, y)], fill=(round(16 + 20 * t), round(22 + 26 * t), round(34 + 44 * t)))
+    for y in range(HB, H):
+        t = (y - HB) / (H - HB); d.line([(0, y), (W, y)], fill=(round(16 + 20 * t), round(22 + 26 * t), round(34 + 44 * t)))
     words, lines, cur = title.split(), [], ''
     f = font(40)
     for w in words:
@@ -87,7 +171,7 @@ def title_card(title):
         if d.textlength(test, font=f) > W - 70 and cur: lines.append(cur); cur = w
         else: cur = test
     lines.append(cur)
-    y0 = BANNER + (H - BANNER) // 2 - len(lines) * 26
+    y0 = HB + (H - HB) // 2 - len(lines) * 26
     for k, ln in enumerate(lines): d.text((W // 2, y0 + k * 52), ln, font=f, fill=(235, 240, 248), anchor='mm')
     banner(canvas)
     return canvas
@@ -95,23 +179,17 @@ def title_card(title):
 def compose(art, crop=None, mode='banner', title=''):
     if mode == 'title': return title_card(title)
     if mode == 'asis':
+        # Image already is a whole PS4 cover with its own header (render/packshot/flat front):
+        # trim padding, optional spine crop, then cut off its own header band so every
+        # synthetic cover carries the same real header asset, composed like the rest.
         art = trim(art)
         if crop: art = frac_crop(art, crop)
-        return fill(art, W, H)
+        art = art.crop((0, own_header_rows(art), art.width, art.height))
+        crop = None
     if crop: art = frac_crop(trim(art), crop)
-    area_w, area_h = W, H - BANNER
-    canvas = Image.new('RGB', (W, H), (12, 17, 24))
-    # Background: the same art scaled to cover the area, heavily blurred and dimmed.
-    s = max(area_w / art.width, area_h / art.height)
-    bg = art.resize((max(1, round(art.width * s)), max(1, round(art.height * s))), Image.LANCZOS)
-    bx, by = (bg.width - area_w) // 2, (bg.height - area_h) // 2
-    bg = bg.crop((bx, by, bx + area_w, by + area_h)).filter(ImageFilter.GaussianBlur(18))
-    bg = Image.blend(bg, Image.new('RGB', bg.size, (0, 0, 0)), 0.35)
-    canvas.paste(bg, (0, BANNER))
-    # Foreground: the whole art, uncropped, contained in the area.
-    s = min(area_w / art.width, area_h / art.height)
-    fg = art.resize((max(1, round(art.width * s)), max(1, round(art.height * s))), Image.LANCZOS)
-    canvas.paste(fg, ((area_w - fg.width) // 2, BANNER + (area_h - fg.height) // 2))
+    hb = header().height
+    canvas = Image.new('RGB', (W, H))
+    canvas.paste(fill(art, W, H - hb), (0, hb))
     banner(canvas)
     return canvas
 

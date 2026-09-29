@@ -1,0 +1,1483 @@
+{
+ "reviewed": "2026-09-29 visual review of all synthetic covers (6 contact sheets) after the real-header rebuild",
+ "header": "covers/_assets/ps4-header.png (from verified GOOD cover Inspector Waffles, id 1918)",
+ "rebuilt": 210,
+ "unchanged": 0,
+ "counts": {
+  "GOOD_SYNTHETIC": 204,
+  "NEEDS_MANUAL_ART_DIRECTION": 6
+ },
+ "needsCompositionFixRemaining": 0,
+ "covers": {
+  "14": {
+   "title": "8-Bit Adventure Anthology: Volume One",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "asis",
+   "sourceKind": "boutique_render",
+   "note": null
+  },
+  "82": {
+   "title": "Ara Fell: Enhanced Edition",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "238": {
+   "title": "Caveman Warriors",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "241": {
+   "title": "Chariot",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "269": {
+   "title": "Corpse Killer: 25th Anniversary Edition",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "275": {
+   "title": "Crawl",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "291": {
+   "title": "Damascus Gear: Operation Osaka",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "current_art",
+   "note": null
+  },
+  "298": {
+   "title": "Darius Cozmic Collection: Arcade",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "299": {
+   "title": "Darius Cozmic Collection: Console",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "300": {
+   "title": "Dark Devotion",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "322": {
+   "title": "Dead Alliance",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "402": {
+   "title": "Dragon Fantasy: The Black Tome of Ice",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "451": {
+   "title": "Exile's End",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "454": {
+   "title": "Factotum 90",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "473": {
+   "title": "fault milestone one",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "476": {
+   "title": "Fight'N Rage",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "586": {
+   "title": "Hero Must Die. Again",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "750": {
+   "title": "Mecho Tales",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "780": {
+   "title": "Mighty Switch Force! Collection",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "783": {
+   "title": "Minecraft: Story Mode - A Telltale Games Series",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "807": {
+   "title": "Mutant Mudds Deluxe",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "808": {
+   "title": "Mutant Mudds: Super Challenge",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "815": {
+   "title": "Mystery Chronicle: One Way Heroics",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "819": {
+   "title": "Narita Boy",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "823": {
+   "title": "Naruto: Ultimate Ninja Storm",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "872": {
+   "title": "One Step From Eden",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "878": {
+   "title": "Organ Trail: Complete Edition",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "914": {
+   "title": "Plague Road",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "970": {
+   "title": "Regions Of Ruin",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "991": {
+   "title": "Reverie",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1039": {
+   "title": "Saturday Morning RPG",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1060": {
+   "title": "Shadow Warrior 2",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1061": {
+   "title": "Shadowgate",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1069": {
+   "title": "Shenmue II",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1076": {
+   "title": "Siralim",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1094": {
+   "title": "SmuggleCraft",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1122": {
+   "title": "Splasher",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1163": {
+   "title": "Street Power Soccer",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1171": {
+   "title": "Sundered",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1185": {
+   "title": "SuperMash",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1203": {
+   "title": "Tamashii",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1225": {
+   "title": "The Bunker",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1227": {
+   "title": "The Church in the Darkness",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1234": {
+   "title": "The Dark Crystal: Age of Resistance Tactics",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1298": {
+   "title": "The Swindle",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1317": {
+   "title": "They Are Billions",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1351": {
+   "title": "Train Sim World 2020",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1360": {
+   "title": "Trials of the Blood Dragon",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1375": {
+   "title": "Twin Breaker: A Sacred Symbols Adventure",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1402": {
+   "title": "VESTA",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1463": {
+   "title": "Xenon Valkyrie+",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1497": {
+   "title": "Chants of Sennaar",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1515": {
+   "title": "Late Shift",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1542": {
+   "title": "Unsighted",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1544": {
+   "title": "Weird West",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1579": {
+   "title": "Back to the Future: The Game",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1582": {
+   "title": "Breach & Clear: Deadline",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "flat_key_art",
+   "note": null
+  },
+  "1600": {
+   "title": "Deer Simulator",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1608": {
+   "title": "Drive!Drive!Drive!",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1615": {
+   "title": "Fallen Legion: Sins of an Empire",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1622": {
+   "title": "Fury Unleashed",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1624": {
+   "title": "Futuridium EP Deluxe",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1625": {
+   "title": "Galak-Z: The Void",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1631": {
+   "title": "GunLord X",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1638": {
+   "title": "Hidden Through Time",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1661": {
+   "title": "Lode Runner Legacy",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1665": {
+   "title": "Maldita Castilla EX: Cursed Castilla",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "flat_key_art",
+   "note": null
+  },
+  "1670": {
+   "title": "Mighty Gunvolt Burst",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "asis",
+   "sourceKind": "boutique_render",
+   "note": null
+  },
+  "1679": {
+   "title": "Neverending Nightmares",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1682": {
+   "title": "Now That's What I Call Sing",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "asis",
+   "sourceKind": "flat_front_unverified",
+   "note": null
+  },
+  "1685": {
+   "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "asis",
+   "sourceKind": "boutique_render",
+   "note": null
+  },
+  "1686": {
+   "title": "OlliOlli",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1695": {
+   "title": "Pressure Overdrive",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1697": {
+   "title": "Prototype",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1717": {
+   "title": "Rym 9000",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1720": {
+   "title": "Samurai Shodown VI",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1721": {
+   "title": "Screencheat",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1723": {
+   "title": "Shadow of Loot Box",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1726": {
+   "title": "Shikhondo: Soul Eater",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1729": {
+   "title": "SIMULACRA",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1731": {
+   "title": "Skulls of the Shogun: Bone-a-Fide Edition",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1734": {
+   "title": "Stealth Inc: A Clone in the Dark Ultimate Edition",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": "wide-art background blur raised so zoomed title text no longer shows as a fragment"
+  },
+  "1736": {
+   "title": "Super ComboMan: Smash Edition",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1737": {
+   "title": "Super GunWorld 2",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1738": {
+   "title": "Super Life of Pixel",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1745": {
+   "title": "Terror of Hemasaurus",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1746": {
+   "title": "Tharsis",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1753": {
+   "title": "The First Tree: Console Edition",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "asis",
+   "sourceKind": "flat_front_unverified",
+   "note": null
+  },
+  "1754": {
+   "title": "The Journey Down: Chapter One",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1755": {
+   "title": "The Journey Down: Chapter Three",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1756": {
+   "title": "The Journey Down: Chapter Two",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1761": {
+   "title": "The Swords of Ditto",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1769": {
+   "title": "Toto Temple Deluxe",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1781": {
+   "title": "Verdun",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1782": {
+   "title": "VirtuaVerse",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1793": {
+   "title": "YIIK: A Postmodern RPG",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1807": {
+   "title": "Five Dates",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1809": {
+   "title": "Ground Zero: Texas",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "asis",
+   "sourceKind": "boutique_render",
+   "note": "crop removes the render case rim"
+  },
+  "1817": {
+   "title": "Panzer Dragoon: Remake",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1818": {
+   "title": "Sir Lovelot",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1821": {
+   "title": "Turok 3: Shadow of Oblivion Remastered",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1826": {
+   "title": "Nobody Saves the World",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1827": {
+   "title": "Shadows of Adam",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1838": {
+   "title": "Rugrats: Adventures in Gameland",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1839": {
+   "title": "Another Crusade",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1849": {
+   "title": "BROK: The InvestiGator",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1850": {
+   "title": "Lost Ruins",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1854": {
+   "title": "Super Zangyura",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1866": {
+   "title": "Godstrike",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1873": {
+   "title": "Sword of the Vagrant",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1881": {
+   "title": "Spacewing War",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1908": {
+   "title": "Project Starship",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1923": {
+   "title": "Monster Prom XXL",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1938": {
+   "title": "Gekido Kintaro's Revenge",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1942": {
+   "title": "Fullblast",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1948": {
+   "title": "Wife Quest",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1949": {
+   "title": "Smashing the Battle: Ghost Soul",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1950": {
+   "title": "Empire of Angels IV",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1951": {
+   "title": "Sense - A Cyberpunk Ghost Story",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1952": {
+   "title": "Project Starship X",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1953": {
+   "title": "Habroxia 2",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1958": {
+   "title": "Super Perils of Baking",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1964": {
+   "title": "Blast Brigade vs. the Evil Legion of Dr. Cread",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1969": {
+   "title": "Cannon Dancer",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "asis",
+   "sourceKind": "boutique_render",
+   "note": null
+  },
+  "1970": {
+   "title": "Vesper: Zero Light Edition",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1971": {
+   "title": "Jim Power: The Lost Dimension",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "asis",
+   "sourceKind": "flat_front_unverified",
+   "note": null
+  },
+  "1972": {
+   "title": "Rising Hell",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1980": {
+   "title": "Guns, Gore & Cannoli 2",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "1999": {
+   "title": "Streets of Red",
+   "class": "NEEDS_MANUAL_ART_DIRECTION",
+   "mode": "asis",
+   "sourceKind": "boutique_render",
+   "note": "only a 206x297 boutique render exists; render edge still visible"
+  },
+  "2001": {
+   "title": "Turok",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2011": {
+   "title": "Night Book",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2016": {
+   "title": "MythForce",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2018": {
+   "title": "SOL CRESTA",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2019": {
+   "title": "The King of Fighters 2000",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2022": {
+   "title": "Witchcrafty",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2026": {
+   "title": "Spidersaurs",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2028": {
+   "title": "Overrogue",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2030": {
+   "title": "Toy Soldiers HD",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2033": {
+   "title": "UnderMine",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2037": {
+   "title": "9th Dawn III",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2038": {
+   "title": "Roombo: First Blood",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2039": {
+   "title": "Dragon Lapis",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2042": {
+   "title": "Dark Nights with Poe & Munro",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2043": {
+   "title": "Vagante",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2049": {
+   "title": "The Legend of Heroes: Trails through Daybreak II",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2055": {
+   "title": "Hamidashi Creative",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2061": {
+   "title": "Shing!",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2068": {
+   "title": "Beyond the Ice Palace 2",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2077": {
+   "title": "American Hero",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2094": {
+   "title": "Chained Echoes",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2095": {
+   "title": "Mulaka",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2096": {
+   "title": "Rival Megagun",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2097": {
+   "title": "Natsuki Chronicles",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2098": {
+   "title": "Underhero",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2240": {
+   "title": "Zero Tolerance Collection",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2241": {
+   "title": "Steel Empire Chronicles",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "asis",
+   "sourceKind": "publisher_packshot",
+   "note": null
+  },
+  "2242": {
+   "title": "Ninja JaJaMaru Legendary Ninja Collection",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2243": {
+   "title": "Irem Collection Volume 1",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2256": {
+   "title": "Hammerwatch",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2257": {
+   "title": "Heroes of Hammerwatch - Ultimate Edition",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2258": {
+   "title": "Spelunker HD Deluxe",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2262": {
+   "title": "Turrican Anthology Vol. 1",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2263": {
+   "title": "Turrican Anthology Vol. 2",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2266": {
+   "title": "DUSK",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2298": {
+   "title": "Colossal Cave",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2299": {
+   "title": "Contra: Operation Galuga",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2306": {
+   "title": "Enclave HD",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2311": {
+   "title": "Gigabash",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2325": {
+   "title": "Mighty Goose",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2330": {
+   "title": "Neversong",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2339": {
+   "title": "Ruinverse",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2341": {
+   "title": "Saturnalia",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2344": {
+   "title": "Silt",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2350": {
+   "title": "Summertime Madness",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2352": {
+   "title": "Supraland",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2353": {
+   "title": "The Coma 2: Vicious Sisters",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2354": {
+   "title": "The Good Life",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2358": {
+   "title": "Transformers: Earthspark - Expedition",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2360": {
+   "title": "Turok 2: Seeds of Evil",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2367": {
+   "title": "Wytchwood",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2392": {
+   "title": "Marchen Forest",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2415": {
+   "title": "Coffee Crisis",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2417": {
+   "title": "Dogchild",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2420": {
+   "title": "Grave Danger",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "asis",
+   "sourceKind": "flat_front_unverified",
+   "note": null
+  },
+  "2429": {
+   "title": "Noob: Les Sans-Factions",
+   "class": "NEEDS_MANUAL_ART_DIRECTION",
+   "mode": "asis",
+   "sourceKind": "case_photo",
+   "note": "built from a photo of the PAL case"
+  },
+  "2443": {
+   "title": "Zapling Bygone",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2451": {
+   "title": "Protodroid Delta",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2454": {
+   "title": "Speedollama",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2455": {
+   "title": "Ten Dates",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2461": {
+   "title": "Isonzo",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2463": {
+   "title": "Memorrha",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2465": {
+   "title": "Rolling Gunner",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "asis",
+   "sourceKind": "publisher_packshot",
+   "note": null
+  },
+  "2469": {
+   "title": "Kyukyoku Tiger / Twin Cobra",
+   "class": "NEEDS_MANUAL_ART_DIRECTION",
+   "mode": "title",
+   "sourceKind": "typographic_title",
+   "note": "typographic title card; no safe art found anywhere"
+  },
+  "2471": {
+   "title": "Get Star / Guardian",
+   "class": "NEEDS_MANUAL_ART_DIRECTION",
+   "mode": "title",
+   "sourceKind": "typographic_title",
+   "note": "typographic title card; no safe art found anywhere"
+  },
+  "2473": {
+   "title": "Shadowrun Returns",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2474": {
+   "title": "Shadowrun: Dragonfall - Director's Cut",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2475": {
+   "title": "Shadowrun: Hong Kong - Extended Edition",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2518": {
+   "title": "Beyond Enemy Lines 2: Enhanced Edition",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2521": {
+   "title": "Bite the Bullet",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2533": {
+   "title": "Bounty Battle",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2657": {
+   "title": "Naught: Extended Edition",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2666": {
+   "title": "Octopath Traveler 0",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2695": {
+   "title": "Q.U.B.E.",
+   "class": "NEEDS_MANUAL_ART_DIRECTION",
+   "mode": "banner",
+   "sourceKind": "flat_key_art",
+   "note": "only a wide Director's Cut logo image exists; cover is mostly blurred fill"
+  },
+  "2696": {
+   "title": "Quintessential Quintuplets Fives Memories With You",
+   "class": "NEEDS_MANUAL_ART_DIRECTION",
+   "mode": "title",
+   "sourceKind": "typographic_title",
+   "note": "typographic title card; only a JP case photo exists"
+  },
+  "2707": {
+   "title": "Raidou Remastered: Mystery Of The Soulless Army",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2718": {
+   "title": "Sam & Max: Beyond Time And Space",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2733": {
+   "title": "Tales of the Neon Sea",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2752": {
+   "title": "Valiant Hearts: Coming Home",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2761": {
+   "title": "War Mongrels",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  },
+  "2775": {
+   "title": "Ys Vs. Trails In The Sky: Alternative Saga",
+   "class": "GOOD_SYNTHETIC",
+   "mode": "banner",
+   "sourceKind": "igdb_cover_art",
+   "note": null
+  }
+ }
+}
