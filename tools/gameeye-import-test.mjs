@@ -85,6 +85,13 @@ async function main() {
   new vm.Script(readFile('fun-features-v103.js'), { filename:'fun-features-v103.js' });
 
   const { ctx, run } = await buildContext();
+  console.log('OCT4_CENSUS_NEARBY_START');
+  for (const needle of ['persona 5','strikers','riders republic','riders']) {
+    const nearby = run(`items.filter(x=>norm(x.title).includes(${JSON.stringify(needle)}) || (aliasesById.get(x.id)||[]).some(a=>a.includes(${JSON.stringify(needle)}))).map(x=>({id:x.id,title:x.title,set:x.set,aliases:aliasesById.get(x.id)||[]}))`);
+    console.log(needle+': '+JSON.stringify(nearby));
+  }
+  console.log('OCT4_CENSUS_NEARBY_END');
+
 
   run(readFile('cover-title-overrides.js'), 'cover-title-overrides.js');
   const ownedExcludedCoverKeys = run(`['overwatch','firewall zero hour','wwe 2k24'].filter(k=>!window.SHELFCHECK_TITLE_COVERS?.[k])`);
