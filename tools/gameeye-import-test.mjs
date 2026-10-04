@@ -202,8 +202,38 @@ async function main() {
     fail(`Ownership audit accounting failed: rowAccountingOK=${audit.rowAccountingOK} identityAccountingOK=${audit.identityAccountingOK} bonusAccountingOK=${audit.bonusAccountingOK}`);
   }
 
+  // Full-current-collection verification against Josh's uploaded 2026-10-03 GameEye CSV.
+  ctx.__currentFile = {
+    name: 'gameeye-2026-10-03-current.csv',
+    text: () => Promise.resolve(readFile('tools/gameeye-2026-10-03-current.csv'))
+  };
+  run('stateCache={version:12,owned:[],products:[],prices:[]};ownedSet=new Set();productSet=new Set();');
+  await run('importCSV(__currentFile)');
+  const currentAudit = run('window.SHELFCHECK_OWNERSHIP_AUDIT');
+  console.log('CURRENT_GAMEEYE_AUDIT', JSON.stringify({
+    ps4Rows:currentAudit.ps4Rows,
+    matchedRows:currentAudit.matchedRows,
+    satisfiedIdentities:currentAudit.satisfiedIdentities,
+    excludedRows:currentAudit.excludedRows,
+    unresolvedRows:currentAudit.unresolvedRows,
+    grossCompilationBonus:currentAudit.grossCompilationBonus,
+    overlapIdentities:currentAudit.overlapIdentities,
+    netCompilationGain:currentAudit.netCompilationGain,
+    multiIdentityProducts:currentAudit.multiIdentityProducts.map(x=>({
+      gameEye:x.gameEye,matched:x.matched,coverageCount:x.coverageCount,grossBonus:x.grossBonus,
+      addedUnique:x.addedUnique,overlap:x.overlap,identities:x.identities
+    }))
+  }));
+
+  if (currentAudit.ps4Rows !== 293) fail(`Current CSV expected 293 PS4 rows, got ${currentAudit.ps4Rows}`);
+  if (currentAudit.satisfiedIdentities !== 317) fail(`Current CSV expected 317 satisfied identities, got ${currentAudit.satisfiedIdentities}`);
+  if (currentAudit.unresolvedRows !== 0) fail(`Current CSV expected 0 unresolved, got ${currentAudit.unresolvedRows}: ${JSON.stringify(currentAudit.unresolved)}`);
+  if (!currentAudit.rowAccountingOK || !currentAudit.identityAccountingOK || !currentAudit.bonusAccountingOK) {
+    fail(`Current CSV accounting failed: row=${currentAudit.rowAccountingOK} identity=${currentAudit.identityAccountingOK} bonus=${currentAudit.bonusAccountingOK}`);
+  }
+
   if (!failed) {
-    console.log('PASS: current GameEye reconciliation cases resolve correctly; Oct 3 Demon Slayer + RayStorm/RayCrisis census gaps are fixed; Minecraft Complete Adventure maps to the owned product; compilation accounting remains valid; Sep 19 Guardians correction maps only to Telltale; 0 unresolved; accounting verified.');
+    console.log('PASS: current GameEye reconciliation cases resolve correctly; Oct 3 Demon Slayer + RayStorm/RayCrisis census gaps are fixed; Minecraft Complete Adventure maps to the owned product; the full 293-row Oct 3 CSV resolves to 317 satisfied identities with zero unresolved and verified accounting.');
   }
   process.exit(failed ? 1 : 0);
 }
