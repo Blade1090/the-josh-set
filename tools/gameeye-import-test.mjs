@@ -93,7 +93,7 @@ async function main() {
     process.exit(1);
   }
   const wweCover = run("window.SHELFCHECK_TITLE_COVERS['wwe 2k24']");
-  if (wweCover !== "https://i.ebayimg.com/images/g/HasAAOSwxNhl0BUw/s-l1600.webp") {
+  if (wweCover !== "https://i5.walmartimages.com/seo/WWE-2K24-PlayStation-4_bba8c53f-357e-4b43-8ea7-51f221b9bb10.f8ec44380398639a76bd870afa162f6a.png") {
     console.error('FAIL: WWE 2K24 cover mapping regressed:', wweCover);
     process.exit(1);
   }
