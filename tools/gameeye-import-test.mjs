@@ -22,9 +22,9 @@ const CENSUS_MUTATORS = [
   'census-v056-pricecharting-cf-sweep.js', 'census-v057-pricecharting-gl-sweep.js',
   'census-v058-pricecharting-mr-sweep.js', 'census-v059-pricecharting-sz-sweep.js',
   'census-physical-omission-pass-v001.js', 'census-physical-omission-pass-v002.js',
-  'census-physical-omission-pass-v003.js', 'census-physical-omission-pass-v004.js',
+  'census-physical-omission-pass-v003.js', 'census-physical-omission-pass-v004.js', 'census-physical-omission-pass-v005.js', 'census-physical-omission-pass-v006.js',
   'census-v060-integrity-scrub.js', 'census-integrity-pass-v001.js', 'census-integrity-pass-v002.js',
-  'ownership-reconcile-v071.js', 'ownership-reconcile-v072.js', 'ownership-reconcile-v073.js',
+  'ownership-reconcile-v071.js', 'ownership-reconcile-v072.js', 'ownership-reconcile-v073.js', 'ownership-reconcile-v074.js', 'ownership-reconcile-v077.js',
   'curation-josh-set-pass-v001.js', 'curation-josh-set-pass-v002.js', 'curation-josh-set-pass-v003.js',
   'curation-josh-set-pass-v004.js', 'curation-josh-set-pass-v005.js', 'curation-josh-set-pass-v006.js',
 ];
@@ -85,7 +85,27 @@ async function main() {
   console.log(`INCLUDED: ${included}`);
 
   const guardiansSource="Marvel's Guardians of the Galaxy";
+  const oct3Entries = [
+    'Hollow Knight',
+    'Omen of Sorrow',
+    'Made in Abyss: Binary Star Falling into Darkness',
+    'Iris.Fall',
+    'Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles',
+    'Jump Force',
+    'Days Gone',
+    'RayStorm x RayCrisis HD Collection',
+    'Last of Us Part II',
+    'Aliens: Dark Descent',
+    'Mortal Shell',
+    "Sid Meier's Civilization VI",
+    'Human: Fall Flat',
+    'Destiny 2: Limited Edition',
+    'Diablo IV [Cross-Gen Bundle]',
+    'Minecraft: Story Mode - A Telltale Games Series - The Complete Adventure',
+  ];
+
   const entries = [
+    ...oct3Entries,
     'G.I. Joe: Operation Blackout',
     "Dragon Quest Heroes: The World Tree's Woe and the Blight Below (Day One Edition)",
     "Dragon Quest Heroes II [Explorer's Edition]",
@@ -103,6 +123,19 @@ async function main() {
   await run('importCSV(__testFile)');
   const audit = run('window.SHELFCHECK_OWNERSHIP_AUDIT');
 
+  console.log('OCT3_LEDGER_START');
+  for (const source of oct3Entries) {
+    const row = audit.ledger.find((r) => r.gameEye === source);
+    console.log(JSON.stringify(row));
+  }
+  console.log('OCT3_LEDGER_END');
+  console.log('OCT3_NEARBY_CENSUS_START');
+  for (const needle of ['demon slayer','hinokami','raystorm','raycrisis']) {
+    const nearby = run(`items.filter(x=>norm(x.title).includes(${JSON.stringify(needle)}) || (aliasesById.get(x.id)||[]).some(a=>a.includes(${JSON.stringify(needle)}))).map(x=>({id:x.id,title:x.title,set:x.set,aliases:aliasesById.get(x.id)||[]}))`);
+    console.log(needle+': '+JSON.stringify(nearby));
+  }
+  console.log('OCT3_NEARBY_CENSUS_END');
+
   const byTitle = (t) => audit.ledger.find((r) => r.gameEye === t);
   const giJoe = byTitle('G.I. Joe: Operation Blackout');
   const dqh1 = byTitle("Dragon Quest Heroes: The World Tree's Woe and the Blight Below (Day One Edition)");
@@ -115,6 +148,9 @@ async function main() {
   const rage4 = byTitle('Streets of Rage 4: Anniversary Edition');
   const streetsRed = byTitle("Streets of Red: Devil's Dare Deluxe");
   const tearaway = byTitle('Tearaway Unfolded: Crafted Edition');
+  const demonSlayer = byTitle('Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles');
+  const rayCollection = byTitle('RayStorm x RayCrisis HD Collection');
+  const minecraftComplete = byTitle('Minecraft: Story Mode - A Telltale Games Series - The Complete Adventure');
 
   let failed = false;
   const fail = (msg) => { console.error(`FAIL: ${msg}`); failed = true; };
@@ -142,6 +178,15 @@ async function main() {
   requireIdentity(rage4,'Streets of Rage 4: Anniversary Edition','Streets of Rage 4');
   requireIdentity(streetsRed,"Streets of Red: Devil's Dare Deluxe",'Streets of Red');
   requireIdentity(tearaway,'Tearaway Unfolded: Crafted Edition','Tearaway Unfolded');
+  requireIdentity(demonSlayer,'Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles','Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles');
+
+  if (!rayCollection || rayCollection.matchType !== 'MULTI_IDENTITY_PRODUCT') fail(`RayStorm x RayCrisis HD Collection did not resolve as a multi-identity product (got ${JSON.stringify(rayCollection)})`);
+  else if (rayCollection.identities.length !== 2 || !rayCollection.identities.includes('RayStorm') || !rayCollection.identities.includes('RayCrisis')) {
+    fail(`RayStorm x RayCrisis HD Collection did not cover exactly RayStorm + RayCrisis: ${JSON.stringify(rayCollection)}`);
+  }
+
+  requireIdentity(minecraftComplete,'Minecraft Complete Adventure long GameEye title','Minecraft: Story Mode - A Telltale Games Series');
+  if (minecraftComplete?.matchType === 'EXCLUDED') fail(`Minecraft Complete Adventure still fell through to the excluded wrapper row: ${JSON.stringify(minecraftComplete)}`);
 
   // Josh's Sep 19 GameEye row selected the 2021 Eidos game even though the physical pickup was
   // the 2017 Telltale disc. The metadata-qualified correction must fix this one row while the
@@ -158,7 +203,7 @@ async function main() {
   }
 
   if (!failed) {
-    console.log('PASS: current GameEye reconciliation cases resolve correctly; compilation accounting remains valid; Sep 19 Guardians correction maps only to Telltale; 0 unresolved; accounting verified.');
+    console.log('PASS: current GameEye reconciliation cases resolve correctly; Oct 3 Demon Slayer + RayStorm/RayCrisis census gaps are fixed; Minecraft Complete Adventure maps to the owned product; compilation accounting remains valid; Sep 19 Guardians correction maps only to Telltale; 0 unresolved; accounting verified.');
   }
   process.exit(failed ? 1 : 0);
 }
