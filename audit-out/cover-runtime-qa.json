@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-29T14:07:34.233Z",
+  "generatedAt": "2026-10-04T03:57:34.903Z",
   "summary": {
-    "generatedAt": "2026-09-29T14:07:34.233Z",
-    "included": 2409,
+    "generatedAt": "2026-10-04T03:57:34.903Z",
+    "included": 2413,
     "good": 2191,
     "fallback": 8,
-    "review": 196,
+    "review": 200,
     "watch": 14,
-    "physicalVerify": 192,
+    "physicalVerify": 196,
     "physicalLikely": 1400,
     "physicalConfirmed": 817,
     "manualConfirmedBad": 0,
@@ -15,6 +15,7 @@
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
+      "missing_cover": 4,
       "key_art_only": 178,
       "missing_ps4_banner": 18
     },
@@ -26,7 +27,7 @@
       "GOOD": 2191,
       "FALLBACK": 8,
       "SYNTHETIC": 210,
-      "BLANK": 0
+      "BLANK": 4
     },
     "syntheticByRealState": {
       "REVIEW": 196,
@@ -36,6 +37,26 @@
     "syntheticMissingFile": []
   },
   "review": [
+    {
+      "id": 2791,
+      "title": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2790,
+      "title": "Diablo IV",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2793,
+      "title": "RayCrisis",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2792,
+      "title": "RayStorm",
+      "reason": "missing_cover"
+    },
     {
       "id": 2037,
       "title": "9th Dawn III",
