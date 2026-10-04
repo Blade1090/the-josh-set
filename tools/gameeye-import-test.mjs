@@ -129,6 +129,12 @@ async function main() {
     console.log(JSON.stringify(row));
   }
   console.log('OCT3_LEDGER_END');
+  console.log('OCT3_NEARBY_CENSUS_START');
+  for (const needle of ['demon slayer','hinokami','raystorm','raycrisis']) {
+    const nearby = run(`items.filter(x=>norm(x.title).includes(${JSON.stringify(needle)}) || (aliasesById.get(x.id)||[]).some(a=>a.includes(${JSON.stringify(needle)}))).map(x=>({id:x.id,title:x.title,set:x.set,aliases:aliasesById.get(x.id)||[]}))`);
+    console.log(needle+': '+JSON.stringify(nearby));
+  }
+  console.log('OCT3_NEARBY_CENSUS_END');
 
   const byTitle = (t) => audit.ledger.find((r) => r.gameEye === t);
   const giJoe = byTitle('G.I. Joe: Operation Blackout');
