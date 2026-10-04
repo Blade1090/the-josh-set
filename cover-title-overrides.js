@@ -1,6 +1,8 @@
 // ShelfCheck curator-approved physical PS4 front-cover corrections.
 // These override automated GameEye/IGDB art when the automated source is generic/key art or the wrong physical presentation.
 window.SHELFCHECK_TITLE_COVERS={
+  "persona 5 strikers":"https://gamefaqs.gamespot.com/a/box/8/1/0/779810_front.jpg",
+  "riders republic":"https://i5.walmartimages.com/seo/Riders-Republic-Ubisoft-PS4_4b5a4e5a-4786-4fb8-95a8-1ebe1f53e24d.3ad35728f1e8e9e6a9ec7b578a54cd9e.jpeg",
   "overwatch":"https://i5.walmartimages.com/asr/37c45021-b5a7-471e-bc5c-0339c0b84cab.e048d0fb3d8e51c87d1f948ba2ac8a65.jpeg",
   "firewall zero hour":"https://gamefaqs.gamespot.com/a/box/5/2/1/674521_front.jpg",
   "wwe 2k24":"https://i5.walmartimages.com/seo/WWE-2K24-PlayStation-4_bba8c53f-357e-4b43-8ea7-51f221b9bb10.f8ec44380398639a76bd870afa162f6a.png",
