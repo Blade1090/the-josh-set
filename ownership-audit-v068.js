@@ -65,7 +65,7 @@
     if(msgEl)msgEl.textContent=proof==='AUDIT WARNING'
       ?'GameEye audit warning — reconciliation accounting needs review.'
       :unmatched.length
-        ?`GameEye sync needs review: ${unmatched.length} title${unmatched.length===1?'':'s'} unresolved.`
+        ?`GameEye sync needs review: ${unmatched.length} title${unmatched.length===1?'':'s'} unresolved — ${unmatched.join(' · ')}`
         :'';
     console.group('ShelfCheck GameEye ownership audit');console.log(auditSummary);console.log('Accounting',audit);if(corrections.length)console.table(corrections);console.table(multi);if(unmatched.length)console.warn('Unresolved',unmatched);console.log('Full reconciliation ledger',ledger);console.groupEnd();
   };

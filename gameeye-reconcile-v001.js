@@ -56,7 +56,14 @@
       if(!hit)stillUnresolved.push(sourceTitle);
     }
 
-    if(!reconciled.length)return;
+    if(!reconciled.length){
+      const msgEl=typeof $==='function'?$('#syncmsg'):null;
+      if(msgEl)msgEl.textContent=stillUnresolved.length
+        ?`GameEye sync needs review: ${stillUnresolved.length} title${stillUnresolved.length===1?'':'s'} unresolved — ${stillUnresolved.join(' · ')}`
+        :'';
+      window.SHELFCHECK_GAMEEYE_RECONCILE_ON_LOAD={reconciled:[],stillUnresolved};
+      return;
+    }
 
     const prevAudit=stateCache?.ownershipAudit||{};
     const prevMatched=Number(prevAudit.matchedRows)||0;
@@ -69,7 +76,7 @@
     if(typeof resetBrowse==='function')resetBrowse();
     const msgEl=typeof $==='function'?$('#syncmsg'):null;
     if(msgEl)msgEl.textContent=stillUnresolved.length
-      ?`GameEye sync needs review: ${stillUnresolved.length} title${stillUnresolved.length===1?'':'s'} unresolved.`
+      ?`GameEye sync needs review: ${stillUnresolved.length} title${stillUnresolved.length===1?'':'s'} unresolved — ${stillUnresolved.join(' · ')}`
       :'';
     console.info('ShelfCheck GameEye reconciliation-on-load applied',reconciled,{stillUnresolved,matchedRows,netCompilationGain,rowAccountingOK});
     window.SHELFCHECK_GAMEEYE_RECONCILE_ON_LOAD={reconciled,stillUnresolved,matchedRows,netCompilationGain,rowAccountingOK};
