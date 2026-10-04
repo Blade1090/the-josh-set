@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-04T04:21:24.550Z",
+  "generatedAt": "2026-10-04T20:30:29.181Z",
   "summary": {
-    "generatedAt": "2026-10-04T04:21:24.550Z",
-    "included": 2413,
-    "good": 2191,
+    "generatedAt": "2026-10-04T20:30:29.181Z",
+    "included": 2415,
+    "good": 2192,
     "fallback": 8,
     "review": 200,
-    "watch": 14,
-    "physicalVerify": 196,
+    "watch": 15,
+    "physicalVerify": 197,
     "physicalLikely": 1400,
-    "physicalConfirmed": 817,
+    "physicalConfirmed": 818,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
@@ -20,14 +20,14 @@
       "missing_ps4_banner": 18
     },
     "watchByReason": {
-      "image_fetch_failed": 14
+      "image_fetch_failed": 15
     },
     "synthetic": 210,
     "displayTiers": {
-      "GOOD": 2191,
+      "GOOD": 2192,
       "FALLBACK": 8,
       "SYNTHETIC": 210,
-      "BLANK": 4
+      "BLANK": 5
     },
     "syntheticByRealState": {
       "REVIEW": 196,
@@ -1129,6 +1129,11 @@
     {
       "id": 1685,
       "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "id": 2794,
+      "title": "Persona 5 Strikers",
       "reason": "image_fetch_failed"
     },
     {
