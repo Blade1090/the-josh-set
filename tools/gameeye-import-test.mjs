@@ -212,6 +212,25 @@ async function main() {
   }
   if (audit.ownedExcludedRows !== 3) fail(`Expected 3 owned-excluded rows, got ${audit.ownedExcludedRows}: ${JSON.stringify(audit.ownedExcludedTitles)}`);
 
+  // Browse-layer regression: an owned canonical exclusion must be visible from ALL, OWNED,
+  // and EXCLUDED searches with the combined label, while still remaining outside progress.
+  const overwatchId = overwatch?.ids?.[0];
+  if (overwatchId != null) {
+    const browseHtml = (view) => run(`filter=${JSON.stringify(view)};document.querySelector('#q').value='Overwatch';render();document.querySelector('#results').innerHTML`);
+    for (const view of ['ALL','OWNED','EXCLUDED']) {
+      const html=browseHtml(view);
+      if (!html.includes('Overwatch') || !html.includes('OWNED · EXCLUDED')) {
+        fail(`Overwatch owned-excluded card missing from ${view} browse: ${html}`);
+      }
+    }
+    const ownedBefore=run('ownedSet.size');
+    run('progress()');
+    const ownedAfter=run('ownedSet.size');
+    if (ownedBefore!==ownedAfter || run(`ownedSet.has(${overwatchId})`)) {
+      fail('Owned-excluded Overwatch leaked into included ownedSet/progress accounting');
+    }
+  }
+
   // Josh's Sep 19 GameEye row selected the 2021 Eidos game even though the physical pickup was
   // the 2017 Telltale disc. The metadata-qualified correction must fix this one row while the
   // newly-added 2021 game remains a separate INCLUDED identity and does not receive ownership.
