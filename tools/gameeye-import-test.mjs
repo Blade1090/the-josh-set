@@ -79,6 +79,11 @@ function csvOf(entries) {
 }
 
 async function main() {
+  // Syntax-gate UI layers touched by ownership-status changes even though this importer
+  // regression does not execute their DOM-heavy runtime paths.
+  new vm.Script(readFile('dossiers.js'), { filename:'dossiers.js' });
+  new vm.Script(readFile('fun-features-v103.js'), { filename:'fun-features-v103.js' });
+
   const { ctx, run } = await buildContext();
 
   const included = run('items.filter(x=>x.set==="INCLUDED").length');
