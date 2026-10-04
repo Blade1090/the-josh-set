@@ -22,9 +22,9 @@ const CENSUS_MUTATORS = [
   'census-v056-pricecharting-cf-sweep.js', 'census-v057-pricecharting-gl-sweep.js',
   'census-v058-pricecharting-mr-sweep.js', 'census-v059-pricecharting-sz-sweep.js',
   'census-physical-omission-pass-v001.js', 'census-physical-omission-pass-v002.js',
-  'census-physical-omission-pass-v003.js', 'census-physical-omission-pass-v004.js', 'census-physical-omission-pass-v005.js',
+  'census-physical-omission-pass-v003.js', 'census-physical-omission-pass-v004.js', 'census-physical-omission-pass-v005.js', 'census-physical-omission-pass-v006.js',
   'census-v060-integrity-scrub.js', 'census-integrity-pass-v001.js', 'census-integrity-pass-v002.js',
-  'ownership-reconcile-v071.js', 'ownership-reconcile-v072.js', 'ownership-reconcile-v073.js', 'ownership-reconcile-v074.js',
+  'ownership-reconcile-v071.js', 'ownership-reconcile-v072.js', 'ownership-reconcile-v073.js', 'ownership-reconcile-v074.js', 'ownership-reconcile-v077.js',
   'curation-josh-set-pass-v001.js', 'curation-josh-set-pass-v002.js', 'curation-josh-set-pass-v003.js',
   'curation-josh-set-pass-v004.js', 'curation-josh-set-pass-v005.js', 'curation-josh-set-pass-v006.js',
 ];
@@ -148,6 +148,9 @@ async function main() {
   const rage4 = byTitle('Streets of Rage 4: Anniversary Edition');
   const streetsRed = byTitle("Streets of Red: Devil's Dare Deluxe");
   const tearaway = byTitle('Tearaway Unfolded: Crafted Edition');
+  const demonSlayer = byTitle('Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles');
+  const rayCollection = byTitle('RayStorm x RayCrisis HD Collection');
+  const minecraftComplete = byTitle('Minecraft: Story Mode - A Telltale Games Series - The Complete Adventure');
 
   let failed = false;
   const fail = (msg) => { console.error(`FAIL: ${msg}`); failed = true; };
@@ -175,6 +178,15 @@ async function main() {
   requireIdentity(rage4,'Streets of Rage 4: Anniversary Edition','Streets of Rage 4');
   requireIdentity(streetsRed,"Streets of Red: Devil's Dare Deluxe",'Streets of Red');
   requireIdentity(tearaway,'Tearaway Unfolded: Crafted Edition','Tearaway Unfolded');
+  requireIdentity(demonSlayer,'Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles','Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles');
+
+  if (!rayCollection || rayCollection.matchType !== 'MULTI_IDENTITY_PRODUCT') fail(`RayStorm x RayCrisis HD Collection did not resolve as a multi-identity product (got ${JSON.stringify(rayCollection)})`);
+  else if (rayCollection.identities.length !== 2 || !rayCollection.identities.includes('RayStorm') || !rayCollection.identities.includes('RayCrisis')) {
+    fail(`RayStorm x RayCrisis HD Collection did not cover exactly RayStorm + RayCrisis: ${JSON.stringify(rayCollection)}`);
+  }
+
+  requireIdentity(minecraftComplete,'Minecraft Complete Adventure long GameEye title','Minecraft: Story Mode - A Telltale Games Series');
+  if (minecraftComplete?.matchType === 'EXCLUDED') fail(`Minecraft Complete Adventure still fell through to the excluded wrapper row: ${JSON.stringify(minecraftComplete)}`);
 
   // Josh's Sep 19 GameEye row selected the 2021 Eidos game even though the physical pickup was
   // the 2017 Telltale disc. The metadata-qualified correction must fix this one row while the
@@ -191,7 +203,7 @@ async function main() {
   }
 
   if (!failed) {
-    console.log('PASS: current GameEye reconciliation cases resolve correctly; compilation accounting remains valid; Sep 19 Guardians correction maps only to Telltale; 0 unresolved; accounting verified.');
+    console.log('PASS: current GameEye reconciliation cases resolve correctly; Oct 3 Demon Slayer + RayStorm/RayCrisis census gaps are fixed; Minecraft Complete Adventure maps to the owned product; compilation accounting remains valid; Sep 19 Guardians correction maps only to Telltale; 0 unresolved; accounting verified.');
   }
   process.exit(failed ? 1 : 0);
 }
