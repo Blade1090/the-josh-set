@@ -92,6 +92,11 @@ async function main() {
     console.error('FAIL: missing owned-excluded cover mappings:', ownedExcludedCoverKeys);
     process.exit(1);
   }
+  const wweCover = run("window.SHELFCHECK_TITLE_COVERS['wwe 2k24']");
+  if (wweCover !== "https://i.ebayimg.com/images/g/HasAAOSwxNhl0BUw/s-l1600.webp") {
+    console.error('FAIL: WWE 2K24 cover mapping regressed:', wweCover);
+    process.exit(1);
+  }
 
   const included = run('items.filter(x=>x.set==="INCLUDED").length');
   console.log(`INCLUDED: ${included}`);
