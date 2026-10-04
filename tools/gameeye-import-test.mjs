@@ -215,6 +215,7 @@ async function main() {
     matchedRows:currentAudit.matchedRows,
     satisfiedIdentities:currentAudit.satisfiedIdentities,
     excludedRows:currentAudit.excludedRows,
+    excludedTitles:currentAudit.ledger.filter(x=>x.matchType==='EXCLUDED').map(x=>x.gameEye),
     unresolvedRows:currentAudit.unresolvedRows,
     grossCompilationBonus:currentAudit.grossCompilationBonus,
     overlapIdentities:currentAudit.overlapIdentities,
