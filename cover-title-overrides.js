@@ -1,6 +1,9 @@
 // ShelfCheck curator-approved physical PS4 front-cover corrections.
 // These override automated GameEye/IGDB art when the automated source is generic/key art or the wrong physical presentation.
 window.SHELFCHECK_TITLE_COVERS={
+  "overwatch":"https://i5.walmartimages.com/asr/37c45021-b5a7-471e-bc5c-0339c0b84cab.e048d0fb3d8e51c87d1f948ba2ac8a65.jpeg",
+  "firewall zero hour":"https://gamefaqs.gamespot.com/a/box/5/2/1/674521_front.jpg",
+  "wwe 2k24":"https://gamefaqs.gamespot.com/a/box/3/9/5/1012395_front.jpg",
   "a boy and his blob":"https://pnpdistribution.com/i/A-BOY-AN-P4-N.jpg",
   "2dark":"https://vgdb.uk/images/db/covers/214244.jpg",
   "adk tamashii":"https://limitedrungames.com/cdn/shop/products/ADKProductImage.png?height=1080&v=1576795434",

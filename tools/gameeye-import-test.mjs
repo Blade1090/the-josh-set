@@ -86,6 +86,13 @@ async function main() {
 
   const { ctx, run } = await buildContext();
 
+  run(readFile('cover-title-overrides.js'), 'cover-title-overrides.js');
+  const ownedExcludedCoverKeys = run(`['overwatch','firewall zero hour','wwe 2k24'].filter(k=>!window.SHELFCHECK_TITLE_COVERS?.[k])`);
+  if (ownedExcludedCoverKeys.length) {
+    console.error('FAIL: missing owned-excluded cover mappings:', ownedExcludedCoverKeys);
+    process.exit(1);
+  }
+
   const included = run('items.filter(x=>x.set==="INCLUDED").length');
   console.log(`INCLUDED: ${included}`);
 
