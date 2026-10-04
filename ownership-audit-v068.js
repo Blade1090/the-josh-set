@@ -19,7 +19,7 @@
 
   importCSV=async function(f){
     const rows=parseCSV(await f.text()),h=rows.shift()||[],ix=Object.fromEntries(h.map((x,i)=>[x,i]));
-    const owned=new Set(),ownedProducts=new Set(),ledger=[],unmatched=[];
+    const owned=new Set(),excludedOwned=new Set(),ownedProducts=new Set(),ledger=[],unmatched=[];
     const idx=typeof ensureMergedProducts==='function'?ensureMergedProducts():null;
     let titles=0,excluded=0;
 
@@ -48,16 +48,16 @@
         const ids=items.filter(x=>x.set==='INCLUDED'&&(norm(x.title)===c||(aliasesById.get(x.id)||[]).includes(c))).map(x=>x.id);
         if(ids.length){const before=owned.size;owned.add(ids[0]);const addedUnique=owned.size-before;hit=true;ledger.push({gameEye:sourceTitle,matchInput:title,correction:correctionReason,matchType:'IDENTITY',matched:byId.get(ids[0])?.title,ids:[ids[0]],identities:[byId.get(ids[0])?.title],coverageCount:1,grossBonus:0,addedUnique,overlap:1-addedUnique});break;}
       }
-      if(!hit){const ex=cs.map(c=>items.find(x=>x.set==='EXCLUDED'&&(norm(x.title)===c||(aliasesById.get(x.id)||[]).includes(c)))).filter(Boolean)[0];if(ex){excluded++;hit=true;ledger.push({gameEye:sourceTitle,matchInput:title,correction:correctionReason,matchType:'EXCLUDED',matched:ex.title,ids:[],identities:[],coverageCount:0,grossBonus:0,addedUnique:0,overlap:0});}}
+      if(!hit){const ex=cs.map(c=>items.find(x=>x.set==='EXCLUDED'&&(norm(x.title)===c||(aliasesById.get(x.id)||[]).includes(c)))).filter(Boolean)[0];if(ex){excludedOwned.add(ex.id);excluded++;hit=true;ledger.push({gameEye:sourceTitle,matchInput:title,correction:correctionReason,matchType:'EXCLUDED',matched:ex.title,ids:[ex.id],identities:[ex.title],coverageCount:0,grossBonus:0,addedUnique:0,overlap:0,ownedExcluded:true});}}
       if(!hit){unmatched.push(sourceTitle);ledger.push({gameEye:sourceTitle,matchInput:title,correction:correctionReason,matchType:'UNRESOLVED',matched:null,ids:[],identities:[],coverageCount:0,grossBonus:0,addedUnique:0,overlap:0});}
     }
 
     const multi=ledger.filter(x=>x.matchType==='MULTI_IDENTITY_PRODUCT'),singleProducts=ledger.filter(x=>x.matchType==='PRODUCT'),direct=ledger.filter(x=>x.matchType==='IDENTITY'),matched=ledger.filter(x=>['IDENTITY','PRODUCT','MULTI_IDENTITY_PRODUCT'].includes(x.matchType)),corrections=ledger.filter(x=>x.correction);
     const matchedRows=matched.length,grossBonus=multi.reduce((n,x)=>n+x.grossBonus,0),overlap=matched.reduce((n,x)=>n+x.overlap,0),netCompilationGain=owned.size-matchedRows;
     const rowAccountingOK=titles===matchedRows+excluded+unmatched.length,identityAccountingOK=owned.size===matched.reduce((n,x)=>n+x.addedUnique,0),bonusAccountingOK=netCompilationGain===grossBonus-overlap;
-    saveState({...stateCache,version:12,owned:[...owned],products:[...ownedProducts],source:f.name,ownershipAudit:{at:new Date().toISOString(),ps4Rows:titles,matchedRows,satisfied:owned.size,excluded,unresolved:unmatched.length,unresolvedTitles:unmatched,netCompilationGain,rowAccountingOK,identityAccountingOK,bonusAccountingOK}});
+    saveState({...stateCache,version:13,owned:[...owned],excludedOwned:[...excludedOwned],products:[...ownedProducts],source:f.name,ownershipAudit:{at:new Date().toISOString(),ps4Rows:titles,matchedRows,satisfied:owned.size,excluded,excludedOwned:[...excludedOwned],excludedOwnedTitles:ledger.filter(x=>x.ownedExcluded).map(x=>x.matched),unresolved:unmatched.length,unresolvedTitles:unmatched,netCompilationGain,rowAccountingOK,identityAccountingOK,bonusAccountingOK}});
     progress();resetBrowse();
-    const audit={file:f.name,ps4Rows:titles,matchedRows,directIdentityRows:direct.length,singleIdentityProductRows:singleProducts.length,multiIdentityProductRows:multi.length,grossCompilationBonus:grossBonus,overlapIdentities:overlap,netCompilationGain,satisfiedIdentities:owned.size,excludedRows:excluded,unresolvedRows:unmatched.length,unresolved:unmatched,rowAccountingOK,identityAccountingOK,bonusAccountingOK,multiIdentityProducts:multi,corrections,ledger};window.SHELFCHECK_OWNERSHIP_AUDIT=audit;
+    const audit={file:f.name,ps4Rows:titles,matchedRows,directIdentityRows:direct.length,singleIdentityProductRows:singleProducts.length,multiIdentityProductRows:multi.length,grossCompilationBonus:grossBonus,overlapIdentities:overlap,netCompilationGain,satisfiedIdentities:owned.size,excludedRows:excluded,ownedExcludedRows:excludedOwned.size,ownedExcludedTitles:ledger.filter(x=>x.ownedExcluded).map(x=>x.matched),unresolvedRows:unmatched.length,unresolved:unmatched,rowAccountingOK,identityAccountingOK,bonusAccountingOK,multiIdentityProducts:multi,corrections,ledger};window.SHELFCHECK_OWNERSHIP_AUDIT=audit;
     const proof=rowAccountingOK&&identityAccountingOK&&bonusAccountingOK?'ACCOUNTING VERIFIED':'AUDIT WARNING';
     const unresolvedText=unmatched.length?` Unresolved: ${unmatched.join(' · ')}.`:'';
     const auditSummary=`GameEye: ${titles} PS4 rows → ${owned.size} satisfied · +${netCompilationGain} net compilation identities · ${excluded} excluded · ${unmatched.length} unresolved · ${proof}.${unresolvedText}`;

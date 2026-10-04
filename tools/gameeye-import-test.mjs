@@ -79,6 +79,11 @@ function csvOf(entries) {
 }
 
 async function main() {
+  // Syntax-gate UI layers touched by ownership-status changes even though this importer
+  // regression does not execute their DOM-heavy runtime paths.
+  new vm.Script(readFile('dossiers.js'), { filename:'dossiers.js' });
+  new vm.Script(readFile('fun-features-v103.js'), { filename:'fun-features-v103.js' });
+
   const { ctx, run } = await buildContext();
 
   const included = run('items.filter(x=>x.set==="INCLUDED").length');
@@ -102,6 +107,9 @@ async function main() {
     'Destiny 2: Limited Edition',
     'Diablo IV [Cross-Gen Bundle]',
     'Minecraft: Story Mode - A Telltale Games Series - The Complete Adventure',
+    'Firewall Zero Hour',
+    'Overwatch: Legendary Edition',
+    'WWE 2K24',
   ];
 
   const entries = [
@@ -151,6 +159,9 @@ async function main() {
   const demonSlayer = byTitle('Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles');
   const rayCollection = byTitle('RayStorm x RayCrisis HD Collection');
   const minecraftComplete = byTitle('Minecraft: Story Mode - A Telltale Games Series - The Complete Adventure');
+  const firewall = byTitle('Firewall Zero Hour');
+  const overwatch = byTitle('Overwatch: Legendary Edition');
+  const wwe2k24 = byTitle('WWE 2K24');
 
   let failed = false;
   const fail = (msg) => { console.error(`FAIL: ${msg}`); failed = true; };
@@ -188,6 +199,19 @@ async function main() {
   requireIdentity(minecraftComplete,'Minecraft Complete Adventure long GameEye title','Minecraft: Story Mode - A Telltale Games Series');
   if (minecraftComplete?.matchType === 'EXCLUDED') fail(`Minecraft Complete Adventure still fell through to the excluded wrapper row: ${JSON.stringify(minecraftComplete)}`);
 
+  for (const [label,row] of [['Firewall Zero Hour',firewall],['Overwatch: Legendary Edition',overwatch],['WWE 2K24',wwe2k24]]) {
+    if (!row || row.matchType !== 'EXCLUDED' || !row.ownedExcluded || row.ids.length !== 1) {
+      fail(`${label} should remain EXCLUDED while being recorded as physically owned: ${JSON.stringify(row)}`);
+    }
+  }
+  const excludedOwnedState = run('stateCache.excludedOwned||[]');
+  for (const row of [firewall,overwatch,wwe2k24]) {
+    if (row?.ids?.[0] != null && !excludedOwnedState.includes(row.ids[0])) {
+      fail(`Owned-excluded id ${row.ids[0]} was not persisted in stateCache.excludedOwned`);
+    }
+  }
+  if (audit.ownedExcludedRows !== 3) fail(`Expected 3 owned-excluded rows, got ${audit.ownedExcludedRows}: ${JSON.stringify(audit.ownedExcludedTitles)}`);
+
   // Josh's Sep 19 GameEye row selected the 2021 Eidos game even though the physical pickup was
   // the 2017 Telltale disc. The metadata-qualified correction must fix this one row while the
   // newly-added 2021 game remains a separate INCLUDED identity and does not receive ownership.
@@ -203,7 +227,7 @@ async function main() {
   }
 
   if (!failed) {
-    console.log('PASS: current GameEye reconciliation cases resolve correctly; Oct 3 Demon Slayer + RayStorm/RayCrisis census gaps are fixed; Minecraft Complete Adventure maps to the owned product; compilation accounting remains valid; Sep 19 Guardians correction maps only to Telltale; 0 unresolved; accounting verified.');
+    console.log('PASS: current GameEye reconciliation cases resolve correctly; owned excluded games are preserved separately without affecting completion; Oct 3 census/product repairs remain valid; 0 unresolved; accounting verified.');
   }
   process.exit(failed ? 1 : 0);
 }
