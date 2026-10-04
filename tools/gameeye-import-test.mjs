@@ -22,9 +22,9 @@ const CENSUS_MUTATORS = [
   'census-v056-pricecharting-cf-sweep.js', 'census-v057-pricecharting-gl-sweep.js',
   'census-v058-pricecharting-mr-sweep.js', 'census-v059-pricecharting-sz-sweep.js',
   'census-physical-omission-pass-v001.js', 'census-physical-omission-pass-v002.js',
-  'census-physical-omission-pass-v003.js', 'census-physical-omission-pass-v004.js',
+  'census-physical-omission-pass-v003.js', 'census-physical-omission-pass-v004.js', 'census-physical-omission-pass-v005.js',
   'census-v060-integrity-scrub.js', 'census-integrity-pass-v001.js', 'census-integrity-pass-v002.js',
-  'ownership-reconcile-v071.js', 'ownership-reconcile-v072.js', 'ownership-reconcile-v073.js',
+  'ownership-reconcile-v071.js', 'ownership-reconcile-v072.js', 'ownership-reconcile-v073.js', 'ownership-reconcile-v074.js',
   'curation-josh-set-pass-v001.js', 'curation-josh-set-pass-v002.js', 'curation-josh-set-pass-v003.js',
   'curation-josh-set-pass-v004.js', 'curation-josh-set-pass-v005.js', 'curation-josh-set-pass-v006.js',
 ];
@@ -85,7 +85,27 @@ async function main() {
   console.log(`INCLUDED: ${included}`);
 
   const guardiansSource="Marvel's Guardians of the Galaxy";
+  const oct3Entries = [
+    'Hollow Knight',
+    'Omen of Sorrow',
+    'Made in Abyss: Binary Star Falling into Darkness',
+    'Iris.Fall',
+    'Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles',
+    'Jump Force',
+    'Days Gone',
+    'RayStorm x RayCrisis HD Collection',
+    'Last of Us Part II',
+    'Aliens: Dark Descent',
+    'Mortal Shell',
+    "Sid Meier's Civilization VI",
+    'Human: Fall Flat',
+    'Destiny 2: Limited Edition',
+    'Diablo IV [Cross-Gen Bundle]',
+    'Minecraft: Story Mode - A Telltale Games Series - The Complete Adventure',
+  ];
+
   const entries = [
+    ...oct3Entries,
     'G.I. Joe: Operation Blackout',
     "Dragon Quest Heroes: The World Tree's Woe and the Blight Below (Day One Edition)",
     "Dragon Quest Heroes II [Explorer's Edition]",
@@ -102,6 +122,13 @@ async function main() {
   run('stateCache={version:11,owned:[],products:[],prices:[]};ownedSet=new Set();productSet=new Set();');
   await run('importCSV(__testFile)');
   const audit = run('window.SHELFCHECK_OWNERSHIP_AUDIT');
+
+  console.log('OCT3_LEDGER_START');
+  for (const source of oct3Entries) {
+    const row = audit.ledger.find((r) => r.gameEye === source);
+    console.log(JSON.stringify(row));
+  }
+  console.log('OCT3_LEDGER_END');
 
   const byTitle = (t) => audit.ledger.find((r) => r.gameEye === t);
   const giJoe = byTitle('G.I. Joe: Operation Blackout');
