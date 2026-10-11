@@ -22,7 +22,7 @@ const CENSUS_MUTATORS = [
   'census-v056-pricecharting-cf-sweep.js', 'census-v057-pricecharting-gl-sweep.js',
   'census-v058-pricecharting-mr-sweep.js', 'census-v059-pricecharting-sz-sweep.js',
   'census-physical-omission-pass-v001.js', 'census-physical-omission-pass-v002.js',
-  'census-physical-omission-pass-v003.js', 'census-physical-omission-pass-v004.js', 'census-physical-omission-pass-v005.js', 'census-physical-omission-pass-v006.js', 'census-physical-omission-pass-v007.js',
+  'census-physical-omission-pass-v003.js', 'census-physical-omission-pass-v004.js', 'census-physical-omission-pass-v005.js', 'census-physical-omission-pass-v006.js', 'census-physical-omission-pass-v007.js', 'census-physical-omission-pass-v008.js',
   'census-v060-integrity-scrub.js', 'census-integrity-pass-v001.js', 'census-integrity-pass-v002.js',
   'ownership-reconcile-v071.js', 'ownership-reconcile-v072.js', 'ownership-reconcile-v073.js', 'ownership-reconcile-v074.js', 'ownership-reconcile-v077.js',
   'curation-josh-set-pass-v001.js', 'curation-josh-set-pass-v002.js', 'curation-josh-set-pass-v003.js',
@@ -239,7 +239,7 @@ async function main() {
       fail(`Oct 11 GameEye title matched the wrong identity: ${source} → ${JSON.stringify(row)}`);
     }
   }
-  if(asterixOct11?.ids[0]===zombieOct11?.ids[0])fail('Oct 11 pickups collided on one identity');
+  if(asterixOct11?.ids.length&&zombieOct11?.ids.length&&asterixOct11.ids[0]===zombieOct11.ids[0])fail('Oct 11 pickups collided on one identity');
 
     for (const [label,row] of [['Firewall Zero Hour',firewall],['Overwatch: Legendary Edition',overwatch],['WWE 2K24',wwe2k24]]) {
     if (!row || row.matchType !== 'EXCLUDED' || !row.ownedExcluded || row.ids.length !== 1) {
