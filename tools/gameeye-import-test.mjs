@@ -126,8 +126,13 @@ async function main() {
     'Riders Republic',
   ];
 
+  const oct11Entries = [
+    'Roman Rumble in Las Vegum - Asterix & Obelix XXL 2',
+    'Zombie Vikings: Ragnarök Edition',
+  ];
   const entries = [
     ...oct3Entries,
+    ...oct11Entries,
     'G.I. Joe: Operation Blackout',
     "Dragon Quest Heroes: The World Tree's Woe and the Blight Below (Day One Edition)",
     "Dragon Quest Heroes II [Explorer's Edition]",
@@ -217,6 +222,24 @@ async function main() {
 
   requireIdentity(persona5Strikers,'Persona 5 Strikers','Persona 5 Strikers');
   requireIdentity(ridersRepublic,'Riders Republic','Riders Republic');
+
+  // The October 11 physical pickups must resolve to two distinct INCLUDED
+  // playable identities, regardless of the longer GameEye packaging titles.
+  const asterixOct11=byTitle(oct11Entries[0]);
+  const zombieOct11=byTitle(oct11Entries[1]);
+  for(const [source,row,required] of [
+    [oct11Entries[0],asterixOct11,'asterix and obelix xxl 2'],
+    [oct11Entries[1],zombieOct11,'zombie vikings'],
+  ]){
+    if(!row||!['PRODUCT','IDENTITY'].includes(row.matchType)||row.ids.length!==1){
+      fail(`Oct 11 GameEye title unresolved or non-single-identity: ${source} → ${JSON.stringify(row)}`);
+    }else if(!run(`byId.get(${row.ids[0]})?.set==='INCLUDED'`)){
+      fail(`Oct 11 GameEye title did not cover an INCLUDED identity: ${source}`);
+    }else if(!run(`norm(byId.get(${row.ids[0]}).title).includes(${JSON.stringify(required)})`)){
+      fail(`Oct 11 GameEye title matched the wrong identity: ${source} → ${JSON.stringify(row)}`);
+    }
+  }
+  if(asterixOct11?.ids[0]===zombieOct11?.ids[0])fail('Oct 11 pickups collided on one identity');
 
     for (const [label,row] of [['Firewall Zero Hour',firewall],['Overwatch: Legendary Edition',overwatch],['WWE 2K24',wwe2k24]]) {
     if (!row || row.matchType !== 'EXCLUDED' || !row.ownedExcluded || row.ids.length !== 1) {
