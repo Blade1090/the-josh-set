@@ -10,6 +10,7 @@
 // Empty maps are expected and fine — no manual corrections have been made yet.
 (()=>{
   const COVER_OVERRIDES = {
+    "2799": "https://media.gamestop.com/i/gamestop/20006691-670822cd", // Persona 5 Tactica: verified North American PS4 retail front, GameStop SKU 20006691; UPC 730865220618.
     // Formerly held a "3D Mini Golf" (id 9) -> "3D MiniGolf" (id 10) reuse entry. The census
     // integrity pass (v0.02) confirmed these are the same underlying game republished under two
     // publisher labels and excluded id 9 as a duplicate identity, so it's no longer a rendered
