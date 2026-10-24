@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-10-04T20:30:29.181Z",
+  "generatedAt": "2026-10-24T19:27:36.169Z",
   "summary": {
-    "generatedAt": "2026-10-04T20:30:29.181Z",
-    "included": 2415,
-    "good": 2192,
+    "generatedAt": "2026-10-24T19:27:36.169Z",
+    "included": 2417,
+    "good": 2189,
     "fallback": 8,
-    "review": 200,
-    "watch": 15,
-    "physicalVerify": 197,
-    "physicalLikely": 1400,
+    "review": 201,
+    "watch": 19,
+    "physicalVerify": 202,
+    "physicalLikely": 1397,
     "physicalConfirmed": 818,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "missing_cover": 4,
+      "missing_cover": 5,
       "key_art_only": 178,
       "missing_ps4_banner": 18
     },
     "watchByReason": {
-      "image_fetch_failed": 15
+      "image_fetch_failed": 19
     },
     "synthetic": 210,
     "displayTiers": {
-      "GOOD": 2192,
+      "GOOD": 2189,
       "FALLBACK": 8,
       "SYNTHETIC": 210,
-      "BLANK": 5
+      "BLANK": 10
     },
     "syntheticByRealState": {
       "REVIEW": 196,
@@ -45,6 +45,11 @@
     {
       "id": 2790,
       "title": "Diablo IV",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2798,
+      "title": "Gungrave G.O.R.E.",
       "reason": "missing_cover"
     },
     {
@@ -1087,8 +1092,23 @@
       "reason": "image_fetch_failed"
     },
     {
+      "id": 31,
+      "title": "Ace Combat 7: Skies Unknown",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "id": 100,
+      "title": "Assassin's Creed Odyssey",
+      "reason": "image_fetch_failed"
+    },
+    {
       "id": 1969,
       "title": "Cannon Dancer",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "id": 1803,
+      "title": "Elden Ring",
       "reason": "image_fetch_failed"
     },
     {
@@ -1109,6 +1129,11 @@
     {
       "id": 2469,
       "title": "Kyukyoku Tiger / Twin Cobra",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "id": 1662,
+      "title": "Lone Survivor: The Director's Cut",
       "reason": "image_fetch_failed"
     },
     {
