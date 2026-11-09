@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-10-24T19:28:43.185Z",
+  "generatedAt": "2026-11-09T17:18:21.669Z",
   "summary": {
-    "generatedAt": "2026-10-24T19:28:43.185Z",
-    "included": 2417,
-    "good": 2189,
+    "generatedAt": "2026-11-09T17:18:21.669Z",
+    "included": 2623,
+    "good": 2183,
     "fallback": 8,
-    "review": 201,
-    "watch": 19,
-    "physicalVerify": 202,
-    "physicalLikely": 1397,
+    "review": 407,
+    "watch": 25,
+    "physicalVerify": 414,
+    "physicalLikely": 1391,
     "physicalConfirmed": 818,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "missing_cover": 5,
+      "missing_cover": 211,
       "key_art_only": 178,
       "missing_ps4_banner": 18
     },
     "watchByReason": {
-      "image_fetch_failed": 19
+      "image_fetch_failed": 25
     },
     "synthetic": 210,
     "displayTiers": {
-      "GOOD": 2189,
+      "GOOD": 2183,
       "FALLBACK": 8,
       "SYNTHETIC": 210,
-      "BLANK": 10
+      "BLANK": 222
     },
     "syntheticByRealState": {
       "REVIEW": 196,
@@ -37,6 +37,111 @@
     "syntheticMissingFile": []
   },
   "review": [
+    {
+      "id": 2866,
+      "title": "Assetto Corsa Competizione",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2843,
+      "title": "ATV Drift & Tricks",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2800,
+      "title": "Babylon's Fall",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2891,
+      "title": "Baja: Edge of Control HD",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2834,
+      "title": "Battlefield 2042",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2844,
+      "title": "Big Rumble Boxing: Creed Champions",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3075,
+      "title": "Bugsnax",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2842,
+      "title": "Cabela's African Adventures",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2826,
+      "title": "Call of Duty: Black Ops 6",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2827,
+      "title": "Call of Duty: Black Ops 7",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2825,
+      "title": "Call of Duty: Black Ops Cold War",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2828,
+      "title": "Call of Duty: Modern Warfare II",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2829,
+      "title": "Call of Duty: Modern Warfare III",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3026,
+      "title": "Can't Drive This",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3008,
+      "title": "Clive 'N' Wrench",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2896,
+      "title": "Cobra Kai: The Karate Kid Saga Continues",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3059,
+      "title": "Coffee Talk Episode 2: Hibiscus & Butterfly",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2801,
+      "title": "Curse of the Sea Rats",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3055,
+      "title": "Days of Doom",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3053,
+      "title": "Death or Treat",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2859,
+      "title": "Deer Hunter Reloaded",
+      "reason": "missing_cover"
+    },
     {
       "id": 2791,
       "title": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
@@ -48,8 +153,523 @@
       "reason": "missing_cover"
     },
     {
+      "id": 2943,
+      "title": "Digimon Survive",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3032,
+      "title": "DIRT 5",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3062,
+      "title": "Disco Elysium: The Final Cut",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3011,
+      "title": "Disgaea 6 Complete",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3060,
+      "title": "Disgaea 7: Vows of the Virtueless",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2856,
+      "title": "Dishonored: Death of the Outsider",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2990,
+      "title": "DNF Duel",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2926,
+      "title": "Dolmen",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2886,
+      "title": "Dolphin Spirit: Ocean Mission",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2869,
+      "title": "DreamWorks All-Star Kart Racing",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2969,
+      "title": "DreamWorks Dragons: Legends of the Nine Realms",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3041,
+      "title": "DreamWorks Spirit Lucky's Big Adventure",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3066,
+      "title": "DREDGE",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2811,
+      "title": "Dying Light 2 Stay Human",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2846,
+      "title": "Dynasty Warriors 8: Xtreme Legends",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2824,
+      "title": "Dynasty Warriors 9: Empires",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2913,
+      "title": "ELEX II",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2975,
+      "title": "Endling - Extinction is Forever",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3003,
+      "title": "Evil Genius 2: World Domination",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2878,
+      "title": "Exoprimal",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2906,
+      "title": "Family Feud",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2817,
+      "title": "Far Cry 6",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2953,
+      "title": "Farming Simulator 15",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2880,
+      "title": "Farming Simulator 17",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2837,
+      "title": "Farming Simulator 22",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2872,
+      "title": "Fatal Fury: City of the Wolves",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2921,
+      "title": "Fate/Samurai Remnant",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2850,
+      "title": "Five Nights at Freddy's: Help Wanted",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2941,
+      "title": "Five Nights at Freddy's: Into the Pit",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2814,
+      "title": "Five Nights at Freddy's: Security Breach",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2806,
+      "title": "Gabby's Dollhouse: Ready to Party",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2909,
+      "title": "Ghostbusters: Spirits Unleashed",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2964,
+      "title": "Gloomhaven: Mercenaries Edition",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2810,
+      "title": "God of War Ragnar\u00f6k",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3056,
+      "title": "Goodbye World",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2822,
+      "title": "Gran Turismo 7",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2821,
+      "title": "Gran Turismo Sport",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2871,
+      "title": "Granblue Fantasy: Relink",
+      "reason": "missing_cover"
+    },
+    {
       "id": 2798,
       "title": "Gungrave G.O.R.E.",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2978,
+      "title": "Hello Neighbor 2",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2835,
+      "title": "Hitman 3",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2932,
+      "title": "Hotel Transylvania: Scary Tale Adventure",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3007,
+      "title": "Hotshot Racing",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2823,
+      "title": "Jurassic World Evolution 2",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3001,
+      "title": "Kamiwaza: Way of the Thief",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2816,
+      "title": "Kingdom Hearts: Melody of Memory",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2968,
+      "title": "KONOSUBA - God's Blessing on this Wonderful World! Love For These Clothes Of Desire!",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3019,
+      "title": "Kukoos: Lost Pets",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2830,
+      "title": "LEGO 2K Drive",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3077,
+      "title": "Let's Build a Zoo",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2972,
+      "title": "Life in Willowdale: Farm Adventures",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2876,
+      "title": "Looney Tunes: Wacky World of Sports",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2960,
+      "title": "Loop8: Summer of Gods",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3061,
+      "title": "Lost Words: Beyond the Page",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3076,
+      "title": "MADiSON",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3018,
+      "title": "Maglam Lord",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2988,
+      "title": "Matchbox Driving Adventures",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2982,
+      "title": "Matchpoint: Tennis Championships",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3010,
+      "title": "MechWarrior 5: Mercenaries",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3069,
+      "title": "Mercenaries Blaze: Dawn of the Twin Dragons",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2930,
+      "title": "Mercenaries Rebirth: Call of the Wild Lynx",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2973,
+      "title": "Metal Tales: Overkill",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2989,
+      "title": "Mickey Storm and the Cursed Mask",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3013,
+      "title": "Minecraft Legends",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2884,
+      "title": "Miraculous: Paris Under Siege",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2939,
+      "title": "Miraculous: Rise of the Sphinx",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2985,
+      "title": "Miss Kobayashi's Dragon Maid: Burst Forth!! Choro-gon Breath",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2996,
+      "title": "MONARK",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3024,
+      "title": "Monster Crown",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2994,
+      "title": "Monster Harvest",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2905,
+      "title": "Monster Jam Crush It",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2904,
+      "title": "Monster Jam: Steel Titans 2",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3052,
+      "title": "Monster Menu: The Scavenger's Cookbook",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2967,
+      "title": "Monster Truck Championship",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3034,
+      "title": "Moto Racer 4",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2881,
+      "title": "Mount & Blade II: Bannerlord",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3004,
+      "title": "Moving Out 2",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2840,
+      "title": "MX vs. ATV Legends",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2877,
+      "title": "MX vs. ATV Supercross Encore",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2987,
+      "title": "My Little Pony: A Maretime Bay Adventure",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3012,
+      "title": "My Little Pony: A Zephyr Heights Mystery",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2847,
+      "title": "Need for Speed: Hot Pursuit Remastered",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3006,
+      "title": "New Joe and Mac Caveman Ninja",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2936,
+      "title": "New Super Lucky's Tale",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3044,
+      "title": "New Tales from the Borderlands",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2947,
+      "title": "Nick Jr. Party Adventure",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2934,
+      "title": "Nickelodeon All-Star Brawl",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2833,
+      "title": "Nickelodeon All-Star Brawl 2",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3051,
+      "title": "NOOB: The Factionless",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2815,
+      "title": "Outriders",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2954,
+      "title": "Override 2: Super Mech League",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3068,
+      "title": "Oxenfree",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2853,
+      "title": "Persona 3 Reload",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2916,
+      "title": "Persona 5: Dancing in Starlight",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3031,
+      "title": "Phoenix Point",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2922,
+      "title": "Planet Coaster: Console Edition",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2966,
+      "title": "Poison Control",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2931,
+      "title": "Poker Club",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2860,
+      "title": "Police Simulator: Patrol Officers",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2942,
+      "title": "Pro Fishing Simulator",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3057,
+      "title": "Process of Elimination",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3048,
+      "title": "Professional Farmer 2017",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2903,
+      "title": "Psychonauts 2",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2963,
+      "title": "Puyo Puyo Tetris 2",
       "reason": "missing_cover"
     },
     {
@@ -60,6 +680,416 @@
     {
       "id": 2792,
       "title": "RayStorm",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2992,
+      "title": "Re:Zero - The Prophecy of the Throne",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2897,
+      "title": "Real Farm",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2981,
+      "title": "Redout 2",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2997,
+      "title": "Reel Fishing: Road Trip Adventure",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2946,
+      "title": "REYNATIS",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2986,
+      "title": "RICO London",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2938,
+      "title": "RiMS Racing Sim",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2885,
+      "title": "Road 96",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2865,
+      "title": "RollerCoaster Tycoon Adventures Deluxe",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3038,
+      "title": "Root Film",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2832,
+      "title": "Rust: Console Edition",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2991,
+      "title": "Ryan's Rescue Squad",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2917,
+      "title": "Samurai Warriors 5",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2937,
+      "title": "Session: Skate Sim",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2983,
+      "title": "Severed Steel",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3020,
+      "title": "Skul: The Hero Slayer",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2998,
+      "title": "Slaycation Paradise",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2949,
+      "title": "Smile For Me",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3072,
+      "title": "Smurfs Kart",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2901,
+      "title": "Sniper Elite 5",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2807,
+      "title": "Sniper Elite: Resistance",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2907,
+      "title": "Sniper Ghost Warrior Contracts 2",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2819,
+      "title": "Sonic Colors: Ultimate",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3017,
+      "title": "Speed 3 Grand Prix",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2813,
+      "title": "SpongeBob SquarePants: The Cosmic Shake",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3035,
+      "title": "SpongeBob SquarePants: The Patrick Star Game",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2919,
+      "title": "Star Ocean: The Divine Force",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2924,
+      "title": "Star Ocean: The Second Story R",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2944,
+      "title": "Star Trek Prodigy: Supernova",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3071,
+      "title": "Star Trek: Resurgence",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2950,
+      "title": "Story of Seasons: Pioneers of Olive Town",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2857,
+      "title": "Stranger of Paradise Final Fantasy Origin",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2818,
+      "title": "Street Fighter 6",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2888,
+      "title": "Street Outlaws 2: Winner Takes All",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2902,
+      "title": "Stubbs the Zombie in Rebel Without a Pulse",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3030,
+      "title": "Super Bullet Break",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3042,
+      "title": "Surviving the Aftermath",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2927,
+      "title": "Sword Art Online Last Recollection",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2940,
+      "title": "Tchia",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2820,
+      "title": "The Crew Motorfest",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3000,
+      "title": "The Cruel King and the Great Hero",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2923,
+      "title": "The Dungeon of Naheulbeuk: The Amulet of Chaos",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3037,
+      "title": "The Eternal Cylinder",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2935,
+      "title": "The Golf Club 2019 Featuring PGA Tour",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2804,
+      "title": "The Grinch: Christmas Adventures",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2898,
+      "title": "The House of the Dead Remake",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2911,
+      "title": "The Knight Witch",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2925,
+      "title": "The Last Stand: Aftermath",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3043,
+      "title": "The Legend of Heroes: Trails to Azure",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2808,
+      "title": "The Rumble Fish 2",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3049,
+      "title": "The Sisters: Party of the Year",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2895,
+      "title": "The Smurfs 2: Prisoner of the Green Stone",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2999,
+      "title": "The Smurfs: Mission Vileaf",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2980,
+      "title": "The Survivalists",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2836,
+      "title": "The Texas Chain Saw Massacre",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2995,
+      "title": "Theatrhythm Final Bar Line",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3047,
+      "title": "Them's Fightin' Herds",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3027,
+      "title": "Tin and Kuna",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2959,
+      "title": "Tin Hearts",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2948,
+      "title": "Tintin Reporter: Cigars of the Pharaoh",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2900,
+      "title": "Tiny Tina's Wonderlands",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2933,
+      "title": "Train Sim World 2",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2993,
+      "title": "Train Sim World 3",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2915,
+      "title": "Transformers Galactic Trials",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2920,
+      "title": "Trek to Yomi",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2887,
+      "title": "Trinity Trigger",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2952,
+      "title": "Trolls Remix Rescue",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2979,
+      "title": "Truck Racing Championship",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3050,
+      "title": "Tunic",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3021,
+      "title": "Turnip Boy Commits Tax Evasion",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2955,
+      "title": "Under Night In-Birth Exe:Late[st]",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2977,
+      "title": "V-Rally 4",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3039,
+      "title": "Victor Vran: Overkill Edition",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2874,
+      "title": "Werewolf: The Apocalypse Earthblood",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2965,
+      "title": "Where the Heart Leads",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2945,
+      "title": "Who Wants to be a Millionaire?",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2802,
+      "title": "Willy Morgan and the Curse of Bone Town",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3022,
+      "title": "Winter Games 2023",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3067,
+      "title": "Witch on the Holy Night",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2858,
+      "title": "Wo Long: Fallen Dynasty",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2848,
+      "title": "World of Outlaws: Dirt Racing",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2812,
+      "title": "Ys IX: Monstrum Nox",
       "reason": "missing_cover"
     },
     {
@@ -1102,6 +2132,21 @@
       "reason": "image_fetch_failed"
     },
     {
+      "id": 101,
+      "title": "Assassin's Creed Origins",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "id": 1800,
+      "title": "Assassin's Creed Valhalla",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "id": 217,
+      "title": "Call of Duty: Black Ops 4",
+      "reason": "image_fetch_failed"
+    },
+    {
       "id": 1969,
       "title": "Cannon Dancer",
       "reason": "image_fetch_failed"
@@ -1114,6 +2159,11 @@
     {
       "id": 2471,
       "title": "Get Star / Guardian",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "id": 527,
+      "title": "Ghost of Tsushima",
       "reason": "image_fetch_failed"
     },
     {
@@ -1139,6 +2189,11 @@
     {
       "id": 1665,
       "title": "Maldita Castilla EX: Cursed Castilla",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "id": 842,
+      "title": "NieR: Automata",
       "reason": "image_fetch_failed"
     },
     {
@@ -1169,6 +2224,11 @@
     {
       "id": 2696,
       "title": "Quintessential Quintuplets Fives Memories With You",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "id": 964,
+      "title": "Red Dead Redemption 2",
       "reason": "image_fetch_failed"
     },
     {
