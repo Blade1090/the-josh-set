@@ -1,216 +1,240 @@
 {
   "summary": {
-    "eligibleMultiGameProducts": 49,
-    "targetsWithKnownCompilation": 7,
-    "preserved": 40,
-    "acceptedThisRun": 7,
-    "totalInheritedCovers": 47,
+    "eligibleMultiGameProducts": 58,
+    "targetsWithKnownCompilation": 4,
+    "preserved": 56,
+    "acceptedThisRun": 0,
+    "totalInheritedCovers": 56,
     "noExactProductMatch": 0,
-    "rejectedByImageGate": 0,
+    "rejectedByImageGate": 4,
     "errors": 0,
-    "queriedUniqueProducts": 5,
+    "queriedUniqueProducts": 2,
     "vettedProductAliasCount": 6,
-    "productCounts": {
-      "Planescape: Torment: Enhanced Edition / Icewind Dale: Enhanced Edition": 2,
-      "Steven Universe: Save the Light / OK K.O.! Let's Play Heroes 2 Games in 1": 1,
-      "Commandos 2 / Praetorians HD Remaster Double Pack": 1,
-      "Robotics;Notes Double Pack": 2,
-      "Saints Row IV: Re-Elected & Gat Out of Hell": 1
-    },
-    "regionCounts": {
-      "US/NTSC": 4,
-      "PAL": 3
-    },
-    "matchMethods": {
-      "vetted_product_alias_exact": 7
-    },
+    "productCounts": {},
+    "regionCounts": {},
+    "matchMethods": {},
     "standard": "identity explicitly covered by DATA.p multi-game physical product + exact known title or explicit vetted product alias + straight portrait + strong blue PS4 header; no fuzzy matching"
   },
-  "accepted": [
+  "accepted": [],
+  "noExact": [],
+  "rejected": [
     {
-      "id": 2229,
-      "title": "Icewind Dale: Enhanced Edition",
+      "id": 1686,
+      "title": "OlliOlli",
       "bucket": "review",
       "reason": "key_art_only",
-      "productKey": "planescape torment enhanced edition icewind dale enhanced edition",
-      "productTitle": "Planescape: Torment: Enhanced Edition / Icewind Dale: Enhanced Edition",
-      "coverageCount": 2,
-      "coverageIds": [
-        2228,
-        2229
+      "products": [
+        {
+          "productKey": "olliolli epic combo edition",
+          "productTitle": "OlliOlli: Epic Combo Edition",
+          "coverageIds": [
+            1686,
+            2786
+          ],
+          "coverageCount": 2
+        }
       ],
-      "searchTitle": "Planescape: Torment & Icewind Dale Enhanced Editions",
-      "matchedTitle": "Planescape: Torment & Icewind Dale Enhanced Editions",
-      "matchMethod": "vetted_product_alias_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/planescape-torment-&-icewind-dale-enhanced-editions",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv945UDoaGp8ZTSpaT5K9rGepnThpZqHh5IHHVU31MyufHyzf_wbFVTYTkeH4EVlqYHmeSrfvUC211Me9tSkPeVNEs-et1-QZYZBtXG_KhyK7Lw3Ca0QEsUkKcwhqqi3R_Dlw65ydsraThSbnUGQSz9HiOPBZhg/1600.jpg",
-      "metrics": {
-        "width": 406,
-        "height": 512,
-        "aspect": 0.793,
-        "bannerColumnSpan": 0.9917,
-        "bannerPixelRatio": 0.5944
-      }
+      "failures": [
+        {
+          "productKey": "olliolli epic combo edition",
+          "productTitle": "OlliOlli: Epic Combo Edition",
+          "coverageIds": [
+            1686,
+            2786
+          ],
+          "coverageCount": 2,
+          "status": "rejected",
+          "searchedTitles": [
+            "OlliOlli: Epic Combo Edition"
+          ],
+          "attempts": [
+            {
+              "searchTitle": "OlliOlli: Epic Combo Edition",
+              "matchedTitle": "OlliOlli Epic Combo Edition",
+              "region": "US/NTSC",
+              "productUrl": "https://www.pricecharting.com/game/playstation-4/olliolli-epic-combo-edition",
+              "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95d9eGC_iaT5UdgVwcxFB4QjhzKLkRFSAyjKgte7v0690YmmN9yX1zrXvssxpvtqkK1mir6_o4p-WAXThj582oyFBxweiFd1Y_EAz3BgUlA_xsJ_5c1LICE9dLFXfbqtn6EyvqRHlWDOJdLH856DVr3Wgaisg/1600.jpg",
+              "reason": "failed_retail_front_gate",
+              "metrics": {
+                "width": 193,
+                "height": 239,
+                "aspect": 0.8075,
+                "bannerColumnSpan": 0.9171,
+                "bannerPixelRatio": 0.5033
+              }
+            },
+            {
+              "searchTitle": "OlliOlli: Epic Combo Edition",
+              "matchedTitle": "OlliOlli: Epic Combo Edition",
+              "region": "PAL",
+              "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/olliolli-epic-combo-edition",
+              "image": "https://storage.googleapis.com/images.pricecharting.com/254d18ca87423279e4a506bff5d1f16cd468f281320fc42ed81ddab9eb6bdaf3/1600.jpg",
+              "reason": "failed_retail_front_gate",
+              "metrics": {
+                "width": 395,
+                "height": 467,
+                "aspect": 0.8458,
+                "bannerColumnSpan": 1.0,
+                "bannerPixelRatio": 0.4565
+              }
+            }
+          ]
+        }
+      ]
     },
     {
-      "id": 2232,
-      "title": "OK K.O.! Let's Play Heroes",
+      "id": 1754,
+      "title": "The Journey Down: Chapter One",
       "bucket": "review",
       "reason": "key_art_only",
-      "productKey": "steven universe save the light ok k o let s play heroes 2 games in 1",
-      "productTitle": "Steven Universe: Save the Light / OK K.O.! Let's Play Heroes 2 Games in 1",
-      "coverageCount": 2,
-      "coverageIds": [
-        2231,
-        2232
+      "products": [
+        {
+          "productKey": "the journey down trilogy",
+          "productTitle": "The Journey Down Trilogy",
+          "coverageIds": [
+            1754,
+            1755,
+            1756
+          ],
+          "coverageCount": 3
+        }
       ],
-      "searchTitle": "Steven Universe: Save The Light & OK KO Let's Play Heroes",
-      "matchedTitle": "Steven Universe: Save The Light & OK KO Let's Play Heroes",
-      "matchMethod": "vetted_product_alias_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/steven-universe-save-the-light-&-ok-ko-let%27s-play-heroes",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96npCsMbp-NAvD1rkPCnhXGOr4_wOnxqNtdSLhd2FLLhF_xUZ25TgIACwBFw1rEL5QXV9qsRIHt_aHV_k_tpPXox21iRXq3wrbbAsb-rvHx1KSJOzJVH2-pt8gPZIlxunNMgZBlJW17sR9QWg92ZelfXJ2xxg/1600.jpg",
-      "metrics": {
-        "width": 411,
-        "height": 512,
-        "aspect": 0.8027,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.5226
-      }
+      "failures": [
+        {
+          "productKey": "the journey down trilogy",
+          "productTitle": "The Journey Down Trilogy",
+          "coverageIds": [
+            1754,
+            1755,
+            1756
+          ],
+          "coverageCount": 3,
+          "status": "rejected",
+          "searchedTitles": [
+            "The Journey Down Trilogy"
+          ],
+          "attempts": [
+            {
+              "searchTitle": "The Journey Down Trilogy",
+              "matchedTitle": "The Journey Down Trilogy",
+              "region": "PAL",
+              "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/the-journey-down-trilogy?q=the+journey+down+trilogy+playstation+4",
+              "image": "https://storage.googleapis.com/images.pricecharting.com/neg46wggewlymbyg/1600.jpg",
+              "reason": "failed_retail_front_gate",
+              "metrics": {
+                "width": 1600,
+                "height": 1600,
+                "aspect": 1.0,
+                "bannerColumnSpan": 0.6944,
+                "bannerPixelRatio": 0.39
+              }
+            }
+          ]
+        }
+      ]
     },
     {
-      "id": 2228,
-      "title": "Planescape: Torment: Enhanced Edition",
+      "id": 1755,
+      "title": "The Journey Down: Chapter Three",
       "bucket": "review",
       "reason": "key_art_only",
-      "productKey": "planescape torment enhanced edition icewind dale enhanced edition",
-      "productTitle": "Planescape: Torment: Enhanced Edition / Icewind Dale: Enhanced Edition",
-      "coverageCount": 2,
-      "coverageIds": [
-        2228,
-        2229
+      "products": [
+        {
+          "productKey": "the journey down trilogy",
+          "productTitle": "The Journey Down Trilogy",
+          "coverageIds": [
+            1754,
+            1755,
+            1756
+          ],
+          "coverageCount": 3
+        }
       ],
-      "searchTitle": "Planescape: Torment & Icewind Dale Enhanced Editions",
-      "matchedTitle": "Planescape: Torment & Icewind Dale Enhanced Editions",
-      "matchMethod": "vetted_product_alias_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/planescape-torment-&-icewind-dale-enhanced-editions",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv945UDoaGp8ZTSpaT5K9rGepnThpZqHh5IHHVU31MyufHyzf_wbFVTYTkeH4EVlqYHmeSrfvUC211Me9tSkPeVNEs-et1-QZYZBtXG_KhyK7Lw3Ca0QEsUkKcwhqqi3R_Dlw65ydsraThSbnUGQSz9HiOPBZhg/1600.jpg",
-      "metrics": {
-        "width": 406,
-        "height": 512,
-        "aspect": 0.793,
-        "bannerColumnSpan": 0.9917,
-        "bannerPixelRatio": 0.5944
-      }
+      "failures": [
+        {
+          "productKey": "the journey down trilogy",
+          "productTitle": "The Journey Down Trilogy",
+          "coverageIds": [
+            1754,
+            1755,
+            1756
+          ],
+          "coverageCount": 3,
+          "status": "rejected",
+          "searchedTitles": [
+            "The Journey Down Trilogy"
+          ],
+          "attempts": [
+            {
+              "searchTitle": "The Journey Down Trilogy",
+              "matchedTitle": "The Journey Down Trilogy",
+              "region": "PAL",
+              "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/the-journey-down-trilogy?q=the+journey+down+trilogy+playstation+4",
+              "image": "https://storage.googleapis.com/images.pricecharting.com/neg46wggewlymbyg/1600.jpg",
+              "reason": "failed_retail_front_gate",
+              "metrics": {
+                "width": 1600,
+                "height": 1600,
+                "aspect": 1.0,
+                "bannerColumnSpan": 0.6944,
+                "bannerPixelRatio": 0.39
+              }
+            }
+          ]
+        }
+      ]
     },
     {
-      "id": 2215,
-      "title": "Praetorians - HD Remaster",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "productKey": "commandos 2 praetorians hd remaster double pack",
-      "productTitle": "Commandos 2 / Praetorians HD Remaster Double Pack",
-      "coverageCount": 2,
-      "coverageIds": [
-        2214,
-        2215
+      "id": 1756,
+      "title": "The Journey Down: Chapter Two",
+      "bucket": "watch",
+      "reason": "image_fetch_failed",
+      "products": [
+        {
+          "productKey": "the journey down trilogy",
+          "productTitle": "The Journey Down Trilogy",
+          "coverageIds": [
+            1754,
+            1755,
+            1756
+          ],
+          "coverageCount": 3
+        }
       ],
-      "searchTitle": "Commandos 2 & Praetorians: HD Remastered Double Pack",
-      "matchedTitle": "Commandos 2 & Praetorians: HD Remastered Double Pack",
-      "matchMethod": "vetted_product_alias_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/commandos-2-&-praetorians-hd-remastered-double-pack?q=commandos+2+%26+praetorians%3A+hd+remastered+double+pack+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/048715eb7e6aad3a5a514ff3961f7c45f45b357a022940c97d9085bdf4b6fdcf/1600.jpg",
-      "metrics": {
-        "width": 399,
-        "height": 500,
-        "aspect": 0.798,
-        "bannerColumnSpan": 0.975,
-        "bannerPixelRatio": 0.5782
-      }
-    },
-    {
-      "id": 2114,
-      "title": "Robotics;Notes DaSH",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "productKey": "robotics notes double pack",
-      "productTitle": "Robotics;Notes Double Pack",
-      "coverageCount": 2,
-      "coverageIds": [
-        2113,
-        2114
-      ],
-      "searchTitle": "Robotics Notes Elite and Dash Double Pack",
-      "matchedTitle": "Robotics Notes Elite And Dash Double Pack",
-      "matchMethod": "vetted_product_alias_exact",
-      "region": "PAL",
-      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/robotics-notes-elite-and-dash-double-pack",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/w46fjlv4rqaj7kx4/1600.jpg",
-      "metrics": {
-        "width": 666,
-        "height": 840,
-        "aspect": 0.7929,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.6048
-      }
-    },
-    {
-      "id": 2113,
-      "title": "Robotics;Notes Elite",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "productKey": "robotics notes double pack",
-      "productTitle": "Robotics;Notes Double Pack",
-      "coverageCount": 2,
-      "coverageIds": [
-        2113,
-        2114
-      ],
-      "searchTitle": "Robotics Notes Elite and Dash Double Pack",
-      "matchedTitle": "Robotics Notes Elite And Dash Double Pack",
-      "matchMethod": "vetted_product_alias_exact",
-      "region": "PAL",
-      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/robotics-notes-elite-and-dash-double-pack",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/w46fjlv4rqaj7kx4/1600.jpg",
-      "metrics": {
-        "width": 666,
-        "height": 840,
-        "aspect": 0.7929,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.6048
-      }
-    },
-    {
-      "id": 2230,
-      "title": "Saints Row IV: Re-Elected",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "productKey": "saints row iv re elected and gat out of hell",
-      "productTitle": "Saints Row IV: Re-Elected & Gat Out of Hell",
-      "coverageCount": 2,
-      "coverageIds": [
-        1719,
-        2230
-      ],
-      "searchTitle": "Saints Row IV: Re-Elected & Gat Out Of Hell [First Edition]",
-      "matchedTitle": "Saints Row IV: Re-Elected & Gat Out Of Hell [First Edition]",
-      "matchMethod": "vetted_product_alias_exact",
-      "region": "PAL",
-      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/saints-row-iv-re-elected-&-gat-out-of-hell-first-edition?q=saints+row+iv%3A+re-elected+%26+gat+out+of+hell+%5Bfirst+edition%5D+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/najykqs6vzoz7b3k/1600.jpg",
-      "metrics": {
-        "width": 1028,
-        "height": 1280,
-        "aspect": 0.8031,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.4585
-      }
+      "failures": [
+        {
+          "productKey": "the journey down trilogy",
+          "productTitle": "The Journey Down Trilogy",
+          "coverageIds": [
+            1754,
+            1755,
+            1756
+          ],
+          "coverageCount": 3,
+          "status": "rejected",
+          "searchedTitles": [
+            "The Journey Down Trilogy"
+          ],
+          "attempts": [
+            {
+              "searchTitle": "The Journey Down Trilogy",
+              "matchedTitle": "The Journey Down Trilogy",
+              "region": "PAL",
+              "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/the-journey-down-trilogy?q=the+journey+down+trilogy+playstation+4",
+              "image": "https://storage.googleapis.com/images.pricecharting.com/neg46wggewlymbyg/1600.jpg",
+              "reason": "failed_retail_front_gate",
+              "metrics": {
+                "width": 1600,
+                "height": 1600,
+                "aspect": 1.0,
+                "bannerColumnSpan": 0.6944,
+                "bannerPixelRatio": 0.39
+              }
+            }
+          ]
+        }
+      ]
     }
   ],
-  "noExact": [],
-  "rejected": [],
   "errors": []
 }

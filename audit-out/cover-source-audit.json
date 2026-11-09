@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-09-29T14:07:34.233Z",
-  "included": 2409,
+  "generatedAt": "2026-11-09T18:24:10.753Z",
+  "included": 2622,
   "counts": {
-    "CURATED_ID": 4,
-    "CURATED_TITLE": 146,
-    "GAMEYE": 935,
-    "LAUNCHBOX_BOX_FRONT": 688,
-    "LEGACY_IGDB": 178,
-    "PRICECHARTING_BOX_FRONT": 411,
-    "PRODUCT_BOX_FRONT": 47
+    "CURATED_ID": 5,
+    "CURATED_TITLE": 145,
+    "GAMEYE": 923,
+    "LAUNCHBOX_BOX_FRONT": 778,
+    "LEGACY_IGDB": 172,
+    "MISSING": 54,
+    "PRICECHARTING_BOX_FRONT": 489,
+    "PRODUCT_BOX_FRONT": 56
   },
   "rows": [
     {
@@ -236,8 +237,8 @@
     {
       "id": 31,
       "title": "Ace Combat 7: Skies Unknown",
-      "source": "GAMEYE",
-      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/82c2d12a-9096-4475-94f2-8a0dbab5ec22.webp"
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/a5ebb927-7274-42cd-b496-2ef79be3aac6.jpg"
     },
     {
       "id": 32,
@@ -1028,14 +1029,14 @@
     {
       "id": 100,
       "title": "Assassin's Creed Odyssey",
-      "source": "GAMEYE",
-      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/1bd2484b-4269-4119-930c-e4679d66f10d.webp"
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/be1d0845-799f-4d46-a1d6-95c2e384dbca.jpg"
     },
     {
       "id": 101,
       "title": "Assassin's Creed Origins",
-      "source": "GAMEYE",
-      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/63ef0ad4-6e07-4089-8e4e-1285564710a0.webp"
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/9b2b6ece-aa0f-4603-98c8-2ed590ad91b0.jpg"
     },
     {
       "id": 2101,
@@ -1064,8 +1065,8 @@
     {
       "id": 1800,
       "title": "Assassin's Creed Valhalla",
-      "source": "GAMEYE",
-      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/dac3d5b5-948d-4938-b79f-9948438d4778.webp"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/bb68b995f520221caa49bc892f04c947364f20fffd313f269321646fd190af48/1600.jpg"
     },
     {
       "id": 107,
@@ -1078,6 +1079,12 @@
       "title": "Assetto Corsa",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/59b9fde3-9601-44a5-9298-ab720c48aa7d.webp"
+    },
+    {
+      "id": 2866,
+      "title": "Assetto Corsa Competizione",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/a96aa7f8-f9c8-48e7-b903-54e972758d03.jpg"
     },
     {
       "id": 1494,
@@ -1260,6 +1267,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/64077ef9-fe25-4328-99f4-31a6f26fe364.webp"
     },
     {
+      "id": 2843,
+      "title": "ATV Drift & Tricks",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/013932db-5dda-4108-a7c8-114c3fd9ed1f.jpg"
+    },
+    {
       "id": 2412,
       "title": "ATV Renegades",
       "source": "GAMEYE",
@@ -1356,6 +1369,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/140038_a91fa448-e3a4-4425-a79b-437cd4152f75.webp"
     },
     {
+      "id": 2800,
+      "title": "Babylon's Fall",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/82d64849-ee49-4628-a30f-33d300819bac.jpg"
+    },
+    {
       "id": 2509,
       "title": "Back 4 Blood",
       "source": "GAMEYE",
@@ -1366,6 +1385,12 @@
       "title": "Back to the Future: The Game",
       "source": "LEGACY_IGDB",
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5z46.jpg"
+    },
+    {
+      "id": 2891,
+      "title": "Baja: Edge of Control HD",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/r2_9ba64c25-349f-4a0c-9ef3-6e206add202c.jpg"
     },
     {
       "id": 2283,
@@ -1504,6 +1529,12 @@
       "title": "Battlefield 1",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/a2c073ea-aad8-4599-846c-dcd7d082b457.webp"
+    },
+    {
+      "id": 2834,
+      "title": "Battlefield 2042",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/0dd93a69-ea5e-428b-b6a7-c0cd8c5ca84e.jpg"
     },
     {
       "id": 144,
@@ -1648,6 +1679,12 @@
       "title": "Big Pharma",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/5adad33d-09f6-4de0-ad87-5300962f450f.jpg"
+    },
+    {
+      "id": 2844,
+      "title": "Big Rumble Boxing: Creed Champions",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/900592f2-2adf-4b1c-895b-796cb3c94b8c.png"
     },
     {
       "id": 2287,
@@ -2220,6 +2257,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/2a22dd45-c662-490d-9fff-99bdfd234ad6.webp"
     },
     {
+      "id": 3075,
+      "title": "Bugsnax",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/b2938665-0881-49f7-993a-9677041552cf.jpg"
+    },
+    {
       "id": 2294,
       "title": "Buildings Have Feelings Too",
       "source": "GAMEYE",
@@ -2280,6 +2323,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/0b6daa7c-fd6b-4052-8f02-f067fd387e13.webp"
     },
     {
+      "id": 2842,
+      "title": "Cabela's African Adventures",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 214,
       "title": "Caladrius Blaze",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -2306,8 +2355,26 @@
     {
       "id": 217,
       "title": "Call of Duty: Black Ops 4",
-      "source": "GAMEYE",
-      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/ae5c0ded-4aa5-4ded-8052-3c8e84917c12.webp"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97bQaa0MbiCiHxtxU3PDo-m4_FZcB0ydDf1qF5edoSL9XZOq6CLPKTiwcfW2Qfieaano5Hfj7Ealg1CawVt3yukJp-MoXeD7kqhhKa3g7FinRWvl0Cu3y5jMWCSHvUAOX_DWr4Rec3qATdoPsyqWyOOGiDiEA/1600.jpg"
+    },
+    {
+      "id": 2826,
+      "title": "Call of Duty: Black Ops 6",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/r2_437514da-a871-4906-8990-19cf08723f13.jpg"
+    },
+    {
+      "id": 2827,
+      "title": "Call of Duty: Black Ops 7",
+      "source": "MISSING",
+      "url": null
+    },
+    {
+      "id": 2825,
+      "title": "Call of Duty: Black Ops Cold War",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/r2_0374d290-7601-4755-9192-35f0a325423c.jpg"
     },
     {
       "id": 218,
@@ -2332,6 +2399,18 @@
       "title": "Call of Duty: Modern Warfare",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/d4b44f5f-37dd-4530-b90a-c62ceef954b3.webp"
+    },
+    {
+      "id": 2828,
+      "title": "Call of Duty: Modern Warfare II",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/fcf07ace-23d2-4f52-8a00-43b1e64dd341.jpg"
+    },
+    {
+      "id": 2829,
+      "title": "Call of Duty: Modern Warfare III",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/2fce9a85-a4af-49f8-9404-308b4968194a.jpg"
     },
     {
       "id": 222,
@@ -2362,6 +2441,12 @@
       "title": "Callisto Protocol [Day One Edition]",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/854fec1c-5b38-4daa-9321-18d4cfb98e5e.webp"
+    },
+    {
+      "id": 3026,
+      "title": "Can't Drive This",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/0aed57b3-45a0-4a33-932a-f5e777b4417c.jpg"
     },
     {
       "id": 2546,
@@ -2664,6 +2749,12 @@
       "url": "https://images.launchbox-app.com/b2c68499-9c15-49db-8349-71e1897ad717.jpg"
     },
     {
+      "id": 3008,
+      "title": "Clive 'N' Wrench",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/d9a30140-b940-49b0-8774-20a7b78896ca.jpg"
+    },
+    {
       "id": 1820,
       "title": "Clock Tower: Rewind",
       "source": "GAMEYE",
@@ -2686,6 +2777,12 @@
       "title": "Cloudpunk",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/3def860e-bbc3-4d92-83c4-4bbc6b344a4c.webp"
+    },
+    {
+      "id": 2896,
+      "title": "Cobra Kai: The Karate Kid Saga Continues",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/r2_ea124767-915f-4621-82af-2e21cc700ea5.jpg"
     },
     {
       "id": 253,
@@ -2716,6 +2813,12 @@
       "title": "Coffee Talk",
       "source": "CURATED_TITLE",
       "url": "https://cdn11.bigcommerce.com/s-kzjsut/images/stencil/1280x1280/products/3031/16404/PS4_COFFEETALK__50003.1622216742.jpg?c=2"
+    },
+    {
+      "id": 3059,
+      "title": "Coffee Talk Episode 2: Hibiscus & Butterfly",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/xwrhei65mc5nzqd6/1600.jpg"
     },
     {
       "id": 2017,
@@ -2994,6 +3097,12 @@
       "url": "https://images.launchbox-app.com/ea46341a-fda5-467a-8b1d-03768fea3639.jpg"
     },
     {
+      "id": 2801,
+      "title": "Curse of the Sea Rats",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/bc0a4e2ff90427ab8a72001a9274eeb46091293aa725cd4578ed5314cf102477/1600.jpg"
+    },
+    {
       "id": 1956,
       "title": "Cursed Castilla EX",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -3264,6 +3373,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/d974be27-b0b3-4693-aec3-d38d0248aa45.webp"
     },
     {
+      "id": 3055,
+      "title": "Days of Doom",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/bb301c8e529051f1f34a7daf6508ebbcabae6088f7974b33e4a93693fb2942b3/1600.jpg"
+    },
+    {
       "id": 318,
       "title": "DayZ",
       "source": "GAMEYE",
@@ -3420,6 +3535,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/cf9ab1e7-4749-4a72-ba67-87de60da5caf.webp"
     },
     {
+      "id": 3053,
+      "title": "Death or Treat",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 340,
       "title": "Death Road to Canada",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -3468,6 +3589,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/f1615de2-e221-4379-bbeb-eb2f00cb0cf4.webp"
     },
     {
+      "id": 2859,
+      "title": "Deer Hunter Reloaded",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/r2_5eeb48b9-0155-4c50-aae0-58fe7708f744.png"
+    },
+    {
       "id": 1600,
       "title": "Deer Simulator",
       "source": "LEGACY_IGDB",
@@ -3508,6 +3635,12 @@
       "title": "Demon Gaze Extra",
       "source": "PRICECHARTING_BOX_FRONT",
       "url": "https://storage.googleapis.com/images.pricecharting.com/7c2da284d0b6d75b7455ae503ad3d26393506b91f5f8f98331b6078b836b4480/1600.jpg"
+    },
+    {
+      "id": 2791,
+      "title": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/b2911264-12e5-4d7a-922b-ae46a10953d6.jpg"
     },
     {
       "id": 1836,
@@ -3624,6 +3757,12 @@
       "url": "https://storage.googleapis.com/images.pricecharting.com/2cb7a82c835947faa9af963d5e20ac3f0982b868b72f17fbb67e2311cac0c996/1600.jpg"
     },
     {
+      "id": 2790,
+      "title": "Diablo IV",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 1920,
       "title": "Die With Glory",
       "source": "PRICECHARTING_BOX_FRONT",
@@ -3640,6 +3779,12 @@
       "title": "Digimon Story Cyber Sleuth: Hacker's Memory",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/adf461cd-310e-4c0a-992e-f734bb4811f0.webp"
+    },
+    {
+      "id": 2943,
+      "title": "Digimon Survive",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/8a75eabc-3550-4d52-a05d-e43e981c2cc7.jpg"
     },
     {
       "id": 367,
@@ -3672,6 +3817,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/2f54591c-0639-4cb4-9f49-a12c502f2db1.webp"
     },
     {
+      "id": 3032,
+      "title": "DIRT 5",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/8351150c-886b-416b-9631-32c54d6a981f.jpg"
+    },
+    {
       "id": 370,
       "title": "Disaster Report 4: Summer Memories",
       "source": "GAMEYE",
@@ -3682,6 +3833,12 @@
       "title": "Disciples: Liberation",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/07d643d5-3edf-4703-aa0e-b91a806f44c0.webp"
+    },
+    {
+      "id": 3062,
+      "title": "Disco Elysium: The Final Cut",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 371,
@@ -3702,10 +3859,28 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/a06961ac-d542-4e86-b261-e819458b2419.webp"
     },
     {
+      "id": 3011,
+      "title": "Disgaea 6 Complete",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/8231a605b561fd724bbf927ca1662e561ee7fe185292931cc9e08fe3895b4d66/1600.jpg"
+    },
+    {
+      "id": 3060,
+      "title": "Disgaea 7: Vows of the Virtueless",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/ukqtxgaaahv5azu3/1600.jpg"
+    },
+    {
       "id": 374,
       "title": "Dishonored 2",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/a8936da1-0a14-4cf6-b822-f22e9e50f250.webp"
+    },
+    {
+      "id": 2856,
+      "title": "Dishonored: Death of the Outsider",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/b0a745a4-9621-48be-8d8d-ae211b5b57e5.jpg"
     },
     {
       "id": 375,
@@ -3756,6 +3931,12 @@
       "url": "https://images.launchbox-app.com/25d9be96-9584-4a25-9e24-246c9bb3fde6.jpg"
     },
     {
+      "id": 2990,
+      "title": "DNF Duel",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/34ab5878-799a-4c1b-9933-a1d5ce43eb13.jpg"
+    },
+    {
       "id": 2458,
       "title": "Do Not Open",
       "source": "PRICECHARTING_BOX_FRONT",
@@ -3792,10 +3973,22 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/0225498a-7339-4d52-bd45-4914e28cb2c6.webp"
     },
     {
+      "id": 2926,
+      "title": "Dolmen",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/184b2088-16bb-4e31-ba95-89d88cdb55ac.png"
+    },
+    {
+      "id": 2886,
+      "title": "Dolphin Spirit: Ocean Mission",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/lijiirqw4yr2u24r/1600.jpg"
+    },
+    {
       "id": 385,
       "title": "Don't Knock Twice",
-      "source": "GAMEYE",
-      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/7f004167-7cd5-41e8-814f-cc5ad94f80de.webp"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95BmCfiKDWh5q45KFa0nr_G6zHScBNbQjG31OelpkyeVCT1iHaNaVCl0JqDrN9iDwctBJ_yyQHs-6OUQPvXgCnpgYIeiY-yxkUPXgc-PpHgiRoNAI9gAJ7GAvkq_FPImwV96jbsT1kmPD-1Q_onccnpji8qjw/1600.jpg"
     },
     {
       "id": 386,
@@ -3968,8 +4161,8 @@
     {
       "id": 407,
       "title": "Dragon Quest XI: Echoes of an Elusive Age",
-      "source": "GAMEYE",
-      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/71fab73a-dcb6-4eeb-9699-8f43694a7124.webp"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97a0UgGGjBW8O288hjntQ3qasrZEMXUv1IMH3jrtiYHZdguibhbXtnzluUoOH-XI-2pmTGYXXbRyZWL8VXRh_g7AhJSxcFAhmlV2xoYpsxUFkpJ95FTSAZf-2dh02lL_QozJCR5xiTmEGMdKUvZhH8uZ-BuCA/1600.jpg"
     },
     {
       "id": 1606,
@@ -4020,10 +4213,28 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/5a4f63a2-99ef-40db-8799-f9a9214d145f.webp"
     },
     {
+      "id": 2869,
+      "title": "DreamWorks All-Star Kart Racing",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/58fae598dda49f23a9eb34b1b6dbb7cd1fa81ed4f0d9fc48cf80c02d48477bb5/1600.jpg"
+    },
+    {
       "id": 1607,
       "title": "DreamWorks Dragons Dawn of New Riders",
       "source": "PRICECHARTING_BOX_FRONT",
       "url": "https://storage.googleapis.com/images.pricecharting.com/c4944fc980c113e99b0f1986194120943b396d5610574119306133c103f8134c/1600.jpg"
+    },
+    {
+      "id": 2969,
+      "title": "DreamWorks Dragons: Legends of the Nine Realms",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/27cc47ef-e145-4eae-b59d-f995a079c403.jpg"
+    },
+    {
+      "id": 3066,
+      "title": "DREDGE",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/b87bfea2-c739-4ff6-8949-062607ce3676.jpg"
     },
     {
       "id": 1608,
@@ -4104,16 +4315,34 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/12097dac-c502-487f-8e22-e300702f16db.webp"
     },
     {
+      "id": 2811,
+      "title": "Dying Light 2 Stay Human",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/r2_8a316770-89dc-4acb-8afd-51d174f0b74c.jpg"
+    },
+    {
       "id": 422,
       "title": "Dynasty Warriors 8 Empires",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/45418968-96c7-4118-a54e-fbfa5e4e8e53.webp"
     },
     {
+      "id": 2846,
+      "title": "Dynasty Warriors 8: Xtreme Legends",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/r2_c8792f96-ac81-45fc-9b68-7e79caea000e.jpg"
+    },
+    {
       "id": 423,
       "title": "Dynasty Warriors 9",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/46901e0c-8365-4509-8724-8e41f2b4875a.webp"
+    },
+    {
+      "id": 2824,
+      "title": "Dynasty Warriors 9: Empires",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/aaa27941-a93a-483f-a532-78aa6d8a0d2d.png"
     },
     {
       "id": 424,
@@ -4208,8 +4437,8 @@
     {
       "id": 1803,
       "title": "Elden Ring",
-      "source": "GAMEYE",
-      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/3f915635-f574-4003-b903-529f77d70a46.webp"
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/77d47617-5916-46c7-b2a5-c720bb49f739.jpg"
     },
     {
       "id": 2419,
@@ -4228,6 +4457,12 @@
       "title": "Elex",
       "source": "PRICECHARTING_BOX_FRONT",
       "url": "https://storage.googleapis.com/images.pricecharting.com/598d171c8c601a42c9a4e68719ad7a69c3fbbc05272d1c533bc650bec41f8452/1600.jpg"
+    },
+    {
+      "id": 2913,
+      "title": "ELEX II",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 436,
@@ -4282,6 +4517,12 @@
       "title": "ENDER MAGNOLIA: Bloom in the Mist",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/86df67e9-6e98-4f17-b6b2-55e109f616d9.webp"
+    },
+    {
+      "id": 2975,
+      "title": "Endling - Extinction is Forever",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/6b6aee67e0ec4744c41bd21d91ddd9f24c44285d39d6d910aa65a2f4203f12ea/1600.jpg"
     },
     {
       "id": 1901,
@@ -4410,6 +4651,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/b1ef5c57-2f5f-4fc5-8404-f45a4726161b.webp"
     },
     {
+      "id": 3003,
+      "title": "Evil Genius 2: World Domination",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/adeed0f5-edcd-4cd3-9f69-e0975376c0de.jpg"
+    },
+    {
       "id": 1501,
       "title": "Evil West",
       "source": "GAMEYE",
@@ -4444,6 +4691,12 @@
       "title": "Exophobia",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/6fea99bb-e488-4e72-b19e-b2ff9eac78b1.webp"
+    },
+    {
+      "id": 2878,
+      "title": "Exoprimal",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 453,
@@ -4530,6 +4783,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/c94f5916-ced3-462e-8d4c-d393a1d1fe47.webp"
     },
     {
+      "id": 2906,
+      "title": "Family Feud",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/e14acfffcc4c4fe934b28b348f87bf260cb8c875d49596f4d21bd4b4caa916fd/1600.jpg"
+    },
+    {
       "id": 461,
       "title": "Far Cry 3: Classic Edition",
       "source": "GAMEYE",
@@ -4548,6 +4807,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/c9735c22-778a-4c44-a65a-8ff880d355cf.webp"
     },
     {
+      "id": 2817,
+      "title": "Far Cry 6",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/953614cf-39e6-4842-91b1-7aba1e561669.png"
+    },
+    {
       "id": 464,
       "title": "Far Cry New Dawn",
       "source": "GAMEYE",
@@ -4564,6 +4829,24 @@
       "title": "FAR: Lone Sails",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/8329b59e-f71f-4079-bce7-21b3bac1e0bc.jpg"
+    },
+    {
+      "id": 2953,
+      "title": "Farming Simulator 15",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/r2_1036c0bc-5531-41c4-ab0f-c55d82b938a5.jpg"
+    },
+    {
+      "id": 2880,
+      "title": "Farming Simulator 17",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/059132c4-f320-4f88-8f4a-a0d3ebd8a1d7.png"
+    },
+    {
+      "id": 2837,
+      "title": "Farming Simulator 22",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/c1a53aa6-64b0-4d81-8098-3b01d8cb8ed0.png"
     },
     {
       "id": 467,
@@ -4590,6 +4873,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/cc7aed1a-0a3e-4197-871e-8ac67847b3ee.webp"
     },
     {
+      "id": 2872,
+      "title": "Fatal Fury: City of the Wolves",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/090f87b2-fd2f-4107-a0d5-85c830aa0639.jpg"
+    },
+    {
       "id": 1616,
       "title": "Fatal Twelve",
       "source": "GAMEYE",
@@ -4606,6 +4895,12 @@
       "title": "Fate/Extella: The Umbral Star",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/d28b02db-385e-4a8c-a633-971ea881f19c.webp"
+    },
+    {
+      "id": 2921,
+      "title": "Fate/Samurai Remnant",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/647acdbd-f992-487e-a983-53abe31eafce.jpg"
     },
     {
       "id": 473,
@@ -4732,6 +5027,24 @@
       "title": "Five Dates",
       "source": "LEGACY_IGDB",
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kp0.jpg"
+    },
+    {
+      "id": 2850,
+      "title": "Five Nights at Freddy's: Help Wanted",
+      "source": "MISSING",
+      "url": null
+    },
+    {
+      "id": 2941,
+      "title": "Five Nights at Freddy's: Into the Pit",
+      "source": "MISSING",
+      "url": null
+    },
+    {
+      "id": 2814,
+      "title": "Five Nights at Freddy's: Security Breach",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/4a223051810407377b0547140fec957de01dc29f0abb9c774edb824b13350fac/1600.jpg"
     },
     {
       "id": 496,
@@ -4926,6 +5239,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/9aaff163-28a9-42bc-8390-7729b0a30101.webp"
     },
     {
+      "id": 2806,
+      "title": "Gabby's Dollhouse: Ready to Party",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/z5lybyzeqzinzfvm/1600.jpg"
+    },
+    {
       "id": 2583,
       "title": "Gal Guardians: Demon Purge",
       "source": "GAMEYE",
@@ -4958,8 +5277,8 @@
     {
       "id": 1625,
       "title": "Galak-Z: The Void",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2170.jpg"
+      "source": "PRODUCT_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/b4ef12e4c63be4ada06b1f0937bb874a52fc4041a4d2d1b79bb88d69787954f4/1600.jpg"
     },
     {
       "id": 1626,
@@ -5084,8 +5403,8 @@
     {
       "id": 2471,
       "title": "Get Star / Guardian",
-      "source": "CURATED_TITLE",
-      "url": "https://gamefaqs.gamespot.com/a/box/7/4/5/825745_front.jpg"
+      "source": "PRODUCT_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/z6fadzmemer75v5k/1600.jpg"
     },
     {
       "id": 1955,
@@ -5108,8 +5427,8 @@
     {
       "id": 527,
       "title": "Ghost of Tsushima",
-      "source": "GAMEYE",
-      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/908f0fe6-c4f4-4fe7-a8bc-703208d911b8.webp"
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/e45c7c13-3b92-43e7-83e1-329041919414.jpg"
     },
     {
       "id": 528,
@@ -5146,6 +5465,12 @@
       "title": "Ghostbusters",
       "source": "PRICECHARTING_BOX_FRONT",
       "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95Qa9VK3SXdyW9thPEPIEIxPlxniuH3v2UJapgd2j8HYk52uDeJnRPOff9Ov-JGVFWcKfBa75qcOgV2uq8KiMvzT83QYXXFs6eCEdp26VxxnVfc6RvYvCcQfNEGKGyMomMnWDmzLGgzqkR7WZnoDSdtzkD1IA/1600.jpg"
+    },
+    {
+      "id": 2909,
+      "title": "Ghostbusters: Spirits Unleashed",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 530,
@@ -5244,6 +5569,12 @@
       "url": "https://storage.googleapis.com/images.pricecharting.com/05f6c9220aaca217517f9d240de0fb70dc4dc55134e054a54d8252f1087edb16/1600.jpg"
     },
     {
+      "id": 2964,
+      "title": "Gloomhaven: Mercenaries Edition",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 536,
       "title": "Goat Simulator: The Bundle",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -5272,6 +5603,12 @@
       "title": "God of War III Remastered",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/9d85fe13-03fc-45b6-9b47-c12cd10b8738.webp"
+    },
+    {
+      "id": 2810,
+      "title": "God of War Ragnarök",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/4166fff0-21ec-41ae-a3bf-9dbf36934e81.jpg"
     },
     {
       "id": 541,
@@ -5304,6 +5641,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/c91e2f52-3b34-4af6-a4b7-3ceb4c5eb72d.webp"
     },
     {
+      "id": 3056,
+      "title": "Goodbye World",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/0551ec4f6e26fe036cac2432da97d791a9cf2b32a498d2ecf0396c39abcf9f99/1600.jpg"
+    },
+    {
       "id": 543,
       "title": "Goosebumps: Dead of Night",
       "source": "GAMEYE",
@@ -5314,6 +5657,24 @@
       "title": "Gori: Cuddly Carnage",
       "source": "PRICECHARTING_BOX_FRONT",
       "url": "https://storage.googleapis.com/images.pricecharting.com/iigfhvkapgyvbqwv/1600.jpg"
+    },
+    {
+      "id": 2822,
+      "title": "Gran Turismo 7",
+      "source": "MISSING",
+      "url": null
+    },
+    {
+      "id": 2821,
+      "title": "Gran Turismo Sport",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/e088ac22-24af-4097-94c2-0fcc6f96ce88.jpg"
+    },
+    {
+      "id": 2871,
+      "title": "Granblue Fantasy: Relink",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/81caddac-4766-406d-974b-9216cfc15dd0.jpg"
     },
     {
       "id": 544,
@@ -5478,6 +5839,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/5cfa7543-a4c7-4941-b273-ee9b7a5f195c.webp"
     },
     {
+      "id": 2798,
+      "title": "Gungrave G.O.R.E.",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/93f5cee0-d8a1-42b0-8a61-f61e4aa34e0f.jpg"
+    },
+    {
       "id": 565,
       "title": "Gunhouse",
       "source": "PRICECHARTING_BOX_FRONT",
@@ -5546,8 +5913,8 @@
     {
       "id": 2256,
       "title": "Hammerwatch",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocs0i.jpg"
+      "source": "PRODUCT_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/rmwysxijz364hsez/1600.jpg"
     },
     {
       "id": 2598,
@@ -5700,6 +6067,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/edee5de9-3c43-4f79-9b10-ac1f342d1666.webp"
     },
     {
+      "id": 2978,
+      "title": "Hello Neighbor 2",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/e0c2e2ebe5dff2205bd45fb4bd8c0282eb646ed8562e29b626ce1d31e87f06f9/1600.jpg"
+    },
+    {
       "id": 583,
       "title": "Hello Neighbor: Hide & Seek",
       "source": "GAMEYE",
@@ -5738,8 +6111,8 @@
     {
       "id": 2257,
       "title": "Heroes of Hammerwatch - Ultimate Edition",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2s2f.jpg"
+      "source": "PRODUCT_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/rmwysxijz364hsez/1600.jpg"
     },
     {
       "id": 587,
@@ -5788,6 +6161,12 @@
       "title": "Hitman 2",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/bc6c9f4e-048e-4863-aae4-318216bb1848.webp"
+    },
+    {
+      "id": 2835,
+      "title": "Hitman 3",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 2314,
@@ -5874,6 +6253,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/9a756dea-a5e3-4b54-98f0-5d771d84c313.webp"
     },
     {
+      "id": 2932,
+      "title": "Hotel Transylvania: Scary Tale Adventure",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/209cbdf97a2bcbc88203090b67a6e05d8fc9d8f39544e14e5ec627cfc1864a5c/1600.jpg"
+    },
+    {
       "id": 601,
       "title": "Hotline Miami",
       "source": "GAMEYE",
@@ -5884,6 +6269,12 @@
       "title": "Hotline Miami 2: Wrong Number",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/5bf797e8-dfe7-4df7-8973-81516dd658c2.webp"
+    },
+    {
+      "id": 3007,
+      "title": "Hotshot Racing",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/r2_c1507f59-1dee-4a84-bd12-c4d24288d9a0.png"
     },
     {
       "id": 604,
@@ -6402,6 +6793,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/b00551ce-aa59-459f-9664-4e47189477b7.webp"
     },
     {
+      "id": 2823,
+      "title": "Jurassic World Evolution 2",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 651,
       "title": "Just Cause 3",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -6430,6 +6827,12 @@
       "title": "Justice Chronicles",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/06c130c9-2b82-4205-9732-00fd73be6691.webp"
+    },
+    {
+      "id": 3001,
+      "title": "Kamiwaza: Way of the Thief",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/cc652a7e49eb4ca3fcdb96de045bd6634535790f6c784c0fc2ab8eba08119b9d/1600.jpg"
     },
     {
       "id": 655,
@@ -6582,6 +6985,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/77a0f142-8908-492b-b507-e30b00d121ee.webp"
     },
     {
+      "id": 2816,
+      "title": "Kingdom Hearts: Melody of Memory",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/02fff159-8ad8-468b-b1f8-9fd73a7e1de5.jpg"
+    },
+    {
       "id": 670,
       "title": "Kingdom Majestic",
       "source": "GAMEYE",
@@ -6654,6 +7063,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/140934_690f44ed-fc65-466a-984d-be69c09cba16.webp"
     },
     {
+      "id": 2968,
+      "title": "KONOSUBA - God's Blessing on this Wonderful World! Love For These Clothes Of Desire!",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/52r6e5eon6wbkyzw/1600.jpg"
+    },
+    {
       "id": 680,
       "title": "Kotodama: The 7 Mysteries of Fujisawa",
       "source": "GAMEYE",
@@ -6664,6 +7079,12 @@
       "title": "Kromaia Omega",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/c6c53d77-2473-48be-af70-989af961bfa7.jpg"
+    },
+    {
+      "id": 3019,
+      "title": "Kukoos: Lost Pets",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 682,
@@ -6680,8 +7101,8 @@
     {
       "id": 2469,
       "title": "Kyukyoku Tiger / Twin Cobra",
-      "source": "CURATED_TITLE",
-      "url": "https://gamefaqs.gamespot.com/a/box/7/4/5/825745_front.jpg"
+      "source": "PRODUCT_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/z6fadzmemer75v5k/1600.jpg"
     },
     {
       "id": 684,
@@ -6864,6 +7285,12 @@
       "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95dw0eGRZauwZRq0xorqtrdNL6uWjkTT6T5oPpy0hH77wrA_WYxI8esSFO_K2kmf3VwIBG6qQPKB75QrJ515k2-jHf0syCwqnngTu7k-O-Ysp7t5Cb_vEfJZLilcxkuX8huB5iqzhzqjZHSn323C4jF4fdl1Q/1600.jpg"
     },
     {
+      "id": 2830,
+      "title": "LEGO 2K Drive",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 699,
       "title": "LEGO Batman 3: Beyond Gotham",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -6926,8 +7353,8 @@
     {
       "id": 709,
       "title": "LEGO Star Wars: The Force Awakens",
-      "source": "GAMEYE",
-      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/9c58130c-ceec-4152-893d-5c0a7a78ccdd.webp"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/8e2dd2c360fda50cb0154469ce5017e365cf2e20deef6748f4744e4018424aba/1600.jpg"
     },
     {
       "id": 710,
@@ -6958,6 +7385,12 @@
       "title": "Lemon Cake",
       "source": "PRICECHARTING_BOX_FRONT",
       "url": "https://storage.googleapis.com/images.pricecharting.com/eec486833d7aad8ae2019d75506c7a031781384ca4269cc1f772d40cb239c855/1600.jpg"
+    },
+    {
+      "id": 3077,
+      "title": "Let's Build a Zoo",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 714,
@@ -6994,6 +7427,12 @@
       "title": "Lies of P",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/3d9b26a4-62c3-4193-8e41-3bbf0417b33f.jpg"
+    },
+    {
+      "id": 2972,
+      "title": "Life in Willowdale: Farm Adventures",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 717,
@@ -7128,6 +7567,18 @@
       "url": "https://www.retroplace.com/en/games/pics/ps4/packshots/162836--lone-survivor-the-directors-cut.png"
     },
     {
+      "id": 2876,
+      "title": "Looney Tunes: Wacky World of Sports",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/m5xf3umwn36pbsza/1600.jpg"
+    },
+    {
+      "id": 2960,
+      "title": "Loop8: Summer of Gods",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 2390,
       "title": "Loopers",
       "source": "PRICECHARTING_BOX_FRONT",
@@ -7174,6 +7625,12 @@
       "title": "Lost Sphear",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/bad9cb36-f400-4f7e-b6fe-013c8ce6df9e.jpg"
+    },
+    {
+      "id": 3061,
+      "title": "Lost Words: Beyond the Page",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/074adf1a-e64a-4a93-8093-b41bf25d0911.jpg"
     },
     {
       "id": 732,
@@ -7248,6 +7705,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/bfbb9a10-243f-4fa2-9eba-05091c4f42aa.webp"
     },
     {
+      "id": 3076,
+      "title": "MADiSON",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/5kgxuowijurlifpf/1600.jpg"
+    },
+    {
       "id": 2651,
       "title": "MADO MONOGATARI: Fia And The Wondrous Academy",
       "source": "CURATED_TITLE",
@@ -7282,6 +7745,12 @@
       "title": "Magicka 2",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/r2_7855a323-dc6d-4d73-babf-95f211e3fb42.jpg"
+    },
+    {
+      "id": 3018,
+      "title": "Maglam Lord",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 741,
@@ -7392,6 +7861,18 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/86e58c16-ddc1-42d1-9fc6-7664af1045a0.webp"
     },
     {
+      "id": 2988,
+      "title": "Matchbox Driving Adventures",
+      "source": "MISSING",
+      "url": null
+    },
+    {
+      "id": 2982,
+      "title": "Matchpoint: Tennis Championships",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/8dc1c42c312a0a06159a8f1c45e5a10e2c929d383e022b54deb17603f582b1a3/1600.jpg"
+    },
+    {
       "id": 2323,
       "title": "Mato Anomalies",
       "source": "PRICECHARTING_BOX_FRONT",
@@ -7420,6 +7901,12 @@
       "title": "Mecho Tales",
       "source": "LEGACY_IGDB",
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24fb.jpg"
+    },
+    {
+      "id": 3010,
+      "title": "MechWarrior 5: Mercenaries",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 751,
@@ -7474,6 +7961,18 @@
       "title": "Memorrha",
       "source": "LEGACY_IGDB",
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocs6h.jpg"
+    },
+    {
+      "id": 3069,
+      "title": "Mercenaries Blaze: Dawn of the Twin Dragons",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/3d8fcac8cb8adb83afe18054c967253ad9726faf03d1d282d599bc107dd6387e/1600.jpg"
+    },
+    {
+      "id": 2930,
+      "title": "Mercenaries Rebirth: Call of the Wild Lynx",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 761,
@@ -7536,6 +8035,12 @@
       "url": "https://images.launchbox-app.com/1af4a514-73ab-4d57-9c9c-86a9967dad31.jpg"
     },
     {
+      "id": 2973,
+      "title": "Metal Tales: Overkill",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 772,
       "title": "Metal Wolf Chaos XD",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -7570,6 +8075,12 @@
       "title": "Metropolis: Lux Obscura",
       "source": "PRICECHARTING_BOX_FRONT",
       "url": "https://storage.googleapis.com/images.pricecharting.com/696f1069cbef1388ecce5fd2cb15be39f890de51bd473047589ed0a1f3225d6b/1600.jpg"
+    },
+    {
+      "id": 2989,
+      "title": "Mickey Storm and the Cursed Mask",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/e33efd53978641b4d670be915e938722da7d9db67dd30eac4192b04e4c5132ad/1600.jpg"
     },
     {
       "id": 776,
@@ -7638,6 +8149,12 @@
       "url": "https://images.launchbox-app.com/486db8d3-042b-4bf7-b5c3-bbebf5671c47.jpg"
     },
     {
+      "id": 3013,
+      "title": "Minecraft Legends",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 782,
       "title": "Minecraft: PlayStation 4 Edition",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -7668,10 +8185,28 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/86df07af-c25b-44b0-971e-0648e77cc8b4.webp"
     },
     {
+      "id": 2884,
+      "title": "Miraculous: Paris Under Siege",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/r2_a53773c0-69c8-48cc-bb28-932202362a58.jpg"
+    },
+    {
+      "id": 2939,
+      "title": "Miraculous: Rise of the Sphinx",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/94ebc960-1396-4a4b-b543-d800de7f829a.jpg"
+    },
+    {
       "id": 786,
       "title": "Mirror's Edge Catalyst",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/45a72b60-0e62-4819-84e8-fecbcc732e04.webp"
+    },
+    {
+      "id": 2985,
+      "title": "Miss Kobayashi's Dragon Maid: Burst Forth!! Choro-gon Breath",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 1672,
@@ -7696,6 +8231,12 @@
       "title": "Momodora: Reverie Under the Moonlight",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/d556bc51-8040-40db-a8a1-3cddc2e5a6ac.jpg"
+    },
+    {
+      "id": 2996,
+      "title": "MONARK",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 788,
@@ -7728,6 +8269,18 @@
       "url": "https://images.launchbox-app.com/56b75fde-0ec1-4b2b-b012-3fea78e83462.png"
     },
     {
+      "id": 3024,
+      "title": "Monster Crown",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/3458f60b9735f6e7f934cc5c6ac3396442b05f14970d35675ee09021d19c7d15/1600.jpg"
+    },
+    {
+      "id": 2994,
+      "title": "Monster Harvest",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 791,
       "title": "Monster Hunter: World",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -7740,6 +8293,24 @@
       "url": "https://images.launchbox-app.com/db6dced5-265b-4a6b-87b4-2c1bce6a1e5a.png"
     },
     {
+      "id": 2905,
+      "title": "Monster Jam Crush It",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96t52KM67_ta7ZpmVORUnLLdMgE34vO3Lt4BQvP0keIYPUEvG8f5or14tv208skAZQjBV_8vuROVKps2UxD3CVlAU3s_XV_vw1zBWb-y3wETQOZn5G_FcD9ZqWPMfL_FKioVvzh6q89F14_zGdUJUIb_4yreA/1600.jpg"
+    },
+    {
+      "id": 2904,
+      "title": "Monster Jam: Steel Titans 2",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/9098d77d59ff5af74798f36cbb98a3529d754aca47105f6da1fa051d07ec00be/1600.jpg"
+    },
+    {
+      "id": 3052,
+      "title": "Monster Menu: The Scavenger's Cookbook",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/f2a6d7c70f56ca4b12469f19307f2d3059cb69ff1f410f70094529e03ae03736/1600.jpg"
+    },
+    {
       "id": 1923,
       "title": "Monster Prom XXL",
       "source": "LEGACY_IGDB",
@@ -7750,6 +8321,12 @@
       "title": "Monster Sanctuary",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/139997_3f63437c-f81e-4266-aea0-7283a565bd0b.webp"
+    },
+    {
+      "id": 2967,
+      "title": "Monster Truck Championship",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/876bf748-5205-4ca6-8244-111c97b525b2.png"
     },
     {
       "id": 793,
@@ -7800,10 +8377,28 @@
       "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94YBk_ZE_8vBcSkYaTVMudDPP4keBH-qARdyT6rDaCX8yFiy0jT3Zu37VmlG9dH-PVb-crHWNP7VhZOHgP_y3H8CRlTfMOAF3N5JI-80noR6_XHS9WsJr-fxHXmzSsQLL4ajRossPiXvpt2Z29d3QYXw9EbWw/1600.jpg"
     },
     {
+      "id": 3034,
+      "title": "Moto Racer 4",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/ff18bb0e-d346-4659-98c8-d5f946b5e379.png"
+    },
+    {
+      "id": 2881,
+      "title": "Mount & Blade II: Bannerlord",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/3416399b9ea70222294cdef6096b96c68280ccd971de6516aee21330efa456fe/1600.jpg"
+    },
+    {
       "id": 802,
       "title": "Moving Out",
       "source": "CURATED_TITLE",
       "url": "https://cdn.thegamesdb.net/images/original/boxart/front/72053-1.jpg"
+    },
+    {
+      "id": 3004,
+      "title": "Moving Out 2",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 803,
@@ -7860,6 +8455,18 @@
       "url": "https://storage.googleapis.com/images.pricecharting.com/38d7692bd99bc6d2c99e3aa7e36bd233a66e8d8c09e99adc6437ecd5240df325/1600.jpg"
     },
     {
+      "id": 2840,
+      "title": "MX vs. ATV Legends",
+      "source": "MISSING",
+      "url": null
+    },
+    {
+      "id": 2877,
+      "title": "MX vs. ATV Supercross Encore",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/a87cc735-357b-48a3-a242-028711d5a418.jpg"
+    },
+    {
       "id": 1982,
       "title": "My Aunt is a Witch",
       "source": "PRICECHARTING_BOX_FRONT",
@@ -7888,6 +8495,18 @@
       "title": "My Hero One's Justice 2",
       "source": "PRICECHARTING_BOX_FRONT",
       "url": "https://storage.googleapis.com/images.pricecharting.com/a917f93ced382dfa7c176871f535d674044a68b1fb47dea9c507ac22a46319ad/1600.jpg"
+    },
+    {
+      "id": 2987,
+      "title": "My Little Pony: A Maretime Bay Adventure",
+      "source": "MISSING",
+      "url": null
+    },
+    {
+      "id": 3012,
+      "title": "My Little Pony: A Zephyr Heights Mystery",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 814,
@@ -8028,6 +8647,12 @@
       "url": "https://images.launchbox-app.com/74587a4d-8589-4541-b6e3-b931fa69fdf5.jpg"
     },
     {
+      "id": 2847,
+      "title": "Need for Speed: Hot Pursuit Remastered",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/r2_afed234d-4ec0-4699-82ff-3321817a83bd.jpg"
+    },
+    {
       "id": 828,
       "title": "Need for Speed: Rivals",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -8136,6 +8761,24 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/bc2fcf87-3fd4-4658-bc33-5fd1b9cc0561.webp"
     },
     {
+      "id": 3006,
+      "title": "New Joe and Mac Caveman Ninja",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/ecfd975b038e2dade2812dc6c3ad81e6d1f2aa1152db46e7f2db1a44443cc2d8/1600.jpg"
+    },
+    {
+      "id": 2936,
+      "title": "New Super Lucky's Tale",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/9f6c95e4c527f8d906a9f2bc431fa7e4d4d32f513d7da220aae91ffff8bf4561/1600.jpg"
+    },
+    {
+      "id": 3044,
+      "title": "New Tales from the Borderlands",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/535431a63daaaf2525ddb13925611d5879700924464258d724d5e5757efa1389/1600.jpg"
+    },
+    {
       "id": 1521,
       "title": "Nex Machina",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -8166,6 +8809,24 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/d9ccbabd-a4fb-43d8-8ff5-4424cf3a40c6.webp"
     },
     {
+      "id": 2947,
+      "title": "Nick Jr. Party Adventure",
+      "source": "MISSING",
+      "url": null
+    },
+    {
+      "id": 2934,
+      "title": "Nickelodeon All-Star Brawl",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/fd6d3c8d-81f2-4c99-bc94-91130a77dd89.jpg"
+    },
+    {
+      "id": 2833,
+      "title": "Nickelodeon All-Star Brawl 2",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/59081602-470c-4fc0-941e-fd035095fee4.jpg"
+    },
+    {
       "id": 839,
       "title": "Nickelodeon Kart Racers",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -8186,8 +8847,8 @@
     {
       "id": 842,
       "title": "NieR: Automata",
-      "source": "GAMEYE",
-      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/ece1ad23-41df-45ae-ae99-ab51462d4c59.webp"
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/9cc5a678-eb2f-4e16-9025-da579c70ba13.jpg"
     },
     {
       "id": 2011,
@@ -8338,6 +8999,12 @@
       "title": "Noob: Les Sans-Factions",
       "source": "CURATED_TITLE",
       "url": "https://gamefaqs.gamespot.com/a/box/7/0/8/1025708_front.jpg"
+    },
+    {
+      "id": 3051,
+      "title": "NOOB: The Factionless",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/f308b819a6cac66fd9768d138efa93dabbc653a4119ee75cb3202c98d74164ee/1600.jpg"
     },
     {
       "id": 856,
@@ -8682,6 +9349,12 @@
       "url": "https://images.launchbox-app.com/ca26955a-faf7-4ddf-8290-f360e59604cc.jpg"
     },
     {
+      "id": 2815,
+      "title": "Outriders",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/d547d7ffa8df7afe0987d35b83973fbbab82743036143a2cceffe93e5bc7de66/1600.jpg"
+    },
+    {
       "id": 884,
       "title": "Outward",
       "source": "GAMEYE",
@@ -8706,6 +9379,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/46c76098-a176-442e-8d5e-1766dcea537b.webp"
     },
     {
+      "id": 2954,
+      "title": "Override 2: Super Mech League",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 887,
       "title": "Override: Mech City Brawl",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -8728,6 +9407,12 @@
       "title": "Owlboy",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/dbd4dca2-6775-49f5-bdf3-c5aa6fbd113b.png"
+    },
+    {
+      "id": 3068,
+      "title": "Oxenfree",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 2332,
@@ -8898,6 +9583,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/139120_acc188c3-9b2c-40b9-b437-c74550fee743.webp"
     },
     {
+      "id": 2853,
+      "title": "Persona 3 Reload",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/7b2455fc-7724-46a4-8bce-e995c93c6067.jpg"
+    },
+    {
       "id": 901,
       "title": "Persona 3: Dancing in Moonlight",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -8922,6 +9613,24 @@
       "url": "https://images.launchbox-app.com/36361826-57b5-4b4c-a649-c2dbece386cb.jpg"
     },
     {
+      "id": 2794,
+      "title": "Persona 5 Strikers",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/4ae76f45-28f4-4230-b5b6-adc7e96ec6a8.jpg"
+    },
+    {
+      "id": 2799,
+      "title": "Persona 5 Tactica",
+      "source": "CURATED_ID",
+      "url": "https://media.gamestop.com/i/gamestop/20006691-670822cd"
+    },
+    {
+      "id": 2916,
+      "title": "Persona 5: Dancing in Starlight",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/9dd08ce0-eaa2-4ea5-aaa9-e363148a9e10.jpg"
+    },
+    {
       "id": 904,
       "title": "Phantom Breaker: Battle Grounds Overdrive",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -8932,6 +9641,12 @@
       "title": "Pharaonic",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/b7498ee1-73cb-4cfe-ad03-cb9c07f1d3c4.png"
+    },
+    {
+      "id": 3031,
+      "title": "Phoenix Point",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/69d611e2286c5b576ef99ff2de084805c61b7bf3291460228b738adf54d5e5cc/1600.jpg"
     },
     {
       "id": 2202,
@@ -9030,6 +9745,12 @@
       "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv945UDoaGp8ZTSpaT5K9rGepnThpZqHh5IHHVU31MyufHyzf_wbFVTYTkeH4EVlqYHmeSrfvUC211Me9tSkPeVNEs-et1-QZYZBtXG_KhyK7Lw3Ca0QEsUkKcwhqqi3R_Dlw65ydsraThSbnUGQSz9HiOPBZhg/1600.jpg"
     },
     {
+      "id": 2922,
+      "title": "Planet Coaster: Console Edition",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/c7153ab5442b7633de5da7bafa4b10aa749fe3cfd0fa8348afa64e32186ad469/1600.jpg"
+    },
+    {
       "id": 1693,
       "title": "Planet of the Apes: Last Frontier",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -9076,6 +9797,24 @@
       "title": "Pocky & Rocky Reshrined",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/c8bb3bf1-bd51-4f7c-b7f4-64590437c66b.webp"
+    },
+    {
+      "id": 2966,
+      "title": "Poison Control",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/8150dc0e13a284a9362006e9a2e5b13d7348dc0600c304ceaa4c59842f34789e/1600.jpg"
+    },
+    {
+      "id": 2931,
+      "title": "Poker Club",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/7b28a9efbff5b6850a7eeb070d60cec94a941a5243917af4a71b9faa744350c7/1600.jpg"
+    },
+    {
+      "id": 2860,
+      "title": "Police Simulator: Patrol Officers",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 921,
@@ -9174,10 +9913,28 @@
       "url": "https://storage.googleapis.com/images.pricecharting.com/6a870d0026b985525bcbb9fcf4b1909fd17ae1df0aa722cfa3d427b09871ec3f/1600.jpg"
     },
     {
+      "id": 2942,
+      "title": "Pro Fishing Simulator",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/ee97eee8-3465-4641-b80b-7cecb89bf4e4.png"
+    },
+    {
+      "id": 3057,
+      "title": "Process of Elimination",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/9eade45e9fea60fb68d09a62b0102216e26db4692a16a5d137092edd5ed5bb6b/1600.jpg"
+    },
+    {
       "id": 2337,
       "title": "Prodeus",
       "source": "CURATED_TITLE",
       "url": "https://cdn.thegamesdb.net/images/original/boxart/front/113505-1.jpg"
+    },
+    {
+      "id": 3048,
+      "title": "Professional Farmer 2017",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/5066ea78-9f87-4d8b-ab0f-974328304f9f.jpg"
     },
     {
       "id": 931,
@@ -9258,6 +10015,12 @@
       "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95-hLThxMaFGAm1BYJD67BYmYlNeWMh89fhazQZiuLovM146KLR7EZ1DeHiOkQ7EO5WVaHDUuL8aiLUUsNJerAJVuKfVh6tYhVcSA63v5aa9i0cWtIkJmWjrNrkuWa1FPgeyfrpoJT7Ji6B569QhNKpiO3YHg/1600.jpg"
     },
     {
+      "id": 2903,
+      "title": "Psychonauts 2",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/r2_07295f45-3715-4ca6-bab5-8f3478a2bc1b.jpg"
+    },
+    {
       "id": 939,
       "title": "Psyvariar Delta",
       "source": "CURATED_TITLE",
@@ -9298,6 +10061,12 @@
       "title": "Puyo Puyo Tetris",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/80681e38-2d17-443c-8697-e1fbf5fb4322.jpg"
+    },
+    {
+      "id": 2963,
+      "title": "Puyo Puyo Tetris 2",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/8bcbfeb98c104da1afc59717f02db1f507aa802482b3b273807d9c0c90919fc9/1600.jpg"
     },
     {
       "id": 2244,
@@ -9516,10 +10285,34 @@
       "url": "https://storage.googleapis.com/images.pricecharting.com/053184a637bb5c416bc09a56ff84580fba0d94fbeb10075448181d14e954c427/1600.jpg"
     },
     {
+      "id": 2793,
+      "title": "RayCrisis",
+      "source": "PRODUCT_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/eca23b35cccdd555dfb713490337e086ae954abebe98bbb2221b5fe8b905084a/1600.jpg"
+    },
+    {
       "id": 962,
       "title": "Rayman Legends",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/cd23541f-c65a-474f-814f-f2acc2d2a6d9.jpg"
+    },
+    {
+      "id": 2792,
+      "title": "RayStorm",
+      "source": "PRODUCT_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/eca23b35cccdd555dfb713490337e086ae954abebe98bbb2221b5fe8b905084a/1600.jpg"
+    },
+    {
+      "id": 2992,
+      "title": "Re:Zero - The Prophecy of the Throne",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/a55d68278a7bed31b033ee5acd5959c363b9cf5b1895fce02a471cf740b62110/1600.jpg"
+    },
+    {
+      "id": 2897,
+      "title": "Real Farm",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv977_NWnHdDHFkJWWCSM8xmdB5w_VJrOxuZSRph1dZWGYG-XB7PkwUXqjCM-gMlwXJB7dZEuWHDR5Dt07Ci7E1Ti-wGoa8VkaON9kGidj2dPavlqyjTG15TdBzLd0EcIwcQbV4dXDCLZ-Jbl2LJomvly8RoSeg/1600.jpg"
     },
     {
       "id": 1701,
@@ -9548,8 +10341,8 @@
     {
       "id": 964,
       "title": "Red Dead Redemption 2",
-      "source": "GAMEYE",
-      "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/9c268269-ff38-41c0-b4c0-e89a1741b6a4.webp"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/x47zixpsd3jzsurw/1600.jpg"
     },
     {
       "id": 1702,
@@ -9588,10 +10381,22 @@
       "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95t_VfHSYesOmBrEzz_Hhe3xqltW2bbI4UMBhFyIxpwsU7MSehYxqPsM0tuKTYvbjEy7FEULpZCDjHAIcusi8N3TgeztLhauh4teBdymU7NQ_TUCrRvvP74jGFAMZQJYMsaMWueE6rr-B_UrVq81u06U7C7YQ/1600.jpg"
     },
     {
+      "id": 2981,
+      "title": "Redout 2",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/3c00463fec2bfc990294eeee383890393a5f40fc28bc72a5299dffb15cffd398/1600.jpg"
+    },
+    {
       "id": 2035,
       "title": "Redout: Space Assault",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/3ab850b2-41b1-410a-b0b2-685e593d4bf2.webp"
+    },
+    {
+      "id": 2997,
+      "title": "Reel Fishing: Road Trip Adventure",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 970,
@@ -9756,6 +10561,12 @@
       "url": "https://storage.googleapis.com/images.pricecharting.com/12e8969465055b959f0b6e4d1dd374c28e5792fa4526951780ca42e37b6d1a94/1600.jpg"
     },
     {
+      "id": 2946,
+      "title": "REYNATIS",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/nge4zdzwas4c6xvr/1600.jpg"
+    },
+    {
       "id": 992,
       "title": "Rez Infinite",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -9766,6 +10577,12 @@
       "title": "RICO",
       "source": "PRICECHARTING_BOX_FRONT",
       "url": "https://storage.googleapis.com/images.pricecharting.com/bf017a9741291d82292f2ef3145b381bdccf29cee23d059b0c02b2b365419fa8/1600.jpg"
+    },
+    {
+      "id": 2986,
+      "title": "RICO London",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/38fd0c80dd26aea0777c31d80c2af0e06e2fdb7d3e2f82f4ec55b412cb01c9ba/1600.jpg"
     },
     {
       "id": 1946,
@@ -9798,6 +10615,12 @@
       "url": "https://images.launchbox-app.com/b3be4cb5-b9ef-4b02-81c3-36e2f7bb8a35.jpg"
     },
     {
+      "id": 2795,
+      "title": "Riders Republic",
+      "source": "CURATED_TITLE",
+      "url": "https://i5.walmartimages.com/seo/Riders-Republic-Ubisoft-PS4_4b5a4e5a-4786-4fb8-95a8-1ebe1f53e24d.3ad35728f1e8e9e6a9ec7b578a54cd9e.jpeg"
+    },
+    {
       "id": 1916,
       "title": "Rift Keeper",
       "source": "PRICECHARTING_BOX_FRONT",
@@ -9808,6 +10631,12 @@
       "title": "RiME",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/c6301f8f-5b79-4a06-90ea-53c0128f6254.jpg"
+    },
+    {
+      "id": 2938,
+      "title": "RiMS Racing Sim",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/e91004aa98d077877fc2250461721cfea9d996398af5e484d2d0cfd3c0e05298/1600.jpg"
     },
     {
       "id": 996,
@@ -9906,6 +10735,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/3ac7a83f-7954-42aa-bf39-2d5861fcc6e4.webp"
     },
     {
+      "id": 2885,
+      "title": "Road 96",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/ad19dd779fa8f75ac9b939153c09d1523ad94fd81a3d5c317cab9eb87f1f7dca/1600.jpg"
+    },
+    {
       "id": 1005,
       "title": "Road Rage",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -10002,6 +10837,12 @@
       "url": "https://cdn.thegamesdb.net/images/original/boxart/front/60882-1.jpg"
     },
     {
+      "id": 2865,
+      "title": "RollerCoaster Tycoon Adventures Deluxe",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/9ebcb8397df367a72d9e727ebeb15e473f3ae25b23bd59067c157ff3eeebe1a6/1600.jpg"
+    },
+    {
       "id": 1714,
       "title": "RollerCoaster Tycoon Joyride",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -10054,6 +10895,12 @@
       "title": "Roombo: First Blood",
       "source": "LEGACY_IGDB",
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co50md.jpg"
+    },
+    {
+      "id": 3038,
+      "title": "Root Film",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/r2_9ac37a6a-a063-43bc-b77c-4d284d2b2952.jpg"
     },
     {
       "id": 1021,
@@ -10128,6 +10975,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/038785ae-26ba-40e9-96b3-74a05ebcee1f.webp"
     },
     {
+      "id": 2832,
+      "title": "Rust: Console Edition",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/2d4129202fde091412210711add2cfdd43651c083cec7baab594fbac1e59542c/1600.jpg"
+    },
+    {
       "id": 2340,
       "title": "Rustler",
       "source": "PRICECHARTING_BOX_FRONT",
@@ -10138,6 +10991,12 @@
       "title": "RWBY: Arrowfell",
       "source": "PRICECHARTING_BOX_FRONT",
       "url": "https://storage.googleapis.com/images.pricecharting.com/7d272001baca3aaf4f77570662e3f9493191bae95bb3d7429cfb08c6fcea68fd/1600.jpg"
+    },
+    {
+      "id": 2991,
+      "title": "Ryan's Rescue Squad",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 1717,
@@ -10300,6 +11159,12 @@
       "title": "Samurai Warriors 4-II",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/92ec946c-1320-4e1e-9083-1820aef5cf9f.jpg"
+    },
+    {
+      "id": 2917,
+      "title": "Samurai Warriors 5",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/7caace4d6803a1298c0aa228975b185bd215fb821a7c6e35cbc6aff16d73a140/1600.jpg"
     },
     {
       "id": 1038,
@@ -10488,10 +11353,22 @@
       "url": "https://images.launchbox-app.com/1a48dff9-da72-45d6-9431-2b696c4693c5.jpg"
     },
     {
+      "id": 2937,
+      "title": "Session: Skate Sim",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/bb67611bd0c5aa497188d2756a2dd4c2f2a7bb0ab7b41faa31dd0326046ebb4e/1600.jpg"
+    },
+    {
       "id": 1527,
       "title": "Seven: Enhanced Edition",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/50d26fd3-02cc-43dc-bf8a-2983afbc411d.png"
+    },
+    {
+      "id": 2983,
+      "title": "Severed Steel",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 1053,
@@ -10652,8 +11529,8 @@
     {
       "id": 1069,
       "title": "Shenmue II",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2raf.jpg"
+      "source": "PRODUCT_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/33638023de6a6c5eb67f452bac16043f52f1dd7368c04441a4615bf28e12d0cf/1600.jpg"
     },
     {
       "id": 1070,
@@ -10842,6 +11719,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/136324_bdd4de29-11f9-40c8-85c6-a953105290bb.webp"
     },
     {
+      "id": 3020,
+      "title": "Skul: The Hero Slayer",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/a00a5ed5-5ba9-4fe3-9fb9-bee3f42a0e59.jpg"
+    },
+    {
       "id": 1080,
       "title": "Skullgirls: 2nd Encore",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -10850,8 +11733,8 @@
     {
       "id": 1731,
       "title": "Skulls of the Shogun: Bone-a-Fide Edition",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2212.jpg"
+      "source": "PRODUCT_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/b4ef12e4c63be4ada06b1f0937bb874a52fc4041a4d2d1b79bb88d69787954f4/1600.jpg"
     },
     {
       "id": 1081,
@@ -10908,6 +11791,12 @@
       "url": "https://images.launchbox-app.com/ab526246-34cf-4994-89a8-44ed6100f047.jpg"
     },
     {
+      "id": 2998,
+      "title": "Slaycation Paradise",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 1089,
       "title": "Sleeping Dogs: Definitive Edition",
       "source": "GAMEYE",
@@ -10944,16 +11833,34 @@
       "url": "https://storage.googleapis.com/images.pricecharting.com/3b2a015c8ea7f0a56cf3b731906f4fd484fb294e4d2a10f2fe2a1491d979765f/1600.jpg"
     },
     {
+      "id": 2949,
+      "title": "Smile For Me",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 1094,
       "title": "SmuggleCraft",
       "source": "LEGACY_IGDB",
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/uwmrwtorn3lzgzl3bbdr.jpg"
     },
     {
+      "id": 3072,
+      "title": "Smurfs Kart",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/58ddc5ddc4b0557aa6f06d6eb636fddfbc6fbd72e2a382e54f44c7529a14022a/1600.jpg"
+    },
+    {
       "id": 1095,
       "title": "Sniper Elite 4",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/5fb2132a-d2b3-4fc5-b501-fbe50f76cca7.jpg"
+    },
+    {
+      "id": 2901,
+      "title": "Sniper Elite 5",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 1096,
@@ -10968,10 +11875,22 @@
       "url": "https://images.launchbox-app.com/b23f9e18-3f52-4652-bd94-5c71161bf3f0.png"
     },
     {
+      "id": 2807,
+      "title": "Sniper Elite: Resistance",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/ceb263d7-0ce7-4b54-afaa-d7a5b23d5db2.jpg"
+    },
+    {
       "id": 1098,
       "title": "Sniper Ghost Warrior Contracts",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/5f2510e3-1618-47ed-9195-ac18d2494534.jpg"
+    },
+    {
+      "id": 2907,
+      "title": "Sniper Ghost Warrior Contracts 2",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/630d8bd4-5d9a-41ca-badc-477b0b731be3.jpg"
     },
     {
       "id": 1099,
@@ -11032,6 +11951,12 @@
       "title": "Song of the Deep",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/15f33ee5-da7c-49d5-8551-2064833cc5af.jpg"
+    },
+    {
+      "id": 2819,
+      "title": "Sonic Colors: Ultimate",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/0c9d5d1c-067f-44a3-8b06-eeb4f268e56e.jpg"
     },
     {
       "id": 1106,
@@ -11148,6 +12073,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/a911bc06-717f-4144-9d02-5ce1431deb94.webp"
     },
     {
+      "id": 3017,
+      "title": "Speed 3 Grand Prix",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 2454,
       "title": "Speedollama",
       "source": "LEGACY_IGDB",
@@ -11220,6 +12151,18 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/e19e4d43-3b9f-4b70-941b-853eacfa6359.webp"
     },
     {
+      "id": 2813,
+      "title": "SpongeBob SquarePants: The Cosmic Shake",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/e888379c-4cd6-45c7-b141-c9bfdc9bfef1.jpg"
+    },
+    {
+      "id": 3035,
+      "title": "SpongeBob SquarePants: The Patrick Star Game",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/f51e104f-3af8-4765-9159-47c4a09afc89.jpg"
+    },
+    {
       "id": 2106,
       "title": "Spyro 2: Ripto's Rage!",
       "source": "PRODUCT_BOX_FRONT",
@@ -11250,16 +12193,40 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/3d1fd0c9-e231-4bfc-9c60-7dac868573c3.webp"
     },
     {
+      "id": 2919,
+      "title": "Star Ocean: The Divine Force",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/112841802d2425c1dcc1c6ad6f0d42802bd0249dcbf715f3c58a3847b390d385/1600.jpg"
+    },
+    {
+      "id": 2924,
+      "title": "Star Ocean: The Second Story R",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 2251,
       "title": "Star Renegades",
       "source": "PRICECHARTING_BOX_FRONT",
       "url": "https://storage.googleapis.com/images.pricecharting.com/34a6acb0153d641d37cec2edbe1606b27b2cddd3a7487b64da55504ac00f0179/1600.jpg"
     },
     {
+      "id": 2944,
+      "title": "Star Trek Prodigy: Supernova",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 1129,
       "title": "Star Trek: Bridge Crew",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/1694d6bf-2533-43bf-8b9b-27efea431d8c.jpg"
+    },
+    {
+      "id": 3071,
+      "title": "Star Trek: Resurgence",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 1130,
@@ -11442,6 +12409,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/4da65d43-104d-4225-bf4b-28f4ed200f1e.webp"
     },
     {
+      "id": 2950,
+      "title": "Story of Seasons: Pioneers of Olive Town",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 1153,
       "title": "STRAFE",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -11460,6 +12433,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/22e6c9df-7ae1-4a02-9f21-5c7553c59e17.webp"
     },
     {
+      "id": 2857,
+      "title": "Stranger of Paradise Final Fantasy Origin",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/25d735d9-df98-4854-b1c7-47626572f6ee.jpg"
+    },
+    {
       "id": 1157,
       "title": "Stranger Things 3: The Game",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -11472,6 +12451,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/77a7714e-2ec4-4bb6-8786-48c7d2cddfec.webp"
     },
     {
+      "id": 2818,
+      "title": "Street Fighter 6",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/029fff55-2246-4835-bedc-332485c3e80b.jpg"
+    },
+    {
       "id": 1159,
       "title": "Street Fighter V",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -11482,6 +12467,12 @@
       "title": "Street Fighter: 30th Anniversary Collection",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/9506b389-f489-4acb-8e6c-6a4fe2caaf6b.png"
+    },
+    {
+      "id": 2888,
+      "title": "Street Outlaws 2: Winner Takes All",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/e8297d02000dd810ae73a83c32778f34cbe86d0ab73a7cd73575bd901665ad6f/1600.jpg"
     },
     {
       "id": 1162,
@@ -11512,6 +12503,12 @@
       "title": "Strikers Edge",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/32d637c7-6b81-4142-9804-93b91dda2d0e.jpg"
+    },
+    {
+      "id": 2902,
+      "title": "Stubbs the Zombie in Rebel Without a Pulse",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 1981,
@@ -11566,6 +12563,12 @@
       "title": "Super Bomberman R",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/r2_66858d62-b489-49e3-8066-6cc7be46d74c.png"
+    },
+    {
+      "id": 3030,
+      "title": "Super Bullet Break",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/n5mjuntfm6wzsubr/1600.jpg"
     },
     {
       "id": 1176,
@@ -11700,6 +12703,12 @@
       "url": "https://images.launchbox-app.com/04d03af8-43a4-40d1-8090-0de9d4b5fa43.png"
     },
     {
+      "id": 3042,
+      "title": "Surviving the Aftermath",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/ac97057b-caf5-402b-ad32-33adc7d22eb2.jpg"
+    },
+    {
       "id": 1189,
       "title": "Sword & Fairy 6",
       "source": "PRICECHARTING_BOX_FRONT",
@@ -11710,6 +12719,12 @@
       "title": "Sword And Fairy: Together Forever",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/53ae3608-a657-4f9b-9bb3-ec062a610a14.webp"
+    },
+    {
+      "id": 2927,
+      "title": "Sword Art Online Last Recollection",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/ade3d4f2-d74c-408e-b764-766f4bbdd739.jpg"
     },
     {
       "id": 1191,
@@ -11914,6 +12929,12 @@
       "title": "Taxi Chaos",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/e69b1a5d-5a0c-4873-9ff3-a370524fe647.png"
+    },
+    {
+      "id": 2940,
+      "title": "Tchia",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/4fbd3a9b-2003-42c8-8e1c-add7caf52b97.jpg"
     },
     {
       "id": 1204,
@@ -12162,6 +13183,18 @@
       "url": "https://images.launchbox-app.com/f974b7c0-bbe3-4baf-aacc-c784ce29d2b5.jpg"
     },
     {
+      "id": 2820,
+      "title": "The Crew Motorfest",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/7059468ce8f7b349c76aaa01f09ab87e04d77e1fe64bd08c2f7416c19012f516/1600.jpg"
+    },
+    {
+      "id": 3000,
+      "title": "The Cruel King and the Great Hero",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/2b093adb4ec3bfb4695f078a80b9c01b96ffae374c747b0a76514147546cc15f/1600.jpg"
+    },
+    {
       "id": 1234,
       "title": "The Dark Crystal: Age of Resistance Tactics",
       "source": "LEGACY_IGDB",
@@ -12178,6 +13211,12 @@
       "title": "The Deer God",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/06339b7a-e68e-499b-bb87-514ea09067d2.jpg"
+    },
+    {
+      "id": 2923,
+      "title": "The Dungeon of Naheulbeuk: The Amulet of Chaos",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/871b47f3b2c793622edf55fc4af48045fdcf958940f752c9f2735f2d7b010fdf/1600.jpg"
     },
     {
       "id": 1237,
@@ -12208,6 +13247,12 @@
       "title": "The Escapists 2",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/3819f760-58e5-42d3-ab46-495dc2700590.png"
+    },
+    {
+      "id": 3037,
+      "title": "The Eternal Cylinder",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 1244,
@@ -12252,16 +13297,34 @@
       "url": "https://images.launchbox-app.com/963f9313-2faf-42b6-a4e5-ab5f7a11b59f.jpg"
     },
     {
+      "id": 2935,
+      "title": "The Golf Club 2019 Featuring PGA Tour",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/62032fab-535a-4bc0-8b13-79f68bd14690.jpg"
+    },
+    {
       "id": 2354,
       "title": "The Good Life",
       "source": "LEGACY_IGDB",
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4190.jpg"
     },
     {
+      "id": 2804,
+      "title": "The Grinch: Christmas Adventures",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 1250,
       "title": "The House in Fata Morgana",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/a478ec0d-7943-4eac-8752-8e5cd0630188.jpg"
+    },
+    {
+      "id": 2898,
+      "title": "The House of the Dead Remake",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/ea19392e-6dad-4067-9b13-ebcce0767db5.jpg"
     },
     {
       "id": 2355,
@@ -12336,6 +13399,12 @@
       "url": "https://images.launchbox-app.com/6ae39151-a8de-4407-8878-9f7cceee4e8d.png"
     },
     {
+      "id": 2911,
+      "title": "The Knight Witch",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/304af33345e2a42d0b43c3a46230e97b05a29771667c4890de5f795b61d020af/1600.jpg"
+    },
+    {
       "id": 1258,
       "title": "The Last Blade 2",
       "source": "PRICECHARTING_BOX_FRONT",
@@ -12364,6 +13433,12 @@
       "title": "The Last of Us Remastered",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/99e4edab-9274-4524-a505-c389fb204082.webp"
+    },
+    {
+      "id": 2925,
+      "title": "The Last Stand: Aftermath",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/ef5ed61671342a16c2315320b7393edef998f45ae0dc99fd8ca5e52a02b9ed60/1600.jpg"
     },
     {
       "id": 1264,
@@ -12398,8 +13473,14 @@
     {
       "id": 2049,
       "title": "The Legend of Heroes: Trails through Daybreak II",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8l3f.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/z26o6asvfo7qb4wt/1600.jpg"
+    },
+    {
+      "id": 3043,
+      "title": "The Legend of Heroes: Trails to Azure",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/4ee7af99c59e49fc411407a059385fead9a7c31b11b485b9bddf9e76a91ceb27/1600.jpg"
     },
     {
       "id": 2050,
@@ -12540,6 +13621,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/917b2aed-8a5b-48d9-a825-0124738368b7.webp"
     },
     {
+      "id": 2808,
+      "title": "The Rumble Fish 2",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/3ba91e55b2b046a6844aab0b27e378cb6fe95062a944175ca030b318c7d94328/1600.jpg"
+    },
+    {
       "id": 1287,
       "title": "The Seven Deadly Sins: Knights of Britannia",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -12576,6 +13663,24 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/65de4edb-34c7-4f07-a3e8-b515cedf7156.webp"
     },
     {
+      "id": 3049,
+      "title": "The Sisters: Party of the Year",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/81c738c89e8860e61edf6c945f9bb6e3524f6a7666ea6ba4ecab120a775de60d/1600.jpg"
+    },
+    {
+      "id": 2895,
+      "title": "The Smurfs 2: Prisoner of the Green Stone",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/04435bb8-72f5-43b3-9c28-371cdb8eae68.jpg"
+    },
+    {
+      "id": 2999,
+      "title": "The Smurfs: Mission Vileaf",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/82cca381-e666-49f1-9cc2-423f63fd497c.jpg"
+    },
+    {
       "id": 1295,
       "title": "The Sojourn",
       "source": "GAMEYE",
@@ -12592,6 +13697,12 @@
       "title": "The Surge 2",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/r2_ca611a38-00ee-41a9-a993-3ccdf16ed03b.jpg"
+    },
+    {
+      "id": 2980,
+      "title": "The Survivalists",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/49cf1e46-71e7-4a40-bc50-4a3002331d2e.jpg"
     },
     {
       "id": 1297,
@@ -12634,6 +13745,12 @@
       "title": "The Technomancer",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/9c30b4de-280e-49f9-a7b5-a3de7e229fe0.webp"
+    },
+    {
+      "id": 2836,
+      "title": "The Texas Chain Saw Massacre",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 1302,
@@ -12702,10 +13819,22 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/b47ba0c2-2ab8-464d-8ad4-09c051b02f91.webp"
     },
     {
+      "id": 2995,
+      "title": "Theatrhythm Final Bar Line",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/f2e23a7f-c3dc-4bca-b329-c0e6e37f5909.jpg"
+    },
+    {
       "id": 1316,
       "title": "theHunter: Call of the Wild",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/48ef7ae3-7bcf-490e-b893-26f4c96b0be1.jpg"
+    },
+    {
+      "id": 3047,
+      "title": "Them's Fightin' Herds",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/51c3a02a-f9df-4041-b64c-ce0ec273fb2c.jpg"
     },
     {
       "id": 1847,
@@ -12784,6 +13913,30 @@
       "title": "Timespinner",
       "source": "CURATED_TITLE",
       "url": "https://cdn.thegamesdb.net/images/original/boxart/front/61183-1.jpg"
+    },
+    {
+      "id": 3027,
+      "title": "Tin and Kuna",
+      "source": "MISSING",
+      "url": null
+    },
+    {
+      "id": 2959,
+      "title": "Tin Hearts",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/a0f30a38157ddd18cd56c88239be5f29991154ad7b097990106bb80739f53aa7/1600.jpg"
+    },
+    {
+      "id": 2948,
+      "title": "Tintin Reporter: Cigars of the Pharaoh",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/ebe1b905-c1d1-4fd8-8e61-ed0af768900d.jpg"
+    },
+    {
+      "id": 2900,
+      "title": "Tiny Tina's Wonderlands",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/7111ed84-a89c-4a07-bdda-08acd8ec743e.jpg"
     },
     {
       "id": 1327,
@@ -13026,10 +14179,22 @@
       "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94e0nT9-Fz_SpoTSQ8oCshM6mBF_JO7n8QGDefM-monuHNbqOweJHoc2YBDpWKsiTh-x880RkD6ABWqYNqASHJoX1vns5xVVIgnEh-yklnYFwrAnRDjMYz6NT9bXvp904XOB01fimq3yweKWLZ8f3iItvZ43A/1600.jpg"
     },
     {
+      "id": 2933,
+      "title": "Train Sim World 2",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/12e9e1a5-822a-46e0-853c-840de774f967.jpg"
+    },
+    {
       "id": 1351,
       "title": "Train Sim World 2020",
       "source": "LEGACY_IGDB",
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2k5q.jpg"
+    },
+    {
+      "id": 2993,
+      "title": "Train Sim World 3",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/88f7dc19-3542-43cf-ab24-311ecc12d75d.jpg"
     },
     {
       "id": 1770,
@@ -13042,6 +14207,12 @@
       "title": "Transformers Battlegrounds",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/6958fe3d-30a7-4b56-82fb-6aca5ee10e08.jpg"
+    },
+    {
+      "id": 2915,
+      "title": "Transformers Galactic Trials",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/7xrjrp5jzmhgjyc2/1600.jpg"
     },
     {
       "id": 1353,
@@ -13078,6 +14249,12 @@
       "title": "Travis Strikes Again: No More Heroes - Complete Edition",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/b219d7d6-84fc-49ca-ad97-38992d5bda37.jpg"
+    },
+    {
+      "id": 2920,
+      "title": "Trek to Yomi",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/bb714ee0e5bbb007dbc0ac2987ed5cd11b3980b02546d28e3dfbf59f0e3a6aa1/1600.jpg"
     },
     {
       "id": 1357,
@@ -13140,6 +14317,12 @@
       "url": "https://images.launchbox-app.com/33547246-1610-49dc-8296-50ff24adc0e3.png"
     },
     {
+      "id": 2887,
+      "title": "Trinity Trigger",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/6ovnbads6qngaxho/1600.jpg"
+    },
+    {
       "id": 1366,
       "title": "Troll and I",
       "source": "PRICECHARTING_BOX_FRONT",
@@ -13150,6 +14333,12 @@
       "title": "Trollhunters Defenders of Arcadia",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/cc9a5581-643b-409b-800c-ab3d34a087e4.jpg"
+    },
+    {
+      "id": 2952,
+      "title": "Trolls Remix Rescue",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/ea3ba5ad04ba9207a5913486f5e97665dff81263be4d67c96816b98271a402b3/1600.jpg"
     },
     {
       "id": 1368,
@@ -13188,6 +14377,12 @@
       "url": "https://images.launchbox-app.com/r2_a10ed97d-da9a-4972-8e11-8799e737d8e4.jpg"
     },
     {
+      "id": 2979,
+      "title": "Truck Racing Championship",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/r2_68037653-aadb-4093-9623-437824498179.jpg"
+    },
+    {
       "id": 1771,
       "title": "TT Isle of Man: Ride On The Edge",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -13198,6 +14393,18 @@
       "title": "Tumblestone",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/r2_07a8fb70-72a8-45e7-9652-e7e5a7fa61b5.jpg"
+    },
+    {
+      "id": 3050,
+      "title": "Tunic",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/ea38698b0b4c23d4d86ce8759b1881b0762d8d91c7fc12dcc8c65196fdf3c3bb/1600.jpg"
+    },
+    {
+      "id": 3021,
+      "title": "Turnip Boy Commits Tax Evasion",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/45ed3fcbbed7a2ea4b6558945efcb6c92971e77506d09337b177fc4e70a7063c/1600.jpg"
     },
     {
       "id": 2001,
@@ -13350,6 +14557,12 @@
       "url": "https://storage.googleapis.com/images.pricecharting.com/642ec99ab9fae50a23c7e701b17f41b007b73e711036cdfcd79c5b2ca38a5f5b/1600.jpg"
     },
     {
+      "id": 2955,
+      "title": "Under Night In-Birth Exe:Late[st]",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94CCNDpgKzsX8Rk9F409n2HbvLG7qcd4xFxBoiqucgx-lSccRISvGgi4AdXeFhq3-tdz3YxzYzh159BV95DLm0u9cz0TVbk6WG5IHsBDc_noT7kjImH2vgtV6DZJWuEH0mp4EFx-K-RSBxLCO3rufeftLNu-Q/1600.jpg"
+    },
+    {
       "id": 2746,
       "title": "Under Night In-Birth II: Sys:Celes",
       "source": "PRICECHARTING_BOX_FRONT",
@@ -13480,6 +14693,12 @@
       "title": "Utawarerumono: Prelude to the Fallen",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/f01c16ee-a8b2-41c9-acc4-8d5cd953d570.jpg"
+    },
+    {
+      "id": 2977,
+      "title": "V-Rally 4",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/235763ac-26c9-4cb5-b719-948e3b95fb25.png"
     },
     {
       "id": 1543,
@@ -13630,6 +14849,12 @@
       "title": "VESTA",
       "source": "LEGACY_IGDB",
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5rmv.jpg"
+    },
+    {
+      "id": 3039,
+      "title": "Victor Vran: Overkill Edition",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/e9b0ef13-7dbe-45a3-b011-a74d8abd1920.jpg"
     },
     {
       "id": 1403,
@@ -13872,6 +15097,12 @@
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4no1.jpg"
     },
     {
+      "id": 2874,
+      "title": "Werewolf: The Apocalypse Earthblood",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/63a4cce3-5136-416b-9e15-1cb98a3f662d.jpg"
+    },
+    {
       "id": 1545,
       "title": "West of Dead",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -13882,6 +15113,12 @@
       "title": "What Remains of Edith Finch",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/878f4f37-5679-4271-bc2d-27795f067d0b.png"
+    },
+    {
+      "id": 2965,
+      "title": "Where the Heart Leads",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/f286f16a03185c2f016de3e4df65f90ad7d87aa1a6ac2a3c26b45ae22c8cbdfc/1600.jpg"
     },
     {
       "id": 1432,
@@ -13900,6 +15137,12 @@
       "title": "Who Pressed Mute on Uncle Marcus?",
       "source": "PRICECHARTING_BOX_FRONT",
       "url": "https://storage.googleapis.com/images.pricecharting.com/6450516669c044049afb7181fb023c6a9f85423059d1cdc4a7e93cc08bf86c37/1600.jpg"
+    },
+    {
+      "id": 2945,
+      "title": "Who Wants to be a Millionaire?",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/f08c43e1-dd62-45a0-a77b-7e3c095d22a7.jpg"
     },
     {
       "id": 1948,
@@ -13932,16 +15175,34 @@
       "url": "https://cdn.thegamesdb.net/images/original/boxart/front/64105-1.jpg"
     },
     {
+      "id": 2802,
+      "title": "Willy Morgan and the Curse of Bone Town",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/dd5a6ad79be64339f3b8e3429114d3ace1fbdf3d1c16bd30e867fb316823e4f6/1600.jpg"
+    },
+    {
       "id": 1437,
       "title": "WindJammers",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/59431261-2faa-4318-97e6-9c0dca20f5eb.jpg"
     },
     {
+      "id": 3022,
+      "title": "Winter Games 2023",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 1438,
       "title": "Wipeout: Omega Collection",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/d2174d4d-a740-4319-9b37-a254432ac1ed.jpg"
+    },
+    {
+      "id": 3067,
+      "title": "Witch on the Holy Night",
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/c42d2f816169e8d2a7465608a405009e3603d5fbb2edc5af30b6ef11dc40f9b5/1600.jpg"
     },
     {
       "id": 2022,
@@ -13966,6 +15227,12 @@
       "title": "Wizards of Brandel",
       "source": "PRICECHARTING_BOX_FRONT",
       "url": "https://storage.googleapis.com/images.pricecharting.com/14cabc810965886fc1ad01e60f7321b7b3ad066c538bbf4250073988574fada7/1600.jpg"
+    },
+    {
+      "id": 2858,
+      "title": "Wo Long: Fallen Dynasty",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/51f003f7-bdb7-4619-a525-f3cc5f73639c.jpg"
     },
     {
       "id": 2366,
@@ -14044,6 +15311,12 @@
       "title": "World of Horror",
       "source": "PRICECHARTING_BOX_FRONT",
       "url": "https://storage.googleapis.com/images.pricecharting.com/847990b90721faccf9347d43c9d7995fbff6870b118c28bf87b4835f7d7fb859/1600.jpg"
+    },
+    {
+      "id": 2848,
+      "title": "World of Outlaws: Dirt Racing",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 1450,
@@ -14308,6 +15581,12 @@
       "title": "Youtubers Life OMG",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/b9100712-f5e3-4ba2-836a-bec0c0462ca2.jpg"
+    },
+    {
+      "id": 2812,
+      "title": "Ys IX: Monstrum Nox",
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/0a3444fc-3d47-488f-bbc4-f6aedccdb7ef.jpg"
     },
     {
       "id": 1480,

@@ -20,43 +20,22 @@ import path from 'node:path';
 import vm from 'node:vm';
 import zlib from 'node:zlib';
 import { fileURLToPath } from 'node:url';
+import { censusMutators, indexScripts } from './lib/runtime-census.mjs';
 
 const REPO = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 
-// Kept in sync with tools/census-determinism-test.mjs's MUTATORS list -- if a new
-// census-mutating script is added there, add it here too, or this audit's INCLUDED
-// denominator (and therefore its priced/pending split) silently goes stale.
-const CENSUS_MUTATORS = [
-  'census-cleanup.js', 'census-v034.js', 'census-collapse-v035.js', 'census-v035-final.js',
-  'census-v040-pricing-audit.js',
-  'census-v052-pricecharting-negative-space.js', 'census-v053-pricecharting-regional-sweep.js',
-  'census-v054-pricecharting-collection-gap.js', 'census-v055-pricecharting-ab-sweep.js',
-  'census-v056-pricecharting-cf-sweep.js', 'census-v057-pricecharting-gl-sweep.js',
-  'census-v058-pricecharting-mr-sweep.js', 'census-v059-pricecharting-sz-sweep.js',
-  'census-physical-omission-pass-v001.js', 'census-physical-omission-pass-v002.js',
-  'census-physical-omission-pass-v003.js',
-  'census-v060-integrity-scrub.js', 'census-integrity-pass-v001.js', 'census-integrity-pass-v002.js',
-  'ownership-reconcile-v071.js', 'ownership-reconcile-v072.js',
-  'curation-josh-set-pass-v001.js', 'curation-josh-set-pass-v002.js', 'curation-josh-set-pass-v003.js',
-  'curation-josh-set-pass-v004.js', 'curation-josh-set-pass-v005.js', 'curation-josh-set-pass-v006.js',
-];
-const PRICE_FILES = [
-  'price-import-v037.js', 'price-alias-v039.js', 'price-alias-v040.js', 'price-final-v041.js',
-  'price-online-v041.js', 'price-negative-space-v042.js', 'price-direct-v050.js', 'price-direct-v051.js',
-  'public-prices-full-v066.js', 'price-new-games-v073.js', 'price-new-games-v074.js',
-  'price-new-games-v075.js', 'price-whole-census-v077.js', 'price-batch-001-v079.js',
-  'price-batch-003-v082.js', 'price-batch-004-v083.js', 'price-batch-005-v084.js', 'price-batch-006-v085.js',
-  'price-batch-007-v087.js', 'price-batch-008-v088.js', 'price-fix.js',
-  'price-product-inherited-v086.js',
-  // price-no-reliable-data-v089.js gates only on price-product-inherited-v086.js's own wrap
-  // flag (window.SHELFCHECK_PRODUCT_INHERITED_PRICING), which this stripped harness DOES set
-  // (public-prices-full-v066.js sets the flag it in turn waits for) -- so it wraps correctly
-  // here too, even though ensureMergedProducts() itself is undefined in this harness (no
-  // model-fix.js -- see the file header) and therefore never actually returns a qualifying
-  // product. NO_RELIABLE_DATA identities still resolve correctly; only Model A's
-  // product-inherited tier is affected by the known, documented model-fix.js gap.
-  'price-no-reliable-data-v089.js',
-];
+// Census mutators and price layers are derived from index.html (the order the page loads them),
+// via tools/lib/runtime-census.mjs, instead of hand-maintained lists that silently went stale
+// (the old list stopped before omission passes v004-v010, the GameEye/GameStop additions and
+// curation pass v006+). PRICE_LAYER keeps exactly the data layers the old list named, so
+// presentation-only scripts such as price-sort-v063.js are still skipped.
+const CENSUS_MUTATORS = censusMutators(REPO);
+// price-no-reliable-data-v089.js gates only on price-product-inherited-v086.js's own wrap flag
+// (window.SHELFCHECK_PRODUCT_INHERITED_PRICING), which this stripped harness DOES set, so
+// NO_RELIABLE_DATA identities still resolve; only Model A's product-inherited tier is affected by
+// the known, documented model-fix.js gap (see the file header).
+const PRICE_LAYER = /^(price-(import|alias|final|online|negative-space|direct|new-games|whole-census|batch-\d+|fix|product-inherited|no-reliable-data)-?|public-prices-full-)/;
+const PRICE_FILES = indexScripts(REPO).filter((f) => PRICE_LAYER.test(f));
 
 function norm(s) {
   return String(s ?? '').normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase()

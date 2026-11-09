@@ -1,496 +1,461 @@
 {
   "summary": {
-    "configuredTargets": 30,
-    "activeUnresolvedTargets": 30,
-    "skippedStaleOrMismatch": 0,
-    "preserved": 352,
-    "acceptedThisRun": 20,
-    "totalPriceChartingCovers": 372,
+    "configuredTargets": 49,
+    "activeUnresolvedTargets": 26,
+    "skippedStaleOrMismatch": 23,
+    "preserved": 469,
+    "acceptedThisRun": 19,
+    "totalPriceChartingCovers": 488,
     "noExactAliasMatch": 0,
-    "rejectedByImageGate": 10,
+    "rejectedByImageGate": 7,
     "errors": 0,
     "regionCounts": {
-      "US/NTSC": 14,
-      "PAL": 5,
-      "JP": 1
+      "US/NTSC": 8,
+      "PAL": 11
     },
     "matchMethods": {
-      "vetted_edition_alias_exact": 20
+      "vetted_edition_alias_exact": 19
     },
     "standard": "explicit ShelfCheck identity ID + canonical title + vetted same-game PriceCharting edition/spelling alias + exact/compact-exact PS4 product title + straight portrait + strong blue PS4 header; no fuzzy matching"
   },
   "accepted": [
     {
-      "id": 2485,
-      "title": "Anonymous;Code",
+      "id": 2049,
+      "title": "The Legend of Heroes: Trails through Daybreak II",
       "aliases": [
-        "Anonymous;Code [SteelBook Launch Edition]"
+        "Legend Of Heroes: Trails Through Daybreak II [Deluxe Edition]",
+        "The Legend Of Heroes: Trails Through Daybreak II [Deluxe Edition]",
+        "Legend Of Heroes: Trails Through Daybreak II [Limited Edition]"
       ],
       "bucket": "review",
       "reason": "key_art_only",
       "status": "accepted",
-      "alias": "Anonymous;Code [SteelBook Launch Edition]",
-      "matchedTitle": "Anonymous;Code [SteelBook Launch Edition]",
+      "alias": "Legend Of Heroes: Trails Through Daybreak II [Deluxe Edition]",
+      "matchedTitle": "Legend Of Heroes: Trails Through Daybreak II [Deluxe Edition]",
       "matchMethod": "vetted_edition_alias_exact",
       "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/anonymous;code-steelbook-launch-edition",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/3d994068357e6092991c0285930f35d34ada997a66a7395858abfe1090b15ec8/1600.jpg",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/legend-of-heroes-trails-through-daybreak-ii-deluxe-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/z26o6asvfo7qb4wt/1600.jpg",
       "metrics": {
-        "width": 698,
-        "height": 893,
-        "aspect": 0.7816,
+        "width": 894,
+        "height": 1119,
+        "aspect": 0.7989,
         "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.6102
+        "bannerPixelRatio": 0.5177
       }
     },
     {
-      "id": 2497,
-      "title": "Asterix & Obelix XXXL: The Ram from Hibernia",
+      "id": 3011,
+      "title": "Disgaea 6 Complete",
       "aliases": [
-        "Asterix & Obelix XXXL: The Ram from Hibernia [Limited Edition]",
-        "Asterix & Obelix XXXL: The Ram From Hibernia [Collector's Edition]"
+        "Disgaea 6 Complete [Deluxe Edition]"
       ],
       "bucket": "review",
-      "reason": "key_art_only",
+      "reason": "missing_cover",
       "status": "accepted",
-      "alias": "Asterix & Obelix XXXL: The Ram from Hibernia [Limited Edition]",
-      "matchedTitle": "Asterix & Obelix XXXL: The Ram from Hibernia [Limited Edition]",
+      "alias": "Disgaea 6 Complete [Deluxe Edition]",
+      "matchedTitle": "Disgaea 6 Complete [Deluxe Edition]",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/disgaea-6-complete-deluxe-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/8231a605b561fd724bbf927ca1662e561ee7fe185292931cc9e08fe3895b4d66/1600.jpg",
+      "metrics": {
+        "width": 1199,
+        "height": 1500,
+        "aspect": 0.7993,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.5233
+      }
+    },
+    {
+      "id": 3060,
+      "title": "Disgaea 7: Vows of the Virtueless",
+      "aliases": [
+        "Disgaea 7: Vows of the Virtueless: Deluxe Edition"
+      ],
+      "bucket": "review",
+      "reason": "missing_cover",
+      "status": "accepted",
+      "alias": "Disgaea 7: Vows of the Virtueless: Deluxe Edition",
+      "matchedTitle": "Disgaea 7: Vows Of The Virtueless [Deluxe Edition]",
       "matchMethod": "vetted_edition_alias_exact",
       "region": "PAL",
-      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/asterix-&-obelix-xxxl-the-ram-from-hibernia-limited-edition?q=asterix+%26+obelix+xxxl%3A+the+ram+from+hibernia+%5Blimited+edition%5D+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/7f3bd3aa29484ffe374b47f305414eee46956f6f7f348cd8315e1112a2a368e7/1600.jpg",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/disgaea-7-vows-of-the-virtueless-deluxe-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/ukqtxgaaahv5azu3/1600.jpg",
       "metrics": {
         "width": 1188,
         "height": 1500,
         "aspect": 0.792,
         "bannerColumnSpan": 0.9917,
-        "bannerPixelRatio": 0.8085
+        "bannerPixelRatio": 0.5843
       }
     },
     {
-      "id": 2301,
-      "title": "Crymachina",
+      "id": 2932,
+      "title": "Hotel Transylvania: Scary Tale Adventure",
       "aliases": [
-        "Crymachina [Deluxe Edition]",
-        "Crymachina [Limited Edition]"
+        "Hotel Transylvania Scary-Tale Adventures"
       ],
       "bucket": "review",
-      "reason": "key_art_only",
+      "reason": "missing_cover",
       "status": "accepted",
-      "alias": "Crymachina [Deluxe Edition]",
-      "matchedTitle": "Crymachina [Deluxe Edition]",
+      "alias": "Hotel Transylvania Scary-Tale Adventures",
+      "matchedTitle": "Hotel Transylvania: Scary-Tale Adventures",
       "matchMethod": "vetted_edition_alias_exact",
       "region": "PAL",
-      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/crymachina-deluxe-edition",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/e728eecee10f757b1a6e06815b3c4cd4195363f6d481942b118b216def2877bf/1600.jpg",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/hotel-transylvania-scary-tale-adventures",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/209cbdf97a2bcbc88203090b67a6e05d8fc9d8f39544e14e5ec627cfc1864a5c/1600.jpg",
+      "metrics": {
+        "width": 1120,
+        "height": 1408,
+        "aspect": 0.7955,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.5373
+      }
+    },
+    {
+      "id": 3076,
+      "title": "MADiSON",
+      "aliases": [
+        "Madison [Possessed Edition]"
+      ],
+      "bucket": "review",
+      "reason": "missing_cover",
+      "status": "accepted",
+      "alias": "Madison [Possessed Edition]",
+      "matchedTitle": "Madison [Possessed Edition]",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/madison-possessed-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/5kgxuowijurlifpf/1600.jpg",
+      "metrics": {
+        "width": 1122,
+        "height": 1398,
+        "aspect": 0.8026,
+        "bannerColumnSpan": 0.9889,
+        "bannerPixelRatio": 0.5025
+      }
+    },
+    {
+      "id": 2982,
+      "title": "Matchpoint: Tennis Championships",
+      "aliases": [
+        "Matchpoint: Tennis Championships [Legends Edition]"
+      ],
+      "bucket": "review",
+      "reason": "missing_cover",
+      "status": "accepted",
+      "alias": "Matchpoint: Tennis Championships [Legends Edition]",
+      "matchedTitle": "Matchpoint: Tennis Championships [Legends Edition]",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/matchpoint-tennis-championships-legends-edition?q=matchpoint%3A+tennis+championships+%5Blegends+edition%5D+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/8dc1c42c312a0a06159a8f1c45e5a10e2c929d383e022b54deb17603f582b1a3/1600.jpg",
+      "metrics": {
+        "width": 1189,
+        "height": 1500,
+        "aspect": 0.7927,
+        "bannerColumnSpan": 0.9944,
+        "bannerPixelRatio": 0.688
+      }
+    },
+    {
+      "id": 3052,
+      "title": "Monster Menu: The Scavenger's Cookbook",
+      "aliases": [
+        "Monster Menu: The Scavenger's Cookbook [Deluxe Edition]"
+      ],
+      "bucket": "review",
+      "reason": "missing_cover",
+      "status": "accepted",
+      "alias": "Monster Menu: The Scavenger's Cookbook [Deluxe Edition]",
+      "matchedTitle": "Monster Menu: The Scavenger's Cookbook [Deluxe Edition]",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/monster-menu-the-scavenger%27s-cookbook-deluxe-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/f2a6d7c70f56ca4b12469f19307f2d3059cb69ff1f410f70094529e03ae03736/1600.jpg",
+      "metrics": {
+        "width": 1201,
+        "height": 1500,
+        "aspect": 0.8007,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.5156
+      }
+    },
+    {
+      "id": 3044,
+      "title": "New Tales from the Borderlands",
+      "aliases": [
+        "New Tales from the Borderlands [Deluxe Edition]"
+      ],
+      "bucket": "review",
+      "reason": "missing_cover",
+      "status": "accepted",
+      "alias": "New Tales from the Borderlands [Deluxe Edition]",
+      "matchedTitle": "New Tales from the Borderlands [Deluxe Edition]",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/new-tales-from-the-borderlands-deluxe-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/535431a63daaaf2525ddb13925611d5879700924464258d724d5e5757efa1389/1600.jpg",
+      "metrics": {
+        "width": 1187,
+        "height": 1500,
+        "aspect": 0.7913,
+        "bannerColumnSpan": 0.9083,
+        "bannerPixelRatio": 0.5215
+      }
+    },
+    {
+      "id": 3031,
+      "title": "Phoenix Point",
+      "aliases": [
+        "Phoenix Point [Behemoth Edition]"
+      ],
+      "bucket": "review",
+      "reason": "missing_cover",
+      "status": "accepted",
+      "alias": "Phoenix Point [Behemoth Edition]",
+      "matchedTitle": "Phoenix Point [Behemoth Edition]",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/phoenix-point-behemoth-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/69d611e2286c5b576ef99ff2de084805c61b7bf3291460228b738adf54d5e5cc/1600.jpg",
+      "metrics": {
+        "width": 1207,
+        "height": 1500,
+        "aspect": 0.8047,
+        "bannerColumnSpan": 0.9861,
+        "bannerPixelRatio": 0.6241
+      }
+    },
+    {
+      "id": 2922,
+      "title": "Planet Coaster: Console Edition",
+      "aliases": [
+        "Planet Coaster"
+      ],
+      "bucket": "review",
+      "reason": "missing_cover",
+      "status": "accepted",
+      "alias": "Planet Coaster",
+      "matchedTitle": "Planet Coaster",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/planet-coaster",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/c7153ab5442b7633de5da7bafa4b10aa749fe3cfd0fa8348afa64e32186ad469/1600.jpg",
+      "metrics": {
+        "width": 1186,
+        "height": 1500,
+        "aspect": 0.7907,
+        "bannerColumnSpan": 0.9917,
+        "bannerPixelRatio": 0.8506
+      }
+    },
+    {
+      "id": 3057,
+      "title": "Process of Elimination",
+      "aliases": [
+        "Process of Elimination [Deluxe Edition]"
+      ],
+      "bucket": "review",
+      "reason": "missing_cover",
+      "status": "accepted",
+      "alias": "Process of Elimination [Deluxe Edition]",
+      "matchedTitle": "Process of Elimination [Deluxe Edition]",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/process-of-elimination-deluxe-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/9eade45e9fea60fb68d09a62b0102216e26db4692a16a5d137092edd5ed5bb6b/1600.jpg",
       "metrics": {
         "width": 1190,
         "height": 1500,
         "aspect": 0.7933,
         "bannerColumnSpan": 0.9889,
-        "bannerPixelRatio": 0.5977
+        "bannerPixelRatio": 0.5884
       }
     },
     {
-      "id": 1861,
-      "title": "Demon Gaze Extra",
+      "id": 2992,
+      "title": "Re:Zero - The Prophecy of the Throne",
       "aliases": [
-        "Demon Gaze Extra [Day One Edition]"
+        "Re:ZERO - Starting Life in Another World: The Prophecy of the Throne"
       ],
       "bucket": "review",
-      "reason": "key_art_only",
+      "reason": "missing_cover",
       "status": "accepted",
-      "alias": "Demon Gaze Extra [Day One Edition]",
-      "matchedTitle": "Demon Gaze Extra [Day One Edition]",
-      "matchMethod": "vetted_edition_alias_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/demon-gaze-extra-day-one-edition",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/7c2da284d0b6d75b7455ae503ad3d26393506b91f5f8f98331b6078b836b4480/1600.jpg",
-      "metrics": {
-        "width": 1188,
-        "height": 1500,
-        "aspect": 0.792,
-        "bannerColumnSpan": 0.9917,
-        "bannerPixelRatio": 0.6603
-      }
-    },
-    {
-      "id": 364,
-      "title": "Diablo III: Ultimate Evil Edition",
-      "aliases": [
-        "Diablo III Reaper of Souls [Ultimate Evil Edition]"
-      ],
-      "bucket": "review",
-      "reason": "key_art_only",
-      "status": "accepted",
-      "alias": "Diablo III Reaper of Souls [Ultimate Evil Edition]",
-      "matchedTitle": "Diablo III Reaper of Souls [Ultimate Evil Edition]",
-      "matchMethod": "vetted_edition_alias_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/diablo-iii-reaper-of-souls-ultimate-evil-edition",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/2cb7a82c835947faa9af963d5e20ac3f0982b868b72f17fbb67e2311cac0c996/1600.jpg",
-      "metrics": {
-        "width": 493,
-        "height": 617,
-        "aspect": 0.799,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.4862
-      }
-    },
-    {
-      "id": 429,
-      "title": "Earthfall",
-      "aliases": [
-        "Earthfall [Deluxe Edition]",
-        "Earthfall Deluxe Edition"
-      ],
-      "bucket": "review",
-      "reason": "key_art_only",
-      "status": "accepted",
-      "alias": "Earthfall [Deluxe Edition]",
-      "matchedTitle": "Earthfall Deluxe Edition",
-      "matchMethod": "vetted_edition_alias_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/earthfall-deluxe-edition",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96sl_m1NlaGrm6U1bRGqxkDLkH-ds7a3mKYM14kG7uNPszC3p4ww3w0QofDQKcBKo9xqAjJzZmtOGcelZ75wEfYhhma1NVRcFra_TxvAgIBaHgkvkp8aZeF2uqTdHa3b9ZS6Wurywt9eQIcjvy9Dy5q34NEUA/1600.jpg",
-      "metrics": {
-        "width": 270,
-        "height": 360,
-        "aspect": 0.75,
-        "bannerColumnSpan": 0.8519,
-        "bannerPixelRatio": 0.404
-      }
-    },
-    {
-      "id": 1824,
-      "title": "Gearshifters",
-      "aliases": [
-        "Gear Shifters",
-        "Gear Shifters [Collector's Edition]"
-      ],
-      "bucket": "review",
-      "reason": "key_art_only",
-      "status": "accepted",
-      "alias": "Gear Shifters",
-      "matchedTitle": "Gear Shifters",
-      "matchMethod": "vetted_edition_alias_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/gear-shifters",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/4d66c60948dc4370da49d50fa66faaadc8a190cdfea5e8ba622c1a4dfce64a0d/1600.jpg",
-      "metrics": {
-        "width": 1136,
-        "height": 1428,
-        "aspect": 0.7955,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.8544
-      }
-    },
-    {
-      "id": 2599,
-      "title": "Harry Potter: Quidditch Champions",
-      "aliases": [
-        "Harry Potter: Quidditch Champions [Deluxe Edition]"
-      ],
-      "bucket": "review",
-      "reason": "key_art_only",
-      "status": "accepted",
-      "alias": "Harry Potter: Quidditch Champions [Deluxe Edition]",
-      "matchedTitle": "Harry Potter: Quidditch Champions [Deluxe Edition]",
+      "alias": "Re:ZERO - Starting Life in Another World: The Prophecy of the Throne",
+      "matchedTitle": "Re:ZERO - Starting Life in Another World: The Prophecy of the Throne",
       "matchMethod": "vetted_edition_alias_exact",
       "region": "PAL",
-      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/harry-potter-quidditch-champions-deluxe-edition?q=harry+potter%3A+quidditch+champions+%5Bdeluxe+edition%5D+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/b6cjeowlcmypftaq/1600.jpg",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/rezero-starting-life-in-another-world-the-prophecy-of-the-throne",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/a55d68278a7bed31b033ee5acd5959c363b9cf5b1895fce02a471cf740b62110/1600.jpg",
+      "metrics": {
+        "width": 790,
+        "height": 1000,
+        "aspect": 0.79,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.6332
+      }
+    },
+    {
+      "id": 2981,
+      "title": "Redout 2",
+      "aliases": [
+        "Redout II: Deluxe Edition"
+      ],
+      "bucket": "review",
+      "reason": "missing_cover",
+      "status": "accepted",
+      "alias": "Redout II: Deluxe Edition",
+      "matchedTitle": "Redout II: Deluxe Edition",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/redout-ii-deluxe-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/3c00463fec2bfc990294eeee383890393a5f40fc28bc72a5299dffb15cffd398/1600.jpg",
+      "metrics": {
+        "width": 1200,
+        "height": 1500,
+        "aspect": 0.8,
+        "bannerColumnSpan": 0.9639,
+        "bannerPixelRatio": 0.615
+      }
+    },
+    {
+      "id": 2946,
+      "title": "REYNATIS",
+      "aliases": [
+        "Reynatis: Deluxe Edition"
+      ],
+      "bucket": "review",
+      "reason": "missing_cover",
+      "status": "accepted",
+      "alias": "Reynatis: Deluxe Edition",
+      "matchedTitle": "Reynatis: Deluxe Edition",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/reynatis-deluxe-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/nge4zdzwas4c6xvr/1600.jpg",
+      "metrics": {
+        "width": 1190,
+        "height": 1500,
+        "aspect": 0.7933,
+        "bannerColumnSpan": 0.9861,
+        "bannerPixelRatio": 0.584
+      }
+    },
+    {
+      "id": 2938,
+      "title": "RiMS Racing Sim",
+      "aliases": [
+        "RiMS Racing"
+      ],
+      "bucket": "review",
+      "reason": "missing_cover",
+      "status": "accepted",
+      "alias": "RiMS Racing",
+      "matchedTitle": "RiMS Racing",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/rims-racing",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/e91004aa98d077877fc2250461721cfea9d996398af5e484d2d0cfd3c0e05298/1600.jpg",
+      "metrics": {
+        "width": 1042,
+        "height": 1346,
+        "aspect": 0.7741,
+        "bannerColumnSpan": 0.9778,
+        "bannerPixelRatio": 0.5791
+      }
+    },
+    {
+      "id": 2865,
+      "title": "RollerCoaster Tycoon Adventures Deluxe",
+      "aliases": [
+        "Roller Coaster Tycoon Adventures Deluxe"
+      ],
+      "bucket": "review",
+      "reason": "missing_cover",
+      "status": "accepted",
+      "alias": "Roller Coaster Tycoon Adventures Deluxe",
+      "matchedTitle": "Roller Coaster Tycoon Adventures Deluxe",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/roller-coaster-tycoon-adventures-deluxe",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/9ebcb8397df367a72d9e727ebeb15e473f3ae25b23bd59067c157ff3eeebe1a6/1600.jpg",
       "metrics": {
         "width": 1199,
         "height": 1500,
         "aspect": 0.7993,
         "bannerColumnSpan": 0.9639,
-        "bannerPixelRatio": 0.609
+        "bannerPixelRatio": 0.6059
       }
     },
     {
-      "id": 2647,
-      "title": "Legend Of Heroes: Trails Beyond The Horizon",
+      "id": 2923,
+      "title": "The Dungeon of Naheulbeuk: The Amulet of Chaos",
       "aliases": [
-        "Legend Of Heroes: Trails Beyond The Horizon: Deluxe Edition",
-        "The Legend Of Heroes: Trails Beyond The Horizon [Deluxe Edition]",
-        "Legend Of Heroes: Trails Beyond The Horizon [Limited Edition]"
+        "The Dungeon of Naheulbeuk: The Amulet of Chaos [Chicken Edition]"
       ],
       "bucket": "review",
-      "reason": "key_art_only",
+      "reason": "missing_cover",
       "status": "accepted",
-      "alias": "Legend Of Heroes: Trails Beyond The Horizon: Deluxe Edition",
-      "matchedTitle": "Legend Of Heroes: Trails Beyond The Horizon: Deluxe Edition",
-      "matchMethod": "vetted_edition_alias_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/legend-of-heroes-trails-beyond-the-horizon-deluxe-edition",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/zknjj3mkfiszl2do/1600.jpg",
-      "metrics": {
-        "width": 516,
-        "height": 658,
-        "aspect": 0.7842,
-        "bannerColumnSpan": 0.9861,
-        "bannerPixelRatio": 0.6021
-      }
-    },
-    {
-      "id": 2649,
-      "title": "Legend Of Legacy HD Remastered",
-      "aliases": [
-        "Legend of Legacy HD Remastered [Deluxe Edition]",
-        "The Legend Of Legacy HD Remastered [Deluxe Edition]",
-        "Legend Of Legacy HD Remastered [Limited Edition]"
-      ],
-      "bucket": "review",
-      "reason": "key_art_only",
-      "status": "accepted",
-      "alias": "The Legend Of Legacy HD Remastered [Deluxe Edition]",
-      "matchedTitle": "The Legend Of Legacy HD Remastered [Deluxe Edition]",
+      "alias": "The Dungeon of Naheulbeuk: The Amulet of Chaos [Chicken Edition]",
+      "matchedTitle": "The Dungeon Of Naheulbeuk: The Amulet Of Chaos [Chicken Edition]",
       "matchMethod": "vetted_edition_alias_exact",
       "region": "PAL",
-      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/the-legend-of-legacy-hd-remastered-deluxe-edition",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/xto6sslxymifucqi/1600.jpg",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/the-dungeon-of-naheulbeuk-the-amulet-of-chaos-chicken-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/871b47f3b2c793622edf55fc4af48045fdcf958940f752c9f2735f2d7b010fdf/1600.jpg",
       "metrics": {
-        "width": 1188,
+        "width": 1182,
         "height": 1500,
-        "aspect": 0.792,
-        "bannerColumnSpan": 0.9917,
-        "bannerPixelRatio": 0.5844
-      }
-    },
-    {
-      "id": 716,
-      "title": "Lichtspeer",
-      "aliases": [
-        "Lichtspeer [Double Speer Edition]"
-      ],
-      "bucket": "review",
-      "reason": "key_art_only",
-      "status": "accepted",
-      "alias": "Lichtspeer [Double Speer Edition]",
-      "matchedTitle": "Lichtspeer [Double Speer Edition]",
-      "matchMethod": "vetted_edition_alias_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/lichtspeer-double-speer-edition",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/7z23nul75tqqotyd/1600.jpg",
-      "metrics": {
-        "width": 964,
-        "height": 1208,
-        "aspect": 0.798,
+        "aspect": 0.788,
         "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.471
+        "bannerPixelRatio": 0.661
       }
     },
     {
-      "id": 832,
-      "title": "NeuroVoider",
+      "id": 2911,
+      "title": "The Knight Witch",
       "aliases": [
-        "Neuro Voider"
+        "The Knight Witch: Deluxe Edition"
       ],
       "bucket": "review",
-      "reason": "key_art_only",
+      "reason": "missing_cover",
       "status": "accepted",
-      "alias": "Neuro Voider",
-      "matchedTitle": "Neuro Voider",
+      "alias": "The Knight Witch: Deluxe Edition",
+      "matchedTitle": "The Knight Witch: Deluxe Edition",
+      "matchMethod": "vetted_edition_alias_exact",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/the-knight-witch-deluxe-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/304af33345e2a42d0b43c3a46230e97b05a29771667c4890de5f795b61d020af/1600.jpg",
+      "metrics": {
+        "width": 1189,
+        "height": 1500,
+        "aspect": 0.7927,
+        "bannerColumnSpan": 0.9944,
+        "bannerPixelRatio": 0.6366
+      }
+    },
+    {
+      "id": 3043,
+      "title": "The Legend of Heroes: Trails to Azure",
+      "aliases": [
+        "The Legend Of Heroes: Trails To Azure [Deluxe Edition]"
+      ],
+      "bucket": "review",
+      "reason": "missing_cover",
+      "status": "accepted",
+      "alias": "The Legend Of Heroes: Trails To Azure [Deluxe Edition]",
+      "matchedTitle": "The Legend Of Heroes: Trails To Azure [Deluxe Edition]",
       "matchMethod": "vetted_edition_alias_exact",
       "region": "PAL",
-      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/neuro-voider",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/282f482269deba1ce88788016c87b4cc7d79a17d58ddf86d6933acb00abdcec8/1600.jpg",
-      "metrics": {
-        "width": 600,
-        "height": 812,
-        "aspect": 0.7389,
-        "bannerColumnSpan": 0.9972,
-        "bannerPixelRatio": 0.5387
-      }
-    },
-    {
-      "id": 897,
-      "title": "PAWARUMI",
-      "aliases": [
-        "Pawarumi [Limited Edition]"
-      ],
-      "bucket": "review",
-      "reason": "key_art_only",
-      "status": "accepted",
-      "alias": "Pawarumi [Limited Edition]",
-      "matchedTitle": "Pawarumi [Limited Edition]",
-      "matchMethod": "vetted_edition_alias_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/pawarumi-limited-edition?q=pawarumi+%5Blimited+edition%5D+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/6e89f5f4935d6b9cf6bdee32b4bc7d99c09ad9029a7c2a4a99e7a5f71378220b/1600.jpg",
-      "metrics": {
-        "width": 682,
-        "height": 1000,
-        "aspect": 0.682,
-        "bannerColumnSpan": 0.9694,
-        "bannerPixelRatio": 0.564
-      }
-    },
-    {
-      "id": 2698,
-      "title": "R-Type Tactics I & II Cosmos",
-      "aliases": [
-        "R-Type Tactics I & II Cosmos [Deluxe Edition]",
-        "R-Type Tactics I • II Cosmos [Deluxe Edition]"
-      ],
-      "bucket": "review",
-      "reason": "key_art_only",
-      "status": "accepted",
-      "alias": "R-Type Tactics I & II Cosmos [Deluxe Edition]",
-      "matchedTitle": "R-Type Tactics I & II Cosmos [Deluxe Edition]",
-      "matchMethod": "vetted_edition_alias_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/r-type-tactics-i-&-ii-cosmos-deluxe-edition",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/5txssohfz3ratiid/1600.jpg",
-      "metrics": {
-        "width": 1195,
-        "height": 1500,
-        "aspect": 0.7967,
-        "bannerColumnSpan": 0.9611,
-        "bannerPixelRatio": 0.5534
-      }
-    },
-    {
-      "id": 2705,
-      "title": "Raiden IV x MIKADO Remix",
-      "aliases": [
-        "Raiden IV x MIKADO Remix [Deluxe Edition]",
-        "Raiden IV X Mikado Remix [Deluxe Edition]"
-      ],
-      "bucket": "review",
-      "reason": "key_art_only",
-      "status": "accepted",
-      "alias": "Raiden IV x MIKADO Remix [Deluxe Edition]",
-      "matchedTitle": "Raiden IV x MIKADO Remix [Deluxe Edition]",
-      "matchMethod": "vetted_edition_alias_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/raiden-iv-x-mikado-remix-deluxe-edition",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/affd1edbb12a15953056044fd6f41d73a9cb32ebe167b3b709b0ea89706e3f1f/1600.jpg",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/the-legend-of-heroes-trails-to-azure-deluxe-edition",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/4ee7af99c59e49fc411407a059385fead9a7c31b11b485b9bddf9e76a91ceb27/1600.jpg",
       "metrics": {
         "width": 1199,
         "height": 1500,
         "aspect": 0.7993,
         "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.5125
-      }
-    },
-    {
-      "id": 1025,
-      "title": "Runbow",
-      "aliases": [
-        "Runbow Deluxe Edition"
-      ],
-      "bucket": "review",
-      "reason": "key_art_only",
-      "status": "accepted",
-      "alias": "Runbow Deluxe Edition",
-      "matchedTitle": "Runbow Deluxe Edition",
-      "matchMethod": "vetted_edition_alias_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/runbow-deluxe-edition",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95m5MQBOuYCca0xSSh23NhU76tkHxxawQ9SIpz1o-HV8Ldj-5VIQUJiZcvpRppf_aIhV64TYXQqBLawUwcT9Y7e_CtOoW11HcA9eFXTZaMgtqZaJwd43LNPhUygWSTxbEzfiY1hu9lPEnunUtSZS66p9JMyYg/1600.jpg",
-      "metrics": {
-        "width": 407,
-        "height": 512,
-        "aspect": 0.7949,
-        "bannerColumnSpan": 0.9917,
-        "bannerPixelRatio": 0.5391
-      }
-    },
-    {
-      "id": 1047,
-      "title": "Semispheres",
-      "aliases": [
-        "Semispheres [Blue]",
-        "Semispheres [Orange]"
-      ],
-      "bucket": "review",
-      "reason": "key_art_only",
-      "status": "accepted",
-      "alias": "Semispheres [Orange]",
-      "matchedTitle": "Semispheres [Orange]",
-      "matchMethod": "vetted_edition_alias_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/semispheres-orange?q=semispheres+%5Borange%5D+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94-iI2nd3E51J8eZ3KUjctWPeP6_DqMDR9Wv5B0UZa2T2UyFDZ_j7WYNNBxNpOTclD5MfBloeIjMEfK0UgiaKcpZ3c1CXqD0Qa02Ha9X58INIfitdn1QQjPrK3_SHn5g9WAUD9--wGP4mHMQT56yQ5DbWDvYw/1600.jpg",
-      "metrics": {
-        "width": 249,
-        "height": 360,
-        "aspect": 0.6917,
-        "bannerColumnSpan": 0.8876,
-        "bannerPixelRatio": 0.4258
-      }
-    },
-    {
-      "id": 1228,
-      "title": "The Coma: Recut",
-      "aliases": [
-        "The Coma: Recut [Limited Edition]"
-      ],
-      "bucket": "review",
-      "reason": "key_art_only",
-      "status": "accepted",
-      "alias": "The Coma: Recut [Limited Edition]",
-      "matchedTitle": "The Coma: Recut [Limited Edition]",
-      "matchMethod": "vetted_edition_alias_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/the-coma-recut-limited-edition?q=the+coma%3A+recut+%5Blimited+edition%5D+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94ZDbQao7b5WC9FAeDTgef_LWYpapnqvortYNTzPbm4Bp9TcorI8FFFcrBT3g0AQP0zGowTT1lO0rjpU5yhcoMIbQsQeTcB9EI8D66GW69QvKpci1-sPg6uqq5DSenRL9e3Z58liI2C9YzHoS-DUZ2Y8smgTg/1600.jpg",
-      "metrics": {
-        "width": 403,
-        "height": 512,
-        "aspect": 0.7871,
-        "bannerColumnSpan": 0.7639,
-        "bannerPixelRatio": 0.3572
-      }
-    },
-    {
-      "id": 1258,
-      "title": "The Last Blade 2",
-      "aliases": [
-        "Last Blade 2",
-        "Last Blade 2 [Collector's Edition]"
-      ],
-      "bucket": "review",
-      "reason": "key_art_only",
-      "status": "accepted",
-      "alias": "Last Blade 2",
-      "matchedTitle": "Last Blade 2",
-      "matchMethod": "vetted_edition_alias_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/last-blade-2",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/9d0579f4cd79f675632de1d80e56c580b076a1e71722ac749a0fdcb58d31ddce/1600.jpg",
-      "metrics": {
-        "width": 390,
-        "height": 551,
-        "aspect": 0.7078,
-        "bannerColumnSpan": 0.8472,
-        "bannerPixelRatio": 0.4534
-      }
-    },
-    {
-      "id": 1774,
-      "title": "Umbrella Corps",
-      "aliases": [
-        "Resident Evil Umbrella Corps",
-        "Biohazard Umbrella Corps"
-      ],
-      "bucket": "review",
-      "reason": "key_art_only",
-      "status": "accepted",
-      "alias": "Resident Evil Umbrella Corps",
-      "matchedTitle": "Resident Evil Umbrella Corps",
-      "matchMethod": "vetted_edition_alias_exact",
-      "region": "JP",
-      "productUrl": "https://www.pricecharting.com/game/jp-playstation-4/resident-evil-umbrella-corps",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/95ef4b03dceddb8108dbaa6e58fe21cb3b53aac3e1b9cc410dcbbca1106dc49d/1600.jpg",
-      "metrics": {
-        "width": 480,
-        "height": 600,
-        "aspect": 0.8,
-        "bannerColumnSpan": 0.9972,
-        "bannerPixelRatio": 0.5087
+        "bannerPixelRatio": 0.5525
       }
     }
   ],
@@ -705,41 +670,6 @@
       ]
     },
     {
-      "id": 1875,
-      "title": "Taimumari",
-      "aliases": [
-        "Taimumari: Complete Edition"
-      ],
-      "bucket": "review",
-      "reason": "key_art_only",
-      "attempts": [
-        {
-          "status": "rejected",
-          "alias": "Taimumari: Complete Edition",
-          "attempts": [
-            {
-              "alias": "Taimumari: Complete Edition",
-              "matchedTitle": "Taimumari: Complete Edition",
-              "region": "PAL",
-              "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/taimumari-complete-edition?q=taimumari%3A+complete+edition+playstation+4",
-              "image": "https://storage.googleapis.com/images.pricecharting.com/ea89ef433b44348a122919c21fe10baa62c930c67bf281a81489b7a5a5070d31/1600.jpg",
-              "reason": "failed_retail_front_gate",
-              "metrics": {
-                "width": 1358,
-                "height": 1600,
-                "aspect": 0.8488,
-                "bannerColumnSpan": 0.9194,
-                "bannerPixelRatio": 0.4156
-              }
-            }
-          ],
-          "candidateTitles": [
-            "Taimumari: Complete Edition"
-          ]
-        }
-      ]
-    },
-    {
       "id": 2019,
       "title": "The King of Fighters 2000",
       "aliases": [
@@ -801,71 +731,230 @@
       ]
     },
     {
-      "id": 2049,
-      "title": "The Legend of Heroes: Trails through Daybreak II",
+      "id": 2954,
+      "title": "Override 2: Super Mech League",
       "aliases": [
-        "Legend Of Heroes: Trails Through Daybreak II [Deluxe Edition]",
-        "The Legend Of Heroes: Trails Through Daybreak II [Deluxe Edition]",
-        "Legend Of Heroes: Trails Through Daybreak II [Limited Edition]"
+        "Override 2: Super Mech League [Ultraman Deluxe Edition]"
       ],
       "bucket": "review",
-      "reason": "key_art_only",
+      "reason": "missing_cover",
       "attempts": [
         {
-          "status": "error",
-          "alias": "Legend Of Heroes: Trails Through Daybreak II [Deluxe Edition]",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "status": "no_exact_alias",
-          "alias": "The Legend Of Heroes: Trails Through Daybreak II [Deluxe Edition]",
-          "attempts": [],
-          "candidateTitles": [
-            "Legend Of Heroes: Trails Through Daybreak II [Deluxe Edition]",
-            "Legend Of Heroes: Trails Through Daybreak II [Deluxe Edition]"
-          ]
-        },
-        {
           "status": "rejected",
-          "alias": "Legend Of Heroes: Trails Through Daybreak II [Limited Edition]",
+          "alias": "Override 2: Super Mech League [Ultraman Deluxe Edition]",
           "attempts": [
             {
-              "alias": "Legend Of Heroes: Trails Through Daybreak II [Limited Edition]",
-              "matchedTitle": "Legend Of Heroes: Trails Through Daybreak II [Limited Edition]",
+              "alias": "Override 2: Super Mech League [Ultraman Deluxe Edition]",
+              "matchedTitle": "Override 2: Super Mech League [Ultraman Deluxe Edition]",
               "region": "US/NTSC",
-              "productUrl": "https://www.pricecharting.com/game/playstation-4/legend-of-heroes-trails-through-daybreak-ii-limited-edition",
-              "image": "https://storage.googleapis.com/images.pricecharting.com/gnfsnmkyvdh4iq2t/1600.jpg",
+              "productUrl": "https://www.pricecharting.com/game/playstation-4/override-2-super-mech-league-ultraman-deluxe-edition",
+              "image": "https://storage.googleapis.com/images.pricecharting.com/195380072752fd2ff38edc8dedd0828863aab714c58006507b31d5d2263b83c7/1600.jpg",
               "reason": "failed_retail_front_gate",
               "metrics": {
-                "width": 1388,
-                "height": 1080,
-                "aspect": 1.2852,
-                "bannerColumnSpan": 0.0,
-                "bannerPixelRatio": 0.0
+                "width": 1235,
+                "height": 1500,
+                "aspect": 0.8233,
+                "bannerColumnSpan": 1.0,
+                "bannerPixelRatio": 0.4876
               }
             },
             {
-              "alias": "Legend Of Heroes: Trails Through Daybreak II [Limited Edition]",
-              "matchedTitle": "Legend Of Heroes: Trails Through Daybreak II [Limited Edition]",
+              "alias": "Override 2: Super Mech League [Ultraman Deluxe Edition]",
+              "matchedTitle": "Override 2: Super Mech League [Ultraman Deluxe Edition]",
               "region": "PAL",
-              "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/legend-of-heroes-trails-through-daybreak-ii-limited-edition",
-              "image": "https://storage.googleapis.com/images.pricecharting.com/mo5ln7fxivzygnyo/1600.jpg",
+              "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/override-2-super-mech-league-ultraman-deluxe-edition",
+              "image": "https://storage.googleapis.com/images.pricecharting.com/06b8d9833da72128b1a88edd40c30c5bf1ab30f8aa2c2aa6593cff918dc4ddd3/1600.jpg",
               "reason": "failed_retail_front_gate",
               "metrics": {
-                "width": 533,
-                "height": 300,
-                "aspect": 1.7767,
-                "bannerColumnSpan": 0.0,
-                "bannerPixelRatio": 0.0
+                "width": 823,
+                "height": 1000,
+                "aspect": 0.823,
+                "bannerColumnSpan": 1.0,
+                "bannerPixelRatio": 0.4406
               }
             }
           ],
           "candidateTitles": [
-            "Legend Of Heroes: Trails Through Daybreak II [Limited Edition]",
-            "Legend Of Heroes: Trails Through Daybreak II [Limited Edition]"
+            "Override 2: Super Mech League [Ultraman Deluxe Edition]",
+            "Override 2: Super Mech League [Ultraman Deluxe Edition]"
           ]
         }
       ]
+    }
+  ],
+  "errors": [],
+  "skipped": [
+    {
+      "id": 2485,
+      "title": "Anonymous;Code",
+      "aliases": [
+        "Anonymous;Code [SteelBook Launch Edition]"
+      ],
+      "skipReason": "not_currently_unresolved"
+    },
+    {
+      "id": 2497,
+      "title": "Asterix & Obelix XXXL: The Ram from Hibernia",
+      "aliases": [
+        "Asterix & Obelix XXXL: The Ram from Hibernia [Limited Edition]",
+        "Asterix & Obelix XXXL: The Ram From Hibernia [Collector's Edition]"
+      ],
+      "skipReason": "not_currently_unresolved"
+    },
+    {
+      "id": 2301,
+      "title": "Crymachina",
+      "aliases": [
+        "Crymachina [Deluxe Edition]",
+        "Crymachina [Limited Edition]"
+      ],
+      "skipReason": "not_currently_unresolved"
+    },
+    {
+      "id": 1861,
+      "title": "Demon Gaze Extra",
+      "aliases": [
+        "Demon Gaze Extra [Day One Edition]"
+      ],
+      "skipReason": "not_currently_unresolved"
+    },
+    {
+      "id": 364,
+      "title": "Diablo III: Ultimate Evil Edition",
+      "aliases": [
+        "Diablo III Reaper of Souls [Ultimate Evil Edition]"
+      ],
+      "skipReason": "not_currently_unresolved"
+    },
+    {
+      "id": 429,
+      "title": "Earthfall",
+      "aliases": [
+        "Earthfall [Deluxe Edition]",
+        "Earthfall Deluxe Edition"
+      ],
+      "skipReason": "not_currently_unresolved"
+    },
+    {
+      "id": 1824,
+      "title": "Gearshifters",
+      "aliases": [
+        "Gear Shifters",
+        "Gear Shifters [Collector's Edition]"
+      ],
+      "skipReason": "not_currently_unresolved"
+    },
+    {
+      "id": 2599,
+      "title": "Harry Potter: Quidditch Champions",
+      "aliases": [
+        "Harry Potter: Quidditch Champions [Deluxe Edition]"
+      ],
+      "skipReason": "not_currently_unresolved"
+    },
+    {
+      "id": 2647,
+      "title": "Legend Of Heroes: Trails Beyond The Horizon",
+      "aliases": [
+        "Legend Of Heroes: Trails Beyond The Horizon: Deluxe Edition",
+        "The Legend Of Heroes: Trails Beyond The Horizon [Deluxe Edition]",
+        "Legend Of Heroes: Trails Beyond The Horizon [Limited Edition]"
+      ],
+      "skipReason": "not_currently_unresolved"
+    },
+    {
+      "id": 2649,
+      "title": "Legend Of Legacy HD Remastered",
+      "aliases": [
+        "Legend of Legacy HD Remastered [Deluxe Edition]",
+        "The Legend Of Legacy HD Remastered [Deluxe Edition]",
+        "Legend Of Legacy HD Remastered [Limited Edition]"
+      ],
+      "skipReason": "not_currently_unresolved"
+    },
+    {
+      "id": 716,
+      "title": "Lichtspeer",
+      "aliases": [
+        "Lichtspeer [Double Speer Edition]"
+      ],
+      "skipReason": "not_currently_unresolved"
+    },
+    {
+      "id": 832,
+      "title": "NeuroVoider",
+      "aliases": [
+        "Neuro Voider"
+      ],
+      "skipReason": "not_currently_unresolved"
+    },
+    {
+      "id": 897,
+      "title": "PAWARUMI",
+      "aliases": [
+        "Pawarumi [Limited Edition]"
+      ],
+      "skipReason": "not_currently_unresolved"
+    },
+    {
+      "id": 2698,
+      "title": "R-Type Tactics I & II Cosmos",
+      "aliases": [
+        "R-Type Tactics I & II Cosmos [Deluxe Edition]",
+        "R-Type Tactics I • II Cosmos [Deluxe Edition]"
+      ],
+      "skipReason": "not_currently_unresolved"
+    },
+    {
+      "id": 2705,
+      "title": "Raiden IV x MIKADO Remix",
+      "aliases": [
+        "Raiden IV x MIKADO Remix [Deluxe Edition]",
+        "Raiden IV X Mikado Remix [Deluxe Edition]"
+      ],
+      "skipReason": "not_currently_unresolved"
+    },
+    {
+      "id": 1025,
+      "title": "Runbow",
+      "aliases": [
+        "Runbow Deluxe Edition"
+      ],
+      "skipReason": "not_currently_unresolved"
+    },
+    {
+      "id": 1047,
+      "title": "Semispheres",
+      "aliases": [
+        "Semispheres [Blue]",
+        "Semispheres [Orange]"
+      ],
+      "skipReason": "not_currently_unresolved"
+    },
+    {
+      "id": 1875,
+      "title": "Taimumari",
+      "aliases": [
+        "Taimumari: Complete Edition"
+      ],
+      "skipReason": "not_currently_unresolved"
+    },
+    {
+      "id": 1228,
+      "title": "The Coma: Recut",
+      "aliases": [
+        "The Coma: Recut [Limited Edition]"
+      ],
+      "skipReason": "not_currently_unresolved"
+    },
+    {
+      "id": 1258,
+      "title": "The Last Blade 2",
+      "aliases": [
+        "Last Blade 2",
+        "Last Blade 2 [Collector's Edition]"
+      ],
+      "skipReason": "not_currently_unresolved"
     },
     {
       "id": 1278,
@@ -874,39 +963,7 @@
         "The Mummy Demastered [Limited Run]",
         "The Mummy Demastered [Collector's Edition]"
       ],
-      "bucket": "review",
-      "reason": "key_art_only",
-      "attempts": [
-        {
-          "status": "error",
-          "alias": "The Mummy Demastered [Limited Run]",
-          "error": "HTTP Error 429: Too Many Requests"
-        },
-        {
-          "status": "rejected",
-          "alias": "The Mummy Demastered [Collector's Edition]",
-          "attempts": [
-            {
-              "alias": "The Mummy Demastered [Collector's Edition]",
-              "matchedTitle": "The Mummy Demastered [Collector's Edition]",
-              "region": "US/NTSC",
-              "productUrl": "https://www.pricecharting.com/game/playstation-4/the-mummy-demastered-collector%27s-edition?q=the+mummy+demastered+%5Bcollector%27s+edition%5D+playstation+4",
-              "image": "https://storage.googleapis.com/images.pricecharting.com/ceba4c024b8e9b55e30da1814b2e695791ba09d191078c3b13ee6b056c33e563/1600.jpg",
-              "reason": "failed_retail_front_gate",
-              "metrics": {
-                "width": 1600,
-                "height": 1287,
-                "aspect": 1.2432,
-                "bannerColumnSpan": 0.2083,
-                "bannerPixelRatio": 0.0476
-              }
-            }
-          ],
-          "candidateTitles": [
-            "The Mummy Demastered [Collector's Edition]"
-          ]
-        }
-      ]
+      "skipReason": "not_currently_unresolved"
     },
     {
       "id": 1336,
@@ -914,52 +971,16 @@
       "aliases": [
         "Rainbow Six Siege [Advanced Edition]"
       ],
-      "bucket": "review",
-      "reason": "key_art_only",
-      "attempts": [
-        {
-          "status": "rejected",
-          "alias": "Rainbow Six Siege [Advanced Edition]",
-          "attempts": [
-            {
-              "alias": "Rainbow Six Siege [Advanced Edition]",
-              "matchedTitle": "Rainbow Six Siege [Advanced Edition]",
-              "region": "US/NTSC",
-              "productUrl": "https://www.pricecharting.com/game/playstation-4/rainbow-six-siege-advanced-edition",
-              "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94Z0vsQbXwXu1oIjK4PJrq2b_JQipFX4PkrZOyk_ZURhIO9EE2UQPBeG5B8yXxGyj2WqE7-Z7M4D8fNXDxxEAL38_W2gi8i4ATNOURiFpOoxFWjPmnFfmNE_WAqpkZ0kpFCf4Y7CuQ-HHVIG3Ntfw4XtfdqMQ/1600.jpg",
-              "reason": "failed_retail_front_gate",
-              "metrics": {
-                "width": 298,
-                "height": 360,
-                "aspect": 0.8278,
-                "bannerColumnSpan": 0.9295,
-                "bannerPixelRatio": 0.4557
-              }
-            },
-            {
-              "alias": "Rainbow Six Siege [Advanced Edition]",
-              "matchedTitle": "Rainbow Six Siege [Advanced Edition]",
-              "region": "PAL",
-              "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/rainbow-six-siege-advanced-edition",
-              "image": "https://storage.googleapis.com/images.pricecharting.com/ij256nx7qhbqz3vm/1600.jpg",
-              "reason": "failed_retail_front_gate",
-              "metrics": {
-                "width": 700,
-                "height": 700,
-                "aspect": 1.0,
-                "bannerColumnSpan": 0.8,
-                "bannerPixelRatio": 0.4153
-              }
-            }
-          ],
-          "candidateTitles": [
-            "Rainbow Six Siege [Advanced Edition]",
-            "Rainbow Six Siege [Advanced Edition]"
-          ]
-        }
-      ]
+      "skipReason": "not_currently_unresolved"
+    },
+    {
+      "id": 1774,
+      "title": "Umbrella Corps",
+      "aliases": [
+        "Resident Evil Umbrella Corps",
+        "Biohazard Umbrella Corps"
+      ],
+      "skipReason": "not_currently_unresolved"
     }
-  ],
-  "errors": [],
-  "skipped": []
+  ]
 }

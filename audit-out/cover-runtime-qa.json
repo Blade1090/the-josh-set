@@ -1,45 +1,64 @@
 {
-  "generatedAt": "2026-10-24T19:28:43.185Z",
+  "generatedAt": "2026-11-09T18:27:27.657Z",
   "summary": {
-    "generatedAt": "2026-10-24T19:28:43.185Z",
-    "included": 2417,
-    "good": 2189,
+    "generatedAt": "2026-11-09T18:27:27.657Z",
+    "included": 2622,
+    "good": 2357,
     "fallback": 8,
-    "review": 201,
-    "watch": 19,
-    "physicalVerify": 202,
-    "physicalLikely": 1397,
-    "physicalConfirmed": 818,
+    "review": 244,
+    "watch": 13,
+    "physicalVerify": 239,
+    "physicalLikely": 1475,
+    "physicalConfirmed": 908,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "missing_cover": 5,
-      "key_art_only": 178,
+      "missing_cover": 54,
+      "key_art_only": 172,
       "missing_ps4_banner": 18
     },
     "watchByReason": {
-      "image_fetch_failed": 19
+      "image_fetch_failed": 13
     },
-    "synthetic": 210,
+    "synthetic": 202,
     "displayTiers": {
-      "GOOD": 2189,
+      "GOOD": 2357,
       "FALLBACK": 8,
-      "SYNTHETIC": 210,
-      "BLANK": 10
+      "SYNTHETIC": 202,
+      "BLANK": 55
     },
     "syntheticByRealState": {
-      "REVIEW": 196,
-      "WATCH": 14
+      "REVIEW": 190,
+      "WATCH": 12
     },
-    "syntheticIgnoredRealCover": [],
+    "syntheticIgnoredRealCover": [
+      1625,
+      2471,
+      2256,
+      2257,
+      2469,
+      1069,
+      1731,
+      2049
+    ],
     "syntheticMissingFile": []
   },
   "review": [
     {
-      "id": 2791,
-      "title": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
+      "id": 2842,
+      "title": "Cabela's African Adventures",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2827,
+      "title": "Call of Duty: Black Ops 7",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3053,
+      "title": "Death or Treat",
       "reason": "missing_cover"
     },
     {
@@ -48,18 +67,253 @@
       "reason": "missing_cover"
     },
     {
-      "id": 2798,
-      "title": "Gungrave G.O.R.E.",
+      "id": 3062,
+      "title": "Disco Elysium: The Final Cut",
       "reason": "missing_cover"
     },
     {
-      "id": 2793,
-      "title": "RayCrisis",
+      "id": 2913,
+      "title": "ELEX II",
       "reason": "missing_cover"
     },
     {
-      "id": 2792,
-      "title": "RayStorm",
+      "id": 2878,
+      "title": "Exoprimal",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2850,
+      "title": "Five Nights at Freddy's: Help Wanted",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2941,
+      "title": "Five Nights at Freddy's: Into the Pit",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2909,
+      "title": "Ghostbusters: Spirits Unleashed",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2964,
+      "title": "Gloomhaven: Mercenaries Edition",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2822,
+      "title": "Gran Turismo 7",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2835,
+      "title": "Hitman 3",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2823,
+      "title": "Jurassic World Evolution 2",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3019,
+      "title": "Kukoos: Lost Pets",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2830,
+      "title": "LEGO 2K Drive",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3077,
+      "title": "Let's Build a Zoo",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2972,
+      "title": "Life in Willowdale: Farm Adventures",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2960,
+      "title": "Loop8: Summer of Gods",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3018,
+      "title": "Maglam Lord",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2988,
+      "title": "Matchbox Driving Adventures",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3010,
+      "title": "MechWarrior 5: Mercenaries",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2930,
+      "title": "Mercenaries Rebirth: Call of the Wild Lynx",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2973,
+      "title": "Metal Tales: Overkill",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3013,
+      "title": "Minecraft Legends",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2985,
+      "title": "Miss Kobayashi's Dragon Maid: Burst Forth!! Choro-gon Breath",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2996,
+      "title": "MONARK",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2994,
+      "title": "Monster Harvest",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3004,
+      "title": "Moving Out 2",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2840,
+      "title": "MX vs. ATV Legends",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2987,
+      "title": "My Little Pony: A Maretime Bay Adventure",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3012,
+      "title": "My Little Pony: A Zephyr Heights Mystery",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2947,
+      "title": "Nick Jr. Party Adventure",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2954,
+      "title": "Override 2: Super Mech League",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3068,
+      "title": "Oxenfree",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2860,
+      "title": "Police Simulator: Patrol Officers",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2997,
+      "title": "Reel Fishing: Road Trip Adventure",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2991,
+      "title": "Ryan's Rescue Squad",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2983,
+      "title": "Severed Steel",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2998,
+      "title": "Slaycation Paradise",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2949,
+      "title": "Smile For Me",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2901,
+      "title": "Sniper Elite 5",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3017,
+      "title": "Speed 3 Grand Prix",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2924,
+      "title": "Star Ocean: The Second Story R",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2944,
+      "title": "Star Trek Prodigy: Supernova",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3071,
+      "title": "Star Trek: Resurgence",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2950,
+      "title": "Story of Seasons: Pioneers of Olive Town",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2902,
+      "title": "Stubbs the Zombie in Rebel Without a Pulse",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3037,
+      "title": "The Eternal Cylinder",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2804,
+      "title": "The Grinch: Christmas Adventures",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2836,
+      "title": "The Texas Chain Saw Massacre",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3027,
+      "title": "Tin and Kuna",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3022,
+      "title": "Winter Games 2023",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 2848,
+      "title": "World of Outlaws: Dirt Racing",
       "reason": "missing_cover"
     },
     {
@@ -238,11 +492,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1625,
-      "title": "Galak-Z: The Void",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1938,
       "title": "Gekido Kintaro's Revenge",
       "reason": "key_art_only"
@@ -278,18 +527,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2256,
-      "title": "Hammerwatch",
-      "reason": "key_art_only"
-    },
-    {
       "id": 586,
       "title": "Hero Must Die. Again",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2257,
-      "title": "Heroes of Hammerwatch - Ultimate Edition",
       "reason": "key_art_only"
     },
     {
@@ -583,11 +822,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1069,
-      "title": "Shenmue II",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1726,
       "title": "Shikhondo: Soul Eater",
       "reason": "key_art_only"
@@ -615,11 +849,6 @@
     {
       "id": 1076,
       "title": "Siralim",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1731,
-      "title": "Skulls of the Shogun: Bone-a-Fide Edition",
       "reason": "key_art_only"
     },
     {
@@ -780,11 +1009,6 @@
     {
       "id": 2019,
       "title": "The King of Fighters 2000",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2049,
-      "title": "The Legend of Heroes: Trails through Daybreak II",
       "reason": "key_art_only"
     },
     {
@@ -1092,28 +1316,8 @@
       "reason": "image_fetch_failed"
     },
     {
-      "id": 31,
-      "title": "Ace Combat 7: Skies Unknown",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 100,
-      "title": "Assassin's Creed Odyssey",
-      "reason": "image_fetch_failed"
-    },
-    {
       "id": 1969,
       "title": "Cannon Dancer",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 1803,
-      "title": "Elden Ring",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 2471,
-      "title": "Get Star / Guardian",
       "reason": "image_fetch_failed"
     },
     {
@@ -1124,11 +1328,6 @@
     {
       "id": 1971,
       "title": "Jim Power: The Lost Dimension",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 2469,
-      "title": "Kyukyoku Tiger / Twin Cobra",
       "reason": "image_fetch_failed"
     },
     {
@@ -1154,11 +1353,6 @@
     {
       "id": 1685,
       "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 2794,
-      "title": "Persona 5 Strikers",
       "reason": "image_fetch_failed"
     },
     {
@@ -1506,25 +1700,11 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 1625,
-      "title": "Galak-Z: The Void",
-      "url": "covers/ps4-synthetic/1625.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 1938,
       "title": "Gekido Kintaro's Revenge",
       "url": "covers/ps4-synthetic/1938.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
-    },
-    {
-      "id": 2471,
-      "title": "Get Star / Guardian",
-      "url": "covers/ps4-synthetic/2471.jpg",
-      "realState": "WATCH",
-      "realReason": "image_fetch_failed"
     },
     {
       "id": 2311,
@@ -1583,23 +1763,9 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 2256,
-      "title": "Hammerwatch",
-      "url": "covers/ps4-synthetic/2256.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 586,
       "title": "Hero Must Die. Again",
       "url": "covers/ps4-synthetic/586.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2257,
-      "title": "Heroes of Hammerwatch - Ultimate Edition",
-      "url": "covers/ps4-synthetic/2257.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -1628,13 +1794,6 @@
       "id": 1971,
       "title": "Jim Power: The Lost Dimension",
       "url": "covers/ps4-synthetic/1971.jpg",
-      "realState": "WATCH",
-      "realReason": "image_fetch_failed"
-    },
-    {
-      "id": 2469,
-      "title": "Kyukyoku Tiger / Twin Cobra",
-      "url": "covers/ps4-synthetic/2469.jpg",
       "realState": "WATCH",
       "realReason": "image_fetch_failed"
     },
@@ -2101,13 +2260,6 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 1069,
-      "title": "Shenmue II",
-      "url": "covers/ps4-synthetic/1069.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 1726,
       "title": "Shikhondo: Soul Eater",
       "url": "covers/ps4-synthetic/1726.jpg",
@@ -2146,13 +2298,6 @@
       "id": 1076,
       "title": "Siralim",
       "url": "covers/ps4-synthetic/1076.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1731,
-      "title": "Skulls of the Shogun: Bone-a-Fide Edition",
-      "url": "covers/ps4-synthetic/1731.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -2412,13 +2557,6 @@
       "id": 2019,
       "title": "The King of Fighters 2000",
       "url": "covers/ps4-synthetic/2019.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2049,
-      "title": "The Legend of Heroes: Trails through Daybreak II",
-      "url": "covers/ps4-synthetic/2049.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
