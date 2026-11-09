@@ -1,1165 +1,50 @@
 {
   "summary": {
-    "targeted": 352,
-    "preserved": 411,
-    "acceptedThisRun": 58,
-    "totalPriceChartingCovers": 469,
-    "noExactMatch": 81,
-    "rejectedByImageGate": 156,
-    "errors": 57,
+    "targeted": 273,
+    "preserved": 488,
+    "acceptedThisRun": 1,
+    "totalPriceChartingCovers": 489,
+    "noExactMatch": 61,
+    "rejectedByImageGate": 143,
+    "errors": 68,
     "regionCounts": {
-      "US/NTSC": 54,
-      "PAL": 3,
-      "JP": 1
+      "US/NTSC": 1
     },
     "matchMethods": {
-      "normalized_exact": 58
+      "normalized_exact": 1
     },
     "standard": "exact/compact exact PS4 product + straight portrait image + strong blue PS4 header"
   },
   "accepted": [
     {
-      "id": 3059,
-      "title": "Coffee Talk Episode 2: Hibiscus & Butterfly",
+      "id": 3069,
+      "title": "Mercenaries Blaze: Dawn of the Twin Dragons",
       "bucket": "review",
       "reason": "missing_cover",
-      "matchedTitle": "Coffee Talk Episode 2: Hibiscus And Butterfly",
+      "matchedTitle": "Mercenaries Blaze: Dawn of the Twin Dragons",
       "matchMethod": "normalized_exact",
       "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/coffee-talk-episode-2-hibiscus-and-butterfly",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/xwrhei65mc5nzqd6/1600.jpg",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/mercenaries-blaze-dawn-of-the-twin-dragons?q=mercenaries+blaze%3A+dawn+of+the+twin+dragons+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/3d8fcac8cb8adb83afe18054c967253ad9726faf03d1d282d599bc107dd6387e/1600.jpg",
       "metrics": {
-        "width": 782,
-        "height": 1000,
-        "aspect": 0.782,
-        "bannerColumnSpan": 0.9972,
-        "bannerPixelRatio": 0.6296
-      }
-    },
-    {
-      "id": 2801,
-      "title": "Curse of the Sea Rats",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Curse of the Sea Rats",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/curse-of-the-sea-rats",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/bc0a4e2ff90427ab8a72001a9274eeb46091293aa725cd4578ed5314cf102477/1600.jpg",
-      "metrics": {
-        "width": 1211,
-        "height": 1500,
-        "aspect": 0.8073,
-        "bannerColumnSpan": 0.9528,
-        "bannerPixelRatio": 0.7916
-      }
-    },
-    {
-      "id": 3055,
-      "title": "Days of Doom",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Days of Doom",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/days-of-doom",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/bb301c8e529051f1f34a7daf6508ebbcabae6088f7974b33e4a93693fb2942b3/1600.jpg",
-      "metrics": {
-        "width": 501,
-        "height": 640,
-        "aspect": 0.7828,
+        "width": 497,
+        "height": 631,
+        "aspect": 0.7876,
         "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.6156
-      }
-    },
-    {
-      "id": 2886,
-      "title": "Dolphin Spirit: Ocean Mission",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Dolphin Spirit: Ocean Mission",
-      "matchMethod": "normalized_exact",
-      "region": "PAL",
-      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/dolphin-spirit-ocean-mission?q=dolphin+spirit%3A+ocean+mission+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/lijiirqw4yr2u24r/1600.jpg",
-      "metrics": {
-        "width": 1189,
-        "height": 1500,
-        "aspect": 0.7927,
-        "bannerColumnSpan": 0.9917,
-        "bannerPixelRatio": 0.7122
-      }
-    },
-    {
-      "id": 2869,
-      "title": "DreamWorks All-Star Kart Racing",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "DreamWorks All-Star Kart Racing",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/dreamworks-all-star-kart-racing",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/58fae598dda49f23a9eb34b1b6dbb7cd1fa81ed4f0d9fc48cf80c02d48477bb5/1600.jpg",
-      "metrics": {
-        "width": 1166,
-        "height": 1500,
-        "aspect": 0.7773,
-        "bannerColumnSpan": 0.9889,
-        "bannerPixelRatio": 0.5794
-      }
-    },
-    {
-      "id": 2975,
-      "title": "Endling - Extinction is Forever",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Endling Extinction Is Forever",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/endling-extinction-is-forever",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/6b6aee67e0ec4744c41bd21d91ddd9f24c44285d39d6d910aa65a2f4203f12ea/1600.jpg",
-      "metrics": {
-        "width": 1066,
-        "height": 1335,
-        "aspect": 0.7985,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.523
-      }
-    },
-    {
-      "id": 2906,
-      "title": "Family Feud",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Family Feud",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/family-feud?q=family+feud+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/e14acfffcc4c4fe934b28b348f87bf260cb8c875d49596f4d21bd4b4caa916fd/1600.jpg",
-      "metrics": {
-        "width": 395,
-        "height": 500,
-        "aspect": 0.79,
-        "bannerColumnSpan": 0.9111,
-        "bannerPixelRatio": 0.4472
-      }
-    },
-    {
-      "id": 2814,
-      "title": "Five Nights at Freddy's: Security Breach",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Five Nights at Freddy's: Security Breach",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/five-nights-at-freddy%27s-security-breach",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/4a223051810407377b0547140fec957de01dc29f0abb9c774edb824b13350fac/1600.jpg",
-      "metrics": {
-        "width": 1204,
-        "height": 1500,
-        "aspect": 0.8027,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.5374
-      }
-    },
-    {
-      "id": 2806,
-      "title": "Gabby's Dollhouse: Ready to Party",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Gabby's Dollhouse: Ready To Party",
-      "matchMethod": "normalized_exact",
-      "region": "PAL",
-      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/gabby%27s-dollhouse-ready-to-party?q=gabby%27s+dollhouse%3A+ready+to+party+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/z5lybyzeqzinzfvm/1600.jpg",
-      "metrics": {
-        "width": 1174,
-        "height": 1500,
-        "aspect": 0.7827,
-        "bannerColumnSpan": 0.9944,
-        "bannerPixelRatio": 0.6194
-      }
-    },
-    {
-      "id": 3056,
-      "title": "Goodbye World",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Goodbye World",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/goodbye-world",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/0551ec4f6e26fe036cac2432da97d791a9cf2b32a498d2ecf0396c39abcf9f99/1600.jpg",
-      "metrics": {
-        "width": 1025,
-        "height": 1295,
-        "aspect": 0.7915,
-        "bannerColumnSpan": 0.9917,
-        "bannerPixelRatio": 0.5973
-      }
-    },
-    {
-      "id": 2978,
-      "title": "Hello Neighbor 2",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Hello Neighbor 2",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/hello-neighbor-2",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/e0c2e2ebe5dff2205bd45fb4bd8c0282eb646ed8562e29b626ce1d31e87f06f9/1600.jpg",
-      "metrics": {
-        "width": 318,
-        "height": 446,
-        "aspect": 0.713,
-        "bannerColumnSpan": 0.8648,
-        "bannerPixelRatio": 0.5279
-      }
-    },
-    {
-      "id": 3001,
-      "title": "Kamiwaza: Way of the Thief",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Kamiwaza: Way Of The Thief",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/kamiwaza-way-of-the-thief",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/cc652a7e49eb4ca3fcdb96de045bd6634535790f6c784c0fc2ab8eba08119b9d/1600.jpg",
-      "metrics": {
-        "width": 1199,
-        "height": 1500,
-        "aspect": 0.7993,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.517
-      }
-    },
-    {
-      "id": 2968,
-      "title": "KONOSUBA - God's Blessing on this Wonderful World! Love For These Clothes Of Desire!",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Konosuba: God's Blessing On This Wonderful World! Love For These Clothes Of Desire",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/konosuba-god%27s-blessing-on-this-wonderful-world-love-for-these-clothes-of-desire",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/52r6e5eon6wbkyzw/1600.jpg",
-      "metrics": {
-        "width": 745,
-        "height": 945,
-        "aspect": 0.7884,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.5434
-      }
-    },
-    {
-      "id": 2876,
-      "title": "Looney Tunes: Wacky World of Sports",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Looney Tunes: Wacky World Of Sports",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/looney-tunes-wacky-world-of-sports",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/m5xf3umwn36pbsza/1600.jpg",
-      "metrics": {
-        "width": 1166,
-        "height": 1500,
-        "aspect": 0.7773,
-        "bannerColumnSpan": 0.9944,
-        "bannerPixelRatio": 0.5859
-      }
-    },
-    {
-      "id": 2989,
-      "title": "Mickey Storm and the Cursed Mask",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Mickey Storm and the Cursed Mask",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/mickey-storm-and-the-cursed-mask",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/e33efd53978641b4d670be915e938722da7d9db67dd30eac4192b04e4c5132ad/1600.jpg",
-      "metrics": {
-        "width": 1157,
-        "height": 1496,
-        "aspect": 0.7734,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.7347
-      }
-    },
-    {
-      "id": 3024,
-      "title": "Monster Crown",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Monster Crown",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/monster-crown",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/3458f60b9735f6e7f934cc5c6ac3396442b05f14970d35675ee09021d19c7d15/1600.jpg",
-      "metrics": {
-        "width": 1188,
-        "height": 1500,
-        "aspect": 0.792,
-        "bannerColumnSpan": 0.9917,
-        "bannerPixelRatio": 0.6701
-      }
-    },
-    {
-      "id": 2905,
-      "title": "Monster Jam Crush It",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Monster Jam: Crush It",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/monster-jam-crush-it",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96t52KM67_ta7ZpmVORUnLLdMgE34vO3Lt4BQvP0keIYPUEvG8f5or14tv208skAZQjBV_8vuROVKps2UxD3CVlAU3s_XV_vw1zBWb-y3wETQOZn5G_FcD9ZqWPMfL_FKioVvzh6q89F14_zGdUJUIb_4yreA/1600.jpg",
-      "metrics": {
-        "width": 288,
-        "height": 360,
-        "aspect": 0.8,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.5158
-      }
-    },
-    {
-      "id": 2904,
-      "title": "Monster Jam: Steel Titans 2",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Monster Jam Steel Titans 2",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/monster-jam-steel-titans-2",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/9098d77d59ff5af74798f36cbb98a3529d754aca47105f6da1fa051d07ec00be/1600.jpg",
-      "metrics": {
-        "width": 820,
-        "height": 1024,
-        "aspect": 0.8008,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.7924
-      }
-    },
-    {
-      "id": 2881,
-      "title": "Mount & Blade II: Bannerlord",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Mount & Blade II: Bannerlord",
-      "matchMethod": "normalized_exact",
-      "region": "PAL",
-      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/mount-&-blade-ii-bannerlord",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/3416399b9ea70222294cdef6096b96c68280ccd971de6516aee21330efa456fe/1600.jpg",
-      "metrics": {
-        "width": 1200,
-        "height": 1500,
-        "aspect": 0.8,
-        "bannerColumnSpan": 0.9917,
-        "bannerPixelRatio": 0.6332
-      }
-    },
-    {
-      "id": 3006,
-      "title": "New Joe and Mac Caveman Ninja",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "New Joe & Mac: Caveman Ninja",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/new-joe-&-mac-caveman-ninja",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/ecfd975b038e2dade2812dc6c3ad81e6d1f2aa1152db46e7f2db1a44443cc2d8/1600.jpg",
-      "metrics": {
-        "width": 1191,
-        "height": 1500,
-        "aspect": 0.794,
-        "bannerColumnSpan": 0.9611,
-        "bannerPixelRatio": 0.6675
-      }
-    },
-    {
-      "id": 2936,
-      "title": "New Super Lucky's Tale",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "New Super Lucky's Tale",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/new-super-lucky%27s-tale",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/9f6c95e4c527f8d906a9f2bc431fa7e4d4d32f513d7da220aae91ffff8bf4561/1600.jpg",
-      "metrics": {
-        "width": 819,
-        "height": 1000,
-        "aspect": 0.819,
-        "bannerColumnSpan": 0.9972,
-        "bannerPixelRatio": 0.518
-      }
-    },
-    {
-      "id": 3051,
-      "title": "NOOB: The Factionless",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Noob: The Factionless",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/noob-the-factionless",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/f308b819a6cac66fd9768d138efa93dabbc653a4119ee75cb3202c98d74164ee/1600.jpg",
-      "metrics": {
-        "width": 1191,
-        "height": 1500,
-        "aspect": 0.794,
-        "bannerColumnSpan": 0.9917,
-        "bannerPixelRatio": 0.5972
-      }
-    },
-    {
-      "id": 2815,
-      "title": "Outriders",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Outriders",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/outriders",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/d547d7ffa8df7afe0987d35b83973fbbab82743036143a2cceffe93e5bc7de66/1600.jpg",
-      "metrics": {
-        "width": 1203,
-        "height": 1500,
-        "aspect": 0.802,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.5202
-      }
-    },
-    {
-      "id": 2966,
-      "title": "Poison Control",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Poison Control",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/poison-control",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/8150dc0e13a284a9362006e9a2e5b13d7348dc0600c304ceaa4c59842f34789e/1600.jpg",
-      "metrics": {
-        "width": 799,
-        "height": 1000,
-        "aspect": 0.799,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.5103
-      }
-    },
-    {
-      "id": 2931,
-      "title": "Poker Club",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Poker Club",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/poker-club?q=poker+club+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/7b28a9efbff5b6850a7eeb070d60cec94a941a5243917af4a71b9faa744350c7/1600.jpg",
-      "metrics": {
-        "width": 1204,
-        "height": 1500,
-        "aspect": 0.8027,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.5354
-      }
-    },
-    {
-      "id": 2963,
-      "title": "Puyo Puyo Tetris 2",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Puyo Puyo Tetris 2",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/puyo-puyo-tetris-2",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/8bcbfeb98c104da1afc59717f02db1f507aa802482b3b273807d9c0c90919fc9/1600.jpg",
-      "metrics": {
-        "width": 1284,
-        "height": 1600,
-        "aspect": 0.8025,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.55
-      }
-    },
-    {
-      "id": 2897,
-      "title": "Real Farm",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Real Farm",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/real-farm",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv977_NWnHdDHFkJWWCSM8xmdB5w_VJrOxuZSRph1dZWGYG-XB7PkwUXqjCM-gMlwXJB7dZEuWHDR5Dt07Ci7E1Ti-wGoa8VkaON9kGidj2dPavlqyjTG15TdBzLd0EcIwcQbV4dXDCLZ-Jbl2LJomvly8RoSeg/1600.jpg",
-      "metrics": {
-        "width": 288,
-        "height": 360,
-        "aspect": 0.8,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.9255
-      }
-    },
-    {
-      "id": 2986,
-      "title": "RICO London",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "RICO London",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/rico-london",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/38fd0c80dd26aea0777c31d80c2af0e06e2fdb7d3e2f82f4ec55b412cb01c9ba/1600.jpg",
-      "metrics": {
-        "width": 1202,
-        "height": 1500,
-        "aspect": 0.8013,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.5219
-      }
-    },
-    {
-      "id": 2885,
-      "title": "Road 96",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Road 96",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/road-96",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/ad19dd779fa8f75ac9b939153c09d1523ad94fd81a3d5c317cab9eb87f1f7dca/1600.jpg",
-      "metrics": {
-        "width": 990,
-        "height": 1256,
-        "aspect": 0.7882,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.5134
-      }
-    },
-    {
-      "id": 2832,
-      "title": "Rust: Console Edition",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Rust: Console Edition",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/rust-console-edition",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/2d4129202fde091412210711add2cfdd43651c083cec7baab594fbac1e59542c/1600.jpg",
-      "metrics": {
-        "width": 1073,
-        "height": 1500,
-        "aspect": 0.7153,
-        "bannerColumnSpan": 0.9944,
-        "bannerPixelRatio": 0.5525
-      }
-    },
-    {
-      "id": 2917,
-      "title": "Samurai Warriors 5",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Samurai Warriors 5",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/samurai-warriors-5",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/7caace4d6803a1298c0aa228975b185bd215fb821a7c6e35cbc6aff16d73a140/1600.jpg",
-      "metrics": {
-        "width": 843,
-        "height": 1080,
-        "aspect": 0.7806,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.6171
-      }
-    },
-    {
-      "id": 2937,
-      "title": "Session: Skate Sim",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Session: Skate Sim",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/session-skate-sim",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/bb67611bd0c5aa497188d2756a2dd4c2f2a7bb0ab7b41faa31dd0326046ebb4e/1600.jpg",
-      "metrics": {
-        "width": 1100,
-        "height": 1500,
-        "aspect": 0.7333,
-        "bannerColumnSpan": 0.9278,
-        "bannerPixelRatio": 0.5118
-      }
-    },
-    {
-      "id": 3072,
-      "title": "Smurfs Kart",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Smurfs Kart",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/smurfs-kart",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/58ddc5ddc4b0557aa6f06d6eb636fddfbc6fbd72e2a382e54f44c7529a14022a/1600.jpg",
-      "metrics": {
-        "width": 1191,
-        "height": 1500,
-        "aspect": 0.794,
-        "bannerColumnSpan": 0.9944,
-        "bannerPixelRatio": 0.7467
-      }
-    },
-    {
-      "id": 2919,
-      "title": "Star Ocean: The Divine Force",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Star Ocean The Divine Force",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/star-ocean-the-divine-force",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/112841802d2425c1dcc1c6ad6f0d42802bd0249dcbf715f3c58a3847b390d385/1600.jpg",
-      "metrics": {
-        "width": 1212,
-        "height": 1500,
-        "aspect": 0.808,
-        "bannerColumnSpan": 0.9944,
-        "bannerPixelRatio": 0.5543
-      }
-    },
-    {
-      "id": 2888,
-      "title": "Street Outlaws 2: Winner Takes All",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Street Outlaws 2: Winner Takes All",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/street-outlaws-2-winner-takes-all",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/e8297d02000dd810ae73a83c32778f34cbe86d0ab73a7cd73575bd901665ad6f/1600.jpg",
-      "metrics": {
-        "width": 786,
-        "height": 1000,
-        "aspect": 0.786,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.5668
-      }
-    },
-    {
-      "id": 3030,
-      "title": "Super Bullet Break",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Super Bullet Break",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/super-bullet-break",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/n5mjuntfm6wzsubr/1600.jpg",
-      "metrics": {
-        "width": 1259,
-        "height": 1600,
-        "aspect": 0.7869,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.52
-      }
-    },
-    {
-      "id": 2820,
-      "title": "The Crew Motorfest",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "The Crew Motorfest",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/the-crew-motorfest",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/7059468ce8f7b349c76aaa01f09ab87e04d77e1fe64bd08c2f7416c19012f516/1600.jpg",
-      "metrics": {
-        "width": 400,
-        "height": 500,
-        "aspect": 0.8,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.8206
-      }
-    },
-    {
-      "id": 3000,
-      "title": "The Cruel King and the Great Hero",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "The Cruel King and the Great Hero",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/the-cruel-king-and-the-great-hero",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/2b093adb4ec3bfb4695f078a80b9c01b96ffae374c747b0a76514147546cc15f/1600.jpg",
-      "metrics": {
-        "width": 1201,
-        "height": 1500,
-        "aspect": 0.8007,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.5151
-      }
-    },
-    {
-      "id": 2925,
-      "title": "The Last Stand: Aftermath",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "The Last Stand: Aftermath",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/the-last-stand-aftermath",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/ef5ed61671342a16c2315320b7393edef998f45ae0dc99fd8ca5e52a02b9ed60/1600.jpg",
-      "metrics": {
-        "width": 1121,
-        "height": 1437,
-        "aspect": 0.7801,
-        "bannerColumnSpan": 0.9972,
-        "bannerPixelRatio": 0.602
-      }
-    },
-    {
-      "id": 2808,
-      "title": "The Rumble Fish 2",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "The Rumble Fish 2",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/the-rumble-fish-2",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/3ba91e55b2b046a6844aab0b27e378cb6fe95062a944175ca030b318c7d94328/1600.jpg",
-      "metrics": {
-        "width": 1022,
-        "height": 1500,
-        "aspect": 0.6813,
-        "bannerColumnSpan": 0.8944,
-        "bannerPixelRatio": 0.4714
-      }
-    },
-    {
-      "id": 3049,
-      "title": "The Sisters: Party of the Year",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "The Sisters: Party of the Year",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/the-sisters-party-of-the-year",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/81c738c89e8860e61edf6c945f9bb6e3524f6a7666ea6ba4ecab120a775de60d/1600.jpg",
-      "metrics": {
-        "width": 1106,
-        "height": 1378,
-        "aspect": 0.8026,
-        "bannerColumnSpan": 0.975,
-        "bannerPixelRatio": 0.83
-      }
-    },
-    {
-      "id": 2959,
-      "title": "Tin Hearts",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Tin Hearts",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/tin-hearts",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/a0f30a38157ddd18cd56c88239be5f29991154ad7b097990106bb80739f53aa7/1600.jpg",
-      "metrics": {
-        "width": 800,
-        "height": 1000,
-        "aspect": 0.8,
-        "bannerColumnSpan": 0.9639,
-        "bannerPixelRatio": 0.4132
-      }
-    },
-    {
-      "id": 2915,
-      "title": "Transformers Galactic Trials",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Transformers: Galactic Trials",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/transformers-galactic-trials",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/7xrjrp5jzmhgjyc2/1600.jpg",
-      "metrics": {
-        "width": 1174,
-        "height": 1500,
-        "aspect": 0.7827,
-        "bannerColumnSpan": 0.9944,
-        "bannerPixelRatio": 0.4306
-      }
-    },
-    {
-      "id": 2920,
-      "title": "Trek to Yomi",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Trek to Yomi",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/trek-to-yomi",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/bb714ee0e5bbb007dbc0ac2987ed5cd11b3980b02546d28e3dfbf59f0e3a6aa1/1600.jpg",
-      "metrics": {
-        "width": 798,
-        "height": 1038,
-        "aspect": 0.7688,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.6202
-      }
-    },
-    {
-      "id": 2887,
-      "title": "Trinity Trigger",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Trinity Trigger",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/trinity-trigger",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/6ovnbads6qngaxho/1600.jpg",
-      "metrics": {
-        "width": 1000,
-        "height": 1248,
-        "aspect": 0.8013,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.6867
-      }
-    },
-    {
-      "id": 2952,
-      "title": "Trolls Remix Rescue",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Trolls Remix Rescue",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/trolls-remix-rescue",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/ea3ba5ad04ba9207a5913486f5e97665dff81263be4d67c96816b98271a402b3/1600.jpg",
-      "metrics": {
-        "width": 1166,
-        "height": 1500,
-        "aspect": 0.7773,
-        "bannerColumnSpan": 0.9917,
-        "bannerPixelRatio": 0.6813
-      }
-    },
-    {
-      "id": 3050,
-      "title": "Tunic",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Tunic",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/tunic",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/ea38698b0b4c23d4d86ce8759b1881b0762d8d91c7fc12dcc8c65196fdf3c3bb/1600.jpg",
-      "metrics": {
-        "width": 695,
-        "height": 889,
-        "aspect": 0.7818,
-        "bannerColumnSpan": 0.9972,
-        "bannerPixelRatio": 0.6227
-      }
-    },
-    {
-      "id": 3021,
-      "title": "Turnip Boy Commits Tax Evasion",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Turnip Boy Commits Tax Evasion",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/turnip-boy-commits-tax-evasion",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/45ed3fcbbed7a2ea4b6558945efcb6c92971e77506d09337b177fc4e70a7063c/1600.jpg",
-      "metrics": {
-        "width": 1211,
-        "height": 1500,
-        "aspect": 0.8073,
-        "bannerColumnSpan": 0.9528,
-        "bannerPixelRatio": 0.5878
-      }
-    },
-    {
-      "id": 2955,
-      "title": "Under Night In-Birth Exe:Late[st]",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Under Night In-Birth Exe:Late St",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/under-night-in-birth-exelate-st",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94CCNDpgKzsX8Rk9F409n2HbvLG7qcd4xFxBoiqucgx-lSccRISvGgi4AdXeFhq3-tdz3YxzYzh159BV95DLm0u9cz0TVbk6WG5IHsBDc_noT7kjImH2vgtV6DZJWuEH0mp4EFx-K-RSBxLCO3rufeftLNu-Q/1600.jpg",
-      "metrics": {
-        "width": 411,
-        "height": 512,
-        "aspect": 0.8027,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.5071
-      }
-    },
-    {
-      "id": 2965,
-      "title": "Where the Heart Leads",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Where the Heart Leads",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/where-the-heart-leads",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/f286f16a03185c2f016de3e4df65f90ad7d87aa1a6ac2a3c26b45ae22c8cbdfc/1600.jpg",
-      "metrics": {
-        "width": 1268,
-        "height": 1600,
-        "aspect": 0.7925,
-        "bannerColumnSpan": 0.9917,
-        "bannerPixelRatio": 0.4872
-      }
-    },
-    {
-      "id": 2802,
-      "title": "Willy Morgan and the Curse of Bone Town",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Willy Morgan and the Curse of Bone Town",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/willy-morgan-and-the-curse-of-bone-town",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/dd5a6ad79be64339f3b8e3429114d3ace1fbdf3d1c16bd30e867fb316823e4f6/1600.jpg",
-      "metrics": {
-        "width": 1187,
-        "height": 1500,
-        "aspect": 0.7913,
-        "bannerColumnSpan": 0.9917,
-        "bannerPixelRatio": 0.63
-      }
-    },
-    {
-      "id": 3067,
-      "title": "Witch on the Holy Night",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "matchedTitle": "Witch On The Holy Night",
-      "matchMethod": "normalized_exact",
-      "region": "JP",
-      "productUrl": "https://www.pricecharting.com/game/jp-playstation-4/witch-on-the-holy-night",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/c42d2f816169e8d2a7465608a405009e3603d5fbb2edc5af30b6ef11dc40f9b5/1600.jpg",
-      "metrics": {
-        "width": 1054,
-        "height": 1327,
-        "aspect": 0.7943,
-        "bannerColumnSpan": 0.9194,
-        "bannerPixelRatio": 0.447
-      }
-    },
-    {
-      "id": 1800,
-      "title": "Assassin's Creed Valhalla",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "matchedTitle": "Assassin's Creed Valhalla",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/assassin%27s-creed-valhalla",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/bb68b995f520221caa49bc892f04c947364f20fffd313f269321646fd190af48/1600.jpg",
-      "metrics": {
-        "width": 339,
-        "height": 430,
-        "aspect": 0.7884,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.5422
-      }
-    },
-    {
-      "id": 217,
-      "title": "Call of Duty: Black Ops 4",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "matchedTitle": "Call of Duty: Black Ops 4",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/call-of-duty-black-ops-4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97bQaa0MbiCiHxtxU3PDo-m4_FZcB0ydDf1qF5edoSL9XZOq6CLPKTiwcfW2Qfieaano5Hfj7Ealg1CawVt3yukJp-MoXeD7kqhhKa3g7FinRWvl0Cu3y5jMWCSHvUAOX_DWr4Rec3qATdoPsyqWyOOGiDiEA/1600.jpg",
-      "metrics": {
-        "width": 288,
-        "height": 360,
-        "aspect": 0.8,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.5132
-      }
-    },
-    {
-      "id": 385,
-      "title": "Don't Knock Twice",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "matchedTitle": "Don't Knock Twice",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/don%27t-knock-twice",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95BmCfiKDWh5q45KFa0nr_G6zHScBNbQjG31OelpkyeVCT1iHaNaVCl0JqDrN9iDwctBJ_yyQHs-6OUQPvXgCnpgYIeiY-yxkUPXgc-PpHgiRoNAI9gAJ7GAvkq_FPImwV96jbsT1kmPD-1Q_onccnpji8qjw/1600.jpg",
-      "metrics": {
-        "width": 284,
-        "height": 360,
-        "aspect": 0.7889,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.701
-      }
-    },
-    {
-      "id": 407,
-      "title": "Dragon Quest XI: Echoes of an Elusive Age",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "matchedTitle": "Dragon Quest XI: Echoes of an Elusive Age",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/dragon-quest-xi-echoes-of-an-elusive-age",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97a0UgGGjBW8O288hjntQ3qasrZEMXUv1IMH3jrtiYHZdguibhbXtnzluUoOH-XI-2pmTGYXXbRyZWL8VXRh_g7AhJSxcFAhmlV2xoYpsxUFkpJ95FTSAZf-2dh02lL_QozJCR5xiTmEGMdKUvZhH8uZ-BuCA/1600.jpg",
-      "metrics": {
-        "width": 288,
-        "height": 360,
-        "aspect": 0.8,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.8071
-      }
-    },
-    {
-      "id": 709,
-      "title": "LEGO Star Wars: The Force Awakens",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "matchedTitle": "LEGO Star Wars The Force Awakens",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/lego-star-wars-the-force-awakens",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/8e2dd2c360fda50cb0154469ce5017e365cf2e20deef6748f4744e4018424aba/1600.jpg",
-      "metrics": {
-        "width": 800,
-        "height": 1000,
-        "aspect": 0.8,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.4737
-      }
-    },
-    {
-      "id": 964,
-      "title": "Red Dead Redemption 2",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "matchedTitle": "Red Dead Redemption 2",
-      "matchMethod": "normalized_exact",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/red-dead-redemption-2",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/x47zixpsd3jzsurw/1600.jpg",
-      "metrics": {
-        "width": 925,
-        "height": 1152,
-        "aspect": 0.803,
-        "bannerColumnSpan": 1.0,
-        "bannerPixelRatio": 0.5206
+        "bannerPixelRatio": 0.5173
       }
     }
   ],
   "noMatch": [
     {
-      "id": 3011,
-      "title": "Disgaea 6 Complete",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateCount": 3,
-      "candidateTitles": [
-        "Disgaea 6 Complete [Deluxe Edition]",
-        "Disgaea 6 Complete [Deluxe Edition]",
-        "Disgaea 6 Complete [Limited Edition]"
-      ]
-    },
-    {
-      "id": 3060,
-      "title": "Disgaea 7: Vows of the Virtueless",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateCount": 5,
-      "candidateTitles": [
-        "Disgaea 7: Vows Of The Virtueless [Deluxe Edition]",
-        "Disgaea 7: Vows of the Virtueless: Deluxe Edition",
-        "Disgaea 7: Vows Of The Virtueless [Limited Edition]",
-        "Disgaea 7: Vows of the Virtueless [Limited Edition]",
-        "Disgaea 7: Vows of the Virtueless [Limited Edition Plushie Bundle]"
-      ]
-    },
-    {
-      "id": 3041,
-      "title": "DreamWorks Spirit Lucky's Big Adventure",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateCount": 47,
-      "candidateTitles": [
-        "Sackboy: A Big Adventure",
-        "Dead Rising 4 Franks Big Package",
-        "Ice Age: Scrat's Nutty Adventure",
-        "Adventure Time: Pirates of the Enchiridion",
-        "Samurai Warriors: Spirit of Sanada",
-        "Fat Princess Adventures",
-        "Snoopy's Grand Adventure",
-        "Spirit of the North"
-      ]
-    },
-    {
-      "id": 2932,
-      "title": "Hotel Transylvania: Scary Tale Adventure",
+      "id": 3013,
+      "title": "Minecraft Legends",
       "bucket": "review",
       "reason": "missing_cover",
       "candidateCount": 2,
       "candidateTitles": [
-        "Hotel Transylvania Scary-Tale Adventures",
-        "Hotel Transylvania: Scary-Tale Adventures"
-      ]
-    },
-    {
-      "id": 3076,
-      "title": "MADiSON",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateCount": 2,
-      "candidateTitles": [
-        "Madison [Possessed Edition]",
-        "Madison [Possessed Edition]"
-      ]
-    },
-    {
-      "id": 2982,
-      "title": "Matchpoint: Tennis Championships",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateCount": 1,
-      "candidateTitles": [
-        "Matchpoint: Tennis Championships [Legends Edition]"
-      ]
-    },
-    {
-      "id": 3052,
-      "title": "Monster Menu: The Scavenger's Cookbook",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateCount": 3,
-      "candidateTitles": [
-        "Monster Menu: The Scavenger's Cookbook [Deluxe Edition]",
-        "Monster Menu: The Scavenger's Cookbook [Deluxe Edition]",
-        "Monster Menu: The Scavenger's Cookbook [Limited Edition]"
-      ]
-    },
-    {
-      "id": 3044,
-      "title": "New Tales from the Borderlands",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateCount": 2,
-      "candidateTitles": [
-        "New Tales from the Borderlands [Deluxe Edition]",
-        "New Tales from the Borderlands [Deluxe Edition]"
+        "Minecraft Legends: Deluxe Edition",
+        "Minecraft Legends: Deluxe Edition"
       ]
     },
     {
@@ -1171,46 +56,6 @@
       "candidateTitles": [
         "Override 2: Super Mech League [Ultraman Deluxe Edition]",
         "Override 2: Super Mech League [Ultraman Deluxe Edition]"
-      ]
-    },
-    {
-      "id": 3031,
-      "title": "Phoenix Point",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateCount": 2,
-      "candidateTitles": [
-        "Phoenix Point [Behemoth Edition]",
-        "Phoenix Point [Behemoth Edition]"
-      ]
-    },
-    {
-      "id": 2922,
-      "title": "Planet Coaster: Console Edition",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateCount": 78,
-      "candidateTitles": [
-        "Playstation 4 Pro 1TB Console",
-        "Playstation 4 500GB Black Console",
-        "Playstation 4 1TB Slim Console",
-        "Playstation 4 Pro 1TB Spiderman Console",
-        "Playstation 4 500GB Slim Console",
-        "Sony PlayStation 4 500GB Console Uncharted 4 Limited Edition",
-        "Playstation 4 1TB Slim Days of Play Console",
-        "Playstation 4 1TB God of War Console"
-      ]
-    },
-    {
-      "id": 3057,
-      "title": "Process of Elimination",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateCount": 3,
-      "candidateTitles": [
-        "Process of Elimination [Deluxe Edition]",
-        "Process of Elimination [Deluxe Edition]",
-        "Process of Elimination [Limited Edition]"
       ]
     },
     {
@@ -1233,113 +78,6 @@
       "candidateTitles": [
         "Raystorm x Raycrisis HD Collection",
         "Raystorm x Raycrisis HD Collection"
-      ]
-    },
-    {
-      "id": 2992,
-      "title": "Re:Zero - The Prophecy of the Throne",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateCount": 5,
-      "candidateTitles": [
-        "Re:ZERO - Starting Life in Another World: The Prophecy of the Throne",
-        "Re:ZERO: The Prophecy of the Throne [Collector's Edition]",
-        "Re:ZERO - Starting Life in Another World: The Prophecy of the Throne [Collector's Edition]",
-        "Re:ZERO - Starting Life In Another World: The Prophecy Of The Throne [Day One Edition]",
-        "Re:ZERO: The Prophecy of the Throne [Day One Edition]"
-      ]
-    },
-    {
-      "id": 2981,
-      "title": "Redout 2",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateCount": 2,
-      "candidateTitles": [
-        "Redout II: Deluxe Edition",
-        "Redout II Deluxe Edition"
-      ]
-    },
-    {
-      "id": 2946,
-      "title": "REYNATIS",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateCount": 4,
-      "candidateTitles": [
-        "Reynatis: Deluxe Edition",
-        "Reynatis: Deluxe Edition",
-        "Reynatis [Limited Edition]",
-        "Reynatis [Limited Edition]"
-      ]
-    },
-    {
-      "id": 2938,
-      "title": "RiMS Racing Sim",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateCount": 82,
-      "candidateTitles": [
-        "Playstation 4 1TB Slim Console",
-        "Playstation 4 500GB Slim Console",
-        "Playstation 4 1TB Slim Gold Console",
-        "Crash Team Racing: Nitro Fueled",
-        "DriveClub",
-        "The Sims 4",
-        "The Crew",
-        "Team Sonic Racing"
-      ]
-    },
-    {
-      "id": 2865,
-      "title": "RollerCoaster Tycoon Adventures Deluxe",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateCount": 2,
-      "candidateTitles": [
-        "Roller Coaster Tycoon Adventures Deluxe",
-        "Roller Coaster Tycoon Adventures Deluxe"
-      ]
-    },
-    {
-      "id": 2923,
-      "title": "The Dungeon of Naheulbeuk: The Amulet of Chaos",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateCount": 2,
-      "candidateTitles": [
-        "The Dungeon of Naheulbeuk: The Amulet of Chaos [Chicken Edition]",
-        "The Dungeon Of Naheulbeuk: The Amulet Of Chaos [Chicken Edition]"
-      ]
-    },
-    {
-      "id": 2911,
-      "title": "The Knight Witch",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateCount": 9,
-      "candidateTitles": [
-        "The Knight Witch: Deluxe Edition",
-        "Witch and the Hundred Knight Revival [Limited Edition]",
-        "Witch and the Hundred Knight 2",
-        "Witch and the Hundred Knight Revival",
-        "The Knight Witch: Deluxe Edition",
-        "The Witch and the Hundred Knight 2",
-        "Witch and the Hundred Knight 2",
-        "Witch and the Hundred Knight 2 [Limited Edition]"
-      ]
-    },
-    {
-      "id": 3043,
-      "title": "The Legend of Heroes: Trails to Azure",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateCount": 4,
-      "candidateTitles": [
-        "The Legend Of Heroes: Trails To Azure [Deluxe Edition]",
-        "The Legend Of Heroes: Trails To Azure [Deluxe Edition]",
-        "The Legend Of Heroes: Trails To Azure [Limited Edition]",
-        "The Legend Of Heroes: Trails To Azure [Limited Edition]"
       ]
     },
     {
@@ -1415,16 +153,6 @@
       ]
     },
     {
-      "id": 1600,
-      "title": "Deer Simulator",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateCount": 1,
-      "candidateTitles": [
-        "DEEEER Simulator: Your Average Everyday Deer Game"
-      ]
-    },
-    {
       "id": 1608,
       "title": "Drive!Drive!Drive!",
       "bucket": "review",
@@ -1439,6 +167,16 @@
         "Minecraft: Playstation 4 Edition",
         "Playstation 4 500GB Slim Console",
         "Playstation 4 Dualshock 4 Black Controller"
+      ]
+    },
+    {
+      "id": 1622,
+      "title": "Fury Unleashed",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidateCount": 1,
+      "candidateTitles": [
+        "Fury Unleashed [Bang Edition]"
       ]
     },
     {
@@ -1583,16 +321,6 @@
       ]
     },
     {
-      "id": 1952,
-      "title": "Project Starship X",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateCount": 1,
-      "candidateTitles": [
-        "Project Starship X Limited Edition"
-      ]
-    },
-    {
       "id": 1697,
       "title": "Prototype",
       "bucket": "review",
@@ -1613,16 +341,6 @@
       "candidateTitles": [
         "Raidou Remastered: The Mystery Of The Soulless Army",
         "Raidou Remastered: The Mystery Of The Soulless Army [Collector's Edition]"
-      ]
-    },
-    {
-      "id": 1717,
-      "title": "Rym 9000",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateCount": 1,
-      "candidateTitles": [
-        "Rym 9000 Limited Edition"
       ]
     },
     {
@@ -1763,6 +481,16 @@
       ]
     },
     {
+      "id": 1746,
+      "title": "Tharsis",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidateCount": 1,
+      "candidateTitles": [
+        "Tharsis [Limited Edition]"
+      ]
+    },
+    {
       "id": 1754,
       "title": "The Journey Down: Chapter One",
       "bucket": "review",
@@ -1805,19 +533,6 @@
       "candidateTitles": [
         "King Of Fighters 2000 [Collector's Edition]",
         "King of Fighters 2000"
-      ]
-    },
-    {
-      "id": 2049,
-      "title": "The Legend of Heroes: Trails through Daybreak II",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateCount": 4,
-      "candidateTitles": [
-        "Legend Of Heroes: Trails Through Daybreak II [Deluxe Edition]",
-        "Legend Of Heroes: Trails Through Daybreak II [Deluxe Edition]",
-        "Legend Of Heroes: Trails Through Daybreak II [Limited Edition]",
-        "Legend Of Heroes: Trails Through Daybreak II [Limited Edition]"
       ]
     },
     {
@@ -1874,23 +589,6 @@
       "candidateTitles": [
         "WWI Verdun Western Front",
         "WWI Verdun Western Front"
-      ]
-    },
-    {
-      "id": 1970,
-      "title": "Vesper: Zero Light Edition",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateCount": 82,
-      "candidateTitles": [
-        "Horizon Zero Dawn",
-        "Ground Zero Texas: Nuclear Edition",
-        "Ground Zero Texas: Nuclear Edition [Classic Edition]",
-        "Zero Strain",
-        "Horizon Zero Dawn [Complete Edition]",
-        "Dying Light",
-        "Blaster Master Zero",
-        "Horizon Zero Dawn [Complete Edition Playstation Hits]"
       ]
     },
     {
@@ -2081,6 +779,16 @@
       "candidateTitles": [
         "JaJaMaru Legendary Ninja Collection",
         "Ninja JaJaMaru Legendary Ninja Collection [Collector's Edition]"
+      ]
+    },
+    {
+      "id": 2429,
+      "title": "Noob: Les Sans-Factions",
+      "bucket": "watch",
+      "reason": "image_fetch_failed",
+      "candidateCount": 1,
+      "candidateTitles": [
+        "Noob: Les Sans-Factions [Limited Edition]"
       ]
     },
     {
@@ -2483,6 +1191,23 @@
       }
     },
     {
+      "id": 2972,
+      "title": "Life in Willowdale: Farm Adventures",
+      "bucket": "review",
+      "reason": "failed_retail_front_gate",
+      "matchedTitle": "Life in Willowdale: Farm Adventures",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/life-in-willowdale-farm-adventures?q=life+in+willowdale%3A+farm+adventures+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/d36d435d158c495400dab0993a839e56b63eec463b374589343f3e0542322d9c/1600.jpg",
+      "metrics": {
+        "width": 1272,
+        "height": 1500,
+        "aspect": 0.848,
+        "bannerColumnSpan": 0.9028,
+        "bannerPixelRatio": 0.6646
+      }
+    },
+    {
       "id": 2960,
       "title": "Loop8: Summer of Gods",
       "bucket": "review",
@@ -2497,6 +1222,23 @@
         "aspect": 1.0,
         "bannerColumnSpan": 0.7694,
         "bannerPixelRatio": 0.4785
+      }
+    },
+    {
+      "id": 3018,
+      "title": "Maglam Lord",
+      "bucket": "review",
+      "reason": "failed_retail_front_gate",
+      "matchedTitle": "Maglam Lord",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/maglam-lord",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/a6e9933f3475bc2a466d202bbe0cdad3ea6a5aa1ed82e159663b8f5cb935db73/1600.jpg",
+      "metrics": {
+        "width": 1298,
+        "height": 1500,
+        "aspect": 0.8653,
+        "bannerColumnSpan": 0.8,
+        "bannerPixelRatio": 0.4588
       }
     },
     {
@@ -2565,23 +1307,6 @@
         "aspect": 0.8653,
         "bannerColumnSpan": 0.7972,
         "bannerPixelRatio": 0.4491
-      }
-    },
-    {
-      "id": 2985,
-      "title": "Miss Kobayashi's Dragon Maid: Burst Forth!! Choro-gon Breath",
-      "bucket": "review",
-      "reason": "failed_retail_front_gate",
-      "matchedTitle": "Miss Kobayashi's Dragon Maid: Burst Forth!! Choro-Gon Breath",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/miss-kobayashi%27s-dragon-maid-burst-forth-choro-gon-breath?q=miss+kobayashi%27s+dragon+maid%3A+burst+forth%21%21+choro-gon+breath+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/d03fc27d1c6c4cb2cfb1ef634fd3097a6c5cc2f50969bcae236134cb8b1071b0/1600.jpg",
-      "metrics": {
-        "width": 1284,
-        "height": 1371,
-        "aspect": 0.9365,
-        "bannerColumnSpan": 0.8028,
-        "bannerPixelRatio": 0.394
       }
     },
     {
@@ -2976,23 +1701,6 @@
       }
     },
     {
-      "id": 2518,
-      "title": "Beyond Enemy Lines 2: Enhanced Edition",
-      "bucket": "review",
-      "reason": "failed_retail_front_gate",
-      "matchedTitle": "Beyond Enemy Lines 2: Enhanced Edition",
-      "region": "PAL",
-      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/beyond-enemy-lines-2-enhanced-edition?q=beyond+enemy+lines+2%3A+enhanced+edition+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/cfd44e5a32b2c6463c990996ec9433823be22e5c0162255844e9d427d6cd8f5a/1600.jpg",
-      "metrics": {
-        "width": 1600,
-        "height": 1082,
-        "aspect": 1.4787,
-        "bannerColumnSpan": 0.4389,
-        "bannerPixelRatio": 0.1307
-      }
-    },
-    {
       "id": 2521,
       "title": "Bite the Bullet",
       "bucket": "review",
@@ -3007,23 +1715,6 @@
         "aspect": 1.001,
         "bannerColumnSpan": 0.5556,
         "bannerPixelRatio": 0.2125
-      }
-    },
-    {
-      "id": 2533,
-      "title": "Bounty Battle",
-      "bucket": "review",
-      "reason": "failed_retail_front_gate",
-      "matchedTitle": "Bounty Battle",
-      "region": "PAL",
-      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/bounty-battle?q=bounty+battle+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/87d40f086c127f453155bb301e3dcf4e65b7cc7e8ddb7c98c3e3997b5cacb509/1600.jpg",
-      "metrics": {
-        "width": 660,
-        "height": 650,
-        "aspect": 1.0154,
-        "bannerColumnSpan": 0.7806,
-        "bannerPixelRatio": 0.4156
       }
     },
     {
@@ -3044,23 +1735,6 @@
       }
     },
     {
-      "id": 238,
-      "title": "Caveman Warriors",
-      "bucket": "review",
-      "reason": "failed_retail_front_gate",
-      "matchedTitle": "Caveman Warriors",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/caveman-warriors?q=caveman+warriors+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv978yPpWutJEG2M-qxH36Xi3WerwKeWUjA6JDILnKsQLDgwpWpyko3rZk_MgS6UN-b9O7aT1HKoB6UyLASjcecbCfAKefpFRzWLghLY418kvPhaYS-awB7OwLtkUDhbQXRgkb0byQ_5V7b6I0QMeyYpX6inJhQ/1600.jpg",
-      "metrics": {
-        "width": 360,
-        "height": 360,
-        "aspect": 1.0,
-        "bannerColumnSpan": 0.5944,
-        "bannerPixelRatio": 0.2696
-      }
-    },
-    {
       "id": 2094,
       "title": "Chained Echoes",
       "bucket": "review",
@@ -3075,23 +1749,6 @@
         "aspect": 1.425,
         "bannerColumnSpan": 0.0,
         "bannerPixelRatio": 0.0
-      }
-    },
-    {
-      "id": 2298,
-      "title": "Colossal Cave",
-      "bucket": "review",
-      "reason": "failed_retail_front_gate",
-      "matchedTitle": "Colossal Cave",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/colossal-cave?q=colossal+cave+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/cfwajbh5i7csjz4g/1600.jpg",
-      "metrics": {
-        "width": 630,
-        "height": 699,
-        "aspect": 0.9013,
-        "bannerColumnSpan": 0.6083,
-        "bannerPixelRatio": 0.2937
       }
     },
     {
@@ -3129,6 +1786,23 @@
       }
     },
     {
+      "id": 299,
+      "title": "Darius Cozmic Collection: Console",
+      "bucket": "review",
+      "reason": "failed_retail_front_gate",
+      "matchedTitle": "Darius Cozmic Collection Console",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/darius-cozmic-collection-console?q=darius+cozmic+collection%3A+console+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/129751c5936cca6754585a7b48db68ebaf85686dc89d4127cabea5125007e311/1600.jpg",
+      "metrics": {
+        "width": 1024,
+        "height": 1024,
+        "aspect": 1.0,
+        "bannerColumnSpan": 0.5583,
+        "bannerPixelRatio": 0.2439
+      }
+    },
+    {
       "id": 300,
       "title": "Dark Devotion",
       "bucket": "review",
@@ -3163,20 +1837,20 @@
       }
     },
     {
-      "id": 402,
-      "title": "Dragon Fantasy: The Black Tome of Ice",
+      "id": 2417,
+      "title": "Dogchild",
       "bucket": "review",
       "reason": "failed_retail_front_gate",
-      "matchedTitle": "Dragon Fantasy: The Black Tome of Ice",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/dragon-fantasy-the-black-tome-of-ice?q=dragon+fantasy%3A+the+black+tome+of+ice+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/fbbc55a8c5aba36d65511d2bb4d0fcf08bf941f42d18357e2a821238409531d9/1600.jpg",
+      "matchedTitle": "Dogchild",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/dogchild?q=dogchild+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/48bf40e146b5fc4d6ed726c445159224ab11d2a209cab0b2bc04303a922f99f8/1600.jpg",
       "metrics": {
-        "width": 1383,
-        "height": 1536,
-        "aspect": 0.9004,
-        "bannerColumnSpan": 0.6056,
-        "bannerPixelRatio": 0.2049
+        "width": 1200,
+        "height": 1600,
+        "aspect": 0.75,
+        "bannerColumnSpan": 0.5889,
+        "bannerPixelRatio": 0.1508
       }
     },
     {
@@ -3214,23 +1888,6 @@
       }
     },
     {
-      "id": 454,
-      "title": "Factotum 90",
-      "bucket": "review",
-      "reason": "failed_retail_front_gate",
-      "matchedTitle": "Factotum 90",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/factotum-90?q=factotum+90+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94YozjoG9uJ8NwLQQVPibCHIZlEHsvtdwJ8jqWhssjGpJ8lHzIr5_wG7zJSV604T_OsAc7v4_7Ihp1znisa2fxRhWjuArPrmS-x6g8fwru3vqwC-DkUYk1MHreRbLjziNwgnKeQSt9c_ojhcDTlvciPfqGzcQ/1600.jpg",
-      "metrics": {
-        "width": 324,
-        "height": 360,
-        "aspect": 0.9,
-        "bannerColumnSpan": 0.5494,
-        "bannerPixelRatio": 0.1826
-      }
-    },
-    {
       "id": 473,
       "title": "fault milestone one",
       "bucket": "review",
@@ -3248,71 +1905,20 @@
       }
     },
     {
-      "id": 1807,
-      "title": "Five Dates",
+      "id": 2311,
+      "title": "Gigabash",
       "bucket": "review",
       "reason": "failed_retail_front_gate",
-      "matchedTitle": "Five Dates",
+      "matchedTitle": "Gigabash",
       "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/five-dates?q=five+dates+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/872210a691ca629665dc083599d180f750a5413b760c7a7a5403a4f8b7908a40/1600.jpg",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/gigabash?q=gigabash+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/ltc2sjwwfn5qvi3l/1600.jpg",
       "metrics": {
-        "width": 1383,
-        "height": 1536,
-        "aspect": 0.9004,
-        "bannerColumnSpan": 0.5722,
-        "bannerPixelRatio": 0.2544
-      }
-    },
-    {
-      "id": 1624,
-      "title": "Futuridium EP Deluxe",
-      "bucket": "review",
-      "reason": "failed_retail_front_gate",
-      "matchedTitle": "Futuridium EP Deluxe",
-      "region": "PAL",
-      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/futuridium-ep-deluxe?q=futuridium+ep+deluxe+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/4041039358363032d5705e98064c428396e80adf5298c441798886a9aedad96a/1600.jpg",
-      "metrics": {
-        "width": 640,
-        "height": 640,
-        "aspect": 1.0,
-        "bannerColumnSpan": 0.4028,
-        "bannerPixelRatio": 0.0465
-      }
-    },
-    {
-      "id": 1938,
-      "title": "Gekido Kintaro's Revenge",
-      "bucket": "review",
-      "reason": "failed_retail_front_gate",
-      "matchedTitle": "Gekido: Kintaro's Revenge",
-      "region": "PAL",
-      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/gekido-kintaro%27s-revenge?q=gekido+kintaro%27s+revenge+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94TNI1cxHCNhlDAj8GwKURa5yQTYXgjglLb7XShrOAOoE4OIUYbsIxZ73LTyNL_kh2tATwfJqxzjQV96SOs2ZmKnkZe6yFpCChx5UyYVTBf4JmMJgvAx_s9dNnMbPrqiwT2d90zKM1l4ADWq1t8nI2X_KCnIg/1600.jpg",
-      "metrics": {
-        "width": 441,
-        "height": 512,
-        "aspect": 0.8613,
-        "bannerColumnSpan": 0.9972,
-        "bannerPixelRatio": 0.6718
-      }
-    },
-    {
-      "id": 1866,
-      "title": "Godstrike",
-      "bucket": "review",
-      "reason": "failed_retail_front_gate",
-      "matchedTitle": "Godstrike",
-      "region": "PAL",
-      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/godstrike?q=godstrike+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/e37979bfa2be9b4706e5ed2118797039503b8d93df5f9f48955099232bc423f1/1600.jpg",
-      "metrics": {
-        "width": 433,
-        "height": 500,
-        "aspect": 0.866,
-        "bannerColumnSpan": 0.8556,
-        "bannerPixelRatio": 0.4782
+        "width": 1306,
+        "height": 1450,
+        "aspect": 0.9007,
+        "bannerColumnSpan": 0.6083,
+        "bannerPixelRatio": 0.2983
       }
     },
     {
@@ -3367,40 +1973,6 @@
       }
     },
     {
-      "id": 2243,
-      "title": "Irem Collection Volume 1",
-      "bucket": "review",
-      "reason": "failed_retail_front_gate",
-      "matchedTitle": "Irem Collection Volume 1",
-      "region": "PAL",
-      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/irem-collection-volume-1?q=irem+collection+volume+1+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/poxlbrhs7k7th77v/1600.jpg",
-      "metrics": {
-        "width": 209,
-        "height": 241,
-        "aspect": 0.8672,
-        "bannerColumnSpan": 0.7943,
-        "bannerPixelRatio": 0.4804
-      }
-    },
-    {
-      "id": 1515,
-      "title": "Late Shift",
-      "bucket": "review",
-      "reason": "failed_retail_front_gate",
-      "matchedTitle": "Late Shift",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/late-shift?q=late+shift+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97ei1EXLbT0Y7RY5LU5_DpCkWv59ssenAmuGv1ujtfwx0ZFegMyu0hd-iI0UxqfOAETwIUX1F2KxsoP6WJ2DaoGfIM_ZLtGm42wPrEFE2_gwFbOvnE8Xziiq6Qv-eZRl7Qcg-V0kAbSM_CpEkthJB97AE0m8g/1600.jpg",
-      "metrics": {
-        "width": 461,
-        "height": 512,
-        "aspect": 0.9004,
-        "bannerColumnSpan": 0.5556,
-        "bannerPixelRatio": 0.2182
-      }
-    },
-    {
       "id": 1661,
       "title": "Lode Runner Legacy",
       "bucket": "review",
@@ -3452,20 +2024,20 @@
       }
     },
     {
-      "id": 2463,
-      "title": "Memorrha",
+      "id": 2325,
+      "title": "Mighty Goose",
       "bucket": "review",
       "reason": "failed_retail_front_gate",
-      "matchedTitle": "Memorrha",
-      "region": "PAL",
-      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/memorrha?q=memorrha+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/2akwrwioam5wbuvp/1600.jpg",
+      "matchedTitle": "Mighty Goose",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/mighty-goose?q=mighty+goose+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/c53c17dec8b03c9d8938fdfe9584477607473832f29373ad0e1263942f388628/1600.jpg",
       "metrics": {
-        "width": 300,
-        "height": 250,
-        "aspect": 1.2,
-        "bannerColumnSpan": 0.59,
-        "bannerPixelRatio": 0.3223
+        "width": 1306,
+        "height": 1450,
+        "aspect": 0.9007,
+        "bannerColumnSpan": 0.5583,
+        "bannerPixelRatio": 0.217
       }
     },
     {
@@ -3503,20 +2075,37 @@
       }
     },
     {
-      "id": 808,
-      "title": "Mutant Mudds: Super Challenge",
+      "id": 807,
+      "title": "Mutant Mudds Deluxe",
       "bucket": "review",
       "reason": "failed_retail_front_gate",
-      "matchedTitle": "Mutant Mudds Super Challenge",
+      "matchedTitle": "Mutant Mudds Deluxe",
       "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/mutant-mudds-super-challenge?q=mutant+mudds%3A+super+challenge+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97-IXLGXezmdNsKVKJT3fgIrddbZXkSmZgLb8WxqUXcBrq8uqjg9s60kbVFjLP7P1YOilWVBNNpDT2x0e7YnYD1Ve6lazdInBx2hLQ4moK2-Lo3k7UDYpl2l5WtRCqHeKkQNmgzKJKMZDjHlvzceSb6VLEBDw/1600.jpg",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/mutant-mudds-deluxe?q=mutant+mudds+deluxe+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv978WEZJnonrkOGocnJNVbuHHR0fQKbkAuceip1T9Cd6KsgKgp9j8au7cOb_OInj3naMwLzhShBcXZWFoqVVg6tVuOHfbJMVySvHupJIbx_kPPAqt-z5b92Tw_Mr9AGvQk0wMpBe-fS5wApe4JowUrYZskiW4Q/1600.jpg",
       "metrics": {
-        "width": 213,
-        "height": 237,
-        "aspect": 0.8987,
-        "bannerColumnSpan": 0.5587,
-        "bannerPixelRatio": 0.2143
+        "width": 324,
+        "height": 360,
+        "aspect": 0.9,
+        "bannerColumnSpan": 0.5556,
+        "bannerPixelRatio": 0.2175
+      }
+    },
+    {
+      "id": 815,
+      "title": "Mystery Chronicle: One Way Heroics",
+      "bucket": "review",
+      "reason": "failed_retail_front_gate",
+      "matchedTitle": "Mystery Chronicle One Way Heroics",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/mystery-chronicle-one-way-heroics?q=mystery+chronicle%3A+one+way+heroics+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/2204cab04d4660250ba584d093a549710e7195a5e3f2031d30d8ea1d4faf8b37/1600.jpg",
+      "metrics": {
+        "width": 1383,
+        "height": 1536,
+        "aspect": 0.9004,
+        "bannerColumnSpan": 0.6056,
+        "bannerPixelRatio": 0.2054
       }
     },
     {
@@ -3554,20 +2143,20 @@
       }
     },
     {
-      "id": 1679,
-      "title": "Neverending Nightmares",
+      "id": 2657,
+      "title": "Naught: Extended Edition",
       "bucket": "review",
       "reason": "failed_retail_front_gate",
-      "matchedTitle": "Neverending Nightmares",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/neverending-nightmares?q=neverending+nightmares+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/4adc054537ced8aef371f06b4729dc280291dee5120e9dd46b32d07ceb6fe173/1600.jpg",
+      "matchedTitle": "Naught: Extended Edition",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/naught-extended-edition?q=naught%3A+extended+edition+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/072cb1633585e503a96a7707ac4102f1c411af7814a10a37ce816d991c43c482/1600.jpg",
       "metrics": {
-        "width": 1383,
-        "height": 1536,
-        "aspect": 0.9004,
-        "bannerColumnSpan": 0.5583,
-        "bannerPixelRatio": 0.2187
+        "width": 179,
+        "height": 225,
+        "aspect": 0.7956,
+        "bannerColumnSpan": 1.0,
+        "bannerPixelRatio": 0.504
       }
     },
     {
@@ -3588,54 +2177,20 @@
       }
     },
     {
-      "id": 2011,
-      "title": "Night Book",
+      "id": 2666,
+      "title": "Octopath Traveler 0",
       "bucket": "review",
       "reason": "failed_retail_front_gate",
-      "matchedTitle": "Night Book",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/night-book?q=night+book+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/57d98bc7a8052d5ee269c41bd8bd659d13525feb8ef033bc41c2f63cf185daa4/1600.jpg",
+      "matchedTitle": "Octopath Traveler 0",
+      "region": "JP",
+      "productUrl": "https://www.pricecharting.com/game/jp-playstation-4/octopath-traveler-0?q=octopath+traveler+0+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/65muv7gd3dybxkxf/1600.jpg",
       "metrics": {
-        "width": 600,
-        "height": 667,
-        "aspect": 0.8996,
-        "bannerColumnSpan": 0.575,
-        "bannerPixelRatio": 0.2522
-      }
-    },
-    {
-      "id": 1826,
-      "title": "Nobody Saves the World",
-      "bucket": "review",
-      "reason": "failed_retail_front_gate",
-      "matchedTitle": "Nobody Saves the World",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/nobody-saves-the-world?q=nobody+saves+the+world+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/ba843f2dea8274f8cda560163c4758cc14966c29ce787ffd1d37dfa27f8c009e/1600.jpg",
-      "metrics": {
-        "width": 1200,
-        "height": 1332,
-        "aspect": 0.9009,
-        "bannerColumnSpan": 0.6083,
-        "bannerPixelRatio": 0.1956
-      }
-    },
-    {
-      "id": 872,
-      "title": "One Step From Eden",
-      "bucket": "review",
-      "reason": "failed_retail_front_gate",
-      "matchedTitle": "One Step From Eden",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/one-step-from-eden?q=one+step+from+eden+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/40fed4cffb887fccde1687937ce1b15b708cd6acdfb5c121dde8fe98a595af54/1600.jpg",
-      "metrics": {
-        "width": 720,
-        "height": 800,
-        "aspect": 0.9,
-        "bannerColumnSpan": 0.5722,
-        "bannerPixelRatio": 0.2543
+        "width": 198,
+        "height": 254,
+        "aspect": 0.7795,
+        "bannerColumnSpan": 0.9949,
+        "bannerPixelRatio": 0.6601
       }
     },
     {
@@ -3724,20 +2279,20 @@
       }
     },
     {
-      "id": 2096,
-      "title": "Rival Megagun",
+      "id": 2038,
+      "title": "Roombo: First Blood",
       "bucket": "review",
       "reason": "failed_retail_front_gate",
-      "matchedTitle": "Rival Megagun",
-      "region": "PAL",
-      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/rival-megagun?q=rival+megagun+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/cab49183235a0309f82c72d0d2978609f873c827ef7253a3eb51874a4bb00e15/1600.jpg",
+      "matchedTitle": "Roombo: First Blood",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/roombo-first-blood?q=roombo%3A+first+blood+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/kxzvxilhirypbcau/1600.jpg",
       "metrics": {
-        "width": 1600,
-        "height": 1123,
-        "aspect": 1.4248,
-        "bannerColumnSpan": 0.5778,
-        "bannerPixelRatio": 0.0651
+        "width": 973,
+        "height": 1080,
+        "aspect": 0.9009,
+        "bannerColumnSpan": 0.6056,
+        "bannerPixelRatio": 0.3062
       }
     },
     {
@@ -3758,20 +2313,54 @@
       }
     },
     {
-      "id": 1720,
-      "title": "Samurai Shodown VI",
+      "id": 2339,
+      "title": "Ruinverse",
       "bucket": "review",
       "reason": "failed_retail_front_gate",
-      "matchedTitle": "Samurai Shodown VI",
+      "matchedTitle": "Ruinverse",
       "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/samurai-shodown-vi?q=samurai+shodown+vi+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/x2vzpunhzisvrukk/1600.jpg",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/ruinverse?q=ruinverse+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/d48ab2b7ce25466ecb08c5c42561524e793feac702a17057dc8dc778e09a49e2/1600.jpg",
       "metrics": {
-        "width": 972,
-        "height": 1080,
-        "aspect": 0.9,
-        "bannerColumnSpan": 0.5583,
-        "bannerPixelRatio": 0.2211
+        "width": 213,
+        "height": 237,
+        "aspect": 0.8987,
+        "bannerColumnSpan": 0.6056,
+        "bannerPixelRatio": 0.2849
+      }
+    },
+    {
+      "id": 2718,
+      "title": "Sam & Max: Beyond Time And Space",
+      "bucket": "review",
+      "reason": "failed_retail_front_gate",
+      "matchedTitle": "Sam & Max: Beyond Time And Space",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/sam-&-max-beyond-time-and-space?q=sam+%26+max%3A+beyond+time+and+space+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/rp4czhlga2pj2awv/1600.jpg",
+      "metrics": {
+        "width": 1306,
+        "height": 1450,
+        "aspect": 0.9007,
+        "bannerColumnSpan": 0.6083,
+        "bannerPixelRatio": 0.1775
+      }
+    },
+    {
+      "id": 1039,
+      "title": "Saturday Morning RPG",
+      "bucket": "review",
+      "reason": "failed_retail_front_gate",
+      "matchedTitle": "Saturday Morning RPG",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/saturday-morning-rpg?q=saturday+morning+rpg+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/fbc607daccf001941991f8ae72bb2acd07d7becbe1b5707947628b7f9bff94cd/1600.jpg",
+      "metrics": {
+        "width": 1383,
+        "height": 1536,
+        "aspect": 0.9004,
+        "bannerColumnSpan": 0.6028,
+        "bannerPixelRatio": 0.1859
       }
     },
     {
@@ -3789,6 +2378,23 @@
         "aspect": 0.9013,
         "bannerColumnSpan": 0.6083,
         "bannerPixelRatio": 0.2916
+      }
+    },
+    {
+      "id": 1721,
+      "title": "Screencheat",
+      "bucket": "review",
+      "reason": "failed_retail_front_gate",
+      "matchedTitle": "Screencheat",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/screencheat?q=screencheat+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94ixS3ktGDpEa-4GDrcw-H7roQqmgNydOwm1LBVztkYvaK_wGzllsDpX4S6_NvWbcO0cEUqrv1OBKuhgy3A8RiCA5m2rzAPwSwdOFx19oJTmGsksFDOTEScMvZBYnYz2vTPTjhexG1kCN05dOIRncpr-s2Y4A/1600.jpg",
+      "metrics": {
+        "width": 324,
+        "height": 360,
+        "aspect": 0.9,
+        "bannerColumnSpan": 0.5556,
+        "bannerPixelRatio": 0.2184
       }
     },
     {
@@ -4030,23 +2636,6 @@
       }
     },
     {
-      "id": 1737,
-      "title": "Super GunWorld 2",
-      "bucket": "review",
-      "reason": "failed_retail_front_gate",
-      "matchedTitle": "Super Gunworld 2",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/super-gunworld-2?q=super+gunworld+2+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96rhlhTgPs7q-mkMvhoLeRfxKXKyhiH0t3BYKERpgV8I9GsBsyuZ9Y9CmMdSVt3RcMAeCmECJv2jLlLVq5RL43JHMODotpG1CHMo7GAMEYxSdeSt6AszaP8Hx6LvYGUVpFDNowlMnYEFN0XVqEIyNasboGenQ/1600.jpg",
-      "metrics": {
-        "width": 324,
-        "height": 360,
-        "aspect": 0.9,
-        "bannerColumnSpan": 0.5556,
-        "bannerPixelRatio": 0.2128
-      }
-    },
-    {
       "id": 1738,
       "title": "Super Life of Pixel",
       "bucket": "review",
@@ -4095,40 +2684,6 @@
         "aspect": 1.7778,
         "bannerColumnSpan": 0.3611,
         "bannerPixelRatio": 0.1293
-      }
-    },
-    {
-      "id": 1185,
-      "title": "SuperMash",
-      "bucket": "review",
-      "reason": "failed_retail_front_gate",
-      "matchedTitle": "Supermash",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/supermash?q=supermash+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/e8f4caee8a5c5ed05cf6afb69a1d98f1440b5a0ab31236fd7b001f49a9af7ab2/1600.jpg",
-      "metrics": {
-        "width": 540,
-        "height": 600,
-        "aspect": 0.9,
-        "bannerColumnSpan": 0.5556,
-        "bannerPixelRatio": 0.134
-      }
-    },
-    {
-      "id": 2352,
-      "title": "Supraland",
-      "bucket": "review",
-      "reason": "failed_retail_front_gate",
-      "matchedTitle": "Supraland",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/supraland?q=supraland+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/17f87c3469c39c717d67e346e629eea909c590785918a275a031a9c62b7cd457/1600.jpg",
-      "metrics": {
-        "width": 600,
-        "height": 666,
-        "aspect": 0.9009,
-        "bannerColumnSpan": 0.5528,
-        "bannerPixelRatio": 0.2054
       }
     },
     {
@@ -4183,37 +2738,20 @@
       }
     },
     {
-      "id": 1745,
-      "title": "Terror of Hemasaurus",
+      "id": 2353,
+      "title": "The Coma 2: Vicious Sisters",
       "bucket": "review",
       "reason": "failed_retail_front_gate",
-      "matchedTitle": "Terror Of Hemasaurus",
+      "matchedTitle": "The Coma 2: Vicious Sisters",
       "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/terror-of-hemasaurus?q=terror+of+hemasaurus+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/bv4pofkckgjffm5l/1600.jpg",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/the-coma-2-vicious-sisters?q=the+coma+2%3A+vicious+sisters+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/6af496a2d02306a6ce443aa2148341b1d107678ffbfb43048186b260a9ff5786/1600.jpg",
       "metrics": {
-        "width": 650,
-        "height": 722,
-        "aspect": 0.9003,
-        "bannerColumnSpan": 0.6444,
-        "bannerPixelRatio": 0.3689
-      }
-    },
-    {
-      "id": 1225,
-      "title": "The Bunker",
-      "bucket": "review",
-      "reason": "failed_retail_front_gate",
-      "matchedTitle": "The Bunker",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/the-bunker?q=the+bunker+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96OaNMZjaOm-C617KXBdxvJv309aJY-aAhJWHw1scL935YqwAVXW0DHSUbOwKqheOzanP0vdTO19mmnbHXcE3eRP2d_c1yH6mRgcVyEw61R4xu1dDNYZzwamabEosSJUdw8pAJt8a1ISmpd_SE2SYIQ4X6BDw/1600.jpg",
-      "metrics": {
-        "width": 324,
-        "height": 360,
+        "width": 720,
+        "height": 800,
         "aspect": 0.9,
-        "bannerColumnSpan": 0.5556,
-        "bannerPixelRatio": 0.2179
+        "bannerColumnSpan": 0.55,
+        "bannerPixelRatio": 0.2019
       }
     },
     {
@@ -4285,20 +2823,20 @@
       }
     },
     {
-      "id": 2030,
-      "title": "Toy Soldiers HD",
+      "id": 1769,
+      "title": "Toto Temple Deluxe",
       "bucket": "review",
       "reason": "failed_retail_front_gate",
-      "matchedTitle": "Toy Soldiers HD",
+      "matchedTitle": "Toto Temple Deluxe",
       "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/toy-soldiers-hd?q=toy+soldiers+hd+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/4dd52837a8f9134d49c30c8ab561368c01962bd9a68288159dc16b5ebb648fcb/1600.jpg",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/toto-temple-deluxe?q=toto+temple+deluxe+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv94tJSPMeyf3ZX1BBGt_0dIbcBMfFS_MBO5HPJpgLAjGxNPZkNXGj8T5Y6-_-tIeI0-hySqZfnE1NE0udigFNmepkYRQbmkh7kgRZLIqoKznOeFGQD-qNf4j5GUjFmE9cTGnKa5S6-qjXXWV1C9lJrHhgsCu0Q/1600.jpg",
       "metrics": {
-        "width": 1306,
-        "height": 1450,
-        "aspect": 0.9007,
-        "bannerColumnSpan": 0.6083,
-        "bannerPixelRatio": 0.1775
+        "width": 324,
+        "height": 360,
+        "aspect": 0.9,
+        "bannerColumnSpan": 0.5556,
+        "bannerPixelRatio": 0.2172
       }
     },
     {
@@ -4421,23 +2959,6 @@
       }
     },
     {
-      "id": 2033,
-      "title": "UnderMine",
-      "bucket": "review",
-      "reason": "failed_retail_front_gate",
-      "matchedTitle": "Undermine",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/undermine?q=undermine+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/ed817170b3d7023773e1b51620be04fc6be8912e1541c82ac24494e88611f793/1600.jpg",
-      "metrics": {
-        "width": 600,
-        "height": 666,
-        "aspect": 0.9009,
-        "bannerColumnSpan": 0.5722,
-        "bannerPixelRatio": 0.2503
-      }
-    },
-    {
       "id": 1542,
       "title": "Unsighted",
       "bucket": "review",
@@ -4472,54 +2993,54 @@
       }
     },
     {
-      "id": 1782,
-      "title": "VirtuaVerse",
+      "id": 1402,
+      "title": "VESTA",
       "bucket": "review",
       "reason": "failed_retail_front_gate",
-      "matchedTitle": "VirtuaVerse",
+      "matchedTitle": "Vesta",
       "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/virtuaverse?q=virtuaverse+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/35bda228b580a5379c791df00c59152395b12040afebc4ed15116060861fae99/1600.jpg",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/vesta?q=vesta+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/dc721463656a0b04953f48f3af921dd049918300753b937fcc1292b92487de01/1600.jpg",
       "metrics": {
-        "width": 474,
-        "height": 526,
-        "aspect": 0.9011,
-        "bannerColumnSpan": 0.5833,
-        "bannerPixelRatio": 0.262
+        "width": 700,
+        "height": 890,
+        "aspect": 0.7865,
+        "bannerColumnSpan": 0.6861,
+        "bannerPixelRatio": 0.3628
       }
     },
     {
-      "id": 2022,
-      "title": "Witchcrafty",
+      "id": 2761,
+      "title": "War Mongrels",
       "bucket": "review",
       "reason": "failed_retail_front_gate",
-      "matchedTitle": "Witchcrafty",
+      "matchedTitle": "War Mongrels",
       "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/witchcrafty?q=witchcrafty+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/440b0d80d28dee4c6558d046e5a674a8069f23a8996c095498967af70bddda02/1600.jpg",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/war-mongrels?q=war+mongrels+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/331dafb307af5936f35a6d7cec8888ae67779f3202ebbb66332611d0c03fbf5a/1600.jpg",
       "metrics": {
-        "width": 1200,
-        "height": 1332,
-        "aspect": 0.9009,
+        "width": 1152,
+        "height": 1152,
+        "aspect": 1.0,
+        "bannerColumnSpan": 0.7861,
+        "bannerPixelRatio": 0.496
+      }
+    },
+    {
+      "id": 2367,
+      "title": "Wytchwood",
+      "bucket": "review",
+      "reason": "failed_retail_front_gate",
+      "matchedTitle": "Wytchwood",
+      "region": "US/NTSC",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/wytchwood?q=wytchwood+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/f847345603ef82abcf15f7836281d0b7aeac8d467bb8078ff43211b9ef61c94c/1600.jpg",
+      "metrics": {
+        "width": 1306,
+        "height": 1450,
+        "aspect": 0.9007,
         "bannerColumnSpan": 0.6083,
-        "bannerPixelRatio": 0.3016
-      }
-    },
-    {
-      "id": 1463,
-      "title": "Xenon Valkyrie+",
-      "bucket": "review",
-      "reason": "failed_retail_front_gate",
-      "matchedTitle": "Xenon Valkyrie +",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/xenon-valkyrie-+?q=xenon+valkyrie%2B+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95oY55dEwYJGQgIm3jpa7kRqlOlY3jKFfq65Ca6XkkOt-vINV2i3d_WUKqF5K6tenz1cc5BbhvzAaeH_pQQz0w6ap-p8IRR5Bo0EgSpx4DXH9Njmw9p6EsAo2Q5RVP_i5Z-OKg0q-v04z5CgNSSlj2GgDMlig/1600.jpg",
-      "metrics": {
-        "width": 324,
-        "height": 360,
-        "aspect": 0.9,
-        "bannerColumnSpan": 0.5556,
-        "bannerPixelRatio": 0.2222
+        "bannerPixelRatio": 0.3
       }
     },
     {
@@ -4642,37 +3163,37 @@
       }
     },
     {
-      "id": 241,
-      "title": "Chariot",
+      "id": 1227,
+      "title": "The Church in the Darkness",
       "bucket": "review",
       "reason": "failed_retail_front_gate",
-      "matchedTitle": "Chariot",
+      "matchedTitle": "The Church In The Darkness",
       "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/chariot?q=chariot+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv97Q8scaM9jN6MhhDpm9IaUmaXShpZr3yBuqltTuEMwOJ7cGfNlQb9A5OC2P-f9H6rT2zw0dbG2elz2hT5zY4L5D480j3UdPYjHD7KMClsTp0Kba0TVsL2Wdxiwn7ZVz-vcAesr8naxiM3R-t_pahzC7acRDww/1600.jpg",
+      "productUrl": "https://www.pricecharting.com/game/playstation-4/the-church-in-the-darkness?q=the+church+in+the+darkness+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/bccc59102b1510732275bbfef8cda0ed2f6c70d5556154c49d14c338710d5901/1600.jpg",
       "metrics": {
-        "width": 461,
-        "height": 512,
-        "aspect": 0.9004,
-        "bannerColumnSpan": 0.5556,
-        "bannerPixelRatio": 0.2169
+        "width": 630,
+        "height": 699,
+        "aspect": 0.9013,
+        "bannerColumnSpan": 0.6083,
+        "bannerPixelRatio": 0.2963
       }
     },
     {
-      "id": 1615,
-      "title": "Fallen Legion: Sins of an Empire",
+      "id": 1942,
+      "title": "Fullblast",
       "bucket": "review",
       "reason": "failed_retail_front_gate",
-      "matchedTitle": "Fallen Legion: Sins of an Empire",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/fallen-legion-sins-of-an-empire?q=fallen+legion%3A+sins+of+an+empire+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/AMIfv96iU3FYaINazXMqJ7A4PRhNHJCvTOWMgoBe_2xM-OywLRZinw993OhkT3dLl6L7snhpKYLF2xSLFS8JEF0KxfNEQ19JW0yqPbUMS-f04QJYgbZ2mr7v_zRDhGGuCYZMdeTJrabMrlVfdVHMDkQql91CmOJDvg/1600.jpg",
+      "matchedTitle": "Fullblast",
+      "region": "PAL",
+      "productUrl": "https://www.pricecharting.com/game/pal-playstation-4/fullblast?q=fullblast+playstation+4",
+      "image": "https://storage.googleapis.com/images.pricecharting.com/d4c74711cdb02c7b880fa08f96048ed4064f9a17a1e0583a8cb450323d5d6958/1600.jpg",
       "metrics": {
-        "width": 308,
-        "height": 360,
-        "aspect": 0.8556,
-        "bannerColumnSpan": 0.6201,
-        "bannerPixelRatio": 0.2899
+        "width": 900,
+        "height": 1600,
+        "aspect": 0.5625,
+        "bannerColumnSpan": 0.0639,
+        "bannerPixelRatio": 0.0031
       }
     },
     {
@@ -4744,23 +3265,6 @@
       }
     },
     {
-      "id": 414,
-      "title": "Duck Game",
-      "bucket": "watch",
-      "reason": "failed_retail_front_gate",
-      "matchedTitle": "Duck Game",
-      "region": "US/NTSC",
-      "productUrl": "https://www.pricecharting.com/game/playstation-4/duck-game",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/7707070872dc4a339e6fe84338ce4bedb58dd9657202ff053627f3dc2991a278/1600.jpg",
-      "metrics": {
-        "width": 1108,
-        "height": 1399,
-        "aspect": 0.792,
-        "bannerColumnSpan": 0.6944,
-        "bannerPixelRatio": 0.3561
-      }
-    },
-    {
       "id": 1971,
       "title": "Jim Power: The Lost Dimension",
       "bucket": "watch",
@@ -4775,23 +3279,6 @@
         "aspect": 1.0,
         "bannerColumnSpan": 0.575,
         "bannerPixelRatio": 0.2221
-      }
-    },
-    {
-      "id": 2696,
-      "title": "Quintessential Quintuplets Fives Memories With You",
-      "bucket": "watch",
-      "reason": "failed_retail_front_gate",
-      "matchedTitle": "Quintessential Quintuplets Fives Memories With You",
-      "region": "JP",
-      "productUrl": "https://www.pricecharting.com/game/jp-playstation-4/quintessential-quintuplets-fives-memories-with-you?q=quintessential+quintuplets+fives+memories+with+you+playstation+4",
-      "image": "https://storage.googleapis.com/images.pricecharting.com/6bf0c39e7164edfa1984f8da938407a101fa635a763dc15248f1a8ce84f37554/1600.jpg",
-      "metrics": {
-        "width": 1600,
-        "height": 1200,
-        "aspect": 1.3333,
-        "bannerColumnSpan": 0.0,
-        "bannerPixelRatio": 0.0
       }
     },
     {
@@ -4848,29 +3335,8 @@
   ],
   "errors": [
     {
-      "id": 2972,
-      "title": "Life in Willowdale: Farm Adventures",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": 3018,
-      "title": "Maglam Lord",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": 3069,
-      "title": "Mercenaries Blaze: Dawn of the Twin Dragons",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": 3013,
-      "title": "Minecraft Legends",
+      "id": 2985,
+      "title": "Miss Kobayashi's Dragon Maid: Burst Forth!! Choro-gon Breath",
       "bucket": "review",
       "reason": "missing_cover",
       "error": "HTTP Error 429: Too Many Requests"
@@ -4911,8 +3377,29 @@
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
+      "id": 2518,
+      "title": "Beyond Enemy Lines 2: Enhanced Edition",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": 2533,
+      "title": "Bounty Battle",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
       "id": 1582,
       "title": "Breach & Clear: Deadline",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": 238,
+      "title": "Caveman Warriors",
       "bucket": "review",
       "reason": "key_art_only",
       "error": "HTTP Error 429: Too Many Requests"
@@ -4925,15 +3412,15 @@
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": 275,
-      "title": "Crawl",
+      "id": 2298,
+      "title": "Colossal Cave",
       "bucket": "review",
       "reason": "key_art_only",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": 299,
-      "title": "Darius Cozmic Collection: Console",
+      "id": 275,
+      "title": "Crawl",
       "bucket": "review",
       "reason": "key_art_only",
       "error": "HTTP Error 429: Too Many Requests"
@@ -4946,8 +3433,15 @@
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": 2417,
-      "title": "Dogchild",
+      "id": 1600,
+      "title": "Deer Simulator",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": 402,
+      "title": "Dragon Fantasy: The Black Tome of Ice",
       "bucket": "review",
       "reason": "key_art_only",
       "error": "HTTP Error 429: Too Many Requests"
@@ -4967,15 +3461,36 @@
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": 1622,
-      "title": "Fury Unleashed",
+      "id": 454,
+      "title": "Factotum 90",
       "bucket": "review",
       "reason": "key_art_only",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": 2311,
-      "title": "Gigabash",
+      "id": 1807,
+      "title": "Five Dates",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": 1624,
+      "title": "Futuridium EP Deluxe",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": 1938,
+      "title": "Gekido Kintaro's Revenge",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": 1866,
+      "title": "Godstrike",
       "bucket": "review",
       "reason": "key_art_only",
       "error": "HTTP Error 429: Too Many Requests"
@@ -4995,8 +3510,22 @@
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": 2325,
-      "title": "Mighty Goose",
+      "id": 2243,
+      "title": "Irem Collection Volume 1",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": 1515,
+      "title": "Late Shift",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": 2463,
+      "title": "Memorrha",
       "bucket": "review",
       "reason": "key_art_only",
       "error": "HTTP Error 429: Too Many Requests"
@@ -5009,29 +3538,36 @@
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": 807,
-      "title": "Mutant Mudds Deluxe",
+      "id": 808,
+      "title": "Mutant Mudds: Super Challenge",
       "bucket": "review",
       "reason": "key_art_only",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": 815,
-      "title": "Mystery Chronicle: One Way Heroics",
+      "id": 1679,
+      "title": "Neverending Nightmares",
       "bucket": "review",
       "reason": "key_art_only",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": 2657,
-      "title": "Naught: Extended Edition",
+      "id": 2011,
+      "title": "Night Book",
       "bucket": "review",
       "reason": "key_art_only",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": 2666,
-      "title": "Octopath Traveler 0",
+      "id": 1826,
+      "title": "Nobody Saves the World",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": 872,
+      "title": "One Step From Eden",
       "bucket": "review",
       "reason": "key_art_only",
       "error": "HTTP Error 429: Too Many Requests"
@@ -5039,6 +3575,13 @@
     {
       "id": 2028,
       "title": "Overrogue",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": 1952,
+      "title": "Project Starship X",
       "bucket": "review",
       "reason": "key_art_only",
       "error": "HTTP Error 429: Too Many Requests"
@@ -5058,36 +3601,22 @@
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": 2038,
-      "title": "Roombo: First Blood",
+      "id": 2096,
+      "title": "Rival Megagun",
       "bucket": "review",
       "reason": "key_art_only",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": 2339,
-      "title": "Ruinverse",
+      "id": 1717,
+      "title": "Rym 9000",
       "bucket": "review",
       "reason": "key_art_only",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": 2718,
-      "title": "Sam & Max: Beyond Time And Space",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": 1039,
-      "title": "Saturday Morning RPG",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "error": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "id": 1721,
-      "title": "Screencheat",
+      "id": 1720,
+      "title": "Samurai Shodown VI",
       "bucket": "review",
       "reason": "key_art_only",
       "error": "HTTP Error 429: Too Many Requests"
@@ -5135,6 +3664,27 @@
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
+      "id": 1737,
+      "title": "Super GunWorld 2",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": 1185,
+      "title": "SuperMash",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": 2352,
+      "title": "Supraland",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
       "id": 1203,
       "title": "Tamashii",
       "bucket": "review",
@@ -5142,22 +3692,22 @@
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": 1746,
-      "title": "Tharsis",
+      "id": 1745,
+      "title": "Terror of Hemasaurus",
       "bucket": "review",
       "reason": "key_art_only",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": 2353,
-      "title": "The Coma 2: Vicious Sisters",
+      "id": 1225,
+      "title": "The Bunker",
       "bucket": "review",
       "reason": "key_art_only",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": 1769,
-      "title": "Toto Temple Deluxe",
+      "id": 2030,
+      "title": "Toy Soldiers HD",
       "bucket": "review",
       "reason": "key_art_only",
       "error": "HTTP Error 429: Too Many Requests"
@@ -5170,6 +3720,13 @@
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
+      "id": 2033,
+      "title": "UnderMine",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
       "id": 2043,
       "title": "Vagante",
       "bucket": "review",
@@ -5177,15 +3734,15 @@
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": 1402,
-      "title": "VESTA",
+      "id": 1970,
+      "title": "Vesper: Zero Light Edition",
       "bucket": "review",
       "reason": "key_art_only",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": 2761,
-      "title": "War Mongrels",
+      "id": 1782,
+      "title": "VirtuaVerse",
       "bucket": "review",
       "reason": "key_art_only",
       "error": "HTTP Error 429: Too Many Requests"
@@ -5198,8 +3755,15 @@
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": 2367,
-      "title": "Wytchwood",
+      "id": 2022,
+      "title": "Witchcrafty",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": 1463,
+      "title": "Xenon Valkyrie+",
       "bucket": "review",
       "reason": "key_art_only",
       "error": "HTTP Error 429: Too Many Requests"
@@ -5226,22 +3790,22 @@
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": 1227,
-      "title": "The Church in the Darkness",
+      "id": 241,
+      "title": "Chariot",
       "bucket": "review",
       "reason": "missing_ps4_banner",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": 1942,
-      "title": "Fullblast",
+      "id": 1615,
+      "title": "Fallen Legion: Sins of an Empire",
       "bucket": "review",
       "reason": "missing_ps4_banner",
       "error": "HTTP Error 429: Too Many Requests"
     },
     {
-      "id": 2429,
-      "title": "Noob: Les Sans-Factions",
+      "id": 2696,
+      "title": "Quintessential Quintuplets Fives Memories With You",
       "bucket": "watch",
       "reason": "image_fetch_failed",
       "error": "HTTP Error 429: Too Many Requests"

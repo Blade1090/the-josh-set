@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-11-09T17:58:47.732Z",
+  "generatedAt": "2026-11-09T18:08:22.994Z",
   "summary": {
-    "generatedAt": "2026-11-09T17:58:47.732Z",
+    "generatedAt": "2026-11-09T18:08:22.994Z",
     "included": 2622,
-    "good": 2347,
+    "good": 2348,
     "fallback": 8,
-    "review": 252,
+    "review": 251,
     "watch": 15,
-    "physicalVerify": 249,
-    "physicalLikely": 1465,
+    "physicalVerify": 248,
+    "physicalLikely": 1466,
     "physicalConfirmed": 908,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "missing_cover": 57,
+      "missing_cover": 56,
       "key_art_only": 177,
       "missing_ps4_banner": 18
     },
@@ -24,10 +24,10 @@
     },
     "synthetic": 209,
     "displayTiers": {
-      "GOOD": 2347,
+      "GOOD": 2348,
       "FALLBACK": 8,
       "SYNTHETIC": 209,
-      "BLANK": 58
+      "BLANK": 57
     },
     "syntheticByRealState": {
       "REVIEW": 195,
@@ -147,11 +147,6 @@
     {
       "id": 3010,
       "title": "MechWarrior 5: Mercenaries",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3069,
-      "title": "Mercenaries Blaze: Dawn of the Twin Dragons",
       "reason": "missing_cover"
     },
     {
