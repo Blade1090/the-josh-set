@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-11-09T19:34:27.578Z",
+  "generatedAt": "2026-11-09T19:37:43.673Z",
   "summary": {
-    "generatedAt": "2026-11-09T19:34:27.578Z",
+    "generatedAt": "2026-11-09T19:37:43.673Z",
     "included": 2656,
-    "good": 2357,
+    "good": 2365,
     "fallback": 8,
-    "review": 278,
+    "review": 270,
     "watch": 13,
-    "physicalVerify": 273,
+    "physicalVerify": 265,
     "physicalLikely": 1475,
-    "physicalConfirmed": 908,
+    "physicalConfirmed": 916,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "missing_cover": 35,
+      "missing_cover": 27,
       "key_art_only": 225,
       "missing_ps4_banner": 18
     },
@@ -24,10 +24,10 @@
     },
     "synthetic": 261,
     "displayTiers": {
-      "GOOD": 2357,
+      "GOOD": 2365,
       "FALLBACK": 8,
       "SYNTHETIC": 261,
-      "BLANK": 30
+      "BLANK": 22
     },
     "syntheticByRealState": {
       "REVIEW": 248,
@@ -38,21 +38,6 @@
   },
   "review": [
     {
-      "id": 3081,
-      "title": "AEW: Fight Forever",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3083,
-      "title": "Big Buck Hunter Arcade",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3103,
-      "title": "Crazy Chicken Xtreme",
-      "reason": "missing_cover"
-    },
-    {
       "id": 3095,
       "title": "Cry Babies Magic Tears: The Big Game",
       "reason": "missing_cover"
@@ -60,11 +45,6 @@
     {
       "id": 2790,
       "title": "Diablo IV",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3079,
-      "title": "Disney Dreamlight Valley",
       "reason": "missing_cover"
     },
     {
@@ -158,11 +138,6 @@
       "reason": "missing_cover"
     },
     {
-      "id": 3078,
-      "title": "Pure Pool",
-      "reason": "missing_cover"
-    },
-    {
       "id": 3104,
       "title": "RiffTrax: The Game",
       "reason": "missing_cover"
@@ -173,18 +148,8 @@
       "reason": "missing_cover"
     },
     {
-      "id": 3080,
-      "title": "Skull Island: Rise of Kong",
-      "reason": "missing_cover"
-    },
-    {
       "id": 2901,
       "title": "Sniper Elite 5",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3098,
-      "title": "Spike Volleyball",
       "reason": "missing_cover"
     },
     {
@@ -205,11 +170,6 @@
     {
       "id": 3086,
       "title": "World Quiz",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3097,
-      "title": "Worms Rumble",
       "reason": "missing_cover"
     },
     {
