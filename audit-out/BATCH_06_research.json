@@ -1,0 +1,961 @@
+{
+ "generated": "2026-11-09",
+ "input": "audit-out/gamestop-catalog-reconciliation.json NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH (59 listings)",
+ "evidenceStandard": "GameStop PS4 preowned listing + opened PriceCharting PS4/PAL PS4 product page showing 1 game disc and loose (disc-only) sales, the disc-evidence rule used in Batches 01-05.",
+ "counts": {
+  "confirmedAdded": 35,
+  "nameVariantsOfExisting": 20,
+  "psvrRequired": 4,
+  "review": 5
+ },
+ "secondPass": "The LIKELY_NAME_VARIANT bucket of the reconciliation was re-checked by hand: 5 listings were distinct standalone games (added above, IDs 3108-3112) and the compilations below need a curator modeling decision. PSVR-required in that bucket: Job Simulator, Rick and Morty: Virtual Rick-ality, Ghost Giant, Golem, The Walking Dead: Saints & Sinners Chapter 2. Windstorm: Start of a Great Friendship matches census 2440 Windstorm, which is EXCLUDED by curation pass #1 HORSE_GAME (existing decision, reported, not changed).",
+ "compilationsForCuratorReview": [
+  {
+   "listing": "Minecraft Starter Collection",
+   "recommendation": "Product of existing 782 Minecraft: PlayStation 4 Edition plus content packs; no new identity."
+  },
+  {
+   "listing": "Star Wars Jedi Knight Collection",
+   "recommendation": "Product covering existing 1133 Jedi Outcast + 1134 Jedi Academy; add a DATA.p product row."
+  },
+  {
+   "listing": "Dishonored and Prey: The Arkane Collection",
+   "recommendation": "Product covering existing 374 Dishonored 2 + 929 Prey; add a DATA.p product row."
+  },
+  {
+   "listing": "Wolfenstein Collection",
+   "recommendation": "Product covering existing Wolfenstein identities (1440/1442/1443); confirm contents before mapping."
+  },
+  {
+   "listing": "Disney Classic Games Collection",
+   "recommendation": "Expanded re-release of existing 376 Disney Classic Games: Aladdin and the Lion King (adds The Jungle Book); curator: same identity or product."
+  },
+  {
+   "listing": "Persona: Endless Night Collection",
+   "recommendation": "Product covering 901 Persona 3: Dancing in Moonlight, 2916 Persona 5: Dancing in Starlight and Persona 4: Dancing All Night (not in census)."
+  },
+  {
+   "listing": "Overcooked! All You Can Eat",
+   "recommendation": "Remastered compilation of existing 2227 Overcooked! + 885 Overcooked! 2 (1688 product is EXCLUDED); curator: product row or new identity."
+  },
+  {
+   "listing": "Nexomon Plus Nexomon Extinction Complete Collection",
+   "recommendation": "Covers existing 836 Nexomon: Extinction plus Nexomon (not in census; no standalone PS4 disc found)."
+  },
+  {
+   "listing": "Hasbro Family Fun Pack",
+   "recommendation": "Multi-game Hasbro pack (with a Conquest Edition variant); distinct from 789 Monopoly: Family Fun Pack; curator: identity modeling."
+  },
+  {
+   "listing": "Mass Effect Legendary Edition",
+   "recommendation": "Only physical PS4 path for the remastered trilogy; curator: one identity (precedent: collection identities such as Kingdom Hearts HD I.5 + II.5 Remix) or three."
+  },
+  {
+   "listing": "Grand Theft Auto: Trilogy - The Definitive Edition",
+   "recommendation": "Only physical PS4 path for GTA III / Vice City / San Andreas DE; curator: one identity or three."
+  },
+  {
+   "listing": "Teenage Mutant Ninja Turtles: The Cowabunga Collection",
+   "recommendation": "Single-disc retro collection; precedent Mega Man Legacy Collection (753) suggests one identity."
+  },
+  {
+   "listing": "Mega Man Battle Network Legacy Collection",
+   "recommendation": "Single-disc collection; precedent Mega Man Legacy Collection (753) suggests one identity."
+  },
+  {
+   "listing": "Sonic Origins Plus",
+   "recommendation": "Single-disc retro collection; one identity likely."
+  },
+  {
+   "listing": "Capcom Fighting Collection",
+   "recommendation": "Single-disc fighting collection; one identity likely."
+  },
+  {
+   "listing": "Capcom Fighting Collection 2",
+   "recommendation": "Single-disc fighting collection; one identity likely."
+  },
+  {
+   "listing": "Marvel vs. Capcom Fighting Collection: Arcade Classics",
+   "recommendation": "Single-disc fighting collection; one identity likely."
+  },
+  {
+   "listing": "FINAL FANTASY I-VI COLLECTION ANNIVERSARY EDITION",
+   "recommendation": "Six Pixel Remasters on one physical release; curator: one identity or six."
+  },
+  {
+   "listing": "Crysis Remastered Trilogy",
+   "recommendation": "Only physical PS4 path for the three remasters; curator: one identity or three."
+  },
+  {
+   "listing": "Halloween and Ash vs Evil Dead RetroRealms Double Feature",
+   "recommendation": "Two distinct games on one disc; curator: two identities plus a product row."
+  },
+  {
+   "listing": "Dark Thrones and Witch Hunter Double Pack",
+   "recommendation": "Two distinct games on one disc; curator: two identities plus a product row."
+  },
+  {
+   "listing": "Atari Flashback Classics Volume 2",
+   "recommendation": "Precedent 111 Atari Flashback Classics: Volume 1 suggests one identity."
+  },
+  {
+   "listing": "Atari Flashback Classics Vol 3",
+   "recommendation": "Precedent 111 Volume 1 suggests one identity."
+  },
+  {
+   "listing": "Marvel Pinball: Epic Collection Volume 1",
+   "recommendation": "Single-disc pinball table collection; one identity likely."
+  },
+  {
+   "listing": "Psikyo Shooting Library Vol. 1",
+   "recommendation": "Multi-shooter collection; one identity likely."
+  },
+  {
+   "listing": "Psikyo Shooting Library Vol. 2",
+   "recommendation": "Multi-shooter collection; one identity likely."
+  },
+  {
+   "listing": "KEMCO RPG Selection Vol. 2",
+   "recommendation": "Multi-RPG collection; curator: identity modeling."
+  },
+  {
+   "listing": "Train Valley Collection",
+   "recommendation": "Train Valley 1 + 2 collection; curator: identity modeling."
+  },
+  {
+   "listing": "The Sims 4 Plus Eco Lifestyle Bundle",
+   "recommendation": "Base game plus DLC bundle; maps to The Sims 4 base identity, not a new one."
+  },
+  {
+   "listing": "Fishing Sim World",
+   "recommendation": "Same game as research 2914 Fishing Sim World: Pro Tour (already in the curator review queue)."
+  }
+ ],
+ "confirmed": [
+  {
+   "id": 3078,
+   "title": "Pure Pool",
+   "gamestopListing": "Pure Pool",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/pure-pool",
+    "name": "Pure Pool",
+    "console": "Playstation 4",
+    "loose": 13.57,
+    "cib": 14.57,
+    "sealed": 19.15,
+    "upc": "696055249350",
+    "disc": "1 game disc",
+    "pub": "System 3",
+    "rel": "December 1, 2014"
+   },
+   "cib": 14.57,
+   "aliases": []
+  },
+  {
+   "id": 3079,
+   "title": "Disney Dreamlight Valley",
+   "gamestopListing": "Disney Dreamlight Valley Cozy Edition",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/disney%27s-dreamlight-valley-cozy-edition",
+    "name": "Disney's Dreamlight Valley: Cozy Edition",
+    "console": "Playstation 4",
+    "loose": 45,
+    "cib": 45,
+    "sealed": 50,
+    "upc": "810136671117",
+    "disc": "1 game disc",
+    "pub": "none",
+    "rel": "none"
+   },
+   "cib": 45,
+   "aliases": [
+    "Disney Dreamlight Valley Cozy Edition",
+    "Disney's Dreamlight Valley: Cozy Edition"
+   ]
+  },
+  {
+   "id": 3080,
+   "title": "Skull Island: Rise of Kong",
+   "gamestopListing": "Skull Island: Rise of Kong",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/skull-island-rise-of-kong",
+    "name": "Skull Island: Rise of Kong",
+    "console": "Playstation 4",
+    "loose": 13.08,
+    "cib": 16.13,
+    "sealed": 19.6,
+    "upc": "810110660380,810110660427",
+    "disc": "1 game disc",
+    "pub": "Game Mill Entertainment",
+    "rel": "October 17, 2023"
+   },
+   "cib": 16.13,
+   "aliases": []
+  },
+  {
+   "id": 3081,
+   "title": "AEW: Fight Forever",
+   "gamestopListing": "AEW: Fight Forever",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/aew-fight-forever",
+    "name": "AEW: Fight Forever",
+    "console": "Playstation 4",
+    "loose": 11.78,
+    "cib": 13.07,
+    "sealed": 18.99,
+    "upc": "811994023544",
+    "disc": "1 game disc",
+    "pub": "THQ Nordic",
+    "rel": "June 29, 2023"
+   },
+   "cib": 13.07,
+   "aliases": []
+  },
+  {
+   "id": 3082,
+   "title": "NASCAR Arcade Rush",
+   "gamestopListing": "NASCAR Arcade Rush",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/nascar-arcade-rush",
+    "name": "NASCAR Arcade Rush",
+    "console": "Playstation 4",
+    "loose": 12.38,
+    "cib": 13.48,
+    "sealed": 20.74,
+    "upc": "810110660540",
+    "disc": "1 game disc",
+    "pub": "Game Mill Entertainment",
+    "rel": "September 15, 2023"
+   },
+   "cib": 13.48,
+   "aliases": []
+  },
+  {
+   "id": 3083,
+   "title": "Big Buck Hunter Arcade",
+   "gamestopListing": "Big Buck Hunter Arcade",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/big-buck-hunter-arcade",
+    "name": "Big Buck Hunter Arcade",
+    "console": "Playstation 4",
+    "loose": 9.99,
+    "cib": 10.4,
+    "sealed": 19.56,
+    "upc": "834656000356,856131008312",
+    "disc": "1 game disc",
+    "pub": "Game Mill",
+    "rel": "January 1, 2017"
+   },
+   "cib": 10.4,
+   "aliases": []
+  },
+  {
+   "id": 3084,
+   "title": "The Quest for Excalibur: Puy du Fou",
+   "gamestopListing": "The Quest for Excalibur: Puy Du Fou",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/the-quest-for-excalibur-puy-du-fou",
+    "name": "The Quest For Excalibur: Puy Du Fou",
+    "console": "Playstation 4",
+    "loose": 10,
+    "cib": 10,
+    "sealed": 13,
+    "upc": "850024479470",
+    "disc": "1 game disc",
+    "pub": "Maximum Games",
+    "rel": "August 2, 2022"
+   },
+   "cib": 10,
+   "aliases": []
+  },
+  {
+   "id": 3085,
+   "title": "Werewolf: The Apocalypse - Heart of the Forest",
+   "gamestopListing": "Werewolf The Apocalypse: Heart of the Forest",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/werewolf-the-apocalypse-heart-of-the-forest",
+    "name": "Werewolf The Apocalypse: Heart of the Forest",
+    "console": "Playstation 4",
+    "loose": 14.99,
+    "cib": 14.99,
+    "sealed": 23.48,
+    "upc": null,
+    "disc": "1 game disc",
+    "pub": "none",
+    "rel": "October 27, 2023"
+   },
+   "cib": 14.99,
+   "aliases": [
+    "Werewolf The Apocalypse: Heart of the Forest"
+   ]
+  },
+  {
+   "id": 3086,
+   "title": "World Quiz",
+   "gamestopListing": "World Quiz",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/world-quiz",
+    "name": "World Quiz",
+    "console": "Playstation 4",
+    "loose": 7.51,
+    "cib": 10.99,
+    "sealed": 11.25,
+    "upc": "850017102453",
+    "disc": "1 game disc",
+    "pub": "none",
+    "rel": "December 7, 2021"
+   },
+   "cib": 10.99,
+   "aliases": []
+  },
+  {
+   "id": 3087,
+   "title": "My Universe: Fashion Boutique",
+   "gamestopListing": "My Universe: Fashion Boutique",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/my-universe-fashion-boutique",
+    "name": "My Universe Fashion Boutique",
+    "console": "Playstation 4",
+    "loose": 7.62,
+    "cib": 11.99,
+    "sealed": 19.9,
+    "upc": "850340008972",
+    "disc": "1 game disc",
+    "pub": "none",
+    "rel": "October 1, 2020"
+   },
+   "cib": 11.99,
+   "aliases": []
+  },
+  {
+   "id": 3088,
+   "title": "My Universe: Puppies & Kittens",
+   "gamestopListing": "My Universe: Puppies and Kittens",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/my-universe-puppies-and-kittens",
+    "name": "My Universe: Puppies and Kittens",
+    "console": "Playstation 4",
+    "loose": 11.82,
+    "cib": 14.58,
+    "sealed": 13.5,
+    "upc": "850024479326",
+    "disc": "1 game disc",
+    "pub": "none",
+    "rel": "November 23, 2021"
+   },
+   "cib": 14.58,
+   "aliases": [
+    "My Universe: Puppies and Kittens"
+   ]
+  },
+  {
+   "id": 3089,
+   "title": "My Universe: My Baby",
+   "gamestopListing": "My Universe My Baby",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/my-universe-my-baby",
+    "name": "My Universe My Baby",
+    "console": "Playstation 4",
+    "loose": 11.17,
+    "cib": 12.85,
+    "sealed": 19.36,
+    "upc": "850340008897",
+    "disc": "1 game disc",
+    "pub": "none",
+    "rel": "October 1, 2020"
+   },
+   "cib": 12.85,
+   "aliases": [
+    "My Universe My Baby"
+   ]
+  },
+  {
+   "id": 3090,
+   "title": "My Universe: Cooking Star Restaurant",
+   "gamestopListing": "My Universe: Cooking Star Restaurant",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/my-universe-cooking-star-restaurant",
+    "name": "My Universe Cooking Star Restaurant",
+    "console": "Playstation 4",
+    "loose": 14.56,
+    "cib": 14.56,
+    "sealed": 19.58,
+    "upc": "850340008354",
+    "disc": "1 game disc",
+    "pub": "none",
+    "rel": "October 1, 2020"
+   },
+   "cib": 14.56,
+   "aliases": []
+  },
+  {
+   "id": 3091,
+   "title": "My Universe: School Teacher",
+   "gamestopListing": "My Universe: School Teacher",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/my-universe-school-teacher",
+    "name": "My Universe School Teacher",
+    "console": "Playstation 4",
+    "loose": 6.19,
+    "cib": 8.18,
+    "sealed": 18.99,
+    "upc": "850340008477",
+    "disc": "1 game disc",
+    "pub": "none",
+    "rel": "October 1, 2020"
+   },
+   "cib": 8.18,
+   "aliases": []
+  },
+  {
+   "id": 3092,
+   "title": "My Universe: Doctors & Nurses",
+   "gamestopListing": "My Universe: Doctors and Nurses",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/my-universe-doctors-&-nurses",
+    "name": "My Universe: Doctors & Nurses",
+    "console": "Playstation 4",
+    "loose": 6.96,
+    "cib": 8
+   },
+   "cib": 8,
+   "aliases": [
+    "My Universe: Doctors and Nurses"
+   ]
+  },
+  {
+   "id": 3093,
+   "title": "My Universe: Pet Clinic Cats & Dogs",
+   "gamestopListing": "My Universe: Pet Clinic Cats and Dogs",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/my-universe-pet-clinic-cats-&-dogs",
+    "name": "My Universe: Pet Clinic: Cats & Dogs",
+    "console": "Playstation 4",
+    "loose": 9.57,
+    "cib": 12.95
+   },
+   "cib": 12.95,
+   "aliases": [
+    "My Universe: Pet Clinic Cats and Dogs",
+    "My Universe: Pet Clinic: Cats & Dogs"
+   ]
+  },
+  {
+   "id": 3094,
+   "title": "Santa's Xmas Adventure",
+   "gamestopListing": "Santa's Xmas Adventure",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/santa%27s-xmas-adventure",
+    "name": "Santa's Xmas Adventure",
+    "console": "Playstation 4",
+    "loose": 4.98,
+    "cib": 5.93,
+    "sealed": 7.75,
+    "upc": "850017102217",
+    "disc": "1 game disc",
+    "pub": "GS2 Games",
+    "rel": "December 1, 2020"
+   },
+   "cib": 5.93,
+   "aliases": []
+  },
+  {
+   "id": 3095,
+   "title": "Cry Babies Magic Tears: The Big Game",
+   "gamestopListing": "Cry Babies Magic Tears: The Big Game",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/cry-babies-magic-tears-the-big-game",
+    "name": "Cry Babies Magic Tears: The Big Game",
+    "console": "Playstation 4",
+    "loose": 13.98,
+    "cib": 13.98,
+    "sealed": 16.14,
+    "upc": "819335021877",
+    "disc": "1 game disc",
+    "pub": "Merge Games",
+    "rel": "September 29, 2023"
+   },
+   "cib": 13.98,
+   "aliases": []
+  },
+  {
+   "id": 3096,
+   "title": "Pickleball: Smash",
+   "gamestopListing": "Pickleball: Smash",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/pickleball-smash",
+    "name": "Pickleball: Smash",
+    "console": "Playstation 4",
+    "loose": 5,
+    "cib": 5,
+    "sealed": 14.14,
+    "upc": "810110660861",
+    "disc": "1 game disc",
+    "pub": "GameMill Entertainment",
+    "rel": "October 27, 2023"
+   },
+   "cib": 5,
+   "aliases": []
+  },
+  {
+   "id": 3097,
+   "title": "Worms Rumble",
+   "gamestopListing": "Worms Rumble: Fully Loaded Edition",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/worms-rumble-fully-loaded-edition",
+    "name": "Worms Rumble: Fully Loaded Edition",
+    "console": "Playstation 4",
+    "loose": 9.09,
+    "cib": 10.64,
+    "sealed": 10,
+    "upc": "812303015816",
+    "disc": "1 game disc",
+    "pub": "Team 17",
+    "rel": "July 13, 2021"
+   },
+   "cib": 10.64,
+   "aliases": [
+    "Worms Rumble: Fully Loaded Edition",
+    "Worms Rumble [Fully Loaded Edition]"
+   ]
+  },
+  {
+   "id": 3098,
+   "title": "Spike Volleyball",
+   "gamestopListing": "Spike Volleyball",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/spike-volleyball",
+    "name": "Spike Volleyball",
+    "console": "Playstation 4",
+    "loose": 19.22,
+    "cib": 22.1,
+    "sealed": 32.29,
+    "upc": "814290014711",
+    "disc": "1 game disc",
+    "pub": "Big Ben",
+    "rel": "February 5, 2019"
+   },
+   "cib": 22.1,
+   "aliases": []
+  },
+  {
+   "id": 3099,
+   "title": "The Outbound Ghost",
+   "gamestopListing": "The Outbound Ghost",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/the-outbound-ghost",
+    "name": "The Outbound Ghost",
+    "console": "Playstation 4",
+    "loose": 15,
+    "cib": 16.99,
+    "sealed": 34.56,
+    "upc": "819335021594",
+    "disc": "1 game disc",
+    "pub": "none",
+    "rel": "September 20, 2022"
+   },
+   "cib": 16.99,
+   "aliases": []
+  },
+  {
+   "id": 3100,
+   "title": "Mars Odyssey",
+   "gamestopListing": "Mars Odyssey",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/mars-odyssey?q=mars+odyssey",
+    "name": "Mars Odyssey",
+    "console": "Playstation 4",
+    "loose": 11.16,
+    "cib": 13,
+    "sealed": 17,
+    "upc": "850007037017",
+    "disc": "1 game disc",
+    "pub": "Hoplite Research",
+    "rel": "December 10, 2019"
+   },
+   "cib": 13,
+   "aliases": []
+  },
+  {
+   "id": 3101,
+   "title": "Ninja Kidz: Time Masters",
+   "gamestopListing": "Ninja Kidz Through Time",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/ninja-kidz-time-masters",
+    "name": "Ninja Kidz: Time Masters",
+    "console": "Playstation 4",
+    "loose": 13.2,
+    "cib": 13.2,
+    "sealed": 35.78,
+    "upc": null,
+    "disc": "1 game disc",
+    "pub": "none",
+    "rel": "September 29, 2023"
+   },
+   "cib": 13.2,
+   "aliases": [
+    "Ninja Kidz Through Time"
+   ]
+  },
+  {
+   "id": 3102,
+   "title": "Doki Doki Literature Club Plus!",
+   "gamestopListing": "Doki Doki Literature Club Plus! Premium Edition",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/doki-doki-literature-club-plus",
+    "name": "Doki Doki Literature Club Plus",
+    "console": "Playstation 4",
+    "loose": 19.58,
+    "cib": 25.75,
+    "sealed": 31.99,
+    "upc": "860006405113",
+    "disc": "1 game disc",
+    "pub": "Serenity Forge",
+    "rel": "October 8, 2021"
+   },
+   "cib": 25.75,
+   "aliases": [
+    "Doki Doki Literature Club Plus! Premium Edition",
+    "Doki Doki Literature Club Plus"
+   ]
+  },
+  {
+   "id": 3103,
+   "title": "Crazy Chicken Xtreme",
+   "gamestopListing": "Crazy Chicken Xtreme",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/crazy-chicken-xtreme",
+    "name": "Crazy Chicken Xtreme",
+    "console": "Playstation 4",
+    "loose": 10.64,
+    "cib": 12.65,
+    "sealed": 16.1,
+    "upc": "850017102880",
+    "disc": "1 game disc",
+    "pub": "GS2 Games",
+    "rel": "June 14, 2022"
+   },
+   "cib": 12.65,
+   "aliases": []
+  },
+  {
+   "id": 3104,
+   "title": "RiffTrax: The Game",
+   "gamestopListing": "Rifftrax: The Game",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/rifftrax-the-game",
+    "name": "Rifftrax: The Game",
+    "console": "Playstation 4",
+    "loose": 19.99,
+    "cib": 25.95,
+    "sealed": 25.99,
+    "upc": "810105674187",
+    "disc": "1 game disc",
+    "pub": "Limited Run Games",
+    "rel": "May 5, 2022"
+   },
+   "cib": 25.95,
+   "aliases": [
+    "Rifftrax: The Game"
+   ]
+  },
+  {
+   "id": 3105,
+   "title": "Professor Rubik's Brain Fitness",
+   "gamestopListing": "Professor Rubik's Brain Fitness",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/professor-rubik%27s-brain-fitness",
+    "name": "Professor Rubik's Brain Fitness",
+    "console": "Playstation 4",
+    "loose": 10.22,
+    "cib": 12.95,
+    "sealed": 14.27,
+    "upc": "850340008392",
+    "disc": "1 game disc",
+    "pub": "none",
+    "rel": "November 24, 2020"
+   },
+   "cib": 12.95,
+   "aliases": []
+  },
+  {
+   "id": 3106,
+   "title": "Firefighting Simulator: The Squad",
+   "gamestopListing": "Firefighting Simulator - The Squad",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/pal-playstation-4/firefighting-simulator-the-squad",
+    "name": "Firefighting Simulator - The Squad",
+    "console": "PAL Playstation 4",
+    "loose": 16.56,
+    "cib": 16.56,
+    "sealed": 33.9,
+    "upc": null,
+    "disc": "1 game disc",
+    "pub": "none",
+    "rel": "April 4, 2023"
+   },
+   "cib": 16.56,
+   "aliases": [
+    "Firefighting Simulator - The Squad"
+   ]
+  },
+  {
+   "id": 3107,
+   "title": "Postal 4: No Regerts",
+   "gamestopListing": "Postal 4: No Regerts",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/postal-4-no-regerts",
+    "name": "Postal 4: No Regerts",
+    "console": "Playstation 4",
+    "loose": 34.95,
+    "cib": 44.23,
+    "sealed": 50.24,
+    "upc": "810105676716",
+    "disc": "1 game disc",
+    "pub": "none",
+    "rel": "April 28, 2023"
+   },
+   "cib": 44.23,
+   "aliases": []
+  },
+  {
+   "id": 3108,
+   "title": "Life is Strange: True Colors",
+   "gamestopListing": "Life is Strange: True Colors",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/life-is-strange-true-colors",
+    "name": "Life is Strange: True Colors",
+    "console": "Playstation 4",
+    "loose": 10.54,
+    "cib": 13.43,
+    "upc": "662248925028",
+    "rel": "September 10, 2021"
+   },
+   "cib": 13.43,
+   "aliases": []
+  },
+  {
+   "id": 3109,
+   "title": "Super Monkey Ball: Banana Mania",
+   "gamestopListing": "Super Monkey Ball: Banana Mania",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/super-monkey-ball-banana-mania",
+    "name": "Super Monkey Ball: Banana Mania",
+    "console": "Playstation 4",
+    "loose": 7.9,
+    "cib": 7.99,
+    "upc": "010086632781",
+    "rel": "October 5, 2021"
+   },
+   "cib": 7.99,
+   "aliases": []
+  },
+  {
+   "id": 3110,
+   "title": "Demon Gaze II",
+   "gamestopListing": "Demon Gaze II",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/pal-playstation-4/demon-gaze-ii",
+    "name": "Demon Gaze II",
+    "console": "PAL Playstation 4",
+    "loose": 26.21,
+    "cib": 26.21,
+    "rel": "November 14, 2017"
+   },
+   "cib": 26.21,
+   "aliases": []
+  },
+  {
+   "id": 3111,
+   "title": "Tiny Troopers: Global Ops",
+   "gamestopListing": "Tiny Troopers: Global Ops",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/tiny-troopers-global-ops",
+    "name": "Tiny Troopers: Global Ops",
+    "console": "Playstation 4",
+    "loose": 10,
+    "cib": 10,
+    "upc": "810810030964",
+    "rel": "June 24, 2023"
+   },
+   "cib": 10,
+   "aliases": []
+  },
+  {
+   "id": 3112,
+   "title": "Monopoly Madness",
+   "gamestopListing": "Monopoly Plus and Monopoly Madness",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/pal-playstation-4/monopoly-madness",
+    "name": "Monopoly Madness",
+    "console": "PAL Playstation 4",
+    "loose": 4.58,
+    "cib": 4.58
+   },
+   "cib": 4.58,
+   "aliases": []
+  }
+ ],
+ "nameVariants": [
+  {
+   "listing": "Red Dead Redemption (with Undead Nightmare DLC)",
+   "existing": 1804
+  },
+  {
+   "listing": "HITMAN: The Complete First Season SteelBook Edition",
+   "existing": 589
+  },
+  {
+   "listing": "Helldivers Super-Earth Ultimate Edition",
+   "existing": 1636
+  },
+  {
+   "listing": "Nickelodon Kart Racers 3: Slime Speedway",
+   "existing": "research 2873 (review queue)"
+  },
+  {
+   "listing": "Clash: Artifact of Chaos - Zeno Edition",
+   "existing": 2556
+  },
+  {
+   "listing": "Inescapable",
+   "existing": 2611
+  },
+  {
+   "listing": "WWI: Verdun - Western Front",
+   "existing": 1781
+  },
+  {
+   "listing": "DEEEER Simulator: Your Average Everyday Deer Game",
+   "existing": 1599
+  },
+  {
+   "listing": "Cotton Fantasy: Superlative Night Dreams",
+   "existing": 2250
+  },
+  {
+   "listing": "Cotton Reboot: Fantastic Night Dreams",
+   "existing": 2261
+  },
+  {
+   "listing": "Embr",
+   "existing": 2573
+  },
+  {
+   "listing": "WWI: Tannenberg - Eastern Front",
+   "existing": 1743
+  },
+  {
+   "listing": "Castlevania Requiem (Limited Run Games)",
+   "existing": 1587
+  },
+  {
+   "listing": "The Hunter: Call of the Wild 2019 Edition",
+   "existing": 1316
+  },
+  {
+   "listing": "Panzer Dragoon (Limited Run Games)",
+   "existing": 1817
+  },
+  {
+   "listing": "OffRoad Racing",
+   "existing": 2669
+  },
+  {
+   "listing": "Worms Battleground and Worms WMD",
+   "existing": "1455 product (1790 + 1456)"
+  },
+  {
+   "listing": "Sleath Inc. Ultimate Edition",
+   "existing": 1734
+  },
+  {
+   "listing": "ROBOTICS",
+   "existing": "1009 product (2113 + 2114)"
+  },
+  {
+   "listing": "Wind Jammers",
+   "existing": 1437
+  }
+ ],
+ "excludedByRule": [
+  {
+   "listing": "The Walking Dead Onslaught",
+   "rule": "PSVR_REQUIRED"
+  },
+  {
+   "listing": "The Wizards Enhanced Edition",
+   "rule": "PSVR_REQUIRED"
+  },
+  {
+   "listing": "Pixel Gear",
+   "rule": "PSVR_REQUIRED"
+  },
+  {
+   "listing": "Accounting Plus (Limited Run Games)",
+   "rule": "PSVR_REQUIRED"
+  }
+ ],
+ "review": [
+  {
+   "listing": "Super Mega Baseball 4",
+   "decision": "CURATOR_REVIEW",
+   "reason": "Physical PS4 disc confirmed (PriceCharting UPC 014633383638, EA Sports, 2023-06-02), but Super Mega Baseball is a numbered sports series; the annual/serialized sports rule needs a curator call."
+  },
+  {
+   "listing": "World of Simulators",
+   "decision": "CURATOR_REVIEW",
+   "reason": "Physical PS4 disc exists (UIG Entertainment, UPC 819759021675), but it appears to be a multi-simulator compilation; identities covered need product mapping."
+  },
+  {
+   "listing": "Doctor Who: The Edge of Reality and The Lonely Assassins",
+   "decision": "CURATOR_REVIEW",
+   "reason": "Physical PAL PS4 Doctor Who: Duo Bundle exists. Whether The Edge of Reality (flat rework of the PSVR-only The Edge of Time, census 382 EXCLUDED) is a separate identity, and how The Lonely Assassins maps, is a curator decision."
+  },
+  {
+   "listing": "Touhou Double Focus",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "reason": "No PS4 product found on PriceCharting; physical PS4 release unverified."
+  },
+  {
+   "listing": "Prince of Persia: The Sands of Time Remake",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "reason": "No PS4 product on PriceCharting; the GameStop listing may be a placeholder. Physical PS4 release unverified."
+  }
+ ]
+}

@@ -1,64 +1,45 @@
 {
-  "generatedAt": "2026-11-09T18:27:27.657Z",
+  "generatedAt": "2026-11-09T20:04:43.959Z",
   "summary": {
-    "generatedAt": "2026-11-09T18:27:27.657Z",
-    "included": 2622,
-    "good": 2357,
+    "generatedAt": "2026-11-09T20:04:43.959Z",
+    "included": 2661,
+    "good": 2385,
     "fallback": 8,
-    "review": 244,
-    "watch": 13,
-    "physicalVerify": 239,
-    "physicalLikely": 1475,
-    "physicalConfirmed": 908,
+    "review": 256,
+    "watch": 12,
+    "physicalVerify": 250,
+    "physicalLikely": 1495,
+    "physicalConfirmed": 916,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "missing_cover": 54,
-      "key_art_only": 172,
+      "missing_cover": 15,
+      "key_art_only": 223,
       "missing_ps4_banner": 18
     },
     "watchByReason": {
-      "image_fetch_failed": 13
+      "image_fetch_failed": 12
     },
-    "synthetic": 202,
+    "synthetic": 268,
     "displayTiers": {
-      "GOOD": 2357,
+      "GOOD": 2385,
       "FALLBACK": 8,
-      "SYNTHETIC": 202,
-      "BLANK": 55
+      "SYNTHETIC": 268,
+      "BLANK": 0
     },
     "syntheticByRealState": {
-      "REVIEW": 190,
+      "REVIEW": 256,
       "WATCH": 12
     },
-    "syntheticIgnoredRealCover": [
-      1625,
-      2471,
-      2256,
-      2257,
-      2469,
-      1069,
-      1731,
-      2049
-    ],
+    "syntheticIgnoredRealCover": [],
     "syntheticMissingFile": []
   },
   "review": [
     {
-      "id": 2842,
-      "title": "Cabela's African Adventures",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2827,
-      "title": "Call of Duty: Black Ops 7",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3053,
-      "title": "Death or Treat",
+      "id": 3110,
+      "title": "Demon Gaze II",
       "reason": "missing_cover"
     },
     {
@@ -67,18 +48,8 @@
       "reason": "missing_cover"
     },
     {
-      "id": 3062,
-      "title": "Disco Elysium: The Final Cut",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2913,
-      "title": "ELEX II",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2878,
-      "title": "Exoprimal",
+      "id": 3041,
+      "title": "DreamWorks Spirit Lucky's Big Adventure",
       "reason": "missing_cover"
     },
     {
@@ -87,168 +58,28 @@
       "reason": "missing_cover"
     },
     {
-      "id": 2941,
-      "title": "Five Nights at Freddy's: Into the Pit",
+      "id": 3016,
+      "title": "Horse Club Adventures 2: Hazelwood",
       "reason": "missing_cover"
     },
     {
-      "id": 2909,
-      "title": "Ghostbusters: Spirits Unleashed",
+      "id": 3108,
+      "title": "Life is Strange: True Colors",
       "reason": "missing_cover"
     },
     {
-      "id": 2964,
-      "title": "Gloomhaven: Mercenaries Edition",
+      "id": 3112,
+      "title": "Monopoly Madness",
       "reason": "missing_cover"
     },
     {
-      "id": 2822,
-      "title": "Gran Turismo 7",
+      "id": 3089,
+      "title": "My Universe: My Baby",
       "reason": "missing_cover"
     },
     {
-      "id": 2835,
-      "title": "Hitman 3",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2823,
-      "title": "Jurassic World Evolution 2",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3019,
-      "title": "Kukoos: Lost Pets",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2830,
-      "title": "LEGO 2K Drive",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3077,
-      "title": "Let's Build a Zoo",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2972,
-      "title": "Life in Willowdale: Farm Adventures",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2960,
-      "title": "Loop8: Summer of Gods",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3018,
-      "title": "Maglam Lord",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2988,
-      "title": "Matchbox Driving Adventures",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3010,
-      "title": "MechWarrior 5: Mercenaries",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2930,
-      "title": "Mercenaries Rebirth: Call of the Wild Lynx",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2973,
-      "title": "Metal Tales: Overkill",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3013,
-      "title": "Minecraft Legends",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2985,
-      "title": "Miss Kobayashi's Dragon Maid: Burst Forth!! Choro-gon Breath",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2996,
-      "title": "MONARK",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2994,
-      "title": "Monster Harvest",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3004,
-      "title": "Moving Out 2",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2840,
-      "title": "MX vs. ATV Legends",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2987,
-      "title": "My Little Pony: A Maretime Bay Adventure",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3012,
-      "title": "My Little Pony: A Zephyr Heights Mystery",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2947,
-      "title": "Nick Jr. Party Adventure",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2954,
-      "title": "Override 2: Super Mech League",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3068,
-      "title": "Oxenfree",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2860,
-      "title": "Police Simulator: Patrol Officers",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2997,
-      "title": "Reel Fishing: Road Trip Adventure",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2991,
-      "title": "Ryan's Rescue Squad",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2983,
-      "title": "Severed Steel",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2998,
-      "title": "Slaycation Paradise",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2949,
-      "title": "Smile For Me",
+      "id": 3088,
+      "title": "My Universe: Puppies & Kittens",
       "reason": "missing_cover"
     },
     {
@@ -257,63 +88,28 @@
       "reason": "missing_cover"
     },
     {
-      "id": 3017,
-      "title": "Speed 3 Grand Prix",
+      "id": 3109,
+      "title": "Super Monkey Ball: Banana Mania",
       "reason": "missing_cover"
     },
     {
-      "id": 2924,
-      "title": "Star Ocean: The Second Story R",
+      "id": 3099,
+      "title": "The Outbound Ghost",
       "reason": "missing_cover"
     },
     {
-      "id": 2944,
-      "title": "Star Trek Prodigy: Supernova",
+      "id": 3111,
+      "title": "Tiny Troopers: Global Ops",
       "reason": "missing_cover"
     },
     {
-      "id": 3071,
-      "title": "Star Trek: Resurgence",
+      "id": 3085,
+      "title": "Werewolf: The Apocalypse - Heart of the Forest",
       "reason": "missing_cover"
     },
     {
-      "id": 2950,
-      "title": "Story of Seasons: Pioneers of Olive Town",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2902,
-      "title": "Stubbs the Zombie in Rebel Without a Pulse",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3037,
-      "title": "The Eternal Cylinder",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2804,
-      "title": "The Grinch: Christmas Adventures",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2836,
-      "title": "The Texas Chain Saw Massacre",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3027,
-      "title": "Tin and Kuna",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3022,
-      "title": "Winter Games 2023",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2848,
-      "title": "World of Outlaws: Dirt Racing",
+      "id": 3086,
+      "title": "World Quiz",
       "reason": "missing_cover"
     },
     {
@@ -364,6 +160,16 @@
     {
       "id": 1849,
       "title": "BROK: The InvestiGator",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 2842,
+      "title": "Cabela's African Adventures",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 2827,
+      "title": "Call of Duty: Black Ops 7",
       "reason": "key_art_only"
     },
     {
@@ -427,8 +233,18 @@
       "reason": "key_art_only"
     },
     {
+      "id": 3053,
+      "title": "Death or Treat",
+      "reason": "key_art_only"
+    },
+    {
       "id": 1600,
       "title": "Deer Simulator",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 3062,
+      "title": "Disco Elysium: The Final Cut",
       "reason": "key_art_only"
     },
     {
@@ -457,6 +273,11 @@
       "reason": "key_art_only"
     },
     {
+      "id": 2913,
+      "title": "ELEX II",
+      "reason": "key_art_only"
+    },
+    {
       "id": 1950,
       "title": "Empire of Angels IV",
       "reason": "key_art_only"
@@ -464,6 +285,11 @@
     {
       "id": 2306,
       "title": "Enclave HD",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 2878,
+      "title": "Exoprimal",
       "reason": "key_art_only"
     },
     {
@@ -482,6 +308,11 @@
       "reason": "key_art_only"
     },
     {
+      "id": 2941,
+      "title": "Five Nights at Freddy's: Into the Pit",
+      "reason": "key_art_only"
+    },
+    {
       "id": 1622,
       "title": "Fury Unleashed",
       "reason": "key_art_only"
@@ -497,13 +328,28 @@
       "reason": "key_art_only"
     },
     {
+      "id": 2909,
+      "title": "Ghostbusters: Spirits Unleashed",
+      "reason": "key_art_only"
+    },
+    {
       "id": 2311,
       "title": "Gigabash",
       "reason": "key_art_only"
     },
     {
+      "id": 2964,
+      "title": "Gloomhaven: Mercenaries Edition",
+      "reason": "key_art_only"
+    },
+    {
       "id": 1866,
       "title": "Godstrike",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 2822,
+      "title": "Gran Turismo 7",
       "reason": "key_art_only"
     },
     {
@@ -537,6 +383,21 @@
       "reason": "key_art_only"
     },
     {
+      "id": 2835,
+      "title": "Hitman 3",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 2971,
+      "title": "Horse Club Adventures",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 2894,
+      "title": "Horse Tales Emerald Valley Ranch",
+      "reason": "key_art_only"
+    },
+    {
       "id": 2243,
       "title": "Irem Collection Volume 1",
       "reason": "key_art_only"
@@ -547,8 +408,33 @@
       "reason": "key_art_only"
     },
     {
+      "id": 2823,
+      "title": "Jurassic World Evolution 2",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 3019,
+      "title": "Kukoos: Lost Pets",
+      "reason": "key_art_only"
+    },
+    {
       "id": 1515,
       "title": "Late Shift",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 2830,
+      "title": "LEGO 2K Drive",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 3077,
+      "title": "Let's Build a Zoo",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 2972,
+      "title": "Life in Willowdale: Farm Adventures",
       "reason": "key_art_only"
     },
     {
@@ -557,8 +443,23 @@
       "reason": "key_art_only"
     },
     {
+      "id": 2960,
+      "title": "Loop8: Summer of Gods",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 3018,
+      "title": "Maglam Lord",
+      "reason": "key_art_only"
+    },
+    {
       "id": 2392,
       "title": "Marchen Forest",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 2988,
+      "title": "Matchbox Driving Adventures",
       "reason": "key_art_only"
     },
     {
@@ -567,8 +468,23 @@
       "reason": "key_art_only"
     },
     {
+      "id": 3010,
+      "title": "MechWarrior 5: Mercenaries",
+      "reason": "key_art_only"
+    },
+    {
       "id": 2463,
       "title": "Memorrha",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 2930,
+      "title": "Mercenaries Rebirth: Call of the Wild Lynx",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 2973,
+      "title": "Metal Tales: Overkill",
       "reason": "key_art_only"
     },
     {
@@ -582,13 +498,38 @@
       "reason": "key_art_only"
     },
     {
+      "id": 3013,
+      "title": "Minecraft Legends",
+      "reason": "key_art_only"
+    },
+    {
       "id": 783,
       "title": "Minecraft: Story Mode - A Telltale Games Series",
       "reason": "key_art_only"
     },
     {
+      "id": 2985,
+      "title": "Miss Kobayashi's Dragon Maid: Burst Forth!! Choro-gon Breath",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 2996,
+      "title": "MONARK",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 2994,
+      "title": "Monster Harvest",
+      "reason": "key_art_only"
+    },
+    {
       "id": 1923,
       "title": "Monster Prom XXL",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 3004,
+      "title": "Moving Out 2",
       "reason": "key_art_only"
     },
     {
@@ -604,6 +545,21 @@
     {
       "id": 808,
       "title": "Mutant Mudds: Super Challenge",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 2840,
+      "title": "MX vs. ATV Legends",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 2987,
+      "title": "My Little Pony: A Maretime Bay Adventure",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 3012,
+      "title": "My Little Pony: A Zephyr Heights Mystery",
       "reason": "key_art_only"
     },
     {
@@ -642,6 +598,11 @@
       "reason": "key_art_only"
     },
     {
+      "id": 2947,
+      "title": "Nick Jr. Party Adventure",
+      "reason": "key_art_only"
+    },
+    {
       "id": 2011,
       "title": "Night Book",
       "reason": "key_art_only"
@@ -672,8 +633,18 @@
       "reason": "key_art_only"
     },
     {
+      "id": 2954,
+      "title": "Override 2: Super Mech League",
+      "reason": "key_art_only"
+    },
+    {
       "id": 2028,
       "title": "Overrogue",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 3068,
+      "title": "Oxenfree",
       "reason": "key_art_only"
     },
     {
@@ -684,6 +655,11 @@
     {
       "id": 914,
       "title": "Plague Road",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 2860,
+      "title": "Police Simulator: Patrol Officers",
       "reason": "key_art_only"
     },
     {
@@ -752,6 +728,11 @@
       "reason": "key_art_only"
     },
     {
+      "id": 2991,
+      "title": "Ryan's Rescue Squad",
+      "reason": "key_art_only"
+    },
+    {
       "id": 1717,
       "title": "Rym 9000",
       "reason": "key_art_only"
@@ -784,6 +765,11 @@
     {
       "id": 1951,
       "title": "Sense - A Cyberpunk Ghost Story",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 2983,
+      "title": "Severed Steel",
       "reason": "key_art_only"
     },
     {
@@ -852,8 +838,18 @@
       "reason": "key_art_only"
     },
     {
+      "id": 2998,
+      "title": "Slaycation Paradise",
+      "reason": "key_art_only"
+    },
+    {
       "id": 1949,
       "title": "Smashing the Battle: Ghost Soul",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 2949,
+      "title": "Smile For Me",
       "reason": "key_art_only"
     },
     {
@@ -869,6 +865,11 @@
     {
       "id": 1881,
       "title": "Spacewing War",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 3017,
+      "title": "Speed 3 Grand Prix",
       "reason": "key_art_only"
     },
     {
@@ -892,13 +893,38 @@
       "reason": "key_art_only"
     },
     {
+      "id": 2924,
+      "title": "Star Ocean: The Second Story R",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 2944,
+      "title": "Star Trek Prodigy: Supernova",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 3071,
+      "title": "Star Trek: Resurgence",
+      "reason": "key_art_only"
+    },
+    {
       "id": 1734,
       "title": "Stealth Inc: A Clone in the Dark Ultimate Edition",
       "reason": "key_art_only"
     },
     {
+      "id": 2950,
+      "title": "Story of Seasons: Pioneers of Olive Town",
+      "reason": "key_art_only"
+    },
+    {
       "id": 1163,
       "title": "Street Power Soccer",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 2902,
+      "title": "Stubbs the Zombie in Rebel Without a Pulse",
       "reason": "key_art_only"
     },
     {
@@ -992,8 +1018,18 @@
       "reason": "key_art_only"
     },
     {
+      "id": 3037,
+      "title": "The Eternal Cylinder",
+      "reason": "key_art_only"
+    },
+    {
       "id": 2354,
       "title": "The Good Life",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 2804,
+      "title": "The Grinch: Christmas Adventures",
       "reason": "key_art_only"
     },
     {
@@ -1022,8 +1058,18 @@
       "reason": "key_art_only"
     },
     {
+      "id": 2836,
+      "title": "The Texas Chain Saw Massacre",
+      "reason": "key_art_only"
+    },
+    {
       "id": 1317,
       "title": "They Are Billions",
+      "reason": "key_art_only"
+    },
+    {
+      "id": 3027,
+      "title": "Tin and Kuna",
       "reason": "key_art_only"
     },
     {
@@ -1142,6 +1188,11 @@
       "reason": "key_art_only"
     },
     {
+      "id": 3022,
+      "title": "Winter Games 2023",
+      "reason": "key_art_only"
+    },
+    {
       "id": 2022,
       "title": "Witchcrafty",
       "reason": "key_art_only"
@@ -1187,6 +1238,11 @@
       "reason": "missing_ps4_banner"
     },
     {
+      "id": 1753,
+      "title": "The First Tree: Console Edition",
+      "reason": "missing_ps4_banner"
+    },
+    {
       "id": 291,
       "title": "Damascus Gear: Operation Osaka",
       "reason": "missing_ps4_banner"
@@ -1204,11 +1260,6 @@
     {
       "id": 1839,
       "title": "Another Crusade",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 1682,
-      "title": "Now That's What I Call Sing",
       "reason": "missing_ps4_banner"
     },
     {
@@ -1366,11 +1417,6 @@
       "reason": "image_fetch_failed"
     },
     {
-      "id": 1753,
-      "title": "The First Tree: Console Edition",
-      "reason": "image_fetch_failed"
-    },
-    {
       "id": 1756,
       "title": "The Journey Down: Chapter Two",
       "reason": "image_fetch_failed"
@@ -1465,6 +1511,20 @@
       "id": 1849,
       "title": "BROK: The InvestiGator",
       "url": "covers/ps4-synthetic/1849.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 2842,
+      "title": "Cabela's African Adventures",
+      "url": "covers/ps4-synthetic/2842.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 2827,
+      "title": "Call of Duty: Black Ops 7",
+      "url": "covers/ps4-synthetic/2827.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -1581,9 +1641,37 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 3053,
+      "title": "Death or Treat",
+      "url": "covers/ps4-synthetic/3053.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
       "id": 1600,
       "title": "Deer Simulator",
       "url": "covers/ps4-synthetic/1600.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 3110,
+      "title": "Demon Gaze II",
+      "url": "covers/ps4-synthetic/3110.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
+    },
+    {
+      "id": 2790,
+      "title": "Diablo IV",
+      "url": "covers/ps4-synthetic/2790.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
+    },
+    {
+      "id": 3062,
+      "title": "Disco Elysium: The Final Cut",
+      "url": "covers/ps4-synthetic/3062.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -1609,6 +1697,13 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 3041,
+      "title": "DreamWorks Spirit Lucky's Big Adventure",
+      "url": "covers/ps4-synthetic/3041.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
+    },
+    {
       "id": 1608,
       "title": "Drive!Drive!Drive!",
       "url": "covers/ps4-synthetic/1608.jpg",
@@ -1619,6 +1714,13 @@
       "id": 2266,
       "title": "DUSK",
       "url": "covers/ps4-synthetic/2266.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 2913,
+      "title": "ELEX II",
+      "url": "covers/ps4-synthetic/2913.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -1642,6 +1744,13 @@
       "url": "covers/ps4-synthetic/451.jpg",
       "realState": "REVIEW",
       "realReason": "missing_ps4_banner"
+    },
+    {
+      "id": 2878,
+      "title": "Exoprimal",
+      "url": "covers/ps4-synthetic/2878.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
     },
     {
       "id": 454,
@@ -1679,6 +1788,20 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 2850,
+      "title": "Five Nights at Freddy's: Help Wanted",
+      "url": "covers/ps4-synthetic/2850.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
+    },
+    {
+      "id": 2941,
+      "title": "Five Nights at Freddy's: Into the Pit",
+      "url": "covers/ps4-synthetic/2941.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
       "id": 1942,
       "title": "Fullblast",
       "url": "covers/ps4-synthetic/1942.jpg",
@@ -1707,6 +1830,13 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 2909,
+      "title": "Ghostbusters: Spirits Unleashed",
+      "url": "covers/ps4-synthetic/2909.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
       "id": 2311,
       "title": "Gigabash",
       "url": "covers/ps4-synthetic/2311.jpg",
@@ -1714,9 +1844,23 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 2964,
+      "title": "Gloomhaven: Mercenaries Edition",
+      "url": "covers/ps4-synthetic/2964.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
       "id": 1866,
       "title": "Godstrike",
       "url": "covers/ps4-synthetic/1866.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 2822,
+      "title": "Gran Turismo 7",
+      "url": "covers/ps4-synthetic/2822.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -1777,6 +1921,34 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 2835,
+      "title": "Hitman 3",
+      "url": "covers/ps4-synthetic/2835.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 2971,
+      "title": "Horse Club Adventures",
+      "url": "covers/ps4-synthetic/2971.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 3016,
+      "title": "Horse Club Adventures 2: Hazelwood",
+      "url": "covers/ps4-synthetic/3016.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
+    },
+    {
+      "id": 2894,
+      "title": "Horse Tales Emerald Valley Ranch",
+      "url": "covers/ps4-synthetic/2894.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
       "id": 2243,
       "title": "Irem Collection Volume 1",
       "url": "covers/ps4-synthetic/2243.jpg",
@@ -1798,11 +1970,53 @@
       "realReason": "image_fetch_failed"
     },
     {
+      "id": 2823,
+      "title": "Jurassic World Evolution 2",
+      "url": "covers/ps4-synthetic/2823.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 3019,
+      "title": "Kukoos: Lost Pets",
+      "url": "covers/ps4-synthetic/3019.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
       "id": 1515,
       "title": "Late Shift",
       "url": "covers/ps4-synthetic/1515.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
+    },
+    {
+      "id": 2830,
+      "title": "LEGO 2K Drive",
+      "url": "covers/ps4-synthetic/2830.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 3077,
+      "title": "Let's Build a Zoo",
+      "url": "covers/ps4-synthetic/3077.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 2972,
+      "title": "Life in Willowdale: Farm Adventures",
+      "url": "covers/ps4-synthetic/2972.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 3108,
+      "title": "Life is Strange: True Colors",
+      "url": "covers/ps4-synthetic/3108.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
     },
     {
       "id": 1661,
@@ -1812,11 +2026,32 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 1662,
+      "title": "Lone Survivor: The Director's Cut",
+      "url": "covers/ps4-synthetic/1662.jpg",
+      "realState": "WATCH",
+      "realReason": "image_fetch_failed"
+    },
+    {
+      "id": 2960,
+      "title": "Loop8: Summer of Gods",
+      "url": "covers/ps4-synthetic/2960.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
       "id": 1850,
       "title": "Lost Ruins",
       "url": "covers/ps4-synthetic/1850.jpg",
       "realState": "REVIEW",
       "realReason": "missing_ps4_banner"
+    },
+    {
+      "id": 3018,
+      "title": "Maglam Lord",
+      "url": "covers/ps4-synthetic/3018.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
     },
     {
       "id": 1665,
@@ -1833,6 +2068,13 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 2988,
+      "title": "Matchbox Driving Adventures",
+      "url": "covers/ps4-synthetic/2988.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
       "id": 750,
       "title": "Mecho Tales",
       "url": "covers/ps4-synthetic/750.jpg",
@@ -1840,9 +2082,30 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 3010,
+      "title": "MechWarrior 5: Mercenaries",
+      "url": "covers/ps4-synthetic/3010.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
       "id": 2463,
       "title": "Memorrha",
       "url": "covers/ps4-synthetic/2463.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 2930,
+      "title": "Mercenaries Rebirth: Call of the Wild Lynx",
+      "url": "covers/ps4-synthetic/2930.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 2973,
+      "title": "Metal Tales: Overkill",
+      "url": "covers/ps4-synthetic/2973.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -1868,6 +2131,13 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 3013,
+      "title": "Minecraft Legends",
+      "url": "covers/ps4-synthetic/3013.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
       "id": 783,
       "title": "Minecraft: Story Mode - A Telltale Games Series",
       "url": "covers/ps4-synthetic/783.jpg",
@@ -1875,9 +2145,44 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 2985,
+      "title": "Miss Kobayashi's Dragon Maid: Burst Forth!! Choro-gon Breath",
+      "url": "covers/ps4-synthetic/2985.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 2996,
+      "title": "MONARK",
+      "url": "covers/ps4-synthetic/2996.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 3112,
+      "title": "Monopoly Madness",
+      "url": "covers/ps4-synthetic/3112.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
+    },
+    {
+      "id": 2994,
+      "title": "Monster Harvest",
+      "url": "covers/ps4-synthetic/2994.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
       "id": 1923,
       "title": "Monster Prom XXL",
       "url": "covers/ps4-synthetic/1923.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 3004,
+      "title": "Moving Out 2",
+      "url": "covers/ps4-synthetic/3004.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -1901,6 +2206,41 @@
       "url": "covers/ps4-synthetic/808.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
+    },
+    {
+      "id": 2840,
+      "title": "MX vs. ATV Legends",
+      "url": "covers/ps4-synthetic/2840.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 2987,
+      "title": "My Little Pony: A Maretime Bay Adventure",
+      "url": "covers/ps4-synthetic/2987.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 3012,
+      "title": "My Little Pony: A Zephyr Heights Mystery",
+      "url": "covers/ps4-synthetic/3012.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 3089,
+      "title": "My Universe: My Baby",
+      "url": "covers/ps4-synthetic/3089.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
+    },
+    {
+      "id": 3088,
+      "title": "My Universe: Puppies & Kittens",
+      "url": "covers/ps4-synthetic/3088.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
     },
     {
       "id": 815,
@@ -1959,6 +2299,13 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 2947,
+      "title": "Nick Jr. Party Adventure",
+      "url": "covers/ps4-synthetic/2947.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
       "id": 2011,
       "title": "Night Book",
       "url": "covers/ps4-synthetic/2011.jpg",
@@ -1985,13 +2332,6 @@
       "url": "covers/ps4-synthetic/2429.jpg",
       "realState": "WATCH",
       "realReason": "image_fetch_failed"
-    },
-    {
-      "id": 1682,
-      "title": "Now That's What I Call Sing",
-      "url": "covers/ps4-synthetic/1682.jpg",
-      "realState": "REVIEW",
-      "realReason": "missing_ps4_banner"
     },
     {
       "id": 2666,
@@ -2029,9 +2369,23 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 2954,
+      "title": "Override 2: Super Mech League",
+      "url": "covers/ps4-synthetic/2954.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
       "id": 2028,
       "title": "Overrogue",
       "url": "covers/ps4-synthetic/2028.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 3068,
+      "title": "Oxenfree",
+      "url": "covers/ps4-synthetic/3068.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -2046,6 +2400,13 @@
       "id": 914,
       "title": "Plague Road",
       "url": "covers/ps4-synthetic/914.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 2860,
+      "title": "Police Simulator: Patrol Officers",
+      "url": "covers/ps4-synthetic/2860.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -2162,6 +2523,13 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 2991,
+      "title": "Ryan's Rescue Squad",
+      "url": "covers/ps4-synthetic/2991.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
       "id": 1717,
       "title": "Rym 9000",
       "url": "covers/ps4-synthetic/1717.jpg",
@@ -2207,6 +2575,13 @@
       "id": 1951,
       "title": "Sense - A Cyberpunk Ghost Story",
       "url": "covers/ps4-synthetic/1951.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 2983,
+      "title": "Severed Steel",
+      "url": "covers/ps4-synthetic/2983.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -2302,9 +2677,23 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 2998,
+      "title": "Slaycation Paradise",
+      "url": "covers/ps4-synthetic/2998.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
       "id": 1949,
       "title": "Smashing the Battle: Ghost Soul",
       "url": "covers/ps4-synthetic/1949.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 2949,
+      "title": "Smile For Me",
+      "url": "covers/ps4-synthetic/2949.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -2314,6 +2703,13 @@
       "url": "covers/ps4-synthetic/1094.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
+    },
+    {
+      "id": 2901,
+      "title": "Sniper Elite 5",
+      "url": "covers/ps4-synthetic/2901.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
     },
     {
       "id": 2018,
@@ -2326,6 +2722,13 @@
       "id": 1881,
       "title": "Spacewing War",
       "url": "covers/ps4-synthetic/1881.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 3017,
+      "title": "Speed 3 Grand Prix",
+      "url": "covers/ps4-synthetic/3017.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -2358,6 +2761,27 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 2924,
+      "title": "Star Ocean: The Second Story R",
+      "url": "covers/ps4-synthetic/2924.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 2944,
+      "title": "Star Trek Prodigy: Supernova",
+      "url": "covers/ps4-synthetic/2944.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 3071,
+      "title": "Star Trek: Resurgence",
+      "url": "covers/ps4-synthetic/3071.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
       "id": 1734,
       "title": "Stealth Inc: A Clone in the Dark Ultimate Edition",
       "url": "covers/ps4-synthetic/1734.jpg",
@@ -2372,6 +2796,13 @@
       "realReason": "missing_ps4_banner"
     },
     {
+      "id": 2950,
+      "title": "Story of Seasons: Pioneers of Olive Town",
+      "url": "covers/ps4-synthetic/2950.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
       "id": 1163,
       "title": "Street Power Soccer",
       "url": "covers/ps4-synthetic/1163.jpg",
@@ -2384,6 +2815,13 @@
       "url": "covers/ps4-synthetic/1999.jpg",
       "realState": "REVIEW",
       "realReason": "missing_ps4_banner"
+    },
+    {
+      "id": 2902,
+      "title": "Stubbs the Zombie in Rebel Without a Pulse",
+      "url": "covers/ps4-synthetic/2902.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
     },
     {
       "id": 2350,
@@ -2419,6 +2857,13 @@
       "url": "covers/ps4-synthetic/1738.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
+    },
+    {
+      "id": 3109,
+      "title": "Super Monkey Ball: Banana Mania",
+      "url": "covers/ps4-synthetic/3109.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
     },
     {
       "id": 1958,
@@ -2519,16 +2964,30 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 3037,
+      "title": "The Eternal Cylinder",
+      "url": "covers/ps4-synthetic/3037.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
       "id": 1753,
       "title": "The First Tree: Console Edition",
       "url": "covers/ps4-synthetic/1753.jpg",
-      "realState": "WATCH",
-      "realReason": "image_fetch_failed"
+      "realState": "REVIEW",
+      "realReason": "missing_ps4_banner"
     },
     {
       "id": 2354,
       "title": "The Good Life",
       "url": "covers/ps4-synthetic/2354.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 2804,
+      "title": "The Grinch: Christmas Adventures",
+      "url": "covers/ps4-synthetic/2804.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -2561,6 +3020,13 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 3099,
+      "title": "The Outbound Ghost",
+      "url": "covers/ps4-synthetic/3099.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
+    },
+    {
       "id": 1298,
       "title": "The Swindle",
       "url": "covers/ps4-synthetic/1298.jpg",
@@ -2575,11 +3041,32 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 2836,
+      "title": "The Texas Chain Saw Massacre",
+      "url": "covers/ps4-synthetic/2836.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
       "id": 1317,
       "title": "They Are Billions",
       "url": "covers/ps4-synthetic/1317.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
+    },
+    {
+      "id": 3027,
+      "title": "Tin and Kuna",
+      "url": "covers/ps4-synthetic/3027.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 3111,
+      "title": "Tiny Troopers: Global Ops",
+      "url": "covers/ps4-synthetic/3111.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
     },
     {
       "id": 1769,
@@ -2736,9 +3223,23 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 3085,
+      "title": "Werewolf: The Apocalypse - Heart of the Forest",
+      "url": "covers/ps4-synthetic/3085.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
+    },
+    {
       "id": 1948,
       "title": "Wife Quest",
       "url": "covers/ps4-synthetic/1948.jpg",
+      "realState": "REVIEW",
+      "realReason": "key_art_only"
+    },
+    {
+      "id": 3022,
+      "title": "Winter Games 2023",
+      "url": "covers/ps4-synthetic/3022.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -2748,6 +3249,13 @@
       "url": "covers/ps4-synthetic/2022.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
+    },
+    {
+      "id": 3086,
+      "title": "World Quiz",
+      "url": "covers/ps4-synthetic/3086.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
     },
     {
       "id": 2367,

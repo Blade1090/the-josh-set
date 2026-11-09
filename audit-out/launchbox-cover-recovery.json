@@ -1,19 +1,16 @@
 {
   "summary": {
-    "targeted": 440,
-    "recoveredThisRun": 93,
-    "preserved": 688,
-    "totalLaunchBoxTitles": 778,
-    "unresolvedNoMatch": 159,
+    "targeted": 299,
+    "recoveredThisRun": 11,
+    "preserved": 778,
+    "totalLaunchBoxTitles": 786,
+    "unresolvedNoMatch": 139,
     "ambiguous": 0,
-    "matchedButNoBoxFront": 188,
+    "matchedButNoBoxFront": 149,
     "regionCounts": {
-      "North America": 70,
-      "Europe": 18,
-      "Japan": 1,
-      "Korea": 1,
+      "North America": 8,
+      "Unspecified": 1,
       "World": 1,
-      "United States": 1,
       "Asia": 1
     },
     "metadataDiagnostics": {
@@ -87,1174 +84,108 @@
   },
   "recovered": [
     {
-      "id": 2866,
-      "title": "Assetto Corsa Competizione",
+      "id": 3081,
+      "title": "AEW: Fight Forever",
       "bucket": "review",
       "reason": "missing_cover",
-      "launchboxDatabaseId": 202858,
-      "launchboxName": "Assetto Corsa Competizione",
+      "launchboxDatabaseId": 443948,
+      "launchboxName": "AEW: Fight Forever",
       "matchMethod": "exact",
       "region": "North America",
-      "fileName": "a96aa7f8-f9c8-48e7-b903-54e972758d03.jpg",
-      "url": "https://images.launchbox-app.com/a96aa7f8-f9c8-48e7-b903-54e972758d03.jpg",
-      "frontCandidateCount": 2
+      "fileName": "53ac0798-5286-4a27-a8d2-2df239373bfe.jpg",
+      "url": "https://images.launchbox-app.com/53ac0798-5286-4a27-a8d2-2df239373bfe.jpg",
+      "frontCandidateCount": 1
     },
     {
-      "id": 2843,
-      "title": "ATV Drift & Tricks",
+      "id": 3083,
+      "title": "Big Buck Hunter Arcade",
       "bucket": "review",
       "reason": "missing_cover",
-      "launchboxDatabaseId": 422330,
-      "launchboxName": "ATV Drift & Tricks",
+      "launchboxDatabaseId": 441429,
+      "launchboxName": "Big Buck Hunter Arcade",
       "matchMethod": "exact",
       "region": "North America",
-      "fileName": "013932db-5dda-4108-a7c8-114c3fd9ed1f.jpg",
-      "url": "https://images.launchbox-app.com/013932db-5dda-4108-a7c8-114c3fd9ed1f.jpg",
+      "fileName": "69517324-ac50-482b-8176-2362ba008b90.jpg",
+      "url": "https://images.launchbox-app.com/69517324-ac50-482b-8176-2362ba008b90.jpg",
+      "frontCandidateCount": 4
+    },
+    {
+      "id": 3103,
+      "title": "Crazy Chicken Xtreme",
+      "bucket": "review",
+      "reason": "missing_cover",
+      "launchboxDatabaseId": 216613,
+      "launchboxName": "Crazy Chicken Xtreme",
+      "matchMethod": "exact",
+      "region": "North America",
+      "fileName": "da0458ec-4024-4dec-9eb9-68164c9ee2e1.jpg",
+      "url": "https://images.launchbox-app.com/da0458ec-4024-4dec-9eb9-68164c9ee2e1.jpg",
+      "frontCandidateCount": 1
+    },
+    {
+      "id": 3079,
+      "title": "Disney Dreamlight Valley",
+      "bucket": "review",
+      "reason": "missing_cover",
+      "launchboxDatabaseId": 442266,
+      "launchboxName": "Disney Dreamlight Valley",
+      "matchMethod": "exact",
+      "region": "North America",
+      "fileName": "6fe4c662-9370-47da-b44f-8c22abe940e7.jpg",
+      "url": "https://images.launchbox-app.com/6fe4c662-9370-47da-b44f-8c22abe940e7.jpg",
       "frontCandidateCount": 3
     },
     {
-      "id": 2800,
-      "title": "Babylon's Fall",
+      "id": 3078,
+      "title": "Pure Pool",
       "bucket": "review",
       "reason": "missing_cover",
-      "launchboxDatabaseId": 446847,
-      "launchboxName": "Babylon's Fall",
+      "launchboxDatabaseId": 25814,
+      "launchboxName": "Pure Pool",
       "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "82d64849-ee49-4628-a30f-33d300819bac.jpg",
-      "url": "https://images.launchbox-app.com/82d64849-ee49-4628-a30f-33d300819bac.jpg",
-      "frontCandidateCount": 4
+      "region": null,
+      "fileName": "326690b3-eb67-4bd5-b24a-20f5606a183e.jpg",
+      "url": "https://images.launchbox-app.com/326690b3-eb67-4bd5-b24a-20f5606a183e.jpg",
+      "frontCandidateCount": 1
     },
     {
-      "id": 2891,
-      "title": "Baja: Edge of Control HD",
+      "id": 3080,
+      "title": "Skull Island: Rise of Kong",
       "bucket": "review",
       "reason": "missing_cover",
-      "launchboxDatabaseId": 209040,
-      "launchboxName": "Baja: Edge of Control HD",
+      "launchboxDatabaseId": 442191,
+      "launchboxName": "Skull Island: Rise of Kong",
       "matchMethod": "exact",
       "region": "North America",
-      "fileName": "r2_9ba64c25-349f-4a0c-9ef3-6e206add202c.jpg",
-      "url": "https://images.launchbox-app.com/r2_9ba64c25-349f-4a0c-9ef3-6e206add202c.jpg",
+      "fileName": "c0fdadd5-e55c-4c3a-84e4-9e296012d4af.jpg",
+      "url": "https://images.launchbox-app.com/c0fdadd5-e55c-4c3a-84e4-9e296012d4af.jpg",
       "frontCandidateCount": 2
     },
     {
-      "id": 2834,
-      "title": "Battlefield 2042",
+      "id": 3098,
+      "title": "Spike Volleyball",
       "bucket": "review",
       "reason": "missing_cover",
-      "launchboxDatabaseId": 216372,
-      "launchboxName": "Battlefield 2042",
+      "launchboxDatabaseId": 461942,
+      "launchboxName": "Spike Volleyball",
       "matchMethod": "exact",
       "region": "North America",
-      "fileName": "0dd93a69-ea5e-428b-b6a7-c0cd8c5ca84e.jpg",
-      "url": "https://images.launchbox-app.com/0dd93a69-ea5e-428b-b6a7-c0cd8c5ca84e.jpg",
-      "frontCandidateCount": 6
-    },
-    {
-      "id": 2844,
-      "title": "Big Rumble Boxing: Creed Champions",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 211287,
-      "launchboxName": "Big Rumble Boxing: Creed Champions",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "900592f2-2adf-4b1c-895b-796cb3c94b8c.png",
-      "url": "https://images.launchbox-app.com/900592f2-2adf-4b1c-895b-796cb3c94b8c.png",
-      "frontCandidateCount": 3
-    },
-    {
-      "id": 3075,
-      "title": "Bugsnax",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 444263,
-      "launchboxName": "Bugsnax",
-      "matchMethod": "exact",
-      "region": "Europe",
-      "fileName": "b2938665-0881-49f7-993a-9677041552cf.jpg",
-      "url": "https://images.launchbox-app.com/b2938665-0881-49f7-993a-9677041552cf.jpg",
+      "fileName": "6a64b4b3-39db-4854-8cc5-386950b8f027.png",
+      "url": "https://images.launchbox-app.com/6a64b4b3-39db-4854-8cc5-386950b8f027.png",
       "frontCandidateCount": 1
     },
     {
-      "id": 2826,
-      "title": "Call of Duty: Black Ops 6",
+      "id": 3097,
+      "title": "Worms Rumble",
       "bucket": "review",
       "reason": "missing_cover",
-      "launchboxDatabaseId": 465983,
-      "launchboxName": "Call of Duty: Black Ops 6",
+      "launchboxDatabaseId": 195079,
+      "launchboxName": "Worms Rumble",
       "matchMethod": "exact",
-      "region": "Europe",
-      "fileName": "r2_437514da-a871-4906-8990-19cf08723f13.jpg",
-      "url": "https://images.launchbox-app.com/r2_437514da-a871-4906-8990-19cf08723f13.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2825,
-      "title": "Call of Duty: Black Ops Cold War",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 207984,
-      "launchboxName": "Call of Duty: Black Ops Cold War",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "r2_0374d290-7601-4755-9192-35f0a325423c.jpg",
-      "url": "https://images.launchbox-app.com/r2_0374d290-7601-4755-9192-35f0a325423c.jpg",
-      "frontCandidateCount": 3
-    },
-    {
-      "id": 2828,
-      "title": "Call of Duty: Modern Warfare II",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 441426,
-      "launchboxName": "Call of Duty: Modern Warfare II",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "fcf07ace-23d2-4f52-8a00-43b1e64dd341.jpg",
-      "url": "https://images.launchbox-app.com/fcf07ace-23d2-4f52-8a00-43b1e64dd341.jpg",
-      "frontCandidateCount": 2
-    },
-    {
-      "id": 2829,
-      "title": "Call of Duty: Modern Warfare III",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 441445,
-      "launchboxName": "Call of Duty: Modern Warfare III",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "2fce9a85-a4af-49f8-9404-308b4968194a.jpg",
-      "url": "https://images.launchbox-app.com/2fce9a85-a4af-49f8-9404-308b4968194a.jpg",
-      "frontCandidateCount": 2
-    },
-    {
-      "id": 3026,
-      "title": "Can't Drive This",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 216459,
-      "launchboxName": "Can't Drive This",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "0aed57b3-45a0-4a33-932a-f5e777b4417c.jpg",
-      "url": "https://images.launchbox-app.com/0aed57b3-45a0-4a33-932a-f5e777b4417c.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 3008,
-      "title": "Clive 'N' Wrench",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 447114,
-      "launchboxName": "Clive 'N' Wrench",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "d9a30140-b940-49b0-8774-20a7b78896ca.jpg",
-      "url": "https://images.launchbox-app.com/d9a30140-b940-49b0-8774-20a7b78896ca.jpg",
-      "frontCandidateCount": 4
-    },
-    {
-      "id": 2896,
-      "title": "Cobra Kai: The Karate Kid Saga Continues",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 446264,
-      "launchboxName": "Cobra Kai: The Karate Kid Saga Continues",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "r2_ea124767-915f-4621-82af-2e21cc700ea5.jpg",
-      "url": "https://images.launchbox-app.com/r2_ea124767-915f-4621-82af-2e21cc700ea5.jpg",
-      "frontCandidateCount": 4
-    },
-    {
-      "id": 2859,
-      "title": "Deer Hunter Reloaded",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 447565,
-      "launchboxName": "Deer Hunter Reloaded",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "r2_5eeb48b9-0155-4c50-aae0-58fe7708f744.png",
-      "url": "https://images.launchbox-app.com/r2_5eeb48b9-0155-4c50-aae0-58fe7708f744.png",
-      "frontCandidateCount": 4
-    },
-    {
-      "id": 2791,
-      "title": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 442364,
-      "launchboxName": "Demon Slayer: Kimetsu no Yaiba: The Hinokami Chronicles",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "b2911264-12e5-4d7a-922b-ae46a10953d6.jpg",
-      "url": "https://images.launchbox-app.com/b2911264-12e5-4d7a-922b-ae46a10953d6.jpg",
-      "frontCandidateCount": 2
-    },
-    {
-      "id": 2943,
-      "title": "Digimon Survive",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 446738,
-      "launchboxName": "Digimon Survive",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "8a75eabc-3550-4d52-a05d-e43e981c2cc7.jpg",
-      "url": "https://images.launchbox-app.com/8a75eabc-3550-4d52-a05d-e43e981c2cc7.jpg",
-      "frontCandidateCount": 2
-    },
-    {
-      "id": 3032,
-      "title": "DIRT 5",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 207992,
-      "launchboxName": "DIRT 5",
-      "matchMethod": "exact",
-      "region": "Europe",
-      "fileName": "8351150c-886b-416b-9631-32c54d6a981f.jpg",
-      "url": "https://images.launchbox-app.com/8351150c-886b-416b-9631-32c54d6a981f.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2856,
-      "title": "Dishonored: Death of the Outsider",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 189692,
-      "launchboxName": "Dishonored: Death of the Outsider",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "b0a745a4-9621-48be-8d8d-ae211b5b57e5.jpg",
-      "url": "https://images.launchbox-app.com/b0a745a4-9621-48be-8d8d-ae211b5b57e5.jpg",
-      "frontCandidateCount": 2
-    },
-    {
-      "id": 2990,
-      "title": "DNF Duel",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 210523,
-      "launchboxName": "DNF Duel",
-      "matchMethod": "exact",
-      "region": "Japan",
-      "fileName": "34ab5878-799a-4c1b-9933-a1d5ce43eb13.jpg",
-      "url": "https://images.launchbox-app.com/34ab5878-799a-4c1b-9933-a1d5ce43eb13.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2926,
-      "title": "Dolmen",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 453736,
-      "launchboxName": "Dolmen",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "184b2088-16bb-4e31-ba95-89d88cdb55ac.png",
-      "url": "https://images.launchbox-app.com/184b2088-16bb-4e31-ba95-89d88cdb55ac.png",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2969,
-      "title": "DreamWorks Dragons: Legends of the Nine Realms",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 459225,
-      "launchboxName": "DreamWorks Dragons: Legends of The Nine Realms",
-      "matchMethod": "exact",
-      "region": "Europe",
-      "fileName": "27cc47ef-e145-4eae-b59d-f995a079c403.jpg",
-      "url": "https://images.launchbox-app.com/27cc47ef-e145-4eae-b59d-f995a079c403.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 3066,
-      "title": "DREDGE",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 466084,
-      "launchboxName": "Dredge",
-      "matchMethod": "exact",
-      "region": "Europe",
-      "fileName": "b87bfea2-c739-4ff6-8949-062607ce3676.jpg",
-      "url": "https://images.launchbox-app.com/b87bfea2-c739-4ff6-8949-062607ce3676.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2811,
-      "title": "Dying Light 2 Stay Human",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 442229,
-      "launchboxName": "Dying Light 2: Stay Human",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "r2_8a316770-89dc-4acb-8afd-51d174f0b74c.jpg",
-      "url": "https://images.launchbox-app.com/r2_8a316770-89dc-4acb-8afd-51d174f0b74c.jpg",
-      "frontCandidateCount": 2
-    },
-    {
-      "id": 2846,
-      "title": "Dynasty Warriors 8: Xtreme Legends",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 20240,
-      "launchboxName": "Dynasty Warriors 8: Xtreme Legends: Complete Edition",
-      "matchMethod": "unique_soft_alias",
-      "region": "North America",
-      "fileName": "r2_c8792f96-ac81-45fc-9b68-7e79caea000e.jpg",
-      "url": "https://images.launchbox-app.com/r2_c8792f96-ac81-45fc-9b68-7e79caea000e.jpg",
-      "frontCandidateCount": 2
-    },
-    {
-      "id": 2824,
-      "title": "Dynasty Warriors 9: Empires",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 461995,
-      "launchboxName": "Dynasty Warriors 9 Empires",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "aaa27941-a93a-483f-a532-78aa6d8a0d2d.png",
-      "url": "https://images.launchbox-app.com/aaa27941-a93a-483f-a532-78aa6d8a0d2d.png",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 3003,
-      "title": "Evil Genius 2: World Domination",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 446801,
-      "launchboxName": "Evil Genius 2: World Domination",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "adeed0f5-edcd-4cd3-9f69-e0975376c0de.jpg",
-      "url": "https://images.launchbox-app.com/adeed0f5-edcd-4cd3-9f69-e0975376c0de.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2817,
-      "title": "Far Cry 6",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 208158,
-      "launchboxName": "Far Cry 6",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "953614cf-39e6-4842-91b1-7aba1e561669.png",
-      "url": "https://images.launchbox-app.com/953614cf-39e6-4842-91b1-7aba1e561669.png",
-      "frontCandidateCount": 7
-    },
-    {
-      "id": 2953,
-      "title": "Farming Simulator 15",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 29553,
-      "launchboxName": "Farming Simulator 15",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "r2_1036c0bc-5531-41c4-ab0f-c55d82b938a5.jpg",
-      "url": "https://images.launchbox-app.com/r2_1036c0bc-5531-41c4-ab0f-c55d82b938a5.jpg",
-      "frontCandidateCount": 2
-    },
-    {
-      "id": 2880,
-      "title": "Farming Simulator 17",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 462010,
-      "launchboxName": "Farming Simulator 17",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "059132c4-f320-4f88-8f4a-a0d3ebd8a1d7.png",
-      "url": "https://images.launchbox-app.com/059132c4-f320-4f88-8f4a-a0d3ebd8a1d7.png",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2837,
-      "title": "Farming Simulator 22",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 462009,
-      "launchboxName": "Farming Simulator 22",
-      "matchMethod": "exact",
-      "region": "Europe",
-      "fileName": "c1a53aa6-64b0-4d81-8098-3b01d8cb8ed0.png",
-      "url": "https://images.launchbox-app.com/c1a53aa6-64b0-4d81-8098-3b01d8cb8ed0.png",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2872,
-      "title": "Fatal Fury: City of the Wolves",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 462761,
-      "launchboxName": "FATAL FURY: City of the Wolves: Special Edition",
-      "matchMethod": "unique_soft_alias",
-      "region": "North America",
-      "fileName": "090f87b2-fd2f-4107-a0d5-85c830aa0639.jpg",
-      "url": "https://images.launchbox-app.com/090f87b2-fd2f-4107-a0d5-85c830aa0639.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2921,
-      "title": "Fate/Samurai Remnant",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 443947,
-      "launchboxName": "Fate/Samurai Remnant",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "647acdbd-f992-487e-a983-53abe31eafce.jpg",
-      "url": "https://images.launchbox-app.com/647acdbd-f992-487e-a983-53abe31eafce.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2810,
-      "title": "God of War Ragnarök",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 217152,
-      "launchboxName": "God of War Ragnarök",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "4166fff0-21ec-41ae-a3bf-9dbf36934e81.jpg",
-      "url": "https://images.launchbox-app.com/4166fff0-21ec-41ae-a3bf-9dbf36934e81.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2821,
-      "title": "Gran Turismo Sport",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 162123,
-      "launchboxName": "Gran Turismo Sport",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "e088ac22-24af-4097-94c2-0fcc6f96ce88.jpg",
-      "url": "https://images.launchbox-app.com/e088ac22-24af-4097-94c2-0fcc6f96ce88.jpg",
-      "frontCandidateCount": 5
-    },
-    {
-      "id": 2871,
-      "title": "Granblue Fantasy: Relink",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 442242,
-      "launchboxName": "Granblue Fantasy: Relink",
-      "matchMethod": "exact",
-      "region": "Korea",
-      "fileName": "81caddac-4766-406d-974b-9216cfc15dd0.jpg",
-      "url": "https://images.launchbox-app.com/81caddac-4766-406d-974b-9216cfc15dd0.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2798,
-      "title": "Gungrave G.O.R.E.",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 218010,
-      "launchboxName": "Gungrave G.O.R.E.",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "93f5cee0-d8a1-42b0-8a61-f61e4aa34e0f.jpg",
-      "url": "https://images.launchbox-app.com/93f5cee0-d8a1-42b0-8a61-f61e4aa34e0f.jpg",
-      "frontCandidateCount": 3
-    },
-    {
-      "id": 3007,
-      "title": "Hotshot Racing",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 451957,
-      "launchboxName": "Hotshot Racing",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "r2_c1507f59-1dee-4a84-bd12-c4d24288d9a0.png",
-      "url": "https://images.launchbox-app.com/r2_c1507f59-1dee-4a84-bd12-c4d24288d9a0.png",
-      "frontCandidateCount": 2
-    },
-    {
-      "id": 2816,
-      "title": "Kingdom Hearts: Melody of Memory",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 208404,
-      "launchboxName": "Kingdom Hearts: Melody of Memory",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "02fff159-8ad8-468b-b1f8-9fd73a7e1de5.jpg",
-      "url": "https://images.launchbox-app.com/02fff159-8ad8-468b-b1f8-9fd73a7e1de5.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 3061,
-      "title": "Lost Words: Beyond the Page",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 464079,
-      "launchboxName": "Lost Words: Beyond the Page",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "074adf1a-e64a-4a93-8093-b41bf25d0911.jpg",
-      "url": "https://images.launchbox-app.com/074adf1a-e64a-4a93-8093-b41bf25d0911.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2884,
-      "title": "Miraculous: Paris Under Siege",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 459387,
-      "launchboxName": "Miraculous: Paris Under Siege",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "r2_a53773c0-69c8-48cc-bb28-932202362a58.jpg",
-      "url": "https://images.launchbox-app.com/r2_a53773c0-69c8-48cc-bb28-932202362a58.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2939,
-      "title": "Miraculous: Rise of the Sphinx",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 218979,
-      "launchboxName": "Miraculous: Rise of the Sphinx",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "94ebc960-1396-4a4b-b543-d800de7f829a.jpg",
-      "url": "https://images.launchbox-app.com/94ebc960-1396-4a4b-b543-d800de7f829a.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2967,
-      "title": "Monster Truck Championship",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 211285,
-      "launchboxName": "Monster Truck Championship",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "876bf748-5205-4ca6-8244-111c97b525b2.png",
-      "url": "https://images.launchbox-app.com/876bf748-5205-4ca6-8244-111c97b525b2.png",
-      "frontCandidateCount": 2
-    },
-    {
-      "id": 3034,
-      "title": "Moto Racer 4",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 208448,
-      "launchboxName": "Moto Racer 4",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "ff18bb0e-d346-4659-98c8-d5f946b5e379.png",
-      "url": "https://images.launchbox-app.com/ff18bb0e-d346-4659-98c8-d5f946b5e379.png",
-      "frontCandidateCount": 2
-    },
-    {
-      "id": 2877,
-      "title": "MX vs. ATV Supercross Encore",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 463991,
-      "launchboxName": "MX vs. ATV Supercross Encore",
-      "matchMethod": "exact",
-      "region": "Europe",
-      "fileName": "a87cc735-357b-48a3-a242-028711d5a418.jpg",
-      "url": "https://images.launchbox-app.com/a87cc735-357b-48a3-a242-028711d5a418.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2847,
-      "title": "Need for Speed: Hot Pursuit Remastered",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 456902,
-      "launchboxName": "Need for Speed Hot Pursuit Remastered",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "r2_afed234d-4ec0-4699-82ff-3321817a83bd.jpg",
-      "url": "https://images.launchbox-app.com/r2_afed234d-4ec0-4699-82ff-3321817a83bd.jpg",
-      "frontCandidateCount": 2
-    },
-    {
-      "id": 2934,
-      "title": "Nickelodeon All-Star Brawl",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 212890,
-      "launchboxName": "Nickelodeon All-Star Brawl",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "fd6d3c8d-81f2-4c99-bc94-91130a77dd89.jpg",
-      "url": "https://images.launchbox-app.com/fd6d3c8d-81f2-4c99-bc94-91130a77dd89.jpg",
-      "frontCandidateCount": 6
-    },
-    {
-      "id": 2833,
-      "title": "Nickelodeon All-Star Brawl 2",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 466212,
-      "launchboxName": "Nickelodeon All-Star Brawl 2",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "59081602-470c-4fc0-941e-fd035095fee4.jpg",
-      "url": "https://images.launchbox-app.com/59081602-470c-4fc0-941e-fd035095fee4.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2853,
-      "title": "Persona 3 Reload",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 441521,
-      "launchboxName": "Persona 3 Reload",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "7b2455fc-7724-46a4-8bce-e995c93c6067.jpg",
-      "url": "https://images.launchbox-app.com/7b2455fc-7724-46a4-8bce-e995c93c6067.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2916,
-      "title": "Persona 5: Dancing in Starlight",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 158100,
-      "launchboxName": "Persona 5: Dancing in Starlight",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "9dd08ce0-eaa2-4ea5-aaa9-e363148a9e10.jpg",
-      "url": "https://images.launchbox-app.com/9dd08ce0-eaa2-4ea5-aaa9-e363148a9e10.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2942,
-      "title": "Pro Fishing Simulator",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 461868,
-      "launchboxName": "Pro Fishing Simulator",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "ee97eee8-3465-4641-b80b-7cecb89bf4e4.png",
-      "url": "https://images.launchbox-app.com/ee97eee8-3465-4641-b80b-7cecb89bf4e4.png",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 3048,
-      "title": "Professional Farmer 2017",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 459883,
-      "launchboxName": "Professional Farmer 2017",
-      "matchMethod": "exact",
-      "region": "Europe",
-      "fileName": "5066ea78-9f87-4d8b-ab0f-974328304f9f.jpg",
-      "url": "https://images.launchbox-app.com/5066ea78-9f87-4d8b-ab0f-974328304f9f.jpg",
-      "frontCandidateCount": 6
-    },
-    {
-      "id": 2903,
-      "title": "Psychonauts 2",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 217871,
-      "launchboxName": "Psychonauts 2",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "r2_07295f45-3715-4ca6-bab5-8f3478a2bc1b.jpg",
-      "url": "https://images.launchbox-app.com/r2_07295f45-3715-4ca6-bab5-8f3478a2bc1b.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 3038,
-      "title": "Root Film",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 455035,
-      "launchboxName": "Root Film",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "r2_9ac37a6a-a063-43bc-b77c-4d284d2b2952.jpg",
-      "url": "https://images.launchbox-app.com/r2_9ac37a6a-a063-43bc-b77c-4d284d2b2952.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 3020,
-      "title": "Skul: The Hero Slayer",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 463101,
-      "launchboxName": "Skul: The Hero Slayer",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "a00a5ed5-5ba9-4fe3-9fb9-bee3f42a0e59.jpg",
-      "url": "https://images.launchbox-app.com/a00a5ed5-5ba9-4fe3-9fb9-bee3f42a0e59.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2807,
-      "title": "Sniper Elite: Resistance",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 466264,
-      "launchboxName": "Sniper Elite: Resistance",
-      "matchMethod": "exact",
-      "region": "Europe",
-      "fileName": "ceb263d7-0ce7-4b54-afaa-d7a5b23d5db2.jpg",
-      "url": "https://images.launchbox-app.com/ceb263d7-0ce7-4b54-afaa-d7a5b23d5db2.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2907,
-      "title": "Sniper Ghost Warrior Contracts 2",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 466274,
-      "launchboxName": "Sniper Ghost Warrior Contracts 2",
-      "matchMethod": "exact",
-      "region": "Europe",
-      "fileName": "630d8bd4-5d9a-41ca-badc-477b0b731be3.jpg",
-      "url": "https://images.launchbox-app.com/630d8bd4-5d9a-41ca-badc-477b0b731be3.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2819,
-      "title": "Sonic Colors: Ultimate",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 203800,
-      "launchboxName": "Sonic Colors: Ultimate",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "0c9d5d1c-067f-44a3-8b06-eeb4f268e56e.jpg",
-      "url": "https://images.launchbox-app.com/0c9d5d1c-067f-44a3-8b06-eeb4f268e56e.jpg",
-      "frontCandidateCount": 4
-    },
-    {
-      "id": 2813,
-      "title": "SpongeBob SquarePants: The Cosmic Shake",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 466275,
-      "launchboxName": "SpongeBob SquarePants: The Cosmic Shake",
-      "matchMethod": "exact",
-      "region": "Europe",
-      "fileName": "e888379c-4cd6-45c7-b141-c9bfdc9bfef1.jpg",
-      "url": "https://images.launchbox-app.com/e888379c-4cd6-45c7-b141-c9bfdc9bfef1.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 3035,
-      "title": "SpongeBob SquarePants: The Patrick Star Game",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 466291,
-      "launchboxName": "SpongeBob SquarePants: The Patrick Star Game",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "f51e104f-3af8-4765-9159-47c4a09afc89.jpg",
-      "url": "https://images.launchbox-app.com/f51e104f-3af8-4765-9159-47c4a09afc89.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2857,
-      "title": "Stranger of Paradise Final Fantasy Origin",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 466307,
-      "launchboxName": "Stranger of Paradise: Final Fantasy Origin",
-      "matchMethod": "exact",
-      "region": "Europe",
-      "fileName": "25d735d9-df98-4854-b1c7-47626572f6ee.jpg",
-      "url": "https://images.launchbox-app.com/25d735d9-df98-4854-b1c7-47626572f6ee.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2818,
-      "title": "Street Fighter 6",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 441525,
-      "launchboxName": "Street Fighter 6",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "029fff55-2246-4835-bedc-332485c3e80b.jpg",
-      "url": "https://images.launchbox-app.com/029fff55-2246-4835-bedc-332485c3e80b.jpg",
-      "frontCandidateCount": 4
-    },
-    {
-      "id": 3042,
-      "title": "Surviving the Aftermath",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 441565,
-      "launchboxName": "Surviving the Aftermath",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "ac97057b-caf5-402b-ad32-33adc7d22eb2.jpg",
-      "url": "https://images.launchbox-app.com/ac97057b-caf5-402b-ad32-33adc7d22eb2.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2927,
-      "title": "Sword Art Online Last Recollection",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 443950,
-      "launchboxName": "Sword Art Online: Last Recollection",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "ade3d4f2-d74c-408e-b764-766f4bbdd739.jpg",
-      "url": "https://images.launchbox-app.com/ade3d4f2-d74c-408e-b764-766f4bbdd739.jpg",
-      "frontCandidateCount": 4
-    },
-    {
-      "id": 2940,
-      "title": "Tchia",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 466296,
-      "launchboxName": "Tchia",
-      "matchMethod": "exact",
-      "region": "Europe",
-      "fileName": "4fbd3a9b-2003-42c8-8e1c-add7caf52b97.jpg",
-      "url": "https://images.launchbox-app.com/4fbd3a9b-2003-42c8-8e1c-add7caf52b97.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2935,
-      "title": "The Golf Club 2019 Featuring PGA Tour",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 442178,
-      "launchboxName": "The Golf Club 2019 Featuring PGA Tour",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "62032fab-535a-4bc0-8b13-79f68bd14690.jpg",
-      "url": "https://images.launchbox-app.com/62032fab-535a-4bc0-8b13-79f68bd14690.jpg",
-      "frontCandidateCount": 3
-    },
-    {
-      "id": 2898,
-      "title": "The House of the Dead Remake",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 459345,
-      "launchboxName": "The House of the Dead: Remake",
-      "matchMethod": "exact",
-      "region": "Europe",
-      "fileName": "ea19392e-6dad-4067-9b13-ebcce0767db5.jpg",
-      "url": "https://images.launchbox-app.com/ea19392e-6dad-4067-9b13-ebcce0767db5.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2895,
-      "title": "The Smurfs 2: Prisoner of the Green Stone",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 464230,
-      "launchboxName": "The Smurfs 2: The Prisoner of the Green Stone",
-      "matchMethod": "unique_soft_alias",
       "region": "World",
-      "fileName": "04435bb8-72f5-43b3-9c28-371cdb8eae68.jpg",
-      "url": "https://images.launchbox-app.com/04435bb8-72f5-43b3-9c28-371cdb8eae68.jpg",
+      "fileName": "9bba8838-739d-43f5-9a5d-1471d83d97a7.jpg",
+      "url": "https://images.launchbox-app.com/9bba8838-739d-43f5-9a5d-1471d83d97a7.jpg",
       "frontCandidateCount": 1
-    },
-    {
-      "id": 2999,
-      "title": "The Smurfs: Mission Vileaf",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 459342,
-      "launchboxName": "The Smurfs: Mission Vileaf",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "82cca381-e666-49f1-9cc2-423f63fd497c.jpg",
-      "url": "https://images.launchbox-app.com/82cca381-e666-49f1-9cc2-423f63fd497c.jpg",
-      "frontCandidateCount": 2
-    },
-    {
-      "id": 2980,
-      "title": "The Survivalists",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 459111,
-      "launchboxName": "The Survivalists",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "49cf1e46-71e7-4a40-bc50-4a3002331d2e.jpg",
-      "url": "https://images.launchbox-app.com/49cf1e46-71e7-4a40-bc50-4a3002331d2e.jpg",
-      "frontCandidateCount": 3
-    },
-    {
-      "id": 2995,
-      "title": "Theatrhythm Final Bar Line",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 441527,
-      "launchboxName": "Theatrhythm Final Bar Line",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "f2e23a7f-c3dc-4bca-b329-c0e6e37f5909.jpg",
-      "url": "https://images.launchbox-app.com/f2e23a7f-c3dc-4bca-b329-c0e6e37f5909.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 3047,
-      "title": "Them's Fightin' Herds",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 459341,
-      "launchboxName": "Them's Fightin' Herds",
-      "matchMethod": "exact",
-      "region": "Europe",
-      "fileName": "51c3a02a-f9df-4041-b64c-ce0ec273fb2c.jpg",
-      "url": "https://images.launchbox-app.com/51c3a02a-f9df-4041-b64c-ce0ec273fb2c.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2948,
-      "title": "Tintin Reporter: Cigars of the Pharaoh",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 455779,
-      "launchboxName": "Tintin Reporter: Cigars of the Pharaoh",
-      "matchMethod": "exact",
-      "region": "Europe",
-      "fileName": "ebe1b905-c1d1-4fd8-8e61-ed0af768900d.jpg",
-      "url": "https://images.launchbox-app.com/ebe1b905-c1d1-4fd8-8e61-ed0af768900d.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2900,
-      "title": "Tiny Tina's Wonderlands",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 456834,
-      "launchboxName": "Tiny Tina's Wonderlands",
-      "matchMethod": "exact",
-      "region": "United States",
-      "fileName": "7111ed84-a89c-4a07-bdda-08acd8ec743e.jpg",
-      "url": "https://images.launchbox-app.com/7111ed84-a89c-4a07-bdda-08acd8ec743e.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2933,
-      "title": "Train Sim World 2",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 443982,
-      "launchboxName": "Train Sim World 2",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "12e9e1a5-822a-46e0-853c-840de774f967.jpg",
-      "url": "https://images.launchbox-app.com/12e9e1a5-822a-46e0-853c-840de774f967.jpg",
-      "frontCandidateCount": 2
-    },
-    {
-      "id": 2993,
-      "title": "Train Sim World 3",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 443976,
-      "launchboxName": "Train Sim World 3",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "88f7dc19-3542-43cf-ab24-311ecc12d75d.jpg",
-      "url": "https://images.launchbox-app.com/88f7dc19-3542-43cf-ab24-311ecc12d75d.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2979,
-      "title": "Truck Racing Championship",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 211286,
-      "launchboxName": "Truck Racing Championship",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "r2_68037653-aadb-4093-9623-437824498179.jpg",
-      "url": "https://images.launchbox-app.com/r2_68037653-aadb-4093-9623-437824498179.jpg",
-      "frontCandidateCount": 4
-    },
-    {
-      "id": 2977,
-      "title": "V-Rally 4",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 207752,
-      "launchboxName": "V-Rally 4",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "235763ac-26c9-4cb5-b719-948e3b95fb25.png",
-      "url": "https://images.launchbox-app.com/235763ac-26c9-4cb5-b719-948e3b95fb25.png",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 3039,
-      "title": "Victor Vran: Overkill Edition",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 142457,
-      "launchboxName": "Victor Vran: Overkill Edition",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "e9b0ef13-7dbe-45a3-b011-a74d8abd1920.jpg",
-      "url": "https://images.launchbox-app.com/e9b0ef13-7dbe-45a3-b011-a74d8abd1920.jpg",
-      "frontCandidateCount": 2
-    },
-    {
-      "id": 2874,
-      "title": "Werewolf: The Apocalypse Earthblood",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 443041,
-      "launchboxName": "Werewolf: The Apocalypse: Earthblood",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "63a4cce3-5136-416b-9e15-1cb98a3f662d.jpg",
-      "url": "https://images.launchbox-app.com/63a4cce3-5136-416b-9e15-1cb98a3f662d.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2945,
-      "title": "Who Wants to be a Millionaire?",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 424744,
-      "launchboxName": "Who Wants to Be a Millionaire",
-      "matchMethod": "exact",
-      "region": "Europe",
-      "fileName": "f08c43e1-dd62-45a0-a77b-7e3c095d22a7.jpg",
-      "url": "https://images.launchbox-app.com/f08c43e1-dd62-45a0-a77b-7e3c095d22a7.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2858,
-      "title": "Wo Long: Fallen Dynasty",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 442162,
-      "launchboxName": "Wo Long: Fallen Dynasty",
-      "matchMethod": "exact",
-      "region": "Europe",
-      "fileName": "51f003f7-bdb7-4619-a525-f3cc5f73639c.jpg",
-      "url": "https://images.launchbox-app.com/51f003f7-bdb7-4619-a525-f3cc5f73639c.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 2812,
-      "title": "Ys IX: Monstrum Nox",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 419663,
-      "launchboxName": "Ys IX: Monstrum Nox",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "0a3444fc-3d47-488f-bbc4-f6aedccdb7ef.jpg",
-      "url": "https://images.launchbox-app.com/0a3444fc-3d47-488f-bbc4-f6aedccdb7ef.jpg",
-      "frontCandidateCount": 5
-    },
-    {
-      "id": 31,
-      "title": "Ace Combat 7: Skies Unknown",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "launchboxDatabaseId": 163690,
-      "launchboxName": "Ace Combat 7: Skies Unknown",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "a5ebb927-7274-42cd-b496-2ef79be3aac6.jpg",
-      "url": "https://images.launchbox-app.com/a5ebb927-7274-42cd-b496-2ef79be3aac6.jpg",
-      "frontCandidateCount": 7
-    },
-    {
-      "id": 100,
-      "title": "Assassin's Creed Odyssey",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "launchboxDatabaseId": 160210,
-      "launchboxName": "Assassin's Creed: Odyssey",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "be1d0845-799f-4d46-a1d6-95c2e384dbca.jpg",
-      "url": "https://images.launchbox-app.com/be1d0845-799f-4d46-a1d6-95c2e384dbca.jpg",
-      "frontCandidateCount": 6
-    },
-    {
-      "id": 101,
-      "title": "Assassin's Creed Origins",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "launchboxDatabaseId": 144418,
-      "launchboxName": "Assassin's Creed Origins",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "9b2b6ece-aa0f-4603-98c8-2ed590ad91b0.jpg",
-      "url": "https://images.launchbox-app.com/9b2b6ece-aa0f-4603-98c8-2ed590ad91b0.jpg",
-      "frontCandidateCount": 4
-    },
-    {
-      "id": 1803,
-      "title": "Elden Ring",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "launchboxDatabaseId": 217065,
-      "launchboxName": "Elden Ring",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "77d47617-5916-46c7-b2a5-c720bb49f739.jpg",
-      "url": "https://images.launchbox-app.com/77d47617-5916-46c7-b2a5-c720bb49f739.jpg",
-      "frontCandidateCount": 1
-    },
-    {
-      "id": 527,
-      "title": "Ghost of Tsushima",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "launchboxDatabaseId": 184978,
-      "launchboxName": "Ghost of Tsushima",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "e45c7c13-3b92-43e7-83e1-329041919414.jpg",
-      "url": "https://images.launchbox-app.com/e45c7c13-3b92-43e7-83e1-329041919414.jpg",
-      "frontCandidateCount": 5
-    },
-    {
-      "id": 842,
-      "title": "NieR: Automata",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "launchboxDatabaseId": 35050,
-      "launchboxName": "NieR: Automata",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "9cc5a678-eb2f-4e16-9025-da579c70ba13.jpg",
-      "url": "https://images.launchbox-app.com/9cc5a678-eb2f-4e16-9025-da579c70ba13.jpg",
-      "frontCandidateCount": 4
-    },
-    {
-      "id": 2794,
-      "title": "Persona 5 Strikers",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "launchboxDatabaseId": 203724,
-      "launchboxName": "Persona 5 Strikers",
-      "matchMethod": "exact",
-      "region": "North America",
-      "fileName": "4ae76f45-28f4-4230-b5b6-adc7e96ec6a8.jpg",
-      "url": "https://images.launchbox-app.com/4ae76f45-28f4-4230-b5b6-adc7e96ec6a8.jpg",
-      "frontCandidateCount": 2
     },
     {
       "id": 25,
@@ -1298,15 +229,8 @@
   ],
   "unresolved": [
     {
-      "id": 2827,
-      "title": "Call of Duty: Black Ops 7",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 3053,
-      "title": "Death or Treat",
+      "id": 3095,
+      "title": "Cry Babies Magic Tears: The Big Game",
       "bucket": "review",
       "reason": "missing_cover",
       "candidateDatabaseIds": []
@@ -1319,27 +243,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 3062,
-      "title": "Disco Elysium: The Final Cut",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2975,
-      "title": "Endling - Extinction is Forever",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2878,
-      "title": "Exoprimal",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 2850,
       "title": "Five Nights at Freddy's: Help Wanted",
       "bucket": "review",
@@ -1347,225 +250,50 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 2806,
-      "title": "Gabby's Dollhouse: Ready to Party",
+      "id": 3016,
+      "title": "Horse Club Adventures 2: Hazelwood",
       "bucket": "review",
       "reason": "missing_cover",
       "candidateDatabaseIds": []
     },
     {
-      "id": 2964,
-      "title": "Gloomhaven: Mercenaries Edition",
+      "id": 3101,
+      "title": "Ninja Kidz: Time Masters",
       "bucket": "review",
       "reason": "missing_cover",
       "candidateDatabaseIds": []
     },
     {
-      "id": 3056,
-      "title": "Goodbye World",
+      "id": 3096,
+      "title": "Pickleball: Smash",
       "bucket": "review",
       "reason": "missing_cover",
       "candidateDatabaseIds": []
     },
     {
-      "id": 2822,
-      "title": "Gran Turismo 7",
+      "id": 3104,
+      "title": "RiffTrax: The Game",
       "bucket": "review",
       "reason": "missing_cover",
       "candidateDatabaseIds": []
     },
     {
-      "id": 2835,
-      "title": "Hitman 3",
+      "id": 3099,
+      "title": "The Outbound Ghost",
       "bucket": "review",
       "reason": "missing_cover",
       "candidateDatabaseIds": []
     },
     {
-      "id": 2932,
-      "title": "Hotel Transylvania: Scary Tale Adventure",
+      "id": 3084,
+      "title": "The Quest for Excalibur: Puy du Fou",
       "bucket": "review",
       "reason": "missing_cover",
       "candidateDatabaseIds": []
     },
     {
-      "id": 2968,
-      "title": "KONOSUBA - God's Blessing on this Wonderful World! Love For These Clothes Of Desire!",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 3069,
-      "title": "Mercenaries Blaze: Dawn of the Twin Dragons",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2930,
-      "title": "Mercenaries Rebirth: Call of the Wild Lynx",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2973,
-      "title": "Metal Tales: Overkill",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2905,
-      "title": "Monster Jam Crush It",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2947,
-      "title": "Nick Jr. Party Adventure",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2815,
-      "title": "Outriders",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2922,
-      "title": "Planet Coaster: Console Edition",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2931,
-      "title": "Poker Club",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 3057,
-      "title": "Process of Elimination",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2793,
-      "title": "RayCrisis",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2792,
-      "title": "RayStorm",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2992,
-      "title": "Re:Zero - The Prophecy of the Throne",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2997,
-      "title": "Reel Fishing: Road Trip Adventure",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2938,
-      "title": "RiMS Racing Sim",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2832,
-      "title": "Rust: Console Edition",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2949,
-      "title": "Smile For Me",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2888,
-      "title": "Street Outlaws 2: Winner Takes All",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2902,
-      "title": "Stubbs the Zombie in Rebel Without a Pulse",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 3030,
-      "title": "Super Bullet Break",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2808,
-      "title": "The Rumble Fish 2",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2836,
-      "title": "The Texas Chain Saw Massacre",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2955,
-      "title": "Under Night In-Birth Exe:Late[st]",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2802,
-      "title": "Willy Morgan and the Curse of Bone Town",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 3022,
-      "title": "Winter Games 2023",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2848,
-      "title": "World of Outlaws: Dirt Racing",
+      "id": 3086,
+      "title": "World Quiz",
       "bucket": "review",
       "reason": "missing_cover",
       "candidateDatabaseIds": []
@@ -1601,6 +329,13 @@
     {
       "id": 1964,
       "title": "Blast Brigade vs. the Evil Legion of Dr. Cread",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidateDatabaseIds": []
+    },
+    {
+      "id": 2827,
+      "title": "Call of Duty: Black Ops 7",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -1648,8 +383,22 @@
       "candidateDatabaseIds": []
     },
     {
+      "id": 3053,
+      "title": "Death or Treat",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidateDatabaseIds": []
+    },
+    {
       "id": 1600,
       "title": "Deer Simulator",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidateDatabaseIds": []
+    },
+    {
+      "id": 3062,
+      "title": "Disco Elysium: The Final Cut",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -1676,6 +425,13 @@
       "candidateDatabaseIds": []
     },
     {
+      "id": 2878,
+      "title": "Exoprimal",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidateDatabaseIds": []
+    },
+    {
       "id": 454,
       "title": "Factotum 90",
       "bucket": "review",
@@ -1697,15 +453,22 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1625,
-      "title": "Galak-Z: The Void",
+      "id": 1938,
+      "title": "Gekido Kintaro's Revenge",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
     },
     {
-      "id": 1938,
-      "title": "Gekido Kintaro's Revenge",
+      "id": 2964,
+      "title": "Gloomhaven: Mercenaries Edition",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidateDatabaseIds": []
+    },
+    {
+      "id": 2822,
+      "title": "Gran Turismo 7",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -1718,13 +481,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 2256,
-      "title": "Hammerwatch",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 586,
       "title": "Hero Must Die. Again",
       "bucket": "review",
@@ -1732,8 +488,15 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 2257,
-      "title": "Heroes of Hammerwatch - Ultimate Edition",
+      "id": 2835,
+      "title": "Hitman 3",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidateDatabaseIds": []
+    },
+    {
+      "id": 2971,
+      "title": "Horse Club Adventures",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -1741,6 +504,20 @@
     {
       "id": 2243,
       "title": "Irem Collection Volume 1",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidateDatabaseIds": []
+    },
+    {
+      "id": 2930,
+      "title": "Mercenaries Rebirth: Call of the Wild Lynx",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidateDatabaseIds": []
+    },
+    {
+      "id": 2973,
+      "title": "Metal Tales: Overkill",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -1790,6 +567,13 @@
     {
       "id": 1679,
       "title": "Neverending Nightmares",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidateDatabaseIds": []
+    },
+    {
+      "id": 2947,
+      "title": "Nick Jr. Party Adventure",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -1853,6 +637,13 @@
     {
       "id": 2707,
       "title": "Raidou Remastered: Mystery Of The Soulless Army",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidateDatabaseIds": []
+    },
+    {
+      "id": 2997,
+      "title": "Reel Fishing: Road Trip Adventure",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -1942,15 +733,15 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 1731,
-      "title": "Skulls of the Shogun: Bone-a-Fide Edition",
+      "id": 1949,
+      "title": "Smashing the Battle: Ghost Soul",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
     },
     {
-      "id": 1949,
-      "title": "Smashing the Battle: Ghost Soul",
+      "id": 2949,
+      "title": "Smile For Me",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -2000,6 +791,13 @@
     {
       "id": 1163,
       "title": "Street Power Soccer",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidateDatabaseIds": []
+    },
+    {
+      "id": 2902,
+      "title": "Stubbs the Zombie in Rebel Without a Pulse",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -2103,6 +901,13 @@
       "candidateDatabaseIds": []
     },
     {
+      "id": 2836,
+      "title": "The Texas Chain Saw Massacre",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidateDatabaseIds": []
+    },
+    {
       "id": 2030,
       "title": "Toy Soldiers HD",
       "bucket": "review",
@@ -2159,8 +964,22 @@
       "candidateDatabaseIds": []
     },
     {
+      "id": 3022,
+      "title": "Winter Games 2023",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidateDatabaseIds": []
+    },
+    {
       "id": 2022,
       "title": "Witchcrafty",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "candidateDatabaseIds": []
+    },
+    {
+      "id": 2848,
+      "title": "World of Outlaws: Dirt Racing",
       "bucket": "review",
       "reason": "key_art_only",
       "candidateDatabaseIds": []
@@ -2271,22 +1090,8 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 217,
-      "title": "Call of Duty: Black Ops 4",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 1969,
       "title": "Cannon Dancer",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2471,
-      "title": "Get Star / Guardian",
       "bucket": "watch",
       "reason": "image_fetch_failed",
       "candidateDatabaseIds": []
@@ -2301,13 +1106,6 @@
     {
       "id": 1971,
       "title": "Jim Power: The Lost Dimension",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "candidateDatabaseIds": []
-    },
-    {
-      "id": 2469,
-      "title": "Kyukyoku Tiger / Twin Cobra",
       "bucket": "watch",
       "reason": "image_fetch_failed",
       "candidateDatabaseIds": []
@@ -2362,13 +1160,6 @@
       "candidateDatabaseIds": []
     },
     {
-      "id": 964,
-      "title": "Red Dead Redemption 2",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "candidateDatabaseIds": []
-    },
-    {
       "id": 1753,
       "title": "The First Tree: Console Edition",
       "bucket": "watch",
@@ -2414,68 +1205,12 @@
   "ambiguous": [],
   "noFront": [
     {
-      "id": 2842,
-      "title": "Cabela's African Adventures",
+      "id": 3102,
+      "title": "Doki Doki Literature Club Plus!",
       "bucket": "review",
       "reason": "missing_cover",
-      "launchboxDatabaseId": 472923,
-      "launchboxName": "Cabela's African Adventures"
-    },
-    {
-      "id": 3059,
-      "title": "Coffee Talk Episode 2: Hibiscus & Butterfly",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 475560,
-      "launchboxName": "Coffee Talk Episode 2: Hibiscus ＆ Butterfly"
-    },
-    {
-      "id": 2801,
-      "title": "Curse of the Sea Rats",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 475598,
-      "launchboxName": "Curse of the Sea Rats"
-    },
-    {
-      "id": 3055,
-      "title": "Days of Doom",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 475616,
-      "launchboxName": "Days of Doom"
-    },
-    {
-      "id": 3011,
-      "title": "Disgaea 6 Complete",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473014,
-      "launchboxName": "Disgaea 6 Complete"
-    },
-    {
-      "id": 3060,
-      "title": "Disgaea 7: Vows of the Virtueless",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 475668,
-      "launchboxName": "Disgaea 7: Vows of the Virtueless"
-    },
-    {
-      "id": 2886,
-      "title": "Dolphin Spirit: Ocean Mission",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473055,
-      "launchboxName": "Dolphin Spirit Ocean Mission"
-    },
-    {
-      "id": 2869,
-      "title": "DreamWorks All-Star Kart Racing",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 475652,
-      "launchboxName": "DreamWorks All-Star Kart Racing"
+      "launchboxDatabaseId": 473054,
+      "launchboxName": "Doki Doki Literature Club Plus"
     },
     {
       "id": 3041,
@@ -2486,436 +1221,108 @@
       "launchboxName": "Dreamworks Spirit Lucky's Big Adventure"
     },
     {
-      "id": 2913,
-      "title": "ELEX II",
+      "id": 3106,
+      "title": "Firefighting Simulator: The Squad",
       "bucket": "review",
       "reason": "missing_cover",
-      "launchboxDatabaseId": 473184,
-      "launchboxName": "ELEX II"
+      "launchboxDatabaseId": 475710,
+      "launchboxName": "Firefighting Simulator: The Squad"
     },
     {
-      "id": 2906,
-      "title": "Family Feud",
+      "id": 3100,
+      "title": "Mars Odyssey",
       "bucket": "review",
       "reason": "missing_cover",
-      "launchboxDatabaseId": 473169,
-      "launchboxName": "Family Feud"
+      "launchboxDatabaseId": 473416,
+      "launchboxName": "MARS ODYSSEY"
     },
     {
-      "id": 2941,
-      "title": "Five Nights at Freddy's: Into the Pit",
+      "id": 3090,
+      "title": "My Universe: Cooking Star Restaurant",
       "bucket": "review",
       "reason": "missing_cover",
-      "launchboxDatabaseId": 475712,
-      "launchboxName": "Five Nights at Freddy's: Into the Pit"
+      "launchboxDatabaseId": 476520,
+      "launchboxName": "My Universe: Cooking Star Restaurant"
     },
     {
-      "id": 2814,
-      "title": "Five Nights at Freddy's: Security Breach",
+      "id": 3092,
+      "title": "My Universe: Doctors & Nurses",
       "bucket": "review",
       "reason": "missing_cover",
-      "launchboxDatabaseId": 473127,
-      "launchboxName": "Five Nights at Freddy's: Security Breach"
+      "launchboxDatabaseId": 473595,
+      "launchboxName": "My Universe: Doctors & Nurses"
     },
     {
-      "id": 2909,
-      "title": "Ghostbusters: Spirits Unleashed",
+      "id": 3087,
+      "title": "My Universe: Fashion Boutique",
       "bucket": "review",
       "reason": "missing_cover",
-      "launchboxDatabaseId": 473208,
-      "launchboxName": "Ghostbusters: Spirits Unleashed"
+      "launchboxDatabaseId": 473552,
+      "launchboxName": "My Universe: Fashion Boutique"
     },
     {
-      "id": 2978,
-      "title": "Hello Neighbor 2",
+      "id": 3089,
+      "title": "My Universe: My Baby",
       "bucket": "review",
       "reason": "missing_cover",
-      "launchboxDatabaseId": 473250,
-      "launchboxName": "Hello Neighbor 2"
+      "launchboxDatabaseId": 473580,
+      "launchboxName": "My Universe: My Baby"
     },
     {
-      "id": 2823,
-      "title": "Jurassic World Evolution 2",
+      "id": 3093,
+      "title": "My Universe: Pet Clinic Cats & Dogs",
       "bucket": "review",
       "reason": "missing_cover",
-      "launchboxDatabaseId": 473322,
-      "launchboxName": "Jurassic World Evolution 2"
+      "launchboxDatabaseId": 473584,
+      "launchboxName": "My Universe: Pet Clinic Cats & Dogs"
     },
     {
-      "id": 3001,
-      "title": "Kamiwaza: Way of the Thief",
+      "id": 3088,
+      "title": "My Universe: Puppies & Kittens",
       "bucket": "review",
       "reason": "missing_cover",
-      "launchboxDatabaseId": 473340,
-      "launchboxName": "Kamiwaza: Way of the Thief"
+      "launchboxDatabaseId": 473593,
+      "launchboxName": "My Universe: Puppies and Kittens"
     },
     {
-      "id": 3019,
-      "title": "Kukoos: Lost Pets",
+      "id": 3091,
+      "title": "My Universe: School Teacher",
       "bucket": "review",
       "reason": "missing_cover",
-      "launchboxDatabaseId": 475864,
-      "launchboxName": "Kukoos: Lost Pets"
+      "launchboxDatabaseId": 473596,
+      "launchboxName": "My Universe: School Teacher"
     },
     {
-      "id": 2830,
-      "title": "LEGO 2K Drive",
+      "id": 3082,
+      "title": "NASCAR Arcade Rush",
       "bucket": "review",
       "reason": "missing_cover",
-      "launchboxDatabaseId": 473474,
-      "launchboxName": "LEGO 2K Drive"
+      "launchboxDatabaseId": 476487,
+      "launchboxName": "NASCAR Arcade Rush"
     },
     {
-      "id": 3077,
-      "title": "Let's Build a Zoo",
+      "id": 3107,
+      "title": "Postal 4: No Regerts",
       "bucket": "review",
       "reason": "missing_cover",
-      "launchboxDatabaseId": 473434,
-      "launchboxName": "Let's Build a Zoo"
+      "launchboxDatabaseId": 473855,
+      "launchboxName": "POSTAL 4: No Regerts"
     },
     {
-      "id": 2972,
-      "title": "Life in Willowdale: Farm Adventures",
+      "id": 3105,
+      "title": "Professor Rubik's Brain Fitness",
       "bucket": "review",
       "reason": "missing_cover",
-      "launchboxDatabaseId": 473456,
-      "launchboxName": "Life in Willowdale: Farm Adventures"
+      "launchboxDatabaseId": 473695,
+      "launchboxName": "Professor Rubik's Brain Fitness"
     },
     {
-      "id": 2876,
-      "title": "Looney Tunes: Wacky World of Sports",
+      "id": 3094,
+      "title": "Santa's Xmas Adventure",
       "bucket": "review",
       "reason": "missing_cover",
-      "launchboxDatabaseId": 475900,
-      "launchboxName": "Looney Tunes: Wacky World of Sports"
-    },
-    {
-      "id": 2960,
-      "title": "Loop8: Summer of Gods",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 475901,
-      "launchboxName": "Loop8: Summer of Gods"
-    },
-    {
-      "id": 3076,
-      "title": "MADiSON",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473443,
-      "launchboxName": "MADiSON"
-    },
-    {
-      "id": 3018,
-      "title": "Maglam Lord",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473477,
-      "launchboxName": "MAGLAM LORD"
-    },
-    {
-      "id": 2988,
-      "title": "Matchbox Driving Adventures",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 476421,
-      "launchboxName": "Matchbox Driving Adventures"
-    },
-    {
-      "id": 2982,
-      "title": "Matchpoint: Tennis Championships",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 476422,
-      "launchboxName": "Matchpoint: Tennis Championships"
-    },
-    {
-      "id": 3010,
-      "title": "MechWarrior 5: Mercenaries",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473476,
-      "launchboxName": "MechWarrior 5: Mercenaries"
-    },
-    {
-      "id": 2989,
-      "title": "Mickey Storm and the Cursed Mask",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473534,
-      "launchboxName": "Mickey Storm and the Cursed Mask"
-    },
-    {
-      "id": 3013,
-      "title": "Minecraft Legends",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473528,
-      "launchboxName": "Minecraft: Legends"
-    },
-    {
-      "id": 2985,
-      "title": "Miss Kobayashi's Dragon Maid: Burst Forth!! Choro-gon Breath",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 476488,
-      "launchboxName": "Miss Kobayashi's Dragon Maid: Burst Forth!! Choro-gon Breath"
-    },
-    {
-      "id": 2996,
-      "title": "MONARK",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473508,
-      "launchboxName": "MONARK"
-    },
-    {
-      "id": 3024,
-      "title": "Monster Crown",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473520,
-      "launchboxName": "Monster Crown"
-    },
-    {
-      "id": 2994,
-      "title": "Monster Harvest",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 476453,
-      "launchboxName": "Monster Harvest"
-    },
-    {
-      "id": 2904,
-      "title": "Monster Jam: Steel Titans 2",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 476472,
-      "launchboxName": "Monster Jam Steel Titans 2"
-    },
-    {
-      "id": 3052,
-      "title": "Monster Menu: The Scavenger's Cookbook",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 476506,
-      "launchboxName": "Monster Menu The Scavenger's Cookbook"
-    },
-    {
-      "id": 2881,
-      "title": "Mount & Blade II: Bannerlord",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473542,
-      "launchboxName": "Mount & Blade II: Bannerlord"
-    },
-    {
-      "id": 3004,
-      "title": "Moving Out 2",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473553,
-      "launchboxName": "Moving Out 2"
-    },
-    {
-      "id": 2840,
-      "title": "MX vs. ATV Legends",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473567,
-      "launchboxName": "MX vs ATV Legends"
-    },
-    {
-      "id": 2987,
-      "title": "My Little Pony: A Maretime Bay Adventure",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473597,
-      "launchboxName": "MY LITTLE PONY: A Maretime Bay Adventure"
-    },
-    {
-      "id": 3012,
-      "title": "My Little Pony: A Zephyr Heights Mystery",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 476510,
-      "launchboxName": "My Little Pony: A Zephyr Heights Mystery"
-    },
-    {
-      "id": 3006,
-      "title": "New Joe and Mac Caveman Ninja",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 476515,
-      "launchboxName": "New Joe & Mac: Caveman Ninja"
-    },
-    {
-      "id": 2936,
-      "title": "New Super Lucky's Tale",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473608,
-      "launchboxName": "New Super Lucky's Tale"
-    },
-    {
-      "id": 3044,
-      "title": "New Tales from the Borderlands",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473607,
-      "launchboxName": "New Tales from the Borderlands"
-    },
-    {
-      "id": 3051,
-      "title": "NOOB: The Factionless",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 476504,
-      "launchboxName": "NOOB: The Factionless"
-    },
-    {
-      "id": 2954,
-      "title": "Override 2: Super Mech League",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 476495,
-      "launchboxName": "Override 2: Super Mech League"
-    },
-    {
-      "id": 3068,
-      "title": "Oxenfree",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 463027,
-      "launchboxName": "Oxenfree"
-    },
-    {
-      "id": 3031,
-      "title": "Phoenix Point",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473755,
-      "launchboxName": "Phoenix Point"
-    },
-    {
-      "id": 2966,
-      "title": "Poison Control",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473857,
-      "launchboxName": "Poison Control"
-    },
-    {
-      "id": 2860,
-      "title": "Police Simulator: Patrol Officers",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473783,
-      "launchboxName": "Police Simulator: Patrol Officers"
-    },
-    {
-      "id": 2963,
-      "title": "Puyo Puyo Tetris 2",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473833,
-      "launchboxName": "Puyo Puyo Tetris 2"
-    },
-    {
-      "id": 2897,
-      "title": "Real Farm",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473847,
-      "launchboxName": "Real Farm"
-    },
-    {
-      "id": 2981,
-      "title": "Redout 2",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473745,
-      "launchboxName": "Redout 2"
-    },
-    {
-      "id": 2946,
-      "title": "REYNATIS",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 476680,
-      "launchboxName": "REYNATIS"
-    },
-    {
-      "id": 2986,
-      "title": "RICO London",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473723,
-      "launchboxName": "RICO London"
-    },
-    {
-      "id": 2885,
-      "title": "Road 96",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473684,
-      "launchboxName": "Road 96"
-    },
-    {
-      "id": 2865,
-      "title": "RollerCoaster Tycoon Adventures Deluxe",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473800,
-      "launchboxName": "RollerCoaster Tycoon Adventures: Deluxe"
-    },
-    {
-      "id": 2991,
-      "title": "Ryan's Rescue Squad",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473754,
-      "launchboxName": "Ryan's Rescue Squad"
-    },
-    {
-      "id": 2917,
-      "title": "Samurai Warriors 5",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473707,
-      "launchboxName": "SAMURAI WARRIORS 5"
-    },
-    {
-      "id": 2937,
-      "title": "Session: Skate Sim",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 476760,
-      "launchboxName": "Session: Skate Sim"
-    },
-    {
-      "id": 2983,
-      "title": "Severed Steel",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473731,
-      "launchboxName": "Severed Steel"
-    },
-    {
-      "id": 2998,
-      "title": "Slaycation Paradise",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 476783,
-      "launchboxName": "Slaycation Paradise"
-    },
-    {
-      "id": 3072,
-      "title": "Smurfs Kart",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473906,
-      "launchboxName": "Smurfs Kart"
+      "launchboxDatabaseId": 473747,
+      "launchboxName": "Santa's Xmas Adventure"
     },
     {
       "id": 2901,
@@ -2926,204 +1333,12 @@
       "launchboxName": "Sniper Elite 5"
     },
     {
-      "id": 3017,
-      "title": "Speed 3 Grand Prix",
+      "id": 3085,
+      "title": "Werewolf: The Apocalypse - Heart of the Forest",
       "bucket": "review",
       "reason": "missing_cover",
-      "launchboxDatabaseId": 473905,
-      "launchboxName": "Speed 3: Grand Prix"
-    },
-    {
-      "id": 2919,
-      "title": "Star Ocean: The Divine Force",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473934,
-      "launchboxName": "STAR OCEAN THE DIVINE FORCE"
-    },
-    {
-      "id": 2924,
-      "title": "Star Ocean: The Second Story R",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473997,
-      "launchboxName": "STAR OCEAN THE SECOND STORY R"
-    },
-    {
-      "id": 2944,
-      "title": "Star Trek Prodigy: Supernova",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 476856,
-      "launchboxName": "Star Trek Prodigy: Supernova"
-    },
-    {
-      "id": 3071,
-      "title": "Star Trek: Resurgence",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 476873,
-      "launchboxName": "Star Trek: Resurgence"
-    },
-    {
-      "id": 2950,
-      "title": "Story of Seasons: Pioneers of Olive Town",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 476877,
-      "launchboxName": "STORY OF SEASONS: Pioneers of Olive Town"
-    },
-    {
-      "id": 2820,
-      "title": "The Crew Motorfest",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 423855,
-      "launchboxName": "The Crew: Motorfest"
-    },
-    {
-      "id": 3000,
-      "title": "The Cruel King and the Great Hero",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473029,
-      "launchboxName": "The Cruel King and the Great Hero"
-    },
-    {
-      "id": 2923,
-      "title": "The Dungeon of Naheulbeuk: The Amulet of Chaos",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473142,
-      "launchboxName": "The Dungeon of Naheulbeuk: the Amulet of Chaos"
-    },
-    {
-      "id": 3037,
-      "title": "The Eternal Cylinder",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473086,
-      "launchboxName": "The Eternal Cylinder"
-    },
-    {
-      "id": 2804,
-      "title": "The Grinch: Christmas Adventures",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473213,
-      "launchboxName": "The Grinch: Christmas Adventures"
-    },
-    {
-      "id": 2911,
-      "title": "The Knight Witch",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 476381,
-      "launchboxName": "The Knight Witch"
-    },
-    {
-      "id": 2925,
-      "title": "The Last Stand: Aftermath",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473482,
-      "launchboxName": "The Last Stand: Aftermath"
-    },
-    {
-      "id": 3043,
-      "title": "The Legend of Heroes: Trails to Azure",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 476424,
-      "launchboxName": "The Legend of Heroes: Trails to Azure"
-    },
-    {
-      "id": 3049,
-      "title": "The Sisters: Party of the Year",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473793,
-      "launchboxName": "The Sisters Party of The Year"
-    },
-    {
-      "id": 3027,
-      "title": "Tin and Kuna",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 473983,
-      "launchboxName": "Tin & Kuna"
-    },
-    {
-      "id": 2959,
-      "title": "Tin Hearts",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 476952,
-      "launchboxName": "Tin Hearts"
-    },
-    {
-      "id": 2915,
-      "title": "Transformers Galactic Trials",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 476979,
-      "launchboxName": "TRANSFORMERS: Galactic Trials"
-    },
-    {
-      "id": 2920,
-      "title": "Trek to Yomi",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 474083,
-      "launchboxName": "Trek to Yomi"
-    },
-    {
-      "id": 2887,
-      "title": "Trinity Trigger",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 476981,
-      "launchboxName": "Trinity Trigger"
-    },
-    {
-      "id": 2952,
-      "title": "Trolls Remix Rescue",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 475921,
-      "launchboxName": "Trolls: Remix Rescue"
-    },
-    {
-      "id": 3050,
-      "title": "Tunic",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 474042,
-      "launchboxName": "Tunic"
-    },
-    {
-      "id": 3021,
-      "title": "Turnip Boy Commits Tax Evasion",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 476985,
-      "launchboxName": "Turnip Boy Commits Tax Evasion"
-    },
-    {
-      "id": 2965,
-      "title": "Where the Heart Leads",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 477052,
-      "launchboxName": "Where the Heart Leads"
-    },
-    {
-      "id": 3067,
-      "title": "Witch on the Holy Night",
-      "bucket": "review",
-      "reason": "missing_cover",
-      "launchboxDatabaseId": 474070,
-      "launchboxName": "WITCH ON THE HOLY NIGHT"
+      "launchboxDatabaseId": 474036,
+      "launchboxName": "Werewolf: The Apocalypse: Heart of the Forest"
     },
     {
       "id": 2037,
@@ -3164,6 +1379,14 @@
       "reason": "key_art_only",
       "launchboxDatabaseId": 475478,
       "launchboxName": "BROK the InvestiGator"
+    },
+    {
+      "id": 2842,
+      "title": "Cabela's African Adventures",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 472923,
+      "launchboxName": "Cabela's African Adventures"
     },
     {
       "id": 2094,
@@ -3246,6 +1469,22 @@
       "launchboxName": "Dusk"
     },
     {
+      "id": 2913,
+      "title": "ELEX II",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 473184,
+      "launchboxName": "ELEX II"
+    },
+    {
+      "id": 2941,
+      "title": "Five Nights at Freddy's: Into the Pit",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 475712,
+      "launchboxName": "Five Nights at Freddy's: Into the Pit"
+    },
+    {
       "id": 1622,
       "title": "Fury Unleashed",
       "bucket": "review",
@@ -3260,6 +1499,14 @@
       "reason": "key_art_only",
       "launchboxDatabaseId": 473183,
       "launchboxName": "Futuridium EP Deluxe"
+    },
+    {
+      "id": 2909,
+      "title": "Ghostbusters: Spirits Unleashed",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 473208,
+      "launchboxName": "Ghostbusters: Spirits Unleashed"
     },
     {
       "id": 2311,
@@ -3310,12 +1557,36 @@
       "launchboxName": "Hidden Through Time"
     },
     {
+      "id": 2894,
+      "title": "Horse Tales Emerald Valley Ranch",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 475755,
+      "launchboxName": "Horse Tales: Emerald Valley Ranch"
+    },
+    {
       "id": 2461,
       "title": "Isonzo",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 475840,
       "launchboxName": "Isonzo"
+    },
+    {
+      "id": 2823,
+      "title": "Jurassic World Evolution 2",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 473322,
+      "launchboxName": "Jurassic World Evolution 2"
+    },
+    {
+      "id": 3019,
+      "title": "Kukoos: Lost Pets",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 475864,
+      "launchboxName": "Kukoos: Lost Pets"
     },
     {
       "id": 1515,
@@ -3326,12 +1597,52 @@
       "launchboxName": "Late Shift"
     },
     {
+      "id": 2830,
+      "title": "LEGO 2K Drive",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 473474,
+      "launchboxName": "LEGO 2K Drive"
+    },
+    {
+      "id": 3077,
+      "title": "Let's Build a Zoo",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 473434,
+      "launchboxName": "Let's Build a Zoo"
+    },
+    {
+      "id": 2972,
+      "title": "Life in Willowdale: Farm Adventures",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 473456,
+      "launchboxName": "Life in Willowdale: Farm Adventures"
+    },
+    {
       "id": 1661,
       "title": "Lode Runner Legacy",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 473400,
       "launchboxName": "Lode Runner Legacy"
+    },
+    {
+      "id": 2960,
+      "title": "Loop8: Summer of Gods",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 475901,
+      "launchboxName": "Loop8: Summer of Gods"
+    },
+    {
+      "id": 3018,
+      "title": "Maglam Lord",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 473477,
+      "launchboxName": "MAGLAM LORD"
     },
     {
       "id": 2392,
@@ -3342,12 +1653,28 @@
       "launchboxName": "Märchen Forest"
     },
     {
+      "id": 2988,
+      "title": "Matchbox Driving Adventures",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 476421,
+      "launchboxName": "Matchbox Driving Adventures"
+    },
+    {
       "id": 750,
       "title": "Mecho Tales",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 473440,
       "launchboxName": "Mecho Tales"
+    },
+    {
+      "id": 3010,
+      "title": "MechWarrior 5: Mercenaries",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 473476,
+      "launchboxName": "MechWarrior 5: Mercenaries"
     },
     {
       "id": 2463,
@@ -3364,6 +1691,46 @@
       "reason": "key_art_only",
       "launchboxDatabaseId": 473526,
       "launchboxName": "Mighty Switch Force! Collection"
+    },
+    {
+      "id": 3013,
+      "title": "Minecraft Legends",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 473528,
+      "launchboxName": "Minecraft: Legends"
+    },
+    {
+      "id": 2985,
+      "title": "Miss Kobayashi's Dragon Maid: Burst Forth!! Choro-gon Breath",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 476488,
+      "launchboxName": "Miss Kobayashi's Dragon Maid: Burst Forth!! Choro-gon Breath"
+    },
+    {
+      "id": 2996,
+      "title": "MONARK",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 473508,
+      "launchboxName": "MONARK"
+    },
+    {
+      "id": 2994,
+      "title": "Monster Harvest",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 476453,
+      "launchboxName": "Monster Harvest"
+    },
+    {
+      "id": 3004,
+      "title": "Moving Out 2",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 473553,
+      "launchboxName": "Moving Out 2"
     },
     {
       "id": 2095,
@@ -3388,6 +1755,30 @@
       "reason": "key_art_only",
       "launchboxDatabaseId": 473561,
       "launchboxName": "Mutant Mudds Super Challenge"
+    },
+    {
+      "id": 2840,
+      "title": "MX vs. ATV Legends",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 473567,
+      "launchboxName": "MX vs ATV Legends"
+    },
+    {
+      "id": 2987,
+      "title": "My Little Pony: A Maretime Bay Adventure",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 473597,
+      "launchboxName": "MY LITTLE PONY: A Maretime Bay Adventure"
+    },
+    {
+      "id": 3012,
+      "title": "My Little Pony: A Zephyr Heights Mystery",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 476510,
+      "launchboxName": "My Little Pony: A Zephyr Heights Mystery"
     },
     {
       "id": 815,
@@ -3438,6 +1829,22 @@
       "launchboxName": "Organ Trail Complete Edition"
     },
     {
+      "id": 2954,
+      "title": "Override 2: Super Mech League",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 476495,
+      "launchboxName": "Override 2: Super Mech League"
+    },
+    {
+      "id": 3068,
+      "title": "Oxenfree",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 463027,
+      "launchboxName": "Oxenfree"
+    },
+    {
       "id": 1817,
       "title": "Panzer Dragoon: Remake",
       "bucket": "review",
@@ -3452,6 +1859,14 @@
       "reason": "key_art_only",
       "launchboxDatabaseId": 473667,
       "launchboxName": "Plague Road"
+    },
+    {
+      "id": 2860,
+      "title": "Police Simulator: Patrol Officers",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 473783,
+      "launchboxName": "Police Simulator: Patrol Officers"
     },
     {
       "id": 1697,
@@ -3484,6 +1899,14 @@
       "reason": "key_art_only",
       "launchboxDatabaseId": 473701,
       "launchboxName": "Roombo: First Blood"
+    },
+    {
+      "id": 2991,
+      "title": "Ryan's Rescue Squad",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 473754,
+      "launchboxName": "Ryan's Rescue Squad"
     },
     {
       "id": 2718,
@@ -3526,6 +1949,14 @@
       "launchboxName": "Sense: A Cyberpunk Ghost Story"
     },
     {
+      "id": 2983,
+      "title": "Severed Steel",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 473731,
+      "launchboxName": "Severed Steel"
+    },
+    {
       "id": 1060,
       "title": "Shadow Warrior 2",
       "bucket": "review",
@@ -3566,14 +1997,6 @@
       "launchboxName": "Shadows of Adam"
     },
     {
-      "id": 1069,
-      "title": "Shenmue II",
-      "bucket": "review",
-      "reason": "key_art_only",
-      "launchboxDatabaseId": 476751,
-      "launchboxName": "Shenmue II"
-    },
-    {
       "id": 1726,
       "title": "Shikhondo: Soul Eater",
       "bucket": "review",
@@ -3590,6 +2013,14 @@
       "launchboxName": "Sir Lovelot"
     },
     {
+      "id": 2998,
+      "title": "Slaycation Paradise",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 476783,
+      "launchboxName": "Slaycation Paradise"
+    },
+    {
       "id": 2018,
       "title": "SOL CRESTA",
       "bucket": "review",
@@ -3598,12 +2029,52 @@
       "launchboxName": "Sol Cresta"
     },
     {
+      "id": 3017,
+      "title": "Speed 3 Grand Prix",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 473905,
+      "launchboxName": "Speed 3: Grand Prix"
+    },
+    {
       "id": 2258,
       "title": "Spelunker HD Deluxe",
       "bucket": "review",
       "reason": "key_art_only",
       "launchboxDatabaseId": 473970,
       "launchboxName": "Spelunker HD Deluxe"
+    },
+    {
+      "id": 2924,
+      "title": "Star Ocean: The Second Story R",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 473997,
+      "launchboxName": "STAR OCEAN THE SECOND STORY R"
+    },
+    {
+      "id": 2944,
+      "title": "Star Trek Prodigy: Supernova",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 476856,
+      "launchboxName": "Star Trek Prodigy: Supernova"
+    },
+    {
+      "id": 3071,
+      "title": "Star Trek: Resurgence",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 476873,
+      "launchboxName": "Star Trek: Resurgence"
+    },
+    {
+      "id": 2950,
+      "title": "Story of Seasons: Pioneers of Olive Town",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 476877,
+      "launchboxName": "STORY OF SEASONS: Pioneers of Olive Town"
     },
     {
       "id": 2350,
@@ -3662,6 +2133,14 @@
       "launchboxName": "The Coma 2: Vicious Sisters"
     },
     {
+      "id": 3037,
+      "title": "The Eternal Cylinder",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 473086,
+      "launchboxName": "The Eternal Cylinder"
+    },
+    {
       "id": 2354,
       "title": "The Good Life",
       "bucket": "review",
@@ -3670,12 +2149,12 @@
       "launchboxName": "The Good Life"
     },
     {
-      "id": 2049,
-      "title": "The Legend of Heroes: Trails through Daybreak II",
+      "id": 2804,
+      "title": "The Grinch: Christmas Adventures",
       "bucket": "review",
       "reason": "key_art_only",
-      "launchboxDatabaseId": 476389,
-      "launchboxName": "The Legend of Heroes: Trails through Daybreak II"
+      "launchboxDatabaseId": 473213,
+      "launchboxName": "The Grinch: Christmas Adventures"
     },
     {
       "id": 1298,
@@ -3700,6 +2179,14 @@
       "reason": "key_art_only",
       "launchboxDatabaseId": 474021,
       "launchboxName": "They Are Billions"
+    },
+    {
+      "id": 3027,
+      "title": "Tin and Kuna",
+      "bucket": "review",
+      "reason": "key_art_only",
+      "launchboxDatabaseId": 473983,
+      "launchboxName": "Tin & Kuna"
     },
     {
       "id": 1769,
@@ -3900,14 +2387,6 @@
       "reason": "missing_ps4_banner",
       "launchboxDatabaseId": 473107,
       "launchboxName": "Fight'N Rage"
-    },
-    {
-      "id": 1800,
-      "title": "Assassin's Creed Valhalla",
-      "bucket": "watch",
-      "reason": "image_fetch_failed",
-      "launchboxDatabaseId": 474278,
-      "launchboxName": "Assassin's Creed: Valhalla"
     },
     {
       "id": 155,
