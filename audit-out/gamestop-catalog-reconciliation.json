@@ -1,0 +1,1343 @@
+{
+ "generated": "2026-11-09",
+ "source": "audit-out/gamestop-ps4-preowned-catalog.csv (1,902 listings, 96 pages)",
+ "method": "Each listing (platform suffix and edition words stripped) matched against the finalized runtime census (tools/lib/runtime-census.mjs): identity titles, aliases and DATA.p physical products; then against audit-out/ALL_BATCHES_01-05_completed.csv; then rule classifiers (annual sports, PSVR) and a strict token-subset match with roman-numeral normalization. Nothing here changes census data.",
+ "summary": {
+  "listings": 1902,
+  "exactCensusIncluded": 1302,
+  "exactCensusExcluded": 60,
+  "exactMultiGameProduct": 3,
+  "exactResearchBatches": 49,
+  "variantCensusIncluded": 127,
+  "variantCensusExcluded": 21,
+  "variantMultiGameProduct": 1,
+  "variantResearchBatches": 4,
+  "annualSportsRule": 97,
+  "psvrRule": 35,
+  "unresolvedByReason": {
+   "LIKELY_NAME_VARIANT_OF_EXISTING": 78,
+   "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH": 59,
+   "COMPILATION_NEEDS_PRODUCT_MAPPING": 21,
+   "NOT_A_STANDALONE_PS4_GAME_LISTING": 9,
+   "ANNUAL_OR_SERIALIZED_SPORTS_RULE": 30,
+   "PSVR_OR_HORSE_RULE_CHECK": 6
+  }
+ },
+ "note": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH is an upper bound: a few rows are still spelling variants the matcher could not prove (nearestCensus shows the closest identity). These rows are the input for a Batch 06 research pass; none were added without physical-release evidence.",
+ "annualSportsRule": [
+  "Madden NFL 25 - PlayStation 4",
+  "Madden NFL 24 - PlayStation 4",
+  "NBA 2K25 - PlayStation 4",
+  "FIFA 18 - PlayStation 4",
+  "NBA 2K21 - PlayStation 4",
+  "Madden NFL 23 - PlayStation 4",
+  "EA SPORTS FC 25 - PlayStation 4",
+  "MLB The Show 23 - PlayStation 4",
+  "WWE 2K20 - PlayStation 4",
+  "WWE 2K19 - PlayStation 4",
+  "PGA Tour 2K23 - PlayStation 4",
+  "NBA 2K24 Kobe Bryant Edition - PlayStation 4",
+  "WWE 2K16 - PlayStation 4",
+  "EA Sports UFC 3 - PlayStation 4",
+  "NASCAR Heat 5 - PlayStation 4",
+  "Madden NFL 22 - PlayStation 4",
+  "FIFA 20 - PlayStation 4",
+  "NBA 2K20 - PlayStation 4",
+  "Madden NFL 21 - PlayStation 4",
+  "NBA 2K22 - PlayStation 4",
+  "WWE 2K23 - PlayStation 4",
+  "Madden NFL 20 - PlayStation 4",
+  "WWE 2K22 - PlayStation 4",
+  "MLB The Show 20 - PlayStation 4",
+  "FIFA 23 - PlayStation 4",
+  "Just Dance 2014 - PlayStation 4",
+  "FIFA 19 - PlayStation 4",
+  "WWE 2K25 - PlayStation 4",
+  "eFootball PES 2021 - PlayStation 4",
+  "NASCAR 21: Ignition - PlayStation 4",
+  "NHL 21 - PlayStation 4",
+  "NHL 24 - PlayStation 4",
+  "EA Sports UFC 2 - PlayStation 4",
+  "Monster Energy Supercross - The Official Videogame - PlayStation 4",
+  "EA Sports UFC 4 - PlayStation 4",
+  "Just Dance 2015 - PlayStation 4",
+  "NBA 2K23 - PlayStation 4",
+  "PGA Tour 2K21 - PlayStation 4",
+  "WWE 2K17 - PlayStation 4",
+  "EA SPORTS FC 24 - PlayStation 4",
+  "F1 2019 Anniversary Edition - PlayStation 4",
+  "MLB The Show 21 - PlayStation 4",
+  "FIFA 21 - PlayStation 4",
+  "F1 23 - PlayStation 4",
+  "WWE 2K15 - PlayStation 4",
+  "NBA Live 19 - PlayStation 4",
+  "WWE 2K18 - PlayStation 4",
+  "MLB The Show 22 - PlayStation 4",
+  "MLB The Show 19 - PlayStation 4",
+  "NBA 2K Playgrounds 2 - PlayStation 4",
+  "F1 24 - PlayStation 4",
+  "NHL 19 - PlayStation 4",
+  "FIFA 22 - PlayStation 4",
+  "F1 2017 - PlayStation 4",
+  "Just Dance 2016 - PlayStation 4",
+  "eFootball PES 2020 - PlayStation 4",
+  "NASCAR Heat 4 - PlayStation 4",
+  "NHL 23 - PlayStation 4",
+  "Just Dance 2019 - PlayStation 4",
+  "Just Dance 2018 - PlayStation 4",
+  "F1 2020 - PlayStation 4",
+  "F1 22 - PlayStation 4",
+  "Just Dance 2021 - PlayStation 4",
+  "F1 2021 - PlayStation 4",
+  "NHL 20 - PlayStation 4",
+  "NHL 22 - PlayStation 4",
+  "NASCAR Heat 2 - PlayStation 4",
+  "EA Sports UFC - PlayStation 4",
+  "Just Dance 2020 - PlayStation 4",
+  "Just Dance 2022 - PlayStation 4",
+  "NBA Live 14 - PlayStation 4",
+  "Monster Energy Supercross - The Official Videogame 3 - PlayStation 4",
+  "NBA Live 16 - PlayStation 4",
+  "Just Dance 2017 - PlayStation 4",
+  "F1 2018 Headline Edition - PlayStation 4",
+  "F1 2015 - PlayStation 4",
+  "MotoGP 19 - PlayStation 4",
+  "MotoGP 14 - PlayStation 4",
+  "Madden NFL 20 and FIFA 20 Bundle - PlayStation 4",
+  "NASCAR Heat Evolution - PlayStation 4",
+  "WRC 8 FIA World Rally Championship - PlayStation 4",
+  "WRC 9 - PlayStation 4",
+  "WRC 5 - PlayStation 4",
+  "EA SPORTS FC 26 - PlayStation 4",
+  "Monster Energy Supercross 4 - PlayStation 4",
+  "Monster Energy Supercross 5 - PlayStation 4",
+  "NASCAR Heat 3 - PlayStation 4",
+  "WRC 10 - PlayStation 4",
+  "NBA Live 15 - PlayStation 4",
+  "MotoGP17 - GameStop Exclusive - PlayStation 4",
+  "MotoGP 19 - Xbox One",
+  "MotoGP 20 - PlayStation 4",
+  "Madden NFL 19 and FIFA 19 Bundle - PlayStation 4",
+  "WRC 7 FIA World Rally Championship - PlayStation 4",
+  "Monster Energy Supercross - The Official Videogame 2 - PlayStation 4",
+  "WRC 6 - PlayStation 4",
+  "Monster Energy Supercross 6 - PlayStation 4"
+ ],
+ "psvrRule": [
+  "Astro Bot Rescue Mission PSVR - PlayStation 4",
+  "Marvel's Iron Man VR - PlayStation 4",
+  "Vader Immortal: A Star Wars VR Series - PlayStation 4",
+  "Star Trek Bridge Crew VR - PlayStation 4",
+  "CREED: Rise to Glory - PlayStation 4",
+  "Farpoint VR - PlayStation 4",
+  "RollerCoaster Tycoon Joyride PSVR - PlayStation 4",
+  "Deracine PSVR - PlayStation 4 GameStop Exclusive",
+  "Wolfenstein: Cyberpilot (VR) - PlayStation 4",
+  "EVE: Valkyrie VR - PlayStation 4",
+  "Gungrave: Loaded Coffin Edition VR - PlayStation 4",
+  "The Elder Scrolls V: Skyrim PSVR - PlayStation 4",
+  "Batman: Arkham VR - PlayStation 4",
+  "DOOM 3 VR - PlayStation 4 GameStop Exclusive",
+  "Blood and Truth - PlayStation 4",
+  "Until Dawn: Rush of Blood VR - PlayStation 4",
+  "VR Karts - PlayStation 4",
+  "PlayStation VR Worlds - PlayStation 4",
+  "The Inpatient - PlayStation 4",
+  "The Angry Birds Movie 2 VR: Under Pressure - PlayStation 4",
+  "Everybody's Golf VR - PlayStation 4",
+  "ARK Park PSVR - PlayStation 4",
+  "DOOM VFR - PlayStation 4",
+  "Bravo Team VR - PlayStation 4",
+  "Desperate: Vladivostok VR - PlayStation 4",
+  "DriveClub VR - PlayStation 4",
+  "PlayStation VR Apex Construct - PlayStation 4",
+  "Battlezone VR - PlayStation 4",
+  "Sairento VR - PlayStation 4",
+  "RIGS Mechanized Combat League VR - PlayStation 4",
+  "VR Ping Pong Pro - PlayStation 4",
+  "Box VR - PlayStation 4",
+  "Psychonauts In the Rhombus of Ruin VR - PlayStation 4",
+  "Eagle Flight VR - PlayStation 4",
+  "Budget Cuts PSVR - PlayStation 4"
+ ],
+ "variantMatches": {
+  "included": [
+   "Call of Duty: Modern Warfare II Cross-Gen Bundle - PlayStation 4 and PlayStation 5  =>  2828 Call of Duty: Modern Warfare II [title]",
+   "Call of Duty: Modern Warfare III Cross-Gen Bundle - PlayStation 4  =>  2829 Call of Duty: Modern Warfare III [title]",
+   "The Witcher III: Wild Hunt Complete Edition - PlayStation 4  =>  1312 The Witcher 3: Wild Hunt [title]",
+   "The Witcher III: Wild Hunt - PlayStation 4  =>  1312 The Witcher 3: Wild Hunt [title]",
+   "Call of Duty: Black Ops 7 Cross-Gen Bundle - PlayStation 4 and PlayStation 5  =>  2827 Call of Duty: Black Ops 7 [title]",
+   "Back to the Future: The Game 30th Anniversary Edition - PlayStation 4  =>  1579 Back to the Future: The Game [title]",
+   "DRAGON QUEST XI S: Echoes of an Elusive Age Definitive Edition - PlayStation 4  =>  407 Dragon Quest XI: Echoes of an Elusive Age [title]",
+   "Ys IX: Monstrum Nox Pact Edition - PlayStation 4  =>  2812 Ys IX: Monstrum Nox [title]",
+   "Ultimate Marvel vs. Capcom 3 - PlayStation 4 GameStop Exclusive  =>  1377 Ultimate Marvel vs. Capcom 3 [title]",
+   "Tom Clancy's Rainbow Six: Siege - PlayStation 4  =>  1336 Tom Clancy's Rainbow Six Siege: Advanced Edition [title]",
+   "Game of Thrones: a Telltale Game Series - PlayStation 4  =>  517 Game of Thrones: A Telltale Games Series [title]",
+   "Ghostbusters: The Video Game Remastered - PlayStation 4 GameStop Exclusive  =>  529 Ghostbusters [title]",
+   "Skylanders Trap Team Video Game - PlayStation 4  =>  1086 Skylanders Trap Team [title]",
+   "Resident Evil 3 Remake - PlayStation 4  =>  977 Resident Evil 3 [title]",
+   "LEGO Dimensions Video Game - PlayStation 4  =>  702 LEGO Dimensions [title]",
+   "The Crew Motorfest Special Edition GameStop Exclusive - PlayStation 4  =>  2820 The Crew Motorfest [title]",
+   "Skylanders Imaginators Video Game - PlayStation 4  =>  1083 Skylanders Imaginators [title]",
+   "Monster Hunter: World Iceborne Master Edition - PlayStation 4  =>  792 Monster Hunter: World - Iceborne [title]",
+   "Dead By Daylight: Nightmare Edition - PlayStation 4  =>  323 Dead by Daylight [title]",
+   "Duke Nukem 3D: 20th Anniversary World Tour - PlayStation 4 GameStop Exclusive  =>  415 Duke Nukem 3D: 20th Anniversary World Tour [title]",
+   "Guitar Hero Live (Game Only) - PlayStation 4  =>  1629 Guitar Hero Live [title]",
+   "J-Stars Victory Vs Plus - PlayStation 4  =>  633 J-Stars Victory Vs+ [title]",
+   "Injustice 2 Legendary Edition - PlayStation 4  =>  627 Injustice 2 [title]",
+   "Tony Hawk's Pro Skater 1 and 2 - PlayStation 4  =>  1340 Tony Hawk's Pro Skater 1 + 2 [title]",
+   "Minecraft Dungeons Hero Edition - PlayStation 4  =>  781 Minecraft Dungeons [title]",
+   "Skylanders SuperChargers Video Game - PlayStation 4  =>  1084 Skylanders SuperChargers [title]",
+   "Tales From the Borderlands - PlayStation 4  =>  3044 New Tales from the Borderlands [title]",
+   "ARK: Survival Evolved Ultimate Survivor Edition - PlayStation 4  =>  91 ARK: Survival Evolved [title]",
+   "The Legend of Heroes: Trails of Cold Steel IV FRONTLINE EDITION - PlayStation 4  =>  1265 The Legend of Heroes: Trails of Cold Steel [title]",
+   "Dying Light 2 - PlayStation 4  =>  420 Dying Light [title]",
+   "Octopath Traveler 2 - PlayStation 4  =>  2667 Octopath Traveler II [title]",
+   "SpongeBob SquarePants Cosmic Shake - PlayStation 4  =>  2813 SpongeBob SquarePants: The Cosmic Shake [title]",
+   "Cities: Skylines PlayStation 4 Edition - PlayStation 4 GameStop Exclusive  =>  248 Cities: Skylines - PlayStation 4 Edition [title]",
+   "LEGO Movie Videogame - PlayStation 4  =>  1271 The LEGO Movie Videogame [title]",
+   "Space Hulk Deathwing Enhanced Edition - PlayStation 4  =>  1114 Space Hulk: Deathwing [title]",
+   "Home Sweet Home - PlayStation 4 GameStop Exclusive  =>  595 Home Sweet Home [title]",
+   "The Dark Pictures: House of Ashes - PlayStation 4  =>  2562 Dark Pictures Anthology: House of Ashes [title]",
+   "Secret of Mana - PlayStation 4 GameStop Exclusive  =>  1044 Secret of Mana [title]",
+   "LEGO Ninjago Movie Video Game - PlayStation 4  =>  1272 The LEGO NINJAGO Movie Video Game [title]",
+   "World War Z: Aftermath  - PlayStation 4  =>  1453 World War Z [title]",
+   "No Man's Sky: Beyond - PlayStation 4  =>  850 No Man's Sky [title]",
+   "Sonic Forces Bonus Edition - PlayStation 4  =>  1106 Sonic Forces [title]",
+   "Destroy All Humans! 2020 - PlayStation 4  =>  355 Destroy All Humans! [title]",
+   "The Last Kids on Earth and the Staff of Doom - PlayStation 4  =>  692 Last Kids on Earth and the Staff of Doom [title]",
+   "The Jackbox Party Pack 7 - PlayStation 4  =>  1253 The Jackbox Party Pack [title]",
+   "The Dark Pictures: The Devil in Me - PlayStation 4  =>  2563 Dark Pictures: The Devil in Me [title]",
+   "Tokyo Xanadu eX Plus - PlayStation 4  =>  1335 Tokyo Xanadu eX+ [title]",
+   "The Callisto Protocol - PlayStation 4  =>  224 Callisto Protocol [Day One Edition] [title]",
+   "Lords of the Fallen 2014 - PlayStation 4  =>  729 Lords of the Fallen [title]",
+   "The King of Fighters XV - Playstation 4  =>  2638 King Of Fighters XV [title]",
+   "Farming Simulator 17 Platinum Edition - PlayStation 4  =>  2880 Farming Simulator 17 [title]",
+   "Mount and Blade 2 Bannerlord - PlayStation 4  =>  2881 Mount & Blade II: Bannerlord [title]",
+   "Naruto Shippuden: Ultimate Ninja Storm Legacy - PlayStation 4  =>  820 Naruto Shippuden: Ultimate Ninja Storm 4 [title]",
+   "The Lord of the Rings: Gollum - PlayStation 4  =>  728 Lord of the Rings: Gollum [title]",
+   "Pinball Arcade - PlayStation 4  =>  1284 The Pinball Arcade [title]",
+   "G.I. Joe Operation Blackout Gold Edition GameStop Exclusive - PlayStation 4  =>  2582 G.I. Joe: Operation Blackout [title]",
+   "Starlink: Battle for Atlas (Game Only) - PlayStation 4  =>  1142 Starlink: Battle for Atlas [title]",
+   "Necromunda: Hired Gun GameStop Exclusive - PlayStation 4  =>  2659 Necromunda: Hired Gun [title]",
+   "Stubbs the Zombie Rebel Without a Pulse GameStop Exclusive - PlayStation 4  =>  2902 Stubbs the Zombie in Rebel Without a Pulse [alias]",
+   "Psychonauts 2: Motherlobe Edition - PlayStation 4  =>  2903 Psychonauts 2 [title]",
+   "Dragons: Dawn of New Riders - PlayStation 4  =>  1607 DreamWorks Dragons Dawn of New Riders [title]",
+   "Wargroove Deluxe Edition - PlayStation 4 GameStop Exclusive  =>  1410 Wargroove [title]",
+   "The Dungeon of Naheulbeuk: The Amulet of Chaos Chicken Edition - PlayStation 4  =>  2923 The Dungeon of Naheulbeuk: The Amulet of Chaos [title]",
+   "The Legend of Legacy HD Remastered - Deluxe Edition - PlayStation 4  =>  2649 Legend Of Legacy HD Remastered [title]",
+   "Yooka-Laylee and the Impossible Lair - Xbox One  =>  1479 Yooka-Laylee and the Impossible Lair [title]",
+   "Crimes and Punishments: Sherlock Holmes - PlayStation 4  =>  1071 Sherlock Holmes: Crimes & Punishments [title]",
+   "Killing Floor 2 - PlayStation 4 GameStop Exclusive  =>  660 Killing Floor 2 [title]",
+   "Oddworld: Soulstorm Day One Oddition - PlayStation 4  =>  2668 Oddworld: Soulstorm [title]",
+   "No More Heroes 3 - Day 1 Edition PlayStation 4  =>  851 No More Heroes III [Day 1 Edition] [title]",
+   "Golf Club 2 - PlayStation 4  =>  1249 The Golf Club 2 [title]",
+   "The Binding of Isaac: Afterbirth Plus - PlayStation 4  =>  1222 The Binding of Isaac: Afterbirth+ [title]",
+   "Hotline Miami and Hotline Miami 2: Wrong Number - PlayStation 4  =>  602 Hotline Miami 2: Wrong Number [title]",
+   "Gas Guzzlers Extreme GameStop Exclusive - PlayStation 4  =>  522 Gas Guzzlers Extreme [title]",
+   "Xuan Yuan Sword 7 - PlayStation 4  =>  2765 Xuan-Yuan Sword VII [title]",
+   "The Golf Club: Collector's Edition - PlayStation 4  =>  1249 The Golf Club 2 [title]",
+   "ANONYMOUS;CODE Steelbook Launch Edition - PlayStation 4  =>  2485 Anonymous;Code [title]",
+   "Planescape Torment and Icewind Enhanced Edition - PlayStation 4  =>  2228 Planescape: Torment: Enhanced Edition [title]",
+   "The Walking Dead - A Telltale Series - The Final Season - PlayStation 4  =>  1308 The Walking Dead: The Telltale Series - The Final Season [title]",
+   "Vampire the Masquerade Coteries and Shadows of New York - PlayStation 4  =>  1778 Vampire: The Masquerade - Coteries of New York [title]",
+   "Among Us: Crewmate Edition - PlayStation 4  =>  2079 Among Us [title]",
+   "Ancestors Legacy - PlayStation 4 GameStop Exclusive  =>  73 Ancestors Legacy [title]",
+   "Ary and the Secret of the Seasons - PlayStation 4  =>  2492 Ary and the Secret of Seasons [title]",
+   "Tetris Effect Connected - PlayStation 4  =>  1213 Tetris Effect [title]",
+   "Dariusburst: Another Chronicle EX Plus - PlayStation 4  =>  2561 Dariusburst: Another Chronicle EX+ [title]",
+   "Among the Sleep Enhanced Edition - PlayStation 4  =>  72 Among the Sleep [title]",
+   "UglyDolls Imperfect Adventure - PlayStation 4  =>  1772 UglyDolls: An Imperfect Adventure [title]",
+   "The Caligula Effect 2 - PlayStation 4  =>  1535 Caligula Effect 2 [title]",
+   "Hellmut: Badass from Hell - PlayStation 4 GameStop Exclusive  =>  581 Hellmut: The Badass from Hell [title]",
+   "Beyond A Steel Sky: Beyond A SteelBook Edition - PlayStation 4  =>  2517 Beyond A Steel Sky [title]",
+   "Metal Max Xeno Reborn - PlayStation 4  =>  768 Metal Max Xeno [title]",
+   "House Flipper: Pets Edition - PlayStation 4  =>  604 House Flipper [title]",
+   "This is the Police II - PlayStation 4  =>  1321 This is the Police 2 [title]",
+   "Black Desert Prestige Edition - PlayStation 4  =>  168 Black Desert [title]",
+   "The Bard's Tale IV: Director's Cut - Xbox One  =>  1220 The Bard's Tale IV: Director's Cut [title]",
+   "Max: The Curse of the Brotherhood - PlayStation 4  =>  749 Max: The Curse of Brotherhood [title]",
+   "The Smurfs: Mission Vileaf Smurftastic Edition - PlayStation 4  =>  2999 The Smurfs: Mission Vileaf [title]",
+   "Fallen Legion Revenants: Vanguard Edition - PlayStation 4  =>  2580 Fallen Legion Revenants [title]",
+   "The Cruel King and the Great Hero Storybook Edition  - PlayStation 4  =>  3000 The Cruel King and the Great Hero [title]",
+   "BELOW Steelbook Edition - PlayStation 4  =>  155 Below [title]",
+   "Agatha Christie: The ABC Murders - PlayStation 4  =>  46 Agatha Christie's The ABC Murders [alias]",
+   "Constructor - PlayStation 4 GameStop Exclusive  =>  264 Constructor [title]",
+   "Infinite Air with Mark McMorris - PlayStation 4  =>  743 Mark McMorris Infinite Air [title]",
+   "The DioField Chronicle - PlayStation 4  =>  1536 DioField Chronicle [title]",
+   "The Ascent - PlayStation 4  =>  1534 Ascent [title]",
+   "UNBOX: Newbie's Adventure - PlayStation 4 GameStop Exclusive  =>  1378 Unbox: Newbie's Adventure [title]",
+   "Death end re - PlayStation 4  =>  337 Death end re;Quest [title]",
+   "SpellForce 3 Reforced - PlayStation 4  =>  1117 SpellForce III: Reforced [title]",
+   "Phoenix Point: Behemoth Edition - PlayStation 4  =>  3031 Phoenix Point [title]",
+   "Grand Kingdom Launch Day Edition - PlayStation 4  =>  546 Grand Kingdom [title]",
+   "Elite Dangerous Legendary Edition - PlayStation 4  =>  436 Elite: Dangerous [title]",
+   "SpongeBob SquarePants - A Patrick Star Game - PlayStation 4  =>  3035 SpongeBob SquarePants: The Patrick Star Game [title]",
+   "American Ninja Warrior - PlayStation 4  =>  2078 American Ninja Warrior Challenge [title]",
+   "1971 Project Helios - PlayStation 4 GameStop Exclusive  =>  6 1971 Project Helios [title]",
+   "World of Warships: Legends Firepower Deluxe Edition - PlayStation 4  =>  1450 World of Warships: Legends [title]",
+   "Kingdom Come: Deliverance Royal Edition - PlayStation 4  =>  665 Kingdom Come: Deliverance [title]",
+   "The Legend of Heroes: Trails from Zero - PlayStation 4  =>  2648 Legend Of Heroes: Trails From Zero [title]",
+   "Mutant Football League Dynasty Edition - PlayStation 4  =>  806 Mutant Football League [title]",
+   "Project Highrise Architect Edition - PlayStation 4  =>  934 Project Highrise: Architect's Edition [alias]",
+   "DreamWorks Gabby's Dollhouse: Ready to Party - PlayStation 4  =>  2806 Gabby's Dollhouse: Ready to Party [title]",
+   "The Grinch: Christmas Adventures: Holiday Edition - PlayStation 4  =>  2804 The Grinch: Christmas Adventures [title]",
+   "TT Isle of Man: Ride on the Edge 3 - PlayStation 4  =>  1771 TT Isle of Man: Ride On The Edge [title]",
+   "Shadow Warrior Collection - PlayStation 4  =>  1059 Shadow Warrior [title]",
+   "The 25th Ward: Silver Case - PlayStation 4  =>  1214 The 25th Ward: The Silver Case [title]",
+   "Void Terrarium - PlayStation 4  =>  2757 Void Terrarium 2 [title]",
+   "Caligula Effect: Overdose - PlayStation 4  =>  1226 The Caligula Effect: Overdose [title]",
+   "Touhou Genso Wanderer Reloaded - PlayStation 4  =>  1343 Touhou Genso Wanderer [title]",
+   "The Wild at Heart - PlayStation 4  =>  1538 Wild at Heart [title]"
+  ],
+  "excluded": [
+   "The LEGO Marvel Collection - PlayStation 4  =>  705 LEGO Marvel Collection [title]",
+   "Heavy Rain and BEYOND: Two Souls - PlayStation 4  =>  578 Heavy Rain & Beyond: Two Souls Collection [title]",
+   "Pac-Man Championship Edition 2 and Arcade Game Series - PlayStation 4  =>  891 Pac-Man Championship Edition 2 + Arcade Game Series [title]",
+   "Mega Man X Legacy Collection 1 and 2 - PlayStation 4  =>  756 Mega Man X Legacy Collection 1 + 2 [title]",
+   "Dark Pictures: Man of Medan - PlayStation 4  =>  1236 The Dark Pictures - Man of Medan [title]",
+   "The Sims 4 Plus Island Living Bundle - PlayStation 4  =>  1293 The Sims 4: Island Living [title]",
+   "Dying Light: The Following Enhanced Edition - PlayStation 4  =>  421 Dying Light: The Following [title]",
+   "Bayonetta and Vanquish 10th Anniversary Bundle - PlayStation 4  =>  150 Bayonetta & Vanquish [title]",
+   "Guilty Gear Strive - PlayStation 4  =>  560 Guilty Gear [title]",
+   "Mortal Kombat 11: Aftermath Kollection - PlayStation 4  =>  796 Mortal Kombat 11: Aftermath [title]",
+   "The Sexy Brutale: Full House Edition - PlayStation 4 GameStop Exclusive  =>  1722 Sexy Brutale: Full House Edition [title]",
+   "Rocket Arena Mythic Edition - PlayStation 4  =>  1012 Rocket Arena [title]",
+   "Banner Saga Trilogy Bonus Edition - PlayStation 4  =>  1219 The Banner Saga Trilogy: Bonus Edition [title]",
+   "The Walking Dead: A Telltale Series Collection - PlayStation 4  =>  1306 The Walking Dead: The Telltale Definitive Series [title]",
+   "Overcooked! and Overcooked! 2 - PlayStation 4  =>  1688 Overcooked! + Overcooked! 2 [title]",
+   "Wonder Boy: Asha in Monster World - PlayStation 4  =>  2212 Wonder Boy in Monster World [title]",
+   "Commandos 2 and Praetorians HD Remaster Double Pack - PlayStation 4  =>  257 Commandos 2 / Praetorians HD Remaster Double Pack [title]",
+   "The Unicorn Princess - PlayStation 4  =>  2749 Unicorn Princess [title]",
+   "Cat Quest and Cat Quest II: The Pawsome Pack - PlayStation 4  =>  235 Cat Quest + Cat Quest II: Pawsome Pack [title]",
+   "The Escapists and The Escapists 2 - PlayStation 4  =>  1752 The Escapists / The Escapists 2 [title]",
+   "Cities: Skylines Parklife Edition - PlayStation 4 GameStop Exclusive  =>  247 Cities: Skylines - Parklife [title]"
+  ],
+  "product": [
+   "GALAK-Z: The Void and Skulls of the Shogun: Bone-A-Fide Edition Platinum Pack - PlayStation 4  =>  1625+1731 GALAK-Z: The Void & Skulls of the Shogun: Bone-A-Fide [product]"
+  ],
+  "research": [
+   "Hunting Simulator - PlayStation 4  =>  research 2838 Hunting Simulator 2 (UNCERTAIN_NEEDS_REVIEW)",
+   "Farming Simulator 19 Platinum Edition - PlayStation 4  =>  research 2864 Farming Simulator 19 (UNCERTAIN_NEEDS_REVIEW)",
+   "Crash Team Rumble: Deluxe Cross Gen Edition - Playstation 4  =>  research 2868 Crash Team Rumble (UNCERTAIN_NEEDS_REVIEW)",
+   "Grid Legends - PlayStation 5  =>  research 2890 Grid Legends (UNCERTAIN_NEEDS_REVIEW)"
+  ]
+ },
+ "unresolved": [
+  {
+   "listing": "Mass Effect Legendary Edition - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "748 Mass Effect: Andromeda (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Hunter: Call of the Wild - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1316 theHunter: Call of the Wild (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Grand Theft Auto: Trilogy - The Definitive Edition - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "547 Grand Theft Auto V (INCLUDED, similarity 0.60)"
+  },
+  {
+   "listing": "Red Dead Redemption (with Undead Nightmare DLC) - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "1804 Red Dead Redemption (INCLUDED, similarity 0.43)"
+  },
+  {
+   "listing": "Kingdom Hearts 1.5 and 2.5 Remix - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "667 Kingdom Hearts HD I.5 + II.5 Remix (INCLUDED, similarity 0.71)"
+  },
+  {
+   "listing": "Minecraft Starter Collection - PlayStation 4",
+   "reason": "COMPILATION_NEEDS_PRODUCT_MAPPING",
+   "nearestCensus": "782 Minecraft: PlayStation 4 Edition (INCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "Minecraft: Story Mode Season Two Season Pass Disc (Chapter One Only) - PlayStation 4",
+   "reason": "NOT_A_STANDALONE_PS4_GAME_LISTING",
+   "nearestCensus": "1671 Minecraft: Story Mode - Season Two: The Telltale Series (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Star Wars Jedi Knight Collection - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1134 Star Wars Jedi Knight: Jedi Academy (INCLUDED, similarity 0.67)"
+  },
+  {
+   "listing": "Baldur's Gate 1 and 2 Enhanced Edition - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "129 Baldur's Gate and Baldur's Gate II: Enhanced Editions (INCLUDED, similarity 0.67)"
+  },
+  {
+   "listing": "WWE 2K Battlegrounds - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "919 PlayerUnknown's Battlegrounds (INCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "Prototype: Biohazard Bundle - PlayStation 4 GameStop Exclusive",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1697 Prototype (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Inside and Limbo 2 Pack - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "630 INSIDE / LIMBO Double Pack (EXCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Minecraft: Story Mode Season Pass Disc (Chapter One Only) - PlayStation 4",
+   "reason": "NOT_A_STANDALONE_PS4_GAME_LISTING",
+   "nearestCensus": "1671 Minecraft: Story Mode - Season Two: The Telltale Series (INCLUDED, similarity 0.40)"
+  },
+  {
+   "listing": "Diablo III: Reaper of Souls Ultimate Evil Edition - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "364 Diablo III: Ultimate Evil Edition (INCLUDED, similarity 0.60)"
+  },
+  {
+   "listing": "Sonic Origins Plus - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1108 Sonic Mania Plus (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Ghost of Tsushima Director's Cut - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "527 Ghost of Tsushima (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "HITMAN: The Complete First Season SteelBook Edition - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "589 Hitman (INCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "Marvel vs. Capcom Fighting Collection: Arcade Classics - PlayStation 4",
+   "reason": "COMPILATION_NEEDS_PRODUCT_MAPPING",
+   "nearestCensus": "86 Arcade Classics Anniversary Collection (INCLUDED, similarity 0.43)"
+  },
+  {
+   "listing": "Pure Pool - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "922 Pool Nation (INCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "Capcom Fighting Collection 2 - PlayStation 4",
+   "reason": "COMPILATION_NEEDS_PRODUCT_MAPPING",
+   "nearestCensus": "1461 XCOM 2 Collection (EXCLUDED, similarity 0.40)"
+  },
+  {
+   "listing": "Wolfenstein Collection - PlayStation 4",
+   "reason": "COMPILATION_NEEDS_PRODUCT_MAPPING",
+   "nearestCensus": "71 Amnesia Collection (EXCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "Rust - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "2832 Rust: Console Edition (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Five Nights at Freddy's: Core Collection - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "2814 Five Nights at Freddy's: Security Breach (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Helldivers Super-Earth Ultimate Edition - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "1636 Helldivers (INCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "Halloween and Ash vs Evil Dead RetroRealms Double Feature - PlayStation 4",
+   "reason": "COMPILATION_NEEDS_PRODUCT_MAPPING",
+   "nearestCensus": "2604 Hentai Vs. Evil (INCLUDED, similarity 0.22)"
+  },
+  {
+   "listing": "Capcom Fighting Collection - PlayStation 4",
+   "reason": "COMPILATION_NEEDS_PRODUCT_MAPPING",
+   "nearestCensus": "71 Amnesia Collection (EXCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "FINAL FANTASY I-VI COLLECTION ANNIVERSARY EDITION - PlayStation 4",
+   "reason": "COMPILATION_NEEDS_PRODUCT_MAPPING",
+   "nearestCensus": "479 Final Fantasy VII (EXCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "The Walking Dead The Complete First Season - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1303 The Walking Dead: A Telltale Games Series - The Complete First Season (INCLUDED, similarity 0.57)"
+  },
+  {
+   "listing": "Disney Dreamlight Valley Cozy Edition - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "1140 Stardew Valley (INCLUDED, similarity 0.20)"
+  },
+  {
+   "listing": "UFO Robot Grendizer: The Feast of the Wolves - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "2361 UFO Robot Grendizer (INCLUDED, similarity 0.60)"
+  },
+  {
+   "listing": "Minecraft: PlayStation 4 Edition - Favorites Pack",
+   "reason": "NOT_A_STANDALONE_PS4_GAME_LISTING",
+   "nearestCensus": "782 Minecraft: PlayStation 4 Edition (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Skull Island: Rise of Kong - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "2218 Dead Island Definitive Edition (INCLUDED, similarity 0.20)"
+  },
+  {
+   "listing": "AEW: Fight Forever - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "568 Halloween Forever (INCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "Teenage Mutant Ninja Turtles: The Cowabunga Collection - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1744 Teenage Mutant Ninja Turtles: Splintered Fate - Deluxe Edition (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Sony DualShock 4 Wireless Controller for PlayStation 4 - Battlefront",
+   "reason": "NOT_A_STANDALONE_PS4_GAME_LISTING",
+   "nearestCensus": "500 For Honor (INCLUDED, similarity 0.14)"
+  },
+  {
+   "listing": "Snoopy's Grand Adventure - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1759 The Peanuts Movie: Snoopy's Grand Adventure (INCLUDED, similarity 0.60)"
+  },
+  {
+   "listing": "EA SPORTS Rory McIlroy PGA Tour - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "2084 Rory McIlroy PGA Tour (INCLUDED, similarity 0.67)"
+  },
+  {
+   "listing": "Senran Kagura Estival Versus - Endless Summer Edition - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1050 Senran Kagura: Estival Versus (INCLUDED, similarity 0.67)"
+  },
+  {
+   "listing": "Persona: Endless Night Collection - PlayStation 4",
+   "reason": "COMPILATION_NEEDS_PRODUCT_MAPPING",
+   "nearestCensus": "71 Amnesia Collection (EXCLUDED, similarity 0.20)"
+  },
+  {
+   "listing": "Marvel Pinball: Epic Collection Volume 1 - PlayStation 4",
+   "reason": "COMPILATION_NEEDS_PRODUCT_MAPPING",
+   "nearestCensus": "2243 Irem Collection Volume 1 (INCLUDED, similarity 0.43)"
+  },
+  {
+   "listing": "Super Mega Baseball 4 - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "1041 Scribblenauts Mega Pack (EXCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "Tomb Raider I-III Remastered Starring Lara Croft - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "2196 Tomb Raider III: Adventures of Lara Croft (INCLUDED, similarity 0.63)"
+  },
+  {
+   "listing": "Tom Clancy's Rainbow Six: Extraction - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "2709 Rainbow Six: Extraction (INCLUDED, similarity 0.60)"
+  },
+  {
+   "listing": "NASCAR Arcade Rush - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "87 Arcade Spirits (INCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "School Girl/Zombie Hunter - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1053 SG/ZH: School Girl Zombie Hunter (INCLUDED, similarity 0.67)"
+  },
+  {
+   "listing": "Job Simulator - PlayStation 4",
+   "reason": "PSVR_OR_HORSE_RULE_CHECK",
+   "nearestCensus": "153 Bee Simulator (INCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "Tomb Raider IV-VI Remastered Starring Lara Croft - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1806 Tomb Raider IV-VI Remastered (EXCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Batman: The Enemy Within - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "135 Batman: The Enemy Within - The Telltale Series (INCLUDED, similarity 0.60)"
+  },
+  {
+   "listing": "The Walking Dead: Season Two - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1305 The Walking Dead: Season Two - A Telltale Games Series (INCLUDED, similarity 0.57)"
+  },
+  {
+   "listing": "NBA BOUNCE - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": null
+  },
+  {
+   "listing": "Overwatch Origins Edition - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "888 Overwatch (EXCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Hasbro Family Fun Pack - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "789 Monopoly: Family Fun Pack (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Saints Row Criminal Custom Edition GameStop Exclusive - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "2270 Saints Row (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Disney Infinity 3.0 Edition (Game Only) - PlayStation 4",
+   "reason": "NOT_A_STANDALONE_PS4_GAME_LISTING",
+   "nearestCensus": "197 Borderlands 3 (INCLUDED, similarity 0.20)"
+  },
+  {
+   "listing": "Disney Classic Games Collection - PlayStation 4",
+   "reason": "COMPILATION_NEEDS_PRODUCT_MAPPING",
+   "nearestCensus": "376 Disney Classic Games: Aladdin and the Lion King (INCLUDED, similarity 0.43)"
+  },
+  {
+   "listing": "Crysis Remastered Trilogy - PlayStation 4",
+   "reason": "COMPILATION_NEEDS_PRODUCT_MAPPING",
+   "nearestCensus": "201 Braveland Trilogy (INCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "Senran Kagura Peach Beach Splash - No Shirt, No Shoes, All Service Edition - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1051 Senran Kagura: Peach Beach Splash (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Atari Flashback Classics Volume 2 - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "111 Atari Flashback Classics: Volume 1 (INCLUDED, similarity 0.67)"
+  },
+  {
+   "listing": "Rick and Morty Virtual Rick-ality - PlayStation 4",
+   "reason": "PSVR_OR_HORSE_RULE_CHECK",
+   "nearestCensus": "2662 Neptunia Virtual Stars (INCLUDED, similarity 0.17)"
+  },
+  {
+   "listing": "TopSpin 2K25 - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": null
+  },
+  {
+   "listing": "Formula 1 2016 - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "143 Battlefield 1 (INCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "West of Dead (Limited Run Games) - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1545 West of Dead (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Chef Life: A Restaurant Simulator - Al Forno Edition - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "2550 Chef Life: A Restaurant Simulator (INCLUDED, similarity 0.67)"
+  },
+  {
+   "listing": "Dishonored and Prey: The Arkane Collection (Dishonored 2 and Prey only) - PlayStation 4",
+   "reason": "COMPILATION_NEEDS_PRODUCT_MAPPING",
+   "nearestCensus": "374 Dishonored 2 (INCLUDED, similarity 0.40)"
+  },
+  {
+   "listing": "KEMCO RPG Selection Vol. 2 - PlayStation 4",
+   "reason": "COMPILATION_NEEDS_PRODUCT_MAPPING",
+   "nearestCensus": "2263 Turrican Anthology Vol. 2 (INCLUDED, similarity 0.29)"
+  },
+  {
+   "listing": "8 to Glory - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "13 8 to Glory: The Official Game of the PBR (INCLUDED, similarity 0.60)"
+  },
+  {
+   "listing": "Nickelodon Kart Racers 3: Slime Speedway - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "839 Nickelodeon Kart Racers (INCLUDED, similarity 0.29)"
+  },
+  {
+   "listing": "Overcooked! All You Can Eat - PlayStation 4",
+   "reason": "COMPILATION_NEEDS_PRODUCT_MAPPING",
+   "nearestCensus": "2227 Overcooked! (INCLUDED, similarity 0.20)"
+  },
+  {
+   "listing": "The Sims 4 With Cats and Dogs DLC Expansion Pack Bundle - PlayStation 4",
+   "reason": "NOT_A_STANDALONE_PS4_GAME_LISTING",
+   "nearestCensus": "1292 The Sims 4: Cats & Dogs (EXCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Little League World Series Baseball - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "1186 Surf World Series (INCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "SINce Memories: Off the Starry Sky - Nintendo Switch",
+   "reason": "NOT_A_STANDALONE_PS4_GAME_LISTING",
+   "nearestCensus": "2712 SINce Memories: Off The Starry Sky (INCLUDED, similarity 0.71)"
+  },
+  {
+   "listing": "World of Simulators - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "957 Rain World (INCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "MXGP 3: The Official Motocross Videogame - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "197 Borderlands 3 (INCLUDED, similarity 0.17)"
+  },
+  {
+   "listing": "Mega Man Battle Network Legacy Collection - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "753 Mega Man Legacy Collection (INCLUDED, similarity 0.67)"
+  },
+  {
+   "listing": "Monopoly Plus and Monopoly Madness - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1675 Monopoly Plus (INCLUDED, similarity 0.67)"
+  },
+  {
+   "listing": "Big Buck Hunter Arcade - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "87 Arcade Spirits (INCLUDED, similarity 0.20)"
+  },
+  {
+   "listing": "Tennis World Tour Roland-Garros Edition - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "415 Duke Nukem 3D: 20th Anniversary World Tour (INCLUDED, similarity 0.22)"
+  },
+  {
+   "listing": "Life is Strange: True Colors - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "717 Life is Strange (INCLUDED, similarity 0.60)"
+  },
+  {
+   "listing": "Atari Flashback Classics Vol 3 - PlayStation 4",
+   "reason": "COMPILATION_NEEDS_PRODUCT_MAPPING",
+   "nearestCensus": "111 Atari Flashback Classics: Volume 1 (INCLUDED, similarity 0.43)"
+  },
+  {
+   "listing": "The Walking Dead Onslaught - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "1304 The Walking Dead: Saints & Sinners (EXCLUDED, similarity 0.40)"
+  },
+  {
+   "listing": "MXGP Pro - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "409 Dragon's Crown Pro (INCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "The Quest for Excalibur: Puy Du Fou - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "1581 Bluey's Quest for the Gold Pen (INCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "Road Redemption - Nintendo Switch",
+   "reason": "NOT_A_STANDALONE_PS4_GAME_LISTING",
+   "nearestCensus": "1006 Road Redemption (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Streets of Red (Limited Run Games) - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1999 Streets of Red (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Werewolf The Apocalypse: Heart of the Forest - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "2874 Werewolf: The Apocalypse Earthblood (INCLUDED, similarity 0.40)"
+  },
+  {
+   "listing": "World Quiz - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "957 Rain World (INCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "Clash: Artifact of Chaos - Zeno Edition - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "2556 Clash: Artifacts of Chaos (INCLUDED, similarity 0.40)"
+  },
+  {
+   "listing": "My Universe: Fashion Boutique - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "811 My Friend Pedro (INCLUDED, similarity 0.17)"
+  },
+  {
+   "listing": "Tchia: Oleti Edition - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "2940 Tchia (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Inescapable - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "2611 Inescapable: No Rules, No Rescue (INCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "Steven Universe: Save the Light and OK K.O.! Let's Play Heroes Combo - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1150 Steven Universe: Save the Light / OK K.O.! Let's Play Heroes 2 Games in 1 (EXCLUDED, similarity 0.67)"
+  },
+  {
+   "listing": "ROBOTICS - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "1009 Robotics;Notes Double Pack (EXCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "RBI Baseball 20 - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "997 Rise of the Tomb Raider: 20 Year Celebration (INCLUDED, similarity 0.14)"
+  },
+  {
+   "listing": "Pathfinder: Wrath of the Righteousness - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "2690 Pathfinder: Wrath of the Righteous (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Pro Evolution Soccer 2019 - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "58 Airport Simulator 2019 (EXCLUDED, similarity 0.17)"
+  },
+  {
+   "listing": "Super Monkey Ball: Banana Mania - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1180 Super Monkey Ball: Banana Blitz HD (INCLUDED, similarity 0.67)"
+  },
+  {
+   "listing": "Hasbro Family Fun Pack Conquest Edition - PlayStation 4",
+   "reason": "COMPILATION_NEEDS_PRODUCT_MAPPING",
+   "nearestCensus": "789 Monopoly: Family Fun Pack (INCLUDED, similarity 0.40)"
+  },
+  {
+   "listing": "R.B.I. Baseball 21 - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "2237 R-Type Tactics I-II Cosmos (REVIEW, similarity 0.22)"
+  },
+  {
+   "listing": "Doug Flutie Maximum Football 2019 - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "58 Airport Simulator 2019 (EXCLUDED, similarity 0.14)"
+  },
+  {
+   "listing": "My Universe: Puppies and Kittens - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "811 My Friend Pedro (INCLUDED, similarity 0.17)"
+  },
+  {
+   "listing": "Nexomon Plus Nexomon Extinction Complete Collection - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "836 Nexomon: Extinction (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "My Universe My Baby - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "811 My Friend Pedro (INCLUDED, similarity 0.20)"
+  },
+  {
+   "listing": "WWI: Verdun - Western Front - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "1781 Verdun (INCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "MXGP 14 - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": null
+  },
+  {
+   "listing": "Fishing Sim World - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1350 Train Sim World (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "DEEEER Simulator: Your Average Everyday Deer Game - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "1599 Deeeer Simulator (INCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "MXGP 2 - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "43 AeternoBlade II (INCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "My Universe: Cooking Star Restaurant - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "2251 Star Renegades (INCLUDED, similarity 0.17)"
+  },
+  {
+   "listing": "Tokyo 2020 Olympic Games - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "1333 Tokyo Chronos (INCLUDED, similarity 0.20)"
+  },
+  {
+   "listing": "RBI Baseball 19 - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": null
+  },
+  {
+   "listing": "Santa's Xmas Adventure - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "2161 Castlevania: The Adventure (EXCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "F1 Manager 2022 - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "2386 Idol Manager (INCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "Demon Gaze II - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1861 Demon Gaze Extra (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "RBI Baseball 18 - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "290 Dakar 18 (INCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "Cry Babies Magic Tears: The Big Game - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "161 Big Pharma (INCLUDED, similarity 0.17)"
+  },
+  {
+   "listing": "WRC Generations - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": null
+  },
+  {
+   "listing": "My Universe: School Teacher - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "811 My Friend Pedro (INCLUDED, similarity 0.17)"
+  },
+  {
+   "listing": "Tokyo Twilight Ghost Hunters Daybreak Special Gigs World Tour - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1765 Tokyo Twilight Ghost Hunters: Daybreak Special Gigs (EXCLUDED, similarity 0.75)"
+  },
+  {
+   "listing": "Overcooked! Gourmet Edition - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "2227 Overcooked! (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Pickleball:  Smash - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "1093 Smash Hit Plunder (EXCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "Shadows of Adam (Limited Run Games) - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1827 Shadows of Adam (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Zero Escape: Zero Time Dilemma - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "2368 Zero Time Dilemma (INCLUDED, similarity 0.75)"
+  },
+  {
+   "listing": "Doctor Who: The Edge of Reality and The Lonely Assassins - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "382 Doctor Who: The Edge Of Time (EXCLUDED, similarity 0.43)"
+  },
+  {
+   "listing": "The Sims 4 Plus Eco Lifestyle Bundle - PlayStation 4",
+   "reason": "COMPILATION_NEEDS_PRODUCT_MAPPING",
+   "nearestCensus": "1291 The Sims 4 (INCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "Cross Code - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "253 Code Vein (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Cotton Fantasy: Superlative Night Dreams - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "2250 Cotton Fantasy (INCLUDED, similarity 0.40)"
+  },
+  {
+   "listing": "My Universe: Doctors and Nurses - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "811 My Friend Pedro (INCLUDED, similarity 0.17)"
+  },
+  {
+   "listing": "Maneater APEX Edition - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "742 Maneater (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Azur Lane: Crosswave (Limited Run Games) - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "126 Azur Lane: Crosswave (INCLUDED, similarity 0.60)"
+  },
+  {
+   "listing": "Worms Rumble: Fully Loaded Edition - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "1454 Worms Anniversary Edition (EXCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "Ghost Giant - PlayStation 4",
+   "reason": "PSVR_OR_HORSE_RULE_CHECK",
+   "nearestCensus": "526 Ghost Blade HD (INCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "My Universe: Pet Clinic Cats and Dogs - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "1292 The Sims 4: Cats & Dogs (EXCLUDED, similarity 0.29)"
+  },
+  {
+   "listing": "Windstorm: Start of a Great Friendship - PlayStation 4",
+   "reason": "PSVR_OR_HORSE_RULE_CHECK",
+   "nearestCensus": "2440 Windstorm (EXCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "Worms Battleground and Worms WMD - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "1454 Worms Anniversary Edition (EXCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "Golem - PlayStation 4",
+   "reason": "PSVR_OR_HORSE_RULE_CHECK",
+   "nearestCensus": null
+  },
+  {
+   "listing": "Worms W.M.D. All Stars - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1456 Worms W.M.D (INCLUDED, similarity 0.67)"
+  },
+  {
+   "listing": "RBI Baseball 2017 - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "1620 Forestry 2017: The Simulation (INCLUDED, similarity 0.20)"
+  },
+  {
+   "listing": "Senran Kagura Burst Re:Newal Tailer Made Edition - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1049 Senran Kagura Burst Re:Newal (INCLUDED, similarity 0.71)"
+  },
+  {
+   "listing": "Spike Volleyball - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": null
+  },
+  {
+   "listing": "Baldo: The Guardian Owls - Three Fairies Edition - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "2510 Baldo: The Guardian Owls (INCLUDED, similarity 0.60)"
+  },
+  {
+   "listing": "The Outbound Ghost - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "526 Ghost Blade HD (INCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "Tour de France 2022 - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "319 De Blob (INCLUDED, similarity 0.20)"
+  },
+  {
+   "listing": "Human: Fall Flat - Dream Collection - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "607 Human: Fall Flat (INCLUDED, similarity 0.60)"
+  },
+  {
+   "listing": "Where Water Tastes Like Wine (Limited Run Games) - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1432 Where the Water Tastes Like Wine (INCLUDED, similarity 0.71)"
+  },
+  {
+   "listing": "Disgaea 4 Complete Plus - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "372 Disgaea 4 Complete+ (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "AO Tennis 2 - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "43 AeternoBlade II (INCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "Mars Odyssey - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "1188 Surviving Mars (INCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "Giraffe and Annika Musical Mayhem Edition - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "535 Giraffe and Annika (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Ninja Kidz Through Time - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "1638 Hidden Through Time (INCLUDED, similarity 0.40)"
+  },
+  {
+   "listing": "Pro Evolution Soccer 2017 - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "409 Dragon's Crown Pro (INCLUDED, similarity 0.17)"
+  },
+  {
+   "listing": "Rugby 18 - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "290 Dakar 18 (INCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "MXGP 2019 - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "58 Airport Simulator 2019 (EXCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "Paleo Pines - Playstation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "2684 Paleo Pines: The Dino Valley (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "OffRoad Racing - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "2669 Offroad Racing - Buggy x ATV x Moto (INCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "Tour de France Season 2019 - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "2935 The Golf Club 2019 Featuring PGA Tour (INCLUDED, similarity 0.22)"
+  },
+  {
+   "listing": "Train Valley Collection - PlayStation 4",
+   "reason": "COMPILATION_NEEDS_PRODUCT_MAPPING",
+   "nearestCensus": "24 A-Train Express (INCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "Cotton Reboot: Fantastic Night Dreams - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "2261 Cotton REBOOT! (INCLUDED, similarity 0.40)"
+  },
+  {
+   "listing": "Doki Doki Literature Club Plus! Premium Edition - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "1675 Monopoly Plus (INCLUDED, similarity 0.20)"
+  },
+  {
+   "listing": "Crazy Chicken Xtreme - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "194 Bomb Chicken (INCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "Embr - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "2573 Embr: Uber Firefighters (INCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "Anima: Gate of Memories - Beyond Fantasy Edition - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "75 Anima: Gate of Memories (INCLUDED, similarity 0.60)"
+  },
+  {
+   "listing": "Touhou Double Focus - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "394 Double Dragon IV (INCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "Tennis World Tour - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "415 Duke Nukem 3D: 20th Anniversary World Tour (INCLUDED, similarity 0.29)"
+  },
+  {
+   "listing": "Doug Flutie Maximum Football 2020 - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "806 Mutant Football League (INCLUDED, similarity 0.14)"
+  },
+  {
+   "listing": "Tennis World Tour 2 - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "953 Raid: World War II (INCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "XIII - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1465 XIII (Remake) (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "WWI: Tannenberg - Eastern Front - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "1743 Tannenberg (INCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "Dark Thrones and Witch Hunter Double Pack - PlayStation 4",
+   "reason": "COMPILATION_NEEDS_PRODUCT_MAPPING",
+   "nearestCensus": "175 Blair Witch (INCLUDED, similarity 0.17)"
+  },
+  {
+   "listing": "Dark Souls III: The Fire Fades Edition - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "303 Dark Souls III (INCLUDED, similarity 0.60)"
+  },
+  {
+   "listing": "Disney Infinity 2.0 Edition (Game Only) - PlayStation 4",
+   "reason": "NOT_A_STANDALONE_PS4_GAME_LISTING",
+   "nearestCensus": "43 AeternoBlade II (INCLUDED, similarity 0.20)"
+  },
+  {
+   "listing": "Tails of Iron Crimson Knight Edition - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "2730 Tails of Iron (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "The Walking Dead: Saints and Sinners - Chapter 2: Retribution - Payback Edition - PlayStation 4",
+   "reason": "PSVR_OR_HORSE_RULE_CHECK",
+   "nearestCensus": "1304 The Walking Dead: Saints & Sinners (EXCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Coffee Talk Single Shot Edition - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "256 Coffee Talk (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Psikyo Shooting Library Vol. 1 - PlayStation 4",
+   "reason": "COMPILATION_NEEDS_PRODUCT_MAPPING",
+   "nearestCensus": "2262 Turrican Anthology Vol. 1 (INCLUDED, similarity 0.29)"
+  },
+  {
+   "listing": "Psikyo Shooting Library Vol. 2 - PlayStation 4",
+   "reason": "COMPILATION_NEEDS_PRODUCT_MAPPING",
+   "nearestCensus": "2263 Turrican Anthology Vol. 2 (INCLUDED, similarity 0.29)"
+  },
+  {
+   "listing": "Rifftrax: The Game - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": null
+  },
+  {
+   "listing": "Coffee Talk Episode 2: Hibiscus and Butterfly Single Shot Edition - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "3059 Coffee Talk Episode 2: Hibiscus & Butterfly (INCLUDED, similarity 0.75)"
+  },
+  {
+   "listing": "Castlevania Requiem (Limited Run Games) - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "1587 Castlevania Requiem: Symphony of the Night & Rondo of Blood (INCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "HUNT Showdown Limited Bounty Hunter Edition - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "608 Hunt: Showdown (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "The Hunter: Call of the Wild 2019 Edition - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "1316 theHunter: Call of the Wild (INCLUDED, similarity 0.40)"
+  },
+  {
+   "listing": "Panzer Dragoon (Limited Run Games) - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "1817 Panzer Dragoon: Remake (INCLUDED, similarity 0.40)"
+  },
+  {
+   "listing": "Bit Trip Runner 2 - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1223 The Bit.Trip (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Oddworld: New N' Tasty - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1685 Oddworld: Abe's Oddysee - New 'n' Tasty (INCLUDED, similarity 0.67)"
+  },
+  {
+   "listing": "N Plus Plus - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1676 N++ (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "STRAFE: Exclusive Variant - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1153 STRAFE (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Futuridium - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1624 Futuridium EP Deluxe (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "Sleath Inc. Ultimate Edition - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "2758 Vostok Inc (INCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "Rock Boshers DX - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1011 Rock Boshers DX: Director's Cut (INCLUDED, similarity 0.60)"
+  },
+  {
+   "listing": "Star Wars: Republic Commando (Limited Run Games) - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1998 Star Wars: Republic Commando (INCLUDED, similarity 0.67)"
+  },
+  {
+   "listing": "Professor Rubik's Brain Fitness - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": null
+  },
+  {
+   "listing": "Firefighting Simulator - The Squad - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "153 Bee Simulator (INCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "Wind Jammers - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "1251 The Inner World: The Last Wind Monk (INCLUDED, similarity 0.17)"
+  },
+  {
+   "listing": "Postal 4: No Regerts - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "2009 Postal REDUX (INCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "Kandagawa Jet Girls: Racing Hearts Edition - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "655 Kandagawa Jet Girls (INCLUDED, similarity 0.60)"
+  },
+  {
+   "listing": "R-Type Final 2 Inaugural Flight Edition - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "2697 R-Type Final 2 (INCLUDED, similarity 0.67)"
+  },
+  {
+   "listing": "The Wizards Enhanced Edition - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "968 Redeemer: Enhanced Edition (INCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "F1 Manager 2023 - PlayStation 4",
+   "reason": "ANNUAL_OR_SERIALIZED_SPORTS_RULE",
+   "nearestCensus": "2386 Idol Manager (INCLUDED, similarity 0.25)"
+  },
+  {
+   "listing": "Tiny Troopers: Global Ops - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1327 Tiny Troopers: Joint Ops (INCLUDED, similarity 0.60)"
+  },
+  {
+   "listing": "Prince of Persia: The Sands of Time Remake - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "2783 Prince of Persia: The Lost Crown (INCLUDED, similarity 0.29)"
+  },
+  {
+   "listing": "Pixel Gear - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "560 Guilty Gear (EXCLUDED, similarity 0.33)"
+  },
+  {
+   "listing": "Accounting Plus (Limited Run Games) - PlayStation 4",
+   "reason": "NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH",
+   "nearestCensus": "1675 Monopoly Plus (INCLUDED, similarity 0.20)"
+  },
+  {
+   "listing": "Lone Survivor - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "1662 Lone Survivor: The Director's Cut (INCLUDED, similarity 0.50)"
+  },
+  {
+   "listing": "MADiSON: The Possessed Edition - PlayStation 4",
+   "reason": "LIKELY_NAME_VARIANT_OF_EXISTING",
+   "nearestCensus": "3076 MADiSON (INCLUDED, similarity 0.50)"
+  }
+ ]
+}
