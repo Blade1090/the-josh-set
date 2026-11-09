@@ -884,19 +884,6 @@
    "note": null,
    "toolVersion": 2
   },
-  "1682": {
-   "title": "Now That's What I Call Sing",
-   "url": "covers/ps4-synthetic/1682.jpg",
-   "source": "https://myshopville.com/cdn/shop/products/now_thats_what_i_call_sing_sony_playstation_4_ps4_video_game_box_cover_shopville_canada_usa.jpg",
-   "sourceKind": "flat_front_unverified",
-   "mode": "asis",
-   "realCoverState": "REVIEW",
-   "realCoverReason": "missing_ps4_banner",
-   "holdoutCategory": "NO_FRONT_FOUND",
-   "why": "no physical-front image found on PriceCharting (all regions), LaunchBox, TheGamesDB, vgdb.uk, VideoGamesPlus or Limited Run",
-   "note": "flat PAL front (PEGI 12); padding trimmed; fails the PS4 banner gate, so not GOOD",
-   "toolVersion": 2
-  },
   "1685": {
    "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
    "url": "covers/ps4-synthetic/1685.jpg",
@@ -2769,19 +2756,6 @@
    "note": null,
    "toolVersion": 2
   },
-  "2848": {
-   "title": "World of Outlaws: Dirt Racing",
-   "url": "covers/ps4-synthetic/2848.jpg",
-   "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co536t.jpg",
-   "sourceKind": "igdb_cover_art",
-   "mode": "banner",
-   "realCoverState": "REVIEW",
-   "realCoverReason": "key_art_only",
-   "holdoutCategory": null,
-   "why": null,
-   "note": null,
-   "toolVersion": 2
-  },
   "2850": {
    "title": "Five Nights at Freddy's: Help Wanted",
    "url": "covers/ps4-synthetic/2850.jpg",
@@ -3146,19 +3120,6 @@
    "note": null,
    "toolVersion": 2
   },
-  "2997": {
-   "title": "Reel Fishing: Road Trip Adventure",
-   "url": "covers/ps4-synthetic/2997.jpg",
-   "source": "https://images.igdb.com/igdb/image/upload/t_1080p/co3a3o.jpg",
-   "sourceKind": "igdb_cover_art",
-   "mode": "banner",
-   "realCoverState": "REVIEW",
-   "realCoverReason": "key_art_only",
-   "holdoutCategory": null,
-   "why": null,
-   "note": null,
-   "toolVersion": 2
-  },
   "2998": {
    "title": "Slaycation Paradise",
    "url": "covers/ps4-synthetic/2998.jpg",
@@ -3392,9 +3353,139 @@
    "why": null,
    "note": null,
    "toolVersion": 2
+  },
+  "3085": {
+   "title": "Werewolf: The Apocalypse - Heart of the Forest",
+   "url": "covers/ps4-synthetic/3085.jpg",
+   "source": "https://storage.googleapis.com/images.pricecharting.com/5c1919c0b8d9d83fbedea2a33f7c7a1e03fd952c4121efbc749b33ac23546bb4/1600.jpg",
+   "sourceKind": "boutique_render",
+   "mode": "asis",
+   "realCoverState": "REVIEW",
+   "realCoverReason": "missing_cover",
+   "holdoutCategory": null,
+   "why": null,
+   "note": "PriceCharting PS4 box render from the Batch 06 evidence page; no LaunchBox/IGDB/gated PriceCharting front -- reviewed 2026-11-09",
+   "toolVersion": 2
+  },
+  "3086": {
+   "title": "World Quiz",
+   "url": "covers/ps4-synthetic/3086.jpg",
+   "source": "https://storage.googleapis.com/images.pricecharting.com/d32966c8b89af07558e2bdff69baaee45bebbac01f365739fc0868a9fca4c0ad/1600.jpg",
+   "sourceKind": "boutique_render",
+   "mode": "asis",
+   "realCoverState": "REVIEW",
+   "realCoverReason": "missing_cover",
+   "holdoutCategory": null,
+   "why": null,
+   "note": "PriceCharting PS4 box render from the Batch 06 evidence page; no LaunchBox/IGDB/gated PriceCharting front -- reviewed 2026-11-09",
+   "toolVersion": 2
+  },
+  "3088": {
+   "title": "My Universe: Puppies & Kittens",
+   "url": "covers/ps4-synthetic/3088.jpg",
+   "source": "https://storage.googleapis.com/images.pricecharting.com/1ab232f24f30ea256641b9cb1e771db7f3a0b184cff496e16497d0fc74c4e7a3/1600.jpg",
+   "sourceKind": "boutique_render",
+   "mode": "asis",
+   "realCoverState": "REVIEW",
+   "realCoverReason": "missing_cover",
+   "holdoutCategory": null,
+   "why": null,
+   "note": "PriceCharting PS4 box render from the Batch 06 evidence page; no LaunchBox/IGDB/gated PriceCharting front -- reviewed 2026-11-09",
+   "toolVersion": 2
+  },
+  "3089": {
+   "title": "My Universe: My Baby",
+   "url": "covers/ps4-synthetic/3089.jpg",
+   "source": "https://storage.googleapis.com/images.pricecharting.com/4ad97124dead4390d73fa77393ca853893252162ee5409dca0cc24e43a4c757c/1600.jpg",
+   "sourceKind": "boutique_render",
+   "mode": "asis",
+   "realCoverState": "REVIEW",
+   "realCoverReason": "missing_cover",
+   "holdoutCategory": null,
+   "why": null,
+   "note": "PriceCharting PS4 box render from the Batch 06 evidence page; no LaunchBox/IGDB/gated PriceCharting front -- reviewed 2026-11-09",
+   "toolVersion": 2
+  },
+  "3099": {
+   "title": "The Outbound Ghost",
+   "url": "covers/ps4-synthetic/3099.jpg",
+   "source": "https://storage.googleapis.com/images.pricecharting.com/94b725810cc5c0c40db66f05e40e5dbfdc42ab443b6bdad7028fdce6cc7b05d2/1600.jpg",
+   "sourceKind": "boutique_render",
+   "mode": "asis",
+   "realCoverState": "REVIEW",
+   "realCoverReason": "missing_cover",
+   "holdoutCategory": null,
+   "why": null,
+   "note": "PriceCharting PS4 box render from the Batch 06 evidence page; no LaunchBox/IGDB/gated PriceCharting front -- reviewed 2026-11-09",
+   "toolVersion": 2
+  },
+  "3108": {
+   "title": "Life is Strange: True Colors",
+   "url": "covers/ps4-synthetic/3108.jpg",
+   "source": "https://storage.googleapis.com/images.pricecharting.com/62c646edc6c8e7c30ed257fe060ba5bab99a314749859d9e5ad8282f9ee9456c/1600.jpg",
+   "sourceKind": "boutique_render",
+   "mode": "asis",
+   "realCoverState": "REVIEW",
+   "realCoverReason": "missing_cover",
+   "holdoutCategory": null,
+   "why": null,
+   "note": "PriceCharting PS4 box image from the Batch 06 evidence page -- reviewed 2026-11-09",
+   "toolVersion": 2
+  },
+  "3109": {
+   "title": "Super Monkey Ball: Banana Mania",
+   "url": "covers/ps4-synthetic/3109.jpg",
+   "source": "https://storage.googleapis.com/images.pricecharting.com/63edfee7b9cb913f65bc6b00ef7a190a2f3d38b1c3bf68091e7b45bf72e54bea/1600.jpg",
+   "sourceKind": "boutique_render",
+   "mode": "asis",
+   "realCoverState": "REVIEW",
+   "realCoverReason": "missing_cover",
+   "holdoutCategory": null,
+   "why": null,
+   "note": "PriceCharting PS4 box image from the Batch 06 evidence page -- reviewed 2026-11-09",
+   "toolVersion": 2
+  },
+  "3110": {
+   "title": "Demon Gaze II",
+   "url": "covers/ps4-synthetic/3110.jpg",
+   "source": "https://storage.googleapis.com/images.pricecharting.com/247ab48c7144ef0362d1624911c6e99c3b7d15bc298eb9976f2404898d0fbd7f/1600.jpg",
+   "sourceKind": "boutique_render",
+   "mode": "asis",
+   "realCoverState": "REVIEW",
+   "realCoverReason": "missing_cover",
+   "holdoutCategory": null,
+   "why": null,
+   "note": "PriceCharting PS4 box image from the Batch 06 evidence page -- reviewed 2026-11-09",
+   "toolVersion": 2
+  },
+  "3111": {
+   "title": "Tiny Troopers: Global Ops",
+   "url": "covers/ps4-synthetic/3111.jpg",
+   "source": "https://storage.googleapis.com/images.pricecharting.com/d74eca42070b3fa2e25c4e03e18a8054f601f91cb75a1d561de4e32e1fae4770/1600.jpg",
+   "sourceKind": "boutique_render",
+   "mode": "asis",
+   "realCoverState": "REVIEW",
+   "realCoverReason": "missing_cover",
+   "holdoutCategory": null,
+   "why": null,
+   "note": "PriceCharting PS4 box image from the Batch 06 evidence page -- reviewed 2026-11-09",
+   "toolVersion": 2
+  },
+  "3112": {
+   "title": "Monopoly Madness",
+   "url": "covers/ps4-synthetic/3112.jpg",
+   "source": "https://storage.googleapis.com/images.pricecharting.com/6b0109963bac5e728d1fe95e55bdf931f8ab0af543019e55615a6ac0d1a7cd5e/1600.jpg",
+   "sourceKind": "boutique_render",
+   "mode": "asis",
+   "realCoverState": "REVIEW",
+   "realCoverReason": "missing_cover",
+   "holdoutCategory": null,
+   "why": null,
+   "note": "PriceCharting PS4 box image from the Batch 06 evidence page -- reviewed 2026-11-09",
+   "toolVersion": 2
   }
  },
  "tier": "SYNTHETIC",
  "note": "Reconstructed PS4-style covers for identities with no verified real physical front. Never counted as GOOD; shown only when no GOOD/FALLBACK real cover exists.",
- "count": 261
+ "count": 268
 }

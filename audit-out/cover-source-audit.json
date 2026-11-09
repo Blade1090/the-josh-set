@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-09T19:34:27.578Z",
-  "included": 2656,
+  "generatedAt": "2026-11-09T20:04:43.959Z",
+  "included": 2661,
   "counts": {
     "CURATED_ID": 5,
-    "CURATED_TITLE": 145,
+    "CURATED_TITLE": 144,
     "GAMEYE": 923,
-    "LAUNCHBOX_BOX_FRONT": 778,
-    "LEGACY_IGDB": 225,
-    "MISSING": 35,
-    "PRICECHARTING_BOX_FRONT": 489,
+    "LAUNCHBOX_BOX_FRONT": 786,
+    "LEGACY_IGDB": 223,
+    "MISSING": 15,
+    "PRICECHARTING_BOX_FRONT": 509,
     "PRODUCT_BOX_FRONT": 56
   },
   "rows": [
@@ -333,8 +333,8 @@
     {
       "id": 3081,
       "title": "AEW: Fight Forever",
-      "source": "MISSING",
-      "url": null
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/53ac0798-5286-4a27-a8d2-2df239373bfe.jpg"
     },
     {
       "id": 44,
@@ -1683,8 +1683,8 @@
     {
       "id": 3083,
       "title": "Big Buck Hunter Arcade",
-      "source": "MISSING",
-      "url": null
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/69517324-ac50-482b-8176-2362ba008b90.jpg"
     },
     {
       "id": 161,
@@ -3039,8 +3039,8 @@
     {
       "id": 3103,
       "title": "Crazy Chicken Xtreme",
-      "source": "MISSING",
-      "url": null
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/da0458ec-4024-4dec-9eb9-68164c9ee2e1.jpg"
     },
     {
       "id": 277,
@@ -3087,8 +3087,8 @@
     {
       "id": 3095,
       "title": "Cry Babies Magic Tears: The Big Game",
-      "source": "MISSING",
-      "url": null
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/6a502364392850fa20790fd86322f3f35e128b0bbaa20c33e209538120e7e277/1600.jpg"
     },
     {
       "id": 2301,
@@ -3661,6 +3661,12 @@
       "url": "https://storage.googleapis.com/images.pricecharting.com/7c2da284d0b6d75b7455ae503ad3d26393506b91f5f8f98331b6078b836b4480/1600.jpg"
     },
     {
+      "id": 3110,
+      "title": "Demon Gaze II",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 2791,
       "title": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -3921,8 +3927,8 @@
     {
       "id": 3079,
       "title": "Disney Dreamlight Valley",
-      "source": "MISSING",
-      "url": null
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/6fe4c662-9370-47da-b44f-8c22abe940e7.jpg"
     },
     {
       "id": 377,
@@ -3999,8 +4005,8 @@
     {
       "id": 3102,
       "title": "Doki Doki Literature Club Plus!",
-      "source": "MISSING",
-      "url": null
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/65ca9bbb70acfa5dfcb400f11619ab34f050c2cb4723731e5adc04091d15931b/1600.jpg"
     },
     {
       "id": 384,
@@ -5055,8 +5061,8 @@
     {
       "id": 3106,
       "title": "Firefighting Simulator: The Squad",
-      "source": "MISSING",
-      "url": null
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/a375ffd34d9365a188efd2c585c88169d6fb12b693352c2dbb5969482482cc9d/1600.jpg"
     },
     {
       "id": 1503,
@@ -7519,6 +7525,12 @@
       "url": "https://images.launchbox-app.com/f3f276e2-4076-4615-9aa9-f4ad45af22f7.jpg"
     },
     {
+      "id": 3108,
+      "title": "Life is Strange: True Colors",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 720,
       "title": "Lifeless Planet: Premier Edition",
       "source": "PRICECHARTING_BOX_FRONT",
@@ -7863,8 +7875,8 @@
     {
       "id": 3100,
       "title": "Mars Odyssey",
-      "source": "MISSING",
-      "url": null
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/9ec8d060175ec4d1de59f88b21739ae4f319581335f47b57e6a8fc4854f424ac/1600.jpg"
     },
     {
       "id": 2425,
@@ -8323,6 +8335,12 @@
       "url": "https://images.launchbox-app.com/2831d2c0-7f91-4c81-a4d8-8f19a56d2b42.jpg"
     },
     {
+      "id": 3112,
+      "title": "Monopoly Madness",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 1675,
       "title": "Monopoly Plus",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -8589,20 +8607,20 @@
     {
       "id": 3090,
       "title": "My Universe: Cooking Star Restaurant",
-      "source": "MISSING",
-      "url": null
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/jcg56wwdaep2ldqm/1600.jpg"
     },
     {
       "id": 3092,
       "title": "My Universe: Doctors & Nurses",
-      "source": "MISSING",
-      "url": null
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/47bd4f0550157fa8fccd6a67b6c3f8c4741b324c9df690072d7d416d026b0cdf/1600.jpg"
     },
     {
       "id": 3087,
       "title": "My Universe: Fashion Boutique",
-      "source": "MISSING",
-      "url": null
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/5bf00807eb53f233d29aed71e87b35e65eb43410495f2ab53a5202313823dc40/1600.jpg"
     },
     {
       "id": 3089,
@@ -8613,8 +8631,8 @@
     {
       "id": 3093,
       "title": "My Universe: Pet Clinic Cats & Dogs",
-      "source": "MISSING",
-      "url": null
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/cfe098965f5dac9d5b0376dc0ac56360bb91169ab3a0494eed1bd544b8861b8e/1600.jpg"
     },
     {
       "id": 3088,
@@ -8625,8 +8643,8 @@
     {
       "id": 3091,
       "title": "My Universe: School Teacher",
-      "source": "MISSING",
-      "url": null
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/28bfe72f0fd562925c9943ffdd65900e83cae71d9a2f7d2a21d687c799f28802/1600.jpg"
     },
     {
       "id": 815,
@@ -8709,8 +8727,8 @@
     {
       "id": 3082,
       "title": "NASCAR Arcade Rush",
-      "source": "MISSING",
-      "url": null
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/b4a45f21fd8920b47c8959c2e459d3352a017115a0e5feaff8d4d8f8dca57005/1600.jpg"
     },
     {
       "id": 2097,
@@ -9039,8 +9057,8 @@
     {
       "id": 3101,
       "title": "Ninja Kidz: Time Masters",
-      "source": "MISSING",
-      "url": null
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/a03582ae01a9f796f6097f8f19a88c123f23c76d46df20d90ca5e13191299646/1600.jpg"
     },
     {
       "id": 847,
@@ -9147,8 +9165,8 @@
     {
       "id": 1682,
       "title": "Now That's What I Call Sing",
-      "source": "CURATED_TITLE",
-      "url": "https://myshopville.com/cdn/shop/products/now_thats_what_i_call_sing_sony_playstation_4_ps4_video_game_box_cover_shopville_canada_usa.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/obyufyzc3dqiwxxh/1600.jpg"
     },
     {
       "id": 1851,
@@ -9807,8 +9825,8 @@
     {
       "id": 3096,
       "title": "Pickleball: Smash",
-      "source": "MISSING",
-      "url": null
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/880d3d814cc8aa1ec9629050621d69c9bdd0c416a59d6c74b0a4374e03009916/1600.jpg"
     },
     {
       "id": 1692,
@@ -9987,8 +10005,8 @@
     {
       "id": 3107,
       "title": "Postal 4: No Regerts",
-      "source": "MISSING",
-      "url": null
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/df4526d11cbd8f2c332de6c3d026f0283b5f59cf05548cca186f08478f7f41f2/1600.jpg"
     },
     {
       "id": 2009,
@@ -10077,8 +10095,8 @@
     {
       "id": 3105,
       "title": "Professor Rubik's Brain Fitness",
-      "source": "MISSING",
-      "url": null
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/1cd2a2445ebf1d68914a1960deabc1f48b0077f89a4b7be8d580c7236f349996/1600.jpg"
     },
     {
       "id": 931,
@@ -10191,8 +10209,8 @@
     {
       "id": 3078,
       "title": "Pure Pool",
-      "source": "MISSING",
-      "url": null
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/326690b3-eb67-4bd5-b24a-20f5606a183e.jpg"
     },
     {
       "id": 941,
@@ -10545,8 +10563,8 @@
     {
       "id": 2997,
       "title": "Reel Fishing: Road Trip Adventure",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3a3o.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/c4ebd2c74ceed6a2c7d8b564db2d6e5f3c7b5e9bde88f19899b2da4b221b7595/1600.jpg"
     },
     {
       "id": 970,
@@ -10773,8 +10791,8 @@
     {
       "id": 3104,
       "title": "RiffTrax: The Game",
-      "source": "MISSING",
-      "url": null
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/a06a3fcdd184ab3fdbbc5fcbb83f7f2033037ca7b98008be79ffb15e979f3e25/1600.jpg"
     },
     {
       "id": 1916,
@@ -11337,8 +11355,8 @@
     {
       "id": 3094,
       "title": "Santa's Xmas Adventure",
-      "source": "MISSING",
-      "url": null
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/a42c8ce91707bda4cfdf3d0afa8b848ab617f064f4fdae4be8c8bb3a6ddb6bf9/1600.jpg"
     },
     {
       "id": 1039,
@@ -11889,8 +11907,8 @@
     {
       "id": 3080,
       "title": "Skull Island: Rise of Kong",
-      "source": "MISSING",
-      "url": null
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/c0fdadd5-e55c-4c3a-84e4-9e296012d4af.jpg"
     },
     {
       "id": 1080,
@@ -12285,8 +12303,8 @@
     {
       "id": 3098,
       "title": "Spike Volleyball",
-      "source": "MISSING",
-      "url": null
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/6a64b4b3-39db-4854-8cc5-386950b8f027.png"
     },
     {
       "id": 1119,
@@ -12797,6 +12815,12 @@
       "title": "Super Monkey Ball: Banana Blitz HD",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/29341b7a-5244-4ba4-bce5-66323b00699e.jpg"
+    },
+    {
+      "id": 3109,
+      "title": "Super Monkey Ball: Banana Mania",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 1181,
@@ -13797,8 +13821,8 @@
     {
       "id": 3084,
       "title": "The Quest for Excalibur: Puy du Fou",
-      "source": "MISSING",
-      "url": null
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/465aa62d159ee0ef1bf4861ee35b92ee0ce3c92da8a9578c12ae59c168b9bcfa/1600.jpg"
     },
     {
       "id": 1286,
@@ -14123,6 +14147,12 @@
       "title": "Tiny Tina's Wonderlands",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/7111ed84-a89c-4a07-bdda-08acd8ec743e.jpg"
+    },
+    {
+      "id": 3111,
+      "title": "Tiny Troopers: Global Ops",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 1327,
@@ -15507,8 +15537,8 @@
     {
       "id": 2848,
       "title": "World of Outlaws: Dirt Racing",
-      "source": "LEGACY_IGDB",
-      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co536t.jpg"
+      "source": "PRICECHARTING_BOX_FRONT",
+      "url": "https://storage.googleapis.com/images.pricecharting.com/3853cb988ca9108342cd5968b50ef59e8b5361d36825cd619cc5cd2cc45231c4/1600.jpg"
     },
     {
       "id": 1450,
@@ -15555,8 +15585,8 @@
     {
       "id": 3097,
       "title": "Worms Rumble",
-      "source": "MISSING",
-      "url": null
+      "source": "LAUNCHBOX_BOX_FRONT",
+      "url": "https://images.launchbox-app.com/9bba8838-739d-43f5-9a5d-1471d83d97a7.jpg"
     },
     {
       "id": 1456,

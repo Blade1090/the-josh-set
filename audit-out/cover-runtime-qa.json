@@ -1,46 +1,47 @@
 {
-  "generatedAt": "2026-11-09T19:47:17.379Z",
+  "generatedAt": "2026-11-09T20:04:43.959Z",
   "summary": {
-    "generatedAt": "2026-11-09T19:47:17.379Z",
-    "included": 2656,
-    "good": 2384,
+    "generatedAt": "2026-11-09T20:04:43.959Z",
+    "included": 2661,
+    "good": 2385,
     "fallback": 8,
-    "review": 250,
-    "watch": 14,
-    "physicalVerify": 247,
-    "physicalLikely": 1493,
+    "review": 256,
+    "watch": 12,
+    "physicalVerify": 250,
+    "physicalLikely": 1495,
     "physicalConfirmed": 916,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "missing_cover": 10,
+      "missing_cover": 15,
       "key_art_only": 223,
-      "missing_ps4_banner": 17
+      "missing_ps4_banner": 18
     },
     "watchByReason": {
-      "image_fetch_failed": 14
+      "image_fetch_failed": 12
     },
-    "synthetic": 258,
+    "synthetic": 268,
     "displayTiers": {
-      "GOOD": 2384,
+      "GOOD": 2385,
       "FALLBACK": 8,
-      "SYNTHETIC": 258,
-      "BLANK": 6
+      "SYNTHETIC": 268,
+      "BLANK": 0
     },
     "syntheticByRealState": {
-      "REVIEW": 245,
-      "WATCH": 13
+      "REVIEW": 256,
+      "WATCH": 12
     },
-    "syntheticIgnoredRealCover": [
-      1682,
-      2997,
-      2848
-    ],
+    "syntheticIgnoredRealCover": [],
     "syntheticMissingFile": []
   },
   "review": [
+    {
+      "id": 3110,
+      "title": "Demon Gaze II",
+      "reason": "missing_cover"
+    },
     {
       "id": 2790,
       "title": "Diablo IV",
@@ -62,6 +63,16 @@
       "reason": "missing_cover"
     },
     {
+      "id": 3108,
+      "title": "Life is Strange: True Colors",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3112,
+      "title": "Monopoly Madness",
+      "reason": "missing_cover"
+    },
+    {
       "id": 3089,
       "title": "My Universe: My Baby",
       "reason": "missing_cover"
@@ -77,8 +88,18 @@
       "reason": "missing_cover"
     },
     {
+      "id": 3109,
+      "title": "Super Monkey Ball: Banana Mania",
+      "reason": "missing_cover"
+    },
+    {
       "id": 3099,
       "title": "The Outbound Ghost",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3111,
+      "title": "Tiny Troopers: Global Ops",
       "reason": "missing_cover"
     },
     {
@@ -1217,6 +1238,11 @@
       "reason": "missing_ps4_banner"
     },
     {
+      "id": 1753,
+      "title": "The First Tree: Console Edition",
+      "reason": "missing_ps4_banner"
+    },
+    {
       "id": 291,
       "title": "Damascus Gear: Operation Osaka",
       "reason": "missing_ps4_banner"
@@ -1391,18 +1417,8 @@
       "reason": "image_fetch_failed"
     },
     {
-      "id": 1753,
-      "title": "The First Tree: Console Edition",
-      "reason": "image_fetch_failed"
-    },
-    {
       "id": 1756,
       "title": "The Journey Down: Chapter Two",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 2363,
-      "title": "Unicorn Overlord",
       "reason": "image_fetch_failed"
     }
   ],
@@ -1637,6 +1653,13 @@
       "url": "covers/ps4-synthetic/1600.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
+    },
+    {
+      "id": 3110,
+      "title": "Demon Gaze II",
+      "url": "covers/ps4-synthetic/3110.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
     },
     {
       "id": 2790,
@@ -1989,6 +2012,13 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 3108,
+      "title": "Life is Strange: True Colors",
+      "url": "covers/ps4-synthetic/3108.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
+    },
+    {
       "id": 1661,
       "title": "Lode Runner Legacy",
       "url": "covers/ps4-synthetic/1661.jpg",
@@ -2129,6 +2159,13 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 3112,
+      "title": "Monopoly Madness",
+      "url": "covers/ps4-synthetic/3112.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
+    },
+    {
       "id": 2994,
       "title": "Monster Harvest",
       "url": "covers/ps4-synthetic/2994.jpg",
@@ -2190,6 +2227,20 @@
       "url": "covers/ps4-synthetic/3012.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
+    },
+    {
+      "id": 3089,
+      "title": "My Universe: My Baby",
+      "url": "covers/ps4-synthetic/3089.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
+    },
+    {
+      "id": 3088,
+      "title": "My Universe: Puppies & Kittens",
+      "url": "covers/ps4-synthetic/3088.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
     },
     {
       "id": 815,
@@ -2808,6 +2859,13 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 3109,
+      "title": "Super Monkey Ball: Banana Mania",
+      "url": "covers/ps4-synthetic/3109.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
+    },
+    {
       "id": 1958,
       "title": "Super Perils of Baking",
       "url": "covers/ps4-synthetic/1958.jpg",
@@ -2916,8 +2974,8 @@
       "id": 1753,
       "title": "The First Tree: Console Edition",
       "url": "covers/ps4-synthetic/1753.jpg",
-      "realState": "WATCH",
-      "realReason": "image_fetch_failed"
+      "realState": "REVIEW",
+      "realReason": "missing_ps4_banner"
     },
     {
       "id": 2354,
@@ -2962,6 +3020,13 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 3099,
+      "title": "The Outbound Ghost",
+      "url": "covers/ps4-synthetic/3099.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
+    },
+    {
       "id": 1298,
       "title": "The Swindle",
       "url": "covers/ps4-synthetic/1298.jpg",
@@ -2995,6 +3060,13 @@
       "url": "covers/ps4-synthetic/3027.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
+    },
+    {
+      "id": 3111,
+      "title": "Tiny Troopers: Global Ops",
+      "url": "covers/ps4-synthetic/3111.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
     },
     {
       "id": 1769,
@@ -3151,6 +3223,13 @@
       "realReason": "key_art_only"
     },
     {
+      "id": 3085,
+      "title": "Werewolf: The Apocalypse - Heart of the Forest",
+      "url": "covers/ps4-synthetic/3085.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
+    },
+    {
       "id": 1948,
       "title": "Wife Quest",
       "url": "covers/ps4-synthetic/1948.jpg",
@@ -3170,6 +3249,13 @@
       "url": "covers/ps4-synthetic/2022.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
+    },
+    {
+      "id": 3086,
+      "title": "World Quiz",
+      "url": "covers/ps4-synthetic/3086.jpg",
+      "realState": "REVIEW",
+      "realReason": "missing_cover"
     },
     {
       "id": 2367,

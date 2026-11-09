@@ -1,39 +1,19 @@
 id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason,bannerColumnSpan,bannerPixelRatio,url
-3081,AEW: Fight Forever,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-3083,Big Buck Hunter Arcade,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-3103,Crazy Chicken Xtreme,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-3095,Cry Babies Magic Tears: The Big Game,MISSING,REVIEW,missing_cover,VERIFY,,,,,
+3110,Demon Gaze II,MISSING,REVIEW,missing_cover,VERIFY,,,,,
 2790,Diablo IV,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-3079,Disney Dreamlight Valley,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-3102,Doki Doki Literature Club Plus!,MISSING,REVIEW,missing_cover,VERIFY,,,,,
 3041,DreamWorks Spirit Lucky's Big Adventure,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-3106,Firefighting Simulator: The Squad,MISSING,REVIEW,missing_cover,VERIFY,,,,,
 2850,Five Nights at Freddy's: Help Wanted,MISSING,REVIEW,missing_cover,VERIFY,,,,,
 3016,Horse Club Adventures 2: Hazelwood,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-3100,Mars Odyssey,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-3090,My Universe: Cooking Star Restaurant,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-3092,My Universe: Doctors & Nurses,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-3087,My Universe: Fashion Boutique,MISSING,REVIEW,missing_cover,VERIFY,,,,,
+3108,Life is Strange: True Colors,MISSING,REVIEW,missing_cover,VERIFY,,,,,
+3112,Monopoly Madness,MISSING,REVIEW,missing_cover,VERIFY,,,,,
 3089,My Universe: My Baby,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-3093,My Universe: Pet Clinic Cats & Dogs,MISSING,REVIEW,missing_cover,VERIFY,,,,,
 3088,My Universe: Puppies & Kittens,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-3091,My Universe: School Teacher,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-3082,NASCAR Arcade Rush,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-3101,Ninja Kidz: Time Masters,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-3096,Pickleball: Smash,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-3107,Postal 4: No Regerts,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-3105,Professor Rubik's Brain Fitness,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-3078,Pure Pool,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-3104,RiffTrax: The Game,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-3094,Santa's Xmas Adventure,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-3080,Skull Island: Rise of Kong,MISSING,REVIEW,missing_cover,VERIFY,,,,,
 2901,Sniper Elite 5,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-3098,Spike Volleyball,MISSING,REVIEW,missing_cover,VERIFY,,,,,
+3109,Super Monkey Ball: Banana Mania,MISSING,REVIEW,missing_cover,VERIFY,,,,,
 3099,The Outbound Ghost,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-3084,The Quest for Excalibur: Puy du Fou,MISSING,REVIEW,missing_cover,VERIFY,,,,,
+3111,Tiny Troopers: Global Ops,MISSING,REVIEW,missing_cover,VERIFY,,,,,
 3085,Werewolf: The Apocalypse - Heart of the Forest,MISSING,REVIEW,missing_cover,VERIFY,,,,,
 3086,World Quiz,MISSING,REVIEW,missing_cover,VERIFY,,,,,
-3097,Worms Rumble,MISSING,REVIEW,missing_cover,VERIFY,,,,,
 2037,9th Dawn III,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2hpn.jpg
 2077,American Hero,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co3w2u.jpg
 1579,Back to the Future: The Game,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co5z46.jpg
@@ -150,7 +130,6 @@ id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason
 2451,Protodroid Delta,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co5bt8.jpg
 1697,Prototype,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co1ql2.jpg
 2707,Raidou Remastered: Mystery Of The Soulless Army,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co9l0l.jpg
-2997,Reel Fishing: Road Trip Adventure,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co3a3o.jpg
 970,Regions Of Ruin,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co1s9j.jpg
 991,Reverie,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co61bv.jpg
 1972,Rising Hell,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2f3r.jpg
@@ -252,7 +231,6 @@ id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason
 1948,Wife Quest,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2u0p.jpg
 3022,Winter Games 2023,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co536u.jpg
 2022,Witchcrafty,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co3na9.jpg
-2848,World of Outlaws: Dirt Racing,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co536t.jpg
 2367,Wytchwood,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co27gm.jpg
 1463,Xenon Valkyrie+,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co1z4u.jpg
 1793,YIIK: A Postmodern RPG,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co2z9a.jpg
@@ -261,11 +239,11 @@ id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason
 2240,Zero Tolerance Collection,LEGACY_IGDB,REVIEW,key_art_only,VERIFY,,,,,https://images.igdb.com/igdb/image/upload/t_cover_big/co4woj.jpg
 1497,Chants of Sennaar,GAMEYE,REVIEW,missing_ps4_banner,LIKELY,,,0.0,0.0,https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/143584_2ee8b262-a72c-4675-b8b7-5e2bc18b463f.webp
 1631,GunLord X,GAMEYE,REVIEW,missing_ps4_banner,LIKELY,,,0.0,0.0,https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/576a01f1-b6ea-4abc-bf49-7e3cd1a2b2c3.webp
+1753,The First Tree: Console Edition,CURATED_TITLE,REVIEW,missing_ps4_banner,LIKELY,FIXED,,0.0,0.0,https://gamefaqs.gamespot.com/a/box/7/7/9/851779_front.jpg
 291,Damascus Gear: Operation Osaka,CURATED_ID,REVIEW,missing_ps4_banner,LIKELY,,,0.015151515151515152,0.0008116883116883117,https://images.igdb.com/igdb/image/upload/t_cover_big/co1udg.jpg
 1999,Streets of Red,CURATED_TITLE,REVIEW,missing_ps4_banner,LIKELY,FIXED,,0.016666666666666666,0.00020833333333333335,https://limitedrungames.com/cdn/shop/products/AssetTemplateSER_PS4.png?height=1080&v=1579552336
 1850,Lost Ruins,GAMEYE,REVIEW,missing_ps4_banner,LIKELY,,,0.24722222222222223,0.009351851851851853,https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/b1d7a4b3-8051-4e58-bfac-8d3579ce6371.webp
 1839,Another Crusade,GAMEYE,REVIEW,missing_ps4_banner,LIKELY,,,0.4861111111111111,0.21296296296296297,https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/147877_e39ad43a-fbed-42cf-8121-87b4e03fdf2f.webp
-1682,Now That's What I Call Sing,CURATED_TITLE,REVIEW,missing_ps4_banner,LIKELY,FIXED,,0.5416666666666666,0.27923611111111113,https://myshopville.com/cdn/shop/products/now_thats_what_i_call_sing_sony_playstation_4_ps4_video_game_box_cover_shopville_canada_usa.jpg
 241,Chariot,CURATED_TITLE,REVIEW,missing_ps4_banner,LIKELY,FIXED,,0.5722222222222222,0.26113425925925926,https://limitedrungames.com/cdn/shop/files/charriot-limited-run-games-ps4.png?height=1080&v=1698943937
 1670,Mighty Gunvolt Burst,CURATED_TITLE,REVIEW,missing_ps4_banner,LIKELY,,,0.5972222222222222,0.1794675925925926,https://limitedrungames.com/cdn/shop/products/mighty-gunvolt-burst-ps4-lrg.png?height=1080&v=1660241946
 1227,The Church in the Darkness,CURATED_TITLE,REVIEW,missing_ps4_banner,LIKELY,FIXED,,0.6138888888888889,0.3030787037037037,https://limitedrungames.com/cdn/shop/files/church-in-the-darkness-limited-run-games-ps4.png?height=1080&v=1698943937
@@ -296,5 +274,4 @@ id,title,source,qualityState,reasonCode,physicalSanity,manualStatus,manualReason
 1685,Oddworld: Abe's Oddysee - New 'n' Tasty,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/8/5/8/790858_front.jpg
 2695,Q.U.B.E.,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/8/4/3/892843_front.jpg
 2696,Quintessential Quintuplets Fives Memories With You,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/0/8/1/1150081_front.jpg
-1753,The First Tree: Console Edition,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/7/7/9/851779_front.jpg
 1756,The Journey Down: Chapter Two,CURATED_TITLE,WATCH,image_fetch_failed,VERIFY,FIXED,,,,https://gamefaqs.gamespot.com/a/box/6/9/3/906693_front.jpg

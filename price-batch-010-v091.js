@@ -1,6 +1,6 @@
 // ShelfCheck pricing — batch 010 (GameStop discovery Batch 06, 2026-11-09).
 //
-// 30 Batch 06 identities priced from the same opened PriceCharting PS4 / PAL PS4 product pages used as
+// 35 Batch 06 identities priced from the same opened PriceCharting PS4 / PAL PS4 product pages used as
 // their physical evidence (CIB / complete price). Guarded exactly like every prior batch file: only fills a
 // title with no existing price, never overwrites.
 (()=>{
@@ -34,7 +34,12 @@
     ["RiffTrax: The Game",25.95,"Rifftrax: The Game","Playstation 4"],
     ["Professor Rubik's Brain Fitness",12.95,"Professor Rubik's Brain Fitness","Playstation 4"],
     ["Firefighting Simulator: The Squad",16.56,"Firefighting Simulator - The Squad","PAL Playstation 4"],
-    ["Postal 4: No Regerts",44.23,"Postal 4: No Regerts","Playstation 4"]
+    ["Postal 4: No Regerts",44.23,"Postal 4: No Regerts","Playstation 4"],
+    ["Life is Strange: True Colors",13.43,"Life is Strange: True Colors","Playstation 4"],
+    ["Super Monkey Ball: Banana Mania",7.99,"Super Monkey Ball: Banana Mania","Playstation 4"],
+    ["Demon Gaze II",26.21,"Demon Gaze II","PAL Playstation 4"],
+    ["Tiny Troopers: Global Ops",10,"Tiny Troopers: Global Ops","Playstation 4"],
+    ["Monopoly Madness",4.58,"Monopoly Madness","PAL Playstation 4"]
   ];
   let tries=0;
   const apply=()=>{

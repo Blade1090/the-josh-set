@@ -3,11 +3,134 @@
  "input": "audit-out/gamestop-catalog-reconciliation.json NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH (59 listings)",
  "evidenceStandard": "GameStop PS4 preowned listing + opened PriceCharting PS4/PAL PS4 product page showing 1 game disc and loose (disc-only) sales, the disc-evidence rule used in Batches 01-05.",
  "counts": {
-  "confirmedAdded": 30,
+  "confirmedAdded": 35,
   "nameVariantsOfExisting": 20,
   "psvrRequired": 4,
   "review": 5
  },
+ "secondPass": "The LIKELY_NAME_VARIANT bucket of the reconciliation was re-checked by hand: 5 listings were distinct standalone games (added above, IDs 3108-3112) and the compilations below need a curator modeling decision. PSVR-required in that bucket: Job Simulator, Rick and Morty: Virtual Rick-ality, Ghost Giant, Golem, The Walking Dead: Saints & Sinners Chapter 2. Windstorm: Start of a Great Friendship matches census 2440 Windstorm, which is EXCLUDED by curation pass #1 HORSE_GAME (existing decision, reported, not changed).",
+ "compilationsForCuratorReview": [
+  {
+   "listing": "Minecraft Starter Collection",
+   "recommendation": "Product of existing 782 Minecraft: PlayStation 4 Edition plus content packs; no new identity."
+  },
+  {
+   "listing": "Star Wars Jedi Knight Collection",
+   "recommendation": "Product covering existing 1133 Jedi Outcast + 1134 Jedi Academy; add a DATA.p product row."
+  },
+  {
+   "listing": "Dishonored and Prey: The Arkane Collection",
+   "recommendation": "Product covering existing 374 Dishonored 2 + 929 Prey; add a DATA.p product row."
+  },
+  {
+   "listing": "Wolfenstein Collection",
+   "recommendation": "Product covering existing Wolfenstein identities (1440/1442/1443); confirm contents before mapping."
+  },
+  {
+   "listing": "Disney Classic Games Collection",
+   "recommendation": "Expanded re-release of existing 376 Disney Classic Games: Aladdin and the Lion King (adds The Jungle Book); curator: same identity or product."
+  },
+  {
+   "listing": "Persona: Endless Night Collection",
+   "recommendation": "Product covering 901 Persona 3: Dancing in Moonlight, 2916 Persona 5: Dancing in Starlight and Persona 4: Dancing All Night (not in census)."
+  },
+  {
+   "listing": "Overcooked! All You Can Eat",
+   "recommendation": "Remastered compilation of existing 2227 Overcooked! + 885 Overcooked! 2 (1688 product is EXCLUDED); curator: product row or new identity."
+  },
+  {
+   "listing": "Nexomon Plus Nexomon Extinction Complete Collection",
+   "recommendation": "Covers existing 836 Nexomon: Extinction plus Nexomon (not in census; no standalone PS4 disc found)."
+  },
+  {
+   "listing": "Hasbro Family Fun Pack",
+   "recommendation": "Multi-game Hasbro pack (with a Conquest Edition variant); distinct from 789 Monopoly: Family Fun Pack; curator: identity modeling."
+  },
+  {
+   "listing": "Mass Effect Legendary Edition",
+   "recommendation": "Only physical PS4 path for the remastered trilogy; curator: one identity (precedent: collection identities such as Kingdom Hearts HD I.5 + II.5 Remix) or three."
+  },
+  {
+   "listing": "Grand Theft Auto: Trilogy - The Definitive Edition",
+   "recommendation": "Only physical PS4 path for GTA III / Vice City / San Andreas DE; curator: one identity or three."
+  },
+  {
+   "listing": "Teenage Mutant Ninja Turtles: The Cowabunga Collection",
+   "recommendation": "Single-disc retro collection; precedent Mega Man Legacy Collection (753) suggests one identity."
+  },
+  {
+   "listing": "Mega Man Battle Network Legacy Collection",
+   "recommendation": "Single-disc collection; precedent Mega Man Legacy Collection (753) suggests one identity."
+  },
+  {
+   "listing": "Sonic Origins Plus",
+   "recommendation": "Single-disc retro collection; one identity likely."
+  },
+  {
+   "listing": "Capcom Fighting Collection",
+   "recommendation": "Single-disc fighting collection; one identity likely."
+  },
+  {
+   "listing": "Capcom Fighting Collection 2",
+   "recommendation": "Single-disc fighting collection; one identity likely."
+  },
+  {
+   "listing": "Marvel vs. Capcom Fighting Collection: Arcade Classics",
+   "recommendation": "Single-disc fighting collection; one identity likely."
+  },
+  {
+   "listing": "FINAL FANTASY I-VI COLLECTION ANNIVERSARY EDITION",
+   "recommendation": "Six Pixel Remasters on one physical release; curator: one identity or six."
+  },
+  {
+   "listing": "Crysis Remastered Trilogy",
+   "recommendation": "Only physical PS4 path for the three remasters; curator: one identity or three."
+  },
+  {
+   "listing": "Halloween and Ash vs Evil Dead RetroRealms Double Feature",
+   "recommendation": "Two distinct games on one disc; curator: two identities plus a product row."
+  },
+  {
+   "listing": "Dark Thrones and Witch Hunter Double Pack",
+   "recommendation": "Two distinct games on one disc; curator: two identities plus a product row."
+  },
+  {
+   "listing": "Atari Flashback Classics Volume 2",
+   "recommendation": "Precedent 111 Atari Flashback Classics: Volume 1 suggests one identity."
+  },
+  {
+   "listing": "Atari Flashback Classics Vol 3",
+   "recommendation": "Precedent 111 Volume 1 suggests one identity."
+  },
+  {
+   "listing": "Marvel Pinball: Epic Collection Volume 1",
+   "recommendation": "Single-disc pinball table collection; one identity likely."
+  },
+  {
+   "listing": "Psikyo Shooting Library Vol. 1",
+   "recommendation": "Multi-shooter collection; one identity likely."
+  },
+  {
+   "listing": "Psikyo Shooting Library Vol. 2",
+   "recommendation": "Multi-shooter collection; one identity likely."
+  },
+  {
+   "listing": "KEMCO RPG Selection Vol. 2",
+   "recommendation": "Multi-RPG collection; curator: identity modeling."
+  },
+  {
+   "listing": "Train Valley Collection",
+   "recommendation": "Train Valley 1 + 2 collection; curator: identity modeling."
+  },
+  {
+   "listing": "The Sims 4 Plus Eco Lifestyle Bundle",
+   "recommendation": "Base game plus DLC bundle; maps to The Sims 4 base identity, not a new one."
+  },
+  {
+   "listing": "Fishing Sim World",
+   "recommendation": "Same game as research 2914 Fishing Sim World: Pro Tour (already in the curator review queue)."
+  }
+ ],
  "confirmed": [
   {
    "id": 3078,
@@ -623,6 +746,88 @@
     "rel": "April 28, 2023"
    },
    "cib": 44.23,
+   "aliases": []
+  },
+  {
+   "id": 3108,
+   "title": "Life is Strange: True Colors",
+   "gamestopListing": "Life is Strange: True Colors",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/life-is-strange-true-colors",
+    "name": "Life is Strange: True Colors",
+    "console": "Playstation 4",
+    "loose": 10.54,
+    "cib": 13.43,
+    "upc": "662248925028",
+    "rel": "September 10, 2021"
+   },
+   "cib": 13.43,
+   "aliases": []
+  },
+  {
+   "id": 3109,
+   "title": "Super Monkey Ball: Banana Mania",
+   "gamestopListing": "Super Monkey Ball: Banana Mania",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/super-monkey-ball-banana-mania",
+    "name": "Super Monkey Ball: Banana Mania",
+    "console": "Playstation 4",
+    "loose": 7.9,
+    "cib": 7.99,
+    "upc": "010086632781",
+    "rel": "October 5, 2021"
+   },
+   "cib": 7.99,
+   "aliases": []
+  },
+  {
+   "id": 3110,
+   "title": "Demon Gaze II",
+   "gamestopListing": "Demon Gaze II",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/pal-playstation-4/demon-gaze-ii",
+    "name": "Demon Gaze II",
+    "console": "PAL Playstation 4",
+    "loose": 26.21,
+    "cib": 26.21,
+    "rel": "November 14, 2017"
+   },
+   "cib": 26.21,
+   "aliases": []
+  },
+  {
+   "id": 3111,
+   "title": "Tiny Troopers: Global Ops",
+   "gamestopListing": "Tiny Troopers: Global Ops",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/playstation-4/tiny-troopers-global-ops",
+    "name": "Tiny Troopers: Global Ops",
+    "console": "Playstation 4",
+    "loose": 10,
+    "cib": 10,
+    "upc": "810810030964",
+    "rel": "June 24, 2023"
+   },
+   "cib": 10,
+   "aliases": []
+  },
+  {
+   "id": 3112,
+   "title": "Monopoly Madness",
+   "gamestopListing": "Monopoly Plus and Monopoly Madness",
+   "decision": "CONFIRMED_PHYSICAL_PS4_DISC",
+   "pricecharting": {
+    "url": "https://www.pricecharting.com/game/pal-playstation-4/monopoly-madness",
+    "name": "Monopoly Madness",
+    "console": "PAL Playstation 4",
+    "loose": 4.58,
+    "cib": 4.58
+   },
+   "cib": 4.58,
    "aliases": []
   }
  ],
