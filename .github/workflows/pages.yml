@@ -24,7 +24,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+          # After a cover-manifest run, deploy main's tip: the bot's manifest commit is newer than the
+          # run's head_sha, and pushes made with GITHUB_TOKEN do not trigger this workflow themselves.
+          ref: ${{ github.event_name == 'workflow_run' && 'main' || github.sha }}
       - uses: actions/configure-pages@v5
         with:
           enablement: true

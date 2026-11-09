@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-09T18:24:10.753Z",
-  "included": 2622,
+  "generatedAt": "2026-11-09T19:12:01.232Z",
+  "included": 2626,
   "counts": {
     "CURATED_ID": 5,
     "CURATED_TITLE": 145,
     "GAMEYE": 923,
     "LAUNCHBOX_BOX_FRONT": 778,
-    "LEGACY_IGDB": 172,
-    "MISSING": 54,
+    "LEGACY_IGDB": 225,
+    "MISSING": 5,
     "PRICECHARTING_BOX_FRONT": 489,
     "PRODUCT_BOX_FRONT": 56
   },
@@ -2325,8 +2325,8 @@
     {
       "id": 2842,
       "title": "Cabela's African Adventures",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5x7g.jpg"
     },
     {
       "id": 214,
@@ -2367,8 +2367,8 @@
     {
       "id": 2827,
       "title": "Call of Duty: Black Ops 7",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xwv.jpg"
     },
     {
       "id": 2825,
@@ -3537,8 +3537,8 @@
     {
       "id": 3053,
       "title": "Death or Treat",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65y4.jpg"
     },
     {
       "id": 340,
@@ -3837,8 +3837,8 @@
     {
       "id": 3062,
       "title": "Disco Elysium: The Final Cut",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ve1.jpg"
     },
     {
       "id": 371,
@@ -4231,6 +4231,12 @@
       "url": "https://images.launchbox-app.com/27cc47ef-e145-4eae-b59d-f995a079c403.jpg"
     },
     {
+      "id": 3041,
+      "title": "DreamWorks Spirit Lucky's Big Adventure",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 3066,
       "title": "DREDGE",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -4461,8 +4467,8 @@
     {
       "id": 2913,
       "title": "ELEX II",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co39yr.jpg"
     },
     {
       "id": 436,
@@ -4695,8 +4701,8 @@
     {
       "id": 2878,
       "title": "Exoprimal",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co692f.jpg"
     },
     {
       "id": 453,
@@ -5037,8 +5043,8 @@
     {
       "id": 2941,
       "title": "Five Nights at Freddy's: Into the Pit",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8rf0.jpg"
     },
     {
       "id": 2814,
@@ -5469,8 +5475,8 @@
     {
       "id": 2909,
       "title": "Ghostbusters: Spirits Unleashed",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co543w.jpg"
     },
     {
       "id": 530,
@@ -5571,8 +5577,8 @@
     {
       "id": 2964,
       "title": "Gloomhaven: Mercenaries Edition",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co72o5.jpg"
     },
     {
       "id": 536,
@@ -5661,8 +5667,8 @@
     {
       "id": 2822,
       "title": "Gran Turismo 7",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g84.jpg"
     },
     {
       "id": 2821,
@@ -6165,8 +6171,8 @@
     {
       "id": 2835,
       "title": "Hitman 3",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co29lt.jpg"
     },
     {
       "id": 2314,
@@ -6239,6 +6245,24 @@
       "title": "Horror Tales: The Wine",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/674a74c4-21d7-48e5-87c9-7f86887c1943.webp"
+    },
+    {
+      "id": 2971,
+      "title": "Horse Club Adventures",
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7hen.jpg"
+    },
+    {
+      "id": 3016,
+      "title": "Horse Club Adventures 2: Hazelwood",
+      "source": "MISSING",
+      "url": null
+    },
+    {
+      "id": 2894,
+      "title": "Horse Tales Emerald Valley Ranch",
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5eef.jpg"
     },
     {
       "id": 2267,
@@ -6795,8 +6819,8 @@
     {
       "id": 2823,
       "title": "Jurassic World Evolution 2",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coabod.jpg"
     },
     {
       "id": 651,
@@ -7083,8 +7107,8 @@
     {
       "id": 3019,
       "title": "Kukoos: Lost Pets",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3pm6.jpg"
     },
     {
       "id": 682,
@@ -7287,8 +7311,8 @@
     {
       "id": 2830,
       "title": "LEGO 2K Drive",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ajx.jpg"
     },
     {
       "id": 699,
@@ -7389,8 +7413,8 @@
     {
       "id": 3077,
       "title": "Let's Build a Zoo",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2yrn.jpg"
     },
     {
       "id": 714,
@@ -7431,8 +7455,8 @@
     {
       "id": 2972,
       "title": "Life in Willowdale: Farm Adventures",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4aqg.jpg"
     },
     {
       "id": 717,
@@ -7575,8 +7599,8 @@
     {
       "id": 2960,
       "title": "Loop8: Summer of Gods",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co659d.jpg"
     },
     {
       "id": 2390,
@@ -7749,8 +7773,8 @@
     {
       "id": 3018,
       "title": "Maglam Lord",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hef.jpg"
     },
     {
       "id": 741,
@@ -7863,8 +7887,8 @@
     {
       "id": 2988,
       "title": "Matchbox Driving Adventures",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8m32.jpg"
     },
     {
       "id": 2982,
@@ -7905,8 +7929,8 @@
     {
       "id": 3010,
       "title": "MechWarrior 5: Mercenaries",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/cod67l.jpg"
     },
     {
       "id": 751,
@@ -7971,8 +7995,8 @@
     {
       "id": 2930,
       "title": "Mercenaries Rebirth: Call of the Wild Lynx",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4x8d.jpg"
     },
     {
       "id": 761,
@@ -8037,8 +8061,8 @@
     {
       "id": 2973,
       "title": "Metal Tales: Overkill",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3nun.jpg"
     },
     {
       "id": 772,
@@ -8151,8 +8175,8 @@
     {
       "id": 3013,
       "title": "Minecraft Legends",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4v2s.jpg"
     },
     {
       "id": 782,
@@ -8205,8 +8229,8 @@
     {
       "id": 2985,
       "title": "Miss Kobayashi's Dragon Maid: Burst Forth!! Choro-gon Breath",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3v73.jpg"
     },
     {
       "id": 1672,
@@ -8235,8 +8259,8 @@
     {
       "id": 2996,
       "title": "MONARK",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3h57.jpg"
     },
     {
       "id": 788,
@@ -8277,8 +8301,8 @@
     {
       "id": 2994,
       "title": "Monster Harvest",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2wek.jpg"
     },
     {
       "id": 791,
@@ -8397,8 +8421,8 @@
     {
       "id": 3004,
       "title": "Moving Out 2",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8zgy.jpg"
     },
     {
       "id": 803,
@@ -8457,8 +8481,8 @@
     {
       "id": 2840,
       "title": "MX vs. ATV Legends",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ub6.jpg"
     },
     {
       "id": 2877,
@@ -8499,14 +8523,14 @@
     {
       "id": 2987,
       "title": "My Little Pony: A Maretime Bay Adventure",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4k35.jpg"
     },
     {
       "id": 3012,
       "title": "My Little Pony: A Zephyr Heights Mystery",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ox9.jpg"
     },
     {
       "id": 814,
@@ -8811,8 +8835,8 @@
     {
       "id": 2947,
       "title": "Nick Jr. Party Adventure",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8utr.jpg"
     },
     {
       "id": 2934,
@@ -9381,8 +9405,8 @@
     {
       "id": 2954,
       "title": "Override 2: Super Mech League",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2frs.jpg"
     },
     {
       "id": 887,
@@ -9411,8 +9435,8 @@
     {
       "id": 3068,
       "title": "Oxenfree",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hlq.jpg"
     },
     {
       "id": 2332,
@@ -9813,8 +9837,8 @@
     {
       "id": 2860,
       "title": "Police Simulator: Patrol Officers",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co39t1.jpg"
     },
     {
       "id": 921,
@@ -10395,8 +10419,8 @@
     {
       "id": 2997,
       "title": "Reel Fishing: Road Trip Adventure",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3a3o.jpg"
     },
     {
       "id": 970,
@@ -10995,8 +11019,8 @@
     {
       "id": 2991,
       "title": "Ryan's Rescue Squad",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4cg7.jpg"
     },
     {
       "id": 1717,
@@ -11367,8 +11391,8 @@
     {
       "id": 2983,
       "title": "Severed Steel",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/coahch.jpg"
     },
     {
       "id": 1053,
@@ -11793,8 +11817,8 @@
     {
       "id": 2998,
       "title": "Slaycation Paradise",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co52m2.jpg"
     },
     {
       "id": 1089,
@@ -11835,8 +11859,8 @@
     {
       "id": 2949,
       "title": "Smile For Me",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co41or.jpg"
     },
     {
       "id": 1094,
@@ -12075,8 +12099,8 @@
     {
       "id": 3017,
       "title": "Speed 3 Grand Prix",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2t8n.jpg"
     },
     {
       "id": 2454,
@@ -12201,8 +12225,8 @@
     {
       "id": 2924,
       "title": "Star Ocean: The Second Story R",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6nmh.jpg"
     },
     {
       "id": 2251,
@@ -12213,8 +12237,8 @@
     {
       "id": 2944,
       "title": "Star Trek Prodigy: Supernova",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5375.jpg"
     },
     {
       "id": 1129,
@@ -12225,8 +12249,8 @@
     {
       "id": 3071,
       "title": "Star Trek: Resurgence",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6g0l.jpg"
     },
     {
       "id": 1130,
@@ -12411,8 +12435,8 @@
     {
       "id": 2950,
       "title": "Story of Seasons: Pioneers of Olive Town",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kjz.jpg"
     },
     {
       "id": 1153,
@@ -12507,8 +12531,8 @@
     {
       "id": 2902,
       "title": "Stubbs the Zombie in Rebel Without a Pulse",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2oy0.jpg"
     },
     {
       "id": 1981,
@@ -13251,8 +13275,8 @@
     {
       "id": 3037,
       "title": "The Eternal Cylinder",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1omg.jpg"
     },
     {
       "id": 1244,
@@ -13311,8 +13335,8 @@
     {
       "id": 2804,
       "title": "The Grinch: Christmas Adventures",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7869.jpg"
     },
     {
       "id": 1250,
@@ -13749,8 +13773,8 @@
     {
       "id": 2836,
       "title": "The Texas Chain Saw Massacre",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6y15.jpg"
     },
     {
       "id": 1302,
@@ -13917,8 +13941,8 @@
     {
       "id": 3027,
       "title": "Tin and Kuna",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g6c.jpg"
     },
     {
       "id": 2959,
@@ -15189,8 +15213,8 @@
     {
       "id": 3022,
       "title": "Winter Games 2023",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co536u.jpg"
     },
     {
       "id": 1438,
@@ -15315,8 +15339,8 @@
     {
       "id": 2848,
       "title": "World of Outlaws: Dirt Racing",
-      "source": "MISSING",
-      "url": null
+      "source": "LEGACY_IGDB",
+      "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co536t.jpg"
     },
     {
       "id": 1450,
