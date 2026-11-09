@@ -1,39 +1,41 @@
 {
-  "generatedAt": "2026-11-09T17:42:31.398Z",
+  "generatedAt": "2026-11-09T17:58:47.732Z",
   "summary": {
-    "generatedAt": "2026-11-09T17:42:31.398Z",
+    "generatedAt": "2026-11-09T17:58:47.732Z",
     "included": 2622,
-    "good": 2327,
+    "good": 2347,
     "fallback": 8,
-    "review": 271,
-    "watch": 16,
-    "physicalVerify": 269,
-    "physicalLikely": 1446,
-    "physicalConfirmed": 907,
+    "review": 252,
+    "watch": 15,
+    "physicalVerify": 249,
+    "physicalLikely": 1465,
+    "physicalConfirmed": 908,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "missing_cover": 75,
-      "key_art_only": 178,
+      "missing_cover": 57,
+      "key_art_only": 177,
       "missing_ps4_banner": 18
     },
     "watchByReason": {
-      "image_fetch_failed": 16
+      "image_fetch_failed": 15
     },
-    "synthetic": 210,
+    "synthetic": 209,
     "displayTiers": {
-      "GOOD": 2327,
+      "GOOD": 2347,
       "FALLBACK": 8,
-      "SYNTHETIC": 210,
-      "BLANK": 77
+      "SYNTHETIC": 209,
+      "BLANK": 58
     },
     "syntheticByRealState": {
-      "REVIEW": 196,
+      "REVIEW": 195,
       "WATCH": 14
     },
-    "syntheticIgnoredRealCover": [],
+    "syntheticIgnoredRealCover": [
+      2049
+    ],
     "syntheticMissingFile": []
   },
   "review": [
@@ -60,16 +62,6 @@
     {
       "id": 3062,
       "title": "Disco Elysium: The Final Cut",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3011,
-      "title": "Disgaea 6 Complete",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3060,
-      "title": "Disgaea 7: Vows of the Virtueless",
       "reason": "missing_cover"
     },
     {
@@ -113,11 +105,6 @@
       "reason": "missing_cover"
     },
     {
-      "id": 2932,
-      "title": "Hotel Transylvania: Scary Tale Adventure",
-      "reason": "missing_cover"
-    },
-    {
       "id": 2823,
       "title": "Jurassic World Evolution 2",
       "reason": "missing_cover"
@@ -148,11 +135,6 @@
       "reason": "missing_cover"
     },
     {
-      "id": 3076,
-      "title": "MADiSON",
-      "reason": "missing_cover"
-    },
-    {
       "id": 3018,
       "title": "Maglam Lord",
       "reason": "missing_cover"
@@ -160,11 +142,6 @@
     {
       "id": 2988,
       "title": "Matchbox Driving Adventures",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2982,
-      "title": "Matchpoint: Tennis Championships",
       "reason": "missing_cover"
     },
     {
@@ -208,11 +185,6 @@
       "reason": "missing_cover"
     },
     {
-      "id": 3052,
-      "title": "Monster Menu: The Scavenger's Cookbook",
-      "reason": "missing_cover"
-    },
-    {
       "id": 3004,
       "title": "Moving Out 2",
       "reason": "missing_cover"
@@ -233,11 +205,6 @@
       "reason": "missing_cover"
     },
     {
-      "id": 3044,
-      "title": "New Tales from the Borderlands",
-      "reason": "missing_cover"
-    },
-    {
       "id": 2947,
       "title": "Nick Jr. Party Adventure",
       "reason": "missing_cover"
@@ -253,23 +220,8 @@
       "reason": "missing_cover"
     },
     {
-      "id": 3031,
-      "title": "Phoenix Point",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2922,
-      "title": "Planet Coaster: Console Edition",
-      "reason": "missing_cover"
-    },
-    {
       "id": 2860,
       "title": "Police Simulator: Patrol Officers",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3057,
-      "title": "Process of Elimination",
       "reason": "missing_cover"
     },
     {
@@ -283,33 +235,8 @@
       "reason": "missing_cover"
     },
     {
-      "id": 2992,
-      "title": "Re:Zero - The Prophecy of the Throne",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2981,
-      "title": "Redout 2",
-      "reason": "missing_cover"
-    },
-    {
       "id": 2997,
       "title": "Reel Fishing: Road Trip Adventure",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2946,
-      "title": "REYNATIS",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2938,
-      "title": "RiMS Racing Sim",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2865,
-      "title": "RollerCoaster Tycoon Adventures Deluxe",
       "reason": "missing_cover"
     },
     {
@@ -368,11 +295,6 @@
       "reason": "missing_cover"
     },
     {
-      "id": 2923,
-      "title": "The Dungeon of Naheulbeuk: The Amulet of Chaos",
-      "reason": "missing_cover"
-    },
-    {
       "id": 3037,
       "title": "The Eternal Cylinder",
       "reason": "missing_cover"
@@ -380,16 +302,6 @@
     {
       "id": 2804,
       "title": "The Grinch: Christmas Adventures",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2911,
-      "title": "The Knight Witch",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3043,
-      "title": "The Legend of Heroes: Trails to Azure",
       "reason": "missing_cover"
     },
     {
@@ -1133,11 +1045,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2049,
-      "title": "The Legend of Heroes: Trails through Daybreak II",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1298,
       "title": "The Swindle",
       "reason": "key_art_only"
@@ -1489,11 +1396,6 @@
     {
       "id": 1685,
       "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 2332,
-      "title": "Oxide Room 104",
       "reason": "image_fetch_failed"
     },
     {
@@ -2747,13 +2649,6 @@
       "id": 2019,
       "title": "The King of Fighters 2000",
       "url": "covers/ps4-synthetic/2019.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2049,
-      "title": "The Legend of Heroes: Trails through Daybreak II",
-      "url": "covers/ps4-synthetic/2049.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
