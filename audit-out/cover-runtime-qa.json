@@ -1,33 +1,33 @@
 {
-  "generatedAt": "2026-11-09T17:24:59.609Z",
+  "generatedAt": "2026-11-09T17:39:39.157Z",
   "summary": {
-    "generatedAt": "2026-11-09T17:24:59.609Z",
-    "included": 2623,
-    "good": 2269,
+    "generatedAt": "2026-11-09T17:39:39.157Z",
+    "included": 2622,
+    "good": 2328,
     "fallback": 8,
-    "review": 324,
-    "watch": 22,
-    "physicalVerify": 328,
-    "physicalLikely": 1387,
+    "review": 271,
+    "watch": 15,
+    "physicalVerify": 268,
+    "physicalLikely": 1446,
     "physicalConfirmed": 908,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "missing_cover": 128,
+      "missing_cover": 75,
       "key_art_only": 178,
       "missing_ps4_banner": 18
     },
     "watchByReason": {
-      "image_fetch_failed": 22
+      "image_fetch_failed": 15
     },
     "synthetic": 210,
     "displayTiers": {
-      "GOOD": 2269,
+      "GOOD": 2328,
       "FALLBACK": 8,
       "SYNTHETIC": 210,
-      "BLANK": 136
+      "BLANK": 76
     },
     "syntheticByRealState": {
       "REVIEW": 196,
@@ -45,21 +45,6 @@
     {
       "id": 2827,
       "title": "Call of Duty: Black Ops 7",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3059,
-      "title": "Coffee Talk Episode 2: Hibiscus & Butterfly",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2801,
-      "title": "Curse of the Sea Rats",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3055,
-      "title": "Days of Doom",
       "reason": "missing_cover"
     },
     {
@@ -88,38 +73,13 @@
       "reason": "missing_cover"
     },
     {
-      "id": 2886,
-      "title": "Dolphin Spirit: Ocean Mission",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2869,
-      "title": "DreamWorks All-Star Kart Racing",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3041,
-      "title": "DreamWorks Spirit Lucky's Big Adventure",
-      "reason": "missing_cover"
-    },
-    {
       "id": 2913,
       "title": "ELEX II",
       "reason": "missing_cover"
     },
     {
-      "id": 2975,
-      "title": "Endling - Extinction is Forever",
-      "reason": "missing_cover"
-    },
-    {
       "id": 2878,
       "title": "Exoprimal",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2906,
-      "title": "Family Feud",
       "reason": "missing_cover"
     },
     {
@@ -133,16 +93,6 @@
       "reason": "missing_cover"
     },
     {
-      "id": 2814,
-      "title": "Five Nights at Freddy's: Security Breach",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2806,
-      "title": "Gabby's Dollhouse: Ready to Party",
-      "reason": "missing_cover"
-    },
-    {
       "id": 2909,
       "title": "Ghostbusters: Spirits Unleashed",
       "reason": "missing_cover"
@@ -153,18 +103,8 @@
       "reason": "missing_cover"
     },
     {
-      "id": 3056,
-      "title": "Goodbye World",
-      "reason": "missing_cover"
-    },
-    {
       "id": 2822,
       "title": "Gran Turismo 7",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2978,
-      "title": "Hello Neighbor 2",
       "reason": "missing_cover"
     },
     {
@@ -180,16 +120,6 @@
     {
       "id": 2823,
       "title": "Jurassic World Evolution 2",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3001,
-      "title": "Kamiwaza: Way of the Thief",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2968,
-      "title": "KONOSUBA - God's Blessing on this Wonderful World! Love For These Clothes Of Desire!",
       "reason": "missing_cover"
     },
     {
@@ -210,11 +140,6 @@
     {
       "id": 2972,
       "title": "Life in Willowdale: Farm Adventures",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2876,
-      "title": "Looney Tunes: Wacky World of Sports",
       "reason": "missing_cover"
     },
     {
@@ -263,11 +188,6 @@
       "reason": "missing_cover"
     },
     {
-      "id": 2989,
-      "title": "Mickey Storm and the Cursed Mask",
-      "reason": "missing_cover"
-    },
-    {
       "id": 3013,
       "title": "Minecraft Legends",
       "reason": "missing_cover"
@@ -283,33 +203,13 @@
       "reason": "missing_cover"
     },
     {
-      "id": 3024,
-      "title": "Monster Crown",
-      "reason": "missing_cover"
-    },
-    {
       "id": 2994,
       "title": "Monster Harvest",
       "reason": "missing_cover"
     },
     {
-      "id": 2905,
-      "title": "Monster Jam Crush It",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2904,
-      "title": "Monster Jam: Steel Titans 2",
-      "reason": "missing_cover"
-    },
-    {
       "id": 3052,
       "title": "Monster Menu: The Scavenger's Cookbook",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2881,
-      "title": "Mount & Blade II: Bannerlord",
       "reason": "missing_cover"
     },
     {
@@ -333,16 +233,6 @@
       "reason": "missing_cover"
     },
     {
-      "id": 3006,
-      "title": "New Joe and Mac Caveman Ninja",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2936,
-      "title": "New Super Lucky's Tale",
-      "reason": "missing_cover"
-    },
-    {
       "id": 3044,
       "title": "New Tales from the Borderlands",
       "reason": "missing_cover"
@@ -350,16 +240,6 @@
     {
       "id": 2947,
       "title": "Nick Jr. Party Adventure",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3051,
-      "title": "NOOB: The Factionless",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2815,
-      "title": "Outriders",
       "reason": "missing_cover"
     },
     {
@@ -383,16 +263,6 @@
       "reason": "missing_cover"
     },
     {
-      "id": 2966,
-      "title": "Poison Control",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2931,
-      "title": "Poker Club",
-      "reason": "missing_cover"
-    },
-    {
       "id": 2860,
       "title": "Police Simulator: Patrol Officers",
       "reason": "missing_cover"
@@ -400,11 +270,6 @@
     {
       "id": 3057,
       "title": "Process of Elimination",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2963,
-      "title": "Puyo Puyo Tetris 2",
       "reason": "missing_cover"
     },
     {
@@ -423,11 +288,6 @@
       "reason": "missing_cover"
     },
     {
-      "id": 2897,
-      "title": "Real Farm",
-      "reason": "missing_cover"
-    },
-    {
       "id": 2981,
       "title": "Redout 2",
       "reason": "missing_cover"
@@ -443,18 +303,8 @@
       "reason": "missing_cover"
     },
     {
-      "id": 2986,
-      "title": "RICO London",
-      "reason": "missing_cover"
-    },
-    {
       "id": 2938,
       "title": "RiMS Racing Sim",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2885,
-      "title": "Road 96",
       "reason": "missing_cover"
     },
     {
@@ -463,23 +313,8 @@
       "reason": "missing_cover"
     },
     {
-      "id": 2832,
-      "title": "Rust: Console Edition",
-      "reason": "missing_cover"
-    },
-    {
       "id": 2991,
       "title": "Ryan's Rescue Squad",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2917,
-      "title": "Samurai Warriors 5",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2937,
-      "title": "Session: Skate Sim",
       "reason": "missing_cover"
     },
     {
@@ -498,11 +333,6 @@
       "reason": "missing_cover"
     },
     {
-      "id": 3072,
-      "title": "Smurfs Kart",
-      "reason": "missing_cover"
-    },
-    {
       "id": 2901,
       "title": "Sniper Elite 5",
       "reason": "missing_cover"
@@ -510,11 +340,6 @@
     {
       "id": 3017,
       "title": "Speed 3 Grand Prix",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2919,
-      "title": "Star Ocean: The Divine Force",
       "reason": "missing_cover"
     },
     {
@@ -538,28 +363,8 @@
       "reason": "missing_cover"
     },
     {
-      "id": 2888,
-      "title": "Street Outlaws 2: Winner Takes All",
-      "reason": "missing_cover"
-    },
-    {
       "id": 2902,
       "title": "Stubbs the Zombie in Rebel Without a Pulse",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3030,
-      "title": "Super Bullet Break",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2820,
-      "title": "The Crew Motorfest",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3000,
-      "title": "The Cruel King and the Great Hero",
       "reason": "missing_cover"
     },
     {
@@ -583,23 +388,8 @@
       "reason": "missing_cover"
     },
     {
-      "id": 2925,
-      "title": "The Last Stand: Aftermath",
-      "reason": "missing_cover"
-    },
-    {
       "id": 3043,
       "title": "The Legend of Heroes: Trails to Azure",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2808,
-      "title": "The Rumble Fish 2",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3049,
-      "title": "The Sisters: Party of the Year",
       "reason": "missing_cover"
     },
     {
@@ -613,63 +403,8 @@
       "reason": "missing_cover"
     },
     {
-      "id": 2959,
-      "title": "Tin Hearts",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2915,
-      "title": "Transformers Galactic Trials",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2920,
-      "title": "Trek to Yomi",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2887,
-      "title": "Trinity Trigger",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2952,
-      "title": "Trolls Remix Rescue",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3050,
-      "title": "Tunic",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3021,
-      "title": "Turnip Boy Commits Tax Evasion",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2955,
-      "title": "Under Night In-Birth Exe:Late[st]",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2965,
-      "title": "Where the Heart Leads",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2802,
-      "title": "Willy Morgan and the Curse of Bone Town",
-      "reason": "missing_cover"
-    },
-    {
       "id": 3022,
       "title": "Winter Games 2023",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3067,
-      "title": "Witch on the Holy Night",
       "reason": "missing_cover"
     },
     {
@@ -1707,33 +1442,8 @@
       "reason": "image_fetch_failed"
     },
     {
-      "id": 1800,
-      "title": "Assassin's Creed Valhalla",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 217,
-      "title": "Call of Duty: Black Ops 4",
-      "reason": "image_fetch_failed"
-    },
-    {
       "id": 1969,
       "title": "Cannon Dancer",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 385,
-      "title": "Don't Knock Twice",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 407,
-      "title": "Dragon Quest XI: Echoes of an Elusive Age",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 414,
-      "title": "Duck Game",
       "reason": "image_fetch_failed"
     },
     {
@@ -1754,11 +1464,6 @@
     {
       "id": 2469,
       "title": "Kyukyoku Tiger / Twin Cobra",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 709,
-      "title": "LEGO Star Wars: The Force Awakens",
       "reason": "image_fetch_failed"
     },
     {
@@ -1794,11 +1499,6 @@
     {
       "id": 2696,
       "title": "Quintessential Quintuplets Fives Memories With You",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 964,
-      "title": "Red Dead Redemption 2",
       "reason": "image_fetch_failed"
     },
     {
