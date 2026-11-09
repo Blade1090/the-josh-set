@@ -5,7 +5,7 @@
 //   app.js -> model-fix.js -> every census-mutating script -> census-finalize.js
 //     (the actual current INCLUDED set, not the raw baked-in data files)
 //   -> dossiers.js (the real dossierFor() / dossierQuality() / auditDossiers())
-//   -> all 63 dossier-overrides-N.js files -> dossier-apply.js (the real override-merge logic)
+//   -> every dossier-overrides-N.js wired in index.html files -> dossier-apply.js (the real override-merge logic)
 // None of that logic is reimplemented here. In particular, coverage is never judged by mere
 // object existence: dossierQuality() already distinguishes good/thin/generic/badSummary/missing,
 // exactly the classification dossierHtml() uses to decide what a user actually sees ("RESEARCH
@@ -25,33 +25,19 @@ import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
 import { fileURLToPath } from 'node:url';
+import { censusMutators, indexScripts } from './lib/runtime-census.mjs';
 
 const REPO = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const OUT_FILE = path.join(REPO, 'audit-out', 'dossier-coverage-audit.json');
 
-// Same list, same order, as every other test/audit script in this repo (tools/census-
-// determinism-test.mjs, tools/wishlist-test.mjs, etc.) -- kept in sync with index.html by hand.
-const CENSUS_MUTATORS = [
-  'census-cleanup.js', 'census-v034.js', 'census-collapse-v035.js', 'census-v035-final.js',
-  'census-v040-pricing-audit.js',
-  'census-v052-pricecharting-negative-space.js', 'census-v053-pricecharting-regional-sweep.js',
-  'census-v054-pricecharting-collection-gap.js', 'census-v055-pricecharting-ab-sweep.js',
-  'census-v056-pricecharting-cf-sweep.js', 'census-v057-pricecharting-gl-sweep.js',
-  'census-v058-pricecharting-mr-sweep.js', 'census-v059-pricecharting-sz-sweep.js',
-  'census-physical-omission-pass-v001.js', 'census-physical-omission-pass-v002.js',
-  'census-physical-omission-pass-v003.js',
-  'census-v060-integrity-scrub.js', 'census-integrity-pass-v001.js', 'census-integrity-pass-v002.js',
-  'ownership-reconcile-v071.js', 'ownership-reconcile-v072.js',
-  'curation-josh-set-pass-v001.js', 'curation-josh-set-pass-v002.js', 'curation-josh-set-pass-v003.js',
-  'curation-josh-set-pass-v004.js',
-];
-
-// dossier-overrides.js is batch 1 (no numeric suffix); dossier-overrides-2.js..-63.js are 2-63.
-// Kept in sync with dossier-apply.js's own DOSSIER_OVERRIDES/_2/../_63 global name list by hand.
-const OVERRIDE_BATCHES = Array.from({ length: 63 }, (_, i) => {
-  const n = i + 1;
-  return { file: n === 1 ? 'dossier-overrides.js' : `dossier-overrides-${n}.js`, global: n === 1 ? 'DOSSIER_OVERRIDES' : `DOSSIER_OVERRIDES_${n}` };
-});
+// Census mutators and dossier override batches are derived from index.html (the same source the
+// page uses), via tools/lib/runtime-census.mjs. The previous hand-maintained lists stopped at
+// curation pass v004 and override batch 63, so newer census additions and batches 64+ were invisible.
+const CENSUS_MUTATORS = censusMutators(REPO);
+const OVERRIDE_BATCHES = indexScripts(REPO)
+  .map((file) => file.match(/^dossier-overrides(?:-(\d+))?\.js$/))
+  .filter(Boolean)
+  .map((m) => ({ file: m[0], global: m[1] ? `DOSSIER_OVERRIDES_${m[1]}` : 'DOSSIER_OVERRIDES' }));
 
 function readFile(name) { return fs.readFileSync(path.join(REPO, name), 'utf8'); }
 
@@ -230,7 +216,7 @@ async function main() {
   const pct = (n) => `${((n / includedCount) * 100).toFixed(2)}%`;
   const report = {
     generatedAt: new Date().toISOString(),
-    method: 'Runtime resolution trace: app.js -> model-fix.js -> full census-mutator pipeline -> census-finalize.js -> dossiers.js (dossierFor/dossierQuality/auditDossiers, real) -> all 63 dossier-overrides-N.js -> dossier-apply.js (real override merge). Coverage is never judged by object existence alone.',
+    method: 'Runtime resolution trace: app.js -> model-fix.js -> full census-mutator pipeline -> census-finalize.js -> dossiers.js (dossierFor/dossierQuality/auditDossiers, real) -> every dossier-overrides-N.js wired in index.html -> dossier-apply.js (real override merge). Coverage is never judged by object existence alone.',
     includedCensusCount: includedCount,
     liveRuntimeDossierAudit: liveAudit,
     categories: {
