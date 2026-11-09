@@ -53,6 +53,27 @@ TARGETS = [
     {'id':1278,'title':'The Mummy Demastered','aliases':['The Mummy Demastered [Limited Run]','The Mummy Demastered [Collector\'s Edition]']},
     {'id':1336,'title':"Tom Clancy's Rainbow Six Siege: Advanced Edition",'aliases':['Rainbow Six Siege [Advanced Edition]']},
     {'id':1774,'title':'Umbrella Corps','aliases':['Resident Evil Umbrella Corps','Biohazard Umbrella Corps']},
+    # GameStop discovery integration (2026-11-09): retail PS4 product names verified on opened
+    # PriceCharting PS4/PAL PS4 product pages during price batch 009 (same playable game).
+    {'id':3011,'title':'Disgaea 6 Complete','aliases':['Disgaea 6 Complete [Deluxe Edition]']},
+    {'id':3060,'title':'Disgaea 7: Vows of the Virtueless','aliases':['Disgaea 7: Vows of the Virtueless: Deluxe Edition']},
+    {'id':2932,'title':'Hotel Transylvania: Scary Tale Adventure','aliases':['Hotel Transylvania Scary-Tale Adventures']},
+    {'id':3076,'title':'MADiSON','aliases':['Madison [Possessed Edition]']},
+    {'id':2982,'title':'Matchpoint: Tennis Championships','aliases':['Matchpoint: Tennis Championships [Legends Edition]']},
+    {'id':3052,'title':"Monster Menu: The Scavenger's Cookbook",'aliases':["Monster Menu: The Scavenger's Cookbook [Deluxe Edition]"]},
+    {'id':3044,'title':'New Tales from the Borderlands','aliases':['New Tales from the Borderlands [Deluxe Edition]']},
+    {'id':2954,'title':'Override 2: Super Mech League','aliases':['Override 2: Super Mech League [Ultraman Deluxe Edition]']},
+    {'id':3031,'title':'Phoenix Point','aliases':['Phoenix Point [Behemoth Edition]']},
+    {'id':2922,'title':'Planet Coaster: Console Edition','aliases':['Planet Coaster']},
+    {'id':3057,'title':'Process of Elimination','aliases':['Process of Elimination [Deluxe Edition]']},
+    {'id':2992,'title':'Re:Zero - The Prophecy of the Throne','aliases':['Re:ZERO - Starting Life in Another World: The Prophecy of the Throne']},
+    {'id':2981,'title':'Redout 2','aliases':['Redout II: Deluxe Edition']},
+    {'id':2946,'title':'REYNATIS','aliases':['Reynatis: Deluxe Edition']},
+    {'id':2938,'title':'RiMS Racing Sim','aliases':['RiMS Racing']},
+    {'id':2865,'title':'RollerCoaster Tycoon Adventures Deluxe','aliases':['Roller Coaster Tycoon Adventures Deluxe']},
+    {'id':2923,'title':'The Dungeon of Naheulbeuk: The Amulet of Chaos','aliases':['The Dungeon of Naheulbeuk: The Amulet of Chaos [Chicken Edition]']},
+    {'id':2911,'title':'The Knight Witch','aliases':['The Knight Witch: Deluxe Edition']},
+    {'id':3043,'title':'The Legend of Heroes: Trails to Azure','aliases':['The Legend Of Heroes: Trails To Azure [Deluxe Edition]']},
 ]
 
 spec = importlib.util.spec_from_file_location('shelfcheck_pc_base', BASE_SCRIPT)
