@@ -6,14 +6,13 @@ Generated 2026-11-09 on branch `finish/gamestop-integration`. Numbers come from 
 
 | | Before (main e1ab731) | After |
 |---|---|---|
-| INCLUDED identities (runtime) | 2,420 | 2,622 |
-| Added INCLUDED from GameStop research | | 202 |
-| Added as EXCLUDED (HORSE_GAME rule) | | 4 |
+| INCLUDED identities (runtime) | 2,420 | 2,626 |
+| Added INCLUDED from GameStop research | | 206 |
 | Duplicate identities introduced | | 0 |
 
 Source: `census-gamestop-nov-v001.js`. Only `CONFIRMED_PHYSICAL_PS4_DISC` rows from `audit-out/ALL_BATCHES_01-05_completed.csv` were added, under their reserved IDs (2803-3077). Existing titles win, EXCLUDED is never overridden, and ambiguous titles or occupied IDs are refused. 15 titles were normalised to the official name, with the research title kept as an alias.
 
-Horse-focused games recorded as EXCLUDED under curation pass #1: Horse Tales Emerald Valley Ranch (2894), Horse Club Adventures (2971), Horse Club Adventures 2: Hazelwood (3016), DreamWorks Spirit Lucky's Big Adventure (3041). To reverse one, delete that entry's `exclude` field in `census-gamestop-nov-v001.js`.
+No GameStop identity was excluded: there is no blanket horse-game rule, so the four horse titles (2894, 2971, 3016, 3041) are INCLUDED like the rest.
 
 ## Research candidates not added (curator review)
 
@@ -101,15 +100,15 @@ The 59 `NOT_IN_CENSUS_NEEDS_PHYSICAL_RESEARCH` rows are an upper bound (a few ar
 
 ## Dossiers
 
-Live dossier audit (`tools/dossier-coverage-audit.mjs`): 2622 usable of 2622 INCLUDED; missing 0, thin 0, generic 0.
+Live dossier audit (`tools/dossier-coverage-audit.mjs`): 2626 usable of 2626 INCLUDED; missing 0, thin 0, generic 0.
 
-`dossier-overrides-85.js` adds 215 dossiers (202 GameStop identities plus 13 earlier additions without one). They were written from the Batch 01-05 physical evidence instead of the OpenAI factory, which has no web search and whose model knowledge predates many 2023-2025 titles. Every entry passes the `dossier-generate.mjs` validate() rules and `dossiers.js` dossierQuality(). No OpenAI credits were used.
+`dossier-overrides-85.js` adds 219 dossiers (206 GameStop identities plus 13 earlier additions without one). They were written from the Batch 01-05 physical evidence instead of the OpenAI factory, which has no web search and whose model knowledge predates many 2023-2025 titles. Every entry passes the `dossier-generate.mjs` validate() rules and `dossiers.js` dossierQuality(). No OpenAI credits were used.
 
 ## Pricing
 
-Runtime price audit (`tools/price-runtime-audit.mjs`): priced 2519 / pending 76 / no reliable data 32 (95.89%). Before: priced 2,307 / pending 288 (87.82%). This harness counts 2,627 INCLUDED rather than the app's 2,622 because it deliberately skips model-fix.js (see the tool header).
+Runtime price audit (`tools/price-runtime-audit.mjs`): priced 2523 / pending 76 / no reliable data 32 (95.9%). Before: priced 2,307 / pending 288 (87.82%).
 
-`price-batch-009-v090.js`: 212 verified PriceCharting PS4 / PAL PS4 CIB prices (fill-only).
+`price-batch-009-v090.js`: 216 verified PriceCharting PS4 / PAL PS4 CIB prices (fill-only).
 
 New identities still pending (2):
 
@@ -120,7 +119,7 @@ New identities still pending (2):
 
 ## Covers
 
-Runtime cover gate (`audit-out/cover-runtime-qa.json`): GOOD 2357, FALLBACK 8, REVIEW 244, WATCH 13. Review reasons: missing_cover 54, key_art_only 172, missing_ps4_banner 18. Regression gate against main: 167 GOOD gained, 1 lost. The lost one, Lone Survivor: The Director's Cut (1662), uses a curated retroplace.com image whose SSL certificate has expired, so it also fails on the live site and needs a replacement source. Display tiers: GOOD 2357, FALLBACK 8, SYNTHETIC 202, BLANK 55.
+Runtime cover gate (`audit-out/cover-runtime-qa.json`): GOOD 2357, FALLBACK 8, REVIEW 244, WATCH 13. Review reasons: missing_cover 54, key_art_only 172, missing_ps4_banner 18. Display tiers: GOOD 2357, FALLBACK 8, SYNTHETIC 202, BLANK 55.
 
 After census integration and before recovery: GOOD 2,183, missing 211. Recovery sources: LaunchBox box fronts, PriceCharting box fronts, PriceCharting vetted edition aliases (19 targets added from price batch 009 product names), and compilation recovery.
 

@@ -1,6 +1,6 @@
 // ShelfCheck pricing — batch 009 (GameStop discovery integration, 2026-11-09).
 //
-// 212 newly integrated identities priced from PriceCharting PS4 product pages (CIB / complete
+// 216 newly integrated identities priced from PriceCharting PS4 product pages (CIB / complete
 // price). Each product page was opened and accepted only when its platform was Playstation 4 or
 // PAL Playstation 4 and its product name matched the census identity (retail edition names such
 // as [Deluxe Edition] or regional titles such as FIA European Truck Racing Championship are the
@@ -85,6 +85,7 @@
     ["Trinity Trigger",23,"Trinity Trigger","Playstation 4"],
     ["Street Outlaws 2: Winner Takes All",12.86,"Street Outlaws 2: Winner Takes All","Playstation 4"],
     ["Baja: Edge of Control HD",18.61,"Baja Edge of Control HD","PAL Playstation 4"],
+    ["Horse Tales Emerald Valley Ranch",24.98,"Horse Tales: Emerald Valley Ranch [Limited Edition]","Playstation 4"],
     ["The Smurfs 2: Prisoner of the Green Stone",21.99,"The Smurfs 2: Prisoner of the Green Stone","Playstation 4"],
     ["Cobra Kai: The Karate Kid Saga Continues",7.02,"Cobra Kai: The Karate Kid Saga Continues","Playstation 4"],
     ["Real Farm",11.56,"Real Farm","Playstation 4"],
@@ -146,6 +147,7 @@
     ["Monster Truck Championship",16.05,"Monster Truck Championship","Playstation 4"],
     ["KONOSUBA - God's Blessing on this Wonderful World! Love For These Clothes Of Desire!",27.61,"Konosuba: God's Blessing On This Wonderful World! Love For These Clothes Of Desire","Playstation 4"],
     ["DreamWorks Dragons: Legends of the Nine Realms",15.04,"Dragons: Legends of the Nine Realms","PAL Playstation 4"],
+    ["Horse Club Adventures",13.3,"Horse Club Adventures","PAL Playstation 4"],
     ["Life in Willowdale: Farm Adventures",12.39,"Life in Willowdale: Farm Adventures","Playstation 4"],
     ["Metal Tales: Overkill",10.95,"Metal Tales: Overkill","Playstation 4"],
     ["Endling - Extinction is Forever",17.99,"Endling Extinction Is Forever","Playstation 4"],
@@ -182,6 +184,7 @@
     ["Disgaea 6 Complete",25.22,"Disgaea 6 Complete [Deluxe Edition]","Playstation 4"],
     ["My Little Pony: A Zephyr Heights Mystery",17.59,"My Little Pony: A Zephyr Heights Mystery","Playstation 4"],
     ["Minecraft Legends",19.99,"Minecraft Legends: Deluxe Edition","Playstation 4"],
+    ["Horse Club Adventures 2: Hazelwood",15.21,"Horse Club Adventures 2: Hazelwood Stories","PAL Playstation 4"],
     ["Speed 3 Grand Prix",9.02,"Speed 3 Grand Prix","Playstation 4"],
     ["Maglam Lord",69.22,"Maglam Lord [Limited Edition]","Playstation 4"],
     ["Kukoos: Lost Pets",13.98,"Kukoos: Lost Pets","Playstation 4"],
@@ -199,6 +202,7 @@
     ["The Eternal Cylinder",21.49,"The Eternal Cylinder","Playstation 4"],
     ["Root Film",16.21,"Root Film","Playstation 4"],
     ["Victor Vran: Overkill Edition",24.91,"Victor Vran Overkill Edition","Playstation 4"],
+    ["DreamWorks Spirit Lucky's Big Adventure",9.99,"Spirit: Lucky's Big Adventure","Playstation 4"],
     ["Surviving the Aftermath",13.79,"Surviving the Aftermath [Day One Edition]","PAL Playstation 4"],
     ["The Legend of Heroes: Trails to Azure",58.39,"The Legend Of Heroes: Trails To Azure [Deluxe Edition]","Playstation 4"],
     ["New Tales from the Borderlands",13.55,"New Tales from the Borderlands [Deluxe Edition]","Playstation 4"],
