@@ -13,6 +13,7 @@ import importlib.util
 import json
 import os
 import re
+import subprocess
 import time
 import urllib.parse
 from collections import Counter, defaultdict
@@ -49,9 +50,26 @@ pc = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(pc)
 
 
+RUNTIME_PRODUCTS_JS = (
+    "import('./tools/lib/runtime-census.mjs').then(async m=>{"
+    "const c=await m.loadRuntimeCensus();process.stdout.write(JSON.stringify(c.DATA.p||[]))})"
+    ".catch(e=>{console.error(e);process.exit(1)})"
+)
+
+
 def load_data():
     b64 = ''.join(open(n, encoding='utf-8').read() for n in ['data0.txt', 'data1.txt', 'data2.txt', 'data3a.txt', 'data3b.txt']).strip()
-    return json.loads(gzip.decompress(base64.b64decode(b64)).decode('utf-8'))
+    data = json.loads(gzip.decompress(base64.b64decode(b64)).decode('utf-8'))
+    # Multi-game products added by census mutations (for example the RayStorm x RayCrisis HD
+    # Collection in census-physical-omission-pass-v006.js) only exist in the finalized runtime
+    # DATA.p, so read that when Node is available and fall back to the base data otherwise.
+    try:
+        out = subprocess.run(['node', '--input-type=module', '-e', RUNTIME_PRODUCTS_JS],
+                             capture_output=True, text=True, encoding='utf-8', timeout=300, check=True)
+        data['p'] = json.loads(out.stdout)
+    except Exception as exc:
+        print('Runtime DATA.p unavailable, using base data products:', exc)
+    return data
 
 
 def load_existing():

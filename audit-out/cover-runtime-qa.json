@@ -1,39 +1,46 @@
 {
-  "generatedAt": "2026-11-09T18:08:22.994Z",
+  "generatedAt": "2026-11-09T18:24:10.753Z",
   "summary": {
-    "generatedAt": "2026-11-09T18:08:22.994Z",
+    "generatedAt": "2026-11-09T18:24:10.753Z",
     "included": 2622,
-    "good": 2348,
+    "good": 2357,
     "fallback": 8,
-    "review": 251,
-    "watch": 15,
-    "physicalVerify": 248,
-    "physicalLikely": 1466,
+    "review": 244,
+    "watch": 13,
+    "physicalVerify": 239,
+    "physicalLikely": 1475,
     "physicalConfirmed": 908,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "missing_cover": 56,
-      "key_art_only": 177,
+      "missing_cover": 54,
+      "key_art_only": 172,
       "missing_ps4_banner": 18
     },
     "watchByReason": {
-      "image_fetch_failed": 15
+      "image_fetch_failed": 13
     },
-    "synthetic": 209,
+    "synthetic": 202,
     "displayTiers": {
-      "GOOD": 2348,
+      "GOOD": 2357,
       "FALLBACK": 8,
-      "SYNTHETIC": 209,
-      "BLANK": 57
+      "SYNTHETIC": 202,
+      "BLANK": 55
     },
     "syntheticByRealState": {
-      "REVIEW": 195,
-      "WATCH": 14
+      "REVIEW": 190,
+      "WATCH": 12
     },
     "syntheticIgnoredRealCover": [
+      1625,
+      2471,
+      2256,
+      2257,
+      2469,
+      1069,
+      1731,
       2049
     ],
     "syntheticMissingFile": []
@@ -217,16 +224,6 @@
     {
       "id": 2860,
       "title": "Police Simulator: Patrol Officers",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2793,
-      "title": "RayCrisis",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 2792,
-      "title": "RayStorm",
       "reason": "missing_cover"
     },
     {
@@ -495,11 +492,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1625,
-      "title": "Galak-Z: The Void",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1938,
       "title": "Gekido Kintaro's Revenge",
       "reason": "key_art_only"
@@ -535,18 +527,8 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2256,
-      "title": "Hammerwatch",
-      "reason": "key_art_only"
-    },
-    {
       "id": 586,
       "title": "Hero Must Die. Again",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 2257,
-      "title": "Heroes of Hammerwatch - Ultimate Edition",
       "reason": "key_art_only"
     },
     {
@@ -840,11 +822,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 1069,
-      "title": "Shenmue II",
-      "reason": "key_art_only"
-    },
-    {
       "id": 1726,
       "title": "Shikhondo: Soul Eater",
       "reason": "key_art_only"
@@ -872,11 +849,6 @@
     {
       "id": 1076,
       "title": "Siralim",
-      "reason": "key_art_only"
-    },
-    {
-      "id": 1731,
-      "title": "Skulls of the Shogun: Bone-a-Fide Edition",
       "reason": "key_art_only"
     },
     {
@@ -1349,11 +1321,6 @@
       "reason": "image_fetch_failed"
     },
     {
-      "id": 2471,
-      "title": "Get Star / Guardian",
-      "reason": "image_fetch_failed"
-    },
-    {
       "id": 1809,
       "title": "Ground Zero: Texas",
       "reason": "image_fetch_failed"
@@ -1361,11 +1328,6 @@
     {
       "id": 1971,
       "title": "Jim Power: The Lost Dimension",
-      "reason": "image_fetch_failed"
-    },
-    {
-      "id": 2469,
-      "title": "Kyukyoku Tiger / Twin Cobra",
       "reason": "image_fetch_failed"
     },
     {
@@ -1738,25 +1700,11 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 1625,
-      "title": "Galak-Z: The Void",
-      "url": "covers/ps4-synthetic/1625.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 1938,
       "title": "Gekido Kintaro's Revenge",
       "url": "covers/ps4-synthetic/1938.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
-    },
-    {
-      "id": 2471,
-      "title": "Get Star / Guardian",
-      "url": "covers/ps4-synthetic/2471.jpg",
-      "realState": "WATCH",
-      "realReason": "image_fetch_failed"
     },
     {
       "id": 2311,
@@ -1815,23 +1763,9 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 2256,
-      "title": "Hammerwatch",
-      "url": "covers/ps4-synthetic/2256.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 586,
       "title": "Hero Must Die. Again",
       "url": "covers/ps4-synthetic/586.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2257,
-      "title": "Heroes of Hammerwatch - Ultimate Edition",
-      "url": "covers/ps4-synthetic/2257.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -1860,13 +1794,6 @@
       "id": 1971,
       "title": "Jim Power: The Lost Dimension",
       "url": "covers/ps4-synthetic/1971.jpg",
-      "realState": "WATCH",
-      "realReason": "image_fetch_failed"
-    },
-    {
-      "id": 2469,
-      "title": "Kyukyoku Tiger / Twin Cobra",
-      "url": "covers/ps4-synthetic/2469.jpg",
       "realState": "WATCH",
       "realReason": "image_fetch_failed"
     },
@@ -2333,13 +2260,6 @@
       "realReason": "key_art_only"
     },
     {
-      "id": 1069,
-      "title": "Shenmue II",
-      "url": "covers/ps4-synthetic/1069.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
       "id": 1726,
       "title": "Shikhondo: Soul Eater",
       "url": "covers/ps4-synthetic/1726.jpg",
@@ -2378,13 +2298,6 @@
       "id": 1076,
       "title": "Siralim",
       "url": "covers/ps4-synthetic/1076.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 1731,
-      "title": "Skulls of the Shogun: Bone-a-Fide Edition",
-      "url": "covers/ps4-synthetic/1731.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
