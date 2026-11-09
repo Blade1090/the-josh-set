@@ -5,6 +5,8 @@ on:
     paths:
       - '.github/workflows/fetch-covers.yml'
       - 'tools/fetch-covers.mjs'
+    branches:
+      - main
 permissions:
   contents: write
 jobs:
@@ -19,17 +21,19 @@ jobs:
           IGDB_CLIENT_SECRET: ${{ secrets.IGDB_CLIENT_SECRET }}
         run: node tools/fetch-covers.mjs
       - name: Commit generated cover manifest
+        env:
+          BRANCH: ${{ github.ref_name }}
         run: |
           cp covers-manifest.js /tmp/covers-manifest.js
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git fetch origin main
-          git reset --hard origin/main
+          git fetch origin "$BRANCH"
+          git reset --hard "origin/$BRANCH"
           cp /tmp/covers-manifest.js covers-manifest.js
           git add covers-manifest.js
           if ! git diff --cached --quiet; then
             git commit -m "Update ShelfCheck IGDB cover manifest"
-            git push origin main
+            git push origin HEAD:"$BRANCH"
           fi
       - uses: actions/upload-artifact@v4
         if: always()
