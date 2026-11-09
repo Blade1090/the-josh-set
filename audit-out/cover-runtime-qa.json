@@ -1,65 +1,54 @@
 {
-  "generatedAt": "2026-11-09T19:37:43.673Z",
+  "generatedAt": "2026-11-09T19:47:17.379Z",
   "summary": {
-    "generatedAt": "2026-11-09T19:37:43.673Z",
+    "generatedAt": "2026-11-09T19:47:17.379Z",
     "included": 2656,
-    "good": 2365,
+    "good": 2384,
     "fallback": 8,
-    "review": 270,
-    "watch": 13,
-    "physicalVerify": 265,
-    "physicalLikely": 1475,
+    "review": 250,
+    "watch": 14,
+    "physicalVerify": 247,
+    "physicalLikely": 1493,
     "physicalConfirmed": 916,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "missing_cover": 27,
-      "key_art_only": 225,
-      "missing_ps4_banner": 18
+      "missing_cover": 10,
+      "key_art_only": 223,
+      "missing_ps4_banner": 17
     },
     "watchByReason": {
-      "image_fetch_failed": 13
+      "image_fetch_failed": 14
     },
-    "synthetic": 261,
+    "synthetic": 258,
     "displayTiers": {
-      "GOOD": 2365,
+      "GOOD": 2384,
       "FALLBACK": 8,
-      "SYNTHETIC": 261,
-      "BLANK": 22
+      "SYNTHETIC": 258,
+      "BLANK": 6
     },
     "syntheticByRealState": {
-      "REVIEW": 248,
+      "REVIEW": 245,
       "WATCH": 13
     },
-    "syntheticIgnoredRealCover": [],
+    "syntheticIgnoredRealCover": [
+      1682,
+      2997,
+      2848
+    ],
     "syntheticMissingFile": []
   },
   "review": [
-    {
-      "id": 3095,
-      "title": "Cry Babies Magic Tears: The Big Game",
-      "reason": "missing_cover"
-    },
     {
       "id": 2790,
       "title": "Diablo IV",
       "reason": "missing_cover"
     },
     {
-      "id": 3102,
-      "title": "Doki Doki Literature Club Plus!",
-      "reason": "missing_cover"
-    },
-    {
       "id": 3041,
       "title": "DreamWorks Spirit Lucky's Big Adventure",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3106,
-      "title": "Firefighting Simulator: The Squad",
       "reason": "missing_cover"
     },
     {
@@ -73,78 +62,13 @@
       "reason": "missing_cover"
     },
     {
-      "id": 3100,
-      "title": "Mars Odyssey",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3090,
-      "title": "My Universe: Cooking Star Restaurant",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3092,
-      "title": "My Universe: Doctors & Nurses",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3087,
-      "title": "My Universe: Fashion Boutique",
-      "reason": "missing_cover"
-    },
-    {
       "id": 3089,
       "title": "My Universe: My Baby",
       "reason": "missing_cover"
     },
     {
-      "id": 3093,
-      "title": "My Universe: Pet Clinic Cats & Dogs",
-      "reason": "missing_cover"
-    },
-    {
       "id": 3088,
       "title": "My Universe: Puppies & Kittens",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3091,
-      "title": "My Universe: School Teacher",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3082,
-      "title": "NASCAR Arcade Rush",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3101,
-      "title": "Ninja Kidz: Time Masters",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3096,
-      "title": "Pickleball: Smash",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3107,
-      "title": "Postal 4: No Regerts",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3105,
-      "title": "Professor Rubik's Brain Fitness",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3104,
-      "title": "RiffTrax: The Game",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3094,
-      "title": "Santa's Xmas Adventure",
       "reason": "missing_cover"
     },
     {
@@ -155,11 +79,6 @@
     {
       "id": 3099,
       "title": "The Outbound Ghost",
-      "reason": "missing_cover"
-    },
-    {
-      "id": 3084,
-      "title": "The Quest for Excalibur: Puy du Fou",
       "reason": "missing_cover"
     },
     {
@@ -753,11 +672,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2997,
-      "title": "Reel Fishing: Road Trip Adventure",
-      "reason": "key_art_only"
-    },
-    {
       "id": 970,
       "title": "Regions Of Ruin",
       "reason": "key_art_only"
@@ -1263,11 +1177,6 @@
       "reason": "key_art_only"
     },
     {
-      "id": 2848,
-      "title": "World of Outlaws: Dirt Racing",
-      "reason": "key_art_only"
-    },
-    {
       "id": 2367,
       "title": "Wytchwood",
       "reason": "key_art_only"
@@ -1325,11 +1234,6 @@
     {
       "id": 1839,
       "title": "Another Crusade",
-      "reason": "missing_ps4_banner"
-    },
-    {
-      "id": 1682,
-      "title": "Now That's What I Call Sing",
       "reason": "missing_ps4_banner"
     },
     {
@@ -1494,6 +1398,11 @@
     {
       "id": 1756,
       "title": "The Journey Down: Chapter Two",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "id": 2363,
+      "title": "Unicorn Overlord",
       "reason": "image_fetch_failed"
     }
   ],
@@ -2374,13 +2283,6 @@
       "realReason": "image_fetch_failed"
     },
     {
-      "id": 1682,
-      "title": "Now That's What I Call Sing",
-      "url": "covers/ps4-synthetic/1682.jpg",
-      "realState": "REVIEW",
-      "realReason": "missing_ps4_banner"
-    },
-    {
       "id": 2666,
       "title": "Octopath Traveler 0",
       "url": "covers/ps4-synthetic/2666.jpg",
@@ -2510,13 +2412,6 @@
       "id": 2707,
       "title": "Raidou Remastered: Mystery Of The Soulless Army",
       "url": "covers/ps4-synthetic/2707.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2997,
-      "title": "Reel Fishing: Road Trip Adventure",
-      "url": "covers/ps4-synthetic/2997.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
@@ -3273,13 +3168,6 @@
       "id": 2022,
       "title": "Witchcrafty",
       "url": "covers/ps4-synthetic/2022.jpg",
-      "realState": "REVIEW",
-      "realReason": "key_art_only"
-    },
-    {
-      "id": 2848,
-      "title": "World of Outlaws: Dirt Racing",
-      "url": "covers/ps4-synthetic/2848.jpg",
       "realState": "REVIEW",
       "realReason": "key_art_only"
     },
