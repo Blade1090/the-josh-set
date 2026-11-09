@@ -1,6 +1,6 @@
 // ShelfCheck v1.05 — random game picker (NEEDED), price bands, playtime bands, and quick buy advice.
 (()=>{
-let priceBand='ALL',ownedBand='ALL',buyChoice=null,randomCycle={universe:null,remaining:[],lastId:null};
+let priceBand='ALL',ownedBand='ALL',buyChoice=null,lastRandomMode='NEEDED';
 const bands=[['ALL','ALL PRICES'],['UNDER10','UNDER $10'],['10TO20','$10–20'],['20TO40','$20–40'],['40PLUS','$40+'],['PENDING','PRICE PENDING'],['NODATA','NO RELIABLE DATA']];
 const lengthBands=[['ALL','ANY LENGTH'],['UNDER4','UNDER 4H'],['4TO8','4–8H'],['8TO15','8–15H'],['15TO30','15–30H'],['30PLUS','30H+'],['PENDING','TIME PENDING']];
 const market=x=>{const p=priceFor(x),n=Number(p?.m??p?.x??x.max);return Number.isFinite(n)&&n>0?n:null};
@@ -20,9 +20,10 @@ function neededTools(){const results=$('#results');if(filter!=='NEEDED'||!result
 function ownedTools(){const results=$('#results');if(filter!=='OWNED'||!results)return;const pool=ownedPool(),box=document.createElement('section');box.className='hunt-tools owned-random-tools';box.innerHTML=`<div class="hunt-random"><div><small>CAN'T PICK YOUR NEXT GAME?</small><b>${pool.length} ${pool.length===1?'game':'games'} in this playtime</b></div><button id="randomOwned">🎲 WHAT SHOULD I PLAY?</button></div><div class="price-bands length-bands">${lengthBands.map(([key,label])=>`<button data-length="${key}" class="${ownedBand===key?'active':''}">${label}</button>`).join('')}</div>`;results.before(box);box.querySelector('#randomOwned').onclick=randomGame;box.querySelector('.length-bands').onclick=e=>{const key=e.target.dataset.length;if(!key)return;ownedBand=key;visibleLimit=70;render()}}
 function resetDialogScroll(){if(dlg)dlg.scrollTop=0}
 function shuffle(arr){for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]]}return arr}
-function drawRandomId(pool){const ids=pool.map(x=>x.id),universe=randomCycle.universe,sameUniverse=!!universe&&universe.size===ids.length&&ids.every(id=>universe.has(id));if(!sameUniverse||!randomCycle.remaining.length){const shuffled=shuffle(ids.slice()),last=shuffled.length-1;if(last>0&&shuffled[last]===randomCycle.lastId){const j=Math.floor(Math.random()*last);[shuffled[last],shuffled[j]]=[shuffled[j],shuffled[last]]}randomCycle={universe:new Set(ids),remaining:shuffled,lastId:randomCycle.lastId}}const id=randomCycle.remaining.pop();randomCycle.lastId=id;return id}
+// No-repeat cycle lives in random-cycle-v001.js (survives pool changes and reloads; see its header).
+function drawRandomId(pool,mode){lastRandomMode=mode;return window.SHELFCHECK_RANDOM_CYCLE.shared.draw(pool.map(x=>x.id),mode)}
 let lastRandomWishlistId=null;
-function randomGame(){const owned=filter==='OWNED',pool=owned?ownedPool():neededPool();if(!pool.length){$('#syncmsg').textContent=owned?'No owned games match this search.':'No needed games match this price range.';return}const x=byId.get(drawRandomId(pool));lastRandomWishlistId=owned?null:x.id;detail(x.id);resetDialogScroll();randomDetailButton();
+function randomGame(){const owned=filter==='OWNED',pool=owned?ownedPool():neededPool();if(!pool.length){$('#syncmsg').textContent=owned?'No owned games match this search.':'No needed games match this price range.';return}const x=byId.get(drawRandomId(pool,owned?'OWNED':'NEEDED'));lastRandomWishlistId=owned?null:x.id;detail(x.id);resetDialogScroll();randomDetailButton();
   // detail() (dossiers.js) itself may re-paint #detail from scratch once more at 500ms if
   // dossier/HLTB data wasn't ready yet at call time -- that repaint replaces the whole
   // container, wiping these controls, so re-run once more just after it. Skipped entirely once
@@ -36,7 +37,7 @@ function randomGame(){const owned=filter==='OWNED',pool=owned?ownedPool():needed
 // shuffled no-repeat queue), at idle, so ANOTHER RANDOM GAME paints its cover immediately.
 // Read-only peek: never reorders or consumes the queue. Uses the cover policy's display resolver
 // (real GOOD/FALLBACK > SYNTHETIC), so art the quality gate hides is never pre-warmed.
-function warmNextRandomCover(){if(typeof Image!=='function')return;const next=randomCycle.remaining[randomCycle.remaining.length-1];if(next==null)return;const run=()=>{const x=byId.get(next),url=x&&(window.SHELFCHECK_COVER_POLICY?.displayCoverFor?window.SHELFCHECK_COVER_POLICY.displayCoverFor(x).url:window.SHELFCHECK_COVER_ART?.coverFor?.(x));if(!url)return;const im=new Image();im.decoding='async';im.src=url};window.requestIdleCallback?requestIdleCallback(run,{timeout:600}):setTimeout(run,200)}
+function warmNextRandomCover(){if(typeof Image!=='function')return;const next=window.SHELFCHECK_RANDOM_CYCLE.shared.peek(lastRandomMode);if(next==null)return;const run=()=>{const x=byId.get(next),url=x&&(window.SHELFCHECK_COVER_POLICY?.displayCoverFor?window.SHELFCHECK_COVER_POLICY.displayCoverFor(x).url:window.SHELFCHECK_COVER_ART?.coverFor?.(x));if(!url)return;const im=new Image();im.decoding='async';im.src=url};window.requestIdleCallback?requestIdleCallback(run,{timeout:600}):setTimeout(run,200)}
 // Random-opened dossiers get ONE reroll control directly below Store Mode's price/verdict
 // area and directly above the Josh Dossier. Anchor to #v instead of guessing by text/content,
 // because dossier enhancement wraps sections and made the old text-based anchor land at top.

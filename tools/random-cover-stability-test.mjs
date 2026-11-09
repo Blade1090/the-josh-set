@@ -128,6 +128,7 @@ async function buildContext() {
   run(readFile('census-finalize.js'), 'census-finalize.js');
   await new Promise((r) => setTimeout(r, 20));
   run(readFile('price-fix.js'), 'price-fix.js');
+  run(readFile('random-cycle-v001.js'), 'random-cycle-v001.js');
   run(readFile('fun-features-v103.js'), 'fun-features-v103.js');
   run(readFile('cover-art-v080.js'), 'cover-art-v080.js');
   run(readFile('wishlist-v001.js'), 'wishlist-v001.js');

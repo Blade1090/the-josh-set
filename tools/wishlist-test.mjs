@@ -326,6 +326,7 @@ async function main() {
     vm.createContext(uiCtx);
     const runUI = (code, filename) => vm.runInContext(code, uiCtx, { filename: filename || '<eval>', displayErrors: true });
     runUI(readFile('app.js'), 'app.js'); // kicks off async loadData in the background; not awaited -- button placement doesn't need census data
+    runUI(readFile('random-cycle-v001.js'), 'random-cycle-v001.js');
     runUI(readFile('fun-features-v103.js'), 'fun-features-v103.js');
     runUI(readFile('wishlist-v001.js'), 'wishlist-v001.js');
     // Now simulate the actual DOMContentLoaded dispatch, firing every queued listener in the
@@ -419,6 +420,7 @@ async function main() {
     runR(readFile('census-finalize.js'), 'census-finalize.js');
     await new Promise((r) => setTimeout(r, 20));
     runR(readFile('price-fix.js'), 'price-fix.js');
+    runR(readFile('random-cycle-v001.js'), 'random-cycle-v001.js');
     runR(readFile('fun-features-v103.js'), 'fun-features-v103.js');
     runR(readFile('wishlist-v001.js'), 'wishlist-v001.js');
 

@@ -96,6 +96,7 @@ async function buildContext() {
   })()`);
 
   run(readFile('price-fix.js'), 'price-fix.js');
+  run(readFile('random-cycle-v001.js'), 'random-cycle-v001.js');
   run(readFile('fun-features-v103.js'), 'fun-features-v103.js');
 
   return { run, escTestIds };
