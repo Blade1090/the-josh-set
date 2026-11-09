@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-09T17:39:39.157Z",
+  "generatedAt": "2026-11-09T17:42:31.398Z",
   "summary": {
-    "generatedAt": "2026-11-09T17:39:39.157Z",
+    "generatedAt": "2026-11-09T17:42:31.398Z",
     "included": 2622,
-    "good": 2328,
+    "good": 2327,
     "fallback": 8,
     "review": 271,
-    "watch": 15,
-    "physicalVerify": 268,
+    "watch": 16,
+    "physicalVerify": 269,
     "physicalLikely": 1446,
-    "physicalConfirmed": 908,
+    "physicalConfirmed": 907,
     "manualConfirmedBad": 0,
     "manualFallback": 8,
     "manualEligibility": 0,
@@ -20,14 +20,14 @@
       "missing_ps4_banner": 18
     },
     "watchByReason": {
-      "image_fetch_failed": 15
+      "image_fetch_failed": 16
     },
     "synthetic": 210,
     "displayTiers": {
-      "GOOD": 2328,
+      "GOOD": 2327,
       "FALLBACK": 8,
       "SYNTHETIC": 210,
-      "BLANK": 76
+      "BLANK": 77
     },
     "syntheticByRealState": {
       "REVIEW": 196,
@@ -1489,6 +1489,11 @@
     {
       "id": 1685,
       "title": "Oddworld: Abe's Oddysee - New 'n' Tasty",
+      "reason": "image_fetch_failed"
+    },
+    {
+      "id": 2332,
+      "title": "Oxide Room 104",
       "reason": "image_fetch_failed"
     },
     {
