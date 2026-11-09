@@ -1,0 +1,502 @@
+{
+ "generated": "2026-11-09",
+ "source": "audit-out/ALL_BATCHES_01-05_completed.csv",
+ "purpose": "GameStop discovery candidates NOT added to the census: physical PS4 evidence insufficient, suspected same game as an existing identity, or multi-game collection. Curator decision required.",
+ "counts": {
+  "UNCERTAIN_NEEDS_REVIEW": 42,
+  "COLLECTION_OR_MULTI_GAME_PACK": 2,
+  "SAME_GAME_SUSPECTED": 5
+ },
+ "items": [
+  {
+   "id": 2803,
+   "title": "God of Rock",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.morele.net/modus-god-of-rock-ps4-13724410/",
+   "second": "https://www.pricecharting.com/game/playstation-4/god-of-rock",
+   "notes": "[Evidence: proof=FETCHED (direct product/publisher page, strength STRONG); second=SEARCH SNIPPET (prior proof)] Direct page: Polish retailer: Platform PlayStation 4, game version boxed (pudełkowa), base edition, Modus. Physical published via Modus/Maximum Games. | Prior evidence: PriceCharting PS4 entry (UPC 814290018498) with sealed/complete sales; Maximum Entertainment retail release 2023. Additional source: https://retrocharting.com/games/god-of-rock-playstation-4-price-guide-values (SEARCH SNIPPET). Disc-evidence check (opened, not sufficient):…"
+  },
+  {
+   "id": 2805,
+   "title": "The Elf on the Shelf: Christmas Heroes",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.bestbuy.ca/en-ca/product/the-elf-on-the-shelf-christmas-heroes-ps4/19641357",
+   "second": "https://www.target.com/p/the-elf-on-the-shelf-christmas-heroes-playstation-4/-/A-94861765",
+   "notes": "[Evidence: proof=SEARCH SNIPPET; second=SEARCH SNIPPET] Outright Games, released 2025-10-17. Best Buy CA and Target list the PS4 version as Physical format. WEAK: both pages blocked on fetch (403/404); proof rests on search snippets. Disc-evidence check (opened, not sufficient): https://www.pricecharting.com/game/playstation-4/the-elf-on-the-shelf-christmas-heroes - PriceCharting PS4 page (opened) shows only the Disc Count field (1 game disc); no disc-only sales. REVISION (disc-evidence rule): downgraded from CONFIRMED to UNCERTAIN_NEEDS_REVIEW because opened PriceCharting page shows only…"
+  },
+  {
+   "id": 2809,
+   "title": "The Karate Kid: Street Rumble",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://target.com/p/the-karate-kid-street-rumble-playstation-4/-/A-92660784",
+   "second": "https://slickdeals.net/f/18276748-the-karate-kid-street-rumble-ps4-or-xbox-series-x-one-physical-game-12-or-less-free-shipping-w-prime",
+   "notes": "[Evidence: proof=SEARCH SNIPPET; second=SEARCH SNIPPET] GameMill, released 2024-09-20; Target and Argos list physical PS4 copies, Slickdeals physical PS4 deal. Disc-evidence check (opened, not sufficient): https://www.pricecharting.com/game/7464054 - PriceCharting PS4 page (opened) shows only the Disc Count field; 0 loose (disc-only) sales. REVISION (disc-evidence rule): downgraded from CONFIRMED to UNCERTAIN_NEEDS_REVIEW because opened PriceCharting page shows only the Disc Count field with 0 disc-only sales; retailer evidence is snippet-only."
+  },
+  {
+   "id": 2831,
+   "title": "The Walking Dead: Destinies",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://ahml.info/catalog/record/4612048",
+   "second": "https://gematsu.com/2023/10/the-walking-dead-destinies-launches-november-17",
+   "notes": "[Evidence: proof=SEARCH SNIPPET; second=SEARCH SNIPPET] Library record lists GameMill PS4 release (2023); Gematsu reports physical release following the Nov 17 digital launch. Distinct from the Telltale Walking Dead titles in the census. Disc-evidence check (opened, not sufficient): https://www.ebay.com/p/18070883535 - eBay catalog PS4 page (opened) shows only a Number of Discs: 1 field, no disc-only listings; Gematsu (opened) reports a physical release without naming PS4. REVISION (disc-evidence rule): downgraded from CONFIRMED to UNCERTAIN_NEEDS_REVIEW because opened eBay page shows only a…"
+  },
+  {
+   "id": 2838,
+   "title": "Hunting Simulator 2",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.morele.net/hunting-simulator-2-ps4-8511387/",
+   "second": "https://www.pricecharting.com/game/3748643",
+   "notes": "[Evidence: proof=FETCHED (direct product/publisher page, strength WEAK); second=FETCHED (prior proof)] Direct page: Retailer: Platform PS4, Standard, NACON; physical vs digital not stated. Snippets: Empik boxed PS4 (2020-06-25), Galaxus PS4 data carrier, Best Buy physical. | Prior evidence: PriceCharting PAL PS4: Nacon, 1 game disc, CIB sales. Additional source: https://www.walmart.com/ip/55844275 (SEARCH SNIPPET). REVISION (disc-evidence rule): downgraded from CONFIRMED to UNCERTAIN_NEEDS_REVIEW because opened retailer page does not state format; PriceCharting shows only the Disc Count…"
+  },
+  {
+   "id": 2839,
+   "title": "DiRT Rally 2.0",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.thexboxhub.com/codemasters-confirm-dirt-rally-2-0-retail-edition-and-pre-order-content/",
+   "second": "https://retrocharting.com/games/dirt-rally-2-0-playstation-4-price-guide-values",
+   "notes": "[Evidence: proof=FETCHED (direct product/publisher page, strength MODERATE); second=FETCHED (prior proof)] Direct page: Coverage of Codemasters announcement: DiRT Rally 2.0 Day One Edition retail release on Xbox One, PS4 and PC. News coverage, not a product page. | Prior evidence: RetroCharting PS4 (Codemasters, 2019) with loose/CIB/sealed tiers and boxed eBay listings; some listings there are the original DiRT Rally (don't use for pricing). Day One and GOTY Editions are editions of the same game. Additional source: https://www.ebay.de/itm/397573817660 (SEARCH SNIPPET). REVISION…"
+  },
+  {
+   "id": 2841,
+   "title": "Monster Jam: Steel Titans",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.bestbuy.com/site/-/6336773.p",
+   "second": "https://www.pricecharting.com/game/4946964",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (timed out on fetch) (direct product/publisher page, strength WEAK); second=FETCHED (prior proof)] Direct page: Best Buy snippet: PS4 listing, THQ Nordic; physical vs digital not stated. THQ Nordic launch release (fetched) mentions retail pre-order bonuses, implying retail. | Prior evidence: PriceCharting PAL PS4: 1 game disc; NA PS4 Collector's Edition (THQ Nordic, UPC 811994022011). Same-site supporting URL (not independent): https://www.pricecharting.com/game/59659. REVISION (disc-evidence rule): downgraded from CONFIRMED to UNCERTAIN_NEEDS_REVIEW because…"
+  },
+  {
+   "id": 2851,
+   "title": "Hot Wheels Unleashed 2: Turbocharged",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://mediamarkt.pl/pl/product/_gra-ps4-hot-wheels-unleashed-2-turbocharged-edycja-day-one-1475489.html",
+   "second": "https://www.pricecharting.com/game/playstation-4/hot-wheels-unleashed-2-turbocharged",
+   "notes": "[Evidence: proof=FETCHED (direct product/publisher page, strength WEAK); second=FETCHED (prior proof)] Direct page: MediaMarkt PL: PS4 Day One Edition, PLAION, in-store pickup; no explicit physical field. | Prior evidence: PriceCharting NTSC PS4: UPC 810086922222, 1 game disc; listings say PS4 physical. Second source is the Alza Day One Edition PS4 listing. Additional source: https://www.alza.at/EN/gaming/hot-wheels-unleashed-2-turbocharged-day-one-edition-ps4-d7778443.htm (SEARCH SNIPPET). REVISION (disc-evidence rule): downgraded from CONFIRMED to UNCERTAIN_NEEDS_REVIEW because opened…"
+  },
+  {
+   "id": 2855,
+   "title": "MX vs. ATV All Out",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.walmart.com/ip/MX-vs-ATV-All-Out-THQ-Nordic-PlayStation-4-Physical-811994021250/654748248",
+   "second": "https://www.pricecharting.com/game/45702",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (bot check on fetch) (direct product/publisher page, strength MODERATE); second=FETCHED (prior proof)] Direct page: Walmart listing slug names MX vs ATV All Out THQ Nordic PlayStation 4 Physical, UPC 811994021250. Anniversary Edition PS4 physical has no acceptable direct page. | Prior evidence: PriceCharting PS4: THQ Nordic, UPC 811994021250, 1 game disc. Anniversary (2019) and Pro Nationals (2020) Editions are editions of the same game. Additional source: https://gematsu.com/2019/02/mx-vs-atv-all-out-anniversary-edition-announced-for-ps4-xbox-one-and-pc…"
+  },
+  {
+   "id": 2861,
+   "title": "Subnautica: Below Zero",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://centresoft.co.uk/products/view/productid/39939/subnautica-below-zero",
+   "second": "https://www.pricecharting.com/game/playstation-4/subnautica-below-zero",
+   "notes": "[Evidence: proof=FETCHED (direct product/publisher page, strength STRONG); second=FETCHED (collector database)] Direct page: UK physical distributor Centresoft: Format PS4, Bandai Namco, street date 2021-05-14, EAN 3391892015133. Distributor SKU implies a boxed product; page does not literally say disc. | Prior evidence: Bandai Namco, 2021-05-14, UPC 722674127196, 1 game disc; PAL PS4 entry also exists. Second source is a library catalog record. Distinct from census Subnautica. Additional source: https://catalog.burlesontx.com/Record/501229 (SEARCH SNIPPET). REVISION (disc-evidence rule):…"
+  },
+  {
+   "id": 2862,
+   "title": "The Addams Family: Mansion Mayhem",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.galaxus.nl/en/s1/product/game-the-addams-family-mansion-mayhem-ps4-en-video-games-18175993",
+   "second": "https://www.pricecharting.com/game/5434802",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (timed out on fetch) (direct product/publisher page, strength MODERATE); second=FETCHED (collector database)] Direct page: Galaxus PS4 listing: medium Blu-ray, Outright Games, 2021-09-24. Proshop PS4 listings also appear in search. | Prior evidence: Outright Games, ~2021-09-24. PriceCharting PAL PS4 lists 1 game disc; Galaxus lists a PS4 Blu-ray edition. Additional source: https://www.galaxus.nl/en/s1/product/game-the-addams-family-mansion-mayhem-ps4-en-video-games-18175993 (SEARCH SNIPPET (timed out on fetch)). REVISION (disc-evidence rule): downgraded from…"
+  },
+  {
+   "id": 2863,
+   "title": "DiRT Rally",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.pricecharting.com/game/117471",
+   "second": "https://gurneeil.paymore.com/products/dirt-rally-sony-playstation-4-ps4-2016-w-original-1757174861714-372yap8hq",
+   "notes": "[Evidence: proof=FETCHED (collector database only, no direct product page found, strength NONE); second=SEARCH SNIPPET] Direct page: No direct retailer/publisher product page found; press coverage describes a limited boxed DiRT Rally Legend Edition (Deep Silver/Koch Media, slipcase plus Blu-ray documentary). Retail existence well supported by press and collector data, but no acceptable direct product page. | Prior evidence: Original DiRT Rally (not 2.0). US PS4 retail release is DiRT Rally Legend Edition (Codemasters, 2016-04-05, UPC 816819013236, 1 game disc), which bundles DLC; an edition…"
+  },
+  {
+   "id": 2864,
+   "title": "Farming Simulator 19",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.adorama.com/mg790745.html",
+   "second": "https://www.pricecharting.com/game/53768",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (403 on fetch) (direct product/publisher page, strength MODERATE); second=FETCHED (collector database)] Direct page: Adorama: Maximum Games Farming Simulator 19 Platinum Edition for PlayStation 4, software format Physical, UPC 859529007454. Direct page is the Platinum Edition SKU. | Prior evidence: Maximum Games PS4, 2018-11-16, 1 game disc. GameStop lead is the Platinum Edition; Day One (PAL), Platinum and Premium are editions of the same game. Serialized Farming Simulator franchise (17/19/22); curation is separate. Additional source:…"
+  },
+  {
+   "id": 2867,
+   "title": "Evil Dead: The Game",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.thegamecollection.net/evil-dead-the-game-ps4-28755",
+   "second": "https://www.pricecharting.com/game/3416409",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (429 on fetch) (direct product/publisher page, strength MODERATE); second=FETCHED (collector database)] Direct page: The Game Collection snippet: Evil Dead The Game PS4, physical disc; The Source Canada snippet also says physical disc. Two retailer snippets agree. | Prior evidence: Saber Interactive/Boss Team Games, 2022-05-13, 1 game disc; Collector's Edition also exists. Online-focused; server status may affect playability but not disc eligibility. Additional source: https://www.proshop.se/Spel/Evil-Dead-The-Game-Sony-PlayStation-4-Action-aeventyr/3052064…"
+  },
+  {
+   "id": 2868,
+   "title": "Crash Team Rumble",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "unclear",
+   "proof": "https://www.digitec.ch/en/s1/product/activision-crash-team-rumble-edition-deluxe-cross-gen-ps4-video-games-35976157",
+   "second": "https://api.vgcollect.com/item/239766",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (timed out on fetch) (direct product/publisher page, strength WEAK); second=FETCHED (collector database)] Direct page: Digitec boxed PS4 Deluxe Cross-Gen Edition listing; Blu-ray medium not confirmed on an opened page. No opened page confirms a PS4 disc rather than code-in-box (VGCollect lists a disc plus voucher). Live service has ended. | Prior evidence: Retail title Crash Team Rumble - Deluxe Cross-Gen Edition (Activision, EU, 2023-06-20). VGCollect lists contents as game disc plus a Proto Pack voucher; Digitec lists Blu-ray. Caveats: disc evidence is…"
+  },
+  {
+   "id": 2870,
+   "title": "Pac-Man Museum Plus",
+   "decision": "COLLECTION_OR_MULTI_GAME_PACK",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.adorama.com/bapacmpps4.html",
+   "second": "https://www.pricecharting.com/game/3490303",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (403 on fetch) (direct product/publisher page, strength MODERATE); second=FETCHED (collector database)] Direct page: Adorama: Bandai Namco PAC-MAN MUSEUM+ for PlayStation 4, software format Physical; The Source CA snippet says Physical Disc. Publisher store page fetched but ambiguous. | Prior evidence: Retail title PAC-MAN MUSEUM+ (Bandai Namco, 2022-05-27, UPC 722674127240, 1 game disc). Physical PS4 disc confirmed, but it compiles 14 Pac-Man titles; curator decides identity mapping. Distinct from census Pac-Man Championship Edition 2. Additional source:…"
+  },
+  {
+   "id": 2873,
+   "title": "Nickelodeon Kart Racers 3: Slime Speedway",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.bestbuy.ca/en-ca/product/nickelodeon-kart-racers-3-slime-speedway-for-playstation-4-videogames/17718431",
+   "second": "https://www.pricecharting.com/game/playstation-4/nickelodeon-kart-racers-3-slime-speedway",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (403 on fetch) (direct product/publisher page, strength MODERATE); second=FETCHED (collector database)] Direct page: Best Buy CA snippet: physical PS4 copy, ESRB E. Galaxus also lists a GameMill PS4 SKU. | Prior evidence: GameMill, 2022-10-14, UPC 810110660069, 1 game disc; PAL PS4 entry exists. Distinct from census Nickelodeon Kart Racers 1 and 2. Additional source: https://www.bcc.nl/product/nickelodeon-kart-racers-3-slime-speedway-ps4 (SEARCH SNIPPET). REVISION (disc-evidence rule): downgraded from CONFIRMED to UNCERTAIN_NEEDS_REVIEW because physical…"
+  },
+  {
+   "id": 2875,
+   "title": "Hot Wheels Monster Trucks: Stunt Mayhem",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "unclear",
+   "proof": "https://www.centresoft.co.uk/products/view/productid/53079/hot-wheels-monster-trucks-stunt-mayhem",
+   "second": "https://retrocharting.com/games/hot-wheels-monster-trucks-stunt-mayhem-playstation-4-price-guide-values",
+   "notes": "[Evidence: proof=FETCHED (direct product/publisher page, strength WEAK); second=FETCHED (collector database)] Direct page: Centresoft: Format PS4, EAN 5060968302047; does not state disc or code. A library snippet describes the PS4 edition (UPC 810110661165) as a Blu-ray disc; GameStop CA PS4 listing is a digital code. Disc vs code still unresolved. | Prior evidence: GameMill/Mattel, released 2024-10-18. RetroCharting tracks PS4 boxed copies and UK distributor Centresoft lists a PS4 SKU, but no source states whether the PS4 box contains a game disc or a download code. Needs a packaging check.…"
+  },
+  {
+   "id": 2879,
+   "title": "Dungeons and Dragons Dark Alliance",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.thegamecollection.net/products/dungeons-dragons-dark-alliance-ps4",
+   "second": "https://pricecharting.com/game/2073066",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (429 on fetch) (direct product/publisher page, strength WEAK); second=FETCHED (collector database)] Direct page: Retailer snippets list a PS4 product / Day One Edition PS4; physical wording not confirmed on an opened page. GamingTrend (fetched) confirms a retail-exclusive Steelbook edition but names no platform. | Prior evidence: Retail title Dungeons & Dragons: Dark Alliance (Wizards of the Coast/Tuque, 2021-06-22), 1 game disc. Day One and Steelbook Editions are editions of the same game. Additional source: https://pricespy.co.uk/product.php?p=5744999…"
+  },
+  {
+   "id": 2882,
+   "title": "Duck Dynasty",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.walmart.com/ip/Duck-Dynasty-Activision-PlayStation-4-047875770294/38750455",
+   "second": "https://retrocharting.com/games/duck-dynasty-playstation-4-price-guide-values",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (bot check on fetch) (direct product/publisher page, strength WEAK); second=FETCHED (collector database)] Direct page: Walmart snippet: Duck Dynasty PlayStation 4 with Activision UPC 047875770294; no physical wording seen. Activision blog (fetched) names PS4 but not retail/physical. | Prior evidence: Activision/A&E, 2014-10-14. RetroCharting PS4 page lists box code CUSA-00691 with loose/CIB/sealed tiers; eBay catalog names the PS4 2014 release. Walmart page was bot-blocked. Additional source: https://www.ebay.de/p/212017850 (SEARCH SNIPPET). REVISION:…"
+  },
+  {
+   "id": 2883,
+   "title": "Destroy All Humans! 2: Reprobed",
+   "decision": "SAME_GAME_SUSPECTED",
+   "sameGameAs": "Destroy All Humans! 2 (census ID 357)",
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.thegamecollection.net/products/destroy-all-humans-2-reprobed-single-player-ps4",
+   "second": "https://www.pricecharting.com/game/5529568",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (429 on fetch; an earlier fetch did not explicitly say disc) (direct product/publisher page, strength WEAK); second=FETCHED (collector database)] Direct page: Retailer snippet: physical PS4 disc, THQ Nordic, 2023-06-27. Gematsu (fetched) gives PS4 date and price without mentioning physical; Walmart PS4 single-player listing seen only as snippet. | Prior evidence: Physical PS4 disc confirmed: retail title Destroy All Humans! 2: Reprobed - Single Player (THQ Nordic, PS4 2023-06-27, 1 game disc). Census ID 357 Destroy All Humans! 2 may be this game; its dossier…"
+  },
+  {
+   "id": 2889,
+   "title": "Super Bomberman R 2",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.konami.com/games/bomberman/r2/eu/en/products/",
+   "second": "https://www.gdgames.com.au/products/super-bomberman-r-2-ps4-playstation-4",
+   "notes": "[Evidence: proof=FETCHED; second=SEARCH SNIPPET (429 on fetch)] Konami, Sept 2023. Konami EU product page lists a PS4 boxed version; RetroCharting sales mention game and case. WEAK: no fetched page explicitly says disc rather than code. Distinct from census Super Bomberman R. REVISION (disc-evidence rule): downgraded from CONFIRMED to UNCERTAIN_NEEDS_REVIEW because publisher page lists a boxed version without stating disc vs code."
+  },
+  {
+   "id": 2890,
+   "title": "Grid Legends",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.target.com/p/product/-/A-85404782",
+   "second": "https://www.pricecharting.com/game/playstation-4/grid-legends",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (404 on fetch) (direct product/publisher page, strength WEAK); second=FETCHED (collector database)] Direct page: Target snippet: physical PS4 copy, UPC 014633382464; Empik snippet lists PS4 media as Blu-ray Disc. No page could be opened; nothing contradicts a disc. | Prior evidence: EA/Codemasters, 2022-02-25. PriceCharting lists 1 game disc with CIB and sealed sales. Distinct from census GRID (2019). Additional source: https://hintaseuranta.fi/sony-playstation-4-pelit/grid-legends-ps4-peli/11568682 (SEARCH SNIPPET). WEAK EVIDENCE: direct page seen only as a…"
+  },
+  {
+   "id": 2892,
+   "title": "TMNT Arcade: Wrath of the Mutants",
+   "decision": "SAME_GAME_SUSPECTED",
+   "sameGameAs": "Teenage Mutant Ninja Turtles Arcade: Wrath Of The Mutants (census ID 2739)",
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.thegamecollection.net/tmnt-arcade-wrath-of-the-mutants-ps4-33647",
+   "second": "https://www.pricecharting.com/game/playstation-4/teenage-mutant-ninja-turtles-arcade-wrath-of-the-mutants",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (429 on fetch) (direct product/publisher page, strength WEAK); second=FETCHED (collector database)] Direct page: Retailer snippet: physical PS4 disc; MediaMarkt BE PS4 copy also in search. GameMill launch release (fetched) lists PS4 but does not mention physical. | Prior evidence: Physical PS4 disc confirmed: retail title Teenage Mutant Ninja Turtles Arcade: Wrath of the Mutants (GameMill, 2024-04-23, 1 game disc, UPC 810110661004). Appears to duplicate census ID 2739 with the same full title (added in census-v059). Additional source:…"
+  },
+  {
+   "id": 2893,
+   "title": "Professional Farmer American Dream",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "unclear",
+   "proof": "https://www.pricecharting.com/game/1847447",
+   "second": "https://www.rebuy.de/i,10846095/playstation-4/professional-farmer-american-dream",
+   "notes": "[Evidence: proof=FETCHED (collector database only, no direct product page found, strength NONE); second=SEARCH SNIPPET] Direct page: Only retailer listing found (Target snippet) says Format: Physical but Game download code in box. CONTRADICTION: the only retail listing describes code-in-box (does not qualify); disc evidence is collector/marketplace data only (PriceCharting disc-only sales, Rebuy Blu-ray snippet). | Prior evidence: Retail title Professional Farmer: American Dream. PriceCharting: PS4, 2017-11-14, 1 game disc, UPC 819759020319, disc-only sales; Rebuy.de lists UIG/Iridium…"
+  },
+  {
+   "id": 2899,
+   "title": "PowerWash Simulator",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "unclear",
+   "proof": "https://square-enix-games.com/home/powerwash-simulator-gets-boxed-release-out-today",
+   "second": "https://www.pricecharting.com/game/playstation-4/powerwash-simulator",
+   "notes": "[Evidence: proof=FETCHED (direct product/publisher page, strength WEAK); second=FETCHED (collector database)] Direct page: Square Enix (2023-06-13): boxed edition out for Xbox, PS4, PS5 and Switch via download code - wording ambiguous. Press-Start (fetched) says only the Switch box holds a code, implying a PS4 disc, but no opened page confirms a PS4 disc. | Prior evidence: PriceCharting: Square Enix PS4, 2023-06-13, 1 game disc, UPC 662248927220; RetroCharting lists PAL and NTSC PS4 disc copies (separate site, may share marketplace data). Additional source:…"
+  },
+  {
+   "id": 2908,
+   "title": "Tony Stewart's All American Racing",
+   "decision": "COLLECTION_OR_MULTI_GAME_PACK",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "unclear",
+   "proof": "https://www.theautochannel.com/news/2020/09/01/856737-tony-stewart-adds-to-his-legacy-with-new-dirt-racing.html",
+   "second": "https://www.pricecharting.com/game/playstation-4/tony-stewart's-all-american-racing",
+   "notes": "[Evidence: proof=FETCHED (direct product/publisher page, strength WEAK); second=FETCHED (collector database)] Direct page: Official announcement: a bundle edition featuring both games available at Walmart from 2020-09-22; standalone All-American Racing was digital download only. ESRB (fetched) rates the bundle for PS4. No page states disc vs code for either game; whether Sprint Car Racing is on the disc is unresolved. | Prior evidence: Only physical PS4 product found is the Tony Stewart's All-American Racing / Tony Stewart's Sprint Car Racing 2 Game Bundle (Monster Games/GameMill, Walmart,…"
+  },
+  {
+   "id": 2910,
+   "title": "Blood Bowl 3: Brutal Edition",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.centresoft.co.uk/products/view/productid/39904/blood-bowl-3-brutal-edition",
+   "second": "https://www.pricecharting.com/game/5978530",
+   "notes": "[Evidence: proof=FETCHED (direct product/publisher page, strength STRONG); second=FETCHED (prior proof)] Direct page: UK distributor Centresoft: Blood Bowl 3 Brutal Edition, Format PS4, street date 2023-02-23, EAN 3665962005622. Distributor SKU; does not literally say disc. | Prior evidence: Retail title/edition: Blood Bowl III: Brutal Edition. Nacon/Cyanide, PAL PS4 2023-03-02. PriceCharting PAL lists 1 game disc. Retail product is the Brutal Edition (base game plus cosmetics), an edition of Blood Bowl 3. Fantasy sports series (census has Blood Bowl 2); not an annual sports title.…"
+  },
+  {
+   "id": 2912,
+   "title": "MudRunner",
+   "decision": "SAME_GAME_SUSPECTED",
+   "sameGameAs": "Spintires: Mudrunner - American Wilds Edition (census ID 1119)",
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.gamershouse.cz/en/ps4-simulator-games/ps4-spintires--mudrunner-american-wilds-edition--new-",
+   "second": "https://www.pricecharting.com/game/pal-playstation-4/mudrunner",
+   "notes": "[Evidence: proof=FETCHED (direct product/publisher page, strength MODERATE); second=FETCHED (prior proof)] Direct page: Retailer: PS4 Spintires: MudRunner - American Wilds Edition, Distribution type: Physical copy, Focus Home, new and sealed. Confirms the 2018 American Wilds PS4 disc; a Digitec snippet calls the American Wilds packaging code-in-box (conflict). | Prior evidence: Retail title/edition: Spintires: MudRunner (also MudRunner: A Spintires Game); later Spintires: MudRunner - American Wilds Edition. Physical PS4 disc confirmed: Focus Home base retail 2017-10-31, disc-only sales.…"
+  },
+  {
+   "id": 2914,
+   "title": "Fishing Sim World: Pro Tour",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.bestbuy.com/product/fishing-sim-world-pro-tour-collectors-edition-playstation-4/J3LPLGPVVC",
+   "second": "https://www.pricecharting.com/game/playstation-4/fishing-sim-world",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (timed out on fetch) (direct product/publisher page, strength WEAK); second=FETCHED (prior proof)] Direct page: Best Buy snippet: Maximum Games Fishing Sim World: Pro Tour Collector's Edition - PlayStation 4. Snippets point to a 2018 Maximum Games disc (UPC 0814290014360). | Prior evidence: Retail title/edition: Fishing Sim World (2018 NA retail); Fishing Sim World: Pro Tour - Collector's Edition (later physical). Dovetail Games, retail by Maximum Games, Sept 2018. PriceCharting's Fishing Sim World PS4 page (1 game disc) has sales titled Pro Tour and Pro Tour…"
+  },
+  {
+   "id": 2918,
+   "title": "Monster High Skulltimate Secrets",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://catalog.paysonlibrary.org/Record/62165",
+   "second": "https://retrocharting.com/games/monster-high-skulltimate-secrets-playstation-4-price-guide-values",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (403 on fetch); second=FETCHED] Outright Games/Mattel, 2024-10-29. Library record describes the PS4 edition as 1 computer disc; RetroCharting shows physical and sealed PS4 sales. WEAK: disc format not confirmed on a fetched page; spot-check recommended. Disc-evidence check (opened, not sufficient): https://retrocharting.com/fr/jeux-video/monster-high-skulltimate-secrets-playstation-4-prix-cote-argus - RetroCharting (opened) shows physical-game listings but none names a disc; library record could not be opened. REVISION (disc-evidence rule): downgraded from…"
+  },
+  {
+   "id": 2951,
+   "title": "Blue Reflection: Second Light",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.pricecharting.com/de/game/pal-playstation-4/blue-reflection-second-light",
+   "second": "https://www.rpgsite.net/news/11534-blue-reflection-second-light-launches-in-north-america-and-europe-on-november-9",
+   "notes": "[Evidence: proof=FETCHED (no direct product page found, strength NONE); second=FETCHED] Direct page: No direct retailer product page found; launch coverage reports a NISA Limited Edition for PS4 or Switch. Search budget ran out; needs another pass. | Prior evidence: PriceCharting PAL PS4: Koei Tecmo Europe, 2021-11-09, 1 game disc, EANs 5060327536458/5060327536489. RPG Site describes a PS4 Limited Edition collector's box. Distinct from census Blue Reflection. REVISION (disc-evidence rule): downgraded from CONFIRMED to UNCERTAIN_NEEDS_REVIEW because no direct product page; PriceCharting shows…"
+  },
+  {
+   "id": 2956,
+   "title": "My Riding Stables: Life with Horses",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.digitec.ch/en/s1/product/funbox-media-my-riding-stables-life-with-horses-ps4-video-games-33060703",
+   "second": "https://www.pricecharting.com/game/53732",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (timed out on fetch) (direct product/publisher page, strength WEAK); second=FETCHED (prior proof)] Direct page: Digitec snippet: FunBox Media My Riding Stables PS4, Blu-ray, 2023-05-16. Publisher credits and date conflict with the 2018 Kalypso release; may be a late reissue or data error. | Prior evidence: PriceCharting: PS4, Kalypso, 2018-11-13, 1 game disc, UPC 848466001182; Digitec lists a PAL PS4 Blu-ray (FunBox Media/Solutions 2 Go). Publisher credits differ by region. Additional source:…"
+  },
+  {
+   "id": 2957,
+   "title": "Cobra Kai 2 Dojos Rising",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.target.com/p/cobra-kai-2-dojos-rising-playstation-4/-/A-86975055",
+   "second": "https://www.pricecharting.com/game/playstation-4/cobra-kai-2-dojos-rising",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (404 on fetch) (direct product/publisher page, strength MODERATE); second=FETCHED (prior proof)] Direct page: Target snippet: PS4, physical; Best Buy CA snippet: Brand New, Physical. | Prior evidence: PriceCharting: GameMill PS4, 2022-11-08, 1 game disc, UPC 856131008985; library record describes a region-free PS4 Blu-ray. A separate Cobra Kai Collection bundle also exists (product-mapping only). Distinct from batch 02 Cobra Kai (ID 2896). Additional source: https://ahml.info/catalog/record/4279510 (SEARCH SNIPPET (403 on fetch)). REVISION (disc-evidence…"
+  },
+  {
+   "id": 2958,
+   "title": "Fishing Sim World: Bass Pro Shops Edition",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": "Fishing Sim World: Pro Tour (batch 03 ID 2914, not yet in census)",
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.bestbuy.ca/en-ca/product/bass-pro-shops-fishing-sim-world-playstation-4/19382837",
+   "second": "https://dekudeals.com/items/fishing-sim-world-bass-pro-shops-edition",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (403 on fetch) (direct product/publisher page, strength WEAK); second=FETCHED (prior proof)] Direct page: Best Buy CA snippet: PS4 listing, UPC 860108001213, third-party seller; physical not stated. CORRECTION: the Bass Pro Shops Edition is a separate Nov 2020 Dovetail product (PS Store CUSA23959, UPC 860108001213), not the NA retail name of the 2018 game; the 2018 NA retail was Maximum Games' Fishing Sim World / Pro Tour Collector's Edition (UPC 814290015602). | Prior evidence: Retail title/edition: Fishing Sim World: Bass Pro Shops Edition. Physical PS4 disc…"
+  },
+  {
+   "id": 2962,
+   "title": "Observer: System Redux",
+   "decision": "SAME_GAME_SUSPECTED",
+   "sameGameAs": "Observer (census ID 858)",
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://gamespress.com/OBSERVER-System-Redux-The-award-winning-dystopian-thriller-comes-to-ph",
+   "second": "https://www.pricecharting.com/es/game/playstation-4/observer-system-redux",
+   "notes": "[Evidence: proof=FETCHED (direct product/publisher page, strength STRONG); second=FETCHED (prior proof)] Direct page: Koch Media press release: physical release on PS4/Xbox One with Day One Edition (game, artbook, soundtrack). | Prior evidence: Retail title/edition: Observer: System Redux (PS4 Day One Edition). Physical PS4 disc confirmed: PriceCharting lists Bloober Team PS4, 1 game disc, UPC 816819019245; Gematsu confirms a PS4 physical Day One Edition (Koch Media), retail 2021-07-23. System Redux is the enhanced remaster of Observer (census ID 858); curator decides whether it maps to 858…"
+  },
+  {
+   "id": 2970,
+   "title": "Fast and Furious: Spy Racers Rise of SH1FT3R",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.walmart.com/ip/994114871",
+   "second": "https://www.pricecharting.com/game/2762720",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (captcha on fetch) (direct product/publisher page, strength WEAK); second=FETCHED (prior proof)] Direct page: Walmart snippet: Fast & Furious: Spy Racers Rise of SH1FT3R - PlayStation 4, third-party sellers. Library records describe 1 PS4 Blu-ray disc (UPC 819338021614). | Prior evidence: Retail title/edition: Fast & Furious: Spy Racers - Rise of SH1FT3R. Outright Games, 2021-11-05. PriceCharting lists 1 game disc, UPC 819338021614; library record describes 1 Blu-ray disc with the same UPC. Distinct from census Fast & Furious Crossroads. Additional source:…"
+  },
+  {
+   "id": 2974,
+   "title": "Train Life: A Railway Simulator The Orient-Express Edition",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://videogamesplus.ca/products/train-life-a-railway-simulator-the-orient-express-edition-ps4",
+   "second": "https://www.pricecharting.com/game/5977716",
+   "notes": "[Evidence: proof=FETCHED; second=FETCHED] Retail title/edition: Train Life: A Railway Simulator - The Orient-Express Edition. Nacon/Simteract, NA retail by Maximum Games (~Sept-Oct 2022, UPC 814290018276). Canadian retailer lists the PS4 Orient-Express Edition; PriceCharting PAL base-game page lists 1 game disc. Orient-Express Edition is an edition of Train Life, not a separate game. REVISION (disc-evidence rule): downgraded from CONFIRMED to UNCERTAIN_NEEDS_REVIEW because opened retailer page does not state format; PriceCharting shows only the Disc Count field."
+  },
+  {
+   "id": 2976,
+   "title": "Rapala Fishing Pro Series",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://centresoft.co.uk/products/view/productid/50945/rapala-fishing-pro-series",
+   "second": "https://www.pricecharting.com/game/57530",
+   "notes": "[Evidence: proof=FETCHED (direct product/publisher page, strength MODERATE); second=FETCHED (prior proof)] Direct page: UK physical distributor Centresoft: PS4, GameMill, EAN 5060968300791 (likely a 2023 UK reissue). GameMill launch release snippet (2017): available today at major retailers and digitally on PS4. Distributor SKU does not literally say disc. | Prior evidence: GameMill/Concrete Software, 2017-10-24. PriceCharting PAL lists 1 game disc; distributor Centresoft lists PS4 (EAN 5060968300791, likely a 2023 UK reissue). Additional source:…"
+  },
+  {
+   "id": 2984,
+   "title": "Little Witch Nobeta",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.thegamecollection.net/products/little-witch-nobeta-day-one-edition-ps4",
+   "second": "https://www.pricecharting.com/game/4225306",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (429 on fetch) (direct product/publisher page, strength MODERATE); second=FETCHED (prior proof)] Direct page: Retailer snippet: PS4 Day One Edition physical disc, 2023-03-07. Gematsu (fetched) mentions a physical standard edition for PS4/Switch; JP PS4 physical also exists. | Prior evidence: JP PS4 disc (PLJM-17055, 2022) on PriceCharting with CIB and sealed sales. Gematsu: Idea Factory International launched PS4/Switch in NA/EU 2023-03-07 with physical standard and limited editions (article does not tie physical to a specific platform). Additional source:…"
+  },
+  {
+   "id": 3005,
+   "title": "void tRrLM2(); //Void Terrarium 2",
+   "decision": "SAME_GAME_SUSPECTED",
+   "sameGameAs": "Void Terrarium 2 (census ID 2757)",
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://press.plaion.com/fr/Available-Now-void-tRrLM2-Void-Terrarium-2",
+   "second": "https://www.pricecharting.com/game/4835889",
+   "notes": "[Evidence: proof=FETCHED (direct product/publisher page, strength STRONG); second=FETCHED (prior proof)] Direct page: NIS America release via EU distributor PLAION announcing the physical version (game, OST, mini artbook) for Switch and PlayStation 4. Retailer PS4 Deluxe Edition listings seen only as snippets. | Prior evidence: Retail title/edition: void* tRrLM2(); //Void Terrarium 2 (retail Deluxe Edition; also Limited Edition). Physical PS4 disc confirmed: NIS America, NA 2023-02-28 / EU 2023-03-03; PriceCharting lists 1 game disc with disc-only sales; Gematsu describes the PS4 Limited…"
+  },
+  {
+   "id": 3009,
+   "title": "Zengeon",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.target.com/p/zengeon/-/A-80953060",
+   "second": "https://www.pricecharting.com/game/1935121",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (404 on fetch) (direct product/publisher page, strength WEAK); second=FETCHED (prior proof)] Direct page: Target snippet: Format: Physical. No publisher/press page for a PS4 disc found; PS Store names HK GameAse as publisher, not PQube. | Prior evidence: PQube retail release, NA 2021-08-06. PriceCharting lists 1 game disc with CIB and new sales; PAL disc also exists (barcode 5060690791775). Additional source: https://www.achatmoinscher.com/comparateur-de-prix-Jeux-video-PlayStation-4/zengeon-ps4.html (SEARCH SNIPPET). REVISION (disc-evidence rule): downgraded…"
+  },
+  {
+   "id": 3014,
+   "title": "Transport Fever 2",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.digitec.ch/en/s1/product/nacon-gaming-transport-fever-2-ps-4-ps4-fr-video-games-23458303",
+   "second": "https://www.dekudeals.com/items/transport-fever-2-console-edition",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (timed out on fetch) (direct product/publisher page, strength WEAK); second=FETCHED (prior proof)] Direct page: Digitec snippet: Nacon Transport Fever 2 PS4, Blu-ray, French packaging, 2023-02-24. Official PlayStation pages describe only PS4/PS5 digital versions and the Digitec date conflicts with the 2023-03-09 launch. | Prior evidence: Retail title/edition: Transport Fever 2 (Console Edition). Nacon (dev Urban Games), consoles 2023. DekuDeals shows PS4 physical listings at Amazon, Walmart and Play-Asia; Digitec lists a Nacon PS4 Blu-ray SKU. WEAK: no fetched…"
+  },
+  {
+   "id": 3033,
+   "title": "Crisis Core: Final Fantasy VII Reunion",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.thegamecollection.net/crisis-core-final-fantasy-vii-reunion-ps4-29459",
+   "second": "https://www.pricecharting.com/game/playstation-4/crisis-core-final-fantasy-vii-reunion",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (429 on fetch) (direct product/publisher page, strength MODERATE); second=FETCHED (prior proof)] Direct page: Retailer snippet: PlayStation 4, Physical Disc, Square Enix, 2022-12-13. Square Enix Store page (fetched) offers PS4 but does not label physical vs digital. | Prior evidence: Retail title/edition: Crisis Core -Final Fantasy VII- Reunion. Square Enix, 2022-12-13. PriceCharting lists 1 game disc, UPCs 662248926742/662248926759; UK retailer lists a physical PS4 disc. Remaster of the PSP game. Additional source:…"
+  },
+  {
+   "id": 3040,
+   "title": "Pure Hold 'Em World Poker Championship",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": "World Poker Championship (census ID 1451)",
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://retrocharting.com/games/world-poker-championship-playstation-price-guide-values",
+   "second": "https://www.ebay.de/itm/196220455149",
+   "notes": "[Evidence: proof=FETCHED (no direct product page found, strength NONE); second=SEARCH SNIPPET (403 on fetch)] Direct page: No direct retailer/publisher page found; PlayStation Blog and a review present it as a digital PSN release; only eBay CIB listings suggest a disc. Physical existence and box title both unverified. | Prior evidence: Retail title/edition: World Poker Championship / Pure Hold'em World Poker Championship (cover title unresolved). Physical PS4 disc confirmed: Ripstone/VooFoo, RetroCharting lists PS4 disc EANs 5060057023396 (EU) / 4250114321485 (DE) and box code CUSA-02813,…"
+  },
+  {
+   "id": 3045,
+   "title": "Farm Together",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "unclear",
+   "proof": "https://www.bestbuy.com/product/farm-together-deluxe-edition-playstation-4/B3383J8Y3V",
+   "second": "https://retrocharting.com/games/farm-together-deluxe-edition-playstation-4-price-guide-values",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (timed out on fetch) (direct product/publisher page, strength WEAK); second=FETCHED (prior proof)] Direct page: Conflicting snippets: one says Software Format: Physical; another says it will only contain a download code and no disc. Possibly a different SKU or the Switch version; eBay shows a sealed PS4 copy. | Prior evidence: Retail title/edition: Farm Together: Deluxe Edition. Milkstone Studios; physical by Selecta Play (sources also name Crescent/Just for Games). RetroCharting lists EANs 8424365721400/8424365721394 and says the edition includes all 12 DLCs;…"
+  },
+  {
+   "id": 3054,
+   "title": "Shadow Warrior 3",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.galaxus.fr/en/s1/product/devolver-ps4-shadow-warrior-3-definitive-edition-ps4-en-video-games-35665733",
+   "second": "https://www.dekudeals.com/items/shadow-warrior-3",
+   "notes": "[Evidence: proof=SEARCH SNIPPET (timed out on fetch) (direct product/publisher page, strength MODERATE); second=FETCHED (prior proof)] Direct page: Galaxus snippet: Devolver PS4 Shadow Warrior 3 Definitive Edition, 2023-05-19. ActuGaming (fetched) confirms the boxed PlayStation release without naming PS4; a Special Reserve Games PS4 physical edition is also reported. | Prior evidence: Retail title/edition: Shadow Warrior 3: Definitive Edition (boxed release). Devolver Digital/Flying Wild Hog; digital PS4 2022-03-01, boxed Definitive Edition via Just for Games 2023-05-19 for PlayStation.…"
+  },
+  {
+   "id": 3070,
+   "title": "Flashback 2",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "unclear",
+   "proof": "https://familyfriendlygaming.com/News/Updates/2023/Flashback-2-Physical-Details.html",
+   "second": "https://www.target.com/p/flashback-2-limited-edition-playstation-4/-/A-89637978",
+   "notes": "[Evidence: proof=FETCHED; second=SEARCH SNIPPET (404 on fetch)] Retail title/edition: Flashback 2 - Limited Edition. Microids announced PS4 Limited and Collector's physical editions (April 2023), and Target, EB Games Canada and Alza snippets show PS4 Limited Edition listings with shifting dates (2024-05-30; 2025-01-30). No fetched page confirms a PS4 disc actually shipped (the VGCollect item is the EU PS5 version). Needs curator confirmation. Distinct from census Flashback."
+  },
+  {
+   "id": 3074,
+   "title": "Starsand",
+   "decision": "UNCERTAIN_NEEDS_REVIEW",
+   "sameGameAs": null,
+   "codeOnlyOrPsvr": "no",
+   "proof": "https://www.gamespress.com/Explore-Hunt-Build-Survive-Physical-Boxed-Edition-of-Starsand-Out-Toda",
+   "second": "https://www.waylandgames.co.uk/starsand-ps4-p4readfbx60579",
+   "notes": "[Evidence: proof=FETCHED; second=SEARCH SNIPPET] Tunnel Vision Studio; press release: Funbox Media physical boxed edition on PS4, PS5 and Switch, 2023-07-07 (EU, ANZ, SA, ME). Wayland Games lists a PS4 copy. Disc-evidence check (opened, not sufficient): https://www.gamespress.com/Explore-Hunt-Build-Survive-Physical-Boxed-Edition-of-Starsand-Out-Toda - Funbox press release (opened) announces a boxed edition for Switch, PS4 and PS5 but never mentions a disc. REVISION (disc-evidence rule): downgraded from CONFIRMED to UNCERTAIN_NEEDS_REVIEW because opened publisher release announces a boxed…"
+  }
+ ]
+}
