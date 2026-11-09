@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-09T19:12:01.232Z",
+  "generatedAt": "2026-11-09T19:34:27.578Z",
   "summary": {
-    "generatedAt": "2026-11-09T19:12:01.232Z",
-    "included": 2626,
+    "generatedAt": "2026-11-09T19:34:27.578Z",
+    "included": 2656,
     "good": 2357,
     "fallback": 8,
-    "review": 248,
+    "review": 278,
     "watch": 13,
-    "physicalVerify": 243,
+    "physicalVerify": 273,
     "physicalLikely": 1475,
     "physicalConfirmed": 908,
     "manualConfirmedBad": 0,
@@ -15,7 +15,7 @@
     "manualEligibility": 0,
     "manualFixedTracked": 91,
     "reviewByReason": {
-      "missing_cover": 5,
+      "missing_cover": 35,
       "key_art_only": 225,
       "missing_ps4_banner": 18
     },
@@ -27,7 +27,7 @@
       "GOOD": 2357,
       "FALLBACK": 8,
       "SYNTHETIC": 261,
-      "BLANK": 0
+      "BLANK": 30
     },
     "syntheticByRealState": {
       "REVIEW": 248,
@@ -38,13 +38,48 @@
   },
   "review": [
     {
+      "id": 3081,
+      "title": "AEW: Fight Forever",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3083,
+      "title": "Big Buck Hunter Arcade",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3103,
+      "title": "Crazy Chicken Xtreme",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3095,
+      "title": "Cry Babies Magic Tears: The Big Game",
+      "reason": "missing_cover"
+    },
+    {
       "id": 2790,
       "title": "Diablo IV",
       "reason": "missing_cover"
     },
     {
+      "id": 3079,
+      "title": "Disney Dreamlight Valley",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3102,
+      "title": "Doki Doki Literature Club Plus!",
+      "reason": "missing_cover"
+    },
+    {
       "id": 3041,
       "title": "DreamWorks Spirit Lucky's Big Adventure",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3106,
+      "title": "Firefighting Simulator: The Squad",
       "reason": "missing_cover"
     },
     {
@@ -58,8 +93,123 @@
       "reason": "missing_cover"
     },
     {
+      "id": 3100,
+      "title": "Mars Odyssey",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3090,
+      "title": "My Universe: Cooking Star Restaurant",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3092,
+      "title": "My Universe: Doctors & Nurses",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3087,
+      "title": "My Universe: Fashion Boutique",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3089,
+      "title": "My Universe: My Baby",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3093,
+      "title": "My Universe: Pet Clinic Cats & Dogs",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3088,
+      "title": "My Universe: Puppies & Kittens",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3091,
+      "title": "My Universe: School Teacher",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3082,
+      "title": "NASCAR Arcade Rush",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3101,
+      "title": "Ninja Kidz: Time Masters",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3096,
+      "title": "Pickleball: Smash",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3107,
+      "title": "Postal 4: No Regerts",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3105,
+      "title": "Professor Rubik's Brain Fitness",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3078,
+      "title": "Pure Pool",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3104,
+      "title": "RiffTrax: The Game",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3094,
+      "title": "Santa's Xmas Adventure",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3080,
+      "title": "Skull Island: Rise of Kong",
+      "reason": "missing_cover"
+    },
+    {
       "id": 2901,
       "title": "Sniper Elite 5",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3098,
+      "title": "Spike Volleyball",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3099,
+      "title": "The Outbound Ghost",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3084,
+      "title": "The Quest for Excalibur: Puy du Fou",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3085,
+      "title": "Werewolf: The Apocalypse - Heart of the Forest",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3086,
+      "title": "World Quiz",
+      "reason": "missing_cover"
+    },
+    {
+      "id": 3097,
+      "title": "Worms Rumble",
       "reason": "missing_cover"
     },
     {

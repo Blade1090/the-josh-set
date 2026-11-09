@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-09T19:12:01.232Z",
-  "included": 2626,
+  "generatedAt": "2026-11-09T19:34:27.578Z",
+  "included": 2656,
   "counts": {
     "CURATED_ID": 5,
     "CURATED_TITLE": 145,
     "GAMEYE": 923,
     "LAUNCHBOX_BOX_FRONT": 778,
     "LEGACY_IGDB": 225,
-    "MISSING": 5,
+    "MISSING": 35,
     "PRICECHARTING_BOX_FRONT": 489,
     "PRODUCT_BOX_FRONT": 56
   },
@@ -329,6 +329,12 @@
       "title": "AeternoBlade II",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/e372887e-bcc4-4644-a9bb-0a03016e70a8.webp"
+    },
+    {
+      "id": 3081,
+      "title": "AEW: Fight Forever",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 44,
@@ -1673,6 +1679,12 @@
       "title": "Beyond: Two Souls",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/9433e6fe-d7d3-4bc5-b202-e898a485a63b.webp"
+    },
+    {
+      "id": 3083,
+      "title": "Big Buck Hunter Arcade",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 161,
@@ -3025,6 +3037,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/cae27047-309d-4440-a9a4-cb814b5433d5.webp"
     },
     {
+      "id": 3103,
+      "title": "Crazy Chicken Xtreme",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 277,
       "title": "Creature in the Well",
       "source": "GAMEYE",
@@ -3065,6 +3083,12 @@
       "title": "Crossing Souls",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/68fe2d23-c5e6-4221-a2a3-78583f0193cd.webp"
+    },
+    {
+      "id": 3095,
+      "title": "Cry Babies Magic Tears: The Big Game",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 2301,
@@ -3895,6 +3919,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/2236ddda-5d8d-426b-81b6-3607d850c26d.webp"
     },
     {
+      "id": 3079,
+      "title": "Disney Dreamlight Valley",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 377,
       "title": "Dissidia: Final Fantasy NT",
       "source": "GAMEYE",
@@ -3965,6 +3995,12 @@
       "title": "Dogurai",
       "source": "PRICECHARTING_BOX_FRONT",
       "url": "https://storage.googleapis.com/images.pricecharting.com/a70dcfe995b10d5e2c4487b4d737c83825277403ee60872ce566adac79a00988/1600.jpg"
+    },
+    {
+      "id": 3102,
+      "title": "Doki Doki Literature Club Plus!",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 384,
@@ -5015,6 +5051,12 @@
       "title": "Firefighters: Airport Fire Department",
       "source": "GAMEYE",
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/7ac11d8e-645f-4fca-918f-21bdf862cb30.webp"
+    },
+    {
+      "id": 3106,
+      "title": "Firefighting Simulator: The Squad",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 1503,
@@ -7819,6 +7861,12 @@
       "url": "https://images.launchbox-app.com/f07b5c9c-a340-485f-991c-62e8dad5a1f0.png"
     },
     {
+      "id": 3100,
+      "title": "Mars Odyssey",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 2425,
       "title": "Marsupilami: Hoobadventure",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -8539,6 +8587,48 @@
       "url": "https://storage.googleapis.com/images.pricecharting.com/AMIfv95F0NB1QTJ1DFfrZhBVjawslgod1ooh84WxwT0tp1ujUYfWUsYlCY-QS6SdF4d_JL_CBsHv1mNtvdZ033iC_cFjrgEsu3U6n81cvtlmHKWVcZM47br4b2l_BKFKAOH_31_74RvT7DLT3OhYE6usxaywD5doAA/1600.jpg"
     },
     {
+      "id": 3090,
+      "title": "My Universe: Cooking Star Restaurant",
+      "source": "MISSING",
+      "url": null
+    },
+    {
+      "id": 3092,
+      "title": "My Universe: Doctors & Nurses",
+      "source": "MISSING",
+      "url": null
+    },
+    {
+      "id": 3087,
+      "title": "My Universe: Fashion Boutique",
+      "source": "MISSING",
+      "url": null
+    },
+    {
+      "id": 3089,
+      "title": "My Universe: My Baby",
+      "source": "MISSING",
+      "url": null
+    },
+    {
+      "id": 3093,
+      "title": "My Universe: Pet Clinic Cats & Dogs",
+      "source": "MISSING",
+      "url": null
+    },
+    {
+      "id": 3088,
+      "title": "My Universe: Puppies & Kittens",
+      "source": "MISSING",
+      "url": null
+    },
+    {
+      "id": 3091,
+      "title": "My Universe: School Teacher",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 815,
       "title": "Mystery Chronicle: One Way Heroics",
       "source": "LEGACY_IGDB",
@@ -8615,6 +8705,12 @@
       "title": "Naruto: Ultimate Ninja Storm",
       "source": "LEGACY_IGDB",
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1u9d.jpg"
+    },
+    {
+      "id": 3082,
+      "title": "NASCAR Arcade Rush",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 2097,
@@ -8939,6 +9035,12 @@
       "title": "Ninja JaJaMaru Legendary Ninja Collection",
       "source": "CURATED_TITLE",
       "url": "https://gamefaqs.gamespot.com/a/box/3/9/0/904390_front.jpg"
+    },
+    {
+      "id": 3101,
+      "title": "Ninja Kidz: Time Masters",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 847,
@@ -9703,6 +9805,12 @@
       "url": "https://storage.googleapis.com/images.pricecharting.com/nvc7rrvlv36qkf5q/1600.jpg"
     },
     {
+      "id": 3096,
+      "title": "Pickleball: Smash",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 1692,
       "title": "Pillar",
       "source": "PRICECHARTING_BOX_FRONT",
@@ -9877,6 +9985,12 @@
       "url": "https://images.launchbox-app.com/fbd7f0b2-ebcc-4e17-a169-8123f9e70c04.png"
     },
     {
+      "id": 3107,
+      "title": "Postal 4: No Regerts",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 2009,
       "title": "Postal REDUX",
       "source": "CURATED_TITLE",
@@ -9959,6 +10073,12 @@
       "title": "Professional Farmer 2017",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/5066ea78-9f87-4d8b-ab0f-974328304f9f.jpg"
+    },
+    {
+      "id": 3105,
+      "title": "Professor Rubik's Brain Fitness",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 931,
@@ -10067,6 +10187,12 @@
       "title": "Pure Farming 2018",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/c0a8e678-9577-428f-bbcf-66a3af99eaff.png"
+    },
+    {
+      "id": 3078,
+      "title": "Pure Pool",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 941,
@@ -10645,6 +10771,12 @@
       "url": "https://i5.walmartimages.com/seo/Riders-Republic-Ubisoft-PS4_4b5a4e5a-4786-4fb8-95a8-1ebe1f53e24d.3ad35728f1e8e9e6a9ec7b578a54cd9e.jpeg"
     },
     {
+      "id": 3104,
+      "title": "RiffTrax: The Game",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 1916,
       "title": "Rift Keeper",
       "source": "PRICECHARTING_BOX_FRONT",
@@ -11203,6 +11335,12 @@
       "url": "https://storage.googleapis.com/images.pricecharting.com/571f97ee471dcbb3e385f41483e4cc494bd35e4a3884835d1ea05eb23894dd17/1600.jpg"
     },
     {
+      "id": 3094,
+      "title": "Santa's Xmas Adventure",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 1039,
       "title": "Saturday Morning RPG",
       "source": "LEGACY_IGDB",
@@ -11749,6 +11887,12 @@
       "url": "https://images.launchbox-app.com/a00a5ed5-5ba9-4fe3-9fb9-bee3f42a0e59.jpg"
     },
     {
+      "id": 3080,
+      "title": "Skull Island: Rise of Kong",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 1080,
       "title": "Skullgirls: 2nd Encore",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -12137,6 +12281,12 @@
       "title": "Spidersaurs",
       "source": "LEGACY_IGDB",
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4xwi.jpg"
+    },
+    {
+      "id": 3098,
+      "title": "Spike Volleyball",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 1119,
@@ -13597,6 +13747,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/53f816b3-a8c9-4ca0-afb1-043d317ff450.webp"
     },
     {
+      "id": 3099,
+      "title": "The Outbound Ghost",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 1282,
       "title": "The Outer Worlds",
       "source": "GAMEYE",
@@ -13637,6 +13793,12 @@
       "title": "The Quarry",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/f01f6a51-512a-45f9-86cf-56702060a204.jpg"
+    },
+    {
+      "id": 3084,
+      "title": "The Quest for Excalibur: Puy du Fou",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 1286,
@@ -15121,6 +15283,12 @@
       "url": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4no1.jpg"
     },
     {
+      "id": 3085,
+      "title": "Werewolf: The Apocalypse - Heart of the Forest",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 2874,
       "title": "Werewolf: The Apocalypse Earthblood",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -15355,6 +15523,12 @@
       "url": "https://dt.gameye.app/data/streaming/images/items/v1/art_front/46/2ffb1d36-a3dd-4e0b-af40-03029253b2bb.webp"
     },
     {
+      "id": 3086,
+      "title": "World Quiz",
+      "source": "MISSING",
+      "url": null
+    },
+    {
       "id": 1452,
       "title": "World to the West",
       "source": "LAUNCHBOX_BOX_FRONT",
@@ -15377,6 +15551,12 @@
       "title": "Worms Battlegrounds",
       "source": "LAUNCHBOX_BOX_FRONT",
       "url": "https://images.launchbox-app.com/27422062-5b5e-477c-9843-fffd2c53e4d7.jpg"
+    },
+    {
+      "id": 3097,
+      "title": "Worms Rumble",
+      "source": "MISSING",
+      "url": null
     },
     {
       "id": 1456,
