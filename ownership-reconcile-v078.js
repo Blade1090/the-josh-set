@@ -35,3 +35,20 @@
     console.info('ShelfCheck v0.78 GameEye Little Hope aliases active',window.SHELFCHECK_OWNERSHIP_RECONCILE_V078);
   });
 })();
+
+
+// Street Fighter V: Champion Edition is a physical edition of identity 1159,
+// not an additional playable identity. Match the exact GameEye label only.
+(()=>{
+  registerCensusMutation('exclude',()=>{
+    const target=byId.get(1159), name='Street Fighter V: Champion Edition', key=norm(name);
+    if(!target||target.set!=='INCLUDED'||norm(target.title)!=='street fighter v')return;
+    if(items.some(x=>x.id!==target.id&&x.set==='INCLUDED'&&
+      (norm(x.title)===key||(aliasesById.get(x.id)||[]).includes(key))))return;
+    const aliases=aliasesById.get(target.id)||[];
+    if(!aliases.includes(key))aliases.push(key);
+    aliasesById.set(target.id,aliases);
+    if(!DATA.a.some(row=>row?.[1]===target.id&&norm(row?.[0])===key))DATA.a.push([name,target.id]);
+    if(!(target.search||'').includes(key))target.search=(target.search||norm(target.title))+' '+key;
+  });
+})();
